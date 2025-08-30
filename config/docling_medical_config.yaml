@@ -1,0 +1,27 @@
+pipeline:
+  - extractor.pdf_text
+  - extractor.pdf_layout
+  - enrich.sections
+  - enrich.paragraphs
+  - enrich.headers
+  - enrich.footnotes
+  - enrich.tables:
+      mode: hybrid
+      output_format: json
+      include_footnotes: true
+      keep_spans: true
+  - enrich.figures:
+      include_bboxes: true
+      include_page_index: true
+  - enrich.figure_captions
+  - enrich.citations
+  - enrich.references
+  # - enrich.formulas  # enable only if necessary
+
+options:
+  normalize_unicode: true
+  merge_columns: true
+  language: en
+  deduplicate: true
+  parallelism: 8
+  emit_spans: true

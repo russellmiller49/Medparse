@@ -1,0 +1,12 @@
+{
+  "PTX": "Pneumothorax",
+  "NSCLC": "Non-small cell lung cancer",
+  "ARDS": "Acute respiratory distress syndrome",
+  "EBUS": "Endobronchial ultrasound",
+  "HF": "Heart failure",
+  "COPD": "Chronic obstructive pulmonary disease",
+  "IL-6": "Interleukin-6",
+  "HR": "Hazard ratio",
+  "OR": "Odds ratio",
+  "RR": "Relative risk"
+}

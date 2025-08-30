@@ -1,0 +1,13 @@
+.venv/
+__pycache__/
+*.pyc
+.DS_Store
+.cache/
+cache/
+tmp/
+out/
+!out/json/
+!out/qa/
+!out/references/
+!out/figures/
+.env
