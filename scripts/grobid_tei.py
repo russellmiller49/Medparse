@@ -1,6 +1,6 @@
 # scripts/grobid_tei.py
 import re
-from typing import Dict, List, Optional
+from typing import Dict, List, Optional, Any
 from lxml import etree
 
 NS = {"tei": "http://www.tei-c.org/ns/1.0"}

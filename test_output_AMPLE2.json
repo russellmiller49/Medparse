@@ -1,0 +1,49 @@
+{
+  "metadata": {
+    "title": "Test Document"
+  },
+  "structure_summary": {
+    "sections": 19,
+    "tables": 3,
+    "figures": 6
+  },
+  "extraction_summary": {
+    "statistics": 190,
+    "cross_refs": 17,
+    "text_length": 51079,
+    "ligature_ratio": 0.0
+  },
+  "validation": {
+    "checks": {
+      "has_title": true,
+      "has_authors": false,
+      "authors_are_valid": false,
+      "has_sections": true,
+      "sections_have_content": true,
+      "has_tables": true,
+      "tables_have_captions": false,
+      "tables_have_data": true,
+      "has_figures": true,
+      "figures_have_captions": false,
+      "figures_have_images": false,
+      "has_entities": false,
+      "has_statistics": true,
+      "has_references": false,
+      "references_enriched": false,
+      "has_references_csv": false,
+      "has_cross_refs": true
+    },
+    "completeness_score": 49,
+    "is_valid": false,
+    "issues": [
+      "Missing authors"
+    ],
+    "warnings": [
+      "No medical entities found",
+      "No references found - check GROBID processing",
+      "Some figures missing captions",
+      "Some tables missing captions"
+    ],
+    "quality_level": "poor"
+  }
+}
