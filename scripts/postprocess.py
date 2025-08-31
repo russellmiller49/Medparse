@@ -163,6 +163,24 @@ def merge_outputs(docling_json: Dict, grobid_meta: Dict, grobid_refs: Dict, umls
     # Extract figures from document.pictures
     figures = doc.get("pictures", [])
     
+    # Try to associate captions with figures from assembled body
+    if "assembled" in docling_json:
+        body = docling_json["assembled"].get("body", [])
+        figure_idx = 0
+        for i in range(len(body) - 1):
+            elem = body[i]
+            next_elem = body[i + 1]
+            
+            # If we find a picture followed by a caption, associate them
+            if (elem.get("label") == "picture" and 
+                next_elem.get("label") == "caption" and 
+                figure_idx < len(figures)):
+                
+                caption_text = next_elem.get("text", "")
+                if caption_text and not figures[figure_idx].get("captions"):
+                    figures[figure_idx]["caption_text"] = caption_text
+                figure_idx += 1
+    
     out = {
         "metadata": grobid_meta,
         "structure": {

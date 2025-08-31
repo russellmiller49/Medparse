@@ -42,8 +42,20 @@ def process_pdf(pdf_path: Path, out_json: Path, cfg_path: Path, linker: str):
     device = "cuda" if torch.cuda.is_available() else "cpu"
     logger.info(f"Using device: {device}")
     
-    # For docling 2.48.0, pass device during initialization
-    converter = DocumentConverter()
+    # For docling 2.48.0, configure to generate images
+    from docling.document_converter import PdfFormatOption
+    from docling.datamodel.pipeline_options import PdfPipelineOptions
+    
+    pdf_options = PdfFormatOption(
+        pipeline_options=PdfPipelineOptions(
+            generate_picture_images=True,
+            generate_table_images=True
+        )
+    )
+    
+    converter = DocumentConverter(
+        format_options={'pdf': pdf_options}
+    )
     dl_doc = converter.convert(str(pdf_path)).model_dump()
     
     logger.info("Cropping figure images with EXIF captions")
