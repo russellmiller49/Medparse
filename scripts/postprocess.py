@@ -62,8 +62,12 @@ def _collect_candidate_terms(doc: Dict[str,Any], abbrev_map: Dict[str,str]) -> L
             s = p.get("text") or ""
             if s: body.append(s)
     body_text = " ".join(body)
-    for m in re.finditer(r"\b([A-Z][a-zA-Z-]{2,}(?:\s+[A-Z][a-zA-Z-]{2,}){0,3})\b", body_text):
-        candidates.append(m.group(1))
+    # Very restrictive pattern: focus on medical terms and multi-word phrases
+    for m in re.finditer(r"\b([A-Z][a-zA-Z-]{4,}(?:\s+[A-Z][a-zA-Z-]{3,}){1,3})\b", body_text):
+        term = m.group(1)
+        # Only include multi-word terms that are likely to be medical concepts
+        if len(term.split()) >= 2 and len(term) >= 8:
+            candidates.append(term)
     candidates.extend(abbrev_map.keys())
     
     cleaned = []
