@@ -27,7 +27,9 @@ from scripts.fig_ocr import ocr_if_textual
 from scripts.qa_logger import write_qa
 from scripts.cache_manager import CacheManager
 from scripts.validator import validate_extraction
-from scripts.stats_extractor import extract_statistics
+# Remove old stats_extractor import and use new one
+from medparse.extract.statistics import extract_statistics
+from medparse.layout.captions import attach_captions
 from scripts.section_classifier import classify_section
 from scripts.drug_extractor import extract_drugs_dosages
 from scripts.env_loader import load_env
@@ -73,7 +75,9 @@ def process_pdf(pdf_path: Path, out_json: Path, cfg_path: Path, linker: str, dum
     
     # Parse authors from TEI only (not from Docling page text)
     meta_authors = parse_authors_from_tei(meta_tei["tei_xml"])
-    meta["authors"] = meta_authors
+    # Clean metadata.authors - remove blanks and non-alpha entries
+    cleaned_authors = [a for a in meta_authors if isinstance(a, str) and a.strip() and any(ch.isalpha() for ch in a)]
+    meta["authors"] = cleaned_authors
     
     # Parse references into structured format
     refs = parse_references_tei(refs_tei["references_tei"])
@@ -132,10 +136,36 @@ def process_pdf(pdf_path: Path, out_json: Path, cfg_path: Path, linker: str, dum
         merged["references_enriched"] = references_enriched
     
     # Extractions on normalized text
-    logger.info("Extracting statistics, drugs/doses, and trial IDs")
+    logger.info("Extracting statistics (with context gating), drugs/doses, and trial IDs")
+    # Use new context-gated statistics extractor
     merged["statistics"] = extract_statistics(full_text_normalized)
     merged["drugs"] = extract_drugs_dosages(full_text_normalized)
     merged["trial_ids"] = extract_trial_ids(full_text_normalized)
+    
+    # Caption association for tables and figures
+    logger.info("Associating captions with tables and figures")
+    # Build pages structure from Docling if available
+    pages = []
+    if "pages" in dl_raw:
+        for p in dl_raw["pages"]:
+            lines = []
+            if "blocks" in p:
+                for block in p["blocks"]:
+                    if "text" in block:
+                        lines.extend(block["text"].split("\n"))
+            pages.append({"page_number": p.get("page_number", 0), "lines": lines})
+    
+    # Prepare assets structure
+    assets = merged.setdefault("assets", {})
+    assets.setdefault("tables", merged.get("structure", {}).get("tables", []))
+    assets.setdefault("figures", merged.get("structure", {}).get("figures", []))
+    
+    # Try to attach captions
+    try:
+        if pages:
+            attach_captions(pages, assets)
+    except Exception as e:
+        logger.warning(f"Caption association failed: {e}")
     
     # Section classification
     for sec in merged.get("structure", {}).get("sections", []):
