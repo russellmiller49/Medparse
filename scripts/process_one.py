@@ -31,8 +31,9 @@ from scripts.stats_extractor import extract_statistics
 from scripts.section_classifier import classify_section
 from scripts.drug_extractor import extract_drugs_dosages
 from scripts.env_loader import load_env
+from scripts.safe_json import safe_write_json
 
-def process_pdf(pdf_path: Path, out_json: Path, cfg_path: Path, linker: str):
+def process_pdf(pdf_path: Path, out_json: Path, cfg_path: Path, linker: str, dump_docling_debug: bool = False):
     env = load_env()
     grobid_url = env["GROBID_URL"]
     umls_key = env["UMLS_API_KEY"]
@@ -46,10 +47,24 @@ def process_pdf(pdf_path: Path, out_json: Path, cfg_path: Path, linker: str):
     # Docling: use DocumentConverter API
     logger.info(f"Docling parsing (DocumentConverter): {pdf_path.name}")
     converter = DocumentConverter()
-    dl_doc = converter.convert(str(pdf_path)).model_dump()
+    dl_raw = converter.convert(str(pdf_path)).model_dump()
+    
+    # Optional: small, safe Docling debug dump (strip base64 so it doesn't explode)
+    if dump_docling_debug:
+        debug_path = out_json.parent / f"{out_json.stem}.docling_debug.json"
+        try:
+            debug_copy = dl_raw.copy()
+            for pic in debug_copy.get("pictures", []):
+                # remove heavy payloads if present
+                pic.pop("image", None)
+            with debug_path.open("w", encoding="utf-8") as f:
+                json.dump(debug_copy, f, ensure_ascii=False, indent=2)
+            logger.info(f"Wrote Docling debug JSON (no base64) → {debug_path}")
+        except Exception as e:
+            logger.warning(f"Docling debug dump failed: {e}")
     
     logger.info("Cropping figure images with EXIF captions")
-    fig_stats = crop_figures(pdf_path, dl_doc, Path("out/figures"))
+    fig_stats = crop_figures(pdf_path, dl_raw, Path("out/figures"))
     
     logger.info("GROBID metadata & references")
     meta_tei = grobid.process_fulltext(str(pdf_path))
@@ -73,8 +88,8 @@ def process_pdf(pdf_path: Path, out_json: Path, cfg_path: Path, linker: str):
     from json import loads
     abbrev = json.loads(Path("config/abbreviations_med.json").read_text(encoding="utf-8"))
     umls = UMLSClient(api_key=umls_key, cache=cache) if umls_key else None
-    merged = merge_outputs(dl_doc, meta, refs_tei, umls, abbrev) if umls else {
-        "metadata": meta, "structure": dl_doc.get("structure", dl_doc), "grobid": {"references_tei": refs_tei["references_tei"]}
+    merged = merge_outputs(dl_raw, meta, refs_tei, umls, abbrev) if umls else {
+        "metadata": meta, "structure": dl_raw.get("structure", dl_raw), "grobid": {"references_tei": refs_tei["references_tei"]}
     }
     
     # Clean up author sections that may have leaked in
@@ -134,9 +149,12 @@ def process_pdf(pdf_path: Path, out_json: Path, cfg_path: Path, linker: str):
     if not validation["is_valid"]:
         logger.warning(f"Validation issues: {validation['issues']}")
     
-    out_json.parent.mkdir(parents=True, exist_ok=True)
-    with open(out_json, "w", encoding="utf-8") as f:
-        json.dump(merged, f, ensure_ascii=False, indent=2)
+    # --- guard: never write raw Docling documents as the final JSON ---
+    if isinstance(merged, dict) and merged.get("schema_name") == "DoclingDocument":
+        raise RuntimeError("Attempted to write Docling raw document; expected merged pipeline JSON.")
+    
+    # --- write final output (guarded) ---
+    safe_write_json(merged, out_json)
     
     qa = {
         "pdf": pdf_path.name,
@@ -163,9 +181,11 @@ if __name__ == "__main__":
     ap.add_argument("--out", required=False, help="Single JSON path")
     ap.add_argument("--linker", choices=["umls","scispacy","quickumls"], default="umls")
     ap.add_argument("--cfg", default="config/docling_medical_config.yaml")
+    ap.add_argument("--dump-docling-debug", action="store_true",
+                   help="Write a Docling JSON snapshot with base64 stripped (for debugging only)")
     args = ap.parse_args()
     
     if args.pdf and args.out:
-        process_pdf(Path(args.pdf), Path(args.out), Path(args.cfg), linker=args.linker)
+        process_pdf(Path(args.pdf), Path(args.out), Path(args.cfg), linker=args.linker, dump_docling_debug=args.dump_docling_debug)
     else:
         print("Use run_batch.py for folder processing.")
