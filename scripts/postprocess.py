@@ -170,6 +170,10 @@ def merge_outputs(docling_json: Dict, grobid_meta: Dict, grobid_refs: Dict, umls
             "tables": tables,
             "figures": figures,
             "citations": doc.get("citations", []),
+            "n_sections": len(sections),
+            "n_tables": len(tables),
+            "n_figures": len(figures),
+            "n_citations": len(doc.get("citations", [])),
         },
         "provenance": docling_json.get("provenance", {}),
         "grobid": {"references_tei": grobid_refs.get("references_tei")}
