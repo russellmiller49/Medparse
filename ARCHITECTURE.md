@@ -2,7 +2,7 @@
 
 ## Overview
 
-This document describes the modular architecture implemented for robust medical document processing with Docling 2.48+ compatibility.
+This document describes the modular architecture implemented for robust medical document processing with Docling 2.48+ compatibility. The system provides two operational modes: standard extraction (main branch) and NLP-hardened extraction (feat/nlp-hardening-docling248 branch).
 
 ## Core Principles
 
@@ -19,11 +19,22 @@ This document describes the modular architecture implemented for robust medical 
 - Normalizes Docling output regardless of version changes
 - Returns uniform structure: texts, figures, tables, sections
 - Isolates Docling API changes to single module
+- Handles .model_dump() for Docling 2.48+
 
 #### `scripts/grobid_tei.py`
 - Clean author extraction from TEI header only
 - Handles name normalization (fixes run-on names)
 - Extracts comprehensive metadata
+
+#### `scripts/grobid_authors.py` (NEW)
+- TEI-only author extraction
+- Prevents reference/affiliation contamination
+- Structured author objects with family/given/display/AMA formats
+
+#### `scripts/grobid_references.py` (NEW)
+- Parses TEI biblStruct to structured dicts
+- Maintains both raw and structured references
+- Enables synchronization between CSV and JSON
 
 ### Text Processing
 
@@ -56,17 +67,28 @@ This document describes the modular architecture implemented for robust medical 
 - Preserves character positions
 - Never inserts inline expansions
 
-#### `scripts/figures.py`
+#### `scripts/figures.py` & `scripts/figure_cropper.py`
+- BOTTOMLEFT coordinate handling for Docling 2.48
+- Watermark detection and filtering
+- Caption extraction and figure labeling
+- EXIF metadata embedding
+
+#### `scripts/fig_ocr.py` (NLP Branch)
 - OCR textuality scoring
-- EXIF caption embedding
-- Watermark filtering
-- Caption-first indexing strategy
+- Conditional OCR for text-heavy figures
+- Integrates with figure pipeline
 
 #### `scripts/ref_extract.py` & `scripts/ref_enrich.py`
 - Reference extraction from GROBID TEI
 - PubMed enrichment with fallbacks
 - DOI → PMID resolution
 - Title-based search fallback
+
+#### `scripts/ref_enricher.py` (NEW)
+- Robust PubMed metadata enrichment
+- Uses structured references as input
+- Handles DOI conversion and title search
+- Includes MeSH terms and abstracts
 
 #### `scripts/crossrefs.py`
 - Detects figure/table/citation references
@@ -83,6 +105,30 @@ This document describes the modular architecture implemented for robust medical 
 
 ## Pipeline Flow
 
+### Main Branch Flow
+```
+1. PDF Input
+   ↓
+2. Docling (DocumentConverter) → Raw structure
+   ↓
+3. GROBID → TEI metadata & references
+   ↓
+4. Parse TEI → Structured authors & references
+   ↓
+5. Figure Extraction (with watermark filtering)
+   ↓
+6. Entity Linking (UMLS/QuickUMLS/scispaCy)
+   ↓
+7. Reference Enrichment (PubMed)
+   ↓
+8. Statistics & Cross-references
+   ↓
+9. Validation
+   ↓
+10. JSON + CSV Output
+```
+
+### NLP-Hardened Branch Flow
 ```
 1. PDF Input
    ↓
@@ -93,8 +139,8 @@ This document describes the modular architecture implemented for robust medical 
 4. Text Normalization → NLP-ready copy (original preserved)
    ↓
 5. Parallel Extraction:
+   - Filtered Entity Linking (clinical TUIs only)
    - Statistics (span-based)
-   - Entities (UMLS/QuickUMLS/scispaCy)
    - Cross-references
    - Drugs & trial IDs
    ↓
@@ -102,7 +148,7 @@ This document describes the modular architecture implemented for robust medical 
    ↓
 7. Figure Processing (OCR, EXIF)
    ↓
-8. Validation & Quality Assessment
+8. Enhanced Validation
    ↓
 9. JSON Output
 ```
@@ -110,9 +156,12 @@ This document describes the modular architecture implemented for robust medical 
 ## Key Files
 
 ### Entry Points
-- `bin/run_linkers.py`: Compare entity linkers
-- `scripts/process_one_integrated.py`: Main integrated pipeline
-- `test_pipeline.py`: Test harness
+- `scripts/process_one.py`: Main processing script (both branches)
+- `scripts/process_one_integrated.py`: Integrated pipeline (NLP branch)
+- `bin/run_linkers.py`: Comparative entity linker evaluation
+- `scripts/run_batch.py`: Batch processing
+- `test_pipeline.py`: Component testing
+- `test_full_pipeline.py`: End-to-end testing with GROBID
 
 ### Configuration
 - `.env`: API keys and service URLs
@@ -133,13 +182,21 @@ python test_pipeline.py
 
 ## Validation Metrics
 
-The pipeline validates:
+### Standard Validation (Main Branch)
 - Metadata completeness (title, authors)
 - Structure extraction (sections, tables, figures)
-- Entity linking coverage
-- Reference parsing and enrichment
-- Text quality (ligature ratio < 0.1%)
-- Cross-reference resolution
+- Entity presence (any linker)
+- Reference extraction
+- Cross-reference detection
+
+### Enhanced Validation (NLP Branch)
+- All standard checks plus:
+- Structured reference validation
+- Enrichment coverage (≥50% refs with PMIDs)
+- Author contamination detection
+- UMLS link quality (TUI filtering)
+- Figure OCR text extraction
+- Text normalization metrics
 
 ## Error Handling
 
@@ -150,13 +207,16 @@ The pipeline validates:
 
 ## Performance Characteristics
 
-- Docling: ~10-30s per PDF
+- Docling: ~10-30s per PDF (faster with GPU)
 - GROBID: ~5-10s per PDF
 - Entity linking: 
-  - UMLS API: ~1-2s per entity
-  - QuickUMLS: ~0.1s per entity
+  - UMLS API: ~1-2s per entity (with caching)
+  - QuickUMLS: ~0.1s per entity (local)
   - scispaCy: ~0.5s per entity
 - PubMed enrichment: ~0.5s per reference
+- Figure extraction: ~0.1s per figure
+- OCR (if enabled): ~1-2s per textual figure
+- Full pipeline: ~60-90s per 10-page PDF
 
 ## Future Enhancements
 
