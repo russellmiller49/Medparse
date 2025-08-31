@@ -1,0 +1,235 @@
+{
+  "metadata": {
+    "title": "Aggressive versus symptom-guided drainage of malignant pleural effusion via indwelling pleural catheters (AMPLE-2): an open-label randomised trial",
+    "authors": [
+      {
+        "family": "Muruganandan",
+        "given": "Sanjeevan",
+        "display": "Sanjeevan Muruganandan",
+        "ama": "Muruganandan S",
+        "affiliations": []
+      },
+      {
+        "family": "Azzopardi",
+        "given": "Maree",
+        "display": "Maree Azzopardi",
+        "ama": "Azzopardi M",
+        "affiliations": []
+      },
+      {
+        "family": "Fitzgerald",
+        "given": "Deirdre B",
+        "display": "Deirdre B Fitzgerald",
+        "ama": "Fitzgerald DB",
+        "affiliations": []
+      },
+      {
+        "family": "Shrestha",
+        "given": "Ranjan",
+        "display": "Ranjan Shrestha",
+        "ama": "Shrestha R",
+        "affiliations": []
+      },
+      {
+        "family": "Kwan",
+        "given": "Benjamin C H",
+        "display": "Benjamin C H Kwan",
+        "ama": "Kwan BC",
+        "affiliations": [
+          "Department of Respiratory Medicine Fiona Stanley Hospital Perth WA Australia",
+          "L Tobin); Wesley Hospital Brisbane QLD Australia (L"
+        ]
+      },
+      {
+        "family": "Lam",
+        "given": "David C L",
+        "display": "David C L Lam",
+        "ama": "Lam DC",
+        "affiliations": [
+          "Department of Respiratory Medicine Fiona Stanley Hospital Perth WA Australia",
+          "L Tobin); Wesley Hospital Brisbane QLD Australia (L",
+          "Department of Respiratory Medicine Fiona Stanley Hospital Perth WA Australia",
+          "L Tobin); Wesley Hospital Brisbane QLD Australia (L"
+        ]
+      },
+      {
+        "family": "De Chaneet",
+        "given": "Christian C",
+        "display": "Christian C De Chaneet",
+        "ama": "De Chaneet CC",
+        "affiliations": [
+          "Department of Respiratory Medicine Fiona Stanley Hospital Perth WA Australia",
+          "L Tobin); Wesley Hospital Brisbane QLD Australia (L"
+        ]
+      },
+      {
+        "family": "Rashid Ali",
+        "given": "Muhammad Redzwan S",
+        "display": "Muhammad Redzwan S Rashid Ali",
+        "ama": "Rashid Ali MR",
+        "affiliations": []
+      },
+      {
+        "family": "Yap",
+        "given": "Elaine",
+        "display": "Elaine Yap",
+        "ama": "Yap E",
+        "affiliations": []
+      },
+      {
+        "family": "Tobin",
+        "given": "Claire L",
+        "display": "Claire L Tobin",
+        "ama": "Tobin CL",
+        "affiliations": [
+          "Garske MBBS) Department of Thoracic Medicine Royal Adelaide Hospital Adelaide SA P Australia"
+        ]
+      },
+      {
+        "family": "Garske",
+        "given": "Luke A",
+        "display": "Luke A Garske",
+        "ama": "Garske LA",
+        "affiliations": []
+      },
+      {
+        "family": "Nguyen",
+        "given": "Phan T",
+        "display": "Phan T Nguyen",
+        "ama": "Nguyen PT",
+        "affiliations": []
+      },
+      {
+        "family": "Stanley",
+        "given": "Christopher",
+        "display": "Christopher Stanley",
+        "ama": "Stanley C",
+        "affiliations": []
+      },
+      {
+        "family": "Popowicz",
+        "given": "Natalia D",
+        "display": "Natalia D Popowicz",
+        "ama": "Popowicz ND",
+        "affiliations": []
+      },
+      {
+        "family": "Kosky",
+        "given": "Christopher",
+        "display": "Christopher Kosky",
+        "ama": "Kosky C",
+        "affiliations": []
+      },
+      {
+        "family": "Thomas",
+        "given": "Rajesh",
+        "display": "Rajesh Thomas",
+        "ama": "Thomas R",
+        "affiliations": [
+          "Department of Respiratory Medicine Fiona Stanley Hospital Perth WA Australia",
+          "L Tobin); Wesley Hospital Brisbane QLD Australia (L",
+          "Garske MBBS) Department of Thoracic Medicine Royal Adelaide Hospital Adelaide SA P Australia",
+          "Department of Respiratory Medicine Fiona Stanley Hospital Perth WA Australia",
+          "L Tobin); Wesley Hospital Brisbane QLD Australia (L",
+          "Garske MBBS) Department of Thoracic Medicine Royal Adelaide Hospital Adelaide SA P Australia"
+        ]
+      },
+      {
+        "family": "Read",
+        "given": "Catherine A",
+        "display": "Catherine A Read",
+        "ama": "Read CA",
+        "affiliations": [
+          "Garske MBBS) Department of Thoracic Medicine Royal Adelaide Hospital Adelaide SA P Australia"
+        ]
+      },
+      {
+        "family": "Budgeon",
+        "given": "Charley A",
+        "display": "Charley A Budgeon",
+        "ama": "Budgeon CA",
+        "affiliations": [
+          "Garske MBBS) Department of Thoracic Medicine Royal Adelaide Hospital Adelaide SA P Australia"
+        ]
+      },
+      {
+        "family": "Feller-Kopman",
+        "given": "David",
+        "display": "David Feller-Kopman",
+        "ama": "Feller-Kopman D",
+        "affiliations": [
+          "Garske MBBS) Department of Thoracic Medicine Royal Adelaide Hospital Adelaide SA P Australia"
+        ]
+      },
+      {
+        "family": "Maskell",
+        "given": "Nick A",
+        "display": "Nick A Maskell",
+        "ama": "Maskell NA",
+        "affiliations": []
+      },
+      {
+        "family": "Murray",
+        "given": "Kevin",
+        "display": "Kevin Murray",
+        "ama": "Murray K",
+        "affiliations": [
+          "Department of Respiratory Medicine Fiona Stanley Hospital Perth WA Australia",
+          "L Tobin); Wesley Hospital Brisbane QLD Australia (L"
+        ]
+      },
+      {
+        "family": "Lee",
+        "given": "Y C Gary",
+        "display": "Y C Gary Lee",
+        "ama": "Lee YC",
+        "affiliations": []
+      }
+    ],
+    "year": "2018",
+    "journal": "The Lancet Respiratory Medicine",
+    "volume": "6",
+    "issue": "9",
+    "pages": "671-680",
+    "doi": "10.1016/s2213-2600(18)30288-1",
+    "abstract": "Background Indwelling pleural catheters are an established management option for malignant pleural effusion and have advantages over talc slurry pleurodesis. The optimal regimen of drainage after indwelling pleural catheter insertion is debated and ranges from aggressive (daily) drainage to drainage only when symptomatic. MethodsAMPLE-2 was an open-label randomised trial involving 11 centres in Australia, New Zealand, Hong Kong, and Malaysia. Patients with symptomatic malignant pleural effusions were randomly assigned (1:1) to the aggressive (daily) or symptom-guided drainage groups for 60 days and minimised by cancer type (mesothelioma vs others), performance status (Eastern Cooperative Oncology Group [ECOG] score 0-1 vs ≥2), presence of trapped lung, and prior pleurodesis. Patients were followed up for 6 months. The primary outcome was mean daily breathlessness score, measured by use of a 100 mm visual analogue scale during the first 60 days. Secondary outcomes included rates of spontaneous pleurodesis and self-reported quality-of-life measures. Results were analysed by an intention-totreat approach. This trial is registered with the Australian New Zealand Clinical Trials Registry, number ACTRN12615000963527. Findings Between July 20, 2015, and Jan 26, 2017, 87 patients were recruited and randomly assigned to the aggressive (n=43) or symptom-guided (n=44) drainage groups. The mean daily breathlessness scores did not differ significantly between the aggressive and symptom-guided drainage groups (geometric means 13•1 mm [95% CI 9•8-17•4] vs 17•3 mm [13•0-22•0]; ratio of geometric means 1•32 [95% CI 0•88-1•97]; p=0•18). More patients in the aggressive group developed spontaneous pleurodesis than in the symptom-guided group in the first 60 days (16 [37•2%] of 43 vs five [11•4%] of 44, p=0•0049) and at 6 months (19 [44•2%] vs seven [15•9%], p=0•004; hazard ratio 3•287 [95% CI 1•396-7•740]; p=0•0065). Patient-reported quality-of-life measures, assessed with EuroQoL-5 Dimensions-5 Levels (EQ-5D-5L), were better in the aggressive group than in the symptom-guided group (estimated means 0•713 [95% CI 0•647-0•779] vs 0•601 [0•536-0•667]). The estimated difference in means was 0•112 (95% CI 0•0198-0•204; p=0•0174). Pain scores, total days spent in hospital, and mortality did not differ significantly between groups. Serious adverse events occurred in 11 (25•6%) of 43 patients in the aggressive drainage group and in 12 (27•3%) of 44 patients in the symptom-guided drainage group, including 11 episodes of pleural infection in nine patients (five in the aggressive group and six in the symptom-guided drainage group).Interpretation We found no differences between the aggressive (daily) and the symptom-guided drainage regimens for indwelling pleural catheters in providing breathlessness control. These data indicate that daily indwelling pleural catheter drainage is more effective in promoting spontaneous pleurodesis and might improve quality of life."
+  },
+  "structure_summary": {
+    "sections": 19,
+    "tables": 3,
+    "figures": 6
+  },
+  "references_count": 28,
+  "statistics_count": 190,
+  "cross_refs_count": 17,
+  "validation": {
+    "checks": {
+      "has_title": true,
+      "has_authors": true,
+      "authors_are_valid": true,
+      "has_sections": true,
+      "sections_have_content": true,
+      "has_tables": true,
+      "tables_have_captions": false,
+      "tables_have_data": true,
+      "has_figures": true,
+      "figures_have_captions": false,
+      "figures_have_images": false,
+      "has_entities": false,
+      "has_statistics": true,
+      "has_references": true,
+      "references_enriched": false,
+      "has_references_csv": false,
+      "has_cross_refs": true
+    },
+    "completeness_score": 70,
+    "is_valid": true,
+    "issues": [],
+    "warnings": [
+      "No medical entities found",
+      "Some figures missing captions",
+      "Some tables missing captions"
+    ],
+    "quality_level": "acceptable"
+  }
+}

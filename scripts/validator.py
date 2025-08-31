@@ -20,6 +20,10 @@ def validate_extraction(doc: Dict[str, Any]) -> Dict[str, Any]:
     tables = struct.get("tables", [])
     sections = struct.get("sections", [])
     
+    # Count structured references and enriched references
+    refs_struct = len(meta.get("references_struct", []))
+    refs_enriched = len(doc.get("references_enriched", []))
+    
     # Comprehensive validation checks
     checks = {
         # Metadata checks
@@ -42,16 +46,22 @@ def validate_extraction(doc: Dict[str, Any]) -> Dict[str, Any]:
         "figures_have_images": all(f.get("image_path") for f in figures) if figures else True,
         
         # Entity and statistics checks
-        "has_entities": bool(doc.get("entities")),
+        "has_entities": bool(doc.get("entities") or doc.get("umls_links") or doc.get("umls_links_local")),
         "has_statistics": bool(doc.get("statistics")),
         
         # Reference checks
-        "has_references": bool(doc.get("references")),
-        "references_enriched": bool(doc.get("references_enriched")),
+        "has_references": bool(doc.get("references") or refs_struct > 0),
+        "refs_structured": refs_struct > 0,
+        "refs_enriched_some": refs_enriched > 0,
+        "references_enriched": refs_enriched >= refs_struct * 0.5 if refs_struct > 0 else True,
         "has_references_csv": bool(doc.get("references_csv_path")),
         
         # Cross-reference checks
-        "has_cross_refs": bool(doc.get("cross_refs"))
+        "has_cross_refs": bool(doc.get("cross_refs")),
+        
+        # NLP-specific checks
+        "umls_links": bool(doc.get("umls_links") or doc.get("umls_links_local")),
+        "figures_textual_count": sum(1 for f in figures if f.get("ocr_text")) if figures else 0
     }
     
     # Calculate completeness score
@@ -128,6 +138,11 @@ def _validate_authors(authors: List) -> bool:
         if not isinstance(author, dict):
             return False
         if not author.get("family") and not author.get("display"):
+            return False
+        
+        # Check for affiliation bleed-through
+        disp = (author.get("display") or "").lower()
+        if any(tok in disp for tok in ["department","university","hospital","correspondence","orcid","email"]):
             return False
     
     return True

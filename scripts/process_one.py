@@ -21,6 +21,9 @@ from scripts.ref_enricher import enrich_refs_from_struct
 from scripts.grobid_authors import parse_authors_from_tei
 from scripts.section_filters import drop_author_sections
 from scripts.local_linkers import link_with_quickumls, link_with_scispacy
+from scripts.text_normalize import normalize_for_nlp
+from scripts.linker_router import link_umls_primary, link_quickumls, link_scispacy as link_scispacy_filtered
+from scripts.fig_ocr import ocr_if_textual
 from scripts.qa_logger import write_qa
 from scripts.cache_manager import CacheManager
 from scripts.validator import validate_extraction
@@ -79,22 +82,26 @@ def process_pdf(pdf_path: Path, out_json: Path, cfg_path: Path, linker: str):
     
     # Build full text once
     full_text = concat_text(merged)
+    # Normalize text for NLP (ligatures, hyphens, inline expansions)
+    full_text_normalized = normalize_for_nlp(full_text)
     
-    # Linker switch
+    # Linker switch with semantic filtering
     fallback_used = "none"
     if linker == "umls":
-        # merged already contains umls_links from merge_outputs (if umls provided)
-        if not merged.get("umls_links") and umls_key:
-            logger.warning("UMLS key present but no links found by base pass.")
+        # Use UMLS with semantic filtering
+        if umls:
+            umls_hits = link_umls_primary(full_text_normalized, umls)
+            merged["umls_links"] = umls_hits
+            logger.info(f"UMLS linked {len(umls_hits)} entities with semantic filtering")
         linker_tag = "umls"
     elif linker == "scispacy":
-        linked = link_with_scispacy(full_text, model="en_core_sci_md")
+        linked = link_scispacy_filtered(full_text_normalized, model="en_core_sci_md")
         if linked:
             merged.setdefault("umls_links_local", []).extend(linked)
         fallback_used = "scispaCy"
         linker_tag = "scispacy"
     elif linker == "quickumls":
-        linked = link_with_quickumls(full_text, quickumls_path=quick_path)
+        linked = link_quickumls(full_text_normalized, quick_path)
         if linked:
             merged.setdefault("umls_links_local", []).extend(linked)
         fallback_used = "QuickUMLS"
@@ -109,11 +116,11 @@ def process_pdf(pdf_path: Path, out_json: Path, cfg_path: Path, linker: str):
         references_enriched = enrich_refs_from_struct(refs["references_struct"])
         merged["references_enriched"] = references_enriched
     
-    # Extractions
+    # Extractions on normalized text
     logger.info("Extracting statistics, drugs/doses, and trial IDs")
-    merged["statistics"] = extract_statistics(full_text)
-    merged["drugs"] = extract_drugs_dosages(full_text)
-    merged["trial_ids"] = extract_trial_ids(full_text)
+    merged["statistics"] = extract_statistics(full_text_normalized)
+    merged["drugs"] = extract_drugs_dosages(full_text_normalized)
+    merged["trial_ids"] = extract_trial_ids(full_text_normalized)
     
     # Section classification
     for sec in merged.get("structure", {}).get("sections", []):
