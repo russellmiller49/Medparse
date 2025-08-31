@@ -16,6 +16,10 @@ from scripts.figure_cropper import crop_figures
 from scripts.references_csv import write_references_csv
 from scripts.ref_items_from_tei import extract_ref_items
 from scripts.references_enricher import enrich_items_with_ncbi
+from scripts.grobid_references import parse_references_tei
+from scripts.ref_enricher import enrich_refs_from_struct
+from scripts.grobid_authors import parse_authors_from_tei
+from scripts.section_filters import drop_author_sections
 from scripts.local_linkers import link_with_quickumls, link_with_scispacy
 from scripts.qa_logger import write_qa
 from scripts.cache_manager import CacheManager
@@ -49,9 +53,18 @@ def process_pdf(pdf_path: Path, out_json: Path, cfg_path: Path, linker: str):
     refs_tei = grobid.process_biblio(str(pdf_path))
     meta = parse_grobid_metadata(meta_tei["tei_xml"])
     
+    # Parse authors from TEI only (not from Docling page text)
+    meta_authors = parse_authors_from_tei(meta_tei["tei_xml"])
+    meta["authors"] = meta_authors
+    
+    # Parse references into structured format
+    refs = parse_references_tei(refs_tei["references_tei"])
+    meta["references_raw"] = refs["references_raw"]
+    meta["references_struct"] = refs["references_struct"]
+    
     logger.info("Writing references CSV (AMA)")
     refs_csv = Path("out/references") / f"{pdf_path.stem}.refs.csv"
-    n_refs_csv = write_references_csv(refs_tei["references_tei"], refs_csv)
+    n_refs_csv = write_references_csv(refs["references_struct"], refs_csv)
     
     # Merge & UMLS (online) as base; we'll swap/augment by linker choice below
     from json import loads
@@ -60,6 +73,9 @@ def process_pdf(pdf_path: Path, out_json: Path, cfg_path: Path, linker: str):
     merged = merge_outputs(dl_doc, meta, refs_tei, umls, abbrev) if umls else {
         "metadata": meta, "structure": dl_doc.get("structure", dl_doc), "grobid": {"references_tei": refs_tei["references_tei"]}
     }
+    
+    # Clean up author sections that may have leaked in
+    drop_author_sections(merged.get("structure", {}))
     
     # Build full text once
     full_text = concat_text(merged)
@@ -90,10 +106,7 @@ def process_pdf(pdf_path: Path, out_json: Path, cfg_path: Path, linker: str):
     references_enriched = None
     if ncbi_key:
         logger.info("NCBI enrichment: resolving PubMed metadata for references")
-        from scripts.ncbi_client import NCBIClient
-        ncbi = NCBIClient(api_key=ncbi_key, email=ncbi_email)
-        items = extract_ref_items(refs_tei["references_tei"])
-        references_enriched = enrich_items_with_ncbi(items, ncbi=ncbi, cache=cache)
+        references_enriched = enrich_refs_from_struct(refs["references_struct"])
         merged["references_enriched"] = references_enriched
     
     # Extractions
