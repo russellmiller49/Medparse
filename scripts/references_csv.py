@@ -1,6 +1,6 @@
 from __future__ import annotations
 from pathlib import Path
-from typing import List, Dict, Any
+from typing import List, Dict, Any, Union
 import csv
 from lxml import etree
 NS = {"tei":"http://www.tei-c.org/ns/1.0"}
@@ -30,13 +30,44 @@ def _ama_row(b):
     ama = f"{_format_authors(authors)}. {title}. {jtitle}. {year};{vol_issue}{pages_part}{doi_part}".strip().strip(".") + "."
     return {"ama": ama, "title": title, "journal": jtitle, "year": year, "volume": vol, "issue": iss, "pages": pages, "doi": doi, "authors": "; ".join(authors)}
 
-def write_references_csv(tei_xml: str, out_csv: Path) -> int:
-    root = etree.fromstring(tei_xml.encode("utf-8"))
-    bibls = root.xpath("//tei:listBibl/tei:biblStruct", namespaces=NS)
-    rows = [_ama_row(b) for b in bibls]
+def write_references_csv(refs_input: Union[str, List[Dict]], out_csv: Path) -> int:
+    """Write references to CSV. Accepts either TEI XML string or list of structured refs."""
+    rows = []
+    
+    if isinstance(refs_input, str):
+        # Legacy TEI XML input
+        root = etree.fromstring(refs_input.encode("utf-8"))
+        bibls = root.xpath("//tei:listBibl/tei:biblStruct", namespaces=NS)
+        rows = [_ama_row(b) for b in bibls]
+    else:
+        # New structured refs input
+        for r in refs_input:
+            authors_str = "; ".join(r.get("authors", [])) if isinstance(r.get("authors"), list) else r.get("authors", "")
+            authors_list = r.get("authors", []) if isinstance(r.get("authors"), list) else []
+            
+            # Create AMA citation
+            vol_issue = f"{r.get('volume', '')}({r.get('issue', '')})" if r.get('volume') and r.get('issue') else (r.get('volume', '') or r.get('issue', ''))
+            pages_part = f":{r.get('pages', '')}" if r.get('pages') else ""
+            doi_part = f". doi:{r.get('doi', '')}" if r.get('doi') else ""
+            ama = f"{_format_authors(authors_list)}. {r.get('title', '')}. {r.get('journal', '')}. {r.get('year', '')};{vol_issue}{pages_part}{doi_part}".strip().strip(".") + "."
+            
+            rows.append({
+                "ama": ama,
+                "title": r.get("title"),
+                "journal": r.get("journal"),
+                "year": r.get("year"),
+                "volume": r.get("volume"),
+                "issue": r.get("issue"),
+                "pages": r.get("pages"),
+                "doi": r.get("doi"),
+                "pmid": r.get("pmid"),
+                "authors": authors_str
+            })
+    
     out_csv.parent.mkdir(parents=True, exist_ok=True)
+    fieldnames = ["#","ama","title","journal","year","volume","issue","pages","doi","pmid","authors"]
     with open(out_csv, "w", newline="", encoding="utf-8") as f:
-        w = csv.DictWriter(f, fieldnames=["#","ama","title","journal","year","volume","issue","pages","doi","authors"])
+        w = csv.DictWriter(f, fieldnames=fieldnames)
         w.writeheader()
         for i, r in enumerate(rows, start=1):
             w.writerow({"#": i, **r})
