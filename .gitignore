@@ -11,3 +11,4 @@ out/
 !out/references/
 !out/figures/
 .env
+.claude/
