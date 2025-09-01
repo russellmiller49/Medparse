@@ -2552,3 +2552,126 @@ To https://github.com/russellmiller49/Medparse.git
 2025-09-01 00:48:34.877 | SUCCESS  | __main__:process_single_pdf:71 - ✓ Successfully processed Garner-2020-A prospective safety and feasibili
 2025-09-01 00:48:34.877 | INFO     | __main__:main:198 - Reached 170 successful processes, committing intermediate results...
 2025-09-01 00:48:34.878 | INFO     | __main__:git_commit_and_push:129 - Adding changes to git...
+2025-09-01 00:48:35.074 | INFO     | __main__:git_commit_and_push:145 - Creating git commit...
+[fix/extraction-hardening d6fccbe] feat: Batch processed 170 PDFs (intermediate commit)
+ 86 files changed, 200138 insertions(+)
+ create mode 100644 out/batch_processed/Advanced in Treatment of PPNs.json
+ create mode 100644 out/batch_processed/Advances in pleuroscopy.json
+ create mode 100644 out/batch_processed/Garner-2020-A prospective safety and feasibili.json
+ create mode 100644 out/batch_processed/NdYAG laser bronchoscopy A five year experienc.json
+ create mode 100644 out/batch_processed/Ost-2018-Quality Gaps and Comparative Effectiv.json
+ create mode 100644 out/batch_processed/Physiologic Evaluation of the Patient With Lung Cancer.json
+ create mode 100644 out/batch_processed/RCT of EBUS with and without aspiration.json
+ create mode 100644 out/batch_processed/The efficiency of a clinical pathway forundiagnosed pleural effusions .json
+ create mode 100644 out/batch_processed/Variable Learning Curve of Basic.json
+ create mode 100644 out/batch_processed/rapid_pleurodesis_in_patients_with_chronic.json
+ create mode 100644 out/figures/Advanced in Treatment of PPNs_fig01.jpg
+ create mode 100644 out/figures/Advances in pleuroscopy_fig01.jpg
+ create mode 100644 out/figures/Advances in pleuroscopy_fig02.jpg
+ create mode 100644 out/figures/Advances in pleuroscopy_fig03.jpg
+ create mode 100644 out/figures/Advances in pleuroscopy_fig04.jpg
+ create mode 100644 out/figures/Advances in pleuroscopy_fig05.jpg
+ create mode 100644 out/figures/Advances in pleuroscopy_fig06.jpg
+ create mode 100644 out/figures/Advances in pleuroscopy_fig07.jpg
+ create mode 100644 out/figures/Advances in pleuroscopy_fig08.jpg
+ create mode 100644 out/figures/Advances in pleuroscopy_fig09.jpg
+ create mode 100644 out/figures/Garner-2020-A prospective safety and feasibili_fig01.jpg
+ create mode 100644 out/figures/Garner-2020-A prospective safety and feasibili_fig02.jpg
+ create mode 100644 out/figures/Garner-2020-A prospective safety and feasibili_fig03.jpg
+ create mode 100644 out/figures/Garner-2020-A prospective safety and feasibili_figure1.jpg
+ create mode 100644 out/figures/Garner-2020-A prospective safety and feasibili_figure2.jpg
+ create mode 100644 out/figures/Garner-2020-A prospective safety and feasibili_figure3.jpg
+ create mode 100644 out/figures/Garner-2020-A prospective safety and feasibili_figure4.jpg
+ create mode 100644 out/figures/NdYAG laser bronchoscopy A five year experienc_fig01.jpg
+ create mode 100644 out/figures/NdYAG laser bronchoscopy A five year experienc_fig02.jpg
+ create mode 100644 out/figures/NdYAG laser bronchoscopy A five year experienc_fig04.jpg
+ create mode 100644 out/figures/NdYAG laser bronchoscopy A five year experienc_fig05.jpg
+ create mode 100644 out/figures/NdYAG laser bronchoscopy A five year experienc_figure3.jpg
+ create mode 100644 out/figures/Ost-2018-Quality Gaps and Comparative Effectiv_fig01.jpg
+ create mode 100644 out/figures/Ost-2018-Quality Gaps and Comparative Effectiv_fig02.jpg
+ create mode 100644 out/figures/Ost-2018-Quality Gaps and Comparative Effectiv_fig04.jpg
+ create mode 100644 out/figures/Ost-2018-Quality Gaps and Comparative Effectiv_fig05.jpg
+ create mode 100644 out/figures/Ost-2018-Quality Gaps and Comparative Effectiv_fig10.jpg
+ create mode 100644 out/figures/Ost-2018-Quality Gaps and Comparative Effectiv_figure1.jpg
+ create mode 100644 out/figures/Ost-2018-Quality Gaps and Comparative Effectiv_figure2.jpg
+ create mode 100644 out/figures/Ost-2018-Quality Gaps and Comparative Effectiv_figure3.jpg
+ create mode 100644 out/figures/Ost-2018-Quality Gaps and Comparative Effectiv_figure4.jpg
+ create mode 100644 out/figures/Ost-2018-Quality Gaps and Comparative Effectiv_figure5.jpg
+ create mode 100644 out/figures/Ost-2018-Quality Gaps and Comparative Effectiv_figure6.jpg
+ create mode 100644 out/figures/Ost-2018-Quality Gaps and Comparative Effectiv_figure7.jpg
+ create mode 100644 out/figures/Physiologic Evaluation of the Patient With Lung Cancer_fig01.jpg
+ create mode 100644 out/figures/Physiologic Evaluation of the Patient With Lung Cancer_fig02.jpg
+ create mode 100644 out/figures/Physiologic Evaluation of the Patient With Lung Cancer_fig03.jpg
+ create mode 100644 out/figures/Physiologic Evaluation of the Patient With Lung Cancer_fig04.jpg
+ create mode 100644 out/figures/RCT of EBUS with and without aspiration_fig01.jpg
+ create mode 100644 out/figures/RCT of EBUS with and without aspiration_fig02.jpg
+ create mode 100644 out/figures/The efficiency of a clinical pathway forundiagnosed pleural effusions _fig01.jpg
+ create mode 100644 out/figures/The efficiency of a clinical pathway forundiagnosed pleural effusions _fig02.jpg
+ create mode 100644 out/figures/The efficiency of a clinical pathway forundiagnosed pleural effusions _fig03.jpg
+ create mode 100644 out/figures/The efficiency of a clinical pathway forundiagnosed pleural effusions _fig04.jpg
+ create mode 100644 out/figures/The efficiency of a clinical pathway forundiagnosed pleural effusions _fig05.jpg
+ create mode 100644 out/figures/The efficiency of a clinical pathway forundiagnosed pleural effusions _fig06.jpg
+ create mode 100644 out/figures/The efficiency of a clinical pathway forundiagnosed pleural effusions _fig07.jpg
+ create mode 100644 out/figures/The efficiency of a clinical pathway forundiagnosed pleural effusions _fig08.jpg
+ create mode 100644 out/figures/The efficiency of a clinical pathway forundiagnosed pleural effusions _fig09.jpg
+ create mode 100644 out/figures/The efficiency of a clinical pathway forundiagnosed pleural effusions _fig10.jpg
+ create mode 100644 out/figures/Variable Learning Curve of Basic_fig01.jpg
+ create mode 100644 out/figures/Variable Learning Curve of Basic_fig1.jpg
+ create mode 100644 out/figures/Variable Learning Curve of Basic_fig2.jpg
+ create mode 100644 out/figures/rapid_pleurodesis_in_patients_with_chronic_fig01.jpg
+ create mode 100644 out/qa/Advanced in Treatment of PPNs__umls.qa.json
+ create mode 100644 out/qa/Advances in pleuroscopy__umls.qa.json
+ create mode 100644 out/qa/Garner-2020-A prospective safety and feasibili__umls.qa.json
+ create mode 100644 out/qa/NdYAG laser bronchoscopy A five year experienc__umls.qa.json
+ create mode 100644 out/qa/Ost-2018-Quality Gaps and Comparative Effectiv__umls.qa.json
+ create mode 100644 out/qa/Physiologic Evaluation of the Patient With Lung Cancer__umls.qa.json
+ create mode 100644 out/qa/RCT of EBUS with and without aspiration__umls.qa.json
+ create mode 100644 out/qa/The efficiency of a clinical pathway forundiagnosed pleural effusions __umls.qa.json
+ create mode 100644 out/qa/Variable Learning Curve of Basic__umls.qa.json
+ create mode 100644 out/qa/rapid_pleurodesis_in_patients_with_chronic__umls.qa.json
+ create mode 100644 out/references/Advanced in Treatment of PPNs.refs.csv
+ create mode 100644 out/references/Advances in pleuroscopy.refs.csv
+ create mode 100644 out/references/Garner-2020-A prospective safety and feasibili.refs.csv
+ create mode 100644 out/references/NdYAG laser bronchoscopy A five year experienc.refs.csv
+ create mode 100644 out/references/Ost-2018-Quality Gaps and Comparative Effectiv.refs.csv
+ create mode 100644 out/references/Physiologic Evaluation of the Patient With Lung Cancer.refs.csv
+ create mode 100644 out/references/RCT of EBUS with and without aspiration.refs.csv
+ create mode 100644 out/references/The efficiency of a clinical pathway forundiagnosed pleural effusions .refs.csv
+ create mode 100644 out/references/Variable Learning Curve of Basic.refs.csv
+ create mode 100644 out/references/rapid_pleurodesis_in_patients_with_chronic.refs.csv
+2025-09-01 00:48:35.108 | INFO     | __main__:git_commit_and_push:158 - Pushing to origin/fix/extraction-hardening...
+To https://github.com/russellmiller49/Medparse.git
+   1e4813d..d6fccbe  fix/extraction-hardening -> fix/extraction-hardening
+2025-09-01 00:48:39.228 | SUCCESS  | __main__:git_commit_and_push:161 - ✓ Successfully pushed to GitHub (branch: fix/extraction-hardening)
+2025-09-01 00:48:39.228 | INFO     | __main__:main:189 - [173/414] Processing Utility of EBUS-TBNA in Evaluating Mediastinal and Hilar Lymphadenopathy in Patients With Silica Exposure_A Retrospective Single-center Study.pdf
+2025-09-01 00:48:39.228 | INFO     | __main__:process_single_pdf:52 - Processing Utility of EBUS-TBNA in Evaluating Mediastinal and Hilar Lymphadenopathy in Patients With Silica Exposure_A Retrospective Single-center Study.pdf...
+2025-09-01 00:50:20.744 | SUCCESS  | __main__:process_single_pdf:71 - ✓ Successfully processed Utility of EBUS-TBNA in Evaluating Mediastinal and Hilar Lymphadenopathy in Patients With Silica Exposure_A Retrospective Single-center Study
+2025-09-01 00:50:20.745 | INFO     | __main__:main:189 - [174/414] Processing fistula Li-2016-Neoadjuvant therapy and risk of bronch.pdf
+2025-09-01 00:50:20.745 | INFO     | __main__:process_single_pdf:52 - Processing fistula Li-2016-Neoadjuvant therapy and risk of bronch.pdf...
+2025-09-01 00:52:43.444 | SUCCESS  | __main__:process_single_pdf:71 - ✓ Successfully processed fistula Li-2016-Neoadjuvant therapy and risk of bronch
+2025-09-01 00:52:43.445 | INFO     | __main__:main:189 - [175/414] Processing Dexmedetomidine-fentanyl versus propofol-fentanyl.pdf
+2025-09-01 00:52:43.445 | INFO     | __main__:process_single_pdf:52 - Processing Dexmedetomidine-fentanyl versus propofol-fentanyl.pdf...
+2025-09-01 00:54:21.219 | SUCCESS  | __main__:process_single_pdf:71 - ✓ Successfully processed Dexmedetomidine-fentanyl versus propofol-fentanyl
+2025-09-01 00:54:21.219 | INFO     | __main__:main:189 - [176/414] Processing Treatment of Pulmonary Carcinoid Tumors.pdf
+2025-09-01 00:54:21.219 | INFO     | __main__:process_single_pdf:52 - Processing Treatment of Pulmonary Carcinoid Tumors.pdf...
+2025-09-01 00:56:09.854 | SUCCESS  | __main__:process_single_pdf:71 - ✓ Successfully processed Treatment of Pulmonary Carcinoid Tumors
+2025-09-01 00:56:09.854 | INFO     | __main__:main:189 - [177/414] Processing Value of Antibiotic Prophylaxis for Percutaneo.pdf
+2025-09-01 00:56:09.854 | INFO     | __main__:process_single_pdf:52 - Processing Value of Antibiotic Prophylaxis for Percutaneo.pdf...
+2025-09-01 00:57:16.069 | SUCCESS  | __main__:process_single_pdf:71 - ✓ Successfully processed Value of Antibiotic Prophylaxis for Percutaneo
+2025-09-01 00:57:16.069 | INFO     | __main__:main:189 - [178/414] Processing The Art of Rigid Bronchoscopy and Airway Stent.pdf
+2025-09-01 00:57:16.069 | INFO     | __main__:process_single_pdf:52 - Processing The Art of Rigid Bronchoscopy and Airway Stent.pdf...
+2025-09-01 01:00:04.060 | SUCCESS  | __main__:process_single_pdf:71 - ✓ Successfully processed The Art of Rigid Bronchoscopy and Airway Stent
+2025-09-01 01:00:04.060 | INFO     | __main__:main:189 - [179/414] Processing Shape-sensing robotic-assisted bronchoscopy in the diagnosis of pulmonary parenchymal lesions.pdf
+2025-09-01 01:00:04.060 | INFO     | __main__:process_single_pdf:52 - Processing Shape-sensing robotic-assisted bronchoscopy in the diagnosis of pulmonary parenchymal lesions.pdf...
+2025-09-01 01:02:11.398 | SUCCESS  | __main__:process_single_pdf:71 - ✓ Successfully processed Shape-sensing robotic-assisted bronchoscopy in the diagnosis of pulmonary parenchymal lesions
+2025-09-01 01:02:11.398 | INFO     | __main__:main:189 - [180/414] Processing Developing an IP Service in a Community Practice.pdf
+2025-09-01 01:02:11.398 | INFO     | __main__:process_single_pdf:52 - Processing Developing an IP Service in a Community Practice.pdf...
+2025-09-01 01:03:07.925 | SUCCESS  | __main__:process_single_pdf:71 - ✓ Successfully processed Developing an IP Service in a Community Practice
+2025-09-01 01:03:07.926 | INFO     | __main__:main:189 - [181/414] Processing Alsunaid-2021-Wound care management_ tracheost.pdf
+2025-09-01 01:03:07.926 | INFO     | __main__:process_single_pdf:52 - Processing Alsunaid-2021-Wound care management_ tracheost.pdf...
+2025-09-01 01:08:49.453 | SUCCESS  | __main__:process_single_pdf:71 - ✓ Successfully processed Alsunaid-2021-Wound care management_ tracheost
+2025-09-01 01:08:49.453 | INFO     | __main__:main:189 - [182/414] Processing Coping with airway emergencies_.pdf
+2025-09-01 01:08:49.453 | INFO     | __main__:process_single_pdf:52 - Processing Coping with airway emergencies_.pdf...
+2025-09-01 01:10:47.332 | SUCCESS  | __main__:process_single_pdf:71 - ✓ Successfully processed Coping with airway emergencies_
+2025-09-01 01:10:47.332 | INFO     | __main__:main:198 - Reached 180 successful processes, committing intermediate results...
+2025-09-01 01:10:47.332 | INFO     | __main__:git_commit_and_push:129 - Adding changes to git...
