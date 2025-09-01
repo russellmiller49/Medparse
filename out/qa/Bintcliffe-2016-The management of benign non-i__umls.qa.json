@@ -1,0 +1,15 @@
+{
+  "pdf": "Bintcliffe-2016-The management of benign non-i.pdf",
+  "n_sections": 31,
+  "n_tables": 2,
+  "n_figures": 10,
+  "n_fig_crops": 10,
+  "missing_fig_bbox": 0,
+  "n_refs_csv": 71,
+  "n_umls_links": 0,
+  "n_local_links": 0,
+  "linker": "umls",
+  "completeness_score": 53,
+  "is_valid": false,
+  "timestamp": "2025-09-01 00:07:48"
+}

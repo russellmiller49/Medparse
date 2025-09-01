@@ -1,0 +1,15 @@
+{
+  "pdf": "VR bronch.pdf",
+  "n_sections": 14,
+  "n_tables": 2,
+  "n_figures": 13,
+  "n_fig_crops": 13,
+  "missing_fig_bbox": 0,
+  "n_refs_csv": 21,
+  "n_umls_links": 0,
+  "n_local_links": 0,
+  "linker": "umls",
+  "completeness_score": 61,
+  "is_valid": true,
+  "timestamp": "2025-08-31 23:53:08"
+}

@@ -2164,3 +2164,112 @@ To https://github.com/russellmiller49/Medparse.git
 2025-08-31 23:38:12.611 | SUCCESS  | __main__:process_single_pdf:71 - ✓ Successfully processed Indwelling Pleural Catheter versus Pleurodesis
 2025-08-31 23:38:12.611 | INFO     | __main__:main:198 - Reached 140 successful processes, committing intermediate results...
 2025-08-31 23:38:12.611 | INFO     | __main__:git_commit_and_push:129 - Adding changes to git...
+2025-08-31 23:38:12.809 | INFO     | __main__:git_commit_and_push:145 - Creating git commit...
+[fix/extraction-hardening c151b99] feat: Batch processed 140 PDFs (intermediate commit)
+ 74 files changed, 245383 insertions(+), 4 deletions(-)
+ create mode 100644 out/batch_processed/Ambulatory management of primary spontaneous p.json
+ create mode 100644 out/batch_processed/Differentiating malignant and benign nodes with elastography.json
+ create mode 100644 out/batch_processed/Efficacy and safety of cone-beam computed tomography-guided bronchoscopy.json
+ create mode 100644 out/batch_processed/IPC review.json
+ create mode 100644 out/batch_processed/Indwelling Pleural Catheter versus Pleurodesis.json
+ create mode 100644 out/batch_processed/Interventional Bronchoscopy.json
+ create mode 100644 out/batch_processed/Intrapleural use of tissue plasminogen activat.json
+ create mode 100644 out/batch_processed/Sedation in Bronchoscopy.json
+ create mode 100644 out/batch_processed/Slebos-2018-Endobronchial Coils for Endoscopic.json
+ create mode 100644 out/batch_processed/Understanding the economic impact of introducing a new procedure.json
+ create mode 100644 out/figures/Ambulatory management of primary spontaneous p_fig01.jpg
+ create mode 100644 out/figures/Ambulatory management of primary spontaneous p_fig02.jpg
+ create mode 100644 out/figures/Ambulatory management of primary spontaneous p_fig03.jpg
+ create mode 100644 out/figures/Ambulatory management of primary spontaneous p_fig04.jpg
+ create mode 100644 out/figures/Differentiating malignant and benign nodes with elastography_fig01.jpg
+ create mode 100644 out/figures/Differentiating malignant and benign nodes with elastography_fig02.jpg
+ create mode 100644 out/figures/Differentiating malignant and benign nodes with elastography_fig03.jpg
+ create mode 100644 out/figures/Differentiating malignant and benign nodes with elastography_fig04.jpg
+ create mode 100644 out/figures/Differentiating malignant and benign nodes with elastography_fig05.jpg
+ create mode 100644 out/figures/Differentiating malignant and benign nodes with elastography_fig06.jpg
+ create mode 100644 out/figures/Differentiating malignant and benign nodes with elastography_fig07.jpg
+ create mode 100644 out/figures/Differentiating malignant and benign nodes with elastography_fig08.jpg
+ create mode 100644 out/figures/Efficacy and safety of cone-beam computed tomography-guided bronchoscopy_fig01.jpg
+ create mode 100644 out/figures/Efficacy and safety of cone-beam computed tomography-guided bronchoscopy_fig03.jpg
+ create mode 100644 out/figures/Efficacy and safety of cone-beam computed tomography-guided bronchoscopy_figure1.jpg
+ create mode 100644 out/figures/Indwelling Pleural Catheter versus Pleurodesis_figure1.jpg
+ create mode 100644 out/figures/Indwelling Pleural Catheter versus Pleurodesis_figure2.jpg
+ create mode 100644 out/figures/Indwelling Pleural Catheter versus Pleurodesis_figure3.jpg
+ create mode 100644 out/figures/Interventional Bronchoscopy_fig01.jpg
+ create mode 100644 out/figures/Interventional Bronchoscopy_fig02.jpg
+ create mode 100644 out/figures/Interventional Bronchoscopy_fig03.jpg
+ create mode 100644 out/figures/Interventional Bronchoscopy_fig04.jpg
+ create mode 100644 out/figures/Interventional Bronchoscopy_fig05.jpg
+ create mode 100644 out/figures/Interventional Bronchoscopy_fig06.jpg
+ create mode 100644 out/figures/Interventional Bronchoscopy_fig07.jpg
+ create mode 100644 out/figures/Interventional Bronchoscopy_fig09.jpg
+ create mode 100644 out/figures/Interventional Bronchoscopy_fig10.jpg
+ create mode 100644 out/figures/Interventional Bronchoscopy_fig11.jpg
+ create mode 100644 out/figures/Interventional Bronchoscopy_fig12.jpg
+ create mode 100644 out/figures/Interventional Bronchoscopy_fig13.jpg
+ create mode 100644 out/figures/Interventional Bronchoscopy_fig14.jpg
+ create mode 100644 out/figures/Interventional Bronchoscopy_fig15.jpg
+ create mode 100644 out/figures/Interventional Bronchoscopy_fig16.jpg
+ create mode 100644 out/figures/Interventional Bronchoscopy_fig17.jpg
+ create mode 100644 out/figures/Interventional Bronchoscopy_figure5.jpg
+ create mode 100644 out/figures/Intrapleural use of tissue plasminogen activat_fig01.jpg
+ create mode 100644 out/figures/Intrapleural use of tissue plasminogen activat_fig02.jpg
+ create mode 100644 out/figures/Intrapleural use of tissue plasminogen activat_fig03.jpg
+ create mode 100644 out/figures/Intrapleural use of tissue plasminogen activat_fig04.jpg
+ create mode 100644 out/figures/Understanding the economic impact of introducing a new procedure_fig01.jpg
+ create mode 100644 out/figures/Understanding the economic impact of introducing a new procedure_fig02.jpg
+ create mode 100644 out/figures/Understanding the economic impact of introducing a new procedure_fig03.jpg
+ create mode 100644 out/figures/Understanding the economic impact of introducing a new procedure_fig04.jpg
+ create mode 100644 out/figures/Understanding the economic impact of introducing a new procedure_fig05.jpg
+ create mode 100644 out/qa/Ambulatory management of primary spontaneous p__umls.qa.json
+ create mode 100644 out/qa/Differentiating malignant and benign nodes with elastography__umls.qa.json
+ create mode 100644 out/qa/Efficacy and safety of cone-beam computed tomography-guided bronchoscopy__umls.qa.json
+ create mode 100644 out/qa/Indwelling Pleural Catheter versus Pleurodesis__umls.qa.json
+ create mode 100644 out/qa/Interventional Bronchoscopy__umls.qa.json
+ create mode 100644 out/qa/Intrapleural use of tissue plasminogen activat__umls.qa.json
+ create mode 100644 out/qa/Sedation in Bronchoscopy__umls.qa.json
+ create mode 100644 out/qa/Understanding the economic impact of introducing a new procedure__umls.qa.json
+ create mode 100644 out/references/Ambulatory management of primary spontaneous p.refs.csv
+ create mode 100644 out/references/Differentiating malignant and benign nodes with elastography.refs.csv
+ create mode 100644 out/references/Efficacy and safety of cone-beam computed tomography-guided bronchoscopy.refs.csv
+ create mode 100644 out/references/Indwelling Pleural Catheter versus Pleurodesis.refs.csv
+ create mode 100644 out/references/Interventional Bronchoscopy.refs.csv
+ create mode 100644 out/references/Intrapleural use of tissue plasminogen activat.refs.csv
+ create mode 100644 out/references/Sedation in Bronchoscopy.refs.csv
+ create mode 100644 out/references/Understanding the economic impact of introducing a new procedure.refs.csv
+2025-08-31 23:38:12.842 | INFO     | __main__:git_commit_and_push:158 - Pushing to origin/fix/extraction-hardening...
+To https://github.com/russellmiller49/Medparse.git
+   b9cdfa6..c151b99  fix/extraction-hardening -> fix/extraction-hardening
+2025-08-31 23:38:17.392 | SUCCESS  | __main__:git_commit_and_push:161 - ✓ Successfully pushed to GitHub (branch: fix/extraction-hardening)
+2025-08-31 23:38:17.392 | INFO     | __main__:main:189 - [143/414] Processing Optimal Endobronchial Ultrasound Strain Elastography Assessment.pdf
+2025-08-31 23:38:17.392 | INFO     | __main__:process_single_pdf:52 - Processing Optimal Endobronchial Ultrasound Strain Elastography Assessment.pdf...
+2025-08-31 23:39:42.115 | SUCCESS  | __main__:process_single_pdf:71 - ✓ Successfully processed Optimal Endobronchial Ultrasound Strain Elastography Assessment
+2025-08-31 23:39:42.115 | INFO     | __main__:main:189 - [144/414] Processing Deslee-2014-Lung volume reduction coil treatme.pdf
+2025-08-31 23:39:42.115 | INFO     | __main__:process_single_pdf:52 - Processing Deslee-2014-Lung volume reduction coil treatme.pdf...
+2025-08-31 23:41:21.472 | SUCCESS  | __main__:process_single_pdf:71 - ✓ Successfully processed Deslee-2014-Lung volume reduction coil treatme
+2025-08-31 23:41:21.472 | INFO     | __main__:main:189 - [145/414] Processing Complications and discomfort of bronchoscopy a systematic review.pdf
+2025-08-31 23:41:21.472 | INFO     | __main__:process_single_pdf:52 - Processing Complications and discomfort of bronchoscopy a systematic review.pdf...
+2025-08-31 23:47:08.666 | SUCCESS  | __main__:process_single_pdf:71 - ✓ Successfully processed Complications and discomfort of bronchoscopy a systematic review
+2025-08-31 23:47:08.666 | INFO     | __main__:main:189 - [146/414] Processing Metallic Endobronchial Stents A Contemporary R.pdf
+2025-08-31 23:47:08.666 | INFO     | __main__:process_single_pdf:52 - Processing Metallic Endobronchial Stents A Contemporary R.pdf...
+2025-08-31 23:51:42.974 | SUCCESS  | __main__:process_single_pdf:71 - ✓ Successfully processed Metallic Endobronchial Stents A Contemporary R
+2025-08-31 23:51:42.975 | INFO     | __main__:main:189 - [147/414] Processing VR bronch.pdf
+2025-08-31 23:51:42.975 | INFO     | __main__:process_single_pdf:52 - Processing VR bronch.pdf...
+2025-08-31 23:53:10.112 | SUCCESS  | __main__:process_single_pdf:71 - ✓ Successfully processed VR bronch
+2025-08-31 23:53:10.112 | INFO     | __main__:main:189 - [148/414] Processing Percutaneous dilational tracheostomy.pdf
+2025-08-31 23:53:10.112 | INFO     | __main__:process_single_pdf:52 - Processing Percutaneous dilational tracheostomy.pdf...
+2025-08-31 23:56:11.941 | SUCCESS  | __main__:process_single_pdf:71 - ✓ Successfully processed Percutaneous dilational tracheostomy
+2025-08-31 23:56:11.941 | INFO     | __main__:main:189 - [149/414] Processing A predictive model for respiratorye events after rigid..pdf
+2025-08-31 23:56:11.941 | INFO     | __main__:process_single_pdf:52 - Processing A predictive model for respiratorye events after rigid..pdf...
+2025-08-31 23:57:11.358 | SUCCESS  | __main__:process_single_pdf:71 - ✓ Successfully processed A predictive model for respiratorye events after rigid.
+2025-08-31 23:57:11.359 | INFO     | __main__:main:189 - [150/414] Processing fistula Okuda-2017-Risk factor of bronchopleural fistu.pdf
+2025-08-31 23:57:11.359 | INFO     | __main__:process_single_pdf:52 - Processing fistula Okuda-2017-Risk factor of bronchopleural fistu.pdf...
+2025-08-31 23:58:36.650 | SUCCESS  | __main__:process_single_pdf:71 - ✓ Successfully processed fistula Okuda-2017-Risk factor of bronchopleural fistu
+2025-08-31 23:58:36.650 | INFO     | __main__:main:189 - [151/414] Processing Utility of Elastography A Systematic Review and Meta-analysis.pdf
+2025-08-31 23:58:36.651 | INFO     | __main__:process_single_pdf:52 - Processing Utility of Elastography A Systematic Review and Meta-analysis.pdf...
+2025-09-01 00:00:48.604 | SUCCESS  | __main__:process_single_pdf:71 - ✓ Successfully processed Utility of Elastography A Systematic Review and Meta-analysis
+2025-09-01 00:00:48.604 | INFO     | __main__:main:189 - [152/414] Processing Bintcliffe-2016-The management of benign non-i.pdf
+2025-09-01 00:00:48.604 | INFO     | __main__:process_single_pdf:52 - Processing Bintcliffe-2016-The management of benign non-i.pdf...
+2025-09-01 00:07:49.294 | SUCCESS  | __main__:process_single_pdf:71 - ✓ Successfully processed Bintcliffe-2016-The management of benign non-i
+2025-09-01 00:07:49.294 | INFO     | __main__:main:198 - Reached 150 successful processes, committing intermediate results...
+2025-09-01 00:07:49.294 | INFO     | __main__:git_commit_and_push:129 - Adding changes to git...
