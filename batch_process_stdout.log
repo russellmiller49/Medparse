@@ -3443,3 +3443,127 @@ To https://github.com/russellmiller49/Medparse.git
 2025-09-01 03:17:06.444 | SUCCESS  | __main__:process_single_pdf:71 - ✓ Successfully processed IP Fellowship Accreditation Standards
 2025-09-01 03:17:06.444 | INFO     | __main__:main:198 - Reached 230 successful processes, committing intermediate results...
 2025-09-01 03:17:06.444 | INFO     | __main__:git_commit_and_push:129 - Adding changes to git...
+2025-09-01 03:17:06.584 | INFO     | __main__:git_commit_and_push:145 - Creating git commit...
+[fix/extraction-hardening 2b56d3d] feat: Batch processed 230 PDFs (intermediate commit)
+ 87 files changed, 156063 insertions(+)
+ create mode 100644 out/batch_processed/A prospective, randomized trial for the comparison of 19-g and 22-g EBUS.json
+ create mode 100644 out/batch_processed/Airway stabilization with silicone stents for.json
+ create mode 100644 out/batch_processed/Herth-2019-Endoscopic Lung Volume Reduction_ A.json
+ create mode 100644 out/batch_processed/IP Fellowship Accreditation Standards.json
+ create mode 100644 out/batch_processed/Prospective study to determine the volume of p.json
+ create mode 100644 out/batch_processed/Robot assisted bronchoscopy for pulmonary lesion diagnosis.json
+ create mode 100644 out/batch_processed/Standardizing education in interventional pulmonol.json
+ create mode 100644 out/batch_processed/Walker-2021-Ambulatory management of secondary.json
+ create mode 100644 out/batch_processed/surigicalLVR A randomized trial comparing lung-volume-reduc.json
+ create mode 100644 out/batch_processed/tana-et-al-2025-airway-scairway-scaffolds-for-emphysema.json
+ create mode 100644 out/figures/A prospective, randomized trial for the comparison of 19-g and 22-g EBUS_fig01.jpg
+ create mode 100644 out/figures/A prospective, randomized trial for the comparison of 19-g and 22-g EBUS_fig02.jpg
+ create mode 100644 out/figures/A prospective, randomized trial for the comparison of 19-g and 22-g EBUS_fig03.jpg
+ create mode 100644 out/figures/A prospective, randomized trial for the comparison of 19-g and 22-g EBUS_fig04.jpg
+ create mode 100644 out/figures/A prospective, randomized trial for the comparison of 19-g and 22-g EBUS_fig05.jpg
+ create mode 100644 out/figures/Airway stabilization with silicone stents for_fig01.jpg
+ create mode 100644 out/figures/Airway stabilization with silicone stents for_fig02.jpg
+ create mode 100644 out/figures/Airway stabilization with silicone stents for_fig03.jpg
+ create mode 100644 out/figures/Airway stabilization with silicone stents for_fig04.jpg
+ create mode 100644 out/figures/Airway stabilization with silicone stents for_fig05.jpg
+ create mode 100644 out/figures/Airway stabilization with silicone stents for_fig06.jpg
+ create mode 100644 out/figures/Airway stabilization with silicone stents for_fig07.jpg
+ create mode 100644 out/figures/Airway stabilization with silicone stents for_fig08.jpg
+ create mode 100644 out/figures/Airway stabilization with silicone stents for_fig09.jpg
+ create mode 100644 out/figures/Herth-2019-Endoscopic Lung Volume Reduction_ A_fig01.jpg
+ create mode 100644 out/figures/Herth-2019-Endoscopic Lung Volume Reduction_ A_fig02.jpg
+ create mode 100644 out/figures/Herth-2019-Endoscopic Lung Volume Reduction_ A_fig1.jpg
+ create mode 100644 out/figures/IP Fellowship Accreditation Standards_fig01.jpg
+ create mode 100644 out/figures/Prospective study to determine the volume of p_fig01.jpg
+ create mode 100644 out/figures/Prospective study to determine the volume of p_fig02.jpg
+ create mode 100644 out/figures/Robot assisted bronchoscopy for pulmonary lesion diagnosis_fig01.jpg
+ create mode 100644 out/figures/Robot assisted bronchoscopy for pulmonary lesion diagnosis_fig02.jpg
+ create mode 100644 out/figures/Robot assisted bronchoscopy for pulmonary lesion diagnosis_fig03.jpg
+ create mode 100644 out/figures/Standardizing education in interventional pulmonol_fig01.jpg
+ create mode 100644 out/figures/Walker-2021-Ambulatory management of secondary_fig01.jpg
+ create mode 100644 out/figures/Walker-2021-Ambulatory management of secondary_fig02.jpg
+ create mode 100644 out/figures/Walker-2021-Ambulatory management of secondary_figure1.jpg
+ create mode 100644 out/figures/Walker-2021-Ambulatory management of secondary_figure2.jpg
+ create mode 100644 out/figures/Walker-2021-Ambulatory management of secondary_figure3.jpg
+ create mode 100644 out/figures/Walker-2021-Ambulatory management of secondary_figure4.jpg
+ create mode 100644 out/figures/Walker-2021-Ambulatory management of secondary_figure5.jpg
+ create mode 100644 out/figures/surigicalLVR A randomized trial comparing lung-volume-reduc_fig02.jpg
+ create mode 100644 out/figures/surigicalLVR A randomized trial comparing lung-volume-reduc_fig03.jpg
+ create mode 100644 out/figures/surigicalLVR A randomized trial comparing lung-volume-reduc_fig04.jpg
+ create mode 100644 out/figures/surigicalLVR A randomized trial comparing lung-volume-reduc_figure1.jpg
+ create mode 100644 out/figures/tana-et-al-2025-airway-scairway-scaffolds-for-emphysema_fig01.jpg
+ create mode 100644 out/figures/tana-et-al-2025-airway-scairway-scaffolds-for-emphysema_fig02.jpg
+ create mode 100644 out/figures/tana-et-al-2025-airway-scairway-scaffolds-for-emphysema_fig03.jpg
+ create mode 100644 out/figures/tana-et-al-2025-airway-scairway-scaffolds-for-emphysema_fig04.jpg
+ create mode 100644 out/figures/tana-et-al-2025-airway-scairway-scaffolds-for-emphysema_fig05.jpg
+ create mode 100644 out/figures/tana-et-al-2025-airway-scairway-scaffolds-for-emphysema_fig06.jpg
+ create mode 100644 out/figures/tana-et-al-2025-airway-scairway-scaffolds-for-emphysema_fig07.jpg
+ create mode 100644 out/figures/tana-et-al-2025-airway-scairway-scaffolds-for-emphysema_fig08.jpg
+ create mode 100644 out/figures/tana-et-al-2025-airway-scairway-scaffolds-for-emphysema_fig09.jpg
+ create mode 100644 out/figures/tana-et-al-2025-airway-scairway-scaffolds-for-emphysema_fig10.jpg
+ create mode 100644 out/figures/tana-et-al-2025-airway-scairway-scaffolds-for-emphysema_fig11.jpg
+ create mode 100644 out/figures/tana-et-al-2025-airway-scairway-scaffolds-for-emphysema_fig12.jpg
+ create mode 100644 out/figures/tana-et-al-2025-airway-scairway-scaffolds-for-emphysema_fig13.jpg
+ create mode 100644 out/figures/tana-et-al-2025-airway-scairway-scaffolds-for-emphysema_fig14.jpg
+ create mode 100644 out/figures/tana-et-al-2025-airway-scairway-scaffolds-for-emphysema_fig15.jpg
+ create mode 100644 out/figures/tana-et-al-2025-airway-scairway-scaffolds-for-emphysema_fig16.jpg
+ create mode 100644 out/figures/tana-et-al-2025-airway-scairway-scaffolds-for-emphysema_fig18.jpg
+ create mode 100644 out/figures/tana-et-al-2025-airway-scairway-scaffolds-for-emphysema_fig19.jpg
+ create mode 100644 out/figures/tana-et-al-2025-airway-scairway-scaffolds-for-emphysema_fig20.jpg
+ create mode 100644 out/figures/tana-et-al-2025-airway-scairway-scaffolds-for-emphysema_figure5.jpg
+ create mode 100644 out/qa/A prospective, randomized trial for the comparison of 19-g and 22-g EBUS__umls.qa.json
+ create mode 100644 out/qa/Airway stabilization with silicone stents for__umls.qa.json
+ create mode 100644 out/qa/Herth-2019-Endoscopic Lung Volume Reduction_ A__umls.qa.json
+ create mode 100644 out/qa/IP Fellowship Accreditation Standards__umls.qa.json
+ create mode 100644 out/qa/Prospective study to determine the volume of p__umls.qa.json
+ create mode 100644 out/qa/Robot assisted bronchoscopy for pulmonary lesion diagnosis__umls.qa.json
+ create mode 100644 out/qa/Standardizing education in interventional pulmonol__umls.qa.json
+ create mode 100644 out/qa/Walker-2021-Ambulatory management of secondary__umls.qa.json
+ create mode 100644 out/qa/surigicalLVR A randomized trial comparing lung-volume-reduc__umls.qa.json
+ create mode 100644 out/qa/tana-et-al-2025-airway-scairway-scaffolds-for-emphysema__umls.qa.json
+ create mode 100644 out/references/A prospective, randomized trial for the comparison of 19-g and 22-g EBUS.refs.csv
+ create mode 100644 out/references/Airway stabilization with silicone stents for.refs.csv
+ create mode 100644 out/references/Herth-2019-Endoscopic Lung Volume Reduction_ A.refs.csv
+ create mode 100644 out/references/IP Fellowship Accreditation Standards.refs.csv
+ create mode 100644 out/references/Prospective study to determine the volume of p.refs.csv
+ create mode 100644 out/references/Robot assisted bronchoscopy for pulmonary lesion diagnosis.refs.csv
+ create mode 100644 out/references/Standardizing education in interventional pulmonol.refs.csv
+ create mode 100644 out/references/Walker-2021-Ambulatory management of secondary.refs.csv
+ create mode 100644 out/references/surigicalLVR A randomized trial comparing lung-volume-reduc.refs.csv
+ create mode 100644 out/references/tana-et-al-2025-airway-scairway-scaffolds-for-emphysema.refs.csv
+2025-09-01 03:17:06.615 | INFO     | __main__:git_commit_and_push:158 - Pushing to origin/fix/extraction-hardening...
+To https://github.com/russellmiller49/Medparse.git
+   9ba7619..2b56d3d  fix/extraction-hardening -> fix/extraction-hardening
+2025-09-01 03:17:10.547 | SUCCESS  | __main__:git_commit_and_push:161 - ✓ Successfully pushed to GitHub (branch: fix/extraction-hardening)
+2025-09-01 03:17:10.547 | INFO     | __main__:main:189 - [234/414] Processing Rigid bronchoscopy and silicone st.pdf
+2025-09-01 03:17:10.547 | INFO     | __main__:process_single_pdf:52 - Processing Rigid bronchoscopy and silicone st.pdf...
+2025-09-01 03:18:45.983 | SUCCESS  | __main__:process_single_pdf:71 - ✓ Successfully processed Rigid bronchoscopy and silicone st
+2025-09-01 03:18:45.983 | INFO     | __main__:main:189 - [235/414] Processing Survival in COPD patients treated with broncho.pdf
+2025-09-01 03:18:45.983 | INFO     | __main__:process_single_pdf:52 - Processing Survival in COPD patients treated with broncho.pdf...
+2025-09-01 03:20:04.439 | SUCCESS  | __main__:process_single_pdf:71 - ✓ Successfully processed Survival in COPD patients treated with broncho
+2025-09-01 03:20:04.439 | INFO     | __main__:main:189 - [236/414] Processing Havelock-2010-Pleural procedures and thoracic.pdf
+2025-09-01 03:20:04.439 | INFO     | __main__:process_single_pdf:52 - Processing Havelock-2010-Pleural procedures and thoracic.pdf...
+2025-09-01 03:24:22.388 | SUCCESS  | __main__:process_single_pdf:71 - ✓ Successfully processed Havelock-2010-Pleural procedures and thoracic
+2025-09-01 03:24:22.388 | INFO     | __main__:main:189 - [237/414] Processing editorial Nth edition.pdf
+2025-09-01 03:24:22.388 | INFO     | __main__:process_single_pdf:52 - Processing editorial Nth edition.pdf...
+2025-09-01 03:25:00.392 | SUCCESS  | __main__:process_single_pdf:71 - ✓ Successfully processed editorial Nth edition
+2025-09-01 03:25:00.393 | INFO     | __main__:main:189 - [238/414] Processing Advances in Interventional Pulmonology 2018.pdf
+2025-09-01 03:25:00.393 | INFO     | __main__:process_single_pdf:52 - Processing Advances in Interventional Pulmonology 2018.pdf...
+2025-09-01 03:28:01.871 | SUCCESS  | __main__:process_single_pdf:71 - ✓ Successfully processed Advances in Interventional Pulmonology 2018
+2025-09-01 03:28:01.871 | INFO     | __main__:main:189 - [239/414] Processing Rigid Bronchoscopy.pdf
+2025-09-01 03:28:01.871 | INFO     | __main__:process_single_pdf:52 - Processing Rigid Bronchoscopy.pdf...
+2025-09-01 03:29:41.084 | SUCCESS  | __main__:process_single_pdf:71 - ✓ Successfully processed Rigid Bronchoscopy
+2025-09-01 03:29:41.085 | INFO     | __main__:main:189 - [240/414] Processing Current practice in management of exudative pleural effusions AABIP survey.pdf
+2025-09-01 03:29:41.085 | INFO     | __main__:process_single_pdf:52 - Processing Current practice in management of exudative pleural effusions AABIP survey.pdf...
+2025-09-01 03:30:15.348 | SUCCESS  | __main__:process_single_pdf:71 - ✓ Successfully processed Current practice in management of exudative pleural effusions AABIP survey
+2025-09-01 03:30:15.348 | INFO     | __main__:main:189 - [241/414] Processing Senitko-2019-Safety and Tolerability of Vacuum.pdf
+2025-09-01 03:30:15.348 | INFO     | __main__:process_single_pdf:52 - Processing Senitko-2019-Safety and Tolerability of Vacuum.pdf...
+2025-09-01 03:31:08.395 | SUCCESS  | __main__:process_single_pdf:71 - ✓ Successfully processed Senitko-2019-Safety and Tolerability of Vacuum
+2025-09-01 03:31:08.395 | INFO     | __main__:main:189 - [242/414] Processing aabip_evidence_informed_guidelines_and_expert.pdf
+2025-09-01 03:31:08.395 | INFO     | __main__:process_single_pdf:52 - Processing aabip_evidence_informed_guidelines_and_expert.pdf...
+2025-09-01 03:33:42.978 | SUCCESS  | __main__:process_single_pdf:71 - ✓ Successfully processed aabip_evidence_informed_guidelines_and_expert
+2025-09-01 03:33:42.978 | INFO     | __main__:main:189 - [243/414] Processing STS Surgical Management of Oligometastatic NSCLC.pdf
+2025-09-01 03:33:42.978 | INFO     | __main__:process_single_pdf:52 - Processing STS Surgical Management of Oligometastatic NSCLC.pdf...
+2025-09-01 03:37:05.566 | SUCCESS  | __main__:process_single_pdf:71 - ✓ Successfully processed STS Surgical Management of Oligometastatic NSCLC
+2025-09-01 03:37:05.566 | INFO     | __main__:main:198 - Reached 240 successful processes, committing intermediate results...
+2025-09-01 03:37:05.566 | INFO     | __main__:git_commit_and_push:129 - Adding changes to git...

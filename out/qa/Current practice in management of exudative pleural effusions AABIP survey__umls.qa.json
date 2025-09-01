@@ -1,0 +1,15 @@
+{
+  "pdf": "Current practice in management of exudative pleural effusions AABIP survey.pdf",
+  "n_sections": 9,
+  "n_tables": 0,
+  "n_figures": 2,
+  "n_fig_crops": 2,
+  "missing_fig_bbox": 0,
+  "n_refs_csv": 7,
+  "n_umls_links": 0,
+  "n_local_links": 0,
+  "linker": "umls",
+  "completeness_score": 65,
+  "is_valid": true,
+  "timestamp": "2025-09-01 03:30:14"
+}
