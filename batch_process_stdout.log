@@ -2958,3 +2958,120 @@ To https://github.com/russellmiller49/Medparse.git
 2025-09-01 02:06:21.705 | SUCCESS  | __main__:process_single_pdf:71 - ✓ Successfully processed Target trial
 2025-09-01 02:06:21.705 | INFO     | __main__:main:198 - Reached 200 successful processes, committing intermediate results...
 2025-09-01 02:06:21.705 | INFO     | __main__:git_commit_and_push:129 - Adding changes to git...
+2025-09-01 02:06:21.924 | INFO     | __main__:git_commit_and_push:145 - Creating git commit...
+[fix/extraction-hardening 15b94d5] feat: Batch processed 200 PDFs (intermediate commit)
+ 80 files changed, 437778 insertions(+)
+ create mode 100644 out/batch_processed/Advanced diagnostic and therapeutic bronchoscopy technology and reimbursement.json
+ create mode 100644 out/batch_processed/Anesthesia for bronchoscopy and update 2024.json
+ create mode 100644 out/batch_processed/Basic Bronchoscopy Technology, Techniques, and Professional Fees.json
+ create mode 100644 out/batch_processed/Complications Following Therapeutic B.json
+ create mode 100644 out/batch_processed/Hillerdal-2014-One- to four-year follow-up of.json
+ create mode 100644 out/batch_processed/Karakoca-2018-Follow-up outcomes of chronic ob.json
+ create mode 100644 out/batch_processed/Ost-2014-Quality-adjusted survival following t.json
+ create mode 100644 out/batch_processed/Reichle-2000-[Argon plasma coagulation in bron.json
+ create mode 100644 out/batch_processed/Target trial.json
+ create mode 100644 out/batch_processed/chest tube practical.json
+ create mode 100644 out/figures/Advanced diagnostic and therapeutic bronchoscopy technology and reimbursement_fig01.jpg
+ create mode 100644 out/figures/Advanced diagnostic and therapeutic bronchoscopy technology and reimbursement_fig02.jpg
+ create mode 100644 out/figures/Anesthesia for bronchoscopy and update 2024_fig01.jpg
+ create mode 100644 out/figures/Anesthesia for bronchoscopy and update 2024_fig02.jpg
+ create mode 100644 out/figures/Anesthesia for bronchoscopy and update 2024_fig03.jpg
+ create mode 100644 out/figures/Anesthesia for bronchoscopy and update 2024_fig04.jpg
+ create mode 100644 out/figures/Anesthesia for bronchoscopy and update 2024_fig05.jpg
+ create mode 100644 out/figures/Anesthesia for bronchoscopy and update 2024_fig08.jpg
+ create mode 100644 out/figures/Anesthesia for bronchoscopy and update 2024_fig09.jpg
+ create mode 100644 out/figures/Anesthesia for bronchoscopy and update 2024_figure3.jpg
+ create mode 100644 out/figures/Anesthesia for bronchoscopy and update 2024_figure4.jpg
+ create mode 100644 out/figures/Basic Bronchoscopy Technology, Techniques, and Professional Fees_fig01.jpg
+ create mode 100644 out/figures/Basic Bronchoscopy Technology, Techniques, and Professional Fees_fig02.jpg
+ create mode 100644 out/figures/Basic Bronchoscopy Technology, Techniques, and Professional Fees_fig03.jpg
+ create mode 100644 out/figures/Complications Following Therapeutic B_fig01.jpg
+ create mode 100644 out/figures/Complications Following Therapeutic B_fig02.jpg
+ create mode 100644 out/figures/Complications Following Therapeutic B_fig03.jpg
+ create mode 100644 out/figures/Complications Following Therapeutic B_fig04.jpg
+ create mode 100644 out/figures/Complications Following Therapeutic B_fig05.jpg
+ create mode 100644 out/figures/Hillerdal-2014-One- to four-year follow-up of_fig01.jpg
+ create mode 100644 out/figures/Hillerdal-2014-One- to four-year follow-up of_fig02.jpg
+ create mode 100644 out/figures/Hillerdal-2014-One- to four-year follow-up of_fig04.jpg
+ create mode 100644 out/figures/Hillerdal-2014-One- to four-year follow-up of_fig1.jpg
+ create mode 100644 out/figures/Karakoca-2018-Follow-up outcomes of chronic ob_fig01.jpg
+ create mode 100644 out/figures/Karakoca-2018-Follow-up outcomes of chronic ob_fig02.jpg
+ create mode 100644 out/figures/Ost-2014-Quality-adjusted survival following t_fig01.jpg
+ create mode 100644 out/figures/Ost-2014-Quality-adjusted survival following t_fig02.jpg
+ create mode 100644 out/figures/Ost-2014-Quality-adjusted survival following t_fig03.jpg
+ create mode 100644 out/figures/Ost-2014-Quality-adjusted survival following t_fig04.jpg
+ create mode 100644 out/figures/Ost-2014-Quality-adjusted survival following t_fig05.jpg
+ create mode 100644 out/figures/Ost-2014-Quality-adjusted survival following t_fig06.jpg
+ create mode 100644 out/figures/Ost-2014-Quality-adjusted survival following t_fig07.jpg
+ create mode 100644 out/figures/Ost-2014-Quality-adjusted survival following t_fig08.jpg
+ create mode 100644 out/figures/Ost-2014-Quality-adjusted survival following t_fig09.jpg
+ create mode 100644 out/figures/Reichle-2000-[Argon plasma coagulation in bron_fig01.jpg
+ create mode 100644 out/figures/Reichle-2000-[Argon plasma coagulation in bron_fig02.jpg
+ create mode 100644 out/figures/Reichle-2000-[Argon plasma coagulation in bron_fig03.jpg
+ create mode 100644 out/figures/Reichle-2000-[Argon plasma coagulation in bron_fig04.jpg
+ create mode 100644 out/figures/Reichle-2000-[Argon plasma coagulation in bron_fig05.jpg
+ create mode 100644 out/figures/Reichle-2000-[Argon plasma coagulation in bron_fig06.jpg
+ create mode 100644 out/figures/Reichle-2000-[Argon plasma coagulation in bron_fig07.jpg
+ create mode 100644 out/figures/Target trial_fig01.jpg
+ create mode 100644 out/figures/Target trial_fig03.jpg
+ create mode 100644 out/figures/Target trial_figure1.jpg
+ create mode 100644 out/figures/Target trial_figure3.jpg
+ create mode 100644 out/figures/chest tube practical_fig01.jpg
+ create mode 100644 out/figures/chest tube practical_fig02.jpg
+ create mode 100644 out/figures/chest tube practical_fig03.jpg
+ create mode 100644 out/qa/Advanced diagnostic and therapeutic bronchoscopy technology and reimbursement__umls.qa.json
+ create mode 100644 out/qa/Anesthesia for bronchoscopy and update 2024__umls.qa.json
+ create mode 100644 out/qa/Basic Bronchoscopy Technology, Techniques, and Professional Fees__umls.qa.json
+ create mode 100644 out/qa/Complications Following Therapeutic B__umls.qa.json
+ create mode 100644 out/qa/Hillerdal-2014-One- to four-year follow-up of__umls.qa.json
+ create mode 100644 out/qa/Karakoca-2018-Follow-up outcomes of chronic ob__umls.qa.json
+ create mode 100644 out/qa/Ost-2014-Quality-adjusted survival following t__umls.qa.json
+ create mode 100644 out/qa/Reichle-2000-[Argon plasma coagulation in bron__umls.qa.json
+ create mode 100644 out/qa/Target trial__umls.qa.json
+ create mode 100644 out/qa/chest tube practical__umls.qa.json
+ create mode 100644 out/references/Advanced diagnostic and therapeutic bronchoscopy technology and reimbursement.refs.csv
+ create mode 100644 out/references/Anesthesia for bronchoscopy and update 2024.refs.csv
+ create mode 100644 out/references/Basic Bronchoscopy Technology, Techniques, and Professional Fees.refs.csv
+ create mode 100644 out/references/Complications Following Therapeutic B.refs.csv
+ create mode 100644 out/references/Hillerdal-2014-One- to four-year follow-up of.refs.csv
+ create mode 100644 out/references/Karakoca-2018-Follow-up outcomes of chronic ob.refs.csv
+ create mode 100644 out/references/Ost-2014-Quality-adjusted survival following t.refs.csv
+ create mode 100644 out/references/Reichle-2000-[Argon plasma coagulation in bron.refs.csv
+ create mode 100644 out/references/Target trial.refs.csv
+ create mode 100644 out/references/chest tube practical.refs.csv
+2025-09-01 02:06:21.970 | INFO     | __main__:git_commit_and_push:158 - Pushing to origin/fix/extraction-hardening...
+To https://github.com/russellmiller49/Medparse.git
+   e136fba..15b94d5  fix/extraction-hardening -> fix/extraction-hardening
+2025-09-01 02:06:26.576 | SUCCESS  | __main__:git_commit_and_push:161 - ✓ Successfully pushed to GitHub (branch: fix/extraction-hardening)
+2025-09-01 02:06:26.577 | INFO     | __main__:main:189 - [203/414] Processing Results of long-term follow-up of photodynamic.pdf
+2025-09-01 02:06:26.577 | INFO     | __main__:process_single_pdf:52 - Processing Results of long-term follow-up of photodynamic.pdf...
+2025-09-01 02:07:35.239 | SUCCESS  | __main__:process_single_pdf:71 - ✓ Successfully processed Results of long-term follow-up of photodynamic
+2025-09-01 02:07:35.239 | INFO     | __main__:main:189 - [204/414] Processing Towards an optimization of bronchoscopic approaches to the PPN.pdf
+2025-09-01 02:07:35.240 | INFO     | __main__:process_single_pdf:52 - Processing Towards an optimization of bronchoscopic approaches to the PPN.pdf...
+2025-09-01 02:08:56.151 | SUCCESS  | __main__:process_single_pdf:71 - ✓ Successfully processed Towards an optimization of bronchoscopic approaches to the PPN
+2025-09-01 02:08:56.151 | INFO     | __main__:main:189 - [205/414] Processing Diagnostic flexible bronchoscopy and accessory techniques.pdf
+2025-09-01 02:08:56.151 | INFO     | __main__:process_single_pdf:52 - Processing Diagnostic flexible bronchoscopy and accessory techniques.pdf...
+2025-09-01 02:12:32.442 | SUCCESS  | __main__:process_single_pdf:71 - ✓ Successfully processed Diagnostic flexible bronchoscopy and accessory techniques
+2025-09-01 02:12:32.442 | INFO     | __main__:main:189 - [206/414] Processing Bronchial Thermoplasty in Patients With Severe.pdf
+2025-09-01 02:12:32.442 | INFO     | __main__:process_single_pdf:52 - Processing Bronchial Thermoplasty in Patients With Severe.pdf...
+2025-09-01 02:14:20.477 | SUCCESS  | __main__:process_single_pdf:71 - ✓ Successfully processed Bronchial Thermoplasty in Patients With Severe
+2025-09-01 02:14:20.477 | INFO     | __main__:main:189 - [207/414] Processing Zhao-2015-Whole Lung Lavage Treatment of Chine.pdf
+2025-09-01 02:14:20.477 | INFO     | __main__:process_single_pdf:52 - Processing Zhao-2015-Whole Lung Lavage Treatment of Chine.pdf...
+2025-09-01 02:15:44.790 | SUCCESS  | __main__:process_single_pdf:71 - ✓ Successfully processed Zhao-2015-Whole Lung Lavage Treatment of Chine
+2025-09-01 02:15:44.790 | INFO     | __main__:main:189 - [208/414] Processing management-of-incidental-pulmonary-nodule-fleischner.pdf
+2025-09-01 02:15:44.790 | INFO     | __main__:process_single_pdf:52 - Processing management-of-incidental-pulmonary-nodule-fleischner.pdf...
+2025-09-01 02:18:13.170 | SUCCESS  | __main__:process_single_pdf:71 - ✓ Successfully processed management-of-incidental-pulmonary-nodule-fleischner
+2025-09-01 02:18:13.170 | INFO     | __main__:main:189 - [209/414] Processing Transbronchial Cryobiopsy for the Diagnosis of.pdf
+2025-09-01 02:18:13.170 | INFO     | __main__:process_single_pdf:52 - Processing Transbronchial Cryobiopsy for the Diagnosis of.pdf...
+2025-09-01 02:21:32.462 | SUCCESS  | __main__:process_single_pdf:71 - ✓ Successfully processed Transbronchial Cryobiopsy for the Diagnosis of
+2025-09-01 02:21:32.463 | INFO     | __main__:main:189 - [210/414] Processing Rahman-2015-Effect of Opioids vs NSAIDs and La.pdf
+2025-09-01 02:21:32.463 | INFO     | __main__:process_single_pdf:52 - Processing Rahman-2015-Effect of Opioids vs NSAIDs and La.pdf...
+2025-09-01 02:23:11.166 | SUCCESS  | __main__:process_single_pdf:71 - ✓ Successfully processed Rahman-2015-Effect of Opioids vs NSAIDs and La
+2025-09-01 02:23:11.166 | INFO     | __main__:main:189 - [211/414] Processing Hartman-2021-New bronchoscopic treatment modal.pdf
+2025-09-01 02:23:11.166 | INFO     | __main__:process_single_pdf:52 - Processing Hartman-2021-New bronchoscopic treatment modal.pdf...
+2025-09-01 02:26:39.542 | SUCCESS  | __main__:process_single_pdf:71 - ✓ Successfully processed Hartman-2021-New bronchoscopic treatment modal
+2025-09-01 02:26:39.542 | INFO     | __main__:main:189 - [212/414] Processing Safety of flexible bronchoscopy in patients with  pulmonary hypertension.pdf
+2025-09-01 02:26:39.542 | INFO     | __main__:process_single_pdf:52 - Processing Safety of flexible bronchoscopy in patients with  pulmonary hypertension.pdf...
+2025-09-01 02:27:55.869 | SUCCESS  | __main__:process_single_pdf:71 - ✓ Successfully processed Safety of flexible bronchoscopy in patients with  pulmonary hypertension
+2025-09-01 02:27:55.869 | INFO     | __main__:main:198 - Reached 210 successful processes, committing intermediate results...
+2025-09-01 02:27:55.869 | INFO     | __main__:git_commit_and_push:129 - Adding changes to git...

@@ -1,0 +1,2280 @@
+{
+  "metadata": {
+    "title": "Towards an optimization of bronchoscopic approaches to the diagnosis and treatment of the pulmonary nodules: a review",
+    "year": "2018-06",
+    "authors": [
+      "William S. Krimsky",
+      "Michael A. Pritchett"
+    ],
+    "references_text": [
+      "Cone Beam Computertomography (CBCT) in Interventional Chest Medicine - High Feasibility for Endobronchial Realtime Navigation\n\t\t\n\t\t\tWolfgangHohenforst-Schmidt\n\t\t\n\t\t\n\t\t\tPaulZarogoulidis\n\t\t\n\t\t\n\t\t\tThomasVogl\n\t\t\n\t\t\n\t\t\tJFrancisTurner\n\t\t\n\t\t\n\t\t\tRobertBrowning\n\t\t\n\t\t\n\t\t\tBerndLinsmeier\n\t\t\n\t\t\n\t\t\tHaidongHuang\n\t\t\n\t\t\n\t\t\tQiangLi\n\t\t\n\t\t\n\t\t\tKaidDarwiche\n\t\t\n\t\t\n\t\t\tLutzFreitag\n\t\t\n\t\t\n\t\t\tMichaelSimoff\n\t\t\n\t\t\n\t\t\tIoannisKioumis\n\t\t\n\t\t\n\t\t\tKonstantinosZarogoulidis\n\t\t\n\t\t\n\t\t\tJohannesBrachmann\n\t\t\n\t\t10.7150/jca.8834\n\t\n\t\n\t\tJournal of Cancer\n\t\tJ. Cancer\n\t\t1837-9664\n\t\t\n\t\t\t5\n\t\t\t3\n\t\t\t\n\t\t\t2014\n\t\t\tIvyspring International Publisher",
+      "Factors associated with the diagnostic yield of computed tomography‐guided transbronchial lung biopsy\n\t\t\n\t\t\tSeonCheolPark\n\t\t\n\t\t\n\t\t\tCheongJuKim\n\t\t\n\t\t\n\t\t\tChangHoonHan\n\t\t\n\t\t\n\t\t\tSunMinLee\n\t\t\n\t\t10.1111/1759-7714.12417\n\t\n\t\n\t\tThoracic Cancer\n\t\tThoracic Cancer\n\t\t1759-7706\n\t\t1759-7714\n\t\t\n\t\t\t8\n\t\t\t3\n\t\t\t\n\t\t\t2017\n\t\t\tWiley",
+      "Cone-Beam CT Scanning With Electromagnetic Navigation Bronchoscopy\n\t\t\n\t\t\tMichaelPritchett\n\t\t\n\t\t10.1378/chest.1994043\n\t\n\t\n\t\tChest\n\t\tChest\n\t\t0012-3692\n\t\t\n\t\t\t146\n\t\t\t4\n\t\t\t728A\n\t\t\t2014\n\t\t\tElsevier BV",
+      "Cone Beam CT-Guided Endobronchial Biopsy Assisted by Augmented Fluoroscopy\n\t\t\n\t\t\tMichaelPritchett\n\t\t\n\t\t\n\t\t\tAlessandroRadaelli\n\t\t\n\t\t\n\t\t\tStéphanieSchampaert\n\t\t\n\t\t\n\t\t\tImramsjahVan Der Bom\n\t\t\n\t\t10.1016/j.chest.2017.08.921\n\t\n\t\n\t\tChest\n\t\tChest\n\t\t0012-3692\n\t\t\n\t\t\t152\n\t\t\t4\n\t\t\tA887\n\t\t\t2017\n\t\t\tElsevier BV",
+      "Feasibility of the Lungvision Augmented Endobronchial Fluoroscopic Navigation and Localization System: Comparison With Cone Beam CT for Nodule Localization\n\t\t\n\t\t\tMichaelPritchett\n\t\t\n\t\t10.1016/j.chest.2017.08.897\n\t\n\t\n\t\tChest\n\t\tChest\n\t\t0012-3692\n\t\t\n\t\t\t152\n\t\t\t4\n\t\t\tA863\n\t\t\t2017\n\t\t\tElsevier BV",
+      "Bronchoscopic Peripheral Lung Nodule Navigation by a Novel Live Endobronchial Fluoroscopic Navigation and Guidance Systemtechnology: Insights From the Multicenter Lungvision I Trial\n\t\t\n\t\t\tSeanStoy\n\t\t\n\t\t\n\t\t\tDouglasHogarth\n\t\t\n\t\t\n\t\t\tAkrumAl-Zubaidi\n\t\t\n\t\t\n\t\t\tPatrickWhitten\n\t\t\n\t\t10.1016/j.chest.2017.08.787\n\t\n\t\n\t\tChest\n\t\tChest\n\t\t0012-3692\n\t\t\n\t\t\t152\n\t\t\t4\n\t\t\tA757\n\t\t\t2017\n\t\t\tElsevier BV",
+      "Improved targeting accuracy of lung tumor biopsies with scanning‐beam digital x‐ray tomosynthesis image guidance\n\t\t\n\t\t\tGeoffNelson\n\t\t\n\t\t\n\t\t\tMengWu\n\t\t\n\t\t\n\t\t\tCameronHinkel\n\t\t\n\t\t\n\t\t\tGaneshKrishna\n\t\t\n\t\t\n\t\t\tTobiasFunk\n\t\t\n\t\t\n\t\t\tJarrettRosenberg\n\t\t\n\t\t\n\t\t\tRebeccaFahrig\n\t\t\n\t\t10.1118/1.4966025\n\t\n\t\n\t\tMedical Physics\n\t\tMedical Physics\n\t\t0094-2405\n\t\t2473-4209\n\t\t\n\t\t\t43\n\t\t\t12\n\t\t\t\n\t\t\t2016\n\t\t\tWiley",
+      "Electromagnetic navigation bronchoscopy to access lung lesions in 1,000 subjects: first results of the prospective, multicenter NAVIGATE study\n\t\t\n\t\t\tSandeepJKhandhar\n\t\t\n\t\t\n\t\t\tMarkRBowling\n\t\t\n\t\t\n\t\t\tJavierFlandes\n\t\t\n\t\t\n\t\t\tThomasRGildea\n\t\t\n\t\t\n\t\t\tKristinLHood\n\t\t\n\t\t\n\t\t\tWilliamSKrimsky\n\t\t\n\t\t\n\t\t\tDouglasJMinnich\n\t\t\n\t\t\n\t\t\tSeptimiuDMurgu\n\t\t\n\t\t\n\t\t\tMichaelPritchett\n\t\t\n\t\t\n\t\t\tEricMToloza\n\t\t\n\t\t\n\t\t\tMomenMWahidi\n\t\t\n\t\t\n\t\t\tJenniferJWolvers\n\t\t\n\t\t\n\t\t\tErikEFolch\n\t\t\n\t\t10.1186/s12890-017-0403-9\n\t\n\t\n\t\tBMC Pulmonary Medicine\n\t\tBMC Pulm Med\n\t\t1471-2466\n\t\t\n\t\t\t17\n\t\t\t1\n\t\t\t59\n\t\t\t2017\n\t\t\tSpringer Science and Business Media LLC",
+      "Bronchoscopic transparenchymal nodule access (BTPNA): first in human trial of a novel procedure for sampling solitary pulmonary nodules\n\t\t\n\t\t\tFJHerth\n\t\t\n\t\t\n\t\t\tREberhardt\n\t\t\n\t\t\n\t\t\tDSterman\n\t\t\n\t\t\n\t\t\tGASilvestri\n\t\t\n\t\t\n\t\t\tHHoffmann\n\t\t\n\t\t\n\t\t\tPLShah\n\t\t\n\t\t10.1136/thoraxjnl-2014-206211\n\t\n\t\n\t\tThorax\n\t\tThorax\n\t\t0040-6376\n\t\t\n\t\t\t70\n\t\t\t4\n\t\t\t\n\t\t\t2015\n\t\t\tBMJ",
+      "Bronchoscopic Transparenchymal Nodule Access: Feasibility and Safety in an Endoscopic Unit\n\t\t\n\t\t\tDHarzheim\n\t\t\n\t\t\n\t\t\tDSterman\n\t\t\n\t\t\n\t\t\tPLShah\n\t\t\n\t\n\t\n\t\tRespiration\n\t\t\n\t\t\t91\n\t\t\t\n\t\t\t2016",
+      "Going Off Road\n\t\t\n\t\t\tCarlosAnciano\n\t\t\n\t\t\n\t\t\tCraigBrown\n\t\t\n\t\t\n\t\t\tMarkBowling\n\t\t\n\t\t10.1097/lbr.0000000000000337\n\t\n\t\n\t\tJournal of Bronchology & Interventional Pulmonology\n\t\t1944-6586\n\t\t\n\t\t\t24\n\t\t\t3\n\t\t\t\n\t\t\t2017\n\t\t\tOvid Technologies (Wolters Kluwer Health)",
+      "Feasibility and Safety of the Transbronchial Access Tool for Peripheral Pulmonary Nodule and Mass\n\t\t\n\t\t\tMarkRBowling\n\t\t\n\t\t\n\t\t\tCraigBrown\n\t\t\n\t\t\n\t\t\tCarlosJAnciano\n\t\t\n\t\t10.1016/j.athoracsur.2017.02.035\n\t\n\t\n\t\tThe Annals of Thoracic Surgery\n\t\tThe Annals of Thoracic Surgery\n\t\t0003-4975\n\t\t\n\t\t\t104\n\t\t\t2\n\t\t\t\n\t\t\t2017\n\t\t\tElsevier BV",
+      "Comparison of the Thin Convex Probe Endobronchial Ultrasound Bronchoscope to Standard EBUS and Flexible Bronchoscope: A Cadaveric Study\n\t\t\n\t\t\tSeanCallahan\n\t\t\n\t\t\n\t\t\tNicholeTanner\n\t\t\n\t\t\n\t\t\tAlexanderChen\n\t\t\n\t\t\n\t\t\tThierryBacro\n\t\t\n\t\t\n\t\t\tGerardSilvestri\n\t\t\n\t\t\n\t\t\tNicholasPastis\n\t\t\n\t\t10.1016/j.chest.2016.08.1085\n\t\n\t\n\t\tChest\n\t\tChest\n\t\t0012-3692\n\t\t\n\t\t\t150\n\t\t\t4\n\t\t\t979A\n\t\t\t2016\n\t\t\tElsevier BV",
+      "First Evaluation of the New Thin Convex Probe Endobronchial Ultrasound Scope: A Human Ex Vivo Lung Study\n\t\t\n\t\t\tPriyaPatel\n\t\t\n\t\t\n\t\t\tHironobuWada\n\t\t\n\t\t\n\t\t\tHsin-PeiHu\n\t\t\n\t\t\n\t\t\tKentaroHirohashi\n\t\t\n\t\t\n\t\t\tTatsuyaKato\n\t\t\n\t\t\n\t\t\tHidekiUjiie\n\t\t\n\t\t\n\t\t\tJinYoungAhn\n\t\t\n\t\t\n\t\t\tDaiyoonLee\n\t\t\n\t\t\n\t\t\tWilliamGeddie\n\t\t\n\t\t\n\t\t\tKazuhiroYasufuku\n\t\t\n\t\t10.1016/j.athoracsur.2016.09.023\n\t\n\t\n\t\tThe Annals of Thoracic Surgery\n\t\tThe Annals of Thoracic Surgery\n\t\t0003-4975\n\t\t\n\t\t\t103\n\t\t\t4\n\t\t\t\n\t\t\t2017\n\t\t\tElsevier BV",
+      "Electromagnetic navigation transthoracic needle aspiration for the diagnosis of pulmonary nodules: a safety and feasibility pilot study\n\t\t\n\t\t\tLBYarmus\n\t\t\n\t\t\n\t\t\tSArias\n\t\t\n\t\t\n\t\t\tDFeller-Kopman\n\t\t\n\t\n\t\n\t\tJ Thorac Dis\n\t\t\n\t\t\t8\n\t\t\t\n\t\t\t2016",
+      "Performance of a Novel Pulmonary Needle Using Electromagnetic Navigation Bronchoscopy in a Porcine Lung Model\n\t\t\n\t\t\tScottSkibo\n\t\t\n\t\t\n\t\t\tJenniferMattingley\n\t\t\n\t\t\n\t\t\tCristobalAlvarado\n\t\t\n\t\t\n\t\t\tJustinPeltola\n\t\t\n\t\t\n\t\t\tJustinGrumbir\n\t\t\n\t\t\n\t\t\tKateHerdina\n\t\t\n\t\t\n\t\t\tMichaelKern\n\t\t\n\t\t\n\t\t\tKregHowk\n\t\t\n\t\t10.1016/j.chest.2017.08.996\n\t\n\t\n\t\tChest\n\t\tChest\n\t\t0012-3692\n\t\t\n\t\t\t152\n\t\t\t4\n\t\t\tA961\n\t\t\t2017\n\t\t\tElsevier BV",
+      "Robotic Endoscopic Airway Challenge: Reach Assessment\n\t\t\n\t\t\tAlexanderChen\n\t\t\n\t\t\n\t\t\tMomenWahidi\n\t\t\n\t\t\n\t\t\tColinGillespie\n\t\t\n\t\t\n\t\t\tJosephCicenia\n\t\t\n\t\t\n\t\t\tMichaelMachuzak\n\t\t\n\t\t\n\t\t\tThomasGildea\n\t\t\n\t\t\n\t\t\tSeptimiuMurgu\n\t\t\n\t\t\n\t\t\tRobertoCasal\n\t\t\n\t\t\n\t\t\tRabihBechara\n\t\t\n\t\t\n\t\t\tMichaelSimoff\n\t\t\n\t\t10.1016/j.chest.2017.08.916\n\t\n\t\n\t\tChest\n\t\tChest\n\t\t0012-3692\n\t\t\n\t\t\t152\n\t\t\t4\n\t\t\tA882\n\t\t\t2017\n\t\t\tElsevier BV",
+      "Robotic Endoscopic Airway Challenge: REACH Assessment\n\t\t\n\t\t\tAlexanderCChen\n\t\t\n\t\t\n\t\t\tColinTGillespie\n\t\t\n\t\t10.1016/j.athoracsur.2018.01.051\n\t\n\t\n\t\tThe Annals of Thoracic Surgery\n\t\tThe Annals of Thoracic Surgery\n\t\t0003-4975\n\t\t\n\t\t\t106\n\t\t\t1\n\t\t\t\n\t\t\t2018\n\t\t\tElsevier BV\n\t\t\n\t\n\tEpub ahead of print",
+      "First Human Use of a New Robotic-Assisted Navigation System for Small Peripheral Pulmonary Nodules Demonstrates Good Safety Profile and High Diagnostic Yield\n\t\t\n\t\t\tDavidFielding\n\t\t\n\t\t\n\t\t\tFarzadBashirzadeh\n\t\t\n\t\t\n\t\t\tJungHuaSon\n\t\t\n\t\t\n\t\t\tMaryannTodman\n\t\t\n\t\t\n\t\t\tHauTan\n\t\t\n\t\t\n\t\t\tAdrianChin\n\t\t\n\t\t\n\t\t\tKarinSteinke\n\t\t\n\t\t\n\t\t\tMorganWindsor\n\t\t\n\t\t10.1016/j.chest.2017.08.892\n\t\n\t\n\t\tChest\n\t\tChest\n\t\t0012-3692\n\t\t\n\t\t\t152\n\t\t\t4\n\t\t\tA858\n\t\t\t2017\n\t\t\tElsevier BV",
+      "Comparative Study of Three Different Catheters for CT Imaging-Bronchoscopy-Guided Radiofrequency Ablation as a Potential and Novel Interventional Therapy for Lung Cancer\n\t\t\n\t\t\tTsuyoshiTanabe\n\t\t\n\t\t\n\t\t\tTomonobuKoizumi\n\t\t\n\t\t\n\t\t\tKenjiTsushima\n\t\t\n\t\t\n\t\t\tMichikoIto\n\t\t\n\t\t\n\t\t\tShintaroKanda\n\t\t\n\t\t\n\t\t\tTakashiKobayashi\n\t\t\n\t\t\n\t\t\tMasanoriYasuo\n\t\t\n\t\t\n\t\t\tYoshitakaYamazaki\n\t\t\n\t\t\n\t\t\tKeishiKubo\n\t\t\n\t\t\n\t\t\tTakayukiHonda\n\t\t\n\t\t\n\t\t\tRyouichiKondo\n\t\t\n\t\t\n\t\t\tKazuoYoshida\n\t\t\n\t\t10.1378/chest.09-1065\n\t\n\t\n\t\tChest\n\t\tChest\n\t\t0012-3692\n\t\t\n\t\t\t137\n\t\t\t4\n\t\t\t\n\t\t\t2010\n\t\t\tElsevier BV",
+      "Clinical Experience of Bronchoscopy-Guided Radiofrequency Ablation for Peripheral-Type Lung Cancer\n\t\t\n\t\t\tTomonobuKoizumi\n\t\t\n\t\t\n\t\t\tTakashiKobayashi\n\t\t\n\t\t\n\t\t\tTsuyoshiTanabe\n\t\t\n\t\t\n\t\t\tKenjiTsushima\n\t\t\n\t\t\n\t\t\tMasanoriYasuo\n\t\t\n\t\t10.1155/2013/515160\n\t\n\t\n\t\tCase Reports in Oncological Medicine\n\t\tCase Reports in Oncological Medicine\n\t\t2090-6706\n\t\t2090-6714\n\t\t\n\t\t\t2013\n\t\t\t\n\t\t\t2013\n\t\t\tHindawi Limited",
+      "Bronchoscopy-Guided Cooled Radiofrequency Ablation as a Novel Intervention Therapy for Peripheral Lung Cancer\n\t\t\n\t\t\tTomonobuKoizumi\n\t\t\t0000-0002-5182-0960\n\t\t\n\t\t\n\t\t\tKenjiTsushima\n\t\t\n\t\t\n\t\t\tTsuyoshiTanabe\n\t\t\n\t\t\n\t\t\tToshihikoAgatsuma\n\t\t\n\t\t\n\t\t\tToshikiYokoyama\n\t\t\n\t\t\n\t\t\tMichikoIto\n\t\t\n\t\t\n\t\t\tShintaroKanda\n\t\t\n\t\t\n\t\t\tTakashiKobayashi\n\t\t\n\t\t\n\t\t\tMasanoriYasuo\n\t\t\n\t\t10.1159/000430825\n\t\n\t\n\t\tRespiration\n\t\tRespiration\n\t\t0025-7931\n\t\t1423-0356\n\t\t\n\t\t\t90\n\t\t\t1\n\t\t\t\n\t\t\t2015\n\t\t\tS. Karger AG",
+      "Navigation Bronchoscopy-Guided Radiofrequency Ablation for Nonsurgical Peripheral Pulmonary Tumors\n\t\t\n\t\t\tFangfangXie\n\t\t\n\t\t\n\t\t\tXiaoxuanZheng\n\t\t\n\t\t\n\t\t\tBoXiao\n\t\t\n\t\t\n\t\t\tBaohuiHan\n\t\t\n\t\t\n\t\t\tFelixJ FHerth\n\t\t\t0000-0002-7638-2506\n\t\t\n\t\t\n\t\t\tJiayuanSun\n\t\t\n\t\t10.1159/000477764\n\t\n\t\n\t\tRespiration\n\t\tRespiration\n\t\t0025-7931\n\t\t1423-0356\n\t\t\n\t\t\t94\n\t\t\t3\n\t\t\t\n\t\t\t2017\n\t\t\tS. Karger AG",
+      "Clinical analysis on 113 patients with lung cancer treated by percutaneous CT-guided microwave ablation\n\t\t\n\t\t\tLouZhong\n\t\t\n\t\t\n\t\t\tSiyuanSun\n\t\t\n\t\t\n\t\t\tJiahaiShi\n\t\t\n\t\t\n\t\t\tFeiCao\n\t\t\n\t\t\n\t\t\tXiaoHan\n\t\t\n\t\t\n\t\t\tXuepingBao\n\t\t\n\t\t\n\t\t\tQingshengYou\n\t\t\n\t\t10.21037/jtd.2017.03.14\n\t\n\t\n\t\tJournal of Thoracic Disease\n\t\tJ. Thorac. Dis.\n\t\t2072-1439\n\t\t2077-6624\n\t\t\n\t\t\t9\n\t\t\t3\n\t\t\t\n\t\t\t2017\n\t\t\tAME Publishing Company",
+      "Long-term outcomes after near-infrared sentinel lymph node mapping in non–small cell lung cancer\n\t\t\n\t\t\tChristopherSDigesu\n\t\t\n\t\t\n\t\t\tKristaJHachey\n\t\t\n\t\t\n\t\t\tDenisMGilmore\n\t\t\n\t\t\n\t\t\tOnkarVKhullar\n\t\t\n\t\t\n\t\t\tHisashiTsukada\n\t\t\n\t\t\n\t\t\tBrianWhang\n\t\t\n\t\t\n\t\t\tLucianRChirieac\n\t\t\n\t\t\n\t\t\tRobertFPadera\n\t\t\n\t\t\n\t\t\tMichaelTJaklitsch\n\t\t\n\t\t\n\t\t\tYolondaLColson\n\t\t\n\t\t10.1016/j.jtcvs.2017.09.150\n\t\n\t\n\t\tThe Journal of Thoracic and Cardiovascular Surgery\n\t\tThe Journal of Thoracic and Cardiovascular Surgery\n\t\t0022-5223\n\t\t\n\t\t\t155\n\t\t\t3\n\t\t\t\n\t\t\t2018\n\t\t\tElsevier BV",
+      "Inhibition of experimental lung metastasis by systemic lentiviral delivery of kallistatin\n\t\t\n\t\t\tAi-LiShiau\n\t\t\n\t\t\n\t\t\tMin-LiTeo\n\t\t\n\t\t\n\t\t\tShin-YaoChen\n\t\t\n\t\t\n\t\t\tChrong-ReenWang\n\t\t\n\t\t\n\t\t\tJeng-LongHsieh\n\t\t\n\t\t\n\t\t\tMeng-YaChang\n\t\t\n\t\t\n\t\t\tChih-JuiChang\n\t\t\n\t\t\n\t\t\tJulieChao\n\t\t\n\t\t\n\t\t\tLeeChao\n\t\t\n\t\t\n\t\t\tChao-LiangWu\n\t\t\n\t\t\n\t\t\tChe-HsinLee\n\t\t\n\t\t10.1186/1471-2407-10-245\n\t\n\t\n\t\tBMC Cancer\n\t\tBMC Cancer\n\t\t1471-2407\n\t\t\n\t\t\t10\n\t\t\t1\n\t\t\t245\n\t\t\t2010\n\t\t\tSpringer Science and Business Media LLC"
+    ],
+    "references_raw": [
+      "Cone Beam Computertomography (CBCT) in Interventional Chest Medicine -High Feasibility for Endobronchial Realtime Navigation\n\t\t\n\t\t\tWHohenforst-Schmidt\n\t\t\n\t\t\n\t\t\tPZarogoulidis\n\t\t\n\t\t\n\t\t\tTVogl\n\t\t\n\t\n\t\n\t\tJ Cancer\n\t\t\n\t\t\t5\n\t\t\t\n\t\t\t2014",
+      "Factors associated with the diagnostic yield of computed tomography-guided transbronchial lung biopsy\n\t\t\n\t\t\tSCPark\n\t\t\n\t\t\n\t\t\tCJKim\n\t\t\n\t\t\n\t\t\tCHHan\n\t\t\n\t\n\t\n\t\tThorac Cancer\n\t\t\n\t\t\t8\n\t\t\t\n\t\t\t2017",
+      "Cone-Beam CT Scanning With Electromagnetic Navigation Bronchoscopy\n\t\t\n\t\t\tMPritchett\n\t\t\n\t\n\t\n\t\tChest\n\t\t\n\t\t\t146\n\t\t\t728A\n\t\t\t2014",
+      "Cone Beam CT-Guided Endobronchial Biopsy Assisted by Augmented Fluoroscopy\n\t\t\n\t\t\tMPritchett\n\t\t\n\t\t\n\t\t\tARadaelli\n\t\t\n\t\t\n\t\t\tSSchampaert\n\t\t\n\t\n\t\n\t\tChest\n\t\t\n\t\t\t152\n\t\t\t887\n\t\t\t2017",
+      "Feasibility of the Lungvision Augmented Endobronchial Fluoroscopic Navigation and Localization System: Comparison With Cone Beam CT for Nodule Localization\n\t\t\n\t\t\tMPritchett\n\t\t\n\t\n\t\n\t\tChest\n\t\t\n\t\t\t152\n\t\t\tA863\n\t\t\t2017",
+      "Bronchoscopic Peripheral Lung Nodule Navigation by a Novel Live Endobronchial Fluoroscopic Navigation and Guidance Systemtechnology: Insights From the Multicenter Lungvision I Trial\n\t\t\n\t\t\tSStoy\n\t\t\n\t\t\n\t\t\tDHogarth\n\t\t\n\t\t\n\t\t\tAAl-Zubaidi\n\t\t\n\t\n\t\n\t\tChest\n\t\t\n\t\t\t152\n\t\t\tA757\n\t\t\t2017",
+      "Improved targeting accuracy of lung tumor biopsies with scanning-beam digital x-ray tomosynthesis image guidance\n\t\t\n\t\t\tGNelson\n\t\t\n\t\t\n\t\t\tMWu\n\t\t\n\t\t\n\t\t\tCHinkel\n\t\t\n\t\n\t\n\t\tMed Phys\n\t\t\n\t\t\t43\n\t\t\t6282\n\t\t\t2016",
+      "Electromagnetic navigation bronchoscopy to access lung lesions in 1,000 subjects: first results of the prospective, multicenter NAVIGATE study\n\t\t\n\t\t\tSJKhandhar\n\t\t\n\t\t\n\t\t\tMRBowling\n\t\t\n\t\t\n\t\t\tJFlandes\n\t\t\n\t\n\t\n\t\tBMC Pulm Med\n\t\t\n\t\t\t17\n\t\t\t59\n\t\t\t2017",
+      "Bronchoscopic transparenchymal nodule access (BTPNA): first in human trial of a novel procedure for sampling solitary pulmonary nodules\n\t\t\n\t\t\tFJHerth\n\t\t\n\t\t\n\t\t\tREberhardt\n\t\t\n\t\t\n\t\t\tDSterman\n\t\t\n\t\n\t\n\t\tThorax\n\t\t\n\t\t\t70\n\t\t\t\n\t\t\t2015",
+      "Bronchoscopic Transparenchymal Nodule Access: Feasibility and Safety in an Endoscopic Unit\n\t\t\n\t\t\tDHarzheim\n\t\t\n\t\t\n\t\t\tDSterman\n\t\t\n\t\t\n\t\t\tPLShah\n\t\t\n\t\n\t\n\t\tRespiration\n\t\t\n\t\t\t91\n\t\t\t\n\t\t\t2016",
+      "Going Off Road: The First Case Reports of the Use of the Transbronchial Access Tool With Electromagnetic Navigational Bronchoscopy\n\t\t\n\t\t\tCAnciano\n\t\t\n\t\t\n\t\t\tCBrown\n\t\t\n\t\t\n\t\t\tMBowling\n\t\t\n\t\n\t\n\t\tJ Bronchology Interv Pulmonol\n\t\t\n\t\t\t24\n\t\t\t\n\t\t\t2017",
+      "Feasibility and Safety of the Transbronchial Access Tool for Peripheral Pulmonary Nodule and Mass\n\t\t\n\t\t\tMRBowling\n\t\t\n\t\t\n\t\t\tCBrown\n\t\t\n\t\t\n\t\t\tCJAnciano\n\t\t\n\t\n\t\n\t\tAnn Thorac Surg\n\t\t\n\t\t\t104\n\t\t\t\n\t\t\t2017",
+      "Comparison of the Thin Convex Probe Endobronchial Ultrasound Bronchoscope to Standard EBUS and Flexible Bronchoscope: A Cadaveric Study\n\t\t\n\t\t\tSCallahan\n\t\t\n\t\t\n\t\t\tNTanner\n\t\t\n\t\t\n\t\t\tAChen\n\t\t\n\t\n\t\n\t\tChest\n\t\t\n\t\t\t150\n\t\t\t979A\n\t\t\t2016",
+      "First Evaluation of the New Thin Convex Probe Endobronchial Ultrasound Scope: A Human Ex Vivo Lung Study\n\t\t\n\t\t\tPPatel\n\t\t\n\t\t\n\t\t\tHWada\n\t\t\n\t\t\n\t\t\tHPHu\n\t\t\n\t\n\t\n\t\tAnn Thorac Surg\n\t\t\n\t\t\t103\n\t\t\t\n\t\t\t2017",
+      "Electromagnetic navigation transthoracic needle aspiration for the diagnosis of pulmonary nodules: a safety and feasibility pilot study\n\t\t\n\t\t\tLBYarmus\n\t\t\n\t\t\n\t\t\tSArias\n\t\t\n\t\t\n\t\t\tDFeller-Kopman\n\t\t\n\t\n\t\n\t\tJ Thorac Dis\n\t\t\n\t\t\t8\n\t\t\t\n\t\t\t2016",
+      "Performance of a Novel Pulmonary Needle Using Electromagnetic Navigation Bronchoscopy in a Porcine Lung Model\n\t\t\n\t\t\tSSkibo\n\t\t\n\t\t\n\t\t\tJMattingley\n\t\t\n\t\t\n\t\t\tCAlvarado\n\t\t\n\t\n\t\n\t\tChest\n\t\t\n\t\t\t152\n\t\t\tA961\n\t\t\t2017",
+      "Robotic Endoscopic Airway Challenge: Reach Assessment\n\t\t\n\t\t\tAChen\n\t\t\n\t\t\n\t\t\tMWahidi\n\t\t\n\t\t\n\t\t\tCGillespie\n\t\t\n\t\n\t\n\t\tChest\n\t\t\n\t\t\t152\n\t\t\tA882\n\t\t\t2017",
+      "Robotic Endoscopic Airway Challenge: REACH Assessment\n\t\t\n\t\t\tACChen\n\t\t\n\t\t\n\t\t\tCTGillespie\n\t\t\n\t\n\t\n\t\tAnn Thorac Surg\n\t\t\n\t\t\t2018\n\t\t\n\t\n\tEpub ahead of print",
+      "First Human Use of a New Robotic-Assisted Navigation System for Small Peripheral Pulmonary Nodules Demonstrates Good Safety Profile and High Diagnostic Yield\n\t\t\n\t\t\tDFielding\n\t\t\n\t\t\n\t\t\tFBashirzadeh\n\t\t\n\t\t\n\t\t\tJHSon\n\t\t\n\t\n\t\n\t\tChest\n\t\t\n\t\t\t152\n\t\t\t858\n\t\t\t2017",
+      "Comparative study of three different catheters for CT imagingbronchoscopy-guided radiofrequency ablation as a potential and novel interventional therapy for lung cancer\n\t\t\n\t\t\tTTanabe\n\t\t\n\t\t\n\t\t\tTKoizumi\n\t\t\n\t\t\n\t\t\tKTsushima\n\t\t\n\t\n\t\n\t\tChest\n\t\t\n\t\t\t137\n\t\t\t\n\t\t\t2010",
+      "Clinical experience of bronchoscopy-guided radiofrequency ablation for peripheral-type lung cancer\n\t\t\n\t\t\tTKoizumi\n\t\t\n\t\t\n\t\t\tTKobayashi\n\t\t\n\t\t\n\t\t\tTTanabe\n\t\t\n\t\n\t\n\t\tCase Rep Oncol Med\n\t\t\n\t\t\t2013\n\t\t\t515160\n\t\t\t2013",
+      "Bronchoscopy-Guided Cooled Radiofrequency Ablation as a Novel Intervention Therapy for Peripheral Lung Cancer\n\t\t\n\t\t\tTKoizumi\n\t\t\n\t\t\n\t\t\tKTsushima\n\t\t\n\t\t\n\t\t\tTTanabe\n\t\t\n\t\n\t\n\t\tRespiration\n\t\t\n\t\t\t90\n\t\t\t\n\t\t\t2015",
+      "Navigation Bronchoscopy-Guided Radiofrequency Ablation for Nonsurgical Peripheral Pulmonary Tumors\n\t\t\n\t\t\tFXie\n\t\t\n\t\t\n\t\t\tXZheng\n\t\t\n\t\t\n\t\t\tBXiao\n\t\t\n\t\n\t\n\t\tRespiration\n\t\t\n\t\t\t94\n\t\t\t\n\t\t\t2017",
+      "Clinical analysis on 113 patients with lung cancer treated by percutaneous CTguided microwave ablation\n\t\t\n\t\t\tLZhong\n\t\t\n\t\t\n\t\t\tSSun\n\t\t\n\t\t\n\t\t\tJShi\n\t\t\n\t\n\t\n\t\tJ Thorac Dis\n\t\t\n\t\t\t9\n\t\t\t\n\t\t\t2017",
+      "Long-term outcomes after near-infrared sentinel lymph node mapping in non-small cell lung cancer\n\t\t\n\t\t\tCSDigesu\n\t\t\n\t\t\n\t\t\tKJHachey\n\t\t\n\t\t\n\t\t\tDMGilmore\n\t\t\n\t\n\t\n\t\tJ Thorac Cardiovasc Surg\n\t\t\n\t\t\t155\n\t\t\t\n\t\t\t2018",
+      "Inhibition of experimental lung metastasis by systemic lentiviral delivery of kallistatin\n\t\t\n\t\t\tALShiau\n\t\t\n\t\t\n\t\t\tMLTeo\n\t\t\n\t\t\n\t\t\tSYChen\n\t\t\n\t\n\t\n\t\tBMC Cancer\n\t\t\n\t\t\t10\n\t\t\t245\n\t\t\t2010"
+    ],
+    "references_struct": [
+      {
+        "title": "Cone Beam Computertomography (CBCT) in Interventional Chest Medicine -High Feasibility for Endobronchial Realtime Navigation",
+        "journal": "J Cancer",
+        "year": "2014",
+        "volume": "5",
+        "issue": null,
+        "pages": null,
+        "doi": null,
+        "pmid": null,
+        "authors": [
+          "Hohenforst-Schmidt W",
+          "Zarogoulidis P",
+          "Vogl T"
+        ],
+        "first_author_last": "Hohenforst-Schmidt"
+      },
+      {
+        "title": "Factors associated with the diagnostic yield of computed tomography-guided transbronchial lung biopsy",
+        "journal": "Thorac Cancer",
+        "year": "2017",
+        "volume": "8",
+        "issue": null,
+        "pages": null,
+        "doi": null,
+        "pmid": null,
+        "authors": [
+          "Park SC",
+          "Kim CJ",
+          "Han CH"
+        ],
+        "first_author_last": "Park"
+      },
+      {
+        "title": "Cone-Beam CT Scanning With Electromagnetic Navigation Bronchoscopy",
+        "journal": "Chest",
+        "year": "2014",
+        "volume": "146",
+        "issue": null,
+        "pages": "728A",
+        "doi": null,
+        "pmid": null,
+        "authors": [
+          "Pritchett M"
+        ],
+        "first_author_last": "Pritchett"
+      },
+      {
+        "title": "Cone Beam CT-Guided Endobronchial Biopsy Assisted by Augmented Fluoroscopy",
+        "journal": "Chest",
+        "year": "2017",
+        "volume": "152",
+        "issue": null,
+        "pages": "887",
+        "doi": null,
+        "pmid": null,
+        "authors": [
+          "Pritchett M",
+          "Radaelli A",
+          "Schampaert S"
+        ],
+        "first_author_last": "Pritchett"
+      },
+      {
+        "title": "Feasibility of the Lungvision Augmented Endobronchial Fluoroscopic Navigation and Localization System: Comparison With Cone Beam CT for Nodule Localization",
+        "journal": "Chest",
+        "year": "2017",
+        "volume": "152",
+        "issue": null,
+        "pages": "A863",
+        "doi": null,
+        "pmid": null,
+        "authors": [
+          "Pritchett M"
+        ],
+        "first_author_last": "Pritchett"
+      },
+      {
+        "title": "Bronchoscopic Peripheral Lung Nodule Navigation by a Novel Live Endobronchial Fluoroscopic Navigation and Guidance Systemtechnology: Insights From the Multicenter Lungvision I Trial",
+        "journal": "Chest",
+        "year": "2017",
+        "volume": "152",
+        "issue": null,
+        "pages": "A757",
+        "doi": null,
+        "pmid": null,
+        "authors": [
+          "Stoy S",
+          "Hogarth D",
+          "Al-Zubaidi A"
+        ],
+        "first_author_last": "Stoy"
+      },
+      {
+        "title": "Improved targeting accuracy of lung tumor biopsies with scanning-beam digital x-ray tomosynthesis image guidance",
+        "journal": "Med Phys",
+        "year": "2016",
+        "volume": "43",
+        "issue": null,
+        "pages": "6282",
+        "doi": null,
+        "pmid": null,
+        "authors": [
+          "Nelson G",
+          "Wu M",
+          "Hinkel C"
+        ],
+        "first_author_last": "Nelson"
+      },
+      {
+        "title": "Electromagnetic navigation bronchoscopy to access lung lesions in 1,000 subjects: first results of the prospective, multicenter NAVIGATE study",
+        "journal": "BMC Pulm Med",
+        "year": "2017",
+        "volume": "17",
+        "issue": null,
+        "pages": "59",
+        "doi": null,
+        "pmid": null,
+        "authors": [
+          "Khandhar SJ",
+          "Bowling MR",
+          "Flandes J"
+        ],
+        "first_author_last": "Khandhar"
+      },
+      {
+        "title": "Bronchoscopic transparenchymal nodule access (BTPNA): first in human trial of a novel procedure for sampling solitary pulmonary nodules",
+        "journal": "Thorax",
+        "year": "2015",
+        "volume": "70",
+        "issue": null,
+        "pages": null,
+        "doi": null,
+        "pmid": null,
+        "authors": [
+          "Herth FJ",
+          "Eberhardt R",
+          "Sterman D"
+        ],
+        "first_author_last": "Herth"
+      },
+      {
+        "title": "Bronchoscopic Transparenchymal Nodule Access: Feasibility and Safety in an Endoscopic Unit",
+        "journal": "Respiration",
+        "year": "2016",
+        "volume": "91",
+        "issue": null,
+        "pages": null,
+        "doi": null,
+        "pmid": null,
+        "authors": [
+          "Harzheim D",
+          "Sterman D",
+          "Shah PL"
+        ],
+        "first_author_last": "Harzheim"
+      },
+      {
+        "title": "Going Off Road: The First Case Reports of the Use of the Transbronchial Access Tool With Electromagnetic Navigational Bronchoscopy",
+        "journal": "J Bronchology Interv Pulmonol",
+        "year": "2017",
+        "volume": "24",
+        "issue": null,
+        "pages": null,
+        "doi": null,
+        "pmid": null,
+        "authors": [
+          "Anciano C",
+          "Brown C",
+          "Bowling M"
+        ],
+        "first_author_last": "Anciano"
+      },
+      {
+        "title": "Feasibility and Safety of the Transbronchial Access Tool for Peripheral Pulmonary Nodule and Mass",
+        "journal": "Ann Thorac Surg",
+        "year": "2017",
+        "volume": "104",
+        "issue": null,
+        "pages": null,
+        "doi": null,
+        "pmid": null,
+        "authors": [
+          "Bowling MR",
+          "Brown C",
+          "Anciano CJ"
+        ],
+        "first_author_last": "Bowling"
+      },
+      {
+        "title": "Comparison of the Thin Convex Probe Endobronchial Ultrasound Bronchoscope to Standard EBUS and Flexible Bronchoscope: A Cadaveric Study",
+        "journal": "Chest",
+        "year": "2016",
+        "volume": "150",
+        "issue": null,
+        "pages": "979A",
+        "doi": null,
+        "pmid": null,
+        "authors": [
+          "Callahan S",
+          "Tanner N",
+          "Chen A"
+        ],
+        "first_author_last": "Callahan"
+      },
+      {
+        "title": "First Evaluation of the New Thin Convex Probe Endobronchial Ultrasound Scope: A Human Ex Vivo Lung Study",
+        "journal": "Ann Thorac Surg",
+        "year": "2017",
+        "volume": "103",
+        "issue": null,
+        "pages": null,
+        "doi": null,
+        "pmid": null,
+        "authors": [
+          "Patel P",
+          "Wada H",
+          "Hu HP"
+        ],
+        "first_author_last": "Patel"
+      },
+      {
+        "title": "Electromagnetic navigation transthoracic needle aspiration for the diagnosis of pulmonary nodules: a safety and feasibility pilot study",
+        "journal": "J Thorac Dis",
+        "year": "2016",
+        "volume": "8",
+        "issue": null,
+        "pages": null,
+        "doi": null,
+        "pmid": null,
+        "authors": [
+          "Yarmus LB",
+          "Arias S",
+          "Feller-Kopman D"
+        ],
+        "first_author_last": "Yarmus"
+      },
+      {
+        "title": "Performance of a Novel Pulmonary Needle Using Electromagnetic Navigation Bronchoscopy in a Porcine Lung Model",
+        "journal": "Chest",
+        "year": "2017",
+        "volume": "152",
+        "issue": null,
+        "pages": "A961",
+        "doi": null,
+        "pmid": null,
+        "authors": [
+          "Skibo S",
+          "Mattingley J",
+          "Alvarado C"
+        ],
+        "first_author_last": "Skibo"
+      },
+      {
+        "title": "Robotic Endoscopic Airway Challenge: Reach Assessment",
+        "journal": "Chest",
+        "year": "2017",
+        "volume": "152",
+        "issue": null,
+        "pages": "A882",
+        "doi": null,
+        "pmid": null,
+        "authors": [
+          "Chen A",
+          "Wahidi M",
+          "Gillespie C"
+        ],
+        "first_author_last": "Chen"
+      },
+      {
+        "title": "Robotic Endoscopic Airway Challenge: REACH Assessment",
+        "journal": "Ann Thorac Surg",
+        "year": "2018",
+        "volume": null,
+        "issue": null,
+        "pages": null,
+        "doi": null,
+        "pmid": null,
+        "authors": [
+          "Chen AC",
+          "Gillespie CT"
+        ],
+        "first_author_last": "Chen"
+      },
+      {
+        "title": "First Human Use of a New Robotic-Assisted Navigation System for Small Peripheral Pulmonary Nodules Demonstrates Good Safety Profile and High Diagnostic Yield",
+        "journal": "Chest",
+        "year": "2017",
+        "volume": "152",
+        "issue": null,
+        "pages": "858",
+        "doi": null,
+        "pmid": null,
+        "authors": [
+          "Fielding D",
+          "Bashirzadeh F",
+          "Son JH"
+        ],
+        "first_author_last": "Fielding"
+      },
+      {
+        "title": "Comparative study of three different catheters for CT imagingbronchoscopy-guided radiofrequency ablation as a potential and novel interventional therapy for lung cancer",
+        "journal": "Chest",
+        "year": "2010",
+        "volume": "137",
+        "issue": null,
+        "pages": null,
+        "doi": null,
+        "pmid": null,
+        "authors": [
+          "Tanabe T",
+          "Koizumi T",
+          "Tsushima K"
+        ],
+        "first_author_last": "Tanabe"
+      },
+      {
+        "title": "Clinical experience of bronchoscopy-guided radiofrequency ablation for peripheral-type lung cancer",
+        "journal": "Case Rep Oncol Med",
+        "year": "2013",
+        "volume": "2013",
+        "issue": null,
+        "pages": "515160",
+        "doi": null,
+        "pmid": null,
+        "authors": [
+          "Koizumi T",
+          "Kobayashi T",
+          "Tanabe T"
+        ],
+        "first_author_last": "Koizumi"
+      },
+      {
+        "title": "Bronchoscopy-Guided Cooled Radiofrequency Ablation as a Novel Intervention Therapy for Peripheral Lung Cancer",
+        "journal": "Respiration",
+        "year": "2015",
+        "volume": "90",
+        "issue": null,
+        "pages": null,
+        "doi": null,
+        "pmid": null,
+        "authors": [
+          "Koizumi T",
+          "Tsushima K",
+          "Tanabe T"
+        ],
+        "first_author_last": "Koizumi"
+      },
+      {
+        "title": "Navigation Bronchoscopy-Guided Radiofrequency Ablation for Nonsurgical Peripheral Pulmonary Tumors",
+        "journal": "Respiration",
+        "year": "2017",
+        "volume": "94",
+        "issue": null,
+        "pages": null,
+        "doi": null,
+        "pmid": null,
+        "authors": [
+          "Xie F",
+          "Zheng X",
+          "Xiao B"
+        ],
+        "first_author_last": "Xie"
+      },
+      {
+        "title": "Clinical analysis on 113 patients with lung cancer treated by percutaneous CTguided microwave ablation",
+        "journal": "J Thorac Dis",
+        "year": "2017",
+        "volume": "9",
+        "issue": null,
+        "pages": null,
+        "doi": null,
+        "pmid": null,
+        "authors": [
+          "Zhong L",
+          "Sun S",
+          "Shi J"
+        ],
+        "first_author_last": "Zhong"
+      },
+      {
+        "title": "Long-term outcomes after near-infrared sentinel lymph node mapping in non-small cell lung cancer",
+        "journal": "J Thorac Cardiovasc Surg",
+        "year": "2018",
+        "volume": "155",
+        "issue": null,
+        "pages": null,
+        "doi": null,
+        "pmid": null,
+        "authors": [
+          "Digesu CS",
+          "Hachey KJ",
+          "Gilmore DM"
+        ],
+        "first_author_last": "Digesu"
+      },
+      {
+        "title": "Inhibition of experimental lung metastasis by systemic lentiviral delivery of kallistatin",
+        "journal": "BMC Cancer",
+        "year": "2010",
+        "volume": "10",
+        "issue": null,
+        "pages": "245",
+        "doi": null,
+        "pmid": null,
+        "authors": [
+          "Shiau AL",
+          "Teo ML",
+          "Chen SY"
+        ],
+        "first_author_last": "Shiau"
+      }
+    ],
+    "references_enriched": [
+      {
+        "title": "Cone Beam Computertomography (CBCT) in Interventional Chest Medicine -High Feasibility for Endobronchial Realtime Navigation"
+      },
+      {
+        "title": "J Cancer",
+        "year": 2014
+      },
+      {
+        "title": "Factors associated with the diagnostic yield of computed tomography-guided transbronchial lung biopsy",
+        "year": 2014
+      },
+      {
+        "title": "Thorac Cancer",
+        "year": 2017
+      },
+      {
+        "title": "Cone-Beam CT Scanning With Electromagnetic Navigation Bronchoscopy",
+        "year": 2017
+      },
+      {
+        "title": "Chest"
+      },
+      {
+        "title": "Cone Beam CT-Guided Endobronchial Biopsy Assisted by Augmented Fluoroscopy",
+        "year": 2014
+      },
+      {
+        "title": "Chest"
+      },
+      {
+        "title": "Feasibility of the Lungvision Augmented Endobronchial Fluoroscopic Navigation and Localization System: Comparison With Cone Beam CT for Nodule Localization",
+        "year": 2017
+      },
+      {
+        "title": "Chest"
+      },
+      {
+        "title": "Bronchoscopic Peripheral Lung Nodule Navigation by a Novel Live Endobronchial Fluoroscopic Navigation and Guidance Systemtechnology: Insights From the Multicenter Lungvision I Trial",
+        "year": 2017
+      },
+      {
+        "title": "Chest"
+      },
+      {
+        "title": "Improved targeting accuracy of lung tumor biopsies with scanning-beam digital x-ray tomosynthesis image guidance",
+        "year": 2017
+      },
+      {
+        "title": "Med Phys",
+        "year": 2016
+      },
+      {
+        "title": "Electromagnetic navigation bronchoscopy to access lung lesions in 1,000 subjects: first results of the prospective, multicenter NAVIGATE study",
+        "year": 2016
+      },
+      {
+        "title": "BMC Pulm Med",
+        "year": 2017
+      },
+      {
+        "title": "Bronchoscopic transparenchymal nodule access (BTPNA): first in human trial of a novel procedure for sampling solitary pulmonary nodules",
+        "year": 2017
+      },
+      {
+        "title": "Thorax",
+        "year": 2015
+      },
+      {
+        "title": "Bronchoscopic Transparenchymal Nodule Access: Feasibility and Safety in an Endoscopic Unit",
+        "year": 2015
+      },
+      {
+        "title": "Respiration",
+        "year": 2016
+      },
+      {
+        "title": "Going Off Road: The First Case Reports of the Use of the Transbronchial Access Tool With Electromagnetic Navigational Bronchoscopy",
+        "year": 2016
+      },
+      {
+        "title": "J Bronchology Interv Pulmonol",
+        "year": 2017
+      },
+      {
+        "title": "Feasibility and Safety of the Transbronchial Access Tool for Peripheral Pulmonary Nodule and Mass",
+        "year": 2017
+      },
+      {
+        "title": "Ann Thorac Surg",
+        "year": 2017
+      },
+      {
+        "title": "Comparison of the Thin Convex Probe Endobronchial Ultrasound Bronchoscope to Standard EBUS and Flexible Bronchoscope: A Cadaveric Study",
+        "year": 2017
+      },
+      {
+        "title": "Chest"
+      },
+      {
+        "title": "First Evaluation of the New Thin Convex Probe Endobronchial Ultrasound Scope: A Human Ex Vivo Lung Study",
+        "year": 2016
+      },
+      {
+        "title": "Ann Thorac Surg",
+        "year": 2017
+      },
+      {
+        "title": "Electromagnetic navigation transthoracic needle aspiration for the diagnosis of pulmonary nodules: a safety and feasibility pilot study",
+        "year": 2017
+      },
+      {
+        "title": "J Thorac Dis",
+        "year": 2016
+      },
+      {
+        "title": "Performance of a Novel Pulmonary Needle Using Electromagnetic Navigation Bronchoscopy in a Porcine Lung Model",
+        "year": 2016
+      },
+      {
+        "title": "Chest"
+      },
+      {
+        "title": "Robotic Endoscopic Airway Challenge: Reach Assessment",
+        "year": 2017
+      },
+      {
+        "title": "Chest"
+      },
+      {
+        "title": "Robotic Endoscopic Airway Challenge: REACH Assessment",
+        "year": 2017
+      },
+      {
+        "title": "Ann Thorac Surg",
+        "year": 2017
+      },
+      {
+        "title": "First Human Use of a New Robotic-Assisted Navigation System for Small Peripheral Pulmonary Nodules Demonstrates Good Safety Profile and High Diagnostic Yield",
+        "year": 2018
+      },
+      {
+        "title": "Chest"
+      },
+      {
+        "title": "Comparative study of three different catheters for CT imagingbronchoscopy-guided radiofrequency ablation as a potential and novel interventional therapy for lung cancer",
+        "year": 2017
+      },
+      {
+        "title": "Chest"
+      },
+      {
+        "title": "Clinical experience of bronchoscopy-guided radiofrequency ablation for peripheral-type lung cancer",
+        "year": 2010
+      },
+      {
+        "title": "Case Rep Oncol Med",
+        "year": 2013
+      },
+      {
+        "title": "Bronchoscopy-Guided Cooled Radiofrequency Ablation as a Novel Intervention Therapy for Peripheral Lung Cancer",
+        "year": 2013
+      },
+      {
+        "title": "Respiration",
+        "year": 2016
+      },
+      {
+        "title": "Navigation Bronchoscopy-Guided Radiofrequency Ablation for Nonsurgical Peripheral Pulmonary Tumors",
+        "year": 2015
+      },
+      {
+        "title": "Respiration",
+        "year": 2016
+      },
+      {
+        "title": "Clinical analysis on 113 patients with lung cancer treated by percutaneous CTguided microwave ablation",
+        "year": 2017
+      },
+      {
+        "title": "J Thorac Dis",
+        "year": 2016
+      },
+      {
+        "title": "Long-term outcomes after near-infrared sentinel lymph node mapping in non-small cell lung cancer",
+        "year": 2017
+      },
+      {
+        "title": "J Thorac Cardiovasc Surg",
+        "year": 2018
+      },
+      {
+        "title": "Inhibition of experimental lung metastasis by systemic lentiviral delivery of kallistatin",
+        "year": 2018
+      },
+      {
+        "title": "BMC Cancer",
+        "year": 2010
+      }
+    ],
+    "references_source": "grobid_fallback"
+  },
+  "structure": {
+    "sections": [
+      {
+        "title": "Introduction",
+        "paragraphs": [
+          {
+            "text": "The last several years have seen substantive improvements and innovation with respect to bronchoscopic approaches to the indeterminate pulmonary nodule both diagnostically and therapeutically. Indeed, these advances have only accelerated over the last year or two and extend across multiple domains and include improvements in imaging technologies and techniques, approaches and tools to access different areas of the lung, tools to acquire tissue as well as tools and methods to ablate tissue. Needless to say, there are a variety of different approaches in terms of how these issues are being solved along with differing levels of"
+          },
+          {
+            "text": "technology and infrastructure commitments necessary to utilize these various tools, with some of these approaches being farther along than others."
+          },
+          {
+            "text": "Given the accelerating pace of innovation with respect to this particular topic, one would almost certainly expect to  see  continued  development in approaches to the management and treatment of the indeterminate pulmonary nodule. Herein, we review some of the recent advances in the domains of advanced imaging, approaches to accessing various parts of the lung, tools designed to acquire tissue, robotic endoscopy platforms, new approaches to tissue ablation as well as potential additions to the armamentarium that are on the horizon."
+          }
+        ],
+        "category": "introduction"
+      },
+      {
+        "title": "Towards an optimization of bronchoscopic approaches to the diagnosis and treatment of the pulmonary nodules: a review",
+        "paragraphs": [
+          {
+            "text": "William S. Krimsky 1 , Michael A. Pritchett 2 , Kelvin K. W. Lau 3"
+          },
+          {
+            "text": "1 Interventional Pulmonary Medicine, Medstar Franklin Square Medical Center, Baltimore, USA; 2 Department of Pulmonary Medicine, Chest Center of the Carolinas, FirstHealth Moore Regional Hospital, Pinehurst Medical Clinic, Pinehurst, North Carolina, USA; 3 Department of Thoracic Surgery, St Bartholomew's Hospital, West Smithfield, London, UK"
+          },
+          {
+            "text": "Contributions: (I) Conception and design: WS Krimsky, M Pritchett; (II) Administrative support: None; (III) Provision of study materials or patients: All authors; (IV) Collection and assembly of data: None; (V) Data analysis and interpretation: None; (VI) Manuscript writing: All authors; (VII) Final approval of manuscript: All authors."
+          },
+          {
+            "text": "Correspondence to: William S. Krimsky, MD, FCCP, DAABIP. Chief of Interventional Pulmonary Medicine, Medstar Franklin Square Medical Center, Baltimore, USA. Email: wkrimsky@gmail.com."
+          },
+          {
+            "text": "Abstract: The last several years have seen substantive improvements and innovation with respect to bronchoscopic approaches to the indeterminate pulmonary nodule both diagnostically and therapeutically. Indeed, these advances have only accelerated over the last year or two and extend across multiple domains and include improvements in imaging technologies and techniques, approaches and tools to access different areas of the lung, tools to acquire tissue as well as tools and methods to ablate tissue. Needless to say, there are a variety of different approaches in terms of how these issues are being solved along with differing levels of technology and infrastructure commitments necessary to utilize these various tools, with some of these approaches being farther along than others. This article reviews some of these recent advances in the domains of advanced imaging, approaches to accessing various parts of the lung, tools designed to acquire tissue, robotic endoscopy platforms, new approaches to tissue ablation as well as potential additions to these areas that are on the horizon."
+          },
+          {
+            "text": "Keywords: Bronchoscopy; pulmonary nodule; navigational bronchoscopy; bronchoscopic ablation"
+          }
+        ],
+        "category": "other"
+      },
+      {
+        "title": "Cone beam CT (CBCT)",
+        "paragraphs": [
+          {
+            "text": "CBCT is made possible with flat-panel detector systems present in most hybrid operating rooms. With newer systems and updated software, the resolution is similar to conventional CT scanning. CBCT scans are obtained by taking a series of 480 X-ray images during a 180-degree rotational scan around the patient. Typical scans take between 4-10 seconds to perform. CBCT has been used extensively for percutaneous needle biopsies in the lung but more recently has been described in conjunction with bronchoscopy. Hohenforst-Schmidt et  al. (1)  reported a diagnostic yield of 70% in 33 patients with an average lesion size of 25 mm (1). Subsequently, Park et al. showed that in CBCT combined with bronchoscopy, the only factor associated with higher yield during transbronchial lung biopsy was CBCT confirmation of biopsy forceps positioning (2). A diagnostic yield of 71.2% was achieved in this study of 59 lesions with an average size of 31 mm."
+          },
+          {
+            "text": "In 2014, the first case was reported using a combination of  electromagnetic navigation bronchoscopy (ENB) and CBCT (3). Since that time a retrospective study of 57 nodules in 46 consecutive patients was published in abstract form. The median size of lesions in this cohort was only 15 mm and the diagnostic yield was 87.7% (4). The yield for lesions 10 mm or less was 91.6% (11 of 12 lesions). Data on the full cohort of 93 lesions in 75 patients has been submitted for publication and shows an overall diagnostic yield of 93.5%. We acknowledge that these results are at a single center with a highly experienced user and may not be generalizable. Ongoing studies are in progress to determine if  the addition of CBCT to ENB will result in a similar increase in diagnostic yield."
+          },
+          {
+            "text": "The latter study utilized the Philips Allura Xper FD20 system with the OncoSuite software package. This combination allows for the physician to select the lesion on the initial CBCT scan and it is then projected on standard fluoroscopy throughout the case in what is referred to as augmented fluoroscopy. The projected lesion is accurately projected during any rotation of the c-arm throughout the case. This allows for accurate localization of the lesion as well as real-time confirmation of biopsy tools ( Figure 1 ). Additionally, this allows for non-fluoroscopically visible lesions to now be visible. Most importantly, 3D real-time imaging is able to overcome CT-to-body divergence issues that plague current forms of navigational bronchoscopy. As the field advances toward the possibility of bronchoscopic ablation of peripheral tumors, real-time confirmation of probe positioning will be imperative.",
+            "cross_refs": [
+              {
+                "type": "figure",
+                "index": 0,
+                "text": "Figure 1",
+                "span": [
+                  508,
+                  516
+                ]
+              }
+            ]
+          }
+        ],
+        "category": "other"
+      },
+      {
+        "title": "Augmented fluoroscopy",
+        "paragraphs": [
+          {
+            "text": "Augmented fluoroscopy involves projecting an image onto the real-time fluoroscopic images. As mentioned above the Philips OncoSuite package allows for this after the lesion is  highlighted through a process called segmentation. Currently there are two navigation systems that utilize augmented fluoroscopy as well. One is the Archimedes platform (Broncus Medical, Inc., San Jose, CA, USA) that uses transparenchymal access and navigation to localize lesions. The system projects the lesion as well as the transparenchymal pathway onto the live fluoroscopic image in what it calls 'fused fluoroscopy'."
+          },
+          {
+            "text": "The other system using this technology is LungVision (BodyVision Medical Ltd., Israel) which uses augmented fluoroscopy to highlight not only the lesion but also the airways leading to it. Navigation to the lesion is fluoroscopically based with real-time overlay of the pathway and target, both of which are dynamic and move with respiratory motion. This system can utilize any commercial c-arm fluoroscopy system combined with a location board placed under the patient with radiopaque beads. Planning is based on preprocedural CT scan much like other navigation systems. Recent data presented in abstract form highlighted the accuracy of this system compared to CBCT (5). The system allowed for accurate localization and biopsy of 20 lesions (average size 21.7 mm) with a divergence compared to CBCT of only 5 mm. Another feasibility trial of 85 patients from multiple centers showed a success rate of 92% and no peri-procedural adverse events (6). This novel system allows for real-time tracking of nodules"
+          },
+          {
+            "text": "and the ability to compensate for respiratory motion. This innovative design may help to improve the overall diagnostic yield of guided bronchoscopy by overcoming some of the common limitations of ENB."
+          }
+        ],
+        "category": "other"
+      },
+      {
+        "title": "Tomosynthesis",
+        "paragraphs": [
+          {
+            "text": "Tomosynthesis involves serial X-ray images taken in during movement of a c-arm through limited angles (usually -20 to +20 or -35 to +35 degrees). Images can be viewed individually to eliminate overlapping structures or stacked together to form a 3D model. There are a variety of reconstruction algorithms that are used to create an additive effect to make smaller lesions more visible and in sharper focus while blurring out of plane images ( Figure 2 ). Nelson et al. showed that the use of tomosynthesis in combination with ENB in an animal model could help to eliminate the CT-to-body divergence issue that hinders ENB alone (7). Additionally, the tomosynthesis images were able to resolve 7 mm lesions that were not visible on standard fluoroscopy. The results of this study showed a significant correlation (coefficient 0.926) in position as measured with tomosynthesis compared to high resolution CT scan (HRCT). Conversely with ENB alone, there was significant divergence between the perceived distance to the target and the actual distance as measured by HRCT (correlation coefficient 0.048, P<0.0001).",
+            "cross_refs": [
+              {
+                "type": "figure",
+                "index": 1,
+                "text": "Figure 2",
+                "span": [
+                  443,
+                  451
+                ]
+              }
+            ]
+          },
+          {
+            "text": "The superDimension ENB system (Medtronic, Minneapolis, Minnesota, USA) has recently gained FDA approval for its fluoroscopic navigation system that utilizes tomosynthesis in combination with its already robust navigation platform. The recent multicenter global NAVIGATE trial showed that out of 1,000 ENB procedures, only 60% of lesions were visible on standard"
+          },
+          {
+            "text": "fluoroscopy (8). The addition of fluoroscopic navigation to ENB will allow for improved real-time visualization of previously non-fluoroscopically visible lesions. This will also give the ability to re-register the ENB system locally, once proximity to the lesion is confirmed using the tomosynthesis reconstructions. This will update the system and help to eliminate CT-to-body divergence. This improved localization may help to improve diagnostic yield of ENB."
+          }
+        ],
+        "category": "other"
+      },
+      {
+        "title": "Bronchoscopic transparenchymal nodule access (BTPNA)",
+        "paragraphs": [
+          {
+            "text": "The Archimedes system (Broncus Medical) is a novel navigation system that uses a transparenchymal approach and therefore is not dependent on airway access to a lesion. Based on the pre-procedural CT scan, planning for the procedure is undertaken in proprietary software where the physician selects one of two computer selected points to exit the airway and begin the transparenchymal navigation. The exit point can be adjusted per physician preference and the vasculature is highlighted with a 'virtual Doppler' function to help avoid vessels at the exit point. The airway is  then  punctured and dilated after which a steerable catheter is placed into the lung parenchyma. Utilizing the aforementioned fused fluoroscopic (augmented fluoroscopy) image the physician directs the catheter directly to the lesion for biopsy. Infrared cameras on the system detect the c-arm position and the optimal positioning of the c-arm is displayed."
+          },
+          {
+            "text": "Data from the first human trial with this novel system was published by Herth et al. in 2015 (9). While 12 patients were enrolled, the procedure was only possible in 10 of these patients (85% success rate). Of these ten patients,"
+          },
+          {
+            "text": "all  had successful transparenchymal access, biopsy and diagnosis, confirmed by surgical resection. The average lesion size was 25 mm and the two unsuccessful procedures involved inaccessible lesions that were located in the left upper lobe. There were no adverse events, including pneumothorax and bronchopulmonary hemorrhage. A second study in humans with the BTPNA system involved six patients, of which 5 were able to have the procedure completed (10). The average lesion size was 19.8 mm and the procedure yielded a malignant diagnosis in all five cases. Pneumothorax was reported in 2 of the 5 patients (40%), 1 of which required a chest tube. Only one patient in both studies was able to have a successful transparenchymal biopsy of a lesion in the left upper lobe. There is currently a multi-site, multi-national study (EAST2) enrolling patients for further study. There are six U.S. sites, 1 in Germany and 3 in China. Estimated study completion date is early 2019."
+          }
+        ],
+        "category": "other"
+      },
+      {
+        "title": "CrossCountry TM transbronchial access tool (TBAT)",
+        "paragraphs": [
+          {
+            "text": "The CrossCountry TM TBAT (Medtronic) is designed to allow access through an airway wall and into the lung parenchyma, specifically for difficult to reach lesions, or to reach various areas of a larger lesion. Once the optimal airway exit point is reached, a small sharp tipped wire is deployed through the airway wall and into the parenchyma. Subsequently a cone-shaped dilator is advanced over the wire, through the airway wall and into the parenchyma to the target. Then by Seldinger technique, the extended working channel/Edge TM catheter is advanced over the graduated dilator while pulling the wire back. The catheter is  directed over the central dilator until in the correct position at the proximal edge of the lesion. The wire and dilator are then removed leaving access for biopsy tools though the extended working channel/Edge TM catheter."
+          },
+          {
+            "text": "Two small case series have been published on the feasibility and safety of this device. In the first study, Anciano et al. described three cases utilizing the TBAT (11). The lesion was able to be reached in all three cases, 2 of which yielded a definitive diagnosis. There were no adverse events reported. In a second series, Bowling et al. reported their experience with the TBAT in 12 lesions (12). Seventyfive  percent of these lesions (9 of 12) were able to be accessed successfully with the TBAT. The diagnostic yield was 66% (8 of 12) and one patient suffered a pneumothorax and required a chest tube. Perhaps most importantly, after the development of a specific protocol was instituted, the next 7 of 7 cases were successful. The protocol involved"
+          },
+          {
+            "text": "preprocedural CBCT scan (Artis Zeego, Siemens) and highlighting of the lesion with software so that if there was any small amount of bleeding around the lesion during biopsy or TBAT deployment, they would still know the position of the nodule. The second part of the protocol involved doing a repeat CBCT scan once the planned exit point was reached to confirm line to target and to avoid any 'danger zones' (pleura, vessels, etc.). The use of the TBAT as well as CBCT may be integral to the future bronchoscopic application of ablative energy to a lung lesion."
+          }
+        ],
+        "category": "other"
+      },
+      {
+        "title": "Thin convex probe endobronchial ultrasound (EBUS)",
+        "paragraphs": [
+          {
+            "text": "The development of convex probe Endobronchial ultrasound (EBUS) has been one of the most revolutionary inventions in this history of bronchoscopy. The limitations of Endobronchial ultrasound (EBUS) are scope size and relative inflexibility. Current Endobronchial ultrasound (EBUS) scopes are designed for mediastinal and hilar lymph node staging, however, there are times where there are relatively central lung lesions that are able to be accessed with convex Endobronchial ultrasound (EBUS) scopes. Recently there has been development of a thin convex Endobronchial ultrasound (EBUS) scope (Olympus) that has improved flexibility and reach compared to  the  traditional  Endobronchial ultrasound (EBUS) scope. The new scope has a 170-degree angle of articulation, compared to 120-degrees with a standard Endobronchial ultrasound (EBUS) scope. The viewing angle is 20-degrees, compared to the relatively acute viewing angle of 35-degrees on standard Endobronchial ultrasound (EBUS) scopes. The smaller size scope does limit the needle to a maximum of 25 G. Existing data from gastrointestinal (GI) literature has suggested no difference between a 22-G and a 25-G needle in sample adequacy."
+          },
+          {
+            "text": "In 2016, Callahan et al. did a cadaveric study with the thin convex probe compared to the traditional Endobronchial ultrasound (EBUS) scope (13). This study showed significantly improved access to smaller airways with the thin scope. In a more recent study in ex vivo human lungs, the thin convex Endobronchial ultrasound (EBUS) scope showed a  greater reach by 22 mm compared to the traditional scope (14). The thin probe also was capable of accessing twice as many segmental bronchi (98% vs. 48% of right lung subsegments, 91% vs. 47% of left lung subsegments). The advent of a thin convex Endobronchial ultrasound (EBUS) scope could provide better access to lobar and interlobar lymph nodes as well as improved access to intraparenchymal lesions as well."
+          }
+        ],
+        "category": "other"
+      },
+      {
+        "title": "Electromagnetic-guided transthoracic needle aspiration (EMTTNA)",
+        "paragraphs": [
+          {
+            "text": "To further utilize the tracking and localizing function of"
+          },
+          {
+            "text": "ENB, there has been, more recently, the application of electromagnetic navigation combined with a percutaneous approach in the SPiN Perc TM system (Veran Medical). This EMTTNA technique allows for tracking and targeting of solitary pulmonary nodules to facilitate percutaneous biopsy without having to rely on CT-guidance. A study by Yarmus et al. in  2016 involved the use of EMTTNA in a small cohort of 24 patients with an average lesion size of 20.3 mm (15) . These patients first had an attempted ENB with Veran's electromagnetic (EM) navigation system. ENB was diagnostic in only 33% of patients and the remaining patients underwent EMTTNA. The diagnostic yield of EMTTNA alone was 83%, however this was associated with a high pneumothorax rate of 21%. When all procedures were combined (ENB + Endobronchial ultrasound (EBUS) + EMTTNA) the diagnostic yield increased to 92% (58% of which were malignant, 42% considered benign). This technology offers the advantage of an all-in-one diagnostic procedure for those who feel comfortable performing their own TTNA procedure under virtual guidance only. Lesions that require a posterior approach are currently not able to utilize this technique. EMTTNA is a promising technology but may also be more difficult with lesions smaller than 2 cm as the technique lacks real-time confirmation of needle placement."
+          }
+        ],
+        "category": "other"
+      },
+      {
+        "title": "New tools",
+        "paragraphs": [
+          {
+            "text": "Development has continued on tools that can be deployed through scopes, sheaths and catheters and into the periphery of the lung, not only with respect to tissue acquisition but"
+          },
+          {
+            "text": "also for delivery of different agents, markers, etc. For the most part, the focus over the past year or two has been the development of more flexible instruments, predominantly needles, in an effort to avoid substantive displacement or alteration of the position of the instrument through which it is being inserted. Other tools have also been developed with the focus on acquiring tissue for histopathologic evaluation as  an  update on the traditional biopsy forceps, which although they remain quite useful, have their own intrinsic limitations."
+          },
+          {
+            "text": "Olympus recently introduced the PeriView FLEX TBNA needle. It is a 21-G needle that can be used with a nitinol stylet to adjust flexibility. The tool is largely designed to avoid displacement of the bronchoscope or catheter through which it is being inserted while maintaining enough longitudinal stability to continue to puncture the tissue. The design of this needle employs a spiral laser cut design to accomplish this. It appears to be visible under fluoroscopy and can be used both directly through the operating channel of the bronchoscope as well as through sheaths and catheters."
+          },
+          {
+            "text": "Similarly,  Medtronic  has  introduced  the  flexible Arcpoint TM pulmonary needle. This is also designed to maintain longitudinal stability while providing substantive flexibility and limited displacement of their variably curved Edge TM catheters used during ENB. The needle is available in two sizes, 21 G and 18 G. Similar to the Olympus needle, it can be used with or without a style to adjust flexibility. The needle itself is 8 mm in length and attached to a braided and tapered sheath. When compared to traditional non-flexible aspirating needles, the Arcpiont TM needle would appear to be able to maintain its position with significantly less catheter displacement ( Figure 3 ). Given the recent introduction in both tools, there is limited human data as of yet with respect to performance, yield, etc. (16).",
+            "cross_refs": [
+              {
+                "type": "figure",
+                "index": 2,
+                "text": "Figure 3",
+                "span": [
+                  676,
+                  684
+                ]
+              }
+            ]
+          },
+          {
+            "text": "Two other tools bear mentioning. Medtronic has also introduced the GenCut TM Core Biopsy System. This is  a  flexible  tool  with  a  blunt,  rounded tip, a port and blade along the distal and lateral aspect of the tool with a hollow core. This allows it to be placed through a variety of different sheaths and catheters while remaining quite flexible. Once in position, suction is applied, and the tool rotated and agitated. In this manner, intact tissue for histopathologic evaluation can be obtained."
+          },
+          {
+            "text": "In addition, Olympus has developed a smaller needle to fit through its new smaller ultrasound bronchoscope. It is a 25G needle and deployed in a manner similar to the current Endobronchial ultrasound (EBUS) needle designs."
+          },
+          {
+            "text": "Again, both of these tools have either been in release for a short period of time or have not yet been released and thus data remains limited."
+          }
+        ],
+        "category": "other"
+      },
+      {
+        "title": "Robotic bronchoscopy platforms",
+        "paragraphs": [
+          {
+            "text": "There  has  been  increasing  interest  in  a  robotic bronchoscopy platform that would seek to improve upon some aspects of conventional and guided-bronchoscopy. There are currently two robotic bronchoscopy systems that are advanced enough for human trials. The MonarchTM system (Auris Surgical Robotics, Redwood City, CA, USA) was recently cleared by the FDA and is comprised of a robotically propelled outer sheath [5.7-mm outer diameter (OD)] with an inner telescoping endoscope measuring 4.4 mm in diameter. The Monarch TM system (Auris Surgical Robotics, Redwood City, CA, USA) is comprised of a robotically propelled outer sheath [5.7 mm outer diameter (OD)] with an inner telescoping endoscope measuring 4.4 mm in diameter. The system uses electromagnetic navigation  for  guidance  with  an  external  EM  field generator. The physician uses a small hand-held controller to guide the robotic scope into biopsy position. The scope has continuous optical capabilities and a separate suction channel. The working channel of the scope is 2.1 mm."
+          },
+          {
+            "text": "Results of a cadaveric study were recently published in abstract form (17). This study compared the reach of the robotic endoscopy system (RES) to that of a traditional thin scope (4.2 mm OD). The RES was able to reach three generations further into the airways compared to the traditional thin scope. Additionally, the total insertion depth beyond the level of the carina was significantly greater in the RES group (172 vs. 128 mm). The full manuscript of this article has recently been published and further shows that the RES is able to outreach the conventional thin scope in all subsegments of the lung, particularly in those most difficult to reach segments (right bronchus 1, 8 vs. 3.5 generations and left bronchus 1+2, 8 vs. 4.5 generations) (18). This improved bronchoscopic reach may help to increase the diagnostic yield compared to conventional guidedbronchoscopy. The Auris platform has been designed to be modular with future expansion into other specialties, such as urology."
+          },
+          {
+            "text": "The other robotic bronchoscopy platform pending FDA approval is an as yet unnamed system from Intuitive Surgical. This system also uses a robotically-guided catheter and a built-in navigation system based on shape sensing technology, rather than the traditional electromagnetic"
+          },
+          {
+            "text": "navigation used in many other guided bronchoscopy systems. The navigation system still uses the patients preprocedural CT scan as the basis for navigation. Once the biopsy location is reached the camera must be removed from the catheter to facilitate biopsy. The working channel of this biopsy channel is 2.0 mm and can facilitate up to a 19G needle. A first-in-human trial was recently published on a cohort of 30 patients with average lesion size of only 15 mm (19) . Lesions were visible on radial probe Endobronchial ultrasound (EBUS) (rEBUS) in 24 cases (15 eccentric and 9 concentric). Overall diagnostic yield was reported as 83% (16 with malignant results, 8 benign and 5 inconclusive). No adverse events were reported."
+          },
+          {
+            "text": "There are potential advantages to the robotic endoscopy platforms. The first is improved reach into the lung. Secondly, the improved reach along with the ability to hold the endoscope/catheter in a locked curved position may allow biopsy tools to stay on target without the straightening that currently plagues other systems. This benefit would also be crucial in the use of flexible ablation probes which are also discussed here. It's also too early to tell if the shape sensing-based navigation platform will be more or less accurate than the traditional electromagnetic navigation-based systems. With one of these systems already FDA approved we anticipate assessment of these theoretical advances in the near future."
+          }
+        ],
+        "category": "other"
+      },
+      {
+        "title": "Bronchoscopic peripheral tumor ablation",
+        "paragraphs": [
+          {
+            "text": "Given the improvements in access to various parts of the lung with different scope or catheter-based systems, one of the seemingly inevitable outcomes is the development of ablative modalities to apply energy to local areas of the lung as a treatment for malignancies in general and lung cancer specifically. Again, this is an emerging area of significant interest albeit with limited data to date."
+          },
+          {
+            "text": "The initial work in this area came from a Japanese group and built off of a treat and resect approach published in 2010 wherein different amounts of radiofrequency energy were applied to various lesions that subsequently underwent resection (20). Ultimately, they reported on two patients treated with a flexible radiofrequency ablation catheterbased system deployed via a CT-guided bronchoscopic approach to treat patients with medically inoperable, small peripheral lung cancers (21). One of the two patients recurred at the treated site after a 4-year interval and was retreated with the same system and has remained stable at a 12-month follow-up. The second patients remained stable"
+          },
+          {
+            "text": "at 40 months of follow-up."
+          },
+          {
+            "text": "This was followed by another paper published by this group in 2015 which evaluated 23 peripheral lung lesions in 20 patients with early-stage non-small cell lung cancer again using a CT-guided bronchoscopic approach in conjunction with a cooled radiofrequency ablation (RFA) catheter (22). Local disease control was achieved in most patients, 82.6%, with median progression free survival of 35 months. In addition, there were no reported serious adverse events."
+          },
+          {
+            "text": "Indeed, work has continued in this area and a recent case series from Xie et al. was published, wherein three patients were treated with a flexible RFA catheter, delivered with the aid of navigational bronchoscopy (23). In that setting, a total of three patients, two patients with nonsurgical stage IA lung cancer and one patient with a lung metastasis, underwent treatment with the RFA system utilizing navigational bronchoscopy. Partial responses were seen in two of the three patients with one of the patients having a complete response. One of the patients with a partial response developed progressive disease at 6-month followup. The other two patients had 1-year progression-free survival. There were no serious adverse events reported and they concluded that navigational bronchoscopic-guided RFA is a safe and feasible procedure for poor surgical candidates with stage IA lung cancer or oligometastatic disease to the lung."
+          },
+          {
+            "text": "Most recently, the first case was completed that employed a navigational platform utilizing a TBAT, a CBCT system for  real-time  visualization  and  further  refinement of catheter position and ablation zone overlay, and a flexible microwave catheter, the Medtronic Emprint™ ablation catheter with thermosphere™ technology, to treat a patient at St. Bartholomew's Hospital in London in the setting of a presumed single metastatic focus of endometrial cancer. The procedure was well tolerated with the successful delivery of ablation energy and the work in ongoing."
+          }
+        ],
+        "category": "other"
+      },
+      {
+        "title": "On and over the horizon",
+        "paragraphs": [
+          {
+            "text": "Innovative and novel approaches to diagnosis and treatment of pulmonary nodules will, in all likelihood continue. Some will be developed 'de-novo' and others will migrate from other specialties. These will include different energy sources for ablation (24), techniques for sentinel node identification (25), adjunctive and concomitant therapies delivered both independent of, as well as in conjunction with, local ablation (26) along with expanding the approach to endoscopic treatment in an effort to approach surgical"
+          },
+          {
+            "text": "results."
+          },
+          {
+            "text": "To that end, the opportunity to endoscopically deliver treatment for early stage lung cancer in conjunction with sentinel lymph node identification and mediastinal staging is appealing. Additionally, the ability to treat not only the primary lesion but also of the various 'exit' pathways from the tumor site through the treatment of the broncholymphatic-vascular bundle in one anesthetic event remains quite enticing and may suggest an opportunity to mimic surgical outcomes in early stage lung cancer."
+          }
+        ],
+        "category": "other"
+      },
+      {
+        "title": "Acknowledgements",
+        "paragraphs": [
+          {
+            "text": "None."
+          }
+        ],
+        "category": "other"
+      },
+      {
+        "title": "Footnote",
+        "paragraphs": [
+          {
+            "text": "Conflicts of Interest: WS Krimsky is a part-time employee of Medtronic, serves as a consultant with options for Gala Therapeutics, Innovital Systems and Peytant Solutions, and works for CSA medical and Merit Medical. MA Pritchett serves as a consultant for Medtronic, Johnson & Johnson and AstraZeneca. KK Lau is a consultant for Medtronic and has received educational grant from Philips."
+          }
+        ],
+        "category": "other"
+      },
+      {
+        "title": "References",
+        "paragraphs": [
+          {
+            "text": "1. Hohenforst-Schmidt W, Zarogoulidis P, Vogl T, et al. Cone Beam Computertomography (CBCT) in Interventional Chest Medicine - High Feasibility for Endobronchial Realtime Navigation. J Cancer 2014;5:231-41."
+          },
+          {
+            "text": "2. Park SC, Kim CJ, Han CH, et al. Factors associated with the diagnostic yield of computed tomography-guided transbronchial lung biopsy. Thorac Cancer 2017;8:153-8."
+          },
+          {
+            "text": "3. Pritchett M. Cone-Beam CT Scanning With Electromagnetic Navigation Bronchoscopy. Chest 2014;146:728A."
+          },
+          {
+            "text": "4. Pritchett M, Radaelli A, Schampaert S, et al. Cone Beam CT-Guided Endobronchial Biopsy Assisted by Augmented Fluoroscopy. Chest 2017;152:A887."
+          },
+          {
+            "text": "5. Pritchett M. Feasibility of the Lungvision Augmented Endobronchial Fluoroscopic Navigation and Localization System: Comparison With Cone Beam CT for Nodule Localization. Chest 2017;152:A863."
+          },
+          {
+            "text": "6. Stoy S, Hogarth D, Al-Zubaidi A, et al. Bronchoscopic Peripheral Lung Nodule Navigation by a Novel Live Endobronchial Fluoroscopic Navigation and Guidance"
+          }
+        ],
+        "category": "other"
+      },
+      {
+        "title": "Krimsky et al. Diagnostic and therapeutic advances in bronchoscopy",
+        "paragraphs": [
+          {
+            "text": "Systemtechnology: Insights From the Multicenter Lungvision I Trial. Chest 2017;152:A757."
+          },
+          {
+            "text": "7. Nelson G, Wu M, Hinkel C, et al. Improved targeting accuracy of lung tumor biopsies with scanning-beam digital x-ray tomosynthesis image guidance. Med Phys 2016;43:6282."
+          },
+          {
+            "text": "8. Khandhar SJ, Bowling MR, Flandes J, et al. Electromagnetic navigation bronchoscopy to access lung lesions in 1,000 subjects: first results of the prospective, multicenter NAVIGATE study. BMC Pulm Med 2017;17:59."
+          },
+          {
+            "text": "9. Herth FJ, Eberhardt R, Sterman D, et al. Bronchoscopic transparenchymal nodule access (BTPNA): first in human trial of a novel procedure for sampling solitary pulmonary nodules. Thorax 2015;70:326-32."
+          },
+          {
+            "text": "10.  Harzheim D, Sterman D, Shah PL, et al. Bronchoscopic Transparenchymal Nodule Access: Feasibility and Safety in an Endoscopic Unit. Respiration 2016;91:302-6."
+          },
+          {
+            "text": "11.  Anciano C, Brown C, Bowling M. Going Off Road: The First Case Reports of the Use of the Transbronchial Access Tool With Electromagnetic Navigational Bronchoscopy. J Bronchology Interv Pulmonol 2017;24:253-6."
+          },
+          {
+            "text": "12.  Bowling MR, Brown C, Anciano CJ. Feasibility and Safety of the T ransbronchial Access T ool for Peripheral Pulmonary Nodule and Mass. Ann Thorac Surg 2017;104:443-9."
+          },
+          {
+            "text": "13.  Callahan S, T anner N, Chen A, et al. Comparison of the Thin Convex Probe Endobronchial Ultrasound Bronchoscope to Standard Endobronchial ultrasound (EBUS) and Flexible Bronchoscope: A Cadaveric Study. Chest 2016;150:979A."
+          },
+          {
+            "text": "14.  Patel P , Wada H, Hu HP , et al. First Evaluation of the New Thin Convex Probe Endobronchial Ultrasound Scope: A Human Ex Vivo Lung Study. Ann Thorac Surg 2017;103:1158-64."
+          },
+          {
+            "text": "15.  Yarmus LB, Arias S, Feller-Kopman D, et al. Electromagnetic navigation transthoracic needle aspiration for the diagnosis of pulmonary nodules: a safety and feasibility pilot study. J Thorac Dis 2016;8:186-94."
+          },
+          {
+            "text": "16.  Skibo S, Mattingley J, Alvarado C, et al. Performance of a Novel Pulmonary Needle Using Electromagnetic"
+          },
+          {
+            "text": "Navigation Bronchoscopy in a Porcine Lung Model. Chest 2017;152:A961."
+          },
+          {
+            "text": "17.  Chen A, Wahidi M, Gillespie C, et al. Robotic Endoscopic Airway Challenge: Reach Assessment. Chest 2017;152:A882."
+          },
+          {
+            "text": "18.  Chen AC, Gillespie CT. Robotic Endoscopic Airway Challenge: REACH Assessment. Ann Thorac Surg 2018. [Epub ahead of print]."
+          },
+          {
+            "text": "19.  Fielding D, Bashirzadeh F, Son JH, et al. First Human Use of a New Robotic-Assisted Navigation System for Small Peripheral Pulmonary Nodules Demonstrates Good Safety Profile and High Diagnostic Yield. Chest 2017;152:A858."
+          },
+          {
+            "text": "20.  T anabe T, Koizumi T, T sushima K, et al. Comparative study of three different catheters for CT imagingbronchoscopy-guided radiofrequency ablation as a potential and novel interventional therapy for lung cancer. Chest 2010;137:890-7."
+          },
+          {
+            "text": "21.  Koizumi T, Kobayashi T, T anabe T, et al. Clinical experience of bronchoscopy-guided radiofrequency ablation for peripheral-type lung cancer. Case Rep Oncol Med 2013;2013:515160."
+          },
+          {
+            "text": "22.  Koizumi T, Tsushima K, T anabe T, et al. BronchoscopyGuided Cooled Radiofrequency Ablation as a Novel Intervention Therapy for Peripheral Lung Cancer. Respiration 2015;90:47-55."
+          },
+          {
+            "text": "23.  Xie F, Zheng X, Xiao B, et al. Navigation Bronchoscopy-Guided Radiofrequency Ablation for Nonsurgical Peripheral Pulmonary Tumors. Respiration 2017;94:293-8."
+          },
+          {
+            "text": "24.  Zhong L, Sun S, Shi J, et al. Clinical analysis on 113 patients with lung cancer treated by percutaneous CTguided microwave ablation. J Thorac Dis 2017;9:590-7."
+          },
+          {
+            "text": "25.  Digesu CS, Hachey KJ, Gilmore DM, et al. Long-term outcomes after near-infrared sentinel lymph node mapping in non-small cell lung cancer. J Thorac Cardiovasc Surg 2018;155:1280-91."
+          },
+          {
+            "text": "26.  Shiau AL, T eo ML, Chen SY, et al. Inhibition of experimental lung metastasis by systemic lentiviral delivery of kallistatin. BMC Cancer 2010;10:245."
+          },
+          {
+            "text": "Cite this article as: Krimsky WS, Pritchett MA, Lau KK. Towards an optimization of bronchoscopic approaches to the diagnosis and treatment of the pulmonary nodules: a review. J Thorac Dis 2018;10(Suppl 14):S1637-S1644. doi: 10.21037/ jtd.2018.04.38"
+          }
+        ],
+        "category": "other"
+      }
+    ],
+    "tables": [],
+    "figures": [
+      {
+        "self_ref": "#/pictures/0",
+        "parent": {
+          "cref": "#/body"
+        },
+        "children": [
+          {
+            "cref": "#/texts/19"
+          }
+        ],
+        "content_layer": "body",
+        "label": "picture",
+        "prov": [
+          {
+            "page_no": 2,
+            "bbox": {
+              "l": 72.43195343017578,
+              "t": 695.5993576049805,
+              "r": 258.83453369140625,
+              "b": 555.4187316894531,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "charspan": [
+              0,
+              0
+            ]
+          }
+        ],
+        "captions": [
+          {
+            "cref": "#/texts/19"
+          }
+        ],
+        "references": [],
+        "footnotes": [],
+        "image": null,
+        "annotations": []
+      },
+      {
+        "self_ref": "#/pictures/1",
+        "parent": {
+          "cref": "#/body"
+        },
+        "children": [
+          {
+            "cref": "#/texts/33"
+          }
+        ],
+        "content_layer": "body",
+        "label": "picture",
+        "prov": [
+          {
+            "page_no": 3,
+            "bbox": {
+              "l": 112.92176055908203,
+              "t": 695.1307525634766,
+              "r": 294.693359375,
+              "b": 563.2676239013672,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "charspan": [
+              0,
+              0
+            ]
+          }
+        ],
+        "captions": [
+          {
+            "cref": "#/texts/33"
+          }
+        ],
+        "references": [],
+        "footnotes": [],
+        "image": null,
+        "annotations": []
+      },
+      {
+        "self_ref": "#/pictures/2",
+        "parent": {
+          "cref": "#/body"
+        },
+        "children": [],
+        "content_layer": "body",
+        "label": "picture",
+        "prov": [
+          {
+            "page_no": 3,
+            "bbox": {
+              "l": 297.5923156738281,
+              "t": 695.3006820678711,
+              "r": 481.66436767578125,
+              "b": 563.0395812988281,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "charspan": [
+              0,
+              0
+            ]
+          }
+        ],
+        "captions": [],
+        "references": [],
+        "footnotes": [],
+        "image": null,
+        "annotations": []
+      },
+      {
+        "self_ref": "#/pictures/3",
+        "parent": {
+          "cref": "#/body"
+        },
+        "children": [
+          {
+            "cref": "#/texts/62"
+          },
+          {
+            "cref": "#/texts/63"
+          },
+          {
+            "cref": "#/texts/64"
+          }
+        ],
+        "content_layer": "body",
+        "label": "picture",
+        "prov": [
+          {
+            "page_no": 5,
+            "bbox": {
+              "l": 72.32484436035156,
+              "t": 695.7829437255859,
+              "r": 258.8208923339844,
+              "b": 508.9064025878906,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "charspan": [
+              0,
+              0
+            ]
+          }
+        ],
+        "captions": [
+          {
+            "cref": "#/texts/62"
+          }
+        ],
+        "references": [],
+        "footnotes": [],
+        "image": null,
+        "annotations": []
+      }
+    ],
+    "citations": [],
+    "n_sections": 17,
+    "n_tables": 0,
+    "n_figures": 4,
+    "n_citations": 0
+  },
+  "provenance": {},
+  "grobid": {
+    "references_tei": "<TEI xmlns=\"http://www.tei-c.org/ns/1.0\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" \n xmlns:mml=\"http://www.w3.org/1998/Math/MathML\">\n\t<teiHeader/>\n\t<text>\n\t\t<front/>\n\t\t<body/>\n\t\t<back>\n\t\t\t<div>\n\t\t\t\t<listBibl>\n<biblStruct xml:id=\"b0\">\n\t<analytic>\n\t\t<title level=\"a\" type=\"main\">Cone Beam Computertomography (CBCT) in Interventional Chest Medicine -High Feasibility for Endobronchial Realtime Navigation</title>\n\t\t<author>\n\t\t\t<persName><forename type=\"first\">W</forename><surname>Hohenforst-Schmidt</surname></persName>\n\t\t</author>\n\t\t<author>\n\t\t\t<persName><forename type=\"first\">P</forename><surname>Zarogoulidis</surname></persName>\n\t\t</author>\n\t\t<author>\n\t\t\t<persName><forename type=\"first\">T</forename><surname>Vogl</surname></persName>\n\t\t</author>\n\t</analytic>\n\t<monogr>\n\t\t<title level=\"j\">J Cancer</title>\n\t\t<imprint>\n\t\t\t<biblScope unit=\"volume\">5</biblScope>\n\t\t\t<biblScope unit=\"page\" from=\"231\" to=\"241\" />\n\t\t\t<date type=\"published\" when=\"2014\">2014</date>\n\t\t</imprint>\n\t</monogr>\n</biblStruct>\n\n<biblStruct xml:id=\"b1\">\n\t<analytic>\n\t\t<title level=\"a\" type=\"main\">Factors associated with the diagnostic yield of computed tomography-guided transbronchial lung biopsy</title>\n\t\t<author>\n\t\t\t<persName><forename type=\"first\">S</forename><forename type=\"middle\">C</forename><surname>Park</surname></persName>\n\t\t</author>\n\t\t<author>\n\t\t\t<persName><forename type=\"first\">C</forename><forename type=\"middle\">J</forename><surname>Kim</surname></persName>\n\t\t</author>\n\t\t<author>\n\t\t\t<persName><forename type=\"first\">C</forename><forename type=\"middle\">H</forename><surname>Han</surname></persName>\n\t\t</author>\n\t</analytic>\n\t<monogr>\n\t\t<title level=\"j\">Thorac Cancer</title>\n\t\t<imprint>\n\t\t\t<biblScope unit=\"volume\">8</biblScope>\n\t\t\t<biblScope unit=\"page\" from=\"153\" to=\"158\" />\n\t\t\t<date type=\"published\" when=\"2017\">2017</date>\n\t\t</imprint>\n\t</monogr>\n</biblStruct>\n\n<biblStruct xml:id=\"b2\">\n\t<analytic>\n\t\t<title level=\"a\" type=\"main\">Cone-Beam CT Scanning With Electromagnetic Navigation Bronchoscopy</title>\n\t\t<author>\n\t\t\t<persName><forename type=\"first\">M</forename><surname>Pritchett</surname></persName>\n\t\t</author>\n\t</analytic>\n\t<monogr>\n\t\t<title level=\"j\">Chest</title>\n\t\t<imprint>\n\t\t\t<biblScope unit=\"volume\">146</biblScope>\n\t\t\t<biblScope unit=\"page\">728A</biblScope>\n\t\t\t<date type=\"published\" when=\"2014\">2014</date>\n\t\t</imprint>\n\t</monogr>\n</biblStruct>\n\n<biblStruct xml:id=\"b3\">\n\t<analytic>\n\t\t<title level=\"a\" type=\"main\">Cone Beam CT-Guided Endobronchial Biopsy Assisted by Augmented Fluoroscopy</title>\n\t\t<author>\n\t\t\t<persName><forename type=\"first\">M</forename><surname>Pritchett</surname></persName>\n\t\t</author>\n\t\t<author>\n\t\t\t<persName><forename type=\"first\">A</forename><surname>Radaelli</surname></persName>\n\t\t</author>\n\t\t<author>\n\t\t\t<persName><forename type=\"first\">S</forename><surname>Schampaert</surname></persName>\n\t\t</author>\n\t</analytic>\n\t<monogr>\n\t\t<title level=\"j\">Chest</title>\n\t\t<imprint>\n\t\t\t<biblScope unit=\"volume\">152</biblScope>\n\t\t\t<biblScope unit=\"page\">887</biblScope>\n\t\t\t<date type=\"published\" when=\"2017\">2017</date>\n\t\t</imprint>\n\t</monogr>\n</biblStruct>\n\n<biblStruct xml:id=\"b4\">\n\t<analytic>\n\t\t<title level=\"a\" type=\"main\">Feasibility of the Lungvision Augmented Endobronchial Fluoroscopic Navigation and Localization System: Comparison With Cone Beam CT for Nodule Localization</title>\n\t\t<author>\n\t\t\t<persName><forename type=\"first\">M</forename><surname>Pritchett</surname></persName>\n\t\t</author>\n\t</analytic>\n\t<monogr>\n\t\t<title level=\"j\">Chest</title>\n\t\t<imprint>\n\t\t\t<biblScope unit=\"volume\">152</biblScope>\n\t\t\t<biblScope unit=\"page\">A863</biblScope>\n\t\t\t<date type=\"published\" when=\"2017\">2017</date>\n\t\t</imprint>\n\t</monogr>\n</biblStruct>\n\n<biblStruct xml:id=\"b5\">\n\t<analytic>\n\t\t<title level=\"a\" type=\"main\">Bronchoscopic Peripheral Lung Nodule Navigation by a Novel Live Endobronchial Fluoroscopic Navigation and Guidance Systemtechnology: Insights From the Multicenter Lungvision I Trial</title>\n\t\t<author>\n\t\t\t<persName><forename type=\"first\">S</forename><surname>Stoy</surname></persName>\n\t\t</author>\n\t\t<author>\n\t\t\t<persName><forename type=\"first\">D</forename><surname>Hogarth</surname></persName>\n\t\t</author>\n\t\t<author>\n\t\t\t<persName><forename type=\"first\">A</forename><surname>Al-Zubaidi</surname></persName>\n\t\t</author>\n\t</analytic>\n\t<monogr>\n\t\t<title level=\"j\">Chest</title>\n\t\t<imprint>\n\t\t\t<biblScope unit=\"volume\">152</biblScope>\n\t\t\t<biblScope unit=\"page\">A757</biblScope>\n\t\t\t<date type=\"published\" when=\"2017\">2017</date>\n\t\t</imprint>\n\t</monogr>\n</biblStruct>\n\n<biblStruct xml:id=\"b6\">\n\t<analytic>\n\t\t<title level=\"a\" type=\"main\">Improved targeting accuracy of lung tumor biopsies with scanning-beam digital x-ray tomosynthesis image guidance</title>\n\t\t<author>\n\t\t\t<persName><forename type=\"first\">G</forename><surname>Nelson</surname></persName>\n\t\t</author>\n\t\t<author>\n\t\t\t<persName><forename type=\"first\">M</forename><surname>Wu</surname></persName>\n\t\t</author>\n\t\t<author>\n\t\t\t<persName><forename type=\"first\">C</forename><surname>Hinkel</surname></persName>\n\t\t</author>\n\t</analytic>\n\t<monogr>\n\t\t<title level=\"j\">Med Phys</title>\n\t\t<imprint>\n\t\t\t<biblScope unit=\"volume\">43</biblScope>\n\t\t\t<biblScope unit=\"page\">6282</biblScope>\n\t\t\t<date type=\"published\" when=\"2016\">2016</date>\n\t\t</imprint>\n\t</monogr>\n</biblStruct>\n\n<biblStruct xml:id=\"b7\">\n\t<analytic>\n\t\t<title level=\"a\" type=\"main\">Electromagnetic navigation bronchoscopy to access lung lesions in 1,000 subjects: first results of the prospective, multicenter NAVIGATE study</title>\n\t\t<author>\n\t\t\t<persName><forename type=\"first\">S</forename><forename type=\"middle\">J</forename><surname>Khandhar</surname></persName>\n\t\t</author>\n\t\t<author>\n\t\t\t<persName><forename type=\"first\">M</forename><forename type=\"middle\">R</forename><surname>Bowling</surname></persName>\n\t\t</author>\n\t\t<author>\n\t\t\t<persName><forename type=\"first\">J</forename><surname>Flandes</surname></persName>\n\t\t</author>\n\t</analytic>\n\t<monogr>\n\t\t<title level=\"j\">BMC Pulm Med</title>\n\t\t<imprint>\n\t\t\t<biblScope unit=\"volume\">17</biblScope>\n\t\t\t<biblScope unit=\"page\">59</biblScope>\n\t\t\t<date type=\"published\" when=\"2017\">2017</date>\n\t\t</imprint>\n\t</monogr>\n</biblStruct>\n\n<biblStruct xml:id=\"b8\">\n\t<analytic>\n\t\t<title level=\"a\" type=\"main\">Bronchoscopic transparenchymal nodule access (BTPNA): first in human trial of a novel procedure for sampling solitary pulmonary nodules</title>\n\t\t<author>\n\t\t\t<persName><forename type=\"first\">F</forename><forename type=\"middle\">J</forename><surname>Herth</surname></persName>\n\t\t</author>\n\t\t<author>\n\t\t\t<persName><forename type=\"first\">R</forename><surname>Eberhardt</surname></persName>\n\t\t</author>\n\t\t<author>\n\t\t\t<persName><forename type=\"first\">D</forename><surname>Sterman</surname></persName>\n\t\t</author>\n\t</analytic>\n\t<monogr>\n\t\t<title level=\"j\">Thorax</title>\n\t\t<imprint>\n\t\t\t<biblScope unit=\"volume\">70</biblScope>\n\t\t\t<biblScope unit=\"page\" from=\"326\" to=\"332\" />\n\t\t\t<date type=\"published\" when=\"2015\">2015</date>\n\t\t</imprint>\n\t</monogr>\n</biblStruct>\n\n<biblStruct xml:id=\"b9\">\n\t<analytic>\n\t\t<title level=\"a\" type=\"main\">Bronchoscopic Transparenchymal Nodule Access: Feasibility and Safety in an Endoscopic Unit</title>\n\t\t<author>\n\t\t\t<persName><forename type=\"first\">D</forename><surname>Harzheim</surname></persName>\n\t\t</author>\n\t\t<author>\n\t\t\t<persName><forename type=\"first\">D</forename><surname>Sterman</surname></persName>\n\t\t</author>\n\t\t<author>\n\t\t\t<persName><forename type=\"first\">P</forename><forename type=\"middle\">L</forename><surname>Shah</surname></persName>\n\t\t</author>\n\t</analytic>\n\t<monogr>\n\t\t<title level=\"j\">Respiration</title>\n\t\t<imprint>\n\t\t\t<biblScope unit=\"volume\">91</biblScope>\n\t\t\t<biblScope unit=\"page\" from=\"302\" to=\"306\" />\n\t\t\t<date type=\"published\" when=\"2016\">2016</date>\n\t\t</imprint>\n\t</monogr>\n</biblStruct>\n\n<biblStruct xml:id=\"b10\">\n\t<analytic>\n\t\t<title level=\"a\" type=\"main\">Going Off Road: The First Case Reports of the Use of the Transbronchial Access Tool With Electromagnetic Navigational Bronchoscopy</title>\n\t\t<author>\n\t\t\t<persName><forename type=\"first\">C</forename><surname>Anciano</surname></persName>\n\t\t</author>\n\t\t<author>\n\t\t\t<persName><forename type=\"first\">C</forename><surname>Brown</surname></persName>\n\t\t</author>\n\t\t<author>\n\t\t\t<persName><forename type=\"first\">M</forename><surname>Bowling</surname></persName>\n\t\t</author>\n\t</analytic>\n\t<monogr>\n\t\t<title level=\"j\">J Bronchology Interv Pulmonol</title>\n\t\t<imprint>\n\t\t\t<biblScope unit=\"volume\">24</biblScope>\n\t\t\t<biblScope unit=\"page\" from=\"253\" to=\"256\" />\n\t\t\t<date type=\"published\" when=\"2017\">2017</date>\n\t\t</imprint>\n\t</monogr>\n</biblStruct>\n\n<biblStruct xml:id=\"b11\">\n\t<analytic>\n\t\t<title level=\"a\" type=\"main\">Feasibility and Safety of the Transbronchial Access Tool for Peripheral Pulmonary Nodule and Mass</title>\n\t\t<author>\n\t\t\t<persName><forename type=\"first\">M</forename><forename type=\"middle\">R</forename><surname>Bowling</surname></persName>\n\t\t</author>\n\t\t<author>\n\t\t\t<persName><forename type=\"first\">C</forename><surname>Brown</surname></persName>\n\t\t</author>\n\t\t<author>\n\t\t\t<persName><forename type=\"first\">C</forename><forename type=\"middle\">J</forename><surname>Anciano</surname></persName>\n\t\t</author>\n\t</analytic>\n\t<monogr>\n\t\t<title level=\"j\">Ann Thorac Surg</title>\n\t\t<imprint>\n\t\t\t<biblScope unit=\"volume\">104</biblScope>\n\t\t\t<biblScope unit=\"page\" from=\"443\" to=\"449\" />\n\t\t\t<date type=\"published\" when=\"2017\">2017</date>\n\t\t</imprint>\n\t</monogr>\n</biblStruct>\n\n<biblStruct xml:id=\"b12\">\n\t<analytic>\n\t\t<title level=\"a\" type=\"main\">Comparison of the Thin Convex Probe Endobronchial Ultrasound Bronchoscope to Standard EBUS and Flexible Bronchoscope: A Cadaveric Study</title>\n\t\t<author>\n\t\t\t<persName><forename type=\"first\">S</forename><surname>Callahan</surname></persName>\n\t\t</author>\n\t\t<author>\n\t\t\t<persName><forename type=\"first\">N</forename><surname>Tanner</surname></persName>\n\t\t</author>\n\t\t<author>\n\t\t\t<persName><forename type=\"first\">A</forename><surname>Chen</surname></persName>\n\t\t</author>\n\t</analytic>\n\t<monogr>\n\t\t<title level=\"j\">Chest</title>\n\t\t<imprint>\n\t\t\t<biblScope unit=\"volume\">150</biblScope>\n\t\t\t<biblScope unit=\"page\">979A</biblScope>\n\t\t\t<date type=\"published\" when=\"2016\">2016</date>\n\t\t</imprint>\n\t</monogr>\n</biblStruct>\n\n<biblStruct xml:id=\"b13\">\n\t<analytic>\n\t\t<title level=\"a\" type=\"main\">First Evaluation of the New Thin Convex Probe Endobronchial Ultrasound Scope: A Human Ex Vivo Lung Study</title>\n\t\t<author>\n\t\t\t<persName><forename type=\"first\">P</forename><surname>Patel</surname></persName>\n\t\t</author>\n\t\t<author>\n\t\t\t<persName><forename type=\"first\">H</forename><surname>Wada</surname></persName>\n\t\t</author>\n\t\t<author>\n\t\t\t<persName><forename type=\"first\">H</forename><forename type=\"middle\">P</forename><surname>Hu</surname></persName>\n\t\t</author>\n\t</analytic>\n\t<monogr>\n\t\t<title level=\"j\">Ann Thorac Surg</title>\n\t\t<imprint>\n\t\t\t<biblScope unit=\"volume\">103</biblScope>\n\t\t\t<biblScope unit=\"page\" from=\"1158\" to=\"1164\" />\n\t\t\t<date type=\"published\" when=\"2017\">2017</date>\n\t\t</imprint>\n\t</monogr>\n</biblStruct>\n\n<biblStruct xml:id=\"b14\">\n\t<analytic>\n\t\t<title level=\"a\" type=\"main\">Electromagnetic navigation transthoracic needle aspiration for the diagnosis of pulmonary nodules: a safety and feasibility pilot study</title>\n\t\t<author>\n\t\t\t<persName><forename type=\"first\">L</forename><forename type=\"middle\">B</forename><surname>Yarmus</surname></persName>\n\t\t</author>\n\t\t<author>\n\t\t\t<persName><forename type=\"first\">S</forename><surname>Arias</surname></persName>\n\t\t</author>\n\t\t<author>\n\t\t\t<persName><forename type=\"first\">D</forename><surname>Feller-Kopman</surname></persName>\n\t\t</author>\n\t</analytic>\n\t<monogr>\n\t\t<title level=\"j\">J Thorac Dis</title>\n\t\t<imprint>\n\t\t\t<biblScope unit=\"volume\">8</biblScope>\n\t\t\t<biblScope unit=\"page\" from=\"186\" to=\"194\" />\n\t\t\t<date type=\"published\" when=\"2016\">2016</date>\n\t\t</imprint>\n\t</monogr>\n</biblStruct>\n\n<biblStruct xml:id=\"b15\">\n\t<analytic>\n\t\t<title level=\"a\" type=\"main\">Performance of a Novel Pulmonary Needle Using Electromagnetic Navigation Bronchoscopy in a Porcine Lung Model</title>\n\t\t<author>\n\t\t\t<persName><forename type=\"first\">S</forename><surname>Skibo</surname></persName>\n\t\t</author>\n\t\t<author>\n\t\t\t<persName><forename type=\"first\">J</forename><surname>Mattingley</surname></persName>\n\t\t</author>\n\t\t<author>\n\t\t\t<persName><forename type=\"first\">C</forename><surname>Alvarado</surname></persName>\n\t\t</author>\n\t</analytic>\n\t<monogr>\n\t\t<title level=\"j\">Chest</title>\n\t\t<imprint>\n\t\t\t<biblScope unit=\"volume\">152</biblScope>\n\t\t\t<biblScope unit=\"page\">A961</biblScope>\n\t\t\t<date type=\"published\" when=\"2017\">2017</date>\n\t\t</imprint>\n\t</monogr>\n</biblStruct>\n\n<biblStruct xml:id=\"b16\">\n\t<analytic>\n\t\t<title level=\"a\" type=\"main\">Robotic Endoscopic Airway Challenge: Reach Assessment</title>\n\t\t<author>\n\t\t\t<persName><forename type=\"first\">A</forename><surname>Chen</surname></persName>\n\t\t</author>\n\t\t<author>\n\t\t\t<persName><forename type=\"first\">M</forename><surname>Wahidi</surname></persName>\n\t\t</author>\n\t\t<author>\n\t\t\t<persName><forename type=\"first\">C</forename><surname>Gillespie</surname></persName>\n\t\t</author>\n\t</analytic>\n\t<monogr>\n\t\t<title level=\"j\">Chest</title>\n\t\t<imprint>\n\t\t\t<biblScope unit=\"volume\">152</biblScope>\n\t\t\t<biblScope unit=\"page\">A882</biblScope>\n\t\t\t<date type=\"published\" when=\"2017\">2017</date>\n\t\t</imprint>\n\t</monogr>\n</biblStruct>\n\n<biblStruct xml:id=\"b17\">\n\t<analytic>\n\t\t<title level=\"a\" type=\"main\">Robotic Endoscopic Airway Challenge: REACH Assessment</title>\n\t\t<author>\n\t\t\t<persName><forename type=\"first\">A</forename><forename type=\"middle\">C</forename><surname>Chen</surname></persName>\n\t\t</author>\n\t\t<author>\n\t\t\t<persName><forename type=\"first\">C</forename><forename type=\"middle\">T</forename><surname>Gillespie</surname></persName>\n\t\t</author>\n\t</analytic>\n\t<monogr>\n\t\t<title level=\"j\">Ann Thorac Surg</title>\n\t\t<imprint>\n\t\t\t<date type=\"published\" when=\"2018\">2018</date>\n\t\t</imprint>\n\t</monogr>\n\t<note>Epub ahead of print</note>\n</biblStruct>\n\n<biblStruct xml:id=\"b18\">\n\t<analytic>\n\t\t<title level=\"a\" type=\"main\">First Human Use of a New Robotic-Assisted Navigation System for Small Peripheral Pulmonary Nodules Demonstrates Good Safety Profile and High Diagnostic Yield</title>\n\t\t<author>\n\t\t\t<persName><forename type=\"first\">D</forename><surname>Fielding</surname></persName>\n\t\t</author>\n\t\t<author>\n\t\t\t<persName><forename type=\"first\">F</forename><surname>Bashirzadeh</surname></persName>\n\t\t</author>\n\t\t<author>\n\t\t\t<persName><forename type=\"first\">J</forename><forename type=\"middle\">H</forename><surname>Son</surname></persName>\n\t\t</author>\n\t</analytic>\n\t<monogr>\n\t\t<title level=\"j\">Chest</title>\n\t\t<imprint>\n\t\t\t<biblScope unit=\"volume\">152</biblScope>\n\t\t\t<biblScope unit=\"page\">858</biblScope>\n\t\t\t<date type=\"published\" when=\"2017\">2017</date>\n\t\t</imprint>\n\t</monogr>\n</biblStruct>\n\n<biblStruct xml:id=\"b19\">\n\t<analytic>\n\t\t<title level=\"a\" type=\"main\">Comparative study of three different catheters for CT imagingbronchoscopy-guided radiofrequency ablation as a potential and novel interventional therapy for lung cancer</title>\n\t\t<author>\n\t\t\t<persName><forename type=\"first\">T</forename><surname>Tanabe</surname></persName>\n\t\t</author>\n\t\t<author>\n\t\t\t<persName><forename type=\"first\">T</forename><surname>Koizumi</surname></persName>\n\t\t</author>\n\t\t<author>\n\t\t\t<persName><forename type=\"first\">K</forename><surname>Tsushima</surname></persName>\n\t\t</author>\n\t</analytic>\n\t<monogr>\n\t\t<title level=\"j\">Chest</title>\n\t\t<imprint>\n\t\t\t<biblScope unit=\"volume\">137</biblScope>\n\t\t\t<biblScope unit=\"page\" from=\"890\" to=\"897\" />\n\t\t\t<date type=\"published\" when=\"2010\">2010</date>\n\t\t</imprint>\n\t</monogr>\n</biblStruct>\n\n<biblStruct xml:id=\"b20\">\n\t<analytic>\n\t\t<title level=\"a\" type=\"main\">Clinical experience of bronchoscopy-guided radiofrequency ablation for peripheral-type lung cancer</title>\n\t\t<author>\n\t\t\t<persName><forename type=\"first\">T</forename><surname>Koizumi</surname></persName>\n\t\t</author>\n\t\t<author>\n\t\t\t<persName><forename type=\"first\">T</forename><surname>Kobayashi</surname></persName>\n\t\t</author>\n\t\t<author>\n\t\t\t<persName><forename type=\"first\">T</forename><surname>Tanabe</surname></persName>\n\t\t</author>\n\t</analytic>\n\t<monogr>\n\t\t<title level=\"j\">Case Rep Oncol Med</title>\n\t\t<imprint>\n\t\t\t<biblScope unit=\"volume\">2013</biblScope>\n\t\t\t<biblScope unit=\"page\">515160</biblScope>\n\t\t\t<date type=\"published\" when=\"2013\">2013</date>\n\t\t</imprint>\n\t</monogr>\n</biblStruct>\n\n<biblStruct xml:id=\"b21\">\n\t<analytic>\n\t\t<title level=\"a\" type=\"main\">Bronchoscopy-Guided Cooled Radiofrequency Ablation as a Novel Intervention Therapy for Peripheral Lung Cancer</title>\n\t\t<author>\n\t\t\t<persName><forename type=\"first\">T</forename><surname>Koizumi</surname></persName>\n\t\t</author>\n\t\t<author>\n\t\t\t<persName><forename type=\"first\">K</forename><surname>Tsushima</surname></persName>\n\t\t</author>\n\t\t<author>\n\t\t\t<persName><forename type=\"first\">T</forename><surname>Tanabe</surname></persName>\n\t\t</author>\n\t</analytic>\n\t<monogr>\n\t\t<title level=\"j\">Respiration</title>\n\t\t<imprint>\n\t\t\t<biblScope unit=\"volume\">90</biblScope>\n\t\t\t<biblScope unit=\"page\" from=\"47\" to=\"55\" />\n\t\t\t<date type=\"published\" when=\"2015\">2015</date>\n\t\t</imprint>\n\t</monogr>\n</biblStruct>\n\n<biblStruct xml:id=\"b22\">\n\t<analytic>\n\t\t<title level=\"a\" type=\"main\">Navigation Bronchoscopy-Guided Radiofrequency Ablation for Nonsurgical Peripheral Pulmonary Tumors</title>\n\t\t<author>\n\t\t\t<persName><forename type=\"first\">F</forename><surname>Xie</surname></persName>\n\t\t</author>\n\t\t<author>\n\t\t\t<persName><forename type=\"first\">X</forename><surname>Zheng</surname></persName>\n\t\t</author>\n\t\t<author>\n\t\t\t<persName><forename type=\"first\">B</forename><surname>Xiao</surname></persName>\n\t\t</author>\n\t</analytic>\n\t<monogr>\n\t\t<title level=\"j\">Respiration</title>\n\t\t<imprint>\n\t\t\t<biblScope unit=\"volume\">94</biblScope>\n\t\t\t<biblScope unit=\"page\" from=\"293\" to=\"298\" />\n\t\t\t<date type=\"published\" when=\"2017\">2017</date>\n\t\t</imprint>\n\t</monogr>\n</biblStruct>\n\n<biblStruct xml:id=\"b23\">\n\t<analytic>\n\t\t<title level=\"a\" type=\"main\">Clinical analysis on 113 patients with lung cancer treated by percutaneous CTguided microwave ablation</title>\n\t\t<author>\n\t\t\t<persName><forename type=\"first\">L</forename><surname>Zhong</surname></persName>\n\t\t</author>\n\t\t<author>\n\t\t\t<persName><forename type=\"first\">S</forename><surname>Sun</surname></persName>\n\t\t</author>\n\t\t<author>\n\t\t\t<persName><forename type=\"first\">J</forename><surname>Shi</surname></persName>\n\t\t</author>\n\t</analytic>\n\t<monogr>\n\t\t<title level=\"j\">J Thorac Dis</title>\n\t\t<imprint>\n\t\t\t<biblScope unit=\"volume\">9</biblScope>\n\t\t\t<biblScope unit=\"page\" from=\"590\" to=\"597\" />\n\t\t\t<date type=\"published\" when=\"2017\">2017</date>\n\t\t</imprint>\n\t</monogr>\n</biblStruct>\n\n<biblStruct xml:id=\"b24\">\n\t<analytic>\n\t\t<title level=\"a\" type=\"main\">Long-term outcomes after near-infrared sentinel lymph node mapping in non-small cell lung cancer</title>\n\t\t<author>\n\t\t\t<persName><forename type=\"first\">C</forename><forename type=\"middle\">S</forename><surname>Digesu</surname></persName>\n\t\t</author>\n\t\t<author>\n\t\t\t<persName><forename type=\"first\">K</forename><forename type=\"middle\">J</forename><surname>Hachey</surname></persName>\n\t\t</author>\n\t\t<author>\n\t\t\t<persName><forename type=\"first\">D</forename><forename type=\"middle\">M</forename><surname>Gilmore</surname></persName>\n\t\t</author>\n\t</analytic>\n\t<monogr>\n\t\t<title level=\"j\">J Thorac Cardiovasc Surg</title>\n\t\t<imprint>\n\t\t\t<biblScope unit=\"volume\">155</biblScope>\n\t\t\t<biblScope unit=\"page\" from=\"1280\" to=\"1291\" />\n\t\t\t<date type=\"published\" when=\"2018\">2018</date>\n\t\t</imprint>\n\t</monogr>\n</biblStruct>\n\n<biblStruct xml:id=\"b25\">\n\t<analytic>\n\t\t<title level=\"a\" type=\"main\">Inhibition of experimental lung metastasis by systemic lentiviral delivery of kallistatin</title>\n\t\t<author>\n\t\t\t<persName><forename type=\"first\">A</forename><forename type=\"middle\">L</forename><surname>Shiau</surname></persName>\n\t\t</author>\n\t\t<author>\n\t\t\t<persName><forename type=\"first\">M</forename><forename type=\"middle\">L</forename><surname>Teo</surname></persName>\n\t\t</author>\n\t\t<author>\n\t\t\t<persName><forename type=\"first\">S</forename><forename type=\"middle\">Y</forename><surname>Chen</surname></persName>\n\t\t</author>\n\t</analytic>\n\t<monogr>\n\t\t<title level=\"j\">BMC Cancer</title>\n\t\t<imprint>\n\t\t\t<biblScope unit=\"volume\">10</biblScope>\n\t\t\t<biblScope unit=\"page\">245</biblScope>\n\t\t\t<date type=\"published\" when=\"2010\">2010</date>\n\t\t</imprint>\n\t</monogr>\n</biblStruct>\n\n\t\t\t\t</listBibl>\n\t\t\t</div>\n\t\t</back>\n\t</text>\n</TEI>\n"
+  },
+  "umls_links": [],
+  "references_enriched": [
+    {
+      "title": "Cone Beam Computertomography (CBCT) in Interventional Chest Medicine -High Feasibility for Endobronchial Realtime Navigation",
+      "journal": "J Cancer",
+      "year": "2014",
+      "volume": "5",
+      "issue": null,
+      "pages": null,
+      "doi": null,
+      "pmid": null,
+      "authors": [
+        "Hohenforst-Schmidt W",
+        "Zarogoulidis P",
+        "Vogl T"
+      ],
+      "first_author_last": "Hohenforst-Schmidt",
+      "enrichment": {
+        "pmid": "24665347",
+        "doi": null,
+        "title": "Cone Beam Computertomography (CBCT) in Interventional Chest Medicine - High Feasibility for Endobronchial Realtime Navigation.",
+        "journal": "Journal of Cancer",
+        "year": "2014",
+        "authors": [
+          "Hohenforst-Schmidt W",
+          "Zarogoulidis P",
+          "Vogl T",
+          "Turner JF",
+          "Browning R",
+          "Linsmeier B",
+          "Huang H",
+          "Li Q",
+          "Darwiche K",
+          "Freitag L",
+          "Simoff M",
+          "Kioumis I",
+          "Zarogoulidis K",
+          "Brachmann J"
+        ],
+        "mesh": [],
+        "pubtypes": [
+          "Journal Article"
+        ],
+        "abstract": "Currently there are several advanced guiding techniques for pathoanatomical diagnosis of incidental solitary pulmonary nodules (iSPN): Electromagnetic navigation (EMN) with or without endobronchial ultrasound (EBUS) with miniprobe, transthoracic ultrasound (TTUS) for needle approach to the pleural wall and adjacent lung and computed tomography (CT) -guidance for (seldom if ever used) endobronchial or (common) transthoracical approach. In several situations one technique is not enough for efficient diagnosis, therefore we investigated a new diagnostic technique of endobronchial guided biopsies by a Cone Beam Computertomography (CBCT) called DynaCT (SIEMENS AG Forchheim, Germany)."
+      }
+    },
+    {
+      "title": "Factors associated with the diagnostic yield of computed tomography-guided transbronchial lung biopsy",
+      "journal": "Thorac Cancer",
+      "year": "2017",
+      "volume": "8",
+      "issue": null,
+      "pages": null,
+      "doi": null,
+      "pmid": null,
+      "authors": [
+        "Park SC",
+        "Kim CJ",
+        "Han CH"
+      ],
+      "first_author_last": "Park",
+      "enrichment": {
+        "pmid": "28177201",
+        "doi": null,
+        "title": "Factors associated with the diagnostic yield of computed tomography-guided transbronchial lung biopsy.",
+        "journal": "Thoracic cancer",
+        "year": "2017",
+        "authors": [
+          "Park SC",
+          "Kim CJ",
+          "Han CH",
+          "Lee SM"
+        ],
+        "mesh": [],
+        "pubtypes": [
+          "Journal Article"
+        ],
+        "abstract": "Computed tomography (CT) may be useful for increasing the diagnostic yield of transbronchial lung biopsy (TBLB). However, only a few studies with small sample sizes have reported the diagnostic utility of CT-guided TBLB and the factors affecting the diagnostic accuracy of CT-guided TBLB are not well known. We evaluated the diagnostic yield of CT-guided TBLB and associated factors."
+      }
+    },
+    {
+      "title": "Cone-Beam CT Scanning With Electromagnetic Navigation Bronchoscopy",
+      "journal": "Chest",
+      "year": "2014",
+      "volume": "146",
+      "issue": null,
+      "pages": "728A",
+      "doi": null,
+      "pmid": null,
+      "authors": [
+        "Pritchett M"
+      ],
+      "first_author_last": "Pritchett",
+      "enrichment": {
+        "pmid": null,
+        "doi": null
+      }
+    },
+    {
+      "title": "Cone Beam CT-Guided Endobronchial Biopsy Assisted by Augmented Fluoroscopy",
+      "journal": "Chest",
+      "year": "2017",
+      "volume": "152",
+      "issue": null,
+      "pages": "887",
+      "doi": null,
+      "pmid": null,
+      "authors": [
+        "Pritchett M",
+        "Radaelli A",
+        "Schampaert S"
+      ],
+      "first_author_last": "Pritchett",
+      "enrichment": {
+        "pmid": null,
+        "doi": null
+      }
+    },
+    {
+      "title": "Feasibility of the Lungvision Augmented Endobronchial Fluoroscopic Navigation and Localization System: Comparison With Cone Beam CT for Nodule Localization",
+      "journal": "Chest",
+      "year": "2017",
+      "volume": "152",
+      "issue": null,
+      "pages": "A863",
+      "doi": null,
+      "pmid": null,
+      "authors": [
+        "Pritchett M"
+      ],
+      "first_author_last": "Pritchett",
+      "enrichment": {
+        "pmid": null,
+        "doi": null
+      }
+    },
+    {
+      "title": "Bronchoscopic Peripheral Lung Nodule Navigation by a Novel Live Endobronchial Fluoroscopic Navigation and Guidance Systemtechnology: Insights From the Multicenter Lungvision I Trial",
+      "journal": "Chest",
+      "year": "2017",
+      "volume": "152",
+      "issue": null,
+      "pages": "A757",
+      "doi": null,
+      "pmid": null,
+      "authors": [
+        "Stoy S",
+        "Hogarth D",
+        "Al-Zubaidi A"
+      ],
+      "first_author_last": "Stoy",
+      "enrichment": {
+        "pmid": null,
+        "doi": null
+      }
+    },
+    {
+      "title": "Improved targeting accuracy of lung tumor biopsies with scanning-beam digital x-ray tomosynthesis image guidance",
+      "journal": "Med Phys",
+      "year": "2016",
+      "volume": "43",
+      "issue": null,
+      "pages": "6282",
+      "doi": null,
+      "pmid": null,
+      "authors": [
+        "Nelson G",
+        "Wu M",
+        "Hinkel C"
+      ],
+      "first_author_last": "Nelson",
+      "enrichment": {
+        "pmid": "27908166",
+        "doi": null,
+        "title": "Improved targeting accuracy of lung tumor biopsies with scanning-beam digital x-ray tomosynthesis image guidance.",
+        "journal": "Medical physics",
+        "year": "2016",
+        "authors": [
+          "Nelson G",
+          "Wu M",
+          "Hinkel C",
+          "Krishna G",
+          "Funk T",
+          "Rosenberg J",
+          "Fahrig R"
+        ],
+        "mesh": [],
+        "pubtypes": [
+          "Journal Article"
+        ],
+        "abstract": "Electromagnetic navigation bronchoscopy (ENB) provides improved targeting accuracy during transbronchial biopsies of suspicious nodules. The greatest weakness of ENB-based guidance is the registration divergence that exists between the planning CT, acquired days or weeks before the intervention, and the patient on the table on the day of the intervention. Augmenting ENB guidance with real-time tomosynthesis imaging during the intervention could mitigate the divergence and further improve the yield of ENB-guided transbronchial biopsies. The real-time tomosynthesis prototype, the scanning-beam digital x-ray (SBDX) system, does not currently display images reconstructed by the iterative algorithm that was developed for this lung imaging application. A protocol using fiducial markers was therefore implemented to permit evaluation of potential improvements that would be provided by the SBDX system in a clinical setting."
+      }
+    },
+    {
+      "title": "Electromagnetic navigation bronchoscopy to access lung lesions in 1,000 subjects: first results of the prospective, multicenter NAVIGATE study",
+      "journal": "BMC Pulm Med",
+      "year": "2017",
+      "volume": "17",
+      "issue": null,
+      "pages": "59",
+      "doi": null,
+      "pmid": null,
+      "authors": [
+        "Khandhar SJ",
+        "Bowling MR",
+        "Flandes J"
+      ],
+      "first_author_last": "Khandhar",
+      "enrichment": {
+        "pmid": "28399830",
+        "doi": null,
+        "title": "Electromagnetic navigation bronchoscopy to access lung lesions in 1,000 subjects: first results of the prospective, multicenter NAVIGATE study.",
+        "journal": "BMC pulmonary medicine",
+        "year": "2017",
+        "authors": [
+          "Khandhar SJ",
+          "Bowling MR",
+          "Flandes J",
+          "Gildea TR",
+          "Hood KL",
+          "Krimsky WS",
+          "Minnich DJ",
+          "Murgu SD",
+          "Pritchett M",
+          "Toloza EM",
+          "Wahidi MM",
+          "Wolvers JJ",
+          "Folch EE",
+          "NAVIGATE Study Investigators"
+        ],
+        "mesh": [],
+        "pubtypes": [
+          "Journal Article",
+          "Multicenter Study"
+        ],
+        "abstract": "Electromagnetic navigation bronchoscopy (ENB) is an image-guided, minimally invasive approach that uses a flexible catheter to access pulmonary lesions."
+      }
+    },
+    {
+      "title": "Bronchoscopic transparenchymal nodule access (BTPNA): first in human trial of a novel procedure for sampling solitary pulmonary nodules",
+      "journal": "Thorax",
+      "year": "2015",
+      "volume": "70",
+      "issue": null,
+      "pages": null,
+      "doi": null,
+      "pmid": null,
+      "authors": [
+        "Herth FJ",
+        "Eberhardt R",
+        "Sterman D"
+      ],
+      "first_author_last": "Herth",
+      "enrichment": {
+        "pmid": null,
+        "doi": null
+      }
+    },
+    {
+      "title": "Bronchoscopic Transparenchymal Nodule Access: Feasibility and Safety in an Endoscopic Unit",
+      "journal": "Respiration",
+      "year": "2016",
+      "volume": "91",
+      "issue": null,
+      "pages": null,
+      "doi": null,
+      "pmid": null,
+      "authors": [
+        "Harzheim D",
+        "Sterman D",
+        "Shah PL"
+      ],
+      "first_author_last": "Harzheim",
+      "enrichment": {
+        "pmid": null,
+        "doi": null
+      }
+    },
+    {
+      "title": "Going Off Road: The First Case Reports of the Use of the Transbronchial Access Tool With Electromagnetic Navigational Bronchoscopy",
+      "journal": "J Bronchology Interv Pulmonol",
+      "year": "2017",
+      "volume": "24",
+      "issue": null,
+      "pages": null,
+      "doi": null,
+      "pmid": null,
+      "authors": [
+        "Anciano C",
+        "Brown C",
+        "Bowling M"
+      ],
+      "first_author_last": "Anciano",
+      "enrichment": {
+        "pmid": "28005832",
+        "doi": null,
+        "title": "Going Off Road: The First Case Reports of the Use of the Transbronchial Access Tool With Electromagnetic Navigational Bronchoscopy.",
+        "journal": "Journal of bronchology & interventional pulmonology",
+        "year": "2017",
+        "authors": [
+          "Anciano C",
+          "Brown C",
+          "Bowling M"
+        ],
+        "mesh": [],
+        "pubtypes": [
+          "Journal Article"
+        ],
+        "abstract": "The ability to reach the peripheral pulmonary nodule/mass with bronchoscopy has improved greatly over the past several years with the use of Electromagnetic navigational bronchoscopy; however, many of these lesions are unable to be adequately sampled due to their location outside the bronchial airways. We report the first use of the transbronchial access tool that creates a pathway from the bronchial airway through the lung parenchyma into the targeted lung abnormality."
+      }
+    },
+    {
+      "title": "Feasibility and Safety of the Transbronchial Access Tool for Peripheral Pulmonary Nodule and Mass",
+      "journal": "Ann Thorac Surg",
+      "year": "2017",
+      "volume": "104",
+      "issue": null,
+      "pages": null,
+      "doi": null,
+      "pmid": null,
+      "authors": [
+        "Bowling MR",
+        "Brown C",
+        "Anciano CJ"
+      ],
+      "first_author_last": "Bowling",
+      "enrichment": {
+        "pmid": "28527967",
+        "doi": null,
+        "title": "Feasibility and Safety of the Transbronchial Access Tool for Peripheral Pulmonary Nodule and Mass.",
+        "journal": "The Annals of thoracic surgery",
+        "year": "2017",
+        "authors": [
+          "Bowling MR",
+          "Brown C",
+          "Anciano CJ"
+        ],
+        "mesh": [],
+        "pubtypes": [
+          "Journal Article"
+        ],
+        "abstract": "Navigational bronchoscopy and other imaging modalities have improved the ability to evaluate pulmonary nodules/mass. Many of these lesions are located outside the bronchial airway and are difficult to access even with these devices. The Transbronchial Access Tool (Medtronic, Minneapolis, MN) allows the bronchoscopist to create a pathway from the bronchial airway, across the lung parenchyma, and into the target lesion. We are reporting the feasibility and safety of this new device."
+      }
+    },
+    {
+      "title": "Comparison of the Thin Convex Probe Endobronchial Ultrasound Bronchoscope to Standard EBUS and Flexible Bronchoscope: A Cadaveric Study",
+      "journal": "Chest",
+      "year": "2016",
+      "volume": "150",
+      "issue": null,
+      "pages": "979A",
+      "doi": null,
+      "pmid": null,
+      "authors": [
+        "Callahan S",
+        "Tanner N",
+        "Chen A"
+      ],
+      "first_author_last": "Callahan",
+      "enrichment": {
+        "pmid": null,
+        "doi": null
+      }
+    },
+    {
+      "title": "First Evaluation of the New Thin Convex Probe Endobronchial Ultrasound Scope: A Human Ex Vivo Lung Study",
+      "journal": "Ann Thorac Surg",
+      "year": "2017",
+      "volume": "103",
+      "issue": null,
+      "pages": null,
+      "doi": null,
+      "pmid": null,
+      "authors": [
+        "Patel P",
+        "Wada H",
+        "Hu HP"
+      ],
+      "first_author_last": "Patel",
+      "enrichment": {
+        "pmid": null,
+        "doi": null
+      }
+    },
+    {
+      "title": "Electromagnetic navigation transthoracic needle aspiration for the diagnosis of pulmonary nodules: a safety and feasibility pilot study",
+      "journal": "J Thorac Dis",
+      "year": "2016",
+      "volume": "8",
+      "issue": null,
+      "pages": null,
+      "doi": null,
+      "pmid": null,
+      "authors": [
+        "Yarmus LB",
+        "Arias S",
+        "Feller-Kopman D"
+      ],
+      "first_author_last": "Yarmus",
+      "enrichment": {
+        "pmid": "26904228",
+        "doi": null,
+        "title": "Electromagnetic navigation transthoracic needle aspiration for the diagnosis of pulmonary nodules: a safety and feasibility pilot study.",
+        "journal": "Journal of thoracic disease",
+        "year": "2016",
+        "authors": [
+          "Yarmus LB",
+          "Arias S",
+          "Feller-Kopman D",
+          "Semaan R",
+          "Wang KP",
+          "Frimpong B",
+          "Oakjones Burgess K",
+          "Thompson R",
+          "Chen A",
+          "Ortiz R",
+          "Lee HJ"
+        ],
+        "mesh": [],
+        "pubtypes": [
+          "Journal Article"
+        ],
+        "abstract": "Pulmonary nodules remain a diagnostic challenge for physicians. Minimally invasive biopsy methods include bronchoscopy and CT guided transthoracic needle aspiration (TTNA). A novel electromagnetic guidance transthoracic needle aspiration (ETTNA) procedure which can be combined with navigational bronchoscopy (NB) and endobronchial ultrasound (EBUS) in a single setting has become available."
+      }
+    },
+    {
+      "title": "Performance of a Novel Pulmonary Needle Using Electromagnetic Navigation Bronchoscopy in a Porcine Lung Model",
+      "journal": "Chest",
+      "year": "2017",
+      "volume": "152",
+      "issue": null,
+      "pages": "A961",
+      "doi": null,
+      "pmid": null,
+      "authors": [
+        "Skibo S",
+        "Mattingley J",
+        "Alvarado C"
+      ],
+      "first_author_last": "Skibo",
+      "enrichment": {
+        "pmid": null,
+        "doi": null
+      }
+    },
+    {
+      "title": "Robotic Endoscopic Airway Challenge: Reach Assessment",
+      "journal": "Chest",
+      "year": "2017",
+      "volume": "152",
+      "issue": null,
+      "pages": "A882",
+      "doi": null,
+      "pmid": null,
+      "authors": [
+        "Chen A",
+        "Wahidi M",
+        "Gillespie C"
+      ],
+      "first_author_last": "Chen",
+      "enrichment": {
+        "pmid": null,
+        "doi": null
+      }
+    },
+    {
+      "title": "Robotic Endoscopic Airway Challenge: REACH Assessment",
+      "journal": "Ann Thorac Surg",
+      "year": "2018",
+      "volume": null,
+      "issue": null,
+      "pages": null,
+      "doi": null,
+      "pmid": null,
+      "authors": [
+        "Chen AC",
+        "Gillespie CT"
+      ],
+      "first_author_last": "Chen",
+      "enrichment": {
+        "pmid": "29486178",
+        "doi": null,
+        "title": "Robotic Endoscopic Airway Challenge: REACH Assessment.",
+        "journal": "The Annals of thoracic surgery",
+        "year": "2018",
+        "authors": [
+          "Chen AC",
+          "Gillespie CT"
+        ],
+        "mesh": [],
+        "pubtypes": [
+          "Journal Article"
+        ],
+        "abstract": "Bronchoscopy for peripheral pulmonary lesions continues to present challenges to clinicians. One potential limitation may be the inability to advance conventional bronchoscopes into close proximity of peripheral lesions before biopsy. This study was performed to assess the reach of a robotic endoscopic system within human cadaveric lungs compared with conventional thin bronchoscopes."
+      }
+    },
+    {
+      "title": "First Human Use of a New Robotic-Assisted Navigation System for Small Peripheral Pulmonary Nodules Demonstrates Good Safety Profile and High Diagnostic Yield",
+      "journal": "Chest",
+      "year": "2017",
+      "volume": "152",
+      "issue": null,
+      "pages": "858",
+      "doi": null,
+      "pmid": null,
+      "authors": [
+        "Fielding D",
+        "Bashirzadeh F",
+        "Son JH"
+      ],
+      "first_author_last": "Fielding",
+      "enrichment": {
+        "pmid": null,
+        "doi": null
+      }
+    },
+    {
+      "title": "Comparative study of three different catheters for CT imagingbronchoscopy-guided radiofrequency ablation as a potential and novel interventional therapy for lung cancer",
+      "journal": "Chest",
+      "year": "2010",
+      "volume": "137",
+      "issue": null,
+      "pages": null,
+      "doi": null,
+      "pmid": null,
+      "authors": [
+        "Tanabe T",
+        "Koizumi T",
+        "Tsushima K"
+      ],
+      "first_author_last": "Tanabe",
+      "enrichment": {
+        "pmid": "19858232",
+        "doi": null,
+        "title": "Comparative study of three different catheters for CT imaging-bronchoscopy-guided radiofrequency ablation as a potential and novel interventional therapy for lung cancer.",
+        "journal": "Chest",
+        "year": "2010",
+        "authors": [
+          "Tanabe T",
+          "Koizumi T",
+          "Tsushima K",
+          "Ito M",
+          "Kanda S",
+          "Kobayashi T",
+          "Yasuo M",
+          "Yamazaki Y",
+          "Kubo K",
+          "Honda T",
+          "Kondo R",
+          "Yoshida K"
+        ],
+        "mesh": [],
+        "pubtypes": [
+          "Journal Article"
+        ],
+        "abstract": "We previously reported that bronchoscopy-guided, internally cooled radiofrequency ablation (RFA) in normal sheep lung was a safe, effective, and feasible procedure without major complications."
+      }
+    },
+    {
+      "title": "Clinical experience of bronchoscopy-guided radiofrequency ablation for peripheral-type lung cancer",
+      "journal": "Case Rep Oncol Med",
+      "year": "2013",
+      "volume": "2013",
+      "issue": null,
+      "pages": "515160",
+      "doi": null,
+      "pmid": null,
+      "authors": [
+        "Koizumi T",
+        "Kobayashi T",
+        "Tanabe T"
+      ],
+      "first_author_last": "Koizumi",
+      "enrichment": {
+        "pmid": "24106625",
+        "doi": null,
+        "title": "Clinical experience of bronchoscopy-guided radiofrequency ablation for peripheral-type lung cancer.",
+        "journal": "Case reports in oncological medicine",
+        "year": "2013",
+        "authors": [
+          "Koizumi T",
+          "Kobayashi T",
+          "Tanabe T",
+          "Tsushima K",
+          "Yasuo M"
+        ],
+        "mesh": [],
+        "pubtypes": [
+          "Journal Article"
+        ],
+        "abstract": "We have developed a new internal cooled electrode for radiofrequency ablation (RFA) (Japan Application no. 2006-88228) suitable for forceps channel bronchoscopy. Here, we present our clinical experience with bronchoscopy-guided RFA under computed tomography (CT) monitoring for patients with peripheral-type non-small-cell lung cancer (NSCLC). Bronchoscopy-guided RFA was performed in two patients (80 and 70 years old) with NSCLC, who had no lymph node involvement and distant metastases (T1N0M0), but not indicated for surgery because of other complications, such as advanced age, poor pulmonary function, and refusal of thoracic surgery. The locations of the tumors were right S2 and left S3, respectively. Although the tumors showed ground-glass opacity (GGO) with solid components in both cases, radiographic findings changed to reduced mass-like shadow and remained stable for 4 and 3.5 years after bronchoscopy-guided RFA. As the former case developed progressive disease on chest CT, bronchoscopy-guided RFA was repeated in the same lesion, resulting in no change for the subsequent 1 year. There were no adverse reactions during the procedures. Thus, bronchoscopy-guided RFA is a safe and feasible procedure that represents a potentially useful therapeutic tool in local control in medically inoperable patients with stage I NSCLC."
+      }
+    },
+    {
+      "title": "Bronchoscopy-Guided Cooled Radiofrequency Ablation as a Novel Intervention Therapy for Peripheral Lung Cancer",
+      "journal": "Respiration",
+      "year": "2015",
+      "volume": "90",
+      "issue": null,
+      "pages": null,
+      "doi": null,
+      "pmid": null,
+      "authors": [
+        "Koizumi T",
+        "Tsushima K",
+        "Tanabe T"
+      ],
+      "first_author_last": "Koizumi",
+      "enrichment": {
+        "pmid": "26044954",
+        "doi": null,
+        "title": "Bronchoscopy-Guided Cooled Radiofrequency Ablation as a Novel Intervention Therapy for Peripheral Lung Cancer.",
+        "journal": "Respiration; international review of thoracic diseases",
+        "year": "2015",
+        "authors": [
+          "Koizumi T",
+          "Tsushima K",
+          "Tanabe T",
+          "Agatsuma T",
+          "Yokoyama T",
+          "Ito M",
+          "Kanda S",
+          "Kobayashi T",
+          "Yasuo M"
+        ],
+        "mesh": [],
+        "pubtypes": [
+          "Journal Article"
+        ],
+        "abstract": "Our previous animal and preliminary human studies indicated that bronchoscopy-guided cooled radiofrequency ablation (RFA) for the lung is a safe and feasible procedure without major complications."
+      }
+    },
+    {
+      "title": "Navigation Bronchoscopy-Guided Radiofrequency Ablation for Nonsurgical Peripheral Pulmonary Tumors",
+      "journal": "Respiration",
+      "year": "2017",
+      "volume": "94",
+      "issue": null,
+      "pages": null,
+      "doi": null,
+      "pmid": null,
+      "authors": [
+        "Xie F",
+        "Zheng X",
+        "Xiao B"
+      ],
+      "first_author_last": "Xie",
+      "enrichment": {
+        "pmid": "28683443",
+        "doi": null,
+        "title": "Navigation Bronchoscopy-Guided Radiofrequency Ablation for Nonsurgical Peripheral Pulmonary Tumors.",
+        "journal": "Respiration; international review of thoracic diseases",
+        "year": "2017",
+        "authors": [
+          "Xie F",
+          "Zheng X",
+          "Xiao B",
+          "Han B",
+          "Herth FJF",
+          "Sun J"
+        ],
+        "mesh": [],
+        "pubtypes": [
+          "Journal Article"
+        ],
+        "abstract": "We have recently developed a flexible catheter electrode used for bronchoscopic radiofrequency ablation (RFA). Two patients with nonsurgical stage IA peripheral lung cancer and 1 with lung metastasis underwent treatment with flexible catheter RFA utilizing navigation bronchoscopy. Chest computed tomography (CT) and positron emission tomography/CT (PET/CT) were performed before and after RFA to assess the ablation response of the patients. One patient's tumor had no prior PET uptake and therefore no follow-up PET was obtained. The first and the third patient obtained partial response to RFA, and the second patient obtained complete response 3 months after RFA. The first patient developed progressive disease 6 months after RFA. The second and the third patient achieved one-year progression-free survival. No significant complications occurred in the 3 patients. Navigation bronchoscopy-guided RFA is a safe and feasible procedure for poor surgical candidates with stage IA lung cancer or lung metastasis."
+      }
+    },
+    {
+      "title": "Clinical analysis on 113 patients with lung cancer treated by percutaneous CTguided microwave ablation",
+      "journal": "J Thorac Dis",
+      "year": "2017",
+      "volume": "9",
+      "issue": null,
+      "pages": null,
+      "doi": null,
+      "pmid": null,
+      "authors": [
+        "Zhong L",
+        "Sun S",
+        "Shi J"
+      ],
+      "first_author_last": "Zhong",
+      "enrichment": {
+        "pmid": "28449467",
+        "doi": null,
+        "title": "Clinical analysis on 113 patients with lung cancer treated by percutaneous CT-guided microwave ablation.",
+        "journal": "Journal of thoracic disease",
+        "year": "2017",
+        "authors": [
+          "Zhong L",
+          "Sun S",
+          "Shi J",
+          "Cao F",
+          "Han X",
+          "Bao X",
+          "You Q"
+        ],
+        "mesh": [],
+        "pubtypes": [
+          "Journal Article"
+        ],
+        "abstract": "Lung Cancer is a primary tumor with poor prognosis. For early stage lung cancer, treatment options include surgical resection and microwave techniques. Percutaneous ablative techniques emerged as best therapeutic options for nonsurgical patients."
+      }
+    },
+    {
+      "title": "Long-term outcomes after near-infrared sentinel lymph node mapping in non-small cell lung cancer",
+      "journal": "J Thorac Cardiovasc Surg",
+      "year": "2018",
+      "volume": "155",
+      "issue": null,
+      "pages": null,
+      "doi": null,
+      "pmid": null,
+      "authors": [
+        "Digesu CS",
+        "Hachey KJ",
+        "Gilmore DM"
+      ],
+      "first_author_last": "Digesu",
+      "enrichment": {
+        "pmid": "29248292",
+        "doi": null,
+        "title": "Long-term outcomes after near-infrared sentinel lymph node mapping in non-small cell lung cancer.",
+        "journal": "The Journal of thoracic and cardiovascular surgery",
+        "year": "2018",
+        "authors": [
+          "Digesu CS",
+          "Hachey KJ",
+          "Gilmore DM",
+          "Khullar OV",
+          "Tsukada H",
+          "Whang B",
+          "Chirieac LR",
+          "Padera RF",
+          "Jaklitsch MT",
+          "Colson YL"
+        ],
+        "mesh": [],
+        "pubtypes": [
+          "Journal Article"
+        ],
+        "abstract": "To report the first analysis of long-term outcomes using near-infrared (NIR) image-guided sentinel lymph node (SLN) mapping in non-small cell lung cancer (NSCLC)."
+      }
+    },
+    {
+      "title": "Inhibition of experimental lung metastasis by systemic lentiviral delivery of kallistatin",
+      "journal": "BMC Cancer",
+      "year": "2010",
+      "volume": "10",
+      "issue": null,
+      "pages": "245",
+      "doi": null,
+      "pmid": null,
+      "authors": [
+        "Shiau AL",
+        "Teo ML",
+        "Chen SY"
+      ],
+      "first_author_last": "Shiau",
+      "enrichment": {
+        "pmid": "20509975",
+        "doi": null,
+        "title": "Inhibition of experimental lung metastasis by systemic lentiviral delivery of kallistatin.",
+        "journal": "BMC cancer",
+        "year": "2010",
+        "authors": [
+          "Shiau AL",
+          "Teo ML",
+          "Chen SY",
+          "Wang CR",
+          "Hsieh JL",
+          "Chang MY",
+          "Chang CJ",
+          "Chao J",
+          "Chao L",
+          "Wu CL",
+          "Lee CH"
+        ],
+        "mesh": [],
+        "pubtypes": [
+          "Journal Article"
+        ],
+        "abstract": "Angiogenesis plays an important role in the development and progression of tumors. Kallistatin exerts anti-angiogenic and anti-inflammatory activities that may be effective in inhibiting tumor metastasis. We investigated the antitumor effect of lentivirus-mediated kallistatin gene transfer in a syngeneic murine tumor model."
+      }
+    }
+  ],
+  "drugs": [
+    {
+      "drug": "kallistatin",
+      "dose": null,
+      "span": [
+        34035,
+        34046
+      ],
+      "context": "asis by systemic lentiviral delivery of kallistatin. BMC Cancer 2010;10:245.\nCite this article as: Krimsky WS, Pritchett MA, Lau KK"
+    }
+  ],
+  "trial_ids": [],
+  "assets": {
+    "tables": [],
+    "figures": [
+      {
+        "type": "figure",
+        "content": {
+          "self_ref": "#/pictures/0",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [
+            {
+              "cref": "#/texts/19"
+            }
+          ],
+          "content_layer": "body",
+          "label": "picture",
+          "prov": [
+            {
+              "page_no": 2,
+              "bbox": {
+                "l": 72.43195343017578,
+                "t": 695.5993576049805,
+                "r": 258.83453369140625,
+                "b": 555.4187316894531,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                0
+              ]
+            }
+          ],
+          "captions": [
+            {
+              "cref": "#/texts/19"
+            }
+          ],
+          "references": [],
+          "footnotes": [],
+          "image": null,
+          "annotations": []
+        },
+        "captions": [
+          "). Additionally, this allows for non-fluoroscopically visible lesions to now be visible. Most importantly, 3D real-time imaging is able to overcome CT-to-body divergence issues that plague current forms of navigational bronchoscopy. As the field advances toward the possibility of bronchoscopic ablation of peripheral tumors, real-time confirmation of probe positioning will be imperative."
+        ],
+        "footnotes": [
+          "echnology and infrastructure commitments necessary to utilize these various tools, with some of these approaches being farther along than others.",
+          "nd the ability to compensate for respiratory motion. This innovative design may help to improve the overall diagnostic yield of guided bronchoscopy by overcoming some of the common limitations of ENB.",
+          "luoroscopy (8). The addition of fluoroscopic navigation to ENB will allow for improved real-time visualization of previously non-fluoroscopically visible lesions. This will also give the ability to re-register the ENB system locally, once proximity to the lesion is confirmed using the tomosynthesis reconstructions. This will update the system and help to eliminate CT-to-body divergence. This improved localization may help to improve diagnostic yield of ENB.",
+          "ll  had successful transparenchymal access, biopsy and diagnosis, confirmed by surgical resection. The average lesion size was 25 mm and the two unsuccessful procedures involved inaccessible lesions that were located in the left upper lobe. There were no adverse events, including pneumothorax and bronchopulmonary hemorrhage. A second study in humans with the BTPNA system involved six patients, of which 5 were able to have the procedure completed (10). The average lesion size was 19.8 mm and the procedure yielded a malignant diagnosis in all five cases. Pneumothorax was reported in 2 of the 5 patients (40%), 1 of which required a chest tube. Only one patient in both studies was able to have a successful transparenchymal biopsy of a lesion in the left upper lobe. There is currently a multi-site, multi-national study (EAST2) enrolling patients for further study. There are six U.S. sites, 1 in Germany and 3 in China. Estimated study completion date is early 2019.",
+          "reprocedural CBCT scan (Artis Zeego, Siemens) and highlighting of the lesion with software so that if there was any small amount of bleeding around the lesion during biopsy or TBAT deployment, they would still know the position of the nodule. The second part of the protocol involved doing a repeat CBCT scan once the planned exit point was reached to confirm line to target and to avoid any 'danger zones' (pleura, vessels, etc.). The use of the TBAT as well as CBCT may be integral to the future bronchoscopic application of ablative energy to a lung lesion.",
+          "lso for delivery of different agents, markers, etc. For the most part, the focus over the past year or two has been the development of more flexible instruments, predominantly needles, in an effort to avoid substantive displacement or alteration of the position of the instrument through which it is being inserted. Other tools have also been developed with the focus on acquiring tissue for histopathologic evaluation as  an  update on the traditional biopsy forceps, which although they remain quite useful, have their own intrinsic limitations.",
+          "avigation used in many other guided bronchoscopy systems. The navigation system still uses the patients preprocedural CT scan as the basis for navigation. Once the biopsy location is reached the camera must be removed from the catheter to facilitate biopsy. The working channel of this biopsy channel is 2.0 mm and can facilitate up to a 19G needle. A first-in-human trial was recently published on a cohort of 30 patients with average lesion size of only 15 mm (19) . Lesions were visible on radial probe Endobronchial ultrasound (EBUS) (rEBUS) in 24 cases (15 eccentric and 9 concentric). Overall diagnostic yield was reported as 83% (16 with malignant results, 8 benign and 5 inconclusive). No adverse events were reported.",
+          "t 40 months of follow-up."
+        ]
+      },
+      {
+        "type": "figure",
+        "content": {
+          "self_ref": "#/pictures/1",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [
+            {
+              "cref": "#/texts/33"
+            }
+          ],
+          "content_layer": "body",
+          "label": "picture",
+          "prov": [
+            {
+              "page_no": 3,
+              "bbox": {
+                "l": 112.92176055908203,
+                "t": 695.1307525634766,
+                "r": 294.693359375,
+                "b": 563.2676239013672,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                0
+              ]
+            }
+          ],
+          "captions": [
+            {
+              "cref": "#/texts/33"
+            }
+          ],
+          "references": [],
+          "footnotes": [],
+          "image": null,
+          "annotations": []
+        },
+        "captions": [
+          "). Additionally, this allows for non-fluoroscopically visible lesions to now be visible. Most importantly, 3D real-time imaging is able to overcome CT-to-body divergence issues that plague current forms of navigational bronchoscopy. As the field advances toward the possibility of bronchoscopic ablation of peripheral tumors, real-time confirmation of probe positioning will be imperative."
+        ],
+        "footnotes": [
+          "echnology and infrastructure commitments necessary to utilize these various tools, with some of these approaches being farther along than others.",
+          "nd the ability to compensate for respiratory motion. This innovative design may help to improve the overall diagnostic yield of guided bronchoscopy by overcoming some of the common limitations of ENB.",
+          "luoroscopy (8). The addition of fluoroscopic navigation to ENB will allow for improved real-time visualization of previously non-fluoroscopically visible lesions. This will also give the ability to re-register the ENB system locally, once proximity to the lesion is confirmed using the tomosynthesis reconstructions. This will update the system and help to eliminate CT-to-body divergence. This improved localization may help to improve diagnostic yield of ENB.",
+          "ll  had successful transparenchymal access, biopsy and diagnosis, confirmed by surgical resection. The average lesion size was 25 mm and the two unsuccessful procedures involved inaccessible lesions that were located in the left upper lobe. There were no adverse events, including pneumothorax and bronchopulmonary hemorrhage. A second study in humans with the BTPNA system involved six patients, of which 5 were able to have the procedure completed (10). The average lesion size was 19.8 mm and the procedure yielded a malignant diagnosis in all five cases. Pneumothorax was reported in 2 of the 5 patients (40%), 1 of which required a chest tube. Only one patient in both studies was able to have a successful transparenchymal biopsy of a lesion in the left upper lobe. There is currently a multi-site, multi-national study (EAST2) enrolling patients for further study. There are six U.S. sites, 1 in Germany and 3 in China. Estimated study completion date is early 2019.",
+          "reprocedural CBCT scan (Artis Zeego, Siemens) and highlighting of the lesion with software so that if there was any small amount of bleeding around the lesion during biopsy or TBAT deployment, they would still know the position of the nodule. The second part of the protocol involved doing a repeat CBCT scan once the planned exit point was reached to confirm line to target and to avoid any 'danger zones' (pleura, vessels, etc.). The use of the TBAT as well as CBCT may be integral to the future bronchoscopic application of ablative energy to a lung lesion.",
+          "lso for delivery of different agents, markers, etc. For the most part, the focus over the past year or two has been the development of more flexible instruments, predominantly needles, in an effort to avoid substantive displacement or alteration of the position of the instrument through which it is being inserted. Other tools have also been developed with the focus on acquiring tissue for histopathologic evaluation as  an  update on the traditional biopsy forceps, which although they remain quite useful, have their own intrinsic limitations.",
+          "avigation used in many other guided bronchoscopy systems. The navigation system still uses the patients preprocedural CT scan as the basis for navigation. Once the biopsy location is reached the camera must be removed from the catheter to facilitate biopsy. The working channel of this biopsy channel is 2.0 mm and can facilitate up to a 19G needle. A first-in-human trial was recently published on a cohort of 30 patients with average lesion size of only 15 mm (19) . Lesions were visible on radial probe Endobronchial ultrasound (EBUS) (rEBUS) in 24 cases (15 eccentric and 9 concentric). Overall diagnostic yield was reported as 83% (16 with malignant results, 8 benign and 5 inconclusive). No adverse events were reported.",
+          "t 40 months of follow-up."
+        ]
+      },
+      {
+        "type": "figure",
+        "content": {
+          "self_ref": "#/pictures/2",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "label": "picture",
+          "prov": [
+            {
+              "page_no": 3,
+              "bbox": {
+                "l": 297.5923156738281,
+                "t": 695.3006820678711,
+                "r": 481.66436767578125,
+                "b": 563.0395812988281,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                0
+              ]
+            }
+          ],
+          "captions": [],
+          "references": [],
+          "footnotes": [],
+          "image": null,
+          "annotations": []
+        },
+        "captions": [
+          "). Additionally, this allows for non-fluoroscopically visible lesions to now be visible. Most importantly, 3D real-time imaging is able to overcome CT-to-body divergence issues that plague current forms of navigational bronchoscopy. As the field advances toward the possibility of bronchoscopic ablation of peripheral tumors, real-time confirmation of probe positioning will be imperative."
+        ],
+        "footnotes": [
+          "echnology and infrastructure commitments necessary to utilize these various tools, with some of these approaches being farther along than others.",
+          "nd the ability to compensate for respiratory motion. This innovative design may help to improve the overall diagnostic yield of guided bronchoscopy by overcoming some of the common limitations of ENB.",
+          "luoroscopy (8). The addition of fluoroscopic navigation to ENB will allow for improved real-time visualization of previously non-fluoroscopically visible lesions. This will also give the ability to re-register the ENB system locally, once proximity to the lesion is confirmed using the tomosynthesis reconstructions. This will update the system and help to eliminate CT-to-body divergence. This improved localization may help to improve diagnostic yield of ENB.",
+          "ll  had successful transparenchymal access, biopsy and diagnosis, confirmed by surgical resection. The average lesion size was 25 mm and the two unsuccessful procedures involved inaccessible lesions that were located in the left upper lobe. There were no adverse events, including pneumothorax and bronchopulmonary hemorrhage. A second study in humans with the BTPNA system involved six patients, of which 5 were able to have the procedure completed (10). The average lesion size was 19.8 mm and the procedure yielded a malignant diagnosis in all five cases. Pneumothorax was reported in 2 of the 5 patients (40%), 1 of which required a chest tube. Only one patient in both studies was able to have a successful transparenchymal biopsy of a lesion in the left upper lobe. There is currently a multi-site, multi-national study (EAST2) enrolling patients for further study. There are six U.S. sites, 1 in Germany and 3 in China. Estimated study completion date is early 2019.",
+          "reprocedural CBCT scan (Artis Zeego, Siemens) and highlighting of the lesion with software so that if there was any small amount of bleeding around the lesion during biopsy or TBAT deployment, they would still know the position of the nodule. The second part of the protocol involved doing a repeat CBCT scan once the planned exit point was reached to confirm line to target and to avoid any 'danger zones' (pleura, vessels, etc.). The use of the TBAT as well as CBCT may be integral to the future bronchoscopic application of ablative energy to a lung lesion.",
+          "lso for delivery of different agents, markers, etc. For the most part, the focus over the past year or two has been the development of more flexible instruments, predominantly needles, in an effort to avoid substantive displacement or alteration of the position of the instrument through which it is being inserted. Other tools have also been developed with the focus on acquiring tissue for histopathologic evaluation as  an  update on the traditional biopsy forceps, which although they remain quite useful, have their own intrinsic limitations.",
+          "avigation used in many other guided bronchoscopy systems. The navigation system still uses the patients preprocedural CT scan as the basis for navigation. Once the biopsy location is reached the camera must be removed from the catheter to facilitate biopsy. The working channel of this biopsy channel is 2.0 mm and can facilitate up to a 19G needle. A first-in-human trial was recently published on a cohort of 30 patients with average lesion size of only 15 mm (19) . Lesions were visible on radial probe Endobronchial ultrasound (EBUS) (rEBUS) in 24 cases (15 eccentric and 9 concentric). Overall diagnostic yield was reported as 83% (16 with malignant results, 8 benign and 5 inconclusive). No adverse events were reported.",
+          "t 40 months of follow-up."
+        ]
+      },
+      {
+        "type": "figure",
+        "content": {
+          "self_ref": "#/pictures/3",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [
+            {
+              "cref": "#/texts/62"
+            },
+            {
+              "cref": "#/texts/63"
+            },
+            {
+              "cref": "#/texts/64"
+            }
+          ],
+          "content_layer": "body",
+          "label": "picture",
+          "prov": [
+            {
+              "page_no": 5,
+              "bbox": {
+                "l": 72.32484436035156,
+                "t": 695.7829437255859,
+                "r": 258.8208923339844,
+                "b": 508.9064025878906,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                0
+              ]
+            }
+          ],
+          "captions": [
+            {
+              "cref": "#/texts/62"
+            }
+          ],
+          "references": [],
+          "footnotes": [],
+          "image": null,
+          "annotations": []
+        },
+        "captions": [
+          "). Additionally, this allows for non-fluoroscopically visible lesions to now be visible. Most importantly, 3D real-time imaging is able to overcome CT-to-body divergence issues that plague current forms of navigational bronchoscopy. As the field advances toward the possibility of bronchoscopic ablation of peripheral tumors, real-time confirmation of probe positioning will be imperative."
+        ],
+        "footnotes": [
+          "echnology and infrastructure commitments necessary to utilize these various tools, with some of these approaches being farther along than others.",
+          "nd the ability to compensate for respiratory motion. This innovative design may help to improve the overall diagnostic yield of guided bronchoscopy by overcoming some of the common limitations of ENB.",
+          "luoroscopy (8). The addition of fluoroscopic navigation to ENB will allow for improved real-time visualization of previously non-fluoroscopically visible lesions. This will also give the ability to re-register the ENB system locally, once proximity to the lesion is confirmed using the tomosynthesis reconstructions. This will update the system and help to eliminate CT-to-body divergence. This improved localization may help to improve diagnostic yield of ENB.",
+          "ll  had successful transparenchymal access, biopsy and diagnosis, confirmed by surgical resection. The average lesion size was 25 mm and the two unsuccessful procedures involved inaccessible lesions that were located in the left upper lobe. There were no adverse events, including pneumothorax and bronchopulmonary hemorrhage. A second study in humans with the BTPNA system involved six patients, of which 5 were able to have the procedure completed (10). The average lesion size was 19.8 mm and the procedure yielded a malignant diagnosis in all five cases. Pneumothorax was reported in 2 of the 5 patients (40%), 1 of which required a chest tube. Only one patient in both studies was able to have a successful transparenchymal biopsy of a lesion in the left upper lobe. There is currently a multi-site, multi-national study (EAST2) enrolling patients for further study. There are six U.S. sites, 1 in Germany and 3 in China. Estimated study completion date is early 2019.",
+          "reprocedural CBCT scan (Artis Zeego, Siemens) and highlighting of the lesion with software so that if there was any small amount of bleeding around the lesion during biopsy or TBAT deployment, they would still know the position of the nodule. The second part of the protocol involved doing a repeat CBCT scan once the planned exit point was reached to confirm line to target and to avoid any 'danger zones' (pleura, vessels, etc.). The use of the TBAT as well as CBCT may be integral to the future bronchoscopic application of ablative energy to a lung lesion.",
+          "lso for delivery of different agents, markers, etc. For the most part, the focus over the past year or two has been the development of more flexible instruments, predominantly needles, in an effort to avoid substantive displacement or alteration of the position of the instrument through which it is being inserted. Other tools have also been developed with the focus on acquiring tissue for histopathologic evaluation as  an  update on the traditional biopsy forceps, which although they remain quite useful, have their own intrinsic limitations.",
+          "avigation used in many other guided bronchoscopy systems. The navigation system still uses the patients preprocedural CT scan as the basis for navigation. Once the biopsy location is reached the camera must be removed from the catheter to facilitate biopsy. The working channel of this biopsy channel is 2.0 mm and can facilitate up to a 19G needle. A first-in-human trial was recently published on a cohort of 30 patients with average lesion size of only 15 mm (19) . Lesions were visible on radial probe Endobronchial ultrasound (EBUS) (rEBUS) in 24 cases (15 eccentric and 9 concentric). Overall diagnostic yield was reported as 83% (16 with malignant results, 8 benign and 5 inconclusive). No adverse events were reported.",
+          "t 40 months of follow-up."
+        ]
+      }
+    ]
+  },
+  "statistics": [
+    {
+      "type": "p_value",
+      "value": 0.0001,
+      "text": "P<0.0001",
+      "context": "Conversely with ENB alone, there was significant divergence between the perceived distance to the ta"
+    }
+  ],
+  "validation": {
+    "checks": {
+      "has_title": true,
+      "has_authors": true,
+      "authors_are_valid": false,
+      "has_sections": true,
+      "sections_have_content": true,
+      "has_tables": false,
+      "tables_have_captions": true,
+      "tables_have_data": true,
+      "has_figures": true,
+      "figures_have_captions": false,
+      "figures_have_images": false,
+      "has_entities": false,
+      "has_statistics": true,
+      "has_references": true,
+      "refs_structured": true,
+      "refs_enriched_some": true,
+      "references_enriched": true,
+      "has_references_csv": false,
+      "has_cross_refs": false,
+      "umls_links": false,
+      "figures_textual_count": 0
+    },
+    "completeness_score": 65,
+    "is_valid": true,
+    "issues": [],
+    "warnings": [
+      "No medical entities found",
+      "Some figures missing captions"
+    ],
+    "quality_level": "acceptable"
+  }
+}

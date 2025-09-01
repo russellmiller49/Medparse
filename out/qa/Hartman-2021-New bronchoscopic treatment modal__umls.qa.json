@@ -1,0 +1,15 @@
+{
+  "pdf": "Hartman-2021-New bronchoscopic treatment modal.pdf",
+  "n_sections": 24,
+  "n_tables": 5,
+  "n_figures": 5,
+  "n_fig_crops": 5,
+  "missing_fig_bbox": 0,
+  "n_refs_csv": 47,
+  "n_umls_links": 0,
+  "n_local_links": 0,
+  "linker": "umls",
+  "completeness_score": 57,
+  "is_valid": false,
+  "timestamp": "2025-09-01 02:26:38"
+}
