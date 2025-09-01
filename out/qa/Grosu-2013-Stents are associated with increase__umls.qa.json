@@ -1,0 +1,15 @@
+{
+  "pdf": "Grosu-2013-Stents are associated with increase.pdf",
+  "n_sections": 12,
+  "n_tables": 8,
+  "n_figures": 6,
+  "n_fig_crops": 6,
+  "missing_fig_bbox": 0,
+  "n_refs_csv": 14,
+  "n_umls_links": 0,
+  "n_local_links": 0,
+  "linker": "umls",
+  "completeness_score": 61,
+  "is_valid": true,
+  "timestamp": "2025-09-01 07:44:43"
+}

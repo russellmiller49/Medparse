@@ -5022,3 +5022,139 @@ To https://github.com/russellmiller49/Medparse.git
 2025-09-01 07:35:18.230 | SUCCESS  | __main__:process_single_pdf:71 - ✓ Successfully processed Jet Ventilation during Rigid Bronchoscopy in Adults
 2025-09-01 07:35:18.231 | INFO     | __main__:main:198 - Reached 350 successful processes, committing intermediate results...
 2025-09-01 07:35:18.231 | INFO     | __main__:git_commit_and_push:129 - Adding changes to git...
+2025-09-01 07:35:18.441 | INFO     | __main__:git_commit_and_push:145 - Creating git commit...
+[fix/extraction-hardening 3d55606] feat: Batch processed 350 PDFs (intermediate commit)
+ 99 files changed, 100871 insertions(+)
+ create mode 100644 out/batch_processed/Anesthetic considerations for bronchoscopic procedures.json
+ create mode 100644 out/batch_processed/Bhatnagar-2020-Effect of Thoracoscopic Talc Po.json
+ create mode 100644 out/batch_processed/Clinical Success Stenting Distal Bronchi.json
+ create mode 100644 out/batch_processed/Evaluation of a EBUS  forceps in enlarged mediastinal lymph nodes.json
+ create mode 100644 out/batch_processed/IP extending breath of care.json
+ create mode 100644 out/batch_processed/Jet Ventilation during Rigid Bronchoscopy in Adults.json
+ create mode 100644 out/batch_processed/Palliative Care and Interventional Pulmonology.json
+ create mode 100644 out/batch_processed/Robotic bronchoscopy for pulmonary lesions a review of existing technologies and clinical data.json
+ create mode 100644 out/batch_processed/Tranexamic acid vs adrenaline for controlling iatrogenic bleeding during flexible bronchoscopy.json
+ create mode 100644 out/batch_processed/complications_of_bronchoscopy__a_concise_synopsis.json
+ create mode 100644 out/figures/Anesthetic considerations for bronchoscopic procedures_fig01.jpg
+ create mode 100644 out/figures/Anesthetic considerations for bronchoscopic procedures_fig02.jpg
+ create mode 100644 out/figures/Anesthetic considerations for bronchoscopic procedures_fig03.jpg
+ create mode 100644 out/figures/Anesthetic considerations for bronchoscopic procedures_fig05.jpg
+ create mode 100644 out/figures/Anesthetic considerations for bronchoscopic procedures_fig06.jpg
+ create mode 100644 out/figures/Anesthetic considerations for bronchoscopic procedures_fig07.jpg
+ create mode 100644 out/figures/Anesthetic considerations for bronchoscopic procedures_fig08.jpg
+ create mode 100644 out/figures/Anesthetic considerations for bronchoscopic procedures_fig09.jpg
+ create mode 100644 out/figures/Anesthetic considerations for bronchoscopic procedures_fig10.jpg
+ create mode 100644 out/figures/Anesthetic considerations for bronchoscopic procedures_fig11.jpg
+ create mode 100644 out/figures/Anesthetic considerations for bronchoscopic procedures_fig12.jpg
+ create mode 100644 out/figures/Anesthetic considerations for bronchoscopic procedures_fig13.jpg
+ create mode 100644 out/figures/Anesthetic considerations for bronchoscopic procedures_figure2.jpg
+ create mode 100644 out/figures/Bhatnagar-2020-Effect of Thoracoscopic Talc Po_fig01.jpg
+ create mode 100644 out/figures/Bhatnagar-2020-Effect of Thoracoscopic Talc Po_fig02.jpg
+ create mode 100644 out/figures/Bhatnagar-2020-Effect of Thoracoscopic Talc Po_fig03.jpg
+ create mode 100644 out/figures/Bhatnagar-2020-Effect of Thoracoscopic Talc Po_fig04.jpg
+ create mode 100644 out/figures/Clinical Success Stenting Distal Bronchi_fig01.jpg
+ create mode 100644 out/figures/Clinical Success Stenting Distal Bronchi_fig02.jpg
+ create mode 100644 out/figures/Clinical Success Stenting Distal Bronchi_fig03.jpg
+ create mode 100644 out/figures/Clinical Success Stenting Distal Bronchi_fig04.jpg
+ create mode 100644 out/figures/Clinical Success Stenting Distal Bronchi_fig05.jpg
+ create mode 100644 out/figures/Clinical Success Stenting Distal Bronchi_fig06.jpg
+ create mode 100644 out/figures/Clinical Success Stenting Distal Bronchi_fig07.jpg
+ create mode 100644 out/figures/Evaluation of a EBUS  forceps in enlarged mediastinal lymph nodes_fig01.jpg
+ create mode 100644 out/figures/Evaluation of a EBUS  forceps in enlarged mediastinal lymph nodes_fig02.jpg
+ create mode 100644 out/figures/Evaluation of a EBUS  forceps in enlarged mediastinal lymph nodes_fig03.jpg
+ create mode 100644 out/figures/Evaluation of a EBUS  forceps in enlarged mediastinal lymph nodes_fig04.jpg
+ create mode 100644 out/figures/Evaluation of a EBUS  forceps in enlarged mediastinal lymph nodes_fig05.jpg
+ create mode 100644 out/figures/Evaluation of a EBUS  forceps in enlarged mediastinal lymph nodes_fig07.jpg
+ create mode 100644 out/figures/Evaluation of a EBUS  forceps in enlarged mediastinal lymph nodes_fig4.jpg
+ create mode 100644 out/figures/IP extending breath of care_fig01.jpg
+ create mode 100644 out/figures/IP extending breath of care_fig02.jpg
+ create mode 100644 out/figures/IP extending breath of care_fig03.jpg
+ create mode 100644 out/figures/IP extending breath of care_fig04.jpg
+ create mode 100644 out/figures/IP extending breath of care_fig05.jpg
+ create mode 100644 out/figures/IP extending breath of care_fig06.jpg
+ create mode 100644 out/figures/IP extending breath of care_fig07.jpg
+ create mode 100644 out/figures/IP extending breath of care_fig08.jpg
+ create mode 100644 out/figures/IP extending breath of care_fig09.jpg
+ create mode 100644 out/figures/IP extending breath of care_fig10.jpg
+ create mode 100644 out/figures/IP extending breath of care_fig11.jpg
+ create mode 100644 out/figures/IP extending breath of care_fig12.jpg
+ create mode 100644 out/figures/IP extending breath of care_fig13.jpg
+ create mode 100644 out/figures/IP extending breath of care_fig14.jpg
+ create mode 100644 out/figures/IP extending breath of care_fig15.jpg
+ create mode 100644 out/figures/IP extending breath of care_fig16.jpg
+ create mode 100644 out/figures/Jet Ventilation during Rigid Bronchoscopy in Adults_fig01.jpg
+ create mode 100644 out/figures/Jet Ventilation during Rigid Bronchoscopy in Adults_fig02.jpg
+ create mode 100644 out/figures/Robotic bronchoscopy for pulmonary lesions a review of existing technologies and clinical data_fig01.jpg
+ create mode 100644 out/figures/Robotic bronchoscopy for pulmonary lesions a review of existing technologies and clinical data_fig03.jpg
+ create mode 100644 out/figures/Robotic bronchoscopy for pulmonary lesions a review of existing technologies and clinical data_figure1.jpg
+ create mode 100644 out/figures/Tranexamic acid vs adrenaline for controlling iatrogenic bleeding during flexible bronchoscopy_fig01.jpg
+ create mode 100644 out/figures/Tranexamic acid vs adrenaline for controlling iatrogenic bleeding during flexible bronchoscopy_fig02.jpg
+ create mode 100644 out/figures/Tranexamic acid vs adrenaline for controlling iatrogenic bleeding during flexible bronchoscopy_fig03.jpg
+ create mode 100644 out/figures/Tranexamic acid vs adrenaline for controlling iatrogenic bleeding during flexible bronchoscopy_fig05.jpg
+ create mode 100644 out/figures/Tranexamic acid vs adrenaline for controlling iatrogenic bleeding during flexible bronchoscopy_fig08.jpg
+ create mode 100644 out/figures/Tranexamic acid vs adrenaline for controlling iatrogenic bleeding during flexible bronchoscopy_figure1.jpg
+ create mode 100644 out/figures/Tranexamic acid vs adrenaline for controlling iatrogenic bleeding during flexible bronchoscopy_figure2.jpg
+ create mode 100644 out/figures/Tranexamic acid vs adrenaline for controlling iatrogenic bleeding during flexible bronchoscopy_figure3.jpg
+ create mode 100644 out/figures/Tranexamic acid vs adrenaline for controlling iatrogenic bleeding during flexible bronchoscopy_figure4.jpg
+ create mode 100644 out/figures/complications_of_bronchoscopy__a_concise_synopsis_fig01.jpg
+ create mode 100644 out/figures/complications_of_bronchoscopy__a_concise_synopsis_fig02.jpg
+ create mode 100644 out/figures/complications_of_bronchoscopy__a_concise_synopsis_fig03.jpg
+ create mode 100644 out/figures/complications_of_bronchoscopy__a_concise_synopsis_fig04.jpg
+ create mode 100644 out/figures/complications_of_bronchoscopy__a_concise_synopsis_fig05.jpg
+ create mode 100644 out/figures/complications_of_bronchoscopy__a_concise_synopsis_fig06.jpg
+ create mode 100644 out/qa/Anesthetic considerations for bronchoscopic procedures__umls.qa.json
+ create mode 100644 out/qa/Bhatnagar-2020-Effect of Thoracoscopic Talc Po__umls.qa.json
+ create mode 100644 out/qa/Clinical Success Stenting Distal Bronchi__umls.qa.json
+ create mode 100644 out/qa/Evaluation of a EBUS  forceps in enlarged mediastinal lymph nodes__umls.qa.json
+ create mode 100644 out/qa/IP extending breath of care__umls.qa.json
+ create mode 100644 out/qa/Jet Ventilation during Rigid Bronchoscopy in Adults__umls.qa.json
+ create mode 100644 out/qa/Palliative Care and Interventional Pulmonology__umls.qa.json
+ create mode 100644 out/qa/Robotic bronchoscopy for pulmonary lesions a review of existing technologies and clinical data__umls.qa.json
+ create mode 100644 out/qa/Tranexamic acid vs adrenaline for controlling iatrogenic bleeding during flexible bronchoscopy__umls.qa.json
+ create mode 100644 out/qa/complications_of_bronchoscopy__a_concise_synopsis__umls.qa.json
+ create mode 100644 out/references/Anesthetic considerations for bronchoscopic procedures.refs.csv
+ create mode 100644 out/references/Bhatnagar-2020-Effect of Thoracoscopic Talc Po.refs.csv
+ create mode 100644 out/references/Clinical Success Stenting Distal Bronchi.refs.csv
+ create mode 100644 out/references/Evaluation of a EBUS  forceps in enlarged mediastinal lymph nodes.refs.csv
+ create mode 100644 out/references/IP extending breath of care.refs.csv
+ create mode 100644 out/references/Jet Ventilation during Rigid Bronchoscopy in Adults.refs.csv
+ create mode 100644 out/references/Palliative Care and Interventional Pulmonology.refs.csv
+ create mode 100644 out/references/Robotic bronchoscopy for pulmonary lesions a review of existing technologies and clinical data.refs.csv
+ create mode 100644 out/references/Tranexamic acid vs adrenaline for controlling iatrogenic bleeding during flexible bronchoscopy.refs.csv
+ create mode 100644 out/references/complications_of_bronchoscopy__a_concise_synopsis.refs.csv
+2025-09-01 07:35:18.482 | INFO     | __main__:git_commit_and_push:158 - Pushing to origin/fix/extraction-hardening...
+To https://github.com/russellmiller49/Medparse.git
+   536b158..3d55606  fix/extraction-hardening -> fix/extraction-hardening
+2025-09-01 07:35:22.425 | SUCCESS  | __main__:git_commit_and_push:161 - ✓ Successfully pushed to GitHub (branch: fix/extraction-hardening)
+2025-09-01 07:35:22.425 | INFO     | __main__:main:189 - [356/414] Processing ROSE during EBUS  for diagnosing lung cancer a randomized study.pdf
+2025-09-01 07:35:22.425 | INFO     | __main__:process_single_pdf:52 - Processing ROSE during EBUS  for diagnosing lung cancer a randomized study.pdf...
+2025-09-01 07:36:59.044 | SUCCESS  | __main__:process_single_pdf:71 - ✓ Successfully processed ROSE during EBUS  for diagnosing lung cancer a randomized study
+2025-09-01 07:36:59.044 | INFO     | __main__:main:189 - [357/414] Processing Comparison of HFNC  and Conventional O2 during bronc.pdf
+2025-09-01 07:36:59.044 | INFO     | __main__:process_single_pdf:52 - Processing Comparison of HFNC  and Conventional O2 during bronc.pdf...
+2025-09-01 07:38:32.508 | SUCCESS  | __main__:process_single_pdf:71 - ✓ Successfully processed Comparison of HFNC  and Conventional O2 during bronc
+2025-09-01 07:38:32.509 | INFO     | __main__:main:189 - [358/414] Processing Basic and advanced pleural procedures coding and professional fees update for pulmonologists.pdf
+2025-09-01 07:38:32.509 | INFO     | __main__:process_single_pdf:52 - Processing Basic and advanced pleural procedures coding and professional fees update for pulmonologists.pdf...
+2025-09-01 07:39:43.576 | SUCCESS  | __main__:process_single_pdf:71 - ✓ Successfully processed Basic and advanced pleural procedures coding and professional fees update for pulmonologists
+2025-09-01 07:39:43.576 | INFO     | __main__:main:189 - [359/414] Processing Competency-based medical education in interventional pulmonology_ current state and future opportunities.pdf
+2025-09-01 07:39:43.576 | INFO     | __main__:process_single_pdf:52 - Processing Competency-based medical education in interventional pulmonology_ current state and future opportunities.pdf...
+2025-09-01 07:42:19.338 | SUCCESS  | __main__:process_single_pdf:71 - ✓ Successfully processed Competency-based medical education in interventional pulmonology_ current state and future opportunities
+2025-09-01 07:42:19.338 | INFO     | __main__:main:189 - [360/414] Processing EBUS  vs conventional TBNA  in the diagnosis of sarcoidosis.pdf
+2025-09-01 07:42:19.338 | INFO     | __main__:process_single_pdf:52 - Processing EBUS  vs conventional TBNA  in the diagnosis of sarcoidosis.pdf...
+2025-09-01 07:43:51.540 | SUCCESS  | __main__:process_single_pdf:71 - ✓ Successfully processed EBUS  vs conventional TBNA  in the diagnosis of sarcoidosis
+2025-09-01 07:43:51.540 | INFO     | __main__:main:189 - [361/414] Processing Grosu-2013-Stents are associated with increase.pdf
+2025-09-01 07:43:51.540 | INFO     | __main__:process_single_pdf:52 - Processing Grosu-2013-Stents are associated with increase.pdf...
+2025-09-01 07:44:44.092 | SUCCESS  | __main__:process_single_pdf:71 - ✓ Successfully processed Grosu-2013-Stents are associated with increase
+2025-09-01 07:44:44.092 | INFO     | __main__:main:189 - [362/414] Processing Foreign body inhalation in the adult population.pdf
+2025-09-01 07:44:44.092 | INFO     | __main__:process_single_pdf:52 - Processing Foreign body inhalation in the adult population.pdf...
+2025-09-01 07:46:30.091 | SUCCESS  | __main__:process_single_pdf:71 - ✓ Successfully processed Foreign body inhalation in the adult population
+2025-09-01 07:46:30.092 | INFO     | __main__:main:189 - [363/414] Processing Endobronchial epinephrine confusion is in the air.pdf
+2025-09-01 07:46:30.092 | INFO     | __main__:process_single_pdf:52 - Processing Endobronchial epinephrine confusion is in the air.pdf...
+2025-09-01 07:47:21.632 | SUCCESS  | __main__:process_single_pdf:71 - ✓ Successfully processed Endobronchial epinephrine confusion is in the air
+2025-09-01 07:47:21.632 | INFO     | __main__:main:189 - [364/414] Processing 3D printing for airway disease.pdf
+2025-09-01 07:47:21.632 | INFO     | __main__:process_single_pdf:52 - Processing 3D printing for airway disease.pdf...
+2025-09-01 07:48:48.486 | SUCCESS  | __main__:process_single_pdf:71 - ✓ Successfully processed 3D printing for airway disease
+2025-09-01 07:48:48.486 | INFO     | __main__:main:189 - [365/414] Processing Reevaluating the Role of Bronchoscopy Prior to Bronchial Artery Embolization.pdf
+2025-09-01 07:48:48.486 | INFO     | __main__:process_single_pdf:52 - Processing Reevaluating the Role of Bronchoscopy Prior to Bronchial Artery Embolization.pdf...
+2025-09-01 07:49:52.488 | SUCCESS  | __main__:process_single_pdf:71 - ✓ Successfully processed Reevaluating the Role of Bronchoscopy Prior to Bronchial Artery Embolization
+2025-09-01 07:49:52.489 | INFO     | __main__:main:198 - Reached 360 successful processes, committing intermediate results...
+2025-09-01 07:49:52.489 | INFO     | __main__:git_commit_and_push:129 - Adding changes to git...

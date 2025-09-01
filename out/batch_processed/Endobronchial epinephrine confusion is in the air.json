@@ -1,0 +1,2872 @@
+{
+  "metadata": {
+    "title": "DOSES AND DILUTIONS OF ENDOBRONCHIAL EPINEPHRINE",
+    "year": null,
+    "authors": [
+      "The Cleveland"
+    ],
+    "references_text": [
+      "Potentially Fatal Arrhythmia Complicating Endobronchial Epinephrine for Control of Iatrogenic Bleeding\n\t\t\n\t\t\tDanielPSteinfort\n\t\t\n\t\t\n\t\t\tFelixJ FHerth\n\t\t\n\t\t\n\t\t\tRalfEberhardt\n\t\t\n\t\t\n\t\t\tLouisBIrving\n\t\t\n\t\t10.1164/ajrccm.185.9.1028\n\t\n\t\n\t\tAmerican Journal of Respiratory and Critical Care Medicine\n\t\tAm J Respir Crit Care Med\n\t\t1073-449X\n\t\t1535-4970\n\t\t\n\t\t\t185\n\t\t\t9\n\t\t\t\n\t\t\t2012\n\t\t\tAmerican Thoracic Society",
+      "Topical application of epinephrine during bronchoscopy in barbiturate-halothane anesthesia and its influence on cardiac action\n\t\t\n\t\t\tWMall\n\t\t\n\t\t\n\t\t\tHAbel\n\t\t\n\t\n\t\n\t\tBronchopneumologie\n\t\t\n\t\t\t28\n\t\t\t\n\t\t\t1978",
+      "SPallav\n\t\t\n\t\tAtlas of Bronchoscopy\n\t\tLondon\n\t\t\n\t\t\tHodder Arnold\n\t\t\t2012",
+      "Is Endotracheal Adrenaline Deleterious Because of the Beta Adrenergic Effect?\n\t\t\n\t\t\tZviVaknin\n\t\t\n\t\t\n\t\t\tYossiManisterski\n\t\t\n\t\t\n\t\t\tRonBen-Abraham\n\t\t\n\t\t\n\t\t\tOriEfrati\n\t\t\n\t\t\n\t\t\tDannyLotan\n\t\t\n\t\t\n\t\t\tZoharBarzilay\n\t\t\n\t\t\n\t\t\tGideonParet\n\t\t\n\t\t10.1097/00000539-200106000-00009\n\t\n\t\n\t\tAnesthesia & Analgesia\n\t\t0003-2999\n\t\t\n\t\t\t92\n\t\t\t6\n\t\t\t\n\t\t\t2001\n\t\t\tOvid Technologies (Wolters Kluwer Health)",
+      "Haemodynamic effects of tracheal compared with intravenous adrenaline\n\t\t\n\t\t\tAMccrirrick\n\t\t\n\t\t\n\t\t\tIKestin\n\t\t\n\t\t10.1016/0140-6736(92)93283-s\n\t\n\t\n\t\tThe Lancet\n\t\tThe Lancet\n\t\t0140-6736\n\t\t\n\t\t\t340\n\t\t\t8824\n\t\t\t\n\t\t\t1992\n\t\t\tElsevier BV",
+      "Endotracheal Epinephrine: A Call for Larger Doses\n\t\t\n\t\t\tYossiManisterski\n\t\t\n\t\t\n\t\t\tZviVaknin\n\t\t\n\t\t\n\t\t\tRonBen-Abraham\n\t\t\n\t\t\n\t\t\tOriEfrati\n\t\t\n\t\t\n\t\t\tDannyLotan\n\t\t\n\t\t\n\t\t\tMatiBerkovitch\n\t\t\n\t\t\n\t\t\tAsherBarak\n\t\t\n\t\t\n\t\t\tZoharBarzilay\n\t\t\n\t\t\n\t\t\tGideonParet\n\t\t\n\t\t10.1213/00000539-200210000-00045\n\t\n\t\n\t\tAnesthesia & Analgesia\n\t\t0003-2999\n\t\t\n\t\t\t95\n\t\t\t4\n\t\t\t\n\t\t\t2002\n\t\t\tOvid Technologies (Wolters Kluwer Health)",
+      "Epinephrine pharmacokinetics and pharmacodynamics following endotracheal administration in dogs: the role of volume of diluent\n\t\t\n\t\t\tGideonParet\n\t\t\n\t\t\n\t\t\tZviVaknin\n\t\t\n\t\t\n\t\t\tDavidEzra\n\t\t\n\t\t\n\t\t\tEdnaPeleg\n\t\t\n\t\t\n\t\t\tTalmaRosenthal\n\t\t\n\t\t\n\t\t\tAmirVardi\n\t\t\n\t\t\n\t\t\tHaimMayan\n\t\t\n\t\t\n\t\t\tZoharBarzilay\n\t\t\n\t\t10.1016/s0300-9572(96)01091-x\n\t\n\t\n\t\tResuscitation\n\t\tResuscitation\n\t\t0300-9572\n\t\t\n\t\t\t35\n\t\t\t1\n\t\t\t\n\t\t\t1997\n\t\t\tElsevier BV",
+      "British Thoracic Society guidelines on diagnostic flexible bronchoscopy\n\t\t10.1136/thx.56.suppl_1.i1\n\t\n\t\n\t\tThorax\n\t\tThorax\n\t\t0040-6376\n\t\t\n\t\t\t56\n\t\t\tSupplement 1\n\t\t\t\n\t\t\t2001\n\t\t\tBMJ",
+      "Iced Saline Lavage during Bronchoscopy\n\t\t\n\t\t\tHamidSahebjami\n\t\t\n\t\t10.1378/chest.69.1.131b\n\t\n\t\n\t\tChest\n\t\tChest\n\t\t0012-3692\n\t\t\n\t\t\t69\n\t\t\t1\n\t\t\t\n\t\t\t1976\n\t\t\tElsevier BV",
+      "Flexible Bronchoscopy and the Use of Stents\n\t\t\n\t\t\tKo‐penWang\n\t\t\n\t\t\n\t\t\tAtulCMehta\n\t\t\n\t\t\n\t\t\tJFrancisTurnerJr\n\t\t\n\t\t10.1002/9781444346428.ch19\n\t\t\n\t\t\t2012\n\t\t\tWiley\n\t\t\t\n\t\t\tWest Sussex\n\t\t\n\t\n\tCopyright ª 2013",
+      "Epinephrine blood concentrations after peripheral bronchial versus endotracheal administration of epinephrine in dogs\n\t\t\n\t\t\tRamMazkereth\n\t\t\n\t\t\n\t\t\tGideonParet\n\t\t\n\t\t\n\t\t\tDavidEzra\n\t\t\n\t\t\n\t\t\tShragaAviner\n\t\t\n\t\t\n\t\t\tEdnaPeleg\n\t\t\n\t\t\n\t\t\tTalmaRosenthal\n\t\t\n\t\t\n\t\t\tZoharBarzilay\n\t\t\n\t\t10.1097/00003246-199211000-00017\n\t\n\t\n\t\tCritical Care Medicine\n\t\tCritical Care Medicine\n\t\t0090-3493\n\t\t\n\t\t\t20\n\t\t\t11\n\t\t\t\n\t\t\t1992\n\t\t\tOvid Technologies (Wolters Kluwer Health)",
+      "Effect of Routine Clopidogrel Use on Bleeding Complications After Transbronchial Biopsy in Humans\n\t\t\n\t\t\tArminErnst\n\t\t\n\t\t\n\t\t\tRalfEberhardt\n\t\t\n\t\t\n\t\t\tMomenWahidi\n\t\t\n\t\t\n\t\t\tHeinrichDBecker\n\t\t\n\t\t\n\t\t\tFelixJ FHerth\n\t\t\n\t\t10.1378/chest.129.3.734\n\t\n\t\n\t\tChest\n\t\tChest\n\t\t0012-3692\n\t\t\n\t\t\t129\n\t\t\t3\n\t\t\t\n\t\t\t2006\n\t\t\tElsevier BV",
+      "Incidence of complications in bronchoscopy. Multicentre prospective study of 20,986 bronchoscopies\n\t\t\n\t\t\tNFacciolongo\n\t\t\n\t\t\n\t\t\tMPatelli\n\t\t\n\t\t\n\t\t\tSGasparini\n\t\t\n\t\t\n\t\t\tLLazzari Agli\n\t\t\n\t\t\n\t\t\tMSalio\n\t\t\n\t\t\n\t\t\tCSimonassi\n\t\t\n\t\t\n\t\t\tBDel Prato\n\t\t\n\t\t\n\t\t\tPZanoni\n\t\t\n\t\t10.4081/monaldi.2009.370\n\t\n\t\n\t\tMonaldi Archives for Chest Disease\n\t\tMonaldi Arch Chest Dis\n\t\t1122-0643\n\t\t2465-1028\n\t\t\n\t\t\t71\n\t\t\t1\n\t\t\t\n\t\t\t2009\n\t\t\tPAGEPress Publications",
+      "Severe Complications of Bronchoscopy\n\t\t\n\t\t\tFaguangJin\n\t\t\n\t\t\n\t\t\tDeguangMu\n\t\t\n\t\t\n\t\t\tDonglingChu\n\t\t\n\t\t\n\t\t\tEnqingFu\n\t\t\n\t\t\n\t\t\tYonghongXie\n\t\t\n\t\t\n\t\t\tTonggangLiu\n\t\t\n\t\t10.1159/000151656\n\t\n\t\n\t\tRespiration\n\t\tRespiration\n\t\t0025-7931\n\t\t1423-0356\n\t\t\n\t\t\t76\n\t\t\t4\n\t\t\t\n\t\t\t2008\n\t\t\tS. Karger AG",
+      "Fatal pulmonary hemorrhage after transbronchial lung biopsy through the fiberoptic bronchoscope\n\t\t\n\t\t\tMRFlick\n\t\t\n\t\t\n\t\t\tKWasson\n\t\t\n\t\t\n\t\t\tLJDunn\n\t\t\n\t\t\n\t\t\tAJBlock\n\t\t\n\t\n\t\n\t\tAm Rev Respir Dis\n\t\t\n\t\t\t111\n\t\t\t\n\t\t\t1975",
+      "Potentially Fatal Arrhythmia Complicating Endobronchial Epinephrine for Control of Iatrogenic Bleeding\n\t\t\n\t\t\tDanielPSteinfort\n\t\t\n\t\t\n\t\t\tFelixJ FHerth\n\t\t\n\t\t\n\t\t\tRalfEberhardt\n\t\t\n\t\t\n\t\t\tLouisBIrving\n\t\t\n\t\t10.1164/ajrccm.185.9.1028\n\t\n\t\n\t\tAmerican Journal of Respiratory and Critical Care Medicine\n\t\tAm J Respir Crit Care Med\n\t\t1073-449X\n\t\t1535-4970\n\t\t\n\t\t\t185\n\t\t\t9\n\t\t\t\n\t\t\t2012\n\t\t\tAmerican Thoracic Society"
+    ],
+    "references_raw": [
+      "Potentially fatal arrhythmia complicating endobronchial epinephrine for control of iatrogenic bleeding\n\t\t\n\t\t\tDPSteinfort\n\t\t\n\t\t\n\t\t\tFJHerth\n\t\t\n\t\t\n\t\t\tREberhardt\n\t\t\n\t\t\n\t\t\tLBIrving\n\t\t\n\t\n\t\n\t\tAm J Respir Crit Care Med\n\t\t\n\t\t\t185\n\t\t\t\n\t\t\t2012",
+      "Topical application of epinephrine during bronchoscopy in barbiturate-halothane anesthesia and its influence on cardiac action\n\t\t\n\t\t\tWMall\n\t\t\n\t\t\n\t\t\tHAbel\n\t\t\n\t\n\t\n\t\tBronchopneumologie\n\t\t\n\t\t\t28\n\t\t\t\n\t\t\t1978",
+      "SPallav\n\t\t\n\t\tAtlas of Bronchoscopy\n\t\tLondon\n\t\t\n\t\t\tHodder Arnold\n\t\t\t2012",
+      "Is endotracheal adrenaline deleterious because of the beta adrenergic effect?\n\t\t\n\t\t\tZVaknin\n\t\t\n\t\t\n\t\t\tYManisterski\n\t\t\n\t\t\n\t\t\tRBen-Abraham\n\t\t\n\t\t\n\t\t\tOEfrati\n\t\t\n\t\t\n\t\t\tDLotan\n\t\t\n\t\t\n\t\t\tZBarzilay\n\t\t\n\t\n\t\n\t\tAnesth Analg\n\t\t\n\t\t\t92\n\t\t\t\n\t\t\t2001",
+      "Haemodynamic effects of tracheal compared with intravenous adrenaline\n\t\t\n\t\t\tAMccrirrick\n\t\t\n\t\t\n\t\t\tIKestin\n\t\t\n\t\n\t\n\t\tLancet\n\t\t\n\t\t\t3408\n\t\t\t\n\t\t\t1992",
+      "Endotracheal epineprhine: a call for larger doses\n\t\t\n\t\t\tYManiststerski\n\t\t\n\t\t\n\t\t\tZVaknin\n\t\t\n\t\t\n\t\t\tRBen-Abraham\n\t\t\n\t\t\n\t\t\tOEfrati\n\t\t\n\t\t\n\t\t\tDLotan\n\t\t\n\t\t\n\t\t\tMBerkovitch\n\t\t\n\t\t\n\t\t\tABarak\n\t\t\n\t\t\n\t\t\tZBarzilay\n\t\t\n\t\t\n\t\t\tGParet\n\t\t\n\t\n\t\n\t\tAnesth Analg\n\t\t\n\t\t\t05\n\t\t\t\n\t\t\t2002",
+      "Epinephrine pharmacokinetics and pharmacodynamics following endotracheal administration in dogs: the role of volume of diluent\n\t\t\n\t\t\tGParet\n\t\t\n\t\t\n\t\t\tZVaknin\n\t\t\n\t\t\n\t\t\tDEzra\n\t\t\n\t\t\n\t\t\tEPeleg\n\t\t\n\t\t\n\t\t\tTRosenthal\n\t\t\n\t\t\n\t\t\tAVardi\n\t\t\n\t\t\n\t\t\tHMayan\n\t\t\n\t\t\n\t\t\tZBarzilay\n\t\t\n\t\n\t\n\t\tResuscitation\n\t\t\n\t\t\t35\n\t\t\t\n\t\t\t1997",
+      "British Thoracic Society guidelines on diagnostic flexible bronchoscopy\n\t\t\n\t\t\tBritish Thoracic Society Bronchoscopy Guidelines Committee\n\t\t\n\t\n\t\n\t\tThorax\n\t\t\n\t\t\t56\n\t\t\t\n\t\t\t2001",
+      "Iced saline lavage during bronchoscopy\n\t\t\n\t\t\tHSahebjami\n\t\t\n\t\n\t\n\t\tChest\n\t\t\n\t\t\t69\n\t\t\t131\n\t\t\t1976",
+      "Flexible Bronchoscopy\n\t\t\n\t\t\tKPWang\n\t\t\n\t\t\n\t\t\tACMehta\n\t\t\n\t\t\n\t\t\tJFTurnerJr\n\t\t\n\t\t\n\t\t\t2012\n\t\t\tAmerican Thoracic Society\n\t\t\tWest Sussex\n\t\t\n\t\n\tCopyright ª 2013",
+      "Epinephrine blood concentrations after peripheral bronchial versus endotracheal administration of epinephrine in dogs\n\t\t\n\t\t\tRMazkereth\n\t\t\n\t\t\n\t\t\tGParet\n\t\t\n\t\t\n\t\t\tDEzra\n\t\t\n\t\t\n\t\t\tSAviner\n\t\t\n\t\t\n\t\t\tEPeleg\n\t\t\n\t\t\n\t\t\tTRosenthal\n\t\t\n\t\t\n\t\t\tZBarzilay\n\t\t\n\t\n\t\n\t\tCrit Care Med\n\t\t\n\t\t\t20\n\t\t\t\n\t\t\t1992",
+      "Effect of routine clopidogrel use on bleeding complications after transbronchial biopsy in humans\n\t\t\n\t\t\tAErnst\n\t\t\n\t\t\n\t\t\tREberhardt\n\t\t\n\t\t\n\t\t\tMWahidi\n\t\t\n\t\t\n\t\t\tHDBecker\n\t\t\n\t\t\n\t\t\tFJHerth\n\t\t\n\t\n\t\n\t\tChest\n\t\t\n\t\t\t129\n\t\t\t\n\t\t\t2006",
+      "Incidence of complications in bronchoscopy: multicentre prospective study of 20,986 bronchoscopies\n\t\t\n\t\t\tNFacciolongo\n\t\t\n\t\t\n\t\t\tMPatelli\n\t\t\n\t\t\n\t\t\tSGasparini\n\t\t\n\t\t\n\t\t\tLazzariAgli\n\t\t\n\t\t\n\t\t\tLSalio\n\t\t\n\t\t\n\t\t\tMSimonassi\n\t\t\n\t\t\n\t\t\tC\n\t\t\n\t\t\n\t\t\tDelPrato\n\t\t\n\t\t\n\t\t\tBZanoni\n\t\t\n\t\t\n\t\t\tP\n\t\t\n\t\n\t\n\t\tMonaldi Arch Chest Dis\n\t\t\n\t\t\t71\n\t\t\t\n\t\t\t2009",
+      "Severe complications of bronchoscopy\n\t\t\n\t\t\tFJin\n\t\t\n\t\t\n\t\t\tDMu\n\t\t\n\t\t\n\t\t\tDChu\n\t\t\n\t\t\n\t\t\tEFu\n\t\t\n\t\t\n\t\t\tYXie\n\t\t\n\t\t\n\t\t\tTLiu\n\t\t\n\t\n\t\n\t\tRespiration\n\t\t\n\t\t\t76\n\t\t\t\n\t\t\t2008",
+      "Fatal pulmonary hemorrhage after transbronchial lung biopsy through the fiberoptic bronchoscope\n\t\t\n\t\t\tMRFlick\n\t\t\n\t\t\n\t\t\tKWasson\n\t\t\n\t\t\n\t\t\tLJDunn\n\t\t\n\t\t\n\t\t\tAJBlock\n\t\t\n\t\n\t\n\t\tAm Rev Respir Dis\n\t\t\n\t\t\t111\n\t\t\t\n\t\t\t1975",
+      "Potentially fatal arrhythmia complicating endobronchial epinephrine for control of iatrogenic bleeding\n\t\t\n\t\t\tDPSteinfort\n\t\t\n\t\t\n\t\t\tFJHerth\n\t\t\n\t\t\n\t\t\tREberhardt\n\t\t\n\t\t\n\t\t\tLBIrving\n\t\t\n\t\n\t\n\t\tAm J Respir Crit Care Med\n\t\t\n\t\t\t185\n\t\t\t\n\t\t\t2012"
+    ],
+    "references_struct": [
+      {
+        "title": "Potentially fatal arrhythmia complicating endobronchial epinephrine for control of iatrogenic bleeding",
+        "journal": "Am J Respir Crit Care Med",
+        "year": "2012",
+        "volume": "185",
+        "issue": null,
+        "pages": null,
+        "doi": null,
+        "pmid": null,
+        "authors": [
+          "Steinfort DP",
+          "Herth FJ",
+          "Eberhardt R",
+          "Irving LB"
+        ],
+        "first_author_last": "Steinfort"
+      },
+      {
+        "title": "Topical application of epinephrine during bronchoscopy in barbiturate-halothane anesthesia and its influence on cardiac action",
+        "journal": "Bronchopneumologie",
+        "year": "1978",
+        "volume": "28",
+        "issue": null,
+        "pages": null,
+        "doi": null,
+        "pmid": null,
+        "authors": [
+          "Mall W",
+          "Abel H"
+        ],
+        "first_author_last": "Mall"
+      },
+      {
+        "title": "Atlas of Bronchoscopy",
+        "journal": "Atlas of Bronchoscopy",
+        "year": "2012",
+        "volume": null,
+        "issue": null,
+        "pages": null,
+        "doi": null,
+        "pmid": null,
+        "authors": [
+          "Pallav S"
+        ],
+        "first_author_last": "Pallav"
+      },
+      {
+        "title": "Is endotracheal adrenaline deleterious because of the beta adrenergic effect?",
+        "journal": "Anesth Analg",
+        "year": "2001",
+        "volume": "92",
+        "issue": null,
+        "pages": null,
+        "doi": null,
+        "pmid": null,
+        "authors": [
+          "Vaknin Z",
+          "Manisterski Y",
+          "Ben-Abraham R",
+          "Efrati O",
+          "Lotan D",
+          "Barzilay Z"
+        ],
+        "first_author_last": "Vaknin"
+      },
+      {
+        "title": "Haemodynamic effects of tracheal compared with intravenous adrenaline",
+        "journal": "Lancet",
+        "year": "1992",
+        "volume": "3408",
+        "issue": null,
+        "pages": null,
+        "doi": null,
+        "pmid": null,
+        "authors": [
+          "Mccrirrick A",
+          "Kestin I"
+        ],
+        "first_author_last": "Mccrirrick"
+      },
+      {
+        "title": "Endotracheal epineprhine: a call for larger doses",
+        "journal": "Anesth Analg",
+        "year": "2002",
+        "volume": "05",
+        "issue": null,
+        "pages": null,
+        "doi": null,
+        "pmid": null,
+        "authors": [
+          "Maniststerski Y",
+          "Vaknin Z",
+          "Ben-Abraham R",
+          "Efrati O",
+          "Lotan D",
+          "Berkovitch M",
+          "Barak A",
+          "Barzilay Z",
+          "Paret G"
+        ],
+        "first_author_last": "Maniststerski"
+      },
+      {
+        "title": "Epinephrine pharmacokinetics and pharmacodynamics following endotracheal administration in dogs: the role of volume of diluent",
+        "journal": "Resuscitation",
+        "year": "1997",
+        "volume": "35",
+        "issue": null,
+        "pages": null,
+        "doi": null,
+        "pmid": null,
+        "authors": [
+          "Paret G",
+          "Vaknin Z",
+          "Ezra D",
+          "Peleg E",
+          "Rosenthal T",
+          "Vardi A",
+          "Mayan H",
+          "Barzilay Z"
+        ],
+        "first_author_last": "Paret"
+      },
+      {
+        "title": "British Thoracic Society guidelines on diagnostic flexible bronchoscopy",
+        "journal": "Thorax",
+        "year": "2001",
+        "volume": "56",
+        "issue": null,
+        "pages": null,
+        "doi": null,
+        "pmid": null,
+        "authors": [],
+        "first_author_last": null
+      },
+      {
+        "title": "Iced saline lavage during bronchoscopy",
+        "journal": "Chest",
+        "year": "1976",
+        "volume": "69",
+        "issue": null,
+        "pages": "131",
+        "doi": null,
+        "pmid": null,
+        "authors": [
+          "Sahebjami H"
+        ],
+        "first_author_last": "Sahebjami"
+      },
+      {
+        "title": "Flexible Bronchoscopy",
+        "journal": "Flexible Bronchoscopy",
+        "year": "2012",
+        "volume": null,
+        "issue": null,
+        "pages": null,
+        "doi": null,
+        "pmid": null,
+        "authors": [
+          "Wang KP",
+          "Mehta AC",
+          "Turner JF"
+        ],
+        "first_author_last": "Wang"
+      },
+      {
+        "title": "Epinephrine blood concentrations after peripheral bronchial versus endotracheal administration of epinephrine in dogs",
+        "journal": "Crit Care Med",
+        "year": "1992",
+        "volume": "20",
+        "issue": null,
+        "pages": null,
+        "doi": null,
+        "pmid": null,
+        "authors": [
+          "Mazkereth R",
+          "Paret G",
+          "Ezra D",
+          "Aviner S",
+          "Peleg E",
+          "Rosenthal T",
+          "Barzilay Z"
+        ],
+        "first_author_last": "Mazkereth"
+      },
+      {
+        "title": "Effect of routine clopidogrel use on bleeding complications after transbronchial biopsy in humans",
+        "journal": "Chest",
+        "year": "2006",
+        "volume": "129",
+        "issue": null,
+        "pages": null,
+        "doi": null,
+        "pmid": null,
+        "authors": [
+          "Ernst A",
+          "Eberhardt R",
+          "Wahidi M",
+          "Becker HD",
+          "Herth FJ"
+        ],
+        "first_author_last": "Ernst"
+      },
+      {
+        "title": "Incidence of complications in bronchoscopy: multicentre prospective study of 20,986 bronchoscopies",
+        "journal": "Monaldi Arch Chest Dis",
+        "year": "2009",
+        "volume": "71",
+        "issue": null,
+        "pages": null,
+        "doi": null,
+        "pmid": null,
+        "authors": [
+          "Facciolongo N",
+          "Patelli M",
+          "Gasparini S",
+          "Agli L",
+          "Salio L",
+          "Simonassi M",
+          "C",
+          "Prato D",
+          "Zanoni B",
+          "P"
+        ],
+        "first_author_last": "Facciolongo"
+      },
+      {
+        "title": "Severe complications of bronchoscopy",
+        "journal": "Respiration",
+        "year": "2008",
+        "volume": "76",
+        "issue": null,
+        "pages": null,
+        "doi": null,
+        "pmid": null,
+        "authors": [
+          "Jin F",
+          "Mu D",
+          "Chu D",
+          "Fu E",
+          "Xie Y",
+          "Liu T"
+        ],
+        "first_author_last": "Jin"
+      },
+      {
+        "title": "Fatal pulmonary hemorrhage after transbronchial lung biopsy through the fiberoptic bronchoscope",
+        "journal": "Am Rev Respir Dis",
+        "year": "1975",
+        "volume": "111",
+        "issue": null,
+        "pages": null,
+        "doi": null,
+        "pmid": null,
+        "authors": [
+          "Flick MR",
+          "Wasson K",
+          "Dunn LJ",
+          "Block AJ"
+        ],
+        "first_author_last": "Flick"
+      },
+      {
+        "title": "Potentially fatal arrhythmia complicating endobronchial epinephrine for control of iatrogenic bleeding",
+        "journal": "Am J Respir Crit Care Med",
+        "year": "2012",
+        "volume": "185",
+        "issue": null,
+        "pages": null,
+        "doi": null,
+        "pmid": null,
+        "authors": [
+          "Steinfort DP",
+          "Herth FJ",
+          "Eberhardt R",
+          "Irving LB"
+        ],
+        "first_author_last": "Steinfort"
+      }
+    ],
+    "references_enriched": [
+      {
+        "title": "Potentially fatal arrhythmia complicating endobronchial epinephrine for control of iatrogenic bleeding"
+      },
+      {
+        "title": "Am J Respir Crit Care Med",
+        "year": 2012
+      },
+      {
+        "title": "Topical application of epinephrine during bronchoscopy in barbiturate-halothane anesthesia and its influence on cardiac action",
+        "year": 2012
+      },
+      {
+        "title": "Bronchopneumologie",
+        "year": 1978
+      },
+      {
+        "title": "Atlas of Bronchoscopy",
+        "year": 1978
+      },
+      {
+        "title": "Is endotracheal adrenaline deleterious because of the beta adrenergic effect?",
+        "year": 2012
+      },
+      {
+        "title": "Anesth Analg",
+        "year": 2001
+      },
+      {
+        "title": "Haemodynamic effects of tracheal compared with intravenous adrenaline",
+        "year": 2001
+      },
+      {
+        "title": "Lancet",
+        "year": 2001
+      },
+      {
+        "title": "Endotracheal epineprhine: a call for larger doses",
+        "year": 1992
+      },
+      {
+        "title": "Anesth Analg",
+        "year": 2001
+      },
+      {
+        "title": "Epinephrine pharmacokinetics and pharmacodynamics following endotracheal administration in dogs: the role of volume of diluent",
+        "year": 2002
+      },
+      {
+        "title": "Resuscitation",
+        "year": 1997
+      },
+      {
+        "title": "British Thoracic Society guidelines on diagnostic flexible bronchoscopy",
+        "year": 1997
+      },
+      {
+        "title": "Thorax",
+        "year": 1997
+      },
+      {
+        "title": "Iced saline lavage during bronchoscopy",
+        "year": 2001
+      },
+      {
+        "title": "Chest",
+        "year": 2001
+      },
+      {
+        "title": "Flexible Bronchoscopy",
+        "year": 1976
+      },
+      {
+        "title": "Epinephrine blood concentrations after peripheral bronchial versus endotracheal administration of epinephrine in dogs",
+        "year": 2012
+      },
+      {
+        "title": "Crit Care Med",
+        "year": 2012
+      },
+      {
+        "title": "Effect of routine clopidogrel use on bleeding complications after transbronchial biopsy in humans",
+        "year": 1992
+      },
+      {
+        "title": "Chest",
+        "year": 2001
+      },
+      {
+        "title": "Incidence of complications in bronchoscopy: multicentre prospective study of 20,986 bronchoscopies",
+        "year": 2006
+      },
+      {
+        "title": "Monaldi Arch Chest Dis",
+        "year": 2009
+      },
+      {
+        "title": "Severe complications of bronchoscopy",
+        "year": 2009
+      },
+      {
+        "title": "Respiration",
+        "year": 2008
+      },
+      {
+        "title": "Fatal pulmonary hemorrhage after transbronchial lung biopsy through the fiberoptic bronchoscope",
+        "year": 2008
+      },
+      {
+        "title": "Am Rev Respir Dis",
+        "year": 1975
+      },
+      {
+        "title": "Potentially fatal arrhythmia complicating endobronchial epinephrine for control of iatrogenic bleeding"
+      },
+      {
+        "title": "Am J Respir Crit Care Med",
+        "year": 2012
+      }
+    ],
+    "references_source": "grobid_fallback"
+  },
+  "structure": {
+    "sections": [
+      {
+        "title": "Endobronchial Epinephrine: Confusion Is in the Air",
+        "paragraphs": [
+          {
+            "text": "To the Editor :"
+          },
+          {
+            "text": "We read with interest the letter to the editor by Steinfort and colleagues (1). We performed an extensive search and discovered that the doses and dilutions of epinephrine suggested by textbooks, publications, and guidelines for management of airway bleeding during bronchoscopy vary widely from 'small amounts' of 1:100,000 solution up to 20 ml of 1:20,000 solution (Table 1). Topical endobronchial application of epinephrine causing cardiac arrhythmias is well recognized and caution about dosing has been recommended since the 1970s (2), as adverse cardiac events can occur at doses as low as 0.1 mg. Although newer textbooks of bronchoscopy recommend 10fold reduction in the dose of epinephrine for control of bleeding (3), variable effects of epinephrine have been observed. Endotracheal administration of epinephrine when intravenous access cannot be obtained during cardiopulmonary resuscitation is deleterious if small doses (0.5 m g/kg in normal saline to 10 ml volume) are used due to hypotension from b -adrenergic-induced peripheral vasodilatation that is unopposed by a -adrenergic vasoconstriction (4). A study of patients undergoing elective hip surgery compared hemodynamic effects of endotracheal versus intravenous epinephrine at 0.5 m g/kg dose. Patients who received endotracheal epinephrine experienced 10 mm Hg fall in blood pressure (5), which led to a call for larger doses, and research on canines has demonstrated that blood pressure increased when the recommended dose (0.03 mg/kg) was raised 10-fold (6). Moreover, the volume of diluents used can also produce different pharmacokinetics and pharmacodynamics despite administration of the same dose of epinephrine. In this interesting study, 1 mg epinephrine diluted in 10 ml of saline was instilled into the trachea of dogs, which resulted in higher mean plasma epinephrine concentrations as compared with diluting the same dose in 1 ml of saline, suggesting that higher diluents volume could have carried the epinephrine more effectively to pulmonary absorptive areas (7). These reports illustrate the unpredictable effects of epinephrine in the airways both from dose and diluent standpoints. We concur with the authors that endobronchial epinephrine should be employed with caution especially when continuous electrocardiographic monitoring is neither routinely available nor recommended",
+            "cross_refs": [
+              {
+                "type": "table",
+                "index": 0,
+                "text": "Table 1",
+                "span": [
+                  368,
+                  375
+                ]
+              }
+            ]
+          },
+          {
+            "text": "for patients undergoing bronchoscopy (8). The Cleveland Clinic practice over the past 32 years has been to use 2-ml aliquots of 1:10:000 epinephrine up to a maximum dose of 0.6 mg only when ice saline instillation fails, with continuous heart rate and blood pressure monitoring. Endobronchial administration of epinephrine is avoided in the elderly and in patients with arrhythmias and coronary artery disease as well as those with carcinoid tumors, because epinephrine may worsen the catecholamine response and precipitate coronary spasm. Rather than propose a moratorium on the use of epinephrine in postbronchoscopic lung biopsy bleeding, we submit our recommendations despite the lack of controlled trials:"
+          },
+          {
+            "text": "1. Consider ice-cold saline. Every bronchoscopy suite should be equipped with ice-cold saline as gentle instillation of 10- to 15-ml aliquots from a fully wedged bronchoscope has been described as an effective method to stop bleeding from bronchoscopic lung biopsy (9, 10)."
+          },
+          {
+            "text": "2. When epinephrine is required, mandatory electrocardiographic monitoring and prompt switch to other measures for hemostasis such as turning the patient to the lateral decubitus position and use of a tamponade balloon when a maximum epinephrine dose of 0.6 mg fails to stop the bleeding."
+          },
+          {
+            "text": "3. Use lower concentration of epinephrine 1:100,000 and instill small (2-ml) aliquots up to a maximum dose of 0.6 mg."
+          },
+          {
+            "text": "4. Consider norepinephrine instead of epinephrine to reduce the chronotropic effect."
+          },
+          {
+            "text": "5. Avoid its use in high-risk patients with underlying coronary artery disease and arrhythmias as well as those with carcinoid tumors."
+          }
+        ],
+        "category": "other"
+      },
+      {
+        "title": "References",
+        "paragraphs": [
+          {
+            "text": "1. Steinfort DP, Herth FJ, Eberhardt R, Irving LB. Potentially fatal arrhythmia complicating endobronchial epinephrine for control of iatrogenic bleeding. Am J Respir Crit Care Med 2012;185:10281030."
+          },
+          {
+            "text": "2. Mall W, Abel H. Topical application of epinephrine during bronchoscopy in barbiturate-halothane anesthesia and its influence on cardiac action. Bronchopneumologie 1978;28:311-316."
+          },
+          {
+            "text": "3. Pallav S. Atlas of Bronchoscopy. London: Hodder Arnold; 2012"
+          },
+          {
+            "text": "4. Vaknin Z, Manisterski Y, Ben-Abraham R, Efrati O, Lotan D, Barzilay Z. Is endotracheal adrenaline deleterious because of the beta adrenergic effect? Anesth Analg 2001;92:1408-1412."
+          },
+          {
+            "text": "5. McCrirrick A, Kestin I. Haemodynamic effects of tracheal compared with intravenous adrenaline. Lancet 1992;3408:68-70."
+          },
+          {
+            "text": "6. Maniststerski Y, Vaknin Z, Ben-Abraham R, Efrati O, Lotan D, Berkovitch M, Barak A, Barzilay Z, Paret G. Endotracheal epineprhine: a call for larger doses. Anesth Analg 2002;05:1037-1041."
+          },
+          {
+            "text": "7. Paret G, Vaknin Z, Ezra D, Peleg E, Rosenthal T, Vardi A, Mayan H, Barzilay Z. Epinephrine pharmacokinetics and pharmacodynamics following endotracheal administration in dogs: the role of volume of diluent. Resuscitation 1997;35:77-82."
+          },
+          {
+            "text": "8. British Thoracic Society Bronchoscopy Guidelines Committee. British Thoracic Society guidelines on diagnostic flexible bronchoscopy. Thorax 2001;56:i1-i21."
+          },
+          {
+            "text": "9. Sahebjami H. Iced saline lavage during bronchoscopy. Chest 1976;69: 131."
+          },
+          {
+            "text": "10. Wang KP, Mehta AC, Turner JF Jr. Flexible Bronchoscopy. West Sussex: Wiley-Blackwell; 2012."
+          },
+          {
+            "text": "Copyright ª 2013 by the American Thoracic Society"
+          }
+        ],
+        "category": "other"
+      },
+      {
+        "title": "Reply",
+        "paragraphs": [
+          {
+            "text": "From the Authors :"
+          },
+          {
+            "text": "We are grateful to Khoo and colleagues for their interest in our report, and for the thorough review of the variable pharmacologic response to endotracheal epinephrine, which highlights the 'unpredictable effects of epinephrine in the airways both from dose and diluent standpoints.' It is worth noting that our concern regarding bronchoscopic instillation of epinephrine was prompted by 'transbronchial' installation via the guide sheath. Pharmacologic studies in animal models indicate significantly higher systemic absorption of epinephrine when administered into peripheral airways compared with proximal tracheal administration (1). This, as well as evidence presented by Khoo and colleagues, indicates it is likely that systemic absorption of epinephrine from the alveolar space is significantly higher than from the proximal airways. It is therefore important to draw a distinction between endobronchial (central airway) bleeding and bleeding complicating transbronchial lung biopsy (TBLB), which, even in patients on clopidogrel, may be controlled by endoscopic means without resorting to more invasive measures (2). Management of bleeding after TBLB with epinephrine would necessitate instillation into the distal airways/alveolar space where, on the basis of the above evidence, a higher risk of adverse sequelae of epinephrine administration could be anticipated."
+          },
+          {
+            "text": "Use of any therapeutic measure should be undertaken after consideration of the risk-benefit equation. Regarding management of endobronchial (central airway) bleeding, we agree with the recommendations submitted by Khoo and colleagues. These recommendations may also be considered in management of bleeding post-TBLB; however, it is important to reiterate, as have Khoo and colleagues, that the contribution to hemostasis made by epinephrine in patients with severe bleeding after TBLB is unknown. It is also important to recall that major adverse sequelae of bleeding after TBLB are exceedingly rare (3-5). Our original report did not suggest a moratorium on use of epinephrine in postbronchoscopic lung biopsy bleeding, but did recommend that"
+          },
+          {
+            "text": "clinicians should remain cognizant of these issues (6). Given our reported experience (6), we remain of the opinion that epinephrine should never be administered into the lung periphery via the guide sheath. We no longer use epinephrine to control bleeding post-TBLB and would still suggest that failure to control bleeding post-TBLB using iced saline and bronchoscopic tamponade should simply be managed by ongoing iced saline and bronchoscopic tamponade."
+          },
+          {
+            "text": "Author disclosures are available with the text of this letter at www.atsjournals.org."
+          }
+        ],
+        "category": "other"
+      },
+      {
+        "title": "References",
+        "paragraphs": [
+          {
+            "text": "1. Mazkereth R, Paret G, Ezra D, Aviner S, Peleg E, Rosenthal T, Barzilay Z. Epinephrine blood concentrations after peripheral bronchial versus endotracheal administration of epinephrine in dogs. Crit Care Med 1992;20:1582-1587."
+          },
+          {
+            "text": "2. Ernst A, Eberhardt R, Wahidi M, Becker HD, Herth FJ. Effect of routine clopidogrel use on bleeding complications after transbronchial biopsy in humans. Chest 2006;129:734-737."
+          },
+          {
+            "text": "3. Facciolongo N, Patelli M, Gasparini S, Lazzari Agli L, Salio M, Simonassi C, Del Prato B, Zanoni P. Incidence of complications in bronchoscopy: multicentre prospective study of 20,986 bronchoscopies. Monaldi Arch Chest Dis 2009;71:8-14."
+          },
+          {
+            "text": "4. Jin F, Mu D, Chu D, Fu E, Xie Y, Liu T. Severe complications of bronchoscopy. Respiration 2008;76:429-433."
+          },
+          {
+            "text": "5. Flick MR, Wasson K, Dunn LJ, Block AJ. Fatal pulmonary hemorrhage after transbronchial lung biopsy through the fiberoptic bronchoscope. Am Rev Respir Dis 1975;111:853-856."
+          },
+          {
+            "text": "6. Steinfort DP, Herth FJ, Eberhardt R, Irving LB. Potentially fatal arrhythmia complicating endobronchial epinephrine for control of iatrogenic bleeding. Am J Respir Crit Care Med 2012;185:10281030."
+          },
+          {
+            "text": "Copyright ª 2013 by the American Thoracic Society"
+          }
+        ],
+        "category": "other"
+      },
+      {
+        "title": "The Renin-Angiotensin System in Pulmonary Hypertension",
+        "paragraphs": [
+          {
+            "text": "To the Editor :"
+          },
+          {
+            "text": "Weread with interest the article by de Man and coworkers (1) on the potential beneficial effects of angiotensin type 1 (AT1) receptor inhibition in animal models of pulmonary arterial hypertension (PAH). The article also describes systemic activation of the renin-angiotensin-aldosterone system in patients with idiopathic PAH and demonstrates evidence for increased expression and activation of AT1 receptors in these patients. The authors went on to show that AT1 receptor blockade with losartan improves hemodynamics in the monocrotaline rat model"
+          }
+        ],
+        "category": "other"
+      }
+    ],
+    "tables": [
+      {
+        "self_ref": "#/tables/0",
+        "parent": {
+          "cref": "#/body"
+        },
+        "children": [],
+        "content_layer": "body",
+        "label": "table",
+        "prov": [
+          {
+            "page_no": 1,
+            "bbox": {
+              "l": 33.77268981933594,
+              "t": 224.162353515625,
+              "r": 548.2988891601562,
+              "b": 86.59136962890625,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "charspan": [
+              0,
+              0
+            ]
+          }
+        ],
+        "captions": [],
+        "references": [],
+        "footnotes": [],
+        "image": null,
+        "data": {
+          "table_cells": [
+            {
+              "bbox": {
+                "l": 35.49,
+                "t": 564.582,
+                "r": 59.615,
+                "b": 572.0509999999999,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 0,
+              "end_row_offset_idx": 1,
+              "start_col_offset_idx": 0,
+              "end_col_offset_idx": 1,
+              "text": "Author",
+              "column_header": true,
+              "row_header": false,
+              "row_section": false
+            },
+            {
+              "bbox": {
+                "l": 225.411,
+                "t": 564.582,
+                "r": 309.988,
+                "b": 572.0509999999999,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 0,
+              "end_row_offset_idx": 1,
+              "start_col_offset_idx": 1,
+              "end_col_offset_idx": 2,
+              "text": "Textbook or Publication",
+              "column_header": true,
+              "row_header": false,
+              "row_section": false
+            },
+            {
+              "bbox": {
+                "l": 434.719,
+                "t": 564.582,
+                "r": 496.916,
+                "b": 572.0509999999999,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 0,
+              "end_row_offset_idx": 1,
+              "start_col_offset_idx": 2,
+              "end_col_offset_idx": 3,
+              "text": "Epinephrine Dose",
+              "column_header": true,
+              "row_header": false,
+              "row_section": false
+            },
+            {
+              "bbox": {
+                "l": 35.49,
+                "t": 580.4159999999999,
+                "r": 96.817,
+                "b": 586.952,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 1,
+              "end_row_offset_idx": 2,
+              "start_col_offset_idx": 0,
+              "end_col_offset_idx": 1,
+              "text": "Udaya B. S. Prakash",
+              "column_header": false,
+              "row_header": false,
+              "row_section": false
+            },
+            {
+              "bbox": {
+                "l": 173.707,
+                "t": 580.4159999999999,
+                "r": 314.06,
+                "b": 595.966,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 1,
+              "end_row_offset_idx": 2,
+              "start_col_offset_idx": 1,
+              "end_col_offset_idx": 2,
+              "text": "Bronchoscopy . Philadelphia: Lippincott-Raven; 1994. (page 238)",
+              "column_header": false,
+              "row_header": false,
+              "row_section": false
+            },
+            {
+              "bbox": {
+                "l": 382.111,
+                "t": 580.4159999999999,
+                "r": 454.614,
+                "b": 586.952,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 1,
+              "end_row_offset_idx": 2,
+              "start_col_offset_idx": 2,
+              "end_col_offset_idx": 3,
+              "text": "0.5-1.0 ml of 1:20,000",
+              "column_header": false,
+              "row_header": false,
+              "row_section": false
+            },
+            {
+              "bbox": {
+                "l": 35.49,
+                "t": 598.3879999999999,
+                "r": 71.555,
+                "b": 604.923,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 2,
+              "end_row_offset_idx": 3,
+              "start_col_offset_idx": 0,
+              "end_col_offset_idx": 1,
+              "text": "Armin Ernst",
+              "column_header": false,
+              "row_header": false,
+              "row_section": false
+            },
+            {
+              "bbox": {
+                "l": 173.707,
+                "t": 598.3879999999999,
+                "r": 334.398,
+                "b": 613.88,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 2,
+              "end_row_offset_idx": 3,
+              "start_col_offset_idx": 1,
+              "end_col_offset_idx": 2,
+              "text": "Introduction to bronchoscopy . New York: Cambridge University Press; 2009. (page 105)",
+              "column_header": false,
+              "row_header": false,
+              "row_section": false
+            },
+            {
+              "bbox": {
+                "l": 382.11,
+                "t": 598.3879999999999,
+                "r": 439.022,
+                "b": 604.923,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 2,
+              "end_row_offset_idx": 3,
+              "start_col_offset_idx": 2,
+              "end_col_offset_idx": 3,
+              "text": "20 ml of 1:20,000",
+              "column_header": false,
+              "row_header": false,
+              "row_section": false
+            },
+            {
+              "bbox": {
+                "l": 35.489,
+                "t": 616.303,
+                "r": 70.575,
+                "b": 622.838,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 3,
+              "end_row_offset_idx": 4,
+              "start_col_offset_idx": 0,
+              "end_col_offset_idx": 1,
+              "text": "Pallav Shah",
+              "column_header": false,
+              "row_header": false,
+              "row_section": false
+            },
+            {
+              "bbox": {
+                "l": 173.706,
+                "t": 616.303,
+                "r": 316.933,
+                "b": 631.795,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 3,
+              "end_row_offset_idx": 4,
+              "start_col_offset_idx": 1,
+              "end_col_offset_idx": 2,
+              "text": "Atlas of flexible bronchoscopy . London: Hodder Arnold; 2012. (page 10)",
+              "column_header": false,
+              "row_header": false,
+              "row_section": false
+            },
+            {
+              "bbox": {
+                "l": 382.109,
+                "t": 616.303,
+                "r": 483.393,
+                "b": 622.838,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 3,
+              "end_row_offset_idx": 4,
+              "start_col_offset_idx": 2,
+              "end_col_offset_idx": 3,
+              "text": "1:100,000; volume not specified",
+              "column_header": false,
+              "row_header": false,
+              "row_section": false
+            },
+            {
+              "bbox": {
+                "l": 35.488,
+                "t": 634.218,
+                "r": 149.969,
+                "b": 640.7529999999999,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 4,
+              "end_row_offset_idx": 5,
+              "start_col_offset_idx": 0,
+              "end_col_offset_idx": 1,
+              "text": "The Essential Bronchoscopist website",
+              "column_header": false,
+              "row_header": false,
+              "row_section": false
+            },
+            {
+              "bbox": {
+                "l": 173.696,
+                "t": 634.218,
+                "r": 337.865,
+                "b": 649.767,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 4,
+              "end_row_offset_idx": 5,
+              "start_col_offset_idx": 1,
+              "end_col_offset_idx": 2,
+              "text": "www.essential-bronchoscopy.org/PDFs/Module6_en. pdf (page 22)",
+              "column_header": false,
+              "row_header": false,
+              "row_section": false
+            },
+            {
+              "bbox": {
+                "l": 382.108,
+                "t": 634.218,
+                "r": 474.172,
+                "b": 640.7529999999999,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 4,
+              "end_row_offset_idx": 5,
+              "start_col_offset_idx": 2,
+              "end_col_offset_idx": 3,
+              "text": "1 ml of 1:10,000 to 1:20,000",
+              "column_header": false,
+              "row_header": false,
+              "row_section": false
+            },
+            {
+              "bbox": {
+                "l": 35.488,
+                "t": 652.189,
+                "r": 153.182,
+                "b": 667.682,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 5,
+              "end_row_offset_idx": 6,
+              "start_col_offset_idx": 0,
+              "end_col_offset_idx": 1,
+              "text": "British Thoracic Society Bronchoscopy Guidelines Committee",
+              "column_header": false,
+              "row_header": false,
+              "row_section": false
+            },
+            {
+              "bbox": {
+                "l": 173.705,
+                "t": 652.189,
+                "r": 361.682,
+                "b": 667.682,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 5,
+              "end_row_offset_idx": 6,
+              "start_col_offset_idx": 1,
+              "end_col_offset_idx": 2,
+              "text": "British Thoracic Society guidelines on diagnostic flexible bronchoscopy. Thorax 2001;56:(suppl I) i1-i21. (page 15)",
+              "column_header": false,
+              "row_header": false,
+              "row_section": false
+            },
+            {
+              "bbox": {
+                "l": 382.108,
+                "t": 652.189,
+                "r": 543.036,
+                "b": 658.725,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 5,
+              "end_row_offset_idx": 6,
+              "start_col_offset_idx": 2,
+              "end_col_offset_idx": 3,
+              "text": "'Small amounts' of 1:10,000; volume not specified",
+              "column_header": false,
+              "row_header": false,
+              "row_section": false
+            },
+            {
+              "bbox": {
+                "l": 35.488,
+                "t": 670.104,
+                "r": 114.025,
+                "b": 685.597,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 6,
+              "end_row_offset_idx": 7,
+              "start_col_offset_idx": 0,
+              "end_col_offset_idx": 1,
+              "text": "Pyng Lee, Atul C. Mehta, Praveen N. Mather",
+              "column_header": false,
+              "row_header": false,
+              "row_section": false
+            },
+            {
+              "bbox": {
+                "l": 173.705,
+                "t": 670.104,
+                "r": 337.058,
+                "b": 694.555,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 6,
+              "end_row_offset_idx": 7,
+              "start_col_offset_idx": 1,
+              "end_col_offset_idx": 2,
+              "text": "Management of complications from diagnostic and interventional Bronchoscopy. Respirology 2009;14: 940-953. (page 943).",
+              "column_header": false,
+              "row_header": false,
+              "row_section": false
+            },
+            {
+              "bbox": {
+                "l": 382.107,
+                "t": 670.104,
+                "r": 549.518,
+                "b": 685.597,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 6,
+              "end_row_offset_idx": 7,
+              "start_col_offset_idx": 2,
+              "end_col_offset_idx": 3,
+              "text": "Dilute 1 ml (1:1,000) epinephrine to 15 ml ice saline, administer 10 ml (0.6 mg)",
+              "column_header": false,
+              "row_header": false,
+              "row_section": false
+            }
+          ],
+          "num_rows": 7,
+          "num_cols": 3,
+          "grid": [
+            [
+              {
+                "bbox": {
+                  "l": 35.49,
+                  "t": 564.582,
+                  "r": 59.615,
+                  "b": 572.0509999999999,
+                  "coord_origin": "TOPLEFT"
+                },
+                "row_span": 1,
+                "col_span": 1,
+                "start_row_offset_idx": 0,
+                "end_row_offset_idx": 1,
+                "start_col_offset_idx": 0,
+                "end_col_offset_idx": 1,
+                "text": "Author",
+                "column_header": true,
+                "row_header": false,
+                "row_section": false
+              },
+              {
+                "bbox": {
+                  "l": 225.411,
+                  "t": 564.582,
+                  "r": 309.988,
+                  "b": 572.0509999999999,
+                  "coord_origin": "TOPLEFT"
+                },
+                "row_span": 1,
+                "col_span": 1,
+                "start_row_offset_idx": 0,
+                "end_row_offset_idx": 1,
+                "start_col_offset_idx": 1,
+                "end_col_offset_idx": 2,
+                "text": "Textbook or Publication",
+                "column_header": true,
+                "row_header": false,
+                "row_section": false
+              },
+              {
+                "bbox": {
+                  "l": 434.719,
+                  "t": 564.582,
+                  "r": 496.916,
+                  "b": 572.0509999999999,
+                  "coord_origin": "TOPLEFT"
+                },
+                "row_span": 1,
+                "col_span": 1,
+                "start_row_offset_idx": 0,
+                "end_row_offset_idx": 1,
+                "start_col_offset_idx": 2,
+                "end_col_offset_idx": 3,
+                "text": "Epinephrine Dose",
+                "column_header": true,
+                "row_header": false,
+                "row_section": false
+              }
+            ],
+            [
+              {
+                "bbox": {
+                  "l": 35.49,
+                  "t": 580.4159999999999,
+                  "r": 96.817,
+                  "b": 586.952,
+                  "coord_origin": "TOPLEFT"
+                },
+                "row_span": 1,
+                "col_span": 1,
+                "start_row_offset_idx": 1,
+                "end_row_offset_idx": 2,
+                "start_col_offset_idx": 0,
+                "end_col_offset_idx": 1,
+                "text": "Udaya B. S. Prakash",
+                "column_header": false,
+                "row_header": false,
+                "row_section": false
+              },
+              {
+                "bbox": {
+                  "l": 173.707,
+                  "t": 580.4159999999999,
+                  "r": 314.06,
+                  "b": 595.966,
+                  "coord_origin": "TOPLEFT"
+                },
+                "row_span": 1,
+                "col_span": 1,
+                "start_row_offset_idx": 1,
+                "end_row_offset_idx": 2,
+                "start_col_offset_idx": 1,
+                "end_col_offset_idx": 2,
+                "text": "Bronchoscopy . Philadelphia: Lippincott-Raven; 1994. (page 238)",
+                "column_header": false,
+                "row_header": false,
+                "row_section": false
+              },
+              {
+                "bbox": {
+                  "l": 382.111,
+                  "t": 580.4159999999999,
+                  "r": 454.614,
+                  "b": 586.952,
+                  "coord_origin": "TOPLEFT"
+                },
+                "row_span": 1,
+                "col_span": 1,
+                "start_row_offset_idx": 1,
+                "end_row_offset_idx": 2,
+                "start_col_offset_idx": 2,
+                "end_col_offset_idx": 3,
+                "text": "0.5-1.0 ml of 1:20,000",
+                "column_header": false,
+                "row_header": false,
+                "row_section": false
+              }
+            ],
+            [
+              {
+                "bbox": {
+                  "l": 35.49,
+                  "t": 598.3879999999999,
+                  "r": 71.555,
+                  "b": 604.923,
+                  "coord_origin": "TOPLEFT"
+                },
+                "row_span": 1,
+                "col_span": 1,
+                "start_row_offset_idx": 2,
+                "end_row_offset_idx": 3,
+                "start_col_offset_idx": 0,
+                "end_col_offset_idx": 1,
+                "text": "Armin Ernst",
+                "column_header": false,
+                "row_header": false,
+                "row_section": false
+              },
+              {
+                "bbox": {
+                  "l": 173.707,
+                  "t": 598.3879999999999,
+                  "r": 334.398,
+                  "b": 613.88,
+                  "coord_origin": "TOPLEFT"
+                },
+                "row_span": 1,
+                "col_span": 1,
+                "start_row_offset_idx": 2,
+                "end_row_offset_idx": 3,
+                "start_col_offset_idx": 1,
+                "end_col_offset_idx": 2,
+                "text": "Introduction to bronchoscopy . New York: Cambridge University Press; 2009. (page 105)",
+                "column_header": false,
+                "row_header": false,
+                "row_section": false
+              },
+              {
+                "bbox": {
+                  "l": 382.11,
+                  "t": 598.3879999999999,
+                  "r": 439.022,
+                  "b": 604.923,
+                  "coord_origin": "TOPLEFT"
+                },
+                "row_span": 1,
+                "col_span": 1,
+                "start_row_offset_idx": 2,
+                "end_row_offset_idx": 3,
+                "start_col_offset_idx": 2,
+                "end_col_offset_idx": 3,
+                "text": "20 ml of 1:20,000",
+                "column_header": false,
+                "row_header": false,
+                "row_section": false
+              }
+            ],
+            [
+              {
+                "bbox": {
+                  "l": 35.489,
+                  "t": 616.303,
+                  "r": 70.575,
+                  "b": 622.838,
+                  "coord_origin": "TOPLEFT"
+                },
+                "row_span": 1,
+                "col_span": 1,
+                "start_row_offset_idx": 3,
+                "end_row_offset_idx": 4,
+                "start_col_offset_idx": 0,
+                "end_col_offset_idx": 1,
+                "text": "Pallav Shah",
+                "column_header": false,
+                "row_header": false,
+                "row_section": false
+              },
+              {
+                "bbox": {
+                  "l": 173.706,
+                  "t": 616.303,
+                  "r": 316.933,
+                  "b": 631.795,
+                  "coord_origin": "TOPLEFT"
+                },
+                "row_span": 1,
+                "col_span": 1,
+                "start_row_offset_idx": 3,
+                "end_row_offset_idx": 4,
+                "start_col_offset_idx": 1,
+                "end_col_offset_idx": 2,
+                "text": "Atlas of flexible bronchoscopy . London: Hodder Arnold; 2012. (page 10)",
+                "column_header": false,
+                "row_header": false,
+                "row_section": false
+              },
+              {
+                "bbox": {
+                  "l": 382.109,
+                  "t": 616.303,
+                  "r": 483.393,
+                  "b": 622.838,
+                  "coord_origin": "TOPLEFT"
+                },
+                "row_span": 1,
+                "col_span": 1,
+                "start_row_offset_idx": 3,
+                "end_row_offset_idx": 4,
+                "start_col_offset_idx": 2,
+                "end_col_offset_idx": 3,
+                "text": "1:100,000; volume not specified",
+                "column_header": false,
+                "row_header": false,
+                "row_section": false
+              }
+            ],
+            [
+              {
+                "bbox": {
+                  "l": 35.488,
+                  "t": 634.218,
+                  "r": 149.969,
+                  "b": 640.7529999999999,
+                  "coord_origin": "TOPLEFT"
+                },
+                "row_span": 1,
+                "col_span": 1,
+                "start_row_offset_idx": 4,
+                "end_row_offset_idx": 5,
+                "start_col_offset_idx": 0,
+                "end_col_offset_idx": 1,
+                "text": "The Essential Bronchoscopist website",
+                "column_header": false,
+                "row_header": false,
+                "row_section": false
+              },
+              {
+                "bbox": {
+                  "l": 173.696,
+                  "t": 634.218,
+                  "r": 337.865,
+                  "b": 649.767,
+                  "coord_origin": "TOPLEFT"
+                },
+                "row_span": 1,
+                "col_span": 1,
+                "start_row_offset_idx": 4,
+                "end_row_offset_idx": 5,
+                "start_col_offset_idx": 1,
+                "end_col_offset_idx": 2,
+                "text": "www.essential-bronchoscopy.org/PDFs/Module6_en. pdf (page 22)",
+                "column_header": false,
+                "row_header": false,
+                "row_section": false
+              },
+              {
+                "bbox": {
+                  "l": 382.108,
+                  "t": 634.218,
+                  "r": 474.172,
+                  "b": 640.7529999999999,
+                  "coord_origin": "TOPLEFT"
+                },
+                "row_span": 1,
+                "col_span": 1,
+                "start_row_offset_idx": 4,
+                "end_row_offset_idx": 5,
+                "start_col_offset_idx": 2,
+                "end_col_offset_idx": 3,
+                "text": "1 ml of 1:10,000 to 1:20,000",
+                "column_header": false,
+                "row_header": false,
+                "row_section": false
+              }
+            ],
+            [
+              {
+                "bbox": {
+                  "l": 35.488,
+                  "t": 652.189,
+                  "r": 153.182,
+                  "b": 667.682,
+                  "coord_origin": "TOPLEFT"
+                },
+                "row_span": 1,
+                "col_span": 1,
+                "start_row_offset_idx": 5,
+                "end_row_offset_idx": 6,
+                "start_col_offset_idx": 0,
+                "end_col_offset_idx": 1,
+                "text": "British Thoracic Society Bronchoscopy Guidelines Committee",
+                "column_header": false,
+                "row_header": false,
+                "row_section": false
+              },
+              {
+                "bbox": {
+                  "l": 173.705,
+                  "t": 652.189,
+                  "r": 361.682,
+                  "b": 667.682,
+                  "coord_origin": "TOPLEFT"
+                },
+                "row_span": 1,
+                "col_span": 1,
+                "start_row_offset_idx": 5,
+                "end_row_offset_idx": 6,
+                "start_col_offset_idx": 1,
+                "end_col_offset_idx": 2,
+                "text": "British Thoracic Society guidelines on diagnostic flexible bronchoscopy. Thorax 2001;56:(suppl I) i1-i21. (page 15)",
+                "column_header": false,
+                "row_header": false,
+                "row_section": false
+              },
+              {
+                "bbox": {
+                  "l": 382.108,
+                  "t": 652.189,
+                  "r": 543.036,
+                  "b": 658.725,
+                  "coord_origin": "TOPLEFT"
+                },
+                "row_span": 1,
+                "col_span": 1,
+                "start_row_offset_idx": 5,
+                "end_row_offset_idx": 6,
+                "start_col_offset_idx": 2,
+                "end_col_offset_idx": 3,
+                "text": "'Small amounts' of 1:10,000; volume not specified",
+                "column_header": false,
+                "row_header": false,
+                "row_section": false
+              }
+            ],
+            [
+              {
+                "bbox": {
+                  "l": 35.488,
+                  "t": 670.104,
+                  "r": 114.025,
+                  "b": 685.597,
+                  "coord_origin": "TOPLEFT"
+                },
+                "row_span": 1,
+                "col_span": 1,
+                "start_row_offset_idx": 6,
+                "end_row_offset_idx": 7,
+                "start_col_offset_idx": 0,
+                "end_col_offset_idx": 1,
+                "text": "Pyng Lee, Atul C. Mehta, Praveen N. Mather",
+                "column_header": false,
+                "row_header": false,
+                "row_section": false
+              },
+              {
+                "bbox": {
+                  "l": 173.705,
+                  "t": 670.104,
+                  "r": 337.058,
+                  "b": 694.555,
+                  "coord_origin": "TOPLEFT"
+                },
+                "row_span": 1,
+                "col_span": 1,
+                "start_row_offset_idx": 6,
+                "end_row_offset_idx": 7,
+                "start_col_offset_idx": 1,
+                "end_col_offset_idx": 2,
+                "text": "Management of complications from diagnostic and interventional Bronchoscopy. Respirology 2009;14: 940-953. (page 943).",
+                "column_header": false,
+                "row_header": false,
+                "row_section": false
+              },
+              {
+                "bbox": {
+                  "l": 382.107,
+                  "t": 670.104,
+                  "r": 549.518,
+                  "b": 685.597,
+                  "coord_origin": "TOPLEFT"
+                },
+                "row_span": 1,
+                "col_span": 1,
+                "start_row_offset_idx": 6,
+                "end_row_offset_idx": 7,
+                "start_col_offset_idx": 2,
+                "end_col_offset_idx": 3,
+                "text": "Dilute 1 ml (1:1,000) epinephrine to 15 ml ice saline, administer 10 ml (0.6 mg)",
+                "column_header": false,
+                "row_header": false,
+                "row_section": false
+              }
+            ]
+          ]
+        },
+        "annotations": []
+      }
+    ],
+    "figures": [],
+    "citations": [],
+    "n_sections": 5,
+    "n_tables": 1,
+    "n_figures": 0,
+    "n_citations": 0
+  },
+  "provenance": {},
+  "grobid": {
+    "references_tei": "<TEI xmlns=\"http://www.tei-c.org/ns/1.0\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" \n xmlns:mml=\"http://www.w3.org/1998/Math/MathML\">\n\t<teiHeader/>\n\t<text>\n\t\t<front/>\n\t\t<body/>\n\t\t<back>\n\t\t\t<div>\n\t\t\t\t<listBibl>\n<biblStruct xml:id=\"b0\">\n\t<analytic>\n\t\t<title level=\"a\" type=\"main\">Potentially fatal arrhythmia complicating endobronchial epinephrine for control of iatrogenic bleeding</title>\n\t\t<author>\n\t\t\t<persName><forename type=\"first\">D</forename><forename type=\"middle\">P</forename><surname>Steinfort</surname></persName>\n\t\t</author>\n\t\t<author>\n\t\t\t<persName><forename type=\"first\">F</forename><forename type=\"middle\">J</forename><surname>Herth</surname></persName>\n\t\t</author>\n\t\t<author>\n\t\t\t<persName><forename type=\"first\">R</forename><surname>Eberhardt</surname></persName>\n\t\t</author>\n\t\t<author>\n\t\t\t<persName><forename type=\"first\">L</forename><forename type=\"middle\">B</forename><surname>Irving</surname></persName>\n\t\t</author>\n\t</analytic>\n\t<monogr>\n\t\t<title level=\"j\">Am J Respir Crit Care Med</title>\n\t\t<imprint>\n\t\t\t<biblScope unit=\"volume\">185</biblScope>\n\t\t\t<biblScope unit=\"page\" from=\"1028\" to=\"1030\" />\n\t\t\t<date type=\"published\" when=\"2012\">2012</date>\n\t\t</imprint>\n\t</monogr>\n</biblStruct>\n\n<biblStruct xml:id=\"b1\">\n\t<analytic>\n\t\t<title level=\"a\" type=\"main\">Topical application of epinephrine during bronchoscopy in barbiturate-halothane anesthesia and its influence on cardiac action</title>\n\t\t<author>\n\t\t\t<persName><forename type=\"first\">W</forename><surname>Mall</surname></persName>\n\t\t</author>\n\t\t<author>\n\t\t\t<persName><forename type=\"first\">H</forename><surname>Abel</surname></persName>\n\t\t</author>\n\t</analytic>\n\t<monogr>\n\t\t<title level=\"j\">Bronchopneumologie</title>\n\t\t<imprint>\n\t\t\t<biblScope unit=\"volume\">28</biblScope>\n\t\t\t<biblScope unit=\"page\" from=\"311\" to=\"316\" />\n\t\t\t<date type=\"published\" when=\"1978\">1978</date>\n\t\t</imprint>\n\t</monogr>\n</biblStruct>\n\n<biblStruct xml:id=\"b2\">\n\t<monogr>\n\t\t<author>\n\t\t\t<persName><forename type=\"first\">S</forename><surname>Pallav</surname></persName>\n\t\t</author>\n\t\t<title level=\"m\">Atlas of Bronchoscopy</title>\n\t\t<meeting><address><addrLine>London</addrLine></address></meeting>\n\t\t<imprint>\n\t\t\t<publisher>Hodder Arnold</publisher>\n\t\t\t<date type=\"published\" when=\"2012\">2012</date>\n\t\t</imprint>\n\t</monogr>\n</biblStruct>\n\n<biblStruct xml:id=\"b3\">\n\t<analytic>\n\t\t<title level=\"a\" type=\"main\">Is endotracheal adrenaline deleterious because of the beta adrenergic effect?</title>\n\t\t<author>\n\t\t\t<persName><forename type=\"first\">Z</forename><surname>Vaknin</surname></persName>\n\t\t</author>\n\t\t<author>\n\t\t\t<persName><forename type=\"first\">Y</forename><surname>Manisterski</surname></persName>\n\t\t</author>\n\t\t<author>\n\t\t\t<persName><forename type=\"first\">R</forename><surname>Ben-Abraham</surname></persName>\n\t\t</author>\n\t\t<author>\n\t\t\t<persName><forename type=\"first\">O</forename><surname>Efrati</surname></persName>\n\t\t</author>\n\t\t<author>\n\t\t\t<persName><forename type=\"first\">D</forename><surname>Lotan</surname></persName>\n\t\t</author>\n\t\t<author>\n\t\t\t<persName><forename type=\"first\">Z</forename><surname>Barzilay</surname></persName>\n\t\t</author>\n\t</analytic>\n\t<monogr>\n\t\t<title level=\"j\">Anesth Analg</title>\n\t\t<imprint>\n\t\t\t<biblScope unit=\"volume\">92</biblScope>\n\t\t\t<biblScope unit=\"page\" from=\"1408\" to=\"1412\" />\n\t\t\t<date type=\"published\" when=\"2001\">2001</date>\n\t\t</imprint>\n\t</monogr>\n</biblStruct>\n\n<biblStruct xml:id=\"b4\">\n\t<analytic>\n\t\t<title level=\"a\" type=\"main\">Haemodynamic effects of tracheal compared with intravenous adrenaline</title>\n\t\t<author>\n\t\t\t<persName><forename type=\"first\">A</forename><surname>Mccrirrick</surname></persName>\n\t\t</author>\n\t\t<author>\n\t\t\t<persName><forename type=\"first\">I</forename><surname>Kestin</surname></persName>\n\t\t</author>\n\t</analytic>\n\t<monogr>\n\t\t<title level=\"j\">Lancet</title>\n\t\t<imprint>\n\t\t\t<biblScope unit=\"volume\">3408</biblScope>\n\t\t\t<biblScope unit=\"page\" from=\"68\" to=\"70\" />\n\t\t\t<date type=\"published\" when=\"1992\">1992</date>\n\t\t</imprint>\n\t</monogr>\n</biblStruct>\n\n<biblStruct xml:id=\"b5\">\n\t<analytic>\n\t\t<title level=\"a\" type=\"main\">Endotracheal epineprhine: a call for larger doses</title>\n\t\t<author>\n\t\t\t<persName><forename type=\"first\">Y</forename><surname>Maniststerski</surname></persName>\n\t\t</author>\n\t\t<author>\n\t\t\t<persName><forename type=\"first\">Z</forename><surname>Vaknin</surname></persName>\n\t\t</author>\n\t\t<author>\n\t\t\t<persName><forename type=\"first\">R</forename><surname>Ben-Abraham</surname></persName>\n\t\t</author>\n\t\t<author>\n\t\t\t<persName><forename type=\"first\">O</forename><surname>Efrati</surname></persName>\n\t\t</author>\n\t\t<author>\n\t\t\t<persName><forename type=\"first\">D</forename><surname>Lotan</surname></persName>\n\t\t</author>\n\t\t<author>\n\t\t\t<persName><forename type=\"first\">M</forename><surname>Berkovitch</surname></persName>\n\t\t</author>\n\t\t<author>\n\t\t\t<persName><forename type=\"first\">A</forename><surname>Barak</surname></persName>\n\t\t</author>\n\t\t<author>\n\t\t\t<persName><forename type=\"first\">Z</forename><surname>Barzilay</surname></persName>\n\t\t</author>\n\t\t<author>\n\t\t\t<persName><forename type=\"first\">G</forename><surname>Paret</surname></persName>\n\t\t</author>\n\t</analytic>\n\t<monogr>\n\t\t<title level=\"j\">Anesth Analg</title>\n\t\t<imprint>\n\t\t\t<biblScope unit=\"volume\">05</biblScope>\n\t\t\t<biblScope unit=\"page\" from=\"1037\" to=\"1041\" />\n\t\t\t<date type=\"published\" when=\"2002\">2002</date>\n\t\t</imprint>\n\t</monogr>\n</biblStruct>\n\n<biblStruct xml:id=\"b6\">\n\t<analytic>\n\t\t<title level=\"a\" type=\"main\">Epinephrine pharmacokinetics and pharmacodynamics following endotracheal administration in dogs: the role of volume of diluent</title>\n\t\t<author>\n\t\t\t<persName><forename type=\"first\">G</forename><surname>Paret</surname></persName>\n\t\t</author>\n\t\t<author>\n\t\t\t<persName><forename type=\"first\">Z</forename><surname>Vaknin</surname></persName>\n\t\t</author>\n\t\t<author>\n\t\t\t<persName><forename type=\"first\">D</forename><surname>Ezra</surname></persName>\n\t\t</author>\n\t\t<author>\n\t\t\t<persName><forename type=\"first\">E</forename><surname>Peleg</surname></persName>\n\t\t</author>\n\t\t<author>\n\t\t\t<persName><forename type=\"first\">T</forename><surname>Rosenthal</surname></persName>\n\t\t</author>\n\t\t<author>\n\t\t\t<persName><forename type=\"first\">A</forename><surname>Vardi</surname></persName>\n\t\t</author>\n\t\t<author>\n\t\t\t<persName><forename type=\"first\">H</forename><surname>Mayan</surname></persName>\n\t\t</author>\n\t\t<author>\n\t\t\t<persName><forename type=\"first\">Z</forename><surname>Barzilay</surname></persName>\n\t\t</author>\n\t</analytic>\n\t<monogr>\n\t\t<title level=\"j\">Resuscitation</title>\n\t\t<imprint>\n\t\t\t<biblScope unit=\"volume\">35</biblScope>\n\t\t\t<biblScope unit=\"page\" from=\"77\" to=\"82\" />\n\t\t\t<date type=\"published\" when=\"1997\">1997</date>\n\t\t</imprint>\n\t</monogr>\n</biblStruct>\n\n<biblStruct xml:id=\"b7\">\n\t<analytic>\n\t\t<title level=\"a\" type=\"main\">British Thoracic Society guidelines on diagnostic flexible bronchoscopy</title>\n\t\t<author>\n\t\t\t<orgName type=\"collaboration\">British Thoracic Society Bronchoscopy Guidelines Committee</orgName>\n\t\t</author>\n\t</analytic>\n\t<monogr>\n\t\t<title level=\"j\">Thorax</title>\n\t\t<imprint>\n\t\t\t<biblScope unit=\"volume\">56</biblScope>\n\t\t\t<biblScope unit=\"page\" from=\"1\" to=\"21\" />\n\t\t\t<date type=\"published\" when=\"2001\">2001</date>\n\t\t</imprint>\n\t</monogr>\n</biblStruct>\n\n<biblStruct xml:id=\"b8\">\n\t<analytic>\n\t\t<title level=\"a\" type=\"main\">Iced saline lavage during bronchoscopy</title>\n\t\t<author>\n\t\t\t<persName><forename type=\"first\">H</forename><surname>Sahebjami</surname></persName>\n\t\t</author>\n\t</analytic>\n\t<monogr>\n\t\t<title level=\"j\">Chest</title>\n\t\t<imprint>\n\t\t\t<biblScope unit=\"volume\">69</biblScope>\n\t\t\t<biblScope unit=\"page\">131</biblScope>\n\t\t\t<date type=\"published\" when=\"1976\">1976</date>\n\t\t</imprint>\n\t</monogr>\n</biblStruct>\n\n<biblStruct xml:id=\"b9\">\n\t<monogr>\n\t\t<title level=\"m\" type=\"main\">Flexible Bronchoscopy</title>\n\t\t<author>\n\t\t\t<persName><forename type=\"first\">K</forename><forename type=\"middle\">P</forename><surname>Wang</surname></persName>\n\t\t</author>\n\t\t<author>\n\t\t\t<persName><forename type=\"first\">A</forename><forename type=\"middle\">C</forename><surname>Mehta</surname></persName>\n\t\t</author>\n\t\t<author>\n\t\t\t<persName><forename type=\"first\">J</forename><forename type=\"middle\">F</forename><surname>Turner</surname><genName>Jr</genName></persName>\n\t\t</author>\n\t\t<imprint>\n\t\t\t<date type=\"published\" when=\"2012\">2012</date>\n\t\t\t<publisher>American Thoracic Society</publisher>\n\t\t\t<pubPlace>West Sussex</pubPlace>\n\t\t</imprint>\n\t</monogr>\n\t<note>Copyright ª 2013</note>\n</biblStruct>\n\n<biblStruct xml:id=\"b10\">\n\t<analytic>\n\t\t<title level=\"a\" type=\"main\">Epinephrine blood concentrations after peripheral bronchial versus endotracheal administration of epinephrine in dogs</title>\n\t\t<author>\n\t\t\t<persName><forename type=\"first\">R</forename><surname>Mazkereth</surname></persName>\n\t\t</author>\n\t\t<author>\n\t\t\t<persName><forename type=\"first\">G</forename><surname>Paret</surname></persName>\n\t\t</author>\n\t\t<author>\n\t\t\t<persName><forename type=\"first\">D</forename><surname>Ezra</surname></persName>\n\t\t</author>\n\t\t<author>\n\t\t\t<persName><forename type=\"first\">S</forename><surname>Aviner</surname></persName>\n\t\t</author>\n\t\t<author>\n\t\t\t<persName><forename type=\"first\">E</forename><surname>Peleg</surname></persName>\n\t\t</author>\n\t\t<author>\n\t\t\t<persName><forename type=\"first\">T</forename><surname>Rosenthal</surname></persName>\n\t\t</author>\n\t\t<author>\n\t\t\t<persName><forename type=\"first\">Z</forename><surname>Barzilay</surname></persName>\n\t\t</author>\n\t</analytic>\n\t<monogr>\n\t\t<title level=\"j\">Crit Care Med</title>\n\t\t<imprint>\n\t\t\t<biblScope unit=\"volume\">20</biblScope>\n\t\t\t<biblScope unit=\"page\" from=\"1582\" to=\"1587\" />\n\t\t\t<date type=\"published\" when=\"1992\">1992</date>\n\t\t</imprint>\n\t</monogr>\n</biblStruct>\n\n<biblStruct xml:id=\"b11\">\n\t<analytic>\n\t\t<title level=\"a\" type=\"main\">Effect of routine clopidogrel use on bleeding complications after transbronchial biopsy in humans</title>\n\t\t<author>\n\t\t\t<persName><forename type=\"first\">A</forename><surname>Ernst</surname></persName>\n\t\t</author>\n\t\t<author>\n\t\t\t<persName><forename type=\"first\">R</forename><surname>Eberhardt</surname></persName>\n\t\t</author>\n\t\t<author>\n\t\t\t<persName><forename type=\"first\">M</forename><surname>Wahidi</surname></persName>\n\t\t</author>\n\t\t<author>\n\t\t\t<persName><forename type=\"first\">H</forename><forename type=\"middle\">D</forename><surname>Becker</surname></persName>\n\t\t</author>\n\t\t<author>\n\t\t\t<persName><forename type=\"first\">F</forename><forename type=\"middle\">J</forename><surname>Herth</surname></persName>\n\t\t</author>\n\t</analytic>\n\t<monogr>\n\t\t<title level=\"j\">Chest</title>\n\t\t<imprint>\n\t\t\t<biblScope unit=\"volume\">129</biblScope>\n\t\t\t<biblScope unit=\"page\" from=\"734\" to=\"737\" />\n\t\t\t<date type=\"published\" when=\"2006\">2006</date>\n\t\t</imprint>\n\t</monogr>\n</biblStruct>\n\n<biblStruct xml:id=\"b12\">\n\t<analytic>\n\t\t<title level=\"a\" type=\"main\">Incidence of complications in bronchoscopy: multicentre prospective study of 20,986 bronchoscopies</title>\n\t\t<author>\n\t\t\t<persName><forename type=\"first\">N</forename><surname>Facciolongo</surname></persName>\n\t\t</author>\n\t\t<author>\n\t\t\t<persName><forename type=\"first\">M</forename><surname>Patelli</surname></persName>\n\t\t</author>\n\t\t<author>\n\t\t\t<persName><forename type=\"first\">S</forename><surname>Gasparini</surname></persName>\n\t\t</author>\n\t\t<author>\n\t\t\t<persName><forename type=\"first\">Lazzari</forename><surname>Agli</surname></persName>\n\t\t</author>\n\t\t<author>\n\t\t\t<persName><forename type=\"first\">L</forename><surname>Salio</surname></persName>\n\t\t</author>\n\t\t<author>\n\t\t\t<persName><forename type=\"first\">M</forename><surname>Simonassi</surname></persName>\n\t\t</author>\n\t\t<author>\n\t\t\t<persName><forename type=\"first\">C</forename></persName>\n\t\t</author>\n\t\t<author>\n\t\t\t<persName><forename type=\"first\">Del</forename><surname>Prato</surname></persName>\n\t\t</author>\n\t\t<author>\n\t\t\t<persName><forename type=\"first\">B</forename><surname>Zanoni</surname></persName>\n\t\t</author>\n\t\t<author>\n\t\t\t<persName><forename type=\"first\">P</forename></persName>\n\t\t</author>\n\t</analytic>\n\t<monogr>\n\t\t<title level=\"j\">Monaldi Arch Chest Dis</title>\n\t\t<imprint>\n\t\t\t<biblScope unit=\"volume\">71</biblScope>\n\t\t\t<biblScope unit=\"page\" from=\"8\" to=\"14\" />\n\t\t\t<date type=\"published\" when=\"2009\">2009</date>\n\t\t</imprint>\n\t</monogr>\n</biblStruct>\n\n<biblStruct xml:id=\"b13\">\n\t<analytic>\n\t\t<title level=\"a\" type=\"main\">Severe complications of bronchoscopy</title>\n\t\t<author>\n\t\t\t<persName><forename type=\"first\">F</forename><surname>Jin</surname></persName>\n\t\t</author>\n\t\t<author>\n\t\t\t<persName><forename type=\"first\">D</forename><surname>Mu</surname></persName>\n\t\t</author>\n\t\t<author>\n\t\t\t<persName><forename type=\"first\">D</forename><surname>Chu</surname></persName>\n\t\t</author>\n\t\t<author>\n\t\t\t<persName><forename type=\"first\">E</forename><surname>Fu</surname></persName>\n\t\t</author>\n\t\t<author>\n\t\t\t<persName><forename type=\"first\">Y</forename><surname>Xie</surname></persName>\n\t\t</author>\n\t\t<author>\n\t\t\t<persName><forename type=\"first\">T</forename><surname>Liu</surname></persName>\n\t\t</author>\n\t</analytic>\n\t<monogr>\n\t\t<title level=\"j\">Respiration</title>\n\t\t<imprint>\n\t\t\t<biblScope unit=\"volume\">76</biblScope>\n\t\t\t<biblScope unit=\"page\" from=\"429\" to=\"433\" />\n\t\t\t<date type=\"published\" when=\"2008\">2008</date>\n\t\t</imprint>\n\t</monogr>\n</biblStruct>\n\n<biblStruct xml:id=\"b14\">\n\t<analytic>\n\t\t<title level=\"a\" type=\"main\">Fatal pulmonary hemorrhage after transbronchial lung biopsy through the fiberoptic bronchoscope</title>\n\t\t<author>\n\t\t\t<persName><forename type=\"first\">M</forename><forename type=\"middle\">R</forename><surname>Flick</surname></persName>\n\t\t</author>\n\t\t<author>\n\t\t\t<persName><forename type=\"first\">K</forename><surname>Wasson</surname></persName>\n\t\t</author>\n\t\t<author>\n\t\t\t<persName><forename type=\"first\">L</forename><forename type=\"middle\">J</forename><surname>Dunn</surname></persName>\n\t\t</author>\n\t\t<author>\n\t\t\t<persName><forename type=\"first\">A</forename><forename type=\"middle\">J</forename><surname>Block</surname></persName>\n\t\t</author>\n\t</analytic>\n\t<monogr>\n\t\t<title level=\"j\">Am Rev Respir Dis</title>\n\t\t<imprint>\n\t\t\t<biblScope unit=\"volume\">111</biblScope>\n\t\t\t<biblScope unit=\"page\" from=\"853\" to=\"856\" />\n\t\t\t<date type=\"published\" when=\"1975\">1975</date>\n\t\t</imprint>\n\t</monogr>\n</biblStruct>\n\n<biblStruct xml:id=\"b15\">\n\t<analytic>\n\t\t<title level=\"a\" type=\"main\">Potentially fatal arrhythmia complicating endobronchial epinephrine for control of iatrogenic bleeding</title>\n\t\t<author>\n\t\t\t<persName><forename type=\"first\">D</forename><forename type=\"middle\">P</forename><surname>Steinfort</surname></persName>\n\t\t</author>\n\t\t<author>\n\t\t\t<persName><forename type=\"first\">F</forename><forename type=\"middle\">J</forename><surname>Herth</surname></persName>\n\t\t</author>\n\t\t<author>\n\t\t\t<persName><forename type=\"first\">R</forename><surname>Eberhardt</surname></persName>\n\t\t</author>\n\t\t<author>\n\t\t\t<persName><forename type=\"first\">L</forename><forename type=\"middle\">B</forename><surname>Irving</surname></persName>\n\t\t</author>\n\t</analytic>\n\t<monogr>\n\t\t<title level=\"j\">Am J Respir Crit Care Med</title>\n\t\t<imprint>\n\t\t\t<biblScope unit=\"volume\">185</biblScope>\n\t\t\t<biblScope unit=\"page\" from=\"1028\" to=\"1030\" />\n\t\t\t<date type=\"published\" when=\"2012\">2012</date>\n\t\t</imprint>\n\t</monogr>\n</biblStruct>\n\n\t\t\t\t</listBibl>\n\t\t\t</div>\n\t\t</back>\n\t</text>\n</TEI>\n"
+  },
+  "umls_links": [],
+  "references_enriched": [
+    {
+      "title": "Potentially fatal arrhythmia complicating endobronchial epinephrine for control of iatrogenic bleeding",
+      "journal": "Am J Respir Crit Care Med",
+      "year": "2012",
+      "volume": "185",
+      "issue": null,
+      "pages": null,
+      "doi": null,
+      "pmid": null,
+      "authors": [
+        "Steinfort DP",
+        "Herth FJ",
+        "Eberhardt R",
+        "Irving LB"
+      ],
+      "first_author_last": "Steinfort",
+      "enrichment": {
+        "pmid": "22550217",
+        "doi": null,
+        "title": "Potentially fatal arrhythmia complicating endobronchial epinephrine for control of iatrogenic bleeding.",
+        "journal": "American journal of respiratory and critical care medicine",
+        "year": "2012",
+        "authors": [
+          "Steinfort DP",
+          "Herth FJ",
+          "Eberhardt R",
+          "Irving LB"
+        ],
+        "mesh": [],
+        "pubtypes": [
+          "Letter"
+        ]
+      }
+    },
+    {
+      "title": "Topical application of epinephrine during bronchoscopy in barbiturate-halothane anesthesia and its influence on cardiac action",
+      "journal": "Bronchopneumologie",
+      "year": "1978",
+      "volume": "28",
+      "issue": null,
+      "pages": null,
+      "doi": null,
+      "pmid": null,
+      "authors": [
+        "Mall W",
+        "Abel H"
+      ],
+      "first_author_last": "Mall",
+      "enrichment": {
+        "pmid": "92354",
+        "doi": null,
+        "title": "Topical application of epinephrine during bronchoscopy in barbiturate-halothane-anaesthesia and its influence on cardiac action.",
+        "journal": "Broncho-pneumologie",
+        "year": "1978",
+        "authors": [
+          "Mall W",
+          "Abel H"
+        ],
+        "mesh": [],
+        "pubtypes": [
+          "Journal Article"
+        ],
+        "abstract": "Since the introduction of halothane as an anaesthetic there have been several reports about cardiac arrhythmias during application of epinephrine in combination with halothane. This complication was also reported when epinephrine was used as local haemostyptic. We describe the effect of topical epinephrine upon cardiac action during bronchoscopy in barbiturate-halothane-anaesthesia. 21 patients with an average age of 66.4 years underwent bronchoscopy mainly because of suspect bronchial carcinoma, they were monitored by lead I ECG and blood gas analysis was carried out repeatedly. Immediately following biopsies, sponses with epinephrine solution 1:1000 were applied to the bronchial mucosa - the average epinephrine dose of these sponges was 0.12 mgs as calculated before by weighting. During this procedure we could not observe significant cardiac arrhythmias following epinephrine application. We conclude this to be the result of limited dosage and maintenance of adequate ventilation and oxygenation. Thus, epinephrine can be used as a local haemostyptic during bronchoscopy in halothane anaesthesia without significant risk when the above described precautions are observed."
+      }
+    },
+    {
+      "title": "Atlas of Bronchoscopy",
+      "journal": "Atlas of Bronchoscopy",
+      "year": "2012",
+      "volume": null,
+      "issue": null,
+      "pages": null,
+      "doi": null,
+      "pmid": null,
+      "authors": [
+        "Pallav S"
+      ],
+      "first_author_last": "Pallav",
+      "enrichment": {
+        "pmid": null,
+        "doi": null
+      }
+    },
+    {
+      "title": "Is endotracheal adrenaline deleterious because of the beta adrenergic effect?",
+      "journal": "Anesth Analg",
+      "year": "2001",
+      "volume": "92",
+      "issue": null,
+      "pages": null,
+      "doi": null,
+      "pmid": null,
+      "authors": [
+        "Vaknin Z",
+        "Manisterski Y",
+        "Ben-Abraham R",
+        "Efrati O",
+        "Lotan D",
+        "Barzilay Z"
+      ],
+      "first_author_last": "Vaknin",
+      "enrichment": {
+        "pmid": "11375813",
+        "doi": null,
+        "title": "Is endotracheal adrenaline deleterious because of the beta adrenergic effect?",
+        "journal": "Anesthesia and analgesia",
+        "year": "2001",
+        "authors": [
+          "Vaknin Z",
+          "Manisterski Y",
+          "Ben-Abraham R",
+          "Efrati O",
+          "Lotan D",
+          "Barzilay Z",
+          "Paret G"
+        ],
+        "mesh": [],
+        "pubtypes": [
+          "Journal Article"
+        ],
+        "abstract": "IV adrenaline increases coronary and cerebral perfusion pressures during cardiopulmonary resuscitation. We recently showed that endotracheal adrenaline can decrease blood pressure (BP), a detrimental effect presumably mediated by the beta 2-adrenergic receptor unopposed by alpha-adrenergic vasoconstriction. This prospective, randomized, laboratory comparison of endotracheal adrenaline (0.05 mg/kg diluted with normal saline to 10 mL total volume) with or without nonselective beta-blocker (propranolol) pretreatment was conducted in an attempt to clarify the mechanism of this BP decrease. Five mongrel dogs were given 0.05 mg/kg endotracheal adrenaline (diluted) or 0.05 mg/kg endotracheal adrenaline followed by an IV propranolol (0.1 mg/kg) pretreatment. Each dog served as its own control (10 mL of normal saline administered endotracheally) and received each regimen at least one week apart. Endotracheal adrenaline given after the propranolol pretreatment produced an increase in systolic, diastolic, and mean arterial BPs, from 165/110 mm Hg (mean 128 mm Hg) to 177.5/125 mm Hg (mean 142.5 mm Hg), respectively, as opposed to the hypotensive effect of isolated endotracheal adrenaline (P &lt; 0.03). Thus, endotracheal adrenaline was associated with predominantly beta-adrenergic-mediated effects, causing hypotension via peripheral vasodilatation unopposed by alpha-adrenergic vasoconstriction. The search for the optimal dose of endotracheal adrenaline should be aimed at achieving the higher alpha-adrenergic vasoconstrictive threshold."
+      }
+    },
+    {
+      "title": "Haemodynamic effects of tracheal compared with intravenous adrenaline",
+      "journal": "Lancet",
+      "year": "1992",
+      "volume": "3408",
+      "issue": null,
+      "pages": null,
+      "doi": null,
+      "pmid": null,
+      "authors": [
+        "Mccrirrick A",
+        "Kestin I"
+      ],
+      "first_author_last": "Mccrirrick",
+      "enrichment": {
+        "pmid": "1357295",
+        "doi": null,
+        "title": "Haemodynamic effects of tracheal compared with intravenous adrenaline.",
+        "journal": "Lancet (London, England)",
+        "year": "1992",
+        "authors": [
+          "McCrirrick A",
+          "Kestin I"
+        ],
+        "mesh": [],
+        "pubtypes": [
+          "Clinical Trial",
+          "Journal Article",
+          "Randomized Controlled Trial"
+        ],
+        "abstract": "If intravenous access is not available during cardiopulmonary resuscitation, tracheal administration of adrenaline 0.02 mg/kg, twice the intravenous dose, is recommended. In a randomised crossover study we investigated the haemodynamic effects of low doses of tracheal versus intravenous adrenaline. 12 anaesthetised patients having a hip replaced received one dose of adrenaline intravenously (0.1 microgram/kg) and the other tracheally (0.5 microgram/kg). There was a mean increase in systolic arterial pressure of 40.5 mm Hg (range 16-81) after the intravenous injection, with little effect on heart rate. Tracheal adrenaline had no effect on arterial pressure or heart rate. Thus low doses of tracheal adrenaline have no haemodynamic effects. We believe that the recommended tracheal dose of twice the intravenous dose is likely to be ineffective for the treatment of cardiac arrest. Animal studies suggest that a tracheal dose at least ten times the intravenous dose is required."
+      }
+    },
+    {
+      "title": "Endotracheal epineprhine: a call for larger doses",
+      "journal": "Anesth Analg",
+      "year": "2002",
+      "volume": "05",
+      "issue": null,
+      "pages": null,
+      "doi": null,
+      "pmid": null,
+      "authors": [
+        "Maniststerski Y",
+        "Vaknin Z",
+        "Ben-Abraham R",
+        "Efrati O",
+        "Lotan D",
+        "Berkovitch M",
+        "Barak A",
+        "Barzilay Z",
+        "Paret G"
+      ],
+      "first_author_last": "Maniststerski",
+      "enrichment": {
+        "pmid": null,
+        "doi": null
+      }
+    },
+    {
+      "title": "Epinephrine pharmacokinetics and pharmacodynamics following endotracheal administration in dogs: the role of volume of diluent",
+      "journal": "Resuscitation",
+      "year": "1997",
+      "volume": "35",
+      "issue": null,
+      "pages": null,
+      "doi": null,
+      "pmid": null,
+      "authors": [
+        "Paret G",
+        "Vaknin Z",
+        "Ezra D",
+        "Peleg E",
+        "Rosenthal T",
+        "Vardi A",
+        "Mayan H",
+        "Barzilay Z"
+      ],
+      "first_author_last": "Paret",
+      "enrichment": {
+        "pmid": "9259064",
+        "doi": null,
+        "title": "Epinephrine pharmacokinetics and pharmacodynamics following endotracheal administration in dogs: the role of volume of diluent.",
+        "journal": "Resuscitation",
+        "year": "1997",
+        "authors": [
+          "Paret G",
+          "Vaknin Z",
+          "Ezra D",
+          "Peleg E",
+          "Rosenthal T",
+          "Vardi A",
+          "Mayan H",
+          "Barzilay Z"
+        ],
+        "mesh": [],
+        "pubtypes": [
+          "Journal Article"
+        ],
+        "abstract": "to define the optimal volume of dilution for endotracheal(ET) administration of epinephrine (EPI)."
+      }
+    },
+    {
+      "title": "British Thoracic Society guidelines on diagnostic flexible bronchoscopy",
+      "journal": "Thorax",
+      "year": "2001",
+      "volume": "56",
+      "issue": null,
+      "pages": null,
+      "doi": null,
+      "pmid": null,
+      "authors": [],
+      "first_author_last": null,
+      "enrichment": {
+        "pmid": "11158709",
+        "doi": null,
+        "title": "British Thoracic Society guidelines on diagnostic flexible bronchoscopy.",
+        "journal": "Thorax",
+        "year": "2001",
+        "authors": [
+          "British Thoracic Society Bronchoscopy Guidelines Committee, a Subcommittee of Standards of Care Committee of British Thoracic Society"
+        ],
+        "mesh": [],
+        "pubtypes": [
+          "Guideline",
+          "Journal Article",
+          "Practice Guideline"
+        ]
+      }
+    },
+    {
+      "title": "Iced saline lavage during bronchoscopy",
+      "journal": "Chest",
+      "year": "1976",
+      "volume": "69",
+      "issue": null,
+      "pages": "131",
+      "doi": null,
+      "pmid": null,
+      "authors": [
+        "Sahebjami H"
+      ],
+      "first_author_last": "Sahebjami",
+      "enrichment": {
+        "pmid": "1244274",
+        "doi": null,
+        "title": "Letter: Iced saline lavage during bronchoscopy.",
+        "journal": "Chest",
+        "year": "1976",
+        "authors": [
+          "Sahebjami H"
+        ],
+        "mesh": [],
+        "pubtypes": [
+          "Journal Article"
+        ]
+      }
+    },
+    {
+      "title": "Flexible Bronchoscopy",
+      "journal": "Flexible Bronchoscopy",
+      "year": "2012",
+      "volume": null,
+      "issue": null,
+      "pages": null,
+      "doi": null,
+      "pmid": null,
+      "authors": [
+        "Wang KP",
+        "Mehta AC",
+        "Turner JF"
+      ],
+      "first_author_last": "Wang",
+      "enrichment": {
+        "pmid": null,
+        "doi": null
+      }
+    },
+    {
+      "title": "Epinephrine blood concentrations after peripheral bronchial versus endotracheal administration of epinephrine in dogs",
+      "journal": "Crit Care Med",
+      "year": "1992",
+      "volume": "20",
+      "issue": null,
+      "pages": null,
+      "doi": null,
+      "pmid": null,
+      "authors": [
+        "Mazkereth R",
+        "Paret G",
+        "Ezra D",
+        "Aviner S",
+        "Peleg E",
+        "Rosenthal T",
+        "Barzilay Z"
+      ],
+      "first_author_last": "Mazkereth",
+      "enrichment": {
+        "pmid": "1424703",
+        "doi": null,
+        "title": "Epinephrine blood concentrations after peripheral bronchial versus endotracheal administration of epinephrine in dogs.",
+        "journal": "Critical care medicine",
+        "year": "1992",
+        "authors": [
+          "Mazkereth R",
+          "Paret G",
+          "Ezra D",
+          "Aviner S",
+          "Peleg E",
+          "Rosenthal T",
+          "Barzilay Z"
+        ],
+        "mesh": [],
+        "pubtypes": [
+          "Journal Article"
+        ],
+        "abstract": "Emergency endotracheal drug administration has become an acceptable route for drug delivery during cardiopulmonary resuscitation. The purpose of the present study was to determine whether the site of endotracheal epinephrine injection is an important factor in its absorption. Epinephrine (1:1000), in a dose of 0.02 mg/kg diluted in 2 mL of saline, was given to ten anesthetized mongrel dogs. Each dog was studied twice: once when the epinephrine was injected into the endotracheal tube, and on another day, through the endotracheal tube via a flexible catheter wedged into a peripheral bronchus. Arterial blood samples for plasma epinephrine concentration determinations were collected, before and at 1, 2, 5, 10, 15, and 30 mins after each intratracheal drug administration."
+      }
+    },
+    {
+      "title": "Effect of routine clopidogrel use on bleeding complications after transbronchial biopsy in humans",
+      "journal": "Chest",
+      "year": "2006",
+      "volume": "129",
+      "issue": null,
+      "pages": null,
+      "doi": null,
+      "pmid": null,
+      "authors": [
+        "Ernst A",
+        "Eberhardt R",
+        "Wahidi M",
+        "Becker HD",
+        "Herth FJ"
+      ],
+      "first_author_last": "Ernst",
+      "enrichment": {
+        "pmid": "16537875",
+        "doi": null,
+        "title": "Effect of routine clopidogrel use on bleeding complications after transbronchial biopsy in humans.",
+        "journal": "Chest",
+        "year": "2006",
+        "authors": [
+          "Ernst A",
+          "Eberhardt R",
+          "Wahidi M",
+          "Becker HD",
+          "Herth FJ"
+        ],
+        "mesh": [],
+        "pubtypes": [
+          "Journal Article"
+        ],
+        "abstract": "Clopidogrel is often prescribed for primary or secondary prevention of cardiovascular disease and has been associated with unwanted bleeding events. After having shown that transbronchial biopsy can safely be performed in pigs receiving clopidogrel, we sought to determine whether routine clopidogrel use increases the risk of bleeding after transbronchial lung biopsy in humans."
+      }
+    },
+    {
+      "title": "Incidence of complications in bronchoscopy: multicentre prospective study of 20,986 bronchoscopies",
+      "journal": "Monaldi Arch Chest Dis",
+      "year": "2009",
+      "volume": "71",
+      "issue": null,
+      "pages": null,
+      "doi": null,
+      "pmid": null,
+      "authors": [
+        "Facciolongo N",
+        "Patelli M",
+        "Gasparini S",
+        "Agli L",
+        "Salio L",
+        "Simonassi M",
+        "C",
+        "Prato D",
+        "Zanoni B",
+        "P"
+      ],
+      "first_author_last": "Facciolongo",
+      "enrichment": {
+        "pmid": null,
+        "doi": null
+      }
+    },
+    {
+      "title": "Severe complications of bronchoscopy",
+      "journal": "Respiration",
+      "year": "2008",
+      "volume": "76",
+      "issue": null,
+      "pages": null,
+      "doi": null,
+      "pmid": null,
+      "authors": [
+        "Jin F",
+        "Mu D",
+        "Chu D",
+        "Fu E",
+        "Xie Y",
+        "Liu T"
+      ],
+      "first_author_last": "Jin",
+      "enrichment": {
+        "pmid": "18716395",
+        "doi": null,
+        "title": "Severe complications of bronchoscopy.",
+        "journal": "Respiration; international review of thoracic diseases",
+        "year": "2008",
+        "authors": [
+          "Jin F",
+          "Mu D",
+          "Chu D",
+          "Fu E",
+          "Xie Y",
+          "Liu T"
+        ],
+        "mesh": [],
+        "pubtypes": [
+          "Journal Article"
+        ],
+        "abstract": "Interventional bronchoscopy is widely used for the diagnosis and therapy of many lung and airway diseases. Concern has been raised about its complications."
+      }
+    },
+    {
+      "title": "Fatal pulmonary hemorrhage after transbronchial lung biopsy through the fiberoptic bronchoscope",
+      "journal": "Am Rev Respir Dis",
+      "year": "1975",
+      "volume": "111",
+      "issue": null,
+      "pages": null,
+      "doi": null,
+      "pmid": null,
+      "authors": [
+        "Flick MR",
+        "Wasson K",
+        "Dunn LJ",
+        "Block AJ"
+      ],
+      "first_author_last": "Flick",
+      "enrichment": {
+        "pmid": "1137250",
+        "doi": null,
+        "title": "Fatal pulmonary hemorrhage after transbronchial lung biopsy through the fiberoptic bronchoscope.",
+        "journal": "The American review of respiratory disease",
+        "year": "1975",
+        "authors": [
+          "Flick MR",
+          "Wasson K",
+          "Dunn LJ",
+          "Block AJ"
+        ],
+        "mesh": [],
+        "pubtypes": [
+          "Journal Article"
+        ],
+        "abstract": "A case is reported in which transbronchial lung biopsy using the fiberoptic bronchoscope was complicated by massive, fatal hemorrhage. This previously unreported complication occurred despite normal prothrombin and partial thromboplastin times and platelets of 93,000. Pathological examination revealed that a very small (0.5-mm) vessel was the source of the bleeding. Although severe complications are undoubtedly rare, this report suggests that the transbronchial lung biopsy is not a totally benign procedure. Suggestions are made to prevent future similar occurrences in very ill patients or in patients with coagulative abnormalities or blood dyscrasias."
+      }
+    },
+    {
+      "title": "Potentially fatal arrhythmia complicating endobronchial epinephrine for control of iatrogenic bleeding",
+      "journal": "Am J Respir Crit Care Med",
+      "year": "2012",
+      "volume": "185",
+      "issue": null,
+      "pages": null,
+      "doi": null,
+      "pmid": null,
+      "authors": [
+        "Steinfort DP",
+        "Herth FJ",
+        "Eberhardt R",
+        "Irving LB"
+      ],
+      "first_author_last": "Steinfort",
+      "enrichment": {
+        "pmid": "22550217",
+        "doi": null,
+        "title": "Potentially fatal arrhythmia complicating endobronchial epinephrine for control of iatrogenic bleeding.",
+        "journal": "American journal of respiratory and critical care medicine",
+        "year": "2012",
+        "authors": [
+          "Steinfort DP",
+          "Herth FJ",
+          "Eberhardt R",
+          "Irving LB"
+        ],
+        "mesh": [],
+        "pubtypes": [
+          "Letter"
+        ]
+      }
+    }
+  ],
+  "drugs": [],
+  "trial_ids": [],
+  "assets": {
+    "tables": [
+      {
+        "type": "table",
+        "content": {
+          "self_ref": "#/tables/0",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "label": "table",
+          "prov": [
+            {
+              "page_no": 1,
+              "bbox": {
+                "l": 33.77268981933594,
+                "t": 224.162353515625,
+                "r": 548.2988891601562,
+                "b": 86.59136962890625,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                0
+              ]
+            }
+          ],
+          "captions": [],
+          "references": [],
+          "footnotes": [],
+          "image": null,
+          "data": {
+            "table_cells": [
+              {
+                "bbox": {
+                  "l": 35.49,
+                  "t": 564.582,
+                  "r": 59.615,
+                  "b": 572.0509999999999,
+                  "coord_origin": "TOPLEFT"
+                },
+                "row_span": 1,
+                "col_span": 1,
+                "start_row_offset_idx": 0,
+                "end_row_offset_idx": 1,
+                "start_col_offset_idx": 0,
+                "end_col_offset_idx": 1,
+                "text": "Author",
+                "column_header": true,
+                "row_header": false,
+                "row_section": false
+              },
+              {
+                "bbox": {
+                  "l": 225.411,
+                  "t": 564.582,
+                  "r": 309.988,
+                  "b": 572.0509999999999,
+                  "coord_origin": "TOPLEFT"
+                },
+                "row_span": 1,
+                "col_span": 1,
+                "start_row_offset_idx": 0,
+                "end_row_offset_idx": 1,
+                "start_col_offset_idx": 1,
+                "end_col_offset_idx": 2,
+                "text": "Textbook or Publication",
+                "column_header": true,
+                "row_header": false,
+                "row_section": false
+              },
+              {
+                "bbox": {
+                  "l": 434.719,
+                  "t": 564.582,
+                  "r": 496.916,
+                  "b": 572.0509999999999,
+                  "coord_origin": "TOPLEFT"
+                },
+                "row_span": 1,
+                "col_span": 1,
+                "start_row_offset_idx": 0,
+                "end_row_offset_idx": 1,
+                "start_col_offset_idx": 2,
+                "end_col_offset_idx": 3,
+                "text": "Epinephrine Dose",
+                "column_header": true,
+                "row_header": false,
+                "row_section": false
+              },
+              {
+                "bbox": {
+                  "l": 35.49,
+                  "t": 580.4159999999999,
+                  "r": 96.817,
+                  "b": 586.952,
+                  "coord_origin": "TOPLEFT"
+                },
+                "row_span": 1,
+                "col_span": 1,
+                "start_row_offset_idx": 1,
+                "end_row_offset_idx": 2,
+                "start_col_offset_idx": 0,
+                "end_col_offset_idx": 1,
+                "text": "Udaya B. S. Prakash",
+                "column_header": false,
+                "row_header": false,
+                "row_section": false
+              },
+              {
+                "bbox": {
+                  "l": 173.707,
+                  "t": 580.4159999999999,
+                  "r": 314.06,
+                  "b": 595.966,
+                  "coord_origin": "TOPLEFT"
+                },
+                "row_span": 1,
+                "col_span": 1,
+                "start_row_offset_idx": 1,
+                "end_row_offset_idx": 2,
+                "start_col_offset_idx": 1,
+                "end_col_offset_idx": 2,
+                "text": "Bronchoscopy . Philadelphia: Lippincott-Raven; 1994. (page 238)",
+                "column_header": false,
+                "row_header": false,
+                "row_section": false
+              },
+              {
+                "bbox": {
+                  "l": 382.111,
+                  "t": 580.4159999999999,
+                  "r": 454.614,
+                  "b": 586.952,
+                  "coord_origin": "TOPLEFT"
+                },
+                "row_span": 1,
+                "col_span": 1,
+                "start_row_offset_idx": 1,
+                "end_row_offset_idx": 2,
+                "start_col_offset_idx": 2,
+                "end_col_offset_idx": 3,
+                "text": "0.5-1.0 ml of 1:20,000",
+                "column_header": false,
+                "row_header": false,
+                "row_section": false
+              },
+              {
+                "bbox": {
+                  "l": 35.49,
+                  "t": 598.3879999999999,
+                  "r": 71.555,
+                  "b": 604.923,
+                  "coord_origin": "TOPLEFT"
+                },
+                "row_span": 1,
+                "col_span": 1,
+                "start_row_offset_idx": 2,
+                "end_row_offset_idx": 3,
+                "start_col_offset_idx": 0,
+                "end_col_offset_idx": 1,
+                "text": "Armin Ernst",
+                "column_header": false,
+                "row_header": false,
+                "row_section": false
+              },
+              {
+                "bbox": {
+                  "l": 173.707,
+                  "t": 598.3879999999999,
+                  "r": 334.398,
+                  "b": 613.88,
+                  "coord_origin": "TOPLEFT"
+                },
+                "row_span": 1,
+                "col_span": 1,
+                "start_row_offset_idx": 2,
+                "end_row_offset_idx": 3,
+                "start_col_offset_idx": 1,
+                "end_col_offset_idx": 2,
+                "text": "Introduction to bronchoscopy . New York: Cambridge University Press; 2009. (page 105)",
+                "column_header": false,
+                "row_header": false,
+                "row_section": false
+              },
+              {
+                "bbox": {
+                  "l": 382.11,
+                  "t": 598.3879999999999,
+                  "r": 439.022,
+                  "b": 604.923,
+                  "coord_origin": "TOPLEFT"
+                },
+                "row_span": 1,
+                "col_span": 1,
+                "start_row_offset_idx": 2,
+                "end_row_offset_idx": 3,
+                "start_col_offset_idx": 2,
+                "end_col_offset_idx": 3,
+                "text": "20 ml of 1:20,000",
+                "column_header": false,
+                "row_header": false,
+                "row_section": false
+              },
+              {
+                "bbox": {
+                  "l": 35.489,
+                  "t": 616.303,
+                  "r": 70.575,
+                  "b": 622.838,
+                  "coord_origin": "TOPLEFT"
+                },
+                "row_span": 1,
+                "col_span": 1,
+                "start_row_offset_idx": 3,
+                "end_row_offset_idx": 4,
+                "start_col_offset_idx": 0,
+                "end_col_offset_idx": 1,
+                "text": "Pallav Shah",
+                "column_header": false,
+                "row_header": false,
+                "row_section": false
+              },
+              {
+                "bbox": {
+                  "l": 173.706,
+                  "t": 616.303,
+                  "r": 316.933,
+                  "b": 631.795,
+                  "coord_origin": "TOPLEFT"
+                },
+                "row_span": 1,
+                "col_span": 1,
+                "start_row_offset_idx": 3,
+                "end_row_offset_idx": 4,
+                "start_col_offset_idx": 1,
+                "end_col_offset_idx": 2,
+                "text": "Atlas of flexible bronchoscopy . London: Hodder Arnold; 2012. (page 10)",
+                "column_header": false,
+                "row_header": false,
+                "row_section": false
+              },
+              {
+                "bbox": {
+                  "l": 382.109,
+                  "t": 616.303,
+                  "r": 483.393,
+                  "b": 622.838,
+                  "coord_origin": "TOPLEFT"
+                },
+                "row_span": 1,
+                "col_span": 1,
+                "start_row_offset_idx": 3,
+                "end_row_offset_idx": 4,
+                "start_col_offset_idx": 2,
+                "end_col_offset_idx": 3,
+                "text": "1:100,000; volume not specified",
+                "column_header": false,
+                "row_header": false,
+                "row_section": false
+              },
+              {
+                "bbox": {
+                  "l": 35.488,
+                  "t": 634.218,
+                  "r": 149.969,
+                  "b": 640.7529999999999,
+                  "coord_origin": "TOPLEFT"
+                },
+                "row_span": 1,
+                "col_span": 1,
+                "start_row_offset_idx": 4,
+                "end_row_offset_idx": 5,
+                "start_col_offset_idx": 0,
+                "end_col_offset_idx": 1,
+                "text": "The Essential Bronchoscopist website",
+                "column_header": false,
+                "row_header": false,
+                "row_section": false
+              },
+              {
+                "bbox": {
+                  "l": 173.696,
+                  "t": 634.218,
+                  "r": 337.865,
+                  "b": 649.767,
+                  "coord_origin": "TOPLEFT"
+                },
+                "row_span": 1,
+                "col_span": 1,
+                "start_row_offset_idx": 4,
+                "end_row_offset_idx": 5,
+                "start_col_offset_idx": 1,
+                "end_col_offset_idx": 2,
+                "text": "www.essential-bronchoscopy.org/PDFs/Module6_en. pdf (page 22)",
+                "column_header": false,
+                "row_header": false,
+                "row_section": false
+              },
+              {
+                "bbox": {
+                  "l": 382.108,
+                  "t": 634.218,
+                  "r": 474.172,
+                  "b": 640.7529999999999,
+                  "coord_origin": "TOPLEFT"
+                },
+                "row_span": 1,
+                "col_span": 1,
+                "start_row_offset_idx": 4,
+                "end_row_offset_idx": 5,
+                "start_col_offset_idx": 2,
+                "end_col_offset_idx": 3,
+                "text": "1 ml of 1:10,000 to 1:20,000",
+                "column_header": false,
+                "row_header": false,
+                "row_section": false
+              },
+              {
+                "bbox": {
+                  "l": 35.488,
+                  "t": 652.189,
+                  "r": 153.182,
+                  "b": 667.682,
+                  "coord_origin": "TOPLEFT"
+                },
+                "row_span": 1,
+                "col_span": 1,
+                "start_row_offset_idx": 5,
+                "end_row_offset_idx": 6,
+                "start_col_offset_idx": 0,
+                "end_col_offset_idx": 1,
+                "text": "British Thoracic Society Bronchoscopy Guidelines Committee",
+                "column_header": false,
+                "row_header": false,
+                "row_section": false
+              },
+              {
+                "bbox": {
+                  "l": 173.705,
+                  "t": 652.189,
+                  "r": 361.682,
+                  "b": 667.682,
+                  "coord_origin": "TOPLEFT"
+                },
+                "row_span": 1,
+                "col_span": 1,
+                "start_row_offset_idx": 5,
+                "end_row_offset_idx": 6,
+                "start_col_offset_idx": 1,
+                "end_col_offset_idx": 2,
+                "text": "British Thoracic Society guidelines on diagnostic flexible bronchoscopy. Thorax 2001;56:(suppl I) i1-i21. (page 15)",
+                "column_header": false,
+                "row_header": false,
+                "row_section": false
+              },
+              {
+                "bbox": {
+                  "l": 382.108,
+                  "t": 652.189,
+                  "r": 543.036,
+                  "b": 658.725,
+                  "coord_origin": "TOPLEFT"
+                },
+                "row_span": 1,
+                "col_span": 1,
+                "start_row_offset_idx": 5,
+                "end_row_offset_idx": 6,
+                "start_col_offset_idx": 2,
+                "end_col_offset_idx": 3,
+                "text": "'Small amounts' of 1:10,000; volume not specified",
+                "column_header": false,
+                "row_header": false,
+                "row_section": false
+              },
+              {
+                "bbox": {
+                  "l": 35.488,
+                  "t": 670.104,
+                  "r": 114.025,
+                  "b": 685.597,
+                  "coord_origin": "TOPLEFT"
+                },
+                "row_span": 1,
+                "col_span": 1,
+                "start_row_offset_idx": 6,
+                "end_row_offset_idx": 7,
+                "start_col_offset_idx": 0,
+                "end_col_offset_idx": 1,
+                "text": "Pyng Lee, Atul C. Mehta, Praveen N. Mather",
+                "column_header": false,
+                "row_header": false,
+                "row_section": false
+              },
+              {
+                "bbox": {
+                  "l": 173.705,
+                  "t": 670.104,
+                  "r": 337.058,
+                  "b": 694.555,
+                  "coord_origin": "TOPLEFT"
+                },
+                "row_span": 1,
+                "col_span": 1,
+                "start_row_offset_idx": 6,
+                "end_row_offset_idx": 7,
+                "start_col_offset_idx": 1,
+                "end_col_offset_idx": 2,
+                "text": "Management of complications from diagnostic and interventional Bronchoscopy. Respirology 2009;14: 940-953. (page 943).",
+                "column_header": false,
+                "row_header": false,
+                "row_section": false
+              },
+              {
+                "bbox": {
+                  "l": 382.107,
+                  "t": 670.104,
+                  "r": 549.518,
+                  "b": 685.597,
+                  "coord_origin": "TOPLEFT"
+                },
+                "row_span": 1,
+                "col_span": 1,
+                "start_row_offset_idx": 6,
+                "end_row_offset_idx": 7,
+                "start_col_offset_idx": 2,
+                "end_col_offset_idx": 3,
+                "text": "Dilute 1 ml (1:1,000) epinephrine to 15 ml ice saline, administer 10 ml (0.6 mg)",
+                "column_header": false,
+                "row_header": false,
+                "row_section": false
+              }
+            ],
+            "num_rows": 7,
+            "num_cols": 3,
+            "grid": [
+              [
+                {
+                  "bbox": {
+                    "l": 35.49,
+                    "t": 564.582,
+                    "r": 59.615,
+                    "b": 572.0509999999999,
+                    "coord_origin": "TOPLEFT"
+                  },
+                  "row_span": 1,
+                  "col_span": 1,
+                  "start_row_offset_idx": 0,
+                  "end_row_offset_idx": 1,
+                  "start_col_offset_idx": 0,
+                  "end_col_offset_idx": 1,
+                  "text": "Author",
+                  "column_header": true,
+                  "row_header": false,
+                  "row_section": false
+                },
+                {
+                  "bbox": {
+                    "l": 225.411,
+                    "t": 564.582,
+                    "r": 309.988,
+                    "b": 572.0509999999999,
+                    "coord_origin": "TOPLEFT"
+                  },
+                  "row_span": 1,
+                  "col_span": 1,
+                  "start_row_offset_idx": 0,
+                  "end_row_offset_idx": 1,
+                  "start_col_offset_idx": 1,
+                  "end_col_offset_idx": 2,
+                  "text": "Textbook or Publication",
+                  "column_header": true,
+                  "row_header": false,
+                  "row_section": false
+                },
+                {
+                  "bbox": {
+                    "l": 434.719,
+                    "t": 564.582,
+                    "r": 496.916,
+                    "b": 572.0509999999999,
+                    "coord_origin": "TOPLEFT"
+                  },
+                  "row_span": 1,
+                  "col_span": 1,
+                  "start_row_offset_idx": 0,
+                  "end_row_offset_idx": 1,
+                  "start_col_offset_idx": 2,
+                  "end_col_offset_idx": 3,
+                  "text": "Epinephrine Dose",
+                  "column_header": true,
+                  "row_header": false,
+                  "row_section": false
+                }
+              ],
+              [
+                {
+                  "bbox": {
+                    "l": 35.49,
+                    "t": 580.4159999999999,
+                    "r": 96.817,
+                    "b": 586.952,
+                    "coord_origin": "TOPLEFT"
+                  },
+                  "row_span": 1,
+                  "col_span": 1,
+                  "start_row_offset_idx": 1,
+                  "end_row_offset_idx": 2,
+                  "start_col_offset_idx": 0,
+                  "end_col_offset_idx": 1,
+                  "text": "Udaya B. S. Prakash",
+                  "column_header": false,
+                  "row_header": false,
+                  "row_section": false
+                },
+                {
+                  "bbox": {
+                    "l": 173.707,
+                    "t": 580.4159999999999,
+                    "r": 314.06,
+                    "b": 595.966,
+                    "coord_origin": "TOPLEFT"
+                  },
+                  "row_span": 1,
+                  "col_span": 1,
+                  "start_row_offset_idx": 1,
+                  "end_row_offset_idx": 2,
+                  "start_col_offset_idx": 1,
+                  "end_col_offset_idx": 2,
+                  "text": "Bronchoscopy . Philadelphia: Lippincott-Raven; 1994. (page 238)",
+                  "column_header": false,
+                  "row_header": false,
+                  "row_section": false
+                },
+                {
+                  "bbox": {
+                    "l": 382.111,
+                    "t": 580.4159999999999,
+                    "r": 454.614,
+                    "b": 586.952,
+                    "coord_origin": "TOPLEFT"
+                  },
+                  "row_span": 1,
+                  "col_span": 1,
+                  "start_row_offset_idx": 1,
+                  "end_row_offset_idx": 2,
+                  "start_col_offset_idx": 2,
+                  "end_col_offset_idx": 3,
+                  "text": "0.5-1.0 ml of 1:20,000",
+                  "column_header": false,
+                  "row_header": false,
+                  "row_section": false
+                }
+              ],
+              [
+                {
+                  "bbox": {
+                    "l": 35.49,
+                    "t": 598.3879999999999,
+                    "r": 71.555,
+                    "b": 604.923,
+                    "coord_origin": "TOPLEFT"
+                  },
+                  "row_span": 1,
+                  "col_span": 1,
+                  "start_row_offset_idx": 2,
+                  "end_row_offset_idx": 3,
+                  "start_col_offset_idx": 0,
+                  "end_col_offset_idx": 1,
+                  "text": "Armin Ernst",
+                  "column_header": false,
+                  "row_header": false,
+                  "row_section": false
+                },
+                {
+                  "bbox": {
+                    "l": 173.707,
+                    "t": 598.3879999999999,
+                    "r": 334.398,
+                    "b": 613.88,
+                    "coord_origin": "TOPLEFT"
+                  },
+                  "row_span": 1,
+                  "col_span": 1,
+                  "start_row_offset_idx": 2,
+                  "end_row_offset_idx": 3,
+                  "start_col_offset_idx": 1,
+                  "end_col_offset_idx": 2,
+                  "text": "Introduction to bronchoscopy . New York: Cambridge University Press; 2009. (page 105)",
+                  "column_header": false,
+                  "row_header": false,
+                  "row_section": false
+                },
+                {
+                  "bbox": {
+                    "l": 382.11,
+                    "t": 598.3879999999999,
+                    "r": 439.022,
+                    "b": 604.923,
+                    "coord_origin": "TOPLEFT"
+                  },
+                  "row_span": 1,
+                  "col_span": 1,
+                  "start_row_offset_idx": 2,
+                  "end_row_offset_idx": 3,
+                  "start_col_offset_idx": 2,
+                  "end_col_offset_idx": 3,
+                  "text": "20 ml of 1:20,000",
+                  "column_header": false,
+                  "row_header": false,
+                  "row_section": false
+                }
+              ],
+              [
+                {
+                  "bbox": {
+                    "l": 35.489,
+                    "t": 616.303,
+                    "r": 70.575,
+                    "b": 622.838,
+                    "coord_origin": "TOPLEFT"
+                  },
+                  "row_span": 1,
+                  "col_span": 1,
+                  "start_row_offset_idx": 3,
+                  "end_row_offset_idx": 4,
+                  "start_col_offset_idx": 0,
+                  "end_col_offset_idx": 1,
+                  "text": "Pallav Shah",
+                  "column_header": false,
+                  "row_header": false,
+                  "row_section": false
+                },
+                {
+                  "bbox": {
+                    "l": 173.706,
+                    "t": 616.303,
+                    "r": 316.933,
+                    "b": 631.795,
+                    "coord_origin": "TOPLEFT"
+                  },
+                  "row_span": 1,
+                  "col_span": 1,
+                  "start_row_offset_idx": 3,
+                  "end_row_offset_idx": 4,
+                  "start_col_offset_idx": 1,
+                  "end_col_offset_idx": 2,
+                  "text": "Atlas of flexible bronchoscopy . London: Hodder Arnold; 2012. (page 10)",
+                  "column_header": false,
+                  "row_header": false,
+                  "row_section": false
+                },
+                {
+                  "bbox": {
+                    "l": 382.109,
+                    "t": 616.303,
+                    "r": 483.393,
+                    "b": 622.838,
+                    "coord_origin": "TOPLEFT"
+                  },
+                  "row_span": 1,
+                  "col_span": 1,
+                  "start_row_offset_idx": 3,
+                  "end_row_offset_idx": 4,
+                  "start_col_offset_idx": 2,
+                  "end_col_offset_idx": 3,
+                  "text": "1:100,000; volume not specified",
+                  "column_header": false,
+                  "row_header": false,
+                  "row_section": false
+                }
+              ],
+              [
+                {
+                  "bbox": {
+                    "l": 35.488,
+                    "t": 634.218,
+                    "r": 149.969,
+                    "b": 640.7529999999999,
+                    "coord_origin": "TOPLEFT"
+                  },
+                  "row_span": 1,
+                  "col_span": 1,
+                  "start_row_offset_idx": 4,
+                  "end_row_offset_idx": 5,
+                  "start_col_offset_idx": 0,
+                  "end_col_offset_idx": 1,
+                  "text": "The Essential Bronchoscopist website",
+                  "column_header": false,
+                  "row_header": false,
+                  "row_section": false
+                },
+                {
+                  "bbox": {
+                    "l": 173.696,
+                    "t": 634.218,
+                    "r": 337.865,
+                    "b": 649.767,
+                    "coord_origin": "TOPLEFT"
+                  },
+                  "row_span": 1,
+                  "col_span": 1,
+                  "start_row_offset_idx": 4,
+                  "end_row_offset_idx": 5,
+                  "start_col_offset_idx": 1,
+                  "end_col_offset_idx": 2,
+                  "text": "www.essential-bronchoscopy.org/PDFs/Module6_en. pdf (page 22)",
+                  "column_header": false,
+                  "row_header": false,
+                  "row_section": false
+                },
+                {
+                  "bbox": {
+                    "l": 382.108,
+                    "t": 634.218,
+                    "r": 474.172,
+                    "b": 640.7529999999999,
+                    "coord_origin": "TOPLEFT"
+                  },
+                  "row_span": 1,
+                  "col_span": 1,
+                  "start_row_offset_idx": 4,
+                  "end_row_offset_idx": 5,
+                  "start_col_offset_idx": 2,
+                  "end_col_offset_idx": 3,
+                  "text": "1 ml of 1:10,000 to 1:20,000",
+                  "column_header": false,
+                  "row_header": false,
+                  "row_section": false
+                }
+              ],
+              [
+                {
+                  "bbox": {
+                    "l": 35.488,
+                    "t": 652.189,
+                    "r": 153.182,
+                    "b": 667.682,
+                    "coord_origin": "TOPLEFT"
+                  },
+                  "row_span": 1,
+                  "col_span": 1,
+                  "start_row_offset_idx": 5,
+                  "end_row_offset_idx": 6,
+                  "start_col_offset_idx": 0,
+                  "end_col_offset_idx": 1,
+                  "text": "British Thoracic Society Bronchoscopy Guidelines Committee",
+                  "column_header": false,
+                  "row_header": false,
+                  "row_section": false
+                },
+                {
+                  "bbox": {
+                    "l": 173.705,
+                    "t": 652.189,
+                    "r": 361.682,
+                    "b": 667.682,
+                    "coord_origin": "TOPLEFT"
+                  },
+                  "row_span": 1,
+                  "col_span": 1,
+                  "start_row_offset_idx": 5,
+                  "end_row_offset_idx": 6,
+                  "start_col_offset_idx": 1,
+                  "end_col_offset_idx": 2,
+                  "text": "British Thoracic Society guidelines on diagnostic flexible bronchoscopy. Thorax 2001;56:(suppl I) i1-i21. (page 15)",
+                  "column_header": false,
+                  "row_header": false,
+                  "row_section": false
+                },
+                {
+                  "bbox": {
+                    "l": 382.108,
+                    "t": 652.189,
+                    "r": 543.036,
+                    "b": 658.725,
+                    "coord_origin": "TOPLEFT"
+                  },
+                  "row_span": 1,
+                  "col_span": 1,
+                  "start_row_offset_idx": 5,
+                  "end_row_offset_idx": 6,
+                  "start_col_offset_idx": 2,
+                  "end_col_offset_idx": 3,
+                  "text": "'Small amounts' of 1:10,000; volume not specified",
+                  "column_header": false,
+                  "row_header": false,
+                  "row_section": false
+                }
+              ],
+              [
+                {
+                  "bbox": {
+                    "l": 35.488,
+                    "t": 670.104,
+                    "r": 114.025,
+                    "b": 685.597,
+                    "coord_origin": "TOPLEFT"
+                  },
+                  "row_span": 1,
+                  "col_span": 1,
+                  "start_row_offset_idx": 6,
+                  "end_row_offset_idx": 7,
+                  "start_col_offset_idx": 0,
+                  "end_col_offset_idx": 1,
+                  "text": "Pyng Lee, Atul C. Mehta, Praveen N. Mather",
+                  "column_header": false,
+                  "row_header": false,
+                  "row_section": false
+                },
+                {
+                  "bbox": {
+                    "l": 173.705,
+                    "t": 670.104,
+                    "r": 337.058,
+                    "b": 694.555,
+                    "coord_origin": "TOPLEFT"
+                  },
+                  "row_span": 1,
+                  "col_span": 1,
+                  "start_row_offset_idx": 6,
+                  "end_row_offset_idx": 7,
+                  "start_col_offset_idx": 1,
+                  "end_col_offset_idx": 2,
+                  "text": "Management of complications from diagnostic and interventional Bronchoscopy. Respirology 2009;14: 940-953. (page 943).",
+                  "column_header": false,
+                  "row_header": false,
+                  "row_section": false
+                },
+                {
+                  "bbox": {
+                    "l": 382.107,
+                    "t": 670.104,
+                    "r": 549.518,
+                    "b": 685.597,
+                    "coord_origin": "TOPLEFT"
+                  },
+                  "row_span": 1,
+                  "col_span": 1,
+                  "start_row_offset_idx": 6,
+                  "end_row_offset_idx": 7,
+                  "start_col_offset_idx": 2,
+                  "end_col_offset_idx": 3,
+                  "text": "Dilute 1 ml (1:1,000) epinephrine to 15 ml ice saline, administer 10 ml (0.6 mg)",
+                  "column_header": false,
+                  "row_header": false,
+                  "row_section": false
+                }
+              ]
+            ]
+          },
+          "annotations": []
+        },
+        "captions": [
+          "). Topical endobronchial application of epinephrine causing cardiac arrhythmias is well recognized and caution about dosing has been recommended since the 1970s (2), as adverse cardiac events can occur at doses as low as 0.1 mg. Although newer textbooks of bronchoscopy recommend 10fold reduction in the dose of epinephrine for control of bleeding (3), variable effects of epinephrine have been observed. Endotracheal administration of epinephrine when intravenous access cannot be obtained during cardiopulmonary resuscitation is deleterious if small doses (0.5 m g/kg in normal saline to 10 ml volume) are used due to hypotension from b -adrenergic-induced peripheral vasodilatation that is unopposed by a -adrenergic vasoconstriction (4). A study of patients undergoing elective hip surgery compared hemodynamic effects of endotracheal versus intravenous epinephrine at 0.5 m g/kg dose. Patients who received endotracheal epinephrine experienced 10 mm Hg fall in blood pressure (5), which led to a call for larger doses, and research on canines has demonstrated that blood pressure increased when the recommended dose (0.03 mg/kg) was raised 10-fold (6). Moreover, the volume of diluents used can also produce different pharmacokinetics and pharmacodynamics despite administration of the same dose of epinephrine. In this interesting study, 1 mg epinephrine diluted in 10 ml of saline was instilled into the trachea of dogs, which resulted in higher mean plasma epinephrine concentrations as compared with diluting the same dose in 1 ml of saline, suggesting that higher diluents volume could have carried the epinephrine more effectively to pulmonary absorptive areas (7). These reports illustrate the unpredictable effects of epinephrine in the airways both from dose and diluent standpoints. We concur with the authors that endobronchial epinephrine should be employed with caution especially when continuous electrocardiographic monitoring is neither routinely available nor recommended"
+        ],
+        "footnotes": [
+          "or patients undergoing bronchoscopy (8). The Cleveland Clinic practice over the past 32 years has been to use 2-ml aliquots of 1:10:000 epinephrine up to a maximum dose of 0.6 mg only when ice saline instillation fails, with continuous heart rate and blood pressure monitoring. Endobronchial administration of epinephrine is avoided in the elderly and in patients with arrhythmias and coronary artery disease as well as those with carcinoid tumors, because epinephrine may worsen the catecholamine response and precipitate coronary spasm. Rather than propose a moratorium on the use of epinephrine in postbronchoscopic lung biopsy bleeding, we submit our recommendations despite the lack of controlled trials:",
+          "linicians should remain cognizant of these issues (6). Given our reported experience (6), we remain of the opinion that epinephrine should never be administered into the lung periphery via the guide sheath. We no longer use epinephrine to control bleeding post-TBLB and would still suggest that failure to control bleeding post-TBLB using iced saline and bronchoscopic tamponade should simply be managed by ongoing iced saline and bronchoscopic tamponade."
+        ]
+      }
+    ],
+    "figures": []
+  },
+  "statistics": [],
+  "validation": {
+    "checks": {
+      "has_title": true,
+      "has_authors": true,
+      "authors_are_valid": false,
+      "has_sections": true,
+      "sections_have_content": true,
+      "has_tables": true,
+      "tables_have_captions": false,
+      "tables_have_data": true,
+      "has_figures": false,
+      "figures_have_captions": true,
+      "figures_have_images": true,
+      "has_entities": false,
+      "has_statistics": false,
+      "has_references": true,
+      "refs_structured": true,
+      "refs_enriched_some": true,
+      "references_enriched": true,
+      "has_references_csv": false,
+      "has_cross_refs": false,
+      "umls_links": false,
+      "figures_textual_count": 0
+    },
+    "completeness_score": 65,
+    "is_valid": true,
+    "issues": [],
+    "warnings": [
+      "No medical entities found",
+      "No statistics extracted",
+      "Some tables missing captions"
+    ],
+    "quality_level": "acceptable"
+  }
+}
