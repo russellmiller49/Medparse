@@ -2436,3 +2436,119 @@ To https://github.com/russellmiller49/Medparse.git
 2025-09-01 00:27:24.732 | SUCCESS  | __main__:process_single_pdf:71 - ✓ Successfully processed Koshy-2021-Safety of delivering bronchial ther
 2025-09-01 00:27:24.732 | INFO     | __main__:main:198 - Reached 160 successful processes, committing intermediate results...
 2025-09-01 00:27:24.732 | INFO     | __main__:git_commit_and_push:129 - Adding changes to git...
+2025-09-01 00:27:24.886 | INFO     | __main__:git_commit_and_push:145 - Creating git commit...
+[fix/extraction-hardening 1e4813d] feat: Batch processed 160 PDFs (intermediate commit)
+ 80 files changed, 134873 insertions(+), 1 deletion(-)
+ create mode 100644 out/batch_processed/Anesthesia and Upper and Lower Airway.json
+ create mode 100644 out/batch_processed/Bronchoscopic transparenchymal nodule access (BTPNA).json
+ create mode 100644 out/batch_processed/Clinical Utility of a Bronchial Genomic Classi.json
+ create mode 100644 out/batch_processed/Improving diagnostic yield of navigational bronchoscopy .json
+ create mode 100644 out/batch_processed/Koshy-2021-Safety of delivering bronchial ther.json
+ create mode 100644 out/batch_processed/Management of significant airway bleeding during robotic assisted bronchoscopy a tailored approach.json
+ create mode 100644 out/batch_processed/Murgu Saftey of TIVA in rigid.json
+ create mode 100644 out/batch_processed/Richter-Schrag-2011-Risk factors and complicat.json
+ create mode 100644 out/batch_processed/The Value of a High-Volume Bronchoscopic Lung Volume Reduction Program.json
+ create mode 100644 out/batch_processed/fistula Schweigert-2019-[Interventional treatment of t.json
+ create mode 100644 out/figures/Anesthesia and Upper and Lower Airway_fig01.jpg
+ create mode 100644 out/figures/Anesthesia and Upper and Lower Airway_fig02.jpg
+ create mode 100644 out/figures/Anesthesia and Upper and Lower Airway_fig03.jpg
+ create mode 100644 out/figures/Anesthesia and Upper and Lower Airway_fig04.jpg
+ create mode 100644 out/figures/Anesthesia and Upper and Lower Airway_fig05.jpg
+ create mode 100644 out/figures/Anesthesia and Upper and Lower Airway_fig06.jpg
+ create mode 100644 out/figures/Anesthesia and Upper and Lower Airway_fig07.jpg
+ create mode 100644 out/figures/Anesthesia and Upper and Lower Airway_fig08.jpg
+ create mode 100644 out/figures/Anesthesia and Upper and Lower Airway_fig09.jpg
+ create mode 100644 out/figures/Anesthesia and Upper and Lower Airway_fig10.jpg
+ create mode 100644 out/figures/Anesthesia and Upper and Lower Airway_fig11.jpg
+ create mode 100644 out/figures/Anesthesia and Upper and Lower Airway_fig12.jpg
+ create mode 100644 out/figures/Anesthesia and Upper and Lower Airway_fig13.jpg
+ create mode 100644 out/figures/Bronchoscopic transparenchymal nodule access (BTPNA)_fig01.jpg
+ create mode 100644 out/figures/Bronchoscopic transparenchymal nodule access (BTPNA)_fig02.jpg
+ create mode 100644 out/figures/Bronchoscopic transparenchymal nodule access (BTPNA)_fig03.jpg
+ create mode 100644 out/figures/Bronchoscopic transparenchymal nodule access (BTPNA)_fig04.jpg
+ create mode 100644 out/figures/Bronchoscopic transparenchymal nodule access (BTPNA)_fig05.jpg
+ create mode 100644 out/figures/Bronchoscopic transparenchymal nodule access (BTPNA)_fig06.jpg
+ create mode 100644 out/figures/Bronchoscopic transparenchymal nodule access (BTPNA)_fig07.jpg
+ create mode 100644 out/figures/Bronchoscopic transparenchymal nodule access (BTPNA)_fig08.jpg
+ create mode 100644 out/figures/Bronchoscopic transparenchymal nodule access (BTPNA)_fig09.jpg
+ create mode 100644 out/figures/Bronchoscopic transparenchymal nodule access (BTPNA)_fig10.jpg
+ create mode 100644 out/figures/Bronchoscopic transparenchymal nodule access (BTPNA)_fig11.jpg
+ create mode 100644 out/figures/Bronchoscopic transparenchymal nodule access (BTPNA)_fig12.jpg
+ create mode 100644 out/figures/Bronchoscopic transparenchymal nodule access (BTPNA)_fig13.jpg
+ create mode 100644 out/figures/Bronchoscopic transparenchymal nodule access (BTPNA)_fig14.jpg
+ create mode 100644 out/figures/Clinical Utility of a Bronchial Genomic Classi_fig01.jpg
+ create mode 100644 out/figures/Clinical Utility of a Bronchial Genomic Classi_fig02.jpg
+ create mode 100644 out/figures/Clinical Utility of a Bronchial Genomic Classi_fig03.jpg
+ create mode 100644 out/figures/Clinical Utility of a Bronchial Genomic Classi_figure2.jpg
+ create mode 100644 out/figures/Clinical Utility of a Bronchial Genomic Classi_figure3.jpg
+ create mode 100644 out/figures/Clinical Utility of a Bronchial Genomic Classi_figure4.jpg
+ create mode 100644 out/figures/Improving diagnostic yield of navigational bronchoscopy _fig01.jpg
+ create mode 100644 out/figures/Improving diagnostic yield of navigational bronchoscopy _fig02.jpg
+ create mode 100644 out/figures/Improving diagnostic yield of navigational bronchoscopy _fig03.jpg
+ create mode 100644 out/figures/Improving diagnostic yield of navigational bronchoscopy _fig04.jpg
+ create mode 100644 out/figures/Koshy-2021-Safety of delivering bronchial ther_fig01.jpg
+ create mode 100644 out/figures/Koshy-2021-Safety of delivering bronchial ther_fig02.jpg
+ create mode 100644 out/figures/Management of significant airway bleeding during robotic assisted bronchoscopy a tailored approach_fig01.jpg
+ create mode 100644 out/figures/Management of significant airway bleeding during robotic assisted bronchoscopy a tailored approach_fig02.jpg
+ create mode 100644 out/figures/Management of significant airway bleeding during robotic assisted bronchoscopy a tailored approach_fig03.jpg
+ create mode 100644 out/figures/Management of significant airway bleeding during robotic assisted bronchoscopy a tailored approach_fig3.jpg
+ create mode 100644 out/figures/Murgu Saftey of TIVA in rigid_fig01.jpg
+ create mode 100644 out/figures/Richter-Schrag-2011-Risk factors and complicat_figure1.jpg
+ create mode 100644 out/figures/The Value of a High-Volume Bronchoscopic Lung Volume Reduction Program_fig03.jpg
+ create mode 100644 out/figures/The Value of a High-Volume Bronchoscopic Lung Volume Reduction Program_figure1.jpg
+ create mode 100644 out/figures/The Value of a High-Volume Bronchoscopic Lung Volume Reduction Program_figure2.jpg
+ create mode 100644 out/figures/The Value of a High-Volume Bronchoscopic Lung Volume Reduction Program_figure4.jpg
+ create mode 100644 out/qa/Anesthesia and Upper and Lower Airway__umls.qa.json
+ create mode 100644 out/qa/Bronchoscopic transparenchymal nodule access (BTPNA)__umls.qa.json
+ create mode 100644 out/qa/Clinical Utility of a Bronchial Genomic Classi__umls.qa.json
+ create mode 100644 out/qa/Improving diagnostic yield of navigational bronchoscopy __umls.qa.json
+ create mode 100644 out/qa/Koshy-2021-Safety of delivering bronchial ther__umls.qa.json
+ create mode 100644 out/qa/Management of significant airway bleeding during robotic assisted bronchoscopy a tailored approach__umls.qa.json
+ create mode 100644 out/qa/Murgu Saftey of TIVA in rigid__umls.qa.json
+ create mode 100644 out/qa/Richter-Schrag-2011-Risk factors and complicat__umls.qa.json
+ create mode 100644 out/qa/The Value of a High-Volume Bronchoscopic Lung Volume Reduction Program__umls.qa.json
+ create mode 100644 out/references/Anesthesia and Upper and Lower Airway.refs.csv
+ create mode 100644 out/references/Bronchoscopic transparenchymal nodule access (BTPNA).refs.csv
+ create mode 100644 out/references/Clinical Utility of a Bronchial Genomic Classi.refs.csv
+ create mode 100644 out/references/Improving diagnostic yield of navigational bronchoscopy .refs.csv
+ create mode 100644 out/references/Koshy-2021-Safety of delivering bronchial ther.refs.csv
+ create mode 100644 out/references/Management of significant airway bleeding during robotic assisted bronchoscopy a tailored approach.refs.csv
+ create mode 100644 out/references/Murgu Saftey of TIVA in rigid.refs.csv
+ create mode 100644 out/references/Richter-Schrag-2011-Risk factors and complicat.refs.csv
+ create mode 100644 out/references/The Value of a High-Volume Bronchoscopic Lung Volume Reduction Program.refs.csv
+2025-09-01 00:27:24.911 | INFO     | __main__:git_commit_and_push:158 - Pushing to origin/fix/extraction-hardening...
+To https://github.com/russellmiller49/Medparse.git
+   c62bc7e..1e4813d  fix/extraction-hardening -> fix/extraction-hardening
+2025-09-01 00:27:29.014 | SUCCESS  | __main__:git_commit_and_push:161 - ✓ Successfully pushed to GitHub (branch: fix/extraction-hardening)
+2025-09-01 00:27:29.015 | INFO     | __main__:main:189 - [163/414] Processing NdYAG laser bronchoscopy A five year experienc.pdf
+2025-09-01 00:27:29.015 | INFO     | __main__:process_single_pdf:52 - Processing NdYAG laser bronchoscopy A five year experienc.pdf...
+2025-09-01 00:28:45.178 | SUCCESS  | __main__:process_single_pdf:71 - ✓ Successfully processed NdYAG laser bronchoscopy A five year experienc
+2025-09-01 00:28:45.179 | INFO     | __main__:main:189 - [164/414] Processing The efficiency of a clinical pathway forundiagnosed pleural effusions .pdf
+2025-09-01 00:28:45.179 | INFO     | __main__:process_single_pdf:52 - Processing The efficiency of a clinical pathway forundiagnosed pleural effusions .pdf...
+2025-09-01 00:29:45.705 | SUCCESS  | __main__:process_single_pdf:71 - ✓ Successfully processed The efficiency of a clinical pathway forundiagnosed pleural effusions 
+2025-09-01 00:29:45.705 | INFO     | __main__:main:189 - [165/414] Processing Advanced in Treatment of PPNs.pdf
+2025-09-01 00:29:45.705 | INFO     | __main__:process_single_pdf:52 - Processing Advanced in Treatment of PPNs.pdf...
+2025-09-01 00:30:51.402 | SUCCESS  | __main__:process_single_pdf:71 - ✓ Successfully processed Advanced in Treatment of PPNs
+2025-09-01 00:30:51.402 | INFO     | __main__:main:189 - [166/414] Processing Ost-2018-Quality Gaps and Comparative Effectiv.pdf
+2025-09-01 00:30:51.402 | INFO     | __main__:process_single_pdf:52 - Processing Ost-2018-Quality Gaps and Comparative Effectiv.pdf...
+2025-09-01 00:32:32.638 | SUCCESS  | __main__:process_single_pdf:71 - ✓ Successfully processed Ost-2018-Quality Gaps and Comparative Effectiv
+2025-09-01 00:32:32.638 | INFO     | __main__:main:189 - [167/414] Processing rapid_pleurodesis_in_patients_with_chronic.pdf
+2025-09-01 00:32:32.638 | INFO     | __main__:process_single_pdf:52 - Processing rapid_pleurodesis_in_patients_with_chronic.pdf...
+2025-09-01 00:34:07.725 | SUCCESS  | __main__:process_single_pdf:71 - ✓ Successfully processed rapid_pleurodesis_in_patients_with_chronic
+2025-09-01 00:34:07.725 | INFO     | __main__:main:189 - [168/414] Processing RCT of EBUS with and without aspiration.pdf
+2025-09-01 00:34:07.725 | INFO     | __main__:process_single_pdf:52 - Processing RCT of EBUS with and without aspiration.pdf...
+2025-09-01 00:34:49.542 | SUCCESS  | __main__:process_single_pdf:71 - ✓ Successfully processed RCT of EBUS with and without aspiration
+2025-09-01 00:34:49.542 | INFO     | __main__:main:189 - [169/414] Processing Physiologic Evaluation of the Patient With Lung Cancer.pdf
+2025-09-01 00:34:49.543 | INFO     | __main__:process_single_pdf:52 - Processing Physiologic Evaluation of the Patient With Lung Cancer.pdf...
+2025-09-01 00:42:09.106 | SUCCESS  | __main__:process_single_pdf:71 - ✓ Successfully processed Physiologic Evaluation of the Patient With Lung Cancer
+2025-09-01 00:42:09.107 | INFO     | __main__:main:189 - [170/414] Processing Advances in pleuroscopy.pdf
+2025-09-01 00:42:09.107 | INFO     | __main__:process_single_pdf:52 - Processing Advances in pleuroscopy.pdf...
+2025-09-01 00:44:32.302 | SUCCESS  | __main__:process_single_pdf:71 - ✓ Successfully processed Advances in pleuroscopy
+2025-09-01 00:44:32.302 | INFO     | __main__:main:189 - [171/414] Processing Variable Learning Curve of Basic.pdf
+2025-09-01 00:44:32.302 | INFO     | __main__:process_single_pdf:52 - Processing Variable Learning Curve of Basic.pdf...
+2025-09-01 00:46:14.454 | SUCCESS  | __main__:process_single_pdf:71 - ✓ Successfully processed Variable Learning Curve of Basic
+2025-09-01 00:46:14.454 | INFO     | __main__:main:189 - [172/414] Processing Garner-2020-A prospective safety and feasibili.pdf
+2025-09-01 00:46:14.454 | INFO     | __main__:process_single_pdf:52 - Processing Garner-2020-A prospective safety and feasibili.pdf...
+2025-09-01 00:48:34.877 | SUCCESS  | __main__:process_single_pdf:71 - ✓ Successfully processed Garner-2020-A prospective safety and feasibili
+2025-09-01 00:48:34.877 | INFO     | __main__:main:198 - Reached 170 successful processes, committing intermediate results...
+2025-09-01 00:48:34.878 | INFO     | __main__:git_commit_and_push:129 - Adding changes to git...
