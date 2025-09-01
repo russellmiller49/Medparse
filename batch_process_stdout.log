@@ -1511,3 +1511,139 @@ To https://github.com/russellmiller49/Medparse.git
 2025-08-31 22:24:04.869 | SUCCESS  | __main__:process_single_pdf:71 - ✓ Successfully processed advances in medical pleurodesis
 2025-08-31 22:24:04.869 | INFO     | __main__:main:198 - Reached 100 successful processes, committing intermediate results...
 2025-08-31 22:24:04.869 | INFO     | __main__:git_commit_and_push:129 - Adding changes to git...
+2025-08-31 22:24:05.018 | INFO     | __main__:git_commit_and_push:145 - Creating git commit...
+[fix/extraction-hardening e3d8e6a] feat: Batch processed 100 PDFs (intermediate commit)
+ 99 files changed, 184989 insertions(+)
+ create mode 100644 out/batch_processed/A Prospective Multicenter Trial of a Self-expanding Hybrid.json
+ create mode 100644 out/batch_processed/A prospective analysis of high-dose-rate endob.json
+ create mode 100644 out/batch_processed/Cone-beam computed tomography-guided shape-sensing robot.json
+ create mode 100644 out/batch_processed/Endosonography for mediastinal disease EUS vs EBUS.json
+ create mode 100644 out/batch_processed/Fiducial marker placement with ENB.json
+ create mode 100644 out/batch_processed/Flexible Bronchoscope Use by Pulmonologists.json
+ create mode 100644 out/batch_processed/Impact of a Dedicated Pleural Clinic on Indwelling Pleural Catheter Related Outcomes_A Retrospective Single Center Experience.json
+ create mode 100644 out/batch_processed/Li-2019-The REACH Trial_ A Randomized Controll.json
+ create mode 100644 out/batch_processed/Xie-2022-Microwave ablation via a flexible cat.json
+ create mode 100644 out/batch_processed/advances in medical pleurodesis.json
+ create mode 100644 out/figures/A Prospective Multicenter Trial of a Self-expanding Hybrid_fig01.jpg
+ create mode 100644 out/figures/A Prospective Multicenter Trial of a Self-expanding Hybrid_fig02.jpg
+ create mode 100644 out/figures/A Prospective Multicenter Trial of a Self-expanding Hybrid_fig03.jpg
+ create mode 100644 out/figures/A Prospective Multicenter Trial of a Self-expanding Hybrid_fig04.jpg
+ create mode 100644 out/figures/A Prospective Multicenter Trial of a Self-expanding Hybrid_fig05.jpg
+ create mode 100644 out/figures/A prospective analysis of high-dose-rate endob_fig01.jpg
+ create mode 100644 out/figures/A prospective analysis of high-dose-rate endob_fig02.jpg
+ create mode 100644 out/figures/A prospective analysis of high-dose-rate endob_fig03.jpg
+ create mode 100644 out/figures/A prospective analysis of high-dose-rate endob_fig04.jpg
+ create mode 100644 out/figures/A prospective analysis of high-dose-rate endob_fig05.jpg
+ create mode 100644 out/figures/A prospective analysis of high-dose-rate endob_fig2.jpg
+ create mode 100644 out/figures/Cone-beam computed tomography-guided shape-sensing robot_fig01.jpg
+ create mode 100644 out/figures/Cone-beam computed tomography-guided shape-sensing robot_fig02.jpg
+ create mode 100644 out/figures/Cone-beam computed tomography-guided shape-sensing robot_fig03.jpg
+ create mode 100644 out/figures/Cone-beam computed tomography-guided shape-sensing robot_fig04.jpg
+ create mode 100644 out/figures/Endosonography for mediastinal disease EUS vs EBUS_fig01.jpg
+ create mode 100644 out/figures/Endosonography for mediastinal disease EUS vs EBUS_fig02.jpg
+ create mode 100644 out/figures/Endosonography for mediastinal disease EUS vs EBUS_fig03.jpg
+ create mode 100644 out/figures/Endosonography for mediastinal disease EUS vs EBUS_fig04.jpg
+ create mode 100644 out/figures/Endosonography for mediastinal disease EUS vs EBUS_fig05.jpg
+ create mode 100644 out/figures/Endosonography for mediastinal disease EUS vs EBUS_fig06.jpg
+ create mode 100644 out/figures/Fiducial marker placement with ENB_fig01.jpg
+ create mode 100644 out/figures/Fiducial marker placement with ENB_fig02.jpg
+ create mode 100644 out/figures/Fiducial marker placement with ENB_fig03.jpg
+ create mode 100644 out/figures/Flexible Bronchoscope Use by Pulmonologists_fig01.jpg
+ create mode 100644 out/figures/Flexible Bronchoscope Use by Pulmonologists_fig02.jpg
+ create mode 100644 out/figures/Flexible Bronchoscope Use by Pulmonologists_fig03.jpg
+ create mode 100644 out/figures/Flexible Bronchoscope Use by Pulmonologists_fig04.jpg
+ create mode 100644 out/figures/Flexible Bronchoscope Use by Pulmonologists_fig05.jpg
+ create mode 100644 out/figures/Flexible Bronchoscope Use by Pulmonologists_fig06.jpg
+ create mode 100644 out/figures/Impact of a Dedicated Pleural Clinic on Indwelling Pleural Catheter Related Outcomes_A Retrospective Single Center Experience_fig01.jpg
+ create mode 100644 out/figures/Impact of a Dedicated Pleural Clinic on Indwelling Pleural Catheter Related Outcomes_A Retrospective Single Center Experience_fig02.jpg
+ create mode 100644 out/figures/Impact of a Dedicated Pleural Clinic on Indwelling Pleural Catheter Related Outcomes_A Retrospective Single Center Experience_fig03.jpg
+ create mode 100644 out/figures/Li-2019-The REACH Trial_ A Randomized Controll_fig01.jpg
+ create mode 100644 out/figures/Li-2019-The REACH Trial_ A Randomized Controll_fig02.jpg
+ create mode 100644 out/figures/Li-2019-The REACH Trial_ A Randomized Controll_fig03.jpg
+ create mode 100644 out/figures/Li-2019-The REACH Trial_ A Randomized Controll_fig1.jpg
+ create mode 100644 out/figures/Li-2019-The REACH Trial_ A Randomized Controll_fig2.jpg
+ create mode 100644 out/figures/Li-2019-The REACH Trial_ A Randomized Controll_fig3.jpg
+ create mode 100644 out/figures/Li-2019-The REACH Trial_ A Randomized Controll_fig4.jpg
+ create mode 100644 out/figures/Li-2019-The REACH Trial_ A Randomized Controll_fig5.jpg
+ create mode 100644 out/figures/Xie-2022-Microwave ablation via a flexible cat_fig01.jpg
+ create mode 100644 out/figures/Xie-2022-Microwave ablation via a flexible cat_fig02.jpg
+ create mode 100644 out/figures/Xie-2022-Microwave ablation via a flexible cat_fig03.jpg
+ create mode 100644 out/figures/Xie-2022-Microwave ablation via a flexible cat_fig04.jpg
+ create mode 100644 out/figures/Xie-2022-Microwave ablation via a flexible cat_fig05.jpg
+ create mode 100644 out/figures/Xie-2022-Microwave ablation via a flexible cat_fig06.jpg
+ create mode 100644 out/figures/Xie-2022-Microwave ablation via a flexible cat_fig07.jpg
+ create mode 100644 out/figures/Xie-2022-Microwave ablation via a flexible cat_fig08.jpg
+ create mode 100644 out/figures/Xie-2022-Microwave ablation via a flexible cat_fig09.jpg
+ create mode 100644 out/figures/Xie-2022-Microwave ablation via a flexible cat_fig10.jpg
+ create mode 100644 out/figures/Xie-2022-Microwave ablation via a flexible cat_fig11.jpg
+ create mode 100644 out/figures/Xie-2022-Microwave ablation via a flexible cat_fig12.jpg
+ create mode 100644 out/figures/Xie-2022-Microwave ablation via a flexible cat_fig13.jpg
+ create mode 100644 out/figures/advances in medical pleurodesis_fig01.jpg
+ create mode 100644 out/figures/advances in medical pleurodesis_fig02.jpg
+ create mode 100644 out/figures/advances in medical pleurodesis_fig03.jpg
+ create mode 100644 out/figures/advances in medical pleurodesis_fig04.jpg
+ create mode 100644 out/figures/advances in medical pleurodesis_fig05.jpg
+ create mode 100644 out/figures/advances in medical pleurodesis_fig07.jpg
+ create mode 100644 out/figures/advances in medical pleurodesis_fig08.jpg
+ create mode 100644 out/figures/advances in medical pleurodesis_fig10.jpg
+ create mode 100644 out/figures/advances in medical pleurodesis_fig11.jpg
+ create mode 100644 out/figures/advances in medical pleurodesis_fig12.jpg
+ create mode 100644 out/figures/advances in medical pleurodesis_figure1.jpg
+ create mode 100644 out/figures/advances in medical pleurodesis_figure2.jpg
+ create mode 100644 out/figures/advances in medical pleurodesis_figure3.jpg
+ create mode 100644 out/qa/A Prospective Multicenter Trial of a Self-expanding Hybrid__umls.qa.json
+ create mode 100644 out/qa/A prospective analysis of high-dose-rate endob__umls.qa.json
+ create mode 100644 out/qa/Cone-beam computed tomography-guided shape-sensing robot__umls.qa.json
+ create mode 100644 out/qa/Endosonography for mediastinal disease EUS vs EBUS__umls.qa.json
+ create mode 100644 out/qa/Fiducial marker placement with ENB__umls.qa.json
+ create mode 100644 out/qa/Flexible Bronchoscope Use by Pulmonologists__umls.qa.json
+ create mode 100644 out/qa/Impact of a Dedicated Pleural Clinic on Indwelling Pleural Catheter Related Outcomes_A Retrospective Single Center Experience__umls.qa.json
+ create mode 100644 out/qa/Li-2019-The REACH Trial_ A Randomized Controll__umls.qa.json
+ create mode 100644 out/qa/Xie-2022-Microwave ablation via a flexible cat__umls.qa.json
+ create mode 100644 out/qa/advances in medical pleurodesis__umls.qa.json
+ create mode 100644 out/references/A Prospective Multicenter Trial of a Self-expanding Hybrid.refs.csv
+ create mode 100644 out/references/A prospective analysis of high-dose-rate endob.refs.csv
+ create mode 100644 out/references/Cone-beam computed tomography-guided shape-sensing robot.refs.csv
+ create mode 100644 out/references/Endosonography for mediastinal disease EUS vs EBUS.refs.csv
+ create mode 100644 out/references/Fiducial marker placement with ENB.refs.csv
+ create mode 100644 out/references/Flexible Bronchoscope Use by Pulmonologists.refs.csv
+ create mode 100644 out/references/Impact of a Dedicated Pleural Clinic on Indwelling Pleural Catheter Related Outcomes_A Retrospective Single Center Experience.refs.csv
+ create mode 100644 out/references/Li-2019-The REACH Trial_ A Randomized Controll.refs.csv
+ create mode 100644 out/references/Xie-2022-Microwave ablation via a flexible cat.refs.csv
+ create mode 100644 out/references/advances in medical pleurodesis.refs.csv
+2025-08-31 22:24:05.043 | INFO     | __main__:git_commit_and_push:158 - Pushing to origin/fix/extraction-hardening...
+To https://github.com/russellmiller49/Medparse.git
+   84f4a92..e3d8e6a  fix/extraction-hardening -> fix/extraction-hardening
+2025-08-31 22:24:08.239 | SUCCESS  | __main__:git_commit_and_push:161 - ✓ Successfully pushed to GitHub (branch: fix/extraction-hardening)
+2025-08-31 22:24:08.239 | INFO     | __main__:main:189 - [103/414] Processing fistula Fernandez-2016-Pleural gas analysis for the id.pdf
+2025-08-31 22:24:08.239 | INFO     | __main__:process_single_pdf:52 - Processing fistula Fernandez-2016-Pleural gas analysis for the id.pdf...
+2025-08-31 22:25:31.409 | SUCCESS  | __main__:process_single_pdf:71 - ✓ Successfully processed fistula Fernandez-2016-Pleural gas analysis for the id
+2025-08-31 22:25:31.409 | INFO     | __main__:main:189 - [104/414] Processing EBUS-TBNA and EUS-FNA Risk Assessment for Clopidogrel.pdf
+2025-08-31 22:25:31.409 | INFO     | __main__:process_single_pdf:52 - Processing EBUS-TBNA and EUS-FNA Risk Assessment for Clopidogrel.pdf...
+2025-08-31 22:26:21.895 | SUCCESS  | __main__:process_single_pdf:71 - ✓ Successfully processed EBUS-TBNA and EUS-FNA Risk Assessment for Clopidogrel
+2025-08-31 22:26:21.895 | INFO     | __main__:main:189 - [105/414] Processing Tracheal stent buckling and in-stent stenosis.pdf
+2025-08-31 22:26:21.895 | INFO     | __main__:process_single_pdf:52 - Processing Tracheal stent buckling and in-stent stenosis.pdf...
+2025-08-31 22:27:25.550 | SUCCESS  | __main__:process_single_pdf:71 - ✓ Successfully processed Tracheal stent buckling and in-stent stenosis
+2025-08-31 22:27:25.551 | INFO     | __main__:main:189 - [106/414] Processing Foreign body aspiration.pdf
+2025-08-31 22:27:25.551 | INFO     | __main__:process_single_pdf:52 - Processing Foreign body aspiration.pdf...
+2025-08-31 22:35:38.114 | SUCCESS  | __main__:process_single_pdf:71 - ✓ Successfully processed Foreign body aspiration
+2025-08-31 22:35:38.114 | INFO     | __main__:main:189 - [107/414] Processing Local determinants of response to endobronchia.pdf
+2025-08-31 22:35:38.114 | INFO     | __main__:process_single_pdf:52 - Processing Local determinants of response to endobronchia.pdf...
+2025-08-31 22:36:59.045 | SUCCESS  | __main__:process_single_pdf:71 - ✓ Successfully processed Local determinants of response to endobronchia
+2025-08-31 22:36:59.045 | INFO     | __main__:main:189 - [108/414] Processing Bronchoscope-Guided Percutaneous Endoscopic Ga.pdf
+2025-08-31 22:36:59.046 | INFO     | __main__:process_single_pdf:52 - Processing Bronchoscope-Guided Percutaneous Endoscopic Ga.pdf...
+2025-08-31 22:38:19.251 | SUCCESS  | __main__:process_single_pdf:71 - ✓ Successfully processed Bronchoscope-Guided Percutaneous Endoscopic Ga
+2025-08-31 22:38:19.251 | INFO     | __main__:main:189 - [109/414] Processing Holden-2020-Safety and Efficacy of the Tracheo.pdf
+2025-08-31 22:38:19.251 | INFO     | __main__:process_single_pdf:52 - Processing Holden-2020-Safety and Efficacy of the Tracheo.pdf...
+2025-08-31 22:39:04.761 | SUCCESS  | __main__:process_single_pdf:71 - ✓ Successfully processed Holden-2020-Safety and Efficacy of the Tracheo
+2025-08-31 22:39:04.762 | INFO     | __main__:main:189 - [110/414] Processing fistula Herth-2010-Combined airway and oesophageal ste.pdf
+2025-08-31 22:39:04.762 | INFO     | __main__:process_single_pdf:52 - Processing fistula Herth-2010-Combined airway and oesophageal ste.pdf...
+2025-08-31 22:40:06.643 | SUCCESS  | __main__:process_single_pdf:71 - ✓ Successfully processed fistula Herth-2010-Combined airway and oesophageal ste
+2025-08-31 22:40:06.643 | INFO     | __main__:main:189 - [111/414] Processing Financial Justification for IP Programs.pdf
+2025-08-31 22:40:06.643 | INFO     | __main__:process_single_pdf:52 - Processing Financial Justification for IP Programs.pdf...
+2025-08-31 22:40:50.950 | SUCCESS  | __main__:process_single_pdf:71 - ✓ Successfully processed Financial Justification for IP Programs
+2025-08-31 22:40:50.950 | INFO     | __main__:main:189 - [112/414] Processing fistula Ke-2015-The treatment strategy for tracheoesop.pdf
+2025-08-31 22:40:50.950 | INFO     | __main__:process_single_pdf:52 - Processing fistula Ke-2015-The treatment strategy for tracheoesop.pdf...
+2025-08-31 22:41:54.644 | SUCCESS  | __main__:process_single_pdf:71 - ✓ Successfully processed fistula Ke-2015-The treatment strategy for tracheoesop
+2025-08-31 22:41:54.644 | INFO     | __main__:main:198 - Reached 110 successful processes, committing intermediate results...
+2025-08-31 22:41:54.644 | INFO     | __main__:git_commit_and_push:129 - Adding changes to git...

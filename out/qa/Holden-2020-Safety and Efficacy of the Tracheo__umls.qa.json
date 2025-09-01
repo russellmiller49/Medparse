@@ -1,0 +1,15 @@
+{
+  "pdf": "Holden-2020-Safety and Efficacy of the Tracheo.pdf",
+  "n_sections": 15,
+  "n_tables": 4,
+  "n_figures": 3,
+  "n_fig_crops": 3,
+  "missing_fig_bbox": 0,
+  "n_refs_csv": 19,
+  "n_umls_links": 0,
+  "n_local_links": 0,
+  "linker": "umls",
+  "completeness_score": 57,
+  "is_valid": false,
+  "timestamp": "2025-08-31 22:39:04"
+}
