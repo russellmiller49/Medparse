@@ -1647,3 +1647,170 @@ To https://github.com/russellmiller49/Medparse.git
 2025-08-31 22:41:54.644 | SUCCESS  | __main__:process_single_pdf:71 - ✓ Successfully processed fistula Ke-2015-The treatment strategy for tracheoesop
 2025-08-31 22:41:54.644 | INFO     | __main__:main:198 - Reached 110 successful processes, committing intermediate results...
 2025-08-31 22:41:54.644 | INFO     | __main__:git_commit_and_push:129 - Adding changes to git...
+2025-08-31 22:41:54.821 | INFO     | __main__:git_commit_and_push:145 - Creating git commit...
+[fix/extraction-hardening 5ebad49] feat: Batch processed 110 PDFs (intermediate commit)
+ 130 files changed, 93042 insertions(+)
+ create mode 100644 out/batch_processed/Bronchoscope-Guided Percutaneous Endoscopic Ga.json
+ create mode 100644 out/batch_processed/EBUS-TBNA and EUS-FNA Risk Assessment for Clopidogrel.json
+ create mode 100644 out/batch_processed/Financial Justification for IP Programs.json
+ create mode 100644 out/batch_processed/Foreign body aspiration.json
+ create mode 100644 out/batch_processed/Holden-2020-Safety and Efficacy of the Tracheo.json
+ create mode 100644 out/batch_processed/Local determinants of response to endobronchia.json
+ create mode 100644 out/batch_processed/Tracheal stent buckling and in-stent stenosis.json
+ create mode 100644 out/batch_processed/fistula Fernandez-2016-Pleural gas analysis for the id.json
+ create mode 100644 out/batch_processed/fistula Herth-2010-Combined airway and oesophageal ste.json
+ create mode 100644 out/batch_processed/fistula Ke-2015-The treatment strategy for tracheoesop.json
+ create mode 100644 out/figures/Bronchoscope-Guided Percutaneous Endoscopic Ga_fig01.jpg
+ create mode 100644 out/figures/Bronchoscope-Guided Percutaneous Endoscopic Ga_fig02.jpg
+ create mode 100644 out/figures/EBUS-TBNA and EUS-FNA Risk Assessment for Clopidogrel_fig01.jpg
+ create mode 100644 out/figures/Financial Justification for IP Programs_fig01.jpg
+ create mode 100644 out/figures/Financial Justification for IP Programs_fig02.jpg
+ create mode 100644 out/figures/Foreign body aspiration_fig01.jpg
+ create mode 100644 out/figures/Foreign body aspiration_fig02.jpg
+ create mode 100644 out/figures/Foreign body aspiration_fig03.jpg
+ create mode 100644 out/figures/Foreign body aspiration_fig04.jpg
+ create mode 100644 out/figures/Foreign body aspiration_fig05.jpg
+ create mode 100644 out/figures/Foreign body aspiration_fig06.jpg
+ create mode 100644 out/figures/Foreign body aspiration_fig07.jpg
+ create mode 100644 out/figures/Foreign body aspiration_fig08.jpg
+ create mode 100644 out/figures/Foreign body aspiration_fig09.jpg
+ create mode 100644 out/figures/Foreign body aspiration_fig10.jpg
+ create mode 100644 out/figures/Foreign body aspiration_fig11.jpg
+ create mode 100644 out/figures/Foreign body aspiration_fig12.jpg
+ create mode 100644 out/figures/Foreign body aspiration_fig13.jpg
+ create mode 100644 out/figures/Foreign body aspiration_fig14.jpg
+ create mode 100644 out/figures/Foreign body aspiration_fig15.jpg
+ create mode 100644 out/figures/Foreign body aspiration_fig16.jpg
+ create mode 100644 out/figures/Foreign body aspiration_fig17.jpg
+ create mode 100644 out/figures/Foreign body aspiration_fig18.jpg
+ create mode 100644 out/figures/Foreign body aspiration_fig19.jpg
+ create mode 100644 out/figures/Foreign body aspiration_fig20.jpg
+ create mode 100644 out/figures/Foreign body aspiration_fig21.jpg
+ create mode 100644 out/figures/Foreign body aspiration_fig22.jpg
+ create mode 100644 out/figures/Foreign body aspiration_fig23.jpg
+ create mode 100644 out/figures/Foreign body aspiration_fig24.jpg
+ create mode 100644 out/figures/Foreign body aspiration_fig25.jpg
+ create mode 100644 out/figures/Foreign body aspiration_fig27.jpg
+ create mode 100644 out/figures/Foreign body aspiration_figure19.jpg
+ create mode 100644 out/figures/Holden-2020-Safety and Efficacy of the Tracheo_fig01.jpg
+ create mode 100644 out/figures/Holden-2020-Safety and Efficacy of the Tracheo_fig02.jpg
+ create mode 100644 out/figures/Holden-2020-Safety and Efficacy of the Tracheo_fig03.jpg
+ create mode 100644 out/figures/Local determinants of response to endobronchia_fig01.jpg
+ create mode 100644 out/figures/Local determinants of response to endobronchia_fig02.jpg
+ create mode 100644 out/figures/Local determinants of response to endobronchia_fig03.jpg
+ create mode 100644 out/figures/Local determinants of response to endobronchia_fig04.jpg
+ create mode 100644 out/figures/Local determinants of response to endobronchia_fig05.jpg
+ create mode 100644 out/figures/Local determinants of response to endobronchia_fig06.jpg
+ create mode 100644 out/figures/Local determinants of response to endobronchia_fig07.jpg
+ create mode 100644 out/figures/Local determinants of response to endobronchia_fig08.jpg
+ create mode 100644 out/figures/Local determinants of response to endobronchia_fig09.jpg
+ create mode 100644 out/figures/Tracheal stent buckling and in-stent stenosis_fig01.jpg
+ create mode 100644 out/figures/Tracheal stent buckling and in-stent stenosis_fig02.jpg
+ create mode 100644 out/figures/Tracheal stent buckling and in-stent stenosis_fig03.jpg
+ create mode 100644 out/figures/Tracheal stent buckling and in-stent stenosis_fig04.jpg
+ create mode 100644 out/figures/Tracheal stent buckling and in-stent stenosis_fig05.jpg
+ create mode 100644 out/figures/Tracheal stent buckling and in-stent stenosis_fig06.jpg
+ create mode 100644 out/figures/fistula Fernandez-2016-Pleural gas analysis for the id_fig01.jpg
+ create mode 100644 out/figures/fistula Fernandez-2016-Pleural gas analysis for the id_fig02.jpg
+ create mode 100644 out/figures/fistula Herth-2010-Combined airway and oesophageal ste_fig01.jpg
+ create mode 100644 out/figures/fistula Herth-2010-Combined airway and oesophageal ste_fig02.jpg
+ create mode 100644 out/figures/fistula Herth-2010-Combined airway and oesophageal ste_figure1.jpg
+ create mode 100644 out/figures/fistula Herth-2010-Combined airway and oesophageal ste_figure2.jpg
+ create mode 100644 out/figures/fistula Herth-2010-Combined airway and oesophageal ste_figure3.jpg
+ create mode 100644 out/figures/fistula Ke-2015-The treatment strategy for tracheoesop_fig01.jpg
+ create mode 100644 out/figures/fistula Ke-2015-The treatment strategy for tracheoesop_fig02.jpg
+ create mode 100644 out/figures/fistula Ke-2015-The treatment strategy for tracheoesop_fig03.jpg
+ create mode 100644 out/figures/fistula Ke-2015-The treatment strategy for tracheoesop_fig04.jpg
+ create mode 100644 out/figures/fistula Ke-2015-The treatment strategy for tracheoesop_fig05.jpg
+ create mode 100644 out/figures/fistula Ke-2015-The treatment strategy for tracheoesop_fig06.jpg
+ create mode 100644 out/figures/fistula Ke-2015-The treatment strategy for tracheoesop_fig07.jpg
+ create mode 100644 out/figures/fistula Ke-2015-The treatment strategy for tracheoesop_fig09.jpg
+ create mode 100644 out/figures/fistula Ke-2015-The treatment strategy for tracheoesop_fig10.jpg
+ create mode 100644 out/figures/fistula Ke-2015-The treatment strategy for tracheoesop_fig11.jpg
+ create mode 100644 out/figures/fistula Ke-2015-The treatment strategy for tracheoesop_fig12.jpg
+ create mode 100644 out/figures/fistula Ke-2015-The treatment strategy for tracheoesop_fig13.jpg
+ create mode 100644 out/figures/fistula Ke-2015-The treatment strategy for tracheoesop_fig14.jpg
+ create mode 100644 out/figures/fistula Ke-2015-The treatment strategy for tracheoesop_fig15.jpg
+ create mode 100644 out/figures/fistula Ke-2015-The treatment strategy for tracheoesop_fig17.jpg
+ create mode 100644 out/figures/fistula Ke-2015-The treatment strategy for tracheoesop_fig18.jpg
+ create mode 100644 out/figures/fistula Ke-2015-The treatment strategy for tracheoesop_fig19.jpg
+ create mode 100644 out/figures/fistula Ke-2015-The treatment strategy for tracheoesop_fig20.jpg
+ create mode 100644 out/figures/fistula Ke-2015-The treatment strategy for tracheoesop_fig21.jpg
+ create mode 100644 out/figures/fistula Ke-2015-The treatment strategy for tracheoesop_fig22.jpg
+ create mode 100644 out/figures/fistula Ke-2015-The treatment strategy for tracheoesop_fig23.jpg
+ create mode 100644 out/figures/fistula Ke-2015-The treatment strategy for tracheoesop_fig24.jpg
+ create mode 100644 out/figures/fistula Ke-2015-The treatment strategy for tracheoesop_fig25.jpg
+ create mode 100644 out/figures/fistula Ke-2015-The treatment strategy for tracheoesop_fig26.jpg
+ create mode 100644 out/figures/fistula Ke-2015-The treatment strategy for tracheoesop_fig27.jpg
+ create mode 100644 out/figures/fistula Ke-2015-The treatment strategy for tracheoesop_fig28.jpg
+ create mode 100644 out/figures/fistula Ke-2015-The treatment strategy for tracheoesop_fig29.jpg
+ create mode 100644 out/figures/fistula Ke-2015-The treatment strategy for tracheoesop_fig30.jpg
+ create mode 100644 out/figures/fistula Ke-2015-The treatment strategy for tracheoesop_fig32.jpg
+ create mode 100644 out/figures/fistula Ke-2015-The treatment strategy for tracheoesop_fig33.jpg
+ create mode 100644 out/figures/fistula Ke-2015-The treatment strategy for tracheoesop_fig34.jpg
+ create mode 100644 out/figures/fistula Ke-2015-The treatment strategy for tracheoesop_fig35.jpg
+ create mode 100644 out/figures/fistula Ke-2015-The treatment strategy for tracheoesop_fig36.jpg
+ create mode 100644 out/figures/fistula Ke-2015-The treatment strategy for tracheoesop_fig37.jpg
+ create mode 100644 out/figures/fistula Ke-2015-The treatment strategy for tracheoesop_fig38.jpg
+ create mode 100644 out/figures/fistula Ke-2015-The treatment strategy for tracheoesop_fig39.jpg
+ create mode 100644 out/figures/fistula Ke-2015-The treatment strategy for tracheoesop_fig40.jpg
+ create mode 100644 out/figures/fistula Ke-2015-The treatment strategy for tracheoesop_fig41.jpg
+ create mode 100644 out/figures/fistula Ke-2015-The treatment strategy for tracheoesop_figure13.jpg
+ create mode 100644 out/figures/fistula Ke-2015-The treatment strategy for tracheoesop_figure16.jpg
+ create mode 100644 out/figures/fistula Ke-2015-The treatment strategy for tracheoesop_figure7.jpg
+ create mode 100644 out/qa/Bronchoscope-Guided Percutaneous Endoscopic Ga__umls.qa.json
+ create mode 100644 out/qa/EBUS-TBNA and EUS-FNA Risk Assessment for Clopidogrel__umls.qa.json
+ create mode 100644 out/qa/Financial Justification for IP Programs__umls.qa.json
+ create mode 100644 out/qa/Foreign body aspiration__umls.qa.json
+ create mode 100644 out/qa/Holden-2020-Safety and Efficacy of the Tracheo__umls.qa.json
+ create mode 100644 out/qa/Local determinants of response to endobronchia__umls.qa.json
+ create mode 100644 out/qa/Tracheal stent buckling and in-stent stenosis__umls.qa.json
+ create mode 100644 out/qa/fistula Fernandez-2016-Pleural gas analysis for the id__umls.qa.json
+ create mode 100644 out/qa/fistula Herth-2010-Combined airway and oesophageal ste__umls.qa.json
+ create mode 100644 out/qa/fistula Ke-2015-The treatment strategy for tracheoesop__umls.qa.json
+ create mode 100644 out/references/Bronchoscope-Guided Percutaneous Endoscopic Ga.refs.csv
+ create mode 100644 out/references/EBUS-TBNA and EUS-FNA Risk Assessment for Clopidogrel.refs.csv
+ create mode 100644 out/references/Financial Justification for IP Programs.refs.csv
+ create mode 100644 out/references/Foreign body aspiration.refs.csv
+ create mode 100644 out/references/Holden-2020-Safety and Efficacy of the Tracheo.refs.csv
+ create mode 100644 out/references/Local determinants of response to endobronchia.refs.csv
+ create mode 100644 out/references/Tracheal stent buckling and in-stent stenosis.refs.csv
+ create mode 100644 out/references/fistula Fernandez-2016-Pleural gas analysis for the id.refs.csv
+ create mode 100644 out/references/fistula Herth-2010-Combined airway and oesophageal ste.refs.csv
+ create mode 100644 out/references/fistula Ke-2015-The treatment strategy for tracheoesop.refs.csv
+2025-08-31 22:41:54.841 | INFO     | __main__:git_commit_and_push:158 - Pushing to origin/fix/extraction-hardening...
+To https://github.com/russellmiller49/Medparse.git
+   e3d8e6a..5ebad49  fix/extraction-hardening -> fix/extraction-hardening
+2025-08-31 22:42:00.178 | SUCCESS  | __main__:git_commit_and_push:161 - ✓ Successfully pushed to GitHub (branch: fix/extraction-hardening)
+2025-08-31 22:42:00.178 | INFO     | __main__:main:189 - [113/414] Processing Unimodality and Multimodality Cryodebridement.pdf
+2025-08-31 22:42:00.178 | INFO     | __main__:process_single_pdf:52 - Processing Unimodality and Multimodality Cryodebridement.pdf...
+2025-08-31 22:42:58.785 | SUCCESS  | __main__:process_single_pdf:71 - ✓ Successfully processed Unimodality and Multimodality Cryodebridement
+2025-08-31 22:42:58.785 | INFO     | __main__:main:189 - [114/414] Processing Shape-Sensing Robotic vs Tomo ENB.pdf
+2025-08-31 22:42:58.785 | INFO     | __main__:process_single_pdf:52 - Processing Shape-Sensing Robotic vs Tomo ENB.pdf...
+2025-08-31 22:44:02.439 | SUCCESS  | __main__:process_single_pdf:71 - ✓ Successfully processed Shape-Sensing Robotic vs Tomo ENB
+2025-08-31 22:44:02.439 | INFO     | __main__:main:189 - [115/414] Processing Silvestri-2018-Assessment of Plasma Proteomics.pdf
+2025-08-31 22:44:02.439 | INFO     | __main__:process_single_pdf:52 - Processing Silvestri-2018-Assessment of Plasma Proteomics.pdf...
+2025-08-31 22:45:18.366 | SUCCESS  | __main__:process_single_pdf:71 - ✓ Successfully processed Silvestri-2018-Assessment of Plasma Proteomics
+2025-08-31 22:45:18.366 | INFO     | __main__:main:189 - [116/414] Processing Moderate sedation changes for bronchoscopy in 2017.pdf
+2025-08-31 22:45:18.366 | INFO     | __main__:process_single_pdf:52 - Processing Moderate sedation changes for bronchoscopy in 2017.pdf...
+2025-08-31 22:45:55.521 | SUCCESS  | __main__:process_single_pdf:71 - ✓ Successfully processed Moderate sedation changes for bronchoscopy in 2017
+2025-08-31 22:45:55.521 | INFO     | __main__:main:189 - [117/414] Processing Chemical pleurodesis.pdf
+2025-08-31 22:45:55.521 | INFO     | __main__:process_single_pdf:52 - Processing Chemical pleurodesis.pdf...
+2025-08-31 22:50:15.720 | SUCCESS  | __main__:process_single_pdf:71 - ✓ Successfully processed Chemical pleurodesis
+2025-08-31 22:50:15.720 | INFO     | __main__:main:189 - [118/414] Processing Adequacy of small biopsy and cytology for immune checkpoint inhibitor and targeted therapy.pdf
+2025-08-31 22:50:15.720 | INFO     | __main__:process_single_pdf:52 - Processing Adequacy of small biopsy and cytology for immune checkpoint inhibitor and targeted therapy.pdf...
+2025-08-31 22:51:09.551 | SUCCESS  | __main__:process_single_pdf:71 - ✓ Successfully processed Adequacy of small biopsy and cytology for immune checkpoint inhibitor and targeted therapy
+2025-08-31 22:51:09.551 | INFO     | __main__:main:189 - [119/414] Processing Brass-2016-Percutaneous techniques versus surg.pdf
+2025-08-31 22:51:09.551 | INFO     | __main__:process_single_pdf:52 - Processing Brass-2016-Percutaneous techniques versus surg.pdf...
+2025-08-31 22:54:59.571 | SUCCESS  | __main__:process_single_pdf:71 - ✓ Successfully processed Brass-2016-Percutaneous techniques versus surg
+2025-08-31 22:54:59.572 | INFO     | __main__:main:189 - [120/414] Processing transbronchial ablation Miller.pdf
+2025-08-31 22:54:59.572 | INFO     | __main__:process_single_pdf:52 - Processing transbronchial ablation Miller.pdf...
+2025-08-31 22:57:34.943 | SUCCESS  | __main__:process_single_pdf:71 - ✓ Successfully processed transbronchial ablation Miller
+2025-08-31 22:57:34.943 | INFO     | __main__:main:189 - [121/414] Processing Grosu-2019-Secondary spontaneous pneumothorax.pdf
+2025-08-31 22:57:34.943 | INFO     | __main__:process_single_pdf:52 - Processing Grosu-2019-Secondary spontaneous pneumothorax.pdf...
+2025-08-31 22:59:36.932 | SUCCESS  | __main__:process_single_pdf:71 - ✓ Successfully processed Grosu-2019-Secondary spontaneous pneumothorax
+2025-08-31 22:59:36.933 | INFO     | __main__:main:189 - [122/414] Processing Valipour-2020-Two-Year Outcomes for the Double.pdf
+2025-08-31 22:59:36.933 | INFO     | __main__:process_single_pdf:52 - Processing Valipour-2020-Two-Year Outcomes for the Double.pdf...
+2025-08-31 23:00:48.753 | SUCCESS  | __main__:process_single_pdf:71 - ✓ Successfully processed Valipour-2020-Two-Year Outcomes for the Double
+2025-08-31 23:00:48.753 | INFO     | __main__:main:198 - Reached 120 successful processes, committing intermediate results...
+2025-08-31 23:00:48.753 | INFO     | __main__:git_commit_and_push:129 - Adding changes to git...

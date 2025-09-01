@@ -1,0 +1,15 @@
+{
+  "pdf": "Brass-2016-Percutaneous techniques versus surg.pdf",
+  "n_sections": 288,
+  "n_tables": 72,
+  "n_figures": 103,
+  "n_fig_crops": 103,
+  "missing_fig_bbox": 0,
+  "n_refs_csv": 106,
+  "n_umls_links": 0,
+  "n_local_links": 0,
+  "linker": "umls",
+  "completeness_score": 57,
+  "is_valid": false,
+  "timestamp": "2025-08-31 22:54:58"
+}

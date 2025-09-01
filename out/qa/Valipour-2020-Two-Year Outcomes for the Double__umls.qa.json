@@ -1,0 +1,15 @@
+{
+  "pdf": "Valipour-2020-Two-Year Outcomes for the Double.pdf",
+  "n_sections": 25,
+  "n_tables": 5,
+  "n_figures": 15,
+  "n_fig_crops": 14,
+  "missing_fig_bbox": 0,
+  "n_refs_csv": 38,
+  "n_umls_links": 0,
+  "n_local_links": 0,
+  "linker": "umls",
+  "completeness_score": 57,
+  "is_valid": false,
+  "timestamp": "2025-08-31 23:00:47"
+}
