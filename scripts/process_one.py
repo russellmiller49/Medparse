@@ -27,9 +27,12 @@ from scripts.fig_ocr import ocr_if_textual
 from scripts.qa_logger import write_qa
 from scripts.cache_manager import CacheManager
 from scripts.validator import validate_extraction
-# Remove old stats_extractor import and use new one
-from medparse.extract.statistics import extract_statistics
-from medparse.layout.captions import attach_captions
+# Import extraction fix modules
+from scripts.statistics_gated import extract_statistics
+from scripts.umls_filters import filter_umls_links
+from scripts.caption_linker import link_captions
+from scripts.authors_fallback import extract_authors_from_frontmatter
+from scripts.http_retry import with_retries, fetch_with_retry
 from scripts.section_classifier import classify_section
 from scripts.drug_extractor import extract_drugs_dosages
 from scripts.env_loader import load_env
@@ -128,44 +131,63 @@ def process_pdf(pdf_path: Path, out_json: Path, cfg_path: Path, linker: str, dum
     else:
         raise ValueError("linker must be one of: umls | scispacy | quickumls")
     
-    # Enrich references via PubMed if key present
+    # Enrich references via PubMed if key present (with retry logic)
     references_enriched = None
     if ncbi_key:
         logger.info("NCBI enrichment: resolving PubMed metadata for references")
-        references_enriched = enrich_refs_from_struct(refs["references_struct"])
-        merged["references_enriched"] = references_enriched
+        try:
+            # Wrap the enrichment call with retry logic
+            @with_retries(max_retries=3, initial_delay=1.0)
+            def enrich_with_retry():
+                return enrich_refs_from_struct(refs["references_struct"])
+            
+            references_enriched = enrich_with_retry()
+            merged["references_enriched"] = references_enriched
+        except Exception as e:
+            logger.warning(f"Reference enrichment failed after retries: {e}")
     
-    # Extractions on normalized text
-    logger.info("Extracting statistics (with context gating), drugs/doses, and trial IDs")
-    # Use new context-gated statistics extractor
-    merged["statistics"] = extract_statistics(full_text_normalized)
+    # Extract drugs and trial IDs
+    logger.info("Extracting drugs/doses and trial IDs")
     merged["drugs"] = extract_drugs_dosages(full_text_normalized)
     merged["trial_ids"] = extract_trial_ids(full_text_normalized)
     
-    # Caption association for tables and figures
-    logger.info("Associating captions with tables and figures")
-    # Build pages structure from Docling if available
-    pages = []
-    if "pages" in dl_raw:
-        for p in dl_raw["pages"]:
-            lines = []
-            if "blocks" in p:
-                for block in p["blocks"]:
-                    if "text" in block:
-                        lines.extend(block["text"].split("\n"))
-            pages.append({"page_number": p.get("page_number", 0), "lines": lines})
+    # ========== APPLY EXTRACTION FIXES ==========
     
-    # Prepare assets structure
-    assets = merged.setdefault("assets", {})
-    assets.setdefault("tables", merged.get("structure", {}).get("tables", []))
-    assets.setdefault("figures", merged.get("structure", {}).get("figures", []))
+    # 1. Link captions and footnotes to tables/figures
+    logger.info("Linking captions and footnotes to assets")
+    merged = link_captions(merged)
     
-    # Try to attach captions
-    try:
-        if pages:
-            attach_captions(pages, assets)
-    except Exception as e:
-        logger.warning(f"Caption association failed: {e}")
+    # 2. Extract statistics with context gating
+    logger.info("Extracting statistics with context gating")
+    merged["statistics"] = extract_statistics(full_text_normalized)
+    
+    # 3. Filter UMLS links for quality
+    if "umls_links" in merged:
+        logger.info("Filtering UMLS links for quality")
+        original_count = len(merged["umls_links"])
+        merged["umls_links"] = filter_umls_links(merged["umls_links"])
+        filtered_count = len(merged["umls_links"])
+        logger.info(f"UMLS links: {original_count} → {filtered_count} after filtering")
+    
+    if "umls_links_local" in merged:
+        merged["umls_links_local"] = filter_umls_links(merged["umls_links_local"])
+    
+    # 4. Author fallback extraction if needed
+    if not merged.get("metadata", {}).get("authors"):
+        logger.info("Attempting author extraction from front matter")
+        authors = extract_authors_from_frontmatter(merged)
+        if authors:
+            merged.setdefault("metadata", {})["authors"] = authors
+            logger.info(f"Extracted {len(authors)} authors from front matter")
+    
+    # 5. Set validation flags
+    merged.setdefault("validation", {}).update({
+        "has_authors": bool(merged.get("metadata", {}).get("authors")),
+        "has_statistics": bool(merged.get("statistics")),
+        "has_filtered_umls": True,
+        "has_captions": bool(merged.get("assets", {}).get("tables") or merged.get("assets", {}).get("figures")),
+        "extraction_quality": "enhanced"
+    })
     
     # Section classification
     for sec in merged.get("structure", {}).get("sections", []):

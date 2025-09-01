@@ -1,0 +1,77 @@
+statistics:
+  strict_mode: true
+  require_keywords: true
+  exclude_sections:
+    - References
+    - Bibliography
+    - Funding
+    - Acknowledgments
+    - Acknowledgements
+    - Author Contributions
+    - Competing Interests
+    - Supplementary Materials
+  context_window: 50
+  min_value: -1000000
+  max_value: 1000000
+
+umls:
+  min_score: 0.7
+  min_term_length: 3
+  require_alphabetic: true
+  max_results_per_term: 5
+  deduplicate: true
+  allowed_categories:
+    - disorder
+    - procedure
+    - anatomy
+    - chemical
+    - molecular
+    - physiology
+    - device
+    - finding
+  blacklist_terms:
+    - "history of three"
+    - "history of two"
+    - "history of one"
+    - "one"
+    - "two"
+    - "three"
+
+captions:
+  max_distance_pixels: 150
+  same_page_required: false
+  include_footnotes: true
+  search_window_paragraphs: 3
+  patterns:
+    table:
+      - "Table\\s+(\\d+)[:\\.\\s]+"
+      - "TABLE\\s+(\\d+)[:\\.\\s]+"
+      - "Supplementary Table\\s+(S?\\d+)"
+    figure:
+      - "Figure\\s+(\\d+)[:\\.\\s]+"
+      - "FIGURE\\s+(\\d+)[:\\.\\s]+"
+      - "Fig\\.\\s+(\\d+)[:\\.\\s]+"
+      - "Supplementary Figure\\s+(S?\\d+)"
+
+authors:
+  min_name_length: 3
+  max_name_length: 50
+  require_space: true
+  max_authors: 100
+  front_matter_chars: 2000
+  patterns:
+    - "([A-Z][a-z]+(?:\\s+[A-Z]\\.?)?(?:\\s+[A-Z][a-z]+)+)"
+    - "([A-Z][a-z]+(?:\\s+[A-Z]\\.?)*\\s+[A-Z][a-z]+)"
+
+http:
+  timeout_seconds: 10
+  max_retries: 3
+  initial_delay: 1.0
+  backoff_factor: 2.0
+  max_delay: 30.0
+  retry_on_status_codes:
+    - 429  # Too Many Requests
+    - 500  # Internal Server Error
+    - 502  # Bad Gateway
+    - 503  # Service Unavailable
+    - 504  # Gateway Timeout
