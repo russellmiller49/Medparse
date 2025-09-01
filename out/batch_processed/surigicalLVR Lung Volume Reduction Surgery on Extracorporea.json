@@ -1,0 +1,1094 @@
+{
+  "metadata": {
+    "title": "Lung Volume Reduction Surgery on Extracorporeal Life Support",
+    "year": "2017-02",
+    "authors": [
+      "Stefanos Tzafos",
+      "Markus Wilhelm",
+      "Stephan Wieser",
+      "Walter Weder",
+      "Ilhan Inci"
+    ],
+    "references_text": [
+      "Bilateral pneumectomy (volume reduction) for chronic obstructive pulmonary disease\n\t\t\n\t\t\tJDCooper\n\t\t\n\t\t\n\t\t\tEPTrulock\n\t\t\n\t\t\n\t\t\tANTriantafillou\n\t\t\n\t\t\n\t\t\tGAPatterson\n\t\t\n\t\t\n\t\t\tMSPohl\n\t\t\n\t\t\n\t\t\tPADeloney\n\t\t\n\t\t\n\t\t\tRSSundaresan\n\t\t\n\t\t\n\t\t\tCLRoper\n\t\t\n\t\t10.1016/s0022-5223(95)70426-4\n\t\n\t\n\t\tThe Journal of Thoracic and Cardiovascular Surgery\n\t\tThe Journal of Thoracic and Cardiovascular Surgery\n\t\t0022-5223\n\t\t\n\t\t\t109\n\t\t\t1\n\t\t\t\n\t\t\t1995\n\t\t\tElsevier BV",
+      "The National Emphysema Treatment Trial (NETT)\n\t\t\n\t\t\tGerardJCriner\n\t\t\n\t\t\n\t\t\tFrancisCordova\n\t\t\n\t\t\n\t\t\tAliceLSternberg\n\t\t\n\t\t\n\t\t\tFernandoJMartinez\n\t\t\n\t\t10.1164/rccm.201103-0455ci\n\t\n\t\n\t\tAmerican Journal of Respiratory and Critical Care Medicine\n\t\tAm J Respir Crit Care Med\n\t\t1073-449X\n\t\t1535-4970\n\t\t\n\t\t\t184\n\t\t\t8\n\t\t\t\n\t\t\t2011\n\t\t\tAmerican Thoracic Society",
+      "Patient Selection for Lung Volume Reduction Surgery: Is Outcome Predictable?\n\t\t\n\t\t\tKonradEBloch\n\t\t\n\t\t\n\t\t\tErichWRussi\n\t\t\n\t\t\n\t\t\tWalterWeder\n\t\t\n\t\t10.1053/stcs.2002.35303\n\t\n\t\n\t\tSeminars in Thoracic and Cardiovascular Surgery\n\t\tSeminars in Thoracic and Cardiovascular Surgery\n\t\t1043-0679\n\t\t\n\t\t\t14\n\t\t\t4\n\t\t\t\n\t\t\t2002\n\t\t\tElsevier BV",
+      "Lung Volume Reduction Surgery in Nonheterogeneous Emphysema\n\t\t\n\t\t\tWalterWeder\n\t\t\n\t\t\n\t\t\tMichaelaTutic\n\t\t\n\t\t\n\t\t\tKonradEBloch\n\t\t\n\t\t10.1016/j.thorsurg.2009.03.002\n\t\n\t\n\t\tThoracic Surgery Clinics\n\t\tThoracic Surgery Clinics\n\t\t1547-4127\n\t\t\n\t\t\t19\n\t\t\t2\n\t\t\t\n\t\t\t2009\n\t\t\tElsevier BV",
+      "News on lung volume reduction surgery\n\t\t\n\t\t\tErichWRussi\n\t\t\n\t\t\n\t\t\tWalterWeder\n\t\t\n\t\t10.4414/smw.2002.10022\n\t\n\t\n\t\tSwiss Medical Weekly\n\t\tSwiss Med Wkly\n\t\t1424-3997\n\t\t\n\t\t\t132\n\t\t\t3940\n\t\t\t\n\t\t\t2002\n\t\t\tSMW Supporting Association",
+      "Lung volume reduction surgery as an emergency and life-saving procedure\n\t\t\n\t\t\tBHansson\n\t\t\n\t\t\n\t\t\tPGJorens\n\t\t\n\t\t\n\t\t\tPVan Schil\n\t\t\n\t\t\n\t\t\tWVan Kerckhoven\n\t\t\n\t\t\n\t\t\tFVan Den Brande\n\t\t\n\t\t\n\t\t\tEEyskens\n\t\t\n\t\t10.1183/09031936.97.10112650\n\t\n\t\n\t\tEuropean Respiratory Journal\n\t\tEur Respir J\n\t\t0903-1936\n\t\t1399-3003\n\t\t\n\t\t\t10\n\t\t\t11\n\t\t\t\n\t\t\t1997\n\t\t\tEuropean Respiratory Society (ERS)",
+      "Lung Volume Reduction Surgery in Ventilator-Dependent COPD Patients\n\t\t\n\t\t\tGerardJCriner\n\t\t\n\t\t\n\t\t\tGeraldO'brien\n\t\t\n\t\t\n\t\t\tSatoshiFurukawa\n\t\t\n\t\t\n\t\t\tFrancisCordova\n\t\t\n\t\t\n\t\t\tMorrisSwartz\n\t\t\n\t\t\n\t\t\tManucherFallahnejad\n\t\t\n\t\t\n\t\t\tGilbertD'alonzo\n\t\t\n\t\t10.1378/chest.110.4.877\n\t\n\t\n\t\tChest\n\t\tChest\n\t\t0012-3692\n\t\t\n\t\t\t110\n\t\t\t4\n\t\t\t\n\t\t\t1996\n\t\t\tElsevier BV",
+      "Outcome of Extracorporeal Membrane Oxygenation as a Bridge To Lung Transplantation\n\t\t\n\t\t\tIlhanInci\n\t\t\n\t\t\n\t\t\tStephanieKlinzing\n\t\t\n\t\t\n\t\t\tDidierSchneiter\n\t\t\n\t\t\n\t\t\tRetoASchuepbach\n\t\t\n\t\t\n\t\t\tPeterKestenholz\n\t\t\n\t\t\n\t\t\tSvenHillinger\n\t\t\n\t\t\n\t\t\tChristianBenden\n\t\t\n\t\t\n\t\t\tMarcoMaggiorini\n\t\t\n\t\t\n\t\t\tWalterWeder\n\t\t\n\t\t10.1097/tp.0000000000000653\n\t\n\t\n\t\tTransplantation\n\t\t0041-1337\n\t\t\n\t\t\t99\n\t\t\t8\n\t\t\t\n\t\t\t2015\n\t\t\tOvid Technologies (Wolters Kluwer Health)"
+    ],
+    "references_raw": [
+      "Bilateral pneumectomy (volume reduction) for chronic obstructive pulmonary disease\n\t\t\n\t\t\tJDCooper\n\t\t\n\t\t\n\t\t\tEPTrulock\n\t\t\n\t\t\n\t\t\tANTriantafillou\n\t\t\n\t\n\t\n\t\tJ Thorac Cardiovasc Surg\n\t\t\n\t\t\t109\n\t\t\t\n\t\t\t1995",
+      "The National Emphysema Treatment Trial (NETT) part II: lessons learned about lung volume reduction surgery\n\t\t\n\t\t\tGJCriner\n\t\t\n\t\t\n\t\t\tFCordova\n\t\t\n\t\t\n\t\t\tALSternberg\n\t\t\n\t\t\n\t\t\tFJMartinez\n\t\t\n\t\n\t\n\t\tAm J Respir Crit Care Med\n\t\t\n\t\t\t184\n\t\t\t\n\t\t\t2011",
+      "Patient selection for lung volume reduction surgery: is outcome predictable?\n\t\t\n\t\t\tKEBloch\n\t\t\n\t\t\n\t\t\tEWRussi\n\t\t\n\t\t\n\t\t\tWWeder\n\t\t\n\t\n\t\n\t\tSemin Thorac Cardiovasc Surg\n\t\t\n\t\t\t14\n\t\t\t\n\t\t\t2002",
+      "Lung volume reduction surgery in nonheterogeneous emphysema\n\t\t\n\t\t\tWWeder\n\t\t\n\t\t\n\t\t\tMTutic\n\t\t\n\t\t\n\t\t\tKEBloch\n\t\t\n\t\n\t\n\t\tThorac Surg Clin\n\t\t\n\t\t\t19\n\t\t\t\n\t\t\t2009",
+      "News on lung volume reduction surgery\n\t\t\n\t\t\tEWRussi\n\t\t\n\t\t\n\t\t\tWWeder\n\t\t\n\t\n\t\n\t\tSwiss Med Wkly\n\t\t\n\t\t\t132\n\t\t\t\n\t\t\t2002",
+      "Lung volume reduction surgery as an emergency and life-saving procedure\n\t\t\n\t\t\tBHansson\n\t\t\n\t\t\n\t\t\tPGJorens\n\t\t\n\t\t\n\t\t\tPVan Schil\n\t\t\n\t\t\n\t\t\tWVan Kerckhoven\n\t\t\n\t\t\n\t\t\tFVan Den Brande\n\t\t\n\t\t\n\t\t\tEEyskens\n\t\t\n\t\n\t\n\t\tEur Respir J\n\t\t\n\t\t\t10\n\t\t\t\n\t\t\t1997",
+      "Lung volume reduction surgery in ventilator-dependent COPD patients\n\t\t\n\t\t\tGJCriner\n\t\t\n\t\t\n\t\t\tO'brien\n\t\t\n\t\t\n\t\t\tGFurukawa\n\t\t\n\t\t\n\t\t\tS\n\t\t\n\t\n\t\n\t\tChest\n\t\t\n\t\t\t110\n\t\t\t\n\t\t\t1996",
+      "Outcome of extracorporeal membrane oxygenation as a bridge to lung transplantation: an institutional experience and literature review\n\t\t\n\t\t\tIInci\n\t\t\n\t\t\n\t\t\tSKlinzing\n\t\t\n\t\t\n\t\t\tDSchneiter\n\t\t\n\t\n\t\n\t\tTransplantation\n\t\t\n\t\t\t99\n\t\t\t\n\t\t\t2015"
+    ],
+    "references_struct": [
+      {
+        "title": "Bilateral pneumectomy (volume reduction) for chronic obstructive pulmonary disease",
+        "journal": "J Thorac Cardiovasc Surg",
+        "year": "1995",
+        "volume": "109",
+        "issue": null,
+        "pages": null,
+        "doi": null,
+        "pmid": null,
+        "authors": [
+          "Cooper JD",
+          "Trulock EP",
+          "Triantafillou AN"
+        ],
+        "first_author_last": "Cooper"
+      },
+      {
+        "title": "The National Emphysema Treatment Trial (NETT) part II: lessons learned about lung volume reduction surgery",
+        "journal": "Am J Respir Crit Care Med",
+        "year": "2011",
+        "volume": "184",
+        "issue": null,
+        "pages": null,
+        "doi": null,
+        "pmid": null,
+        "authors": [
+          "Criner GJ",
+          "Cordova F",
+          "Sternberg AL",
+          "Martinez FJ"
+        ],
+        "first_author_last": "Criner"
+      },
+      {
+        "title": "Patient selection for lung volume reduction surgery: is outcome predictable?",
+        "journal": "Semin Thorac Cardiovasc Surg",
+        "year": "2002",
+        "volume": "14",
+        "issue": null,
+        "pages": null,
+        "doi": null,
+        "pmid": null,
+        "authors": [
+          "Bloch KE",
+          "Russi EW",
+          "Weder W"
+        ],
+        "first_author_last": "Bloch"
+      },
+      {
+        "title": "Lung volume reduction surgery in nonheterogeneous emphysema",
+        "journal": "Thorac Surg Clin",
+        "year": "2009",
+        "volume": "19",
+        "issue": null,
+        "pages": null,
+        "doi": null,
+        "pmid": null,
+        "authors": [
+          "Weder W",
+          "Tutic M",
+          "Bloch KE"
+        ],
+        "first_author_last": "Weder"
+      },
+      {
+        "title": "News on lung volume reduction surgery",
+        "journal": "Swiss Med Wkly",
+        "year": "2002",
+        "volume": "132",
+        "issue": null,
+        "pages": null,
+        "doi": null,
+        "pmid": null,
+        "authors": [
+          "Russi EW",
+          "Weder W"
+        ],
+        "first_author_last": "Russi"
+      },
+      {
+        "title": "Lung volume reduction surgery as an emergency and life-saving procedure",
+        "journal": "Eur Respir J",
+        "year": "1997",
+        "volume": "10",
+        "issue": null,
+        "pages": null,
+        "doi": null,
+        "pmid": null,
+        "authors": [
+          "Hansson B",
+          "Jorens PG",
+          "Van Schil P",
+          "Van Kerckhoven W",
+          "Van Den Brande F",
+          "Eyskens E"
+        ],
+        "first_author_last": "Hansson"
+      },
+      {
+        "title": "Lung volume reduction surgery in ventilator-dependent COPD patients",
+        "journal": "Chest",
+        "year": "1996",
+        "volume": "110",
+        "issue": null,
+        "pages": null,
+        "doi": null,
+        "pmid": null,
+        "authors": [
+          "Criner GJ",
+          "'brien O",
+          "Furukawa G",
+          "S"
+        ],
+        "first_author_last": "Criner"
+      },
+      {
+        "title": "Outcome of extracorporeal membrane oxygenation as a bridge to lung transplantation: an institutional experience and literature review",
+        "journal": "Transplantation",
+        "year": "2015",
+        "volume": "99",
+        "issue": null,
+        "pages": null,
+        "doi": null,
+        "pmid": null,
+        "authors": [
+          "Inci I",
+          "Klinzing S",
+          "Schneiter D"
+        ],
+        "first_author_last": "Inci"
+      }
+    ],
+    "references_enriched": [
+      {
+        "title": "Bilateral pneumectomy (volume reduction) for chronic obstructive pulmonary disease"
+      },
+      {
+        "title": "J Thorac Cardiovasc Surg",
+        "year": 1995
+      },
+      {
+        "title": "The National Emphysema Treatment Trial (NETT) part II: lessons learned about lung volume reduction surgery",
+        "year": 1995
+      },
+      {
+        "title": "Am J Respir Crit Care Med",
+        "year": 2011
+      },
+      {
+        "title": "Patient selection for lung volume reduction surgery: is outcome predictable?",
+        "year": 2011
+      },
+      {
+        "title": "Semin Thorac Cardiovasc Surg",
+        "year": 2002
+      },
+      {
+        "title": "Lung volume reduction surgery in nonheterogeneous emphysema",
+        "year": 2002
+      },
+      {
+        "title": "Thorac Surg Clin",
+        "year": 2009
+      },
+      {
+        "title": "News on lung volume reduction surgery",
+        "year": 2009
+      },
+      {
+        "title": "Swiss Med Wkly",
+        "year": 2009
+      },
+      {
+        "title": "Lung volume reduction surgery as an emergency and life-saving procedure",
+        "year": 2002
+      },
+      {
+        "title": "Eur Respir J",
+        "year": 1997
+      },
+      {
+        "title": "Lung volume reduction surgery in ventilator-dependent COPD patients",
+        "year": 1997
+      },
+      {
+        "title": "Chest",
+        "year": 1996
+      },
+      {
+        "title": "Outcome of extracorporeal membrane oxygenation as a bridge to lung transplantation: an institutional experience and literature review",
+        "year": 1996
+      },
+      {
+        "title": "Transplantation",
+        "year": 2015
+      }
+    ],
+    "references_source": "grobid_fallback"
+  },
+  "structure": {
+    "sections": [
+      {
+        "title": "Lung Volume Reduction Surgery on Extracorporeal Life Support",
+        "paragraphs": [
+          {
+            "text": "Stefanos Tzafos, MD,* St /C19 ephane Collaud, MD MS,* Markus Wilhelm, MD, Stephan Wieser, MD, Walter Weder, MD, and Ilhan Inci, MD"
+          },
+          {
+            "text": "Department of Thoracic Surgery and Clinic for Cardiovascular Surgery, University Hospital Zurich, Zurich; and Stadtspital Waid, Zurich, Switzerland"
+          },
+          {
+            "text": "Lung volume reduction surgery improves exercise tolerance, lung function, and quality of life for selected patients with emphysema. Lung volume reduction surgery is well established for patients in a highly elective setting. It is, however, contraindicated in cases of acute cardiorespiratory failure. We present the case of a patient with severe emphysema who had acute respiratory failure and decompensated cor pulmonale requiring life-saving venovenoarterial extracorporeal life support after admission to the emergency unit. He underwent lung volume reduction surgery with intent to wean from extracorporeal life support. He had complete functional recovery after 4 months."
+          },
+          {
+            "text": "(Ann Thorac Surg 2017;103:e115 -7) /C211 2017 by The Society of Thoracic Surgeons"
+          },
+          {
+            "text": "S ince the reintroduction of lung volume reduction surgery (LVRS) by Cooper and colleagues [1] in 1995, numerous articles reported its ef /uniFB01 cacy for selected patients with severe emphysema. However, the use of LVRS has been generally considered contraindicated in the setting of acute respiratory failure. Here, we report a successful case of LVRS performed on a patient on extracorporeal life support (ECLS)."
+          },
+          {
+            "text": "A 33-year-old man with emphysema related to tobacco, marijuana, and cocaine inhalation was evaluated in our outpatient clinic for LVRS because of slowly decreasing exercise tolerance that impaired his quality of life. His arterial blood gas analysis on room air showed the following: pH 7.41; partial oxygen pressure 6.9 kPa (52 mm Hg); partial carbon dioxide pressure in arterial blood gas 5.8 kPa (43.5 mm Hg); oxygen saturation 90%; and bicarbonate (HCO3 /C0 ) 26.3 mmol/L. The 6-minute walk test revealed a walking distance of 450 m, initial peripheral oxygen saturation (SpO2) 89%, initial heart rate 61 beats per minute, /uniFB01 nal SpO2 86%, /uniFB01 nal heart rate 92 beats per minute, and moderate physical exhaustion. Pulmonary function tests showed the following after bronchodilation (percent of predicted value): forced vital"
+          },
+          {
+            "text": "capacity (FVC) 3.74 L (76%); forced expiratory volume in 1 second (FEV1) 1.56 l (38%); FEV1/FVC 42%; total lung capacity (TLC) 10.14 L (147%); residual volume (RV) 6.44 L (369%); RV/TLC 63% (234%); and diffusing capacity of lung for carbon monoxide 5.54 mmol $ min /C0 1 $ kPa /C0 1 (49%). Computed tomography is shown in Figure 1. Echocardiography revealed a dilated right ventricle, a moderate tricuspid insuf /uniFB01 ciency with an estimated systolic pulmonary artery pressure of 55 mm Hg. An elective bilateral video-assisted LVRS was recommended but was not performed because the patient did not stop smoking.",
+            "cross_refs": [
+              {
+                "type": "figure",
+                "index": 0,
+                "text": "Figure 1",
+                "span": [
+                  322,
+                  330
+                ]
+              }
+            ]
+          },
+          {
+            "text": "Eighteen months later, the patient was found unconscious at home probably from a drug overdose. He was intubated on site and brought to the emergency department. On arrival, his systolic blood pressure was 90 mm Hg with dobutamine and low-dose norepinephrine support, his heart rate was 95 beats per minutes, and SpO 2 was 75% with fraction of inspired oxygen of 100%. Computed tomography showed bilateral lower lobe consolidations and upper-lobe predominance of emphysema with /uniFB02 attening of both diaphragms. A decompensated cor pulmonale was suspected owing to the enlarged pulmonary trunk, right ventricle, and right atrium, with contrast back /uniFB02 ow into the enlarged inferior vena cava. Echocardiography showed D-shaping of the interventricular septum. Bronchoscopy showed thick secretions from both lower lobes. Piperacillin, tazobactam, and clarithromycin antimicrobial therapy was started empirically. Arterial blood gas showed the following results with maximal ventilatory support: pH 7.21; partial oxygen pressure 5.26 kPa (39 mm Hg); partial carbon dioxide pressure 10.5 kPa (78.7 mm Hg); hemoglobin oxygen saturation 63%; and bicarbonate 31.1 mmol/L."
+          },
+          {
+            "text": "Facing the persistence of hemodynamic and respiratory failure, a femorofemoral venoarterial ECLS was implanted to unload the right ventricle. An additional venous supply cannula (venovenoarterial ECLS) was required in the jugular vein to improve oxygenation. The next day and the day after that, right-sided and leftsided LVRS of both upper lobes was sequentially performed through anterior thoracotomies. Downgrading of the venovenoarterial ECLS to femorojugular venovenous ECLS and tracheostomy were performed on day 5 after the /uniFB01 rst LVRS. The patient was weaned from ECLS and mechanical ventilation on day 8 and 13, respectively, after the /uniFB01 rst LVRS. The tracheostomy cannula was removed 3 weeks after LVRS, and the patient discharged to a rehabilitation clinic 5 weeks after LVRS. Postoperative left-sided foot /uniFB02 exor paresis limited his walking distance."
+          },
+          {
+            "text": "The patient was free of respiratory symptoms 4 months after LVRS. Arterial blood gas on room air showed the following: pH 7.43; partial oxygen pressure 9.9 kPa (74.2 mmHg); partial carbon dioxide pressure 5.3 kPa (39.7 mm Hg); hemoglobin oxygen saturation 96%; and bicarbonate 26.3 mmol/L. The 6-minute walk test showed 375 m walking distance, initial SpO2 95%, initial heart rate 67"
+          },
+          {
+            "text": "Accepted for publication July 25, 2016."
+          },
+          {
+            "text": "*Drs Tzafos and Collaud contributed equally to this work."
+          },
+          {
+            "text": "Address correspondence to Dr Inci, Department of Thoracic Surgery, University Hospital Zurich, Raemistrasse 100, Zurich 8091, Switzerland; email: ilhan.inci@usz.ch."
+          },
+          {
+            "text": "beats per minute, /uniFB01 nal SpO2 93%, /uniFB01 nal heart rate 80 beats per minute, and light exhaustion. (Note the postoperative shorter walking distance due to foot /uniFB02 exor paresis.) Pulmonary function tests showed the following after bronchodilation: FVC 5.3 l (109%), FEV1 3.98 l (98%) ' FEV1/ FVC 70%, TLC 7.47 l (108%); RV 2.1 l (118%); RV/TLC 28% (105%); diffusing capacity of lung for carbon monoxide 8.54 mmol $ min /C0 1 $ kPa /C0 1 (76%). Computed tomography showed a marked improvement (Fig 2)."
+          }
+        ],
+        "category": "other"
+      },
+      {
+        "title": "Comment",
+        "paragraphs": [
+          {
+            "text": "Lung volume reduction surgery leads to improvement of exercise tolerance, lung function, and quality of life for selected patients by resecting nonfunctional emphysematous lung parenchyma [2]. Selection criteria for surgery were de /uniFB01 ned by the National Emphysema Treatment Trial and others [2 -5]. Lung volume reduction surgery is deemed to be an elective procedure performed after pulmonary rehabilitation and is generally not advised for ventilator-dependent patients with respiratory failure. Hansson and colleagues [6] described the case of a patient who required invasive mechanical ventilation owing to acute respiratory failure, chronic obstructive pulmonary disease exacerbation, bilateral pneumothoraces, and massive air leak. The patient underwent emergency bilateral LVRS, including leak closure and pleurectomy through a median sternotomy."
+          },
+          {
+            "text": "Pulmonary function tests improved and arterial blood gas normalized 3 months after surgery. In a more chronic setting, Criner and associates [7] reported 3 patients with recurrent chronic obstructive pulmonary disease exacerbations, respiratory failure, and long-term mechanical ventilation (from 11 to 16 weeks). The LVRS enabled weaning from mechanical ventilation for these patients."
+          },
+          {
+            "text": "We described the case of successful LVRS for a ventilated patient with acute respiratory failure and decompensated cor pulmonale on venovenoarterial ECLS. Despite the critical situation, it was thought that this young patient with minor comorbidities and complete preoperative workup for LVRS 18 months earlier would bene /uniFB01 t from ECLS and LVRS. The ECLS in venovenoarterial mode unloaded the failing right ventricle while enabling suf /uniFB01 cient oxygenation until the heart and lung recovered from aspiration pneumonia. The combination of medical treatment, including antibiotics as well as LVRS, enabled ECLS weaning."
+          },
+          {
+            "text": "Extracorporeal life support has not been reported in combination with LVRS, but its routine use as a bridge to lung transplantation allowed safe perioperative management [8]. Predictive factors of good functional results after LVRS included the slowly decreasing preoperative exercise tolerance, the upper lobe predominance of emphysema with compression of functional lung parenchyma at the base, the pulmonary hyperin /uniFB02 ation"
+          },
+          {
+            "text": "(RV/TLC 63%), and the FEV1 and diffusing capacity of lung for carbon monoxide that were greater than 20% of predicted."
+          },
+          {
+            "text": "In conclusion, LVRS was successfully performed in a highly selected patient with acute respiratory failure and decompensated cor pulmonale on ECLS."
+          }
+        ],
+        "category": "other"
+      },
+      {
+        "title": "References",
+        "paragraphs": [
+          {
+            "text": "1. Cooper JD, Trulock EP, Trianta /uniFB01 llou AN, et al. Bilateral pneumectomy (volume reduction) for chronic obstructive pulmonary disease. J Thorac Cardiovasc Surg 1995;109: 106 -19."
+          },
+          {
+            "text": "2. Criner GJ, Cordova F, Sternberg AL, Martinez FJ. The National Emphysema Treatment Trial (NETT) part II: lessons learned about lung volume reduction surgery. Am J Respir Crit Care Med 2011;184:881 -93."
+          },
+          {
+            "text": "3. Bloch KE, Russi EW, Weder W. Patient selection for lung volume reduction surgery: is outcome predictable? Semin Thorac Cardiovasc Surg 2002;14:371 -80."
+          },
+          {
+            "text": "4. Weder W, Tutic M, Bloch KE. Lung volume reduction surgery in nonheterogeneous emphysema. Thorac Surg Clin 2009;19: 193 -9."
+          },
+          {
+            "text": "5. Russi EW, Weder W. News on lung volume reduction surgery. Swiss Med Wkly 2002;132:557 -61."
+          },
+          {
+            "text": "6. Hansson B, Jorens PG, van Schil P, van Kerckhoven W, van den Brande F, Eyskens E. Lung volume reduction surgery as an emergency and life-saving procedure. Eur Respir J 1997;10: 2650 -2."
+          },
+          {
+            "text": "7. Criner GJ, O ' Brien G, Furukawa S, et al. Lung volume reduction surgery in ventilator-dependent Chronic obstructive pulmonary disease (COPD) patients. Chest 1996;110:877 -84."
+          },
+          {
+            "text": "8. Inci I, Klinzing S, Schneiter D, et al. Outcome of extracorporeal membrane oxygenation as a bridge to lung transplantation: an institutional experience and literature review. Transplantation 2015;99:1667 -71."
+          }
+        ],
+        "category": "other"
+      }
+    ],
+    "tables": [],
+    "figures": [
+      {
+        "self_ref": "#/pictures/0",
+        "parent": {
+          "cref": "#/body"
+        },
+        "children": [],
+        "content_layer": "body",
+        "label": "picture",
+        "prov": [
+          {
+            "page_no": 1,
+            "bbox": {
+              "l": 271.79364013671875,
+              "t": 710.5562362670898,
+              "r": 288.19036865234375,
+              "b": 693.3419418334961,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "charspan": [
+              0,
+              0
+            ]
+          }
+        ],
+        "captions": [],
+        "references": [],
+        "footnotes": [],
+        "image": null,
+        "annotations": []
+      },
+      {
+        "self_ref": "#/pictures/1",
+        "parent": {
+          "cref": "#/body"
+        },
+        "children": [
+          {
+            "cref": "#/texts/21"
+          },
+          {
+            "cref": "#/texts/22"
+          }
+        ],
+        "content_layer": "body",
+        "label": "picture",
+        "prov": [
+          {
+            "page_no": 2,
+            "bbox": {
+              "l": 179.63812255859375,
+              "t": 714.283821105957,
+              "r": 354.0028991699219,
+              "b": 572.6755676269531,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "charspan": [
+              0,
+              0
+            ]
+          }
+        ],
+        "captions": [
+          {
+            "cref": "#/texts/21"
+          }
+        ],
+        "references": [],
+        "footnotes": [],
+        "image": null,
+        "annotations": []
+      },
+      {
+        "self_ref": "#/pictures/2",
+        "parent": {
+          "cref": "#/body"
+        },
+        "children": [
+          {
+            "cref": "#/texts/24"
+          }
+        ],
+        "content_layer": "body",
+        "label": "picture",
+        "prov": [
+          {
+            "page_no": 2,
+            "bbox": {
+              "l": 357.7518615722656,
+              "t": 714.0414428710938,
+              "r": 538.8638916015625,
+              "b": 572.8401031494141,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "charspan": [
+              0,
+              0
+            ]
+          }
+        ],
+        "captions": [],
+        "references": [],
+        "footnotes": [],
+        "image": null,
+        "annotations": []
+      },
+      {
+        "self_ref": "#/pictures/3",
+        "parent": {
+          "cref": "#/body"
+        },
+        "children": [],
+        "content_layer": "body",
+        "label": "picture",
+        "prov": [
+          {
+            "page_no": 2,
+            "bbox": {
+              "l": 179.7255096435547,
+              "t": 204.11590576171875,
+              "r": 360.86932373046875,
+              "b": 74.64178466796875,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "charspan": [
+              0,
+              0
+            ]
+          }
+        ],
+        "captions": [],
+        "references": [],
+        "footnotes": [],
+        "image": null,
+        "annotations": []
+      },
+      {
+        "self_ref": "#/pictures/4",
+        "parent": {
+          "cref": "#/body"
+        },
+        "children": [
+          {
+            "cref": "#/texts/31"
+          }
+        ],
+        "content_layer": "body",
+        "label": "picture",
+        "prov": [
+          {
+            "page_no": 2,
+            "bbox": {
+              "l": 363.2276916503906,
+              "t": 204.64764404296875,
+              "r": 539.1082763671875,
+              "b": 74.63958740234375,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "charspan": [
+              0,
+              0
+            ]
+          }
+        ],
+        "captions": [],
+        "references": [],
+        "footnotes": [],
+        "image": null,
+        "annotations": []
+      }
+    ],
+    "citations": [],
+    "n_sections": 3,
+    "n_tables": 0,
+    "n_figures": 5,
+    "n_citations": 0
+  },
+  "provenance": {},
+  "grobid": {
+    "references_tei": "<TEI xmlns=\"http://www.tei-c.org/ns/1.0\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" \n xmlns:mml=\"http://www.w3.org/1998/Math/MathML\">\n\t<teiHeader/>\n\t<text>\n\t\t<front/>\n\t\t<body/>\n\t\t<back>\n\t\t\t<div>\n\t\t\t\t<listBibl>\n<biblStruct xml:id=\"b0\">\n\t<analytic>\n\t\t<title level=\"a\" type=\"main\">Bilateral pneumectomy (volume reduction) for chronic obstructive pulmonary disease</title>\n\t\t<author>\n\t\t\t<persName><forename type=\"first\">J</forename><forename type=\"middle\">D</forename><surname>Cooper</surname></persName>\n\t\t</author>\n\t\t<author>\n\t\t\t<persName><forename type=\"first\">E</forename><forename type=\"middle\">P</forename><surname>Trulock</surname></persName>\n\t\t</author>\n\t\t<author>\n\t\t\t<persName><forename type=\"first\">A</forename><forename type=\"middle\">N</forename><surname>Triantafillou</surname></persName>\n\t\t</author>\n\t</analytic>\n\t<monogr>\n\t\t<title level=\"j\">J Thorac Cardiovasc Surg</title>\n\t\t<imprint>\n\t\t\t<biblScope unit=\"volume\">109</biblScope>\n\t\t\t<biblScope unit=\"page\" from=\"106\" to=\"119\" />\n\t\t\t<date type=\"published\" when=\"1995\">1995</date>\n\t\t</imprint>\n\t</monogr>\n</biblStruct>\n\n<biblStruct xml:id=\"b1\">\n\t<analytic>\n\t\t<title level=\"a\" type=\"main\">The National Emphysema Treatment Trial (NETT) part II: lessons learned about lung volume reduction surgery</title>\n\t\t<author>\n\t\t\t<persName><forename type=\"first\">G</forename><forename type=\"middle\">J</forename><surname>Criner</surname></persName>\n\t\t</author>\n\t\t<author>\n\t\t\t<persName><forename type=\"first\">F</forename><surname>Cordova</surname></persName>\n\t\t</author>\n\t\t<author>\n\t\t\t<persName><forename type=\"first\">A</forename><forename type=\"middle\">L</forename><surname>Sternberg</surname></persName>\n\t\t</author>\n\t\t<author>\n\t\t\t<persName><forename type=\"first\">F</forename><forename type=\"middle\">J</forename><surname>Martinez</surname></persName>\n\t\t</author>\n\t</analytic>\n\t<monogr>\n\t\t<title level=\"j\">Am J Respir Crit Care Med</title>\n\t\t<imprint>\n\t\t\t<biblScope unit=\"volume\">184</biblScope>\n\t\t\t<biblScope unit=\"page\" from=\"881\" to=\"893\" />\n\t\t\t<date type=\"published\" when=\"2011\">2011</date>\n\t\t</imprint>\n\t</monogr>\n</biblStruct>\n\n<biblStruct xml:id=\"b2\">\n\t<analytic>\n\t\t<title level=\"a\" type=\"main\">Patient selection for lung volume reduction surgery: is outcome predictable?</title>\n\t\t<author>\n\t\t\t<persName><forename type=\"first\">K</forename><forename type=\"middle\">E</forename><surname>Bloch</surname></persName>\n\t\t</author>\n\t\t<author>\n\t\t\t<persName><forename type=\"first\">E</forename><forename type=\"middle\">W</forename><surname>Russi</surname></persName>\n\t\t</author>\n\t\t<author>\n\t\t\t<persName><forename type=\"first\">W</forename><surname>Weder</surname></persName>\n\t\t</author>\n\t</analytic>\n\t<monogr>\n\t\t<title level=\"j\">Semin Thorac Cardiovasc Surg</title>\n\t\t<imprint>\n\t\t\t<biblScope unit=\"volume\">14</biblScope>\n\t\t\t<biblScope unit=\"page\" from=\"371\" to=\"380\" />\n\t\t\t<date type=\"published\" when=\"2002\">2002</date>\n\t\t</imprint>\n\t</monogr>\n</biblStruct>\n\n<biblStruct xml:id=\"b3\">\n\t<analytic>\n\t\t<title level=\"a\" type=\"main\">Lung volume reduction surgery in nonheterogeneous emphysema</title>\n\t\t<author>\n\t\t\t<persName><forename type=\"first\">W</forename><surname>Weder</surname></persName>\n\t\t</author>\n\t\t<author>\n\t\t\t<persName><forename type=\"first\">M</forename><surname>Tutic</surname></persName>\n\t\t</author>\n\t\t<author>\n\t\t\t<persName><forename type=\"first\">K</forename><forename type=\"middle\">E</forename><surname>Bloch</surname></persName>\n\t\t</author>\n\t</analytic>\n\t<monogr>\n\t\t<title level=\"j\">Thorac Surg Clin</title>\n\t\t<imprint>\n\t\t\t<biblScope unit=\"volume\">19</biblScope>\n\t\t\t<biblScope unit=\"page\" from=\"193\" to=\"199\" />\n\t\t\t<date type=\"published\" when=\"2009\">2009</date>\n\t\t</imprint>\n\t</monogr>\n</biblStruct>\n\n<biblStruct xml:id=\"b4\">\n\t<analytic>\n\t\t<title level=\"a\" type=\"main\">News on lung volume reduction surgery</title>\n\t\t<author>\n\t\t\t<persName><forename type=\"first\">E</forename><forename type=\"middle\">W</forename><surname>Russi</surname></persName>\n\t\t</author>\n\t\t<author>\n\t\t\t<persName><forename type=\"first\">W</forename><surname>Weder</surname></persName>\n\t\t</author>\n\t</analytic>\n\t<monogr>\n\t\t<title level=\"j\">Swiss Med Wkly</title>\n\t\t<imprint>\n\t\t\t<biblScope unit=\"volume\">132</biblScope>\n\t\t\t<biblScope unit=\"page\" from=\"557\" to=\"561\" />\n\t\t\t<date type=\"published\" when=\"2002\">2002</date>\n\t\t</imprint>\n\t</monogr>\n</biblStruct>\n\n<biblStruct xml:id=\"b5\">\n\t<analytic>\n\t\t<title level=\"a\" type=\"main\">Lung volume reduction surgery as an emergency and life-saving procedure</title>\n\t\t<author>\n\t\t\t<persName><forename type=\"first\">B</forename><surname>Hansson</surname></persName>\n\t\t</author>\n\t\t<author>\n\t\t\t<persName><forename type=\"first\">P</forename><forename type=\"middle\">G</forename><surname>Jorens</surname></persName>\n\t\t</author>\n\t\t<author>\n\t\t\t<persName><forename type=\"first\">P</forename><surname>Van Schil</surname></persName>\n\t\t</author>\n\t\t<author>\n\t\t\t<persName><forename type=\"first\">W</forename><surname>Van Kerckhoven</surname></persName>\n\t\t</author>\n\t\t<author>\n\t\t\t<persName><forename type=\"first\">F</forename><surname>Van Den Brande</surname></persName>\n\t\t</author>\n\t\t<author>\n\t\t\t<persName><forename type=\"first\">E</forename><surname>Eyskens</surname></persName>\n\t\t</author>\n\t</analytic>\n\t<monogr>\n\t\t<title level=\"j\">Eur Respir J</title>\n\t\t<imprint>\n\t\t\t<biblScope unit=\"volume\">10</biblScope>\n\t\t\t<biblScope unit=\"page\" from=\"2650\" to=\"2652\" />\n\t\t\t<date type=\"published\" when=\"1997\">1997</date>\n\t\t</imprint>\n\t</monogr>\n</biblStruct>\n\n<biblStruct xml:id=\"b6\">\n\t<analytic>\n\t\t<title level=\"a\" type=\"main\">Lung volume reduction surgery in ventilator-dependent COPD patients</title>\n\t\t<author>\n\t\t\t<persName><forename type=\"first\">G</forename><forename type=\"middle\">J</forename><surname>Criner</surname></persName>\n\t\t</author>\n\t\t<author>\n\t\t\t<persName><forename type=\"first\">O</forename><surname>'brien</surname></persName>\n\t\t</author>\n\t\t<author>\n\t\t\t<persName><forename type=\"first\">G</forename><surname>Furukawa</surname></persName>\n\t\t</author>\n\t\t<author>\n\t\t\t<persName><forename type=\"first\">S</forename></persName>\n\t\t</author>\n\t</analytic>\n\t<monogr>\n\t\t<title level=\"j\">Chest</title>\n\t\t<imprint>\n\t\t\t<biblScope unit=\"volume\">110</biblScope>\n\t\t\t<biblScope unit=\"page\" from=\"877\" to=\"884\" />\n\t\t\t<date type=\"published\" when=\"1996\">1996</date>\n\t\t</imprint>\n\t</monogr>\n</biblStruct>\n\n<biblStruct xml:id=\"b7\">\n\t<analytic>\n\t\t<title level=\"a\" type=\"main\">Outcome of extracorporeal membrane oxygenation as a bridge to lung transplantation: an institutional experience and literature review</title>\n\t\t<author>\n\t\t\t<persName><forename type=\"first\">I</forename><surname>Inci</surname></persName>\n\t\t</author>\n\t\t<author>\n\t\t\t<persName><forename type=\"first\">S</forename><surname>Klinzing</surname></persName>\n\t\t</author>\n\t\t<author>\n\t\t\t<persName><forename type=\"first\">D</forename><surname>Schneiter</surname></persName>\n\t\t</author>\n\t</analytic>\n\t<monogr>\n\t\t<title level=\"j\">Transplantation</title>\n\t\t<imprint>\n\t\t\t<biblScope unit=\"volume\">99</biblScope>\n\t\t\t<biblScope unit=\"page\" from=\"1667\" to=\"1671\" />\n\t\t\t<date type=\"published\" when=\"2015\">2015</date>\n\t\t</imprint>\n\t</monogr>\n</biblStruct>\n\n\t\t\t\t</listBibl>\n\t\t\t</div>\n\t\t</back>\n\t</text>\n</TEI>\n"
+  },
+  "umls_links": [],
+  "references_enriched": [
+    {
+      "title": "Bilateral pneumectomy (volume reduction) for chronic obstructive pulmonary disease",
+      "journal": "J Thorac Cardiovasc Surg",
+      "year": "1995",
+      "volume": "109",
+      "issue": null,
+      "pages": null,
+      "doi": null,
+      "pmid": null,
+      "authors": [
+        "Cooper JD",
+        "Trulock EP",
+        "Triantafillou AN"
+      ],
+      "first_author_last": "Cooper",
+      "enrichment": {
+        "pmid": "7815786",
+        "doi": null,
+        "title": "Bilateral pneumectomy (volume reduction) for chronic obstructive pulmonary disease.",
+        "journal": "The Journal of thoracic and cardiovascular surgery",
+        "year": "1995",
+        "authors": [
+          "Cooper JD",
+          "Trulock EP",
+          "Triantafillou AN",
+          "Patterson GA",
+          "Pohl MS",
+          "Deloney PA",
+          "Sundaresan RS",
+          "Roper CL"
+        ],
+        "mesh": [],
+        "pubtypes": [
+          "Journal Article"
+        ],
+        "abstract": "We undertook surgical bilateral lung volume reduction in 20 patients with severe chronic obstructive pulmonary disease to relieve thoracic distention and improve respiratory mechanics. The operation, done through median sternotomy, involves excision of 20% to 30% of the volume of each lung. The most affected portions are excised with the use of a linear stapling device fitted with strips of bovine pericardium attached to both the anvil and the cartridge to buttress the staple lines and eliminate air leakage through the staple holes. Preoperative and postoperative assessment of results has included grading of dyspnea and quality of life, exercise performance, and objective measurements of lung function by spirometry and plethysmography. There has been no early or late mortality and no requirement for immediate postoperative ventilatory assistance. Follow-up ranges from 1 to 15 months (mean 6.4 months). The mean forced expiratory volume in 1 second has improved by 82% and the reduction in total lung capacity, residual volume, and trapped gas has been highly significant. These changes have been associated with marked relief of dyspnea and improvement in exercise tolerance and quality of life. Although the follow-up period is short, these preliminary results suggest that bilateral surgical volume reduction may be of significant value for selected patients with severe chronic obstructive pulmonary disease."
+      }
+    },
+    {
+      "title": "The National Emphysema Treatment Trial (NETT) part II: lessons learned about lung volume reduction surgery",
+      "journal": "Am J Respir Crit Care Med",
+      "year": "2011",
+      "volume": "184",
+      "issue": null,
+      "pages": null,
+      "doi": null,
+      "pmid": null,
+      "authors": [
+        "Criner GJ",
+        "Cordova F",
+        "Sternberg AL",
+        "Martinez FJ"
+      ],
+      "first_author_last": "Criner",
+      "enrichment": {
+        "pmid": "21719757",
+        "doi": null,
+        "title": "The National Emphysema Treatment Trial (NETT) Part II: Lessons learned about lung volume reduction surgery.",
+        "journal": "American journal of respiratory and critical care medicine",
+        "year": "2011",
+        "authors": [
+          "Criner GJ",
+          "Cordova F",
+          "Sternberg AL",
+          "Martinez FJ"
+        ],
+        "mesh": [],
+        "pubtypes": [
+          "Journal Article",
+          "Review"
+        ],
+        "abstract": "Substantial information regarding the role of lung volume reduction surgery (LVRS) in severe emphysema emanates from the National Emphysema Treatment Trial (NETT). The NETT was not a crossover trial and therefore was able to examine the effects of optimal medical management and LVRS on short- and long-term survival,as well as lung function, exercise performance, and quality of life.The NETT generated multiple insights into the preoperative, perioperative,and postoperative management of patients undergoing thoracotomy; described pain control techniques that were safe and effective; and emphasized the need to address nonpulmonary issues to optimize surgical outcomes. After the NETT, newer investigation has focused on bronchoscopic endobronchial interventions and other techniques less invasive than LVRS to achieve lung reduction.In this review, we summarize what we currently know about the role of LVRS in the treatment of severe emphysema as a result of insights gained from the NETT and provide a brief review of the newer techniques of lung volume reduction."
+      }
+    },
+    {
+      "title": "Patient selection for lung volume reduction surgery: is outcome predictable?",
+      "journal": "Semin Thorac Cardiovasc Surg",
+      "year": "2002",
+      "volume": "14",
+      "issue": null,
+      "pages": null,
+      "doi": null,
+      "pmid": null,
+      "authors": [
+        "Bloch KE",
+        "Russi EW",
+        "Weder W"
+      ],
+      "first_author_last": "Bloch",
+      "enrichment": {
+        "pmid": "12652442",
+        "doi": null,
+        "title": "Patient selection for lung volume reduction surgery: is outcome predictable?",
+        "journal": "Seminars in thoracic and cardiovascular surgery",
+        "year": "2002",
+        "authors": [
+          "Bloch KE",
+          "Russi EW",
+          "Weder W"
+        ],
+        "mesh": [],
+        "pubtypes": [
+          "Journal Article",
+          "Review"
+        ],
+        "abstract": "Patient selection for lung volume reduction surgery (LVRS) relies on sound physiologic concepts and experience from large case series. LVRS should be considered in severely symptomatic emphysema with marked airflow obstruction and hyperinflation despite optimal medical management, and in the absence of major comorbidities associated with excessive perioperative risks. Qualitative estimation of functional benefit from LVRS in suitable candidates has been based on functional criteria (e.g., high inspiratory conductance, high residual volume/total lung capacity ratio), on heterogeneity of emphysema assessed by computed tomography (CT) or perfusion scans, and on severity of emphysema assessed by CT or impaired diffusing capacity. Selection strategies relying on such criteria have provided favorable functional results at a low mortality, but further validation of potential outcome predictors in prospective trials is needed."
+      }
+    },
+    {
+      "title": "Lung volume reduction surgery in nonheterogeneous emphysema",
+      "journal": "Thorac Surg Clin",
+      "year": "2009",
+      "volume": "19",
+      "issue": null,
+      "pages": null,
+      "doi": null,
+      "pmid": null,
+      "authors": [
+        "Weder W",
+        "Tutic M",
+        "Bloch KE"
+      ],
+      "first_author_last": "Weder",
+      "enrichment": {
+        "pmid": "19662961",
+        "doi": null,
+        "title": "Lung volume reduction surgery in nonheterogeneous emphysema.",
+        "journal": "Thoracic surgery clinics",
+        "year": "2009",
+        "authors": [
+          "Weder W",
+          "Tutic M",
+          "Bloch KE"
+        ],
+        "mesh": [],
+        "pubtypes": [
+          "Journal Article",
+          "Review"
+        ],
+        "abstract": "Patients with a homogeneous type of emphysema have been excluded a priori from LVRS in many centers because of the fear of removing parenchyma, which potentially contributes to gas exchange, and because the observation that heterogeneity of emphysema is a predictor of functional improvement. It is obvious that resection of functionless tissue, such as in heterogeneous emphysema with bullae, can be advised to the patient with a relative low risk. However, as the main positive effect of LVRS is its improvement on respiratory mechanics, it is not surprising that well-selected patients with homogeneous emphysema also benefit from surgery. Their selection has to be done cautiously. It is crucial to exclude patients with a very low functional reserve, such as with diffusing capacity below 20% predicted or with pulmonary hypertension, and with extreme parenchymal loss (vanished lungs) on CT from LVRS. Additionally, cofactors which may potentially interfere with a smooth postoperative course, such as previous recurrent infections, extensive scarring of the lungs, or previous surgery, have to be taken into consideration. When respecting these caveats, LVRS in patients with complete homogeneous emphysema provides a comparable symptomatic and almost the same functional improvement as in patients with heterogeneous emphysema. Although the perioperative mortality is low, patients with homogeneous emphysema have a slightly reduced long-term survival without lung transplantation compared with patients with heterogeneous emphysema. Based on our own experience, we conclude that LVRS can be recommended to selected symptomatic patients with advanced homogenous emphysema associated with severe hyperinflation, if diffusing capacity is not below 20% of predicted values and if the CT scan does not show aspects of vanished lungs."
+      }
+    },
+    {
+      "title": "News on lung volume reduction surgery",
+      "journal": "Swiss Med Wkly",
+      "year": "2002",
+      "volume": "132",
+      "issue": null,
+      "pages": null,
+      "doi": null,
+      "pmid": null,
+      "authors": [
+        "Russi EW",
+        "Weder W"
+      ],
+      "first_author_last": "Russi",
+      "enrichment": {
+        "pmid": "12571761",
+        "doi": null,
+        "title": "News on lung volume reduction surgery.",
+        "journal": "Swiss medical weekly",
+        "year": "2002",
+        "authors": [
+          "Russi EW",
+          "Weder W"
+        ],
+        "mesh": [],
+        "pubtypes": [
+          "Journal Article",
+          "Review"
+        ],
+        "abstract": "Lung volume reduction surgery (LVRS) is an established therapeutic option for patients with advanced pulmonary emphysema after all conservative measures, including comprehensive pulmonary rehabilitation, have been exhausted. LVRS improves pulmonary function, shortness of breath, exercise capacity and hence quality of life in some 80% of cases for up to four years. Even patients with homogeneous types of pulmonary emphysema improve if those with extremely low FEV1 and/or very low diffusion capacity are excluded. At experienced centres perioperative mortality is less than 2% in appropriately selected patients, and current results suggest that the five-year survival in COPD patients may even be improved by this palliative surgical intervention. In patients under 60 LVRS may serve as a bridging procedure to lung transplantation. Bronchoscopic creation of extraanatomic bronchopulmonary passages--endoscopic LVRS--is a novel approach now under investigation."
+      }
+    },
+    {
+      "title": "Lung volume reduction surgery as an emergency and life-saving procedure",
+      "journal": "Eur Respir J",
+      "year": "1997",
+      "volume": "10",
+      "issue": null,
+      "pages": null,
+      "doi": null,
+      "pmid": null,
+      "authors": [
+        "Hansson B",
+        "Jorens PG",
+        "Van Schil P",
+        "Van Kerckhoven W",
+        "Van Den Brande F",
+        "Eyskens E"
+      ],
+      "first_author_last": "Hansson",
+      "enrichment": {
+        "pmid": null,
+        "doi": null
+      }
+    },
+    {
+      "title": "Lung volume reduction surgery in ventilator-dependent COPD patients",
+      "journal": "Chest",
+      "year": "1996",
+      "volume": "110",
+      "issue": null,
+      "pages": null,
+      "doi": null,
+      "pmid": null,
+      "authors": [
+        "Criner GJ",
+        "'brien O",
+        "Furukawa G",
+        "S"
+      ],
+      "first_author_last": "Criner",
+      "enrichment": {
+        "pmid": "8874239",
+        "doi": null,
+        "title": "Lung volume reduction surgery in ventilator-dependent COPD patients.",
+        "journal": "Chest",
+        "year": "1996",
+        "authors": [
+          "Criner GJ",
+          "O'Brien G",
+          "Furukawa S",
+          "Cordova F",
+          "Swartz M",
+          "Fallahnejad M",
+          "D'Alonzo G"
+        ],
+        "mesh": [],
+        "pubtypes": [
+          "Journal Article"
+        ],
+        "abstract": "Lung volume reduction surgery has been advocated recently as adjunctive surgical therapy to improve lung and chest wall mechanics in selected patients with diffuse emphysema. Although clear-cut guidelines to select candidates have not been fully established, patients decompensated with significant pulmonary artery hypertension and hypercapnic respiratory failure are currently not considered suitable subjects. Accordingly, ventilator-dependent COPD patients are not considered candidates for this procedure. However, because ventilator-dependent COPD patients have an exceptionally poor prognosis, we elected to offer them this promising, but unproved surgical intervention. Herein, we describe the outcome of these three patients."
+      }
+    },
+    {
+      "title": "Outcome of extracorporeal membrane oxygenation as a bridge to lung transplantation: an institutional experience and literature review",
+      "journal": "Transplantation",
+      "year": "2015",
+      "volume": "99",
+      "issue": null,
+      "pages": null,
+      "doi": null,
+      "pmid": null,
+      "authors": [
+        "Inci I",
+        "Klinzing S",
+        "Schneiter D"
+      ],
+      "first_author_last": "Inci",
+      "enrichment": {
+        "pmid": "26308302",
+        "doi": null,
+        "title": "Outcome of Extracorporeal Membrane Oxygenation as a Bridge To Lung Transplantation: An Institutional Experience and Literature Review.",
+        "journal": "Transplantation",
+        "year": "2015",
+        "authors": [
+          "Inci I",
+          "Klinzing S",
+          "Schneiter D",
+          "Schuepbach RA",
+          "Kestenholz P",
+          "Hillinger S",
+          "Benden C",
+          "Maggiorini M",
+          "Weder W"
+        ],
+        "mesh": [],
+        "pubtypes": [
+          "Journal Article",
+          "Review"
+        ],
+        "abstract": "Extracorporeal life support (ECLS) as a bridge to lung transplantation (LuTx) is a promising option for patients with end-stage lung disease on the transplant waiting list. We investigated the outcome of patients bridged to lung transplantation on ECLS technologies, mainly extracorporeal membrane oxygenation (ECMO)."
+      }
+    }
+  ],
+  "drugs": [
+    {
+      "drug": "Piperacillin",
+      "dose": null,
+      "span": [
+        3802,
+        3814
+      ],
+      "context": "thick secretions from both lower lobes. Piperacillin, tazobactam, and clarithromycin antimicrobial therapy was started empirically. "
+    },
+    {
+      "drug": "clarithromycin",
+      "dose": null,
+      "span": [
+        3832,
+        3847
+      ],
+      "context": "er lobes. Piperacillin, tazobactam, and clarithromycin antimicrobial therapy was started empirically. Arterial blood gas showed the fol"
+    }
+  ],
+  "trial_ids": [],
+  "assets": {
+    "tables": [],
+    "figures": [
+      {
+        "type": "figure",
+        "content": {
+          "self_ref": "#/pictures/0",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "label": "picture",
+          "prov": [
+            {
+              "page_no": 1,
+              "bbox": {
+                "l": 271.79364013671875,
+                "t": 710.5562362670898,
+                "r": 288.19036865234375,
+                "b": 693.3419418334961,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                0
+              ]
+            }
+          ],
+          "captions": [],
+          "references": [],
+          "footnotes": [],
+          "image": null,
+          "annotations": []
+        },
+        "captions": [
+          "Echocardiography revealed a dilated right ventricle, a moderate tricuspid insuf /uniFB01 ciency with an estimated systolic pulmonary artery pressure of 55 mm Hg. An elective bilateral video-assisted LVRS was recommended but was not performed because the patient did not stop smoking."
+        ],
+        "footnotes": [
+          "apacity (FVC) 3.74 L (76%); forced expiratory volume in 1 second (FEV1) 1.56 l (38%); FEV1/FVC 42%; total lung capacity (TLC) 10.14 L (147%); residual volume (RV) 6.44 L (369%); RV/TLC 63% (234%); and diffusing capacity of lung for carbon monoxide 5.54 mmol $ min /C0 1 $ kPa /C0 1 (49%). Computed tomography is shown in Figure 1. Echocardiography revealed a dilated right ventricle, a moderate tricuspid insuf /uniFB01 ciency with an estimated systolic pulmonary artery pressure of 55 mm Hg. An elective bilateral video-assisted LVRS was recommended but was not performed because the patient did not stop smoking.",
+          "Drs Tzafos and Collaud contributed equally to this work.",
+          "eats per minute, /uniFB01 nal SpO2 93%, /uniFB01 nal heart rate 80 beats per minute, and light exhaustion. (Note the postoperative shorter walking distance due to foot /uniFB02 exor paresis.) Pulmonary function tests showed the following after bronchodilation: FVC 5.3 l (109%), FEV1 3.98 l (98%) ' FEV1/ FVC 70%, TLC 7.47 l (108%); RV 2.1 l (118%); RV/TLC 28% (105%); diffusing capacity of lung for carbon monoxide 8.54 mmol $ min /C0 1 $ kPa /C0 1 (76%). Computed tomography showed a marked improvement (Fig 2)."
+        ]
+      },
+      {
+        "type": "figure",
+        "content": {
+          "self_ref": "#/pictures/1",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [
+            {
+              "cref": "#/texts/21"
+            },
+            {
+              "cref": "#/texts/22"
+            }
+          ],
+          "content_layer": "body",
+          "label": "picture",
+          "prov": [
+            {
+              "page_no": 2,
+              "bbox": {
+                "l": 179.63812255859375,
+                "t": 714.283821105957,
+                "r": 354.0028991699219,
+                "b": 572.6755676269531,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                0
+              ]
+            }
+          ],
+          "captions": [
+            {
+              "cref": "#/texts/21"
+            }
+          ],
+          "references": [],
+          "footnotes": [],
+          "image": null,
+          "annotations": []
+        },
+        "captions": [
+          "Echocardiography revealed a dilated right ventricle, a moderate tricuspid insuf /uniFB01 ciency with an estimated systolic pulmonary artery pressure of 55 mm Hg. An elective bilateral video-assisted LVRS was recommended but was not performed because the patient did not stop smoking."
+        ],
+        "footnotes": [
+          "apacity (FVC) 3.74 L (76%); forced expiratory volume in 1 second (FEV1) 1.56 l (38%); FEV1/FVC 42%; total lung capacity (TLC) 10.14 L (147%); residual volume (RV) 6.44 L (369%); RV/TLC 63% (234%); and diffusing capacity of lung for carbon monoxide 5.54 mmol $ min /C0 1 $ kPa /C0 1 (49%). Computed tomography is shown in Figure 1. Echocardiography revealed a dilated right ventricle, a moderate tricuspid insuf /uniFB01 ciency with an estimated systolic pulmonary artery pressure of 55 mm Hg. An elective bilateral video-assisted LVRS was recommended but was not performed because the patient did not stop smoking.",
+          "Drs Tzafos and Collaud contributed equally to this work.",
+          "eats per minute, /uniFB01 nal SpO2 93%, /uniFB01 nal heart rate 80 beats per minute, and light exhaustion. (Note the postoperative shorter walking distance due to foot /uniFB02 exor paresis.) Pulmonary function tests showed the following after bronchodilation: FVC 5.3 l (109%), FEV1 3.98 l (98%) ' FEV1/ FVC 70%, TLC 7.47 l (108%); RV 2.1 l (118%); RV/TLC 28% (105%); diffusing capacity of lung for carbon monoxide 8.54 mmol $ min /C0 1 $ kPa /C0 1 (76%). Computed tomography showed a marked improvement (Fig 2)."
+        ]
+      },
+      {
+        "type": "figure",
+        "content": {
+          "self_ref": "#/pictures/2",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [
+            {
+              "cref": "#/texts/24"
+            }
+          ],
+          "content_layer": "body",
+          "label": "picture",
+          "prov": [
+            {
+              "page_no": 2,
+              "bbox": {
+                "l": 357.7518615722656,
+                "t": 714.0414428710938,
+                "r": 538.8638916015625,
+                "b": 572.8401031494141,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                0
+              ]
+            }
+          ],
+          "captions": [],
+          "references": [],
+          "footnotes": [],
+          "image": null,
+          "annotations": []
+        },
+        "captions": [
+          "Echocardiography revealed a dilated right ventricle, a moderate tricuspid insuf /uniFB01 ciency with an estimated systolic pulmonary artery pressure of 55 mm Hg. An elective bilateral video-assisted LVRS was recommended but was not performed because the patient did not stop smoking."
+        ],
+        "footnotes": [
+          "apacity (FVC) 3.74 L (76%); forced expiratory volume in 1 second (FEV1) 1.56 l (38%); FEV1/FVC 42%; total lung capacity (TLC) 10.14 L (147%); residual volume (RV) 6.44 L (369%); RV/TLC 63% (234%); and diffusing capacity of lung for carbon monoxide 5.54 mmol $ min /C0 1 $ kPa /C0 1 (49%). Computed tomography is shown in Figure 1. Echocardiography revealed a dilated right ventricle, a moderate tricuspid insuf /uniFB01 ciency with an estimated systolic pulmonary artery pressure of 55 mm Hg. An elective bilateral video-assisted LVRS was recommended but was not performed because the patient did not stop smoking.",
+          "Drs Tzafos and Collaud contributed equally to this work.",
+          "eats per minute, /uniFB01 nal SpO2 93%, /uniFB01 nal heart rate 80 beats per minute, and light exhaustion. (Note the postoperative shorter walking distance due to foot /uniFB02 exor paresis.) Pulmonary function tests showed the following after bronchodilation: FVC 5.3 l (109%), FEV1 3.98 l (98%) ' FEV1/ FVC 70%, TLC 7.47 l (108%); RV 2.1 l (118%); RV/TLC 28% (105%); diffusing capacity of lung for carbon monoxide 8.54 mmol $ min /C0 1 $ kPa /C0 1 (76%). Computed tomography showed a marked improvement (Fig 2)."
+        ]
+      },
+      {
+        "type": "figure",
+        "content": {
+          "self_ref": "#/pictures/3",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "label": "picture",
+          "prov": [
+            {
+              "page_no": 2,
+              "bbox": {
+                "l": 179.7255096435547,
+                "t": 204.11590576171875,
+                "r": 360.86932373046875,
+                "b": 74.64178466796875,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                0
+              ]
+            }
+          ],
+          "captions": [],
+          "references": [],
+          "footnotes": [],
+          "image": null,
+          "annotations": []
+        },
+        "captions": [
+          "Echocardiography revealed a dilated right ventricle, a moderate tricuspid insuf /uniFB01 ciency with an estimated systolic pulmonary artery pressure of 55 mm Hg. An elective bilateral video-assisted LVRS was recommended but was not performed because the patient did not stop smoking."
+        ],
+        "footnotes": [
+          "apacity (FVC) 3.74 L (76%); forced expiratory volume in 1 second (FEV1) 1.56 l (38%); FEV1/FVC 42%; total lung capacity (TLC) 10.14 L (147%); residual volume (RV) 6.44 L (369%); RV/TLC 63% (234%); and diffusing capacity of lung for carbon monoxide 5.54 mmol $ min /C0 1 $ kPa /C0 1 (49%). Computed tomography is shown in Figure 1. Echocardiography revealed a dilated right ventricle, a moderate tricuspid insuf /uniFB01 ciency with an estimated systolic pulmonary artery pressure of 55 mm Hg. An elective bilateral video-assisted LVRS was recommended but was not performed because the patient did not stop smoking.",
+          "Drs Tzafos and Collaud contributed equally to this work.",
+          "eats per minute, /uniFB01 nal SpO2 93%, /uniFB01 nal heart rate 80 beats per minute, and light exhaustion. (Note the postoperative shorter walking distance due to foot /uniFB02 exor paresis.) Pulmonary function tests showed the following after bronchodilation: FVC 5.3 l (109%), FEV1 3.98 l (98%) ' FEV1/ FVC 70%, TLC 7.47 l (108%); RV 2.1 l (118%); RV/TLC 28% (105%); diffusing capacity of lung for carbon monoxide 8.54 mmol $ min /C0 1 $ kPa /C0 1 (76%). Computed tomography showed a marked improvement (Fig 2)."
+        ]
+      },
+      {
+        "type": "figure",
+        "content": {
+          "self_ref": "#/pictures/4",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [
+            {
+              "cref": "#/texts/31"
+            }
+          ],
+          "content_layer": "body",
+          "label": "picture",
+          "prov": [
+            {
+              "page_no": 2,
+              "bbox": {
+                "l": 363.2276916503906,
+                "t": 204.64764404296875,
+                "r": 539.1082763671875,
+                "b": 74.63958740234375,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                0
+              ]
+            }
+          ],
+          "captions": [],
+          "references": [],
+          "footnotes": [],
+          "image": null,
+          "annotations": []
+        },
+        "captions": [
+          "Echocardiography revealed a dilated right ventricle, a moderate tricuspid insuf /uniFB01 ciency with an estimated systolic pulmonary artery pressure of 55 mm Hg. An elective bilateral video-assisted LVRS was recommended but was not performed because the patient did not stop smoking."
+        ],
+        "footnotes": [
+          "apacity (FVC) 3.74 L (76%); forced expiratory volume in 1 second (FEV1) 1.56 l (38%); FEV1/FVC 42%; total lung capacity (TLC) 10.14 L (147%); residual volume (RV) 6.44 L (369%); RV/TLC 63% (234%); and diffusing capacity of lung for carbon monoxide 5.54 mmol $ min /C0 1 $ kPa /C0 1 (49%). Computed tomography is shown in Figure 1. Echocardiography revealed a dilated right ventricle, a moderate tricuspid insuf /uniFB01 ciency with an estimated systolic pulmonary artery pressure of 55 mm Hg. An elective bilateral video-assisted LVRS was recommended but was not performed because the patient did not stop smoking.",
+          "Drs Tzafos and Collaud contributed equally to this work.",
+          "eats per minute, /uniFB01 nal SpO2 93%, /uniFB01 nal heart rate 80 beats per minute, and light exhaustion. (Note the postoperative shorter walking distance due to foot /uniFB02 exor paresis.) Pulmonary function tests showed the following after bronchodilation: FVC 5.3 l (109%), FEV1 3.98 l (98%) ' FEV1/ FVC 70%, TLC 7.47 l (108%); RV 2.1 l (118%); RV/TLC 28% (105%); diffusing capacity of lung for carbon monoxide 8.54 mmol $ min /C0 1 $ kPa /C0 1 (76%). Computed tomography showed a marked improvement (Fig 2)."
+        ]
+      }
+    ]
+  },
+  "statistics": [],
+  "validation": {
+    "checks": {
+      "has_title": true,
+      "has_authors": true,
+      "authors_are_valid": false,
+      "has_sections": true,
+      "sections_have_content": true,
+      "has_tables": false,
+      "tables_have_captions": true,
+      "tables_have_data": true,
+      "has_figures": true,
+      "figures_have_captions": false,
+      "figures_have_images": false,
+      "has_entities": false,
+      "has_statistics": false,
+      "has_references": true,
+      "refs_structured": true,
+      "refs_enriched_some": true,
+      "references_enriched": true,
+      "has_references_csv": false,
+      "has_cross_refs": false,
+      "umls_links": false,
+      "figures_textual_count": 0
+    },
+    "completeness_score": 61,
+    "is_valid": true,
+    "issues": [],
+    "warnings": [
+      "No medical entities found",
+      "No statistics extracted",
+      "Some figures missing captions"
+    ],
+    "quality_level": "acceptable"
+  }
+}

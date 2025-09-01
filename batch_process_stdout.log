@@ -5357,3 +5357,128 @@ To https://github.com/russellmiller49/Medparse.git
 2025-09-01 08:21:20.988 | SUCCESS  | __main__:process_single_pdf:71 - ✓ Successfully processed Comparing the Diagnostic Performance of Lung Ultrasonography and Chest Radiography for Detecting Pneumothorax
 2025-09-01 08:21:20.988 | INFO     | __main__:main:198 - Reached 380 successful processes, committing intermediate results...
 2025-09-01 08:21:20.988 | INFO     | __main__:git_commit_and_push:129 - Adding changes to git...
+2025-09-01 08:21:21.227 | INFO     | __main__:git_commit_and_push:145 - Creating git commit...
+[fix/extraction-hardening 9f43887] feat: Batch processed 380 PDFs (intermediate commit)
+ 89 files changed, 297915 insertions(+), 4 deletions(-)
+ create mode 100644 out/batch_processed/Comparing the Diagnostic Performance of Lung Ultrasonography and Chest Radiography for Detecting Pneumothorax.json
+ create mode 100644 out/batch_processed/Conservative versus Interventional Treatment f.json
+ create mode 100644 out/batch_processed/Multidisciplinarymanagementofadultpatientswith chylothorax.json
+ create mode 100644 out/batch_processed/Pleural controversy  Closed needle pleural bio.json
+ create mode 100644 out/batch_processed/SSRAB vs DT ENB.json
+ create mode 100644 out/batch_processed/Sensitivity and safety of ENB systematic review and meta-analysis.json
+ create mode 100644 out/batch_processed/Steinfort-2021-Bronchoscopic Thermal Vapour Ab.json
+ create mode 100644 out/batch_processed/The Role of Clamping Before Removal of a Chest Tube .json
+ create mode 100644 out/batch_processed/The application of cryosurgery in the treatmen.json
+ create mode 100644 out/batch_processed/transbronchial__ablation_NAVABLATE.json
+ create mode 100644 out/figures/Comparing the Diagnostic Performance of Lung Ultrasonography and Chest Radiography for Detecting Pneumothorax_fig01.jpg
+ create mode 100644 out/figures/Comparing the Diagnostic Performance of Lung Ultrasonography and Chest Radiography for Detecting Pneumothorax_fig02.jpg
+ create mode 100644 out/figures/Comparing the Diagnostic Performance of Lung Ultrasonography and Chest Radiography for Detecting Pneumothorax_fig03.jpg
+ create mode 100644 out/figures/Comparing the Diagnostic Performance of Lung Ultrasonography and Chest Radiography for Detecting Pneumothorax_fig05.jpg
+ create mode 100644 out/figures/Comparing the Diagnostic Performance of Lung Ultrasonography and Chest Radiography for Detecting Pneumothorax_fig06.jpg
+ create mode 100644 out/figures/Comparing the Diagnostic Performance of Lung Ultrasonography and Chest Radiography for Detecting Pneumothorax_fig07.jpg
+ create mode 100644 out/figures/Comparing the Diagnostic Performance of Lung Ultrasonography and Chest Radiography for Detecting Pneumothorax_fig4.jpg
+ create mode 100644 out/figures/Conservative versus Interventional Treatment f_fig01.jpg
+ create mode 100644 out/figures/Multidisciplinarymanagementofadultpatientswith chylothorax_fig01.jpg
+ create mode 100644 out/figures/Multidisciplinarymanagementofadultpatientswith chylothorax_fig02.jpg
+ create mode 100644 out/figures/Multidisciplinarymanagementofadultpatientswith chylothorax_fig03.jpg
+ create mode 100644 out/figures/Pleural controversy  Closed needle pleural bio_fig01.jpg
+ create mode 100644 out/figures/Pleural controversy  Closed needle pleural bio_fig02.jpg
+ create mode 100644 out/figures/Pleural controversy  Closed needle pleural bio_fig03.jpg
+ create mode 100644 out/figures/Pleural controversy  Closed needle pleural bio_fig04.jpg
+ create mode 100644 out/figures/Pleural controversy  Closed needle pleural bio_fig05.jpg
+ create mode 100644 out/figures/Pleural controversy  Closed needle pleural bio_fig06.jpg
+ create mode 100644 out/figures/Pleural controversy  Closed needle pleural bio_fig07.jpg
+ create mode 100644 out/figures/Pleural controversy  Closed needle pleural bio_fig08.jpg
+ create mode 100644 out/figures/Pleural controversy  Closed needle pleural bio_fig09.jpg
+ create mode 100644 out/figures/Pleural controversy  Closed needle pleural bio_fig10.jpg
+ create mode 100644 out/figures/Pleural controversy  Closed needle pleural bio_fig11.jpg
+ create mode 100644 out/figures/Pleural controversy  Closed needle pleural bio_fig12.jpg
+ create mode 100644 out/figures/Sensitivity and safety of ENB systematic review and meta-analysis_fig01.jpg
+ create mode 100644 out/figures/Sensitivity and safety of ENB systematic review and meta-analysis_fig02.jpg
+ create mode 100644 out/figures/Sensitivity and safety of ENB systematic review and meta-analysis_fig04.jpg
+ create mode 100644 out/figures/Sensitivity and safety of ENB systematic review and meta-analysis_fig06.jpg
+ create mode 100644 out/figures/Sensitivity and safety of ENB systematic review and meta-analysis_figure1.jpg
+ create mode 100644 out/figures/Sensitivity and safety of ENB systematic review and meta-analysis_figure2.jpg
+ create mode 100644 out/figures/Steinfort-2021-Bronchoscopic Thermal Vapour Ab_fig01.jpg
+ create mode 100644 out/figures/Steinfort-2021-Bronchoscopic Thermal Vapour Ab_fig02.jpg
+ create mode 100644 out/figures/Steinfort-2021-Bronchoscopic Thermal Vapour Ab_fig03.jpg
+ create mode 100644 out/figures/Steinfort-2021-Bronchoscopic Thermal Vapour Ab_fig05.jpg
+ create mode 100644 out/figures/Steinfort-2021-Bronchoscopic Thermal Vapour Ab_fig07.jpg
+ create mode 100644 out/figures/Steinfort-2021-Bronchoscopic Thermal Vapour Ab_fig09.jpg
+ create mode 100644 out/figures/Steinfort-2021-Bronchoscopic Thermal Vapour Ab_fig11.jpg
+ create mode 100644 out/figures/Steinfort-2021-Bronchoscopic Thermal Vapour Ab_fig13.jpg
+ create mode 100644 out/figures/Steinfort-2021-Bronchoscopic Thermal Vapour Ab_fig14.jpg
+ create mode 100644 out/figures/Steinfort-2021-Bronchoscopic Thermal Vapour Ab_fig2.jpg
+ create mode 100644 out/figures/Steinfort-2021-Bronchoscopic Thermal Vapour Ab_fig3.jpg
+ create mode 100644 out/figures/Steinfort-2021-Bronchoscopic Thermal Vapour Ab_fig4.jpg
+ create mode 100644 out/figures/Steinfort-2021-Bronchoscopic Thermal Vapour Ab_fig5.jpg
+ create mode 100644 out/figures/Steinfort-2021-Bronchoscopic Thermal Vapour Ab_fig6.jpg
+ create mode 100644 out/figures/Steinfort-2021-Bronchoscopic Thermal Vapour Ab_fig8.jpg
+ create mode 100644 out/figures/The Role of Clamping Before Removal of a Chest Tube _fig01.jpg
+ create mode 100644 out/figures/The Role of Clamping Before Removal of a Chest Tube _fig03.jpg
+ create mode 100644 out/figures/The Role of Clamping Before Removal of a Chest Tube _fig04.jpg
+ create mode 100644 out/figures/The Role of Clamping Before Removal of a Chest Tube _fig05.jpg
+ create mode 100644 out/figures/The Role of Clamping Before Removal of a Chest Tube _fig06.jpg
+ create mode 100644 out/figures/The Role of Clamping Before Removal of a Chest Tube _figure2.jpg
+ create mode 100644 out/figures/The application of cryosurgery in the treatmen_fig01.jpg
+ create mode 100644 out/figures/The application of cryosurgery in the treatmen_fig02.jpg
+ create mode 100644 out/figures/The application of cryosurgery in the treatmen_fig03.jpg
+ create mode 100644 out/figures/The application of cryosurgery in the treatmen_fig04.jpg
+ create mode 100644 out/figures/The application of cryosurgery in the treatmen_fig05.jpg
+ create mode 100644 out/figures/The application of cryosurgery in the treatmen_fig06.jpg
+ create mode 100644 out/figures/The application of cryosurgery in the treatmen_fig07.jpg
+ create mode 100644 out/figures/transbronchial__ablation_NAVABLATE_fig01.jpg
+ create mode 100644 out/qa/Comparing the Diagnostic Performance of Lung Ultrasonography and Chest Radiography for Detecting Pneumothorax__umls.qa.json
+ create mode 100644 out/qa/Conservative versus Interventional Treatment f__umls.qa.json
+ create mode 100644 out/qa/Multidisciplinarymanagementofadultpatientswith chylothorax__umls.qa.json
+ create mode 100644 out/qa/Pleural controversy  Closed needle pleural bio__umls.qa.json
+ create mode 100644 out/qa/Sensitivity and safety of ENB systematic review and meta-analysis__umls.qa.json
+ create mode 100644 out/qa/Steinfort-2021-Bronchoscopic Thermal Vapour Ab__umls.qa.json
+ create mode 100644 out/qa/The Role of Clamping Before Removal of a Chest Tube __umls.qa.json
+ create mode 100644 out/qa/The application of cryosurgery in the treatmen__umls.qa.json
+ create mode 100644 out/qa/transbronchial__ablation_NAVABLATE__umls.qa.json
+ create mode 100644 out/references/Comparing the Diagnostic Performance of Lung Ultrasonography and Chest Radiography for Detecting Pneumothorax.refs.csv
+ create mode 100644 out/references/Conservative versus Interventional Treatment f.refs.csv
+ create mode 100644 out/references/Multidisciplinarymanagementofadultpatientswith chylothorax.refs.csv
+ create mode 100644 out/references/Pleural controversy  Closed needle pleural bio.refs.csv
+ create mode 100644 out/references/Sensitivity and safety of ENB systematic review and meta-analysis.refs.csv
+ create mode 100644 out/references/Steinfort-2021-Bronchoscopic Thermal Vapour Ab.refs.csv
+ create mode 100644 out/references/The Role of Clamping Before Removal of a Chest Tube .refs.csv
+ create mode 100644 out/references/The application of cryosurgery in the treatmen.refs.csv
+ create mode 100644 out/references/transbronchial__ablation_NAVABLATE.refs.csv
+2025-09-01 08:21:21.270 | INFO     | __main__:git_commit_and_push:158 - Pushing to origin/fix/extraction-hardening...
+To https://github.com/russellmiller49/Medparse.git
+   c74a162..9f43887  fix/extraction-hardening -> fix/extraction-hardening
+2025-09-01 08:21:26.963 | SUCCESS  | __main__:git_commit_and_push:161 - ✓ Successfully pushed to GitHub (branch: fix/extraction-hardening)
+2025-09-01 08:21:26.963 | INFO     | __main__:main:189 - [386/414] Processing Angel-2020-Novel Percutaneous Tracheostomy for.pdf
+2025-09-01 08:21:26.963 | INFO     | __main__:process_single_pdf:52 - Processing Angel-2020-Novel Percutaneous Tracheostomy for.pdf...
+2025-09-01 08:22:18.103 | SUCCESS  | __main__:process_single_pdf:71 - ✓ Successfully processed Angel-2020-Novel Percutaneous Tracheostomy for
+2025-09-01 08:22:18.103 | INFO     | __main__:main:189 - [387/414] Processing Hu-2018-Application of the Montgomery T-tube i.pdf
+2025-09-01 08:22:18.103 | INFO     | __main__:process_single_pdf:52 - Processing Hu-2018-Application of the Montgomery T-tube i.pdf...
+2025-09-01 08:23:15.554 | SUCCESS  | __main__:process_single_pdf:71 - ✓ Successfully processed Hu-2018-Application of the Montgomery T-tube i
+2025-09-01 08:23:15.554 | INFO     | __main__:main:189 - [388/414] Processing Grosu-2018-Sensitivity of Initial Thoracentesi.pdf
+2025-09-01 08:23:15.554 | INFO     | __main__:process_single_pdf:52 - Processing Grosu-2018-Sensitivity of Initial Thoracentesi.pdf...
+2025-09-01 08:24:08.052 | SUCCESS  | __main__:process_single_pdf:71 - ✓ Successfully processed Grosu-2018-Sensitivity of Initial Thoracentesi
+2025-09-01 08:24:08.053 | INFO     | __main__:main:189 - [389/414] Processing Complications of cricothyroidotomy versus tracheostomy.pdf
+2025-09-01 08:24:08.053 | INFO     | __main__:process_single_pdf:52 - Processing Complications of cricothyroidotomy versus tracheostomy.pdf...
+2025-09-01 08:26:00.772 | SUCCESS  | __main__:process_single_pdf:71 - ✓ Successfully processed Complications of cricothyroidotomy versus tracheostomy
+2025-09-01 08:26:00.772 | INFO     | __main__:main:189 - [390/414] Processing Lung nodule during COVID.pdf
+2025-09-01 08:26:00.772 | INFO     | __main__:process_single_pdf:52 - Processing Lung nodule during COVID.pdf...
+2025-09-01 08:27:59.350 | SUCCESS  | __main__:process_single_pdf:71 - ✓ Successfully processed Lung nodule during COVID
+2025-09-01 08:27:59.351 | INFO     | __main__:main:189 - [391/414] Processing surigicalLVR Lung Volume Reduction Surgery on Extracorporea.pdf
+2025-09-01 08:27:59.351 | INFO     | __main__:process_single_pdf:52 - Processing surigicalLVR Lung Volume Reduction Surgery on Extracorporea.pdf...
+2025-09-01 08:28:37.654 | SUCCESS  | __main__:process_single_pdf:71 - ✓ Successfully processed surigicalLVR Lung Volume Reduction Surgery on Extracorporea
+2025-09-01 08:28:37.654 | INFO     | __main__:main:189 - [392/414] Processing Flexible bronchoscopy.pdf
+2025-09-01 08:28:37.654 | INFO     | __main__:process_single_pdf:52 - Processing Flexible bronchoscopy.pdf...
+2025-09-01 08:32:40.577 | SUCCESS  | __main__:process_single_pdf:71 - ✓ Successfully processed Flexible bronchoscopy
+2025-09-01 08:32:40.577 | INFO     | __main__:main:189 - [393/414] Processing Airway stents.pdf
+2025-09-01 08:32:40.577 | INFO     | __main__:process_single_pdf:52 - Processing Airway stents.pdf...
+2025-09-01 08:34:27.310 | SUCCESS  | __main__:process_single_pdf:71 - ✓ Successfully processed Airway stents
+2025-09-01 08:34:27.310 | INFO     | __main__:main:189 - [394/414] Processing Inhaled TXA for Hemoptysis Treatment.pdf
+2025-09-01 08:34:27.310 | INFO     | __main__:process_single_pdf:52 - Processing Inhaled TXA for Hemoptysis Treatment.pdf...
+2025-09-01 08:35:30.988 | SUCCESS  | __main__:process_single_pdf:71 - ✓ Successfully processed Inhaled TXA for Hemoptysis Treatment
+2025-09-01 08:35:30.988 | INFO     | __main__:main:189 - [395/414] Processing Community hospital experience using ENB integrating tidal volume computed tomography mapping.pdf
+2025-09-01 08:35:30.988 | INFO     | __main__:process_single_pdf:52 - Processing Community hospital experience using ENB integrating tidal volume computed tomography mapping.pdf...
+2025-09-01 08:36:32.742 | SUCCESS  | __main__:process_single_pdf:71 - ✓ Successfully processed Community hospital experience using ENB integrating tidal volume computed tomography mapping
+2025-09-01 08:36:32.743 | INFO     | __main__:main:198 - Reached 390 successful processes, committing intermediate results...
+2025-09-01 08:36:32.743 | INFO     | __main__:git_commit_and_push:129 - Adding changes to git...

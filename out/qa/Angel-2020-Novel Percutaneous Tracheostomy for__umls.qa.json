@@ -1,0 +1,15 @@
+{
+  "pdf": "Angel-2020-Novel Percutaneous Tracheostomy for.pdf",
+  "n_sections": 13,
+  "n_tables": 1,
+  "n_figures": 9,
+  "n_fig_crops": 9,
+  "missing_fig_bbox": 0,
+  "n_refs_csv": 11,
+  "n_umls_links": 0,
+  "n_local_links": 0,
+  "linker": "umls",
+  "completeness_score": 57,
+  "is_valid": false,
+  "timestamp": "2025-09-01 08:22:17"
+}

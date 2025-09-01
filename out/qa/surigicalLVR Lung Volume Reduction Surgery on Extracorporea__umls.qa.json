@@ -1,0 +1,15 @@
+{
+  "pdf": "surigicalLVR Lung Volume Reduction Surgery on Extracorporea.pdf",
+  "n_sections": 3,
+  "n_tables": 0,
+  "n_figures": 5,
+  "n_fig_crops": 4,
+  "missing_fig_bbox": 0,
+  "n_refs_csv": 8,
+  "n_umls_links": 0,
+  "n_local_links": 0,
+  "linker": "umls",
+  "completeness_score": 61,
+  "is_valid": true,
+  "timestamp": "2025-09-01 08:28:36"
+}
