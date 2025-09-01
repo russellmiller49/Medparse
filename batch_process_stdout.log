@@ -5482,3 +5482,141 @@ To https://github.com/russellmiller49/Medparse.git
 2025-09-01 08:36:32.742 | SUCCESS  | __main__:process_single_pdf:71 - ✓ Successfully processed Community hospital experience using ENB integrating tidal volume computed tomography mapping
 2025-09-01 08:36:32.743 | INFO     | __main__:main:198 - Reached 390 successful processes, committing intermediate results...
 2025-09-01 08:36:32.743 | INFO     | __main__:git_commit_and_push:129 - Adding changes to git...
+2025-09-01 08:36:32.891 | INFO     | __main__:git_commit_and_push:145 - Creating git commit...
+[fix/extraction-hardening 7f19459] feat: Batch processed 390 PDFs (intermediate commit)
+ 101 files changed, 155753 insertions(+)
+ create mode 100644 out/batch_processed/Airway stents.json
+ create mode 100644 out/batch_processed/Angel-2020-Novel Percutaneous Tracheostomy for.json
+ create mode 100644 out/batch_processed/Community hospital experience using ENB integrating tidal volume computed tomography mapping.json
+ create mode 100644 out/batch_processed/Complications of cricothyroidotomy versus tracheostomy.json
+ create mode 100644 out/batch_processed/Flexible bronchoscopy.json
+ create mode 100644 out/batch_processed/Grosu-2018-Sensitivity of Initial Thoracentesi.json
+ create mode 100644 out/batch_processed/Hu-2018-Application of the Montgomery T-tube i.json
+ create mode 100644 out/batch_processed/Inhaled TXA for Hemoptysis Treatment.json
+ create mode 100644 out/batch_processed/Lung nodule during COVID.json
+ create mode 100644 out/batch_processed/surigicalLVR Lung Volume Reduction Surgery on Extracorporea.json
+ create mode 100644 out/figures/Airway stents_fig01.jpg
+ create mode 100644 out/figures/Airway stents_fig02.jpg
+ create mode 100644 out/figures/Airway stents_fig03.jpg
+ create mode 100644 out/figures/Airway stents_fig04.jpg
+ create mode 100644 out/figures/Airway stents_fig05.jpg
+ create mode 100644 out/figures/Airway stents_fig06.jpg
+ create mode 100644 out/figures/Airway stents_fig07.jpg
+ create mode 100644 out/figures/Airway stents_fig08.jpg
+ create mode 100644 out/figures/Airway stents_fig09.jpg
+ create mode 100644 out/figures/Airway stents_fig10.jpg
+ create mode 100644 out/figures/Angel-2020-Novel Percutaneous Tracheostomy for_fig01.jpg
+ create mode 100644 out/figures/Angel-2020-Novel Percutaneous Tracheostomy for_fig02.jpg
+ create mode 100644 out/figures/Angel-2020-Novel Percutaneous Tracheostomy for_fig03.jpg
+ create mode 100644 out/figures/Angel-2020-Novel Percutaneous Tracheostomy for_fig04.jpg
+ create mode 100644 out/figures/Angel-2020-Novel Percutaneous Tracheostomy for_fig05.jpg
+ create mode 100644 out/figures/Angel-2020-Novel Percutaneous Tracheostomy for_fig06.jpg
+ create mode 100644 out/figures/Angel-2020-Novel Percutaneous Tracheostomy for_fig07.jpg
+ create mode 100644 out/figures/Angel-2020-Novel Percutaneous Tracheostomy for_fig08.jpg
+ create mode 100644 out/figures/Angel-2020-Novel Percutaneous Tracheostomy for_fig09.jpg
+ create mode 100644 out/figures/Community hospital experience using ENB integrating tidal volume computed tomography mapping_fig01.jpg
+ create mode 100644 out/figures/Community hospital experience using ENB integrating tidal volume computed tomography mapping_fig02.jpg
+ create mode 100644 out/figures/Community hospital experience using ENB integrating tidal volume computed tomography mapping_fig03.jpg
+ create mode 100644 out/figures/Community hospital experience using ENB integrating tidal volume computed tomography mapping_fig04.jpg
+ create mode 100644 out/figures/Community hospital experience using ENB integrating tidal volume computed tomography mapping_fig05.jpg
+ create mode 100644 out/figures/Community hospital experience using ENB integrating tidal volume computed tomography mapping_fig06.jpg
+ create mode 100644 out/figures/Community hospital experience using ENB integrating tidal volume computed tomography mapping_fig07.jpg
+ create mode 100644 out/figures/Community hospital experience using ENB integrating tidal volume computed tomography mapping_fig08.jpg
+ create mode 100644 out/figures/Community hospital experience using ENB integrating tidal volume computed tomography mapping_fig09.jpg
+ create mode 100644 out/figures/Community hospital experience using ENB integrating tidal volume computed tomography mapping_fig10.jpg
+ create mode 100644 out/figures/Community hospital experience using ENB integrating tidal volume computed tomography mapping_fig11.jpg
+ create mode 100644 out/figures/Community hospital experience using ENB integrating tidal volume computed tomography mapping_fig12.jpg
+ create mode 100644 out/figures/Community hospital experience using ENB integrating tidal volume computed tomography mapping_fig13.jpg
+ create mode 100644 out/figures/Community hospital experience using ENB integrating tidal volume computed tomography mapping_fig14.jpg
+ create mode 100644 out/figures/Community hospital experience using ENB integrating tidal volume computed tomography mapping_fig15.jpg
+ create mode 100644 out/figures/Community hospital experience using ENB integrating tidal volume computed tomography mapping_fig16.jpg
+ create mode 100644 out/figures/Community hospital experience using ENB integrating tidal volume computed tomography mapping_fig17.jpg
+ create mode 100644 out/figures/Community hospital experience using ENB integrating tidal volume computed tomography mapping_fig18.jpg
+ create mode 100644 out/figures/Community hospital experience using ENB integrating tidal volume computed tomography mapping_fig19.jpg
+ create mode 100644 out/figures/Community hospital experience using ENB integrating tidal volume computed tomography mapping_fig20.jpg
+ create mode 100644 out/figures/Community hospital experience using ENB integrating tidal volume computed tomography mapping_fig21.jpg
+ create mode 100644 out/figures/Complications of cricothyroidotomy versus tracheostomy_fig01.jpg
+ create mode 100644 out/figures/Complications of cricothyroidotomy versus tracheostomy_fig02.jpg
+ create mode 100644 out/figures/Complications of cricothyroidotomy versus tracheostomy_fig03.jpg
+ create mode 100644 out/figures/Complications of cricothyroidotomy versus tracheostomy_fig04.jpg
+ create mode 100644 out/figures/Complications of cricothyroidotomy versus tracheostomy_fig05.jpg
+ create mode 100644 out/figures/Complications of cricothyroidotomy versus tracheostomy_fig06.jpg
+ create mode 100644 out/figures/Grosu-2018-Sensitivity of Initial Thoracentesi_fig01.jpg
+ create mode 100644 out/figures/Hu-2018-Application of the Montgomery T-tube i_fig01.jpg
+ create mode 100644 out/figures/Hu-2018-Application of the Montgomery T-tube i_fig02.jpg
+ create mode 100644 out/figures/Hu-2018-Application of the Montgomery T-tube i_fig03.jpg
+ create mode 100644 out/figures/Hu-2018-Application of the Montgomery T-tube i_fig04.jpg
+ create mode 100644 out/figures/Hu-2018-Application of the Montgomery T-tube i_fig05.jpg
+ create mode 100644 out/figures/Hu-2018-Application of the Montgomery T-tube i_fig06.jpg
+ create mode 100644 out/figures/Hu-2018-Application of the Montgomery T-tube i_fig08.jpg
+ create mode 100644 out/figures/Hu-2018-Application of the Montgomery T-tube i_figure5.jpg
+ create mode 100644 out/figures/Hu-2018-Application of the Montgomery T-tube i_figure6.jpg
+ create mode 100644 out/figures/Inhaled TXA for Hemoptysis Treatment_fig01.jpg
+ create mode 100644 out/figures/Inhaled TXA for Hemoptysis Treatment_fig02.jpg
+ create mode 100644 out/figures/Inhaled TXA for Hemoptysis Treatment_fig04.jpg
+ create mode 100644 out/figures/Inhaled TXA for Hemoptysis Treatment_figure1.jpg
+ create mode 100644 out/figures/Inhaled TXA for Hemoptysis Treatment_figure2.jpg
+ create mode 100644 out/figures/Lung nodule during COVID_fig01.jpg
+ create mode 100644 out/figures/Lung nodule during COVID_fig02.jpg
+ create mode 100644 out/figures/Lung nodule during COVID_fig03.jpg
+ create mode 100644 out/figures/Lung nodule during COVID_figure1.jpg
+ create mode 100644 out/figures/surigicalLVR Lung Volume Reduction Surgery on Extracorporea_fig01.jpg
+ create mode 100644 out/figures/surigicalLVR Lung Volume Reduction Surgery on Extracorporea_fig02.jpg
+ create mode 100644 out/figures/surigicalLVR Lung Volume Reduction Surgery on Extracorporea_fig03.jpg
+ create mode 100644 out/figures/surigicalLVR Lung Volume Reduction Surgery on Extracorporea_fig04.jpg
+ create mode 100644 out/qa/Airway stents__umls.qa.json
+ create mode 100644 out/qa/Angel-2020-Novel Percutaneous Tracheostomy for__umls.qa.json
+ create mode 100644 out/qa/Community hospital experience using ENB integrating tidal volume computed tomography mapping__umls.qa.json
+ create mode 100644 out/qa/Complications of cricothyroidotomy versus tracheostomy__umls.qa.json
+ create mode 100644 out/qa/Flexible bronchoscopy__umls.qa.json
+ create mode 100644 out/qa/Grosu-2018-Sensitivity of Initial Thoracentesi__umls.qa.json
+ create mode 100644 out/qa/Hu-2018-Application of the Montgomery T-tube i__umls.qa.json
+ create mode 100644 out/qa/Inhaled TXA for Hemoptysis Treatment__umls.qa.json
+ create mode 100644 out/qa/Lung nodule during COVID__umls.qa.json
+ create mode 100644 out/qa/surigicalLVR Lung Volume Reduction Surgery on Extracorporea__umls.qa.json
+ create mode 100644 out/references/Airway stents.refs.csv
+ create mode 100644 out/references/Angel-2020-Novel Percutaneous Tracheostomy for.refs.csv
+ create mode 100644 out/references/Community hospital experience using ENB integrating tidal volume computed tomography mapping.refs.csv
+ create mode 100644 out/references/Complications of cricothyroidotomy versus tracheostomy.refs.csv
+ create mode 100644 out/references/Flexible bronchoscopy.refs.csv
+ create mode 100644 out/references/Grosu-2018-Sensitivity of Initial Thoracentesi.refs.csv
+ create mode 100644 out/references/Hu-2018-Application of the Montgomery T-tube i.refs.csv
+ create mode 100644 out/references/Inhaled TXA for Hemoptysis Treatment.refs.csv
+ create mode 100644 out/references/Lung nodule during COVID.refs.csv
+ create mode 100644 out/references/surigicalLVR Lung Volume Reduction Surgery on Extracorporea.refs.csv
+2025-09-01 08:36:32.925 | INFO     | __main__:git_commit_and_push:158 - Pushing to origin/fix/extraction-hardening...
+To https://github.com/russellmiller49/Medparse.git
+   9f43887..7f19459  fix/extraction-hardening -> fix/extraction-hardening
+2025-09-01 08:36:35.901 | SUCCESS  | __main__:git_commit_and_push:161 - ✓ Successfully pushed to GitHub (branch: fix/extraction-hardening)
+2025-09-01 08:36:35.901 | INFO     | __main__:main:189 - [396/414] Processing Criner-2019-Improving Lung Function in Severe.pdf
+2025-09-01 08:36:35.901 | INFO     | __main__:process_single_pdf:52 - Processing Criner-2019-Improving Lung Function in Severe.pdf...
+2025-09-01 08:38:21.949 | SUCCESS  | __main__:process_single_pdf:71 - ✓ Successfully processed Criner-2019-Improving Lung Function in Severe
+2025-09-01 08:38:21.949 | INFO     | __main__:main:189 - [397/414] Processing Thomas-2017-Effect of an Indwelling Pleural Ca.pdf
+2025-09-01 08:38:21.949 | INFO     | __main__:process_single_pdf:52 - Processing Thomas-2017-Effect of an Indwelling Pleural Ca.pdf...
+2025-09-01 08:42:13.597 | SUCCESS  | __main__:process_single_pdf:71 - ✓ Successfully processed Thomas-2017-Effect of an Indwelling Pleural Ca
+2025-09-01 08:42:13.598 | INFO     | __main__:main:189 - [398/414] Processing Multi‐institutional retrospective analysis of.pdf
+2025-09-01 08:42:13.598 | INFO     | __main__:process_single_pdf:52 - Processing Multi‐institutional retrospective analysis of.pdf...
+2025-09-01 08:43:09.708 | SUCCESS  | __main__:process_single_pdf:71 - ✓ Successfully processed Multi‐institutional retrospective analysis of
+2025-09-01 08:43:09.708 | INFO     | __main__:main:189 - [399/414] Processing Andriolo-2015-Early versus late tracheostomy f.pdf
+2025-09-01 08:43:09.708 | INFO     | __main__:process_single_pdf:52 - Processing Andriolo-2015-Early versus late tracheostomy f.pdf...
+2025-09-01 08:45:30.249 | SUCCESS  | __main__:process_single_pdf:71 - ✓ Successfully processed Andriolo-2015-Early versus late tracheostomy f
+2025-09-01 08:45:30.249 | INFO     | __main__:main:189 - [400/414] Processing Role of Montgomery T-tube stent for laryngotra.pdf
+2025-09-01 08:45:30.249 | INFO     | __main__:process_single_pdf:52 - Processing Role of Montgomery T-tube stent for laryngotra.pdf...
+2025-09-01 08:46:22.807 | SUCCESS  | __main__:process_single_pdf:71 - ✓ Successfully processed Role of Montgomery T-tube stent for laryngotra
+2025-09-01 08:46:22.807 | INFO     | __main__:main:189 - [401/414] Processing Training in interventional pulmonology the European and US perspective.pdf
+2025-09-01 08:46:22.807 | INFO     | __main__:process_single_pdf:52 - Processing Training in interventional pulmonology the European and US perspective.pdf...
+2025-09-01 08:49:15.738 | SUCCESS  | __main__:process_single_pdf:71 - ✓ Successfully processed Training in interventional pulmonology the European and US perspective
+2025-09-01 08:49:15.739 | INFO     | __main__:main:189 - [402/414] Processing Endobronchial Valves for Emphysema without Int.pdf
+2025-09-01 08:49:15.739 | INFO     | __main__:process_single_pdf:52 - Processing Endobronchial Valves for Emphysema without Int.pdf...
+2025-09-01 08:50:30.254 | SUCCESS  | __main__:process_single_pdf:71 - ✓ Successfully processed Endobronchial Valves for Emphysema without Int
+2025-09-01 08:50:30.254 | INFO     | __main__:main:189 - [403/414] Processing Effectiveness of Elastography.pdf
+2025-09-01 08:50:30.254 | INFO     | __main__:process_single_pdf:52 - Processing Effectiveness of Elastography.pdf...
+2025-09-01 08:51:24.855 | SUCCESS  | __main__:process_single_pdf:71 - ✓ Successfully processed Effectiveness of Elastography
+2025-09-01 08:51:24.855 | INFO     | __main__:main:189 - [404/414] Processing Transbronchial cryobiopsy n ILD.pdf
+2025-09-01 08:51:24.855 | INFO     | __main__:process_single_pdf:52 - Processing Transbronchial cryobiopsy n ILD.pdf...
+2025-09-01 08:54:40.985 | SUCCESS  | __main__:process_single_pdf:71 - ✓ Successfully processed Transbronchial cryobiopsy n ILD
+2025-09-01 08:54:40.985 | INFO     | __main__:main:189 - [405/414] Processing Percutaneous Dilational Tracheostomy 2018.pdf
+2025-09-01 08:54:40.985 | INFO     | __main__:process_single_pdf:52 - Processing Percutaneous Dilational Tracheostomy 2018.pdf...
+2025-09-01 08:56:39.132 | SUCCESS  | __main__:process_single_pdf:71 - ✓ Successfully processed Percutaneous Dilational Tracheostomy 2018
+2025-09-01 08:56:39.132 | INFO     | __main__:main:198 - Reached 400 successful processes, committing intermediate results...
+2025-09-01 08:56:39.132 | INFO     | __main__:git_commit_and_push:129 - Adding changes to git...
