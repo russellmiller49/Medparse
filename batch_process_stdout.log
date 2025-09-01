@@ -515,3 +515,230 @@ To https://github.com/russellmiller49/Medparse.git
 2025-08-31 20:39:58.513 | SUCCESS  | __main__:process_single_pdf:71 - ✓ Successfully processed Preoperative endobronchial photodynamic therap
 2025-08-31 20:39:58.513 | INFO     | __main__:main:198 - Reached 40 successful processes, committing intermediate results...
 2025-08-31 20:39:58.513 | INFO     | __main__:git_commit_and_push:129 - Adding changes to git...
+2025-08-31 20:39:58.817 | INFO     | __main__:git_commit_and_push:145 - Creating git commit...
+[fix/extraction-hardening 39a1d1d] feat: Batch processed 40 PDFs (intermediate commit)
+ 166 files changed, 299314 insertions(+)
+ create mode 100644 out/batch_processed/Advantages of US in percutaneous dilatational.json
+ create mode 100644 out/batch_processed/Clinical and quality of life outcomes vs. exte.json
+ create mode 100644 out/batch_processed/Eur Respir Rev-2020-DeMaio-200028.json
+ create mode 100644 out/batch_processed/IASLC Proposals for Revision of TNM.json
+ create mode 100644 out/batch_processed/Lipp-2013-Systemic antimicrobial prophylaxis f.json
+ create mode 100644 out/batch_processed/Preoperative endobronchial photodynamic therap.json
+ create mode 100644 out/batch_processed/RigidMiniThoracoscopyVersusSemirigid_Thoracoscopy.json
+ create mode 100644 out/batch_processed/Ruigrok-2020-Digital versus analogue chest dra.json
+ create mode 100644 out/batch_processed/Tracheomalacia and tracheobronchomalacia in ch.json
+ create mode 100644 out/batch_processed/klug-et-al-2024-proposed-ninth-edition-tnm-staging-system-for-lung-cancer-guide-for-radiologists.json
+ create mode 100644 out/figures/Advantages of US in percutaneous dilatational_fig01.jpg
+ create mode 100644 out/figures/Advantages of US in percutaneous dilatational_fig03.jpg
+ create mode 100644 out/figures/Advantages of US in percutaneous dilatational_fig04.jpg
+ create mode 100644 out/figures/Advantages of US in percutaneous dilatational_fig05.jpg
+ create mode 100644 out/figures/Advantages of US in percutaneous dilatational_fig08.jpg
+ create mode 100644 out/figures/Advantages of US in percutaneous dilatational_figure2.jpg
+ create mode 100644 out/figures/Advantages of US in percutaneous dilatational_figure3.jpg
+ create mode 100644 out/figures/Advantages of US in percutaneous dilatational_figure4.jpg
+ create mode 100644 out/figures/Clinical and quality of life outcomes vs. exte_fig01.jpg
+ create mode 100644 out/figures/Clinical and quality of life outcomes vs. exte_fig02.jpg
+ create mode 100644 out/figures/Eur Respir Rev-2020-DeMaio-200028_fig01.jpg
+ create mode 100644 out/figures/Eur Respir Rev-2020-DeMaio-200028_fig02.jpg
+ create mode 100644 out/figures/Eur Respir Rev-2020-DeMaio-200028_fig03.jpg
+ create mode 100644 out/figures/Eur Respir Rev-2020-DeMaio-200028_fig05.jpg
+ create mode 100644 out/figures/Eur Respir Rev-2020-DeMaio-200028_figure1.jpg
+ create mode 100644 out/figures/IASLC Proposals for Revision of TNM_fig01.jpg
+ create mode 100644 out/figures/IASLC Proposals for Revision of TNM_fig02.jpg
+ create mode 100644 out/figures/IASLC Proposals for Revision of TNM_fig04.jpg
+ create mode 100644 out/figures/IASLC Proposals for Revision of TNM_fig05.jpg
+ create mode 100644 out/figures/IASLC Proposals for Revision of TNM_fig06.jpg
+ create mode 100644 out/figures/IASLC Proposals for Revision of TNM_figure1.jpg
+ create mode 100644 out/figures/Lipp-2013-Systemic antimicrobial prophylaxis f_fig01.jpg
+ create mode 100644 out/figures/Lipp-2013-Systemic antimicrobial prophylaxis f_fig02.jpg
+ create mode 100644 out/figures/Lipp-2013-Systemic antimicrobial prophylaxis f_fig03.jpg
+ create mode 100644 out/figures/Lipp-2013-Systemic antimicrobial prophylaxis f_fig04.jpg
+ create mode 100644 out/figures/Lipp-2013-Systemic antimicrobial prophylaxis f_fig05.jpg
+ create mode 100644 out/figures/Lipp-2013-Systemic antimicrobial prophylaxis f_fig06.jpg
+ create mode 100644 out/figures/Lipp-2013-Systemic antimicrobial prophylaxis f_fig07.jpg
+ create mode 100644 out/figures/Lipp-2013-Systemic antimicrobial prophylaxis f_fig08.jpg
+ create mode 100644 out/figures/Lipp-2013-Systemic antimicrobial prophylaxis f_fig09.jpg
+ create mode 100644 out/figures/Lipp-2013-Systemic antimicrobial prophylaxis f_fig10.jpg
+ create mode 100644 out/figures/Lipp-2013-Systemic antimicrobial prophylaxis f_fig11.jpg
+ create mode 100644 out/figures/Lipp-2013-Systemic antimicrobial prophylaxis f_fig12.jpg
+ create mode 100644 out/figures/Lipp-2013-Systemic antimicrobial prophylaxis f_fig13.jpg
+ create mode 100644 out/figures/Lipp-2013-Systemic antimicrobial prophylaxis f_fig14.jpg
+ create mode 100644 out/figures/Lipp-2013-Systemic antimicrobial prophylaxis f_fig15.jpg
+ create mode 100644 out/figures/Lipp-2013-Systemic antimicrobial prophylaxis f_fig16.jpg
+ create mode 100644 out/figures/Lipp-2013-Systemic antimicrobial prophylaxis f_fig17.jpg
+ create mode 100644 out/figures/Lipp-2013-Systemic antimicrobial prophylaxis f_fig18.jpg
+ create mode 100644 out/figures/Lipp-2013-Systemic antimicrobial prophylaxis f_fig19.jpg
+ create mode 100644 out/figures/Lipp-2013-Systemic antimicrobial prophylaxis f_fig20.jpg
+ create mode 100644 out/figures/Lipp-2013-Systemic antimicrobial prophylaxis f_fig21.jpg
+ create mode 100644 out/figures/Lipp-2013-Systemic antimicrobial prophylaxis f_fig22.jpg
+ create mode 100644 out/figures/Lipp-2013-Systemic antimicrobial prophylaxis f_fig23.jpg
+ create mode 100644 out/figures/Lipp-2013-Systemic antimicrobial prophylaxis f_fig24.jpg
+ create mode 100644 out/figures/Lipp-2013-Systemic antimicrobial prophylaxis f_fig25.jpg
+ create mode 100644 out/figures/Lipp-2013-Systemic antimicrobial prophylaxis f_fig26.jpg
+ create mode 100644 out/figures/Lipp-2013-Systemic antimicrobial prophylaxis f_fig27.jpg
+ create mode 100644 out/figures/Lipp-2013-Systemic antimicrobial prophylaxis f_fig28.jpg
+ create mode 100644 out/figures/Lipp-2013-Systemic antimicrobial prophylaxis f_fig29.jpg
+ create mode 100644 out/figures/Lipp-2013-Systemic antimicrobial prophylaxis f_fig30.jpg
+ create mode 100644 out/figures/Lipp-2013-Systemic antimicrobial prophylaxis f_fig31.jpg
+ create mode 100644 out/figures/Lipp-2013-Systemic antimicrobial prophylaxis f_fig32.jpg
+ create mode 100644 out/figures/Lipp-2013-Systemic antimicrobial prophylaxis f_fig33.jpg
+ create mode 100644 out/figures/Lipp-2013-Systemic antimicrobial prophylaxis f_fig34.jpg
+ create mode 100644 out/figures/Lipp-2013-Systemic antimicrobial prophylaxis f_fig35.jpg
+ create mode 100644 out/figures/Lipp-2013-Systemic antimicrobial prophylaxis f_fig36.jpg
+ create mode 100644 out/figures/Lipp-2013-Systemic antimicrobial prophylaxis f_fig37.jpg
+ create mode 100644 out/figures/Lipp-2013-Systemic antimicrobial prophylaxis f_fig38.jpg
+ create mode 100644 out/figures/Lipp-2013-Systemic antimicrobial prophylaxis f_fig39.jpg
+ create mode 100644 out/figures/Lipp-2013-Systemic antimicrobial prophylaxis f_fig40.jpg
+ create mode 100644 out/figures/Lipp-2013-Systemic antimicrobial prophylaxis f_fig41.jpg
+ create mode 100644 out/figures/Lipp-2013-Systemic antimicrobial prophylaxis f_fig42.jpg
+ create mode 100644 out/figures/Lipp-2013-Systemic antimicrobial prophylaxis f_fig43.jpg
+ create mode 100644 out/figures/Lipp-2013-Systemic antimicrobial prophylaxis f_fig44.jpg
+ create mode 100644 out/figures/Lipp-2013-Systemic antimicrobial prophylaxis f_fig45.jpg
+ create mode 100644 out/figures/Lipp-2013-Systemic antimicrobial prophylaxis f_fig46.jpg
+ create mode 100644 out/figures/Lipp-2013-Systemic antimicrobial prophylaxis f_fig47.jpg
+ create mode 100644 out/figures/Lipp-2013-Systemic antimicrobial prophylaxis f_fig48.jpg
+ create mode 100644 out/figures/Lipp-2013-Systemic antimicrobial prophylaxis f_fig49.jpg
+ create mode 100644 out/figures/Lipp-2013-Systemic antimicrobial prophylaxis f_fig50.jpg
+ create mode 100644 out/figures/Lipp-2013-Systemic antimicrobial prophylaxis f_fig51.jpg
+ create mode 100644 out/figures/Lipp-2013-Systemic antimicrobial prophylaxis f_fig52.jpg
+ create mode 100644 out/figures/Preoperative endobronchial photodynamic therap_fig01.jpg
+ create mode 100644 out/figures/Preoperative endobronchial photodynamic therap_fig02.jpg
+ create mode 100644 out/figures/Preoperative endobronchial photodynamic therap_fig03.jpg
+ create mode 100644 out/figures/Preoperative endobronchial photodynamic therap_fig04.jpg
+ create mode 100644 out/figures/Preoperative endobronchial photodynamic therap_fig05.jpg
+ create mode 100644 out/figures/RigidMiniThoracoscopyVersusSemirigid_Thoracoscopy_fig01.jpg
+ create mode 100644 out/figures/Ruigrok-2020-Digital versus analogue chest dra_fig01.jpg
+ create mode 100644 out/figures/Ruigrok-2020-Digital versus analogue chest dra_fig02.jpg
+ create mode 100644 out/figures/Ruigrok-2020-Digital versus analogue chest dra_fig03.jpg
+ create mode 100644 out/figures/Ruigrok-2020-Digital versus analogue chest dra_fig04.jpg
+ create mode 100644 out/figures/Ruigrok-2020-Digital versus analogue chest dra_fig05.jpg
+ create mode 100644 out/figures/Tracheomalacia and tracheobronchomalacia in ch_fig01.jpg
+ create mode 100644 out/figures/Tracheomalacia and tracheobronchomalacia in ch_fig02.jpg
+ create mode 100644 out/figures/Tracheomalacia and tracheobronchomalacia in ch_fig03.jpg
+ create mode 100644 out/figures/Tracheomalacia and tracheobronchomalacia in ch_fig04.jpg
+ create mode 100644 out/figures/Tracheomalacia and tracheobronchomalacia in ch_fig05.jpg
+ create mode 100644 out/figures/Tracheomalacia and tracheobronchomalacia in ch_fig06.jpg
+ create mode 100644 out/figures/Tracheomalacia and tracheobronchomalacia in ch_fig07.jpg
+ create mode 100644 out/figures/Tracheomalacia and tracheobronchomalacia in ch_fig08.jpg
+ create mode 100644 out/figures/Tracheomalacia and tracheobronchomalacia in ch_fig09.jpg
+ create mode 100644 out/figures/klug-et-al-2024-proposed-ninth-edition-tnm-staging-system-for-lung-cancer-guide-for-radiologists_fig01.jpg
+ create mode 100644 out/figures/klug-et-al-2024-proposed-ninth-edition-tnm-staging-system-for-lung-cancer-guide-for-radiologists_fig02.jpg
+ create mode 100644 out/figures/klug-et-al-2024-proposed-ninth-edition-tnm-staging-system-for-lung-cancer-guide-for-radiologists_fig03.jpg
+ create mode 100644 out/figures/klug-et-al-2024-proposed-ninth-edition-tnm-staging-system-for-lung-cancer-guide-for-radiologists_fig04.jpg
+ create mode 100644 out/figures/klug-et-al-2024-proposed-ninth-edition-tnm-staging-system-for-lung-cancer-guide-for-radiologists_fig05.jpg
+ create mode 100644 out/figures/klug-et-al-2024-proposed-ninth-edition-tnm-staging-system-for-lung-cancer-guide-for-radiologists_fig06.jpg
+ create mode 100644 out/figures/klug-et-al-2024-proposed-ninth-edition-tnm-staging-system-for-lung-cancer-guide-for-radiologists_fig07.jpg
+ create mode 100644 out/figures/klug-et-al-2024-proposed-ninth-edition-tnm-staging-system-for-lung-cancer-guide-for-radiologists_fig09.jpg
+ create mode 100644 out/figures/klug-et-al-2024-proposed-ninth-edition-tnm-staging-system-for-lung-cancer-guide-for-radiologists_fig10.jpg
+ create mode 100644 out/figures/klug-et-al-2024-proposed-ninth-edition-tnm-staging-system-for-lung-cancer-guide-for-radiologists_fig11.jpg
+ create mode 100644 out/figures/klug-et-al-2024-proposed-ninth-edition-tnm-staging-system-for-lung-cancer-guide-for-radiologists_fig12.jpg
+ create mode 100644 out/figures/klug-et-al-2024-proposed-ninth-edition-tnm-staging-system-for-lung-cancer-guide-for-radiologists_fig13.jpg
+ create mode 100644 out/figures/klug-et-al-2024-proposed-ninth-edition-tnm-staging-system-for-lung-cancer-guide-for-radiologists_fig14.jpg
+ create mode 100644 out/figures/klug-et-al-2024-proposed-ninth-edition-tnm-staging-system-for-lung-cancer-guide-for-radiologists_fig16.jpg
+ create mode 100644 out/figures/klug-et-al-2024-proposed-ninth-edition-tnm-staging-system-for-lung-cancer-guide-for-radiologists_fig17.jpg
+ create mode 100644 out/figures/klug-et-al-2024-proposed-ninth-edition-tnm-staging-system-for-lung-cancer-guide-for-radiologists_fig18.jpg
+ create mode 100644 out/figures/klug-et-al-2024-proposed-ninth-edition-tnm-staging-system-for-lung-cancer-guide-for-radiologists_fig19.jpg
+ create mode 100644 out/figures/klug-et-al-2024-proposed-ninth-edition-tnm-staging-system-for-lung-cancer-guide-for-radiologists_fig20.jpg
+ create mode 100644 out/figures/klug-et-al-2024-proposed-ninth-edition-tnm-staging-system-for-lung-cancer-guide-for-radiologists_fig21.jpg
+ create mode 100644 out/figures/klug-et-al-2024-proposed-ninth-edition-tnm-staging-system-for-lung-cancer-guide-for-radiologists_fig22.jpg
+ create mode 100644 out/figures/klug-et-al-2024-proposed-ninth-edition-tnm-staging-system-for-lung-cancer-guide-for-radiologists_fig23.jpg
+ create mode 100644 out/figures/klug-et-al-2024-proposed-ninth-edition-tnm-staging-system-for-lung-cancer-guide-for-radiologists_fig24.jpg
+ create mode 100644 out/figures/klug-et-al-2024-proposed-ninth-edition-tnm-staging-system-for-lung-cancer-guide-for-radiologists_fig25.jpg
+ create mode 100644 out/figures/klug-et-al-2024-proposed-ninth-edition-tnm-staging-system-for-lung-cancer-guide-for-radiologists_fig26.jpg
+ create mode 100644 out/figures/klug-et-al-2024-proposed-ninth-edition-tnm-staging-system-for-lung-cancer-guide-for-radiologists_fig27.jpg
+ create mode 100644 out/figures/klug-et-al-2024-proposed-ninth-edition-tnm-staging-system-for-lung-cancer-guide-for-radiologists_fig28.jpg
+ create mode 100644 out/figures/klug-et-al-2024-proposed-ninth-edition-tnm-staging-system-for-lung-cancer-guide-for-radiologists_fig29.jpg
+ create mode 100644 out/figures/klug-et-al-2024-proposed-ninth-edition-tnm-staging-system-for-lung-cancer-guide-for-radiologists_fig30.jpg
+ create mode 100644 out/figures/klug-et-al-2024-proposed-ninth-edition-tnm-staging-system-for-lung-cancer-guide-for-radiologists_fig31.jpg
+ create mode 100644 out/figures/klug-et-al-2024-proposed-ninth-edition-tnm-staging-system-for-lung-cancer-guide-for-radiologists_fig32.jpg
+ create mode 100644 out/figures/klug-et-al-2024-proposed-ninth-edition-tnm-staging-system-for-lung-cancer-guide-for-radiologists_fig33.jpg
+ create mode 100644 out/figures/klug-et-al-2024-proposed-ninth-edition-tnm-staging-system-for-lung-cancer-guide-for-radiologists_fig34.jpg
+ create mode 100644 out/figures/klug-et-al-2024-proposed-ninth-edition-tnm-staging-system-for-lung-cancer-guide-for-radiologists_fig35.jpg
+ create mode 100644 out/figures/klug-et-al-2024-proposed-ninth-edition-tnm-staging-system-for-lung-cancer-guide-for-radiologists_fig36.jpg
+ create mode 100644 out/figures/klug-et-al-2024-proposed-ninth-edition-tnm-staging-system-for-lung-cancer-guide-for-radiologists_fig37.jpg
+ create mode 100644 out/figures/klug-et-al-2024-proposed-ninth-edition-tnm-staging-system-for-lung-cancer-guide-for-radiologists_fig38.jpg
+ create mode 100644 out/figures/klug-et-al-2024-proposed-ninth-edition-tnm-staging-system-for-lung-cancer-guide-for-radiologists_fig39.jpg
+ create mode 100644 out/figures/klug-et-al-2024-proposed-ninth-edition-tnm-staging-system-for-lung-cancer-guide-for-radiologists_fig40.jpg
+ create mode 100644 out/figures/klug-et-al-2024-proposed-ninth-edition-tnm-staging-system-for-lung-cancer-guide-for-radiologists_fig41.jpg
+ create mode 100644 out/figures/klug-et-al-2024-proposed-ninth-edition-tnm-staging-system-for-lung-cancer-guide-for-radiologists_figure3.jpg
+ create mode 100644 out/figures/klug-et-al-2024-proposed-ninth-edition-tnm-staging-system-for-lung-cancer-guide-for-radiologists_figure5.jpg
+ create mode 100644 out/qa/Advantages of US in percutaneous dilatational__umls.qa.json
+ create mode 100644 out/qa/Clinical and quality of life outcomes vs. exte__umls.qa.json
+ create mode 100644 out/qa/Eur Respir Rev-2020-DeMaio-200028__umls.qa.json
+ create mode 100644 out/qa/IASLC Proposals for Revision of TNM__umls.qa.json
+ create mode 100644 out/qa/Lipp-2013-Systemic antimicrobial prophylaxis f__umls.qa.json
+ create mode 100644 out/qa/Preoperative endobronchial photodynamic therap__umls.qa.json
+ create mode 100644 out/qa/RigidMiniThoracoscopyVersusSemirigid_Thoracoscopy__umls.qa.json
+ create mode 100644 out/qa/Ruigrok-2020-Digital versus analogue chest dra__umls.qa.json
+ create mode 100644 out/qa/Tracheomalacia and tracheobronchomalacia in ch__umls.qa.json
+ create mode 100644 out/qa/klug-et-al-2024-proposed-ninth-edition-tnm-staging-system-for-lung-cancer-guide-for-radiologists__umls.qa.json
+ create mode 100644 out/references/Advantages of US in percutaneous dilatational.refs.csv
+ create mode 100644 out/references/Clinical and quality of life outcomes vs. exte.refs.csv
+ create mode 100644 out/references/Eur Respir Rev-2020-DeMaio-200028.refs.csv
+ create mode 100644 out/references/IASLC Proposals for Revision of TNM.refs.csv
+ create mode 100644 out/references/Lipp-2013-Systemic antimicrobial prophylaxis f.refs.csv
+ create mode 100644 out/references/Preoperative endobronchial photodynamic therap.refs.csv
+ create mode 100644 out/references/RigidMiniThoracoscopyVersusSemirigid_Thoracoscopy.refs.csv
+ create mode 100644 out/references/Ruigrok-2020-Digital versus analogue chest dra.refs.csv
+ create mode 100644 out/references/Tracheomalacia and tracheobronchomalacia in ch.refs.csv
+ create mode 100644 out/references/klug-et-al-2024-proposed-ninth-edition-tnm-staging-system-for-lung-cancer-guide-for-radiologists.refs.csv
+2025-08-31 20:39:58.853 | INFO     | __main__:git_commit_and_push:158 - Pushing to origin/fix/extraction-hardening...
+To https://github.com/russellmiller49/Medparse.git
+   58cdc77..39a1d1d  fix/extraction-hardening -> fix/extraction-hardening
+2025-08-31 20:40:04.732 | SUCCESS  | __main__:git_commit_and_push:161 - ✓ Successfully pushed to GitHub (branch: fix/extraction-hardening)
+2025-08-31 20:40:04.732 | INFO     | __main__:main:189 - [41/414] Processing Transbronchial Lung Cryobiopsy and Video-assis.pdf
+2025-08-31 20:40:04.732 | INFO     | __main__:process_single_pdf:52 - Processing Transbronchial Lung Cryobiopsy and Video-assis.pdf...
+2025-08-31 20:42:03.719 | SUCCESS  | __main__:process_single_pdf:71 - ✓ Successfully processed Transbronchial Lung Cryobiopsy and Video-assis
+2025-08-31 20:42:03.719 | INFO     | __main__:main:189 - [42/414] Processing Use of fibrinolytics and deoxyribonuclease in.pdf
+2025-08-31 20:42:03.719 | INFO     | __main__:process_single_pdf:52 - Processing Use of fibrinolytics and deoxyribonuclease in.pdf...
+2025-08-31 20:45:21.634 | SUCCESS  | __main__:process_single_pdf:71 - ✓ Successfully processed Use of fibrinolytics and deoxyribonuclease in
+2025-08-31 20:45:21.634 | INFO     | __main__:main:189 - [43/414] Processing Cyrany-2016-Buried bumper syndrome_ A complica.pdf
+2025-08-31 20:45:21.634 | INFO     | __main__:process_single_pdf:52 - Processing Cyrany-2016-Buried bumper syndrome_ A complica.pdf...
+2025-08-31 20:46:30.586 | SUCCESS  | __main__:process_single_pdf:71 - ✓ Successfully processed Cyrany-2016-Buried bumper syndrome_ A complica
+2025-08-31 20:46:30.587 | INFO     | __main__:main:189 - [44/414] Processing The Utility of the EBUS Characteristics in Differentiating Between Malignant and Tuberculous .pdf
+2025-08-31 20:46:30.587 | INFO     | __main__:process_single_pdf:52 - Processing The Utility of the EBUS Characteristics in Differentiating Between Malignant and Tuberculous .pdf...
+2025-08-31 20:47:26.154 | SUCCESS  | __main__:process_single_pdf:71 - ✓ Successfully processed The Utility of the EBUS Characteristics in Differentiating Between Malignant and Tuberculous 
+2025-08-31 20:47:26.154 | INFO     | __main__:main:189 - [45/414] Processing BLVR with endobronchial valves for patients wi.pdf
+2025-08-31 20:47:26.154 | INFO     | __main__:process_single_pdf:52 - Processing BLVR with endobronchial valves for patients wi.pdf...
+2025-08-31 20:49:23.223 | SUCCESS  | __main__:process_single_pdf:71 - ✓ Successfully processed BLVR with endobronchial valves for patients wi
+2025-08-31 20:49:23.223 | INFO     | __main__:main:189 - [46/414] Processing A Multicenter RCT of Zephyr Endobronchial Valv.pdf
+2025-08-31 20:49:23.223 | INFO     | __main__:process_single_pdf:52 - Processing A Multicenter RCT of Zephyr Endobronchial Valv.pdf...
+2025-08-31 20:51:34.687 | SUCCESS  | __main__:process_single_pdf:71 - ✓ Successfully processed A Multicenter RCT of Zephyr Endobronchial Valv
+2025-08-31 20:51:34.688 | INFO     | __main__:main:189 - [47/414] Processing nd__yag_laser_therapy_in_lung_cancer__an_11_year.6.pdf
+2025-08-31 20:51:34.688 | INFO     | __main__:process_single_pdf:52 - Processing nd__yag_laser_therapy_in_lung_cancer__an_11_year.6.pdf...
+2025-08-31 20:52:06.689 | ERROR    | __main__:process_single_pdf:74 - ✗ Failed to process nd__yag_laser_therapy_in_lung_cancer__an_11_year.6: 2025-08-31 20:51:37.623 | INFO     | __main__:process_pdf:62 - Docling parsing (DocumentConverter): nd__yag_laser_therapy_in_lung_cancer__an_11_year.6.pdf
+2025-08-31 20:52:03.245 | INFO     | __main__:process_pdf:80 - Cropping figure images with EXIF captions
+2025-08-31 20:52:03.863 | INFO     | __main__:process_pdf:83 - GROBID metadata & references
+Traceback (most recent call last):
+  File "/home/rjm/projects/ip_knowledge/medparse/medparse-docling/scripts/process_one.py", line 264, in <module>
+    process_pdf(Path(args.pdf), Path(args.out), Path(args.cfg), linker=args.linker, dump_docling_debug=args.dump_docling_debug)
+  File "/home/rjm/projects/ip_knowledge/medparse/medparse-docling/scripts/process_one.py", line 95, in process_pdf
+    refs = parse_references_tei(refs_tei["references_tei"])
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/rjm/projects/ip_knowledge/medparse/medparse-docling/scripts/grobid_references.py", line 29, in parse_references_tei
+    root = etree.fromstring(tei_xml.encode("utf-8"))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "src/lxml/etree.pyx", line 3307, in lxml.etree.fromstring
+  File "src/lxml/parser.pxi", line 1995, in lxml.etree._parseMemoryDocument
+  File "src/lxml/parser.pxi", line 1882, in lxml.etree._parseDoc
+  File "src/lxml/parser.pxi", line 1164, in lxml.etree._BaseParser._parseDoc
+  File "src/lxml/parser.pxi", line 633, in lxml.etree._ParserContext._handleParseResultDoc
+  File "src/lxml/parser.pxi", line 743, in lxml.etree._handleParseResult
+  File "src/lxml/parser.pxi", line 672, in lxml.etree._raiseParseError
+  File "<string>", line 1
+lxml.etree.XMLSyntaxError: Document is empty, line 1, column 1
+
+2025-08-31 20:52:06.689 | INFO     | __main__:main:189 - [48/414] Processing Ljungdahl-2006-Complication rate lower after p.pdf
+2025-08-31 20:52:06.690 | INFO     | __main__:process_single_pdf:52 - Processing Ljungdahl-2006-Complication rate lower after p.pdf...
+2025-08-31 20:53:21.807 | SUCCESS  | __main__:process_single_pdf:71 - ✓ Successfully processed Ljungdahl-2006-Complication rate lower after p
+2025-08-31 20:53:21.807 | INFO     | __main__:main:189 - [49/414] Processing Multidetector CT evaluation of tracheobronchom.pdf
+2025-08-31 20:53:21.807 | INFO     | __main__:process_single_pdf:52 - Processing Multidetector CT evaluation of tracheobronchom.pdf...
+2025-08-31 20:54:29.726 | SUCCESS  | __main__:process_single_pdf:71 - ✓ Successfully processed Multidetector CT evaluation of tracheobronchom
+2025-08-31 20:54:29.726 | INFO     | __main__:main:189 - [50/414] Processing Validation Study for the N Descriptor.pdf
+2025-08-31 20:54:29.726 | INFO     | __main__:process_single_pdf:52 - Processing Validation Study for the N Descriptor.pdf...
+2025-08-31 20:55:26.508 | SUCCESS  | __main__:process_single_pdf:71 - ✓ Successfully processed Validation Study for the N Descriptor
+2025-08-31 20:55:26.509 | INFO     | __main__:main:189 - [51/414] Processing chest tube pandora box.pdf
+2025-08-31 20:55:26.509 | INFO     | __main__:process_single_pdf:52 - Processing chest tube pandora box.pdf...
+2025-08-31 20:57:00.929 | SUCCESS  | __main__:process_single_pdf:71 - ✓ Successfully processed chest tube pandora box
+2025-08-31 20:57:00.929 | INFO     | __main__:main:198 - Reached 50 successful processes, committing intermediate results...
+2025-08-31 20:57:00.929 | INFO     | __main__:git_commit_and_push:129 - Adding changes to git...

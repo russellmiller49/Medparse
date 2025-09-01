@@ -1,0 +1,15 @@
+{
+  "pdf": "Use of fibrinolytics and deoxyribonuclease in.pdf",
+  "n_sections": 72,
+  "n_tables": 2,
+  "n_figures": 2,
+  "n_fig_crops": 1,
+  "missing_fig_bbox": 0,
+  "n_refs_csv": 88,
+  "n_umls_links": 0,
+  "n_local_links": 0,
+  "linker": "umls",
+  "completeness_score": 65,
+  "is_valid": true,
+  "timestamp": "2025-08-31 20:45:20"
+}

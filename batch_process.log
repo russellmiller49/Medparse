@@ -139,3 +139,62 @@
 2025-08-31 20:39:58.513 | SUCCESS  | __main__:process_single_pdf:71 - ✓ Successfully processed Preoperative endobronchial photodynamic therap
 2025-08-31 20:39:58.513 | INFO     | __main__:main:198 - Reached 40 successful processes, committing intermediate results...
 2025-08-31 20:39:58.513 | INFO     | __main__:git_commit_and_push:129 - Adding changes to git...
+2025-08-31 20:39:58.817 | INFO     | __main__:git_commit_and_push:145 - Creating git commit...
+2025-08-31 20:39:58.853 | INFO     | __main__:git_commit_and_push:158 - Pushing to origin/fix/extraction-hardening...
+2025-08-31 20:40:04.732 | SUCCESS  | __main__:git_commit_and_push:161 - ✓ Successfully pushed to GitHub (branch: fix/extraction-hardening)
+2025-08-31 20:40:04.732 | INFO     | __main__:main:189 - [41/414] Processing Transbronchial Lung Cryobiopsy and Video-assis.pdf
+2025-08-31 20:40:04.732 | INFO     | __main__:process_single_pdf:52 - Processing Transbronchial Lung Cryobiopsy and Video-assis.pdf...
+2025-08-31 20:42:03.719 | SUCCESS  | __main__:process_single_pdf:71 - ✓ Successfully processed Transbronchial Lung Cryobiopsy and Video-assis
+2025-08-31 20:42:03.719 | INFO     | __main__:main:189 - [42/414] Processing Use of fibrinolytics and deoxyribonuclease in.pdf
+2025-08-31 20:42:03.719 | INFO     | __main__:process_single_pdf:52 - Processing Use of fibrinolytics and deoxyribonuclease in.pdf...
+2025-08-31 20:45:21.634 | SUCCESS  | __main__:process_single_pdf:71 - ✓ Successfully processed Use of fibrinolytics and deoxyribonuclease in
+2025-08-31 20:45:21.634 | INFO     | __main__:main:189 - [43/414] Processing Cyrany-2016-Buried bumper syndrome_ A complica.pdf
+2025-08-31 20:45:21.634 | INFO     | __main__:process_single_pdf:52 - Processing Cyrany-2016-Buried bumper syndrome_ A complica.pdf...
+2025-08-31 20:46:30.586 | SUCCESS  | __main__:process_single_pdf:71 - ✓ Successfully processed Cyrany-2016-Buried bumper syndrome_ A complica
+2025-08-31 20:46:30.587 | INFO     | __main__:main:189 - [44/414] Processing The Utility of the EBUS Characteristics in Differentiating Between Malignant and Tuberculous .pdf
+2025-08-31 20:46:30.587 | INFO     | __main__:process_single_pdf:52 - Processing The Utility of the EBUS Characteristics in Differentiating Between Malignant and Tuberculous .pdf...
+2025-08-31 20:47:26.154 | SUCCESS  | __main__:process_single_pdf:71 - ✓ Successfully processed The Utility of the EBUS Characteristics in Differentiating Between Malignant and Tuberculous 
+2025-08-31 20:47:26.154 | INFO     | __main__:main:189 - [45/414] Processing BLVR with endobronchial valves for patients wi.pdf
+2025-08-31 20:47:26.154 | INFO     | __main__:process_single_pdf:52 - Processing BLVR with endobronchial valves for patients wi.pdf...
+2025-08-31 20:49:23.223 | SUCCESS  | __main__:process_single_pdf:71 - ✓ Successfully processed BLVR with endobronchial valves for patients wi
+2025-08-31 20:49:23.223 | INFO     | __main__:main:189 - [46/414] Processing A Multicenter RCT of Zephyr Endobronchial Valv.pdf
+2025-08-31 20:49:23.223 | INFO     | __main__:process_single_pdf:52 - Processing A Multicenter RCT of Zephyr Endobronchial Valv.pdf...
+2025-08-31 20:51:34.687 | SUCCESS  | __main__:process_single_pdf:71 - ✓ Successfully processed A Multicenter RCT of Zephyr Endobronchial Valv
+2025-08-31 20:51:34.688 | INFO     | __main__:main:189 - [47/414] Processing nd__yag_laser_therapy_in_lung_cancer__an_11_year.6.pdf
+2025-08-31 20:51:34.688 | INFO     | __main__:process_single_pdf:52 - Processing nd__yag_laser_therapy_in_lung_cancer__an_11_year.6.pdf...
+2025-08-31 20:52:06.689 | ERROR    | __main__:process_single_pdf:74 - ✗ Failed to process nd__yag_laser_therapy_in_lung_cancer__an_11_year.6: 2025-08-31 20:51:37.623 | INFO     | __main__:process_pdf:62 - Docling parsing (DocumentConverter): nd__yag_laser_therapy_in_lung_cancer__an_11_year.6.pdf
+2025-08-31 20:52:03.245 | INFO     | __main__:process_pdf:80 - Cropping figure images with EXIF captions
+2025-08-31 20:52:03.863 | INFO     | __main__:process_pdf:83 - GROBID metadata & references
+Traceback (most recent call last):
+  File "/home/rjm/projects/ip_knowledge/medparse/medparse-docling/scripts/process_one.py", line 264, in <module>
+    process_pdf(Path(args.pdf), Path(args.out), Path(args.cfg), linker=args.linker, dump_docling_debug=args.dump_docling_debug)
+  File "/home/rjm/projects/ip_knowledge/medparse/medparse-docling/scripts/process_one.py", line 95, in process_pdf
+    refs = parse_references_tei(refs_tei["references_tei"])
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/rjm/projects/ip_knowledge/medparse/medparse-docling/scripts/grobid_references.py", line 29, in parse_references_tei
+    root = etree.fromstring(tei_xml.encode("utf-8"))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "src/lxml/etree.pyx", line 3307, in lxml.etree.fromstring
+  File "src/lxml/parser.pxi", line 1995, in lxml.etree._parseMemoryDocument
+  File "src/lxml/parser.pxi", line 1882, in lxml.etree._parseDoc
+  File "src/lxml/parser.pxi", line 1164, in lxml.etree._BaseParser._parseDoc
+  File "src/lxml/parser.pxi", line 633, in lxml.etree._ParserContext._handleParseResultDoc
+  File "src/lxml/parser.pxi", line 743, in lxml.etree._handleParseResult
+  File "src/lxml/parser.pxi", line 672, in lxml.etree._raiseParseError
+  File "<string>", line 1
+lxml.etree.XMLSyntaxError: Document is empty, line 1, column 1
+
+2025-08-31 20:52:06.689 | INFO     | __main__:main:189 - [48/414] Processing Ljungdahl-2006-Complication rate lower after p.pdf
+2025-08-31 20:52:06.690 | INFO     | __main__:process_single_pdf:52 - Processing Ljungdahl-2006-Complication rate lower after p.pdf...
+2025-08-31 20:53:21.807 | SUCCESS  | __main__:process_single_pdf:71 - ✓ Successfully processed Ljungdahl-2006-Complication rate lower after p
+2025-08-31 20:53:21.807 | INFO     | __main__:main:189 - [49/414] Processing Multidetector CT evaluation of tracheobronchom.pdf
+2025-08-31 20:53:21.807 | INFO     | __main__:process_single_pdf:52 - Processing Multidetector CT evaluation of tracheobronchom.pdf...
+2025-08-31 20:54:29.726 | SUCCESS  | __main__:process_single_pdf:71 - ✓ Successfully processed Multidetector CT evaluation of tracheobronchom
+2025-08-31 20:54:29.726 | INFO     | __main__:main:189 - [50/414] Processing Validation Study for the N Descriptor.pdf
+2025-08-31 20:54:29.726 | INFO     | __main__:process_single_pdf:52 - Processing Validation Study for the N Descriptor.pdf...
+2025-08-31 20:55:26.508 | SUCCESS  | __main__:process_single_pdf:71 - ✓ Successfully processed Validation Study for the N Descriptor
+2025-08-31 20:55:26.509 | INFO     | __main__:main:189 - [51/414] Processing chest tube pandora box.pdf
+2025-08-31 20:55:26.509 | INFO     | __main__:process_single_pdf:52 - Processing chest tube pandora box.pdf...
+2025-08-31 20:57:00.929 | SUCCESS  | __main__:process_single_pdf:71 - ✓ Successfully processed chest tube pandora box
+2025-08-31 20:57:00.929 | INFO     | __main__:main:198 - Reached 50 successful processes, committing intermediate results...
+2025-08-31 20:57:00.929 | INFO     | __main__:git_commit_and_push:129 - Adding changes to git...
