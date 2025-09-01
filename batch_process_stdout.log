@@ -4442,3 +4442,101 @@ To https://github.com/russellmiller49/Medparse.git
 2025-09-01 06:06:23.151 | SUCCESS  | __main__:process_single_pdf:71 - ✓ Successfully processed Evaluating the Patient With a Pulmonary Nodule_A Review
 2025-09-01 06:06:23.152 | INFO     | __main__:main:198 - Reached 310 successful processes, committing intermediate results...
 2025-09-01 06:06:23.152 | INFO     | __main__:git_commit_and_push:129 - Adding changes to git...
+2025-09-01 06:06:23.252 | INFO     | __main__:git_commit_and_push:145 - Creating git commit...
+[fix/extraction-hardening 92297bc] feat: Batch processed 310 PDFs (intermediate commit)
+ 62 files changed, 148833 insertions(+), 1 deletion(-)
+ create mode 100644 out/batch_processed/A prospective CT of EBUS compared with mediastinoscopy for staging of lung cancer.json
+ create mode 100644 out/batch_processed/An updated review in percutaneous tracheostomy.json
+ create mode 100644 out/batch_processed/Electromagnetic navigation bronchoscopy to access lung lesions in.json
+ create mode 100644 out/batch_processed/Evaluating the Patient With a Pulmonary Nodule_A Review.json
+ create mode 100644 out/batch_processed/IPCplus.json
+ create mode 100644 out/batch_processed/Impact of the Ninth International Association for the Study of Lung Cancer TNM Classification on Endobronchial Ultrasound for Lung Cancer Staging.json
+ create mode 100644 out/batch_processed/Pleural Cryobiopsy A Systematic Review and Met.json
+ create mode 100644 out/batch_processed/Risks of and recommendations for flexible bronchoscopy in pregnancy.json
+ create mode 100644 out/batch_processed/The business of interventional pulmonology.json
+ create mode 100644 out/batch_processed/Ultrasound-Guided Percutaneous Dilational Trac.json
+ create mode 100644 out/figures/A prospective CT of EBUS compared with mediastinoscopy for staging of lung cancer_fig01.jpg
+ create mode 100644 out/figures/A prospective CT of EBUS compared with mediastinoscopy for staging of lung cancer_fig02.jpg
+ create mode 100644 out/figures/A prospective CT of EBUS compared with mediastinoscopy for staging of lung cancer_fig03.jpg
+ create mode 100644 out/figures/Electromagnetic navigation bronchoscopy to access lung lesions in_fig01.jpg
+ create mode 100644 out/figures/Electromagnetic navigation bronchoscopy to access lung lesions in_fig02.jpg
+ create mode 100644 out/figures/Electromagnetic navigation bronchoscopy to access lung lesions in_fig03.jpg
+ create mode 100644 out/figures/Electromagnetic navigation bronchoscopy to access lung lesions in_fig04.jpg
+ create mode 100644 out/figures/Electromagnetic navigation bronchoscopy to access lung lesions in_fig05.jpg
+ create mode 100644 out/figures/Evaluating the Patient With a Pulmonary Nodule_A Review_fig01.jpg
+ create mode 100644 out/figures/Evaluating the Patient With a Pulmonary Nodule_A Review_fig02.jpg
+ create mode 100644 out/figures/Evaluating the Patient With a Pulmonary Nodule_A Review_fig03.jpg
+ create mode 100644 out/figures/Evaluating the Patient With a Pulmonary Nodule_A Review_fig04.jpg
+ create mode 100644 out/figures/Evaluating the Patient With a Pulmonary Nodule_A Review_fig05.jpg
+ create mode 100644 out/figures/Evaluating the Patient With a Pulmonary Nodule_A Review_fig06.jpg
+ create mode 100644 out/figures/Evaluating the Patient With a Pulmonary Nodule_A Review_fig07.jpg
+ create mode 100644 out/figures/IPCplus_fig01.jpg
+ create mode 100644 out/figures/IPCplus_fig02.jpg
+ create mode 100644 out/figures/Impact of the Ninth International Association for the Study of Lung Cancer TNM Classification on Endobronchial Ultrasound for Lung Cancer Staging_fig01.jpg
+ create mode 100644 out/figures/Impact of the Ninth International Association for the Study of Lung Cancer TNM Classification on Endobronchial Ultrasound for Lung Cancer Staging_fig02.jpg
+ create mode 100644 out/figures/Impact of the Ninth International Association for the Study of Lung Cancer TNM Classification on Endobronchial Ultrasound for Lung Cancer Staging_fig03.jpg
+ create mode 100644 out/figures/Impact of the Ninth International Association for the Study of Lung Cancer TNM Classification on Endobronchial Ultrasound for Lung Cancer Staging_fig04.jpg
+ create mode 100644 out/figures/Pleural Cryobiopsy A Systematic Review and Met_fig01.jpg
+ create mode 100644 out/figures/Pleural Cryobiopsy A Systematic Review and Met_fig02.jpg
+ create mode 100644 out/figures/Pleural Cryobiopsy A Systematic Review and Met_figure1.jpg
+ create mode 100644 out/figures/Pleural Cryobiopsy A Systematic Review and Met_figure3.jpg
+ create mode 100644 out/figures/Risks of and recommendations for flexible bronchoscopy in pregnancy_fig01.jpg
+ create mode 100644 out/figures/Ultrasound-Guided Percutaneous Dilational Trac_fig01.jpg
+ create mode 100644 out/figures/Ultrasound-Guided Percutaneous Dilational Trac_fig02.jpg
+ create mode 100644 out/figures/Ultrasound-Guided Percutaneous Dilational Trac_fig03.jpg
+ create mode 100644 out/figures/Ultrasound-Guided Percutaneous Dilational Trac_fig04.jpg
+ create mode 100644 out/figures/Ultrasound-Guided Percutaneous Dilational Trac_fig05.jpg
+ create mode 100644 out/qa/A prospective CT of EBUS compared with mediastinoscopy for staging of lung cancer__umls.qa.json
+ create mode 100644 out/qa/Electromagnetic navigation bronchoscopy to access lung lesions in__umls.qa.json
+ create mode 100644 out/qa/Evaluating the Patient With a Pulmonary Nodule_A Review__umls.qa.json
+ create mode 100644 out/qa/IPCplus__umls.qa.json
+ create mode 100644 out/qa/Impact of the Ninth International Association for the Study of Lung Cancer TNM Classification on Endobronchial Ultrasound for Lung Cancer Staging__umls.qa.json
+ create mode 100644 out/qa/Pleural Cryobiopsy A Systematic Review and Met__umls.qa.json
+ create mode 100644 out/qa/Risks of and recommendations for flexible bronchoscopy in pregnancy__umls.qa.json
+ create mode 100644 out/qa/The business of interventional pulmonology__umls.qa.json
+ create mode 100644 out/qa/Ultrasound-Guided Percutaneous Dilational Trac__umls.qa.json
+ create mode 100644 out/references/A prospective CT of EBUS compared with mediastinoscopy for staging of lung cancer.refs.csv
+ create mode 100644 out/references/Electromagnetic navigation bronchoscopy to access lung lesions in.refs.csv
+ create mode 100644 out/references/Evaluating the Patient With a Pulmonary Nodule_A Review.refs.csv
+ create mode 100644 out/references/IPCplus.refs.csv
+ create mode 100644 out/references/Impact of the Ninth International Association for the Study of Lung Cancer TNM Classification on Endobronchial Ultrasound for Lung Cancer Staging.refs.csv
+ create mode 100644 out/references/Pleural Cryobiopsy A Systematic Review and Met.refs.csv
+ create mode 100644 out/references/Risks of and recommendations for flexible bronchoscopy in pregnancy.refs.csv
+ create mode 100644 out/references/The business of interventional pulmonology.refs.csv
+ create mode 100644 out/references/Ultrasound-Guided Percutaneous Dilational Trac.refs.csv
+2025-09-01 06:06:23.283 | INFO     | __main__:git_commit_and_push:158 - Pushing to origin/fix/extraction-hardening...
+To https://github.com/russellmiller49/Medparse.git
+   540a718..92297bc  fix/extraction-hardening -> fix/extraction-hardening
+2025-09-01 06:06:27.008 | SUCCESS  | __main__:git_commit_and_push:161 - ✓ Successfully pushed to GitHub (branch: fix/extraction-hardening)
+2025-09-01 06:06:27.008 | INFO     | __main__:main:189 - [315/414] Processing fistula Grewal-2019-Treatment of Tracheobronchial Inju.pdf
+2025-09-01 06:06:27.009 | INFO     | __main__:process_single_pdf:52 - Processing fistula Grewal-2019-Treatment of Tracheobronchial Inju.pdf...
+2025-09-01 06:09:07.185 | SUCCESS  | __main__:process_single_pdf:71 - ✓ Successfully processed fistula Grewal-2019-Treatment of Tracheobronchial Inju
+2025-09-01 06:09:07.185 | INFO     | __main__:main:189 - [316/414] Processing The relationship between chest tube size and c.pdf
+2025-09-01 06:09:07.185 | INFO     | __main__:process_single_pdf:52 - Processing The relationship between chest tube size and c.pdf...
+2025-09-01 06:11:18.936 | SUCCESS  | __main__:process_single_pdf:71 - ✓ Successfully processed The relationship between chest tube size and c
+2025-09-01 06:11:18.936 | INFO     | __main__:main:189 - [317/414] Processing Respiratory infections increase the r.pdf
+2025-09-01 06:11:18.936 | INFO     | __main__:process_single_pdf:52 - Processing Respiratory infections increase the r.pdf...
+2025-09-01 06:12:41.779 | SUCCESS  | __main__:process_single_pdf:71 - ✓ Successfully processed Respiratory infections increase the r
+2025-09-01 06:12:41.779 | INFO     | __main__:main:189 - [318/414] Processing A Systematic Review and Meta-Analysis Comparin.pdf
+2025-09-01 06:12:41.779 | INFO     | __main__:process_single_pdf:52 - Processing A Systematic Review and Meta-Analysis Comparin.pdf...
+2025-09-01 06:14:17.853 | SUCCESS  | __main__:process_single_pdf:71 - ✓ Successfully processed A Systematic Review and Meta-Analysis Comparin
+2025-09-01 06:14:17.853 | INFO     | __main__:main:189 - [319/414] Processing The Clinical and Economic Implications of pleural effusions.pdf
+2025-09-01 06:14:17.853 | INFO     | __main__:process_single_pdf:52 - Processing The Clinical and Economic Implications of pleural effusions.pdf...
+2025-09-01 06:15:44.498 | SUCCESS  | __main__:process_single_pdf:71 - ✓ Successfully processed The Clinical and Economic Implications of pleural effusions
+2025-09-01 06:15:44.498 | INFO     | __main__:main:189 - [320/414] Processing green-et-al-2021-overview-of-interventional-pulmonology-for-radiologists.pdf
+2025-09-01 06:15:44.499 | INFO     | __main__:process_single_pdf:52 - Processing green-et-al-2021-overview-of-interventional-pulmonology-for-radiologists.pdf...
+2025-09-01 06:18:56.509 | SUCCESS  | __main__:process_single_pdf:71 - ✓ Successfully processed green-et-al-2021-overview-of-interventional-pulmonology-for-radiologists
+2025-09-01 06:18:56.509 | INFO     | __main__:main:189 - [321/414] Processing Efficacy and Safety of Airway Stent in TEF.pdf
+2025-09-01 06:18:56.509 | INFO     | __main__:process_single_pdf:52 - Processing Efficacy and Safety of Airway Stent in TEF.pdf...
+2025-09-01 06:19:53.320 | SUCCESS  | __main__:process_single_pdf:71 - ✓ Successfully processed Efficacy and Safety of Airway Stent in TEF
+2025-09-01 06:19:53.320 | INFO     | __main__:main:189 - [322/414] Processing Evaluation of individuals with pulmonary nodules when is it lung cancer.pdf
+2025-09-01 06:19:53.320 | INFO     | __main__:process_single_pdf:52 - Processing Evaluation of individuals with pulmonary nodules when is it lung cancer.pdf...
+2025-09-01 06:25:27.720 | SUCCESS  | __main__:process_single_pdf:71 - ✓ Successfully processed Evaluation of individuals with pulmonary nodules when is it lung cancer
+2025-09-01 06:25:27.720 | INFO     | __main__:main:189 - [323/414] Processing The role of  elastography in the dx of med and hilar lymph.pdf
+2025-09-01 06:25:27.720 | INFO     | __main__:process_single_pdf:52 - Processing The role of  elastography in the dx of med and hilar lymph.pdf...
+2025-09-01 06:26:23.806 | SUCCESS  | __main__:process_single_pdf:71 - ✓ Successfully processed The role of  elastography in the dx of med and hilar lymph
+2025-09-01 06:26:23.806 | INFO     | __main__:main:189 - [324/414] Processing cancers-15-01068.pdf
+2025-09-01 06:26:23.806 | INFO     | __main__:process_single_pdf:52 - Processing cancers-15-01068.pdf...
+2025-09-01 06:28:08.436 | SUCCESS  | __main__:process_single_pdf:71 - ✓ Successfully processed cancers-15-01068
+2025-09-01 06:28:08.436 | INFO     | __main__:main:198 - Reached 320 successful processes, committing intermediate results...
+2025-09-01 06:28:08.436 | INFO     | __main__:git_commit_and_push:129 - Adding changes to git...
