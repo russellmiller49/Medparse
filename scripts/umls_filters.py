@@ -30,24 +30,43 @@ BLACKLIST_TERMS = {
     'history of three', 'history of two', 'history of one', 'history of four', 'history of five',
     'one', 'two', 'three', 'four', 'five', 'six', 'seven', 'eight', 'nine', 'ten',
     'yes', 'no', 'none', 'all', 'some', 'many', 'few', 'several',
-    'left', 'right', 'up', 'down', 'front', 'back',
+    'left', 'right', 'up', 'down', 'front', 'back', 
+    'top', 'bottom', 'middle', 'center', 'side',
     'january', 'february', 'march', 'april', 'may', 'june', 'july', 'august', 'september', 'october', 'november', 'december',
     'monday', 'tuesday', 'wednesday', 'thursday', 'friday', 'saturday', 'sunday',
-    'morning', 'afternoon', 'evening', 'night',
-    'table', 'figure', 'page', 'section', 'chapter',
-    'study', 'research', 'analysis', 'review', 'report'
+    'morning', 'afternoon', 'evening', 'night', 'day', 'week', 'month', 'year',
+    'table', 'figure', 'page', 'section', 'chapter', 'appendix', 'supplementary',
+    'study', 'research', 'analysis', 'review', 'report', 'data', 'method',
+    'first', 'second', 'third', 'fourth', 'fifth',
+    'increase', 'decrease', 'change', 'difference',
+    'patient', 'subject', 'participant', 'group', 'cohort',
+    'result', 'finding', 'outcome', 'conclusion',
+    'positive', 'negative', 'neutral'
 }
 
+# Blacklist patterns (regex)
+import re
+BLACKLIST_PATTERNS = [
+    r'^history of \w+$',
+    r'^number of \w+$',
+    r'^part of \w+$',
+    r'^one of \w+$',
+    r'^\d+$',  # Pure numbers
+    r'^[A-Z]$',  # Single letters
+    r'^vs\.?$',  # vs or vs.
+    r'^n\s*=\s*\d+$',  # n = 123
+]
+
 def filter_umls_links(links: List[Dict[str, Any]], 
-                      min_score: float = 0.7,
-                      min_term_length: int = 3,
+                      min_score: float = 0.75,  # Increased threshold
+                      min_term_length: int = 4,  # Increased minimum
                       require_alphabetic: bool = True) -> List[Dict[str, Any]]:
     """
-    Filter UMLS links for quality and relevance.
+    Filter UMLS links for quality and relevance with precision focus.
     
     Args:
         links: List of UMLS link dictionaries
-        min_score: Minimum confidence score
+        min_score: Minimum confidence score (default 0.75 for precision)
         min_term_length: Minimum term length in characters
         require_alphabetic: Require at least one alphabetic character
     
@@ -60,16 +79,21 @@ def filter_umls_links(links: List[Dict[str, Any]],
     
     for link in links:
         # Extract fields
-        text = link.get('text', '').strip().lower()
+        text = link.get('text', '').strip()
+        text_lower = text.lower()
         cui = link.get('cui', '')
         score = link.get('score', 0.0)
         tuis = link.get('semtypes', [])
         
-        # Skip if blacklisted
-        if text in BLACKLIST_TERMS:
+        # Skip if blacklisted (exact match)
+        if text_lower in BLACKLIST_TERMS:
             continue
         
-        # Check score threshold
+        # Skip if matches blacklist pattern
+        if any(re.match(pattern, text_lower) for pattern in BLACKLIST_PATTERNS):
+            continue
+        
+        # Check score threshold (stricter for precision)
         if score < min_score:
             continue
         
@@ -81,6 +105,11 @@ def filter_umls_links(links: List[Dict[str, Any]],
         if require_alphabetic and not any(c.isalpha() for c in text):
             continue
         
+        # Skip terms that are mostly numbers
+        alpha_ratio = sum(1 for c in text if c.isalpha()) / len(text) if text else 0
+        if alpha_ratio < 0.5:  # At least 50% alphabetic
+            continue
+        
         # Check semantic types (if available)
         if tuis:
             # Must have at least one allowed TUI
@@ -89,6 +118,11 @@ def filter_umls_links(links: List[Dict[str, Any]],
         
         # Skip if term is just numbers or punctuation
         if text.replace(' ', '').replace('-', '').replace('.', '').isdigit():
+            continue
+        
+        # Skip generic medical terms without context
+        generic_terms = {'disease', 'syndrome', 'disorder', 'condition', 'symptom', 'sign'}
+        if text_lower in generic_terms and score < 0.9:
             continue
         
         # Deduplicate by term and CUI

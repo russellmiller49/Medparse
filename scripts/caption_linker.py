@@ -79,12 +79,14 @@ def link_captions(doc: Dict[str, Any]) -> Dict[str, Any]:
 def find_caption_for_asset(doc: Dict[str, Any], asset: Dict[str, Any], asset_type: str) -> Optional[str]:
     """
     Find caption for a table or figure using proximity and pattern matching.
+    Enhanced with layout-aware heuristics.
     """
-    # Caption patterns
+    # Caption patterns - more flexible to catch various formats
     if asset_type == 'table':
         patterns = [
             r'Table\s+([A-Z0-9]+(?:\.[0-9]+)?)[:\.]?\s*(.+?)(?:\n|$)',
             r'TABLE\s+([A-Z0-9]+(?:\.[0-9]+)?)[:\.]?\s*(.+?)(?:\n|$)',
+            r'Table\s+([IVX]+)[:\.]?\s*(.+?)(?:\n|$)',  # Roman numerals
             r'Supplementary\s+Table\s+([A-Z0-9]+)[:\.]?\s*(.+?)(?:\n|$)'
         ]
     else:  # figure
@@ -92,36 +94,84 @@ def find_caption_for_asset(doc: Dict[str, Any], asset: Dict[str, Any], asset_typ
             r'Figure\s+([A-Z0-9]+(?:\.[0-9]+)?)[:\.]?\s*(.+?)(?:\n|$)',
             r'FIGURE\s+([A-Z0-9]+(?:\.[0-9]+)?)[:\.]?\s*(.+?)(?:\n|$)',
             r'Fig\.\s+([A-Z0-9]+(?:\.[0-9]+)?)[:\.]?\s*(.+?)(?:\n|$)',
+            r'Figure\s+([IVX]+)[:\.]?\s*(.+?)(?:\n|$)',  # Roman numerals
             r'Supplementary\s+Figure\s+([A-Z0-9]+)[:\.]?\s*(.+?)(?:\n|$)'
         ]
     
     # Get page number and position if available
     page_num = asset.get('page', asset.get('page_number'))
     bbox = asset.get('bbox', asset.get('bounding_box'))
+    y_pos = None
+    if bbox:
+        # Try different bbox formats
+        if isinstance(bbox, dict):
+            y_pos = bbox.get('y', bbox.get('top', bbox.get('y0')))
+        elif isinstance(bbox, (list, tuple)) and len(bbox) >= 4:
+            y_pos = bbox[1]  # Assume format [x0, y0, x1, y1]
     
-    # Search for captions in the document text
+    # Collect potential captions with scores
+    caption_candidates = []
+    
+    # Search for captions in the document structure
     if 'structure' in doc and 'sections' in doc['structure']:
         for section in doc['structure']['sections']:
             if 'paragraphs' in section:
                 for para in section['paragraphs']:
                     text = para.get('text', '')
+                    para_page = para.get('page', para.get('page_number'))
+                    para_y = para.get('y', para.get('top'))
+                    
                     for pattern in patterns:
                         match = re.search(pattern, text, re.IGNORECASE | re.MULTILINE)
                         if match:
-                            # Check if this might be the right caption
-                            # (could add more sophisticated matching based on number)
                             caption_text = match.group(2).strip()
-                            if caption_text:
-                                return caption_text
+                            if caption_text and len(caption_text) > 5:  # Minimum length
+                                score = 0
+                                
+                                # Score based on page proximity
+                                if page_num and para_page:
+                                    page_diff = abs(page_num - para_page)
+                                    if page_diff == 0:
+                                        score += 10  # Same page
+                                    elif page_diff == 1:
+                                        score += 5   # Adjacent page
+                                    else:
+                                        continue  # Too far
+                                
+                                # Score based on vertical position
+                                if y_pos and para_y:
+                                    y_diff = abs(y_pos - para_y)
+                                    if y_diff < 50:  # Very close
+                                        score += 8
+                                    elif y_diff < 100:  # Close
+                                        score += 4
+                                    elif y_diff < 200:  # Moderate distance
+                                        score += 2
+                                
+                                # Bonus for caption appearing after the asset
+                                if para_y and y_pos and para_y > y_pos:
+                                    score += 3  # Captions usually below figures/tables
+                                
+                                caption_candidates.append((caption_text, score))
     
-    # Also check raw text if available
-    if 'text' in doc:
-        for pattern in patterns:
-            matches = re.finditer(pattern, doc['text'], re.IGNORECASE | re.MULTILINE)
-            for match in matches:
-                caption_text = match.group(2).strip()
-                if caption_text:
-                    return caption_text
+    # Fallback: Search in paragraphs without position info
+    if not caption_candidates:
+        if 'structure' in doc and 'sections' in doc['structure']:
+            for section in doc['structure']['sections']:
+                if 'paragraphs' in section:
+                    for para in section['paragraphs']:
+                        text = para.get('text', '')
+                        for pattern in patterns:
+                            match = re.search(pattern, text, re.IGNORECASE | re.MULTILINE)
+                            if match:
+                                caption_text = match.group(2).strip()
+                                if caption_text and len(caption_text) > 5:
+                                    caption_candidates.append((caption_text, 1))
+    
+    # Return best scoring caption
+    if caption_candidates:
+        caption_candidates.sort(key=lambda x: x[1], reverse=True)
+        return caption_candidates[0][0]
     
     return None
 

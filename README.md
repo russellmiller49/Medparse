@@ -1,5 +1,9 @@
 # medparse-docling
 
+**IMPORTANT:** Follow the canonical implementation playbook at:
+`/home/rjm/projects/ip_knowledge/medparse/medparse-docling/complete_medparse_implementation.md`
+for build, run, and QA steps. Treat that document as source-of-truth.
+
 High-fidelity medical PDF extraction with Docling → GROBID → UMLS (+ fallbacks) and comparative evaluation for entity linking. Features NLP-hardened text processing, structured references with PubMed enrichment, and comprehensive validation.
 
 ## Key Features

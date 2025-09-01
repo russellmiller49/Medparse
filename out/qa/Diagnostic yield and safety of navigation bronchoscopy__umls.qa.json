@@ -1,0 +1,15 @@
+{
+  "pdf": "Diagnostic yield and safety of navigation bronchoscopy.pdf",
+  "n_sections": 28,
+  "n_tables": 13,
+  "n_figures": 6,
+  "n_fig_crops": 5,
+  "missing_fig_bbox": 0,
+  "n_refs_csv": 113,
+  "n_umls_links": 0,
+  "n_local_links": 0,
+  "linker": "umls",
+  "completeness_score": 57,
+  "is_valid": false,
+  "timestamp": "2025-08-31 18:11:25"
+}

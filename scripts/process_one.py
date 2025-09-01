@@ -1,3 +1,10 @@
+"""
+MedParse document processing pipeline.
+
+IMPORTANT: Follow the canonical implementation playbook at:
+/home/rjm/projects/ip_knowledge/medparse/medparse-docling/complete_medparse_implementation.md
+for build, run, and QA steps. Treat that document as source-of-truth.
+"""
 from __future__ import annotations
 import json, argparse, sys, os
 from pathlib import Path
@@ -32,6 +39,8 @@ from scripts.statistics_gated import extract_statistics
 from scripts.umls_filters import filter_umls_links
 from scripts.caption_linker import link_captions
 from scripts.authors_fallback import extract_authors_from_frontmatter
+from scripts.abstract_fallback import extract_abstract
+from scripts.reference_manager import ensure_references_enriched
 from scripts.http_retry import with_retries, fetch_with_retry
 from scripts.section_classifier import classify_section
 from scripts.drug_extractor import extract_drugs_dosages
@@ -180,7 +189,21 @@ def process_pdf(pdf_path: Path, out_json: Path, cfg_path: Path, linker: str, dum
             merged.setdefault("metadata", {})["authors"] = authors
             logger.info(f"Extracted {len(authors)} authors from front matter")
     
-    # 5. Set validation flags
+    # 5. Abstract fallback extraction if needed
+    if not merged.get("metadata", {}).get("abstract"):
+        logger.info("Attempting abstract extraction from document structure")
+        abstract = extract_abstract(merged)
+        if abstract:
+            merged.setdefault("metadata", {})["abstract"] = abstract
+            logger.info(f"Extracted abstract ({len(abstract)} chars)")
+    
+    # 6. Ensure references are present (fallback to GROBID if needed)
+    ensure_references_enriched(merged)
+    refs_count = len(merged.get("metadata", {}).get("references_enriched", []))
+    refs_source = merged.get("metadata", {}).get("references_source", "unknown")
+    logger.info(f"References: {refs_count} from {refs_source}")
+    
+    # 7. Set validation flags
     merged.setdefault("validation", {}).update({
         "has_authors": bool(merged.get("metadata", {}).get("authors")),
         "has_statistics": bool(merged.get("statistics")),

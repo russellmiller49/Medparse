@@ -59,9 +59,37 @@ class UMLSClient:
 
 
 def normalize_terms(text: str, abbrev_map: Dict[str, str]) -> str:
+    """
+    Expand abbreviations intelligently, avoiding false positives like "or" -> "Odds ratio".
+    Only expand uppercase OR when near statistical context.
+    """
     def repl(m):
         k = m.group(0)
-        return f"{abbrev_map[k.upper()]} ({k})"
+        k_upper = k.upper()
+        
+        # Special handling for OR - only expand when uppercase and near stats
+        if k_upper == "OR" and k.lower() == "or":
+            # Check context window for statistical cues
+            start = max(0, m.start() - 80)
+            end = min(len(text), m.end() + 80)
+            window = text[start:end]
+            
+            # Only expand if we find statistical context
+            has_stats = any([
+                "95% CI" in window,
+                "CI" in window and re.search(r'\d', window),
+                re.search(r'p\s*[=<>]\s*0?\.\d', window),
+                re.search(r'ratio of (odds|geometric means)', window, re.I),
+                re.search(r'\bOR\s+\d', window),  # OR followed by number
+                re.search(r'\d+\.\d+\s*\(\s*\d+\.\d+', window),  # numeric pattern like 1.32 (0.88
+            ])
+            
+            if not has_stats:
+                return k  # Don't expand lowercase "or" without stats context
+        
+        # For other abbreviations or uppercase OR with stats context
+        return f"{abbrev_map[k_upper]} ({k})"
+    
     if not abbrev_map:
         return text
     pattern = r"\b(" + "|".join(map(re.escape, sorted(abbrev_map.keys(), key=len, reverse=True))) + r")\b"

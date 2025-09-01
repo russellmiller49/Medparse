@@ -11,7 +11,14 @@ STAT_KEYWORDS = {
     'odds ratio', 'or', 'hazard ratio', 'hr', 'risk ratio', 'rr',
     'mean', 'median', 'standard deviation', 'sd', 'iqr', 'interquartile',
     'correlation', 'r2', 'beta', 'coefficient', 'significant',
-    '±', 'plus-minus', 'range', 'min-max'
+    '±', 'plus-minus', 'range', 'min-max', 'geometric mean',
+    'ratio of geometric means', 'adjusted', 'unadjusted'
+}
+
+# Section names that are likely to contain real statistics
+STAT_SECTIONS = {
+    'results', 'statistical analysis', 'outcomes', 'findings',
+    'efficacy', 'safety', 'primary endpoint', 'secondary endpoint'
 }
 
 # Patterns to exclude (grant IDs, DOIs, PMIDs, etc.)
@@ -36,9 +43,13 @@ def is_excluded_pattern(text: str) -> bool:
             return True
     return False
 
-def extract_statistics(text: str) -> List[Dict[str, Any]]:
+def extract_statistics(text: str, section_name: str = None) -> List[Dict[str, Any]]:
     """
     Extract statistics with context gating and hard negatives.
+    
+    Args:
+        text: Text to extract from
+        section_name: Optional section name for context
     
     Returns list of dicts with keys:
     - type: 'p_value', 'ci', 'mean_sd', 'effect_size'
@@ -48,16 +59,31 @@ def extract_statistics(text: str) -> List[Dict[str, Any]]:
     """
     results = []
     
+    # Be more permissive in statistical sections
+    in_stat_section = section_name and any(
+        s in section_name.lower() for s in STAT_SECTIONS
+    )
+    
     # Split into sentences for context analysis
     sentences = re.split(r'[.!?]\s+', text)
     
     for sent in sentences:
-        # Skip if no statistical context
-        if not has_statistical_context(sent):
-            continue
+        # For statistical sections, only require mild evidence
+        if in_stat_section:
+            # Allow if has any number patterns that look statistical
+            has_stat_pattern = bool(re.search(
+                r'(?:\d+\.\d+\s*\([^)]*\d+\.\d+)|(?:p\s*[<>=]\s*\d)|(?:95%\s*CI)|(?:\b(?:OR|HR|RR)\s*\d)',
+                sent, re.I
+            ))
+            if not has_stat_pattern and not has_statistical_context(sent):
+                continue
+        else:
+            # Outside stat sections, require statistical context
+            if not has_statistical_context(sent):
+                continue
             
-        # Skip if contains excluded patterns
-        if is_excluded_pattern(sent):
+        # Skip if contains excluded patterns (but be less strict in stat sections)
+        if not in_stat_section and is_excluded_pattern(sent):
             continue
         
         # P-values
@@ -126,5 +152,43 @@ def extract_statistics(text: str) -> List[Dict[str, Any]]:
                 results.append(result)
             except (ValueError, TypeError):
                 continue
+        
+        # Ratio of geometric means (e.g., "ratio of geometric means 1·32 [95% CI 0·88–1·97]")
+        geom_pattern = r'ratio of geometric means\s+([\d.·]+)\s*\[?\(?\s*(?:95%?\s*)?CI\s*([\d.·]+)[–-]([\d.·]+)'
+        geom_matches = re.finditer(geom_pattern, sent, re.IGNORECASE)
+        for match in geom_matches:
+            try:
+                value = float(match.group(1).replace('·', '.'))
+                ci_lower = float(match.group(2).replace('·', '.'))
+                ci_upper = float(match.group(3).replace('·', '.'))
+                results.append({
+                    'type': 'geometric_mean_ratio',
+                    'value': value,
+                    'ci': [ci_lower, ci_upper],
+                    'text': match.group(0),
+                    'context': sent[:100]
+                })
+            except ValueError:
+                continue
+        
+        # General pattern for values with CI (e.g., "1.32 (95% CI 0.88–1.97)")
+        general_ci_pattern = r'([\d.·]+)\s*\(\s*(?:95%?\s*)?CI\s*([\d.·]+)[–-]([\d.·]+)\)'
+        general_matches = re.finditer(general_ci_pattern, sent)
+        for match in general_matches:
+            # Only capture if in statistical context
+            if has_statistical_context(sent[max(0, match.start()-30):min(len(sent), match.end()+30)]):
+                try:
+                    value = float(match.group(1).replace('·', '.'))
+                    ci_lower = float(match.group(2).replace('·', '.'))
+                    ci_upper = float(match.group(3).replace('·', '.'))
+                    results.append({
+                        'type': 'value_with_ci',
+                        'value': value,
+                        'ci': [ci_lower, ci_upper],
+                        'text': match.group(0),
+                        'context': sent[:100]
+                    })
+                except ValueError:
+                    continue
     
     return results
