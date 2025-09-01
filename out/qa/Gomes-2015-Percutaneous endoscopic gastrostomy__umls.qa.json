@@ -1,0 +1,15 @@
+{
+  "pdf": "Gomes-2015-Percutaneous endoscopic gastrostomy.pdf",
+  "n_sections": 216,
+  "n_tables": 62,
+  "n_figures": 89,
+  "n_fig_crops": 89,
+  "missing_fig_bbox": 0,
+  "n_refs_csv": 100,
+  "n_umls_links": 0,
+  "n_local_links": 0,
+  "linker": "umls",
+  "completeness_score": 57,
+  "is_valid": false,
+  "timestamp": "2025-08-31 19:42:18"
+}

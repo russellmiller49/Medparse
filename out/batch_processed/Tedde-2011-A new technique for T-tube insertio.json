@@ -1,0 +1,861 @@
+{
+  "metadata": {
+    "title": "A new technique for T-tube insertion in patients with subglottic stenosis",
+    "year": "2024-07-17",
+    "authors": [
+      "Thoracic Surgery",
+      "Sa Sa"
+    ],
+    "references_text": [
+      "Manual for Use of Montgomery® Laryngeal, Tracheal, and Esophageal Prostheses: Update 1990\n\t\t\n\t\t\tWilliamWMontgomery\n\t\t\n\t\t\n\t\t\tStuartKMontgomery\n\t\t\n\t\t10.1177/00034894900990s901\n\t\n\t\n\t\tAnnals of Otology, Rhinology & Laryngology\n\t\tAnn Otol Rhinol Laryngol\n\t\t0003-4894\n\t\t1943-572X\n\t\t\n\t\t\t99\n\t\t\t9_suppl\n\t\t\t\n\t\t\t1990\n\t\t\tSAGE Publications",
+      "Use of the silicone tracheal T-tube for the management of complex tracheal injuries\n\t\t\n\t\t\tJoelDCooper\n\t\t\n\t\t\n\t\t\tThomasR JTodd\n\t\t\n\t\t\n\t\t\tRiivoLives\n\t\t\n\t\t\n\t\t\tFGriffith Pearson\n\t\t\n\t\t10.1016/s0022-5223(19)39294-3\n\t\n\t\n\t\tThe Journal of Thoracic and Cardiovascular Surgery\n\t\tThe Journal of Thoracic and Cardiovascular Surgery\n\t\t0022-5223\n\t\t\n\t\t\t82\n\t\t\t4\n\t\t\t\n\t\t\t1981\n\t\t\tElsevier BV",
+      "Total Cervical Tracheal Stenosis: Treatment by Laser, Dilation, and Stenting\n\t\t\n\t\t\tStanleyMShapshay\n\t\t\n\t\t\n\t\t\tJohnFBeamis\n\t\t\n\t\t\n\t\t\tJean-FrancoisDumon\n\t\t\n\t\t10.1177/000348948909801110\n\t\n\t\n\t\tAnnals of Otology, Rhinology & Laryngology\n\t\tAnn Otol Rhinol Laryngol\n\t\t0003-4894\n\t\t1943-572X\n\t\t\n\t\t\t98\n\t\t\t11\n\t\t\t\n\t\t\t1989\n\t\t\tSAGE Publications",
+      "Improved technique for inserting a T tube in patients with subglottic stenosis\n\t\t\n\t\t\tRyoichiKato\n\t\t\n\t\t\n\t\t\tTeruhisaKobayashi\n\t\t\n\t\t\n\t\t\tMasazumiWatanabe\n\t\t\n\t\t\n\t\t\tMasafumiKawamura\n\t\t\n\t\t\n\t\t\tKojiKikuchi\n\t\t\n\t\t\n\t\t\tKoichiKobayashi\n\t\t\n\t\t\n\t\t\tTsuneoIshihara\n\t\t\n\t\t10.1016/0003-4975(91)90820-g\n\t\n\t\n\t\tThe Annals of Thoracic Surgery\n\t\tThe Annals of Thoracic Surgery\n\t\t0003-4975\n\t\t\n\t\t\t51\n\t\t\t2\n\t\t\t\n\t\t\t1991\n\t\t\tElsevier BV",
+      "A New Technique for T-Tube Insertion in Tracheal Stenosis Located Above the Tracheal Stoma\n\t\t\n\t\t\tBenoitJBibas\n\t\t\n\t\t\n\t\t\tRobertoABibas\n\t\t\n\t\t10.1016/j.athoracsur.2004.06.069\n\t\n\t\n\t\tThe Annals of Thoracic Surgery\n\t\tThe Annals of Thoracic Surgery\n\t\t0003-4975\n\t\t\n\t\t\t80\n\t\t\t6\n\t\t\t\n\t\t\t2005\n\t\t\tElsevier BV"
+    ],
+    "references_raw": [
+      "Manual for use of Montgomery laryngeal, tracheal, and esophageal prostheses: update 1990\n\t\t\n\t\t\tWWMontgomery\n\t\t\n\t\t\n\t\t\tSKMontgomery\n\t\t\n\t\n\t\n\t\tAnn Otol Rhinol Laryngol Suppl\n\t\t\n\t\t\t150\n\t\t\t\n\t\t\t1990",
+      "Use of the silicone tracheal T-tube for the management of complex tracheal injuries\n\t\t\n\t\t\tJDCooper\n\t\t\n\t\t\n\t\t\tTRTodd\n\t\t\n\t\t\n\t\t\tRIlves\n\t\t\n\t\t\n\t\t\tFGPearson\n\t\t\n\t\n\t\n\t\tJ Thorac Cardiovasc Surg\n\t\t\n\t\t\t82\n\t\t\t\n\t\t\t1981",
+      "Total cervical tracheal stenosis: treatment by laser, dilatation, and stenting\n\t\t\n\t\t\tSMShapshay\n\t\t\n\t\t\n\t\t\tBeamisJr\n\t\t\n\t\t\n\t\t\tJFDumon\n\t\t\n\t\t\n\t\t\tJF\n\t\t\n\t\n\t\n\t\tAnn Otol Rhinol Laryngol\n\t\t\n\t\t\t98\n\t\t\t\n\t\t\t1989",
+      "Improved technique for inserting a T tube in patients with subglottic stenosis\n\t\t\n\t\t\tRKato\n\t\t\n\t\t\n\t\t\tTKobayashi\n\t\t\n\t\t\n\t\t\tMWatanabe\n\t\t\n\t\t\n\t\t\tMKawamura\n\t\t\n\t\t\n\t\t\tKKikuchi\n\t\t\n\t\t\n\t\t\tKKobayashi\n\t\t\n\t\t\n\t\t\tTIshihara\n\t\t\n\t\n\t\n\t\tAnn Thorac Surg\n\t\t\n\t\t\t51\n\t\t\t\n\t\t\t1991",
+      "A new technique for T-tube insertion in tracheal stenosis located above the tracheal stoma\n\t\t\n\t\t\tBJBibas\n\t\t\n\t\t\n\t\t\tRABibas\n\t\t\n\t\n\t\n\t\tAnn Thorac Surg\n\t\t\n\t\t\t80\n\t\t\t\n\t\t\t2005"
+    ],
+    "references_struct": [
+      {
+        "title": "Manual for use of Montgomery laryngeal, tracheal, and esophageal prostheses: update 1990",
+        "journal": "Ann Otol Rhinol Laryngol Suppl",
+        "year": "1990",
+        "volume": "150",
+        "issue": null,
+        "pages": null,
+        "doi": null,
+        "pmid": null,
+        "authors": [
+          "Montgomery WW",
+          "Montgomery SK"
+        ],
+        "first_author_last": "Montgomery"
+      },
+      {
+        "title": "Use of the silicone tracheal T-tube for the management of complex tracheal injuries",
+        "journal": "J Thorac Cardiovasc Surg",
+        "year": "1981",
+        "volume": "82",
+        "issue": null,
+        "pages": null,
+        "doi": null,
+        "pmid": null,
+        "authors": [
+          "Cooper JD",
+          "Todd TR",
+          "Ilves R",
+          "Pearson FG"
+        ],
+        "first_author_last": "Cooper"
+      },
+      {
+        "title": "Total cervical tracheal stenosis: treatment by laser, dilatation, and stenting",
+        "journal": "Ann Otol Rhinol Laryngol",
+        "year": "1989",
+        "volume": "98",
+        "issue": null,
+        "pages": null,
+        "doi": null,
+        "pmid": null,
+        "authors": [
+          "Shapshay SM",
+          "Jr B",
+          "Dumon JF",
+          "JF"
+        ],
+        "first_author_last": "Shapshay"
+      },
+      {
+        "title": "Improved technique for inserting a T tube in patients with subglottic stenosis",
+        "journal": "Ann Thorac Surg",
+        "year": "1991",
+        "volume": "51",
+        "issue": null,
+        "pages": null,
+        "doi": null,
+        "pmid": null,
+        "authors": [
+          "Kato R",
+          "Kobayashi T",
+          "Watanabe M",
+          "Kawamura M",
+          "Kikuchi K",
+          "Kobayashi K",
+          "Ishihara T"
+        ],
+        "first_author_last": "Kato"
+      },
+      {
+        "title": "A new technique for T-tube insertion in tracheal stenosis located above the tracheal stoma",
+        "journal": "Ann Thorac Surg",
+        "year": "2005",
+        "volume": "80",
+        "issue": null,
+        "pages": null,
+        "doi": null,
+        "pmid": null,
+        "authors": [
+          "Bibas BJ",
+          "Bibas RA"
+        ],
+        "first_author_last": "Bibas"
+      }
+    ],
+    "abstract": "A silicone T tube is widely used for the management of airway problems. Montgomery described the way in which it is usually inserted, but this conventional insertion technique can fail in cases of subglottic stenosis due to the softness of the T tube, which kinks when forced against resistance. An adjunct to the traditional technique of Montgomery may help to insert a T tube in such patients. # 2010 European Association for Cardio-Thoracic Surgery. Published by Elsevier B.V . All rights reserved. Some modifications of the technique have been described in the literature when conventional placement fails [1]. These modifications use laborious manoeuvres and require the use of rigid bronchoscopy or suspension laryngoscopy. Cooper [2] has used the umbilical tape to place the proximal end of the intraluminal limb in the stenotic subglottic space. This tape is passed through the external limb and proximal end of the T tube, goes through the tracheostoma, and is pulled out by the mouth with a rigid bronchoscope. Shapshay [3] straightened a folded proximal end of the intraluminal limb by pulling with a forceps using a rigid bronchoscope. Kato [4] used a cone-shaped dilator placed beforehand at the proximal end of the intraluminal limb of the T tube. Once the set is inserted into the tracheostoma, it is possible to pull it out by the mouth making the proximal end of the T tube www.elsevier.com/locate/ejcts European Journal of Cardio-thoracic Surgery 39 (2011) 130-131 fax: +55 11 3151 6500. E-mail address: tedde@usp.br (M.L. Tedde). with the cone dilator pass through the stenotic subglottic space. Bibas intubated the patient with a cuffed endotracheal tube elongated by an uncuffed tube until this set can be pulled out by the tracheostoma. He inserted the tip of this long tube into the proximal end of the T tube and inflated the cuff so that both tubes become connected and he could pull them together, allowing the proximal end to be inserted inside stenotic subglottic area [5]. There are three advantages with our technique: a T tube can be inserted without the aid of suspension laryngoscopy or rigid bronchoscopy; insufflating the cuff of the Foley catheter helps to adjust the prosthesis in the subglottic stenotic area; and, under direct bronchoscopy, we can view the cuff insufflation which can be repeated as many times as required. Moreover, Foley catheters are ubiquitous, have the required cuff, are not expensive and with their use this technique has good results",
+    "references_enriched": [
+      {
+        "title": "Manual for use of Montgomery laryngeal, tracheal, and esophageal prostheses: update 1990"
+      },
+      {
+        "title": "Ann Otol Rhinol Laryngol Suppl",
+        "year": 1990
+      },
+      {
+        "title": "Use of the silicone tracheal T-tube for the management of complex tracheal injuries",
+        "year": 1990
+      },
+      {
+        "title": "J Thorac Cardiovasc Surg",
+        "year": 1981
+      },
+      {
+        "title": "Total cervical tracheal stenosis: treatment by laser, dilatation, and stenting",
+        "year": 1981
+      },
+      {
+        "title": "Ann Otol Rhinol Laryngol",
+        "year": 1990
+      },
+      {
+        "title": "Improved technique for inserting a T tube in patients with subglottic stenosis",
+        "year": 1989
+      },
+      {
+        "title": "Ann Thorac Surg",
+        "year": 1991
+      },
+      {
+        "title": "A new technique for T-tube insertion in tracheal stenosis located above the tracheal stoma",
+        "year": 1991
+      },
+      {
+        "title": "Ann Thorac Surg",
+        "year": 1991
+      }
+    ],
+    "references_source": "grobid_fallback"
+  },
+  "structure": {
+    "sections": [
+      {
+        "title": "Miguel Lia Tedde a, * , Ascedio Rodrigues b , Paulo Rogerio Scordamaglio b , Jackellyne Santos Monteiro b",
+        "paragraphs": [
+          {
+            "text": "a Thoracic Surgery Department, Heart Institute (InCor) and Hospital das Clinicas of Sa Sa ˜o Paulo, Brazil"
+          },
+          {
+            "text": "˜o Paulo Medical School,"
+          },
+          {
+            "text": "b Respiratory Endoscopy Service, Hospital das Clinicas of Sa ˜o Paulo Medical School, Sa ˜o Paulo, Brazil"
+          },
+          {
+            "text": "Received 1 March 2010; received in revised form 29 April 2010; accepted 7 May 2010; Available online 7 July 2010"
+          }
+        ],
+        "category": "other"
+      },
+      {
+        "title": "Abstract",
+        "paragraphs": [
+          {
+            "text": "A silicone T tube is widely used for the management of airway problems. Montgomery described the way in which it is usually inserted, but this conventional insertion technique can fail in cases of subglottic stenosis due to the softness of the T tube, which kinks when forced against resistance. An adjunct to the traditional technique of Montgomery may help to insert a T tube in such patients. # 2010 European Association for Cardio-Thoracic Surgery. Published by Elsevier B.V . All rights reserved."
+          },
+          {
+            "text": "Keywords: Montgomery T tube; Subglottic stenosis; Device; Bronchoscopy/bronchus; Endoscopy/endoscopic procedures"
+          },
+          {
+            "text": "A bronchoscopy for evaluation is done under topical anaesthesia and sedation. The patient is then submitted to general anaesthesia, usually maintained in spontaneous ventilation. The airway is dilatated with suspension laryngoscopy or rigid bronchoscopy and Montgomery insertion is initiated. When we found difficulties in placing the proximal end, we used the technique as depicted in Fig. 1. Using an intubation laryngoscope and a Magill grasper, a 10-F nasogastric tube (NT) is folded and inserted through the mouth and exteriorised by the tracheostoma. It is then introduced through the proximal end of the Montgomery and exteriorised in the extraluminal limb. The folded NT is introduced through the distal perforation of the Foley catheter, creating a large loop which can be passed around the T tube. The NT is then tractioned back in such a way that it becomes firmly attached to the Foley catheter. A forceps grasps the distal end of the Montgomery T tube inserting it into the trachea in the classical manner. Stretching the set NT/Foley catheter helps to introduce the proximal end inside the trachea. The bronchoscopic direct vision allows the Foley catheter to be insufflated, as many times as necessary, until the T-tube",
+            "cross_refs": [
+              {
+                "type": "figure",
+                "index": 0,
+                "text": "Fig. 1",
+                "span": [
+                  386,
+                  392
+                ]
+              }
+            ]
+          },
+          {
+            "text": "proximal end inside the stenotic area is completely unfolded and adjusted (Fig. 2).",
+            "cross_refs": [
+              {
+                "type": "figure",
+                "index": 1,
+                "text": "Fig. 2",
+                "span": [
+                  75,
+                  81
+                ]
+              }
+            ]
+          },
+          {
+            "text": "Using this technique in the last six ambulatory patients with conventional Montgomery technique failure, we succeeded optimal location of the proximal end without requiring other auxiliary techniques (i.e., trachea redilatation, suspension laryngoscopy or rigid bronchoscopy)."
+          }
+        ],
+        "category": "abstract"
+      },
+      {
+        "title": "1. Discussion",
+        "paragraphs": [
+          {
+            "text": "Some modifications of the technique have been described in the literature when conventional placement fails [1]. These modifications use laborious manoeuvres and require the use of rigid bronchoscopy or suspension laryngoscopy."
+          },
+          {
+            "text": "Cooper [2] has used the umbilical tape to place the proximal end of the intraluminal limb in the stenotic subglottic space. This tape is passed through the external limb and proximal end of the T tube, goes through the tracheostoma, and is pulled out by the mouth with a rigid bronchoscope."
+          },
+          {
+            "text": "Shapshay [3] straightened a folded proximal end of the intraluminal limb by pulling with a forceps using a rigid bronchoscope."
+          },
+          {
+            "text": "Kato [4] used a cone-shaped dilator placed beforehand at the proximal end of the intraluminal limb of the T tube. Once the set is inserted into the tracheostoma, it is possible to pull it out by the mouth making the proximal end of the T tube"
+          },
+          {
+            "text": "www.elsevier.com/locate/ejcts"
+          },
+          {
+            "text": "European Journal of Cardio-thoracic Surgery 39 (2011) 130-131"
+          },
+          {
+            "text": "fax: +55 11 3151 6500."
+          },
+          {
+            "text": "E-mail address:"
+          },
+          {
+            "text": "tedde@usp.br (M.L. Tedde)."
+          },
+          {
+            "text": "with the cone dilator pass through the stenotic subglottic space."
+          },
+          {
+            "text": "Bibas intubated the patient with a cuffed endotracheal tube elongated by an uncuffed tube until this set can be pulled out by the tracheostoma. He inserted the tip of this long tube into the proximal end of the T tube and inflated the cuff so that both tubes become connected and he could pull them together, allowing the proximal end to be inserted inside stenotic subglottic area [5]."
+          },
+          {
+            "text": "There are three advantages with our technique: a T tube can be inserted without the aid of suspension laryngoscopy or rigid bronchoscopy; insufflating the cuff of the Foley catheter helps to adjust the prosthesis in the subglottic stenotic area; and, under direct bronchoscopy, we can view the cuff insufflation which can be repeated as many times as required. Moreover, Foley catheters are ubiquitous, have the required cuff, are not expensive and with their use this technique has good results."
+          }
+        ],
+        "category": "discussion"
+      },
+      {
+        "title": "Acknowledgements",
+        "paragraphs": [
+          {
+            "text": "We are grateful to Falcetti Junior for the drawings and Evelinda M Trindade and Rosangela Monteiro for manuscript revision."
+          }
+        ],
+        "category": "other"
+      },
+      {
+        "title": "References",
+        "paragraphs": [
+          {
+            "text": "[1] Montgomery WW, Montgomery SK. Manual for use of Montgomery laryngeal, tracheal, and esophageal prostheses: update 1990. Ann Otol Rhinol Laryngol Suppl 1990;150:2-28."
+          },
+          {
+            "text": "[2] Cooper JD, Todd TR, Ilves R, Pearson FG. Use of the silicone tracheal T-tube for the management of complex tracheal injuries. J Thorac Cardiovasc Surg 1981;82:559-68."
+          },
+          {
+            "text": "[3] Shapshay SM, Beamis Jr JF , Dumon JF . Total cervical tracheal stenosis: treatment by laser, dilatation, and stenting. Ann Otol Rhinol Laryngol 1989;98:890-5."
+          },
+          {
+            "text": "[4] Kato R, Kobayashi T , Watanabe M, Kawamura M, Kikuchi K, Kobayashi K, Ishihara T. Improved technique for inserting a T tube in patients with subglottic stenosis. Ann Thorac Surg 1991;51:327-9."
+          },
+          {
+            "text": "[5] Bibas BJ, Bibas RA. A new technique for T-tube insertion in tracheal stenosis located above the tracheal stoma. Ann Thorac Surg 2005;80: 2387-9."
+          },
+          {
+            "text": "["
+          },
+          {
+            "text": "("
+          },
+          {
+            "text": "F"
+          },
+          {
+            "text": "i"
+          },
+          {
+            "text": "g"
+          },
+          {
+            "text": "."
+          },
+          {
+            "text": "_"
+          },
+          {
+            "text": "1"
+          },
+          {
+            "text": ")"
+          },
+          {
+            "text": "T"
+          },
+          {
+            "text": "D"
+          },
+          {
+            "text": "$"
+          },
+          {
+            "text": "I"
+          },
+          {
+            "text": "G"
+          },
+          {
+            "text": "]"
+          },
+          {
+            "text": "["
+          },
+          {
+            "text": "("
+          },
+          {
+            "text": "F"
+          },
+          {
+            "text": "i"
+          },
+          {
+            "text": "g"
+          },
+          {
+            "text": "."
+          },
+          {
+            "text": "_"
+          },
+          {
+            "text": "2"
+          },
+          {
+            "text": ")"
+          },
+          {
+            "text": "T"
+          },
+          {
+            "text": "D"
+          },
+          {
+            "text": "$"
+          },
+          {
+            "text": "I"
+          },
+          {
+            "text": "G"
+          },
+          {
+            "text": "]"
+          }
+        ],
+        "category": "other"
+      }
+    ],
+    "tables": [],
+    "figures": [
+      {
+        "self_ref": "#/pictures/0",
+        "parent": {
+          "cref": "#/body"
+        },
+        "children": [],
+        "content_layer": "body",
+        "label": "picture",
+        "prov": [
+          {
+            "page_no": 1,
+            "bbox": {
+              "l": 44.151973724365234,
+              "t": 748.4936065673828,
+              "r": 99.01409912109375,
+              "b": 687.5723037719727,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "charspan": [
+              0,
+              0
+            ]
+          }
+        ],
+        "captions": [],
+        "references": [],
+        "footnotes": [],
+        "image": null,
+        "annotations": []
+      },
+      {
+        "self_ref": "#/pictures/1",
+        "parent": {
+          "cref": "#/body"
+        },
+        "children": [
+          {
+            "cref": "#/texts/43"
+          },
+          {
+            "cref": "#/texts/44"
+          },
+          {
+            "cref": "#/texts/45"
+          },
+          {
+            "cref": "#/texts/46"
+          },
+          {
+            "cref": "#/texts/47"
+          }
+        ],
+        "content_layer": "body",
+        "label": "picture",
+        "prov": [
+          {
+            "page_no": 2,
+            "bbox": {
+              "l": 52.13410568237305,
+              "t": 730.6766357421875,
+              "r": 282.94525146484375,
+              "b": 564.7874450683594,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "charspan": [
+              0,
+              0
+            ]
+          }
+        ],
+        "captions": [
+          {
+            "cref": "#/texts/43"
+          }
+        ],
+        "references": [],
+        "footnotes": [],
+        "image": null,
+        "annotations": []
+      },
+      {
+        "self_ref": "#/pictures/2",
+        "parent": {
+          "cref": "#/body"
+        },
+        "children": [
+          {
+            "cref": "#/texts/63"
+          }
+        ],
+        "content_layer": "body",
+        "label": "picture",
+        "prov": [
+          {
+            "page_no": 2,
+            "bbox": {
+              "l": 48.2333984375,
+              "t": 452.4756164550781,
+              "r": 287.58331298828125,
+              "b": 324.428466796875,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "charspan": [
+              0,
+              0
+            ]
+          }
+        ],
+        "captions": [
+          {
+            "cref": "#/texts/63"
+          }
+        ],
+        "references": [],
+        "footnotes": [],
+        "image": null,
+        "annotations": []
+      }
+    ],
+    "citations": [],
+    "n_sections": 5,
+    "n_tables": 0,
+    "n_figures": 3,
+    "n_citations": 0
+  },
+  "provenance": {},
+  "grobid": {
+    "references_tei": "<TEI xmlns=\"http://www.tei-c.org/ns/1.0\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" \n xmlns:mml=\"http://www.w3.org/1998/Math/MathML\">\n\t<teiHeader/>\n\t<text>\n\t\t<front/>\n\t\t<body/>\n\t\t<back>\n\t\t\t<div>\n\t\t\t\t<listBibl>\n<biblStruct xml:id=\"b0\">\n\t<analytic>\n\t\t<title level=\"a\" type=\"main\">Manual for use of Montgomery laryngeal, tracheal, and esophageal prostheses: update 1990</title>\n\t\t<author>\n\t\t\t<persName><forename type=\"first\">W</forename><forename type=\"middle\">W</forename><surname>Montgomery</surname></persName>\n\t\t</author>\n\t\t<author>\n\t\t\t<persName><forename type=\"first\">S</forename><forename type=\"middle\">K</forename><surname>Montgomery</surname></persName>\n\t\t</author>\n\t</analytic>\n\t<monogr>\n\t\t<title level=\"j\">Ann Otol Rhinol Laryngol Suppl</title>\n\t\t<imprint>\n\t\t\t<biblScope unit=\"volume\">150</biblScope>\n\t\t\t<biblScope unit=\"page\" from=\"2\" to=\"28\" />\n\t\t\t<date type=\"published\" when=\"1990\">1990</date>\n\t\t</imprint>\n\t</monogr>\n</biblStruct>\n\n<biblStruct xml:id=\"b1\">\n\t<analytic>\n\t\t<title level=\"a\" type=\"main\">Use of the silicone tracheal T-tube for the management of complex tracheal injuries</title>\n\t\t<author>\n\t\t\t<persName><forename type=\"first\">J</forename><forename type=\"middle\">D</forename><surname>Cooper</surname></persName>\n\t\t</author>\n\t\t<author>\n\t\t\t<persName><forename type=\"first\">T</forename><forename type=\"middle\">R</forename><surname>Todd</surname></persName>\n\t\t</author>\n\t\t<author>\n\t\t\t<persName><forename type=\"first\">R</forename><surname>Ilves</surname></persName>\n\t\t</author>\n\t\t<author>\n\t\t\t<persName><forename type=\"first\">F</forename><forename type=\"middle\">G</forename><surname>Pearson</surname></persName>\n\t\t</author>\n\t</analytic>\n\t<monogr>\n\t\t<title level=\"j\">J Thorac Cardiovasc Surg</title>\n\t\t<imprint>\n\t\t\t<biblScope unit=\"volume\">82</biblScope>\n\t\t\t<biblScope unit=\"page\" from=\"559\" to=\"568\" />\n\t\t\t<date type=\"published\" when=\"1981\">1981</date>\n\t\t</imprint>\n\t</monogr>\n</biblStruct>\n\n<biblStruct xml:id=\"b2\">\n\t<analytic>\n\t\t<title level=\"a\" type=\"main\">Total cervical tracheal stenosis: treatment by laser, dilatation, and stenting</title>\n\t\t<author>\n\t\t\t<persName><forename type=\"first\">S</forename><forename type=\"middle\">M</forename><surname>Shapshay</surname></persName>\n\t\t</author>\n\t\t<author>\n\t\t\t<persName><forename type=\"first\">Beamis</forename><surname>Jr</surname></persName>\n\t\t</author>\n\t\t<author>\n\t\t\t<persName><forename type=\"first\">J</forename><forename type=\"middle\">F</forename><surname>Dumon</surname></persName>\n\t\t</author>\n\t\t<author>\n\t\t\t<persName><forename type=\"first\">J</forename><forename type=\"middle\">F</forename></persName>\n\t\t</author>\n\t</analytic>\n\t<monogr>\n\t\t<title level=\"j\">Ann Otol Rhinol Laryngol</title>\n\t\t<imprint>\n\t\t\t<biblScope unit=\"volume\">98</biblScope>\n\t\t\t<biblScope unit=\"page\" from=\"890\" to=\"895\" />\n\t\t\t<date type=\"published\" when=\"1989\">1989</date>\n\t\t</imprint>\n\t</monogr>\n</biblStruct>\n\n<biblStruct xml:id=\"b3\">\n\t<analytic>\n\t\t<title level=\"a\" type=\"main\">Improved technique for inserting a T tube in patients with subglottic stenosis</title>\n\t\t<author>\n\t\t\t<persName><forename type=\"first\">R</forename><surname>Kato</surname></persName>\n\t\t</author>\n\t\t<author>\n\t\t\t<persName><forename type=\"first\">T</forename><surname>Kobayashi</surname></persName>\n\t\t</author>\n\t\t<author>\n\t\t\t<persName><forename type=\"first\">M</forename><surname>Watanabe</surname></persName>\n\t\t</author>\n\t\t<author>\n\t\t\t<persName><forename type=\"first\">M</forename><surname>Kawamura</surname></persName>\n\t\t</author>\n\t\t<author>\n\t\t\t<persName><forename type=\"first\">K</forename><surname>Kikuchi</surname></persName>\n\t\t</author>\n\t\t<author>\n\t\t\t<persName><forename type=\"first\">K</forename><surname>Kobayashi</surname></persName>\n\t\t</author>\n\t\t<author>\n\t\t\t<persName><forename type=\"first\">T</forename><surname>Ishihara</surname></persName>\n\t\t</author>\n\t</analytic>\n\t<monogr>\n\t\t<title level=\"j\">Ann Thorac Surg</title>\n\t\t<imprint>\n\t\t\t<biblScope unit=\"volume\">51</biblScope>\n\t\t\t<biblScope unit=\"page\" from=\"327\" to=\"329\" />\n\t\t\t<date type=\"published\" when=\"1991\">1991</date>\n\t\t</imprint>\n\t</monogr>\n</biblStruct>\n\n<biblStruct xml:id=\"b4\">\n\t<analytic>\n\t\t<title level=\"a\" type=\"main\">A new technique for T-tube insertion in tracheal stenosis located above the tracheal stoma</title>\n\t\t<author>\n\t\t\t<persName><forename type=\"first\">B</forename><forename type=\"middle\">J</forename><surname>Bibas</surname></persName>\n\t\t</author>\n\t\t<author>\n\t\t\t<persName><forename type=\"first\">R</forename><forename type=\"middle\">A</forename><surname>Bibas</surname></persName>\n\t\t</author>\n\t</analytic>\n\t<monogr>\n\t\t<title level=\"j\">Ann Thorac Surg</title>\n\t\t<imprint>\n\t\t\t<biblScope unit=\"volume\">80</biblScope>\n\t\t\t<biblScope unit=\"page\" from=\"2387\" to=\"2389\" />\n\t\t\t<date type=\"published\" when=\"2005\">2005</date>\n\t\t</imprint>\n\t</monogr>\n</biblStruct>\n\n\t\t\t\t</listBibl>\n\t\t\t</div>\n\t\t</back>\n\t</text>\n</TEI>\n"
+  },
+  "umls_links": [],
+  "references_enriched": [
+    {
+      "title": "Manual for use of Montgomery laryngeal, tracheal, and esophageal prostheses: update 1990",
+      "journal": "Ann Otol Rhinol Laryngol Suppl",
+      "year": "1990",
+      "volume": "150",
+      "issue": null,
+      "pages": null,
+      "doi": null,
+      "pmid": null,
+      "authors": [
+        "Montgomery WW",
+        "Montgomery SK"
+      ],
+      "first_author_last": "Montgomery",
+      "enrichment": {
+        "pmid": null,
+        "doi": null
+      }
+    },
+    {
+      "title": "Use of the silicone tracheal T-tube for the management of complex tracheal injuries",
+      "journal": "J Thorac Cardiovasc Surg",
+      "year": "1981",
+      "volume": "82",
+      "issue": null,
+      "pages": null,
+      "doi": null,
+      "pmid": null,
+      "authors": [
+        "Cooper JD",
+        "Todd TR",
+        "Ilves R",
+        "Pearson FG"
+      ],
+      "first_author_last": "Cooper",
+      "enrichment": {
+        "pmid": "7278347",
+        "doi": null,
+        "title": "Use of the silicone tracheal T-tube for the management of complex tracheal injuries.",
+        "journal": "The Journal of thoracic and cardiovascular surgery",
+        "year": "1981",
+        "authors": [
+          "Cooper JD",
+          "Todd TR",
+          "Ilves R",
+          "Pearson FG"
+        ],
+        "mesh": [],
+        "pubtypes": [
+          "Journal Article"
+        ],
+        "abstract": "This paper reports on the use of the silicone Montgomery T-tube for the management of 18 patients with complex tracheal injuries. Our use of the tube was as follows: prior to definitive resection, as a better alternative to tracheostomy tube, while we were awaiting the most appropriate time for resection; at the time of resection, as an adjunct to segmental subglottic resection, used to stent residual abnormal laryngeal mucosa: following tracheal resection for uncertain or unsatisfactory healing: as sole treatment, when resection was deemed unsuitable or inappropriate. When stenting the high region, the upper limb of the T-tube can be brought through the vocal cords with preservation of a functional voice and without injury to the vocal cords even with prolonged use. In contrast to a tracheostomy tube, the T-tube provides respiration through the the nasopharynx, so that humidification and phonation are maintained. It is generally trouble free, requires little if any maintenance, and can remain in place for a year or more when necessary."
+      }
+    },
+    {
+      "title": "Total cervical tracheal stenosis: treatment by laser, dilatation, and stenting",
+      "journal": "Ann Otol Rhinol Laryngol",
+      "year": "1989",
+      "volume": "98",
+      "issue": null,
+      "pages": null,
+      "doi": null,
+      "pmid": null,
+      "authors": [
+        "Shapshay SM",
+        "Jr B",
+        "Dumon JF",
+        "JF"
+      ],
+      "first_author_last": "Shapshay",
+      "enrichment": {
+        "pmid": "2817681",
+        "doi": null,
+        "title": "Total cervical tracheal stenosis: treatment by laser, dilation, and stenting.",
+        "journal": "The Annals of otology, rhinology, and laryngology",
+        "year": "1989",
+        "authors": [
+          "Shapshay SM",
+          "Beamis JF Jr",
+          "Dumon JF"
+        ],
+        "mesh": [],
+        "pubtypes": [
+          "Journal Article"
+        ],
+        "abstract": "Twelve patients with total cervical tracheal stenosis were treated by endoscopic laser excision (neodymium:yttrium aluminum garnet or carbon dioxide laser), bronchoscopic dilation, and prolonged stenting with a silicone T-tube. All patients had previous traumatic or prolonged endotracheal intubation requiring a tracheotomy and presented with aphonia as the major complaint. Multiple laser and dilation treatments were necessary in ten patients. Average duration of T-tube placement was 6 months. Excellent results (decannulation and good voice) were achieved in eight patients with a follow-up of 9 months to 6 years. Persistent granulation tissue and some degree of fibrosis were the most common complications (eight of 12 patients). Two patients died of medical complications. A high success rate with this endoscopic technique justifies this approach as our initial therapy, with open surgical techniques reserved for failure."
+      }
+    },
+    {
+      "title": "Improved technique for inserting a T tube in patients with subglottic stenosis",
+      "journal": "Ann Thorac Surg",
+      "year": "1991",
+      "volume": "51",
+      "issue": null,
+      "pages": null,
+      "doi": null,
+      "pmid": null,
+      "authors": [
+        "Kato R",
+        "Kobayashi T",
+        "Watanabe M",
+        "Kawamura M",
+        "Kikuchi K",
+        "Kobayashi K",
+        "Ishihara T"
+      ],
+      "first_author_last": "Kato",
+      "enrichment": {
+        "pmid": null,
+        "doi": null
+      }
+    },
+    {
+      "title": "A new technique for T-tube insertion in tracheal stenosis located above the tracheal stoma",
+      "journal": "Ann Thorac Surg",
+      "year": "2005",
+      "volume": "80",
+      "issue": null,
+      "pages": null,
+      "doi": null,
+      "pmid": null,
+      "authors": [
+        "Bibas BJ",
+        "Bibas RA"
+      ],
+      "first_author_last": "Bibas",
+      "enrichment": {
+        "pmid": "16305925",
+        "doi": null,
+        "title": "A new technique for T-tube insertion in tracheal stenosis located above the tracheal stoma.",
+        "journal": "The Annals of thoracic surgery",
+        "year": "2005",
+        "authors": [
+          "Bibas BJ",
+          "Bibas RA"
+        ],
+        "mesh": [],
+        "pubtypes": [
+          "Journal Article"
+        ],
+        "abstract": "Tracheal stenosis is one of the main complications of long-term intubation. The Montgomery T-tube is a safe way to treat patients with tracheal stenosis who are unable to undergo surgical procedures. We describe a simple and practical technique for the insertion of the T-tube in tracheal stenosis located above the tracheostomy, while maintaining ventilation throughout the whole procedure."
+      }
+    }
+  ],
+  "drugs": [],
+  "trial_ids": [],
+  "assets": {
+    "tables": [],
+    "figures": [
+      {
+        "type": "figure",
+        "content": {
+          "self_ref": "#/pictures/0",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "label": "picture",
+          "prov": [
+            {
+              "page_no": 1,
+              "bbox": {
+                "l": 44.151973724365234,
+                "t": 748.4936065673828,
+                "r": 99.01409912109375,
+                "b": 687.5723037719727,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                0
+              ]
+            }
+          ],
+          "captions": [],
+          "references": [],
+          "footnotes": [],
+          "image": null,
+          "annotations": []
+        },
+        "captions": [
+          "Using an intubation laryngoscope and a Magill grasper, a 10-F nasogastric tube (NT) is folded and inserted through the mouth and exteriorised by the tracheostoma. It is then introduced through the proximal end of the Montgomery and exteriorised in the extraluminal limb. The folded NT is introduced through the distal perforation of the Foley catheter, creating a large loop which can be passed around the T tube. The NT is then tractioned back in such a way that it becomes firmly attached to the Foley catheter. A forceps grasps the distal end of the Montgomery T tube inserting it into the trachea in the classical manner. Stretching the set NT/Foley catheter helps to introduce the proximal end inside the trachea. The bronchoscopic direct vision allows the Foley catheter to be insufflated, as many times as necessary, until the T-tube"
+        ],
+        "footnotes": [
+          "Thoracic Surgery Department, Heart Institute (InCor) and Hospital das Clinicas of Sa Sa ˜o Paulo, Brazil",
+          "Respiratory Endoscopy Service, Hospital das Clinicas of Sa ˜o Paulo Medical School, Sa ˜o Paulo, Brazil",
+          "roximal end inside the stenotic area is completely unfolded and adjusted (Fig. 2).",
+          "ww.elsevier.com/locate/ejcts",
+          "ax: +55 11 3151 6500.",
+          "edde@usp.br (M.L. Tedde).",
+          "ith the cone dilator pass through the stenotic subglottic space."
+        ]
+      },
+      {
+        "type": "figure",
+        "content": {
+          "self_ref": "#/pictures/1",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [
+            {
+              "cref": "#/texts/43"
+            },
+            {
+              "cref": "#/texts/44"
+            },
+            {
+              "cref": "#/texts/45"
+            },
+            {
+              "cref": "#/texts/46"
+            },
+            {
+              "cref": "#/texts/47"
+            }
+          ],
+          "content_layer": "body",
+          "label": "picture",
+          "prov": [
+            {
+              "page_no": 2,
+              "bbox": {
+                "l": 52.13410568237305,
+                "t": 730.6766357421875,
+                "r": 282.94525146484375,
+                "b": 564.7874450683594,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                0
+              ]
+            }
+          ],
+          "captions": [
+            {
+              "cref": "#/texts/43"
+            }
+          ],
+          "references": [],
+          "footnotes": [],
+          "image": null,
+          "annotations": []
+        },
+        "captions": [
+          "Using an intubation laryngoscope and a Magill grasper, a 10-F nasogastric tube (NT) is folded and inserted through the mouth and exteriorised by the tracheostoma. It is then introduced through the proximal end of the Montgomery and exteriorised in the extraluminal limb. The folded NT is introduced through the distal perforation of the Foley catheter, creating a large loop which can be passed around the T tube. The NT is then tractioned back in such a way that it becomes firmly attached to the Foley catheter. A forceps grasps the distal end of the Montgomery T tube inserting it into the trachea in the classical manner. Stretching the set NT/Foley catheter helps to introduce the proximal end inside the trachea. The bronchoscopic direct vision allows the Foley catheter to be insufflated, as many times as necessary, until the T-tube"
+        ],
+        "footnotes": [
+          "Thoracic Surgery Department, Heart Institute (InCor) and Hospital das Clinicas of Sa Sa ˜o Paulo, Brazil",
+          "Respiratory Endoscopy Service, Hospital das Clinicas of Sa ˜o Paulo Medical School, Sa ˜o Paulo, Brazil",
+          "roximal end inside the stenotic area is completely unfolded and adjusted (Fig. 2).",
+          "ww.elsevier.com/locate/ejcts",
+          "ax: +55 11 3151 6500.",
+          "edde@usp.br (M.L. Tedde).",
+          "ith the cone dilator pass through the stenotic subglottic space."
+        ]
+      },
+      {
+        "type": "figure",
+        "content": {
+          "self_ref": "#/pictures/2",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [
+            {
+              "cref": "#/texts/63"
+            }
+          ],
+          "content_layer": "body",
+          "label": "picture",
+          "prov": [
+            {
+              "page_no": 2,
+              "bbox": {
+                "l": 48.2333984375,
+                "t": 452.4756164550781,
+                "r": 287.58331298828125,
+                "b": 324.428466796875,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                0
+              ]
+            }
+          ],
+          "captions": [
+            {
+              "cref": "#/texts/63"
+            }
+          ],
+          "references": [],
+          "footnotes": [],
+          "image": null,
+          "annotations": []
+        },
+        "captions": [
+          "Using an intubation laryngoscope and a Magill grasper, a 10-F nasogastric tube (NT) is folded and inserted through the mouth and exteriorised by the tracheostoma. It is then introduced through the proximal end of the Montgomery and exteriorised in the extraluminal limb. The folded NT is introduced through the distal perforation of the Foley catheter, creating a large loop which can be passed around the T tube. The NT is then tractioned back in such a way that it becomes firmly attached to the Foley catheter. A forceps grasps the distal end of the Montgomery T tube inserting it into the trachea in the classical manner. Stretching the set NT/Foley catheter helps to introduce the proximal end inside the trachea. The bronchoscopic direct vision allows the Foley catheter to be insufflated, as many times as necessary, until the T-tube"
+        ],
+        "footnotes": [
+          "Thoracic Surgery Department, Heart Institute (InCor) and Hospital das Clinicas of Sa Sa ˜o Paulo, Brazil",
+          "Respiratory Endoscopy Service, Hospital das Clinicas of Sa ˜o Paulo Medical School, Sa ˜o Paulo, Brazil",
+          "roximal end inside the stenotic area is completely unfolded and adjusted (Fig. 2).",
+          "ww.elsevier.com/locate/ejcts",
+          "ax: +55 11 3151 6500.",
+          "edde@usp.br (M.L. Tedde).",
+          "ith the cone dilator pass through the stenotic subglottic space."
+        ]
+      }
+    ]
+  },
+  "statistics": [],
+  "validation": {
+    "checks": {
+      "has_title": true,
+      "has_authors": true,
+      "authors_are_valid": false,
+      "has_sections": true,
+      "sections_have_content": true,
+      "has_tables": false,
+      "tables_have_captions": true,
+      "tables_have_data": true,
+      "has_figures": true,
+      "figures_have_captions": false,
+      "figures_have_images": false,
+      "has_entities": false,
+      "has_statistics": false,
+      "has_references": true,
+      "refs_structured": true,
+      "refs_enriched_some": true,
+      "references_enriched": true,
+      "has_references_csv": false,
+      "has_cross_refs": false,
+      "umls_links": false,
+      "figures_textual_count": 0
+    },
+    "completeness_score": 61,
+    "is_valid": true,
+    "issues": [],
+    "warnings": [
+      "No medical entities found",
+      "No statistics extracted",
+      "Some figures missing captions"
+    ],
+    "quality_level": "acceptable"
+  }
+}

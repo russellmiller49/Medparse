@@ -34,3 +34,143 @@
 2025-08-31 19:32:15.811 | SUCCESS  | __main__:process_single_pdf:71 - ✓ Successfully processed The Proposed Ninth Edition TNM Classification of Lung Cancer
 2025-08-31 19:32:15.811 | INFO     | __main__:main:198 - Reached 10 successful processes, committing intermediate results...
 2025-08-31 19:32:15.811 | INFO     | __main__:git_commit_and_push:129 - Adding changes to git...
+2025-08-31 19:32:16.064 | INFO     | __main__:git_commit_and_push:145 - Creating git commit...
+[fix/extraction-hardening f737622] feat: Batch processed 10 PDFs (intermediate commit)
+ 102 files changed, 199062 insertions(+), 1 deletion(-)
+ create mode 100644 BATCH_PROCESSING_README.md
+ create mode 100644 batch_process.log
+ create mode 100644 batch_process_stdout.log
+ create mode 100644 out/batch_processed/AMPLE2.json
+ create mode 100644 out/batch_processed/Central Airway Obstruction Benign Strictures.json
+ create mode 100644 out/batch_processed/Combined Nd-YAG laser HDR brachytherapy versus.json
+ create mode 100644 out/batch_processed/Cone beam CT imaging for bronchoscopy a technical review.json
+ create mode 100644 out/batch_processed/Diagnostic accuracy of transbronchial lung cry.json
+ create mode 100644 out/batch_processed/Rashid-2017-Percutaneous tracheostomy_ a compr.json
+ create mode 100644 out/batch_processed/Safety and effectiveness of microdebrider bron.json
+ create mode 100644 out/batch_processed/Sanabria-2014-Which percutaneous tracheostomy.json
+ create mode 100644 out/batch_processed/The Proposed Ninth Edition TNM Classification of Lung Cancer.json
+ create mode 100644 out/batch_processed/fistula Youness-2018-Bronchoscopic advances in the man.json
+ create mode 100644 out/figures/Central Airway Obstruction Benign Strictures_fig01.jpg
+ create mode 100644 out/figures/Central Airway Obstruction Benign Strictures_fig02.jpg
+ create mode 100644 out/figures/Central Airway Obstruction Benign Strictures_fig04.jpg
+ create mode 100644 out/figures/Central Airway Obstruction Benign Strictures_fig05.jpg
+ create mode 100644 out/figures/Central Airway Obstruction Benign Strictures_fig06.jpg
+ create mode 100644 out/figures/Central Airway Obstruction Benign Strictures_fig08.jpg
+ create mode 100644 out/figures/Central Airway Obstruction Benign Strictures_fig09.jpg
+ create mode 100644 out/figures/Central Airway Obstruction Benign Strictures_fig10.jpg
+ create mode 100644 out/figures/Central Airway Obstruction Benign Strictures_figure1.jpg
+ create mode 100644 out/figures/Central Airway Obstruction Benign Strictures_figure4.jpg
+ create mode 100644 out/figures/Combined Nd-YAG laser HDR brachytherapy versus_fig01.jpg
+ create mode 100644 out/figures/Combined Nd-YAG laser HDR brachytherapy versus_fig02.jpg
+ create mode 100644 out/figures/Cone beam CT imaging for bronchoscopy a technical review_fig01.jpg
+ create mode 100644 out/figures/Cone beam CT imaging for bronchoscopy a technical review_fig02.jpg
+ create mode 100644 out/figures/Cone beam CT imaging for bronchoscopy a technical review_fig05.jpg
+ create mode 100644 out/figures/Cone beam CT imaging for bronchoscopy a technical review_fig06.jpg
+ create mode 100644 out/figures/Cone beam CT imaging for bronchoscopy a technical review_fig07.jpg
+ create mode 100644 out/figures/Cone beam CT imaging for bronchoscopy a technical review_fig08.jpg
+ create mode 100644 out/figures/Cone beam CT imaging for bronchoscopy a technical review_fig09.jpg
+ create mode 100644 out/figures/Cone beam CT imaging for bronchoscopy a technical review_fig10.jpg
+ create mode 100644 out/figures/Cone beam CT imaging for bronchoscopy a technical review_fig11.jpg
+ create mode 100644 out/figures/Cone beam CT imaging for bronchoscopy a technical review_fig12.jpg
+ create mode 100644 out/figures/Cone beam CT imaging for bronchoscopy a technical review_figure2.jpg
+ create mode 100644 out/figures/Cone beam CT imaging for bronchoscopy a technical review_figure3.jpg
+ create mode 100644 out/figures/Cone beam CT imaging for bronchoscopy a technical review_figure5.jpg
+ create mode 100644 out/figures/Diagnostic accuracy of transbronchial lung cry_fig01.jpg
+ create mode 100644 out/figures/Diagnostic accuracy of transbronchial lung cry_fig02.jpg
+ create mode 100644 out/figures/Diagnostic accuracy of transbronchial lung cry_fig03.jpg
+ create mode 100644 out/figures/Diagnostic accuracy of transbronchial lung cry_fig04.jpg
+ create mode 100644 out/figures/Diagnostic accuracy of transbronchial lung cry_fig05.jpg
+ create mode 100644 out/figures/Diagnostic accuracy of transbronchial lung cry_figure5.jpg
+ create mode 100644 out/figures/Rashid-2017-Percutaneous tracheostomy_ a compr_fig01.jpg
+ create mode 100644 out/figures/Rashid-2017-Percutaneous tracheostomy_ a compr_fig02.jpg
+ create mode 100644 out/figures/Rashid-2017-Percutaneous tracheostomy_ a compr_fig03.jpg
+ create mode 100644 out/figures/Rashid-2017-Percutaneous tracheostomy_ a compr_fig04.jpg
+ create mode 100644 out/figures/Safety and effectiveness of microdebrider bron_fig01.jpg
+ create mode 100644 out/figures/Safety and effectiveness of microdebrider bron_fig02.jpg
+ create mode 100644 out/figures/Safety and effectiveness of microdebrider bron_fig03.jpg
+ create mode 100644 out/figures/Sanabria-2014-Which percutaneous tracheostomy_fig01.jpg
+ create mode 100644 out/figures/Sanabria-2014-Which percutaneous tracheostomy_fig02.jpg
+ create mode 100644 out/figures/Sanabria-2014-Which percutaneous tracheostomy_fig03.jpg
+ create mode 100644 out/figures/The Proposed Ninth Edition TNM Classification of Lung Cancer_fig01.jpg
+ create mode 100644 out/figures/The Proposed Ninth Edition TNM Classification of Lung Cancer_fig02.jpg
+ create mode 100644 out/figures/The Proposed Ninth Edition TNM Classification of Lung Cancer_fig03.jpg
+ create mode 100644 out/figures/The Proposed Ninth Edition TNM Classification of Lung Cancer_fig04.jpg
+ create mode 100644 out/figures/The Proposed Ninth Edition TNM Classification of Lung Cancer_fig05.jpg
+ create mode 100644 out/figures/The Proposed Ninth Edition TNM Classification of Lung Cancer_fig06.jpg
+ create mode 100644 out/figures/The Proposed Ninth Edition TNM Classification of Lung Cancer_fig07.jpg
+ create mode 100644 out/figures/The Proposed Ninth Edition TNM Classification of Lung Cancer_fig08.jpg
+ create mode 100644 out/figures/The Proposed Ninth Edition TNM Classification of Lung Cancer_fig09.jpg
+ create mode 100644 out/figures/The Proposed Ninth Edition TNM Classification of Lung Cancer_fig10.jpg
+ create mode 100644 out/figures/The Proposed Ninth Edition TNM Classification of Lung Cancer_fig11.jpg
+ create mode 100644 out/figures/The Proposed Ninth Edition TNM Classification of Lung Cancer_fig12.jpg
+ create mode 100644 out/figures/The Proposed Ninth Edition TNM Classification of Lung Cancer_fig13.jpg
+ create mode 100644 out/figures/The Proposed Ninth Edition TNM Classification of Lung Cancer_fig14.jpg
+ create mode 100644 out/figures/The Proposed Ninth Edition TNM Classification of Lung Cancer_fig15.jpg
+ create mode 100644 out/figures/The Proposed Ninth Edition TNM Classification of Lung Cancer_fig16.jpg
+ create mode 100644 out/figures/fistula Youness-2018-Bronchoscopic advances in the man_fig01.jpg
+ create mode 100644 out/figures/fistula Youness-2018-Bronchoscopic advances in the man_fig02.jpg
+ create mode 100644 out/figures/fistula Youness-2018-Bronchoscopic advances in the man_fig03.jpg
+ create mode 100644 out/figures/fistula Youness-2018-Bronchoscopic advances in the man_fig04.jpg
+ create mode 100644 out/figures/fistula Youness-2018-Bronchoscopic advances in the man_fig05.jpg
+ create mode 100644 out/figures/fistula Youness-2018-Bronchoscopic advances in the man_fig06.jpg
+ create mode 100644 out/figures/fistula Youness-2018-Bronchoscopic advances in the man_fig07.jpg
+ create mode 100644 out/figures/fistula Youness-2018-Bronchoscopic advances in the man_fig08.jpg
+ create mode 100644 out/figures/fistula Youness-2018-Bronchoscopic advances in the man_fig09.jpg
+ create mode 100644 out/figures/fistula Youness-2018-Bronchoscopic advances in the man_fig10.jpg
+ create mode 100644 out/figures/fistula Youness-2018-Bronchoscopic advances in the man_fig11.jpg
+ create mode 100644 out/figures/fistula Youness-2018-Bronchoscopic advances in the man_fig12.jpg
+ create mode 100644 out/figures/fistula Youness-2018-Bronchoscopic advances in the man_fig13.jpg
+ create mode 100644 out/qa/Central Airway Obstruction Benign Strictures__umls.qa.json
+ create mode 100644 out/qa/Combined Nd-YAG laser HDR brachytherapy versus__umls.qa.json
+ create mode 100644 out/qa/Cone beam CT imaging for bronchoscopy a technical review__umls.qa.json
+ create mode 100644 out/qa/Diagnostic accuracy of transbronchial lung cry__umls.qa.json
+ create mode 100644 out/qa/Rashid-2017-Percutaneous tracheostomy_ a compr__umls.qa.json
+ create mode 100644 out/qa/Safety and effectiveness of microdebrider bron__umls.qa.json
+ create mode 100644 out/qa/Sanabria-2014-Which percutaneous tracheostomy__umls.qa.json
+ create mode 100644 out/qa/The Proposed Ninth Edition TNM Classification of Lung Cancer__umls.qa.json
+ create mode 100644 out/qa/fistula Youness-2018-Bronchoscopic advances in the man__umls.qa.json
+ create mode 100644 out/references/Central Airway Obstruction Benign Strictures.refs.csv
+ create mode 100644 out/references/Combined Nd-YAG laser HDR brachytherapy versus.refs.csv
+ create mode 100644 out/references/Cone beam CT imaging for bronchoscopy a technical review.refs.csv
+ create mode 100644 out/references/Diagnostic accuracy of transbronchial lung cry.refs.csv
+ create mode 100644 out/references/Rashid-2017-Percutaneous tracheostomy_ a compr.refs.csv
+ create mode 100644 out/references/Safety and effectiveness of microdebrider bron.refs.csv
+ create mode 100644 out/references/Sanabria-2014-Which percutaneous tracheostomy.refs.csv
+ create mode 100644 out/references/The Proposed Ninth Edition TNM Classification of Lung Cancer.refs.csv
+ create mode 100644 out/references/fistula Youness-2018-Bronchoscopic advances in the man.refs.csv
+2025-08-31 19:32:16.088 | INFO     | __main__:git_commit_and_push:158 - Pushing to origin/fix/extraction-hardening...
+To https://github.com/russellmiller49/Medparse.git
+   d856cb1..f737622  fix/extraction-hardening -> fix/extraction-hardening
+2025-08-31 19:32:22.556 | SUCCESS  | __main__:git_commit_and_push:161 - ✓ Successfully pushed to GitHub (branch: fix/extraction-hardening)
+2025-08-31 19:32:22.556 | INFO     | __main__:main:189 - [11/414] Processing Inhaled GM-CSF for Pulmonary Alveolar Proteino.pdf
+2025-08-31 19:32:22.556 | INFO     | __main__:process_single_pdf:52 - Processing Inhaled GM-CSF for Pulmonary Alveolar Proteino.pdf...
+2025-08-31 19:33:58.273 | SUCCESS  | __main__:process_single_pdf:71 - ✓ Successfully processed Inhaled GM-CSF for Pulmonary Alveolar Proteino
+2025-08-31 19:33:58.273 | INFO     | __main__:main:189 - [12/414] Processing Audit of the autoantibody test, EarlyCDT.pdf
+2025-08-31 19:33:58.273 | INFO     | __main__:process_single_pdf:52 - Processing Audit of the autoantibody test, EarlyCDT.pdf...
+2025-08-31 19:34:46.582 | SUCCESS  | __main__:process_single_pdf:71 - ✓ Successfully processed Audit of the autoantibody test, EarlyCDT
+2025-08-31 19:34:46.582 | INFO     | __main__:main:189 - [13/414] Processing gonzalez-et-al-2024-assessment-of-advanced-diagnostic-bronchoscopy-outcomes-for-peripheral-lung-lesions-a-delphi (1).pdf
+2025-08-31 19:34:46.582 | INFO     | __main__:process_single_pdf:52 - Processing gonzalez-et-al-2024-assessment-of-advanced-diagnostic-bronchoscopy-outcomes-for-peripheral-lung-lesions-a-delphi (1).pdf...
+2025-08-31 19:37:03.647 | SUCCESS  | __main__:process_single_pdf:71 - ✓ Successfully processed gonzalez-et-al-2024-assessment-of-advanced-diagnostic-bronchoscopy-outcomes-for-peripheral-lung-lesions-a-delphi (1)
+2025-08-31 19:37:03.648 | INFO     | __main__:main:189 - [14/414] Processing Novel bronchoscopic management of airway bleeding with absorbable gelatin and thrombin slurry.pdf
+2025-08-31 19:37:03.648 | INFO     | __main__:process_single_pdf:52 - Processing Novel bronchoscopic management of airway bleeding with absorbable gelatin and thrombin slurry.pdf...
+2025-08-31 19:37:59.556 | SUCCESS  | __main__:process_single_pdf:71 - ✓ Successfully processed Novel bronchoscopic management of airway bleeding with absorbable gelatin and thrombin slurry
+2025-08-31 19:37:59.557 | INFO     | __main__:main:189 - [15/414] Processing VERITAS.pdf
+2025-08-31 19:37:59.557 | INFO     | __main__:process_single_pdf:52 - Processing VERITAS.pdf...
+2025-08-31 19:39:20.947 | SUCCESS  | __main__:process_single_pdf:71 - ✓ Successfully processed VERITAS
+2025-08-31 19:39:20.948 | INFO     | __main__:main:189 - [16/414] Processing Gomes-2015-Percutaneous endoscopic gastrostomy.pdf
+2025-08-31 19:39:20.948 | INFO     | __main__:process_single_pdf:52 - Processing Gomes-2015-Percutaneous endoscopic gastrostomy.pdf...
+2025-08-31 19:42:18.852 | SUCCESS  | __main__:process_single_pdf:71 - ✓ Successfully processed Gomes-2015-Percutaneous endoscopic gastrostomy
+2025-08-31 19:42:18.853 | INFO     | __main__:main:189 - [17/414] Processing Airway spray cryotherapy initial outcomes from.pdf
+2025-08-31 19:42:18.853 | INFO     | __main__:process_single_pdf:52 - Processing Airway spray cryotherapy initial outcomes from.pdf...
+2025-08-31 19:43:15.622 | SUCCESS  | __main__:process_single_pdf:71 - ✓ Successfully processed Airway spray cryotherapy initial outcomes from
+2025-08-31 19:43:15.622 | INFO     | __main__:main:189 - [18/414] Processing Tedde-2011-A new technique for T-tube insertio.pdf
+2025-08-31 19:43:15.622 | INFO     | __main__:process_single_pdf:52 - Processing Tedde-2011-A new technique for T-tube insertio.pdf...
+2025-08-31 19:43:43.904 | SUCCESS  | __main__:process_single_pdf:71 - ✓ Successfully processed Tedde-2011-A new technique for T-tube insertio
+2025-08-31 19:43:43.904 | INFO     | __main__:main:189 - [19/414] Processing What is the value of electromagnetic navigation in lung cancer and to what extent does it require improvement .pdf
+2025-08-31 19:43:43.905 | INFO     | __main__:process_single_pdf:52 - Processing What is the value of electromagnetic navigation in lung cancer and to what extent does it require improvement .pdf...
+2025-08-31 19:46:35.205 | SUCCESS  | __main__:process_single_pdf:71 - ✓ Successfully processed What is the value of electromagnetic navigation in lung cancer and to what extent does it require improvement 
+2025-08-31 19:46:35.205 | INFO     | __main__:main:189 - [20/414] Processing Bronchoscopes of the Twenty-First Century.pdf
+2025-08-31 19:46:35.205 | INFO     | __main__:process_single_pdf:52 - Processing Bronchoscopes of the Twenty-First Century.pdf...
+2025-08-31 19:48:17.205 | SUCCESS  | __main__:process_single_pdf:71 - ✓ Successfully processed Bronchoscopes of the Twenty-First Century
+2025-08-31 19:48:17.205 | INFO     | __main__:main:198 - Reached 20 successful processes, committing intermediate results...
+2025-08-31 19:48:17.205 | INFO     | __main__:git_commit_and_push:129 - Adding changes to git...
