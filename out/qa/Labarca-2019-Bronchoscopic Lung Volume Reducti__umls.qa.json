@@ -1,0 +1,15 @@
+{
+  "pdf": "Labarca-2019-Bronchoscopic Lung Volume Reducti.pdf",
+  "n_sections": 22,
+  "n_tables": 9,
+  "n_figures": 9,
+  "n_fig_crops": 8,
+  "missing_fig_bbox": 0,
+  "n_refs_csv": 26,
+  "n_umls_links": 0,
+  "n_local_links": 0,
+  "linker": "umls",
+  "completeness_score": 53,
+  "is_valid": false,
+  "timestamp": "2025-09-01 02:54:33"
+}

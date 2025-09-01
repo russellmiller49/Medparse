@@ -3075,3 +3075,243 @@ To https://github.com/russellmiller49/Medparse.git
 2025-09-01 02:27:55.869 | SUCCESS  | __main__:process_single_pdf:71 - ✓ Successfully processed Safety of flexible bronchoscopy in patients with  pulmonary hypertension
 2025-09-01 02:27:55.869 | INFO     | __main__:main:198 - Reached 210 successful processes, committing intermediate results...
 2025-09-01 02:27:55.869 | INFO     | __main__:git_commit_and_push:129 - Adding changes to git...
+2025-09-01 02:27:56.068 | INFO     | __main__:git_commit_and_push:145 - Creating git commit...
+[fix/extraction-hardening 8755fdc] feat: Batch processed 210 PDFs (intermediate commit)
+ 103 files changed, 212420 insertions(+)
+ create mode 100644 out/batch_processed/Bronchial Thermoplasty in Patients With Severe.json
+ create mode 100644 out/batch_processed/Diagnostic flexible bronchoscopy and accessory techniques.json
+ create mode 100644 out/batch_processed/Hartman-2021-New bronchoscopic treatment modal.json
+ create mode 100644 out/batch_processed/Rahman-2015-Effect of Opioids vs NSAIDs and La.json
+ create mode 100644 out/batch_processed/Results of long-term follow-up of photodynamic.json
+ create mode 100644 out/batch_processed/Safety of flexible bronchoscopy in patients with  pulmonary hypertension.json
+ create mode 100644 out/batch_processed/Towards an optimization of bronchoscopic approaches to the PPN.json
+ create mode 100644 out/batch_processed/Transbronchial Cryobiopsy for the Diagnosis of.json
+ create mode 100644 out/batch_processed/Zhao-2015-Whole Lung Lavage Treatment of Chine.json
+ create mode 100644 out/batch_processed/management-of-incidental-pulmonary-nodule-fleischner.json
+ create mode 100644 out/figures/Bronchial Thermoplasty in Patients With Severe_fig01.jpg
+ create mode 100644 out/figures/Bronchial Thermoplasty in Patients With Severe_fig02.jpg
+ create mode 100644 out/figures/Bronchial Thermoplasty in Patients With Severe_fig03.jpg
+ create mode 100644 out/figures/Bronchial Thermoplasty in Patients With Severe_fig04.jpg
+ create mode 100644 out/figures/Bronchial Thermoplasty in Patients With Severe_fig07.jpg
+ create mode 100644 out/figures/Bronchial Thermoplasty in Patients With Severe_fig08.jpg
+ create mode 100644 out/figures/Bronchial Thermoplasty in Patients With Severe_fig09.jpg
+ create mode 100644 out/figures/Bronchial Thermoplasty in Patients With Severe_fig10.jpg
+ create mode 100644 out/figures/Bronchial Thermoplasty in Patients With Severe_fig12.jpg
+ create mode 100644 out/figures/Bronchial Thermoplasty in Patients With Severe_fig13.jpg
+ create mode 100644 out/figures/Bronchial Thermoplasty in Patients With Severe_fig14.jpg
+ create mode 100644 out/figures/Bronchial Thermoplasty in Patients With Severe_figure1.jpg
+ create mode 100644 out/figures/Bronchial Thermoplasty in Patients With Severe_figure2.jpg
+ create mode 100644 out/figures/Bronchial Thermoplasty in Patients With Severe_figure3.jpg
+ create mode 100644 out/figures/Diagnostic flexible bronchoscopy and accessory techniques_fig01.jpg
+ create mode 100644 out/figures/Diagnostic flexible bronchoscopy and accessory techniques_fig02.jpg
+ create mode 100644 out/figures/Diagnostic flexible bronchoscopy and accessory techniques_fig04.jpg
+ create mode 100644 out/figures/Diagnostic flexible bronchoscopy and accessory techniques_fig05.jpg
+ create mode 100644 out/figures/Diagnostic flexible bronchoscopy and accessory techniques_fig06.jpg
+ create mode 100644 out/figures/Diagnostic flexible bronchoscopy and accessory techniques_fig07.jpg
+ create mode 100644 out/figures/Diagnostic flexible bronchoscopy and accessory techniques_figure1.jpg
+ create mode 100644 out/figures/Hartman-2021-New bronchoscopic treatment modal_fig01.jpg
+ create mode 100644 out/figures/Hartman-2021-New bronchoscopic treatment modal_fig02.jpg
+ create mode 100644 out/figures/Hartman-2021-New bronchoscopic treatment modal_fig03.jpg
+ create mode 100644 out/figures/Hartman-2021-New bronchoscopic treatment modal_fig04.jpg
+ create mode 100644 out/figures/Hartman-2021-New bronchoscopic treatment modal_figure2.jpg
+ create mode 100644 out/figures/Rahman-2015-Effect of Opioids vs NSAIDs and La_fig01.jpg
+ create mode 100644 out/figures/Rahman-2015-Effect of Opioids vs NSAIDs and La_fig02.jpg
+ create mode 100644 out/figures/Rahman-2015-Effect of Opioids vs NSAIDs and La_fig03.jpg
+ create mode 100644 out/figures/Rahman-2015-Effect of Opioids vs NSAIDs and La_fig04.jpg
+ create mode 100644 out/figures/Rahman-2015-Effect of Opioids vs NSAIDs and La_fig05.jpg
+ create mode 100644 out/figures/Results of long-term follow-up of photodynamic_fig01.jpg
+ create mode 100644 out/figures/Results of long-term follow-up of photodynamic_fig02.jpg
+ create mode 100644 out/figures/Results of long-term follow-up of photodynamic_fig03.jpg
+ create mode 100644 out/figures/Results of long-term follow-up of photodynamic_figure2.jpg
+ create mode 100644 out/figures/Safety of flexible bronchoscopy in patients with  pulmonary hypertension_fig01.jpg
+ create mode 100644 out/figures/Towards an optimization of bronchoscopic approaches to the PPN_fig01.jpg
+ create mode 100644 out/figures/Towards an optimization of bronchoscopic approaches to the PPN_fig02.jpg
+ create mode 100644 out/figures/Towards an optimization of bronchoscopic approaches to the PPN_fig03.jpg
+ create mode 100644 out/figures/Towards an optimization of bronchoscopic approaches to the PPN_fig04.jpg
+ create mode 100644 out/figures/Transbronchial Cryobiopsy for the Diagnosis of_fig01.jpg
+ create mode 100644 out/figures/Transbronchial Cryobiopsy for the Diagnosis of_fig02.jpg
+ create mode 100644 out/figures/Transbronchial Cryobiopsy for the Diagnosis of_fig03.jpg
+ create mode 100644 out/figures/Transbronchial Cryobiopsy for the Diagnosis of_fig04.jpg
+ create mode 100644 out/figures/Zhao-2015-Whole Lung Lavage Treatment of Chine_fig01.jpg
+ create mode 100644 out/figures/Zhao-2015-Whole Lung Lavage Treatment of Chine_fig02.jpg
+ create mode 100644 out/figures/Zhao-2015-Whole Lung Lavage Treatment of Chine_fig03.jpg
+ create mode 100644 out/figures/management-of-incidental-pulmonary-nodule-fleischner_fig02.jpg
+ create mode 100644 out/figures/management-of-incidental-pulmonary-nodule-fleischner_fig03.jpg
+ create mode 100644 out/figures/management-of-incidental-pulmonary-nodule-fleischner_fig04.jpg
+ create mode 100644 out/figures/management-of-incidental-pulmonary-nodule-fleischner_fig05.jpg
+ create mode 100644 out/figures/management-of-incidental-pulmonary-nodule-fleischner_fig06.jpg
+ create mode 100644 out/figures/management-of-incidental-pulmonary-nodule-fleischner_fig12.jpg
+ create mode 100644 out/figures/management-of-incidental-pulmonary-nodule-fleischner_fig13.jpg
+ create mode 100644 out/figures/management-of-incidental-pulmonary-nodule-fleischner_fig14.jpg
+ create mode 100644 out/figures/management-of-incidental-pulmonary-nodule-fleischner_fig15.jpg
+ create mode 100644 out/figures/management-of-incidental-pulmonary-nodule-fleischner_fig16.jpg
+ create mode 100644 out/figures/management-of-incidental-pulmonary-nodule-fleischner_fig17.jpg
+ create mode 100644 out/figures/management-of-incidental-pulmonary-nodule-fleischner_fig18.jpg
+ create mode 100644 out/figures/management-of-incidental-pulmonary-nodule-fleischner_fig19.jpg
+ create mode 100644 out/figures/management-of-incidental-pulmonary-nodule-fleischner_fig20.jpg
+ create mode 100644 out/figures/management-of-incidental-pulmonary-nodule-fleischner_fig21.jpg
+ create mode 100644 out/figures/management-of-incidental-pulmonary-nodule-fleischner_fig22.jpg
+ create mode 100644 out/figures/management-of-incidental-pulmonary-nodule-fleischner_fig23.jpg
+ create mode 100644 out/figures/management-of-incidental-pulmonary-nodule-fleischner_fig24.jpg
+ create mode 100644 out/figures/management-of-incidental-pulmonary-nodule-fleischner_figure3.jpg
+ create mode 100644 out/figures/management-of-incidental-pulmonary-nodule-fleischner_figure4.jpg
+ create mode 100644 out/figures/management-of-incidental-pulmonary-nodule-fleischner_figure5.jpg
+ create mode 100644 out/figures/management-of-incidental-pulmonary-nodule-fleischner_figure6.jpg
+ create mode 100644 out/figures/management-of-incidental-pulmonary-nodule-fleischner_figure7.jpg
+ create mode 100644 out/figures/management-of-incidental-pulmonary-nodule-fleischner_figure8.jpg
+ create mode 100644 out/qa/Bronchial Thermoplasty in Patients With Severe__umls.qa.json
+ create mode 100644 out/qa/Diagnostic flexible bronchoscopy and accessory techniques__umls.qa.json
+ create mode 100644 out/qa/Hartman-2021-New bronchoscopic treatment modal__umls.qa.json
+ create mode 100644 out/qa/Rahman-2015-Effect of Opioids vs NSAIDs and La__umls.qa.json
+ create mode 100644 out/qa/Results of long-term follow-up of photodynamic__umls.qa.json
+ create mode 100644 out/qa/Safety of flexible bronchoscopy in patients with  pulmonary hypertension__umls.qa.json
+ create mode 100644 out/qa/Towards an optimization of bronchoscopic approaches to the PPN__umls.qa.json
+ create mode 100644 out/qa/Transbronchial Cryobiopsy for the Diagnosis of__umls.qa.json
+ create mode 100644 out/qa/Zhao-2015-Whole Lung Lavage Treatment of Chine__umls.qa.json
+ create mode 100644 out/qa/management-of-incidental-pulmonary-nodule-fleischner__umls.qa.json
+ create mode 100644 out/references/Bronchial Thermoplasty in Patients With Severe.refs.csv
+ create mode 100644 out/references/Diagnostic flexible bronchoscopy and accessory techniques.refs.csv
+ create mode 100644 out/references/Hartman-2021-New bronchoscopic treatment modal.refs.csv
+ create mode 100644 out/references/Rahman-2015-Effect of Opioids vs NSAIDs and La.refs.csv
+ create mode 100644 out/references/Results of long-term follow-up of photodynamic.refs.csv
+ create mode 100644 out/references/Safety of flexible bronchoscopy in patients with  pulmonary hypertension.refs.csv
+ create mode 100644 out/references/Towards an optimization of bronchoscopic approaches to the PPN.refs.csv
+ create mode 100644 out/references/Transbronchial Cryobiopsy for the Diagnosis of.refs.csv
+ create mode 100644 out/references/Zhao-2015-Whole Lung Lavage Treatment of Chine.refs.csv
+ create mode 100644 out/references/management-of-incidental-pulmonary-nodule-fleischner.refs.csv
+2025-09-01 02:27:56.100 | INFO     | __main__:git_commit_and_push:158 - Pushing to origin/fix/extraction-hardening...
+To https://github.com/russellmiller49/Medparse.git
+   15b94d5..8755fdc  fix/extraction-hardening -> fix/extraction-hardening
+2025-09-01 02:28:00.798 | SUCCESS  | __main__:git_commit_and_push:161 - ✓ Successfully pushed to GitHub (branch: fix/extraction-hardening)
+2025-09-01 02:28:00.798 | INFO     | __main__:main:189 - [213/414] Processing Bibby-2018-ERS_EACTS statement on the manageme.pdf
+2025-09-01 02:28:00.798 | INFO     | __main__:process_single_pdf:52 - Processing Bibby-2018-ERS_EACTS statement on the manageme.pdf...
+2025-09-01 02:34:03.700 | SUCCESS  | __main__:process_single_pdf:71 - ✓ Successfully processed Bibby-2018-ERS_EACTS statement on the manageme
+2025-09-01 02:34:03.700 | INFO     | __main__:main:189 - [214/414] Processing ASPEN Safe Practices for Enteral Nutrition .pdf
+2025-09-01 02:34:03.700 | INFO     | __main__:process_single_pdf:52 - Processing ASPEN Safe Practices for Enteral Nutrition .pdf...
+2025-09-01 02:39:50.230 | ERROR    | __main__:process_single_pdf:74 - ✗ Failed to process ASPEN Safe Practices for Enteral Nutrition : 2025-09-01 02:34:06.765 | INFO     | __main__:process_pdf:62 - Docling parsing (DocumentConverter): ASPEN Safe Practices for Enteral Nutrition .pdf
+2025-09-01 02:35:10.673 | INFO     | __main__:process_pdf:80 - Cropping figure images with EXIF captions
+2025-09-01 02:35:10.866 | INFO     | __main__:process_pdf:83 - GROBID metadata & references
+Traceback (most recent call last):
+  File "/home/rjm/miniconda3/envs/medpasrse/lib/python3.12/site-packages/httpx/_transports/default.py", line 101, in map_httpcore_exceptions
+    yield
+  File "/home/rjm/miniconda3/envs/medpasrse/lib/python3.12/site-packages/httpx/_transports/default.py", line 250, in handle_request
+    resp = self._pool.handle_request(req)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/rjm/miniconda3/envs/medpasrse/lib/python3.12/site-packages/httpcore/_sync/connection_pool.py", line 256, in handle_request
+    raise exc from None
+  File "/home/rjm/miniconda3/envs/medpasrse/lib/python3.12/site-packages/httpcore/_sync/connection_pool.py", line 236, in handle_request
+    response = connection.handle_request(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/rjm/miniconda3/envs/medpasrse/lib/python3.12/site-packages/httpcore/_sync/connection.py", line 103, in handle_request
+    return self._connection.handle_request(request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/rjm/miniconda3/envs/medpasrse/lib/python3.12/site-packages/httpcore/_sync/http11.py", line 136, in handle_request
+    raise exc
+  File "/home/rjm/miniconda3/envs/medpasrse/lib/python3.12/site-packages/httpcore/_sync/http11.py", line 106, in handle_request
+    ) = self._receive_response_headers(**kwargs)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/rjm/miniconda3/envs/medpasrse/lib/python3.12/site-packages/httpcore/_sync/http11.py", line 177, in _receive_response_headers
+    event = self._receive_event(timeout=timeout)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/rjm/miniconda3/envs/medpasrse/lib/python3.12/site-packages/httpcore/_sync/http11.py", line 217, in _receive_event
+    data = self._network_stream.read(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/rjm/miniconda3/envs/medpasrse/lib/python3.12/site-packages/httpcore/_backends/sync.py", line 126, in read
+    with map_exceptions(exc_map):
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/rjm/miniconda3/envs/medpasrse/lib/python3.12/contextlib.py", line 158, in __exit__
+    self.gen.throw(value)
+  File "/home/rjm/miniconda3/envs/medpasrse/lib/python3.12/site-packages/httpcore/_exceptions.py", line 14, in map_exceptions
+    raise to_exc(exc) from exc
+httpcore.ReadTimeout: timed out
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/rjm/projects/ip_knowledge/medparse/medparse-docling/scripts/process_one.py", line 264, in <module>
+    process_pdf(Path(args.pdf), Path(args.out), Path(args.cfg), linker=args.linker, dump_docling_debug=args.dump_docling_debug)
+  File "/home/rjm/projects/ip_knowledge/medparse/medparse-docling/scripts/process_one.py", line 84, in process_pdf
+    meta_tei = grobid.process_fulltext(str(pdf_path))
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/rjm/miniconda3/envs/medpasrse/lib/python3.12/site-packages/tenacity/__init__.py", line 338, in wrapped_f
+    return copy(f, *args, **kw)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "/home/rjm/miniconda3/envs/medpasrse/lib/python3.12/site-packages/tenacity/__init__.py", line 477, in __call__
+    do = self.iter(retry_state=retry_state)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/rjm/miniconda3/envs/medpasrse/lib/python3.12/site-packages/tenacity/__init__.py", line 378, in iter
+    result = action(retry_state)
+             ^^^^^^^^^^^^^^^^^^^
+  File "/home/rjm/miniconda3/envs/medpasrse/lib/python3.12/site-packages/tenacity/__init__.py", line 420, in exc_check
+    raise retry_exc.reraise()
+          ^^^^^^^^^^^^^^^^^^^
+  File "/home/rjm/miniconda3/envs/medpasrse/lib/python3.12/site-packages/tenacity/__init__.py", line 187, in reraise
+    raise self.last_attempt.result()
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/rjm/miniconda3/envs/medpasrse/lib/python3.12/concurrent/futures/_base.py", line 449, in result
+    return self.__get_result()
+           ^^^^^^^^^^^^^^^^^^^
+  File "/home/rjm/miniconda3/envs/medpasrse/lib/python3.12/concurrent/futures/_base.py", line 401, in __get_result
+    raise self._exception
+  File "/home/rjm/miniconda3/envs/medpasrse/lib/python3.12/site-packages/tenacity/__init__.py", line 480, in __call__
+    result = fn(*args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^
+  File "/home/rjm/projects/ip_knowledge/medparse/medparse-docling/scripts/grobid_client.py", line 13, in process_fulltext
+    r = self.cli.post(f"{self.base}/api/processFulltextDocument",
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/rjm/miniconda3/envs/medpasrse/lib/python3.12/site-packages/httpx/_client.py", line 1144, in post
+    return self.request(
+           ^^^^^^^^^^^^^
+  File "/home/rjm/miniconda3/envs/medpasrse/lib/python3.12/site-packages/httpx/_client.py", line 825, in request
+    return self.send(request, auth=auth, follow_redirects=follow_redirects)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/rjm/miniconda3/envs/medpasrse/lib/python3.12/site-packages/httpx/_client.py", line 914, in send
+    response = self._send_handling_auth(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/rjm/miniconda3/envs/medpasrse/lib/python3.12/site-packages/httpx/_client.py", line 942, in _send_handling_auth
+    response = self._send_handling_redirects(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/rjm/miniconda3/envs/medpasrse/lib/python3.12/site-packages/httpx/_client.py", line 979, in _send_handling_redirects
+    response = self._send_single_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/rjm/miniconda3/envs/medpasrse/lib/python3.12/site-packages/httpx/_client.py", line 1014, in _send_single_request
+    response = transport.handle_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/rjm/miniconda3/envs/medpasrse/lib/python3.12/site-packages/httpx/_transports/default.py", line 249, in handle_request
+    with map_httpcore_exceptions():
+         ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/rjm/miniconda3/envs/medpasrse/lib/python3.12/contextlib.py", line 158, in __exit__
+    self.gen.throw(value)
+  File "/home/rjm/miniconda3/envs/medpasrse/lib/python3.12/site-packages/httpx/_transports/default.py", line 118, in map_httpcore_exceptions
+    raise mapped_exc(message) from exc
+httpx.ReadTimeout: timed out
+
+2025-09-01 02:39:50.231 | INFO     | __main__:main:189 - [215/414] Processing Bhora-2016-Treatment of Benign Tracheal Stenos.pdf
+2025-09-01 02:39:50.231 | INFO     | __main__:process_single_pdf:52 - Processing Bhora-2016-Treatment of Benign Tracheal Stenos.pdf...
+2025-09-01 02:41:10.736 | SUCCESS  | __main__:process_single_pdf:71 - ✓ Successfully processed Bhora-2016-Treatment of Benign Tracheal Stenos
+2025-09-01 02:41:10.736 | INFO     | __main__:main:189 - [216/414] Processing Performance, long-term management, and coding for percutaneous dilational tracheostomy.pdf
+2025-09-01 02:41:10.736 | INFO     | __main__:process_single_pdf:52 - Processing Performance, long-term management, and coding for percutaneous dilational tracheostomy.pdf...
+2025-09-01 02:42:34.396 | SUCCESS  | __main__:process_single_pdf:71 - ✓ Successfully processed Performance, long-term management, and coding for percutaneous dilational tracheostomy
+2025-09-01 02:42:34.397 | INFO     | __main__:main:189 - [217/414] Processing The Business of Bronchoscopy.pdf
+2025-09-01 02:42:34.397 | INFO     | __main__:process_single_pdf:52 - Processing The Business of Bronchoscopy.pdf...
+2025-09-01 02:43:53.127 | SUCCESS  | __main__:process_single_pdf:71 - ✓ Successfully processed The Business of Bronchoscopy
+2025-09-01 02:43:53.127 | INFO     | __main__:main:189 - [218/414] Processing Electromagnetic navigation bronchoscopy a comprehensive review.pdf
+2025-09-01 02:43:53.127 | INFO     | __main__:process_single_pdf:52 - Processing Electromagnetic navigation bronchoscopy a comprehensive review.pdf...
+2025-09-01 02:50:28.847 | SUCCESS  | __main__:process_single_pdf:71 - ✓ Successfully processed Electromagnetic navigation bronchoscopy a comprehensive review
+2025-09-01 02:50:28.847 | INFO     | __main__:main:189 - [219/414] Processing fistula Airway ultraflex stenting in esophageal cancer.pdf
+2025-09-01 02:50:28.847 | INFO     | __main__:process_single_pdf:52 - Processing fistula Airway ultraflex stenting in esophageal cancer.pdf...
+2025-09-01 02:51:36.377 | SUCCESS  | __main__:process_single_pdf:71 - ✓ Successfully processed fistula Airway ultraflex stenting in esophageal cancer
+2025-09-01 02:51:36.377 | INFO     | __main__:main:189 - [220/414] Processing DY and Synergy of Needle and Forceps w ENB.pdf
+2025-09-01 02:51:36.377 | INFO     | __main__:process_single_pdf:52 - Processing DY and Synergy of Needle and Forceps w ENB.pdf...
+2025-09-01 02:53:22.868 | SUCCESS  | __main__:process_single_pdf:71 - ✓ Successfully processed DY and Synergy of Needle and Forceps w ENB
+2025-09-01 02:53:22.868 | INFO     | __main__:main:189 - [221/414] Processing Labarca-2019-Bronchoscopic Lung Volume Reducti.pdf
+2025-09-01 02:53:22.868 | INFO     | __main__:process_single_pdf:52 - Processing Labarca-2019-Bronchoscopic Lung Volume Reducti.pdf...
+2025-09-01 02:54:34.654 | SUCCESS  | __main__:process_single_pdf:71 - ✓ Successfully processed Labarca-2019-Bronchoscopic Lung Volume Reducti
+2025-09-01 02:54:34.654 | INFO     | __main__:main:189 - [222/414] Processing Aldaghlawi-2020-A Systematic Review of Digital.pdf
+2025-09-01 02:54:34.654 | INFO     | __main__:process_single_pdf:52 - Processing Aldaghlawi-2020-A Systematic Review of Digital.pdf...
+2025-09-01 02:56:34.666 | SUCCESS  | __main__:process_single_pdf:71 - ✓ Successfully processed Aldaghlawi-2020-A Systematic Review of Digital
+2025-09-01 02:56:34.666 | INFO     | __main__:main:189 - [223/414] Processing First Human Use of a New Robotic-Assisted Fiber Optic Sensing Navigation System for Small Peripheral Pulmonary Nodules.pdf
+2025-09-01 02:56:34.666 | INFO     | __main__:process_single_pdf:52 - Processing First Human Use of a New Robotic-Assisted Fiber Optic Sensing Navigation System for Small Peripheral Pulmonary Nodules.pdf...
+2025-09-01 02:57:49.825 | SUCCESS  | __main__:process_single_pdf:71 - ✓ Successfully processed First Human Use of a New Robotic-Assisted Fiber Optic Sensing Navigation System for Small Peripheral Pulmonary Nodules
+2025-09-01 02:57:49.825 | INFO     | __main__:main:198 - Reached 220 successful processes, committing intermediate results...
+2025-09-01 02:57:49.825 | INFO     | __main__:git_commit_and_push:129 - Adding changes to git...
