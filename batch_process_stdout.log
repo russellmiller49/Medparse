@@ -2834,3 +2834,127 @@ To https://github.com/russellmiller49/Medparse.git
 2025-09-01 01:48:32.564 | SUCCESS  | __main__:process_single_pdf:71 - ✓ Successfully processed Iatrogenic bleeding during flexible bronchoscopy
 2025-09-01 01:48:32.564 | INFO     | __main__:main:198 - Reached 190 successful processes, committing intermediate results...
 2025-09-01 01:48:32.564 | INFO     | __main__:git_commit_and_push:129 - Adding changes to git...
+2025-09-01 01:48:32.790 | INFO     | __main__:git_commit_and_push:145 - Creating git commit...
+[fix/extraction-hardening e136fba] feat: Batch processed 190 PDFs (intermediate commit)
+ 87 files changed, 170037 insertions(+)
+ create mode 100644 out/batch_processed/Diagnostic value of EBUS elastography for the differentiation.json
+ create mode 100644 out/batch_processed/Evaluation of Safety and Short-term.json
+ create mode 100644 out/batch_processed/Ghattas-2021-State of the art_ percutaneous tr.json
+ create mode 100644 out/batch_processed/Iatrogenic bleeding during flexible bronchoscopy.json
+ create mode 100644 out/batch_processed/Indocyanine Green-Soaked Fiducial Markers.json
+ create mode 100644 out/batch_processed/LungRADSAssessmentCategoriesv1-1.json
+ create mode 100644 out/batch_processed/Proposals for revision of the M discriptor.json
+ create mode 100644 out/batch_processed/Selected Topics in Malignant Pleural Disease.json
+ create mode 100644 out/batch_processed/Value-Based Proposition for a Dedicated IP suite.json
+ create mode 100644 out/batch_processed/medical thoracoscopy step by step.json
+ create mode 100644 out/figures/Diagnostic value of EBUS elastography for the differentiation_fig01.jpg
+ create mode 100644 out/figures/Diagnostic value of EBUS elastography for the differentiation_fig02.jpg
+ create mode 100644 out/figures/Diagnostic value of EBUS elastography for the differentiation_fig03.jpg
+ create mode 100644 out/figures/Evaluation of Safety and Short-term_fig01.jpg
+ create mode 100644 out/figures/Ghattas-2021-State of the art_ percutaneous tr_fig01.jpg
+ create mode 100644 out/figures/Ghattas-2021-State of the art_ percutaneous tr_fig02.jpg
+ create mode 100644 out/figures/Ghattas-2021-State of the art_ percutaneous tr_fig03.jpg
+ create mode 100644 out/figures/Ghattas-2021-State of the art_ percutaneous tr_fig05.jpg
+ create mode 100644 out/figures/Ghattas-2021-State of the art_ percutaneous tr_fig06.jpg
+ create mode 100644 out/figures/Ghattas-2021-State of the art_ percutaneous tr_fig07.jpg
+ create mode 100644 out/figures/Ghattas-2021-State of the art_ percutaneous tr_fig09.jpg
+ create mode 100644 out/figures/Ghattas-2021-State of the art_ percutaneous tr_fig10.jpg
+ create mode 100644 out/figures/Ghattas-2021-State of the art_ percutaneous tr_figure3.jpg
+ create mode 100644 out/figures/Ghattas-2021-State of the art_ percutaneous tr_figure6.jpg
+ create mode 100644 out/figures/Ghattas-2021-State of the art_ percutaneous tr_figure8.jpg
+ create mode 100644 out/figures/Iatrogenic bleeding during flexible bronchoscopy_fig01.jpg
+ create mode 100644 out/figures/Iatrogenic bleeding during flexible bronchoscopy_fig02.jpg
+ create mode 100644 out/figures/Iatrogenic bleeding during flexible bronchoscopy_fig03.jpg
+ create mode 100644 out/figures/Iatrogenic bleeding during flexible bronchoscopy_fig04.jpg
+ create mode 100644 out/figures/Iatrogenic bleeding during flexible bronchoscopy_fig05.jpg
+ create mode 100644 out/figures/Iatrogenic bleeding during flexible bronchoscopy_fig06.jpg
+ create mode 100644 out/figures/Iatrogenic bleeding during flexible bronchoscopy_fig07.jpg
+ create mode 100644 out/figures/Iatrogenic bleeding during flexible bronchoscopy_fig08.jpg
+ create mode 100644 out/figures/Iatrogenic bleeding during flexible bronchoscopy_fig09.jpg
+ create mode 100644 out/figures/Iatrogenic bleeding during flexible bronchoscopy_figure2.jpg
+ create mode 100644 out/figures/Indocyanine Green-Soaked Fiducial Markers_fig01.jpg
+ create mode 100644 out/figures/Indocyanine Green-Soaked Fiducial Markers_fig03.jpg
+ create mode 100644 out/figures/Indocyanine Green-Soaked Fiducial Markers_fig04.jpg
+ create mode 100644 out/figures/Indocyanine Green-Soaked Fiducial Markers_figure1.jpg
+ create mode 100644 out/figures/LungRADSAssessmentCategoriesv1-1_fig01.jpg
+ create mode 100644 out/figures/LungRADSAssessmentCategoriesv1-1_fig02.jpg
+ create mode 100644 out/figures/LungRADSAssessmentCategoriesv1-1_fig04.jpg
+ create mode 100644 out/figures/LungRADSAssessmentCategoriesv1-1_fig06.jpg
+ create mode 100644 out/figures/LungRADSAssessmentCategoriesv1-1_fig08.jpg
+ create mode 100644 out/figures/LungRADSAssessmentCategoriesv1-1_fig09.jpg
+ create mode 100644 out/figures/LungRADSAssessmentCategoriesv1-1_fig1.jpg
+ create mode 100644 out/figures/LungRADSAssessmentCategoriesv1-1_fig3.jpg
+ create mode 100644 out/figures/LungRADSAssessmentCategoriesv1-1_fig5.jpg
+ create mode 100644 out/figures/Proposals for revision of the M discriptor_fig01.jpg
+ create mode 100644 out/figures/Proposals for revision of the M discriptor_fig02.jpg
+ create mode 100644 out/figures/Selected Topics in Malignant Pleural Disease_fig02.jpg
+ create mode 100644 out/figures/Selected Topics in Malignant Pleural Disease_figure1.jpg
+ create mode 100644 out/figures/Value-Based Proposition for a Dedicated IP suite_fig01.jpg
+ create mode 100644 out/figures/Value-Based Proposition for a Dedicated IP suite_fig02.jpg
+ create mode 100644 out/figures/Value-Based Proposition for a Dedicated IP suite_fig03.jpg
+ create mode 100644 out/figures/Value-Based Proposition for a Dedicated IP suite_fig06.jpg
+ create mode 100644 out/figures/Value-Based Proposition for a Dedicated IP suite_fig07.jpg
+ create mode 100644 out/figures/Value-Based Proposition for a Dedicated IP suite_figure2.jpg
+ create mode 100644 out/figures/Value-Based Proposition for a Dedicated IP suite_figure3.jpg
+ create mode 100644 out/figures/medical thoracoscopy step by step_fig01.jpg
+ create mode 100644 out/figures/medical thoracoscopy step by step_fig02.jpg
+ create mode 100644 out/figures/medical thoracoscopy step by step_fig03.jpg
+ create mode 100644 out/figures/medical thoracoscopy step by step_fig04.jpg
+ create mode 100644 out/figures/medical thoracoscopy step by step_fig05.jpg
+ create mode 100644 out/figures/medical thoracoscopy step by step_fig06.jpg
+ create mode 100644 out/qa/Diagnostic value of EBUS elastography for the differentiation__umls.qa.json
+ create mode 100644 out/qa/Evaluation of Safety and Short-term__umls.qa.json
+ create mode 100644 out/qa/Ghattas-2021-State of the art_ percutaneous tr__umls.qa.json
+ create mode 100644 out/qa/Iatrogenic bleeding during flexible bronchoscopy__umls.qa.json
+ create mode 100644 out/qa/Indocyanine Green-Soaked Fiducial Markers__umls.qa.json
+ create mode 100644 out/qa/LungRADSAssessmentCategoriesv1-1__umls.qa.json
+ create mode 100644 out/qa/Proposals for revision of the M discriptor__umls.qa.json
+ create mode 100644 out/qa/Selected Topics in Malignant Pleural Disease__umls.qa.json
+ create mode 100644 out/qa/Value-Based Proposition for a Dedicated IP suite__umls.qa.json
+ create mode 100644 out/qa/medical thoracoscopy step by step__umls.qa.json
+ create mode 100644 out/references/Diagnostic value of EBUS elastography for the differentiation.refs.csv
+ create mode 100644 out/references/Evaluation of Safety and Short-term.refs.csv
+ create mode 100644 out/references/Ghattas-2021-State of the art_ percutaneous tr.refs.csv
+ create mode 100644 out/references/Iatrogenic bleeding during flexible bronchoscopy.refs.csv
+ create mode 100644 out/references/Indocyanine Green-Soaked Fiducial Markers.refs.csv
+ create mode 100644 out/references/LungRADSAssessmentCategoriesv1-1.refs.csv
+ create mode 100644 out/references/Proposals for revision of the M discriptor.refs.csv
+ create mode 100644 out/references/Selected Topics in Malignant Pleural Disease.refs.csv
+ create mode 100644 out/references/Value-Based Proposition for a Dedicated IP suite.refs.csv
+ create mode 100644 out/references/medical thoracoscopy step by step.refs.csv
+2025-09-01 01:48:32.821 | INFO     | __main__:git_commit_and_push:158 - Pushing to origin/fix/extraction-hardening...
+To https://github.com/russellmiller49/Medparse.git
+   380218c..e136fba  fix/extraction-hardening -> fix/extraction-hardening
+2025-09-01 01:48:37.477 | SUCCESS  | __main__:git_commit_and_push:161 - ✓ Successfully pushed to GitHub (branch: fix/extraction-hardening)
+2025-09-01 01:48:37.478 | INFO     | __main__:main:189 - [193/414] Processing Complications Following Therapeutic B.pdf
+2025-09-01 01:48:37.478 | INFO     | __main__:process_single_pdf:52 - Processing Complications Following Therapeutic B.pdf...
+2025-09-01 01:50:25.698 | SUCCESS  | __main__:process_single_pdf:71 - ✓ Successfully processed Complications Following Therapeutic B
+2025-09-01 01:50:25.698 | INFO     | __main__:main:189 - [194/414] Processing Basic Bronchoscopy Technology, Techniques, and Professional Fees.pdf
+2025-09-01 01:50:25.698 | INFO     | __main__:process_single_pdf:52 - Processing Basic Bronchoscopy Technology, Techniques, and Professional Fees.pdf...
+2025-09-01 01:53:06.496 | SUCCESS  | __main__:process_single_pdf:71 - ✓ Successfully processed Basic Bronchoscopy Technology, Techniques, and Professional Fees
+2025-09-01 01:53:06.497 | INFO     | __main__:main:189 - [195/414] Processing Ost-2014-Quality-adjusted survival following t.pdf
+2025-09-01 01:53:06.497 | INFO     | __main__:process_single_pdf:52 - Processing Ost-2014-Quality-adjusted survival following t.pdf...
+2025-09-01 01:54:16.555 | SUCCESS  | __main__:process_single_pdf:71 - ✓ Successfully processed Ost-2014-Quality-adjusted survival following t
+2025-09-01 01:54:16.555 | INFO     | __main__:main:189 - [196/414] Processing chest tube practical.pdf
+2025-09-01 01:54:16.555 | INFO     | __main__:process_single_pdf:52 - Processing chest tube practical.pdf...
+2025-09-01 01:55:36.159 | SUCCESS  | __main__:process_single_pdf:71 - ✓ Successfully processed chest tube practical
+2025-09-01 01:55:36.159 | INFO     | __main__:main:189 - [197/414] Processing Reichle-2000-[Argon plasma coagulation in bron.pdf
+2025-09-01 01:55:36.159 | INFO     | __main__:process_single_pdf:52 - Processing Reichle-2000-[Argon plasma coagulation in bron.pdf...
+2025-09-01 01:56:49.908 | SUCCESS  | __main__:process_single_pdf:71 - ✓ Successfully processed Reichle-2000-[Argon plasma coagulation in bron
+2025-09-01 01:56:49.909 | INFO     | __main__:main:189 - [198/414] Processing Karakoca-2018-Follow-up outcomes of chronic ob.pdf
+2025-09-01 01:56:49.909 | INFO     | __main__:process_single_pdf:52 - Processing Karakoca-2018-Follow-up outcomes of chronic ob.pdf...
+2025-09-01 01:57:40.313 | SUCCESS  | __main__:process_single_pdf:71 - ✓ Successfully processed Karakoca-2018-Follow-up outcomes of chronic ob
+2025-09-01 01:57:40.314 | INFO     | __main__:main:189 - [199/414] Processing Advanced diagnostic and therapeutic bronchoscopy technology and reimbursement.pdf
+2025-09-01 01:57:40.314 | INFO     | __main__:process_single_pdf:52 - Processing Advanced diagnostic and therapeutic bronchoscopy technology and reimbursement.pdf...
+2025-09-01 01:59:49.497 | SUCCESS  | __main__:process_single_pdf:71 - ✓ Successfully processed Advanced diagnostic and therapeutic bronchoscopy technology and reimbursement
+2025-09-01 01:59:49.497 | INFO     | __main__:main:189 - [200/414] Processing Anesthesia for bronchoscopy and update 2024.pdf
+2025-09-01 01:59:49.497 | INFO     | __main__:process_single_pdf:52 - Processing Anesthesia for bronchoscopy and update 2024.pdf...
+2025-09-01 02:01:40.323 | SUCCESS  | __main__:process_single_pdf:71 - ✓ Successfully processed Anesthesia for bronchoscopy and update 2024
+2025-09-01 02:01:40.323 | INFO     | __main__:main:189 - [201/414] Processing Hillerdal-2014-One- to four-year follow-up of.pdf
+2025-09-01 02:01:40.323 | INFO     | __main__:process_single_pdf:52 - Processing Hillerdal-2014-One- to four-year follow-up of.pdf...
+2025-09-01 02:04:20.745 | SUCCESS  | __main__:process_single_pdf:71 - ✓ Successfully processed Hillerdal-2014-One- to four-year follow-up of
+2025-09-01 02:04:20.746 | INFO     | __main__:main:189 - [202/414] Processing Target trial.pdf
+2025-09-01 02:04:20.746 | INFO     | __main__:process_single_pdf:52 - Processing Target trial.pdf...
+2025-09-01 02:06:21.705 | SUCCESS  | __main__:process_single_pdf:71 - ✓ Successfully processed Target trial
+2025-09-01 02:06:21.705 | INFO     | __main__:main:198 - Reached 200 successful processes, committing intermediate results...
+2025-09-01 02:06:21.705 | INFO     | __main__:git_commit_and_push:129 - Adding changes to git...

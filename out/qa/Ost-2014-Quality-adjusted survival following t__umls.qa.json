@@ -1,0 +1,15 @@
+{
+  "pdf": "Ost-2014-Quality-adjusted survival following t.pdf",
+  "n_sections": 17,
+  "n_tables": 6,
+  "n_figures": 9,
+  "n_fig_crops": 9,
+  "missing_fig_bbox": 0,
+  "n_refs_csv": 18,
+  "n_umls_links": 0,
+  "n_local_links": 0,
+  "linker": "umls",
+  "completeness_score": 61,
+  "is_valid": true,
+  "timestamp": "2025-09-01 01:54:15"
+}

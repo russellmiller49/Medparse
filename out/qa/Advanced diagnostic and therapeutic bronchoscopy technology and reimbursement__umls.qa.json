@@ -1,0 +1,15 @@
+{
+  "pdf": "Advanced diagnostic and therapeutic bronchoscopy technology and reimbursement.pdf",
+  "n_sections": 28,
+  "n_tables": 3,
+  "n_figures": 2,
+  "n_fig_crops": 2,
+  "missing_fig_bbox": 0,
+  "n_refs_csv": 61,
+  "n_umls_links": 0,
+  "n_local_links": 0,
+  "linker": "umls",
+  "completeness_score": 61,
+  "is_valid": true,
+  "timestamp": "2025-09-01 01:59:48"
+}
