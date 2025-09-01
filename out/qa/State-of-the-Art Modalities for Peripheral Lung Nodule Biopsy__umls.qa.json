@@ -1,0 +1,15 @@
+{
+  "pdf": "State-of-the-Art Modalities for Peripheral Lung Nodule Biopsy.pdf",
+  "n_sections": 23,
+  "n_tables": 2,
+  "n_figures": 12,
+  "n_fig_crops": 11,
+  "missing_fig_bbox": 0,
+  "n_refs_csv": 66,
+  "n_umls_links": 0,
+  "n_local_links": 0,
+  "linker": "umls",
+  "completeness_score": 53,
+  "is_valid": false,
+  "timestamp": "2025-08-31 21:43:36"
+}

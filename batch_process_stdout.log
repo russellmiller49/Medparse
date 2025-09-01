@@ -1028,3 +1028,156 @@ To https://github.com/russellmiller49/Medparse.git
 2025-08-31 21:33:55.108 | SUCCESS  | __main__:process_single_pdf:71 - ✓ Successfully processed Eberhardt-2021-Endobronchial Valve (Zephyr) Tr
 2025-08-31 21:33:55.108 | INFO     | __main__:main:198 - Reached 70 successful processes, committing intermediate results...
 2025-08-31 21:33:55.108 | INFO     | __main__:git_commit_and_push:129 - Adding changes to git...
+2025-08-31 21:33:55.371 | INFO     | __main__:git_commit_and_push:145 - Creating git commit...
+[fix/extraction-hardening 17ebc83] feat: Batch processed 70 PDFs (intermediate commit)
+ 93 files changed, 344623 insertions(+), 1 deletion(-)
+ create mode 100644 out/batch_processed/BTS guideline for diagnostic flexible bronchoscopy in adults.json
+ create mode 100644 out/batch_processed/ENB for PPNs One-Year Results of the Prospective, Multicenter NAVIGATE Study.json
+ create mode 100644 out/batch_processed/Eberhardt-2021-Endobronchial Valve (Zephyr) Tr.json
+ create mode 100644 out/batch_processed/Impact of Pulmonary and Critical Care Fellow Participation during Advanced Diagnostic Bronchoscopy.json
+ create mode 100644 out/batch_processed/Kemp-2017-A Multicenter Randomized Controlled.json
+ create mode 100644 out/batch_processed/Operating Room Fires.json
+ create mode 100644 out/batch_processed/The heat is on impact of endobronchial electro.json
+ create mode 100644 out/batch_processed/Valipour-2014-Expert statement_ pneumothorax a.json
+ create mode 100644 out/batch_processed/normal_saline_versus_hypertonic_saline_for_airway.json
+ create mode 100644 out/batch_processed/percutaneous_endoscopic_gastrostomy__a_practic.json
+ create mode 100644 out/figures/BTS guideline for diagnostic flexible bronchoscopy in adults_fig01.jpg
+ create mode 100644 out/figures/BTS guideline for diagnostic flexible bronchoscopy in adults_fig02.jpg
+ create mode 100644 out/figures/BTS guideline for diagnostic flexible bronchoscopy in adults_fig03.jpg
+ create mode 100644 out/figures/BTS guideline for diagnostic flexible bronchoscopy in adults_fig04.jpg
+ create mode 100644 out/figures/BTS guideline for diagnostic flexible bronchoscopy in adults_fig05.jpg
+ create mode 100644 out/figures/BTS guideline for diagnostic flexible bronchoscopy in adults_fig06.jpg
+ create mode 100644 out/figures/BTS guideline for diagnostic flexible bronchoscopy in adults_fig07.jpg
+ create mode 100644 out/figures/BTS guideline for diagnostic flexible bronchoscopy in adults_fig08.jpg
+ create mode 100644 out/figures/BTS guideline for diagnostic flexible bronchoscopy in adults_fig09.jpg
+ create mode 100644 out/figures/BTS guideline for diagnostic flexible bronchoscopy in adults_fig10.jpg
+ create mode 100644 out/figures/BTS guideline for diagnostic flexible bronchoscopy in adults_fig11.jpg
+ create mode 100644 out/figures/BTS guideline for diagnostic flexible bronchoscopy in adults_fig12.jpg
+ create mode 100644 out/figures/BTS guideline for diagnostic flexible bronchoscopy in adults_fig13.jpg
+ create mode 100644 out/figures/BTS guideline for diagnostic flexible bronchoscopy in adults_fig14.jpg
+ create mode 100644 out/figures/BTS guideline for diagnostic flexible bronchoscopy in adults_fig15.jpg
+ create mode 100644 out/figures/BTS guideline for diagnostic flexible bronchoscopy in adults_fig16.jpg
+ create mode 100644 out/figures/BTS guideline for diagnostic flexible bronchoscopy in adults_fig17.jpg
+ create mode 100644 out/figures/BTS guideline for diagnostic flexible bronchoscopy in adults_fig18.jpg
+ create mode 100644 out/figures/BTS guideline for diagnostic flexible bronchoscopy in adults_fig19.jpg
+ create mode 100644 out/figures/BTS guideline for diagnostic flexible bronchoscopy in adults_fig20.jpg
+ create mode 100644 out/figures/ENB for PPNs One-Year Results of the Prospective, Multicenter NAVIGATE Study_fig01.jpg
+ create mode 100644 out/figures/ENB for PPNs One-Year Results of the Prospective, Multicenter NAVIGATE Study_fig02.jpg
+ create mode 100644 out/figures/ENB for PPNs One-Year Results of the Prospective, Multicenter NAVIGATE Study_fig03.jpg
+ create mode 100644 out/figures/ENB for PPNs One-Year Results of the Prospective, Multicenter NAVIGATE Study_fig04.jpg
+ create mode 100644 out/figures/ENB for PPNs One-Year Results of the Prospective, Multicenter NAVIGATE Study_fig05.jpg
+ create mode 100644 out/figures/Eberhardt-2021-Endobronchial Valve (Zephyr) Tr_fig01.jpg
+ create mode 100644 out/figures/Eberhardt-2021-Endobronchial Valve (Zephyr) Tr_fig03.jpg
+ create mode 100644 out/figures/Eberhardt-2021-Endobronchial Valve (Zephyr) Tr_fig1.jpg
+ create mode 100644 out/figures/Eberhardt-2021-Endobronchial Valve (Zephyr) Tr_fig3.jpg
+ create mode 100644 out/figures/Eberhardt-2021-Endobronchial Valve (Zephyr) Tr_fig4.jpg
+ create mode 100644 out/figures/Impact of Pulmonary and Critical Care Fellow Participation during Advanced Diagnostic Bronchoscopy_fig01.jpg
+ create mode 100644 out/figures/Impact of Pulmonary and Critical Care Fellow Participation during Advanced Diagnostic Bronchoscopy_fig02.jpg
+ create mode 100644 out/figures/Impact of Pulmonary and Critical Care Fellow Participation during Advanced Diagnostic Bronchoscopy_fig03.jpg
+ create mode 100644 out/figures/Impact of Pulmonary and Critical Care Fellow Participation during Advanced Diagnostic Bronchoscopy_fig04.jpg
+ create mode 100644 out/figures/Impact of Pulmonary and Critical Care Fellow Participation during Advanced Diagnostic Bronchoscopy_fig05.jpg
+ create mode 100644 out/figures/Operating Room Fires_fig01.jpg
+ create mode 100644 out/figures/Operating Room Fires_fig02.jpg
+ create mode 100644 out/figures/Operating Room Fires_fig03.jpg
+ create mode 100644 out/figures/Operating Room Fires_fig04.jpg
+ create mode 100644 out/figures/The heat is on impact of endobronchial electro_fig01.jpg
+ create mode 100644 out/figures/The heat is on impact of endobronchial electro_fig02.jpg
+ create mode 100644 out/figures/The heat is on impact of endobronchial electro_fig03.jpg
+ create mode 100644 out/figures/The heat is on impact of endobronchial electro_fig04.jpg
+ create mode 100644 out/figures/The heat is on impact of endobronchial electro_fig05.jpg
+ create mode 100644 out/figures/The heat is on impact of endobronchial electro_fig06.jpg
+ create mode 100644 out/figures/The heat is on impact of endobronchial electro_fig07.jpg
+ create mode 100644 out/figures/The heat is on impact of endobronchial electro_fig08.jpg
+ create mode 100644 out/figures/The heat is on impact of endobronchial electro_fig09.jpg
+ create mode 100644 out/figures/Valipour-2014-Expert statement_ pneumothorax a_fig01.jpg
+ create mode 100644 out/figures/Valipour-2014-Expert statement_ pneumothorax a_fig02.jpg
+ create mode 100644 out/figures/Valipour-2014-Expert statement_ pneumothorax a_fig03.jpg
+ create mode 100644 out/figures/Valipour-2014-Expert statement_ pneumothorax a_fig04.jpg
+ create mode 100644 out/figures/Valipour-2014-Expert statement_ pneumothorax a_fig05.jpg
+ create mode 100644 out/figures/Valipour-2014-Expert statement_ pneumothorax a_fig06.jpg
+ create mode 100644 out/figures/Valipour-2014-Expert statement_ pneumothorax a_fig08.jpg
+ create mode 100644 out/figures/Valipour-2014-Expert statement_ pneumothorax a_fig09.jpg
+ create mode 100644 out/figures/Valipour-2014-Expert statement_ pneumothorax a_fig10.jpg
+ create mode 100644 out/figures/Valipour-2014-Expert statement_ pneumothorax a_fig5.jpg
+ create mode 100644 out/figures/normal_saline_versus_hypertonic_saline_for_airway_fig01.jpg
+ create mode 100644 out/figures/normal_saline_versus_hypertonic_saline_for_airway_fig02.jpg
+ create mode 100644 out/figures/percutaneous_endoscopic_gastrostomy__a_practic_fig01.jpg
+ create mode 100644 out/figures/percutaneous_endoscopic_gastrostomy__a_practic_fig02.jpg
+ create mode 100644 out/qa/BTS guideline for diagnostic flexible bronchoscopy in adults__umls.qa.json
+ create mode 100644 out/qa/ENB for PPNs One-Year Results of the Prospective, Multicenter NAVIGATE Study__umls.qa.json
+ create mode 100644 out/qa/Eberhardt-2021-Endobronchial Valve (Zephyr) Tr__umls.qa.json
+ create mode 100644 out/qa/Impact of Pulmonary and Critical Care Fellow Participation during Advanced Diagnostic Bronchoscopy__umls.qa.json
+ create mode 100644 out/qa/Operating Room Fires__umls.qa.json
+ create mode 100644 out/qa/The heat is on impact of endobronchial electro__umls.qa.json
+ create mode 100644 out/qa/Valipour-2014-Expert statement_ pneumothorax a__umls.qa.json
+ create mode 100644 out/qa/normal_saline_versus_hypertonic_saline_for_airway__umls.qa.json
+ create mode 100644 out/qa/percutaneous_endoscopic_gastrostomy__a_practic__umls.qa.json
+ create mode 100644 out/references/BTS guideline for diagnostic flexible bronchoscopy in adults.refs.csv
+ create mode 100644 out/references/ENB for PPNs One-Year Results of the Prospective, Multicenter NAVIGATE Study.refs.csv
+ create mode 100644 out/references/Eberhardt-2021-Endobronchial Valve (Zephyr) Tr.refs.csv
+ create mode 100644 out/references/Impact of Pulmonary and Critical Care Fellow Participation during Advanced Diagnostic Bronchoscopy.refs.csv
+ create mode 100644 out/references/Operating Room Fires.refs.csv
+ create mode 100644 out/references/The heat is on impact of endobronchial electro.refs.csv
+ create mode 100644 out/references/Valipour-2014-Expert statement_ pneumothorax a.refs.csv
+ create mode 100644 out/references/normal_saline_versus_hypertonic_saline_for_airway.refs.csv
+ create mode 100644 out/references/percutaneous_endoscopic_gastrostomy__a_practic.refs.csv
+2025-08-31 21:33:55.413 | INFO     | __main__:git_commit_and_push:158 - Pushing to origin/fix/extraction-hardening...
+To https://github.com/russellmiller49/Medparse.git
+   ed4e78a..17ebc83  fix/extraction-hardening -> fix/extraction-hardening
+2025-08-31 21:34:00.811 | SUCCESS  | __main__:git_commit_and_push:161 - ✓ Successfully pushed to GitHub (branch: fix/extraction-hardening)
+2025-08-31 21:34:00.811 | INFO     | __main__:main:189 - [72/414] Processing Advanced Diagnostic and Therapeutic Bronchoscopy .pdf
+2025-08-31 21:34:00.811 | INFO     | __main__:process_single_pdf:52 - Processing Advanced Diagnostic and Therapeutic Bronchoscopy .pdf...
+2025-08-31 21:36:12.661 | SUCCESS  | __main__:process_single_pdf:71 - ✓ Successfully processed Advanced Diagnostic and Therapeutic Bronchoscopy 
+2025-08-31 21:36:12.661 | INFO     | __main__:main:189 - [73/414] Processing A randomized study of endobronchial valves for.pdf
+2025-08-31 21:36:12.661 | INFO     | __main__:process_single_pdf:52 - Processing A randomized study of endobronchial valves for.pdf...
+2025-08-31 21:37:44.828 | SUCCESS  | __main__:process_single_pdf:71 - ✓ Successfully processed A randomized study of endobronchial valves for
+2025-08-31 21:37:44.828 | INFO     | __main__:main:189 - [74/414] Processing Technical aspects and outcomes of tracheobronc.pdf
+2025-08-31 21:37:44.828 | INFO     | __main__:process_single_pdf:52 - Processing Technical aspects and outcomes of tracheobronc.pdf...
+2025-08-31 21:38:50.647 | SUCCESS  | __main__:process_single_pdf:71 - ✓ Successfully processed Technical aspects and outcomes of tracheobronc
+2025-08-31 21:38:50.647 | INFO     | __main__:main:189 - [75/414] Processing A Randomized Trial of 1% vs 2% Lignocaine by the Spray-as-You-Go Technique.pdf
+2025-08-31 21:38:50.647 | INFO     | __main__:process_single_pdf:52 - Processing A Randomized Trial of 1% vs 2% Lignocaine by the Spray-as-You-Go Technique.pdf...
+2025-08-31 21:39:56.289 | SUCCESS  | __main__:process_single_pdf:71 - ✓ Successfully processed A Randomized Trial of 1% vs 2% Lignocaine by the Spray-as-You-Go Technique
+2025-08-31 21:39:56.289 | INFO     | __main__:main:189 - [76/414] Processing State-of-the-Art Modalities for Peripheral Lung Nodule Biopsy.pdf
+2025-08-31 21:39:56.289 | INFO     | __main__:process_single_pdf:52 - Processing State-of-the-Art Modalities for Peripheral Lung Nodule Biopsy.pdf...
+2025-08-31 21:43:37.212 | SUCCESS  | __main__:process_single_pdf:71 - ✓ Successfully processed State-of-the-Art Modalities for Peripheral Lung Nodule Biopsy
+2025-08-31 21:43:37.212 | INFO     | __main__:main:189 - [77/414] Processing AABIP Survey of Practice patterns and salary.pdf
+2025-08-31 21:43:37.212 | INFO     | __main__:process_single_pdf:52 - Processing AABIP Survey of Practice patterns and salary.pdf...
+2025-08-31 21:44:03.096 | ERROR    | __main__:process_single_pdf:74 - ✗ Failed to process AABIP Survey of Practice patterns and salary: 2025-08-31 21:43:40.150 | INFO     | __main__:process_pdf:62 - Docling parsing (DocumentConverter): AABIP Survey of Practice patterns and salary.pdf
+2025-08-31 21:43:57.918 | INFO     | __main__:process_pdf:80 - Cropping figure images with EXIF captions
+2025-08-31 21:44:00.284 | INFO     | __main__:process_pdf:83 - GROBID metadata & references
+Traceback (most recent call last):
+  File "/home/rjm/projects/ip_knowledge/medparse/medparse-docling/scripts/process_one.py", line 264, in <module>
+    process_pdf(Path(args.pdf), Path(args.out), Path(args.cfg), linker=args.linker, dump_docling_debug=args.dump_docling_debug)
+  File "/home/rjm/projects/ip_knowledge/medparse/medparse-docling/scripts/process_one.py", line 95, in process_pdf
+    refs = parse_references_tei(refs_tei["references_tei"])
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/rjm/projects/ip_knowledge/medparse/medparse-docling/scripts/grobid_references.py", line 29, in parse_references_tei
+    root = etree.fromstring(tei_xml.encode("utf-8"))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "src/lxml/etree.pyx", line 3307, in lxml.etree.fromstring
+  File "src/lxml/parser.pxi", line 1995, in lxml.etree._parseMemoryDocument
+  File "src/lxml/parser.pxi", line 1882, in lxml.etree._parseDoc
+  File "src/lxml/parser.pxi", line 1164, in lxml.etree._BaseParser._parseDoc
+  File "src/lxml/parser.pxi", line 633, in lxml.etree._ParserContext._handleParseResultDoc
+  File "src/lxml/parser.pxi", line 743, in lxml.etree._handleParseResult
+  File "src/lxml/parser.pxi", line 672, in lxml.etree._raiseParseError
+  File "<string>", line 1
+lxml.etree.XMLSyntaxError: Document is empty, line 1, column 1
+
+2025-08-31 21:44:03.096 | INFO     | __main__:main:189 - [78/414] Processing Mechanical properties of different airway sten.pdf
+2025-08-31 21:44:03.096 | INFO     | __main__:process_single_pdf:52 - Processing Mechanical properties of different airway sten.pdf...
+2025-08-31 21:45:19.542 | SUCCESS  | __main__:process_single_pdf:71 - ✓ Successfully processed Mechanical properties of different airway sten
+2025-08-31 21:45:19.543 | INFO     | __main__:main:189 - [79/414] Processing The Diagnosis and Management of Airway Complic.pdf
+2025-08-31 21:45:19.543 | INFO     | __main__:process_single_pdf:52 - Processing The Diagnosis and Management of Airway Complic.pdf...
+2025-08-31 21:47:45.185 | SUCCESS  | __main__:process_single_pdf:71 - ✓ Successfully processed The Diagnosis and Management of Airway Complic
+2025-08-31 21:47:45.185 | INFO     | __main__:main:189 - [80/414] Processing Randomized Trial of Pleural Fluid Drainage Fre.pdf
+2025-08-31 21:47:45.185 | INFO     | __main__:process_single_pdf:52 - Processing Randomized Trial of Pleural Fluid Drainage Fre.pdf...
+2025-08-31 21:48:49.110 | SUCCESS  | __main__:process_single_pdf:71 - ✓ Successfully processed Randomized Trial of Pleural Fluid Drainage Fre
+2025-08-31 21:48:49.110 | INFO     | __main__:main:189 - [81/414] Processing RCT  of Three Guided Bronchoscopic Approaches Pulmonary NodulesPRECISION-1 Study.pdf
+2025-08-31 21:48:49.110 | INFO     | __main__:process_single_pdf:52 - Processing RCT  of Three Guided Bronchoscopic Approaches Pulmonary NodulesPRECISION-1 Study.pdf...
+2025-08-31 21:50:03.718 | SUCCESS  | __main__:process_single_pdf:71 - ✓ Successfully processed RCT  of Three Guided Bronchoscopic Approaches Pulmonary NodulesPRECISION-1 Study
+2025-08-31 21:50:03.718 | INFO     | __main__:main:189 - [82/414] Processing endoscopic_treatment_of_bronchial_carcinoids_i.pdf
+2025-08-31 21:50:03.718 | INFO     | __main__:process_single_pdf:52 - Processing endoscopic_treatment_of_bronchial_carcinoids_i.pdf...
+2025-08-31 21:50:57.336 | SUCCESS  | __main__:process_single_pdf:71 - ✓ Successfully processed endoscopic_treatment_of_bronchial_carcinoids_i
+2025-08-31 21:50:57.336 | INFO     | __main__:main:198 - Reached 80 successful processes, committing intermediate results...
+2025-08-31 21:50:57.337 | INFO     | __main__:git_commit_and_push:129 - Adding changes to git...
