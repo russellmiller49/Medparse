@@ -3567,3 +3567,109 @@ To https://github.com/russellmiller49/Medparse.git
 2025-09-01 03:37:05.566 | SUCCESS  | __main__:process_single_pdf:71 - ✓ Successfully processed STS Surgical Management of Oligometastatic NSCLC
 2025-09-01 03:37:05.566 | INFO     | __main__:main:198 - Reached 240 successful processes, committing intermediate results...
 2025-09-01 03:37:05.566 | INFO     | __main__:git_commit_and_push:129 - Adding changes to git...
+2025-09-01 03:37:05.683 | INFO     | __main__:git_commit_and_push:145 - Creating git commit...
+[fix/extraction-hardening 398dd68] feat: Batch processed 240 PDFs (intermediate commit)
+ 69 files changed, 87807 insertions(+)
+ create mode 100644 out/batch_processed/Advances in Interventional Pulmonology 2018.json
+ create mode 100644 out/batch_processed/Current practice in management of exudative pleural effusions AABIP survey.json
+ create mode 100644 out/batch_processed/Havelock-2010-Pleural procedures and thoracic.json
+ create mode 100644 out/batch_processed/Rigid Bronchoscopy.json
+ create mode 100644 out/batch_processed/Rigid bronchoscopy and silicone st.json
+ create mode 100644 out/batch_processed/STS Surgical Management of Oligometastatic NSCLC.json
+ create mode 100644 out/batch_processed/Senitko-2019-Safety and Tolerability of Vacuum.json
+ create mode 100644 out/batch_processed/Survival in COPD patients treated with broncho.json
+ create mode 100644 out/batch_processed/aabip_evidence_informed_guidelines_and_expert.json
+ create mode 100644 out/batch_processed/editorial Nth edition.json
+ create mode 100644 out/figures/Advances in Interventional Pulmonology 2018_fig01.jpg
+ create mode 100644 out/figures/Advances in Interventional Pulmonology 2018_fig02.jpg
+ create mode 100644 out/figures/Advances in Interventional Pulmonology 2018_fig03.jpg
+ create mode 100644 out/figures/Advances in Interventional Pulmonology 2018_fig04.jpg
+ create mode 100644 out/figures/Current practice in management of exudative pleural effusions AABIP survey_fig01.jpg
+ create mode 100644 out/figures/Current practice in management of exudative pleural effusions AABIP survey_figure2.jpg
+ create mode 100644 out/figures/Havelock-2010-Pleural procedures and thoracic_fig01.jpg
+ create mode 100644 out/figures/Havelock-2010-Pleural procedures and thoracic_fig02.jpg
+ create mode 100644 out/figures/Havelock-2010-Pleural procedures and thoracic_fig03.jpg
+ create mode 100644 out/figures/Havelock-2010-Pleural procedures and thoracic_fig04.jpg
+ create mode 100644 out/figures/Havelock-2010-Pleural procedures and thoracic_fig05.jpg
+ create mode 100644 out/figures/Havelock-2010-Pleural procedures and thoracic_fig06.jpg
+ create mode 100644 out/figures/Havelock-2010-Pleural procedures and thoracic_fig07.jpg
+ create mode 100644 out/figures/Havelock-2010-Pleural procedures and thoracic_fig08.jpg
+ create mode 100644 out/figures/Havelock-2010-Pleural procedures and thoracic_fig09.jpg
+ create mode 100644 out/figures/Havelock-2010-Pleural procedures and thoracic_fig10.jpg
+ create mode 100644 out/figures/Rigid Bronchoscopy_fig01.jpg
+ create mode 100644 out/figures/Rigid Bronchoscopy_fig02.jpg
+ create mode 100644 out/figures/Rigid Bronchoscopy_fig03.jpg
+ create mode 100644 out/figures/Rigid Bronchoscopy_fig04.jpg
+ create mode 100644 out/figures/Rigid Bronchoscopy_fig06.jpg
+ create mode 100644 out/figures/Rigid Bronchoscopy_fig07.jpg
+ create mode 100644 out/figures/Rigid Bronchoscopy_fig08.jpg
+ create mode 100644 out/figures/Rigid Bronchoscopy_fig7.jpg
+ create mode 100644 out/figures/Rigid bronchoscopy and silicone st_fig01.jpg
+ create mode 100644 out/figures/Rigid bronchoscopy and silicone st_fig02.jpg
+ create mode 100644 out/figures/Rigid bronchoscopy and silicone st_fig03.jpg
+ create mode 100644 out/figures/STS Surgical Management of Oligometastatic NSCLC_fig01.jpg
+ create mode 100644 out/figures/Senitko-2019-Safety and Tolerability of Vacuum_fig01.jpg
+ create mode 100644 out/figures/Senitko-2019-Safety and Tolerability of Vacuum_fig03.jpg
+ create mode 100644 out/figures/Senitko-2019-Safety and Tolerability of Vacuum_figure2.jpg
+ create mode 100644 out/figures/Survival in COPD patients treated with broncho_fig01.jpg
+ create mode 100644 out/figures/Survival in COPD patients treated with broncho_fig02.jpg
+ create mode 100644 out/figures/Survival in COPD patients treated with broncho_fig03.jpg
+ create mode 100644 out/figures/Survival in COPD patients treated with broncho_fig04.jpg
+ create mode 100644 out/figures/aabip_evidence_informed_guidelines_and_expert_figure1.jpg
+ create mode 100644 out/figures/editorial Nth edition_fig01.jpg
+ create mode 100644 out/qa/Advances in Interventional Pulmonology 2018__umls.qa.json
+ create mode 100644 out/qa/Current practice in management of exudative pleural effusions AABIP survey__umls.qa.json
+ create mode 100644 out/qa/Havelock-2010-Pleural procedures and thoracic__umls.qa.json
+ create mode 100644 out/qa/Rigid Bronchoscopy__umls.qa.json
+ create mode 100644 out/qa/Rigid bronchoscopy and silicone st__umls.qa.json
+ create mode 100644 out/qa/STS Surgical Management of Oligometastatic NSCLC__umls.qa.json
+ create mode 100644 out/qa/Senitko-2019-Safety and Tolerability of Vacuum__umls.qa.json
+ create mode 100644 out/qa/Survival in COPD patients treated with broncho__umls.qa.json
+ create mode 100644 out/qa/aabip_evidence_informed_guidelines_and_expert__umls.qa.json
+ create mode 100644 out/qa/editorial Nth edition__umls.qa.json
+ create mode 100644 out/references/Advances in Interventional Pulmonology 2018.refs.csv
+ create mode 100644 out/references/Current practice in management of exudative pleural effusions AABIP survey.refs.csv
+ create mode 100644 out/references/Havelock-2010-Pleural procedures and thoracic.refs.csv
+ create mode 100644 out/references/Rigid Bronchoscopy.refs.csv
+ create mode 100644 out/references/Rigid bronchoscopy and silicone st.refs.csv
+ create mode 100644 out/references/STS Surgical Management of Oligometastatic NSCLC.refs.csv
+ create mode 100644 out/references/Senitko-2019-Safety and Tolerability of Vacuum.refs.csv
+ create mode 100644 out/references/Survival in COPD patients treated with broncho.refs.csv
+ create mode 100644 out/references/aabip_evidence_informed_guidelines_and_expert.refs.csv
+ create mode 100644 out/references/editorial Nth edition.refs.csv
+2025-09-01 03:37:05.706 | INFO     | __main__:git_commit_and_push:158 - Pushing to origin/fix/extraction-hardening...
+To https://github.com/russellmiller49/Medparse.git
+   2b56d3d..398dd68  fix/extraction-hardening -> fix/extraction-hardening
+2025-09-01 03:37:09.452 | SUCCESS  | __main__:git_commit_and_push:161 - ✓ Successfully pushed to GitHub (branch: fix/extraction-hardening)
+2025-09-01 03:37:09.452 | INFO     | __main__:main:189 - [244/414] Processing Spread Through Air Spaces.pdf
+2025-09-01 03:37:09.452 | INFO     | __main__:process_single_pdf:52 - Processing Spread Through Air Spaces.pdf...
+2025-09-01 03:42:27.310 | SUCCESS  | __main__:process_single_pdf:71 - ✓ Successfully processed Spread Through Air Spaces
+2025-09-01 03:42:27.311 | INFO     | __main__:main:189 - [245/414] Processing The use of electrocautery as the primary ablat.pdf
+2025-09-01 03:42:27.311 | INFO     | __main__:process_single_pdf:52 - Processing The use of electrocautery as the primary ablat.pdf...
+2025-09-01 03:43:24.683 | SUCCESS  | __main__:process_single_pdf:71 - ✓ Successfully processed The use of electrocautery as the primary ablat
+2025-09-01 03:43:24.683 | INFO     | __main__:main:189 - [246/414] Processing Management of life-threatening hemoptysis in the ICU.pdf
+2025-09-01 03:43:24.683 | INFO     | __main__:process_single_pdf:52 - Processing Management of life-threatening hemoptysis in the ICU.pdf...
+2025-09-01 03:46:37.791 | SUCCESS  | __main__:process_single_pdf:71 - ✓ Successfully processed Management of life-threatening hemoptysis in the ICU
+2025-09-01 03:46:37.791 | INFO     | __main__:main:189 - [247/414] Processing Percutaneous radiologic gastrostomy versus per.pdf
+2025-09-01 03:46:37.791 | INFO     | __main__:process_single_pdf:52 - Processing Percutaneous radiologic gastrostomy versus per.pdf...
+2025-09-01 03:47:55.952 | SUCCESS  | __main__:process_single_pdf:71 - ✓ Successfully processed Percutaneous radiologic gastrostomy versus per
+2025-09-01 03:47:55.952 | INFO     | __main__:main:189 - [248/414] Processing The evolving role of medical thoracoscopy on therapeutic management of pleural disease.pdf
+2025-09-01 03:47:55.952 | INFO     | __main__:process_single_pdf:52 - Processing The evolving role of medical thoracoscopy on therapeutic management of pleural disease.pdf...
+2025-09-01 03:50:08.392 | SUCCESS  | __main__:process_single_pdf:71 - ✓ Successfully processed The evolving role of medical thoracoscopy on therapeutic management of pleural disease
+2025-09-01 03:50:08.392 | INFO     | __main__:main:189 - [249/414] Processing Rahnemai-Azar-2014-Percutaneous endoscopic gas.pdf
+2025-09-01 03:50:08.392 | INFO     | __main__:process_single_pdf:52 - Processing Rahnemai-Azar-2014-Percutaneous endoscopic gas.pdf...
+2025-09-01 03:52:06.194 | SUCCESS  | __main__:process_single_pdf:71 - ✓ Successfully processed Rahnemai-Azar-2014-Percutaneous endoscopic gas
+2025-09-01 03:52:06.194 | INFO     | __main__:main:189 - [250/414] Processing BLVR comprehensive 2025.pdf
+2025-09-01 03:52:06.194 | INFO     | __main__:process_single_pdf:52 - Processing BLVR comprehensive 2025.pdf...
+2025-09-01 03:53:06.823 | SUCCESS  | __main__:process_single_pdf:71 - ✓ Successfully processed BLVR comprehensive 2025
+2025-09-01 03:53:06.823 | INFO     | __main__:main:189 - [251/414] Processing Approach to hemoptysis in the modern era.pdf
+2025-09-01 03:53:06.824 | INFO     | __main__:process_single_pdf:52 - Processing Approach to hemoptysis in the modern era.pdf...
+2025-09-01 03:57:12.023 | SUCCESS  | __main__:process_single_pdf:71 - ✓ Successfully processed Approach to hemoptysis in the modern era
+2025-09-01 03:57:12.023 | INFO     | __main__:main:189 - [252/414] Processing Imaging in peripheral bronchoscopy.pdf
+2025-09-01 03:57:12.023 | INFO     | __main__:process_single_pdf:52 - Processing Imaging in peripheral bronchoscopy.pdf...
+2025-09-01 03:58:47.327 | SUCCESS  | __main__:process_single_pdf:71 - ✓ Successfully processed Imaging in peripheral bronchoscopy
+2025-09-01 03:58:47.328 | INFO     | __main__:main:189 - [253/414] Processing COLDICE study.pdf
+2025-09-01 03:58:47.328 | INFO     | __main__:process_single_pdf:52 - Processing COLDICE study.pdf...
+2025-09-01 04:00:03.968 | SUCCESS  | __main__:process_single_pdf:71 - ✓ Successfully processed COLDICE study
+2025-09-01 04:00:03.968 | INFO     | __main__:main:198 - Reached 250 successful processes, committing intermediate results...
+2025-09-01 04:00:03.968 | INFO     | __main__:git_commit_and_push:129 - Adding changes to git...
