@@ -906,3 +906,125 @@ To https://github.com/russellmiller49/Medparse.git
 2025-08-31 21:12:37.437 | SUCCESS  | __main__:process_single_pdf:71 - ✓ Successfully processed The Only Constant Is Change
 2025-08-31 21:12:37.437 | INFO     | __main__:main:198 - Reached 60 successful processes, committing intermediate results...
 2025-08-31 21:12:37.437 | INFO     | __main__:git_commit_and_push:129 - Adding changes to git...
+2025-08-31 21:12:37.572 | INFO     | __main__:git_commit_and_push:145 - Creating git commit...
+[fix/extraction-hardening ed4e78a] feat: Batch processed 60 PDFs (intermediate commit)
+ 86 files changed, 128937 insertions(+), 4 deletions(-)
+ create mode 100644 out/batch_processed/Chen-2018-Photodynamic therapeutic ablation fo.json
+ create mode 100644 out/batch_processed/Dransfield-2020-Effect of Zephyr Endobronchial.json
+ create mode 100644 out/batch_processed/Multi-disciplinary management of patients with.json
+ create mode 100644 out/batch_processed/Potentially fatal arrhythmia complicating endobronchial epinephrine.json
+ create mode 100644 out/batch_processed/Romagnoli-2019-Poor Concordance between Sequen2.json
+ create mode 100644 out/batch_processed/The Only Constant Is Change.json
+ create mode 100644 out/batch_processed/Unlocking the potential of RAB.json
+ create mode 100644 out/batch_processed/fistula Bronstein-2019-Management of air leaks post-su.json
+ create mode 100644 out/batch_processed/ratwani-et-al-2025-post-thoracentesis-ultrasound-vs-chest-x-ray-for-the-evaluation-of-effusion-evacuation-and-lung-re.json
+ create mode 100644 out/batch_processed/the_impact_of_video_assisted_thoracoscopic_versus.4.json
+ create mode 100644 out/figures/Dransfield-2020-Effect of Zephyr Endobronchial_fig01.jpg
+ create mode 100644 out/figures/Dransfield-2020-Effect of Zephyr Endobronchial_fig02.jpg
+ create mode 100644 out/figures/Dransfield-2020-Effect of Zephyr Endobronchial_fig05.jpg
+ create mode 100644 out/figures/Dransfield-2020-Effect of Zephyr Endobronchial_fig06.jpg
+ create mode 100644 out/figures/Dransfield-2020-Effect of Zephyr Endobronchial_fig07.jpg
+ create mode 100644 out/figures/Dransfield-2020-Effect of Zephyr Endobronchial_fig08.jpg
+ create mode 100644 out/figures/Dransfield-2020-Effect of Zephyr Endobronchial_fig09.jpg
+ create mode 100644 out/figures/Dransfield-2020-Effect of Zephyr Endobronchial_fig10.jpg
+ create mode 100644 out/figures/Dransfield-2020-Effect of Zephyr Endobronchial_fig11.jpg
+ create mode 100644 out/figures/Dransfield-2020-Effect of Zephyr Endobronchial_figure2.jpg
+ create mode 100644 out/figures/Dransfield-2020-Effect of Zephyr Endobronchial_figure3.jpg
+ create mode 100644 out/figures/Multi-disciplinary management of patients with_fig01.jpg
+ create mode 100644 out/figures/Multi-disciplinary management of patients with_fig02.jpg
+ create mode 100644 out/figures/Multi-disciplinary management of patients with_fig03.jpg
+ create mode 100644 out/figures/Multi-disciplinary management of patients with_fig04.jpg
+ create mode 100644 out/figures/Multi-disciplinary management of patients with_fig05.jpg
+ create mode 100644 out/figures/Multi-disciplinary management of patients with_fig06.jpg
+ create mode 100644 out/figures/Multi-disciplinary management of patients with_fig07.jpg
+ create mode 100644 out/figures/Multi-disciplinary management of patients with_fig08.jpg
+ create mode 100644 out/figures/Multi-disciplinary management of patients with_fig09.jpg
+ create mode 100644 out/figures/Multi-disciplinary management of patients with_fig10.jpg
+ create mode 100644 out/figures/Multi-disciplinary management of patients with_fig11.jpg
+ create mode 100644 out/figures/Multi-disciplinary management of patients with_fig12.jpg
+ create mode 100644 out/figures/Multi-disciplinary management of patients with_fig13.jpg
+ create mode 100644 out/figures/Multi-disciplinary management of patients with_fig14.jpg
+ create mode 100644 out/figures/Multi-disciplinary management of patients with_fig15.jpg
+ create mode 100644 out/figures/Multi-disciplinary management of patients with_fig16.jpg
+ create mode 100644 out/figures/Multi-disciplinary management of patients with_fig17.jpg
+ create mode 100644 out/figures/Multi-disciplinary management of patients with_fig18.jpg
+ create mode 100644 out/figures/Multi-disciplinary management of patients with_fig19.jpg
+ create mode 100644 out/figures/Multi-disciplinary management of patients with_fig20.jpg
+ create mode 100644 out/figures/Multi-disciplinary management of patients with_fig21.jpg
+ create mode 100644 out/figures/Multi-disciplinary management of patients with_fig22.jpg
+ create mode 100644 out/figures/Multi-disciplinary management of patients with_fig23.jpg
+ create mode 100644 out/figures/Multi-disciplinary management of patients with_fig24.jpg
+ create mode 100644 out/figures/Romagnoli-2019-Poor Concordance between Sequen2_figure1.jpg
+ create mode 100644 out/figures/Romagnoli-2019-Poor Concordance between Sequen2_figure2.jpg
+ create mode 100644 out/figures/The Only Constant Is Change_fig01.jpg
+ create mode 100644 out/figures/The Only Constant Is Change_fig02.jpg
+ create mode 100644 out/figures/Unlocking the potential of RAB_fig01.jpg
+ create mode 100644 out/figures/Unlocking the potential of RAB_fig02.jpg
+ create mode 100644 out/figures/Unlocking the potential of RAB_fig03.jpg
+ create mode 100644 out/figures/Unlocking the potential of RAB_fig04.jpg
+ create mode 100644 out/figures/Unlocking the potential of RAB_fig05.jpg
+ create mode 100644 out/figures/Unlocking the potential of RAB_fig06.jpg
+ create mode 100644 out/figures/Unlocking the potential of RAB_fig07.jpg
+ create mode 100644 out/figures/Unlocking the potential of RAB_fig08.jpg
+ create mode 100644 out/figures/Unlocking the potential of RAB_fig09.jpg
+ create mode 100644 out/figures/Unlocking the potential of RAB_fig10.jpg
+ create mode 100644 out/figures/Unlocking the potential of RAB_fig11.jpg
+ create mode 100644 out/figures/fistula Bronstein-2019-Management of air leaks post-su_fig01.jpg
+ create mode 100644 out/figures/fistula Bronstein-2019-Management of air leaks post-su_fig02.jpg
+ create mode 100644 out/figures/fistula Bronstein-2019-Management of air leaks post-su_fig03.jpg
+ create mode 100644 out/figures/ratwani-et-al-2025-post-thoracentesis-ultrasound-vs-chest-x-ray-for-the-evaluation-of-effusion-evacuation-and-lung-re_fig01.jpg
+ create mode 100644 out/figures/ratwani-et-al-2025-post-thoracentesis-ultrasound-vs-chest-x-ray-for-the-evaluation-of-effusion-evacuation-and-lung-re_fig02.jpg
+ create mode 100644 out/qa/Dransfield-2020-Effect of Zephyr Endobronchial__umls.qa.json
+ create mode 100644 out/qa/Multi-disciplinary management of patients with__umls.qa.json
+ create mode 100644 out/qa/Potentially fatal arrhythmia complicating endobronchial epinephrine__umls.qa.json
+ create mode 100644 out/qa/Romagnoli-2019-Poor Concordance between Sequen2__umls.qa.json
+ create mode 100644 out/qa/The Only Constant Is Change__umls.qa.json
+ create mode 100644 out/qa/Unlocking the potential of RAB__umls.qa.json
+ create mode 100644 out/qa/fistula Bronstein-2019-Management of air leaks post-su__umls.qa.json
+ create mode 100644 out/qa/ratwani-et-al-2025-post-thoracentesis-ultrasound-vs-chest-x-ray-for-the-evaluation-of-effusion-evacuation-and-lung-re__umls.qa.json
+ create mode 100644 out/qa/the_impact_of_video_assisted_thoracoscopic_versus.4__umls.qa.json
+ create mode 100644 out/references/Dransfield-2020-Effect of Zephyr Endobronchial.refs.csv
+ create mode 100644 out/references/Multi-disciplinary management of patients with.refs.csv
+ create mode 100644 out/references/Potentially fatal arrhythmia complicating endobronchial epinephrine.refs.csv
+ create mode 100644 out/references/Romagnoli-2019-Poor Concordance between Sequen2.refs.csv
+ create mode 100644 out/references/The Only Constant Is Change.refs.csv
+ create mode 100644 out/references/Unlocking the potential of RAB.refs.csv
+ create mode 100644 out/references/fistula Bronstein-2019-Management of air leaks post-su.refs.csv
+ create mode 100644 out/references/ratwani-et-al-2025-post-thoracentesis-ultrasound-vs-chest-x-ray-for-the-evaluation-of-effusion-evacuation-and-lung-re.refs.csv
+ create mode 100644 out/references/the_impact_of_video_assisted_thoracoscopic_versus.4.refs.csv
+2025-08-31 21:12:37.593 | INFO     | __main__:git_commit_and_push:158 - Pushing to origin/fix/extraction-hardening...
+To https://github.com/russellmiller49/Medparse.git
+   569db3a..ed4e78a  fix/extraction-hardening -> fix/extraction-hardening
+2025-08-31 21:12:41.279 | SUCCESS  | __main__:git_commit_and_push:161 - ✓ Successfully pushed to GitHub (branch: fix/extraction-hardening)
+2025-08-31 21:12:41.279 | INFO     | __main__:main:189 - [62/414] Processing Kemp-2017-A Multicenter Randomized Controlled.pdf
+2025-08-31 21:12:41.279 | INFO     | __main__:process_single_pdf:52 - Processing Kemp-2017-A Multicenter Randomized Controlled.pdf...
+2025-08-31 21:15:09.027 | SUCCESS  | __main__:process_single_pdf:71 - ✓ Successfully processed Kemp-2017-A Multicenter Randomized Controlled
+2025-08-31 21:15:09.027 | INFO     | __main__:main:189 - [63/414] Processing normal_saline_versus_hypertonic_saline_for_airway.pdf
+2025-08-31 21:15:09.027 | INFO     | __main__:process_single_pdf:52 - Processing normal_saline_versus_hypertonic_saline_for_airway.pdf...
+2025-08-31 21:16:03.470 | SUCCESS  | __main__:process_single_pdf:71 - ✓ Successfully processed normal_saline_versus_hypertonic_saline_for_airway
+2025-08-31 21:16:03.470 | INFO     | __main__:main:189 - [64/414] Processing percutaneous_endoscopic_gastrostomy__a_practic.pdf
+2025-08-31 21:16:03.470 | INFO     | __main__:process_single_pdf:52 - Processing percutaneous_endoscopic_gastrostomy__a_practic.pdf...
+2025-08-31 21:18:18.511 | SUCCESS  | __main__:process_single_pdf:71 - ✓ Successfully processed percutaneous_endoscopic_gastrostomy__a_practic
+2025-08-31 21:18:18.512 | INFO     | __main__:main:189 - [65/414] Processing ENB for PPNs One-Year Results of the Prospective, Multicenter NAVIGATE Study.pdf
+2025-08-31 21:18:18.512 | INFO     | __main__:process_single_pdf:52 - Processing ENB for PPNs One-Year Results of the Prospective, Multicenter NAVIGATE Study.pdf...
+2025-08-31 21:20:23.054 | SUCCESS  | __main__:process_single_pdf:71 - ✓ Successfully processed ENB for PPNs One-Year Results of the Prospective, Multicenter NAVIGATE Study
+2025-08-31 21:20:23.054 | INFO     | __main__:main:189 - [66/414] Processing The heat is on impact of endobronchial electro.pdf
+2025-08-31 21:20:23.054 | INFO     | __main__:process_single_pdf:52 - Processing The heat is on impact of endobronchial electro.pdf...
+2025-08-31 21:21:04.435 | SUCCESS  | __main__:process_single_pdf:71 - ✓ Successfully processed The heat is on impact of endobronchial electro
+2025-08-31 21:21:04.435 | INFO     | __main__:main:189 - [67/414] Processing Impact of Pulmonary and Critical Care Fellow Participation during Advanced Diagnostic Bronchoscopy.pdf
+2025-08-31 21:21:04.435 | INFO     | __main__:process_single_pdf:52 - Processing Impact of Pulmonary and Critical Care Fellow Participation during Advanced Diagnostic Bronchoscopy.pdf...
+2025-08-31 21:22:50.467 | SUCCESS  | __main__:process_single_pdf:71 - ✓ Successfully processed Impact of Pulmonary and Critical Care Fellow Participation during Advanced Diagnostic Bronchoscopy
+2025-08-31 21:22:50.468 | INFO     | __main__:main:189 - [68/414] Processing BTS guideline for diagnostic flexible bronchoscopy in adults.pdf
+2025-08-31 21:22:50.468 | INFO     | __main__:process_single_pdf:52 - Processing BTS guideline for diagnostic flexible bronchoscopy in adults.pdf...
+2025-08-31 21:28:28.217 | SUCCESS  | __main__:process_single_pdf:71 - ✓ Successfully processed BTS guideline for diagnostic flexible bronchoscopy in adults
+2025-08-31 21:28:28.217 | INFO     | __main__:main:189 - [69/414] Processing Valipour-2014-Expert statement_ pneumothorax a.pdf
+2025-08-31 21:28:28.217 | INFO     | __main__:process_single_pdf:52 - Processing Valipour-2014-Expert statement_ pneumothorax a.pdf...
+2025-08-31 21:29:34.141 | SUCCESS  | __main__:process_single_pdf:71 - ✓ Successfully processed Valipour-2014-Expert statement_ pneumothorax a
+2025-08-31 21:29:34.141 | INFO     | __main__:main:189 - [70/414] Processing Operating Room Fires.pdf
+2025-08-31 21:29:34.141 | INFO     | __main__:process_single_pdf:52 - Processing Operating Room Fires.pdf...
+2025-08-31 21:31:50.989 | SUCCESS  | __main__:process_single_pdf:71 - ✓ Successfully processed Operating Room Fires
+2025-08-31 21:31:50.990 | INFO     | __main__:main:189 - [71/414] Processing Eberhardt-2021-Endobronchial Valve (Zephyr) Tr.pdf
+2025-08-31 21:31:50.990 | INFO     | __main__:process_single_pdf:52 - Processing Eberhardt-2021-Endobronchial Valve (Zephyr) Tr.pdf...
+2025-08-31 21:33:55.108 | SUCCESS  | __main__:process_single_pdf:71 - ✓ Successfully processed Eberhardt-2021-Endobronchial Valve (Zephyr) Tr
+2025-08-31 21:33:55.108 | INFO     | __main__:main:198 - Reached 70 successful processes, committing intermediate results...
+2025-08-31 21:33:55.108 | INFO     | __main__:git_commit_and_push:129 - Adding changes to git...

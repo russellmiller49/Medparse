@@ -1,0 +1,15 @@
+{
+  "pdf": "Operating Room Fires.pdf",
+  "n_sections": 14,
+  "n_tables": 3,
+  "n_figures": 4,
+  "n_fig_crops": 4,
+  "missing_fig_bbox": 0,
+  "n_refs_csv": 73,
+  "n_umls_links": 0,
+  "n_local_links": 0,
+  "linker": "umls",
+  "completeness_score": 53,
+  "is_valid": false,
+  "timestamp": "2025-08-31 21:31:50"
+}
