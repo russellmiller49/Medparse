@@ -2675,3 +2675,162 @@ To https://github.com/russellmiller49/Medparse.git
 2025-09-01 01:10:47.332 | SUCCESS  | __main__:process_single_pdf:71 - ✓ Successfully processed Coping with airway emergencies_
 2025-09-01 01:10:47.332 | INFO     | __main__:main:198 - Reached 180 successful processes, committing intermediate results...
 2025-09-01 01:10:47.332 | INFO     | __main__:git_commit_and_push:129 - Adding changes to git...
+2025-09-01 01:10:47.632 | INFO     | __main__:git_commit_and_push:145 - Creating git commit...
+[fix/extraction-hardening 380218c] feat: Batch processed 180 PDFs (intermediate commit)
+ 122 files changed, 246127 insertions(+)
+ create mode 100644 out/batch_processed/Alsunaid-2021-Wound care management_ tracheost.json
+ create mode 100644 out/batch_processed/Coping with airway emergencies_.json
+ create mode 100644 out/batch_processed/Developing an IP Service in a Community Practice.json
+ create mode 100644 out/batch_processed/Dexmedetomidine-fentanyl versus propofol-fentanyl.json
+ create mode 100644 out/batch_processed/Shape-sensing robotic-assisted bronchoscopy in the diagnosis of pulmonary parenchymal lesions.json
+ create mode 100644 out/batch_processed/The Art of Rigid Bronchoscopy and Airway Stent.json
+ create mode 100644 out/batch_processed/Treatment of Pulmonary Carcinoid Tumors.json
+ create mode 100644 out/batch_processed/Utility of EBUS-TBNA in Evaluating Mediastinal and Hilar Lymphadenopathy in Patients With Silica Exposure_A Retrospective Single-center Study.json
+ create mode 100644 out/batch_processed/Value of Antibiotic Prophylaxis for Percutaneo.json
+ create mode 100644 out/batch_processed/fistula Li-2016-Neoadjuvant therapy and risk of bronch.json
+ create mode 100644 out/figures/Alsunaid-2021-Wound care management_ tracheost_fig01.jpg
+ create mode 100644 out/figures/Alsunaid-2021-Wound care management_ tracheost_fig02.jpg
+ create mode 100644 out/figures/Alsunaid-2021-Wound care management_ tracheost_fig03.jpg
+ create mode 100644 out/figures/Alsunaid-2021-Wound care management_ tracheost_fig04.jpg
+ create mode 100644 out/figures/Alsunaid-2021-Wound care management_ tracheost_fig05.jpg
+ create mode 100644 out/figures/Alsunaid-2021-Wound care management_ tracheost_fig06.jpg
+ create mode 100644 out/figures/Alsunaid-2021-Wound care management_ tracheost_fig07.jpg
+ create mode 100644 out/figures/Alsunaid-2021-Wound care management_ tracheost_fig08.jpg
+ create mode 100644 out/figures/Alsunaid-2021-Wound care management_ tracheost_fig10.jpg
+ create mode 100644 out/figures/Alsunaid-2021-Wound care management_ tracheost_fig11.jpg
+ create mode 100644 out/figures/Alsunaid-2021-Wound care management_ tracheost_fig12.jpg
+ create mode 100644 out/figures/Alsunaid-2021-Wound care management_ tracheost_fig13.jpg
+ create mode 100644 out/figures/Alsunaid-2021-Wound care management_ tracheost_fig14.jpg
+ create mode 100644 out/figures/Alsunaid-2021-Wound care management_ tracheost_fig15.jpg
+ create mode 100644 out/figures/Alsunaid-2021-Wound care management_ tracheost_fig16.jpg
+ create mode 100644 out/figures/Alsunaid-2021-Wound care management_ tracheost_figure6.jpg
+ create mode 100644 out/figures/Coping with airway emergencies__fig01.jpg
+ create mode 100644 out/figures/Coping with airway emergencies__fig02.jpg
+ create mode 100644 out/figures/Developing an IP Service in a Community Practice_fig01.jpg
+ create mode 100644 out/figures/Developing an IP Service in a Community Practice_fig02.jpg
+ create mode 100644 out/figures/Developing an IP Service in a Community Practice_fig04.jpg
+ create mode 100644 out/figures/Developing an IP Service in a Community Practice_fig05.jpg
+ create mode 100644 out/figures/Developing an IP Service in a Community Practice_figure1.jpg
+ create mode 100644 out/figures/Developing an IP Service in a Community Practice_figure3.jpg
+ create mode 100644 out/figures/Developing an IP Service in a Community Practice_figure4.jpg
+ create mode 100644 out/figures/Developing an IP Service in a Community Practice_figure5.jpg
+ create mode 100644 out/figures/Developing an IP Service in a Community Practice_figure6.jpg
+ create mode 100644 out/figures/Developing an IP Service in a Community Practice_figure7.jpg
+ create mode 100644 out/figures/Dexmedetomidine-fentanyl versus propofol-fentanyl_fig01.jpg
+ create mode 100644 out/figures/Dexmedetomidine-fentanyl versus propofol-fentanyl_fig02.jpg
+ create mode 100644 out/figures/Dexmedetomidine-fentanyl versus propofol-fentanyl_fig03.jpg
+ create mode 100644 out/figures/Dexmedetomidine-fentanyl versus propofol-fentanyl_fig04.jpg
+ create mode 100644 out/figures/Dexmedetomidine-fentanyl versus propofol-fentanyl_fig05.jpg
+ create mode 100644 out/figures/Shape-sensing robotic-assisted bronchoscopy in the diagnosis of pulmonary parenchymal lesions_fig01.jpg
+ create mode 100644 out/figures/Shape-sensing robotic-assisted bronchoscopy in the diagnosis of pulmonary parenchymal lesions_fig02.jpg
+ create mode 100644 out/figures/Shape-sensing robotic-assisted bronchoscopy in the diagnosis of pulmonary parenchymal lesions_fig03.jpg
+ create mode 100644 out/figures/Shape-sensing robotic-assisted bronchoscopy in the diagnosis of pulmonary parenchymal lesions_fig05.jpg
+ create mode 100644 out/figures/Shape-sensing robotic-assisted bronchoscopy in the diagnosis of pulmonary parenchymal lesions_fig07.jpg
+ create mode 100644 out/figures/Shape-sensing robotic-assisted bronchoscopy in the diagnosis of pulmonary parenchymal lesions_figure1.jpg
+ create mode 100644 out/figures/Shape-sensing robotic-assisted bronchoscopy in the diagnosis of pulmonary parenchymal lesions_figure3.jpg
+ create mode 100644 out/figures/The Art of Rigid Bronchoscopy and Airway Stent_fig01.jpg
+ create mode 100644 out/figures/The Art of Rigid Bronchoscopy and Airway Stent_fig02.jpg
+ create mode 100644 out/figures/The Art of Rigid Bronchoscopy and Airway Stent_fig03.jpg
+ create mode 100644 out/figures/The Art of Rigid Bronchoscopy and Airway Stent_fig04.jpg
+ create mode 100644 out/figures/The Art of Rigid Bronchoscopy and Airway Stent_fig05.jpg
+ create mode 100644 out/figures/The Art of Rigid Bronchoscopy and Airway Stent_fig06.jpg
+ create mode 100644 out/figures/The Art of Rigid Bronchoscopy and Airway Stent_fig07.jpg
+ create mode 100644 out/figures/The Art of Rigid Bronchoscopy and Airway Stent_fig08.jpg
+ create mode 100644 out/figures/The Art of Rigid Bronchoscopy and Airway Stent_fig09.jpg
+ create mode 100644 out/figures/The Art of Rigid Bronchoscopy and Airway Stent_fig10.jpg
+ create mode 100644 out/figures/The Art of Rigid Bronchoscopy and Airway Stent_fig11.jpg
+ create mode 100644 out/figures/The Art of Rigid Bronchoscopy and Airway Stent_fig12.jpg
+ create mode 100644 out/figures/The Art of Rigid Bronchoscopy and Airway Stent_fig13.jpg
+ create mode 100644 out/figures/The Art of Rigid Bronchoscopy and Airway Stent_fig14.jpg
+ create mode 100644 out/figures/The Art of Rigid Bronchoscopy and Airway Stent_fig15.jpg
+ create mode 100644 out/figures/The Art of Rigid Bronchoscopy and Airway Stent_fig16.jpg
+ create mode 100644 out/figures/The Art of Rigid Bronchoscopy and Airway Stent_fig17.jpg
+ create mode 100644 out/figures/The Art of Rigid Bronchoscopy and Airway Stent_fig18.jpg
+ create mode 100644 out/figures/The Art of Rigid Bronchoscopy and Airway Stent_fig19.jpg
+ create mode 100644 out/figures/The Art of Rigid Bronchoscopy and Airway Stent_fig20.jpg
+ create mode 100644 out/figures/The Art of Rigid Bronchoscopy and Airway Stent_fig21.jpg
+ create mode 100644 out/figures/The Art of Rigid Bronchoscopy and Airway Stent_fig22.jpg
+ create mode 100644 out/figures/The Art of Rigid Bronchoscopy and Airway Stent_fig23.jpg
+ create mode 100644 out/figures/The Art of Rigid Bronchoscopy and Airway Stent_fig24.jpg
+ create mode 100644 out/figures/The Art of Rigid Bronchoscopy and Airway Stent_fig25.jpg
+ create mode 100644 out/figures/The Art of Rigid Bronchoscopy and Airway Stent_fig26.jpg
+ create mode 100644 out/figures/The Art of Rigid Bronchoscopy and Airway Stent_fig27.jpg
+ create mode 100644 out/figures/The Art of Rigid Bronchoscopy and Airway Stent_fig28.jpg
+ create mode 100644 out/figures/Treatment of Pulmonary Carcinoid Tumors_fig01.jpg
+ create mode 100644 out/figures/Treatment of Pulmonary Carcinoid Tumors_fig02.jpg
+ create mode 100644 out/figures/Treatment of Pulmonary Carcinoid Tumors_fig03.jpg
+ create mode 100644 out/figures/Treatment of Pulmonary Carcinoid Tumors_fig04.jpg
+ create mode 100644 out/figures/Treatment of Pulmonary Carcinoid Tumors_figure5.jpg
+ create mode 100644 out/figures/Utility of EBUS-TBNA in Evaluating Mediastinal and Hilar Lymphadenopathy in Patients With Silica Exposure_A Retrospective Single-center Study_fig01.jpg
+ create mode 100644 out/figures/Utility of EBUS-TBNA in Evaluating Mediastinal and Hilar Lymphadenopathy in Patients With Silica Exposure_A Retrospective Single-center Study_fig02.jpg
+ create mode 100644 out/figures/Utility of EBUS-TBNA in Evaluating Mediastinal and Hilar Lymphadenopathy in Patients With Silica Exposure_A Retrospective Single-center Study_fig03.jpg
+ create mode 100644 out/figures/Value of Antibiotic Prophylaxis for Percutaneo_fig01.jpg
+ create mode 100644 out/figures/Value of Antibiotic Prophylaxis for Percutaneo_fig02.jpg
+ create mode 100644 out/figures/fistula Li-2016-Neoadjuvant therapy and risk of bronch_fig01.jpg
+ create mode 100644 out/figures/fistula Li-2016-Neoadjuvant therapy and risk of bronch_fig02.jpg
+ create mode 100644 out/figures/fistula Li-2016-Neoadjuvant therapy and risk of bronch_fig03.jpg
+ create mode 100644 out/figures/fistula Li-2016-Neoadjuvant therapy and risk of bronch_fig04.jpg
+ create mode 100644 out/figures/fistula Li-2016-Neoadjuvant therapy and risk of bronch_fig05.jpg
+ create mode 100644 out/figures/fistula Li-2016-Neoadjuvant therapy and risk of bronch_fig06.jpg
+ create mode 100644 out/figures/fistula Li-2016-Neoadjuvant therapy and risk of bronch_fig07.jpg
+ create mode 100644 out/figures/fistula Li-2016-Neoadjuvant therapy and risk of bronch_fig08.jpg
+ create mode 100644 out/figures/fistula Li-2016-Neoadjuvant therapy and risk of bronch_fig09.jpg
+ create mode 100644 out/figures/fistula Li-2016-Neoadjuvant therapy and risk of bronch_fig10.jpg
+ create mode 100644 out/figures/fistula Li-2016-Neoadjuvant therapy and risk of bronch_fig11.jpg
+ create mode 100644 out/figures/fistula Li-2016-Neoadjuvant therapy and risk of bronch_fig12.jpg
+ create mode 100644 out/qa/Alsunaid-2021-Wound care management_ tracheost__umls.qa.json
+ create mode 100644 out/qa/Coping with airway emergencies___umls.qa.json
+ create mode 100644 out/qa/Developing an IP Service in a Community Practice__umls.qa.json
+ create mode 100644 out/qa/Dexmedetomidine-fentanyl versus propofol-fentanyl__umls.qa.json
+ create mode 100644 out/qa/Shape-sensing robotic-assisted bronchoscopy in the diagnosis of pulmonary parenchymal lesions__umls.qa.json
+ create mode 100644 out/qa/The Art of Rigid Bronchoscopy and Airway Stent__umls.qa.json
+ create mode 100644 out/qa/Treatment of Pulmonary Carcinoid Tumors__umls.qa.json
+ create mode 100644 out/qa/Utility of EBUS-TBNA in Evaluating Mediastinal and Hilar Lymphadenopathy in Patients With Silica Exposure_A Retrospective Single-center Study__umls.qa.json
+ create mode 100644 out/qa/Value of Antibiotic Prophylaxis for Percutaneo__umls.qa.json
+ create mode 100644 out/qa/fistula Li-2016-Neoadjuvant therapy and risk of bronch__umls.qa.json
+ create mode 100644 out/references/Alsunaid-2021-Wound care management_ tracheost.refs.csv
+ create mode 100644 out/references/Coping with airway emergencies_.refs.csv
+ create mode 100644 out/references/Developing an IP Service in a Community Practice.refs.csv
+ create mode 100644 out/references/Dexmedetomidine-fentanyl versus propofol-fentanyl.refs.csv
+ create mode 100644 out/references/Shape-sensing robotic-assisted bronchoscopy in the diagnosis of pulmonary parenchymal lesions.refs.csv
+ create mode 100644 out/references/The Art of Rigid Bronchoscopy and Airway Stent.refs.csv
+ create mode 100644 out/references/Treatment of Pulmonary Carcinoid Tumors.refs.csv
+ create mode 100644 out/references/Utility of EBUS-TBNA in Evaluating Mediastinal and Hilar Lymphadenopathy in Patients With Silica Exposure_A Retrospective Single-center Study.refs.csv
+ create mode 100644 out/references/Value of Antibiotic Prophylaxis for Percutaneo.refs.csv
+ create mode 100644 out/references/fistula Li-2016-Neoadjuvant therapy and risk of bronch.refs.csv
+2025-09-01 01:10:47.667 | INFO     | __main__:git_commit_and_push:158 - Pushing to origin/fix/extraction-hardening...
+To https://github.com/russellmiller49/Medparse.git
+   d6fccbe..380218c  fix/extraction-hardening -> fix/extraction-hardening
+2025-09-01 01:10:54.370 | SUCCESS  | __main__:git_commit_and_push:161 - ✓ Successfully pushed to GitHub (branch: fix/extraction-hardening)
+2025-09-01 01:10:54.370 | INFO     | __main__:main:189 - [183/414] Processing Selected Topics in Malignant Pleural Disease.pdf
+2025-09-01 01:10:54.371 | INFO     | __main__:process_single_pdf:52 - Processing Selected Topics in Malignant Pleural Disease.pdf...
+2025-09-01 01:16:00.404 | SUCCESS  | __main__:process_single_pdf:71 - ✓ Successfully processed Selected Topics in Malignant Pleural Disease
+2025-09-01 01:16:00.405 | INFO     | __main__:main:189 - [184/414] Processing medical thoracoscopy step by step.pdf
+2025-09-01 01:16:00.405 | INFO     | __main__:process_single_pdf:52 - Processing medical thoracoscopy step by step.pdf...
+2025-09-01 01:16:44.189 | SUCCESS  | __main__:process_single_pdf:71 - ✓ Successfully processed medical thoracoscopy step by step
+2025-09-01 01:16:44.190 | INFO     | __main__:main:189 - [185/414] Processing Proposals for revision of the M discriptor.pdf
+2025-09-01 01:16:44.190 | INFO     | __main__:process_single_pdf:52 - Processing Proposals for revision of the M discriptor.pdf...
+2025-09-01 01:25:12.033 | SUCCESS  | __main__:process_single_pdf:71 - ✓ Successfully processed Proposals for revision of the M discriptor
+2025-09-01 01:25:12.034 | INFO     | __main__:main:189 - [186/414] Processing Evaluation of Safety and Short-term.pdf
+2025-09-01 01:25:12.034 | INFO     | __main__:process_single_pdf:52 - Processing Evaluation of Safety and Short-term.pdf...
+2025-09-01 01:29:03.113 | SUCCESS  | __main__:process_single_pdf:71 - ✓ Successfully processed Evaluation of Safety and Short-term
+2025-09-01 01:29:03.113 | INFO     | __main__:main:189 - [187/414] Processing Value-Based Proposition for a Dedicated IP suite.pdf
+2025-09-01 01:29:03.113 | INFO     | __main__:process_single_pdf:52 - Processing Value-Based Proposition for a Dedicated IP suite.pdf...
+2025-09-01 01:30:03.940 | SUCCESS  | __main__:process_single_pdf:71 - ✓ Successfully processed Value-Based Proposition for a Dedicated IP suite
+2025-09-01 01:30:03.940 | INFO     | __main__:main:189 - [188/414] Processing Ghattas-2021-State of the art_ percutaneous tr.pdf
+2025-09-01 01:30:03.940 | INFO     | __main__:process_single_pdf:52 - Processing Ghattas-2021-State of the art_ percutaneous tr.pdf...
+2025-09-01 01:38:31.089 | SUCCESS  | __main__:process_single_pdf:71 - ✓ Successfully processed Ghattas-2021-State of the art_ percutaneous tr
+2025-09-01 01:38:31.090 | INFO     | __main__:main:189 - [189/414] Processing Diagnostic value of EBUS elastography for the differentiation.pdf
+2025-09-01 01:38:31.090 | INFO     | __main__:process_single_pdf:52 - Processing Diagnostic value of EBUS elastography for the differentiation.pdf...
+2025-09-01 01:39:28.519 | SUCCESS  | __main__:process_single_pdf:71 - ✓ Successfully processed Diagnostic value of EBUS elastography for the differentiation
+2025-09-01 01:39:28.519 | INFO     | __main__:main:189 - [190/414] Processing Indocyanine Green-Soaked Fiducial Markers.pdf
+2025-09-01 01:39:28.519 | INFO     | __main__:process_single_pdf:52 - Processing Indocyanine Green-Soaked Fiducial Markers.pdf...
+2025-09-01 01:41:26.879 | SUCCESS  | __main__:process_single_pdf:71 - ✓ Successfully processed Indocyanine Green-Soaked Fiducial Markers
+2025-09-01 01:41:26.880 | INFO     | __main__:main:189 - [191/414] Processing LungRADSAssessmentCategoriesv1-1.pdf
+2025-09-01 01:41:26.880 | INFO     | __main__:process_single_pdf:52 - Processing LungRADSAssessmentCategoriesv1-1.pdf...
+2025-09-01 01:44:00.604 | SUCCESS  | __main__:process_single_pdf:71 - ✓ Successfully processed LungRADSAssessmentCategoriesv1-1
+2025-09-01 01:44:00.604 | INFO     | __main__:main:189 - [192/414] Processing Iatrogenic bleeding during flexible bronchoscopy.pdf
+2025-09-01 01:44:00.604 | INFO     | __main__:process_single_pdf:52 - Processing Iatrogenic bleeding during flexible bronchoscopy.pdf...
+2025-09-01 01:48:32.564 | SUCCESS  | __main__:process_single_pdf:71 - ✓ Successfully processed Iatrogenic bleeding during flexible bronchoscopy
+2025-09-01 01:48:32.564 | INFO     | __main__:main:198 - Reached 190 successful processes, committing intermediate results...
+2025-09-01 01:48:32.564 | INFO     | __main__:git_commit_and_push:129 - Adding changes to git...
