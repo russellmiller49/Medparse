@@ -1181,3 +1181,189 @@ lxml.etree.XMLSyntaxError: Document is empty, line 1, column 1
 2025-08-31 21:50:57.336 | SUCCESS  | __main__:process_single_pdf:71 - ✓ Successfully processed endoscopic_treatment_of_bronchial_carcinoids_i
 2025-08-31 21:50:57.336 | INFO     | __main__:main:198 - Reached 80 successful processes, committing intermediate results...
 2025-08-31 21:50:57.337 | INFO     | __main__:git_commit_and_push:129 - Adding changes to git...
+2025-08-31 21:50:57.590 | INFO     | __main__:git_commit_and_push:145 - Creating git commit...
+[fix/extraction-hardening 802059a] feat: Batch processed 80 PDFs (intermediate commit)
+ 149 files changed, 166160 insertions(+)
+ create mode 100644 out/batch_processed/A Randomized Trial of 1% vs 2% Lignocaine by the Spray-as-You-Go Technique.json
+ create mode 100644 out/batch_processed/A randomized study of endobronchial valves for.json
+ create mode 100644 out/batch_processed/Advanced Diagnostic and Therapeutic Bronchoscopy .json
+ create mode 100644 out/batch_processed/Mechanical properties of different airway sten.json
+ create mode 100644 out/batch_processed/RCT  of Three Guided Bronchoscopic Approaches Pulmonary NodulesPRECISION-1 Study.json
+ create mode 100644 out/batch_processed/Randomized Trial of Pleural Fluid Drainage Fre.json
+ create mode 100644 out/batch_processed/State-of-the-Art Modalities for Peripheral Lung Nodule Biopsy.json
+ create mode 100644 out/batch_processed/Technical aspects and outcomes of tracheobronc.json
+ create mode 100644 "out/batch_processed/The Diagnosis and Management of Airway\302\240Complic.json"
+ create mode 100644 out/batch_processed/endoscopic_treatment_of_bronchial_carcinoids_i.json
+ create mode 100644 out/figures/A Randomized Trial of 1% vs 2% Lignocaine by the Spray-as-You-Go Technique_fig01.jpg
+ create mode 100644 out/figures/A randomized study of endobronchial valves for_fig02.jpg
+ create mode 100644 out/figures/A randomized study of endobronchial valves for_fig03.jpg
+ create mode 100644 out/figures/A randomized study of endobronchial valves for_fig04.jpg
+ create mode 100644 out/figures/A randomized study of endobronchial valves for_figure1.jpg
+ create mode 100644 out/figures/AABIP Survey of Practice patterns and salary_fig01.jpg
+ create mode 100644 out/figures/AABIP Survey of Practice patterns and salary_fig02.jpg
+ create mode 100644 out/figures/AABIP Survey of Practice patterns and salary_fig03.jpg
+ create mode 100644 out/figures/AABIP Survey of Practice patterns and salary_fig04.jpg
+ create mode 100644 out/figures/AABIP Survey of Practice patterns and salary_fig05.jpg
+ create mode 100644 out/figures/AABIP Survey of Practice patterns and salary_fig06.jpg
+ create mode 100644 out/figures/AABIP Survey of Practice patterns and salary_fig07.jpg
+ create mode 100644 out/figures/AABIP Survey of Practice patterns and salary_fig08.jpg
+ create mode 100644 out/figures/AABIP Survey of Practice patterns and salary_fig09.jpg
+ create mode 100644 out/figures/AABIP Survey of Practice patterns and salary_fig10.jpg
+ create mode 100644 out/figures/AABIP Survey of Practice patterns and salary_fig11.jpg
+ create mode 100644 out/figures/AABIP Survey of Practice patterns and salary_fig12.jpg
+ create mode 100644 out/figures/AABIP Survey of Practice patterns and salary_fig13.jpg
+ create mode 100644 out/figures/AABIP Survey of Practice patterns and salary_fig14.jpg
+ create mode 100644 out/figures/AABIP Survey of Practice patterns and salary_fig15.jpg
+ create mode 100644 out/figures/AABIP Survey of Practice patterns and salary_fig16.jpg
+ create mode 100644 out/figures/AABIP Survey of Practice patterns and salary_fig17.jpg
+ create mode 100644 out/figures/AABIP Survey of Practice patterns and salary_fig18.jpg
+ create mode 100644 out/figures/AABIP Survey of Practice patterns and salary_fig19.jpg
+ create mode 100644 out/figures/AABIP Survey of Practice patterns and salary_fig20.jpg
+ create mode 100644 out/figures/AABIP Survey of Practice patterns and salary_fig21.jpg
+ create mode 100644 out/figures/AABIP Survey of Practice patterns and salary_fig22.jpg
+ create mode 100644 out/figures/AABIP Survey of Practice patterns and salary_fig23.jpg
+ create mode 100644 out/figures/AABIP Survey of Practice patterns and salary_fig24.jpg
+ create mode 100644 out/figures/AABIP Survey of Practice patterns and salary_fig25.jpg
+ create mode 100644 out/figures/AABIP Survey of Practice patterns and salary_fig26.jpg
+ create mode 100644 out/figures/AABIP Survey of Practice patterns and salary_fig27.jpg
+ create mode 100644 out/figures/AABIP Survey of Practice patterns and salary_fig28.jpg
+ create mode 100644 out/figures/AABIP Survey of Practice patterns and salary_fig29.jpg
+ create mode 100644 out/figures/AABIP Survey of Practice patterns and salary_fig30.jpg
+ create mode 100644 out/figures/AABIP Survey of Practice patterns and salary_fig31.jpg
+ create mode 100644 out/figures/AABIP Survey of Practice patterns and salary_fig32.jpg
+ create mode 100644 out/figures/Advanced Diagnostic and Therapeutic Bronchoscopy _fig01.jpg
+ create mode 100644 out/figures/Advanced Diagnostic and Therapeutic Bronchoscopy _fig02.jpg
+ create mode 100644 out/figures/Advanced Diagnostic and Therapeutic Bronchoscopy _fig03.jpg
+ create mode 100644 out/figures/Advanced Diagnostic and Therapeutic Bronchoscopy _fig04.jpg
+ create mode 100644 out/figures/Advanced Diagnostic and Therapeutic Bronchoscopy _fig05.jpg
+ create mode 100644 out/figures/Advanced Diagnostic and Therapeutic Bronchoscopy _fig06.jpg
+ create mode 100644 out/figures/Mechanical properties of different airway sten_fig01.jpg
+ create mode 100644 out/figures/Mechanical properties of different airway sten_fig02.jpg
+ create mode 100644 out/figures/Mechanical properties of different airway sten_fig03.jpg
+ create mode 100644 out/figures/Mechanical properties of different airway sten_fig04.jpg
+ create mode 100644 out/figures/Mechanical properties of different airway sten_fig05.jpg
+ create mode 100644 out/figures/Mechanical properties of different airway sten_fig06.jpg
+ create mode 100644 out/figures/Mechanical properties of different airway sten_fig07.jpg
+ create mode 100644 out/figures/Mechanical properties of different airway sten_fig08.jpg
+ create mode 100644 out/figures/Mechanical properties of different airway sten_fig09.jpg
+ create mode 100644 out/figures/Mechanical properties of different airway sten_fig10.jpg
+ create mode 100644 out/figures/Mechanical properties of different airway sten_fig11.jpg
+ create mode 100644 out/figures/Mechanical properties of different airway sten_fig12.jpg
+ create mode 100644 out/figures/Mechanical properties of different airway sten_fig13.jpg
+ create mode 100644 out/figures/Mechanical properties of different airway sten_fig16.jpg
+ create mode 100644 out/figures/Mechanical properties of different airway sten_fig17.jpg
+ create mode 100644 out/figures/Mechanical properties of different airway sten_fig18.jpg
+ create mode 100644 out/figures/Mechanical properties of different airway sten_fig2.jpg
+ create mode 100644 out/figures/Mechanical properties of different airway sten_fig21.jpg
+ create mode 100644 out/figures/Mechanical properties of different airway sten_fig3.jpg
+ create mode 100644 out/figures/Mechanical properties of different airway sten_fig6.jpg
+ create mode 100644 out/figures/Mechanical properties of different airway sten_fig7.jpg
+ create mode 100644 out/figures/RCT  of Three Guided Bronchoscopic Approaches Pulmonary NodulesPRECISION-1 Study_fig01.jpg
+ create mode 100644 out/figures/RCT  of Three Guided Bronchoscopic Approaches Pulmonary NodulesPRECISION-1 Study_fig02.jpg
+ create mode 100644 out/figures/RCT  of Three Guided Bronchoscopic Approaches Pulmonary NodulesPRECISION-1 Study_fig03.jpg
+ create mode 100644 out/figures/RCT  of Three Guided Bronchoscopic Approaches Pulmonary NodulesPRECISION-1 Study_fig05.jpg
+ create mode 100644 out/figures/RCT  of Three Guided Bronchoscopic Approaches Pulmonary NodulesPRECISION-1 Study_fig06.jpg
+ create mode 100644 out/figures/RCT  of Three Guided Bronchoscopic Approaches Pulmonary NodulesPRECISION-1 Study_fig08.jpg
+ create mode 100644 out/figures/RCT  of Three Guided Bronchoscopic Approaches Pulmonary NodulesPRECISION-1 Study_fig09.jpg
+ create mode 100644 out/figures/RCT  of Three Guided Bronchoscopic Approaches Pulmonary NodulesPRECISION-1 Study_fig10.jpg
+ create mode 100644 out/figures/RCT  of Three Guided Bronchoscopic Approaches Pulmonary NodulesPRECISION-1 Study_fig11.jpg
+ create mode 100644 out/figures/RCT  of Three Guided Bronchoscopic Approaches Pulmonary NodulesPRECISION-1 Study_fig12.jpg
+ create mode 100644 out/figures/RCT  of Three Guided Bronchoscopic Approaches Pulmonary NodulesPRECISION-1 Study_fig13.jpg
+ create mode 100644 out/figures/RCT  of Three Guided Bronchoscopic Approaches Pulmonary NodulesPRECISION-1 Study_fig14.jpg
+ create mode 100644 out/figures/RCT  of Three Guided Bronchoscopic Approaches Pulmonary NodulesPRECISION-1 Study_fig15.jpg
+ create mode 100644 out/figures/RCT  of Three Guided Bronchoscopic Approaches Pulmonary NodulesPRECISION-1 Study_fig16.jpg
+ create mode 100644 out/figures/RCT  of Three Guided Bronchoscopic Approaches Pulmonary NodulesPRECISION-1 Study_fig17.jpg
+ create mode 100644 out/figures/RCT  of Three Guided Bronchoscopic Approaches Pulmonary NodulesPRECISION-1 Study_figure2.jpg
+ create mode 100644 out/figures/RCT  of Three Guided Bronchoscopic Approaches Pulmonary NodulesPRECISION-1 Study_figure4.jpg
+ create mode 100644 out/figures/RCT  of Three Guided Bronchoscopic Approaches Pulmonary NodulesPRECISION-1 Study_figure5.jpg
+ create mode 100644 out/figures/Randomized Trial of Pleural Fluid Drainage Fre_figure1.jpg
+ create mode 100644 out/figures/State-of-the-Art Modalities for Peripheral Lung Nodule Biopsy_fig01.jpg
+ create mode 100644 out/figures/State-of-the-Art Modalities for Peripheral Lung Nodule Biopsy_fig03.jpg
+ create mode 100644 out/figures/State-of-the-Art Modalities for Peripheral Lung Nodule Biopsy_fig04.jpg
+ create mode 100644 out/figures/State-of-the-Art Modalities for Peripheral Lung Nodule Biopsy_fig05.jpg
+ create mode 100644 out/figures/State-of-the-Art Modalities for Peripheral Lung Nodule Biopsy_fig06.jpg
+ create mode 100644 out/figures/State-of-the-Art Modalities for Peripheral Lung Nodule Biopsy_fig07.jpg
+ create mode 100644 out/figures/State-of-the-Art Modalities for Peripheral Lung Nodule Biopsy_fig08.jpg
+ create mode 100644 out/figures/State-of-the-Art Modalities for Peripheral Lung Nodule Biopsy_fig09.jpg
+ create mode 100644 out/figures/State-of-the-Art Modalities for Peripheral Lung Nodule Biopsy_fig1.jpg
+ create mode 100644 out/figures/State-of-the-Art Modalities for Peripheral Lung Nodule Biopsy_fig10.jpg
+ create mode 100644 out/figures/State-of-the-Art Modalities for Peripheral Lung Nodule Biopsy_fig11.jpg
+ create mode 100644 out/figures/Technical aspects and outcomes of tracheobronc_fig01.jpg
+ create mode 100644 out/figures/Technical aspects and outcomes of tracheobronc_fig02.jpg
+ create mode 100644 out/figures/Technical aspects and outcomes of tracheobronc_fig03.jpg
+ create mode 100644 out/figures/Technical aspects and outcomes of tracheobronc_fig04.jpg
+ create mode 100644 out/figures/Technical aspects and outcomes of tracheobronc_fig05.jpg
+ create mode 100644 out/figures/Technical aspects and outcomes of tracheobronc_fig06.jpg
+ create mode 100644 "out/figures/The Diagnosis and Management of Airway\302\240Complic_fig01.jpg"
+ create mode 100644 "out/figures/The Diagnosis and Management of Airway\302\240Complic_fig02.jpg"
+ create mode 100644 "out/figures/The Diagnosis and Management of Airway\302\240Complic_fig04.jpg"
+ create mode 100644 "out/figures/The Diagnosis and Management of Airway\302\240Complic_fig05.jpg"
+ create mode 100644 "out/figures/The Diagnosis and Management of Airway\302\240Complic_fig06.jpg"
+ create mode 100644 "out/figures/The Diagnosis and Management of Airway\302\240Complic_fig07.jpg"
+ create mode 100644 "out/figures/The Diagnosis and Management of Airway\302\240Complic_fig09.jpg"
+ create mode 100644 "out/figures/The Diagnosis and Management of Airway\302\240Complic_fig10.jpg"
+ create mode 100644 "out/figures/The Diagnosis and Management of Airway\302\240Complic_fig11.jpg"
+ create mode 100644 "out/figures/The Diagnosis and Management of Airway\302\240Complic_fig12.jpg"
+ create mode 100644 "out/figures/The Diagnosis and Management of Airway\302\240Complic_fig14.jpg"
+ create mode 100644 "out/figures/The Diagnosis and Management of Airway\302\240Complic_figure1.jpg"
+ create mode 100644 "out/figures/The Diagnosis and Management of Airway\302\240Complic_figure6.jpg"
+ create mode 100644 "out/figures/The Diagnosis and Management of Airway\302\240Complic_figure9.jpg"
+ create mode 100644 out/figures/endoscopic_treatment_of_bronchial_carcinoids_i_fig01.jpg
+ create mode 100644 out/figures/endoscopic_treatment_of_bronchial_carcinoids_i_fig02.jpg
+ create mode 100644 out/figures/endoscopic_treatment_of_bronchial_carcinoids_i_fig03.jpg
+ create mode 100644 out/qa/A Randomized Trial of 1% vs 2% Lignocaine by the Spray-as-You-Go Technique__umls.qa.json
+ create mode 100644 out/qa/A randomized study of endobronchial valves for__umls.qa.json
+ create mode 100644 out/qa/Advanced Diagnostic and Therapeutic Bronchoscopy __umls.qa.json
+ create mode 100644 out/qa/Mechanical properties of different airway sten__umls.qa.json
+ create mode 100644 out/qa/RCT  of Three Guided Bronchoscopic Approaches Pulmonary NodulesPRECISION-1 Study__umls.qa.json
+ create mode 100644 out/qa/Randomized Trial of Pleural Fluid Drainage Fre__umls.qa.json
+ create mode 100644 out/qa/State-of-the-Art Modalities for Peripheral Lung Nodule Biopsy__umls.qa.json
+ create mode 100644 out/qa/Technical aspects and outcomes of tracheobronc__umls.qa.json
+ create mode 100644 "out/qa/The Diagnosis and Management of Airway\302\240Complic__umls.qa.json"
+ create mode 100644 out/qa/endoscopic_treatment_of_bronchial_carcinoids_i__umls.qa.json
+ create mode 100644 out/references/A Randomized Trial of 1% vs 2% Lignocaine by the Spray-as-You-Go Technique.refs.csv
+ create mode 100644 out/references/A randomized study of endobronchial valves for.refs.csv
+ create mode 100644 out/references/Advanced Diagnostic and Therapeutic Bronchoscopy .refs.csv
+ create mode 100644 out/references/Mechanical properties of different airway sten.refs.csv
+ create mode 100644 out/references/RCT  of Three Guided Bronchoscopic Approaches Pulmonary NodulesPRECISION-1 Study.refs.csv
+ create mode 100644 out/references/Randomized Trial of Pleural Fluid Drainage Fre.refs.csv
+ create mode 100644 out/references/State-of-the-Art Modalities for Peripheral Lung Nodule Biopsy.refs.csv
+ create mode 100644 out/references/Technical aspects and outcomes of tracheobronc.refs.csv
+ create mode 100644 "out/references/The Diagnosis and Management of Airway\302\240Complic.refs.csv"
+ create mode 100644 out/references/endoscopic_treatment_of_bronchial_carcinoids_i.refs.csv
+2025-08-31 21:50:57.614 | INFO     | __main__:git_commit_and_push:158 - Pushing to origin/fix/extraction-hardening...
+To https://github.com/russellmiller49/Medparse.git
+   17ebc83..802059a  fix/extraction-hardening -> fix/extraction-hardening
+2025-08-31 21:51:03.215 | SUCCESS  | __main__:git_commit_and_push:161 - ✓ Successfully pushed to GitHub (branch: fix/extraction-hardening)
+2025-08-31 21:51:03.215 | INFO     | __main__:main:189 - [83/414] Processing Documentation Tips for Pulmonary.pdf
+2025-08-31 21:51:03.215 | INFO     | __main__:process_single_pdf:52 - Processing Documentation Tips for Pulmonary.pdf...
+2025-08-31 21:51:35.023 | SUCCESS  | __main__:process_single_pdf:71 - ✓ Successfully processed Documentation Tips for Pulmonary
+2025-08-31 21:51:35.023 | INFO     | __main__:main:189 - [84/414] Processing Concurrent Intrapleural Instillation of Tissue.pdf
+2025-08-31 21:51:35.023 | INFO     | __main__:process_single_pdf:52 - Processing Concurrent Intrapleural Instillation of Tissue.pdf...
+2025-08-31 21:52:37.201 | SUCCESS  | __main__:process_single_pdf:71 - ✓ Successfully processed Concurrent Intrapleural Instillation of Tissue
+2025-08-31 21:52:37.202 | INFO     | __main__:main:189 - [85/414] Processing Intrapleural Fibrinolytic Therapy versus Early.pdf
+2025-08-31 21:52:37.202 | INFO     | __main__:process_single_pdf:52 - Processing Intrapleural Fibrinolytic Therapy versus Early.pdf...
+2025-08-31 21:53:58.319 | SUCCESS  | __main__:process_single_pdf:71 - ✓ Successfully processed Intrapleural Fibrinolytic Therapy versus Early
+2025-08-31 21:53:58.319 | INFO     | __main__:main:189 - [86/414] Processing Cheng-2016-Three-dimensional Printing and 3D S.pdf
+2025-08-31 21:53:58.319 | INFO     | __main__:process_single_pdf:52 - Processing Cheng-2016-Three-dimensional Printing and 3D S.pdf...
+2025-08-31 21:55:28.839 | SUCCESS  | __main__:process_single_pdf:71 - ✓ Successfully processed Cheng-2016-Three-dimensional Printing and 3D S
+2025-08-31 21:55:28.839 | INFO     | __main__:main:189 - [87/414] Processing lessions learned valves.pdf
+2025-08-31 21:55:28.839 | INFO     | __main__:process_single_pdf:52 - Processing lessions learned valves.pdf...
+2025-08-31 21:56:29.775 | SUCCESS  | __main__:process_single_pdf:71 - ✓ Successfully processed lessions learned valves
+2025-08-31 21:56:29.775 | INFO     | __main__:main:189 - [88/414] Processing Majid-2020-Efficacy of the Spiration Valve Sys.pdf
+2025-08-31 21:56:29.775 | INFO     | __main__:process_single_pdf:52 - Processing Majid-2020-Efficacy of the Spiration Valve Sys.pdf...
+2025-08-31 21:57:57.789 | SUCCESS  | __main__:process_single_pdf:71 - ✓ Successfully processed Majid-2020-Efficacy of the Spiration Valve Sys
+2025-08-31 21:57:57.790 | INFO     | __main__:main:189 - [89/414] Processing Chan-2021-Transbronchial microwave ablation of.pdf
+2025-08-31 21:57:57.790 | INFO     | __main__:process_single_pdf:52 - Processing Chan-2021-Transbronchial microwave ablation of.pdf...
+2025-08-31 22:02:30.705 | SUCCESS  | __main__:process_single_pdf:71 - ✓ Successfully processed Chan-2021-Transbronchial microwave ablation of
+2025-08-31 22:02:30.706 | INFO     | __main__:main:189 - [90/414] Processing Clinical trial of photodynamic therapy for per.pdf
+2025-08-31 22:02:30.706 | INFO     | __main__:process_single_pdf:52 - Processing Clinical trial of photodynamic therapy for per.pdf...
+2025-08-31 22:03:45.686 | SUCCESS  | __main__:process_single_pdf:71 - ✓ Successfully processed Clinical trial of photodynamic therapy for per
+2025-08-31 22:03:45.686 | INFO     | __main__:main:189 - [91/414] Processing The Evolutional History of ENB State of the Art.pdf
+2025-08-31 22:03:45.686 | INFO     | __main__:process_single_pdf:52 - Processing The Evolutional History of ENB State of the Art.pdf...
+2025-08-31 22:07:01.932 | SUCCESS  | __main__:process_single_pdf:71 - ✓ Successfully processed The Evolutional History of ENB State of the Art
+2025-08-31 22:07:01.932 | INFO     | __main__:main:189 - [92/414] Processing Local anaesthetic thoracoscopy .pdf
+2025-08-31 22:07:01.932 | INFO     | __main__:process_single_pdf:52 - Processing Local anaesthetic thoracoscopy .pdf...
+2025-08-31 22:07:59.632 | SUCCESS  | __main__:process_single_pdf:71 - ✓ Successfully processed Local anaesthetic thoracoscopy 
+2025-08-31 22:07:59.632 | INFO     | __main__:main:198 - Reached 90 successful processes, committing intermediate results...
+2025-08-31 22:07:59.632 | INFO     | __main__:git_commit_and_push:129 - Adding changes to git...

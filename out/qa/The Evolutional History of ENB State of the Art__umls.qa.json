@@ -1,0 +1,15 @@
+{
+  "pdf": "The Evolutional History of ENB State of the Art.pdf",
+  "n_sections": 11,
+  "n_tables": 0,
+  "n_figures": 17,
+  "n_fig_crops": 16,
+  "missing_fig_bbox": 0,
+  "n_refs_csv": 103,
+  "n_umls_links": 0,
+  "n_local_links": 0,
+  "linker": "umls",
+  "completeness_score": 61,
+  "is_valid": true,
+  "timestamp": "2025-08-31 22:07:01"
+}
