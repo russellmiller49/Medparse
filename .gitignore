@@ -5,10 +5,11 @@ __pycache__/
 .cache/
 cache/
 tmp/
-out/
-!out/json/
-!out/qa/
-!out/references/
-!out/figures/
+# out/ folder is now tracked to share processed examples
+# out/
+# !out/json/
+# !out/qa/
+# !out/references/
+# !out/figures/
 .env
 .claude/

@@ -1,0 +1,4769 @@
+{
+  "metadata": {
+    "title": "Photodynamic therapeutic ablation for peripheral pulmonary malignancy via electromagnetic navigation bronchoscopy localization in a hybrid operating room (OR): a pioneering study",
+    "year": "2018-04",
+    "authors": [],
+    "references_text": [
+      "Cancer epidemiology and control in peninsular and island South-East Asia -past, present and future\n\t\t\n\t\t\tMAMoore\n\t\t\n\t\t\n\t\t\tAAManan\n\t\t\n\t\t\n\t\t\tKYChow\n\t\t\n\t\n\t\n\t\tAsian Pac J Cancer Prev\n\t\t\n\t\t\t11\n\t\t\tSuppl 2\n\t\t\t\n\t\t\t2010",
+      "Cancer epidemiology and control in north-East Asia -past, present and future\n\t\t\n\t\t\tNLong\n\t\t\n\t\t\n\t\t\tMAMoore\n\t\t\n\t\t\n\t\t\tChenW\n\t\t\n\t\n\t\n\t\tAsian Pac J Cancer Prev\n\t\t\n\t\t\t11\n\t\t\tSuppl 2\n\t\t\t\n\t\t\t2010",
+      "Results of the Two Incidence Screenings in the National Lung Screening Trial\n\t\t\n\t\t\tDeniseRAberle\n\t\t\n\t\t\n\t\t\tSarahDemello\n\t\t\n\t\t\n\t\t\tChristineDBerg\n\t\t\n\t\t\n\t\t\tWilliamCBlack\n\t\t\n\t\t\n\t\t\tBrendaBrewer\n\t\t\n\t\t\n\t\t\tTimothyRChurch\n\t\t\n\t\t\n\t\t\tKathyLClingan\n\t\t\n\t\t\n\t\t\tFenghaiDuan\n\t\t\n\t\t\n\t\t\tRichardMFagerstrom\n\t\t\n\t\t\n\t\t\tIlanaFGareen\n\t\t\n\t\t\n\t\t\tConstantineAGatsonis\n\t\t\n\t\t\n\t\t\tDavidSGierada\n\t\t\n\t\t\n\t\t\tAmandaJain\n\t\t\n\t\t\n\t\t\tGordonCJones\n\t\t\n\t\t\n\t\t\tIreneMahon\n\t\t\n\t\t\n\t\t\tPamelaMMarcus\n\t\t\n\t\t\n\t\t\tJoshuaMRathmell\n\t\t\n\t\t\n\t\t\tJoreanSicks\n\t\t\n\t\t10.1056/nejmoa1208962\n\t\n\t\n\t\tNew England Journal of Medicine\n\t\tN Engl J Med\n\t\t0028-4793\n\t\t1533-4406\n\t\t\n\t\t\t369\n\t\t\t10\n\t\t\t\n\t\t\t2013\n\t\t\tMassachusetts Medical Society",
+      "Hybrid operating room Dyna-computed tomography combined image-guided electromagnetic navigation bronchoscopy dye marking and hookwire localization video-assisted thoracic surgery metastasectomy\n\t\t\n\t\t\tCalvinS HNg\n\t\t\n\t\t\n\t\t\tCheukManChu\n\t\t\n\t\t\n\t\t\tCheukKinLo\n\t\t\n\t\t\n\t\t\tRainbowW HLau\n\t\t\n\t\t10.1093/icvts/ivx313\n\t\n\t\n\t\tInteractive CardioVascular and Thoracic Surgery\n\t\t1569-9293\n\t\t1569-9285\n\t\t\n\t\t\t26\n\t\t\t2\n\t\t\t\n\t\t\t2018\n\t\t\tOxford University Press (OUP)",
+      "Thoracoscopic detection of occult indeterminate pulmonary nodules using bronchoscopic pleural dye marking\n\t\t\n\t\t\tWilliamSKrimsky\n\t\t\n\t\t\n\t\t\tDouglasJMinnich\n\t\t\n\t\t\n\t\t\tStephenMCattaneo\n\t\t\n\t\t\n\t\t\tSaiyadASarkar\n\t\t\n\t\t\n\t\t\tDanielPHarley\n\t\t\n\t\t\n\t\t\tDavidJFinley\n\t\t\n\t\t\n\t\t\tRobertFBrowning\n\t\t\n\t\t\n\t\t\tScottCParrish\n\t\t\n\t\t10.3402/jchimp.v4.23084\n\t\n\t\n\t\tJournal of Community Hospital Internal Medicine Perspectives\n\t\tJournal of Community Hospital Internal Medicine Perspectives\n\t\t2000-9666\n\t\t\n\t\t\t4\n\t\t\t1\n\t\t\t23084\n\t\t\t2014\n\t\t\tGreater Baltimore Medical Center",
+      "Efficacy and Complications of Computed Tomography-Guided Hook Wire Localization\n\t\t\n\t\t\tJunjiIchinose\n\t\t\n\t\t\n\t\t\tTadasuKohno\n\t\t\n\t\t\n\t\t\tSakashiFujimori\n\t\t\n\t\t\n\t\t\tTakashiHarano\n\t\t\n\t\t\n\t\t\tSouichiroSuzuki\n\t\t\n\t\t10.1016/j.athoracsur.2013.05.026\n\t\n\t\n\t\tThe Annals of Thoracic Surgery\n\t\tThe Annals of Thoracic Surgery\n\t\t0003-4975\n\t\t\n\t\t\t96\n\t\t\t4\n\t\t\t\n\t\t\t2013\n\t\t\tElsevier BV",
+      "Photodynamic Therapy (PDT) for Lung Cancers\n\t\t\n\t\t\tJitsuoUsuda\n\t\t\n\t\t\n\t\t\tHarubumiKato\n\t\t\n\t\t\n\t\t\tTetsuyaOkunaka\n\t\t\n\t\t\n\t\t\tKinyaFurukawa\n\t\t\n\t\t\n\t\t\tHidemitsuTsutsui\n\t\t\n\t\t\n\t\t\tKimitoYamada\n\t\t\n\t\t\n\t\t\tYasuhiroSuga\n\t\t\n\t\t\n\t\t\tHidetoshiHonda\n\t\t\n\t\t\n\t\t\tYoshitakaNagatsuka\n\t\t\n\t\t\n\t\t\tTatsuoOhira\n\t\t\n\t\t\n\t\t\tMasahiroTsuboi\n\t\t\n\t\t\n\t\t\tTakashiHirano\n\t\t\n\t\t10.1097/01243894-200606000-00018\n\t\n\t\n\t\tJournal of Thoracic Oncology\n\t\tJournal of Thoracic Oncology\n\t\t1556-0864\n\t\t\n\t\t\t1\n\t\t\t5\n\t\t\t\n\t\t\t2006\n\t\t\tElsevier BV",
+      "Basic and clinical research on photodynamic therapy at Tokyo Medical University Hospital\n\t\t\n\t\t\tHKato\n\t\t\n\t\t\n\t\t\tJUsuda\n\t\t\n\t\t\n\t\t\tTOkunaka\n\t\t\n\t\t\n\t\t\tKFurukawa\n\t\t\n\t\t\n\t\t\tHHonda\n\t\t\n\t\t\n\t\t\tNSakaniwa\n\t\t\n\t\t\n\t\t\tYSuga\n\t\t\n\t\t\n\t\t\tTHirata\n\t\t\n\t\t\n\t\t\tKOhtani\n\t\t\n\t\t\n\t\t\tTInoue\n\t\t\n\t\t\n\t\t\tSMaehara\n\t\t\n\t\t\n\t\t\tMKubota\n\t\t\n\t\t\n\t\t\tKYamada\n\t\t\n\t\t\n\t\t\tHTsuitsui\n\t\t\n\t\t10.1002/lsm.20346\n\t\n\t\n\t\tLasers in Surgery and Medicine\n\t\tLasers Surg Med\n\t\t0196-8092\n\t\t1096-9101\n\t\t\n\t\t\t38\n\t\t\t5\n\t\t\t\n\t\t\t2006\n\t\t\tWiley",
+      "Pleural Photodynamic Therapy and Surgery in Lung Cancer and Thymoma Patients with Pleural Spread\n\t\t\n\t\t\tKe-ChengChen\n\t\t\n\t\t\n\t\t\tYi-ShanHsieh\n\t\t\n\t\t\n\t\t\tYing-FanTseng\n\t\t\n\t\t\n\t\t\tMing-JiumShieh\n\t\t\n\t\t\n\t\t\tJin-ShingChen\n\t\t\n\t\t\n\t\t\tHong-ShieeLai\n\t\t\n\t\t\n\t\t\tJang-MingLee\n\t\t\n\t\t10.1371/journal.pone.0133230\n\t\n\t\n\t\tPLOS ONE\n\t\tPLoS ONE\n\t\t1932-6203\n\t\t\n\t\t\t10\n\t\t\t7\n\t\t\te0133230\n\t\t\t2015\n\t\t\tPublic Library of Science (PLoS)",
+      "Photodynamic therapy for peripheral lung cancer\n\t\t\n\t\t\tTetsuyaOkunaka\n\t\t\n\t\t\n\t\t\tHarubumiKato\n\t\t\n\t\t\n\t\t\tHidemitsuTsutsui\n\t\t\n\t\t\n\t\t\tTaichirouIshizumi\n\t\t\n\t\t\n\t\t\tShujiIchinose\n\t\t\n\t\t\n\t\t\tYukariKuroiwa\n\t\t\n\t\t10.1016/j.lungcan.2003.08.016\n\t\n\t\n\t\tLung Cancer\n\t\tLung Cancer\n\t\t0169-5002\n\t\t\n\t\t\t43\n\t\t\t1\n\t\t\t\n\t\t\t2004\n\t\t\tElsevier BV",
+      "Photodynamic therapy for the treatment of non-small cell lung cancer\n\t\t\n\t\t\tSimone Cb 2nd\n\t\t\n\t\t\n\t\t\tJSFriedberg\n\t\t\n\t\t\n\t\t\tEGlatstein\n\t\t\n\t\n\t\n\t\tJ Thorac Dis\n\t\t\n\t\t\t4\n\t\t\t\n\t\t\t2012",
+      "The Utility of Electromagnetic Navigational Bronchoscopy as a Localization Tool for Robotic Resection of Small Pulmonary Nodules\n\t\t\n\t\t\tWilliamDBolton\n\t\t\n\t\t\n\t\t\tHaroldHowe\n\t\t\n\t\t\n\t\t\tJamesEStephenson\n\t\t\n\t\t10.1016/j.athoracsur.2014.04.085\n\t\n\t\n\t\tThe Annals of Thoracic Surgery\n\t\tThe Annals of Thoracic Surgery\n\t\t0003-4975\n\t\t\n\t\t\t98\n\t\t\t2\n\t\t\t\n\t\t\t2014\n\t\t\tElsevier BV",
+      "Localization of peripheral pulmonary lesions to aid surgical resection: a novel approach for electromagnetic navigation bronchoscopic dye marking†\n\t\t\n\t\t\tKongjiaLuo\n\t\t\n\t\t\n\t\t\tYongbinLin\n\t\t\n\t\t\n\t\t\tXiaodanLin\n\t\t\n\t\t\n\t\t\tXiangyangYu\n\t\t\n\t\t\n\t\t\tJingWen\n\t\t\n\t\t\n\t\t\tKexingXi\n\t\t\n\t\t\n\t\t\tPengLin\n\t\t\n\t\t\n\t\t\tLanjunZhang\n\t\t\n\t\t10.1093/ejcts/ezx114\n\t\n\t\n\t\tEuropean Journal of Cardio-Thoracic Surgery\n\t\t1010-7940\n\t\t1873-734X\n\t\t\n\t\t\t52\n\t\t\t3\n\t\t\t\n\t\t\t2017\n\t\t\tOxford University Press (OUP)",
+      "Electromagnetic navigational bronchoscopy\n\t\t\n\t\t\tJPort\n\t\t\n\t\t\n\t\t\tSHarrison\n\t\t\n\t\n\t\n\t\tSemin Intervent Radiol\n\t\t\n\t\t\t30\n\t\t\t\n\t\t\t2013",
+      "Hybrid DynaCT-guided electromagnetic navigational bronchoscopic biopsy\n\t\t\n\t\t\tCalvinS HNg\n\t\t\n\t\t\n\t\t\tSimonC HYu\n\t\t\n\t\t\n\t\t\tRainbowW HLau\n\t\t\n\t\t\n\t\t\tAnthonyP CYim\n\t\t\n\t\t10.1093/ejcts/ezv405\n\t\n\t\n\t\tEuropean Journal of Cardio-Thoracic Surgery\n\t\tEur J Cardiothorac Surg\n\t\t1010-7940\n\t\t1873-734X\n\t\t\n\t\t\t49\n\t\t\tSuppl 1\n\t\t\tezv405\n\t\t\t2016\n\t\t\tOxford University Press (OUP)",
+      "CT Screening for Lung Cancer\n\t\t\n\t\t\tWilliamCBlack\n\t\t\n\t\t\n\t\t\tJohnABaron\n\t\t\n\t\t10.1001/jama.297.9.995\n\t\n\t\n\t\tJAMA\n\t\tJAMA\n\t\t0098-7484\n\t\t\n\t\t\t297\n\t\t\t9\n\t\t\t995\n\t\t\t2007\n\t\t\tAmerican Medical Association (AMA)",
+      "Photodynamic therapy <i>via</i> navigational bronchoscopy for peripheral lung cancer in dogs\n\t\t\n\t\t\tAliIMusani\n\t\t\n\t\t\n\t\t\tJuliaKVeir\n\t\t\n\t\t\n\t\t\tZhengHuang\n\t\t\n\t\t\n\t\t\tTimLei\n\t\t\n\t\t\n\t\t\tSteveGroshong\n\t\t\n\t\t\n\t\t\tDeannaWorley\n\t\t\n\t\t10.1002/lsm.22781\n\t\n\t\n\t\tLasers in Surgery and Medicine\n\t\tLasers Surg Med\n\t\t0196-8092\n\t\t1096-9101\n\t\t\n\t\t\t50\n\t\t\t5\n\t\t\t\n\t\t\t2018\n\t\t\tWiley\n\t\t\n\t\n\tEpub ahead of print"
+    ],
+    "references_raw": [
+      "Cancer epidemiology and control in peninsular and island South-East Asia -past, present and future\n\t\t\n\t\t\tMAMoore\n\t\t\n\t\t\n\t\t\tAAManan\n\t\t\n\t\t\n\t\t\tKYChow\n\t\t\n\t\n\t\n\t\tAsian Pac J Cancer Prev\n\t\t\n\t\t\t11\n\t\t\tSuppl 2\n\t\t\t\n\t\t\t2010",
+      "Cancer epidemiology and control in north-East Asia -past, present and future\n\t\t\n\t\t\tNLong\n\t\t\n\t\t\n\t\t\tMAMoore\n\t\t\n\t\t\n\t\t\tChenW\n\t\t\n\t\n\t\n\t\tAsian Pac J Cancer Prev\n\t\t\n\t\t\t11\n\t\t\tSuppl 2\n\t\t\t\n\t\t\t2010",
+      "Results of the two incidence screenings in the National Lung Screening Trial\n\t\t\n\t\t\tDRAberle\n\t\t\n\t\t\n\t\t\tSDemello\n\t\t\n\t\t\n\t\t\tCDBerg\n\t\t\n\t\n\t\n\t\tN Engl J Med\n\t\t\n\t\t\t369\n\t\t\t\n\t\t\t2013",
+      "Hybrid operating room Dyna-computed tomography combined imageguided electromagnetic navigation bronchoscopy dye marking and hookwire localization video-assisted thoracic surgery metastasectomy\n\t\t\n\t\t\tCshNg\n\t\t\n\t\t\n\t\t\tCMChu\n\t\t\n\t\t\n\t\t\tCKLo\n\t\t\n\t\n\t\n\t\tInteract Cardiovasc Thorac Surg\n\t\t\n\t\t\t26\n\t\t\t\n\t\t\t2018",
+      "Thoracoscopic detection of occult indeterminate pulmonary nodules using bronchoscopic pleural dye marking\n\t\t\n\t\t\tWSKrimsky\n\t\t\n\t\t\n\t\t\tDJMinnich\n\t\t\n\t\t\n\t\t\tSMCattaneo\n\t\t\n\t\n\t\n\t\tJ Community Hosp Intern Med Perspect\n\t\t\n\t\t\t4\n\t\t\t2014",
+      "Efficacy and complications of computed tomography-guided hook wire localization\n\t\t\n\t\t\tJIchinose\n\t\t\n\t\t\n\t\t\tTKohno\n\t\t\n\t\t\n\t\t\tSFujimori\n\t\t\n\t\n\t\n\t\tAnn Thorac Surg\n\t\t\n\t\t\t96\n\t\t\t\n\t\t\t2013",
+      "Photodynamic therapy (PDT) for lung cancers\n\t\t\n\t\t\tJUsuda\n\t\t\n\t\t\n\t\t\tHKato\n\t\t\n\t\t\n\t\t\tTOkunaka\n\t\t\n\t\n\t\n\t\tJ Thorac Oncol\n\t\t\n\t\t\t1\n\t\t\t\n\t\t\t2006",
+      "Basic and clinical research on photodynamic therapy at Tokyo Medical University Hospital\n\t\t\n\t\t\tHKato\n\t\t\n\t\t\n\t\t\tJUsuda\n\t\t\n\t\t\n\t\t\tTOkunaka\n\t\t\n\t\n\t\n\t\tLasers Surg Med\n\t\t\n\t\t\t38\n\t\t\t\n\t\t\t2006",
+      "Pleural Photodynamic Therapy and Surgery in Lung Cancer and Thymoma Patients with Pleural Spread\n\t\t\n\t\t\tKCChen\n\t\t\n\t\t\n\t\t\tYSHsieh\n\t\t\n\t\t\n\t\t\tYFTseng\n\t\t\n\t\n\t\n\t\tPLoS One\n\t\t\n\t\t\t10\n\t\t\t133230\n\t\t\t2015",
+      "Photodynamic therapy for peripheral lung cancer\n\t\t\n\t\t\tTOkunaka\n\t\t\n\t\t\n\t\t\tHKato\n\t\t\n\t\t\n\t\t\tHTsutsui\n\t\t\n\t\n\t\n\t\tLung Cancer\n\t\t\n\t\t\t43\n\t\t\t\n\t\t\t2004",
+      "Photodynamic therapy for the treatment of non-small cell lung cancer\n\t\t\n\t\t\tSimone Cb 2nd\n\t\t\n\t\t\n\t\t\tJSFriedberg\n\t\t\n\t\t\n\t\t\tEGlatstein\n\t\t\n\t\n\t\n\t\tJ Thorac Dis\n\t\t\n\t\t\t4\n\t\t\t\n\t\t\t2012",
+      "The utility of electromagnetic navigational bronchoscopy as a localization tool for robotic resection of small pulmonary nodules\n\t\t\n\t\t\tWDBolton\n\t\t\n\t\t\n\t\t\tHowe H 3rd\n\t\t\n\t\t\n\t\t\tJEStephenson\n\t\t\n\t\n\t\n\t\tAnn Thorac Surg\n\t\t\n\t\t\t98\n\t\t\t\n\t\t\t2014",
+      "Localization of peripheral pulmonary lesions to aid surgical resection: a novel approach for electromagnetic navigation bronchoscopic dye marking\n\t\t\n\t\t\tKLuo\n\t\t\n\t\t\n\t\t\tYLin\n\t\t\n\t\t\n\t\t\tXLin\n\t\t\n\t\n\t\n\t\tEur J Cardiothorac Surg\n\t\t\n\t\t\t52\n\t\t\t\n\t\t\t2017",
+      "Electromagnetic navigational bronchoscopy\n\t\t\n\t\t\tJPort\n\t\t\n\t\t\n\t\t\tSHarrison\n\t\t\n\t\n\t\n\t\tSemin Intervent Radiol\n\t\t\n\t\t\t30\n\t\t\t\n\t\t\t2013",
+      "Hybrid DynaCT-guided electromagnetic navigational bronchoscopic biopsy †\n\t\t\n\t\t\tCSNg\n\t\t\n\t\t\n\t\t\tSCYu\n\t\t\n\t\t\n\t\t\tRWLau\n\t\t\n\t\n\t\n\t\tEur J Cardiothorac Surg\n\t\t\n\t\t\t49\n\t\t\tSuppl 1\n\t\t\t\n\t\t\t2016",
+      "CT screening for lung cancer: spiraling into confusion?\n\t\t\n\t\t\tWCBlack\n\t\t\n\t\t\n\t\t\tJABaron\n\t\t\n\t\n\t\n\t\tJAMA\n\t\t\n\t\t\t297\n\t\t\t\n\t\t\t2007",
+      "Photodynamic therapy via navigational bronchoscopy for peripheral lung cancer in dogs\n\t\t\n\t\t\tAIMusani\n\t\t\n\t\t\n\t\t\tJKVeir\n\t\t\n\t\t\n\t\t\tZHuang\n\t\t\n\t\n\t\n\t\tLasers Surg Med\n\t\t\n\t\t\t2018\n\t\t\n\t\n\tEpub ahead of print"
+    ],
+    "references_struct": [
+      {
+        "title": "Cancer epidemiology and control in peninsular and island South-East Asia -past, present and future",
+        "journal": "Asian Pac J Cancer Prev",
+        "year": "2010",
+        "volume": "11",
+        "issue": "Suppl 2",
+        "pages": null,
+        "doi": null,
+        "pmid": null,
+        "authors": [
+          "Moore MA",
+          "Manan AA",
+          "Chow KY"
+        ],
+        "first_author_last": "Moore"
+      },
+      {
+        "title": "Cancer epidemiology and control in north-East Asia -past, present and future",
+        "journal": "Asian Pac J Cancer Prev",
+        "year": "2010",
+        "volume": "11",
+        "issue": "Suppl 2",
+        "pages": null,
+        "doi": null,
+        "pmid": null,
+        "authors": [
+          "Long N",
+          "Moore MA",
+          "CW"
+        ],
+        "first_author_last": "Long"
+      },
+      {
+        "title": "Results of the two incidence screenings in the National Lung Screening Trial",
+        "journal": "N Engl J Med",
+        "year": "2013",
+        "volume": "369",
+        "issue": null,
+        "pages": null,
+        "doi": null,
+        "pmid": null,
+        "authors": [
+          "Aberle DR",
+          "Demello S",
+          "Berg CD"
+        ],
+        "first_author_last": "Aberle"
+      },
+      {
+        "title": "Hybrid operating room Dyna-computed tomography combined imageguided electromagnetic navigation bronchoscopy dye marking and hookwire localization video-assisted thoracic surgery metastasectomy",
+        "journal": "Interact Cardiovasc Thorac Surg",
+        "year": "2018",
+        "volume": "26",
+        "issue": null,
+        "pages": null,
+        "doi": null,
+        "pmid": null,
+        "authors": [
+          "Ng C",
+          "Chu CM",
+          "Lo CK"
+        ],
+        "first_author_last": "Ng"
+      },
+      {
+        "title": "Thoracoscopic detection of occult indeterminate pulmonary nodules using bronchoscopic pleural dye marking",
+        "journal": "J Community Hosp Intern Med Perspect",
+        "year": "2014",
+        "volume": "4",
+        "issue": null,
+        "pages": null,
+        "doi": null,
+        "pmid": null,
+        "authors": [
+          "Krimsky WS",
+          "Minnich DJ",
+          "Cattaneo SM"
+        ],
+        "first_author_last": "Krimsky"
+      },
+      {
+        "title": "Efficacy and complications of computed tomography-guided hook wire localization",
+        "journal": "Ann Thorac Surg",
+        "year": "2013",
+        "volume": "96",
+        "issue": null,
+        "pages": null,
+        "doi": null,
+        "pmid": null,
+        "authors": [
+          "Ichinose J",
+          "Kohno T",
+          "Fujimori S"
+        ],
+        "first_author_last": "Ichinose"
+      },
+      {
+        "title": "Photodynamic therapy (PDT) for lung cancers",
+        "journal": "J Thorac Oncol",
+        "year": "2006",
+        "volume": "1",
+        "issue": null,
+        "pages": null,
+        "doi": null,
+        "pmid": null,
+        "authors": [
+          "Usuda J",
+          "Kato H",
+          "Okunaka T"
+        ],
+        "first_author_last": "Usuda"
+      },
+      {
+        "title": "Basic and clinical research on photodynamic therapy at Tokyo Medical University Hospital",
+        "journal": "Lasers Surg Med",
+        "year": "2006",
+        "volume": "38",
+        "issue": null,
+        "pages": null,
+        "doi": null,
+        "pmid": null,
+        "authors": [
+          "Kato H",
+          "Usuda J",
+          "Okunaka T"
+        ],
+        "first_author_last": "Kato"
+      },
+      {
+        "title": "Pleural Photodynamic Therapy and Surgery in Lung Cancer and Thymoma Patients with Pleural Spread",
+        "journal": "PLoS One",
+        "year": "2015",
+        "volume": "10",
+        "issue": null,
+        "pages": "133230",
+        "doi": null,
+        "pmid": null,
+        "authors": [
+          "Chen KC",
+          "Hsieh YS",
+          "Tseng YF"
+        ],
+        "first_author_last": "Chen"
+      },
+      {
+        "title": "Photodynamic therapy for peripheral lung cancer",
+        "journal": "Lung Cancer",
+        "year": "2004",
+        "volume": "43",
+        "issue": null,
+        "pages": null,
+        "doi": null,
+        "pmid": null,
+        "authors": [
+          "Okunaka T",
+          "Kato H",
+          "Tsutsui H"
+        ],
+        "first_author_last": "Okunaka"
+      },
+      {
+        "title": "Photodynamic therapy for the treatment of non-small cell lung cancer",
+        "journal": "J Thorac Dis",
+        "year": "2012",
+        "volume": "4",
+        "issue": null,
+        "pages": null,
+        "doi": null,
+        "pmid": null,
+        "authors": [
+          "Simone Cb 2nd",
+          "Friedberg JS",
+          "Glatstein E"
+        ],
+        "first_author_last": "Simone"
+      },
+      {
+        "title": "The utility of electromagnetic navigational bronchoscopy as a localization tool for robotic resection of small pulmonary nodules",
+        "journal": "Ann Thorac Surg",
+        "year": "2014",
+        "volume": "98",
+        "issue": null,
+        "pages": null,
+        "doi": null,
+        "pmid": null,
+        "authors": [
+          "Bolton WD",
+          "Howe H 3rd",
+          "Stephenson JE"
+        ],
+        "first_author_last": "Bolton"
+      },
+      {
+        "title": "Localization of peripheral pulmonary lesions to aid surgical resection: a novel approach for electromagnetic navigation bronchoscopic dye marking",
+        "journal": "Eur J Cardiothorac Surg",
+        "year": "2017",
+        "volume": "52",
+        "issue": null,
+        "pages": null,
+        "doi": null,
+        "pmid": null,
+        "authors": [
+          "Luo K",
+          "Lin Y",
+          "Lin X"
+        ],
+        "first_author_last": "Luo"
+      },
+      {
+        "title": "Electromagnetic navigational bronchoscopy",
+        "journal": "Semin Intervent Radiol",
+        "year": "2013",
+        "volume": "30",
+        "issue": null,
+        "pages": null,
+        "doi": null,
+        "pmid": null,
+        "authors": [
+          "Port J",
+          "Harrison S"
+        ],
+        "first_author_last": "Port"
+      },
+      {
+        "title": "Hybrid DynaCT-guided electromagnetic navigational bronchoscopic biopsy †",
+        "journal": "Eur J Cardiothorac Surg",
+        "year": "2016",
+        "volume": "49",
+        "issue": "Suppl 1",
+        "pages": null,
+        "doi": null,
+        "pmid": null,
+        "authors": [
+          "Ng CS",
+          "Yu SC",
+          "Lau RW"
+        ],
+        "first_author_last": "Ng"
+      },
+      {
+        "title": "CT screening for lung cancer: spiraling into confusion?",
+        "journal": "JAMA",
+        "year": "2007",
+        "volume": "297",
+        "issue": null,
+        "pages": null,
+        "doi": null,
+        "pmid": null,
+        "authors": [
+          "Black WC",
+          "Baron JA"
+        ],
+        "first_author_last": "Black"
+      },
+      {
+        "title": "Photodynamic therapy via navigational bronchoscopy for peripheral lung cancer in dogs",
+        "journal": "Lasers Surg Med",
+        "year": "2018",
+        "volume": null,
+        "issue": null,
+        "pages": null,
+        "doi": null,
+        "pmid": null,
+        "authors": [
+          "Musani AI",
+          "Veir JK",
+          "Huang Z"
+        ],
+        "first_author_last": "Musani"
+      }
+    ]
+  },
+  "structure": {
+    "sections": [
+      {
+        "title": "Introduction",
+        "paragraphs": [
+          {
+            "text": "Lung cancer is the major cause of cancer deaths worldwide (1,2). Low-dose computed tomography (CT) lung screening is more sensitive in detecting early-stage lung cancers than"
+          },
+          {
+            "text": "other screening methods and its widespread use has resulted in a decrease in the number of advanced-stage cancers diagnosed and an increase in the number of early-stage lung cancers diagnosed (3). Therefore, surgeons are facing more"
+          }
+        ],
+        "category": "introduction"
+      },
+      {
+        "title": "Ke-Cheng Chen 1,2, Jang-Ming Lee 1",
+        "paragraphs": [
+          {
+            "text": "1 Department of Surgery, National T aiwan University Hospital and National T aiwan University College of Medicine, T aipei; 2 Institute of Biomedical Engineering, College of Medicine and College of Engineering, National T aiwan University, T aipei"
+          },
+          {
+            "text": "Contributions: (I)  Conception and design: All authors; (II) Administrative support: JM Lee; (III) Provision of study materials Odds ratio (or) patients: JM Lee; (IV) Collection and assembly of data: KC Chen; (V) Data analysis and interpretation: All authors; (VI) Manuscript writing: All authors; (VII) Final approval of manuscript: All authors."
+          },
+          {
+            "text": "Correspondence to: Jang-Ming Lee, MD, PhD. Department of Surgery, National T aiwan University Hospital, No. 7, Chung Shan South Road, T aipei 100. Email: jangminglee@gmail.com."
+          },
+          {
+            "text": "Background: With the aid of electromagnetic navigation bronchoscopy (ENB), it has become possible to approach peripheral lung tumors from the airway. Meanwhile, local ablation using photodynamic therapy (PDT) has shown increasing promise in the realm of lung cancer treatment. The purpose of this study was to explore an alternative ablation method using PDT with SuperDimension ENB localization in a hybrid operating theater."
+          },
+          {
+            "text": "Methods: Our study includes patients with primary Odds ratio (or) metastatic lung cancer who underwent PDT via ENB in the hybrid operating room (Odds ratio (OR)) of National T aiwan University Hospital between January 2016 and January 2017. ENB with the SuperDimension Navigation System (7th edition) was performed before PDT ablation to localize the target lesions. PDT ablation was performed with the assistance of intraoperative Dyna-computed tomography (Dyna-CT). Tumor response was evaluated by CT 3 months after the procedure."
+          },
+          {
+            "text": "Results: Three patients underwent lung interstitial PDT via the aid of ENB during the study period. The mean size of the nodules was 21.3 mm. The mean navigation time was 14.3 minutes. In all cases, the target pulmonary nodule was ablated by PDT successfully. No major procedure-related complications occurred. One patient suffered from skin hypersensitivity one month after the procedure. The follow-up CT showed significant tumor shrinkage for all the patients. They were all discharged without incident a few days after the procedure as scheduled."
+          },
+          {
+            "text": "Conclusions: PDT with SuperDimension ENB guidance in the hybrid Odds ratio (OR) is a novel and feasible approach to control peripheral lung malignancy."
+          },
+          {
+            "text": "Keywords: Peripheral-type lung malignancy; electromagnetic navigation bronchoscopy (ENB); photodynamic therapy (PDT); SuperDimension"
+          },
+          {
+            "text": "and more early lung cancer patients. Surgical resection is the treatment of choice for early-staged non-small cell lung cancer (Non-small cell lung cancer (NSCLC)), but it's not perfect. On the one hand, it is difficult to localize small lung tumors intra-operatively. On the other hand, some patients present with multi-focal lesions that cannot be completely eradicated by surgery. Conventional treatment strategies to handle such conditions include surgical resection under localization with a hook-wire system Odds ratio (or) dye injection, whether by a percutaneous route Odds ratio (or) navigator bronchoscopy (4-6). However, there are several disadvantages of these treatment approaches, including the risk of general anesthesia, potential complications of bleeding Odds ratio (or) air leakage, especially for some patients with poor lung function Odds ratio (or) suboptimal medical conditions."
+          },
+          {
+            "text": "Photodynamic therapy (PDT), which uses a photosensitizer that is focally retained in the tumor to perform tumorspecific ablation by irradiating with a certain wave-length of light, has been used as an effective treatment for centrallylocated lung cancer (7-11). Photofrin, the most frequently used and commercially available photosensitizer for lung cancer, works under 630-nm red-light irradiation. Interstitial PDT aided by CT-guided catheter implantation has been adopted for peripheral lung cancer (10). Nevertheless, there are potential disadvantages of such an approach, such as the risk of hemopneumothorax during CT-guided catheter insertion, lung collapse causing dislodging of the catheter during the procedure, and an inability to target other lesions after lung collapse (10). Recently, electromagnetic navigation bronchoscopy (ENB) (SuperDimension™ Navigation System, Super-D ENB, Covidien, Minneapolis, MN, USA) has been applied in the diagnosis, staging, preoperative localization and treatment of lung cancer (4,5,12-14). Compared with a percutaneous route, ENB has the advantages of reduced risk of pneumothorax and precise localization of lung tumor with a working channel through which the PDT irradiation probe can function. In addition, the initial use of hybrid operating room (Odds ratio (OR)) for ENB makes it a stronger tool (15). Our aim is to evaluate the feasibility and safety of tumor ablation via the newly developed 7th edition of the ENB system. In this clinical study, we evaluate whether ENB with SuperDimension (Super-D) combined with interstitial PDT may be useful in tumor control."
+          }
+        ],
+        "category": "other"
+      },
+      {
+        "title": "Patient demographics and clinical features",
+        "paragraphs": [
+          {
+            "text": "A prospectively maintained database of patients who have"
+          },
+          {
+            "text": "received an ENB was reviewed to identify all patients who underwent PDT via ENB at our institution from January 2016 to January 2017. The eligibility criteria for inclusion in our study was the presence of lung tumors but not endobronchial tumors, and the medical suitability for undergoing PDT ablation after ENB localization. Written informed consent to participate was provided by the participants. The Research Ethics Committee of National Taiwan University Hospital approved this study (201407063DINB) as did clinicaltrial.gov (NCT03211078). Patients were excluded based on the following criteria: less than 18 years old; leukopenia (WBC count less than 3,500/mm 3 ),  Odds ratio (or)  thrombocytopenia (platelet count less than 100,000/mm 3 );  chronic  renal  insufficiency  with serum creatinine >2.5 mg/dL; grade 3 to 4 elevations in liver function test, Odds ratio (or) bilirubin >1.5 mg/dL; pregnancy Odds ratio (or) lactation. A team of surgeons performed ENB and PDT ablation in the hybrid Odds ratio (OR)."
+          }
+        ],
+        "category": "other"
+      },
+      {
+        "title": "ENB procedures and Dyna-CT in the hybrid OR",
+        "paragraphs": [
+          {
+            "text": "The patients  underwent  general  anesthesia  with intubation.  The  nodules  were  localized  using  the planning software and the computer console of the 7th edition SuperDimension Navigation System (Covidien, Minneapolis, MN, USA). The planning software allowed us to plan a route to the nodule one day before surgery. If there was no bronchus leading to the nodule, we used the best available exit point from the bronchial tree. Using a locatable electromagnetic guide and an extended working catheter, each nodule was localized with the electromagnetic guide and the navigational console. After the nodule was located, the electromagnetic guide was removed, and the extended working catheter was left in place ( Figure 1 ).  A PDT probe was inserted through the extended working catheter ( Figure 2 ).  The position of the probe was confirmed by Dyna-CT in the hybrid Odds ratio (OR) ( Figure 3 ).",
+            "cross_refs": [
+              {
+                "type": "figure",
+                "index": 0,
+                "text": "Figure 1",
+                "span": [
+                  717,
+                  725
+                ]
+              },
+              {
+                "type": "figure",
+                "index": 1,
+                "text": "Figure 2",
+                "span": [
+                  795,
+                  803
+                ]
+              },
+              {
+                "type": "figure",
+                "index": 2,
+                "text": "Figure 3",
+                "span": [
+                  891,
+                  899
+                ]
+              }
+            ]
+          }
+        ],
+        "category": "other"
+      },
+      {
+        "title": "PDT procedures",
+        "paragraphs": [
+          {
+            "text": "After Super-D ENB localization, PDT was performed to  ablate  the  targeted  pulmonary lesion. Intravenous photofrin was given 48 hours before the procedure at  a  dose  of  2  mg/kg.  After  successful  localization, 630-nm light was given at a dosage of 200 J/cm through the working channel in LUNG mode (2,000 mW) for 500 seconds using Diomed 630-nm diode laser (Diomed,"
+          },
+          {
+            "text": "Cambridge, UK) and optical delivery fiber ( Figure 2 ). Dyna-CT was performed to confirm the position of the PDT probe to make sure that the light was accurately delivered to the tumor. After the operation, patients were sent to the ward Odds ratio (or) intensive care unit for post-operative care. Tumor response was classified into three grades by CT 3 months later: complete remission (CR), when no tumor was observable; partial remission (PR) which is defined as a reduction in tumor volume greater than 50% but with the cancer still recognizable; and no change (NC) which is defined as NC in tumor size Odds ratio (or) a decrease of less than 50%; and progressive disease (PD) which is defined as an increase in tumor size.",
+            "cross_refs": [
+              {
+                "type": "figure",
+                "index": 1,
+                "text": "Figure 2",
+                "span": [
+                  44,
+                  52
+                ]
+              }
+            ]
+          }
+        ],
+        "category": "other"
+      },
+      {
+        "title": "Treatments and outcomes",
+        "paragraphs": [
+          {
+            "text": "Three patients, one male and two females, underwent PDT ablation via ENB during the study period ( Table 1 ); each patient had a single lung tumor, which were found to be malignant at biopsy before the procedure. The mean age was 65.7 years (75, 57, 65 years old). The median nodule size was 21.3 mm (3.6, 2.0, 0.8 mm). Lung tumor localization was successful in all patients, and all tumors were successfully ablated by PDT with the targeted dose. The mean navigation time was 14.3 min (16, 20, 7 min). There were no adverse events related to the procedure of",
+            "cross_refs": [
+              {
+                "type": "table",
+                "index": 0,
+                "text": "Table 1",
+                "span": [
+                  99,
+                  106
+                ]
+              }
+            ]
+          },
+          {
+            "text": "M, male; F, female; PDT, photodynamic therapy; ENB, electromagnetic navigation bronchoscopy; PR, partial remission; CR, complete remission; RLL, right lower lobe; RUL, right upper lobe"
+          },
+          {
+            "text": "ENB-guided PDT ablation. The only complication was mild skin hypersensitivity in one patient one month after discharge. Neither mortality nor major morbidity were noted throughout all of the procedures. The follow-up CT showed tumor shrinkage in the patients. One patient had CR and two got PR ( Figure 4 ).",
+            "cross_refs": [
+              {
+                "type": "figure",
+                "index": 3,
+                "text": "Figure 4",
+                "span": [
+                  296,
+                  304
+                ]
+              }
+            ]
+          }
+        ],
+        "category": "results"
+      },
+      {
+        "title": "Discussion",
+        "paragraphs": [
+          {
+            "text": "Early lung cancer has in recent years become an important issue in the clinical practice of thoracic oncology due to the increased incidence of lung cancer and prevalence of low-dose CT screening (1-3). Thoracic surgeons are referred more and more patients with peripheral lung"
+          },
+          {
+            "text": "lesions for consideration of surgical resection, which is still the gold standard treatment of choice (4-6). However, some doubts about the significance of invasive procedures for very early lung cancer have been noted (16). With the aid of ENB, the PDT probe can reach the lung periphery where the tumor is located. This novel technique utilizes the virtual image generated to guide the surgeon through a  route  of  predetermined points within the bronchial tree, allowing improved access to peripheral lung lesions which conventional methods are incapable of reaching. Using ENB-guided sampling methods, the sensitivity for  the  detection  of  malignancy  with  bronchoscopic biopsy, brushing Odds ratio (or) fine-needle aspiration (FNA) has been estimated to be about 83% (4,5,12-14). One recent animal experiment reported that ENB-guided PDT was successful in dogs (17). We performed a pioneering study of three patients who underwent localization of pulmonary nodules via Super-D ENB guidance followed by PDT irradiation of the lung tumor in a hybrid Odds ratio (OR). The aid of hybrid Odds ratio (OR) can confirm the localization by 2D Odds ratio (or) 3D image, which makes the navigation even more accurate (15). Our initial experience was successful and there were no adverse events related to ENB-guided localization. Localization techniques for lung nodules are typically reserved for lesions that are small and deep-seated in the lung parenchyma, Odds ratio (or) lesions that are ground glass opacities (GGOs) (4,5,12-14). The outcome obtained by ENB in our study is in agreement with previous studies of the safety and efficacy of ENB-guided transbronchial localization, which used transbronchial marking with methylene blue before minimally invasive thoracoscopic Odds ratio (or) robotic resection to guide the surgeon. These previous studies  found  that  this  technique  could  be  readily mastered and with less than a year of experience using"
+          },
+          {
+            "text": "the procedure at their site, there were no adverse events related to marking with dye, and no conversions from VATS to thoracotomy (4,5,12,13). Our study shows that, with the aid of ENB, PDT can be successfully used not only to ablate central-type lung malignancies but also peripheral ones."
+          },
+          {
+            "text": "There are some limitations to this work. First, this was a pioneering study with only a few cases. Second, the followup time is short. It is very likely that it carried selection bias. Prospective, multi-institutional randomized controlled studies are necessary to further demonstrate the real benefits of PDT with ENB in lung tumor patients."
+          }
+        ],
+        "category": "discussion"
+      },
+      {
+        "title": "Conclusions",
+        "paragraphs": [
+          {
+            "text": "In conclusion, this study demonstrates that ENB with PDT can achieve accurate intraoperative identification and ablation of peripheral pulmonary malignancy with the aid of DynaCT in the hybrid Odds ratio (OR). It may be a feasible and alternative technique to control peripheral pulmonary cancer."
+          }
+        ],
+        "category": "conclusion"
+      },
+      {
+        "title": "Acknowledgements",
+        "paragraphs": [
+          {
+            "text": "Funding :  This study was supported by the Ministry of Science and Technology (NSC 101-2314-B002-020MY3, NSC 106-2314-B-002-241-MY2), National Health Research Institute (NHRI-EX102-10032BI), Ministry of Health and Welfare (DOH101-TD-I-111- NSC003), and National Taiwan University Hospital and National T aiwan University College of Medicine (NTUH 107C101-A3)."
+          }
+        ],
+        "category": "other"
+      },
+      {
+        "title": "Footnote",
+        "paragraphs": [
+          {
+            "text": "Conflicts of Interest: The authors have no conflicts of interest"
+          },
+          {
+            "text": "B"
+          },
+          {
+            "text": "S730"
+          }
+        ],
+        "category": "other"
+      },
+      {
+        "title": "Chen and Lee. PDT for peripheral lung malignancy by ENB localization with Super-D system",
+        "paragraphs": [
+          {
+            "text": "Cite this article as: Chen KC, Lee JM. Photodynamic therapeutic ablation for peripheral pulmonary malignancy via electromagnetic navigation bronchoscopy localization in a hybrid operating room (Odds ratio (OR)): a pioneering study. J Thorac Dis 2018;10(Suppl 6):S725-S730. doi: 10.21037/jtd.2018.03.139"
+          },
+          {
+            "text": "to declare."
+          },
+          {
+            "text": "Ethical Statement: This study was approved by the Research Ethics  Committee  of  National  Taiwan  University Hospital (No. 201407063DINB) as did clinicaltrial.gov (NCT03211078). Written informed consent to participate was provided by the participants."
+          }
+        ],
+        "category": "other"
+      },
+      {
+        "title": "References",
+        "paragraphs": [
+          {
+            "text": "1. Moore MA, Manan AA, Chow KY, et al. Cancer epidemiology and control in peninsular and island SouthEast Asia - past, present and future. Asian Pac J Cancer Prev 2010;11 Suppl 2:81-98."
+          },
+          {
+            "text": "2. Long N, Moore MA, Chen W, et al. Cancer epidemiology and control in north-East Asia - past, present and future. Asian Pac J Cancer Prev 2010;11 Suppl 2:107-48."
+          },
+          {
+            "text": "3. Aberle DR, DeMello S, Berg CD, et al. Results of the two incidence screenings in the National Lung Screening Trial. N Engl J Med 2013;369:920-31."
+          },
+          {
+            "text": "4. Ng CSH, Chu CM, Lo CK, et al. Hybrid operating room Dyna-computed tomography combined imageguided electromagnetic navigation bronchoscopy dye marking and hookwire localization video-assisted thoracic surgery metastasectomy. Interact Cardiovasc Thorac Surg 2018;26:338-40."
+          },
+          {
+            "text": "5. Krimsky WS, Minnich DJ, Cattaneo SM, et al. Thoracoscopic detection of occult indeterminate pulmonary nodules using bronchoscopic pleural dye marking. J Community Hosp Intern Med Perspect 2014;4."
+          },
+          {
+            "text": "6. Ichinose J, Kohno T, Fujimori S, et al. Efficacy and complications of computed tomography-guided hook wire localization. Ann Thorac Surg 2013;96:1203-8."
+          },
+          {
+            "text": "7. Usuda J, Kato H, Okunaka T, et al. Photodynamic therapy"
+          },
+          {
+            "text": "(PDT) for lung cancers. J Thorac Oncol 2006;1:489-93."
+          },
+          {
+            "text": "8. Kato H, Usuda J, Okunaka T, et al. Basic and clinical research on photodynamic therapy at T okyo Medical University Hospital. Lasers Surg Med 2006;38:371-5."
+          },
+          {
+            "text": "9. Chen KC, Hsieh YS, Tseng YF, et al. Pleural Photodynamic Therapy and Surgery in Lung Cancer and Thymoma Patients with Pleural Spread. PLoS One 2015;10:e0133230."
+          },
+          {
+            "text": "10.  Okunaka T, Kato H, Tsutsui H, et al. Photodynamic therapy for peripheral lung cancer. Lung Cancer 2004;43:77-82."
+          },
+          {
+            "text": "11.  Simone CB 2nd, Friedberg JS, Glatstein E, et al. Photodynamic therapy for the treatment of non-small cell lung cancer. J Thorac Dis 2012;4:63-75."
+          },
+          {
+            "text": "12.  Bolton WD, Howe H 3rd, Stephenson JE. The utility of electromagnetic navigational bronchoscopy as a localization tool for robotic resection of small pulmonary nodules. Ann Thorac Surg 2014;98:471-5; discussion 475-6."
+          },
+          {
+            "text": "13.  Luo K, Lin Y, Lin X, et al. Localization of peripheral pulmonary lesions to aid surgical resection: a novel approach for electromagnetic navigation bronchoscopic dye marking. Eur J Cardiothorac Surg 2017;52:516-21."
+          },
+          {
+            "text": "14.  Port J, Harrison S. Electromagnetic navigational bronchoscopy. Semin Intervent Radiol 2013;30:128-32."
+          },
+          {
+            "text": "15.  Ng CS, Yu SC, Lau RW, et al. Hybrid DynaCT-guided electromagnetic navigational bronchoscopic biopsy†. Eur J Cardiothorac Surg 2016;49 Suppl 1:i87-8."
+          },
+          {
+            "text": "16.  Black WC, Baron JA. CT screening for lung cancer: spiraling into confusion? JAMA 2007;297:995-7."
+          },
+          {
+            "text": "17.  Musani AI, Veir JK, Huang Z, et al. Photodynamic therapy via navigational bronchoscopy for peripheral lung cancer in dogs. Lasers Surg Med 2018. [Epub ahead of print]."
+          }
+        ],
+        "category": "other"
+      }
+    ],
+    "tables": [
+      {
+        "self_ref": "#/tables/0",
+        "parent": {
+          "cref": "#/body"
+        },
+        "children": [
+          {
+            "cref": "#/texts/63"
+          }
+        ],
+        "content_layer": "body",
+        "label": "table",
+        "prov": [
+          {
+            "page_no": 4,
+            "bbox": {
+              "l": 45.192161560058594,
+              "t": 323.75091552734375,
+              "r": 549.9547729492188,
+              "b": 213.15814208984375,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "charspan": [
+              0,
+              0
+            ]
+          }
+        ],
+        "captions": [
+          {
+            "cref": "#/texts/63"
+          }
+        ],
+        "references": [],
+        "footnotes": [],
+        "image": null,
+        "data": {
+          "table_cells": [
+            {
+              "bbox": {
+                "l": 51.024,
+                "t": 466.98,
+                "r": 61.392,
+                "b": 473.94800000000004,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 0,
+              "end_row_offset_idx": 1,
+              "start_col_offset_idx": 0,
+              "end_col_offset_idx": 1,
+              "text": "No",
+              "column_header": true,
+              "row_header": false,
+              "row_section": false
+            },
+            {
+              "bbox": {
+                "l": 78.27,
+                "t": 466.98,
+                "r": 107.446,
+                "b": 473.94800000000004,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 0,
+              "end_row_offset_idx": 1,
+              "start_col_offset_idx": 1,
+              "end_col_offset_idx": 2,
+              "text": "Age/sex",
+              "column_header": true,
+              "row_header": false,
+              "row_section": false
+            },
+            {
+              "bbox": {
+                "l": 124.758,
+                "t": 466.98,
+                "r": 159.87,
+                "b": 473.94800000000004,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 0,
+              "end_row_offset_idx": 1,
+              "start_col_offset_idx": 2,
+              "end_col_offset_idx": 3,
+              "text": "Diagnosis",
+              "column_header": true,
+              "row_header": false,
+              "row_section": false
+            },
+            {
+              "bbox": {
+                "l": 208.663,
+                "t": 466.98,
+                "r": 239.631,
+                "b": 473.94800000000004,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 0,
+              "end_row_offset_idx": 1,
+              "start_col_offset_idx": 3,
+              "end_col_offset_idx": 4,
+              "text": "Location",
+              "column_header": true,
+              "row_header": false,
+              "row_section": false
+            },
+            {
+              "bbox": {
+                "l": 256.852,
+                "t": 466.98,
+                "r": 291.964,
+                "b": 473.94800000000004,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 0,
+              "end_row_offset_idx": 1,
+              "start_col_offset_idx": 4,
+              "end_col_offset_idx": 5,
+              "text": "Size (mm)",
+              "column_header": true,
+              "row_header": false,
+              "row_section": false
+            },
+            {
+              "bbox": {
+                "l": 305.892,
+                "t": 461.48,
+                "r": 343.236,
+                "b": 479.44800000000004,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 0,
+              "end_row_offset_idx": 1,
+              "start_col_offset_idx": 5,
+              "end_col_offset_idx": 6,
+              "text": "Admission day",
+              "column_header": true,
+              "row_header": false,
+              "row_section": false
+            },
+            {
+              "bbox": {
+                "l": 356.632,
+                "t": 461.48,
+                "r": 397.664,
+                "b": 479.44800000000004,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 0,
+              "end_row_offset_idx": 1,
+              "start_col_offset_idx": 6,
+              "end_col_offset_idx": 7,
+              "text": "Follow time (months)",
+              "column_header": true,
+              "row_header": false,
+              "row_section": false
+            },
+            {
+              "bbox": {
+                "l": 409.356,
+                "t": 461.48,
+                "r": 454.988,
+                "b": 479.44800000000004,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 0,
+              "end_row_offset_idx": 1,
+              "start_col_offset_idx": 7,
+              "end_col_offset_idx": 8,
+              "text": "Progression- free survival",
+              "column_header": true,
+              "row_header": false,
+              "row_section": false
+            },
+            {
+              "bbox": {
+                "l": 464.882,
+                "t": 466.98,
+                "r": 516.298,
+                "b": 473.94800000000004,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 0,
+              "end_row_offset_idx": 1,
+              "start_col_offset_idx": 8,
+              "end_col_offset_idx": 9,
+              "text": "Complications",
+              "column_header": true,
+              "row_header": false,
+              "row_section": false
+            },
+            {
+              "bbox": {
+                "l": 51.024,
+                "t": 488.98400000000004,
+                "r": 55.472,
+                "b": 495.952,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 1,
+              "end_row_offset_idx": 2,
+              "start_col_offset_idx": 0,
+              "end_col_offset_idx": 1,
+              "text": "1",
+              "column_header": false,
+              "row_header": false,
+              "row_section": false
+            },
+            {
+              "bbox": {
+                "l": 78.27,
+                "t": 488.98400000000004,
+                "r": 96.798,
+                "b": 495.952,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 1,
+              "end_row_offset_idx": 2,
+              "start_col_offset_idx": 1,
+              "end_col_offset_idx": 2,
+              "text": "75/M",
+              "column_header": false,
+              "row_header": false,
+              "row_section": false
+            },
+            {
+              "bbox": {
+                "l": 124.758,
+                "t": 488.98400000000004,
+                "r": 201.973,
+                "b": 506.952,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 1,
+              "end_row_offset_idx": 2,
+              "start_col_offset_idx": 2,
+              "end_col_offset_idx": 3,
+              "text": "Lung metastasis from colon cancer",
+              "column_header": false,
+              "row_header": false,
+              "row_section": false
+            },
+            {
+              "bbox": {
+                "l": 208.663,
+                "t": 488.98400000000004,
+                "r": 223.039,
+                "b": 495.952,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 1,
+              "end_row_offset_idx": 2,
+              "start_col_offset_idx": 3,
+              "end_col_offset_idx": 4,
+              "text": "RLL",
+              "column_header": false,
+              "row_header": false,
+              "row_section": false
+            },
+            {
+              "bbox": {
+                "l": 256.852,
+                "t": 488.98400000000004,
+                "r": 265.748,
+                "b": 495.952,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 1,
+              "end_row_offset_idx": 2,
+              "start_col_offset_idx": 4,
+              "end_col_offset_idx": 5,
+              "text": "36",
+              "column_header": false,
+              "row_header": false,
+              "row_section": false
+            },
+            {
+              "bbox": {
+                "l": 305.892,
+                "t": 488.98400000000004,
+                "r": 310.34,
+                "b": 495.952,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 1,
+              "end_row_offset_idx": 2,
+              "start_col_offset_idx": 5,
+              "end_col_offset_idx": 6,
+              "text": "5",
+              "column_header": false,
+              "row_header": false,
+              "row_section": false
+            },
+            {
+              "bbox": {
+                "l": 356.632,
+                "t": 488.98400000000004,
+                "r": 365.528,
+                "b": 495.952,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 1,
+              "end_row_offset_idx": 2,
+              "start_col_offset_idx": 6,
+              "end_col_offset_idx": 7,
+              "text": "16",
+              "column_header": false,
+              "row_header": false,
+              "row_section": false
+            },
+            {
+              "bbox": {
+                "l": 409.356,
+                "t": 488.98400000000004,
+                "r": 431.188,
+                "b": 495.952,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 1,
+              "end_row_offset_idx": 2,
+              "start_col_offset_idx": 7,
+              "end_col_offset_idx": 8,
+              "text": "+ (PR)",
+              "column_header": false,
+              "row_header": false,
+              "row_section": false
+            },
+            {
+              "bbox": {
+                "l": 464.882,
+                "t": 488.98400000000004,
+                "r": 469.682,
+                "b": 495.952,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 1,
+              "end_row_offset_idx": 2,
+              "start_col_offset_idx": 8,
+              "end_col_offset_idx": 9,
+              "text": "-",
+              "column_header": false,
+              "row_header": false,
+              "row_section": false
+            },
+            {
+              "bbox": {
+                "l": 51.024,
+                "t": 516.488,
+                "r": 55.472,
+                "b": 523.456,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 2,
+              "end_row_offset_idx": 3,
+              "start_col_offset_idx": 0,
+              "end_col_offset_idx": 1,
+              "text": "2",
+              "column_header": false,
+              "row_header": false,
+              "row_section": false
+            },
+            {
+              "bbox": {
+                "l": 78.27,
+                "t": 516.488,
+                "r": 94.422,
+                "b": 523.456,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 2,
+              "end_row_offset_idx": 3,
+              "start_col_offset_idx": 1,
+              "end_col_offset_idx": 2,
+              "text": "57/F",
+              "column_header": false,
+              "row_header": false,
+              "row_section": false
+            },
+            {
+              "bbox": {
+                "l": 124.758,
+                "t": 516.488,
+                "r": 201.973,
+                "b": 534.456,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 2,
+              "end_row_offset_idx": 3,
+              "start_col_offset_idx": 2,
+              "end_col_offset_idx": 3,
+              "text": "Lung metastasis from colon cancer",
+              "column_header": false,
+              "row_header": false,
+              "row_section": false
+            },
+            {
+              "bbox": {
+                "l": 208.663,
+                "t": 516.488,
+                "r": 224.367,
+                "b": 523.456,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 2,
+              "end_row_offset_idx": 3,
+              "start_col_offset_idx": 3,
+              "end_col_offset_idx": 4,
+              "text": "RUL",
+              "column_header": false,
+              "row_header": false,
+              "row_section": false
+            },
+            {
+              "bbox": {
+                "l": 256.852,
+                "t": 516.488,
+                "r": 265.748,
+                "b": 523.456,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 2,
+              "end_row_offset_idx": 3,
+              "start_col_offset_idx": 4,
+              "end_col_offset_idx": 5,
+              "text": "20",
+              "column_header": false,
+              "row_header": false,
+              "row_section": false
+            },
+            {
+              "bbox": {
+                "l": 305.892,
+                "t": 516.488,
+                "r": 310.34,
+                "b": 523.456,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 2,
+              "end_row_offset_idx": 3,
+              "start_col_offset_idx": 5,
+              "end_col_offset_idx": 6,
+              "text": "4",
+              "column_header": false,
+              "row_header": false,
+              "row_section": false
+            },
+            {
+              "bbox": {
+                "l": 356.632,
+                "t": 516.488,
+                "r": 365.528,
+                "b": 523.456,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 2,
+              "end_row_offset_idx": 3,
+              "start_col_offset_idx": 6,
+              "end_col_offset_idx": 7,
+              "text": "14",
+              "column_header": false,
+              "row_header": false,
+              "row_section": false
+            },
+            {
+              "bbox": {
+                "l": 409.356,
+                "t": 516.488,
+                "r": 431.188,
+                "b": 523.456,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 2,
+              "end_row_offset_idx": 3,
+              "start_col_offset_idx": 7,
+              "end_col_offset_idx": 8,
+              "text": "+ (PR)",
+              "column_header": false,
+              "row_header": false,
+              "row_section": false
+            },
+            {
+              "bbox": {
+                "l": 464.882,
+                "t": 516.488,
+                "r": 469.682,
+                "b": 523.456,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 2,
+              "end_row_offset_idx": 3,
+              "start_col_offset_idx": 8,
+              "end_col_offset_idx": 9,
+              "text": "-",
+              "column_header": false,
+              "row_header": false,
+              "row_section": false
+            },
+            {
+              "bbox": {
+                "l": 51.024,
+                "t": 543.992,
+                "r": 55.472,
+                "b": 550.96,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 3,
+              "end_row_offset_idx": 4,
+              "start_col_offset_idx": 0,
+              "end_col_offset_idx": 1,
+              "text": "3",
+              "column_header": false,
+              "row_header": false,
+              "row_section": false
+            },
+            {
+              "bbox": {
+                "l": 78.27,
+                "t": 543.992,
+                "r": 94.422,
+                "b": 550.96,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 3,
+              "end_row_offset_idx": 4,
+              "start_col_offset_idx": 1,
+              "end_col_offset_idx": 2,
+              "text": "65/F",
+              "column_header": false,
+              "row_header": false,
+              "row_section": false
+            },
+            {
+              "bbox": {
+                "l": 124.758,
+                "t": 543.992,
+                "r": 184.477,
+                "b": 561.96,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 3,
+              "end_row_offset_idx": 4,
+              "start_col_offset_idx": 2,
+              "end_col_offset_idx": 3,
+              "text": "Lung adenocarcinoma",
+              "column_header": false,
+              "row_header": false,
+              "row_section": false
+            },
+            {
+              "bbox": {
+                "l": 208.663,
+                "t": 543.992,
+                "r": 223.039,
+                "b": 550.96,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 3,
+              "end_row_offset_idx": 4,
+              "start_col_offset_idx": 3,
+              "end_col_offset_idx": 4,
+              "text": "RLL",
+              "column_header": false,
+              "row_header": false,
+              "row_section": false
+            },
+            {
+              "bbox": {
+                "l": 256.852,
+                "t": 543.992,
+                "r": 261.3,
+                "b": 550.96,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 3,
+              "end_row_offset_idx": 4,
+              "start_col_offset_idx": 4,
+              "end_col_offset_idx": 5,
+              "text": "8",
+              "column_header": false,
+              "row_header": false,
+              "row_section": false
+            },
+            {
+              "bbox": {
+                "l": 305.892,
+                "t": 543.992,
+                "r": 310.34,
+                "b": 550.96,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 3,
+              "end_row_offset_idx": 4,
+              "start_col_offset_idx": 5,
+              "end_col_offset_idx": 6,
+              "text": "3",
+              "column_header": false,
+              "row_header": false,
+              "row_section": false
+            },
+            {
+              "bbox": {
+                "l": 356.632,
+                "t": 543.992,
+                "r": 365.528,
+                "b": 550.96,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 3,
+              "end_row_offset_idx": 4,
+              "start_col_offset_idx": 6,
+              "end_col_offset_idx": 7,
+              "text": "12",
+              "column_header": false,
+              "row_header": false,
+              "row_section": false
+            },
+            {
+              "bbox": {
+                "l": 409.356,
+                "t": 543.992,
+                "r": 431.78,
+                "b": 550.96,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 3,
+              "end_row_offset_idx": 4,
+              "start_col_offset_idx": 7,
+              "end_col_offset_idx": 8,
+              "text": "+ (CR)",
+              "column_header": false,
+              "row_header": false,
+              "row_section": false
+            },
+            {
+              "bbox": {
+                "l": 464.882,
+                "t": 543.992,
+                "r": 539.561,
+                "b": 561.96,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 3,
+              "end_row_offset_idx": 4,
+              "start_col_offset_idx": 8,
+              "end_col_offset_idx": 9,
+              "text": "Skin hypersensitivity, grade I",
+              "column_header": false,
+              "row_header": false,
+              "row_section": false
+            }
+          ],
+          "num_rows": 4,
+          "num_cols": 9,
+          "grid": [
+            [
+              {
+                "bbox": {
+                  "l": 51.024,
+                  "t": 466.98,
+                  "r": 61.392,
+                  "b": 473.94800000000004,
+                  "coord_origin": "TOPLEFT"
+                },
+                "row_span": 1,
+                "col_span": 1,
+                "start_row_offset_idx": 0,
+                "end_row_offset_idx": 1,
+                "start_col_offset_idx": 0,
+                "end_col_offset_idx": 1,
+                "text": "No",
+                "column_header": true,
+                "row_header": false,
+                "row_section": false
+              },
+              {
+                "bbox": {
+                  "l": 78.27,
+                  "t": 466.98,
+                  "r": 107.446,
+                  "b": 473.94800000000004,
+                  "coord_origin": "TOPLEFT"
+                },
+                "row_span": 1,
+                "col_span": 1,
+                "start_row_offset_idx": 0,
+                "end_row_offset_idx": 1,
+                "start_col_offset_idx": 1,
+                "end_col_offset_idx": 2,
+                "text": "Age/sex",
+                "column_header": true,
+                "row_header": false,
+                "row_section": false
+              },
+              {
+                "bbox": {
+                  "l": 124.758,
+                  "t": 466.98,
+                  "r": 159.87,
+                  "b": 473.94800000000004,
+                  "coord_origin": "TOPLEFT"
+                },
+                "row_span": 1,
+                "col_span": 1,
+                "start_row_offset_idx": 0,
+                "end_row_offset_idx": 1,
+                "start_col_offset_idx": 2,
+                "end_col_offset_idx": 3,
+                "text": "Diagnosis",
+                "column_header": true,
+                "row_header": false,
+                "row_section": false
+              },
+              {
+                "bbox": {
+                  "l": 208.663,
+                  "t": 466.98,
+                  "r": 239.631,
+                  "b": 473.94800000000004,
+                  "coord_origin": "TOPLEFT"
+                },
+                "row_span": 1,
+                "col_span": 1,
+                "start_row_offset_idx": 0,
+                "end_row_offset_idx": 1,
+                "start_col_offset_idx": 3,
+                "end_col_offset_idx": 4,
+                "text": "Location",
+                "column_header": true,
+                "row_header": false,
+                "row_section": false
+              },
+              {
+                "bbox": {
+                  "l": 256.852,
+                  "t": 466.98,
+                  "r": 291.964,
+                  "b": 473.94800000000004,
+                  "coord_origin": "TOPLEFT"
+                },
+                "row_span": 1,
+                "col_span": 1,
+                "start_row_offset_idx": 0,
+                "end_row_offset_idx": 1,
+                "start_col_offset_idx": 4,
+                "end_col_offset_idx": 5,
+                "text": "Size (mm)",
+                "column_header": true,
+                "row_header": false,
+                "row_section": false
+              },
+              {
+                "bbox": {
+                  "l": 305.892,
+                  "t": 461.48,
+                  "r": 343.236,
+                  "b": 479.44800000000004,
+                  "coord_origin": "TOPLEFT"
+                },
+                "row_span": 1,
+                "col_span": 1,
+                "start_row_offset_idx": 0,
+                "end_row_offset_idx": 1,
+                "start_col_offset_idx": 5,
+                "end_col_offset_idx": 6,
+                "text": "Admission day",
+                "column_header": true,
+                "row_header": false,
+                "row_section": false
+              },
+              {
+                "bbox": {
+                  "l": 356.632,
+                  "t": 461.48,
+                  "r": 397.664,
+                  "b": 479.44800000000004,
+                  "coord_origin": "TOPLEFT"
+                },
+                "row_span": 1,
+                "col_span": 1,
+                "start_row_offset_idx": 0,
+                "end_row_offset_idx": 1,
+                "start_col_offset_idx": 6,
+                "end_col_offset_idx": 7,
+                "text": "Follow time (months)",
+                "column_header": true,
+                "row_header": false,
+                "row_section": false
+              },
+              {
+                "bbox": {
+                  "l": 409.356,
+                  "t": 461.48,
+                  "r": 454.988,
+                  "b": 479.44800000000004,
+                  "coord_origin": "TOPLEFT"
+                },
+                "row_span": 1,
+                "col_span": 1,
+                "start_row_offset_idx": 0,
+                "end_row_offset_idx": 1,
+                "start_col_offset_idx": 7,
+                "end_col_offset_idx": 8,
+                "text": "Progression- free survival",
+                "column_header": true,
+                "row_header": false,
+                "row_section": false
+              },
+              {
+                "bbox": {
+                  "l": 464.882,
+                  "t": 466.98,
+                  "r": 516.298,
+                  "b": 473.94800000000004,
+                  "coord_origin": "TOPLEFT"
+                },
+                "row_span": 1,
+                "col_span": 1,
+                "start_row_offset_idx": 0,
+                "end_row_offset_idx": 1,
+                "start_col_offset_idx": 8,
+                "end_col_offset_idx": 9,
+                "text": "Complications",
+                "column_header": true,
+                "row_header": false,
+                "row_section": false
+              }
+            ],
+            [
+              {
+                "bbox": {
+                  "l": 51.024,
+                  "t": 488.98400000000004,
+                  "r": 55.472,
+                  "b": 495.952,
+                  "coord_origin": "TOPLEFT"
+                },
+                "row_span": 1,
+                "col_span": 1,
+                "start_row_offset_idx": 1,
+                "end_row_offset_idx": 2,
+                "start_col_offset_idx": 0,
+                "end_col_offset_idx": 1,
+                "text": "1",
+                "column_header": false,
+                "row_header": false,
+                "row_section": false
+              },
+              {
+                "bbox": {
+                  "l": 78.27,
+                  "t": 488.98400000000004,
+                  "r": 96.798,
+                  "b": 495.952,
+                  "coord_origin": "TOPLEFT"
+                },
+                "row_span": 1,
+                "col_span": 1,
+                "start_row_offset_idx": 1,
+                "end_row_offset_idx": 2,
+                "start_col_offset_idx": 1,
+                "end_col_offset_idx": 2,
+                "text": "75/M",
+                "column_header": false,
+                "row_header": false,
+                "row_section": false
+              },
+              {
+                "bbox": {
+                  "l": 124.758,
+                  "t": 488.98400000000004,
+                  "r": 201.973,
+                  "b": 506.952,
+                  "coord_origin": "TOPLEFT"
+                },
+                "row_span": 1,
+                "col_span": 1,
+                "start_row_offset_idx": 1,
+                "end_row_offset_idx": 2,
+                "start_col_offset_idx": 2,
+                "end_col_offset_idx": 3,
+                "text": "Lung metastasis from colon cancer",
+                "column_header": false,
+                "row_header": false,
+                "row_section": false
+              },
+              {
+                "bbox": {
+                  "l": 208.663,
+                  "t": 488.98400000000004,
+                  "r": 223.039,
+                  "b": 495.952,
+                  "coord_origin": "TOPLEFT"
+                },
+                "row_span": 1,
+                "col_span": 1,
+                "start_row_offset_idx": 1,
+                "end_row_offset_idx": 2,
+                "start_col_offset_idx": 3,
+                "end_col_offset_idx": 4,
+                "text": "RLL",
+                "column_header": false,
+                "row_header": false,
+                "row_section": false
+              },
+              {
+                "bbox": {
+                  "l": 256.852,
+                  "t": 488.98400000000004,
+                  "r": 265.748,
+                  "b": 495.952,
+                  "coord_origin": "TOPLEFT"
+                },
+                "row_span": 1,
+                "col_span": 1,
+                "start_row_offset_idx": 1,
+                "end_row_offset_idx": 2,
+                "start_col_offset_idx": 4,
+                "end_col_offset_idx": 5,
+                "text": "36",
+                "column_header": false,
+                "row_header": false,
+                "row_section": false
+              },
+              {
+                "bbox": {
+                  "l": 305.892,
+                  "t": 488.98400000000004,
+                  "r": 310.34,
+                  "b": 495.952,
+                  "coord_origin": "TOPLEFT"
+                },
+                "row_span": 1,
+                "col_span": 1,
+                "start_row_offset_idx": 1,
+                "end_row_offset_idx": 2,
+                "start_col_offset_idx": 5,
+                "end_col_offset_idx": 6,
+                "text": "5",
+                "column_header": false,
+                "row_header": false,
+                "row_section": false
+              },
+              {
+                "bbox": {
+                  "l": 356.632,
+                  "t": 488.98400000000004,
+                  "r": 365.528,
+                  "b": 495.952,
+                  "coord_origin": "TOPLEFT"
+                },
+                "row_span": 1,
+                "col_span": 1,
+                "start_row_offset_idx": 1,
+                "end_row_offset_idx": 2,
+                "start_col_offset_idx": 6,
+                "end_col_offset_idx": 7,
+                "text": "16",
+                "column_header": false,
+                "row_header": false,
+                "row_section": false
+              },
+              {
+                "bbox": {
+                  "l": 409.356,
+                  "t": 488.98400000000004,
+                  "r": 431.188,
+                  "b": 495.952,
+                  "coord_origin": "TOPLEFT"
+                },
+                "row_span": 1,
+                "col_span": 1,
+                "start_row_offset_idx": 1,
+                "end_row_offset_idx": 2,
+                "start_col_offset_idx": 7,
+                "end_col_offset_idx": 8,
+                "text": "+ (PR)",
+                "column_header": false,
+                "row_header": false,
+                "row_section": false
+              },
+              {
+                "bbox": {
+                  "l": 464.882,
+                  "t": 488.98400000000004,
+                  "r": 469.682,
+                  "b": 495.952,
+                  "coord_origin": "TOPLEFT"
+                },
+                "row_span": 1,
+                "col_span": 1,
+                "start_row_offset_idx": 1,
+                "end_row_offset_idx": 2,
+                "start_col_offset_idx": 8,
+                "end_col_offset_idx": 9,
+                "text": "-",
+                "column_header": false,
+                "row_header": false,
+                "row_section": false
+              }
+            ],
+            [
+              {
+                "bbox": {
+                  "l": 51.024,
+                  "t": 516.488,
+                  "r": 55.472,
+                  "b": 523.456,
+                  "coord_origin": "TOPLEFT"
+                },
+                "row_span": 1,
+                "col_span": 1,
+                "start_row_offset_idx": 2,
+                "end_row_offset_idx": 3,
+                "start_col_offset_idx": 0,
+                "end_col_offset_idx": 1,
+                "text": "2",
+                "column_header": false,
+                "row_header": false,
+                "row_section": false
+              },
+              {
+                "bbox": {
+                  "l": 78.27,
+                  "t": 516.488,
+                  "r": 94.422,
+                  "b": 523.456,
+                  "coord_origin": "TOPLEFT"
+                },
+                "row_span": 1,
+                "col_span": 1,
+                "start_row_offset_idx": 2,
+                "end_row_offset_idx": 3,
+                "start_col_offset_idx": 1,
+                "end_col_offset_idx": 2,
+                "text": "57/F",
+                "column_header": false,
+                "row_header": false,
+                "row_section": false
+              },
+              {
+                "bbox": {
+                  "l": 124.758,
+                  "t": 516.488,
+                  "r": 201.973,
+                  "b": 534.456,
+                  "coord_origin": "TOPLEFT"
+                },
+                "row_span": 1,
+                "col_span": 1,
+                "start_row_offset_idx": 2,
+                "end_row_offset_idx": 3,
+                "start_col_offset_idx": 2,
+                "end_col_offset_idx": 3,
+                "text": "Lung metastasis from colon cancer",
+                "column_header": false,
+                "row_header": false,
+                "row_section": false
+              },
+              {
+                "bbox": {
+                  "l": 208.663,
+                  "t": 516.488,
+                  "r": 224.367,
+                  "b": 523.456,
+                  "coord_origin": "TOPLEFT"
+                },
+                "row_span": 1,
+                "col_span": 1,
+                "start_row_offset_idx": 2,
+                "end_row_offset_idx": 3,
+                "start_col_offset_idx": 3,
+                "end_col_offset_idx": 4,
+                "text": "RUL",
+                "column_header": false,
+                "row_header": false,
+                "row_section": false
+              },
+              {
+                "bbox": {
+                  "l": 256.852,
+                  "t": 516.488,
+                  "r": 265.748,
+                  "b": 523.456,
+                  "coord_origin": "TOPLEFT"
+                },
+                "row_span": 1,
+                "col_span": 1,
+                "start_row_offset_idx": 2,
+                "end_row_offset_idx": 3,
+                "start_col_offset_idx": 4,
+                "end_col_offset_idx": 5,
+                "text": "20",
+                "column_header": false,
+                "row_header": false,
+                "row_section": false
+              },
+              {
+                "bbox": {
+                  "l": 305.892,
+                  "t": 516.488,
+                  "r": 310.34,
+                  "b": 523.456,
+                  "coord_origin": "TOPLEFT"
+                },
+                "row_span": 1,
+                "col_span": 1,
+                "start_row_offset_idx": 2,
+                "end_row_offset_idx": 3,
+                "start_col_offset_idx": 5,
+                "end_col_offset_idx": 6,
+                "text": "4",
+                "column_header": false,
+                "row_header": false,
+                "row_section": false
+              },
+              {
+                "bbox": {
+                  "l": 356.632,
+                  "t": 516.488,
+                  "r": 365.528,
+                  "b": 523.456,
+                  "coord_origin": "TOPLEFT"
+                },
+                "row_span": 1,
+                "col_span": 1,
+                "start_row_offset_idx": 2,
+                "end_row_offset_idx": 3,
+                "start_col_offset_idx": 6,
+                "end_col_offset_idx": 7,
+                "text": "14",
+                "column_header": false,
+                "row_header": false,
+                "row_section": false
+              },
+              {
+                "bbox": {
+                  "l": 409.356,
+                  "t": 516.488,
+                  "r": 431.188,
+                  "b": 523.456,
+                  "coord_origin": "TOPLEFT"
+                },
+                "row_span": 1,
+                "col_span": 1,
+                "start_row_offset_idx": 2,
+                "end_row_offset_idx": 3,
+                "start_col_offset_idx": 7,
+                "end_col_offset_idx": 8,
+                "text": "+ (PR)",
+                "column_header": false,
+                "row_header": false,
+                "row_section": false
+              },
+              {
+                "bbox": {
+                  "l": 464.882,
+                  "t": 516.488,
+                  "r": 469.682,
+                  "b": 523.456,
+                  "coord_origin": "TOPLEFT"
+                },
+                "row_span": 1,
+                "col_span": 1,
+                "start_row_offset_idx": 2,
+                "end_row_offset_idx": 3,
+                "start_col_offset_idx": 8,
+                "end_col_offset_idx": 9,
+                "text": "-",
+                "column_header": false,
+                "row_header": false,
+                "row_section": false
+              }
+            ],
+            [
+              {
+                "bbox": {
+                  "l": 51.024,
+                  "t": 543.992,
+                  "r": 55.472,
+                  "b": 550.96,
+                  "coord_origin": "TOPLEFT"
+                },
+                "row_span": 1,
+                "col_span": 1,
+                "start_row_offset_idx": 3,
+                "end_row_offset_idx": 4,
+                "start_col_offset_idx": 0,
+                "end_col_offset_idx": 1,
+                "text": "3",
+                "column_header": false,
+                "row_header": false,
+                "row_section": false
+              },
+              {
+                "bbox": {
+                  "l": 78.27,
+                  "t": 543.992,
+                  "r": 94.422,
+                  "b": 550.96,
+                  "coord_origin": "TOPLEFT"
+                },
+                "row_span": 1,
+                "col_span": 1,
+                "start_row_offset_idx": 3,
+                "end_row_offset_idx": 4,
+                "start_col_offset_idx": 1,
+                "end_col_offset_idx": 2,
+                "text": "65/F",
+                "column_header": false,
+                "row_header": false,
+                "row_section": false
+              },
+              {
+                "bbox": {
+                  "l": 124.758,
+                  "t": 543.992,
+                  "r": 184.477,
+                  "b": 561.96,
+                  "coord_origin": "TOPLEFT"
+                },
+                "row_span": 1,
+                "col_span": 1,
+                "start_row_offset_idx": 3,
+                "end_row_offset_idx": 4,
+                "start_col_offset_idx": 2,
+                "end_col_offset_idx": 3,
+                "text": "Lung adenocarcinoma",
+                "column_header": false,
+                "row_header": false,
+                "row_section": false
+              },
+              {
+                "bbox": {
+                  "l": 208.663,
+                  "t": 543.992,
+                  "r": 223.039,
+                  "b": 550.96,
+                  "coord_origin": "TOPLEFT"
+                },
+                "row_span": 1,
+                "col_span": 1,
+                "start_row_offset_idx": 3,
+                "end_row_offset_idx": 4,
+                "start_col_offset_idx": 3,
+                "end_col_offset_idx": 4,
+                "text": "RLL",
+                "column_header": false,
+                "row_header": false,
+                "row_section": false
+              },
+              {
+                "bbox": {
+                  "l": 256.852,
+                  "t": 543.992,
+                  "r": 261.3,
+                  "b": 550.96,
+                  "coord_origin": "TOPLEFT"
+                },
+                "row_span": 1,
+                "col_span": 1,
+                "start_row_offset_idx": 3,
+                "end_row_offset_idx": 4,
+                "start_col_offset_idx": 4,
+                "end_col_offset_idx": 5,
+                "text": "8",
+                "column_header": false,
+                "row_header": false,
+                "row_section": false
+              },
+              {
+                "bbox": {
+                  "l": 305.892,
+                  "t": 543.992,
+                  "r": 310.34,
+                  "b": 550.96,
+                  "coord_origin": "TOPLEFT"
+                },
+                "row_span": 1,
+                "col_span": 1,
+                "start_row_offset_idx": 3,
+                "end_row_offset_idx": 4,
+                "start_col_offset_idx": 5,
+                "end_col_offset_idx": 6,
+                "text": "3",
+                "column_header": false,
+                "row_header": false,
+                "row_section": false
+              },
+              {
+                "bbox": {
+                  "l": 356.632,
+                  "t": 543.992,
+                  "r": 365.528,
+                  "b": 550.96,
+                  "coord_origin": "TOPLEFT"
+                },
+                "row_span": 1,
+                "col_span": 1,
+                "start_row_offset_idx": 3,
+                "end_row_offset_idx": 4,
+                "start_col_offset_idx": 6,
+                "end_col_offset_idx": 7,
+                "text": "12",
+                "column_header": false,
+                "row_header": false,
+                "row_section": false
+              },
+              {
+                "bbox": {
+                  "l": 409.356,
+                  "t": 543.992,
+                  "r": 431.78,
+                  "b": 550.96,
+                  "coord_origin": "TOPLEFT"
+                },
+                "row_span": 1,
+                "col_span": 1,
+                "start_row_offset_idx": 3,
+                "end_row_offset_idx": 4,
+                "start_col_offset_idx": 7,
+                "end_col_offset_idx": 8,
+                "text": "+ (CR)",
+                "column_header": false,
+                "row_header": false,
+                "row_section": false
+              },
+              {
+                "bbox": {
+                  "l": 464.882,
+                  "t": 543.992,
+                  "r": 539.561,
+                  "b": 561.96,
+                  "coord_origin": "TOPLEFT"
+                },
+                "row_span": 1,
+                "col_span": 1,
+                "start_row_offset_idx": 3,
+                "end_row_offset_idx": 4,
+                "start_col_offset_idx": 8,
+                "end_col_offset_idx": 9,
+                "text": "Skin hypersensitivity, grade I",
+                "column_header": false,
+                "row_header": false,
+                "row_section": false
+              }
+            ]
+          ]
+        },
+        "annotations": []
+      }
+    ],
+    "figures": [
+      {
+        "self_ref": "#/pictures/0",
+        "parent": {
+          "cref": "#/body"
+        },
+        "children": [
+          {
+            "cref": "#/texts/35"
+          },
+          {
+            "cref": "#/texts/36"
+          },
+          {
+            "cref": "#/texts/37"
+          },
+          {
+            "cref": "#/texts/38"
+          },
+          {
+            "cref": "#/texts/39"
+          },
+          {
+            "cref": "#/texts/40"
+          },
+          {
+            "cref": "#/texts/41"
+          },
+          {
+            "cref": "#/texts/42"
+          }
+        ],
+        "content_layer": "body",
+        "label": "picture",
+        "prov": [
+          {
+            "page_no": 3,
+            "bbox": {
+              "l": 137.4818115234375,
+              "t": 696.0605239868164,
+              "r": 457.2122497558594,
+              "b": 495.6351623535156,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "charspan": [
+              0,
+              0
+            ]
+          }
+        ],
+        "captions": [
+          {
+            "cref": "#/texts/35"
+          }
+        ],
+        "references": [],
+        "footnotes": [],
+        "image": null,
+        "annotations": []
+      },
+      {
+        "self_ref": "#/pictures/1",
+        "parent": {
+          "cref": "#/body"
+        },
+        "children": [
+          {
+            "cref": "#/texts/43"
+          },
+          {
+            "cref": "#/texts/44"
+          },
+          {
+            "cref": "#/texts/45"
+          },
+          {
+            "cref": "#/texts/46"
+          }
+        ],
+        "content_layer": "body",
+        "label": "picture",
+        "prov": [
+          {
+            "page_no": 3,
+            "bbox": {
+              "l": 47.19817352294922,
+              "t": 440.1617126464844,
+              "r": 547.774169921875,
+              "b": 314.4249267578125,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "charspan": [
+              0,
+              0
+            ]
+          }
+        ],
+        "captions": [
+          {
+            "cref": "#/texts/43"
+          }
+        ],
+        "references": [],
+        "footnotes": [],
+        "image": null,
+        "annotations": []
+      },
+      {
+        "self_ref": "#/pictures/2",
+        "parent": {
+          "cref": "#/body"
+        },
+        "children": [
+          {
+            "cref": "#/texts/56"
+          },
+          {
+            "cref": "#/texts/57"
+          },
+          {
+            "cref": "#/texts/58"
+          },
+          {
+            "cref": "#/texts/59"
+          },
+          {
+            "cref": "#/texts/60"
+          },
+          {
+            "cref": "#/texts/61"
+          },
+          {
+            "cref": "#/texts/62"
+          }
+        ],
+        "content_layer": "body",
+        "label": "picture",
+        "prov": [
+          {
+            "page_no": 4,
+            "bbox": {
+              "l": 96.00978088378906,
+              "t": 695.6660308837891,
+              "r": 498.22113037109375,
+              "b": 392.04168701171875,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "charspan": [
+              0,
+              0
+            ]
+          }
+        ],
+        "captions": [
+          {
+            "cref": "#/texts/56"
+          }
+        ],
+        "references": [],
+        "footnotes": [],
+        "image": null,
+        "annotations": []
+      },
+      {
+        "self_ref": "#/pictures/3",
+        "parent": {
+          "cref": "#/body"
+        },
+        "children": [
+          {
+            "cref": "#/texts/73"
+          }
+        ],
+        "content_layer": "body",
+        "label": "picture",
+        "prov": [
+          {
+            "page_no": 5,
+            "bbox": {
+              "l": 122.17564392089844,
+              "t": 695.3218154907227,
+              "r": 307.5290222167969,
+              "b": 567.5552062988281,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "charspan": [
+              0,
+              0
+            ]
+          }
+        ],
+        "captions": [],
+        "references": [],
+        "footnotes": [],
+        "image": null,
+        "annotations": []
+      }
+    ],
+    "citations": [],
+    "n_sections": 12,
+    "n_tables": 1,
+    "n_figures": 4,
+    "n_citations": 0
+  },
+  "provenance": {},
+  "grobid": {
+    "references_tei": "<TEI xmlns=\"http://www.tei-c.org/ns/1.0\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" \n xmlns:mml=\"http://www.w3.org/1998/Math/MathML\">\n\t<teiHeader/>\n\t<text>\n\t\t<front/>\n\t\t<body/>\n\t\t<back>\n\t\t\t<div>\n\t\t\t\t<listBibl>\n<biblStruct xml:id=\"b0\">\n\t<analytic>\n\t\t<title level=\"a\" type=\"main\">Cancer epidemiology and control in peninsular and island South-East Asia -past, present and future</title>\n\t\t<author>\n\t\t\t<persName><forename type=\"first\">M</forename><forename type=\"middle\">A</forename><surname>Moore</surname></persName>\n\t\t</author>\n\t\t<author>\n\t\t\t<persName><forename type=\"first\">A</forename><forename type=\"middle\">A</forename><surname>Manan</surname></persName>\n\t\t</author>\n\t\t<author>\n\t\t\t<persName><forename type=\"first\">K</forename><forename type=\"middle\">Y</forename><surname>Chow</surname></persName>\n\t\t</author>\n\t</analytic>\n\t<monogr>\n\t\t<title level=\"j\">Asian Pac J Cancer Prev</title>\n\t\t<imprint>\n\t\t\t<biblScope unit=\"volume\">11</biblScope>\n\t\t\t<biblScope unit=\"issue\">Suppl 2</biblScope>\n\t\t\t<biblScope unit=\"page\" from=\"81\" to=\"98\" />\n\t\t\t<date type=\"published\" when=\"2010\">2010</date>\n\t\t</imprint>\n\t</monogr>\n</biblStruct>\n\n<biblStruct xml:id=\"b1\">\n\t<analytic>\n\t\t<title level=\"a\" type=\"main\">Cancer epidemiology and control in north-East Asia -past, present and future</title>\n\t\t<author>\n\t\t\t<persName><forename type=\"first\">N</forename><surname>Long</surname></persName>\n\t\t</author>\n\t\t<author>\n\t\t\t<persName><forename type=\"first\">M</forename><forename type=\"middle\">A</forename><surname>Moore</surname></persName>\n\t\t</author>\n\t\t<author>\n\t\t\t<persName><forename type=\"first\">Chen</forename><forename type=\"middle\">W</forename></persName>\n\t\t</author>\n\t</analytic>\n\t<monogr>\n\t\t<title level=\"j\">Asian Pac J Cancer Prev</title>\n\t\t<imprint>\n\t\t\t<biblScope unit=\"volume\">11</biblScope>\n\t\t\t<biblScope unit=\"issue\">Suppl 2</biblScope>\n\t\t\t<biblScope unit=\"page\" from=\"107\" to=\"148\" />\n\t\t\t<date type=\"published\" when=\"2010\">2010</date>\n\t\t</imprint>\n\t</monogr>\n</biblStruct>\n\n<biblStruct xml:id=\"b2\">\n\t<analytic>\n\t\t<title level=\"a\" type=\"main\">Results of the two incidence screenings in the National Lung Screening Trial</title>\n\t\t<author>\n\t\t\t<persName><forename type=\"first\">D</forename><forename type=\"middle\">R</forename><surname>Aberle</surname></persName>\n\t\t</author>\n\t\t<author>\n\t\t\t<persName><forename type=\"first\">S</forename><surname>Demello</surname></persName>\n\t\t</author>\n\t\t<author>\n\t\t\t<persName><forename type=\"first\">C</forename><forename type=\"middle\">D</forename><surname>Berg</surname></persName>\n\t\t</author>\n\t</analytic>\n\t<monogr>\n\t\t<title level=\"j\">N Engl J Med</title>\n\t\t<imprint>\n\t\t\t<biblScope unit=\"volume\">369</biblScope>\n\t\t\t<biblScope unit=\"page\" from=\"920\" to=\"931\" />\n\t\t\t<date type=\"published\" when=\"2013\">2013</date>\n\t\t</imprint>\n\t</monogr>\n</biblStruct>\n\n<biblStruct xml:id=\"b3\">\n\t<analytic>\n\t\t<title level=\"a\" type=\"main\">Hybrid operating room Dyna-computed tomography combined imageguided electromagnetic navigation bronchoscopy dye marking and hookwire localization video-assisted thoracic surgery metastasectomy</title>\n\t\t<author>\n\t\t\t<persName><forename type=\"first\">Csh</forename><surname>Ng</surname></persName>\n\t\t</author>\n\t\t<author>\n\t\t\t<persName><forename type=\"first\">C</forename><forename type=\"middle\">M</forename><surname>Chu</surname></persName>\n\t\t</author>\n\t\t<author>\n\t\t\t<persName><forename type=\"first\">C</forename><forename type=\"middle\">K</forename><surname>Lo</surname></persName>\n\t\t</author>\n\t</analytic>\n\t<monogr>\n\t\t<title level=\"j\">Interact Cardiovasc Thorac Surg</title>\n\t\t<imprint>\n\t\t\t<biblScope unit=\"volume\">26</biblScope>\n\t\t\t<biblScope unit=\"page\" from=\"338\" to=\"340\" />\n\t\t\t<date type=\"published\" when=\"2018\">2018</date>\n\t\t</imprint>\n\t</monogr>\n</biblStruct>\n\n<biblStruct xml:id=\"b4\">\n\t<analytic>\n\t\t<title level=\"a\" type=\"main\">Thoracoscopic detection of occult indeterminate pulmonary nodules using bronchoscopic pleural dye marking</title>\n\t\t<author>\n\t\t\t<persName><forename type=\"first\">W</forename><forename type=\"middle\">S</forename><surname>Krimsky</surname></persName>\n\t\t</author>\n\t\t<author>\n\t\t\t<persName><forename type=\"first\">D</forename><forename type=\"middle\">J</forename><surname>Minnich</surname></persName>\n\t\t</author>\n\t\t<author>\n\t\t\t<persName><forename type=\"first\">S</forename><forename type=\"middle\">M</forename><surname>Cattaneo</surname></persName>\n\t\t</author>\n\t</analytic>\n\t<monogr>\n\t\t<title level=\"j\">J Community Hosp Intern Med Perspect</title>\n\t\t<imprint>\n\t\t\t<biblScope unit=\"volume\">4</biblScope>\n\t\t\t<date type=\"published\" when=\"2014\">2014</date>\n\t\t</imprint>\n\t</monogr>\n</biblStruct>\n\n<biblStruct xml:id=\"b5\">\n\t<analytic>\n\t\t<title level=\"a\" type=\"main\">Efficacy and complications of computed tomography-guided hook wire localization</title>\n\t\t<author>\n\t\t\t<persName><forename type=\"first\">J</forename><surname>Ichinose</surname></persName>\n\t\t</author>\n\t\t<author>\n\t\t\t<persName><forename type=\"first\">T</forename><surname>Kohno</surname></persName>\n\t\t</author>\n\t\t<author>\n\t\t\t<persName><forename type=\"first\">S</forename><surname>Fujimori</surname></persName>\n\t\t</author>\n\t</analytic>\n\t<monogr>\n\t\t<title level=\"j\">Ann Thorac Surg</title>\n\t\t<imprint>\n\t\t\t<biblScope unit=\"volume\">96</biblScope>\n\t\t\t<biblScope unit=\"page\" from=\"1203\" to=\"1208\" />\n\t\t\t<date type=\"published\" when=\"2013\">2013</date>\n\t\t</imprint>\n\t</monogr>\n</biblStruct>\n\n<biblStruct xml:id=\"b6\">\n\t<analytic>\n\t\t<title level=\"a\" type=\"main\">Photodynamic therapy (PDT) for lung cancers</title>\n\t\t<author>\n\t\t\t<persName><forename type=\"first\">J</forename><surname>Usuda</surname></persName>\n\t\t</author>\n\t\t<author>\n\t\t\t<persName><forename type=\"first\">H</forename><surname>Kato</surname></persName>\n\t\t</author>\n\t\t<author>\n\t\t\t<persName><forename type=\"first\">T</forename><surname>Okunaka</surname></persName>\n\t\t</author>\n\t</analytic>\n\t<monogr>\n\t\t<title level=\"j\">J Thorac Oncol</title>\n\t\t<imprint>\n\t\t\t<biblScope unit=\"volume\">1</biblScope>\n\t\t\t<biblScope unit=\"page\" from=\"489\" to=\"493\" />\n\t\t\t<date type=\"published\" when=\"2006\">2006</date>\n\t\t</imprint>\n\t</monogr>\n</biblStruct>\n\n<biblStruct xml:id=\"b7\">\n\t<analytic>\n\t\t<title level=\"a\" type=\"main\">Basic and clinical research on photodynamic therapy at Tokyo Medical University Hospital</title>\n\t\t<author>\n\t\t\t<persName><forename type=\"first\">H</forename><surname>Kato</surname></persName>\n\t\t</author>\n\t\t<author>\n\t\t\t<persName><forename type=\"first\">J</forename><surname>Usuda</surname></persName>\n\t\t</author>\n\t\t<author>\n\t\t\t<persName><forename type=\"first\">T</forename><surname>Okunaka</surname></persName>\n\t\t</author>\n\t</analytic>\n\t<monogr>\n\t\t<title level=\"j\">Lasers Surg Med</title>\n\t\t<imprint>\n\t\t\t<biblScope unit=\"volume\">38</biblScope>\n\t\t\t<biblScope unit=\"page\" from=\"371\" to=\"375\" />\n\t\t\t<date type=\"published\" when=\"2006\">2006</date>\n\t\t</imprint>\n\t</monogr>\n</biblStruct>\n\n<biblStruct xml:id=\"b8\">\n\t<analytic>\n\t\t<title level=\"a\" type=\"main\">Pleural Photodynamic Therapy and Surgery in Lung Cancer and Thymoma Patients with Pleural Spread</title>\n\t\t<author>\n\t\t\t<persName><forename type=\"first\">K</forename><forename type=\"middle\">C</forename><surname>Chen</surname></persName>\n\t\t</author>\n\t\t<author>\n\t\t\t<persName><forename type=\"first\">Y</forename><forename type=\"middle\">S</forename><surname>Hsieh</surname></persName>\n\t\t</author>\n\t\t<author>\n\t\t\t<persName><forename type=\"first\">Y</forename><forename type=\"middle\">F</forename><surname>Tseng</surname></persName>\n\t\t</author>\n\t</analytic>\n\t<monogr>\n\t\t<title level=\"j\">PLoS One</title>\n\t\t<imprint>\n\t\t\t<biblScope unit=\"volume\">10</biblScope>\n\t\t\t<biblScope unit=\"page\">133230</biblScope>\n\t\t\t<date type=\"published\" when=\"2015\">2015</date>\n\t\t</imprint>\n\t</monogr>\n</biblStruct>\n\n<biblStruct xml:id=\"b9\">\n\t<analytic>\n\t\t<title level=\"a\" type=\"main\">Photodynamic therapy for peripheral lung cancer</title>\n\t\t<author>\n\t\t\t<persName><forename type=\"first\">T</forename><surname>Okunaka</surname></persName>\n\t\t</author>\n\t\t<author>\n\t\t\t<persName><forename type=\"first\">H</forename><surname>Kato</surname></persName>\n\t\t</author>\n\t\t<author>\n\t\t\t<persName><forename type=\"first\">H</forename><surname>Tsutsui</surname></persName>\n\t\t</author>\n\t</analytic>\n\t<monogr>\n\t\t<title level=\"j\">Lung Cancer</title>\n\t\t<imprint>\n\t\t\t<biblScope unit=\"volume\">43</biblScope>\n\t\t\t<biblScope unit=\"page\" from=\"77\" to=\"82\" />\n\t\t\t<date type=\"published\" when=\"2004\">2004</date>\n\t\t</imprint>\n\t</monogr>\n</biblStruct>\n\n<biblStruct xml:id=\"b10\">\n\t<analytic>\n\t\t<title level=\"a\" type=\"main\">Photodynamic therapy for the treatment of non-small cell lung cancer</title>\n\t\t<author>\n\t\t\t<persName><surname>Simone Cb 2nd</surname></persName>\n\t\t</author>\n\t\t<author>\n\t\t\t<persName><forename type=\"first\">J</forename><forename type=\"middle\">S</forename><surname>Friedberg</surname></persName>\n\t\t</author>\n\t\t<author>\n\t\t\t<persName><forename type=\"first\">E</forename><surname>Glatstein</surname></persName>\n\t\t</author>\n\t</analytic>\n\t<monogr>\n\t\t<title level=\"j\">J Thorac Dis</title>\n\t\t<imprint>\n\t\t\t<biblScope unit=\"volume\">4</biblScope>\n\t\t\t<biblScope unit=\"page\" from=\"63\" to=\"75\" />\n\t\t\t<date type=\"published\" when=\"2012\">2012</date>\n\t\t</imprint>\n\t</monogr>\n</biblStruct>\n\n<biblStruct xml:id=\"b11\">\n\t<analytic>\n\t\t<title level=\"a\" type=\"main\">The utility of electromagnetic navigational bronchoscopy as a localization tool for robotic resection of small pulmonary nodules</title>\n\t\t<author>\n\t\t\t<persName><forename type=\"first\">W</forename><forename type=\"middle\">D</forename><surname>Bolton</surname></persName>\n\t\t</author>\n\t\t<author>\n\t\t\t<persName><surname>Howe H 3rd</surname></persName>\n\t\t</author>\n\t\t<author>\n\t\t\t<persName><forename type=\"first\">J</forename><forename type=\"middle\">E</forename><surname>Stephenson</surname></persName>\n\t\t</author>\n\t</analytic>\n\t<monogr>\n\t\t<title level=\"j\">Ann Thorac Surg</title>\n\t\t<imprint>\n\t\t\t<biblScope unit=\"volume\">98</biblScope>\n\t\t\t<biblScope unit=\"page\" from=\"475\" to=\"476\" />\n\t\t\t<date type=\"published\" when=\"2014\">2014</date>\n\t\t</imprint>\n\t</monogr>\n</biblStruct>\n\n<biblStruct xml:id=\"b12\">\n\t<analytic>\n\t\t<title level=\"a\" type=\"main\">Localization of peripheral pulmonary lesions to aid surgical resection: a novel approach for electromagnetic navigation bronchoscopic dye marking</title>\n\t\t<author>\n\t\t\t<persName><forename type=\"first\">K</forename><surname>Luo</surname></persName>\n\t\t</author>\n\t\t<author>\n\t\t\t<persName><forename type=\"first\">Y</forename><surname>Lin</surname></persName>\n\t\t</author>\n\t\t<author>\n\t\t\t<persName><forename type=\"first\">X</forename><surname>Lin</surname></persName>\n\t\t</author>\n\t</analytic>\n\t<monogr>\n\t\t<title level=\"j\">Eur J Cardiothorac Surg</title>\n\t\t<imprint>\n\t\t\t<biblScope unit=\"volume\">52</biblScope>\n\t\t\t<biblScope unit=\"page\" from=\"516\" to=\"521\" />\n\t\t\t<date type=\"published\" when=\"2017\">2017</date>\n\t\t</imprint>\n\t</monogr>\n</biblStruct>\n\n<biblStruct xml:id=\"b13\">\n\t<analytic>\n\t\t<title level=\"a\" type=\"main\">Electromagnetic navigational bronchoscopy</title>\n\t\t<author>\n\t\t\t<persName><forename type=\"first\">J</forename><surname>Port</surname></persName>\n\t\t</author>\n\t\t<author>\n\t\t\t<persName><forename type=\"first\">S</forename><surname>Harrison</surname></persName>\n\t\t</author>\n\t</analytic>\n\t<monogr>\n\t\t<title level=\"j\">Semin Intervent Radiol</title>\n\t\t<imprint>\n\t\t\t<biblScope unit=\"volume\">30</biblScope>\n\t\t\t<biblScope unit=\"page\" from=\"128\" to=\"132\" />\n\t\t\t<date type=\"published\" when=\"2013\">2013</date>\n\t\t</imprint>\n\t</monogr>\n</biblStruct>\n\n<biblStruct xml:id=\"b14\">\n\t<analytic>\n\t\t<title level=\"a\" type=\"main\">Hybrid DynaCT-guided electromagnetic navigational bronchoscopic biopsy †</title>\n\t\t<author>\n\t\t\t<persName><forename type=\"first\">C</forename><forename type=\"middle\">S</forename><surname>Ng</surname></persName>\n\t\t</author>\n\t\t<author>\n\t\t\t<persName><forename type=\"first\">S</forename><forename type=\"middle\">C</forename><surname>Yu</surname></persName>\n\t\t</author>\n\t\t<author>\n\t\t\t<persName><forename type=\"first\">R</forename><forename type=\"middle\">W</forename><surname>Lau</surname></persName>\n\t\t</author>\n\t</analytic>\n\t<monogr>\n\t\t<title level=\"j\">Eur J Cardiothorac Surg</title>\n\t\t<imprint>\n\t\t\t<biblScope unit=\"volume\">49</biblScope>\n\t\t\t<biblScope unit=\"issue\">Suppl 1</biblScope>\n\t\t\t<biblScope unit=\"page\" from=\"87\" to=\"88\" />\n\t\t\t<date type=\"published\" when=\"2016\">2016</date>\n\t\t</imprint>\n\t</monogr>\n</biblStruct>\n\n<biblStruct xml:id=\"b15\">\n\t<analytic>\n\t\t<title level=\"a\" type=\"main\">CT screening for lung cancer: spiraling into confusion?</title>\n\t\t<author>\n\t\t\t<persName><forename type=\"first\">W</forename><forename type=\"middle\">C</forename><surname>Black</surname></persName>\n\t\t</author>\n\t\t<author>\n\t\t\t<persName><forename type=\"first\">J</forename><forename type=\"middle\">A</forename><surname>Baron</surname></persName>\n\t\t</author>\n\t</analytic>\n\t<monogr>\n\t\t<title level=\"j\">JAMA</title>\n\t\t<imprint>\n\t\t\t<biblScope unit=\"volume\">297</biblScope>\n\t\t\t<biblScope unit=\"page\" from=\"995\" to=\"997\" />\n\t\t\t<date type=\"published\" when=\"2007\">2007</date>\n\t\t</imprint>\n\t</monogr>\n</biblStruct>\n\n<biblStruct xml:id=\"b16\">\n\t<analytic>\n\t\t<title level=\"a\" type=\"main\">Photodynamic therapy via navigational bronchoscopy for peripheral lung cancer in dogs</title>\n\t\t<author>\n\t\t\t<persName><forename type=\"first\">A</forename><forename type=\"middle\">I</forename><surname>Musani</surname></persName>\n\t\t</author>\n\t\t<author>\n\t\t\t<persName><forename type=\"first\">J</forename><forename type=\"middle\">K</forename><surname>Veir</surname></persName>\n\t\t</author>\n\t\t<author>\n\t\t\t<persName><forename type=\"first\">Z</forename><surname>Huang</surname></persName>\n\t\t</author>\n\t</analytic>\n\t<monogr>\n\t\t<title level=\"j\">Lasers Surg Med</title>\n\t\t<imprint>\n\t\t\t<date type=\"published\" when=\"2018\">2018</date>\n\t\t</imprint>\n\t</monogr>\n\t<note>Epub ahead of print</note>\n</biblStruct>\n\n\t\t\t\t</listBibl>\n\t\t\t</div>\n\t\t</back>\n\t</text>\n</TEI>\n"
+  },
+  "umls_links": [
+    {
+      "phrase": "Introduction",
+      "cui": "C0579004",
+      "preferred": "Introduction - action",
+      "source": "SNOMEDCT_US"
+    },
+    {
+      "phrase": "Low",
+      "cui": "C0337008",
+      "preferred": "Low humidity",
+      "source": "SNOMEDCT_US"
+    },
+    {
+      "phrase": "Ke",
+      "cui": "C3892991",
+      "preferred": "Lacticaseibacillus casei KE-99",
+      "source": "RXNORM"
+    },
+    {
+      "phrase": "Cheng",
+      "cui": "C3282497",
+      "preferred": "Shing-Releev",
+      "source": "RXNORM"
+    },
+    {
+      "phrase": "Chen",
+      "cui": "C0999213",
+      "preferred": "Chen",
+      "source": "SNOMEDCT_US"
+    },
+    {
+      "phrase": "Jang",
+      "cui": "C1613349",
+      "preferred": "Nan-1D protein, Arabidopsis",
+      "source": "MSH"
+    },
+    {
+      "phrase": "Ming",
+      "cui": "C2933304",
+      "preferred": "xiao-xu-ming",
+      "source": "MSH"
+    },
+    {
+      "phrase": "Lee",
+      "cui": "C0395188",
+      "preferred": "Medial Lee tarsorrhaphy",
+      "source": "SNOMEDCT_US"
+    },
+    {
+      "phrase": "Department of",
+      "cui": "C0587500",
+      "preferred": "Radiology department",
+      "source": "SNOMEDCT_US"
+    },
+    {
+      "phrase": "Surgery",
+      "cui": "C0079850",
+      "preferred": "Mohs Surgery",
+      "source": "MTH"
+    },
+    {
+      "phrase": "National",
+      "cui": "C4046070",
+      "preferred": "National Parks",
+      "source": "MSH"
+    },
+    {
+      "phrase": "University",
+      "cui": "C0401902",
+      "preferred": "University dean",
+      "source": "SNOMEDCT_US"
+    },
+    {
+      "phrase": "Hospital and",
+      "cui": "C0019994",
+      "preferred": "Hospitals",
+      "source": "MTH"
+    },
+    {
+      "phrase": "National",
+      "cui": "C4046070",
+      "preferred": "National Parks",
+      "source": "MSH"
+    },
+    {
+      "phrase": "University",
+      "cui": "C0401902",
+      "preferred": "University dean",
+      "source": "SNOMEDCT_US"
+    },
+    {
+      "phrase": "College of",
+      "cui": "C0557807",
+      "preferred": "Tertiary college",
+      "source": "SNOMEDCT_US"
+    },
+    {
+      "phrase": "Medicine",
+      "cui": "C0025118",
+      "preferred": "Medicine",
+      "source": "MTH"
+    },
+    {
+      "phrase": "Institute of",
+      "cui": "C0021621",
+      "preferred": "Institute of Medicine (U.S.)",
+      "source": "MTH"
+    },
+    {
+      "phrase": "Biomedical",
+      "cui": "C4041483",
+      "preferred": "Biomedical equipment procedure",
+      "source": "SNOMEDCT_US"
+    },
+    {
+      "phrase": "Engineering",
+      "cui": "C0401808",
+      "preferred": "Engineering estimator",
+      "source": "SNOMEDCT_US"
+    },
+    {
+      "phrase": "College of",
+      "cui": "C0557807",
+      "preferred": "Tertiary college",
+      "source": "SNOMEDCT_US"
+    },
+    {
+      "phrase": "Medicine and",
+      "cui": "C0025118",
+      "preferred": "Medicine",
+      "source": "MTH"
+    },
+    {
+      "phrase": "College of",
+      "cui": "C0557807",
+      "preferred": "Tertiary college",
+      "source": "SNOMEDCT_US"
+    },
+    {
+      "phrase": "Engineering",
+      "cui": "C0401808",
+      "preferred": "Engineering estimator",
+      "source": "SNOMEDCT_US"
+    },
+    {
+      "phrase": "National",
+      "cui": "C4046070",
+      "preferred": "National Parks",
+      "source": "MSH"
+    },
+    {
+      "phrase": "University",
+      "cui": "C0401902",
+      "preferred": "University dean",
+      "source": "SNOMEDCT_US"
+    },
+    {
+      "phrase": "Contributions",
+      "cui": "C1532611",
+      "preferred": "Obesity by contributing factors",
+      "source": "SNOMEDCT_US"
+    },
+    {
+      "phrase": "Lee",
+      "cui": "C0395188",
+      "preferred": "Medial Lee tarsorrhaphy",
+      "source": "SNOMEDCT_US"
+    },
+    {
+      "phrase": "Lee",
+      "cui": "C0395188",
+      "preferred": "Medial Lee tarsorrhaphy",
+      "source": "SNOMEDCT_US"
+    },
+    {
+      "phrase": "Chen",
+      "cui": "C0999213",
+      "preferred": "Chen",
+      "source": "SNOMEDCT_US"
+    },
+    {
+      "phrase": "Correspondence to",
+      "cui": "C2919382",
+      "preferred": "Correspondence section",
+      "source": "SNOMEDCT_US"
+    },
+    {
+      "phrase": "Jang",
+      "cui": "C1613349",
+      "preferred": "Nan-1D protein, Arabidopsis",
+      "source": "MSH"
+    },
+    {
+      "phrase": "Ming",
+      "cui": "C2933304",
+      "preferred": "xiao-xu-ming",
+      "source": "MSH"
+    },
+    {
+      "phrase": "Lee",
+      "cui": "C0395188",
+      "preferred": "Medial Lee tarsorrhaphy",
+      "source": "SNOMEDCT_US"
+    },
+    {
+      "phrase": "Department of",
+      "cui": "C0587500",
+      "preferred": "Radiology department",
+      "source": "SNOMEDCT_US"
+    },
+    {
+      "phrase": "Surgery",
+      "cui": "C0079850",
+      "preferred": "Mohs Surgery",
+      "source": "MTH"
+    }
+  ],
+  "references_enriched": [
+    {
+      "title": "Cancer epidemiology and control in peninsular and island South-East Asia -past, present and future",
+      "journal": "Asian Pac J Cancer Prev",
+      "year": "2010",
+      "volume": "11",
+      "issue": "Suppl 2",
+      "pages": null,
+      "doi": null,
+      "pmid": null,
+      "authors": [
+        "Moore MA",
+        "Manan AA",
+        "Chow KY"
+      ],
+      "first_author_last": "Moore",
+      "enrichment": {
+        "pmid": "20553070",
+        "doi": null,
+        "title": "Cancer epidemiology and control in peninsular and island South-East Asia - past, present and future.",
+        "journal": "Asian Pacific journal of cancer prevention : APJCP",
+        "year": "2010",
+        "authors": [
+          "Moore MA",
+          "Manan AA",
+          "Chow KY",
+          "Cornain SF",
+          "Devi CR",
+          "Triningsih FX",
+          "Laudico A",
+          "Mapua CA",
+          "Mirasol-Lumague MR",
+          "Noorwati S",
+          "Nyunt K",
+          "Othman NH",
+          "Shah SA",
+          "Sinuraya ES",
+          "Yip CH",
+          "Sobue T"
+        ],
+        "mesh": [],
+        "pubtypes": [
+          "Journal Article",
+          "Review"
+        ],
+        "abstract": "Malaysia, Brunei, Singapore, Indonesia, East Timor and the Philippines constitute peninsular and island South-East Asia. For reasons of largely shared ethnicity, with Chinese elements added to the basic Austromalaysian populations, as well as geographical contiguity, they can be usefully grouped together for studies of chronic disease prevalence and underlying risk factors. The fact of problems are shared in common, particularly regarding increasing cancer rates, underlines the necessity for a coordinated approach to research and development of control measures. To provide a knowledge base, the present review of available data for cancer registration, epidemiology and control was conducted. The most prevalent cancer site in males is the lung, followed by the liver, colon or the prostate in the majority of cases, while breast and cervical cancers predominate in most female populations. However, there are interesting differences among the racial groups, particularly regarding the stomach. General tendencies for increase in adenocarcinomas but decrease in squamous cell carcinomas and gastric cancer, point to change in environmental influence over time. Variation in risk factors depends to some extent on the level of economic development but overall the countries of the region face similar challenges in achieving effective cancer control. A major task is persuading the general populace of the efficacy of early detection and clinical treatment."
+      }
+    },
+    {
+      "title": "Cancer epidemiology and control in north-East Asia -past, present and future",
+      "journal": "Asian Pac J Cancer Prev",
+      "year": "2010",
+      "volume": "11",
+      "issue": "Suppl 2",
+      "pages": null,
+      "doi": null,
+      "pmid": null,
+      "authors": [
+        "Long N",
+        "Moore MA",
+        "CW"
+      ],
+      "first_author_last": "Long",
+      "enrichment": {
+        "pmid": "20553072",
+        "doi": null,
+        "title": "Cancer epidemiology and control in north-East Asia - past, present and future.",
+        "journal": "Asian Pacific journal of cancer prevention : APJCP",
+        "year": "2010",
+        "authors": [
+          "Long N",
+          "Moore MA",
+          "Chen W",
+          "Gao CM",
+          "Lai MS",
+          "Mizoue T",
+          "Oyunchimeg D",
+          "Park S",
+          "Shin HR",
+          "Tajima K",
+          "Yoo KY",
+          "Sobue T"
+        ],
+        "mesh": [],
+        "pubtypes": [
+          "Journal Article",
+          "Review"
+        ],
+        "abstract": "China, Mongolia, Korea and Japan constitute North-East Asia. For reasons of largely shared ethnicity and culture, with various degress of mixed Chinese and Altaic elements, as well as geographical contiguity, they can be usefully grouped together for studies of chronic disease prevalence and particularly cancer. The fact of problems shared in common, with increasing disease rates, underlines the necessity for a coordinated approach to research and development of control measures. To provide a knowledge base, the present review of cancer registration and epidemiology data was conducted. The most frequent cancers in males of North-East Asia are in the lung, liver and stomach, with considerable geographical and temporal variation in their respective prevalences. However, colorectal cancer is also of increasing importance. In females the breast, together with the lung in China, the liver in Mongolia and the stomach in Korea and Japan, are most frequent. Variation in risk factors depends to a large extent on the local level of economic development but overall the countries of the region face similar challenges in achieving effective cancer control."
+      }
+    },
+    {
+      "title": "Results of the two incidence screenings in the National Lung Screening Trial",
+      "journal": "N Engl J Med",
+      "year": "2013",
+      "volume": "369",
+      "issue": null,
+      "pages": null,
+      "doi": null,
+      "pmid": null,
+      "authors": [
+        "Aberle DR",
+        "Demello S",
+        "Berg CD"
+      ],
+      "first_author_last": "Aberle",
+      "enrichment": {
+        "pmid": "24004119",
+        "doi": null,
+        "title": "Results of the two incidence screenings in the National Lung Screening Trial.",
+        "journal": "The New England journal of medicine",
+        "year": "2013",
+        "authors": [
+          "Aberle DR",
+          "DeMello S",
+          "Berg CD",
+          "Black WC",
+          "Brewer B",
+          "Church TR",
+          "Clingan KL",
+          "Duan F",
+          "Fagerstrom RM",
+          "Gareen IF",
+          "Gatsonis CA",
+          "Gierada DS",
+          "Jain A",
+          "Jones GC",
+          "Mahon I",
+          "Marcus PM",
+          "Rathmell JM",
+          "Sicks J",
+          "National Lung Screening Trial Research Team"
+        ],
+        "mesh": [],
+        "pubtypes": [
+          "Journal Article",
+          "Randomized Controlled Trial"
+        ],
+        "abstract": "The National Lung Screening Trial was conducted to determine whether three annual screenings (rounds T0, T1, and T2) with low-dose helical computed tomography (CT), as compared with chest radiography, could reduce mortality from lung cancer. We present detailed findings from the first two incidence screenings (rounds T1 and T2)."
+      }
+    },
+    {
+      "title": "Hybrid operating room Dyna-computed tomography combined imageguided electromagnetic navigation bronchoscopy dye marking and hookwire localization video-assisted thoracic surgery metastasectomy",
+      "journal": "Interact Cardiovasc Thorac Surg",
+      "year": "2018",
+      "volume": "26",
+      "issue": null,
+      "pages": null,
+      "doi": null,
+      "pmid": null,
+      "authors": [
+        "Ng C",
+        "Chu CM",
+        "Lo CK"
+      ],
+      "first_author_last": "Ng",
+      "enrichment": {
+        "pmid": "29049613",
+        "doi": null,
+        "title": "Hybrid operating room Dyna-computed tomography combined image-guided electromagnetic navigation bronchoscopy dye marking and hookwire localization video-assisted thoracic surgery metastasectomy.",
+        "journal": "Interactive cardiovascular and thoracic surgery",
+        "year": "2018",
+        "authors": [
+          "Ng CSH",
+          "Chu CM",
+          "Lo CK",
+          "Lau RWH"
+        ],
+        "mesh": [],
+        "pubtypes": [
+          "Journal Article"
+        ],
+        "abstract": "Hybrid operating room Dyna-computed tomography imaging is increasingly recognized as an important adjunct for management of small pulmonary lesions, either for biopsy or for localization to guide surgical resection. We describe for the first time the combined hybrid operating room Dyna-computed tomography image-guided electromagnetic navigation bronchoscopy dye marking and hookwire localization approach to localize multiple sub-centimetre nodules for video-assisted thoracic surgery metastasectomy. Furthermore, such complex set of procedures can be safely and effectively performed within one operating environment, maximizing work efficiency and minimizing the potential for complications."
+      }
+    },
+    {
+      "title": "Thoracoscopic detection of occult indeterminate pulmonary nodules using bronchoscopic pleural dye marking",
+      "journal": "J Community Hosp Intern Med Perspect",
+      "year": "2014",
+      "volume": "4",
+      "issue": null,
+      "pages": null,
+      "doi": null,
+      "pmid": null,
+      "authors": [
+        "Krimsky WS",
+        "Minnich DJ",
+        "Cattaneo SM"
+      ],
+      "first_author_last": "Krimsky",
+      "enrichment": {
+        "pmid": "24596652",
+        "doi": null,
+        "title": "Thoracoscopic detection of occult indeterminate pulmonary nodules using bronchoscopic pleural dye marking.",
+        "journal": "Journal of community hospital internal medicine perspectives",
+        "year": "2014",
+        "authors": [
+          "Krimsky WS",
+          "Minnich DJ",
+          "Cattaneo SM",
+          "Sarkar SA",
+          "Harley DP",
+          "Finley DJ",
+          "Browning RF",
+          "Parrish SC"
+        ],
+        "mesh": [],
+        "pubtypes": [
+          "Journal Article"
+        ],
+        "abstract": "The annual incidence of a small indeterminate pulmonary nodule (IPN) on computed tomography (CT) scan remains high. While traditional paradigms exist, the integration of new technologies into these diagnostic and treatment algorithms can result in alternative, potentially more efficient methods of managing these findings."
+      }
+    },
+    {
+      "title": "Efficacy and complications of computed tomography-guided hook wire localization",
+      "journal": "Ann Thorac Surg",
+      "year": "2013",
+      "volume": "96",
+      "issue": null,
+      "pages": null,
+      "doi": null,
+      "pmid": null,
+      "authors": [
+        "Ichinose J",
+        "Kohno T",
+        "Fujimori S"
+      ],
+      "first_author_last": "Ichinose",
+      "enrichment": {
+        "pmid": "23895891",
+        "doi": null,
+        "title": "Efficacy and complications of computed tomography-guided hook wire localization.",
+        "journal": "The Annals of thoracic surgery",
+        "year": "2013",
+        "authors": [
+          "Ichinose J",
+          "Kohno T",
+          "Fujimori S",
+          "Harano T",
+          "Suzuki S"
+        ],
+        "mesh": [],
+        "pubtypes": [
+          "Journal Article"
+        ],
+        "abstract": "Video-assisted thoracic surgery offers a minimally invasive method for diagnosing and treating small pulmonary lesions, although the localization of these lesions is sometimes problematic. Various localization methods have been reported but few studies have described their efficacy and adverse events."
+      }
+    },
+    {
+      "title": "Photodynamic therapy (PDT) for lung cancers",
+      "journal": "J Thorac Oncol",
+      "year": "2006",
+      "volume": "1",
+      "issue": null,
+      "pages": null,
+      "doi": null,
+      "pmid": null,
+      "authors": [
+        "Usuda J",
+        "Kato H",
+        "Okunaka T"
+      ],
+      "first_author_last": "Usuda",
+      "enrichment": {
+        "pmid": "17409904",
+        "doi": null,
+        "title": "Photodynamic therapy (PDT) for lung cancers.",
+        "journal": "Journal of thoracic oncology : official publication of the International Association for the Study of Lung Cancer",
+        "year": "2006",
+        "authors": [
+          "Usuda J",
+          "Kato H",
+          "Okunaka T",
+          "Furukawa K",
+          "Tsutsui H",
+          "Yamada K",
+          "Suga Y",
+          "Honda H",
+          "Nagatsuka Y",
+          "Ohira T",
+          "Tsuboi M",
+          "Hirano T"
+        ],
+        "mesh": [],
+        "pubtypes": [
+          "Journal Article",
+          "Review"
+        ],
+        "abstract": "Photodynamic therapy (PDT), a treatment for cancer, uses a photosensitizer and laser irradiation to produce reactive oxygen in cells. In Japan, the United States, and many other countries, PDT is a treatment option for stage 0 (TisN0M0) and stage I (T1N0M0) centrally located early stage lung cancer. PDT can preserve lung function, can be repeated, and can be combined with other therapeutic modalities such as chemotherapy. Recently, mono-l-aspartyl chlorine e6 (NPe6, Laserphyrin), a second-generation photosensitizer with lower photosensitivity than Photofrin (porfimer sodium), was approved by the Japanese government and a phase II clinical study using NPe6 with a new diode laser demonstrated an excellent antitumor effect and low skin photosensitivity. We expect PDT to be widely employed in many fields and the applications of PDT to be extended because of the decreasing cost of laser equipment and lower systemic photosensitivity induced by the photosensitizer. The purpose of this review is to introduce not only recent clinical trials of PDT for centrally located early lung cancer, but also new applications of PDT for cases of peripheral-type, early-stage lung cancers. We also discuss the applications of PDT for advanced lung cancer and combined therapy using PDT and other treatments for lung cancer."
+      }
+    },
+    {
+      "title": "Basic and clinical research on photodynamic therapy at Tokyo Medical University Hospital",
+      "journal": "Lasers Surg Med",
+      "year": "2006",
+      "volume": "38",
+      "issue": null,
+      "pages": null,
+      "doi": null,
+      "pmid": null,
+      "authors": [
+        "Kato H",
+        "Usuda J",
+        "Okunaka T"
+      ],
+      "first_author_last": "Kato",
+      "enrichment": {
+        "pmid": "16788919",
+        "doi": null,
+        "title": "Basic and clinical research on photodynamic therapy at Tokyo Medical University Hospital.",
+        "journal": "Lasers in surgery and medicine",
+        "year": "2006",
+        "authors": [
+          "Kato H",
+          "Usuda J",
+          "Okunaka T",
+          "Furukawa K",
+          "Honda H",
+          "Sakaniwa N",
+          "Suga Y",
+          "Hirata T",
+          "Ohtani K",
+          "Inoue T",
+          "Maehara S",
+          "Kubota M",
+          "Yamada K",
+          "Tsuitsui H"
+        ],
+        "mesh": [],
+        "pubtypes": [
+          "Journal Article"
+        ],
+        "abstract": "We have been engaged in basic and clinical research on photodynamic therapy (PDT) and photodynamic diagnosis (PDD) for more than 25 years."
+      }
+    },
+    {
+      "title": "Pleural Photodynamic Therapy and Surgery in Lung Cancer and Thymoma Patients with Pleural Spread",
+      "journal": "PLoS One",
+      "year": "2015",
+      "volume": "10",
+      "issue": null,
+      "pages": "133230",
+      "doi": null,
+      "pmid": null,
+      "authors": [
+        "Chen KC",
+        "Hsieh YS",
+        "Tseng YF"
+      ],
+      "first_author_last": "Chen",
+      "enrichment": {
+        "pmid": "26193470",
+        "doi": null,
+        "title": "Pleural Photodynamic Therapy and Surgery in Lung Cancer and Thymoma Patients with Pleural Spread.",
+        "journal": "PloS one",
+        "year": "2015",
+        "authors": [
+          "Chen KC",
+          "Hsieh YS",
+          "Tseng YF",
+          "Shieh MJ",
+          "Chen JS",
+          "Lai HS",
+          "Lee JM"
+        ],
+        "mesh": [],
+        "pubtypes": [
+          "Journal Article"
+        ],
+        "abstract": "Pleural spread is difficult to treat in malignancies, especially in lung cancer and thymoma. Monotherapy with surgery fails to have a better survival benefit than palliative chemotherapy, the currently accepted treatment. Photodynamic therapy utilizes a photosensitizer to target the tumor site, and the tumor is exposed to light after performing a pleurectomy and tumor resection. However, the benefits of this procedure to lung cancer or thymoma patients are unknown. We retrospectively reviewed the clinical characteristics and treatment outcomes of patients with lung cancer or thymoma with pleural seeding who underwent pleural photodynamic therapy and surgery between 2005 and 2013. Eighteen patients enrolled in this study. The mean patient age was 52.9 &#xb1; 12.2 years. Lung cancer was the inciting cancer of pleural dissemination in 10 patients (55.6%), and thymoma in 8 (44.4%). There was no procedure-related mortality. Using Kaplan-Meier survival analysis, the 3-year survival rate and the 5-year survival rate were 68.9% and 57.4%, respectively. We compared the PDT lung cancer patients with those receiving chemotherapy or target therapy (n = 51) and found that the PDT group had better survival than non-PDT patients (mean survival time: 39.0 versus 17.6 months; P = .047). With proper patient selection, radical surgical resection combined with intrapleural photodynamic therapy for pleural spread in patients with non-small cell lung cancer or thymoma is feasible and may provide a survival benefit."
+      }
+    },
+    {
+      "title": "Photodynamic therapy for peripheral lung cancer",
+      "journal": "Lung Cancer",
+      "year": "2004",
+      "volume": "43",
+      "issue": null,
+      "pages": null,
+      "doi": null,
+      "pmid": null,
+      "authors": [
+        "Okunaka T",
+        "Kato H",
+        "Tsutsui H"
+      ],
+      "first_author_last": "Okunaka",
+      "enrichment": {
+        "pmid": "14698541",
+        "doi": null,
+        "title": "Photodynamic therapy for peripheral lung cancer.",
+        "journal": "Lung cancer (Amsterdam, Netherlands)",
+        "year": "2004",
+        "authors": [
+          "Okunaka T",
+          "Kato H",
+          "Tsutsui H",
+          "Ishizumi T",
+          "Ichinose S",
+          "Kuroiwa Y"
+        ],
+        "mesh": [],
+        "pubtypes": [
+          "Journal Article"
+        ],
+        "abstract": "Photodynamic therapy (PDT) has now achieved the status of a standard treatment modality for centrally located early-stage lung cancer. In the last decade, CT screening for lung cancer has attracted much attention for its ability to detect early peripheral lung cancer. Extremely recently, treatment using PDT has been introduced for the first time in patients with peripheral lung cancer, who did not meet the previous criteria for surgery. The procedure was carried out with local anesthesia with xylocain infiltrated into the chest wall, 48 h after Photofrin administration. Needles (19 gauge) containing an internal catheter were inserted percutaneously under CT guidance. The needles were then extracted and a diffuser fiber with a 2 cm long tip for light delivery was positioned in the tumor through the catheter. Of the nine patients enrolled in this trial, seven achieved partial remission (PR). No serious complications, except for two cases of pneumothorax, were noted. As an increasing number of patients consider quality of life after therapy, the indications for PDT are expected to expand. We conclude that PDT is a promising new technique for curative treatment of localized, peripheral lung cancer less than 1cm in size in patients who are unfit for surgery or radiotherapy."
+      }
+    },
+    {
+      "title": "Photodynamic therapy for the treatment of non-small cell lung cancer",
+      "journal": "J Thorac Dis",
+      "year": "2012",
+      "volume": "4",
+      "issue": null,
+      "pages": null,
+      "doi": null,
+      "pmid": null,
+      "authors": [
+        "Simone Cb 2nd",
+        "Friedberg JS",
+        "Glatstein E"
+      ],
+      "first_author_last": "Simone",
+      "enrichment": {
+        "pmid": "22295169",
+        "doi": null,
+        "title": "Photodynamic therapy for the treatment of non-small cell lung cancer.",
+        "journal": "Journal of thoracic disease",
+        "year": "2012",
+        "authors": [
+          "Simone CB 2nd",
+          "Friedberg JS",
+          "Glatstein E",
+          "Stevenson JP",
+          "Sterman DH",
+          "Hahn SM",
+          "Cengel KA"
+        ],
+        "mesh": [],
+        "pubtypes": [
+          "Journal Article"
+        ],
+        "abstract": "Photodynamic therapy is increasingly being utilized to treat thoracic malignancies. For patients with early-stage non-small cell lung cancer, photodynamic therapy is primarily employed as an endobronchial therapy to definitely treat endobronchial, roentgenographically occult, or synchronous primary carcinomas. As definitive monotherapy, photodynamic therapy is most effective in treating bronchoscopically visible lung cancers &#x2264;1 cm with no extracartilaginous invasion. For patients with advanced-stage non-small cell lung cancer, photodynamic therapy can be used to palliate obstructing endobronchial lesions, as a component of definitive multi-modality therapy, or to increase operability or reduce the extent of operation required. A review of the available medical literature detailing all published studies utilizing photodynamic therapy to treat at least 10 patients with non-small cell lung cancer is performed, and treatment recommendations and summaries for photodynamic therapy applications are described."
+      }
+    },
+    {
+      "title": "The utility of electromagnetic navigational bronchoscopy as a localization tool for robotic resection of small pulmonary nodules",
+      "journal": "Ann Thorac Surg",
+      "year": "2014",
+      "volume": "98",
+      "issue": null,
+      "pages": null,
+      "doi": null,
+      "pmid": null,
+      "authors": [
+        "Bolton WD",
+        "Howe H 3rd",
+        "Stephenson JE"
+      ],
+      "first_author_last": "Bolton",
+      "enrichment": {
+        "pmid": "24968769",
+        "doi": null,
+        "title": "The utility of electromagnetic navigational bronchoscopy as a localization tool for robotic resection of small pulmonary nodules.",
+        "journal": "The Annals of thoracic surgery",
+        "year": "2014",
+        "authors": [
+          "Bolton WD",
+          "Howe H 3rd",
+          "Stephenson JE"
+        ],
+        "mesh": [],
+        "pubtypes": [
+          "Journal Article"
+        ],
+        "abstract": "Resection of small pulmonary nodules with minimally invasive techniques can be challenging when the lesions are not palpable. Localizing theses nodules by electromagnetic navigational bronchoscopy (ENB) techniques has not been well studied."
+      }
+    },
+    {
+      "title": "Localization of peripheral pulmonary lesions to aid surgical resection: a novel approach for electromagnetic navigation bronchoscopic dye marking",
+      "journal": "Eur J Cardiothorac Surg",
+      "year": "2017",
+      "volume": "52",
+      "issue": null,
+      "pages": null,
+      "doi": null,
+      "pmid": null,
+      "authors": [
+        "Luo K",
+        "Lin Y",
+        "Lin X"
+      ],
+      "first_author_last": "Luo",
+      "enrichment": {
+        "pmid": "28459951",
+        "doi": null,
+        "title": "Localization of peripheral pulmonary lesions to aid surgical resection: a novel approach for electromagnetic navigation bronchoscopic dye marking.",
+        "journal": "European journal of cardio-thoracic surgery : official journal of the European Association for Cardio-thoracic Surgery",
+        "year": "2017",
+        "authors": [
+          "Luo K",
+          "Lin Y",
+          "Lin X",
+          "Yu X",
+          "Wen J",
+          "Xi K",
+          "Lin P",
+          "Zhang L"
+        ],
+        "mesh": [],
+        "pubtypes": [
+          "Journal Article"
+        ],
+        "abstract": "Video-assisted thoracoscopic sublobar resection of ultra-small, non-visible and non-palpable pulmonary lesions is challenging. The purpose of this study was to explore an alternative and efficient method for the localization of pulmonary lesions using electromagnetic navigation bronchoscopy (ENB)."
+      }
+    },
+    {
+      "title": "Electromagnetic navigational bronchoscopy",
+      "journal": "Semin Intervent Radiol",
+      "year": "2013",
+      "volume": "30",
+      "issue": null,
+      "pages": null,
+      "doi": null,
+      "pmid": null,
+      "authors": [
+        "Port J",
+        "Harrison S"
+      ],
+      "first_author_last": "Port",
+      "enrichment": {
+        "pmid": "24436528",
+        "doi": null,
+        "title": "Electromagnetic navigational bronchoscopy.",
+        "journal": "Seminars in interventional radiology",
+        "year": "2013",
+        "authors": [
+          "Port J",
+          "Harrison S"
+        ],
+        "mesh": [],
+        "pubtypes": [
+          "Journal Article",
+          "Review"
+        ],
+        "abstract": "Despite advances in technology and treatment options, lung cancer remains a deadly disease. National screening programs are being instituted in an attempt to discover lung cancer in high-risk individuals at an earlier stage. Such screening programs invariably discover small peripheral nodules that previously would not have been clinically apparent; the management of such lesions can be challenging. Current diagnostic options such as percutaneous biopsy are effective; however, they are hindered by their risk of morbidity such as pneumothorax. Electromagnetic bronchoscopy (ENB) is an emerging technology that allows the practitioner the ability to both sample and treat small peripheral pulmonary lesions. In experienced centers, ENB provides high rates of diagnostic yield for small lesions and a complication rate significantly lower than that of more conventional diagnostic modalities. Although there are current barriers to its widespread utilization (cost, specialized imaging, technical training), these obstacles will handled similarly to any other emerging technology and will likely not be long-term impediments to its use."
+      }
+    },
+    {
+      "title": "Hybrid DynaCT-guided electromagnetic navigational bronchoscopic biopsy †",
+      "journal": "Eur J Cardiothorac Surg",
+      "year": "2016",
+      "volume": "49",
+      "issue": "Suppl 1",
+      "pages": null,
+      "doi": null,
+      "pmid": null,
+      "authors": [
+        "Ng CS",
+        "Yu SC",
+        "Lau RW"
+      ],
+      "first_author_last": "Ng",
+      "enrichment": {
+        "pmid": "26604298",
+        "doi": null,
+        "title": "Hybrid DynaCT-guided electromagnetic navigational bronchoscopic biopsy†.",
+        "journal": "European journal of cardio-thoracic surgery : official journal of the European Association for Cardio-thoracic Surgery",
+        "year": "2016",
+        "authors": [
+          "Ng CS",
+          "Yu SC",
+          "Lau RW",
+          "Yim AP"
+        ],
+        "mesh": [],
+        "pubtypes": [
+          "Journal Article"
+        ],
+        "abstract": "Electromagnetic navigational bronchoscopy-guided biopsy of small pulmonary nodules can be challenging. Navigational error of the system and movement of the biopsy tool during its deployment adversely affect biopsy success. Furthermore, conventional methods to confirm navigational success such as fluoroscopy and radial endobronchial ultrasound become less useful for the biopsy of small lesions. A hybrid operating theatre can provide unparalleled real-time imaging through DynaCT scan to guide and confirm successful navigation and biopsy of difficult-to-reach or small lesions. We describe our technique for DynaCT image-guided electromagnetic navigational bronchoscopic biopsy of a small pulmonary nodule in the hybrid operating theatre. The advantages, disadvantages and special considerations in adopting this approach are discussed."
+      }
+    },
+    {
+      "title": "CT screening for lung cancer: spiraling into confusion?",
+      "journal": "JAMA",
+      "year": "2007",
+      "volume": "297",
+      "issue": null,
+      "pages": null,
+      "doi": null,
+      "pmid": null,
+      "authors": [
+        "Black WC",
+        "Baron JA"
+      ],
+      "first_author_last": "Black",
+      "enrichment": {
+        "pmid": "17341714",
+        "doi": null,
+        "title": "CT screening for lung cancer: spiraling into confusion?",
+        "journal": "JAMA",
+        "year": "2007",
+        "authors": [
+          "Black WC",
+          "Baron JA"
+        ],
+        "mesh": [],
+        "pubtypes": [
+          "Editorial",
+          "Comment"
+        ]
+      }
+    },
+    {
+      "title": "Photodynamic therapy via navigational bronchoscopy for peripheral lung cancer in dogs",
+      "journal": "Lasers Surg Med",
+      "year": "2018",
+      "volume": null,
+      "issue": null,
+      "pages": null,
+      "doi": null,
+      "pmid": null,
+      "authors": [
+        "Musani AI",
+        "Veir JK",
+        "Huang Z"
+      ],
+      "first_author_last": "Musani",
+      "enrichment": {
+        "pmid": "29399826",
+        "doi": null,
+        "title": "Photodynamic therapy via navigational bronchoscopy for peripheral lung cancer in dogs.",
+        "journal": "Lasers in surgery and medicine",
+        "year": "2018",
+        "authors": [
+          "Musani AI",
+          "Veir JK",
+          "Huang Z",
+          "Lei T",
+          "Groshong S",
+          "Worley D"
+        ],
+        "mesh": [],
+        "pubtypes": [
+          "Journal Article"
+        ],
+        "abstract": "In the setting of lung cancer, photodynamic therapy (PDT) is typically used to treat centrally located endobronchial tumors. The development of navigational bronchoscopy has opened the potential for using PDT to treat peripheral lung tumors. However, there is limited information about the feasibility of this approach for treating peripheral lung cancers, and about its effects on surrounding healthy lung tissue. We studied the use of PDT delivered by electromagnetic navigational bronchoscopy to treat peripheral lung cancer in dogs."
+      }
+    }
+  ],
+  "statistics": [],
+  "drugs": [],
+  "trial_ids": [
+    "NCT03211078"
+  ],
+  "assets": {
+    "tables": [
+      {
+        "self_ref": "#/tables/0",
+        "parent": {
+          "cref": "#/body"
+        },
+        "children": [
+          {
+            "cref": "#/texts/63"
+          }
+        ],
+        "content_layer": "body",
+        "label": "table",
+        "prov": [
+          {
+            "page_no": 4,
+            "bbox": {
+              "l": 45.192161560058594,
+              "t": 323.75091552734375,
+              "r": 549.9547729492188,
+              "b": 213.15814208984375,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "charspan": [
+              0,
+              0
+            ]
+          }
+        ],
+        "captions": [
+          {
+            "cref": "#/texts/63"
+          }
+        ],
+        "references": [],
+        "footnotes": [],
+        "image": null,
+        "data": {
+          "table_cells": [
+            {
+              "bbox": {
+                "l": 51.024,
+                "t": 466.98,
+                "r": 61.392,
+                "b": 473.94800000000004,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 0,
+              "end_row_offset_idx": 1,
+              "start_col_offset_idx": 0,
+              "end_col_offset_idx": 1,
+              "text": "No",
+              "column_header": true,
+              "row_header": false,
+              "row_section": false
+            },
+            {
+              "bbox": {
+                "l": 78.27,
+                "t": 466.98,
+                "r": 107.446,
+                "b": 473.94800000000004,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 0,
+              "end_row_offset_idx": 1,
+              "start_col_offset_idx": 1,
+              "end_col_offset_idx": 2,
+              "text": "Age/sex",
+              "column_header": true,
+              "row_header": false,
+              "row_section": false
+            },
+            {
+              "bbox": {
+                "l": 124.758,
+                "t": 466.98,
+                "r": 159.87,
+                "b": 473.94800000000004,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 0,
+              "end_row_offset_idx": 1,
+              "start_col_offset_idx": 2,
+              "end_col_offset_idx": 3,
+              "text": "Diagnosis",
+              "column_header": true,
+              "row_header": false,
+              "row_section": false
+            },
+            {
+              "bbox": {
+                "l": 208.663,
+                "t": 466.98,
+                "r": 239.631,
+                "b": 473.94800000000004,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 0,
+              "end_row_offset_idx": 1,
+              "start_col_offset_idx": 3,
+              "end_col_offset_idx": 4,
+              "text": "Location",
+              "column_header": true,
+              "row_header": false,
+              "row_section": false
+            },
+            {
+              "bbox": {
+                "l": 256.852,
+                "t": 466.98,
+                "r": 291.964,
+                "b": 473.94800000000004,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 0,
+              "end_row_offset_idx": 1,
+              "start_col_offset_idx": 4,
+              "end_col_offset_idx": 5,
+              "text": "Size (mm)",
+              "column_header": true,
+              "row_header": false,
+              "row_section": false
+            },
+            {
+              "bbox": {
+                "l": 305.892,
+                "t": 461.48,
+                "r": 343.236,
+                "b": 479.44800000000004,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 0,
+              "end_row_offset_idx": 1,
+              "start_col_offset_idx": 5,
+              "end_col_offset_idx": 6,
+              "text": "Admission day",
+              "column_header": true,
+              "row_header": false,
+              "row_section": false
+            },
+            {
+              "bbox": {
+                "l": 356.632,
+                "t": 461.48,
+                "r": 397.664,
+                "b": 479.44800000000004,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 0,
+              "end_row_offset_idx": 1,
+              "start_col_offset_idx": 6,
+              "end_col_offset_idx": 7,
+              "text": "Follow time (months)",
+              "column_header": true,
+              "row_header": false,
+              "row_section": false
+            },
+            {
+              "bbox": {
+                "l": 409.356,
+                "t": 461.48,
+                "r": 454.988,
+                "b": 479.44800000000004,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 0,
+              "end_row_offset_idx": 1,
+              "start_col_offset_idx": 7,
+              "end_col_offset_idx": 8,
+              "text": "Progression- free survival",
+              "column_header": true,
+              "row_header": false,
+              "row_section": false
+            },
+            {
+              "bbox": {
+                "l": 464.882,
+                "t": 466.98,
+                "r": 516.298,
+                "b": 473.94800000000004,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 0,
+              "end_row_offset_idx": 1,
+              "start_col_offset_idx": 8,
+              "end_col_offset_idx": 9,
+              "text": "Complications",
+              "column_header": true,
+              "row_header": false,
+              "row_section": false
+            },
+            {
+              "bbox": {
+                "l": 51.024,
+                "t": 488.98400000000004,
+                "r": 55.472,
+                "b": 495.952,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 1,
+              "end_row_offset_idx": 2,
+              "start_col_offset_idx": 0,
+              "end_col_offset_idx": 1,
+              "text": "1",
+              "column_header": false,
+              "row_header": false,
+              "row_section": false
+            },
+            {
+              "bbox": {
+                "l": 78.27,
+                "t": 488.98400000000004,
+                "r": 96.798,
+                "b": 495.952,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 1,
+              "end_row_offset_idx": 2,
+              "start_col_offset_idx": 1,
+              "end_col_offset_idx": 2,
+              "text": "75/M",
+              "column_header": false,
+              "row_header": false,
+              "row_section": false
+            },
+            {
+              "bbox": {
+                "l": 124.758,
+                "t": 488.98400000000004,
+                "r": 201.973,
+                "b": 506.952,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 1,
+              "end_row_offset_idx": 2,
+              "start_col_offset_idx": 2,
+              "end_col_offset_idx": 3,
+              "text": "Lung metastasis from colon cancer",
+              "column_header": false,
+              "row_header": false,
+              "row_section": false
+            },
+            {
+              "bbox": {
+                "l": 208.663,
+                "t": 488.98400000000004,
+                "r": 223.039,
+                "b": 495.952,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 1,
+              "end_row_offset_idx": 2,
+              "start_col_offset_idx": 3,
+              "end_col_offset_idx": 4,
+              "text": "RLL",
+              "column_header": false,
+              "row_header": false,
+              "row_section": false
+            },
+            {
+              "bbox": {
+                "l": 256.852,
+                "t": 488.98400000000004,
+                "r": 265.748,
+                "b": 495.952,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 1,
+              "end_row_offset_idx": 2,
+              "start_col_offset_idx": 4,
+              "end_col_offset_idx": 5,
+              "text": "36",
+              "column_header": false,
+              "row_header": false,
+              "row_section": false
+            },
+            {
+              "bbox": {
+                "l": 305.892,
+                "t": 488.98400000000004,
+                "r": 310.34,
+                "b": 495.952,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 1,
+              "end_row_offset_idx": 2,
+              "start_col_offset_idx": 5,
+              "end_col_offset_idx": 6,
+              "text": "5",
+              "column_header": false,
+              "row_header": false,
+              "row_section": false
+            },
+            {
+              "bbox": {
+                "l": 356.632,
+                "t": 488.98400000000004,
+                "r": 365.528,
+                "b": 495.952,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 1,
+              "end_row_offset_idx": 2,
+              "start_col_offset_idx": 6,
+              "end_col_offset_idx": 7,
+              "text": "16",
+              "column_header": false,
+              "row_header": false,
+              "row_section": false
+            },
+            {
+              "bbox": {
+                "l": 409.356,
+                "t": 488.98400000000004,
+                "r": 431.188,
+                "b": 495.952,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 1,
+              "end_row_offset_idx": 2,
+              "start_col_offset_idx": 7,
+              "end_col_offset_idx": 8,
+              "text": "+ (PR)",
+              "column_header": false,
+              "row_header": false,
+              "row_section": false
+            },
+            {
+              "bbox": {
+                "l": 464.882,
+                "t": 488.98400000000004,
+                "r": 469.682,
+                "b": 495.952,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 1,
+              "end_row_offset_idx": 2,
+              "start_col_offset_idx": 8,
+              "end_col_offset_idx": 9,
+              "text": "-",
+              "column_header": false,
+              "row_header": false,
+              "row_section": false
+            },
+            {
+              "bbox": {
+                "l": 51.024,
+                "t": 516.488,
+                "r": 55.472,
+                "b": 523.456,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 2,
+              "end_row_offset_idx": 3,
+              "start_col_offset_idx": 0,
+              "end_col_offset_idx": 1,
+              "text": "2",
+              "column_header": false,
+              "row_header": false,
+              "row_section": false
+            },
+            {
+              "bbox": {
+                "l": 78.27,
+                "t": 516.488,
+                "r": 94.422,
+                "b": 523.456,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 2,
+              "end_row_offset_idx": 3,
+              "start_col_offset_idx": 1,
+              "end_col_offset_idx": 2,
+              "text": "57/F",
+              "column_header": false,
+              "row_header": false,
+              "row_section": false
+            },
+            {
+              "bbox": {
+                "l": 124.758,
+                "t": 516.488,
+                "r": 201.973,
+                "b": 534.456,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 2,
+              "end_row_offset_idx": 3,
+              "start_col_offset_idx": 2,
+              "end_col_offset_idx": 3,
+              "text": "Lung metastasis from colon cancer",
+              "column_header": false,
+              "row_header": false,
+              "row_section": false
+            },
+            {
+              "bbox": {
+                "l": 208.663,
+                "t": 516.488,
+                "r": 224.367,
+                "b": 523.456,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 2,
+              "end_row_offset_idx": 3,
+              "start_col_offset_idx": 3,
+              "end_col_offset_idx": 4,
+              "text": "RUL",
+              "column_header": false,
+              "row_header": false,
+              "row_section": false
+            },
+            {
+              "bbox": {
+                "l": 256.852,
+                "t": 516.488,
+                "r": 265.748,
+                "b": 523.456,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 2,
+              "end_row_offset_idx": 3,
+              "start_col_offset_idx": 4,
+              "end_col_offset_idx": 5,
+              "text": "20",
+              "column_header": false,
+              "row_header": false,
+              "row_section": false
+            },
+            {
+              "bbox": {
+                "l": 305.892,
+                "t": 516.488,
+                "r": 310.34,
+                "b": 523.456,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 2,
+              "end_row_offset_idx": 3,
+              "start_col_offset_idx": 5,
+              "end_col_offset_idx": 6,
+              "text": "4",
+              "column_header": false,
+              "row_header": false,
+              "row_section": false
+            },
+            {
+              "bbox": {
+                "l": 356.632,
+                "t": 516.488,
+                "r": 365.528,
+                "b": 523.456,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 2,
+              "end_row_offset_idx": 3,
+              "start_col_offset_idx": 6,
+              "end_col_offset_idx": 7,
+              "text": "14",
+              "column_header": false,
+              "row_header": false,
+              "row_section": false
+            },
+            {
+              "bbox": {
+                "l": 409.356,
+                "t": 516.488,
+                "r": 431.188,
+                "b": 523.456,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 2,
+              "end_row_offset_idx": 3,
+              "start_col_offset_idx": 7,
+              "end_col_offset_idx": 8,
+              "text": "+ (PR)",
+              "column_header": false,
+              "row_header": false,
+              "row_section": false
+            },
+            {
+              "bbox": {
+                "l": 464.882,
+                "t": 516.488,
+                "r": 469.682,
+                "b": 523.456,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 2,
+              "end_row_offset_idx": 3,
+              "start_col_offset_idx": 8,
+              "end_col_offset_idx": 9,
+              "text": "-",
+              "column_header": false,
+              "row_header": false,
+              "row_section": false
+            },
+            {
+              "bbox": {
+                "l": 51.024,
+                "t": 543.992,
+                "r": 55.472,
+                "b": 550.96,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 3,
+              "end_row_offset_idx": 4,
+              "start_col_offset_idx": 0,
+              "end_col_offset_idx": 1,
+              "text": "3",
+              "column_header": false,
+              "row_header": false,
+              "row_section": false
+            },
+            {
+              "bbox": {
+                "l": 78.27,
+                "t": 543.992,
+                "r": 94.422,
+                "b": 550.96,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 3,
+              "end_row_offset_idx": 4,
+              "start_col_offset_idx": 1,
+              "end_col_offset_idx": 2,
+              "text": "65/F",
+              "column_header": false,
+              "row_header": false,
+              "row_section": false
+            },
+            {
+              "bbox": {
+                "l": 124.758,
+                "t": 543.992,
+                "r": 184.477,
+                "b": 561.96,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 3,
+              "end_row_offset_idx": 4,
+              "start_col_offset_idx": 2,
+              "end_col_offset_idx": 3,
+              "text": "Lung adenocarcinoma",
+              "column_header": false,
+              "row_header": false,
+              "row_section": false
+            },
+            {
+              "bbox": {
+                "l": 208.663,
+                "t": 543.992,
+                "r": 223.039,
+                "b": 550.96,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 3,
+              "end_row_offset_idx": 4,
+              "start_col_offset_idx": 3,
+              "end_col_offset_idx": 4,
+              "text": "RLL",
+              "column_header": false,
+              "row_header": false,
+              "row_section": false
+            },
+            {
+              "bbox": {
+                "l": 256.852,
+                "t": 543.992,
+                "r": 261.3,
+                "b": 550.96,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 3,
+              "end_row_offset_idx": 4,
+              "start_col_offset_idx": 4,
+              "end_col_offset_idx": 5,
+              "text": "8",
+              "column_header": false,
+              "row_header": false,
+              "row_section": false
+            },
+            {
+              "bbox": {
+                "l": 305.892,
+                "t": 543.992,
+                "r": 310.34,
+                "b": 550.96,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 3,
+              "end_row_offset_idx": 4,
+              "start_col_offset_idx": 5,
+              "end_col_offset_idx": 6,
+              "text": "3",
+              "column_header": false,
+              "row_header": false,
+              "row_section": false
+            },
+            {
+              "bbox": {
+                "l": 356.632,
+                "t": 543.992,
+                "r": 365.528,
+                "b": 550.96,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 3,
+              "end_row_offset_idx": 4,
+              "start_col_offset_idx": 6,
+              "end_col_offset_idx": 7,
+              "text": "12",
+              "column_header": false,
+              "row_header": false,
+              "row_section": false
+            },
+            {
+              "bbox": {
+                "l": 409.356,
+                "t": 543.992,
+                "r": 431.78,
+                "b": 550.96,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 3,
+              "end_row_offset_idx": 4,
+              "start_col_offset_idx": 7,
+              "end_col_offset_idx": 8,
+              "text": "+ (CR)",
+              "column_header": false,
+              "row_header": false,
+              "row_section": false
+            },
+            {
+              "bbox": {
+                "l": 464.882,
+                "t": 543.992,
+                "r": 539.561,
+                "b": 561.96,
+                "coord_origin": "TOPLEFT"
+              },
+              "row_span": 1,
+              "col_span": 1,
+              "start_row_offset_idx": 3,
+              "end_row_offset_idx": 4,
+              "start_col_offset_idx": 8,
+              "end_col_offset_idx": 9,
+              "text": "Skin hypersensitivity, grade I",
+              "column_header": false,
+              "row_header": false,
+              "row_section": false
+            }
+          ],
+          "num_rows": 4,
+          "num_cols": 9,
+          "grid": [
+            [
+              {
+                "bbox": {
+                  "l": 51.024,
+                  "t": 466.98,
+                  "r": 61.392,
+                  "b": 473.94800000000004,
+                  "coord_origin": "TOPLEFT"
+                },
+                "row_span": 1,
+                "col_span": 1,
+                "start_row_offset_idx": 0,
+                "end_row_offset_idx": 1,
+                "start_col_offset_idx": 0,
+                "end_col_offset_idx": 1,
+                "text": "No",
+                "column_header": true,
+                "row_header": false,
+                "row_section": false
+              },
+              {
+                "bbox": {
+                  "l": 78.27,
+                  "t": 466.98,
+                  "r": 107.446,
+                  "b": 473.94800000000004,
+                  "coord_origin": "TOPLEFT"
+                },
+                "row_span": 1,
+                "col_span": 1,
+                "start_row_offset_idx": 0,
+                "end_row_offset_idx": 1,
+                "start_col_offset_idx": 1,
+                "end_col_offset_idx": 2,
+                "text": "Age/sex",
+                "column_header": true,
+                "row_header": false,
+                "row_section": false
+              },
+              {
+                "bbox": {
+                  "l": 124.758,
+                  "t": 466.98,
+                  "r": 159.87,
+                  "b": 473.94800000000004,
+                  "coord_origin": "TOPLEFT"
+                },
+                "row_span": 1,
+                "col_span": 1,
+                "start_row_offset_idx": 0,
+                "end_row_offset_idx": 1,
+                "start_col_offset_idx": 2,
+                "end_col_offset_idx": 3,
+                "text": "Diagnosis",
+                "column_header": true,
+                "row_header": false,
+                "row_section": false
+              },
+              {
+                "bbox": {
+                  "l": 208.663,
+                  "t": 466.98,
+                  "r": 239.631,
+                  "b": 473.94800000000004,
+                  "coord_origin": "TOPLEFT"
+                },
+                "row_span": 1,
+                "col_span": 1,
+                "start_row_offset_idx": 0,
+                "end_row_offset_idx": 1,
+                "start_col_offset_idx": 3,
+                "end_col_offset_idx": 4,
+                "text": "Location",
+                "column_header": true,
+                "row_header": false,
+                "row_section": false
+              },
+              {
+                "bbox": {
+                  "l": 256.852,
+                  "t": 466.98,
+                  "r": 291.964,
+                  "b": 473.94800000000004,
+                  "coord_origin": "TOPLEFT"
+                },
+                "row_span": 1,
+                "col_span": 1,
+                "start_row_offset_idx": 0,
+                "end_row_offset_idx": 1,
+                "start_col_offset_idx": 4,
+                "end_col_offset_idx": 5,
+                "text": "Size (mm)",
+                "column_header": true,
+                "row_header": false,
+                "row_section": false
+              },
+              {
+                "bbox": {
+                  "l": 305.892,
+                  "t": 461.48,
+                  "r": 343.236,
+                  "b": 479.44800000000004,
+                  "coord_origin": "TOPLEFT"
+                },
+                "row_span": 1,
+                "col_span": 1,
+                "start_row_offset_idx": 0,
+                "end_row_offset_idx": 1,
+                "start_col_offset_idx": 5,
+                "end_col_offset_idx": 6,
+                "text": "Admission day",
+                "column_header": true,
+                "row_header": false,
+                "row_section": false
+              },
+              {
+                "bbox": {
+                  "l": 356.632,
+                  "t": 461.48,
+                  "r": 397.664,
+                  "b": 479.44800000000004,
+                  "coord_origin": "TOPLEFT"
+                },
+                "row_span": 1,
+                "col_span": 1,
+                "start_row_offset_idx": 0,
+                "end_row_offset_idx": 1,
+                "start_col_offset_idx": 6,
+                "end_col_offset_idx": 7,
+                "text": "Follow time (months)",
+                "column_header": true,
+                "row_header": false,
+                "row_section": false
+              },
+              {
+                "bbox": {
+                  "l": 409.356,
+                  "t": 461.48,
+                  "r": 454.988,
+                  "b": 479.44800000000004,
+                  "coord_origin": "TOPLEFT"
+                },
+                "row_span": 1,
+                "col_span": 1,
+                "start_row_offset_idx": 0,
+                "end_row_offset_idx": 1,
+                "start_col_offset_idx": 7,
+                "end_col_offset_idx": 8,
+                "text": "Progression- free survival",
+                "column_header": true,
+                "row_header": false,
+                "row_section": false
+              },
+              {
+                "bbox": {
+                  "l": 464.882,
+                  "t": 466.98,
+                  "r": 516.298,
+                  "b": 473.94800000000004,
+                  "coord_origin": "TOPLEFT"
+                },
+                "row_span": 1,
+                "col_span": 1,
+                "start_row_offset_idx": 0,
+                "end_row_offset_idx": 1,
+                "start_col_offset_idx": 8,
+                "end_col_offset_idx": 9,
+                "text": "Complications",
+                "column_header": true,
+                "row_header": false,
+                "row_section": false
+              }
+            ],
+            [
+              {
+                "bbox": {
+                  "l": 51.024,
+                  "t": 488.98400000000004,
+                  "r": 55.472,
+                  "b": 495.952,
+                  "coord_origin": "TOPLEFT"
+                },
+                "row_span": 1,
+                "col_span": 1,
+                "start_row_offset_idx": 1,
+                "end_row_offset_idx": 2,
+                "start_col_offset_idx": 0,
+                "end_col_offset_idx": 1,
+                "text": "1",
+                "column_header": false,
+                "row_header": false,
+                "row_section": false
+              },
+              {
+                "bbox": {
+                  "l": 78.27,
+                  "t": 488.98400000000004,
+                  "r": 96.798,
+                  "b": 495.952,
+                  "coord_origin": "TOPLEFT"
+                },
+                "row_span": 1,
+                "col_span": 1,
+                "start_row_offset_idx": 1,
+                "end_row_offset_idx": 2,
+                "start_col_offset_idx": 1,
+                "end_col_offset_idx": 2,
+                "text": "75/M",
+                "column_header": false,
+                "row_header": false,
+                "row_section": false
+              },
+              {
+                "bbox": {
+                  "l": 124.758,
+                  "t": 488.98400000000004,
+                  "r": 201.973,
+                  "b": 506.952,
+                  "coord_origin": "TOPLEFT"
+                },
+                "row_span": 1,
+                "col_span": 1,
+                "start_row_offset_idx": 1,
+                "end_row_offset_idx": 2,
+                "start_col_offset_idx": 2,
+                "end_col_offset_idx": 3,
+                "text": "Lung metastasis from colon cancer",
+                "column_header": false,
+                "row_header": false,
+                "row_section": false
+              },
+              {
+                "bbox": {
+                  "l": 208.663,
+                  "t": 488.98400000000004,
+                  "r": 223.039,
+                  "b": 495.952,
+                  "coord_origin": "TOPLEFT"
+                },
+                "row_span": 1,
+                "col_span": 1,
+                "start_row_offset_idx": 1,
+                "end_row_offset_idx": 2,
+                "start_col_offset_idx": 3,
+                "end_col_offset_idx": 4,
+                "text": "RLL",
+                "column_header": false,
+                "row_header": false,
+                "row_section": false
+              },
+              {
+                "bbox": {
+                  "l": 256.852,
+                  "t": 488.98400000000004,
+                  "r": 265.748,
+                  "b": 495.952,
+                  "coord_origin": "TOPLEFT"
+                },
+                "row_span": 1,
+                "col_span": 1,
+                "start_row_offset_idx": 1,
+                "end_row_offset_idx": 2,
+                "start_col_offset_idx": 4,
+                "end_col_offset_idx": 5,
+                "text": "36",
+                "column_header": false,
+                "row_header": false,
+                "row_section": false
+              },
+              {
+                "bbox": {
+                  "l": 305.892,
+                  "t": 488.98400000000004,
+                  "r": 310.34,
+                  "b": 495.952,
+                  "coord_origin": "TOPLEFT"
+                },
+                "row_span": 1,
+                "col_span": 1,
+                "start_row_offset_idx": 1,
+                "end_row_offset_idx": 2,
+                "start_col_offset_idx": 5,
+                "end_col_offset_idx": 6,
+                "text": "5",
+                "column_header": false,
+                "row_header": false,
+                "row_section": false
+              },
+              {
+                "bbox": {
+                  "l": 356.632,
+                  "t": 488.98400000000004,
+                  "r": 365.528,
+                  "b": 495.952,
+                  "coord_origin": "TOPLEFT"
+                },
+                "row_span": 1,
+                "col_span": 1,
+                "start_row_offset_idx": 1,
+                "end_row_offset_idx": 2,
+                "start_col_offset_idx": 6,
+                "end_col_offset_idx": 7,
+                "text": "16",
+                "column_header": false,
+                "row_header": false,
+                "row_section": false
+              },
+              {
+                "bbox": {
+                  "l": 409.356,
+                  "t": 488.98400000000004,
+                  "r": 431.188,
+                  "b": 495.952,
+                  "coord_origin": "TOPLEFT"
+                },
+                "row_span": 1,
+                "col_span": 1,
+                "start_row_offset_idx": 1,
+                "end_row_offset_idx": 2,
+                "start_col_offset_idx": 7,
+                "end_col_offset_idx": 8,
+                "text": "+ (PR)",
+                "column_header": false,
+                "row_header": false,
+                "row_section": false
+              },
+              {
+                "bbox": {
+                  "l": 464.882,
+                  "t": 488.98400000000004,
+                  "r": 469.682,
+                  "b": 495.952,
+                  "coord_origin": "TOPLEFT"
+                },
+                "row_span": 1,
+                "col_span": 1,
+                "start_row_offset_idx": 1,
+                "end_row_offset_idx": 2,
+                "start_col_offset_idx": 8,
+                "end_col_offset_idx": 9,
+                "text": "-",
+                "column_header": false,
+                "row_header": false,
+                "row_section": false
+              }
+            ],
+            [
+              {
+                "bbox": {
+                  "l": 51.024,
+                  "t": 516.488,
+                  "r": 55.472,
+                  "b": 523.456,
+                  "coord_origin": "TOPLEFT"
+                },
+                "row_span": 1,
+                "col_span": 1,
+                "start_row_offset_idx": 2,
+                "end_row_offset_idx": 3,
+                "start_col_offset_idx": 0,
+                "end_col_offset_idx": 1,
+                "text": "2",
+                "column_header": false,
+                "row_header": false,
+                "row_section": false
+              },
+              {
+                "bbox": {
+                  "l": 78.27,
+                  "t": 516.488,
+                  "r": 94.422,
+                  "b": 523.456,
+                  "coord_origin": "TOPLEFT"
+                },
+                "row_span": 1,
+                "col_span": 1,
+                "start_row_offset_idx": 2,
+                "end_row_offset_idx": 3,
+                "start_col_offset_idx": 1,
+                "end_col_offset_idx": 2,
+                "text": "57/F",
+                "column_header": false,
+                "row_header": false,
+                "row_section": false
+              },
+              {
+                "bbox": {
+                  "l": 124.758,
+                  "t": 516.488,
+                  "r": 201.973,
+                  "b": 534.456,
+                  "coord_origin": "TOPLEFT"
+                },
+                "row_span": 1,
+                "col_span": 1,
+                "start_row_offset_idx": 2,
+                "end_row_offset_idx": 3,
+                "start_col_offset_idx": 2,
+                "end_col_offset_idx": 3,
+                "text": "Lung metastasis from colon cancer",
+                "column_header": false,
+                "row_header": false,
+                "row_section": false
+              },
+              {
+                "bbox": {
+                  "l": 208.663,
+                  "t": 516.488,
+                  "r": 224.367,
+                  "b": 523.456,
+                  "coord_origin": "TOPLEFT"
+                },
+                "row_span": 1,
+                "col_span": 1,
+                "start_row_offset_idx": 2,
+                "end_row_offset_idx": 3,
+                "start_col_offset_idx": 3,
+                "end_col_offset_idx": 4,
+                "text": "RUL",
+                "column_header": false,
+                "row_header": false,
+                "row_section": false
+              },
+              {
+                "bbox": {
+                  "l": 256.852,
+                  "t": 516.488,
+                  "r": 265.748,
+                  "b": 523.456,
+                  "coord_origin": "TOPLEFT"
+                },
+                "row_span": 1,
+                "col_span": 1,
+                "start_row_offset_idx": 2,
+                "end_row_offset_idx": 3,
+                "start_col_offset_idx": 4,
+                "end_col_offset_idx": 5,
+                "text": "20",
+                "column_header": false,
+                "row_header": false,
+                "row_section": false
+              },
+              {
+                "bbox": {
+                  "l": 305.892,
+                  "t": 516.488,
+                  "r": 310.34,
+                  "b": 523.456,
+                  "coord_origin": "TOPLEFT"
+                },
+                "row_span": 1,
+                "col_span": 1,
+                "start_row_offset_idx": 2,
+                "end_row_offset_idx": 3,
+                "start_col_offset_idx": 5,
+                "end_col_offset_idx": 6,
+                "text": "4",
+                "column_header": false,
+                "row_header": false,
+                "row_section": false
+              },
+              {
+                "bbox": {
+                  "l": 356.632,
+                  "t": 516.488,
+                  "r": 365.528,
+                  "b": 523.456,
+                  "coord_origin": "TOPLEFT"
+                },
+                "row_span": 1,
+                "col_span": 1,
+                "start_row_offset_idx": 2,
+                "end_row_offset_idx": 3,
+                "start_col_offset_idx": 6,
+                "end_col_offset_idx": 7,
+                "text": "14",
+                "column_header": false,
+                "row_header": false,
+                "row_section": false
+              },
+              {
+                "bbox": {
+                  "l": 409.356,
+                  "t": 516.488,
+                  "r": 431.188,
+                  "b": 523.456,
+                  "coord_origin": "TOPLEFT"
+                },
+                "row_span": 1,
+                "col_span": 1,
+                "start_row_offset_idx": 2,
+                "end_row_offset_idx": 3,
+                "start_col_offset_idx": 7,
+                "end_col_offset_idx": 8,
+                "text": "+ (PR)",
+                "column_header": false,
+                "row_header": false,
+                "row_section": false
+              },
+              {
+                "bbox": {
+                  "l": 464.882,
+                  "t": 516.488,
+                  "r": 469.682,
+                  "b": 523.456,
+                  "coord_origin": "TOPLEFT"
+                },
+                "row_span": 1,
+                "col_span": 1,
+                "start_row_offset_idx": 2,
+                "end_row_offset_idx": 3,
+                "start_col_offset_idx": 8,
+                "end_col_offset_idx": 9,
+                "text": "-",
+                "column_header": false,
+                "row_header": false,
+                "row_section": false
+              }
+            ],
+            [
+              {
+                "bbox": {
+                  "l": 51.024,
+                  "t": 543.992,
+                  "r": 55.472,
+                  "b": 550.96,
+                  "coord_origin": "TOPLEFT"
+                },
+                "row_span": 1,
+                "col_span": 1,
+                "start_row_offset_idx": 3,
+                "end_row_offset_idx": 4,
+                "start_col_offset_idx": 0,
+                "end_col_offset_idx": 1,
+                "text": "3",
+                "column_header": false,
+                "row_header": false,
+                "row_section": false
+              },
+              {
+                "bbox": {
+                  "l": 78.27,
+                  "t": 543.992,
+                  "r": 94.422,
+                  "b": 550.96,
+                  "coord_origin": "TOPLEFT"
+                },
+                "row_span": 1,
+                "col_span": 1,
+                "start_row_offset_idx": 3,
+                "end_row_offset_idx": 4,
+                "start_col_offset_idx": 1,
+                "end_col_offset_idx": 2,
+                "text": "65/F",
+                "column_header": false,
+                "row_header": false,
+                "row_section": false
+              },
+              {
+                "bbox": {
+                  "l": 124.758,
+                  "t": 543.992,
+                  "r": 184.477,
+                  "b": 561.96,
+                  "coord_origin": "TOPLEFT"
+                },
+                "row_span": 1,
+                "col_span": 1,
+                "start_row_offset_idx": 3,
+                "end_row_offset_idx": 4,
+                "start_col_offset_idx": 2,
+                "end_col_offset_idx": 3,
+                "text": "Lung adenocarcinoma",
+                "column_header": false,
+                "row_header": false,
+                "row_section": false
+              },
+              {
+                "bbox": {
+                  "l": 208.663,
+                  "t": 543.992,
+                  "r": 223.039,
+                  "b": 550.96,
+                  "coord_origin": "TOPLEFT"
+                },
+                "row_span": 1,
+                "col_span": 1,
+                "start_row_offset_idx": 3,
+                "end_row_offset_idx": 4,
+                "start_col_offset_idx": 3,
+                "end_col_offset_idx": 4,
+                "text": "RLL",
+                "column_header": false,
+                "row_header": false,
+                "row_section": false
+              },
+              {
+                "bbox": {
+                  "l": 256.852,
+                  "t": 543.992,
+                  "r": 261.3,
+                  "b": 550.96,
+                  "coord_origin": "TOPLEFT"
+                },
+                "row_span": 1,
+                "col_span": 1,
+                "start_row_offset_idx": 3,
+                "end_row_offset_idx": 4,
+                "start_col_offset_idx": 4,
+                "end_col_offset_idx": 5,
+                "text": "8",
+                "column_header": false,
+                "row_header": false,
+                "row_section": false
+              },
+              {
+                "bbox": {
+                  "l": 305.892,
+                  "t": 543.992,
+                  "r": 310.34,
+                  "b": 550.96,
+                  "coord_origin": "TOPLEFT"
+                },
+                "row_span": 1,
+                "col_span": 1,
+                "start_row_offset_idx": 3,
+                "end_row_offset_idx": 4,
+                "start_col_offset_idx": 5,
+                "end_col_offset_idx": 6,
+                "text": "3",
+                "column_header": false,
+                "row_header": false,
+                "row_section": false
+              },
+              {
+                "bbox": {
+                  "l": 356.632,
+                  "t": 543.992,
+                  "r": 365.528,
+                  "b": 550.96,
+                  "coord_origin": "TOPLEFT"
+                },
+                "row_span": 1,
+                "col_span": 1,
+                "start_row_offset_idx": 3,
+                "end_row_offset_idx": 4,
+                "start_col_offset_idx": 6,
+                "end_col_offset_idx": 7,
+                "text": "12",
+                "column_header": false,
+                "row_header": false,
+                "row_section": false
+              },
+              {
+                "bbox": {
+                  "l": 409.356,
+                  "t": 543.992,
+                  "r": 431.78,
+                  "b": 550.96,
+                  "coord_origin": "TOPLEFT"
+                },
+                "row_span": 1,
+                "col_span": 1,
+                "start_row_offset_idx": 3,
+                "end_row_offset_idx": 4,
+                "start_col_offset_idx": 7,
+                "end_col_offset_idx": 8,
+                "text": "+ (CR)",
+                "column_header": false,
+                "row_header": false,
+                "row_section": false
+              },
+              {
+                "bbox": {
+                  "l": 464.882,
+                  "t": 543.992,
+                  "r": 539.561,
+                  "b": 561.96,
+                  "coord_origin": "TOPLEFT"
+                },
+                "row_span": 1,
+                "col_span": 1,
+                "start_row_offset_idx": 3,
+                "end_row_offset_idx": 4,
+                "start_col_offset_idx": 8,
+                "end_col_offset_idx": 9,
+                "text": "Skin hypersensitivity, grade I",
+                "column_header": false,
+                "row_header": false,
+                "row_section": false
+              }
+            ]
+          ]
+        },
+        "annotations": []
+      }
+    ],
+    "figures": [
+      {
+        "self_ref": "#/pictures/0",
+        "parent": {
+          "cref": "#/body"
+        },
+        "children": [
+          {
+            "cref": "#/texts/35"
+          },
+          {
+            "cref": "#/texts/36"
+          },
+          {
+            "cref": "#/texts/37"
+          },
+          {
+            "cref": "#/texts/38"
+          },
+          {
+            "cref": "#/texts/39"
+          },
+          {
+            "cref": "#/texts/40"
+          },
+          {
+            "cref": "#/texts/41"
+          },
+          {
+            "cref": "#/texts/42"
+          }
+        ],
+        "content_layer": "body",
+        "label": "picture",
+        "prov": [
+          {
+            "page_no": 3,
+            "bbox": {
+              "l": 137.4818115234375,
+              "t": 696.0605239868164,
+              "r": 457.2122497558594,
+              "b": 495.6351623535156,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "charspan": [
+              0,
+              0
+            ]
+          }
+        ],
+        "captions": [
+          {
+            "cref": "#/texts/35"
+          }
+        ],
+        "references": [],
+        "footnotes": [],
+        "image": null,
+        "annotations": []
+      },
+      {
+        "self_ref": "#/pictures/1",
+        "parent": {
+          "cref": "#/body"
+        },
+        "children": [
+          {
+            "cref": "#/texts/43"
+          },
+          {
+            "cref": "#/texts/44"
+          },
+          {
+            "cref": "#/texts/45"
+          },
+          {
+            "cref": "#/texts/46"
+          }
+        ],
+        "content_layer": "body",
+        "label": "picture",
+        "prov": [
+          {
+            "page_no": 3,
+            "bbox": {
+              "l": 47.19817352294922,
+              "t": 440.1617126464844,
+              "r": 547.774169921875,
+              "b": 314.4249267578125,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "charspan": [
+              0,
+              0
+            ]
+          }
+        ],
+        "captions": [
+          {
+            "cref": "#/texts/43"
+          }
+        ],
+        "references": [],
+        "footnotes": [],
+        "image": null,
+        "annotations": []
+      },
+      {
+        "self_ref": "#/pictures/2",
+        "parent": {
+          "cref": "#/body"
+        },
+        "children": [
+          {
+            "cref": "#/texts/56"
+          },
+          {
+            "cref": "#/texts/57"
+          },
+          {
+            "cref": "#/texts/58"
+          },
+          {
+            "cref": "#/texts/59"
+          },
+          {
+            "cref": "#/texts/60"
+          },
+          {
+            "cref": "#/texts/61"
+          },
+          {
+            "cref": "#/texts/62"
+          }
+        ],
+        "content_layer": "body",
+        "label": "picture",
+        "prov": [
+          {
+            "page_no": 4,
+            "bbox": {
+              "l": 96.00978088378906,
+              "t": 695.6660308837891,
+              "r": 498.22113037109375,
+              "b": 392.04168701171875,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "charspan": [
+              0,
+              0
+            ]
+          }
+        ],
+        "captions": [
+          {
+            "cref": "#/texts/56"
+          }
+        ],
+        "references": [],
+        "footnotes": [],
+        "image": null,
+        "annotations": []
+      },
+      {
+        "self_ref": "#/pictures/3",
+        "parent": {
+          "cref": "#/body"
+        },
+        "children": [
+          {
+            "cref": "#/texts/73"
+          }
+        ],
+        "content_layer": "body",
+        "label": "picture",
+        "prov": [
+          {
+            "page_no": 5,
+            "bbox": {
+              "l": 122.17564392089844,
+              "t": 695.3218154907227,
+              "r": 307.5290222167969,
+              "b": 567.5552062988281,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "charspan": [
+              0,
+              0
+            ]
+          }
+        ],
+        "captions": [],
+        "references": [],
+        "footnotes": [],
+        "image": null,
+        "annotations": []
+      }
+    ]
+  },
+  "validation": {
+    "checks": {
+      "has_title": true,
+      "has_authors": false,
+      "authors_are_valid": false,
+      "has_sections": true,
+      "sections_have_content": true,
+      "has_tables": true,
+      "tables_have_captions": false,
+      "tables_have_data": true,
+      "has_figures": true,
+      "figures_have_captions": false,
+      "figures_have_images": false,
+      "has_entities": true,
+      "has_statistics": false,
+      "has_references": true,
+      "refs_structured": true,
+      "refs_enriched_some": true,
+      "references_enriched": true,
+      "has_references_csv": false,
+      "has_cross_refs": false,
+      "umls_links": true,
+      "figures_textual_count": 0
+    },
+    "completeness_score": 63,
+    "is_valid": false,
+    "issues": [
+      "Missing authors"
+    ],
+    "warnings": [
+      "No statistics extracted",
+      "Some figures missing captions",
+      "Some tables missing captions"
+    ],
+    "quality_level": "acceptable"
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "pdf": "AMPLE2.pdf",
+  "n_sections": 19,
+  "n_tables": 3,
+  "n_figures": 6,
+  "n_fig_crops": 5,
+  "missing_fig_bbox": 0,
+  "n_refs_csv": 28,
+  "n_umls_links": 34,
+  "n_local_links": 0,
+  "linker": "quickumls",
+  "completeness_score": 65,
+  "is_valid": true,
+  "timestamp": "2025-08-31 07:44:25"
+}
