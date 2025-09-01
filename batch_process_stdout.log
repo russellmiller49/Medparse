@@ -2041,3 +2041,126 @@ To https://github.com/russellmiller49/Medparse.git
 2025-08-31 23:16:33.856 | SUCCESS  | __main__:process_single_pdf:71 - ✓ Successfully processed Conservative versus Interventional Treatment for spont PTX
 2025-08-31 23:16:33.856 | INFO     | __main__:main:198 - Reached 130 successful processes, committing intermediate results...
 2025-08-31 23:16:33.856 | INFO     | __main__:git_commit_and_push:129 - Adding changes to git...
+2025-08-31 23:16:33.990 | INFO     | __main__:git_commit_and_push:145 - Creating git commit...
+[fix/extraction-hardening b9cdfa6] feat: Batch processed 130 PDFs (intermediate commit)
+ 88 files changed, 231624 insertions(+), 2 deletions(-)
+ create mode 100644 out/batch_processed/Combined EBUS  EUS for the diagnosis and staging of lung cancer ESGE, ERS, ESTS Guideline.json
+ create mode 100644 out/batch_processed/Conservative versus Interventional Treatment for spont PTX.json
+ create mode 100644 out/batch_processed/Database to Inform Revisions.json
+ create mode 100644 out/batch_processed/Efficacy ofWhole-LungLavageinPulmonaryAlveolar.json
+ create mode 100644 out/batch_processed/High-dose-rate endobronchial brachytherapy eff.json
+ create mode 100644 out/batch_processed/Machine learing TPA.json
+ create mode 100644 out/batch_processed/Robotic bronchoscopy pilot and feasibility study (Benefit).json
+ create mode 100644 out/batch_processed/Safety of endoscopic gastrostomy tube placemen.json
+ create mode 100644 out/batch_processed/Yuan-2016-Percutaneous endoscopic gastrostomy.json
+ create mode 100644 out/batch_processed/surigicalLVR Decker-2014-Lung volume reduction surgery sinc.json
+ create mode 100644 out/figures/Combined EBUS  EUS for the diagnosis and staging of lung cancer ESGE, ERS, ESTS Guideline_fig01.jpg
+ create mode 100644 out/figures/Combined EBUS  EUS for the diagnosis and staging of lung cancer ESGE, ERS, ESTS Guideline_fig02.jpg
+ create mode 100644 out/figures/Combined EBUS  EUS for the diagnosis and staging of lung cancer ESGE, ERS, ESTS Guideline_fig03.jpg
+ create mode 100644 out/figures/Combined EBUS  EUS for the diagnosis and staging of lung cancer ESGE, ERS, ESTS Guideline_fig04.jpg
+ create mode 100644 out/figures/Combined EBUS  EUS for the diagnosis and staging of lung cancer ESGE, ERS, ESTS Guideline_fig05.jpg
+ create mode 100644 out/figures/Combined EBUS  EUS for the diagnosis and staging of lung cancer ESGE, ERS, ESTS Guideline_fig06.jpg
+ create mode 100644 out/figures/Combined EBUS  EUS for the diagnosis and staging of lung cancer ESGE, ERS, ESTS Guideline_fig07.jpg
+ create mode 100644 out/figures/Combined EBUS  EUS for the diagnosis and staging of lung cancer ESGE, ERS, ESTS Guideline_fig08.jpg
+ create mode 100644 out/figures/Combined EBUS  EUS for the diagnosis and staging of lung cancer ESGE, ERS, ESTS Guideline_fig09.jpg
+ create mode 100644 out/figures/Combined EBUS  EUS for the diagnosis and staging of lung cancer ESGE, ERS, ESTS Guideline_fig10.jpg
+ create mode 100644 out/figures/Combined EBUS  EUS for the diagnosis and staging of lung cancer ESGE, ERS, ESTS Guideline_fig11.jpg
+ create mode 100644 out/figures/Combined EBUS  EUS for the diagnosis and staging of lung cancer ESGE, ERS, ESTS Guideline_fig12.jpg
+ create mode 100644 out/figures/Combined EBUS  EUS for the diagnosis and staging of lung cancer ESGE, ERS, ESTS Guideline_fig13.jpg
+ create mode 100644 out/figures/Database to Inform Revisions_fig01.jpg
+ create mode 100644 out/figures/Database to Inform Revisions_fig02.jpg
+ create mode 100644 out/figures/Database to Inform Revisions_fig03.jpg
+ create mode 100644 out/figures/Database to Inform Revisions_fig04.jpg
+ create mode 100644 out/figures/Efficacy ofWhole-LungLavageinPulmonaryAlveolar_fig01.jpg
+ create mode 100644 out/figures/Efficacy ofWhole-LungLavageinPulmonaryAlveolar_fig02.jpg
+ create mode 100644 out/figures/Efficacy ofWhole-LungLavageinPulmonaryAlveolar_fig05.jpg
+ create mode 100644 out/figures/Efficacy ofWhole-LungLavageinPulmonaryAlveolar_fig1.jpg
+ create mode 100644 out/figures/Efficacy ofWhole-LungLavageinPulmonaryAlveolar_fig2.jpg
+ create mode 100644 out/figures/Efficacy ofWhole-LungLavageinPulmonaryAlveolar_fig4.jpg
+ create mode 100644 out/figures/Machine learing TPA_fig01.jpg
+ create mode 100644 out/figures/Machine learing TPA_fig02.jpg
+ create mode 100644 out/figures/Robotic bronchoscopy pilot and feasibility study (Benefit)_fig01.jpg
+ create mode 100644 out/figures/Robotic bronchoscopy pilot and feasibility study (Benefit)_fig02.jpg
+ create mode 100644 out/figures/Robotic bronchoscopy pilot and feasibility study (Benefit)_fig03.jpg
+ create mode 100644 out/figures/Robotic bronchoscopy pilot and feasibility study (Benefit)_fig04.jpg
+ create mode 100644 out/figures/Robotic bronchoscopy pilot and feasibility study (Benefit)_fig05.jpg
+ create mode 100644 out/figures/Robotic bronchoscopy pilot and feasibility study (Benefit)_fig06.jpg
+ create mode 100644 out/figures/Safety of endoscopic gastrostomy tube placemen_fig01.jpg
+ create mode 100644 out/figures/Safety of endoscopic gastrostomy tube placemen_fig02.jpg
+ create mode 100644 out/figures/Safety of endoscopic gastrostomy tube placemen_fig03.jpg
+ create mode 100644 out/figures/Yuan-2016-Percutaneous endoscopic gastrostomy_fig01.jpg
+ create mode 100644 out/figures/Yuan-2016-Percutaneous endoscopic gastrostomy_fig02.jpg
+ create mode 100644 out/figures/Yuan-2016-Percutaneous endoscopic gastrostomy_fig03.jpg
+ create mode 100644 out/figures/Yuan-2016-Percutaneous endoscopic gastrostomy_fig04.jpg
+ create mode 100644 out/figures/Yuan-2016-Percutaneous endoscopic gastrostomy_fig05.jpg
+ create mode 100644 out/figures/Yuan-2016-Percutaneous endoscopic gastrostomy_fig06.jpg
+ create mode 100644 out/figures/Yuan-2016-Percutaneous endoscopic gastrostomy_fig07.jpg
+ create mode 100644 out/figures/Yuan-2016-Percutaneous endoscopic gastrostomy_fig08.jpg
+ create mode 100644 out/figures/Yuan-2016-Percutaneous endoscopic gastrostomy_fig09.jpg
+ create mode 100644 out/figures/Yuan-2016-Percutaneous endoscopic gastrostomy_fig10.jpg
+ create mode 100644 out/figures/Yuan-2016-Percutaneous endoscopic gastrostomy_fig11.jpg
+ create mode 100644 out/figures/Yuan-2016-Percutaneous endoscopic gastrostomy_fig12.jpg
+ create mode 100644 out/figures/Yuan-2016-Percutaneous endoscopic gastrostomy_fig13.jpg
+ create mode 100644 out/figures/Yuan-2016-Percutaneous endoscopic gastrostomy_fig14.jpg
+ create mode 100644 out/figures/Yuan-2016-Percutaneous endoscopic gastrostomy_fig15.jpg
+ create mode 100644 out/figures/Yuan-2016-Percutaneous endoscopic gastrostomy_fig16.jpg
+ create mode 100644 out/figures/Yuan-2016-Percutaneous endoscopic gastrostomy_fig17.jpg
+ create mode 100644 out/figures/Yuan-2016-Percutaneous endoscopic gastrostomy_fig18.jpg
+ create mode 100644 out/figures/Yuan-2016-Percutaneous endoscopic gastrostomy_fig19.jpg
+ create mode 100644 out/figures/Yuan-2016-Percutaneous endoscopic gastrostomy_fig20.jpg
+ create mode 100644 out/figures/Yuan-2016-Percutaneous endoscopic gastrostomy_fig21.jpg
+ create mode 100644 out/figures/Yuan-2016-Percutaneous endoscopic gastrostomy_fig22.jpg
+ create mode 100644 out/figures/surigicalLVR Decker-2014-Lung volume reduction surgery sinc_fig01.jpg
+ create mode 100644 out/figures/surigicalLVR Decker-2014-Lung volume reduction surgery sinc_fig02.jpg
+ create mode 100644 out/qa/Combined EBUS  EUS for the diagnosis and staging of lung cancer ESGE, ERS, ESTS Guideline__umls.qa.json
+ create mode 100644 out/qa/Database to Inform Revisions__umls.qa.json
+ create mode 100644 out/qa/Efficacy ofWhole-LungLavageinPulmonaryAlveolar__umls.qa.json
+ create mode 100644 out/qa/Machine learing TPA__umls.qa.json
+ create mode 100644 out/qa/Robotic bronchoscopy pilot and feasibility study (Benefit)__umls.qa.json
+ create mode 100644 out/qa/Safety of endoscopic gastrostomy tube placemen__umls.qa.json
+ create mode 100644 out/qa/Yuan-2016-Percutaneous endoscopic gastrostomy__umls.qa.json
+ create mode 100644 out/qa/surigicalLVR Decker-2014-Lung volume reduction surgery sinc__umls.qa.json
+ create mode 100644 out/references/Combined EBUS  EUS for the diagnosis and staging of lung cancer ESGE, ERS, ESTS Guideline.refs.csv
+ create mode 100644 out/references/Database to Inform Revisions.refs.csv
+ create mode 100644 out/references/Efficacy ofWhole-LungLavageinPulmonaryAlveolar.refs.csv
+ create mode 100644 out/references/Machine learing TPA.refs.csv
+ create mode 100644 out/references/Robotic bronchoscopy pilot and feasibility study (Benefit).refs.csv
+ create mode 100644 out/references/Safety of endoscopic gastrostomy tube placemen.refs.csv
+ create mode 100644 out/references/Yuan-2016-Percutaneous endoscopic gastrostomy.refs.csv
+ create mode 100644 out/references/surigicalLVR Decker-2014-Lung volume reduction surgery sinc.refs.csv
+2025-08-31 23:16:34.021 | INFO     | __main__:git_commit_and_push:158 - Pushing to origin/fix/extraction-hardening...
+To https://github.com/russellmiller49/Medparse.git
+   2be2ee7..b9cdfa6  fix/extraction-hardening -> fix/extraction-hardening
+2025-08-31 23:16:37.630 | SUCCESS  | __main__:git_commit_and_push:161 - ✓ Successfully pushed to GitHub (branch: fix/extraction-hardening)
+2025-08-31 23:16:37.630 | INFO     | __main__:main:189 - [133/414] Processing Sedation in Bronchoscopy.pdf
+2025-08-31 23:16:37.631 | INFO     | __main__:process_single_pdf:52 - Processing Sedation in Bronchoscopy.pdf...
+2025-08-31 23:20:07.881 | SUCCESS  | __main__:process_single_pdf:71 - ✓ Successfully processed Sedation in Bronchoscopy
+2025-08-31 23:20:07.882 | INFO     | __main__:main:189 - [134/414] Processing Intrapleural use of tissue plasminogen activat.pdf
+2025-08-31 23:20:07.882 | INFO     | __main__:process_single_pdf:52 - Processing Intrapleural use of tissue plasminogen activat.pdf...
+2025-08-31 23:22:19.049 | SUCCESS  | __main__:process_single_pdf:71 - ✓ Successfully processed Intrapleural use of tissue plasminogen activat
+2025-08-31 23:22:19.050 | INFO     | __main__:main:189 - [135/414] Processing Efficacy and safety of cone-beam computed tomography-guided bronchoscopy.pdf
+2025-08-31 23:22:19.050 | INFO     | __main__:process_single_pdf:52 - Processing Efficacy and safety of cone-beam computed tomography-guided bronchoscopy.pdf...
+2025-08-31 23:26:39.005 | SUCCESS  | __main__:process_single_pdf:71 - ✓ Successfully processed Efficacy and safety of cone-beam computed tomography-guided bronchoscopy
+2025-08-31 23:26:39.006 | INFO     | __main__:main:189 - [136/414] Processing Slebos-2018-Endobronchial Coils for Endoscopic.pdf
+2025-08-31 23:26:39.006 | INFO     | __main__:process_single_pdf:52 - Processing Slebos-2018-Endobronchial Coils for Endoscopic.pdf...
+2025-08-31 23:27:31.641 | SUCCESS  | __main__:process_single_pdf:71 - ✓ Successfully processed Slebos-2018-Endobronchial Coils for Endoscopic
+2025-08-31 23:27:31.641 | INFO     | __main__:main:189 - [137/414] Processing Interventional Bronchoscopy.pdf
+2025-08-31 23:27:31.641 | INFO     | __main__:process_single_pdf:52 - Processing Interventional Bronchoscopy.pdf...
+2025-08-31 23:32:37.453 | SUCCESS  | __main__:process_single_pdf:71 - ✓ Successfully processed Interventional Bronchoscopy
+2025-08-31 23:32:37.454 | INFO     | __main__:main:189 - [138/414] Processing Ambulatory management of primary spontaneous p.pdf
+2025-08-31 23:32:37.454 | INFO     | __main__:process_single_pdf:52 - Processing Ambulatory management of primary spontaneous p.pdf...
+2025-08-31 23:34:00.269 | SUCCESS  | __main__:process_single_pdf:71 - ✓ Successfully processed Ambulatory management of primary spontaneous p
+2025-08-31 23:34:00.270 | INFO     | __main__:main:189 - [139/414] Processing Differentiating malignant and benign nodes with elastography.pdf
+2025-08-31 23:34:00.270 | INFO     | __main__:process_single_pdf:52 - Processing Differentiating malignant and benign nodes with elastography.pdf...
+2025-08-31 23:35:04.576 | SUCCESS  | __main__:process_single_pdf:71 - ✓ Successfully processed Differentiating malignant and benign nodes with elastography
+2025-08-31 23:35:04.576 | INFO     | __main__:main:189 - [140/414] Processing Understanding the economic impact of introducing a new procedure.pdf
+2025-08-31 23:35:04.576 | INFO     | __main__:process_single_pdf:52 - Processing Understanding the economic impact of introducing a new procedure.pdf...
+2025-08-31 23:35:52.224 | SUCCESS  | __main__:process_single_pdf:71 - ✓ Successfully processed Understanding the economic impact of introducing a new procedure
+2025-08-31 23:35:52.224 | INFO     | __main__:main:189 - [141/414] Processing IPC review.pdf
+2025-08-31 23:35:52.224 | INFO     | __main__:process_single_pdf:52 - Processing IPC review.pdf...
+2025-08-31 23:37:08.754 | SUCCESS  | __main__:process_single_pdf:71 - ✓ Successfully processed IPC review
+2025-08-31 23:37:08.754 | INFO     | __main__:main:189 - [142/414] Processing Indwelling Pleural Catheter versus Pleurodesis.pdf
+2025-08-31 23:37:08.754 | INFO     | __main__:process_single_pdf:52 - Processing Indwelling Pleural Catheter versus Pleurodesis.pdf...
+2025-08-31 23:38:12.611 | SUCCESS  | __main__:process_single_pdf:71 - ✓ Successfully processed Indwelling Pleural Catheter versus Pleurodesis
+2025-08-31 23:38:12.611 | INFO     | __main__:main:198 - Reached 140 successful processes, committing intermediate results...
+2025-08-31 23:38:12.611 | INFO     | __main__:git_commit_and_push:129 - Adding changes to git...
