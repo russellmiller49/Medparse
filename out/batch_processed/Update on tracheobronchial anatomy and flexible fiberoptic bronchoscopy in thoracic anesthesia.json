@@ -1,0 +1,2083 @@
+{
+  "metadata": {
+    "title": "Update on tracheobronchial anatomy and flexible fiberoptic bronchoscopy in thoracic anesthesia",
+    "year": "2009-02",
+    "authors": [
+      "Javier H. Campos"
+    ],
+    "references_text": [
+      "Progress in Lung Separation\n\t\t\n\t\t\tJavierHCampos\n\t\t\n\t\t10.1016/j.thorsurg.2004.09.003\n\t\n\t\n\t\tThoracic Surgery Clinics\n\t\tThoracic Surgery Clinics\n\t\t1547-4127\n\t\t\n\t\t\t15\n\t\t\t1\n\t\t\t\n\t\t\t2005\n\t\t\tElsevier BV",
+      "Flexible bronchoscopy: a safe method for metal stent implantation in bronchial disease\n\t\t\n\t\t\tHubertHautmann\n\t\t\n\t\t\n\t\t\tMartinBauer\n\t\t\n\t\t\n\t\t\tKlausJPfeifer\n\t\t\n\t\t\n\t\t\tRudolfMHuber\n\t\t\n\t\t10.1016/s0003-4975(99)01398-3\n\t\n\t\n\t\tThe Annals of Thoracic Surgery\n\t\tThe Annals of Thoracic Surgery\n\t\t0003-4975\n\t\t\n\t\t\t69\n\t\t\t2\n\t\t\t\n\t\t\t2000\n\t\t\tElsevier BV",
+      "High Frequency Jet Ventilation in Interventional Fiberoptic Bronchoscopy\n\t\t\n\t\t\tHubertHautmann\n\t\t\n\t\t\n\t\t\tFernandoGamarra\n\t\t\n\t\t\n\t\t\tMarkusHenke\n\t\t\n\t\t\n\t\t\tStephanieDiehm\n\t\t\n\t\t\n\t\t\tRudolfMHuber\n\t\t\n\t\t10.1097/00000539-200006000-00034\n\t\n\t\n\t\tAnesthesia & Analgesia\n\t\tAnesthesia & Analgesia\n\t\t0003-2999\n\t\t\n\t\t\t90\n\t\t\t6\n\t\t\t\n\t\t\t2000\n\t\t\tOvid Technologies (Wolters Kluwer Health)",
+      "Imaging of the Large Airways\n\t\t\n\t\t\tPhillipMBoiselle\n\t\t\n\t\t10.1016/j.ccm.2007.11.002\n\t\n\t\n\t\tClinics in Chest Medicine\n\t\tClinics in Chest Medicine\n\t\t0272-5231\n\t\t\n\t\t\t29\n\t\t\t1\n\t\t\t\n\t\t\t2008\n\t\t\tElsevier BV\n\t\t\n\t\n\tAn outstanding review on anatomic and radiological aspects",
+      "The relationship between the diameters of the adult cricoid ring and main tracheobronchial tree: a cadaver study to investigate the basis for double-lumen tube selection\n\t\t\n\t\t\tAlanHSeymour\n\t\t\n\t\t10.1016/s1053-0770(03)00057-0\n\t\n\t\n\t\tJournal of Cardiothoracic and Vascular Anesthesia\n\t\tJournal of Cardiothoracic and Vascular Anesthesia\n\t\t1053-0770\n\t\t\n\t\t\t17\n\t\t\t3\n\t\t\t\n\t\t\t2003\n\t\t\tElsevier BV",
+      "Anatomy of the Trachea, Carina, and Bronchi\n\t\t\n\t\t\tDouglasJMinnich\n\t\t\n\t\t\n\t\t\tDouglasJMathisen\n\t\t\n\t\t10.1016/j.thorsurg.2006.12.006\n\t\n\t\n\t\tThoracic Surgery Clinics\n\t\tThoracic Surgery Clinics\n\t\t1547-4127\n\t\t\n\t\t\t17\n\t\t\t4\n\t\t\t\n\t\t\t2007\n\t\t\tElsevier BV\n\t\t\n\t\n\tAn excellent review on anatomy of the tracheobronchial tree",
+      "Imaging of the airways with multidetector row computed tomography\n\t\t\n\t\t\tNavinRamachandran\n\t\t\n\t\t\n\t\t\tCatherineMOwens\n\t\t\n\t\t10.1016/j.prrv.2008.01.005\n\t\n\t\n\t\tPaediatric Respiratory Reviews\n\t\tPaediatric Respiratory Reviews\n\t\t1526-0542\n\t\t\n\t\t\t9\n\t\t\t2\n\t\t\t\n\t\t\t2008\n\t\t\tElsevier BV\n\t\t\n\t\n\tAn article related to imaging of the airway using multidetector technology",
+      "Role of Fiberoptic Bronchoscopy in Conjunction with the Use of Double-lumen Tubes for Thoracic Anesthesia\n\t\t\n\t\t\tUweKlein\n\t\t\n\t\t\n\t\t\tWaheedullahKarzai\n\t\t\n\t\t\n\t\t\tFrankBloos\n\t\t\n\t\t\n\t\t\tMathiasWohlfarth\n\t\t\n\t\t\n\t\t\tReinerGottschall\n\t\t\n\t\t\n\t\t\tHaraldFritz\n\t\t\n\t\t\n\t\t\tMichaelGugel\n\t\t\n\t\t\n\t\t\tAlbrechtSeifert\n\t\t\n\t\t10.1097/00000542-199802000-00012\n\t\n\t\n\t\tAnesthesiology\n\t\tAnesthesiology\n\t\t0003-3022\n\t\t\n\t\t\t88\n\t\t\t2\n\t\t\t\n\t\t\t1998\n\t\t\tOvid Technologies (Wolters Kluwer Health)",
+      "Devices for Lung Isolation Used by Anesthesiologists with Limited Thoracic Experience\n\t\t\n\t\t\tJavierHCampos\n\t\t\n\t\t\n\t\t\tEzraAHallam\n\t\t\n\t\t\n\t\t\tTimothyVan Natta\n\t\t\n\t\t\n\t\t\tKempHKernstine\n\t\t\n\t\t10.1097/00000542-200602000-00010\n\t\n\t\n\t\tAnesthesiology\n\t\tAnesthesiology\n\t\t0003-3022\n\t\t\n\t\t\t104\n\t\t\t2\n\t\t\t\n\t\t\t2006\n\t\t\tOvid Technologies (Wolters Kluwer Health)",
+      "A Comparison of a Left-Sided Broncho-Cath® with the Torque Control Blocker Univent and the Wire-Guided Blocker\n\t\t\n\t\t\tJavierHCampos\n\t\t\n\t\t\n\t\t\tKempHKernstine\n\t\t\n\t\t10.1213/00000539-200301000-00056\n\t\n\t\n\t\tAnesthesia & Analgesia\n\t\t0003-2999\n\t\t\n\t\t\t96\n\t\t\t1\n\t\t\t\n\t\t\t2003\n\t\t\tOvid Technologies (Wolters Kluwer Health)",
+      "An Update on Bronchial Blockers During Lung Separation Techniques in Adults\n\t\t\n\t\t\tJavierHCampos\n\t\t\n\t\t10.1213/01.ane.0000085301.87286.59\n\t\n\t\n\t\tAnesthesia & Analgesia\n\t\tAnesthesia & Analgesia\n\t\t0003-2999\n\t\t\n\t\t\t97\n\t\t\t\n\t\t\t2003\n\t\t\tOvid Technologies (Wolters Kluwer Health)"
+    ],
+    "references_raw": [
+      "Progress in lung separation\n\t\t\n\t\t\tJHCampos\n\t\t\n\t\n\t\n\t\tThorac Surg Clin\n\t\t\n\t\t\t75\n\t\t\t\n\t\t\t2005",
+      "Flexible bronchoscopy: a safe method for metal stent implantation in bronchial disease\n\t\t\n\t\t\tHHautmann\n\t\t\n\t\t\n\t\t\tMBauer\n\t\t\n\t\t\n\t\t\tKJPfeifer\n\t\t\n\t\n\t\n\t\tAnn Thorac Surg\n\t\t\n\t\t\t69\n\t\t\t\n\t\t\t2000",
+      "High frequency jet ventilation in interventional fiberoptic bronchoscopy\n\t\t\n\t\t\tHHautmann\n\t\t\n\t\t\n\t\t\tFGamarra\n\t\t\n\t\t\n\t\t\tMHenke\n\t\t\n\t\n\t\n\t\tAnesth Analg\n\t\t\n\t\t\t90\n\t\t\t\n\t\t\t2000",
+      "Imaging of the large airways\n\t\t\n\t\t\tPMBoiselle\n\t\t\n\t\n\t\n\t\tClin Chest Med\n\t\t\n\t\t\t29\n\t\t\t\n\t\t\t2008\n\t\t\n\t\n\tAn outstanding review on anatomic and radiological aspects",
+      "The relationship between the diameters of the adult cricoid ring and main tracheobronchial tree: a cadaver study to investigate the basis for double-lumen tube selection\n\t\t\n\t\t\tAHSeymour\n\t\t\n\t\n\t\n\t\tJ Cardiothorac Vasc Anesth\n\t\t\n\t\t\t17\n\t\t\t\n\t\t\t2003",
+      "Anatomy of the trachea, carina and bronchi\n\t\t\n\t\t\tDJMinnich\n\t\t\n\t\t\n\t\t\tDJMathisen\n\t\t\n\t\n\t\n\t\tThorac Surg Clin\n\t\t\n\t\t\t17\n\t\t\t\n\t\t\t2007\n\t\t\n\t\n\tAn excellent review on anatomy of the tracheobronchial tree",
+      "Imaging of the airways with multidetector row computed tomography\n\t\t\n\t\t\tNRamachandran\n\t\t\n\t\t\n\t\t\tCMOwens\n\t\t\n\t\n\t\n\t\tPaediatr Respir Rev\n\t\t\n\t\t\t9\n\t\t\t\n\t\t\t2008\n\t\t\n\t\n\tAn article related to imaging of the airway using multidetector technology",
+      "Role of fiberoptic bronchoscopy in conjunction with the use of double-lumen tubes for thoracic anesthesia\n\t\t\n\t\t\tUKlein\n\t\t\n\t\t\n\t\t\tWKarzai\n\t\t\n\t\t\n\t\t\tFBloos\n\t\t\n\t\n\t\n\t\tAnesthesiology\n\t\t\n\t\t\t88\n\t\t\t\n\t\t\t1998",
+      "Devices for lung isolation used by anesthesiologists with limited thoracic experience: comparison of double-lumen endotracheal tube, Univent torque control blocker, and Arndt wire-guided endobronchial blocker\n\t\t\n\t\t\tJHCampos\n\t\t\n\t\t\n\t\t\tEAHallam\n\t\t\n\t\t\n\t\t\tTVan Natta\n\t\t\n\t\n\t\n\t\tAnesthesiology\n\t\t\n\t\t\t104\n\t\t\t\n\t\t\t2006",
+      "A comparison of a left-sided Broncho-Cath with the torque control blocker univent and the wire-guided blocker\n\t\t\n\t\t\tJHCampos\n\t\t\n\t\t\n\t\t\tKHKernstine\n\t\t\n\t\n\t\n\t\tAnesth Analg\n\t\t\n\t\t\t96\n\t\t\t\n\t\t\t2003",
+      "An update on bronchial blockers during lung separation techniques in adults\n\t\t\n\t\t\tJHCampos\n\t\t\n\t\n\t\n\t\tAnesth Analg\n\t\t\n\t\t\t97\n\t\t\t\n\t\t\t2003"
+    ],
+    "references_struct": [
+      {
+        "title": "Progress in lung separation",
+        "journal": "Thorac Surg Clin",
+        "year": "2005",
+        "volume": "75",
+        "issue": null,
+        "pages": null,
+        "doi": null,
+        "pmid": null,
+        "authors": [
+          "Campos JH"
+        ],
+        "first_author_last": "Campos"
+      },
+      {
+        "title": "Flexible bronchoscopy: a safe method for metal stent implantation in bronchial disease",
+        "journal": "Ann Thorac Surg",
+        "year": "2000",
+        "volume": "69",
+        "issue": null,
+        "pages": null,
+        "doi": null,
+        "pmid": null,
+        "authors": [
+          "Hautmann H",
+          "Bauer M",
+          "Pfeifer KJ"
+        ],
+        "first_author_last": "Hautmann"
+      },
+      {
+        "title": "High frequency jet ventilation in interventional fiberoptic bronchoscopy",
+        "journal": "Anesth Analg",
+        "year": "2000",
+        "volume": "90",
+        "issue": null,
+        "pages": null,
+        "doi": null,
+        "pmid": null,
+        "authors": [
+          "Hautmann H",
+          "Gamarra F",
+          "Henke M"
+        ],
+        "first_author_last": "Hautmann"
+      },
+      {
+        "title": "Imaging of the large airways",
+        "journal": "Clin Chest Med",
+        "year": "2008",
+        "volume": "29",
+        "issue": null,
+        "pages": null,
+        "doi": null,
+        "pmid": null,
+        "authors": [
+          "Boiselle PM"
+        ],
+        "first_author_last": "Boiselle"
+      },
+      {
+        "title": "The relationship between the diameters of the adult cricoid ring and main tracheobronchial tree: a cadaver study to investigate the basis for double-lumen tube selection",
+        "journal": "J Cardiothorac Vasc Anesth",
+        "year": "2003",
+        "volume": "17",
+        "issue": null,
+        "pages": null,
+        "doi": null,
+        "pmid": null,
+        "authors": [
+          "Seymour AH"
+        ],
+        "first_author_last": "Seymour"
+      },
+      {
+        "title": "Anatomy of the trachea, carina and bronchi",
+        "journal": "Thorac Surg Clin",
+        "year": "2007",
+        "volume": "17",
+        "issue": null,
+        "pages": null,
+        "doi": null,
+        "pmid": null,
+        "authors": [
+          "Minnich DJ",
+          "Mathisen DJ"
+        ],
+        "first_author_last": "Minnich"
+      },
+      {
+        "title": "Imaging of the airways with multidetector row computed tomography",
+        "journal": "Paediatr Respir Rev",
+        "year": "2008",
+        "volume": "9",
+        "issue": null,
+        "pages": null,
+        "doi": null,
+        "pmid": null,
+        "authors": [
+          "Ramachandran N",
+          "Owens CM"
+        ],
+        "first_author_last": "Ramachandran"
+      },
+      {
+        "title": "Role of fiberoptic bronchoscopy in conjunction with the use of double-lumen tubes for thoracic anesthesia",
+        "journal": "Anesthesiology",
+        "year": "1998",
+        "volume": "88",
+        "issue": null,
+        "pages": null,
+        "doi": null,
+        "pmid": null,
+        "authors": [
+          "Klein U",
+          "Karzai W",
+          "Bloos F"
+        ],
+        "first_author_last": "Klein"
+      },
+      {
+        "title": "Devices for lung isolation used by anesthesiologists with limited thoracic experience: comparison of double-lumen endotracheal tube, Univent torque control blocker, and Arndt wire-guided endobronchial blocker",
+        "journal": "Anesthesiology",
+        "year": "2006",
+        "volume": "104",
+        "issue": null,
+        "pages": null,
+        "doi": null,
+        "pmid": null,
+        "authors": [
+          "Campos JH",
+          "Hallam EA",
+          "Van Natta T"
+        ],
+        "first_author_last": "Campos"
+      },
+      {
+        "title": "A comparison of a left-sided Broncho-Cath with the torque control blocker univent and the wire-guided blocker",
+        "journal": "Anesth Analg",
+        "year": "2003",
+        "volume": "96",
+        "issue": null,
+        "pages": null,
+        "doi": null,
+        "pmid": null,
+        "authors": [
+          "Campos JH",
+          "Kernstine KH"
+        ],
+        "first_author_last": "Campos"
+      },
+      {
+        "title": "An update on bronchial blockers during lung separation techniques in adults",
+        "journal": "Anesth Analg",
+        "year": "2003",
+        "volume": "97",
+        "issue": null,
+        "pages": null,
+        "doi": null,
+        "pmid": null,
+        "authors": [
+          "Campos JH"
+        ],
+        "first_author_last": "Campos"
+      }
+    ],
+    "abstract": "Recognition of tracheobronchial anatomy and familiarity with the use of flexible fiberoptic bronchoscope are key components while managing patients undergoing thoracic surgery and anesthesia",
+    "references_enriched": [
+      {
+        "title": "Progress in lung separation",
+        "year": 2005
+      },
+      {
+        "title": "Thorac Surg Clin",
+        "year": 2005
+      },
+      {
+        "title": "Flexible bronchoscopy: a safe method for metal stent implantation in bronchial disease",
+        "year": 2005
+      },
+      {
+        "title": "Ann Thorac Surg",
+        "year": 2000
+      },
+      {
+        "title": "High frequency jet ventilation in interventional fiberoptic bronchoscopy",
+        "year": 2000
+      },
+      {
+        "title": "Anesth Analg",
+        "year": 2000
+      },
+      {
+        "title": "Imaging of the large airways",
+        "year": 2000
+      },
+      {
+        "title": "Clin Chest Med",
+        "year": 2000
+      },
+      {
+        "title": "The relationship between the diameters of the adult cricoid ring and main tracheobronchial tree: a cadaver study to investigate the basis for double-lumen tube selection",
+        "year": 2008
+      },
+      {
+        "title": "J Cardiothorac Vasc Anesth",
+        "year": 2003
+      },
+      {
+        "title": "Anatomy of the trachea, carina and bronchi",
+        "year": 2003
+      },
+      {
+        "title": "Thorac Surg Clin",
+        "year": 2005
+      },
+      {
+        "title": "Imaging of the airways with multidetector row computed tomography",
+        "year": 2007
+      },
+      {
+        "title": "Paediatr Respir Rev",
+        "year": 2008
+      },
+      {
+        "title": "Role of fiberoptic bronchoscopy in conjunction with the use of double-lumen tubes for thoracic anesthesia",
+        "year": 2008
+      },
+      {
+        "title": "Anesthesiology",
+        "year": 1998
+      },
+      {
+        "title": "Devices for lung isolation used by anesthesiologists with limited thoracic experience: comparison of double-lumen endotracheal tube, Univent torque control blocker, and Arndt wire-guided endobronchial blocker",
+        "year": 1998
+      },
+      {
+        "title": "Anesthesiology",
+        "year": 1998
+      },
+      {
+        "title": "A comparison of a left-sided Broncho-Cath with the torque control blocker univent and the wire-guided blocker",
+        "year": 2006
+      },
+      {
+        "title": "Anesth Analg",
+        "year": 2000
+      },
+      {
+        "title": "An update on bronchial blockers during lung separation techniques in adults",
+        "year": 2003
+      },
+      {
+        "title": "Anesth Analg",
+        "year": 2000
+      }
+    ],
+    "references_source": "grobid_fallback"
+  },
+  "structure": {
+    "sections": [
+      {
+        "title": "Update on tracheobronchial anatomy and flexible fiberoptic bronchoscopy in thoracic anesthesia",
+        "paragraphs": [
+          {
+            "text": "Javier H. Campos"
+          }
+        ],
+        "category": "other"
+      },
+      {
+        "title": "Introduction",
+        "paragraphs": [
+          {
+            "text": "Recent progress made in surgical techniques for thoracic, cardiac, and esophageal surgery has led to the increased use of lung isolation techniques with either a double-lumen endotracheal tube (DLT) or a bronchial blocker and the use of fiberoptic bronchoscopy [1]. In addition, there is an increased demand in interventional fiberoptic bronchoscopy for stent placement or laser surgery performed in the operating room [2,3]."
+          },
+          {
+            "text": "In order to achieve optimal position and performance of lung isolation devices, every anesthesiologist must have knowledge of the trachea and bronchial anatomy and its variants. In addition, knowledge of flexible fiberoptic bronchoscopy techniques is required during placement of lung isolation devices and interventional bronchoscopy cases."
+          },
+          {
+            "text": "This review focuses on the normal anatomy of the trachea and bronchus and the changes that occur with age, a"
+          },
+          {
+            "text": "complete fiberoptic bronchoscopy examination and examples of fiberoptic bronchoscopy during placement of lung isolation devices."
+          }
+        ],
+        "category": "introduction"
+      },
+      {
+        "title": "Anatomy of the trachea and bronchus",
+        "paragraphs": [
+          {
+            "text": "The trachea is a cartilaginous and fibromuscular tubular structure that extends from the inferior aspect of the cricoid cartilage to the level of the carina [4 /C15/C15 ]. The adult trachea is, on average, 15 cm long. The trachea is composed of 16-22 C-shaped cartilages. The cartilages compose the anterior and lateral walls of the trachea and are connected posteriorly by the membranous wall of the trachea, which lacks cartilage and is supported by the trachealis muscle."
+          },
+          {
+            "text": "The average diameter in a normal trachea is 22 mm in men and 19mm in women. In men, the coronal diameter ranges from 13 to 25 mm and the sagittal diameter ranges from 13 to 27mm. In women, the average coronal diameter is 10-21mm and the sagittal is 10-23mm [4 /C15/C15 ,5]. The tracheal wall is about 3 mm in thickness in"
+          },
+          {
+            "text": "Department of Anesthesia, University of Iowa Hospitals and Clinics, Iowa City, Iowa, USA"
+          },
+          {
+            "text": "Correspondence to Dr Javier H. Campos, MD, Professor of Anesthesia, Vice Chair of Clinical Affairs, Medical Director Operating Rooms, Director of Cardiothoracic Anesthesia, Department of Anesthesia, University of Iowa Hospitals and Clinics, Iowa City, IA 52242, USA"
+          },
+          {
+            "text": "Tel: +1 319 356 7208; fax: +1 319 356 2940; e-mail: javier-campos@uiowa.edu"
+          },
+          {
+            "text": "Current Opinion in Anaesthesiology 2009,"
+          },
+          {
+            "text": "22:4-10"
+          }
+        ],
+        "category": "other"
+      },
+      {
+        "title": "Purpose of review",
+        "paragraphs": [
+          {
+            "text": "This review is focused on tracheobronchial anatomy and the use of flexible fiberoptic bronchoscopy in thoracic anesthesia."
+          }
+        ],
+        "category": "other"
+      },
+      {
+        "title": "Recent findings",
+        "paragraphs": [
+          {
+            "text": "A complete knowledge of tracheobronchial anatomy is a key factor in determining proper position of lung isolation devices, namely double-lumen endotracheal tubes and bronchial blockers. In addition, changes occur in tracheobronchial anatomy with age; therefore, it is very important that every anesthesiologist is familiar with these anatomical changes in order to recognize anatomical landmarks and perform a successful placement of lung isolation devices. Flexible fiberoptic bronchoscopy must be considered an art in the practice of thoracic anesthesia."
+          }
+        ],
+        "category": "results"
+      },
+      {
+        "title": "Summary",
+        "paragraphs": [
+          {
+            "text": "Recognition of tracheobronchial anatomy and familiarity with the use of flexible fiberoptic bronchoscope are key components while managing patients undergoing thoracic surgery and anesthesia."
+          }
+        ],
+        "category": "abstract"
+      },
+      {
+        "title": "Keywords",
+        "paragraphs": [
+          {
+            "text": "bronchial blockers, double-lumen endotracheal tubes, flexible fiberoptic bronchoscopy, tracheobronchial anatomy"
+          },
+          {
+            "text": "Curr Opin Anaesthesiol 22:4-10 /C223 2009 Wolters Kluwer Health | Lippincott Williams & Wilkins 0952-7907"
+          },
+          {
+            "text": "both men and women, with a tracheal lumen that is often ovoid in shape."
+          },
+          {
+            "text": "The trachea is located in the midline position, but often can be deviated to the right at the level of the aortic arch, with a greater degree of displacement in the setting of an atherosclerotic aorta, advanced age or in the presence of severe chronic obstruction pulmonary disease (Chronic obstructive pulmonary disease (COPD)). With Chronic obstructive pulmonary disease (COPD) or aging, the lateral diameter of the trachea may decrease with an increase in the anteroposterior diameter. Conversely, Chronic obstructive pulmonary disease (COPD) may also lead to softening of the tracheal rings with a decrease in the anteroposterior diameter of the trachea [6 /C15/C15 ]. The cricoid cartilage is the narrowest part of the trachea with an average diameter of 17 mm in men and 13 mm in women."
+          },
+          {
+            "text": "The trachea bifurcates at the carina into the right and left mainstem bronchus. An important fact is that the tracheal lumen narrows slightly as it progresses towards the carina. The tracheal bifurcation is located at the level of the sternal angle anteriorly and the 5th thoracic vertebra posteriorly. The right mainstem bronchus lies in a more vertical orientation relative to the trachea, whereas the left mainstem bronchus lies in a more horizontal plane. The right mainstem bronchus continues as the bronchus intermedius after the take-off of the right upper lobe bronchus. In men, the average distance from the tracheal carina to the take-off of the right upper lobe bronchus is an average of 2.0 cm, whereas it is approximately 1.5 cm in women. One in every 250 individuals from the general population may have an abnormal take-off of the right upper lobe bronchus emerging from above the tracheal carina on the right side. The diameter of the right mainstem bronchus is an average of 17.5 mm in men and 14 mm in women. The trifurcation of the right upper lobe bronchus consists of the apical, anterior and posterior division. This is a very important landmark to identify while performing fiberoptic bronchoscopy in order to distinguish the right from the left mainstem bronchus. The distance from the tracheal carina to the bifurcation of the left upper and left lower lobe is approximately 5.0 cm in men and 4.5 cm in women. The left mainstem bronchus is longer than the right mainstem bronchus, and it divides into the left upper and the left lower lobe bronchus. The left upper lobe bronchus has a superior and inferior division. Figure 1 displays the anatomical distances of the airway. Figures 2, 3 and 4 correspond to a multidetector three-dimensional computer tomography scan of the chest [7 /C15 ] displaying the trachea and bronchial anatomy in a 25-year-old healthy volunteer (Fig. 2), in a 60-year-old healthy woman (Fig. 3), and in a 60-year-old man with severe Chronic obstructive pulmonary disease (COPD) (Fig. 4), which shows a deviated trachea and narrow bronchus.",
+            "cross_refs": [
+              {
+                "type": "figure",
+                "index": 0,
+                "text": "Figure 1",
+                "span": [
+                  1642,
+                  1650
+                ]
+              },
+              {
+                "type": "figure",
+                "index": 1,
+                "text": "Fig. 2",
+                "span": [
+                  1896,
+                  1902
+                ]
+              },
+              {
+                "type": "figure",
+                "index": 2,
+                "text": "Fig. 3",
+                "span": [
+                  1937,
+                  1943
+                ]
+              },
+              {
+                "type": "figure",
+                "index": 3,
+                "text": "Fig. 4",
+                "span": [
+                  2029,
+                  2035
+                ]
+              }
+            ]
+          }
+        ],
+        "category": "other"
+      },
+      {
+        "title": "Flexible fiberoptic bronchoscopy examination after intubation",
+        "paragraphs": [
+          {
+            "text": "Flexible fiberoptic bronchoscopy is a diagnostic and therapeutic procedure of great value in the clinical practice of anesthesia. The most common method to perform flexible fiberoptic bronchoscopy is with the use of a single-lumen endotracheal tube. Once the tube is advanced beyond the vocal cords and inside the trachea, the tip of the endotracheal tube should come to rest 3-4cm above the tracheal carina. A Portex fiberoptic bronchoscope (SSL Americas, Inc., Norcross, Georgia, USA) swivel adapter with a self-sealing valve is used to facilitate ventilation and manipulation of the"
+          },
+          {
+            "text": "bronchoscope at the same time. When using a large singlelumenendotrachealtube,anadultfiberopticbronchoscope should be used (4.1 mm inner diameter). Another alternative to perform fiberoptic bronchoscopy is with the use of a"
+          },
+          {
+            "text": "laryngeal mask airway (LMA). This technique allows visualization of the vocal cords and subglottic structures with lower resistance than a single-lumen endotracheal tube when the bronchoscope is inserted."
+          },
+          {
+            "text": "A systematic and complete fiberoptic bronchoscopy examination includes a clear view of the anterior wall (tracheal cartilage) and posterior wall (membranous portion) of the trachea below the vocal cords and of the tracheal carina. When advancing the bronchoscope through the right mainstem bronchus, a clear view of the bronchus intermedius should be seen, and at 3 o'clock the orifice of the right upper bronchus should also be seen. As the scope is advanced inside the take-off of the right upper bronchus, a clear view of the orifices is found: apical, anterior and posterior segments. This is the only structure in the tracheobronchial tree that has three orifices. After withdrawing the bronchoscope from the right upper bronchus, it is advanced distally into the bronchus intermedius in order to identify the middle and lower right lobe bronchi. The right middle bronchus has the shape of a letter D. Once the complete examination has been performed on the right mainstem bronchus, the bronchoscope is withdrawn until the tracheal carina is seen again. Then the bronchoscope is readvanced into the left mainstem bronchus in which the bifurcation into left upper and lower lobe is visualized. The anatomical distance from tracheal carina to the bifurcation on the left-sided bronchus is approximately 4-5cm in length. Figure 5 shows a complete fiberoptic bronchoscopy view of the trachea and bronchus.",
+            "cross_refs": [
+              {
+                "type": "figure",
+                "index": 4,
+                "text": "Figure 5",
+                "span": [
+                  1323,
+                  1331
+                ]
+              }
+            ]
+          },
+          {
+            "text": "A shows a clear view of the tracheal carina. B shows the take-off of the right upper bronchus. C shows the apical, anterior, and posterior segments of the right upper lobe bronchus (RULB). D shows the right middle lobe (RML) and the right lower lobe bronchus (RLL). E shows a view of the left upper lobe (LUL) and the left lower lobe bronchus (LLL)."
+          },
+          {
+            "text": "(a)"
+          }
+        ],
+        "category": "other"
+      },
+      {
+        "title": "Flexible fiberoptic bronchoscopy and doublelumen endotracheal tube placement",
+        "paragraphs": [
+          {
+            "text": "The use of flexible fiberoptic bronchoscopy in thoracic anesthesia has increased the margin of safety and optimal position of DLTs. A study by Klein et al. [8] has shown"
+          },
+          {
+            "text": "that auscultation and clamping maneuvers alone of one of the limbs of the adaptor for the DLT was not a reliable method to confirm placement, and it led to up to a 35% incidence of malpositions. In contrast, when fiberoptic bronchoscopy was used to reconfirm DLT placement and position, all malpositions were corrected. This clearly"
+          },
+          {
+            "text": "(a) The take-off of the right upper bronchus with three segments (apical, anterior, and posterior) when the fiberoptic bronchoscope emerges from the opening slot located in the endobronchial lumen. (b) An unobstructed view of the entrance of the left mainstem bronchus when the fiberscope is passed through the tracheal lumen and the edge of the fully inflated endobronchial cuff is below the tracheal carina in the right bronchus."
+          },
+          {
+            "text": "(a) An unobstructed view of the entrance of the right mainstem bronchus when the fiberscope is passed through the tracheal lumen and the edge of the fully inflated endobronchial cuff is below the tracheal carina in the left bronchus. (b) An unobstructed view of the left upper and left lower bronchus when the fiberoptic bronchoscope is advanced through the endobronchial lumen. (c) The take-off of the right upper bronchus with the three segments (apical, anterior, and posterior); this is a landmark to reconfirm a right bronchus."
+          },
+          {
+            "text": "shows the benefits of using fiberoptic bronchoscopy while placing a DLT. A study by Campos et al. [9] has shown that anesthesiologists with limited thoracic experience have a high incidence of malpositions (38%) while placing DLTs or bronchial blockers. In this study, one of the factors that contributed to unsuccessful placement of these devices was the lack of recognition of tracheobronchial anatomy."
+          },
+          {
+            "text": "The basic fiberoptic bronchoscopy examination for achieving optimal position of a right-sided DLT is shown in Fig. 6; Fig. 7 shows the optimal position of a left-sided DLT with the flexible fiberoptic bronchoscope.",
+            "cross_refs": [
+              {
+                "type": "figure",
+                "index": 5,
+                "text": "Fig. 6",
+                "span": [
+                  110,
+                  116
+                ]
+              },
+              {
+                "type": "figure",
+                "index": 6,
+                "text": "Fig. 7",
+                "span": [
+                  118,
+                  124
+                ]
+              }
+            ]
+          },
+          {
+            "text": "Another advantage of the use of flexible fiberoptic bronchoscopy is with the use of bronchial blockers during lung isolation. Previous studies have shown the benefits of using flexible fiberoptic bronchoscopy as an aid to pass a guide-wire bronchial blocker, to achieve the optimal position of the device and correct intraoperative malpositions [10,11]. Figure 8 shows the proper position of an Arndt wire-guided endobronchial blocker (William Cook Europe A/S, Bjaeverskor, Denmark). The optimal position is achieved with the use of a fiberscope. The proximal surface of the fully inflated balloon should be positioned at least 5-10 mm below the tracheal carina in the corresponding mainstem bronchus. While placing a right-sided bronchial blocker, if the distance between the tracheal carina and the take-off of the right upper lobe bronchus is too short (i.e. less than 1.0 cm), a proper adjustment with the fully inflated balloon needs to be made, making sure that the proximal surface of the balloon is located below the entrance of the right mainstem bronchus. Figure 9 shows the proper position of a bronchial blocker on the right mainstem bronchus.",
+            "cross_refs": [
+              {
+                "type": "figure",
+                "index": 7,
+                "text": "Figure 8",
+                "span": [
+                  354,
+                  362
+                ]
+              },
+              {
+                "type": "figure",
+                "index": 8,
+                "text": "Figure 9",
+                "span": [
+                  1066,
+                  1074
+                ]
+              }
+            ]
+          },
+          {
+            "text": "Flexible fiberoptic bronchoscopy is also used to perform endobronchial metal stent implantation. Another use of flexible fiberoptic bronchoscopy in anesthesia is during the"
+          },
+          {
+            "text": "use of airway exchange guide-wire catheters. Complete fiberscope examination is indicated following airway exchange catheter use owing to the potential risk of perforation that the catheter presents to the tracheobronchial tree."
+          }
+        ],
+        "category": "other"
+      },
+      {
+        "title": "Summary",
+        "paragraphs": [
+          {
+            "text": "The use of flexible fiberoptic bronchoscopy should be considered an art in thoracic anesthesia. To master this art, one must be able to recognize tracheobronchial anatomy and changes that occur with age, understand the anatomical distances of the airway, recognize the take-off of the right upper bronchus, and have familiarity and expertise with the use of the flexible fiberoptic bronchoscope. These will lead to a successful placement of lung isolation devices in thoracic anesthesia."
+          }
+        ],
+        "category": "abstract"
+      },
+      {
+        "title": "References and recommended reading",
+        "paragraphs": [
+          {
+            "text": "Papers of particular interest, published within the annual period of review, have been highlighted as:"
+          },
+          {
+            "text": "/C15 of special interest"
+          },
+          {
+            "text": "/C15/C15 of outstanding interest"
+          },
+          {
+            "text": "Additional references related to this topic can also be found in the Current World Literature section in this issue (p. 129)."
+          },
+          {
+            "text": "1 Campos JH. Progress in lung separation. Thorac Surg Clin 2005; 75:71-83."
+          },
+          {
+            "text": "2 Hautmann H, Bauer M, Pfeifer KJ, et al. Flexible bronchoscopy: a safe method for metal stent implantation in bronchial disease. Ann Thorac Surg 2000; 69:398-401."
+          },
+          {
+            "text": "3 Hautmann H, Gamarra F, Henke M, et al. High frequency jet ventilation in interventional fiberoptic bronchoscopy. Anesth Analg 2000; 90:14361440."
+          },
+          {
+            "text": "4 Boiselle PM. Imaging of the large airways. Clin Chest Med 2008; 29:181-"
+          },
+          {
+            "text": "/C15 /C15 193."
+          },
+          {
+            "text": "An outstanding review on anatomic and radiological aspects."
+          },
+          {
+            "text": "5 Seymour AH. The relationship between the diameters of the adult cricoid ring and main tracheobronchial tree: a cadaver study to investigate the basis for double-lumen tube selection. J Cardiothorac Vasc Anesth 2003; 17:299301."
+          },
+          {
+            "text": "6 Minnich DJ, Mathisen DJ. Anatomy of the trachea, carina and bronchi. Thorac"
+          },
+          {
+            "text": "/C15 /C15 Surg Clin 2007; 17:571-585."
+          },
+          {
+            "text": "An excellent review on anatomy of the tracheobronchial tree."
+          },
+          {
+            "text": "7 Ramachandran N, Owens CM. Imaging of the airways with multidetector row"
+          },
+          {
+            "text": "/C15 computed tomography. Paediatr Respir Rev 2008; 9:69-76."
+          },
+          {
+            "text": "An article related to imaging of the airway using multidetector technology."
+          },
+          {
+            "text": "8 Klein U, Karzai W, Bloos F, et al. Role of fiberoptic bronchoscopy in conjunction with the use of double-lumen tubes for thoracic anesthesia. Anesthesiology 1998; 88:346-350."
+          },
+          {
+            "text": "9 Campos JH, Hallam EA, Van Natta T, et al. Devices for lung isolation used by anesthesiologists with limited thoracic experience: comparison of double-lumen endotracheal tube, Univent torque control blocker, and Arndt wire-guided endobronchial blocker. Anesthesiology 2006; 104: 261-266."
+          },
+          {
+            "text": "10 Campos JH, Kernstine KH. A comparison of a left-sided Broncho-Cath with the torque control blocker univent and the wire-guided blocker. Anesth Analg 2003; 96:283-289."
+          },
+          {
+            "text": "11 Campos JH. An update on bronchial blockers during lung separation techniques in adults. Anesth Analg 2003; 97:1266-1274."
+          }
+        ],
+        "category": "other"
+      }
+    ],
+    "tables": [],
+    "figures": [
+      {
+        "self_ref": "#/pictures/0",
+        "parent": {
+          "cref": "#/body"
+        },
+        "children": [
+          {
+            "cref": "#/texts/33"
+          },
+          {
+            "cref": "#/texts/34"
+          },
+          {
+            "cref": "#/texts/35"
+          },
+          {
+            "cref": "#/texts/36"
+          },
+          {
+            "cref": "#/texts/37"
+          },
+          {
+            "cref": "#/texts/38"
+          }
+        ],
+        "content_layer": "body",
+        "label": "picture",
+        "prov": [
+          {
+            "page_no": 2,
+            "bbox": {
+              "l": 298.49249267578125,
+              "t": 682.9882583618164,
+              "r": 537.6762084960938,
+              "b": 323.50921630859375,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "charspan": [
+              0,
+              0
+            ]
+          }
+        ],
+        "captions": [
+          {
+            "cref": "#/texts/33"
+          }
+        ],
+        "references": [],
+        "footnotes": [],
+        "image": null,
+        "annotations": []
+      },
+      {
+        "self_ref": "#/pictures/1",
+        "parent": {
+          "cref": "#/body"
+        },
+        "children": [
+          {
+            "cref": "#/texts/45"
+          },
+          {
+            "cref": "#/texts/46"
+          },
+          {
+            "cref": "#/texts/47"
+          }
+        ],
+        "content_layer": "body",
+        "label": "picture",
+        "prov": [
+          {
+            "page_no": 3,
+            "bbox": {
+              "l": 68.57395935058594,
+              "t": 698.23681640625,
+              "r": 542.3574829101562,
+              "b": 478.0179443359375,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "charspan": [
+              0,
+              0
+            ]
+          }
+        ],
+        "captions": [
+          {
+            "cref": "#/texts/45"
+          }
+        ],
+        "references": [],
+        "footnotes": [],
+        "image": null,
+        "annotations": []
+      },
+      {
+        "self_ref": "#/pictures/2",
+        "parent": {
+          "cref": "#/body"
+        },
+        "children": [
+          {
+            "cref": "#/texts/50"
+          },
+          {
+            "cref": "#/texts/51"
+          },
+          {
+            "cref": "#/texts/52"
+          }
+        ],
+        "content_layer": "body",
+        "label": "picture",
+        "prov": [
+          {
+            "page_no": 3,
+            "bbox": {
+              "l": 67.87764739990234,
+              "t": 336.47979736328125,
+              "r": 524.9032592773438,
+              "b": 89.45758056640625,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "charspan": [
+              0,
+              0
+            ]
+          }
+        ],
+        "captions": [
+          {
+            "cref": "#/texts/50"
+          }
+        ],
+        "references": [],
+        "footnotes": [],
+        "image": null,
+        "annotations": []
+      },
+      {
+        "self_ref": "#/pictures/3",
+        "parent": {
+          "cref": "#/body"
+        },
+        "children": [
+          {
+            "cref": "#/texts/58"
+          },
+          {
+            "cref": "#/texts/59"
+          }
+        ],
+        "content_layer": "body",
+        "label": "picture",
+        "prov": [
+          {
+            "page_no": 4,
+            "bbox": {
+              "l": 297.5368347167969,
+              "t": 686.2937240600586,
+              "r": 513.9469604492188,
+              "b": 437.6876525878906,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "charspan": [
+              0,
+              0
+            ]
+          }
+        ],
+        "captions": [
+          {
+            "cref": "#/texts/58"
+          }
+        ],
+        "references": [],
+        "footnotes": [],
+        "image": null,
+        "annotations": []
+      },
+      {
+        "self_ref": "#/pictures/4",
+        "parent": {
+          "cref": "#/body"
+        },
+        "children": [],
+        "content_layer": "body",
+        "label": "picture",
+        "prov": [
+          {
+            "page_no": 4,
+            "bbox": {
+              "l": 75.8581314086914,
+              "t": 685.8013381958008,
+              "r": 278.2004089355469,
+              "b": 436.97039794921875,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "charspan": [
+              0,
+              0
+            ]
+          }
+        ],
+        "captions": [],
+        "references": [],
+        "footnotes": [],
+        "image": null,
+        "annotations": []
+      },
+      {
+        "self_ref": "#/pictures/5",
+        "parent": {
+          "cref": "#/body"
+        },
+        "children": [
+          {
+            "cref": "#/texts/61"
+          },
+          {
+            "cref": "#/texts/62"
+          },
+          {
+            "cref": "#/texts/63"
+          },
+          {
+            "cref": "#/texts/64"
+          },
+          {
+            "cref": "#/texts/65"
+          },
+          {
+            "cref": "#/texts/66"
+          },
+          {
+            "cref": "#/texts/67"
+          },
+          {
+            "cref": "#/texts/68"
+          }
+        ],
+        "content_layer": "body",
+        "label": "picture",
+        "prov": [
+          {
+            "page_no": 4,
+            "bbox": {
+              "l": 298.52423095703125,
+              "t": 306.18017578125,
+              "r": 537.7647705078125,
+              "b": 116.9974365234375,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "charspan": [
+              0,
+              0
+            ]
+          }
+        ],
+        "captions": [
+          {
+            "cref": "#/texts/61"
+          }
+        ],
+        "references": [],
+        "footnotes": [],
+        "image": null,
+        "annotations": []
+      },
+      {
+        "self_ref": "#/pictures/6",
+        "parent": {
+          "cref": "#/body"
+        },
+        "children": [
+          {
+            "cref": "#/texts/73"
+          }
+        ],
+        "content_layer": "body",
+        "label": "picture",
+        "prov": [
+          {
+            "page_no": 5,
+            "bbox": {
+              "l": 139.65696716308594,
+              "t": 702.5947875976562,
+              "r": 453.6230163574219,
+              "b": 494.0303039550781,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "charspan": [
+              0,
+              0
+            ]
+          }
+        ],
+        "captions": [
+          {
+            "cref": "#/texts/73"
+          }
+        ],
+        "references": [],
+        "footnotes": [],
+        "image": null,
+        "annotations": []
+      },
+      {
+        "self_ref": "#/pictures/7",
+        "parent": {
+          "cref": "#/body"
+        },
+        "children": [
+          {
+            "cref": "#/texts/77"
+          },
+          {
+            "cref": "#/texts/78"
+          },
+          {
+            "cref": "#/texts/79"
+          }
+        ],
+        "content_layer": "body",
+        "label": "picture",
+        "prov": [
+          {
+            "page_no": 5,
+            "bbox": {
+              "l": 131.4510040283203,
+              "t": 319.22943115234375,
+              "r": 461.5799255371094,
+              "b": 108.592041015625,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "charspan": [
+              0,
+              0
+            ]
+          }
+        ],
+        "captions": [
+          {
+            "cref": "#/texts/77"
+          }
+        ],
+        "references": [],
+        "footnotes": [],
+        "image": null,
+        "annotations": []
+      },
+      {
+        "self_ref": "#/pictures/8",
+        "parent": {
+          "cref": "#/body"
+        },
+        "children": [
+          {
+            "cref": "#/texts/88"
+          }
+        ],
+        "content_layer": "body",
+        "label": "picture",
+        "prov": [
+          {
+            "page_no": 6,
+            "bbox": {
+              "l": 301.2974853515625,
+              "t": 693.5919876098633,
+              "r": 533.4937744140625,
+              "b": 393.73321533203125,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "charspan": [
+              0,
+              0
+            ]
+          }
+        ],
+        "captions": [
+          {
+            "cref": "#/texts/88"
+          }
+        ],
+        "references": [],
+        "footnotes": [],
+        "image": null,
+        "annotations": []
+      },
+      {
+        "self_ref": "#/pictures/9",
+        "parent": {
+          "cref": "#/body"
+        },
+        "children": [
+          {
+            "cref": "#/texts/91"
+          },
+          {
+            "cref": "#/texts/92"
+          },
+          {
+            "cref": "#/texts/93"
+          },
+          {
+            "cref": "#/texts/94"
+          },
+          {
+            "cref": "#/texts/95"
+          },
+          {
+            "cref": "#/texts/96"
+          },
+          {
+            "cref": "#/texts/97"
+          }
+        ],
+        "content_layer": "body",
+        "label": "picture",
+        "prov": [
+          {
+            "page_no": 6,
+            "bbox": {
+              "l": 58.07145690917969,
+              "t": 265.419677734375,
+              "r": 536.2802734375,
+              "b": 96.35516357421875,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "charspan": [
+              0,
+              0
+            ]
+          }
+        ],
+        "captions": [
+          {
+            "cref": "#/texts/91"
+          }
+        ],
+        "references": [],
+        "footnotes": [],
+        "image": null,
+        "annotations": []
+      }
+    ],
+    "citations": [],
+    "n_sections": 11,
+    "n_tables": 0,
+    "n_figures": 10,
+    "n_citations": 0
+  },
+  "provenance": {},
+  "grobid": {
+    "references_tei": "<TEI xmlns=\"http://www.tei-c.org/ns/1.0\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" \n xmlns:mml=\"http://www.w3.org/1998/Math/MathML\">\n\t<teiHeader/>\n\t<text>\n\t\t<front/>\n\t\t<body/>\n\t\t<back>\n\t\t\t<div>\n\t\t\t\t<listBibl>\n<biblStruct xml:id=\"b0\">\n\t<analytic>\n\t\t<title level=\"a\" type=\"main\">Progress in lung separation</title>\n\t\t<author>\n\t\t\t<persName><forename type=\"first\">J</forename><forename type=\"middle\">H</forename><surname>Campos</surname></persName>\n\t\t</author>\n\t</analytic>\n\t<monogr>\n\t\t<title level=\"j\">Thorac Surg Clin</title>\n\t\t<imprint>\n\t\t\t<biblScope unit=\"volume\">75</biblScope>\n\t\t\t<biblScope unit=\"page\" from=\"71\" to=\"83\" />\n\t\t\t<date type=\"published\" when=\"2005\">2005</date>\n\t\t</imprint>\n\t</monogr>\n</biblStruct>\n\n<biblStruct xml:id=\"b1\">\n\t<analytic>\n\t\t<title level=\"a\" type=\"main\">Flexible bronchoscopy: a safe method for metal stent implantation in bronchial disease</title>\n\t\t<author>\n\t\t\t<persName><forename type=\"first\">H</forename><surname>Hautmann</surname></persName>\n\t\t</author>\n\t\t<author>\n\t\t\t<persName><forename type=\"first\">M</forename><surname>Bauer</surname></persName>\n\t\t</author>\n\t\t<author>\n\t\t\t<persName><forename type=\"first\">K</forename><forename type=\"middle\">J</forename><surname>Pfeifer</surname></persName>\n\t\t</author>\n\t</analytic>\n\t<monogr>\n\t\t<title level=\"j\">Ann Thorac Surg</title>\n\t\t<imprint>\n\t\t\t<biblScope unit=\"volume\">69</biblScope>\n\t\t\t<biblScope unit=\"page\" from=\"398\" to=\"401\" />\n\t\t\t<date type=\"published\" when=\"2000\">2000</date>\n\t\t</imprint>\n\t</monogr>\n</biblStruct>\n\n<biblStruct xml:id=\"b2\">\n\t<analytic>\n\t\t<title level=\"a\" type=\"main\">High frequency jet ventilation in interventional fiberoptic bronchoscopy</title>\n\t\t<author>\n\t\t\t<persName><forename type=\"first\">H</forename><surname>Hautmann</surname></persName>\n\t\t</author>\n\t\t<author>\n\t\t\t<persName><forename type=\"first\">F</forename><surname>Gamarra</surname></persName>\n\t\t</author>\n\t\t<author>\n\t\t\t<persName><forename type=\"first\">M</forename><surname>Henke</surname></persName>\n\t\t</author>\n\t</analytic>\n\t<monogr>\n\t\t<title level=\"j\">Anesth Analg</title>\n\t\t<imprint>\n\t\t\t<biblScope unit=\"volume\">90</biblScope>\n\t\t\t<biblScope unit=\"page\" from=\"1436\" to=\"1440\" />\n\t\t\t<date type=\"published\" when=\"2000\">2000</date>\n\t\t</imprint>\n\t</monogr>\n</biblStruct>\n\n<biblStruct xml:id=\"b3\">\n\t<analytic>\n\t\t<title level=\"a\" type=\"main\">Imaging of the large airways</title>\n\t\t<author>\n\t\t\t<persName><forename type=\"first\">P</forename><forename type=\"middle\">M</forename><surname>Boiselle</surname></persName>\n\t\t</author>\n\t</analytic>\n\t<monogr>\n\t\t<title level=\"j\">Clin Chest Med</title>\n\t\t<imprint>\n\t\t\t<biblScope unit=\"volume\">29</biblScope>\n\t\t\t<biblScope unit=\"page\" from=\"181\" to=\"193\" />\n\t\t\t<date type=\"published\" when=\"2008\">2008</date>\n\t\t</imprint>\n\t</monogr>\n\t<note>An outstanding review on anatomic and radiological aspects</note>\n</biblStruct>\n\n<biblStruct xml:id=\"b4\">\n\t<analytic>\n\t\t<title level=\"a\" type=\"main\">The relationship between the diameters of the adult cricoid ring and main tracheobronchial tree: a cadaver study to investigate the basis for double-lumen tube selection</title>\n\t\t<author>\n\t\t\t<persName><forename type=\"first\">A</forename><forename type=\"middle\">H</forename><surname>Seymour</surname></persName>\n\t\t</author>\n\t</analytic>\n\t<monogr>\n\t\t<title level=\"j\">J Cardiothorac Vasc Anesth</title>\n\t\t<imprint>\n\t\t\t<biblScope unit=\"volume\">17</biblScope>\n\t\t\t<biblScope unit=\"page\" from=\"299\" to=\"301\" />\n\t\t\t<date type=\"published\" when=\"2003\">2003</date>\n\t\t</imprint>\n\t</monogr>\n</biblStruct>\n\n<biblStruct xml:id=\"b5\">\n\t<analytic>\n\t\t<title level=\"a\" type=\"main\">Anatomy of the trachea, carina and bronchi</title>\n\t\t<author>\n\t\t\t<persName><forename type=\"first\">D</forename><forename type=\"middle\">J</forename><surname>Minnich</surname></persName>\n\t\t</author>\n\t\t<author>\n\t\t\t<persName><forename type=\"first\">D</forename><forename type=\"middle\">J</forename><surname>Mathisen</surname></persName>\n\t\t</author>\n\t</analytic>\n\t<monogr>\n\t\t<title level=\"j\">Thorac Surg Clin</title>\n\t\t<imprint>\n\t\t\t<biblScope unit=\"volume\">17</biblScope>\n\t\t\t<biblScope unit=\"page\" from=\"571\" to=\"585\" />\n\t\t\t<date type=\"published\" when=\"2007\">2007</date>\n\t\t</imprint>\n\t</monogr>\n\t<note>An excellent review on anatomy of the tracheobronchial tree</note>\n</biblStruct>\n\n<biblStruct xml:id=\"b6\">\n\t<analytic>\n\t\t<title level=\"a\" type=\"main\">Imaging of the airways with multidetector row computed tomography</title>\n\t\t<author>\n\t\t\t<persName><forename type=\"first\">N</forename><surname>Ramachandran</surname></persName>\n\t\t</author>\n\t\t<author>\n\t\t\t<persName><forename type=\"first\">C</forename><forename type=\"middle\">M</forename><surname>Owens</surname></persName>\n\t\t</author>\n\t</analytic>\n\t<monogr>\n\t\t<title level=\"j\">Paediatr Respir Rev</title>\n\t\t<imprint>\n\t\t\t<biblScope unit=\"volume\">9</biblScope>\n\t\t\t<biblScope unit=\"page\" from=\"69\" to=\"76\" />\n\t\t\t<date type=\"published\" when=\"2008\">2008</date>\n\t\t</imprint>\n\t</monogr>\n\t<note>An article related to imaging of the airway using multidetector technology</note>\n</biblStruct>\n\n<biblStruct xml:id=\"b7\">\n\t<analytic>\n\t\t<title level=\"a\" type=\"main\">Role of fiberoptic bronchoscopy in conjunction with the use of double-lumen tubes for thoracic anesthesia</title>\n\t\t<author>\n\t\t\t<persName><forename type=\"first\">U</forename><surname>Klein</surname></persName>\n\t\t</author>\n\t\t<author>\n\t\t\t<persName><forename type=\"first\">W</forename><surname>Karzai</surname></persName>\n\t\t</author>\n\t\t<author>\n\t\t\t<persName><forename type=\"first\">F</forename><surname>Bloos</surname></persName>\n\t\t</author>\n\t</analytic>\n\t<monogr>\n\t\t<title level=\"j\">Anesthesiology</title>\n\t\t<imprint>\n\t\t\t<biblScope unit=\"volume\">88</biblScope>\n\t\t\t<biblScope unit=\"page\" from=\"346\" to=\"350\" />\n\t\t\t<date type=\"published\" when=\"1998\">1998</date>\n\t\t</imprint>\n\t</monogr>\n</biblStruct>\n\n<biblStruct xml:id=\"b8\">\n\t<analytic>\n\t\t<title level=\"a\" type=\"main\">Devices for lung isolation used by anesthesiologists with limited thoracic experience: comparison of double-lumen endotracheal tube, Univent torque control blocker, and Arndt wire-guided endobronchial blocker</title>\n\t\t<author>\n\t\t\t<persName><forename type=\"first\">J</forename><forename type=\"middle\">H</forename><surname>Campos</surname></persName>\n\t\t</author>\n\t\t<author>\n\t\t\t<persName><forename type=\"first\">E</forename><forename type=\"middle\">A</forename><surname>Hallam</surname></persName>\n\t\t</author>\n\t\t<author>\n\t\t\t<persName><forename type=\"first\">T</forename><surname>Van Natta</surname></persName>\n\t\t</author>\n\t</analytic>\n\t<monogr>\n\t\t<title level=\"j\">Anesthesiology</title>\n\t\t<imprint>\n\t\t\t<biblScope unit=\"volume\">104</biblScope>\n\t\t\t<biblScope unit=\"page\" from=\"261\" to=\"266\" />\n\t\t\t<date type=\"published\" when=\"2006\">2006</date>\n\t\t</imprint>\n\t</monogr>\n</biblStruct>\n\n<biblStruct xml:id=\"b9\">\n\t<analytic>\n\t\t<title level=\"a\" type=\"main\">A comparison of a left-sided Broncho-Cath with the torque control blocker univent and the wire-guided blocker</title>\n\t\t<author>\n\t\t\t<persName><forename type=\"first\">J</forename><forename type=\"middle\">H</forename><surname>Campos</surname></persName>\n\t\t</author>\n\t\t<author>\n\t\t\t<persName><forename type=\"first\">K</forename><forename type=\"middle\">H</forename><surname>Kernstine</surname></persName>\n\t\t</author>\n\t</analytic>\n\t<monogr>\n\t\t<title level=\"j\">Anesth Analg</title>\n\t\t<imprint>\n\t\t\t<biblScope unit=\"volume\">96</biblScope>\n\t\t\t<biblScope unit=\"page\" from=\"283\" to=\"289\" />\n\t\t\t<date type=\"published\" when=\"2003\">2003</date>\n\t\t</imprint>\n\t</monogr>\n</biblStruct>\n\n<biblStruct xml:id=\"b10\">\n\t<analytic>\n\t\t<title level=\"a\" type=\"main\">An update on bronchial blockers during lung separation techniques in adults</title>\n\t\t<author>\n\t\t\t<persName><forename type=\"first\">J</forename><forename type=\"middle\">H</forename><surname>Campos</surname></persName>\n\t\t</author>\n\t</analytic>\n\t<monogr>\n\t\t<title level=\"j\">Anesth Analg</title>\n\t\t<imprint>\n\t\t\t<biblScope unit=\"volume\">97</biblScope>\n\t\t\t<biblScope unit=\"page\" from=\"1266\" to=\"1274\" />\n\t\t\t<date type=\"published\" when=\"2003\">2003</date>\n\t\t</imprint>\n\t</monogr>\n</biblStruct>\n\n\t\t\t\t</listBibl>\n\t\t\t</div>\n\t\t</back>\n\t</text>\n</TEI>\n"
+  },
+  "umls_links": [],
+  "references_enriched": [
+    {
+      "title": "Progress in lung separation",
+      "journal": "Thorac Surg Clin",
+      "year": "2005",
+      "volume": "75",
+      "issue": null,
+      "pages": null,
+      "doi": null,
+      "pmid": null,
+      "authors": [
+        "Campos JH"
+      ],
+      "first_author_last": "Campos",
+      "enrichment": {
+        "pmid": "15707347",
+        "doi": null,
+        "title": "Progress in lung separation.",
+        "journal": "Thoracic surgery clinics",
+        "year": "2005",
+        "authors": [
+          "Campos JH"
+        ],
+        "mesh": [],
+        "pubtypes": [
+          "Journal Article",
+          "Review"
+        ],
+        "abstract": "The progress in lung separation technology has allowed anesthesiologists to become skillful in fiberoptic bronchoscopy techniques and to provide excellent lung exposure in thoracic surgery patients. Given the availability of two technologies--DLTs (right-sided and left-sided) and bronchial blocker technology (TCBU, Arndt, and Cohen--every case that requires lung collapse and OLV should receive the benefit of these devices. Because of its greater margin of safety, a left-sided DLT is the more common device used in lung separation. If any contraindication to placing a left-sided DLT exists, a right-sided DLT is an option for any specific situation (eg, left lung transplantation). For a patient who requires lung separation and presents with the dilemma of a difficult or abnormal airway, bronchial blockers offer more advantages. Regardless of the device used, the optimal position of these devices (DLTs and bronchial blockers) is achieved best with the use of fiberoptic bronchoscopy techniques first in supine and then in lateral decubitus position or whenever repositioning of the device is needed."
+      }
+    },
+    {
+      "title": "Flexible bronchoscopy: a safe method for metal stent implantation in bronchial disease",
+      "journal": "Ann Thorac Surg",
+      "year": "2000",
+      "volume": "69",
+      "issue": null,
+      "pages": null,
+      "doi": null,
+      "pmid": null,
+      "authors": [
+        "Hautmann H",
+        "Bauer M",
+        "Pfeifer KJ"
+      ],
+      "first_author_last": "Hautmann",
+      "enrichment": {
+        "pmid": "10735670",
+        "doi": null,
+        "title": "Flexible bronchoscopy: a safe method for metal stent implantation in bronchial disease.",
+        "journal": "The Annals of thoracic surgery",
+        "year": "2000",
+        "authors": [
+          "Hautmann H",
+          "Bauer M",
+          "Pfeifer KJ",
+          "Huber RM"
+        ],
+        "mesh": [],
+        "pubtypes": [
+          "Journal Article"
+        ],
+        "abstract": "Endoscopic bronchoplastic procedures, such as metal stent implantation, are for safety reasons and mainly performed using rigid bronchoscopy. Major complications, such as bleeding and accidental airway occlusion, are thought to be better managed with the rigid device. An increasing number of pneumologists, however, use the flexible fiberscope for endobronchial stenting."
+      }
+    },
+    {
+      "title": "High frequency jet ventilation in interventional fiberoptic bronchoscopy",
+      "journal": "Anesth Analg",
+      "year": "2000",
+      "volume": "90",
+      "issue": null,
+      "pages": null,
+      "doi": null,
+      "pmid": null,
+      "authors": [
+        "Hautmann H",
+        "Gamarra F",
+        "Henke M"
+      ],
+      "first_author_last": "Hautmann",
+      "enrichment": {
+        "pmid": "10825336",
+        "doi": null,
+        "title": "High frequency jet ventilation in interventional fiberoptic bronchoscopy.",
+        "journal": "Anesthesia and analgesia",
+        "year": "2000",
+        "authors": [
+          "Hautmann H",
+          "Gamarra F",
+          "Henke M",
+          "Diehm S",
+          "Huber RM"
+        ],
+        "mesh": [],
+        "pubtypes": [
+          "Clinical Trial",
+          "Journal Article"
+        ],
+        "abstract": "High frequency jet ventilation (HFJV) is a well accepted method for securing ventilation in rigid and interventional bronchoscopy. We describe a technique of HFJV using a 14F nylon insufflation catheter placed in the trachea to support stent implantation or endobronchial balloon dilation in endobronchial stenoses with the flexible fiberscope. One hundred sixty-one cases were treated with either a metal wire stent (n = 105) or with balloon dilation (n = 56). In addition to HFJV, IV anesthesia was applied in 132 cases. Driving pressure was 1125-1275 mm Hg, frequency 80-100/min, and inspiratory:expiratory ratio of 1:2. Fraction of inspired oxygen ranged from 0.3-1.0. The effects on alveolar ventilation were assessed by using blood-gas analysis and continuous monitoring of transcutaneous oxygen and carbon dioxide tension (P(tc)CO(2)). Complications consisted of hypertension (n = 8), hypotension (n = 6), bronchospasm (n = 5), and hypoxia (n = 6). In 52% of the cases, mild hypercarbia (P(tc)CO2 50-60mm Hg) was observed. In two cases, a P(tc)CO(2) &gt; 80 mm Hg resolved spontaneously when the patients returned to normal breathing after intermittent superimposed ventilation with a face mask. During placement of stents in the proximal trachea, the jet catheter had to be withdrawn, resulting in displacement of the catheter into the pharynx in one case, which was managed safely with the bronchoscope. In conclusion, HFJV achieves satisfactory operating conditions and provides adequate gas exchange for interventional bronchoscopic procedures with the fiberscope."
+      }
+    },
+    {
+      "title": "Imaging of the large airways",
+      "journal": "Clin Chest Med",
+      "year": "2008",
+      "volume": "29",
+      "issue": null,
+      "pages": null,
+      "doi": null,
+      "pmid": null,
+      "authors": [
+        "Boiselle PM"
+      ],
+      "first_author_last": "Boiselle",
+      "enrichment": {
+        "pmid": "18267191",
+        "doi": null,
+        "title": "Imaging of the large airways.",
+        "journal": "Clinics in chest medicine",
+        "year": "2008",
+        "authors": [
+          "Boiselle PM"
+        ],
+        "mesh": [],
+        "pubtypes": [
+          "Journal Article",
+          "Review"
+        ],
+        "abstract": "Recent advances in multidetector-row CT technology and advances in post-processing techniques have revolutionized the ability to noninvasively image the large airways. This article provides a comprehensive review of imaging of the large airways. Introductory sections covering airway anatomy and CT imaging methods are followed by a review of tracheobronchial stenoses, neoplasms, tracheobronchomalacia, and congenital large airway abnormalities. Throughout, an emphasis is placed upon the complementary role of axial CT images and multiplanar reformation and three-dimensional reconstruction images for noninvasively assessing the large airways."
+      }
+    },
+    {
+      "title": "The relationship between the diameters of the adult cricoid ring and main tracheobronchial tree: a cadaver study to investigate the basis for double-lumen tube selection",
+      "journal": "J Cardiothorac Vasc Anesth",
+      "year": "2003",
+      "volume": "17",
+      "issue": null,
+      "pages": null,
+      "doi": null,
+      "pmid": null,
+      "authors": [
+        "Seymour AH"
+      ],
+      "first_author_last": "Seymour",
+      "enrichment": {
+        "pmid": null,
+        "doi": null
+      }
+    },
+    {
+      "title": "Anatomy of the trachea, carina and bronchi",
+      "journal": "Thorac Surg Clin",
+      "year": "2007",
+      "volume": "17",
+      "issue": null,
+      "pages": null,
+      "doi": null,
+      "pmid": null,
+      "authors": [
+        "Minnich DJ",
+        "Mathisen DJ"
+      ],
+      "first_author_last": "Minnich",
+      "enrichment": {
+        "pmid": "18271170",
+        "doi": null,
+        "title": "Anatomy of the trachea, carina, and bronchi.",
+        "journal": "Thoracic surgery clinics",
+        "year": "2007",
+        "authors": [
+          "Minnich DJ",
+          "Mathisen DJ"
+        ],
+        "mesh": [],
+        "pubtypes": [
+          "Journal Article",
+          "Review"
+        ],
+        "abstract": "This article summarizes the pertinent points of tracheal and bronchial anatomy, including the relationships to surrounding structures. Tracheal and bronchial anatomy is essential knowledge for the thoracic surgeon, and an understanding of the anatomic relationships surrounding the airway is crucial to the safe performance of many thoracic surgical procedures. In addition, the more precise delineation of tracheal anatomy has contributed largely to the advancement of airway surgery in recent years. This article serves as a foundation for learning or reviewing this important topic."
+      }
+    },
+    {
+      "title": "Imaging of the airways with multidetector row computed tomography",
+      "journal": "Paediatr Respir Rev",
+      "year": "2008",
+      "volume": "9",
+      "issue": null,
+      "pages": null,
+      "doi": null,
+      "pmid": null,
+      "authors": [
+        "Ramachandran N",
+        "Owens CM"
+      ],
+      "first_author_last": "Ramachandran",
+      "enrichment": {
+        "pmid": "18513666",
+        "doi": null,
+        "title": "Imaging of the airways with multidetector row computed tomography.",
+        "journal": "Paediatric respiratory reviews",
+        "year": "2008",
+        "authors": [
+          "Ramachandran N",
+          "Owens CM"
+        ],
+        "mesh": [],
+        "pubtypes": [
+          "Journal Article",
+          "Review"
+        ],
+        "abstract": "The wide availability of multidetector row computed tomography (MDCT) continues to change the way we manage patients. Once the domain of the specialist paediatric centre, imaging of the paediatric thorax now routinely occurs in many general hospitals. The paediatric respiratory and radiology teams should therefore be familiar with this technique. This review examines the indications for MDCT, the different types of scan, the use of low-dose protocols for paediatric imaging and appropriate reconstruction techniques. Patient preparation, with particular respect to sedation and optimal contrast bolus delivery, is also addressed."
+      }
+    },
+    {
+      "title": "Role of fiberoptic bronchoscopy in conjunction with the use of double-lumen tubes for thoracic anesthesia",
+      "journal": "Anesthesiology",
+      "year": "1998",
+      "volume": "88",
+      "issue": null,
+      "pages": null,
+      "doi": null,
+      "pmid": null,
+      "authors": [
+        "Klein U",
+        "Karzai W",
+        "Bloos F"
+      ],
+      "first_author_last": "Klein",
+      "enrichment": {
+        "pmid": "9477054",
+        "doi": null,
+        "title": "Role of fiberoptic bronchoscopy in conjunction with the use of double-lumen tubes for thoracic anesthesia: a prospective study.",
+        "journal": "Anesthesiology",
+        "year": "1998",
+        "authors": [
+          "Klein U",
+          "Karzai W",
+          "Bloos F",
+          "Wohlfarth M",
+          "Gottschall R",
+          "Fritz H",
+          "Gugel M",
+          "Seifert A"
+        ],
+        "mesh": [],
+        "pubtypes": [
+          "Journal Article"
+        ],
+        "abstract": "Fiberoptic bronchoscopy has been recommended to verify the position of double-lumen tubes (DLT), but this remains controversial. The authors studied the role of bronchoscopy for placing and monitoring right- and left-sided DLTs after blind intubation and after positioning the patient."
+      }
+    },
+    {
+      "title": "Devices for lung isolation used by anesthesiologists with limited thoracic experience: comparison of double-lumen endotracheal tube, Univent torque control blocker, and Arndt wire-guided endobronchial blocker",
+      "journal": "Anesthesiology",
+      "year": "2006",
+      "volume": "104",
+      "issue": null,
+      "pages": null,
+      "doi": null,
+      "pmid": null,
+      "authors": [
+        "Campos JH",
+        "Hallam EA",
+        "Van Natta T"
+      ],
+      "first_author_last": "Campos",
+      "enrichment": {
+        "pmid": "16436844",
+        "doi": null,
+        "title": "Devices for lung isolation used by anesthesiologists with limited thoracic experience: comparison of double-lumen endotracheal tube, Univent torque control blocker, and Arndt wire-guided endobronchial blocker.",
+        "journal": "Anesthesiology",
+        "year": "2006",
+        "authors": [
+          "Campos JH",
+          "Hallam EA",
+          "Van Natta T",
+          "Kernstine KH"
+        ],
+        "mesh": [],
+        "pubtypes": [
+          "Journal Article",
+          "Randomized Controlled Trial"
+        ],
+        "abstract": "Lung isolation is accomplished with a double-lumen tube or a bronchial blocker. Previous studies comparing lung isolation methods were performed by experienced anesthesiologists in thoracic anesthesia. Therefore, the results of these studies may not be relevant to the anesthesiologist with limited experience. This study compared the success rates of lung isolation devices among anesthesiologists with limited experience in thoracic anesthesia."
+      }
+    },
+    {
+      "title": "A comparison of a left-sided Broncho-Cath with the torque control blocker univent and the wire-guided blocker",
+      "journal": "Anesth Analg",
+      "year": "2003",
+      "volume": "96",
+      "issue": null,
+      "pages": null,
+      "doi": null,
+      "pmid": null,
+      "authors": [
+        "Campos JH",
+        "Kernstine KH"
+      ],
+      "first_author_last": "Campos",
+      "enrichment": {
+        "pmid": "12505967",
+        "doi": null,
+        "title": "A comparison of a left-sided Broncho-Cath with the torque control blocker univent and the wire-guided blocker.",
+        "journal": "Anesthesia and analgesia",
+        "year": "2003",
+        "authors": [
+          "Campos JH",
+          "Kernstine KH"
+        ],
+        "mesh": [],
+        "pubtypes": [
+          "Clinical Trial",
+          "Journal Article",
+          "Randomized Controlled Trial"
+        ],
+        "abstract": "Lung isolation can be accomplished in two ways: the first, a double-lumen endotracheal tube (DLT) and the second, a bronchial blocker (Univent or Arndt blocker). Previous studies have found that the DLT and the Univent are comparable when providing lung isolation. A new bronchial blocker, the wire-guided endobronchial blocker (Arndt blocker), has been introduced. However, there is no study to report its effectiveness with lung isolation during elective thoracic surgical cases. Therefore, we designed a prospective, randomized trial to compare the effectiveness of lung isolation among the 3 endotracheal tubes: the left-sided DLT Broncho-Cath Group A (n = 16 patients), the torque control blocker Univent Group B (n = 16 patients), and the wire-guided Arndt blocker Group C (n = 32 patients). The following variables were recorded: 1) time to initially position the assigned tube, 2) frequency of malpositions, 3) frequency of use of fiberoptic bronchoscope, 4) overall surgical exposure, and 5) tube acquisition cost. The Arndt blocker took longer to place (3:34 min/s) compared with the other 2 groups: the DLT group (2:08 min/s) or the Univent group (2:38 min/s) (P &lt; 0.0004). There was no statistical difference in tube malpositions among the three groups: two for the DLT group, four for the Univent group, and nine in the Arndt group. Excluding the time for tube placement, the Arndt group also took longer for the lung to collapse (26:02 min/s), compared with the DLT group (17:54 min/s) or Univent group (19:28 min/s) (P &lt; 0.0060). Furthermore, unlike the other two groups, the majority of the Arndt patients required suction to achieve lung collapse. Once lung isolation was achieved, overall surgical exposure was rated excellent for the three groups. Acquisition cost for the DLT group was $1663.20 (21 tubes opened), $2329.00 for the Univent group (17 tubes opened), and $3567.00 for the Arndt group (33 wire-guided blockers opened). This study demonstrates that the Arndt blocker takes longer to position and longer to deflate the isolated lung. For elective thoracic surgical cases, once the lung was isolated, the management seemed to be similar for all three tube groups."
+      }
+    },
+    {
+      "title": "An update on bronchial blockers during lung separation techniques in adults",
+      "journal": "Anesth Analg",
+      "year": "2003",
+      "volume": "97",
+      "issue": null,
+      "pages": null,
+      "doi": null,
+      "pmid": null,
+      "authors": [
+        "Campos JH"
+      ],
+      "first_author_last": "Campos",
+      "enrichment": {
+        "pmid": "14570636",
+        "doi": null,
+        "title": "An update on bronchial blockers during lung separation techniques in adults.",
+        "journal": "Anesthesia and analgesia",
+        "year": "2003",
+        "authors": [
+          "Campos JH"
+        ],
+        "mesh": [],
+        "pubtypes": [
+          "Journal Article",
+          "Review"
+        ],
+        "abstract": "Techniques for one-lung ventilation (OLV) can be accomplished in two ways: The first involves the use of a double-lumen endotracheal tube (DLT). The second involves blockade of a mainstem bronchus (bronchial blockers). Bronchial blockade technology is on the rise, and in some specific clinical situations (e.g., management of the difficult airway during OLV or selective lobar blockade) it can offer more as an alternative to achieve OLV in adults. Special emphasis on newer information for the use of Fogarty embolectomy catheter as a bronchial blocker, the torque control blocker Univent, and the wire-guided endobronchial blocker (Arndt blocker) is included. Also this review describes placement, positioning, complications, ventilation modalities, and airflow resistances of all three bronchial blockers. Finally, the bronchial blockers can be used in many cases that require OLV, taking into consideration that bronchial blockers require longer time for placement, assisted suction to expedite lung collapse, and the use of fiberoptic bronchoscopy. The current use of bronchial blockers, supported by scientific evidence, dictates that bronchial blockers should be available in any service that performs lung separation techniques."
+      }
+    }
+  ],
+  "drugs": [],
+  "trial_ids": [],
+  "assets": {
+    "tables": [],
+    "figures": [
+      {
+        "type": "figure",
+        "content": {
+          "self_ref": "#/pictures/0",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [
+            {
+              "cref": "#/texts/33"
+            },
+            {
+              "cref": "#/texts/34"
+            },
+            {
+              "cref": "#/texts/35"
+            },
+            {
+              "cref": "#/texts/36"
+            },
+            {
+              "cref": "#/texts/37"
+            },
+            {
+              "cref": "#/texts/38"
+            }
+          ],
+          "content_layer": "body",
+          "label": "picture",
+          "prov": [
+            {
+              "page_no": 2,
+              "bbox": {
+                "l": 298.49249267578125,
+                "t": 682.9882583618164,
+                "r": 537.6762084960938,
+                "b": 323.50921630859375,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                0
+              ]
+            }
+          ],
+          "captions": [
+            {
+              "cref": "#/texts/33"
+            }
+          ],
+          "references": [],
+          "footnotes": [],
+          "image": null,
+          "annotations": []
+        },
+        "captions": [
+          "displays the anatomical distances of the airway. Figures 2, 3 and 4 correspond to a multidetector three-dimensional computer tomography scan of the chest [7 /C15 ] displaying the trachea and bronchial anatomy in a 25-year-old healthy volunteer (Fig. 2), in a 60-year-old healthy woman (Fig. 3), and in a 60-year-old man with severe Chronic obstructive pulmonary disease (COPD) (Fig. 4), which shows a deviated trachea and narrow bronchus."
+        ],
+        "footnotes": [
+          "omplete fiberoptic bronchoscopy examination and examples of fiberoptic bronchoscopy during placement of lung isolation devices.",
+          "ronchial blockers, double-lumen endotracheal tubes, flexible fiberoptic bronchoscopy, tracheobronchial anatomy",
+          "oth men and women, with a tracheal lumen that is often ovoid in shape.",
+          "ronchoscope at the same time. When using a large singlelumenendotrachealtube,anadultfiberopticbronchoscope should be used (4.1 mm inner diameter). Another alternative to perform fiberoptic bronchoscopy is with the use of a",
+          "aryngeal mask airway (LMA). This technique allows visualization of the vocal cords and subglottic structures with lower resistance than a single-lumen endotracheal tube when the bronchoscope is inserted.",
+          "hat auscultation and clamping maneuvers alone of one of the limbs of the adaptor for the DLT was not a reliable method to confirm placement, and it led to up to a 35% incidence of malpositions. In contrast, when fiberoptic bronchoscopy was used to reconfirm DLT placement and position, all malpositions were corrected. This clearly",
+          "hows the benefits of using fiberoptic bronchoscopy while placing a DLT. A study by Campos et al. [9] has shown that anesthesiologists with limited thoracic experience have a high incidence of malpositions (38%) while placing DLTs or bronchial blockers. In this study, one of the factors that contributed to unsuccessful placement of these devices was the lack of recognition of tracheobronchial anatomy.",
+          "se of airway exchange guide-wire catheters. Complete fiberscope examination is indicated following airway exchange catheter use owing to the potential risk of perforation that the catheter presents to the tracheobronchial tree."
+        ]
+      },
+      {
+        "type": "figure",
+        "content": {
+          "self_ref": "#/pictures/1",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [
+            {
+              "cref": "#/texts/45"
+            },
+            {
+              "cref": "#/texts/46"
+            },
+            {
+              "cref": "#/texts/47"
+            }
+          ],
+          "content_layer": "body",
+          "label": "picture",
+          "prov": [
+            {
+              "page_no": 3,
+              "bbox": {
+                "l": 68.57395935058594,
+                "t": 698.23681640625,
+                "r": 542.3574829101562,
+                "b": 478.0179443359375,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                0
+              ]
+            }
+          ],
+          "captions": [
+            {
+              "cref": "#/texts/45"
+            }
+          ],
+          "references": [],
+          "footnotes": [],
+          "image": null,
+          "annotations": []
+        },
+        "captions": [
+          "displays the anatomical distances of the airway. Figures 2, 3 and 4 correspond to a multidetector three-dimensional computer tomography scan of the chest [7 /C15 ] displaying the trachea and bronchial anatomy in a 25-year-old healthy volunteer (Fig. 2), in a 60-year-old healthy woman (Fig. 3), and in a 60-year-old man with severe Chronic obstructive pulmonary disease (COPD) (Fig. 4), which shows a deviated trachea and narrow bronchus."
+        ],
+        "footnotes": [
+          "omplete fiberoptic bronchoscopy examination and examples of fiberoptic bronchoscopy during placement of lung isolation devices.",
+          "ronchial blockers, double-lumen endotracheal tubes, flexible fiberoptic bronchoscopy, tracheobronchial anatomy",
+          "oth men and women, with a tracheal lumen that is often ovoid in shape.",
+          "ronchoscope at the same time. When using a large singlelumenendotrachealtube,anadultfiberopticbronchoscope should be used (4.1 mm inner diameter). Another alternative to perform fiberoptic bronchoscopy is with the use of a",
+          "aryngeal mask airway (LMA). This technique allows visualization of the vocal cords and subglottic structures with lower resistance than a single-lumen endotracheal tube when the bronchoscope is inserted.",
+          "hat auscultation and clamping maneuvers alone of one of the limbs of the adaptor for the DLT was not a reliable method to confirm placement, and it led to up to a 35% incidence of malpositions. In contrast, when fiberoptic bronchoscopy was used to reconfirm DLT placement and position, all malpositions were corrected. This clearly",
+          "hows the benefits of using fiberoptic bronchoscopy while placing a DLT. A study by Campos et al. [9] has shown that anesthesiologists with limited thoracic experience have a high incidence of malpositions (38%) while placing DLTs or bronchial blockers. In this study, one of the factors that contributed to unsuccessful placement of these devices was the lack of recognition of tracheobronchial anatomy.",
+          "se of airway exchange guide-wire catheters. Complete fiberscope examination is indicated following airway exchange catheter use owing to the potential risk of perforation that the catheter presents to the tracheobronchial tree."
+        ]
+      },
+      {
+        "type": "figure",
+        "content": {
+          "self_ref": "#/pictures/2",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [
+            {
+              "cref": "#/texts/50"
+            },
+            {
+              "cref": "#/texts/51"
+            },
+            {
+              "cref": "#/texts/52"
+            }
+          ],
+          "content_layer": "body",
+          "label": "picture",
+          "prov": [
+            {
+              "page_no": 3,
+              "bbox": {
+                "l": 67.87764739990234,
+                "t": 336.47979736328125,
+                "r": 524.9032592773438,
+                "b": 89.45758056640625,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                0
+              ]
+            }
+          ],
+          "captions": [
+            {
+              "cref": "#/texts/50"
+            }
+          ],
+          "references": [],
+          "footnotes": [],
+          "image": null,
+          "annotations": []
+        },
+        "captions": [
+          "displays the anatomical distances of the airway. Figures 2, 3 and 4 correspond to a multidetector three-dimensional computer tomography scan of the chest [7 /C15 ] displaying the trachea and bronchial anatomy in a 25-year-old healthy volunteer (Fig. 2), in a 60-year-old healthy woman (Fig. 3), and in a 60-year-old man with severe Chronic obstructive pulmonary disease (COPD) (Fig. 4), which shows a deviated trachea and narrow bronchus."
+        ],
+        "footnotes": [
+          "omplete fiberoptic bronchoscopy examination and examples of fiberoptic bronchoscopy during placement of lung isolation devices.",
+          "ronchial blockers, double-lumen endotracheal tubes, flexible fiberoptic bronchoscopy, tracheobronchial anatomy",
+          "oth men and women, with a tracheal lumen that is often ovoid in shape.",
+          "ronchoscope at the same time. When using a large singlelumenendotrachealtube,anadultfiberopticbronchoscope should be used (4.1 mm inner diameter). Another alternative to perform fiberoptic bronchoscopy is with the use of a",
+          "aryngeal mask airway (LMA). This technique allows visualization of the vocal cords and subglottic structures with lower resistance than a single-lumen endotracheal tube when the bronchoscope is inserted.",
+          "hat auscultation and clamping maneuvers alone of one of the limbs of the adaptor for the DLT was not a reliable method to confirm placement, and it led to up to a 35% incidence of malpositions. In contrast, when fiberoptic bronchoscopy was used to reconfirm DLT placement and position, all malpositions were corrected. This clearly",
+          "hows the benefits of using fiberoptic bronchoscopy while placing a DLT. A study by Campos et al. [9] has shown that anesthesiologists with limited thoracic experience have a high incidence of malpositions (38%) while placing DLTs or bronchial blockers. In this study, one of the factors that contributed to unsuccessful placement of these devices was the lack of recognition of tracheobronchial anatomy.",
+          "se of airway exchange guide-wire catheters. Complete fiberscope examination is indicated following airway exchange catheter use owing to the potential risk of perforation that the catheter presents to the tracheobronchial tree."
+        ]
+      },
+      {
+        "type": "figure",
+        "content": {
+          "self_ref": "#/pictures/3",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [
+            {
+              "cref": "#/texts/58"
+            },
+            {
+              "cref": "#/texts/59"
+            }
+          ],
+          "content_layer": "body",
+          "label": "picture",
+          "prov": [
+            {
+              "page_no": 4,
+              "bbox": {
+                "l": 297.5368347167969,
+                "t": 686.2937240600586,
+                "r": 513.9469604492188,
+                "b": 437.6876525878906,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                0
+              ]
+            }
+          ],
+          "captions": [
+            {
+              "cref": "#/texts/58"
+            }
+          ],
+          "references": [],
+          "footnotes": [],
+          "image": null,
+          "annotations": []
+        },
+        "captions": [
+          "displays the anatomical distances of the airway. Figures 2, 3 and 4 correspond to a multidetector three-dimensional computer tomography scan of the chest [7 /C15 ] displaying the trachea and bronchial anatomy in a 25-year-old healthy volunteer (Fig. 2), in a 60-year-old healthy woman (Fig. 3), and in a 60-year-old man with severe Chronic obstructive pulmonary disease (COPD) (Fig. 4), which shows a deviated trachea and narrow bronchus."
+        ],
+        "footnotes": [
+          "omplete fiberoptic bronchoscopy examination and examples of fiberoptic bronchoscopy during placement of lung isolation devices.",
+          "ronchial blockers, double-lumen endotracheal tubes, flexible fiberoptic bronchoscopy, tracheobronchial anatomy",
+          "oth men and women, with a tracheal lumen that is often ovoid in shape.",
+          "ronchoscope at the same time. When using a large singlelumenendotrachealtube,anadultfiberopticbronchoscope should be used (4.1 mm inner diameter). Another alternative to perform fiberoptic bronchoscopy is with the use of a",
+          "aryngeal mask airway (LMA). This technique allows visualization of the vocal cords and subglottic structures with lower resistance than a single-lumen endotracheal tube when the bronchoscope is inserted.",
+          "hat auscultation and clamping maneuvers alone of one of the limbs of the adaptor for the DLT was not a reliable method to confirm placement, and it led to up to a 35% incidence of malpositions. In contrast, when fiberoptic bronchoscopy was used to reconfirm DLT placement and position, all malpositions were corrected. This clearly",
+          "hows the benefits of using fiberoptic bronchoscopy while placing a DLT. A study by Campos et al. [9] has shown that anesthesiologists with limited thoracic experience have a high incidence of malpositions (38%) while placing DLTs or bronchial blockers. In this study, one of the factors that contributed to unsuccessful placement of these devices was the lack of recognition of tracheobronchial anatomy.",
+          "se of airway exchange guide-wire catheters. Complete fiberscope examination is indicated following airway exchange catheter use owing to the potential risk of perforation that the catheter presents to the tracheobronchial tree."
+        ]
+      },
+      {
+        "type": "figure",
+        "content": {
+          "self_ref": "#/pictures/4",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "label": "picture",
+          "prov": [
+            {
+              "page_no": 4,
+              "bbox": {
+                "l": 75.8581314086914,
+                "t": 685.8013381958008,
+                "r": 278.2004089355469,
+                "b": 436.97039794921875,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                0
+              ]
+            }
+          ],
+          "captions": [],
+          "references": [],
+          "footnotes": [],
+          "image": null,
+          "annotations": []
+        },
+        "captions": [
+          "displays the anatomical distances of the airway. Figures 2, 3 and 4 correspond to a multidetector three-dimensional computer tomography scan of the chest [7 /C15 ] displaying the trachea and bronchial anatomy in a 25-year-old healthy volunteer (Fig. 2), in a 60-year-old healthy woman (Fig. 3), and in a 60-year-old man with severe Chronic obstructive pulmonary disease (COPD) (Fig. 4), which shows a deviated trachea and narrow bronchus."
+        ],
+        "footnotes": [
+          "omplete fiberoptic bronchoscopy examination and examples of fiberoptic bronchoscopy during placement of lung isolation devices.",
+          "ronchial blockers, double-lumen endotracheal tubes, flexible fiberoptic bronchoscopy, tracheobronchial anatomy",
+          "oth men and women, with a tracheal lumen that is often ovoid in shape.",
+          "ronchoscope at the same time. When using a large singlelumenendotrachealtube,anadultfiberopticbronchoscope should be used (4.1 mm inner diameter). Another alternative to perform fiberoptic bronchoscopy is with the use of a",
+          "aryngeal mask airway (LMA). This technique allows visualization of the vocal cords and subglottic structures with lower resistance than a single-lumen endotracheal tube when the bronchoscope is inserted.",
+          "hat auscultation and clamping maneuvers alone of one of the limbs of the adaptor for the DLT was not a reliable method to confirm placement, and it led to up to a 35% incidence of malpositions. In contrast, when fiberoptic bronchoscopy was used to reconfirm DLT placement and position, all malpositions were corrected. This clearly",
+          "hows the benefits of using fiberoptic bronchoscopy while placing a DLT. A study by Campos et al. [9] has shown that anesthesiologists with limited thoracic experience have a high incidence of malpositions (38%) while placing DLTs or bronchial blockers. In this study, one of the factors that contributed to unsuccessful placement of these devices was the lack of recognition of tracheobronchial anatomy.",
+          "se of airway exchange guide-wire catheters. Complete fiberscope examination is indicated following airway exchange catheter use owing to the potential risk of perforation that the catheter presents to the tracheobronchial tree."
+        ]
+      },
+      {
+        "type": "figure",
+        "content": {
+          "self_ref": "#/pictures/5",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [
+            {
+              "cref": "#/texts/61"
+            },
+            {
+              "cref": "#/texts/62"
+            },
+            {
+              "cref": "#/texts/63"
+            },
+            {
+              "cref": "#/texts/64"
+            },
+            {
+              "cref": "#/texts/65"
+            },
+            {
+              "cref": "#/texts/66"
+            },
+            {
+              "cref": "#/texts/67"
+            },
+            {
+              "cref": "#/texts/68"
+            }
+          ],
+          "content_layer": "body",
+          "label": "picture",
+          "prov": [
+            {
+              "page_no": 4,
+              "bbox": {
+                "l": 298.52423095703125,
+                "t": 306.18017578125,
+                "r": 537.7647705078125,
+                "b": 116.9974365234375,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                0
+              ]
+            }
+          ],
+          "captions": [
+            {
+              "cref": "#/texts/61"
+            }
+          ],
+          "references": [],
+          "footnotes": [],
+          "image": null,
+          "annotations": []
+        },
+        "captions": [
+          "displays the anatomical distances of the airway. Figures 2, 3 and 4 correspond to a multidetector three-dimensional computer tomography scan of the chest [7 /C15 ] displaying the trachea and bronchial anatomy in a 25-year-old healthy volunteer (Fig. 2), in a 60-year-old healthy woman (Fig. 3), and in a 60-year-old man with severe Chronic obstructive pulmonary disease (COPD) (Fig. 4), which shows a deviated trachea and narrow bronchus."
+        ],
+        "footnotes": [
+          "omplete fiberoptic bronchoscopy examination and examples of fiberoptic bronchoscopy during placement of lung isolation devices.",
+          "ronchial blockers, double-lumen endotracheal tubes, flexible fiberoptic bronchoscopy, tracheobronchial anatomy",
+          "oth men and women, with a tracheal lumen that is often ovoid in shape.",
+          "ronchoscope at the same time. When using a large singlelumenendotrachealtube,anadultfiberopticbronchoscope should be used (4.1 mm inner diameter). Another alternative to perform fiberoptic bronchoscopy is with the use of a",
+          "aryngeal mask airway (LMA). This technique allows visualization of the vocal cords and subglottic structures with lower resistance than a single-lumen endotracheal tube when the bronchoscope is inserted.",
+          "hat auscultation and clamping maneuvers alone of one of the limbs of the adaptor for the DLT was not a reliable method to confirm placement, and it led to up to a 35% incidence of malpositions. In contrast, when fiberoptic bronchoscopy was used to reconfirm DLT placement and position, all malpositions were corrected. This clearly",
+          "hows the benefits of using fiberoptic bronchoscopy while placing a DLT. A study by Campos et al. [9] has shown that anesthesiologists with limited thoracic experience have a high incidence of malpositions (38%) while placing DLTs or bronchial blockers. In this study, one of the factors that contributed to unsuccessful placement of these devices was the lack of recognition of tracheobronchial anatomy.",
+          "se of airway exchange guide-wire catheters. Complete fiberscope examination is indicated following airway exchange catheter use owing to the potential risk of perforation that the catheter presents to the tracheobronchial tree."
+        ]
+      },
+      {
+        "type": "figure",
+        "content": {
+          "self_ref": "#/pictures/6",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [
+            {
+              "cref": "#/texts/73"
+            }
+          ],
+          "content_layer": "body",
+          "label": "picture",
+          "prov": [
+            {
+              "page_no": 5,
+              "bbox": {
+                "l": 139.65696716308594,
+                "t": 702.5947875976562,
+                "r": 453.6230163574219,
+                "b": 494.0303039550781,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                0
+              ]
+            }
+          ],
+          "captions": [
+            {
+              "cref": "#/texts/73"
+            }
+          ],
+          "references": [],
+          "footnotes": [],
+          "image": null,
+          "annotations": []
+        },
+        "captions": [
+          "displays the anatomical distances of the airway. Figures 2, 3 and 4 correspond to a multidetector three-dimensional computer tomography scan of the chest [7 /C15 ] displaying the trachea and bronchial anatomy in a 25-year-old healthy volunteer (Fig. 2), in a 60-year-old healthy woman (Fig. 3), and in a 60-year-old man with severe Chronic obstructive pulmonary disease (COPD) (Fig. 4), which shows a deviated trachea and narrow bronchus."
+        ],
+        "footnotes": [
+          "omplete fiberoptic bronchoscopy examination and examples of fiberoptic bronchoscopy during placement of lung isolation devices.",
+          "ronchial blockers, double-lumen endotracheal tubes, flexible fiberoptic bronchoscopy, tracheobronchial anatomy",
+          "oth men and women, with a tracheal lumen that is often ovoid in shape.",
+          "ronchoscope at the same time. When using a large singlelumenendotrachealtube,anadultfiberopticbronchoscope should be used (4.1 mm inner diameter). Another alternative to perform fiberoptic bronchoscopy is with the use of a",
+          "aryngeal mask airway (LMA). This technique allows visualization of the vocal cords and subglottic structures with lower resistance than a single-lumen endotracheal tube when the bronchoscope is inserted.",
+          "hat auscultation and clamping maneuvers alone of one of the limbs of the adaptor for the DLT was not a reliable method to confirm placement, and it led to up to a 35% incidence of malpositions. In contrast, when fiberoptic bronchoscopy was used to reconfirm DLT placement and position, all malpositions were corrected. This clearly",
+          "hows the benefits of using fiberoptic bronchoscopy while placing a DLT. A study by Campos et al. [9] has shown that anesthesiologists with limited thoracic experience have a high incidence of malpositions (38%) while placing DLTs or bronchial blockers. In this study, one of the factors that contributed to unsuccessful placement of these devices was the lack of recognition of tracheobronchial anatomy.",
+          "se of airway exchange guide-wire catheters. Complete fiberscope examination is indicated following airway exchange catheter use owing to the potential risk of perforation that the catheter presents to the tracheobronchial tree."
+        ]
+      },
+      {
+        "type": "figure",
+        "content": {
+          "self_ref": "#/pictures/7",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [
+            {
+              "cref": "#/texts/77"
+            },
+            {
+              "cref": "#/texts/78"
+            },
+            {
+              "cref": "#/texts/79"
+            }
+          ],
+          "content_layer": "body",
+          "label": "picture",
+          "prov": [
+            {
+              "page_no": 5,
+              "bbox": {
+                "l": 131.4510040283203,
+                "t": 319.22943115234375,
+                "r": 461.5799255371094,
+                "b": 108.592041015625,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                0
+              ]
+            }
+          ],
+          "captions": [
+            {
+              "cref": "#/texts/77"
+            }
+          ],
+          "references": [],
+          "footnotes": [],
+          "image": null,
+          "annotations": []
+        },
+        "captions": [
+          "displays the anatomical distances of the airway. Figures 2, 3 and 4 correspond to a multidetector three-dimensional computer tomography scan of the chest [7 /C15 ] displaying the trachea and bronchial anatomy in a 25-year-old healthy volunteer (Fig. 2), in a 60-year-old healthy woman (Fig. 3), and in a 60-year-old man with severe Chronic obstructive pulmonary disease (COPD) (Fig. 4), which shows a deviated trachea and narrow bronchus."
+        ],
+        "footnotes": [
+          "omplete fiberoptic bronchoscopy examination and examples of fiberoptic bronchoscopy during placement of lung isolation devices.",
+          "ronchial blockers, double-lumen endotracheal tubes, flexible fiberoptic bronchoscopy, tracheobronchial anatomy",
+          "oth men and women, with a tracheal lumen that is often ovoid in shape.",
+          "ronchoscope at the same time. When using a large singlelumenendotrachealtube,anadultfiberopticbronchoscope should be used (4.1 mm inner diameter). Another alternative to perform fiberoptic bronchoscopy is with the use of a",
+          "aryngeal mask airway (LMA). This technique allows visualization of the vocal cords and subglottic structures with lower resistance than a single-lumen endotracheal tube when the bronchoscope is inserted.",
+          "hat auscultation and clamping maneuvers alone of one of the limbs of the adaptor for the DLT was not a reliable method to confirm placement, and it led to up to a 35% incidence of malpositions. In contrast, when fiberoptic bronchoscopy was used to reconfirm DLT placement and position, all malpositions were corrected. This clearly",
+          "hows the benefits of using fiberoptic bronchoscopy while placing a DLT. A study by Campos et al. [9] has shown that anesthesiologists with limited thoracic experience have a high incidence of malpositions (38%) while placing DLTs or bronchial blockers. In this study, one of the factors that contributed to unsuccessful placement of these devices was the lack of recognition of tracheobronchial anatomy.",
+          "se of airway exchange guide-wire catheters. Complete fiberscope examination is indicated following airway exchange catheter use owing to the potential risk of perforation that the catheter presents to the tracheobronchial tree."
+        ]
+      },
+      {
+        "type": "figure",
+        "content": {
+          "self_ref": "#/pictures/8",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [
+            {
+              "cref": "#/texts/88"
+            }
+          ],
+          "content_layer": "body",
+          "label": "picture",
+          "prov": [
+            {
+              "page_no": 6,
+              "bbox": {
+                "l": 301.2974853515625,
+                "t": 693.5919876098633,
+                "r": 533.4937744140625,
+                "b": 393.73321533203125,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                0
+              ]
+            }
+          ],
+          "captions": [
+            {
+              "cref": "#/texts/88"
+            }
+          ],
+          "references": [],
+          "footnotes": [],
+          "image": null,
+          "annotations": []
+        },
+        "captions": [
+          "displays the anatomical distances of the airway. Figures 2, 3 and 4 correspond to a multidetector three-dimensional computer tomography scan of the chest [7 /C15 ] displaying the trachea and bronchial anatomy in a 25-year-old healthy volunteer (Fig. 2), in a 60-year-old healthy woman (Fig. 3), and in a 60-year-old man with severe Chronic obstructive pulmonary disease (COPD) (Fig. 4), which shows a deviated trachea and narrow bronchus."
+        ],
+        "footnotes": [
+          "omplete fiberoptic bronchoscopy examination and examples of fiberoptic bronchoscopy during placement of lung isolation devices.",
+          "ronchial blockers, double-lumen endotracheal tubes, flexible fiberoptic bronchoscopy, tracheobronchial anatomy",
+          "oth men and women, with a tracheal lumen that is often ovoid in shape.",
+          "ronchoscope at the same time. When using a large singlelumenendotrachealtube,anadultfiberopticbronchoscope should be used (4.1 mm inner diameter). Another alternative to perform fiberoptic bronchoscopy is with the use of a",
+          "aryngeal mask airway (LMA). This technique allows visualization of the vocal cords and subglottic structures with lower resistance than a single-lumen endotracheal tube when the bronchoscope is inserted.",
+          "hat auscultation and clamping maneuvers alone of one of the limbs of the adaptor for the DLT was not a reliable method to confirm placement, and it led to up to a 35% incidence of malpositions. In contrast, when fiberoptic bronchoscopy was used to reconfirm DLT placement and position, all malpositions were corrected. This clearly",
+          "hows the benefits of using fiberoptic bronchoscopy while placing a DLT. A study by Campos et al. [9] has shown that anesthesiologists with limited thoracic experience have a high incidence of malpositions (38%) while placing DLTs or bronchial blockers. In this study, one of the factors that contributed to unsuccessful placement of these devices was the lack of recognition of tracheobronchial anatomy.",
+          "se of airway exchange guide-wire catheters. Complete fiberscope examination is indicated following airway exchange catheter use owing to the potential risk of perforation that the catheter presents to the tracheobronchial tree."
+        ]
+      },
+      {
+        "type": "figure",
+        "content": {
+          "self_ref": "#/pictures/9",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [
+            {
+              "cref": "#/texts/91"
+            },
+            {
+              "cref": "#/texts/92"
+            },
+            {
+              "cref": "#/texts/93"
+            },
+            {
+              "cref": "#/texts/94"
+            },
+            {
+              "cref": "#/texts/95"
+            },
+            {
+              "cref": "#/texts/96"
+            },
+            {
+              "cref": "#/texts/97"
+            }
+          ],
+          "content_layer": "body",
+          "label": "picture",
+          "prov": [
+            {
+              "page_no": 6,
+              "bbox": {
+                "l": 58.07145690917969,
+                "t": 265.419677734375,
+                "r": 536.2802734375,
+                "b": 96.35516357421875,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                0
+              ]
+            }
+          ],
+          "captions": [
+            {
+              "cref": "#/texts/91"
+            }
+          ],
+          "references": [],
+          "footnotes": [],
+          "image": null,
+          "annotations": []
+        },
+        "captions": [
+          "displays the anatomical distances of the airway. Figures 2, 3 and 4 correspond to a multidetector three-dimensional computer tomography scan of the chest [7 /C15 ] displaying the trachea and bronchial anatomy in a 25-year-old healthy volunteer (Fig. 2), in a 60-year-old healthy woman (Fig. 3), and in a 60-year-old man with severe Chronic obstructive pulmonary disease (COPD) (Fig. 4), which shows a deviated trachea and narrow bronchus."
+        ],
+        "footnotes": [
+          "omplete fiberoptic bronchoscopy examination and examples of fiberoptic bronchoscopy during placement of lung isolation devices.",
+          "ronchial blockers, double-lumen endotracheal tubes, flexible fiberoptic bronchoscopy, tracheobronchial anatomy",
+          "oth men and women, with a tracheal lumen that is often ovoid in shape.",
+          "ronchoscope at the same time. When using a large singlelumenendotrachealtube,anadultfiberopticbronchoscope should be used (4.1 mm inner diameter). Another alternative to perform fiberoptic bronchoscopy is with the use of a",
+          "aryngeal mask airway (LMA). This technique allows visualization of the vocal cords and subglottic structures with lower resistance than a single-lumen endotracheal tube when the bronchoscope is inserted.",
+          "hat auscultation and clamping maneuvers alone of one of the limbs of the adaptor for the DLT was not a reliable method to confirm placement, and it led to up to a 35% incidence of malpositions. In contrast, when fiberoptic bronchoscopy was used to reconfirm DLT placement and position, all malpositions were corrected. This clearly",
+          "hows the benefits of using fiberoptic bronchoscopy while placing a DLT. A study by Campos et al. [9] has shown that anesthesiologists with limited thoracic experience have a high incidence of malpositions (38%) while placing DLTs or bronchial blockers. In this study, one of the factors that contributed to unsuccessful placement of these devices was the lack of recognition of tracheobronchial anatomy.",
+          "se of airway exchange guide-wire catheters. Complete fiberscope examination is indicated following airway exchange catheter use owing to the potential risk of perforation that the catheter presents to the tracheobronchial tree."
+        ]
+      }
+    ]
+  },
+  "statistics": [],
+  "validation": {
+    "checks": {
+      "has_title": true,
+      "has_authors": true,
+      "authors_are_valid": false,
+      "has_sections": true,
+      "sections_have_content": true,
+      "has_tables": false,
+      "tables_have_captions": true,
+      "tables_have_data": true,
+      "has_figures": true,
+      "figures_have_captions": false,
+      "figures_have_images": false,
+      "has_entities": false,
+      "has_statistics": false,
+      "has_references": true,
+      "refs_structured": true,
+      "refs_enriched_some": true,
+      "references_enriched": true,
+      "has_references_csv": false,
+      "has_cross_refs": false,
+      "umls_links": false,
+      "figures_textual_count": 0
+    },
+    "completeness_score": 61,
+    "is_valid": true,
+    "issues": [],
+    "warnings": [
+      "No medical entities found",
+      "No statistics extracted",
+      "Some figures missing captions"
+    ],
+    "quality_level": "acceptable"
+  }
+}

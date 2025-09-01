@@ -3812,3 +3812,141 @@ To https://github.com/russellmiller49/Medparse.git
 2025-09-01 04:23:04.295 | SUCCESS  | __main__:process_single_pdf:71 - ✓ Successfully processed Study Design and Rationale ENB and ETN  ALL IN ONE Trial
 2025-09-01 04:23:04.295 | INFO     | __main__:main:198 - Reached 260 successful processes, committing intermediate results...
 2025-09-01 04:23:04.295 | INFO     | __main__:git_commit_and_push:129 - Adding changes to git...
+2025-09-01 04:23:04.463 | INFO     | __main__:git_commit_and_push:145 - Creating git commit...
+[fix/extraction-hardening 586115e] feat: Batch processed 260 PDFs (intermediate commit)
+ 102 files changed, 237581 insertions(+), 1 deletion(-)
+ create mode 100644 out/batch_processed/Aggressive versus symptom-guided drainage of m.json
+ create mode 100644 out/batch_processed/Diagnostic yield and safety of navigation bronchoscopy.json
+ create mode 100644 out/batch_processed/Hooper-2010-Investigation of a unilateral pleu.json
+ create mode 100644 out/batch_processed/Improved diagnostic yield  with digital tomosynthesis ENB.json
+ create mode 100644 out/batch_processed/Indications and complications of rigid broncho.json
+ create mode 100644 out/batch_processed/Jayadevappa-2019-Outcomes of patients with adv.json
+ create mode 100644 out/batch_processed/Management of Malignant Pleural Effusions.json
+ create mode 100644 out/batch_processed/SSRAB in the Diagnosis of PPLs.json
+ create mode 100644 out/batch_processed/Study Design and Rationale ENB and ETN  ALL IN ONE Trial.json
+ create mode 100644 out/batch_processed/fistula Lazarus-2017-Persistent air leaks_ a review wi.json
+ create mode 100644 out/figures/Aggressive versus symptom-guided drainage of m_fig01.jpg
+ create mode 100644 out/figures/Aggressive versus symptom-guided drainage of m_fig03.jpg
+ create mode 100644 out/figures/Aggressive versus symptom-guided drainage of m_fig04.jpg
+ create mode 100644 out/figures/Aggressive versus symptom-guided drainage of m_fig05.jpg
+ create mode 100644 out/figures/Aggressive versus symptom-guided drainage of m_figure2.jpg
+ create mode 100644 out/figures/Hooper-2010-Investigation of a unilateral pleu_fig01.jpg
+ create mode 100644 out/figures/Hooper-2010-Investigation of a unilateral pleu_fig02.jpg
+ create mode 100644 out/figures/Hooper-2010-Investigation of a unilateral pleu_fig03.jpg
+ create mode 100644 out/figures/Hooper-2010-Investigation of a unilateral pleu_fig04.jpg
+ create mode 100644 out/figures/Hooper-2010-Investigation of a unilateral pleu_fig05.jpg
+ create mode 100644 out/figures/Hooper-2010-Investigation of a unilateral pleu_fig06.jpg
+ create mode 100644 out/figures/Improved diagnostic yield  with digital tomosynthesis ENB_fig01.jpg
+ create mode 100644 out/figures/Improved diagnostic yield  with digital tomosynthesis ENB_fig02.jpg
+ create mode 100644 out/figures/Improved diagnostic yield  with digital tomosynthesis ENB_fig03.jpg
+ create mode 100644 out/figures/Improved diagnostic yield  with digital tomosynthesis ENB_fig04.jpg
+ create mode 100644 out/figures/Improved diagnostic yield  with digital tomosynthesis ENB_fig05.jpg
+ create mode 100644 out/figures/Improved diagnostic yield  with digital tomosynthesis ENB_fig06.jpg
+ create mode 100644 out/figures/Improved diagnostic yield  with digital tomosynthesis ENB_fig07.jpg
+ create mode 100644 out/figures/Improved diagnostic yield  with digital tomosynthesis ENB_fig08.jpg
+ create mode 100644 out/figures/Indications and complications of rigid broncho_fig01.jpg
+ create mode 100644 out/figures/Indications and complications of rigid broncho_fig02.jpg
+ create mode 100644 out/figures/Indications and complications of rigid broncho_fig03.jpg
+ create mode 100644 out/figures/Indications and complications of rigid broncho_fig04.jpg
+ create mode 100644 out/figures/Indications and complications of rigid broncho_fig05.jpg
+ create mode 100644 out/figures/Indications and complications of rigid broncho_fig06.jpg
+ create mode 100644 out/figures/Indications and complications of rigid broncho_fig07.jpg
+ create mode 100644 out/figures/Indications and complications of rigid broncho_fig08.jpg
+ create mode 100644 out/figures/Indications and complications of rigid broncho_fig09.jpg
+ create mode 100644 out/figures/Indications and complications of rigid broncho_fig10.jpg
+ create mode 100644 out/figures/Indications and complications of rigid broncho_fig11.jpg
+ create mode 100644 out/figures/Indications and complications of rigid broncho_fig12.jpg
+ create mode 100644 out/figures/Indications and complications of rigid broncho_fig13.jpg
+ create mode 100644 out/figures/Indications and complications of rigid broncho_fig14.jpg
+ create mode 100644 out/figures/Indications and complications of rigid broncho_fig15.jpg
+ create mode 100644 out/figures/Indications and complications of rigid broncho_fig16.jpg
+ create mode 100644 out/figures/Indications and complications of rigid broncho_fig17.jpg
+ create mode 100644 out/figures/Indications and complications of rigid broncho_fig18.jpg
+ create mode 100644 out/figures/Indications and complications of rigid broncho_fig19.jpg
+ create mode 100644 out/figures/Indications and complications of rigid broncho_fig20.jpg
+ create mode 100644 out/figures/Indications and complications of rigid broncho_fig21.jpg
+ create mode 100644 out/figures/Indications and complications of rigid broncho_fig22.jpg
+ create mode 100644 out/figures/Indications and complications of rigid broncho_fig23.jpg
+ create mode 100644 out/figures/Indications and complications of rigid broncho_fig24.jpg
+ create mode 100644 out/figures/Indications and complications of rigid broncho_fig25.jpg
+ create mode 100644 out/figures/Indications and complications of rigid broncho_fig26.jpg
+ create mode 100644 out/figures/Indications and complications of rigid broncho_fig27.jpg
+ create mode 100644 out/figures/Indications and complications of rigid broncho_fig28.jpg
+ create mode 100644 out/figures/Indications and complications of rigid broncho_fig29.jpg
+ create mode 100644 out/figures/Indications and complications of rigid broncho_fig30.jpg
+ create mode 100644 out/figures/Indications and complications of rigid broncho_fig31.jpg
+ create mode 100644 out/figures/Indications and complications of rigid broncho_fig32.jpg
+ create mode 100644 out/figures/Indications and complications of rigid broncho_fig33.jpg
+ create mode 100644 out/figures/Jayadevappa-2019-Outcomes of patients with adv_fig01.jpg
+ create mode 100644 out/figures/Management of Malignant Pleural Effusions_figure1.jpg
+ create mode 100644 out/figures/SSRAB in the Diagnosis of PPLs_fig01.jpg
+ create mode 100644 out/figures/SSRAB in the Diagnosis of PPLs_fig02.jpg
+ create mode 100644 out/figures/SSRAB in the Diagnosis of PPLs_fig03.jpg
+ create mode 100644 out/figures/SSRAB in the Diagnosis of PPLs_fig05.jpg
+ create mode 100644 out/figures/SSRAB in the Diagnosis of PPLs_fig07.jpg
+ create mode 100644 out/figures/SSRAB in the Diagnosis of PPLs_figure1.jpg
+ create mode 100644 out/figures/SSRAB in the Diagnosis of PPLs_figure3.jpg
+ create mode 100644 out/figures/Study Design and Rationale ENB and ETN  ALL IN ONE Trial_fig01.jpg
+ create mode 100644 out/figures/Study Design and Rationale ENB and ETN  ALL IN ONE Trial_fig02.jpg
+ create mode 100644 out/figures/Study Design and Rationale ENB and ETN  ALL IN ONE Trial_fig03.jpg
+ create mode 100644 out/figures/Study Design and Rationale ENB and ETN  ALL IN ONE Trial_fig04.jpg
+ create mode 100644 out/figures/Study Design and Rationale ENB and ETN  ALL IN ONE Trial_fig05.jpg
+ create mode 100644 out/figures/Study Design and Rationale ENB and ETN  ALL IN ONE Trial_fig06.jpg
+ create mode 100644 out/figures/fistula Lazarus-2017-Persistent air leaks_ a review wi_fig01.jpg
+ create mode 100644 out/figures/fistula Lazarus-2017-Persistent air leaks_ a review wi_fig02.jpg
+ create mode 100644 out/figures/fistula Lazarus-2017-Persistent air leaks_ a review wi_fig03.jpg
+ create mode 100644 out/figures/fistula Lazarus-2017-Persistent air leaks_ a review wi_fig04.jpg
+ create mode 100644 out/qa/Aggressive versus symptom-guided drainage of m__umls.qa.json
+ create mode 100644 out/qa/Hooper-2010-Investigation of a unilateral pleu__umls.qa.json
+ create mode 100644 out/qa/Improved diagnostic yield  with digital tomosynthesis ENB__umls.qa.json
+ create mode 100644 out/qa/Indications and complications of rigid broncho__umls.qa.json
+ create mode 100644 out/qa/Jayadevappa-2019-Outcomes of patients with adv__umls.qa.json
+ create mode 100644 out/qa/Management of Malignant Pleural Effusions__umls.qa.json
+ create mode 100644 out/qa/SSRAB in the Diagnosis of PPLs__umls.qa.json
+ create mode 100644 out/qa/Study Design and Rationale ENB and ETN  ALL IN ONE Trial__umls.qa.json
+ create mode 100644 out/qa/fistula Lazarus-2017-Persistent air leaks_ a review wi__umls.qa.json
+ create mode 100644 out/references/Aggressive versus symptom-guided drainage of m.refs.csv
+ create mode 100644 out/references/Hooper-2010-Investigation of a unilateral pleu.refs.csv
+ create mode 100644 out/references/Improved diagnostic yield  with digital tomosynthesis ENB.refs.csv
+ create mode 100644 out/references/Indications and complications of rigid broncho.refs.csv
+ create mode 100644 out/references/Jayadevappa-2019-Outcomes of patients with adv.refs.csv
+ create mode 100644 out/references/Management of Malignant Pleural Effusions.refs.csv
+ create mode 100644 out/references/SSRAB in the Diagnosis of PPLs.refs.csv
+ create mode 100644 out/references/Study Design and Rationale ENB and ETN  ALL IN ONE Trial.refs.csv
+ create mode 100644 out/references/fistula Lazarus-2017-Persistent air leaks_ a review wi.refs.csv
+2025-09-01 04:23:04.499 | INFO     | __main__:git_commit_and_push:158 - Pushing to origin/fix/extraction-hardening...
+To https://github.com/russellmiller49/Medparse.git
+   a8dc38c..586115e  fix/extraction-hardening -> fix/extraction-hardening
+2025-09-01 04:23:09.208 | SUCCESS  | __main__:git_commit_and_push:161 - ✓ Successfully pushed to GitHub (branch: fix/extraction-hardening)
+2025-09-01 04:23:09.208 | INFO     | __main__:main:189 - [264/414] Processing Occupational adverse effects and protective factors in bronchoscopy .pdf
+2025-09-01 04:23:09.208 | INFO     | __main__:process_single_pdf:52 - Processing Occupational adverse effects and protective factors in bronchoscopy .pdf...
+2025-09-01 04:27:14.782 | SUCCESS  | __main__:process_single_pdf:71 - ✓ Successfully processed Occupational adverse effects and protective factors in bronchoscopy 
+2025-09-01 04:27:14.782 | INFO     | __main__:main:189 - [265/414] Processing Technical Aspects of EBUS  CHEST Guideline and Expert Panel Report.pdf
+2025-09-01 04:27:14.782 | INFO     | __main__:process_single_pdf:52 - Processing Technical Aspects of EBUS  CHEST Guideline and Expert Panel Report.pdf...
+2025-09-01 04:30:34.958 | SUCCESS  | __main__:process_single_pdf:71 - ✓ Successfully processed Technical Aspects of EBUS  CHEST Guideline and Expert Panel Report
+2025-09-01 04:30:34.958 | INFO     | __main__:main:189 - [266/414] Processing Pleural Interventions in the Management of Hep.pdf
+2025-09-01 04:30:34.958 | INFO     | __main__:process_single_pdf:52 - Processing Pleural Interventions in the Management of Hep.pdf...
+2025-09-01 04:31:43.516 | SUCCESS  | __main__:process_single_pdf:71 - ✓ Successfully processed Pleural Interventions in the Management of Hep
+2025-09-01 04:31:43.516 | INFO     | __main__:main:189 - [267/414] Processing incidence_and_outcomes_of_revision_bronchoscopies.11.pdf
+2025-09-01 04:31:43.516 | INFO     | __main__:process_single_pdf:52 - Processing incidence_and_outcomes_of_revision_bronchoscopies.11.pdf...
+2025-09-01 04:32:37.165 | SUCCESS  | __main__:process_single_pdf:71 - ✓ Successfully processed incidence_and_outcomes_of_revision_bronchoscopies.11
+2025-09-01 04:32:37.165 | INFO     | __main__:main:189 - [268/414] Processing Kimura-2015-Photodynamic Therapy (PDT) with Ch.pdf
+2025-09-01 04:32:37.165 | INFO     | __main__:process_single_pdf:52 - Processing Kimura-2015-Photodynamic Therapy (PDT) with Ch.pdf...
+2025-09-01 04:33:36.982 | SUCCESS  | __main__:process_single_pdf:71 - ✓ Successfully processed Kimura-2015-Photodynamic Therapy (PDT) with Ch
+2025-09-01 04:33:36.982 | INFO     | __main__:main:189 - [269/414] Processing Update on tracheobronchial anatomy and flexible fiberoptic bronchoscopy in thoracic anesthesia.pdf
+2025-09-01 04:33:36.983 | INFO     | __main__:process_single_pdf:52 - Processing Update on tracheobronchial anatomy and flexible fiberoptic bronchoscopy in thoracic anesthesia.pdf...
+2025-09-01 04:34:22.647 | SUCCESS  | __main__:process_single_pdf:71 - ✓ Successfully processed Update on tracheobronchial anatomy and flexible fiberoptic bronchoscopy in thoracic anesthesia
+2025-09-01 04:34:22.648 | INFO     | __main__:main:189 - [270/414] Processing Comparision of valves.pdf
+2025-09-01 04:34:22.648 | INFO     | __main__:process_single_pdf:52 - Processing Comparision of valves.pdf...
+2025-09-01 04:35:23.543 | SUCCESS  | __main__:process_single_pdf:71 - ✓ Successfully processed Comparision of valves
+2025-09-01 04:35:23.543 | INFO     | __main__:main:189 - [271/414] Processing ERSATS statement on IP.pdf
+2025-09-01 04:35:23.543 | INFO     | __main__:process_single_pdf:52 - Processing ERSATS statement on IP.pdf...
+2025-09-01 04:37:59.887 | SUCCESS  | __main__:process_single_pdf:71 - ✓ Successfully processed ERSATS statement on IP
+2025-09-01 04:37:59.888 | INFO     | __main__:main:189 - [272/414] Processing The utility of bronchoscopy in immunocompromised patients.pdf
+2025-09-01 04:37:59.888 | INFO     | __main__:process_single_pdf:52 - Processing The utility of bronchoscopy in immunocompromised patients.pdf...
+2025-09-01 04:40:40.260 | SUCCESS  | __main__:process_single_pdf:71 - ✓ Successfully processed The utility of bronchoscopy in immunocompromised patients
+2025-09-01 04:40:40.260 | INFO     | __main__:main:189 - [273/414] Processing fistula Silon-2017-Endoscopic Management of Esophagore.pdf
+2025-09-01 04:40:40.260 | INFO     | __main__:process_single_pdf:52 - Processing fistula Silon-2017-Endoscopic Management of Esophagore.pdf...
+2025-09-01 04:41:50.410 | SUCCESS  | __main__:process_single_pdf:71 - ✓ Successfully processed fistula Silon-2017-Endoscopic Management of Esophagore
+2025-09-01 04:41:50.410 | INFO     | __main__:main:198 - Reached 270 successful processes, committing intermediate results...
+2025-09-01 04:41:50.410 | INFO     | __main__:git_commit_and_push:129 - Adding changes to git...

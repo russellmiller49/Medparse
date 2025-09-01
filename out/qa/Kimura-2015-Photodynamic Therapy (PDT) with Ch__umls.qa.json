@@ -1,0 +1,15 @@
+{
+  "pdf": "Kimura-2015-Photodynamic Therapy (PDT) with Ch.pdf",
+  "n_sections": 16,
+  "n_tables": 1,
+  "n_figures": 11,
+  "n_fig_crops": 11,
+  "missing_fig_bbox": 0,
+  "n_refs_csv": 17,
+  "n_umls_links": 0,
+  "n_local_links": 0,
+  "linker": "umls",
+  "completeness_score": 61,
+  "is_valid": true,
+  "timestamp": "2025-09-01 04:33:36"
+}
