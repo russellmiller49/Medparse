@@ -174,3 +174,223 @@ To https://github.com/russellmiller49/Medparse.git
 2025-08-31 19:48:17.205 | SUCCESS  | __main__:process_single_pdf:71 - ✓ Successfully processed Bronchoscopes of the Twenty-First Century
 2025-08-31 19:48:17.205 | INFO     | __main__:main:198 - Reached 20 successful processes, committing intermediate results...
 2025-08-31 19:48:17.205 | INFO     | __main__:git_commit_and_push:129 - Adding changes to git...
+2025-08-31 19:48:17.464 | INFO     | __main__:git_commit_and_push:145 - Creating git commit...
+[fix/extraction-hardening 98467cb] feat: Batch processed 20 PDFs (intermediate commit)
+ 184 files changed, 329136 insertions(+), 4 deletions(-)
+ create mode 100644 out/batch_processed/Airway spray cryotherapy initial outcomes from.json
+ create mode 100644 out/batch_processed/Audit of the autoantibody test, EarlyCDT.json
+ create mode 100644 out/batch_processed/Bronchoscopes of the Twenty-First Century.json
+ create mode 100644 out/batch_processed/Gomes-2015-Percutaneous endoscopic gastrostomy.json
+ create mode 100644 out/batch_processed/Inhaled GM-CSF for Pulmonary Alveolar Proteino.json
+ create mode 100644 out/batch_processed/Novel bronchoscopic management of airway bleeding with absorbable gelatin and thrombin slurry.json
+ create mode 100644 out/batch_processed/Tedde-2011-A new technique for T-tube insertio.json
+ create mode 100644 out/batch_processed/VERITAS.json
+ create mode 100644 out/batch_processed/What is the value of electromagnetic navigation in lung cancer and to what extent does it require improvement .json
+ create mode 100644 out/batch_processed/gonzalez-et-al-2024-assessment-of-advanced-diagnostic-bronchoscopy-outcomes-for-peripheral-lung-lesions-a-delphi (1).json
+ create mode 100644 out/figures/Airway spray cryotherapy initial outcomes from_fig01.jpg
+ create mode 100644 out/figures/Audit of the autoantibody test, EarlyCDT_fig01.jpg
+ create mode 100644 out/figures/Audit of the autoantibody test, EarlyCDT_fig02.jpg
+ create mode 100644 out/figures/Audit of the autoantibody test, EarlyCDT_fig03.jpg
+ create mode 100644 out/figures/Audit of the autoantibody test, EarlyCDT_fig1.jpg
+ create mode 100644 out/figures/Bronchoscopes of the Twenty-First Century_fig01.jpg
+ create mode 100644 out/figures/Bronchoscopes of the Twenty-First Century_fig02.jpg
+ create mode 100644 out/figures/Bronchoscopes of the Twenty-First Century_fig03.jpg
+ create mode 100644 out/figures/Bronchoscopes of the Twenty-First Century_fig04.jpg
+ create mode 100644 out/figures/Bronchoscopes of the Twenty-First Century_fig05.jpg
+ create mode 100644 out/figures/Bronchoscopes of the Twenty-First Century_fig06.jpg
+ create mode 100644 out/figures/Bronchoscopes of the Twenty-First Century_fig07.jpg
+ create mode 100644 out/figures/Gomes-2015-Percutaneous endoscopic gastrostomy_fig01.jpg
+ create mode 100644 out/figures/Gomes-2015-Percutaneous endoscopic gastrostomy_fig02.jpg
+ create mode 100644 out/figures/Gomes-2015-Percutaneous endoscopic gastrostomy_fig03.jpg
+ create mode 100644 out/figures/Gomes-2015-Percutaneous endoscopic gastrostomy_fig04.jpg
+ create mode 100644 out/figures/Gomes-2015-Percutaneous endoscopic gastrostomy_fig05.jpg
+ create mode 100644 out/figures/Gomes-2015-Percutaneous endoscopic gastrostomy_fig06.jpg
+ create mode 100644 out/figures/Gomes-2015-Percutaneous endoscopic gastrostomy_fig07.jpg
+ create mode 100644 out/figures/Gomes-2015-Percutaneous endoscopic gastrostomy_fig08.jpg
+ create mode 100644 out/figures/Gomes-2015-Percutaneous endoscopic gastrostomy_fig09.jpg
+ create mode 100644 out/figures/Gomes-2015-Percutaneous endoscopic gastrostomy_fig10.jpg
+ create mode 100644 out/figures/Gomes-2015-Percutaneous endoscopic gastrostomy_fig11.jpg
+ create mode 100644 out/figures/Gomes-2015-Percutaneous endoscopic gastrostomy_fig12.jpg
+ create mode 100644 out/figures/Gomes-2015-Percutaneous endoscopic gastrostomy_fig13.jpg
+ create mode 100644 out/figures/Gomes-2015-Percutaneous endoscopic gastrostomy_fig14.jpg
+ create mode 100644 out/figures/Gomes-2015-Percutaneous endoscopic gastrostomy_fig15.jpg
+ create mode 100644 out/figures/Gomes-2015-Percutaneous endoscopic gastrostomy_fig16.jpg
+ create mode 100644 out/figures/Gomes-2015-Percutaneous endoscopic gastrostomy_fig18.jpg
+ create mode 100644 out/figures/Gomes-2015-Percutaneous endoscopic gastrostomy_fig19.jpg
+ create mode 100644 out/figures/Gomes-2015-Percutaneous endoscopic gastrostomy_fig20.jpg
+ create mode 100644 out/figures/Gomes-2015-Percutaneous endoscopic gastrostomy_fig21.jpg
+ create mode 100644 out/figures/Gomes-2015-Percutaneous endoscopic gastrostomy_fig22.jpg
+ create mode 100644 out/figures/Gomes-2015-Percutaneous endoscopic gastrostomy_fig23.jpg
+ create mode 100644 out/figures/Gomes-2015-Percutaneous endoscopic gastrostomy_fig24.jpg
+ create mode 100644 out/figures/Gomes-2015-Percutaneous endoscopic gastrostomy_fig25.jpg
+ create mode 100644 out/figures/Gomes-2015-Percutaneous endoscopic gastrostomy_fig26.jpg
+ create mode 100644 out/figures/Gomes-2015-Percutaneous endoscopic gastrostomy_fig27.jpg
+ create mode 100644 out/figures/Gomes-2015-Percutaneous endoscopic gastrostomy_fig28.jpg
+ create mode 100644 out/figures/Gomes-2015-Percutaneous endoscopic gastrostomy_fig29.jpg
+ create mode 100644 out/figures/Gomes-2015-Percutaneous endoscopic gastrostomy_fig30.jpg
+ create mode 100644 out/figures/Gomes-2015-Percutaneous endoscopic gastrostomy_fig31.jpg
+ create mode 100644 out/figures/Gomes-2015-Percutaneous endoscopic gastrostomy_fig32.jpg
+ create mode 100644 out/figures/Gomes-2015-Percutaneous endoscopic gastrostomy_fig33.jpg
+ create mode 100644 out/figures/Gomes-2015-Percutaneous endoscopic gastrostomy_fig34.jpg
+ create mode 100644 out/figures/Gomes-2015-Percutaneous endoscopic gastrostomy_fig35.jpg
+ create mode 100644 out/figures/Gomes-2015-Percutaneous endoscopic gastrostomy_fig36.jpg
+ create mode 100644 out/figures/Gomes-2015-Percutaneous endoscopic gastrostomy_fig37.jpg
+ create mode 100644 out/figures/Gomes-2015-Percutaneous endoscopic gastrostomy_fig38.jpg
+ create mode 100644 out/figures/Gomes-2015-Percutaneous endoscopic gastrostomy_fig39.jpg
+ create mode 100644 out/figures/Gomes-2015-Percutaneous endoscopic gastrostomy_fig40.jpg
+ create mode 100644 out/figures/Gomes-2015-Percutaneous endoscopic gastrostomy_fig41.jpg
+ create mode 100644 out/figures/Gomes-2015-Percutaneous endoscopic gastrostomy_fig42.jpg
+ create mode 100644 out/figures/Gomes-2015-Percutaneous endoscopic gastrostomy_fig43.jpg
+ create mode 100644 out/figures/Gomes-2015-Percutaneous endoscopic gastrostomy_fig44.jpg
+ create mode 100644 out/figures/Gomes-2015-Percutaneous endoscopic gastrostomy_fig45.jpg
+ create mode 100644 out/figures/Gomes-2015-Percutaneous endoscopic gastrostomy_fig46.jpg
+ create mode 100644 out/figures/Gomes-2015-Percutaneous endoscopic gastrostomy_fig47.jpg
+ create mode 100644 out/figures/Gomes-2015-Percutaneous endoscopic gastrostomy_fig48.jpg
+ create mode 100644 out/figures/Gomes-2015-Percutaneous endoscopic gastrostomy_fig49.jpg
+ create mode 100644 out/figures/Gomes-2015-Percutaneous endoscopic gastrostomy_fig50.jpg
+ create mode 100644 out/figures/Gomes-2015-Percutaneous endoscopic gastrostomy_fig51.jpg
+ create mode 100644 out/figures/Gomes-2015-Percutaneous endoscopic gastrostomy_fig52.jpg
+ create mode 100644 out/figures/Gomes-2015-Percutaneous endoscopic gastrostomy_fig53.jpg
+ create mode 100644 out/figures/Gomes-2015-Percutaneous endoscopic gastrostomy_fig54.jpg
+ create mode 100644 out/figures/Gomes-2015-Percutaneous endoscopic gastrostomy_fig55.jpg
+ create mode 100644 out/figures/Gomes-2015-Percutaneous endoscopic gastrostomy_fig56.jpg
+ create mode 100644 out/figures/Gomes-2015-Percutaneous endoscopic gastrostomy_fig57.jpg
+ create mode 100644 out/figures/Gomes-2015-Percutaneous endoscopic gastrostomy_fig58.jpg
+ create mode 100644 out/figures/Gomes-2015-Percutaneous endoscopic gastrostomy_fig59.jpg
+ create mode 100644 out/figures/Gomes-2015-Percutaneous endoscopic gastrostomy_fig60.jpg
+ create mode 100644 out/figures/Gomes-2015-Percutaneous endoscopic gastrostomy_fig61.jpg
+ create mode 100644 out/figures/Gomes-2015-Percutaneous endoscopic gastrostomy_fig62.jpg
+ create mode 100644 out/figures/Gomes-2015-Percutaneous endoscopic gastrostomy_fig63.jpg
+ create mode 100644 out/figures/Gomes-2015-Percutaneous endoscopic gastrostomy_fig64.jpg
+ create mode 100644 out/figures/Gomes-2015-Percutaneous endoscopic gastrostomy_fig65.jpg
+ create mode 100644 out/figures/Gomes-2015-Percutaneous endoscopic gastrostomy_fig66.jpg
+ create mode 100644 out/figures/Gomes-2015-Percutaneous endoscopic gastrostomy_fig67.jpg
+ create mode 100644 out/figures/Gomes-2015-Percutaneous endoscopic gastrostomy_fig68.jpg
+ create mode 100644 out/figures/Gomes-2015-Percutaneous endoscopic gastrostomy_fig69.jpg
+ create mode 100644 out/figures/Gomes-2015-Percutaneous endoscopic gastrostomy_fig70.jpg
+ create mode 100644 out/figures/Gomes-2015-Percutaneous endoscopic gastrostomy_fig71.jpg
+ create mode 100644 out/figures/Gomes-2015-Percutaneous endoscopic gastrostomy_fig72.jpg
+ create mode 100644 out/figures/Gomes-2015-Percutaneous endoscopic gastrostomy_fig73.jpg
+ create mode 100644 out/figures/Gomes-2015-Percutaneous endoscopic gastrostomy_fig74.jpg
+ create mode 100644 out/figures/Gomes-2015-Percutaneous endoscopic gastrostomy_fig75.jpg
+ create mode 100644 out/figures/Gomes-2015-Percutaneous endoscopic gastrostomy_fig76.jpg
+ create mode 100644 out/figures/Gomes-2015-Percutaneous endoscopic gastrostomy_fig77.jpg
+ create mode 100644 out/figures/Gomes-2015-Percutaneous endoscopic gastrostomy_fig78.jpg
+ create mode 100644 out/figures/Gomes-2015-Percutaneous endoscopic gastrostomy_fig79.jpg
+ create mode 100644 out/figures/Gomes-2015-Percutaneous endoscopic gastrostomy_fig80.jpg
+ create mode 100644 out/figures/Gomes-2015-Percutaneous endoscopic gastrostomy_fig81.jpg
+ create mode 100644 out/figures/Gomes-2015-Percutaneous endoscopic gastrostomy_fig82.jpg
+ create mode 100644 out/figures/Gomes-2015-Percutaneous endoscopic gastrostomy_fig83.jpg
+ create mode 100644 out/figures/Gomes-2015-Percutaneous endoscopic gastrostomy_fig84.jpg
+ create mode 100644 out/figures/Gomes-2015-Percutaneous endoscopic gastrostomy_fig85.jpg
+ create mode 100644 out/figures/Gomes-2015-Percutaneous endoscopic gastrostomy_fig86.jpg
+ create mode 100644 out/figures/Gomes-2015-Percutaneous endoscopic gastrostomy_fig87.jpg
+ create mode 100644 out/figures/Gomes-2015-Percutaneous endoscopic gastrostomy_fig88.jpg
+ create mode 100644 out/figures/Gomes-2015-Percutaneous endoscopic gastrostomy_fig89.jpg
+ create mode 100644 out/figures/Gomes-2015-Percutaneous endoscopic gastrostomy_figure3.jpg
+ create mode 100644 out/figures/Inhaled GM-CSF for Pulmonary Alveolar Proteino_fig01.jpg
+ create mode 100644 out/figures/Inhaled GM-CSF for Pulmonary Alveolar Proteino_fig02.jpg
+ create mode 100644 out/figures/Inhaled GM-CSF for Pulmonary Alveolar Proteino_fig03.jpg
+ create mode 100644 out/figures/Inhaled GM-CSF for Pulmonary Alveolar Proteino_fig04.jpg
+ create mode 100644 out/figures/Novel bronchoscopic management of airway bleeding with absorbable gelatin and thrombin slurry_fig01.jpg
+ create mode 100644 out/figures/Novel bronchoscopic management of airway bleeding with absorbable gelatin and thrombin slurry_fig02.jpg
+ create mode 100644 out/figures/Novel bronchoscopic management of airway bleeding with absorbable gelatin and thrombin slurry_fig03.jpg
+ create mode 100644 out/figures/Novel bronchoscopic management of airway bleeding with absorbable gelatin and thrombin slurry_fig04.jpg
+ create mode 100644 out/figures/Novel bronchoscopic management of airway bleeding with absorbable gelatin and thrombin slurry_fig05.jpg
+ create mode 100644 out/figures/Tedde-2011-A new technique for T-tube insertio_fig01.jpg
+ create mode 100644 out/figures/Tedde-2011-A new technique for T-tube insertio_fig02.jpg
+ create mode 100644 out/figures/Tedde-2011-A new technique for T-tube insertio_fig03.jpg
+ create mode 100644 out/figures/VERITAS_fig01.jpg
+ create mode 100644 out/figures/VERITAS_fig02.jpg
+ create mode 100644 out/figures/VERITAS_fig04.jpg
+ create mode 100644 out/figures/VERITAS_figure1.jpg
+ create mode 100644 out/figures/What is the value of electromagnetic navigation in lung cancer and to what extent does it require improvement _fig01.jpg
+ create mode 100644 out/figures/What is the value of electromagnetic navigation in lung cancer and to what extent does it require improvement _fig02.jpg
+ create mode 100644 out/figures/What is the value of electromagnetic navigation in lung cancer and to what extent does it require improvement _fig03.jpg
+ create mode 100644 out/figures/What is the value of electromagnetic navigation in lung cancer and to what extent does it require improvement _fig04.jpg
+ create mode 100644 out/figures/What is the value of electromagnetic navigation in lung cancer and to what extent does it require improvement _fig05.jpg
+ create mode 100644 out/figures/What is the value of electromagnetic navigation in lung cancer and to what extent does it require improvement _fig06.jpg
+ create mode 100644 out/figures/What is the value of electromagnetic navigation in lung cancer and to what extent does it require improvement _fig07.jpg
+ create mode 100644 out/figures/What is the value of electromagnetic navigation in lung cancer and to what extent does it require improvement _fig08.jpg
+ create mode 100644 out/figures/What is the value of electromagnetic navigation in lung cancer and to what extent does it require improvement _fig09.jpg
+ create mode 100644 out/figures/What is the value of electromagnetic navigation in lung cancer and to what extent does it require improvement _fig10.jpg
+ create mode 100644 out/figures/What is the value of electromagnetic navigation in lung cancer and to what extent does it require improvement _fig11.jpg
+ create mode 100644 out/figures/What is the value of electromagnetic navigation in lung cancer and to what extent does it require improvement _fig12.jpg
+ create mode 100644 out/figures/What is the value of electromagnetic navigation in lung cancer and to what extent does it require improvement _fig13.jpg
+ create mode 100644 out/figures/What is the value of electromagnetic navigation in lung cancer and to what extent does it require improvement _fig16.jpg
+ create mode 100644 out/figures/What is the value of electromagnetic navigation in lung cancer and to what extent does it require improvement _fig19.jpg
+ create mode 100644 out/figures/What is the value of electromagnetic navigation in lung cancer and to what extent does it require improvement _fig20.jpg
+ create mode 100644 out/figures/What is the value of electromagnetic navigation in lung cancer and to what extent does it require improvement _fig21.jpg
+ create mode 100644 out/figures/What is the value of electromagnetic navigation in lung cancer and to what extent does it require improvement _fig22.jpg
+ create mode 100644 out/figures/What is the value of electromagnetic navigation in lung cancer and to what extent does it require improvement _fig23.jpg
+ create mode 100644 out/figures/What is the value of electromagnetic navigation in lung cancer and to what extent does it require improvement _fig26.jpg
+ create mode 100644 out/figures/What is the value of electromagnetic navigation in lung cancer and to what extent does it require improvement _fig27.jpg
+ create mode 100644 out/figures/What is the value of electromagnetic navigation in lung cancer and to what extent does it require improvement _fig28.jpg
+ create mode 100644 out/figures/What is the value of electromagnetic navigation in lung cancer and to what extent does it require improvement _fig29.jpg
+ create mode 100644 out/figures/What is the value of electromagnetic navigation in lung cancer and to what extent does it require improvement _fig32.jpg
+ create mode 100644 out/figures/What is the value of electromagnetic navigation in lung cancer and to what extent does it require improvement _fig34.jpg
+ create mode 100644 out/figures/What is the value of electromagnetic navigation in lung cancer and to what extent does it require improvement _fig35.jpg
+ create mode 100644 out/figures/What is the value of electromagnetic navigation in lung cancer and to what extent does it require improvement _fig36.jpg
+ create mode 100644 out/figures/What is the value of electromagnetic navigation in lung cancer and to what extent does it require improvement _figure1.jpg
+ create mode 100644 out/figures/What is the value of electromagnetic navigation in lung cancer and to what extent does it require improvement _figure10.jpg
+ create mode 100644 out/figures/What is the value of electromagnetic navigation in lung cancer and to what extent does it require improvement _figure11.jpg
+ create mode 100644 out/figures/What is the value of electromagnetic navigation in lung cancer and to what extent does it require improvement _figure2.jpg
+ create mode 100644 out/figures/What is the value of electromagnetic navigation in lung cancer and to what extent does it require improvement _figure3.jpg
+ create mode 100644 out/figures/What is the value of electromagnetic navigation in lung cancer and to what extent does it require improvement _figure4.jpg
+ create mode 100644 out/figures/What is the value of electromagnetic navigation in lung cancer and to what extent does it require improvement _figure7.jpg
+ create mode 100644 out/figures/What is the value of electromagnetic navigation in lung cancer and to what extent does it require improvement _figure8.jpg
+ create mode 100644 out/figures/What is the value of electromagnetic navigation in lung cancer and to what extent does it require improvement _figure9.jpg
+ create mode 100644 out/qa/Airway spray cryotherapy initial outcomes from__umls.qa.json
+ create mode 100644 out/qa/Audit of the autoantibody test, EarlyCDT__umls.qa.json
+ create mode 100644 out/qa/Bronchoscopes of the Twenty-First Century__umls.qa.json
+ create mode 100644 out/qa/Gomes-2015-Percutaneous endoscopic gastrostomy__umls.qa.json
+ create mode 100644 out/qa/Inhaled GM-CSF for Pulmonary Alveolar Proteino__umls.qa.json
+ create mode 100644 out/qa/Novel bronchoscopic management of airway bleeding with absorbable gelatin and thrombin slurry__umls.qa.json
+ create mode 100644 out/qa/Tedde-2011-A new technique for T-tube insertio__umls.qa.json
+ create mode 100644 out/qa/VERITAS__umls.qa.json
+ create mode 100644 out/qa/What is the value of electromagnetic navigation in lung cancer and to what extent does it require improvement __umls.qa.json
+ create mode 100644 out/references/Airway spray cryotherapy initial outcomes from.refs.csv
+ create mode 100644 out/references/Audit of the autoantibody test, EarlyCDT.refs.csv
+ create mode 100644 out/references/Bronchoscopes of the Twenty-First Century.refs.csv
+ create mode 100644 out/references/Gomes-2015-Percutaneous endoscopic gastrostomy.refs.csv
+ create mode 100644 out/references/Inhaled GM-CSF for Pulmonary Alveolar Proteino.refs.csv
+ create mode 100644 out/references/Novel bronchoscopic management of airway bleeding with absorbable gelatin and thrombin slurry.refs.csv
+ create mode 100644 out/references/Tedde-2011-A new technique for T-tube insertio.refs.csv
+ create mode 100644 out/references/VERITAS.refs.csv
+ create mode 100644 out/references/What is the value of electromagnetic navigation in lung cancer and to what extent does it require improvement .refs.csv
+2025-08-31 19:48:17.497 | INFO     | __main__:git_commit_and_push:158 - Pushing to origin/fix/extraction-hardening...
+To https://github.com/russellmiller49/Medparse.git
+   f737622..98467cb  fix/extraction-hardening -> fix/extraction-hardening
+2025-08-31 19:48:21.758 | SUCCESS  | __main__:git_commit_and_push:161 - ✓ Successfully pushed to GitHub (branch: fix/extraction-hardening)
+2025-08-31 19:48:21.758 | INFO     | __main__:main:189 - [21/414] Processing surigicalLVR Rationale and design of The NETT Trial.pdf
+2025-08-31 19:48:21.758 | INFO     | __main__:process_single_pdf:52 - Processing surigicalLVR Rationale and design of The NETT Trial.pdf...
+2025-08-31 19:50:21.635 | SUCCESS  | __main__:process_single_pdf:71 - ✓ Successfully processed surigicalLVR Rationale and design of The NETT Trial
+2025-08-31 19:50:21.635 | INFO     | __main__:main:189 - [22/414] Processing fistula Abu-Hijleh-2019-Intrabronchial Valves for Air.pdf
+2025-08-31 19:50:21.635 | INFO     | __main__:process_single_pdf:52 - Processing fistula Abu-Hijleh-2019-Intrabronchial Valves for Air.pdf...
+2025-08-31 19:52:07.818 | SUCCESS  | __main__:process_single_pdf:71 - ✓ Successfully processed fistula Abu-Hijleh-2019-Intrabronchial Valves for Air
+2025-08-31 19:52:07.819 | INFO     | __main__:main:189 - [23/414] Processing Safety and feasibility of interventional pulmo.pdf
+2025-08-31 19:52:07.819 | INFO     | __main__:process_single_pdf:52 - Processing Safety and feasibility of interventional pulmo.pdf...
+2025-08-31 19:53:15.239 | SUCCESS  | __main__:process_single_pdf:71 - ✓ Successfully processed Safety and feasibility of interventional pulmo
+2025-08-31 19:53:15.239 | INFO     | __main__:main:189 - [24/414] Processing fistula Fiorelli-2018-Unidirectional endobronchial val.pdf
+2025-08-31 19:53:15.239 | INFO     | __main__:process_single_pdf:52 - Processing fistula Fiorelli-2018-Unidirectional endobronchial val.pdf...
+2025-08-31 19:56:41.670 | SUCCESS  | __main__:process_single_pdf:71 - ✓ Successfully processed fistula Fiorelli-2018-Unidirectional endobronchial val
+2025-08-31 19:56:41.670 | INFO     | __main__:main:189 - [25/414] Processing The role of bronchoscopy in the diagnosis of airway disease.pdf
+2025-08-31 19:56:41.670 | INFO     | __main__:process_single_pdf:52 - Processing The role of bronchoscopy in the diagnosis of airway disease.pdf...
+2025-08-31 20:02:35.143 | SUCCESS  | __main__:process_single_pdf:71 - ✓ Successfully processed The role of bronchoscopy in the diagnosis of airway disease
+2025-08-31 20:02:35.143 | INFO     | __main__:main:189 - [26/414] Processing Development of a Tool to Assess Basic Competen.pdf
+2025-08-31 20:02:35.144 | INFO     | __main__:process_single_pdf:52 - Processing Development of a Tool to Assess Basic Competen.pdf...
+2025-08-31 20:04:21.157 | SUCCESS  | __main__:process_single_pdf:71 - ✓ Successfully processed Development of a Tool to Assess Basic Competen
+2025-08-31 20:04:21.157 | INFO     | __main__:main:189 - [27/414] Processing Pison-2021-Safety of denervation following tar.pdf
+2025-08-31 20:04:21.157 | INFO     | __main__:process_single_pdf:52 - Processing Pison-2021-Safety of denervation following tar.pdf...
+2025-08-31 20:05:41.739 | SUCCESS  | __main__:process_single_pdf:71 - ✓ Successfully processed Pison-2021-Safety of denervation following tar
+2025-08-31 20:05:41.739 | INFO     | __main__:main:189 - [28/414] Processing The Impact of Gravity vs Suction-driven Therap.pdf
+2025-08-31 20:05:41.739 | INFO     | __main__:process_single_pdf:52 - Processing The Impact of Gravity vs Suction-driven Therap.pdf...
+2025-08-31 20:07:02.136 | SUCCESS  | __main__:process_single_pdf:71 - ✓ Successfully processed The Impact of Gravity vs Suction-driven Therap
+2025-08-31 20:07:02.136 | INFO     | __main__:main:189 - [29/414] Processing State of the Art IP.pdf
+2025-08-31 20:07:02.137 | INFO     | __main__:process_single_pdf:52 - Processing State of the Art IP.pdf...
+2025-08-31 20:15:32.954 | SUCCESS  | __main__:process_single_pdf:71 - ✓ Successfully processed State of the Art IP
+2025-08-31 20:15:32.955 | INFO     | __main__:main:189 - [30/414] Processing cone_beam_ct_with_augmented_fluoroscopy_combined.pdf
+2025-08-31 20:15:32.955 | INFO     | __main__:process_single_pdf:52 - Processing cone_beam_ct_with_augmented_fluoroscopy_combined.pdf...
+2025-08-31 20:16:39.075 | SUCCESS  | __main__:process_single_pdf:71 - ✓ Successfully processed cone_beam_ct_with_augmented_fluoroscopy_combined
+2025-08-31 20:16:39.076 | INFO     | __main__:main:198 - Reached 30 successful processes, committing intermediate results...
+2025-08-31 20:16:39.076 | INFO     | __main__:git_commit_and_push:129 - Adding changes to git...

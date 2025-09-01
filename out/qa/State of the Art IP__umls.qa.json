@@ -1,0 +1,15 @@
+{
+  "pdf": "State of the Art IP.pdf",
+  "n_sections": 20,
+  "n_tables": 0,
+  "n_figures": 21,
+  "n_fig_crops": 21,
+  "missing_fig_bbox": 0,
+  "n_refs_csv": 89,
+  "n_umls_links": 0,
+  "n_local_links": 0,
+  "linker": "umls",
+  "completeness_score": 53,
+  "is_valid": false,
+  "timestamp": "2025-08-31 20:15:31"
+}
