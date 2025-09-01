@@ -742,3 +742,167 @@ lxml.etree.XMLSyntaxError: Document is empty, line 1, column 1
 2025-08-31 20:57:00.929 | SUCCESS  | __main__:process_single_pdf:71 - ✓ Successfully processed chest tube pandora box
 2025-08-31 20:57:00.929 | INFO     | __main__:main:198 - Reached 50 successful processes, committing intermediate results...
 2025-08-31 20:57:00.929 | INFO     | __main__:git_commit_and_push:129 - Adding changes to git...
+2025-08-31 20:57:01.196 | INFO     | __main__:git_commit_and_push:145 - Creating git commit...
+[fix/extraction-hardening 569db3a] feat: Batch processed 50 PDFs (intermediate commit)
+ 127 files changed, 272486 insertions(+)
+ create mode 100644 out/batch_processed/A Multicenter RCT of Zephyr Endobronchial Valv.json
+ create mode 100644 out/batch_processed/BLVR with endobronchial valves for patients wi.json
+ create mode 100644 out/batch_processed/Cyrany-2016-Buried bumper syndrome_ A complica.json
+ create mode 100644 out/batch_processed/Ljungdahl-2006-Complication rate lower after p.json
+ create mode 100644 out/batch_processed/Multidetector CT evaluation of tracheobronchom.json
+ create mode 100644 out/batch_processed/The Utility of the EBUS Characteristics in Differentiating Between Malignant and Tuberculous .json
+ create mode 100644 out/batch_processed/Transbronchial Lung Cryobiopsy and Video-assis.json
+ create mode 100644 out/batch_processed/Use of fibrinolytics and deoxyribonuclease in.json
+ create mode 100644 out/batch_processed/Validation Study for the N Descriptor.json
+ create mode 100644 out/batch_processed/chest tube pandora box.json
+ create mode 100644 out/figures/A Multicenter RCT of Zephyr Endobronchial Valv_fig04.jpg
+ create mode 100644 out/figures/A Multicenter RCT of Zephyr Endobronchial Valv_fig05.jpg
+ create mode 100644 out/figures/A Multicenter RCT of Zephyr Endobronchial Valv_fig06.jpg
+ create mode 100644 out/figures/A Multicenter RCT of Zephyr Endobronchial Valv_figure1.jpg
+ create mode 100644 out/figures/A Multicenter RCT of Zephyr Endobronchial Valv_figure2.jpg
+ create mode 100644 out/figures/A Multicenter RCT of Zephyr Endobronchial Valv_figure3.jpg
+ create mode 100644 out/figures/A Multicenter RCT of Zephyr Endobronchial Valv_figure4.jpg
+ create mode 100644 out/figures/A Multicenter RCT of Zephyr Endobronchial Valv_figure5.jpg
+ create mode 100644 out/figures/A Multicenter RCT of Zephyr Endobronchial Valv_figure6.jpg
+ create mode 100644 out/figures/A Multicenter RCT of Zephyr Endobronchial Valv_figure7.jpg
+ create mode 100644 out/figures/BLVR with endobronchial valves for patients wi_fig02.jpg
+ create mode 100644 out/figures/BLVR with endobronchial valves for patients wi_fig03.jpg
+ create mode 100644 out/figures/BLVR with endobronchial valves for patients wi_figure1.jpg
+ create mode 100644 out/figures/BLVR with endobronchial valves for patients wi_figure3.jpg
+ create mode 100644 out/figures/Cyrany-2016-Buried bumper syndrome_ A complica_fig01.jpg
+ create mode 100644 out/figures/Cyrany-2016-Buried bumper syndrome_ A complica_fig02.jpg
+ create mode 100644 out/figures/Cyrany-2016-Buried bumper syndrome_ A complica_fig03.jpg
+ create mode 100644 out/figures/Cyrany-2016-Buried bumper syndrome_ A complica_fig04.jpg
+ create mode 100644 out/figures/Cyrany-2016-Buried bumper syndrome_ A complica_fig05.jpg
+ create mode 100644 out/figures/Cyrany-2016-Buried bumper syndrome_ A complica_fig06.jpg
+ create mode 100644 out/figures/Cyrany-2016-Buried bumper syndrome_ A complica_fig07.jpg
+ create mode 100644 out/figures/Cyrany-2016-Buried bumper syndrome_ A complica_fig08.jpg
+ create mode 100644 out/figures/Cyrany-2016-Buried bumper syndrome_ A complica_fig09.jpg
+ create mode 100644 out/figures/Cyrany-2016-Buried bumper syndrome_ A complica_fig10.jpg
+ create mode 100644 out/figures/Cyrany-2016-Buried bumper syndrome_ A complica_fig11.jpg
+ create mode 100644 out/figures/Cyrany-2016-Buried bumper syndrome_ A complica_fig12.jpg
+ create mode 100644 out/figures/Cyrany-2016-Buried bumper syndrome_ A complica_fig14.jpg
+ create mode 100644 out/figures/Cyrany-2016-Buried bumper syndrome_ A complica_fig15.jpg
+ create mode 100644 out/figures/Cyrany-2016-Buried bumper syndrome_ A complica_fig16.jpg
+ create mode 100644 out/figures/Cyrany-2016-Buried bumper syndrome_ A complica_fig17.jpg
+ create mode 100644 out/figures/Cyrany-2016-Buried bumper syndrome_ A complica_fig18.jpg
+ create mode 100644 out/figures/Cyrany-2016-Buried bumper syndrome_ A complica_fig19.jpg
+ create mode 100644 out/figures/Cyrany-2016-Buried bumper syndrome_ A complica_fig20.jpg
+ create mode 100644 out/figures/Cyrany-2016-Buried bumper syndrome_ A complica_fig21.jpg
+ create mode 100644 out/figures/Cyrany-2016-Buried bumper syndrome_ A complica_fig22.jpg
+ create mode 100644 out/figures/Cyrany-2016-Buried bumper syndrome_ A complica_figure7.jpg
+ create mode 100644 out/figures/Ljungdahl-2006-Complication rate lower after p_fig01.jpg
+ create mode 100644 out/figures/Multidetector CT evaluation of tracheobronchom_fig01.jpg
+ create mode 100644 out/figures/Multidetector CT evaluation of tracheobronchom_fig02.jpg
+ create mode 100644 out/figures/Multidetector CT evaluation of tracheobronchom_fig03.jpg
+ create mode 100644 out/figures/Multidetector CT evaluation of tracheobronchom_fig04.jpg
+ create mode 100644 out/figures/Multidetector CT evaluation of tracheobronchom_fig05.jpg
+ create mode 100644 out/figures/Multidetector CT evaluation of tracheobronchom_fig06.jpg
+ create mode 100644 out/figures/Multidetector CT evaluation of tracheobronchom_fig07.jpg
+ create mode 100644 out/figures/Multidetector CT evaluation of tracheobronchom_fig08.jpg
+ create mode 100644 out/figures/Multidetector CT evaluation of tracheobronchom_fig09.jpg
+ create mode 100644 out/figures/Multidetector CT evaluation of tracheobronchom_fig10.jpg
+ create mode 100644 out/figures/Multidetector CT evaluation of tracheobronchom_fig11.jpg
+ create mode 100644 out/figures/Multidetector CT evaluation of tracheobronchom_fig12.jpg
+ create mode 100644 out/figures/Multidetector CT evaluation of tracheobronchom_fig13.jpg
+ create mode 100644 out/figures/Multidetector CT evaluation of tracheobronchom_fig14.jpg
+ create mode 100644 out/figures/The Utility of the EBUS Characteristics in Differentiating Between Malignant and Tuberculous _fig01.jpg
+ create mode 100644 out/figures/The Utility of the EBUS Characteristics in Differentiating Between Malignant and Tuberculous _fig02.jpg
+ create mode 100644 out/figures/The Utility of the EBUS Characteristics in Differentiating Between Malignant and Tuberculous _fig03.jpg
+ create mode 100644 out/figures/The Utility of the EBUS Characteristics in Differentiating Between Malignant and Tuberculous _fig04.jpg
+ create mode 100644 out/figures/Transbronchial Lung Cryobiopsy and Video-assis_fig02.jpg
+ create mode 100644 out/figures/Transbronchial Lung Cryobiopsy and Video-assis_fig03.jpg
+ create mode 100644 out/figures/Transbronchial Lung Cryobiopsy and Video-assis_fig04.jpg
+ create mode 100644 out/figures/Transbronchial Lung Cryobiopsy and Video-assis_fig08.jpg
+ create mode 100644 out/figures/Transbronchial Lung Cryobiopsy and Video-assis_fig09.jpg
+ create mode 100644 out/figures/Transbronchial Lung Cryobiopsy and Video-assis_fig10.jpg
+ create mode 100644 out/figures/Transbronchial Lung Cryobiopsy and Video-assis_fig11.jpg
+ create mode 100644 out/figures/Transbronchial Lung Cryobiopsy and Video-assis_figure1.jpg
+ create mode 100644 out/figures/Transbronchial Lung Cryobiopsy and Video-assis_figure5.jpg
+ create mode 100644 out/figures/Transbronchial Lung Cryobiopsy and Video-assis_figure6.jpg
+ create mode 100644 out/figures/Transbronchial Lung Cryobiopsy and Video-assis_figure7.jpg
+ create mode 100644 out/figures/Use of fibrinolytics and deoxyribonuclease in_fig01.jpg
+ create mode 100644 out/figures/Validation Study for the N Descriptor_fig01.jpg
+ create mode 100644 out/figures/Validation Study for the N Descriptor_fig02.jpg
+ create mode 100644 out/figures/Validation Study for the N Descriptor_figure1.jpg
+ create mode 100644 out/figures/Validation Study for the N Descriptor_figure2.jpg
+ create mode 100644 out/figures/chest tube pandora box_fig01.jpg
+ create mode 100644 out/figures/chest tube pandora box_fig02.jpg
+ create mode 100644 out/figures/chest tube pandora box_fig03.jpg
+ create mode 100644 out/figures/chest tube pandora box_fig04.jpg
+ create mode 100644 out/figures/chest tube pandora box_fig05.jpg
+ create mode 100644 out/figures/chest tube pandora box_fig08.jpg
+ create mode 100644 out/figures/chest tube pandora box_fig09.jpg
+ create mode 100644 out/figures/chest tube pandora box_fig10.jpg
+ create mode 100644 out/figures/chest tube pandora box_fig11.jpg
+ create mode 100644 out/figures/chest tube pandora box_fig12.jpg
+ create mode 100644 out/figures/chest tube pandora box_fig13.jpg
+ create mode 100644 out/figures/chest tube pandora box_figure1.jpg
+ create mode 100644 out/figures/nd__yag_laser_therapy_in_lung_cancer__an_11_year.6_fig01.jpg
+ create mode 100644 out/figures/nd__yag_laser_therapy_in_lung_cancer__an_11_year.6_fig02.jpg
+ create mode 100644 out/figures/nd__yag_laser_therapy_in_lung_cancer__an_11_year.6_fig03.jpg
+ create mode 100644 out/figures/nd__yag_laser_therapy_in_lung_cancer__an_11_year.6_fig04.jpg
+ create mode 100644 out/figures/nd__yag_laser_therapy_in_lung_cancer__an_11_year.6_fig05.jpg
+ create mode 100644 out/figures/nd__yag_laser_therapy_in_lung_cancer__an_11_year.6_fig06.jpg
+ create mode 100644 out/figures/nd__yag_laser_therapy_in_lung_cancer__an_11_year.6_fig07.jpg
+ create mode 100644 out/figures/nd__yag_laser_therapy_in_lung_cancer__an_11_year.6_fig08.jpg
+ create mode 100644 out/figures/nd__yag_laser_therapy_in_lung_cancer__an_11_year.6_fig09.jpg
+ create mode 100644 out/figures/nd__yag_laser_therapy_in_lung_cancer__an_11_year.6_fig10.jpg
+ create mode 100644 out/figures/nd__yag_laser_therapy_in_lung_cancer__an_11_year.6_fig11.jpg
+ create mode 100644 out/figures/nd__yag_laser_therapy_in_lung_cancer__an_11_year.6_fig12.jpg
+ create mode 100644 out/qa/A Multicenter RCT of Zephyr Endobronchial Valv__umls.qa.json
+ create mode 100644 out/qa/BLVR with endobronchial valves for patients wi__umls.qa.json
+ create mode 100644 out/qa/Cyrany-2016-Buried bumper syndrome_ A complica__umls.qa.json
+ create mode 100644 out/qa/Ljungdahl-2006-Complication rate lower after p__umls.qa.json
+ create mode 100644 out/qa/Multidetector CT evaluation of tracheobronchom__umls.qa.json
+ create mode 100644 out/qa/The Utility of the EBUS Characteristics in Differentiating Between Malignant and Tuberculous __umls.qa.json
+ create mode 100644 out/qa/Transbronchial Lung Cryobiopsy and Video-assis__umls.qa.json
+ create mode 100644 out/qa/Use of fibrinolytics and deoxyribonuclease in__umls.qa.json
+ create mode 100644 out/qa/Validation Study for the N Descriptor__umls.qa.json
+ create mode 100644 out/qa/chest tube pandora box__umls.qa.json
+ create mode 100644 out/references/A Multicenter RCT of Zephyr Endobronchial Valv.refs.csv
+ create mode 100644 out/references/BLVR with endobronchial valves for patients wi.refs.csv
+ create mode 100644 out/references/Cyrany-2016-Buried bumper syndrome_ A complica.refs.csv
+ create mode 100644 out/references/Ljungdahl-2006-Complication rate lower after p.refs.csv
+ create mode 100644 out/references/Multidetector CT evaluation of tracheobronchom.refs.csv
+ create mode 100644 out/references/The Utility of the EBUS Characteristics in Differentiating Between Malignant and Tuberculous .refs.csv
+ create mode 100644 out/references/Transbronchial Lung Cryobiopsy and Video-assis.refs.csv
+ create mode 100644 out/references/Use of fibrinolytics and deoxyribonuclease in.refs.csv
+ create mode 100644 out/references/Validation Study for the N Descriptor.refs.csv
+ create mode 100644 out/references/chest tube pandora box.refs.csv
+2025-08-31 20:57:01.226 | INFO     | __main__:git_commit_and_push:158 - Pushing to origin/fix/extraction-hardening...
+To https://github.com/russellmiller49/Medparse.git
+   39a1d1d..569db3a  fix/extraction-hardening -> fix/extraction-hardening
+2025-08-31 20:57:06.402 | SUCCESS  | __main__:git_commit_and_push:161 - ✓ Successfully pushed to GitHub (branch: fix/extraction-hardening)
+2025-08-31 20:57:06.402 | INFO     | __main__:main:189 - [52/414] Processing Multi-disciplinary management of patients with.pdf
+2025-08-31 20:57:06.403 | INFO     | __main__:process_single_pdf:52 - Processing Multi-disciplinary management of patients with.pdf...
+2025-08-31 21:01:01.852 | SUCCESS  | __main__:process_single_pdf:71 - ✓ Successfully processed Multi-disciplinary management of patients with
+2025-08-31 21:01:01.853 | INFO     | __main__:main:189 - [53/414] Processing Potentially fatal arrhythmia complicating endobronchial epinephrine.pdf
+2025-08-31 21:01:01.853 | INFO     | __main__:process_single_pdf:52 - Processing Potentially fatal arrhythmia complicating endobronchial epinephrine.pdf...
+2025-08-31 21:01:48.314 | SUCCESS  | __main__:process_single_pdf:71 - ✓ Successfully processed Potentially fatal arrhythmia complicating endobronchial epinephrine
+2025-08-31 21:01:48.314 | INFO     | __main__:main:189 - [54/414] Processing fistula Bronstein-2019-Management of air leaks post-su.pdf
+2025-08-31 21:01:48.314 | INFO     | __main__:process_single_pdf:52 - Processing fistula Bronstein-2019-Management of air leaks post-su.pdf...
+2025-08-31 21:03:45.167 | SUCCESS  | __main__:process_single_pdf:71 - ✓ Successfully processed fistula Bronstein-2019-Management of air leaks post-su
+2025-08-31 21:03:45.167 | INFO     | __main__:main:189 - [55/414] Processing Dransfield-2020-Effect of Zephyr Endobronchial.pdf
+2025-08-31 21:03:45.167 | INFO     | __main__:process_single_pdf:52 - Processing Dransfield-2020-Effect of Zephyr Endobronchial.pdf...
+2025-08-31 21:06:10.713 | SUCCESS  | __main__:process_single_pdf:71 - ✓ Successfully processed Dransfield-2020-Effect of Zephyr Endobronchial
+2025-08-31 21:06:10.713 | INFO     | __main__:main:189 - [56/414] Processing ratwani-et-al-2025-post-thoracentesis-ultrasound-vs-chest-x-ray-for-the-evaluation-of-effusion-evacuation-and-lung-re.pdf
+2025-08-31 21:06:10.713 | INFO     | __main__:process_single_pdf:52 - Processing ratwani-et-al-2025-post-thoracentesis-ultrasound-vs-chest-x-ray-for-the-evaluation-of-effusion-evacuation-and-lung-re.pdf...
+2025-08-31 21:08:00.178 | SUCCESS  | __main__:process_single_pdf:71 - ✓ Successfully processed ratwani-et-al-2025-post-thoracentesis-ultrasound-vs-chest-x-ray-for-the-evaluation-of-effusion-evacuation-and-lung-re
+2025-08-31 21:08:00.178 | INFO     | __main__:main:189 - [57/414] Processing Unlocking the potential of RAB.pdf
+2025-08-31 21:08:00.178 | INFO     | __main__:process_single_pdf:52 - Processing Unlocking the potential of RAB.pdf...
+2025-08-31 21:08:50.899 | SUCCESS  | __main__:process_single_pdf:71 - ✓ Successfully processed Unlocking the potential of RAB
+2025-08-31 21:08:50.899 | INFO     | __main__:main:189 - [58/414] Processing Chen-2018-Photodynamic therapeutic ablation fo.pdf
+2025-08-31 21:08:50.899 | INFO     | __main__:process_single_pdf:52 - Processing Chen-2018-Photodynamic therapeutic ablation fo.pdf...
+2025-08-31 21:09:42.355 | SUCCESS  | __main__:process_single_pdf:71 - ✓ Successfully processed Chen-2018-Photodynamic therapeutic ablation fo
+2025-08-31 21:09:42.355 | INFO     | __main__:main:189 - [59/414] Processing Romagnoli-2019-Poor Concordance between Sequen2.pdf
+2025-08-31 21:09:42.355 | INFO     | __main__:process_single_pdf:52 - Processing Romagnoli-2019-Poor Concordance between Sequen2.pdf...
+2025-08-31 21:11:12.774 | SUCCESS  | __main__:process_single_pdf:71 - ✓ Successfully processed Romagnoli-2019-Poor Concordance between Sequen2
+2025-08-31 21:11:12.774 | INFO     | __main__:main:189 - [60/414] Processing the_impact_of_video_assisted_thoracoscopic_versus.4.pdf
+2025-08-31 21:11:12.774 | INFO     | __main__:process_single_pdf:52 - Processing the_impact_of_video_assisted_thoracoscopic_versus.4.pdf...
+2025-08-31 21:12:15.128 | SUCCESS  | __main__:process_single_pdf:71 - ✓ Successfully processed the_impact_of_video_assisted_thoracoscopic_versus.4
+2025-08-31 21:12:15.129 | INFO     | __main__:main:189 - [61/414] Processing The Only Constant Is Change.pdf
+2025-08-31 21:12:15.129 | INFO     | __main__:process_single_pdf:52 - Processing The Only Constant Is Change.pdf...
+2025-08-31 21:12:37.437 | SUCCESS  | __main__:process_single_pdf:71 - ✓ Successfully processed The Only Constant Is Change
+2025-08-31 21:12:37.437 | INFO     | __main__:main:198 - Reached 60 successful processes, committing intermediate results...
+2025-08-31 21:12:37.437 | INFO     | __main__:git_commit_and_push:129 - Adding changes to git...

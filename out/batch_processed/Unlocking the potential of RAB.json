@@ -1,0 +1,2242 @@
+{
+  "metadata": {
+    "title": "Unlocking the potential of robotic-assisted bronchoscopy: overcoming challenging anatomy and locations",
+    "year": "2024-01",
+    "authors": [
+      "Ther Adv",
+      "Respir Dis",
+      "The"
+    ],
+    "references_text": [
+      "Robotic bronchoscopy for pulmonary lesions: a review of existing technologies and clinical data\n\t\t\n\t\t\tAbhinavAgrawal\n\t\t\n\t\t\n\t\t\tDKyleHogarth\n\t\t\n\t\t\n\t\t\tSeptimiuMurgu\n\t\t\n\t\t10.21037/jtd.2020.03.35\n\t\n\t\n\t\tJournal of Thoracic Disease\n\t\tJ Thorac Dis\n\t\t2072-1439\n\t\t2077-6624\n\t\t\n\t\t\t12\n\t\t\t6\n\t\t\t\n\t\t\t2020\n\t\t\tAME Publishing Company",
+      "Robotic Bronchoscopy: Review of Three Systems\n\t\t\n\t\t\tMaxwellJDiddams\n\t\t\n\t\t\n\t\t\tHansJLee\n\t\t\n\t\t10.3390/life13020354\n\t\n\t\n\t\tLife\n\t\tLife\n\t\t2075-1729\n\t\t\n\t\t\t13\n\t\t\t2\n\t\t\t354\n\t\t\t2023\n\t\t\tMDPI AG\n\t\t\tBasel)",
+      "Shape-Sensing Robotic-Assisted Bronchoscopy in the Diagnosis of Pulmonary Parenchymal Lesions\n\t\t\n\t\t\tOrKalchiem-Dekel\n\t\t\n\t\t\n\t\t\tJamesGConnolly\n\t\t\n\t\t\n\t\t\tIHLin\n\t\t\n\t\t\n\t\t\tBryanCHusta\n\t\t\n\t\t\n\t\t\tPrasadSAdusumilli\n\t\t\n\t\t\n\t\t\tJasonABeattie\n\t\t\n\t\t\n\t\t\tDarrenJBuonocore\n\t\t\n\t\t\n\t\t\tJosephDycoco\n\t\t\n\t\t\n\t\t\tPaigeFuentes\n\t\t\n\t\t\n\t\t\tDavidRJones\n\t\t\n\t\t\n\t\t\tRobertPLee\n\t\t\n\t\t\n\t\t\tBernardJPark\n\t\t\n\t\t\n\t\t\tGaetanoRocco\n\t\t\n\t\t\n\t\t\tMohitChawla\n\t\t\n\t\t\n\t\t\tMatthewJBott\n\t\t\n\t\t10.1016/j.chest.2021.07.2169\n\t\n\t\n\t\tCHEST\n\t\tCHEST\n\t\t0012-3692\n\t\t\n\t\t\t161\n\t\t\t2\n\t\t\t\n\t\t\t2022\n\t\t\tElsevier BV",
+      "Diagnostic Performance and Safety Profile of Robotic-assisted Bronchoscopy: A Systematic Review and Meta-Analysis\n\t\t\n\t\t\tMuhammadSajawalAli\n\t\t\t0000-0002-9343-1074\n\t\t\n\t\t\n\t\t\tUzairKhanGhori\n\t\t\n\t\t\n\t\t\tMaxTheodoreWayne\n\t\t\t0000-0001-7751-6505\n\t\t\n\t\t\n\t\t\tEugeneShostak\n\t\t\n\t\t\n\t\t\tJoseDe Cardenas\n\t\t\n\t\t10.1513/annalsats.202301-075oc\n\t\n\t\n\t\tAnnals of the American Thoracic Society\n\t\tAnnals ATS\n\t\t2329-6933\n\t\t2325-6621\n\t\t\n\t\t\t20\n\t\t\t12\n\t\t\t\n\t\t\t2023\n\t\t\tAmerican Thoracic Society",
+      "Robotic bronchoscopy in diagnosing lung cancer—the evidence, tips and tricks: a clinical practice review\n\t\t\n\t\t\tElliotHo\n\t\t\n\t\t\n\t\t\tGradyHedstrom\n\t\t\n\t\t\n\t\t\tSeptimiuMurgu\n\t\t\n\t\t10.21037/atm-22-3078\n\t\n\t\n\t\tAnnals of Translational Medicine\n\t\tAnn Transl Med\n\t\t2305-5839\n\t\t2305-5847\n\t\t\n\t\t\t11\n\t\t\t10\n\t\t\t\n\t\t\t2023\n\t\t\tAME Publishing Company",
+      "Robotic Bronchoscopy for Peripheral Pulmonary Lesion Biopsy: Evidence-Based Review of the Two Platforms\n\t\t\n\t\t\tAbhishekKumar\n\t\t\n\t\t\n\t\t\tJoseDCaceres\n\t\t\n\t\t\n\t\t\tSiddharthanVaithilingam\n\t\t\t0000-0002-2741-791X\n\t\t\n\t\t\n\t\t\tGurshanSandhu\n\t\t\n\t\t\n\t\t\tNikhilKMeena\n\t\t\n\t\t10.3390/diagnostics11081479\n\t\n\t\n\t\tDiagnostics\n\t\tDiagnostics\n\t\t2075-4418\n\t\t\n\t\t\t11\n\t\t\t8\n\t\t\t1479\n\t\t\t2021\n\t\t\tMDPI AG\n\t\t\tBasel",
+      "A Review of Robotic-Assisted Bronchoscopy Platforms in the Sampling of Peripheral Pulmonary Lesions\n\t\t\n\t\t\tMichaelLu\n\t\t\n\t\t\n\t\t\tSrideshNath\n\t\t\n\t\t\n\t\t\tRoyWSemaan\n\t\t\n\t\t10.3390/jcm10235678\n\t\n\t\n\t\tJournal of Clinical Medicine\n\t\tJCM\n\t\t2077-0383\n\t\t\n\t\t\t10\n\t\t\t23\n\t\t\t5678\n\t\t\t2021\n\t\t\tMDPI AG",
+      "Advanced Imaging for Robotic Bronchoscopy: A Review\n\t\t\n\t\t\tNakulRavikumar\n\t\t\t0000-0002-6030-9371\n\t\t\n\t\t\n\t\t\tElliotHo\n\t\t\t0000-0003-0333-6709\n\t\t\n\t\t\n\t\t\tAjayWagh\n\t\t\t0000-0003-3402-0272\n\t\t\n\t\t\n\t\t\tSeptimiuMurgu\n\t\t\n\t\t10.3390/diagnostics13050990\n\t\n\t\n\t\tDiagnostics\n\t\tDiagnostics\n\t\t2075-4418\n\t\t\n\t\t\t13\n\t\t\t5\n\t\t\t990\n\t\t\t2023\n\t\t\tMDPI AG\n\t\t\tBasel",
+      "Factors Associated With Diagnostic Accuracy of Robotic Bronchoscopy With 12-Month Follow-up\n\t\t\n\t\t\tAbhinavAgrawal\n\t\t\t0000-0003-1080-6449\n\t\t\n\t\t\n\t\t\tElliotHo\n\t\t\n\t\t\n\t\t\tUditChaddha\n\t\t\n\t\t\n\t\t\tBarisDemirkol\n\t\t\n\t\t\n\t\t\tSivasubramaniumVBhavani\n\t\t\n\t\t\n\t\t\tDKyleHogarth\n\t\t\n\t\t\n\t\t\tSeptimiuMurgu\n\t\t\n\t\t10.1016/j.athoracsur.2021.12.041\n\t\n\t\n\t\tThe Annals of Thoracic Surgery\n\t\tThe Annals of Thoracic Surgery\n\t\t0003-4975\n\t\t\n\t\t\t115\n\t\t\t6\n\t\t\t\n\t\t\t2023\n\t\t\tElsevier BV",
+      "Impact of Federal Lung Cancer Screening Policy on the Incidence of Early-stage Lung Cancer\n\t\t\n\t\t\tMatthewSKhouzam\n\t\t\t0000-0001-7077-8107\n\t\t\n\t\t\n\t\t\tDouglasEWood\n\t\t\n\t\t\n\t\t\tWickiiVigneswaran\n\t\t\n\t\t\n\t\t\tAmitGoyal\n\t\t\n\t\t\n\t\t\tCherylCzerlanis\n\t\t\n\t\t\n\t\t\tShandaHBlackmon\n\t\t\n\t\t\n\t\t\tJessicaDonington\n\t\t\n\t\t\n\t\t\tKathySAlbain\n\t\t\n\t\t\n\t\t\tRichardKFreeman\n\t\t\n\t\t\n\t\t\tZaidMAbdelsattar\n\t\t\t0000-0001-8025-0410\n\t\t\n\t\t10.1016/j.athoracsur.2022.11.021\n\t\n\t\n\t\tThe Annals of Thoracic Surgery\n\t\tThe Annals of Thoracic Surgery\n\t\t0003-4975\n\t\t\n\t\t\t115\n\t\t\t4\n\t\t\t\n\t\t\t2023\n\t\t\tElsevier BV",
+      "Real-World Impact of Robotic-Assisted Bronchoscopy on the Staging and Diagnosis of Lung Cancer: The Shape of Current and Potential Opportunities\n\t\t\n\t\t\tGabrielOrtiz-Jaimes\n\t\t\n\t\t\n\t\t\tJananiReisenauer\n\t\t\n\t\t10.2147/por.s395806\n\t\n\t\n\t\tPragmatic and Observational Research\n\t\tPOR\n\t\t1179-7266\n\t\t\n\t\t\tVolume 14\n\t\t\t\n\t\t\t2023\n\t\t\tInforma UK Limited",
+      "Robotic Bronchoscopy for Peripheral Pulmonary Lesions\n\t\t\n\t\t\tAlexanderCChen\n\t\t\n\t\t\n\t\t\tNicholasJPastis\n\t\t\n\t\t\n\t\t\tAmitKMahajan\n\t\t\n\t\t\n\t\t\tSandeepJKhandhar\n\t\t\n\t\t\n\t\t\tMichaelJSimoff\n\t\t\n\t\t\n\t\t\tMichaelSMachuzak\n\t\t\n\t\t\n\t\t\tJosephCicenia\n\t\t\n\t\t\n\t\t\tThomasRGildea\n\t\t\n\t\t\n\t\t\tGerardASilvestri\n\t\t\n\t\t10.1016/j.chest.2020.08.2047\n\t\n\t\n\t\tChest\n\t\tChest\n\t\t0012-3692\n\t\t\n\t\t\t159\n\t\t\t2\n\t\t\t\n\t\t\t2021\n\t\t\tElsevier BV",
+      "The CARE Guidelines: Consensus-based Clinical Case Reporting Guideline Development\n\t\t\n\t\t\tJoelJGagnier\n\t\t\n\t\t\n\t\t\tGunverKienle\n\t\t\n\t\t\n\t\t\tDouglasGAltman\n\t\t\n\t\t\n\t\t\tDavidMoher\n\t\t\n\t\t\n\t\t\tHaroldSox\n\t\t\n\t\t\n\t\t\tDavidRiley\n\t\t\n\t\t10.7453/gahmj.2013.008\n\t\n\t\n\t\tGlobal Advances in Health and Medicine\n\t\tGlob Adv Health Med\n\t\t2164-957X\n\t\t2164-9561\n\t\t\n\t\t\t2\n\t\t\t5\n\t\t\t\n\t\t\t2013\n\t\t\tSAGE Publications"
+    ],
+    "references_raw": [
+      "Robotic bronchoscopy for pulmonary lesions: a review of existing technologies and clinical data\n\t\t\n\t\t\tAAgrawal\n\t\t\n\t\t\n\t\t\tDKHogarth\n\t\t\n\t\t\n\t\t\tSMurgu\n\t\t\n\t\n\t\n\t\tJ Thorac Dis\n\t\t\n\t\t\t12\n\t\t\t\n\t\t\t2020",
+      "Robotic bronchoscopy: review of three systems\n\t\t\n\t\t\tMJDiddams\n\t\t\n\t\t\n\t\t\tLeeHj\n\t\t\n\t\n\t\n\t\tLife\n\t\t\n\t\t\t13\n\t\t\t354\n\t\t\t2023\n\t\t\tBasel)",
+      "Shape-sensing robotic-assisted bronchoscopy in the diagnosis of pulmonary parenchymal lesions\n\t\t\n\t\t\tOKalchiem-Dekel\n\t\t\n\t\t\n\t\t\tJGConnolly\n\t\t\n\t\t\n\t\t\tIHLin\n\t\t\n\t\n\t\n\t\tChest\n\t\t\n\t\t\t161\n\t\t\t\n\t\t\t2022",
+      "Diagnostic performance and safety profile of robotic-assisted bronchoscopy: a systematic review and metaanalysis\n\t\t\n\t\t\tMSAli\n\t\t\n\t\t\n\t\t\tUKGhori\n\t\t\n\t\t\n\t\t\tMTWayne\n\t\t\n\t\n\t\n\t\tAnn Am Thorac Soc\n\t\t\n\t\t\t20\n\t\t\t\n\t\t\t2023",
+      "Robotic bronchoscopy in diagnosing lung cancer-the evidence, tips and tricks: a clinical practice review\n\t\t\n\t\t\tEHo\n\t\t\n\t\t\n\t\t\tGHedstrom\n\t\t\n\t\t\n\t\t\tSMurgu\n\t\t\n\t\n\t\n\t\tAnn Transl Med\n\t\t\n\t\t\t11\n\t\t\t359\n\t\t\t2023",
+      "Robotic bronchoscopy for peripheral pulmonary lesion biopsy: evidence-based review of the two platforms\n\t\t\n\t\t\tAKumar\n\t\t\n\t\t\n\t\t\tJDCaceres\n\t\t\n\t\t\n\t\t\tSVaithilingam\n\t\t\n\t\n\t\n\t\tDiagnostics\n\t\t\n\t\t\t11\n\t\t\t354\n\t\t\t2021\n\t\t\tBasel",
+      "A review of robotic-assisted bronchoscopy platforms in the sampling of peripheral pulmonary lesions\n\t\t\n\t\t\tMLu\n\t\t\n\t\t\n\t\t\tSNath\n\t\t\n\t\t\n\t\t\tRWSemaan\n\t\t\n\t\n\t\n\t\tJ Clin Med\n\t\t\n\t\t\t10\n\t\t\t5678\n\t\t\t2021",
+      "Advanced imaging for robotic bronchoscopy: a review\n\t\t\n\t\t\tNRavikumar\n\t\t\n\t\t\n\t\t\tEHo\n\t\t\n\t\t\n\t\t\tAWagh\n\t\t\n\t\n\t\n\t\tDiagnostics\n\t\t\n\t\t\t13\n\t\t\t990\n\t\t\t2023\n\t\t\tBasel",
+      "Factors associated with diagnostic accuracy of robotic bronchoscopy with 12-month follow-up\n\t\t\n\t\t\tAAgrawal\n\t\t\n\t\t\n\t\t\tEHo\n\t\t\n\t\t\n\t\t\tUChaddha\n\t\t\n\t\n\t\n\t\tAnn Thorac Surg\n\t\t\n\t\t\t115\n\t\t\t\n\t\t\t2023",
+      "Impact of federal lung cancer screening policy on the incidence of early-stage lung cancer\n\t\t\n\t\t\tMSKhouzam\n\t\t\n\t\t\n\t\t\tDEWood\n\t\t\n\t\t\n\t\t\tWVigneswaran\n\t\t\n\t\n\t\n\t\tAnn Thorac Surg\n\t\t\n\t\t\t115\n\t\t\t\n\t\t\t2023",
+      "Real-world impact of robotic-assisted bronchoscopy on the staging and diagnosis of lung cancer: the shape of current and potential opportunities\n\t\t\n\t\t\tGOrtiz-Jaimes\n\t\t\n\t\t\n\t\t\tJReisenauer\n\t\t\n\t\n\t\n\t\tPragmat Obs Res\n\t\t\n\t\t\t14\n\t\t\t\n\t\t\t2023",
+      "Robotic bronchoscopy for peripheral pulmonary lesions: a multicenter pilot and feasibility Study (BENEFIT)\n\t\t\n\t\t\tACChen\n\t\t\n\t\t\n\t\t\tNJPastis\n\t\t\n\t\t\n\t\t\tJrMahajan\n\t\t\n\t\t\n\t\t\tAK\n\t\t\n\t\n\t\n\t\tChest\n\t\t\n\t\t\t159\n\t\t\t\n\t\t\t2021",
+      "The CARE Guidelines: consensus-based clinical case reporting guideline development\n\t\t\n\t\t\tJJGagnier\n\t\t\n\t\t\n\t\t\tGKienle\n\t\t\n\t\t\n\t\t\tDGAltman\n\t\t\n\t\n\t\n\t\tGlob Adv Health Med\n\t\t\n\t\t\t2\n\t\t\t\n\t\t\t2013"
+    ],
+    "references_struct": [
+      {
+        "title": "Robotic bronchoscopy for pulmonary lesions: a review of existing technologies and clinical data",
+        "journal": "J Thorac Dis",
+        "year": "2020",
+        "volume": "12",
+        "issue": null,
+        "pages": null,
+        "doi": null,
+        "pmid": null,
+        "authors": [
+          "Agrawal A",
+          "Hogarth DK",
+          "Murgu S"
+        ],
+        "first_author_last": "Agrawal"
+      },
+      {
+        "title": "Robotic bronchoscopy: review of three systems",
+        "journal": "Life",
+        "year": "2023",
+        "volume": "13",
+        "issue": null,
+        "pages": "354",
+        "doi": null,
+        "pmid": null,
+        "authors": [
+          "Diddams MJ",
+          "Hj L"
+        ],
+        "first_author_last": "Diddams"
+      },
+      {
+        "title": "Shape-sensing robotic-assisted bronchoscopy in the diagnosis of pulmonary parenchymal lesions",
+        "journal": "Chest",
+        "year": "2022",
+        "volume": "161",
+        "issue": null,
+        "pages": null,
+        "doi": null,
+        "pmid": null,
+        "authors": [
+          "Kalchiem-Dekel O",
+          "Connolly JG",
+          "Lin IH"
+        ],
+        "first_author_last": "Kalchiem-Dekel"
+      },
+      {
+        "title": "Diagnostic performance and safety profile of robotic-assisted bronchoscopy: a systematic review and metaanalysis",
+        "journal": "Ann Am Thorac Soc",
+        "year": "2023",
+        "volume": "20",
+        "issue": null,
+        "pages": null,
+        "doi": null,
+        "pmid": null,
+        "authors": [
+          "Ali MS",
+          "Ghori UK",
+          "Wayne MT"
+        ],
+        "first_author_last": "Ali"
+      },
+      {
+        "title": "Robotic bronchoscopy in diagnosing lung cancer-the evidence, tips and tricks: a clinical practice review",
+        "journal": "Ann Transl Med",
+        "year": "2023",
+        "volume": "11",
+        "issue": null,
+        "pages": "359",
+        "doi": null,
+        "pmid": null,
+        "authors": [
+          "Ho E",
+          "Hedstrom G",
+          "Murgu S"
+        ],
+        "first_author_last": "Ho"
+      },
+      {
+        "title": "Robotic bronchoscopy for peripheral pulmonary lesion biopsy: evidence-based review of the two platforms",
+        "journal": "Diagnostics",
+        "year": "2021",
+        "volume": "11",
+        "issue": null,
+        "pages": "354",
+        "doi": null,
+        "pmid": null,
+        "authors": [
+          "Kumar A",
+          "Caceres JD",
+          "Vaithilingam S"
+        ],
+        "first_author_last": "Kumar"
+      },
+      {
+        "title": "A review of robotic-assisted bronchoscopy platforms in the sampling of peripheral pulmonary lesions",
+        "journal": "J Clin Med",
+        "year": "2021",
+        "volume": "10",
+        "issue": null,
+        "pages": "5678",
+        "doi": null,
+        "pmid": null,
+        "authors": [
+          "Lu M",
+          "Nath S",
+          "Semaan RW"
+        ],
+        "first_author_last": "Lu"
+      },
+      {
+        "title": "Advanced imaging for robotic bronchoscopy: a review",
+        "journal": "Diagnostics",
+        "year": "2023",
+        "volume": "13",
+        "issue": null,
+        "pages": "990",
+        "doi": null,
+        "pmid": null,
+        "authors": [
+          "Ravikumar N",
+          "Ho E",
+          "Wagh A"
+        ],
+        "first_author_last": "Ravikumar"
+      },
+      {
+        "title": "Factors associated with diagnostic accuracy of robotic bronchoscopy with 12-month follow-up",
+        "journal": "Ann Thorac Surg",
+        "year": "2023",
+        "volume": "115",
+        "issue": null,
+        "pages": null,
+        "doi": null,
+        "pmid": null,
+        "authors": [
+          "Agrawal A",
+          "Ho E",
+          "Chaddha U"
+        ],
+        "first_author_last": "Agrawal"
+      },
+      {
+        "title": "Impact of federal lung cancer screening policy on the incidence of early-stage lung cancer",
+        "journal": "Ann Thorac Surg",
+        "year": "2023",
+        "volume": "115",
+        "issue": null,
+        "pages": null,
+        "doi": null,
+        "pmid": null,
+        "authors": [
+          "Khouzam MS",
+          "Wood DE",
+          "Vigneswaran W"
+        ],
+        "first_author_last": "Khouzam"
+      },
+      {
+        "title": "Real-world impact of robotic-assisted bronchoscopy on the staging and diagnosis of lung cancer: the shape of current and potential opportunities",
+        "journal": "Pragmat Obs Res",
+        "year": "2023",
+        "volume": "14",
+        "issue": null,
+        "pages": null,
+        "doi": null,
+        "pmid": null,
+        "authors": [
+          "Ortiz-Jaimes G",
+          "Reisenauer J"
+        ],
+        "first_author_last": "Ortiz-Jaimes"
+      },
+      {
+        "title": "Robotic bronchoscopy for peripheral pulmonary lesions: a multicenter pilot and feasibility Study (BENEFIT)",
+        "journal": "Chest",
+        "year": "2021",
+        "volume": "159",
+        "issue": null,
+        "pages": null,
+        "doi": null,
+        "pmid": null,
+        "authors": [
+          "Chen AC",
+          "Pastis NJ",
+          "Mahajan J",
+          "AK"
+        ],
+        "first_author_last": "Chen"
+      },
+      {
+        "title": "The CARE Guidelines: consensus-based clinical case reporting guideline development",
+        "journal": "Glob Adv Health Med",
+        "year": "2013",
+        "volume": "2",
+        "issue": null,
+        "pages": null,
+        "doi": null,
+        "pmid": null,
+        "authors": [
+          "Gagnier JJ",
+          "Kienle G",
+          "Altman DG"
+        ],
+        "first_author_last": "Gagnier"
+      }
+    ],
+    "references_enriched": [
+      {
+        "title": "Robotic bronchoscopy for pulmonary lesions: a review of existing technologies and clinical data"
+      },
+      {
+        "title": "J Thorac Dis",
+        "year": 2020
+      },
+      {
+        "title": "Robotic bronchoscopy: review of three systems",
+        "year": 2020
+      },
+      {
+        "title": "Life",
+        "year": 2023
+      },
+      {
+        "title": "Shape-sensing robotic-assisted bronchoscopy in the diagnosis of pulmonary parenchymal lesions",
+        "year": 2023
+      },
+      {
+        "title": "Chest",
+        "year": 2022
+      },
+      {
+        "title": "Diagnostic performance and safety profile of robotic-assisted bronchoscopy: a systematic review and metaanalysis",
+        "year": 2022
+      },
+      {
+        "title": "Ann Am Thorac Soc",
+        "year": 2023
+      },
+      {
+        "title": "Robotic bronchoscopy in diagnosing lung cancer-the evidence, tips and tricks: a clinical practice review",
+        "year": 2023
+      },
+      {
+        "title": "Ann Transl Med",
+        "year": 2023
+      },
+      {
+        "title": "Robotic bronchoscopy for peripheral pulmonary lesion biopsy: evidence-based review of the two platforms",
+        "year": 2023
+      },
+      {
+        "title": "Diagnostics",
+        "year": 2021
+      },
+      {
+        "title": "A review of robotic-assisted bronchoscopy platforms in the sampling of peripheral pulmonary lesions",
+        "year": 2021
+      },
+      {
+        "title": "J Clin Med",
+        "year": 2021
+      },
+      {
+        "title": "Advanced imaging for robotic bronchoscopy: a review",
+        "year": 2021
+      },
+      {
+        "title": "Diagnostics",
+        "year": 2021
+      },
+      {
+        "title": "Factors associated with diagnostic accuracy of robotic bronchoscopy with 12-month follow-up",
+        "year": 2023
+      },
+      {
+        "title": "Ann Thorac Surg",
+        "year": 2023
+      },
+      {
+        "title": "Impact of federal lung cancer screening policy on the incidence of early-stage lung cancer",
+        "year": 2023
+      },
+      {
+        "title": "Ann Thorac Surg",
+        "year": 2023
+      },
+      {
+        "title": "Real-world impact of robotic-assisted bronchoscopy on the staging and diagnosis of lung cancer: the shape of current and potential opportunities",
+        "year": 2023
+      },
+      {
+        "title": "Pragmat Obs Res",
+        "year": 2023
+      },
+      {
+        "title": "Robotic bronchoscopy for peripheral pulmonary lesions: a multicenter pilot and feasibility Study (BENEFIT)",
+        "year": 2023
+      },
+      {
+        "title": "Chest",
+        "year": 2022
+      },
+      {
+        "title": "The CARE Guidelines: consensus-based clinical case reporting guideline development",
+        "year": 2021
+      },
+      {
+        "title": "Glob Adv Health Med",
+        "year": 2013
+      }
+    ],
+    "references_source": "grobid_fallback"
+  },
+  "structure": {
+    "sections": [
+      {
+        "title": "",
+        "paragraphs": [
+          {
+            "text": "https://doi.org/10.1177/17534666241259369 https://doi.org/10.1177/17534666241259369 Ther Adv Respir Dis 2024, Vol. 18: 1-6 DOI: 10.1177/ 17534666241259369 © The Author(s), 2024."
+          },
+          {
+            "text": "Article reuse guidelines: sagepub.com/journalspermissions"
+          }
+        ],
+        "category": "other"
+      },
+      {
+        "title": "Introduction",
+        "paragraphs": [
+          {
+            "text": "Robotic-assisted bronchoscopy (RAB) was FDA approved in 2018 and has rapidly gained widespread  adoption  as  an  important  tool  for  bronchoscopic sampling of pulmonary nodules. 1 Several  advantages  have  led  to  the  adoption  of robotic bronchoscopy in the United States. These include the stability of the system, the ability of the  catheter  to  remain  in  position  without  the need of human hands, and the improved navigation platform. 2"
+          },
+          {
+            "text": "At our institution, we use the Ion™ endoluminal RB  platform (Intuitive Surgical © , Sunnyvale, USA). The Ion RB (IRB) platform uses a shapesensing technology to allow bronchoscopic navigation of a 3.5-mm OD  catheter with an endoluminal vision probe into the lung periphery while maintaining catheter stability and shape to maximize precision  in  sampling. 3   After  reaching the  target,  the  vision  probe  is  removed  to  allow biopsy  tools  to  be  utilized.  The  IRB  platform incorporates a thin slice CT prior to the procedure"
+          },
+          {
+            "text": "that creates a 3D airway tree with anatomical borders and provides a pathway to pulmonary nodules or masses for sampling purposes. 1,2,4-8 Combining the system with fluoroscopy and radial endobronchial ultrasound (r-Endobronchial ultrasound (EBUS)) improves the diagnostic yield even further."
+          },
+          {
+            "text": "Several published protocols have strongly recommended the use of general anesthesia and endotracheal intubation using large size (8.0-9.0) endotracheal tubes. These protocols also recommend the delivery of 6-8  mL/kg ideal body weight of  tidal  volume  and  a  positive  end-expiratory pressure  of  5-10  cm  H 2 O. 9   The  use  of  general anesthesia  along  with  bigger  endotracheal  tube (ETT) and tidal volumes is thought to  provide stable  anatomic  orientation  after  registration  by minimizing  CT-to-body  divergence.  Furthermore, it allows access for a therapeutic bronchoscope to clear pre-existing secretions and to prevent potential intra-procedural atelectasis, which may interfere  with  the  r-Endobronchial ultrasound (EBUS)  signal  leading  to  lower diagnostic yield. 9"
+          }
+        ],
+        "category": "introduction"
+      },
+      {
+        "title": "Unlocking the potential of robotic-assisted bronchoscopy: overcoming challenging anatomy and locations",
+        "paragraphs": [
+          {
+            "text": "Wissam Abouzgheib , Christopher Ambrogi and Michele Chai"
+          },
+          {
+            "text": "Abstract : Robotic-assisted bronchoscopy (RAB) was recently added to the armamentarium of tools used in sampling peripheral lung nodules. Protocols and guidelines have since been published advocating use of large oral artificial airways, use of confirmatory technologies such as radial endobronchial ultrasound (R-Endobronchial ultrasound (EBUS)), and preferably limiting sampling to pulmonary parenchymal lesions. We present three clinical cases where RAB was used unconventionally to sample pulmonary nodules in unusual locations and in patients with challenging airway anatomy. In case 1, we introduced the ion catheter through a nasal airway in a patient with trismus. In case 2, we established a diagnosis by sampling a station 5 lymph node, and in case 3, we sampled a lesion located behind an airway stump from previous thoracic surgery. All three patients would have presented significant challenges for alternative biopsy modalities such as CT-guided needle biopsy or video-assisted thoracic surgery."
+          },
+          {
+            "text": "Keywords: biopsy, bronchoscopy, robotic bronchoscopy"
+          },
+          {
+            "text": "Correspondence to: Wissam Abouzgheib Cooper Medical School of Rowan University, 3 Cooper plaza, suite 312, Camden, NJ 08103, USA abouzgheib-wissam@ cooperhealth.edu"
+          },
+          {
+            "text": "Christopher Ambrogi Michele Chai Cooper Medical School of Rowan University, Camden, NJ, USA"
+          },
+          {
+            "text": "1259369"
+          },
+          {
+            "text": "research-article20242024"
+          },
+          {
+            "text": "This  case  series  highlights  challenging  clinical scenarios,  during  which  shape  sensing  robotic bronchoscopy was used to sample chest lesions in unusual  locations  or  in  cases  presenting  challenges  to  the  recommended  airway  access  and ventilation protocols."
+          }
+        ],
+        "category": "other"
+      },
+      {
+        "title": "Case description",
+        "paragraphs": [
+          {
+            "text": "The reporting of the following three  cases  conforms to the CARE checklist. 13"
+          }
+        ],
+        "category": "other"
+      },
+      {
+        "title": "Case 1",
+        "paragraphs": [
+          {
+            "text": "A 32-year-old  male,  never  smoker,  with  known head and neck cancer status post-resection  and adjuvant radiation, presented for Positron Emission  Tomography  (PET)  avid  left  upper lobe (LUL) pulmonary nodules. The patient had severe trismus [Figure 1(a)], which would potentially  inhibit  intubation  through  the  oropharynx with a large ETT. A 6.5 cuffed ETT was placed into  the  right  nostril  under  fiberoptic  guidance [Figure 1(b)]. The IRB platform was then docked to the ETT. Navigational guidance was used to reach the LUL nodule up to 0  mm from the edge. Transbronchial needle aspiration was performed using 21- and 19-gauge needles. Transbronchial",
+            "cross_refs": [
+              {
+                "type": "figure",
+                "index": 0,
+                "text": "Figure 1",
+                "span": [
+                  250,
+                  258
+                ]
+              },
+              {
+                "type": "figure",
+                "index": 0,
+                "text": "Figure 1",
+                "span": [
+                  437,
+                  445
+                ]
+              }
+            ]
+          },
+          {
+            "text": "forceps biopsy with a 1.7-mm forceps, transbronchial brush, and bronchoalveolar lavage were also obtained  under  fluoroscopic  guidance.  Rapid onsite evaluation showed scant degenerated cells. Final pathology showed  necrotic debris and chronic  inflammation,  but  no  malignant  cells. Cultures were negative. Follow-up CT scans of the chest were performed at 3, 6, and 12  months showing near complete resolution of his nodules, confirming benign etiology."
+          }
+        ],
+        "category": "other"
+      },
+      {
+        "title": "Case 2",
+        "paragraphs": [
+          {
+            "text": "A 67-year-old female with a 60 pack-year smoking history presented with a PET avid LUL nodule and level 5 adenopathy [Figure 2(a) and (b)]. She  underwent  convex  Endobronchial ultrasound (EBUS)-TBNA  of  lymph node stations 4L and 11L. Rapid on-site cytology was negative. The IRB catheter was then advanced to  the  LUL  nodule.  Radial-Endobronchial ultrasound (EBUS)  showed  an eccentric view, and multiple TransBronchial Needle Aspiration (TBNA) were obtained using a 21-gauge needle. Rapid-on site cytology did not reveal  malignant  cells.  The  catheter  was  then advanced in the direction of lymph node station 5 under fluoroscopic guidance [Figure 2(c)]. The catheter was parked against an airway wall about 7  mm away from the lymph node [Figure 2(d)].",
+            "cross_refs": [
+              {
+                "type": "figure",
+                "index": 1,
+                "text": "Figure 2",
+                "span": [
+                  118,
+                  126
+                ]
+              },
+              {
+                "type": "figure",
+                "index": 1,
+                "text": "Figure 2",
+                "span": [
+                  654,
+                  662
+                ]
+              },
+              {
+                "type": "figure",
+                "index": 1,
+                "text": "Figure 2",
+                "span": [
+                  753,
+                  761
+                ]
+              }
+            ]
+          },
+          {
+            "text": "Multiple TBNA were obtained using a 21-gauge needle. Chest X-ray at the end of the procedure did  not  show  a  pneumothorax.  Final  pathology reports  confirmed  the  diagnosis  of  metastatic small cell carcinoma from lymph node station 5. All other specimens were non-conclusive on final pathology reports."
+          }
+        ],
+        "category": "other"
+      },
+      {
+        "title": "Case 3",
+        "paragraphs": [
+          {
+            "text": "A 71-year-old male with tobacco use and a history  of  squamous  cell  lung  cancer  status  post LUL lobectomy presented with a large left pleural effusion and a hypermetabolic mass at the site of the prior left upper lobectomy, indicating tumor recurrence.  This  mass  was  located  behind  the LUL bronchus stump [Figure 3(a)]. Pleural fluid cytology  showed  no  malignant  cells.  He  underwent  robotic  bronchoscopy.  The  IRB  catheter was parked against the LUL stump [Figure 3(b)(d)].  A  25-gauge  needle  was  extended  through the  stump  into  the  mass,  which  was  sampled.",
+            "cross_refs": [
+              {
+                "type": "figure",
+                "index": 2,
+                "text": "Figure 3",
+                "span": [
+                  318,
+                  326
+                ]
+              },
+              {
+                "type": "figure",
+                "index": 2,
+                "text": "Figure 3",
+                "span": [
+                  479,
+                  487
+                ]
+              }
+            ]
+          },
+          {
+            "text": "Cytology showed recurrent squamous cell carcinoma."
+          }
+        ],
+        "category": "other"
+      },
+      {
+        "title": "Discussion",
+        "paragraphs": [
+          {
+            "text": "The diagnosis of peripheral lesions is challenging, and no single tool or technology has been associated with 100% diagnostic yield. Robotic bronchoscopy  has  shown  a  navigation  success  of 88.6%, with a 70-77% diagnostic yield, and has been  rapidly  adopted  across  the  United  States. The  demand  for  peripheral  bronchoscopy  and RAB has increased with the higher incidence of pulmonary nodules seen with the wide adoption of lung cancer screening. 10,11"
+          },
+          {
+            "text": "Case 1 featured significant  airway  access  limitation  in  a  patient  with  trismus  and  a  challenging LUL nodule location, which made the option for CT-guided  biopsy  unrealistic.  Published  guidelines  advocate  for  larger  artificial  airways  during RAB  to  facilitate  initial  airway  clearance  with"
+          },
+          {
+            "text": "therapeutic  bronchoscopes  prior  to  docking  the robot. 4,6   In  this  particular  case,  oral  intubation with  a  large  artificial  airway  was  not  possible. Although not optimal, initial airway clearance was performed using a small bronchoscope through a 6.5  ETT  prior  to  performing  RAB.  The  ETT adapter was connected to the 6.5 cuffed ETT, and RAB was performed without interruption. We are not aware of any other reported cases in the literature  describing  the  use  of  robotic  bronchoscopy through a small nasal airway. This case highlights a deviation from recommended protocols suggesting larger oral ETT in patients undergoing RAB. This illustrated approach of using a smaller ETT, via oral or nasal routes, could be useful in patients with history of head and neck cancers, limited jaw movement, and in patients with a known history of tracheal stenosis."
+          },
+          {
+            "text": "Case 2 highlights the reach of RAB beyond the airway walls when the catheter is parked in close proximity to the target. We have experienced this type of reach in intraparenchymal lesions without a bronchus sign, and sometimes without a"
+          },
+          {
+            "text": "R-Endobronchial ultrasound (EBUS) signal, by extending a needle through an airway wall into a lesion in close proximity to the tip of the Ion catheter. Multiple reports have documented the advantage of RAB in nodules with no  bronchus  sign,  with  similar  diagnostic  yield when compared to lesions with bronchus sign. 3,12 In this case, we chose lymph node station 5 as a target during the planning phase considering its proximity  to  a  branch  of  the  LUL  bronchus. Since  rapid  on-site  cytology  was  negative  from the LUL nodule, we drove the IRB catheter and parked it 7  mm away from lymph node station 5. We then extended a 21-gauge needle under fluoroscopic guidance and obtained a sample, which came back consistent with small cell carcinoma. The final pathology from LUL nodule was nondiagnostic. This approach has definitely allowed us  to  avoid  further  invasive  procedures  such  as Video-Assisted  Thoracoscopic  Surgery  (VATS) biopsy and mediastinoscopy."
+          },
+          {
+            "text": "Case 3 shows the utility of RAB in recurrent lung cancer at a previous stump site. The new lesion was certainly challenging to access with"
+          },
+          {
+            "text": "conventional  bronchoscopy  (lesion  behind  the stump) or CT-guided biopsy considering its central  location.  In  addition,  the  patient  was  not  a good  surgical  candidate.  When  we  considered attempting  to  biopsy  this  lesion  with  RAB,  we were  concerned  about  applying  excessive  pressure with the catheter against the airway stump. The drive force signal feature was helpful in alleviating  these  concerns.  In  addition,  we  used  a diagnostic  bronchoscope  which  was  navigated through the airways on the side of the ETT. We wanted to document the position of the Ion catheter  tip  in  close  proximity  to  the  stump  while avoiding  excessive  pressure.  A  25-gauge  needle was used through the airway wall, and the lesion was sampled with positive rapid on-site cytology examination."
+          }
+        ],
+        "category": "discussion"
+      },
+      {
+        "title": "Conclusion",
+        "paragraphs": [
+          {
+            "text": "This case series highlights unusual applications of RAB  in  clinically  challenging  situations.  The advanced  features  of  RAB  in  these  scenarios allowed for obtaining diagnostic samples in patients who otherwise would have required surgical  and  more  invasive  approaches.  RAB  was used  unconventionally  in  this  series  to  access through a nasal artificial airway, to sample mediastinal  lymph  node  stations  not  reachable  with convex Endobronchial ultrasound (EBUS) bronchoscope, and to reach recurrent lung cancer hidden behind a previous airway stump. RAB systems provide advantageous catheter maneuverability  and  stability, and  these promising features should be explored further in clinical  situations  not  amenable  to  conventional bronchoscopy."
+          }
+        ],
+        "category": "conclusion"
+      },
+      {
+        "title": "Ethics approval and consent to participate",
+        "paragraphs": [
+          {
+            "text": "Followed Cooper University Hospital's IRB guidelines stating that case series consisting of 5 or  fewer  cases  do  not  need  to  be  submitted  or reviewed by the IRB."
+          }
+        ],
+        "category": "other"
+      },
+      {
+        "title": "Consent for publication",
+        "paragraphs": [
+          {
+            "text": "Consent  was  obtained  verbally  over  the  phone and  witnessed  by  Dr.  Abouzgheib  and  Michele Chai. Written consent was not obtained due to patients not being able to travel into office to sign."
+          }
+        ],
+        "category": "other"
+      },
+      {
+        "title": "Author contributions",
+        "paragraphs": [
+          {
+            "text": "Wissam Abouzgheib: Conceptualization; Data curation;  Investigation;  Writing  -  original  draft; Writing - review & editing."
+          },
+          {
+            "text": "Christopher Ambrogi: Conceptualization; Writing  -  original  draft;  Writing  -  review  & editing."
+          },
+          {
+            "text": "Michele  Chai: Conceptualization;  Writing  original draft; Writing - review & editing."
+          }
+        ],
+        "category": "other"
+      },
+      {
+        "title": "Acknowledgements",
+        "paragraphs": [
+          {
+            "text": "None"
+          }
+        ],
+        "category": "other"
+      },
+      {
+        "title": "Funding",
+        "paragraphs": [
+          {
+            "text": "The authors received no financial support for the research,  authorship,  and/or  publication  of  this article."
+          }
+        ],
+        "category": "other"
+      },
+      {
+        "title": "Competing interests",
+        "paragraphs": [
+          {
+            "text": "The author declares that there  is  no  conflict  of interest."
+          }
+        ],
+        "category": "other"
+      },
+      {
+        "title": "Availability of data and materials",
+        "paragraphs": [
+          {
+            "text": "Available upon request"
+          }
+        ],
+        "category": "other"
+      },
+      {
+        "title": "Supplemental material",
+        "paragraphs": [
+          {
+            "text": "Supplemental material for this article is available online."
+          }
+        ],
+        "category": "other"
+      },
+      {
+        "title": "References",
+        "paragraphs": [
+          {
+            "text": "1.  Agrawal A, Hogarth DK and Murgu S. Robotic bronchoscopy for pulmonary lesions: a review of existing technologies and clinical data. J Thorac Dis 2020; 12: 3279-3286."
+          },
+          {
+            "text": "2.  Diddams MJ and Lee HJ. Robotic bronchoscopy: review of three systems. Life (Basel) . 2023; 13: 354."
+          },
+          {
+            "text": "3.  Kalchiem-Dekel O, Connolly JG, Lin IH , et al . Shape-sensing robotic-assisted bronchoscopy in the diagnosis of pulmonary parenchymal lesions. Chest 2022; 161: 572-582."
+          }
+        ],
+        "category": "other"
+      },
+      {
+        "title": "Respiratory Disease",
+        "paragraphs": [
+          {
+            "text": "4.  Ali MS, Ghori UK, Wayne MT , et al . Diagnostic performance and safety profile of robotic-assisted bronchoscopy: a systematic review and metaanalysis. Ann Am Thorac Soc 2023; 20: 18011812."
+          },
+          {
+            "text": "5.  Ho E, Hedstrom G and Murgu S. Robotic bronchoscopy in diagnosing lung cancer-the evidence, tips and tricks: a clinical practice review. Ann Transl Med 2023; 11: 359."
+          },
+          {
+            "text": "6.  Kumar A, Caceres JD, Vaithilingam S , et al . Robotic bronchoscopy for peripheral pulmonary lesion biopsy: evidence-based review of the two platforms. Diagnostics (Basel) 2021; 11: 354."
+          },
+          {
+            "text": "7.  Lu M, Nath S and Semaan RW. A review of robotic-assisted bronchoscopy platforms in the sampling of peripheral pulmonary lesions. J Clin Med 2021; 10: 5678."
+          },
+          {
+            "text": "8.  Ravikumar N, Ho E, Wagh A , et al . Advanced imaging for robotic bronchoscopy: a review. Diagnostics (Basel) 2023; 13: 990."
+          },
+          {
+            "text": "9.  Agrawal A, Ho E, Chaddha U , et al . Factors associated with diagnostic accuracy of robotic bronchoscopy with 12-month follow-up. Ann Thorac Surg 2023; 115: 1361-1368."
+          },
+          {
+            "text": "10.  Khouzam MS, Wood DE, Vigneswaran W , et al . Impact of federal lung cancer screening policy on the incidence of early-stage lung cancer. Ann Thorac Surg 2023; 115: 827-833."
+          },
+          {
+            "text": "11.  Ortiz-Jaimes G and Reisenauer J. Real-world impact of robotic-assisted bronchoscopy on the staging and diagnosis of lung cancer: the shape of current and potential opportunities. Pragmat Obs Res 2023; 14: 75-94."
+          },
+          {
+            "text": "12.  Chen AC, Pastis NJ, Jr., Mahajan AK , et al . Robotic bronchoscopy for peripheral pulmonary lesions: a multicenter pilot and feasibility Study (BENEFIT). Chest 2021; 159: 845-852."
+          },
+          {
+            "text": "13.  Gagnier JJ, Kienle G, Altman DG , et al .; the CARE Group. The CARE Guidelines: consensus-based clinical case reporting guideline development. Glob Adv Health Med 2013; 2: 38-43."
+          },
+          {
+            "text": "Visit Sage journals online journals.sagepub.com/ home/tar"
+          },
+          {
+            "text": "Sage journals"
+          }
+        ],
+        "category": "other"
+      }
+    ],
+    "tables": [],
+    "figures": [
+      {
+        "self_ref": "#/pictures/0",
+        "parent": {
+          "cref": "#/body"
+        },
+        "children": [
+          {
+            "cref": "#/texts/3"
+          },
+          {
+            "cref": "#/texts/4"
+          }
+        ],
+        "content_layer": "body",
+        "label": "picture",
+        "prov": [
+          {
+            "page_no": 1,
+            "bbox": {
+              "l": 24.21457862854004,
+              "t": 788.2861428260803,
+              "r": 89.39054107666016,
+              "b": 775.3116569519043,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "charspan": [
+              0,
+              0
+            ]
+          }
+        ],
+        "captions": [],
+        "references": [],
+        "footnotes": [],
+        "image": null,
+        "annotations": []
+      },
+      {
+        "self_ref": "#/pictures/1",
+        "parent": {
+          "cref": "#/body"
+        },
+        "children": [
+          {
+            "cref": "#/texts/5"
+          },
+          {
+            "cref": "#/texts/6"
+          }
+        ],
+        "content_layer": "body",
+        "label": "picture",
+        "prov": [
+          {
+            "page_no": 1,
+            "bbox": {
+              "l": 42.014854431152344,
+              "t": 761.707462310791,
+              "r": 176.2240753173828,
+              "b": 738.3597030639648,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "charspan": [
+              0,
+              0
+            ]
+          }
+        ],
+        "captions": [],
+        "references": [],
+        "footnotes": [],
+        "image": null,
+        "annotations": []
+      },
+      {
+        "self_ref": "#/pictures/2",
+        "parent": {
+          "cref": "#/body"
+        },
+        "children": [],
+        "content_layer": "body",
+        "label": "picture",
+        "prov": [
+          {
+            "page_no": 1,
+            "bbox": {
+              "l": 41.03935623168945,
+              "t": 36.74755859375,
+              "r": 100.44207763671875,
+              "b": 14.61590576171875,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "charspan": [
+              0,
+              0
+            ]
+          }
+        ],
+        "captions": [],
+        "references": [],
+        "footnotes": [],
+        "image": null,
+        "annotations": []
+      },
+      {
+        "self_ref": "#/pictures/3",
+        "parent": {
+          "cref": "#/body"
+        },
+        "children": [
+          {
+            "cref": "#/texts/27"
+          },
+          {
+            "cref": "#/texts/28"
+          },
+          {
+            "cref": "#/texts/29"
+          }
+        ],
+        "content_layer": "body",
+        "label": "picture",
+        "prov": [
+          {
+            "page_no": 2,
+            "bbox": {
+              "l": 122.72569274902344,
+              "t": 722.9418487548828,
+              "r": 542.197509765625,
+              "b": 485.4936218261719,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "charspan": [
+              0,
+              0
+            ]
+          }
+        ],
+        "captions": [
+          {
+            "cref": "#/texts/27"
+          }
+        ],
+        "references": [],
+        "footnotes": [],
+        "image": null,
+        "annotations": []
+      },
+      {
+        "self_ref": "#/pictures/4",
+        "parent": {
+          "cref": "#/body"
+        },
+        "children": [
+          {
+            "cref": "#/texts/40"
+          },
+          {
+            "cref": "#/texts/41"
+          },
+          {
+            "cref": "#/texts/42"
+          },
+          {
+            "cref": "#/texts/43"
+          },
+          {
+            "cref": "#/texts/44"
+          },
+          {
+            "cref": "#/texts/45"
+          }
+        ],
+        "content_layer": "body",
+        "label": "picture",
+        "prov": [
+          {
+            "page_no": 3,
+            "bbox": {
+              "l": 51.436763763427734,
+              "t": 721.2207794189453,
+              "r": 473.38201904296875,
+              "b": 415.0777282714844,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "charspan": [
+              0,
+              0
+            ]
+          }
+        ],
+        "captions": [
+          {
+            "cref": "#/texts/40"
+          }
+        ],
+        "references": [],
+        "footnotes": [],
+        "image": null,
+        "annotations": []
+      },
+      {
+        "self_ref": "#/pictures/5",
+        "parent": {
+          "cref": "#/body"
+        },
+        "children": [
+          {
+            "cref": "#/texts/58"
+          },
+          {
+            "cref": "#/texts/59"
+          }
+        ],
+        "content_layer": "body",
+        "label": "picture",
+        "prov": [
+          {
+            "page_no": 4,
+            "bbox": {
+              "l": 121.96416473388672,
+              "t": 722.498779296875,
+              "r": 339.6412048339844,
+              "b": 574.7972412109375,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "charspan": [
+              0,
+              0
+            ]
+          }
+        ],
+        "captions": [
+          {
+            "cref": "#/texts/58"
+          }
+        ],
+        "references": [],
+        "footnotes": [],
+        "image": null,
+        "annotations": []
+      },
+      {
+        "self_ref": "#/pictures/6",
+        "parent": {
+          "cref": "#/body"
+        },
+        "children": [
+          {
+            "cref": "#/texts/60"
+          }
+        ],
+        "content_layer": "body",
+        "label": "picture",
+        "prov": [
+          {
+            "page_no": 4,
+            "bbox": {
+              "l": 344.7204895019531,
+              "t": 722.6429214477539,
+              "r": 543.8880615234375,
+              "b": 576.1384887695312,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "charspan": [
+              0,
+              0
+            ]
+          }
+        ],
+        "captions": [],
+        "references": [],
+        "footnotes": [],
+        "image": null,
+        "annotations": []
+      },
+      {
+        "self_ref": "#/pictures/7",
+        "parent": {
+          "cref": "#/body"
+        },
+        "children": [],
+        "content_layer": "body",
+        "label": "picture",
+        "prov": [
+          {
+            "page_no": 4,
+            "bbox": {
+              "l": 121.40552520751953,
+              "t": 571.3667907714844,
+              "r": 339.5924072265625,
+              "b": 438.6390686035156,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "charspan": [
+              0,
+              0
+            ]
+          }
+        ],
+        "captions": [],
+        "references": [],
+        "footnotes": [],
+        "image": null,
+        "annotations": []
+      },
+      {
+        "self_ref": "#/pictures/8",
+        "parent": {
+          "cref": "#/body"
+        },
+        "children": [],
+        "content_layer": "body",
+        "label": "picture",
+        "prov": [
+          {
+            "page_no": 4,
+            "bbox": {
+              "l": 344.59033203125,
+              "t": 572.0612335205078,
+              "r": 543.877685546875,
+              "b": 439.5602111816406,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "charspan": [
+              0,
+              0
+            ]
+          }
+        ],
+        "captions": [],
+        "references": [],
+        "footnotes": [],
+        "image": null,
+        "annotations": []
+      },
+      {
+        "self_ref": "#/pictures/9",
+        "parent": {
+          "cref": "#/body"
+        },
+        "children": [],
+        "content_layer": "body",
+        "label": "picture",
+        "prov": [
+          {
+            "page_no": 5,
+            "bbox": {
+              "l": 366.5655212402344,
+              "t": 371.9737243652344,
+              "r": 379.47662353515625,
+              "b": 358.86334228515625,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "charspan": [
+              0,
+              0
+            ]
+          }
+        ],
+        "captions": [],
+        "references": [],
+        "footnotes": [],
+        "image": null,
+        "annotations": []
+      },
+      {
+        "self_ref": "#/pictures/10",
+        "parent": {
+          "cref": "#/body"
+        },
+        "children": [],
+        "content_layer": "body",
+        "label": "picture",
+        "prov": [
+          {
+            "page_no": 5,
+            "bbox": {
+              "l": 381.80853271484375,
+              "t": 402.590087890625,
+              "r": 395.339111328125,
+              "b": 388.2850341796875,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "charspan": [
+              0,
+              0
+            ]
+          }
+        ],
+        "captions": [],
+        "references": [],
+        "footnotes": [],
+        "image": null,
+        "annotations": []
+      },
+      {
+        "self_ref": "#/pictures/11",
+        "parent": {
+          "cref": "#/body"
+        },
+        "children": [],
+        "content_layer": "body",
+        "label": "picture",
+        "prov": [
+          {
+            "page_no": 6,
+            "bbox": {
+              "l": 24.677433013916016,
+              "t": 479.38665771484375,
+              "r": 31.98112678527832,
+              "b": 469.4693298339844,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "charspan": [
+              0,
+              0
+            ]
+          }
+        ],
+        "captions": [],
+        "references": [],
+        "footnotes": [],
+        "image": null,
+        "annotations": []
+      }
+    ],
+    "citations": [],
+    "n_sections": 19,
+    "n_tables": 0,
+    "n_figures": 12,
+    "n_citations": 0
+  },
+  "provenance": {},
+  "grobid": {
+    "references_tei": "<TEI xmlns=\"http://www.tei-c.org/ns/1.0\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" \n xmlns:mml=\"http://www.w3.org/1998/Math/MathML\">\n\t<teiHeader/>\n\t<text>\n\t\t<front/>\n\t\t<body/>\n\t\t<back>\n\t\t\t<div>\n\t\t\t\t<listBibl>\n<biblStruct xml:id=\"b0\">\n\t<analytic>\n\t\t<title level=\"a\" type=\"main\">Robotic bronchoscopy for pulmonary lesions: a review of existing technologies and clinical data</title>\n\t\t<author>\n\t\t\t<persName><forename type=\"first\">A</forename><surname>Agrawal</surname></persName>\n\t\t</author>\n\t\t<author>\n\t\t\t<persName><forename type=\"first\">D</forename><forename type=\"middle\">K</forename><surname>Hogarth</surname></persName>\n\t\t</author>\n\t\t<author>\n\t\t\t<persName><forename type=\"first\">S</forename><surname>Murgu</surname></persName>\n\t\t</author>\n\t</analytic>\n\t<monogr>\n\t\t<title level=\"j\">J Thorac Dis</title>\n\t\t<imprint>\n\t\t\t<biblScope unit=\"volume\">12</biblScope>\n\t\t\t<biblScope unit=\"page\" from=\"3279\" to=\"3286\" />\n\t\t\t<date type=\"published\" when=\"2020\">2020</date>\n\t\t</imprint>\n\t</monogr>\n</biblStruct>\n\n<biblStruct xml:id=\"b1\">\n\t<analytic>\n\t\t<title level=\"a\" type=\"main\">Robotic bronchoscopy: review of three systems</title>\n\t\t<author>\n\t\t\t<persName><forename type=\"first\">M</forename><forename type=\"middle\">J</forename><surname>Diddams</surname></persName>\n\t\t</author>\n\t\t<author>\n\t\t\t<persName><forename type=\"first\">Lee</forename><surname>Hj</surname></persName>\n\t\t</author>\n\t</analytic>\n\t<monogr>\n\t\t<title level=\"j\">Life</title>\n\t\t<imprint>\n\t\t\t<biblScope unit=\"volume\">13</biblScope>\n\t\t\t<biblScope unit=\"page\">354</biblScope>\n\t\t\t<date type=\"published\" when=\"2023\">2023</date>\n\t\t\t<pubPlace>Basel)</pubPlace>\n\t\t</imprint>\n\t</monogr>\n</biblStruct>\n\n<biblStruct xml:id=\"b2\">\n\t<analytic>\n\t\t<title level=\"a\" type=\"main\">Shape-sensing robotic-assisted bronchoscopy in the diagnosis of pulmonary parenchymal lesions</title>\n\t\t<author>\n\t\t\t<persName><forename type=\"first\">O</forename><surname>Kalchiem-Dekel</surname></persName>\n\t\t</author>\n\t\t<author>\n\t\t\t<persName><forename type=\"first\">J</forename><forename type=\"middle\">G</forename><surname>Connolly</surname></persName>\n\t\t</author>\n\t\t<author>\n\t\t\t<persName><forename type=\"first\">I</forename><forename type=\"middle\">H</forename><surname>Lin</surname></persName>\n\t\t</author>\n\t</analytic>\n\t<monogr>\n\t\t<title level=\"j\">Chest</title>\n\t\t<imprint>\n\t\t\t<biblScope unit=\"volume\">161</biblScope>\n\t\t\t<biblScope unit=\"page\" from=\"572\" to=\"582\" />\n\t\t\t<date type=\"published\" when=\"2022\">2022</date>\n\t\t</imprint>\n\t</monogr>\n</biblStruct>\n\n<biblStruct xml:id=\"b3\">\n\t<analytic>\n\t\t<title level=\"a\" type=\"main\">Diagnostic performance and safety profile of robotic-assisted bronchoscopy: a systematic review and metaanalysis</title>\n\t\t<author>\n\t\t\t<persName><forename type=\"first\">M</forename><forename type=\"middle\">S</forename><surname>Ali</surname></persName>\n\t\t</author>\n\t\t<author>\n\t\t\t<persName><forename type=\"first\">U</forename><forename type=\"middle\">K</forename><surname>Ghori</surname></persName>\n\t\t</author>\n\t\t<author>\n\t\t\t<persName><forename type=\"first\">M</forename><forename type=\"middle\">T</forename><surname>Wayne</surname></persName>\n\t\t</author>\n\t</analytic>\n\t<monogr>\n\t\t<title level=\"j\">Ann Am Thorac Soc</title>\n\t\t<imprint>\n\t\t\t<biblScope unit=\"volume\">20</biblScope>\n\t\t\t<biblScope unit=\"page\" from=\"1801\" to=\"1812\" />\n\t\t\t<date type=\"published\" when=\"2023\">2023</date>\n\t\t</imprint>\n\t</monogr>\n</biblStruct>\n\n<biblStruct xml:id=\"b4\">\n\t<analytic>\n\t\t<title level=\"a\" type=\"main\">Robotic bronchoscopy in diagnosing lung cancer-the evidence, tips and tricks: a clinical practice review</title>\n\t\t<author>\n\t\t\t<persName><forename type=\"first\">E</forename><surname>Ho</surname></persName>\n\t\t</author>\n\t\t<author>\n\t\t\t<persName><forename type=\"first\">G</forename><surname>Hedstrom</surname></persName>\n\t\t</author>\n\t\t<author>\n\t\t\t<persName><forename type=\"first\">S</forename><surname>Murgu</surname></persName>\n\t\t</author>\n\t</analytic>\n\t<monogr>\n\t\t<title level=\"j\">Ann Transl Med</title>\n\t\t<imprint>\n\t\t\t<biblScope unit=\"volume\">11</biblScope>\n\t\t\t<biblScope unit=\"page\">359</biblScope>\n\t\t\t<date type=\"published\" when=\"2023\">2023</date>\n\t\t</imprint>\n\t</monogr>\n</biblStruct>\n\n<biblStruct xml:id=\"b5\">\n\t<analytic>\n\t\t<title level=\"a\" type=\"main\">Robotic bronchoscopy for peripheral pulmonary lesion biopsy: evidence-based review of the two platforms</title>\n\t\t<author>\n\t\t\t<persName><forename type=\"first\">A</forename><surname>Kumar</surname></persName>\n\t\t</author>\n\t\t<author>\n\t\t\t<persName><forename type=\"first\">J</forename><forename type=\"middle\">D</forename><surname>Caceres</surname></persName>\n\t\t</author>\n\t\t<author>\n\t\t\t<persName><forename type=\"first\">S</forename><surname>Vaithilingam</surname></persName>\n\t\t</author>\n\t</analytic>\n\t<monogr>\n\t\t<title level=\"j\">Diagnostics</title>\n\t\t<imprint>\n\t\t\t<biblScope unit=\"volume\">11</biblScope>\n\t\t\t<biblScope unit=\"page\">354</biblScope>\n\t\t\t<date type=\"published\" when=\"2021\">2021</date>\n\t\t\t<pubPlace>Basel</pubPlace>\n\t\t</imprint>\n\t</monogr>\n</biblStruct>\n\n<biblStruct xml:id=\"b6\">\n\t<analytic>\n\t\t<title level=\"a\" type=\"main\">A review of robotic-assisted bronchoscopy platforms in the sampling of peripheral pulmonary lesions</title>\n\t\t<author>\n\t\t\t<persName><forename type=\"first\">M</forename><surname>Lu</surname></persName>\n\t\t</author>\n\t\t<author>\n\t\t\t<persName><forename type=\"first\">S</forename><surname>Nath</surname></persName>\n\t\t</author>\n\t\t<author>\n\t\t\t<persName><forename type=\"first\">R</forename><forename type=\"middle\">W</forename><surname>Semaan</surname></persName>\n\t\t</author>\n\t</analytic>\n\t<monogr>\n\t\t<title level=\"j\">J Clin Med</title>\n\t\t<imprint>\n\t\t\t<biblScope unit=\"volume\">10</biblScope>\n\t\t\t<biblScope unit=\"page\">5678</biblScope>\n\t\t\t<date type=\"published\" when=\"2021\">2021</date>\n\t\t</imprint>\n\t</monogr>\n</biblStruct>\n\n<biblStruct xml:id=\"b7\">\n\t<analytic>\n\t\t<title level=\"a\" type=\"main\">Advanced imaging for robotic bronchoscopy: a review</title>\n\t\t<author>\n\t\t\t<persName><forename type=\"first\">N</forename><surname>Ravikumar</surname></persName>\n\t\t</author>\n\t\t<author>\n\t\t\t<persName><forename type=\"first\">E</forename><surname>Ho</surname></persName>\n\t\t</author>\n\t\t<author>\n\t\t\t<persName><forename type=\"first\">A</forename><surname>Wagh</surname></persName>\n\t\t</author>\n\t</analytic>\n\t<monogr>\n\t\t<title level=\"j\">Diagnostics</title>\n\t\t<imprint>\n\t\t\t<biblScope unit=\"volume\">13</biblScope>\n\t\t\t<biblScope unit=\"page\">990</biblScope>\n\t\t\t<date type=\"published\" when=\"2023\">2023</date>\n\t\t\t<pubPlace>Basel</pubPlace>\n\t\t</imprint>\n\t</monogr>\n</biblStruct>\n\n<biblStruct xml:id=\"b8\">\n\t<analytic>\n\t\t<title level=\"a\" type=\"main\">Factors associated with diagnostic accuracy of robotic bronchoscopy with 12-month follow-up</title>\n\t\t<author>\n\t\t\t<persName><forename type=\"first\">A</forename><surname>Agrawal</surname></persName>\n\t\t</author>\n\t\t<author>\n\t\t\t<persName><forename type=\"first\">E</forename><surname>Ho</surname></persName>\n\t\t</author>\n\t\t<author>\n\t\t\t<persName><forename type=\"first\">U</forename><surname>Chaddha</surname></persName>\n\t\t</author>\n\t</analytic>\n\t<monogr>\n\t\t<title level=\"j\">Ann Thorac Surg</title>\n\t\t<imprint>\n\t\t\t<biblScope unit=\"volume\">115</biblScope>\n\t\t\t<biblScope unit=\"page\" from=\"1361\" to=\"1368\" />\n\t\t\t<date type=\"published\" when=\"2023\">2023</date>\n\t\t</imprint>\n\t</monogr>\n</biblStruct>\n\n<biblStruct xml:id=\"b9\">\n\t<analytic>\n\t\t<title level=\"a\" type=\"main\">Impact of federal lung cancer screening policy on the incidence of early-stage lung cancer</title>\n\t\t<author>\n\t\t\t<persName><forename type=\"first\">M</forename><forename type=\"middle\">S</forename><surname>Khouzam</surname></persName>\n\t\t</author>\n\t\t<author>\n\t\t\t<persName><forename type=\"first\">D</forename><forename type=\"middle\">E</forename><surname>Wood</surname></persName>\n\t\t</author>\n\t\t<author>\n\t\t\t<persName><forename type=\"first\">W</forename><surname>Vigneswaran</surname></persName>\n\t\t</author>\n\t</analytic>\n\t<monogr>\n\t\t<title level=\"j\">Ann Thorac Surg</title>\n\t\t<imprint>\n\t\t\t<biblScope unit=\"volume\">115</biblScope>\n\t\t\t<biblScope unit=\"page\" from=\"827\" to=\"833\" />\n\t\t\t<date type=\"published\" when=\"2023\">2023</date>\n\t\t</imprint>\n\t</monogr>\n</biblStruct>\n\n<biblStruct xml:id=\"b10\">\n\t<analytic>\n\t\t<title level=\"a\" type=\"main\">Real-world impact of robotic-assisted bronchoscopy on the staging and diagnosis of lung cancer: the shape of current and potential opportunities</title>\n\t\t<author>\n\t\t\t<persName><forename type=\"first\">G</forename><surname>Ortiz-Jaimes</surname></persName>\n\t\t</author>\n\t\t<author>\n\t\t\t<persName><forename type=\"first\">J</forename><surname>Reisenauer</surname></persName>\n\t\t</author>\n\t</analytic>\n\t<monogr>\n\t\t<title level=\"j\">Pragmat Obs Res</title>\n\t\t<imprint>\n\t\t\t<biblScope unit=\"volume\">14</biblScope>\n\t\t\t<biblScope unit=\"page\" from=\"75\" to=\"94\" />\n\t\t\t<date type=\"published\" when=\"2023\">2023</date>\n\t\t</imprint>\n\t</monogr>\n</biblStruct>\n\n<biblStruct xml:id=\"b11\">\n\t<analytic>\n\t\t<title level=\"a\" type=\"main\">Robotic bronchoscopy for peripheral pulmonary lesions: a multicenter pilot and feasibility Study (BENEFIT)</title>\n\t\t<author>\n\t\t\t<persName><forename type=\"first\">A</forename><forename type=\"middle\">C</forename><surname>Chen</surname></persName>\n\t\t</author>\n\t\t<author>\n\t\t\t<persName><forename type=\"first\">N</forename><forename type=\"middle\">J</forename><surname>Pastis</surname></persName>\n\t\t</author>\n\t\t<author>\n\t\t\t<persName><forename type=\"first\">Jr</forename><surname>Mahajan</surname></persName>\n\t\t</author>\n\t\t<author>\n\t\t\t<persName><forename type=\"first\">A</forename><forename type=\"middle\">K</forename></persName>\n\t\t</author>\n\t</analytic>\n\t<monogr>\n\t\t<title level=\"j\">Chest</title>\n\t\t<imprint>\n\t\t\t<biblScope unit=\"volume\">159</biblScope>\n\t\t\t<biblScope unit=\"page\" from=\"845\" to=\"852\" />\n\t\t\t<date type=\"published\" when=\"2021\">2021</date>\n\t\t</imprint>\n\t</monogr>\n</biblStruct>\n\n<biblStruct xml:id=\"b12\">\n\t<analytic>\n\t\t<title level=\"a\" type=\"main\">The CARE Guidelines: consensus-based clinical case reporting guideline development</title>\n\t\t<author>\n\t\t\t<persName><forename type=\"first\">J</forename><forename type=\"middle\">J</forename><surname>Gagnier</surname></persName>\n\t\t</author>\n\t\t<author>\n\t\t\t<persName><forename type=\"first\">G</forename><surname>Kienle</surname></persName>\n\t\t</author>\n\t\t<author>\n\t\t\t<persName><forename type=\"first\">D</forename><forename type=\"middle\">G</forename><surname>Altman</surname></persName>\n\t\t</author>\n\t</analytic>\n\t<monogr>\n\t\t<title level=\"j\">Glob Adv Health Med</title>\n\t\t<imprint>\n\t\t\t<biblScope unit=\"volume\">2</biblScope>\n\t\t\t<biblScope unit=\"page\" from=\"38\" to=\"43\" />\n\t\t\t<date type=\"published\" when=\"2013\">2013</date>\n\t\t</imprint>\n\t</monogr>\n</biblStruct>\n\n\t\t\t\t</listBibl>\n\t\t\t</div>\n\t\t</back>\n\t</text>\n</TEI>\n"
+  },
+  "umls_links": [],
+  "references_enriched": [
+    {
+      "title": "Robotic bronchoscopy for pulmonary lesions: a review of existing technologies and clinical data",
+      "journal": "J Thorac Dis",
+      "year": "2020",
+      "volume": "12",
+      "issue": null,
+      "pages": null,
+      "doi": null,
+      "pmid": null,
+      "authors": [
+        "Agrawal A",
+        "Hogarth DK",
+        "Murgu S"
+      ],
+      "first_author_last": "Agrawal",
+      "enrichment": {
+        "pmid": "32642251",
+        "doi": null,
+        "title": "Robotic bronchoscopy for pulmonary lesions: a review of existing technologies and clinical data.",
+        "journal": "Journal of thoracic disease",
+        "year": "2020",
+        "authors": [
+          "Agrawal A",
+          "Hogarth DK",
+          "Murgu S"
+        ],
+        "mesh": [],
+        "pubtypes": [
+          "Journal Article",
+          "Review"
+        ],
+        "abstract": "Bronchoscopic interventions are preferred for sampling suspicious pulmonary lesions as they have lower complications and can achieve diagnosis and staging in one single procedure. Limitations in existing guided bronchoscopy platforms has led to developments in robotic assisted technologies. These devices may allow the bronchoscopist to more precisely maneuver the scope and instruments into the periphery of the lungs under direct visualization while also ensuring stability during sampling of the target lesions. These devices have the potential to improve the diagnostic yield in sampling peripheral lung lesions and may play a role in the treatment of non-operable or oligometastatic peripheral tumors using bronchoscopic ablative therapies. In this article, we review the existing robotic bronchoscopy technologies and summarize the available pre-clinical and clinical data supporting their use."
+      }
+    },
+    {
+      "title": "Robotic bronchoscopy: review of three systems",
+      "journal": "Life",
+      "year": "2023",
+      "volume": "13",
+      "issue": null,
+      "pages": "354",
+      "doi": null,
+      "pmid": null,
+      "authors": [
+        "Diddams MJ",
+        "Hj L"
+      ],
+      "first_author_last": "Diddams",
+      "enrichment": {
+        "pmid": "36836710",
+        "doi": null,
+        "title": "Robotic Bronchoscopy: Review of Three Systems.",
+        "journal": "Life (Basel, Switzerland)",
+        "year": "2023",
+        "authors": [
+          "Diddams MJ",
+          "Lee HJ"
+        ],
+        "mesh": [],
+        "pubtypes": [
+          "Journal Article",
+          "Review"
+        ],
+        "abstract": "Robotic bronchoscopy (RB) has been shown to improve access to smaller and more peripheral lung lesions, while simultaneously staging the mediastinum. Pre-clinical studies demonstrated extremely high diagnostic yields, but real-world RB yields have yet to fully matched up in prospective studies. Despite this, RB technology has rapidly evolved and has great potential for lung-cancer diagnosis and even treatment. In this article, we review the historical and present challenges with RB in order to compare three RB systems."
+      }
+    },
+    {
+      "title": "Shape-sensing robotic-assisted bronchoscopy in the diagnosis of pulmonary parenchymal lesions",
+      "journal": "Chest",
+      "year": "2022",
+      "volume": "161",
+      "issue": null,
+      "pages": null,
+      "doi": null,
+      "pmid": null,
+      "authors": [
+        "Kalchiem-Dekel O",
+        "Connolly JG",
+        "Lin IH"
+      ],
+      "first_author_last": "Kalchiem-Dekel",
+      "enrichment": {
+        "pmid": "34384789",
+        "doi": null,
+        "title": "Shape-Sensing Robotic-Assisted Bronchoscopy in the Diagnosis of Pulmonary Parenchymal Lesions.",
+        "journal": "Chest",
+        "year": "2022",
+        "authors": [
+          "Kalchiem-Dekel O",
+          "Connolly JG",
+          "Lin IH",
+          "Husta BC",
+          "Adusumilli PS",
+          "Beattie JA",
+          "Buonocore DJ",
+          "Dycoco J",
+          "Fuentes P",
+          "Jones DR",
+          "Lee RP",
+          "Park BJ",
+          "Rocco G",
+          "Chawla M",
+          "Bott MJ"
+        ],
+        "mesh": [],
+        "pubtypes": [
+          "Journal Article"
+        ],
+        "abstract": "The landscape of guided bronchoscopy for the sampling of pulmonary parenchymal lesions is evolving rapidly. Shape-sensing robotic-assisted bronchoscopy (ssRAB) recently was introduced as means to allow successful sampling of traditionally challenging lesions."
+      }
+    },
+    {
+      "title": "Diagnostic performance and safety profile of robotic-assisted bronchoscopy: a systematic review and metaanalysis",
+      "journal": "Ann Am Thorac Soc",
+      "year": "2023",
+      "volume": "20",
+      "issue": null,
+      "pages": null,
+      "doi": null,
+      "pmid": null,
+      "authors": [
+        "Ali MS",
+        "Ghori UK",
+        "Wayne MT"
+      ],
+      "first_author_last": "Ali",
+      "enrichment": {
+        "pmid": "37769170",
+        "doi": null,
+        "title": "Diagnostic Performance and Safety Profile of Robotic-assisted Bronchoscopy: A Systematic Review and Meta-Analysis.",
+        "journal": "Annals of the American Thoracic Society",
+        "year": "2023",
+        "authors": [
+          "Ali MS",
+          "Ghori UK",
+          "Wayne MT",
+          "Shostak E",
+          "De Cardenas J"
+        ],
+        "mesh": [],
+        "pubtypes": [
+          "Meta-Analysis",
+          "Journal Article"
+        ],
+        "abstract": "<b>Rationale:</b> Conventional electromagnetic navigation bronchoscopy and other guided bronchoscopic modalities have a very desirable safety profile, but their diagnostic yield is only 60-70% for pulmonary lesions. Recently, robotic-assisted bronchoscopy (RAB) platforms have been introduced to improve the diagnostic performance of bronchoscopic modalities. <b>Objectives:</b> To determine the diagnostic performance and safety profile of RAB (using shape-sensing and electromagnetic navigation-based platforms) by performing a systematic review and meta-analysis. <b>Methods:</b> The PubMed, Embase, and Google Scholar databases were searched to find studies that reported on the diagnostic performance and/or the safety profile of one of the RAB systems. The quality of included studies was assessed using the Quality Assessment of Diagnostic Accuracy Studies 2 tool. Meta-analysis was performed using MedCalc version 20.118. Pooled diagnostic yield was calculated using a Freeman-Tukey transformation. We planned to use a random-effects model if the <i>I</i><sup>2</sup> index was &gt;40%. <b>Results:</b> Twenty-five studies were included: 20 including diagnostic and safety analyses and 5 including only safety analyses. The pooled diagnostic yield of RAB (20 studies, 1,779 lesions) was 84.3% (95% confidence interval, 81.1-87.2%). The <i>I</i><sup>2</sup> index was 65.6%. On the basis of our subgroup analyses, the heterogeneity was likely driven by differences in study designs (prospective vs. retrospective) and procedural protocols (such as different RAB systems). Lesion size&#x2009;&gt;&#x2009;2&#x2009;cm, the presence of a computed tomography bronchus sign, and concentric radial endobronchial ultrasound view were associated with a statistically significant increase in the odds of diagnosis with RAB. The overall rates of pneumothorax, need for tube thoracostomy, and significant hemorrhage were 2.3%, 1.2%, and 0.5%, respectively. <b>Conclusions:</b> RAB systems have significantly increased the diagnostic yield of navigational bronchoscopy compared with conventional systems such as electromagnetic navigation bronchoscopy, but well-designed prospective studies are needed to better understand the impact of various factors, such as the use of three-dimensional imaging modalities, cryobiopsy, and specific ventilatory protocols, on the diagnostic yield of RAB."
+      }
+    },
+    {
+      "title": "Robotic bronchoscopy in diagnosing lung cancer-the evidence, tips and tricks: a clinical practice review",
+      "journal": "Ann Transl Med",
+      "year": "2023",
+      "volume": "11",
+      "issue": null,
+      "pages": "359",
+      "doi": null,
+      "pmid": null,
+      "authors": [
+        "Ho E",
+        "Hedstrom G",
+        "Murgu S"
+      ],
+      "first_author_last": "Ho",
+      "enrichment": {
+        "pmid": null,
+        "doi": null
+      }
+    },
+    {
+      "title": "Robotic bronchoscopy for peripheral pulmonary lesion biopsy: evidence-based review of the two platforms",
+      "journal": "Diagnostics",
+      "year": "2021",
+      "volume": "11",
+      "issue": null,
+      "pages": "354",
+      "doi": null,
+      "pmid": null,
+      "authors": [
+        "Kumar A",
+        "Caceres JD",
+        "Vaithilingam S"
+      ],
+      "first_author_last": "Kumar",
+      "enrichment": {
+        "pmid": "34441413",
+        "doi": null,
+        "title": "Robotic Bronchoscopy for Peripheral Pulmonary Lesion Biopsy: Evidence-Based Review of the Two Platforms.",
+        "journal": "Diagnostics (Basel, Switzerland)",
+        "year": "2021",
+        "authors": [
+          "Kumar A",
+          "Caceres JD",
+          "Vaithilingam S",
+          "Sandhu G",
+          "Meena NK"
+        ],
+        "mesh": [],
+        "pubtypes": [
+          "Journal Article",
+          "Review"
+        ],
+        "abstract": "Despite many advancements in recent years for the sampling of peripheral pulmonary lesions, the diagnostic yield remains low. Initial excitement about the current electromagnetic navigation platforms has subsided as the real-world data shows a significantly lower diagnostic sensitivity of ~70%. \"CT-to-body divergence\" has been identified as a major limitation of this modality. In-tandem use of the ultrathin bronchoscope and radial endobronchial ultrasound probe has yielded only comparable results, attributable to the limited peripheral reach, device maneuverability, stability, and distractors like atelectasis. As such, experts have identified three key steps in peripheral nodule sampling-navigation (to the lesion), confirmation (of the correct location), and acquisition (tissue sampling by tools). Robotic bronchoscopy (RB) is a novel innovation that aspires to improve upon these aspects and consequently, achieve a better diagnostic yield. Through this publication, we aim to review the technical aspects, safety, feasibility, and early efficacy data for this new diagnostic modality."
+      }
+    },
+    {
+      "title": "A review of robotic-assisted bronchoscopy platforms in the sampling of peripheral pulmonary lesions",
+      "journal": "J Clin Med",
+      "year": "2021",
+      "volume": "10",
+      "issue": null,
+      "pages": "5678",
+      "doi": null,
+      "pmid": null,
+      "authors": [
+        "Lu M",
+        "Nath S",
+        "Semaan RW"
+      ],
+      "first_author_last": "Lu",
+      "enrichment": {
+        "pmid": "34884380",
+        "doi": null,
+        "title": "A Review of Robotic-Assisted Bronchoscopy Platforms in the Sampling of Peripheral Pulmonary Lesions.",
+        "journal": "Journal of clinical medicine",
+        "year": "2021",
+        "authors": [
+          "Lu M",
+          "Nath S",
+          "Semaan RW"
+        ],
+        "mesh": [],
+        "pubtypes": [
+          "Journal Article",
+          "Review"
+        ],
+        "abstract": "Robotic-assisted bronchoscopy is one of the newest additions to clinicians' armamentarium for the biopsy of peripheral pulmonary lesions in light of the suboptimal yields and sensitivities of conventional bronchoscopic platforms. In this article, we review the existing literature pertaining to the feasibility as well as sensitivity of available robotic-assisted bronchoscopic platforms."
+      }
+    },
+    {
+      "title": "Advanced imaging for robotic bronchoscopy: a review",
+      "journal": "Diagnostics",
+      "year": "2023",
+      "volume": "13",
+      "issue": null,
+      "pages": "990",
+      "doi": null,
+      "pmid": null,
+      "authors": [
+        "Ravikumar N",
+        "Ho E",
+        "Wagh A"
+      ],
+      "first_author_last": "Ravikumar",
+      "enrichment": {
+        "pmid": "36900134",
+        "doi": null,
+        "title": "Advanced Imaging for Robotic Bronchoscopy: A Review.",
+        "journal": "Diagnostics (Basel, Switzerland)",
+        "year": "2023",
+        "authors": [
+          "Ravikumar N",
+          "Ho E",
+          "Wagh A",
+          "Murgu S"
+        ],
+        "mesh": [],
+        "pubtypes": [
+          "Journal Article",
+          "Review"
+        ],
+        "abstract": "Recent advances in navigational platforms have led bronchoscopists to make major strides in diagnostic interventions for pulmonary parenchymal lesions. Over the last decade, multiple platforms including electromagnetic navigation and robotic bronchoscopy have allowed bronchoscopists to safely navigate farther into the lung parenchyma with increased stability and accuracy. Limitations persist, even with these newer technologies, in achieving a similar or higher diagnostic yield when compared to the transthoracic computed tomography (CT) guided needle approach. One of the major limitations to this effect is due to CT-to-body divergence. Real-time feedback that better defines the tool-lesion relationship is vital and can be obtained with additional imaging using radial endobronchial ultrasound, C-arm based tomosynthesis, cone-beam CT (fixed or mobile), and O-arm CT. Herein, we describe the role of this adjunct imaging with robotic bronchoscopy for diagnostic purposes, describe potential strategies to counteract the CT-to-body divergence phenomenon, and address the potential role of advanced imaging for lung tumor ablation."
+      }
+    },
+    {
+      "title": "Factors associated with diagnostic accuracy of robotic bronchoscopy with 12-month follow-up",
+      "journal": "Ann Thorac Surg",
+      "year": "2023",
+      "volume": "115",
+      "issue": null,
+      "pages": null,
+      "doi": null,
+      "pmid": null,
+      "authors": [
+        "Agrawal A",
+        "Ho E",
+        "Chaddha U"
+      ],
+      "first_author_last": "Agrawal",
+      "enrichment": {
+        "pmid": "35051388",
+        "doi": null,
+        "title": "Factors Associated With Diagnostic Accuracy of Robotic Bronchoscopy With 12-Month Follow-up.",
+        "journal": "The Annals of thoracic surgery",
+        "year": "2023",
+        "authors": [
+          "Agrawal A",
+          "Ho E",
+          "Chaddha U",
+          "Demirkol B",
+          "Bhavani SV",
+          "Hogarth DK",
+          "Murgu S"
+        ],
+        "mesh": [],
+        "pubtypes": [
+          "Review",
+          "Journal Article"
+        ],
+        "abstract": "Robotic bronchoscopy (RB) aims to increase the diagnostic yield of guided bronchoscopy by providing improved navigation, farther reach, and stability during lesion sampling."
+      }
+    },
+    {
+      "title": "Impact of federal lung cancer screening policy on the incidence of early-stage lung cancer",
+      "journal": "Ann Thorac Surg",
+      "year": "2023",
+      "volume": "115",
+      "issue": null,
+      "pages": null,
+      "doi": null,
+      "pmid": null,
+      "authors": [
+        "Khouzam MS",
+        "Wood DE",
+        "Vigneswaran W"
+      ],
+      "first_author_last": "Khouzam",
+      "enrichment": {
+        "pmid": "36470567",
+        "doi": null,
+        "title": "Impact of Federal Lung Cancer Screening Policy on the Incidence of Early-stage Lung Cancer.",
+        "journal": "The Annals of thoracic surgery",
+        "year": "2023",
+        "authors": [
+          "Khouzam MS",
+          "Wood DE",
+          "Vigneswaran W",
+          "Goyal A",
+          "Czerlanis C",
+          "Blackmon SH",
+          "Donington J",
+          "Albain KS",
+          "Freeman RK",
+          "Abdelsattar ZM"
+        ],
+        "mesh": [],
+        "pubtypes": [
+          "Journal Article"
+        ],
+        "abstract": "In December 2013 the US Preventative Services Task Force (USPSTF) recommended annual lung cancer screening for high-risk patients. The Centers for Medicare &amp; Medicaid Services (CMS) later announced coverage in 2015. The impact of these federal decisions at the population level is unknown."
+      }
+    },
+    {
+      "title": "Real-world impact of robotic-assisted bronchoscopy on the staging and diagnosis of lung cancer: the shape of current and potential opportunities",
+      "journal": "Pragmat Obs Res",
+      "year": "2023",
+      "volume": "14",
+      "issue": null,
+      "pages": null,
+      "doi": null,
+      "pmid": null,
+      "authors": [
+        "Ortiz-Jaimes G",
+        "Reisenauer J"
+      ],
+      "first_author_last": "Ortiz-Jaimes",
+      "enrichment": {
+        "pmid": "37694262",
+        "doi": null,
+        "title": "Real-World Impact of Robotic-Assisted Bronchoscopy on the Staging and Diagnosis of Lung Cancer: The Shape of Current and Potential Opportunities.",
+        "journal": "Pragmatic and observational research",
+        "year": "2023",
+        "authors": [
+          "Ortiz-Jaimes G",
+          "Reisenauer J"
+        ],
+        "mesh": [],
+        "pubtypes": [
+          "Journal Article",
+          "Review"
+        ],
+        "abstract": "The approach to peripheral pulmonary lesions (PPL) has been evolving continuously. Advanced bronchoscopic navigational techniques have improved the airway-based approaches to these lesions. Robotic Assisted Bronchoscopy (RAB) can be considered the current pinnacle of this evolution; allowing for a safer approach to sampling lesions previously considered outside of bronchoscopic reach. We present a comprehensive review of the changing epidemiology of lung cancer and the importance of early tissue sampling, the evolution of sampling and navigational bronchoscopic techniques, technical considerations and evidence pertaining to the use of RAB, and adjunct techniques in the diagnosis of lung cancer. Complications and future applications of RAB are also discussed."
+      }
+    },
+    {
+      "title": "Robotic bronchoscopy for peripheral pulmonary lesions: a multicenter pilot and feasibility Study (BENEFIT)",
+      "journal": "Chest",
+      "year": "2021",
+      "volume": "159",
+      "issue": null,
+      "pages": null,
+      "doi": null,
+      "pmid": null,
+      "authors": [
+        "Chen AC",
+        "Pastis NJ",
+        "Mahajan J",
+        "AK"
+      ],
+      "first_author_last": "Chen",
+      "enrichment": {
+        "pmid": "32822675",
+        "doi": null,
+        "title": "Robotic Bronchoscopy for Peripheral Pulmonary Lesions: A Multicenter Pilot and Feasibility Study (BENEFIT).",
+        "journal": "Chest",
+        "year": "2021",
+        "authors": [
+          "Chen AC",
+          "Pastis NJ Jr",
+          "Mahajan AK",
+          "Khandhar SJ",
+          "Simoff MJ",
+          "Machuzak MS",
+          "Cicenia J",
+          "Gildea TR",
+          "Silvestri GA"
+        ],
+        "mesh": [],
+        "pubtypes": [
+          "Journal Article",
+          "Multicenter Study"
+        ],
+        "abstract": "The diagnosis of peripheral pulmonary lesions (PPL) continues to present clinical challenges. Despite extensive experience with guided bronchoscopy, the diagnostic yield has not improved significantly. Robotic-assisted bronchoscopic platforms have been developed potentially to improve the diagnostic yield for PPL. Presently, limited data exist that evaluate the performance of robotic systems in live human subjects."
+      }
+    },
+    {
+      "title": "The CARE Guidelines: consensus-based clinical case reporting guideline development",
+      "journal": "Glob Adv Health Med",
+      "year": "2013",
+      "volume": "2",
+      "issue": null,
+      "pages": null,
+      "doi": null,
+      "pmid": null,
+      "authors": [
+        "Gagnier JJ",
+        "Kienle G",
+        "Altman DG"
+      ],
+      "first_author_last": "Gagnier",
+      "enrichment": {
+        "pmid": "24416692",
+        "doi": null,
+        "title": "The CARE Guidelines: Consensus-based Clinical Case Reporting Guideline Development.",
+        "journal": "Global advances in health and medicine",
+        "year": "2013",
+        "authors": [
+          "Gagnier JJ",
+          "Kienle G",
+          "Altman DG",
+          "Moher D",
+          "Sox H",
+          "Riley D",
+          "CARE Group*"
+        ],
+        "mesh": [],
+        "pubtypes": [
+          "Journal Article"
+        ],
+        "abstract": "A case report is a narrative that describes, for medical, scientific, or educational purposes, a medical problem experienced by one or more patients. Case reports written without guidance from reporting standards are insufficiently rigorous to guide clinical practice or to inform clinical study design."
+      }
+    }
+  ],
+  "drugs": [],
+  "trial_ids": [],
+  "assets": {
+    "tables": [],
+    "figures": [
+      {
+        "type": "figure",
+        "content": {
+          "self_ref": "#/pictures/0",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [
+            {
+              "cref": "#/texts/3"
+            },
+            {
+              "cref": "#/texts/4"
+            }
+          ],
+          "content_layer": "body",
+          "label": "picture",
+          "prov": [
+            {
+              "page_no": 1,
+              "bbox": {
+                "l": 24.21457862854004,
+                "t": 788.2861428260803,
+                "r": 89.39054107666016,
+                "b": 775.3116569519043,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                0
+              ]
+            }
+          ],
+          "captions": [],
+          "references": [],
+          "footnotes": [],
+          "image": null,
+          "annotations": []
+        },
+        "captions": [
+          "(a)], which would potentially  inhibit  intubation  through  the  oropharynx with a large ETT. A 6.5 cuffed ETT was placed into  the  right  nostril  under  fiberoptic  guidance [Figure 1(b)]. The IRB platform was then docked to the ETT. Navigational guidance was used to reach the LUL nodule up to 0  mm from the edge. Transbronchial needle aspiration was performed using 21- and 19-gauge needles. Transbronchial"
+        ],
+        "footnotes": [
+          "ttps://doi.org/10.1177/17534666241259369 https://doi.org/10.1177/17534666241259369 Ther Adv Respir Dis 2024, Vol. 18: 1-6 DOI: 10.1177/ 17534666241259369 © The Author(s), 2024.",
+          "hat creates a 3D airway tree with anatomical borders and provides a pathway to pulmonary nodules or masses for sampling purposes. 1,2,4-8 Combining the system with fluoroscopy and radial endobronchial ultrasound (r-Endobronchial ultrasound (EBUS)) improves the diagnostic yield even further.",
+          "esearch-article20242024",
+          "orceps biopsy with a 1.7-mm forceps, transbronchial brush, and bronchoalveolar lavage were also obtained  under  fluoroscopic  guidance.  Rapid onsite evaluation showed scant degenerated cells. Final pathology showed  necrotic debris and chronic  inflammation,  but  no  malignant  cells. Cultures were negative. Follow-up CT scans of the chest were performed at 3, 6, and 12  months showing near complete resolution of his nodules, confirming benign etiology.",
+          "herapeutic  bronchoscopes  prior  to  docking  the robot. 4,6   In  this  particular  case,  oral  intubation with  a  large  artificial  airway  was  not  possible. Although not optimal, initial airway clearance was performed using a small bronchoscope through a 6.5  ETT  prior  to  performing  RAB.  The  ETT adapter was connected to the 6.5 cuffed ETT, and RAB was performed without interruption. We are not aware of any other reported cases in the literature  describing  the  use  of  robotic  bronchoscopy through a small nasal airway. This case highlights a deviation from recommended protocols suggesting larger oral ETT in patients undergoing RAB. This illustrated approach of using a smaller ETT, via oral or nasal routes, could be useful in patients with history of head and neck cancers, limited jaw movement, and in patients with a known history of tracheal stenosis.",
+          "onventional  bronchoscopy  (lesion  behind  the stump) or CT-guided biopsy considering its central  location.  In  addition,  the  patient  was  not  a good  surgical  candidate.  When  we  considered attempting  to  biopsy  this  lesion  with  RAB,  we were  concerned  about  applying  excessive  pressure with the catheter against the airway stump. The drive force signal feature was helpful in alleviating  these  concerns.  In  addition,  we  used  a diagnostic  bronchoscope  which  was  navigated through the airways on the side of the ETT. We wanted to document the position of the Ion catheter  tip  in  close  proximity  to  the  stump  while avoiding  excessive  pressure.  A  25-gauge  needle was used through the airway wall, and the lesion was sampled with positive rapid on-site cytology examination."
+        ]
+      },
+      {
+        "type": "figure",
+        "content": {
+          "self_ref": "#/pictures/1",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [
+            {
+              "cref": "#/texts/5"
+            },
+            {
+              "cref": "#/texts/6"
+            }
+          ],
+          "content_layer": "body",
+          "label": "picture",
+          "prov": [
+            {
+              "page_no": 1,
+              "bbox": {
+                "l": 42.014854431152344,
+                "t": 761.707462310791,
+                "r": 176.2240753173828,
+                "b": 738.3597030639648,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                0
+              ]
+            }
+          ],
+          "captions": [],
+          "references": [],
+          "footnotes": [],
+          "image": null,
+          "annotations": []
+        },
+        "captions": [
+          "(a)], which would potentially  inhibit  intubation  through  the  oropharynx with a large ETT. A 6.5 cuffed ETT was placed into  the  right  nostril  under  fiberoptic  guidance [Figure 1(b)]. The IRB platform was then docked to the ETT. Navigational guidance was used to reach the LUL nodule up to 0  mm from the edge. Transbronchial needle aspiration was performed using 21- and 19-gauge needles. Transbronchial"
+        ],
+        "footnotes": [
+          "ttps://doi.org/10.1177/17534666241259369 https://doi.org/10.1177/17534666241259369 Ther Adv Respir Dis 2024, Vol. 18: 1-6 DOI: 10.1177/ 17534666241259369 © The Author(s), 2024.",
+          "hat creates a 3D airway tree with anatomical borders and provides a pathway to pulmonary nodules or masses for sampling purposes. 1,2,4-8 Combining the system with fluoroscopy and radial endobronchial ultrasound (r-Endobronchial ultrasound (EBUS)) improves the diagnostic yield even further.",
+          "esearch-article20242024",
+          "orceps biopsy with a 1.7-mm forceps, transbronchial brush, and bronchoalveolar lavage were also obtained  under  fluoroscopic  guidance.  Rapid onsite evaluation showed scant degenerated cells. Final pathology showed  necrotic debris and chronic  inflammation,  but  no  malignant  cells. Cultures were negative. Follow-up CT scans of the chest were performed at 3, 6, and 12  months showing near complete resolution of his nodules, confirming benign etiology.",
+          "herapeutic  bronchoscopes  prior  to  docking  the robot. 4,6   In  this  particular  case,  oral  intubation with  a  large  artificial  airway  was  not  possible. Although not optimal, initial airway clearance was performed using a small bronchoscope through a 6.5  ETT  prior  to  performing  RAB.  The  ETT adapter was connected to the 6.5 cuffed ETT, and RAB was performed without interruption. We are not aware of any other reported cases in the literature  describing  the  use  of  robotic  bronchoscopy through a small nasal airway. This case highlights a deviation from recommended protocols suggesting larger oral ETT in patients undergoing RAB. This illustrated approach of using a smaller ETT, via oral or nasal routes, could be useful in patients with history of head and neck cancers, limited jaw movement, and in patients with a known history of tracheal stenosis.",
+          "onventional  bronchoscopy  (lesion  behind  the stump) or CT-guided biopsy considering its central  location.  In  addition,  the  patient  was  not  a good  surgical  candidate.  When  we  considered attempting  to  biopsy  this  lesion  with  RAB,  we were  concerned  about  applying  excessive  pressure with the catheter against the airway stump. The drive force signal feature was helpful in alleviating  these  concerns.  In  addition,  we  used  a diagnostic  bronchoscope  which  was  navigated through the airways on the side of the ETT. We wanted to document the position of the Ion catheter  tip  in  close  proximity  to  the  stump  while avoiding  excessive  pressure.  A  25-gauge  needle was used through the airway wall, and the lesion was sampled with positive rapid on-site cytology examination."
+        ]
+      },
+      {
+        "type": "figure",
+        "content": {
+          "self_ref": "#/pictures/2",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "label": "picture",
+          "prov": [
+            {
+              "page_no": 1,
+              "bbox": {
+                "l": 41.03935623168945,
+                "t": 36.74755859375,
+                "r": 100.44207763671875,
+                "b": 14.61590576171875,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                0
+              ]
+            }
+          ],
+          "captions": [],
+          "references": [],
+          "footnotes": [],
+          "image": null,
+          "annotations": []
+        },
+        "captions": [
+          "(a)], which would potentially  inhibit  intubation  through  the  oropharynx with a large ETT. A 6.5 cuffed ETT was placed into  the  right  nostril  under  fiberoptic  guidance [Figure 1(b)]. The IRB platform was then docked to the ETT. Navigational guidance was used to reach the LUL nodule up to 0  mm from the edge. Transbronchial needle aspiration was performed using 21- and 19-gauge needles. Transbronchial"
+        ],
+        "footnotes": [
+          "ttps://doi.org/10.1177/17534666241259369 https://doi.org/10.1177/17534666241259369 Ther Adv Respir Dis 2024, Vol. 18: 1-6 DOI: 10.1177/ 17534666241259369 © The Author(s), 2024.",
+          "hat creates a 3D airway tree with anatomical borders and provides a pathway to pulmonary nodules or masses for sampling purposes. 1,2,4-8 Combining the system with fluoroscopy and radial endobronchial ultrasound (r-Endobronchial ultrasound (EBUS)) improves the diagnostic yield even further.",
+          "esearch-article20242024",
+          "orceps biopsy with a 1.7-mm forceps, transbronchial brush, and bronchoalveolar lavage were also obtained  under  fluoroscopic  guidance.  Rapid onsite evaluation showed scant degenerated cells. Final pathology showed  necrotic debris and chronic  inflammation,  but  no  malignant  cells. Cultures were negative. Follow-up CT scans of the chest were performed at 3, 6, and 12  months showing near complete resolution of his nodules, confirming benign etiology.",
+          "herapeutic  bronchoscopes  prior  to  docking  the robot. 4,6   In  this  particular  case,  oral  intubation with  a  large  artificial  airway  was  not  possible. Although not optimal, initial airway clearance was performed using a small bronchoscope through a 6.5  ETT  prior  to  performing  RAB.  The  ETT adapter was connected to the 6.5 cuffed ETT, and RAB was performed without interruption. We are not aware of any other reported cases in the literature  describing  the  use  of  robotic  bronchoscopy through a small nasal airway. This case highlights a deviation from recommended protocols suggesting larger oral ETT in patients undergoing RAB. This illustrated approach of using a smaller ETT, via oral or nasal routes, could be useful in patients with history of head and neck cancers, limited jaw movement, and in patients with a known history of tracheal stenosis.",
+          "onventional  bronchoscopy  (lesion  behind  the stump) or CT-guided biopsy considering its central  location.  In  addition,  the  patient  was  not  a good  surgical  candidate.  When  we  considered attempting  to  biopsy  this  lesion  with  RAB,  we were  concerned  about  applying  excessive  pressure with the catheter against the airway stump. The drive force signal feature was helpful in alleviating  these  concerns.  In  addition,  we  used  a diagnostic  bronchoscope  which  was  navigated through the airways on the side of the ETT. We wanted to document the position of the Ion catheter  tip  in  close  proximity  to  the  stump  while avoiding  excessive  pressure.  A  25-gauge  needle was used through the airway wall, and the lesion was sampled with positive rapid on-site cytology examination."
+        ]
+      },
+      {
+        "type": "figure",
+        "content": {
+          "self_ref": "#/pictures/3",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [
+            {
+              "cref": "#/texts/27"
+            },
+            {
+              "cref": "#/texts/28"
+            },
+            {
+              "cref": "#/texts/29"
+            }
+          ],
+          "content_layer": "body",
+          "label": "picture",
+          "prov": [
+            {
+              "page_no": 2,
+              "bbox": {
+                "l": 122.72569274902344,
+                "t": 722.9418487548828,
+                "r": 542.197509765625,
+                "b": 485.4936218261719,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                0
+              ]
+            }
+          ],
+          "captions": [
+            {
+              "cref": "#/texts/27"
+            }
+          ],
+          "references": [],
+          "footnotes": [],
+          "image": null,
+          "annotations": []
+        },
+        "captions": [
+          "(a)], which would potentially  inhibit  intubation  through  the  oropharynx with a large ETT. A 6.5 cuffed ETT was placed into  the  right  nostril  under  fiberoptic  guidance [Figure 1(b)]. The IRB platform was then docked to the ETT. Navigational guidance was used to reach the LUL nodule up to 0  mm from the edge. Transbronchial needle aspiration was performed using 21- and 19-gauge needles. Transbronchial"
+        ],
+        "footnotes": [
+          "ttps://doi.org/10.1177/17534666241259369 https://doi.org/10.1177/17534666241259369 Ther Adv Respir Dis 2024, Vol. 18: 1-6 DOI: 10.1177/ 17534666241259369 © The Author(s), 2024.",
+          "hat creates a 3D airway tree with anatomical borders and provides a pathway to pulmonary nodules or masses for sampling purposes. 1,2,4-8 Combining the system with fluoroscopy and radial endobronchial ultrasound (r-Endobronchial ultrasound (EBUS)) improves the diagnostic yield even further.",
+          "esearch-article20242024",
+          "orceps biopsy with a 1.7-mm forceps, transbronchial brush, and bronchoalveolar lavage were also obtained  under  fluoroscopic  guidance.  Rapid onsite evaluation showed scant degenerated cells. Final pathology showed  necrotic debris and chronic  inflammation,  but  no  malignant  cells. Cultures were negative. Follow-up CT scans of the chest were performed at 3, 6, and 12  months showing near complete resolution of his nodules, confirming benign etiology.",
+          "herapeutic  bronchoscopes  prior  to  docking  the robot. 4,6   In  this  particular  case,  oral  intubation with  a  large  artificial  airway  was  not  possible. Although not optimal, initial airway clearance was performed using a small bronchoscope through a 6.5  ETT  prior  to  performing  RAB.  The  ETT adapter was connected to the 6.5 cuffed ETT, and RAB was performed without interruption. We are not aware of any other reported cases in the literature  describing  the  use  of  robotic  bronchoscopy through a small nasal airway. This case highlights a deviation from recommended protocols suggesting larger oral ETT in patients undergoing RAB. This illustrated approach of using a smaller ETT, via oral or nasal routes, could be useful in patients with history of head and neck cancers, limited jaw movement, and in patients with a known history of tracheal stenosis.",
+          "onventional  bronchoscopy  (lesion  behind  the stump) or CT-guided biopsy considering its central  location.  In  addition,  the  patient  was  not  a good  surgical  candidate.  When  we  considered attempting  to  biopsy  this  lesion  with  RAB,  we were  concerned  about  applying  excessive  pressure with the catheter against the airway stump. The drive force signal feature was helpful in alleviating  these  concerns.  In  addition,  we  used  a diagnostic  bronchoscope  which  was  navigated through the airways on the side of the ETT. We wanted to document the position of the Ion catheter  tip  in  close  proximity  to  the  stump  while avoiding  excessive  pressure.  A  25-gauge  needle was used through the airway wall, and the lesion was sampled with positive rapid on-site cytology examination."
+        ]
+      },
+      {
+        "type": "figure",
+        "content": {
+          "self_ref": "#/pictures/4",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [
+            {
+              "cref": "#/texts/40"
+            },
+            {
+              "cref": "#/texts/41"
+            },
+            {
+              "cref": "#/texts/42"
+            },
+            {
+              "cref": "#/texts/43"
+            },
+            {
+              "cref": "#/texts/44"
+            },
+            {
+              "cref": "#/texts/45"
+            }
+          ],
+          "content_layer": "body",
+          "label": "picture",
+          "prov": [
+            {
+              "page_no": 3,
+              "bbox": {
+                "l": 51.436763763427734,
+                "t": 721.2207794189453,
+                "r": 473.38201904296875,
+                "b": 415.0777282714844,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                0
+              ]
+            }
+          ],
+          "captions": [
+            {
+              "cref": "#/texts/40"
+            }
+          ],
+          "references": [],
+          "footnotes": [],
+          "image": null,
+          "annotations": []
+        },
+        "captions": [
+          "(a)], which would potentially  inhibit  intubation  through  the  oropharynx with a large ETT. A 6.5 cuffed ETT was placed into  the  right  nostril  under  fiberoptic  guidance [Figure 1(b)]. The IRB platform was then docked to the ETT. Navigational guidance was used to reach the LUL nodule up to 0  mm from the edge. Transbronchial needle aspiration was performed using 21- and 19-gauge needles. Transbronchial"
+        ],
+        "footnotes": [
+          "ttps://doi.org/10.1177/17534666241259369 https://doi.org/10.1177/17534666241259369 Ther Adv Respir Dis 2024, Vol. 18: 1-6 DOI: 10.1177/ 17534666241259369 © The Author(s), 2024.",
+          "hat creates a 3D airway tree with anatomical borders and provides a pathway to pulmonary nodules or masses for sampling purposes. 1,2,4-8 Combining the system with fluoroscopy and radial endobronchial ultrasound (r-Endobronchial ultrasound (EBUS)) improves the diagnostic yield even further.",
+          "esearch-article20242024",
+          "orceps biopsy with a 1.7-mm forceps, transbronchial brush, and bronchoalveolar lavage were also obtained  under  fluoroscopic  guidance.  Rapid onsite evaluation showed scant degenerated cells. Final pathology showed  necrotic debris and chronic  inflammation,  but  no  malignant  cells. Cultures were negative. Follow-up CT scans of the chest were performed at 3, 6, and 12  months showing near complete resolution of his nodules, confirming benign etiology.",
+          "herapeutic  bronchoscopes  prior  to  docking  the robot. 4,6   In  this  particular  case,  oral  intubation with  a  large  artificial  airway  was  not  possible. Although not optimal, initial airway clearance was performed using a small bronchoscope through a 6.5  ETT  prior  to  performing  RAB.  The  ETT adapter was connected to the 6.5 cuffed ETT, and RAB was performed without interruption. We are not aware of any other reported cases in the literature  describing  the  use  of  robotic  bronchoscopy through a small nasal airway. This case highlights a deviation from recommended protocols suggesting larger oral ETT in patients undergoing RAB. This illustrated approach of using a smaller ETT, via oral or nasal routes, could be useful in patients with history of head and neck cancers, limited jaw movement, and in patients with a known history of tracheal stenosis.",
+          "onventional  bronchoscopy  (lesion  behind  the stump) or CT-guided biopsy considering its central  location.  In  addition,  the  patient  was  not  a good  surgical  candidate.  When  we  considered attempting  to  biopsy  this  lesion  with  RAB,  we were  concerned  about  applying  excessive  pressure with the catheter against the airway stump. The drive force signal feature was helpful in alleviating  these  concerns.  In  addition,  we  used  a diagnostic  bronchoscope  which  was  navigated through the airways on the side of the ETT. We wanted to document the position of the Ion catheter  tip  in  close  proximity  to  the  stump  while avoiding  excessive  pressure.  A  25-gauge  needle was used through the airway wall, and the lesion was sampled with positive rapid on-site cytology examination."
+        ]
+      },
+      {
+        "type": "figure",
+        "content": {
+          "self_ref": "#/pictures/5",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [
+            {
+              "cref": "#/texts/58"
+            },
+            {
+              "cref": "#/texts/59"
+            }
+          ],
+          "content_layer": "body",
+          "label": "picture",
+          "prov": [
+            {
+              "page_no": 4,
+              "bbox": {
+                "l": 121.96416473388672,
+                "t": 722.498779296875,
+                "r": 339.6412048339844,
+                "b": 574.7972412109375,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                0
+              ]
+            }
+          ],
+          "captions": [
+            {
+              "cref": "#/texts/58"
+            }
+          ],
+          "references": [],
+          "footnotes": [],
+          "image": null,
+          "annotations": []
+        },
+        "captions": [
+          "(a)], which would potentially  inhibit  intubation  through  the  oropharynx with a large ETT. A 6.5 cuffed ETT was placed into  the  right  nostril  under  fiberoptic  guidance [Figure 1(b)]. The IRB platform was then docked to the ETT. Navigational guidance was used to reach the LUL nodule up to 0  mm from the edge. Transbronchial needle aspiration was performed using 21- and 19-gauge needles. Transbronchial"
+        ],
+        "footnotes": [
+          "ttps://doi.org/10.1177/17534666241259369 https://doi.org/10.1177/17534666241259369 Ther Adv Respir Dis 2024, Vol. 18: 1-6 DOI: 10.1177/ 17534666241259369 © The Author(s), 2024.",
+          "hat creates a 3D airway tree with anatomical borders and provides a pathway to pulmonary nodules or masses for sampling purposes. 1,2,4-8 Combining the system with fluoroscopy and radial endobronchial ultrasound (r-Endobronchial ultrasound (EBUS)) improves the diagnostic yield even further.",
+          "esearch-article20242024",
+          "orceps biopsy with a 1.7-mm forceps, transbronchial brush, and bronchoalveolar lavage were also obtained  under  fluoroscopic  guidance.  Rapid onsite evaluation showed scant degenerated cells. Final pathology showed  necrotic debris and chronic  inflammation,  but  no  malignant  cells. Cultures were negative. Follow-up CT scans of the chest were performed at 3, 6, and 12  months showing near complete resolution of his nodules, confirming benign etiology.",
+          "herapeutic  bronchoscopes  prior  to  docking  the robot. 4,6   In  this  particular  case,  oral  intubation with  a  large  artificial  airway  was  not  possible. Although not optimal, initial airway clearance was performed using a small bronchoscope through a 6.5  ETT  prior  to  performing  RAB.  The  ETT adapter was connected to the 6.5 cuffed ETT, and RAB was performed without interruption. We are not aware of any other reported cases in the literature  describing  the  use  of  robotic  bronchoscopy through a small nasal airway. This case highlights a deviation from recommended protocols suggesting larger oral ETT in patients undergoing RAB. This illustrated approach of using a smaller ETT, via oral or nasal routes, could be useful in patients with history of head and neck cancers, limited jaw movement, and in patients with a known history of tracheal stenosis.",
+          "onventional  bronchoscopy  (lesion  behind  the stump) or CT-guided biopsy considering its central  location.  In  addition,  the  patient  was  not  a good  surgical  candidate.  When  we  considered attempting  to  biopsy  this  lesion  with  RAB,  we were  concerned  about  applying  excessive  pressure with the catheter against the airway stump. The drive force signal feature was helpful in alleviating  these  concerns.  In  addition,  we  used  a diagnostic  bronchoscope  which  was  navigated through the airways on the side of the ETT. We wanted to document the position of the Ion catheter  tip  in  close  proximity  to  the  stump  while avoiding  excessive  pressure.  A  25-gauge  needle was used through the airway wall, and the lesion was sampled with positive rapid on-site cytology examination."
+        ]
+      },
+      {
+        "type": "figure",
+        "content": {
+          "self_ref": "#/pictures/6",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [
+            {
+              "cref": "#/texts/60"
+            }
+          ],
+          "content_layer": "body",
+          "label": "picture",
+          "prov": [
+            {
+              "page_no": 4,
+              "bbox": {
+                "l": 344.7204895019531,
+                "t": 722.6429214477539,
+                "r": 543.8880615234375,
+                "b": 576.1384887695312,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                0
+              ]
+            }
+          ],
+          "captions": [],
+          "references": [],
+          "footnotes": [],
+          "image": null,
+          "annotations": []
+        },
+        "captions": [
+          "(a)], which would potentially  inhibit  intubation  through  the  oropharynx with a large ETT. A 6.5 cuffed ETT was placed into  the  right  nostril  under  fiberoptic  guidance [Figure 1(b)]. The IRB platform was then docked to the ETT. Navigational guidance was used to reach the LUL nodule up to 0  mm from the edge. Transbronchial needle aspiration was performed using 21- and 19-gauge needles. Transbronchial"
+        ],
+        "footnotes": [
+          "ttps://doi.org/10.1177/17534666241259369 https://doi.org/10.1177/17534666241259369 Ther Adv Respir Dis 2024, Vol. 18: 1-6 DOI: 10.1177/ 17534666241259369 © The Author(s), 2024.",
+          "hat creates a 3D airway tree with anatomical borders and provides a pathway to pulmonary nodules or masses for sampling purposes. 1,2,4-8 Combining the system with fluoroscopy and radial endobronchial ultrasound (r-Endobronchial ultrasound (EBUS)) improves the diagnostic yield even further.",
+          "esearch-article20242024",
+          "orceps biopsy with a 1.7-mm forceps, transbronchial brush, and bronchoalveolar lavage were also obtained  under  fluoroscopic  guidance.  Rapid onsite evaluation showed scant degenerated cells. Final pathology showed  necrotic debris and chronic  inflammation,  but  no  malignant  cells. Cultures were negative. Follow-up CT scans of the chest were performed at 3, 6, and 12  months showing near complete resolution of his nodules, confirming benign etiology.",
+          "herapeutic  bronchoscopes  prior  to  docking  the robot. 4,6   In  this  particular  case,  oral  intubation with  a  large  artificial  airway  was  not  possible. Although not optimal, initial airway clearance was performed using a small bronchoscope through a 6.5  ETT  prior  to  performing  RAB.  The  ETT adapter was connected to the 6.5 cuffed ETT, and RAB was performed without interruption. We are not aware of any other reported cases in the literature  describing  the  use  of  robotic  bronchoscopy through a small nasal airway. This case highlights a deviation from recommended protocols suggesting larger oral ETT in patients undergoing RAB. This illustrated approach of using a smaller ETT, via oral or nasal routes, could be useful in patients with history of head and neck cancers, limited jaw movement, and in patients with a known history of tracheal stenosis.",
+          "onventional  bronchoscopy  (lesion  behind  the stump) or CT-guided biopsy considering its central  location.  In  addition,  the  patient  was  not  a good  surgical  candidate.  When  we  considered attempting  to  biopsy  this  lesion  with  RAB,  we were  concerned  about  applying  excessive  pressure with the catheter against the airway stump. The drive force signal feature was helpful in alleviating  these  concerns.  In  addition,  we  used  a diagnostic  bronchoscope  which  was  navigated through the airways on the side of the ETT. We wanted to document the position of the Ion catheter  tip  in  close  proximity  to  the  stump  while avoiding  excessive  pressure.  A  25-gauge  needle was used through the airway wall, and the lesion was sampled with positive rapid on-site cytology examination."
+        ]
+      },
+      {
+        "type": "figure",
+        "content": {
+          "self_ref": "#/pictures/7",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "label": "picture",
+          "prov": [
+            {
+              "page_no": 4,
+              "bbox": {
+                "l": 121.40552520751953,
+                "t": 571.3667907714844,
+                "r": 339.5924072265625,
+                "b": 438.6390686035156,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                0
+              ]
+            }
+          ],
+          "captions": [],
+          "references": [],
+          "footnotes": [],
+          "image": null,
+          "annotations": []
+        },
+        "captions": [
+          "(a)], which would potentially  inhibit  intubation  through  the  oropharynx with a large ETT. A 6.5 cuffed ETT was placed into  the  right  nostril  under  fiberoptic  guidance [Figure 1(b)]. The IRB platform was then docked to the ETT. Navigational guidance was used to reach the LUL nodule up to 0  mm from the edge. Transbronchial needle aspiration was performed using 21- and 19-gauge needles. Transbronchial"
+        ],
+        "footnotes": [
+          "ttps://doi.org/10.1177/17534666241259369 https://doi.org/10.1177/17534666241259369 Ther Adv Respir Dis 2024, Vol. 18: 1-6 DOI: 10.1177/ 17534666241259369 © The Author(s), 2024.",
+          "hat creates a 3D airway tree with anatomical borders and provides a pathway to pulmonary nodules or masses for sampling purposes. 1,2,4-8 Combining the system with fluoroscopy and radial endobronchial ultrasound (r-Endobronchial ultrasound (EBUS)) improves the diagnostic yield even further.",
+          "esearch-article20242024",
+          "orceps biopsy with a 1.7-mm forceps, transbronchial brush, and bronchoalveolar lavage were also obtained  under  fluoroscopic  guidance.  Rapid onsite evaluation showed scant degenerated cells. Final pathology showed  necrotic debris and chronic  inflammation,  but  no  malignant  cells. Cultures were negative. Follow-up CT scans of the chest were performed at 3, 6, and 12  months showing near complete resolution of his nodules, confirming benign etiology.",
+          "herapeutic  bronchoscopes  prior  to  docking  the robot. 4,6   In  this  particular  case,  oral  intubation with  a  large  artificial  airway  was  not  possible. Although not optimal, initial airway clearance was performed using a small bronchoscope through a 6.5  ETT  prior  to  performing  RAB.  The  ETT adapter was connected to the 6.5 cuffed ETT, and RAB was performed without interruption. We are not aware of any other reported cases in the literature  describing  the  use  of  robotic  bronchoscopy through a small nasal airway. This case highlights a deviation from recommended protocols suggesting larger oral ETT in patients undergoing RAB. This illustrated approach of using a smaller ETT, via oral or nasal routes, could be useful in patients with history of head and neck cancers, limited jaw movement, and in patients with a known history of tracheal stenosis.",
+          "onventional  bronchoscopy  (lesion  behind  the stump) or CT-guided biopsy considering its central  location.  In  addition,  the  patient  was  not  a good  surgical  candidate.  When  we  considered attempting  to  biopsy  this  lesion  with  RAB,  we were  concerned  about  applying  excessive  pressure with the catheter against the airway stump. The drive force signal feature was helpful in alleviating  these  concerns.  In  addition,  we  used  a diagnostic  bronchoscope  which  was  navigated through the airways on the side of the ETT. We wanted to document the position of the Ion catheter  tip  in  close  proximity  to  the  stump  while avoiding  excessive  pressure.  A  25-gauge  needle was used through the airway wall, and the lesion was sampled with positive rapid on-site cytology examination."
+        ]
+      },
+      {
+        "type": "figure",
+        "content": {
+          "self_ref": "#/pictures/8",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "label": "picture",
+          "prov": [
+            {
+              "page_no": 4,
+              "bbox": {
+                "l": 344.59033203125,
+                "t": 572.0612335205078,
+                "r": 543.877685546875,
+                "b": 439.5602111816406,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                0
+              ]
+            }
+          ],
+          "captions": [],
+          "references": [],
+          "footnotes": [],
+          "image": null,
+          "annotations": []
+        },
+        "captions": [
+          "(a)], which would potentially  inhibit  intubation  through  the  oropharynx with a large ETT. A 6.5 cuffed ETT was placed into  the  right  nostril  under  fiberoptic  guidance [Figure 1(b)]. The IRB platform was then docked to the ETT. Navigational guidance was used to reach the LUL nodule up to 0  mm from the edge. Transbronchial needle aspiration was performed using 21- and 19-gauge needles. Transbronchial"
+        ],
+        "footnotes": [
+          "ttps://doi.org/10.1177/17534666241259369 https://doi.org/10.1177/17534666241259369 Ther Adv Respir Dis 2024, Vol. 18: 1-6 DOI: 10.1177/ 17534666241259369 © The Author(s), 2024.",
+          "hat creates a 3D airway tree with anatomical borders and provides a pathway to pulmonary nodules or masses for sampling purposes. 1,2,4-8 Combining the system with fluoroscopy and radial endobronchial ultrasound (r-Endobronchial ultrasound (EBUS)) improves the diagnostic yield even further.",
+          "esearch-article20242024",
+          "orceps biopsy with a 1.7-mm forceps, transbronchial brush, and bronchoalveolar lavage were also obtained  under  fluoroscopic  guidance.  Rapid onsite evaluation showed scant degenerated cells. Final pathology showed  necrotic debris and chronic  inflammation,  but  no  malignant  cells. Cultures were negative. Follow-up CT scans of the chest were performed at 3, 6, and 12  months showing near complete resolution of his nodules, confirming benign etiology.",
+          "herapeutic  bronchoscopes  prior  to  docking  the robot. 4,6   In  this  particular  case,  oral  intubation with  a  large  artificial  airway  was  not  possible. Although not optimal, initial airway clearance was performed using a small bronchoscope through a 6.5  ETT  prior  to  performing  RAB.  The  ETT adapter was connected to the 6.5 cuffed ETT, and RAB was performed without interruption. We are not aware of any other reported cases in the literature  describing  the  use  of  robotic  bronchoscopy through a small nasal airway. This case highlights a deviation from recommended protocols suggesting larger oral ETT in patients undergoing RAB. This illustrated approach of using a smaller ETT, via oral or nasal routes, could be useful in patients with history of head and neck cancers, limited jaw movement, and in patients with a known history of tracheal stenosis.",
+          "onventional  bronchoscopy  (lesion  behind  the stump) or CT-guided biopsy considering its central  location.  In  addition,  the  patient  was  not  a good  surgical  candidate.  When  we  considered attempting  to  biopsy  this  lesion  with  RAB,  we were  concerned  about  applying  excessive  pressure with the catheter against the airway stump. The drive force signal feature was helpful in alleviating  these  concerns.  In  addition,  we  used  a diagnostic  bronchoscope  which  was  navigated through the airways on the side of the ETT. We wanted to document the position of the Ion catheter  tip  in  close  proximity  to  the  stump  while avoiding  excessive  pressure.  A  25-gauge  needle was used through the airway wall, and the lesion was sampled with positive rapid on-site cytology examination."
+        ]
+      },
+      {
+        "type": "figure",
+        "content": {
+          "self_ref": "#/pictures/9",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "label": "picture",
+          "prov": [
+            {
+              "page_no": 5,
+              "bbox": {
+                "l": 366.5655212402344,
+                "t": 371.9737243652344,
+                "r": 379.47662353515625,
+                "b": 358.86334228515625,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                0
+              ]
+            }
+          ],
+          "captions": [],
+          "references": [],
+          "footnotes": [],
+          "image": null,
+          "annotations": []
+        },
+        "captions": [
+          "(a)], which would potentially  inhibit  intubation  through  the  oropharynx with a large ETT. A 6.5 cuffed ETT was placed into  the  right  nostril  under  fiberoptic  guidance [Figure 1(b)]. The IRB platform was then docked to the ETT. Navigational guidance was used to reach the LUL nodule up to 0  mm from the edge. Transbronchial needle aspiration was performed using 21- and 19-gauge needles. Transbronchial"
+        ],
+        "footnotes": [
+          "ttps://doi.org/10.1177/17534666241259369 https://doi.org/10.1177/17534666241259369 Ther Adv Respir Dis 2024, Vol. 18: 1-6 DOI: 10.1177/ 17534666241259369 © The Author(s), 2024.",
+          "hat creates a 3D airway tree with anatomical borders and provides a pathway to pulmonary nodules or masses for sampling purposes. 1,2,4-8 Combining the system with fluoroscopy and radial endobronchial ultrasound (r-Endobronchial ultrasound (EBUS)) improves the diagnostic yield even further.",
+          "esearch-article20242024",
+          "orceps biopsy with a 1.7-mm forceps, transbronchial brush, and bronchoalveolar lavage were also obtained  under  fluoroscopic  guidance.  Rapid onsite evaluation showed scant degenerated cells. Final pathology showed  necrotic debris and chronic  inflammation,  but  no  malignant  cells. Cultures were negative. Follow-up CT scans of the chest were performed at 3, 6, and 12  months showing near complete resolution of his nodules, confirming benign etiology.",
+          "herapeutic  bronchoscopes  prior  to  docking  the robot. 4,6   In  this  particular  case,  oral  intubation with  a  large  artificial  airway  was  not  possible. Although not optimal, initial airway clearance was performed using a small bronchoscope through a 6.5  ETT  prior  to  performing  RAB.  The  ETT adapter was connected to the 6.5 cuffed ETT, and RAB was performed without interruption. We are not aware of any other reported cases in the literature  describing  the  use  of  robotic  bronchoscopy through a small nasal airway. This case highlights a deviation from recommended protocols suggesting larger oral ETT in patients undergoing RAB. This illustrated approach of using a smaller ETT, via oral or nasal routes, could be useful in patients with history of head and neck cancers, limited jaw movement, and in patients with a known history of tracheal stenosis.",
+          "onventional  bronchoscopy  (lesion  behind  the stump) or CT-guided biopsy considering its central  location.  In  addition,  the  patient  was  not  a good  surgical  candidate.  When  we  considered attempting  to  biopsy  this  lesion  with  RAB,  we were  concerned  about  applying  excessive  pressure with the catheter against the airway stump. The drive force signal feature was helpful in alleviating  these  concerns.  In  addition,  we  used  a diagnostic  bronchoscope  which  was  navigated through the airways on the side of the ETT. We wanted to document the position of the Ion catheter  tip  in  close  proximity  to  the  stump  while avoiding  excessive  pressure.  A  25-gauge  needle was used through the airway wall, and the lesion was sampled with positive rapid on-site cytology examination."
+        ]
+      },
+      {
+        "type": "figure",
+        "content": {
+          "self_ref": "#/pictures/10",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "label": "picture",
+          "prov": [
+            {
+              "page_no": 5,
+              "bbox": {
+                "l": 381.80853271484375,
+                "t": 402.590087890625,
+                "r": 395.339111328125,
+                "b": 388.2850341796875,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                0
+              ]
+            }
+          ],
+          "captions": [],
+          "references": [],
+          "footnotes": [],
+          "image": null,
+          "annotations": []
+        },
+        "captions": [
+          "(a)], which would potentially  inhibit  intubation  through  the  oropharynx with a large ETT. A 6.5 cuffed ETT was placed into  the  right  nostril  under  fiberoptic  guidance [Figure 1(b)]. The IRB platform was then docked to the ETT. Navigational guidance was used to reach the LUL nodule up to 0  mm from the edge. Transbronchial needle aspiration was performed using 21- and 19-gauge needles. Transbronchial"
+        ],
+        "footnotes": [
+          "ttps://doi.org/10.1177/17534666241259369 https://doi.org/10.1177/17534666241259369 Ther Adv Respir Dis 2024, Vol. 18: 1-6 DOI: 10.1177/ 17534666241259369 © The Author(s), 2024.",
+          "hat creates a 3D airway tree with anatomical borders and provides a pathway to pulmonary nodules or masses for sampling purposes. 1,2,4-8 Combining the system with fluoroscopy and radial endobronchial ultrasound (r-Endobronchial ultrasound (EBUS)) improves the diagnostic yield even further.",
+          "esearch-article20242024",
+          "orceps biopsy with a 1.7-mm forceps, transbronchial brush, and bronchoalveolar lavage were also obtained  under  fluoroscopic  guidance.  Rapid onsite evaluation showed scant degenerated cells. Final pathology showed  necrotic debris and chronic  inflammation,  but  no  malignant  cells. Cultures were negative. Follow-up CT scans of the chest were performed at 3, 6, and 12  months showing near complete resolution of his nodules, confirming benign etiology.",
+          "herapeutic  bronchoscopes  prior  to  docking  the robot. 4,6   In  this  particular  case,  oral  intubation with  a  large  artificial  airway  was  not  possible. Although not optimal, initial airway clearance was performed using a small bronchoscope through a 6.5  ETT  prior  to  performing  RAB.  The  ETT adapter was connected to the 6.5 cuffed ETT, and RAB was performed without interruption. We are not aware of any other reported cases in the literature  describing  the  use  of  robotic  bronchoscopy through a small nasal airway. This case highlights a deviation from recommended protocols suggesting larger oral ETT in patients undergoing RAB. This illustrated approach of using a smaller ETT, via oral or nasal routes, could be useful in patients with history of head and neck cancers, limited jaw movement, and in patients with a known history of tracheal stenosis.",
+          "onventional  bronchoscopy  (lesion  behind  the stump) or CT-guided biopsy considering its central  location.  In  addition,  the  patient  was  not  a good  surgical  candidate.  When  we  considered attempting  to  biopsy  this  lesion  with  RAB,  we were  concerned  about  applying  excessive  pressure with the catheter against the airway stump. The drive force signal feature was helpful in alleviating  these  concerns.  In  addition,  we  used  a diagnostic  bronchoscope  which  was  navigated through the airways on the side of the ETT. We wanted to document the position of the Ion catheter  tip  in  close  proximity  to  the  stump  while avoiding  excessive  pressure.  A  25-gauge  needle was used through the airway wall, and the lesion was sampled with positive rapid on-site cytology examination."
+        ]
+      },
+      {
+        "type": "figure",
+        "content": {
+          "self_ref": "#/pictures/11",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "label": "picture",
+          "prov": [
+            {
+              "page_no": 6,
+              "bbox": {
+                "l": 24.677433013916016,
+                "t": 479.38665771484375,
+                "r": 31.98112678527832,
+                "b": 469.4693298339844,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                0
+              ]
+            }
+          ],
+          "captions": [],
+          "references": [],
+          "footnotes": [],
+          "image": null,
+          "annotations": []
+        },
+        "captions": [
+          "(a)], which would potentially  inhibit  intubation  through  the  oropharynx with a large ETT. A 6.5 cuffed ETT was placed into  the  right  nostril  under  fiberoptic  guidance [Figure 1(b)]. The IRB platform was then docked to the ETT. Navigational guidance was used to reach the LUL nodule up to 0  mm from the edge. Transbronchial needle aspiration was performed using 21- and 19-gauge needles. Transbronchial"
+        ],
+        "footnotes": [
+          "ttps://doi.org/10.1177/17534666241259369 https://doi.org/10.1177/17534666241259369 Ther Adv Respir Dis 2024, Vol. 18: 1-6 DOI: 10.1177/ 17534666241259369 © The Author(s), 2024.",
+          "hat creates a 3D airway tree with anatomical borders and provides a pathway to pulmonary nodules or masses for sampling purposes. 1,2,4-8 Combining the system with fluoroscopy and radial endobronchial ultrasound (r-Endobronchial ultrasound (EBUS)) improves the diagnostic yield even further.",
+          "esearch-article20242024",
+          "orceps biopsy with a 1.7-mm forceps, transbronchial brush, and bronchoalveolar lavage were also obtained  under  fluoroscopic  guidance.  Rapid onsite evaluation showed scant degenerated cells. Final pathology showed  necrotic debris and chronic  inflammation,  but  no  malignant  cells. Cultures were negative. Follow-up CT scans of the chest were performed at 3, 6, and 12  months showing near complete resolution of his nodules, confirming benign etiology.",
+          "herapeutic  bronchoscopes  prior  to  docking  the robot. 4,6   In  this  particular  case,  oral  intubation with  a  large  artificial  airway  was  not  possible. Although not optimal, initial airway clearance was performed using a small bronchoscope through a 6.5  ETT  prior  to  performing  RAB.  The  ETT adapter was connected to the 6.5 cuffed ETT, and RAB was performed without interruption. We are not aware of any other reported cases in the literature  describing  the  use  of  robotic  bronchoscopy through a small nasal airway. This case highlights a deviation from recommended protocols suggesting larger oral ETT in patients undergoing RAB. This illustrated approach of using a smaller ETT, via oral or nasal routes, could be useful in patients with history of head and neck cancers, limited jaw movement, and in patients with a known history of tracheal stenosis.",
+          "onventional  bronchoscopy  (lesion  behind  the stump) or CT-guided biopsy considering its central  location.  In  addition,  the  patient  was  not  a good  surgical  candidate.  When  we  considered attempting  to  biopsy  this  lesion  with  RAB,  we were  concerned  about  applying  excessive  pressure with the catheter against the airway stump. The drive force signal feature was helpful in alleviating  these  concerns.  In  addition,  we  used  a diagnostic  bronchoscope  which  was  navigated through the airways on the side of the ETT. We wanted to document the position of the Ion catheter  tip  in  close  proximity  to  the  stump  while avoiding  excessive  pressure.  A  25-gauge  needle was used through the airway wall, and the lesion was sampled with positive rapid on-site cytology examination."
+        ]
+      }
+    ]
+  },
+  "statistics": [],
+  "validation": {
+    "checks": {
+      "has_title": true,
+      "has_authors": true,
+      "authors_are_valid": false,
+      "has_sections": true,
+      "sections_have_content": true,
+      "has_tables": false,
+      "tables_have_captions": true,
+      "tables_have_data": true,
+      "has_figures": true,
+      "figures_have_captions": false,
+      "figures_have_images": false,
+      "has_entities": false,
+      "has_statistics": false,
+      "has_references": true,
+      "refs_structured": true,
+      "refs_enriched_some": true,
+      "references_enriched": true,
+      "has_references_csv": false,
+      "has_cross_refs": false,
+      "umls_links": false,
+      "figures_textual_count": 0
+    },
+    "completeness_score": 61,
+    "is_valid": true,
+    "issues": [],
+    "warnings": [
+      "No medical entities found",
+      "No statistics extracted",
+      "Some figures missing captions"
+    ],
+    "quality_level": "acceptable"
+  }
+}

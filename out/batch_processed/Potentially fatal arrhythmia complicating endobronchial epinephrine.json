@@ -1,0 +1,920 @@
+{
+  "metadata": {
+    "title": "Potentially Fatal Arrhythmia Complicating Endobronchial Epinephrine for Control of Iatrogenic Bleeding",
+    "year": null,
+    "authors": [
+      "American Thoracic Society",
+      "Iatrogenic Bleeding"
+    ],
+    "references_text": [
+      "Incidence of complications in bronchoscopy. Multicentre prospective study of 20,986 bronchoscopies\n\t\t\n\t\t\tNFacciolongo\n\t\t\n\t\t\n\t\t\tMPatelli\n\t\t\n\t\t\n\t\t\tSGasparini\n\t\t\n\t\t\n\t\t\tLLazzari Agli\n\t\t\n\t\t\n\t\t\tMSalio\n\t\t\n\t\t\n\t\t\tCSimonassi\n\t\t\n\t\t\n\t\t\tBDel Prato\n\t\t\n\t\t\n\t\t\tPZanoni\n\t\t\n\t\t10.4081/monaldi.2009.370\n\t\n\t\n\t\tMonaldi Archives for Chest Disease\n\t\tMonaldi Arch Chest Dis\n\t\t1122-0643\n\t\t2465-1028\n\t\t\n\t\t\t71\n\t\t\t1\n\t\t\t\n\t\t\t2009\n\t\t\tPAGEPress Publications",
+      "Aspirin Does Not Increase Bleeding Complications After Transbronchial Biopsy\n\t\t\n\t\t\tFelixJ FHerth\n\t\t\n\t\t\n\t\t\tHDBecker\n\t\t\n\t\t\n\t\t\tArminErnst\n\t\t\n\t\t10.1378/chest.122.4.1461\n\t\n\t\n\t\tChest\n\t\tChest\n\t\t0012-3692\n\t\t\n\t\t\t122\n\t\t\t4\n\t\t\t\n\t\t\t2002\n\t\t\tElsevier BV",
+      "Effect of Routine Clopidogrel Use on Bleeding Complications After Transbronchial Biopsy in Humans\n\t\t\n\t\t\tArminErnst\n\t\t\n\t\t\n\t\t\tRalfEberhardt\n\t\t\n\t\t\n\t\t\tMomenWahidi\n\t\t\n\t\t\n\t\t\tHeinrichDBecker\n\t\t\n\t\t\n\t\t\tFelixJ FHerth\n\t\t\n\t\t10.1378/chest.129.3.734\n\t\n\t\n\t\tChest\n\t\tChest\n\t\t0012-3692\n\t\t\n\t\t\t129\n\t\t\t3\n\t\t\t\n\t\t\t2006\n\t\t\tElsevier BV",
+      "Management of complications from diagnostic and interventional bronchoscopy\n\t\t\n\t\t\tPyngLee\n\t\t\n\t\t\n\t\t\tAtulCMehta\n\t\t\n\t\t\n\t\t\tPraveenNMathur\n\t\t\n\t\t10.1111/j.1440-1843.2009.01617.x\n\t\n\t\n\t\tRespirology\n\t\tRespirology\n\t\t1323-7799\n\t\t1440-1843\n\t\t\n\t\t\t14\n\t\t\t7\n\t\t\t\n\t\t\t2009\n\t\t\tWiley",
+      "Iced Saline Lavage during Bronchoscopy\n\t\t\n\t\t\tHamidSahebjami\n\t\t\n\t\t10.1378/chest.69.1.131b\n\t\n\t\n\t\tChest\n\t\tChest\n\t\t0012-3692\n\t\t\n\t\t\t69\n\t\t\t1\n\t\t\t\n\t\t\t1976\n\t\t\tElsevier BV",
+      "Bronchoscopically Induced Bleeding\n\t\t\n\t\t\tEdwardMCordasco\n\t\t\n\t\t\n\t\t\tAtulCMehta\n\t\t\n\t\t\n\t\t\tMuzzaffarAhmad\n\t\t\n\t\t10.1378/chest.100.4.1141\n\t\n\t\n\t\tChest\n\t\tChest\n\t\t0012-3692\n\t\t\n\t\t\t100\n\t\t\t4\n\t\t\t\n\t\t\t1991\n\t\t\tElsevier BV",
+      "British Thoracic Society guidelines on diagnostic flexible bronchoscopy\n\t\t10.1136/thx.56.suppl_1.i1\n\t\n\t\n\t\tThorax\n\t\tThorax\n\t\t0040-6376\n\t\t\n\t\t\t56\n\t\t\tSupplement 1\n\t\t\t\n\t\t\t2001\n\t\t\tBMJ",
+      "Acute myocardial infarction after administration of low-dose intravenous epinephrine for anaphylaxis\n\t\t\n\t\t\tKyleJShaver\n\t\t\n\t\t\n\t\t\tChristopherAdams\n\t\t\n\t\t\n\t\t\tStevenJWeiss\n\t\t\n\t\t10.1017/s1481803500013890\n\t\n\t\n\t\tCJEM\n\t\tCJEM\n\t\t1481-8035\n\t\t1481-8043\n\t\t\n\t\t\t8\n\t\t\t04\n\t\t\t\n\t\t\t2006\n\t\t\tSpringer Science and Business Media LLC",
+      "Epinephrine-induced ST elevation: a case of endobronchial topical epinephrine-induced coronary vasospasm\n\t\t\n\t\t\tMJanjua\n\t\t\n\t\t\n\t\t\tABadshah\n\t\t\n\t\t\n\t\t\tSAAllen\n\t\t\n\t\t10.1136/hrt.2008.161646\n\t\n\t\n\t\tHeart\n\t\tHeart\n\t\t1355-6037\n\t\t\n\t\t\t95\n\t\t\t8\n\t\t\t\n\t\t\t2009\n\t\t\tBMJ",
+      "Clinical episode of suggestive left main coronary artery spasm after gingival anaesthetic infiltration\n\t\t\n\t\t\tGonzalezEnriquez\n\t\t\n\t\t\n\t\t\tS\n\t\t\n\t\t\n\t\t\tTorreHernandez\n\t\t\n\t\t\n\t\t\tJM\n\t\t\n\t\t\n\t\t\tSainzLaso\n\t\t\n\t\t\n\t\t\tF\n\t\t\n\t\n\t\n\t\tRev Esp Cardiol\n\t\t\n\t\t\t56\n\t\t\t\n\t\t\t2003",
+      "Survey of flexible fibreoptic bronchoscopy in the United Kingdom\n\t\t\n\t\t\tCMSmyth\n\t\t\n\t\t\n\t\t\tRJStead\n\t\t\n\t\t10.1183/09031936.02.00103702\n\t\n\t\n\t\tEuropean Respiratory Journal\n\t\tEur Respir J\n\t\t0903-1936\n\t\t1399-3003\n\t\t\n\t\t\t19\n\t\t\t3\n\t\t\t\n\t\t\t2002\n\t\t\tEuropean Respiratory Society (ERS)",
+      "Severe Complications of Bronchoscopy\n\t\t\n\t\t\tFaguangJin\n\t\t\n\t\t\n\t\t\tDeguangMu\n\t\t\n\t\t\n\t\t\tDonglingChu\n\t\t\n\t\t\n\t\t\tEnqingFu\n\t\t\n\t\t\n\t\t\tYonghongXie\n\t\t\n\t\t\n\t\t\tTonggangLiu\n\t\t\n\t\t10.1159/000151656\n\t\n\t\n\t\tRespiration\n\t\tRespiration\n\t\t0025-7931\n\t\t1423-0356\n\t\t\n\t\t\t76\n\t\t\t4\n\t\t\t\n\t\t\t2008\n\t\t\tS. Karger AG",
+      "Fatal pulmonary hemorrhage after transbronchial lung biopsy through the fiberoptic bronchoscope\n\t\t\n\t\t\tMRFlick\n\t\t\n\t\t\n\t\t\tKWasson\n\t\t\n\t\t\n\t\t\tLJDunn\n\t\t\n\t\t\n\t\t\tAJBlock\n\t\t\n\t\n\t\n\t\tAm Rev Respir Dis\n\t\t\n\t\t\t111\n\t\t\t\n\t\t\t1975"
+    ],
+    "references_raw": [
+      "Incidence of complications in bronchoscopy: multicentre prospective study of 20,986 bronchoscopies\n\t\t\n\t\t\tNFacciolongo\n\t\t\n\t\t\n\t\t\tMPatelli\n\t\t\n\t\t\n\t\t\tSGasparini\n\t\t\n\t\t\n\t\t\tLazzariAgli\n\t\t\n\t\t\n\t\t\tLSalio\n\t\t\n\t\t\n\t\t\tMSimonassi\n\t\t\n\t\t\n\t\t\tC\n\t\t\n\t\t\n\t\t\tDelPrato\n\t\t\n\t\t\n\t\t\tBZanoni\n\t\t\n\t\t\n\t\t\tP\n\t\t\n\t\n\t\n\t\tMonaldi Arch Chest Dis\n\t\t\n\t\t\t71\n\t\t\t\n\t\t\t2009",
+      "Aspirin does not increase bleeding complications after transbronchial biopsy\n\t\t\n\t\t\tFJHerth\n\t\t\n\t\t\n\t\t\tHDBecker\n\t\t\n\t\t\n\t\t\tAErnst\n\t\t\n\t\n\t\n\t\tChest\n\t\t\n\t\t\t122\n\t\t\t\n\t\t\t2002",
+      "Effect of routine clopidogrel use on bleeding complications after transbronchial biopsy in humans\n\t\t\n\t\t\tAErnst\n\t\t\n\t\t\n\t\t\tREberhardt\n\t\t\n\t\t\n\t\t\tMWahidi\n\t\t\n\t\t\n\t\t\tHDBecker\n\t\t\n\t\t\n\t\t\tFJHerth\n\t\t\n\t\n\t\n\t\tChest\n\t\t\n\t\t\t129\n\t\t\t\n\t\t\t2006",
+      "Management of complications from diagnostic and interventional bronchoscopy\n\t\t\n\t\t\tPLee\n\t\t\n\t\t\n\t\t\tACMehta\n\t\t\n\t\t\n\t\t\tPNMathur\n\t\t\n\t\n\t\n\t\tRespirology\n\t\t\n\t\t\t14\n\t\t\t\n\t\t\t2009",
+      "Letter: iced saline lavage during bronchoscopy\n\t\t\n\t\t\tHSahebjami\n\t\t\n\t\n\t\n\t\tChest\n\t\t\n\t\t\t69\n\t\t\t\n\t\t\t1976",
+      "Bronchoscopically induced bleeding: a summary of nine years' Cleveland clinic experience and review of the literature\n\t\t\n\t\t\tEMCordascoJr\n\t\t\n\t\t\n\t\t\tACMehta\n\t\t\n\t\t\n\t\t\tMAhmad\n\t\t\n\t\n\t\n\t\tChest\n\t\t\n\t\t\t100\n\t\t\t\n\t\t\t1991",
+      "British Thoracic Society guidelines on diagnostic flexible bronchoscopy\n\t\t\n\t\t\tBritish Thoracic Society Bronchoscopy Guidelines Committee\n\t\t\n\t\n\t\n\t\tThorax\n\t\t\n\t\t\t56\n\t\t\t\n\t\t\t2001",
+      "Acute myocardial infarction after administration of lowdose intravenous epinephrine for anaphylaxis\n\t\t\n\t\t\tKJShaver\n\t\t\n\t\t\n\t\t\tCAdams\n\t\t\n\t\t\n\t\t\tSJWeiss\n\t\t\n\t\n\t\n\t\tCJEM\n\t\t\n\t\t\t8\n\t\t\t\n\t\t\t2006",
+      "Images in cardiology. Epinephrine induced ST elevation: a case of endobronchial topical epinephrine induced coronary vasospasm\n\t\t\n\t\t\tMJanjua\n\t\t\n\t\t\n\t\t\tABadshah\n\t\t\n\t\t\n\t\t\tSAAllen\n\t\t\n\t\n\t\n\t\tHeart\n\t\t\n\t\t\t95\n\t\t\t656\n\t\t\t2009",
+      "Clinical episode of suggestive left main coronary artery spasm after gingival anaesthetic infiltration\n\t\t\n\t\t\tGonzalezEnriquez\n\t\t\n\t\t\n\t\t\tS\n\t\t\n\t\t\n\t\t\tTorreHernandez\n\t\t\n\t\t\n\t\t\tJM\n\t\t\n\t\t\n\t\t\tSainzLaso\n\t\t\n\t\t\n\t\t\tF\n\t\t\n\t\n\t\n\t\tRev Esp Cardiol\n\t\t\n\t\t\t56\n\t\t\t\n\t\t\t2003",
+      "Survey of flexible fibreoptic bronchoscopy in the UK\n\t\t\n\t\t\tCMSmyth\n\t\t\n\t\t\n\t\t\tRJStead\n\t\t\n\t\n\t\n\t\tEur Respir J\n\t\t\n\t\t\t19\n\t\t\t\n\t\t\t2002",
+      "Severe complications of bronchoscopy\n\t\t\n\t\t\tFJin\n\t\t\n\t\t\n\t\t\tDMu\n\t\t\n\t\t\n\t\t\tDChu\n\t\t\n\t\t\n\t\t\tEFu\n\t\t\n\t\t\n\t\t\tYXie\n\t\t\n\t\t\n\t\t\tTLiu\n\t\t\n\t\n\t\n\t\tRespiration\n\t\t\n\t\t\t76\n\t\t\t\n\t\t\t2008",
+      "Fatal pulmonary hemorrhage after transbronchial lung biopsy through the fiberoptic bronchoscope\n\t\t\n\t\t\tMRFlick\n\t\t\n\t\t\n\t\t\tKWasson\n\t\t\n\t\t\n\t\t\tLJDunn\n\t\t\n\t\t\n\t\t\tAJBlock\n\t\t\n\t\n\t\n\t\tAm Rev Respir Dis\n\t\t\n\t\t\t111\n\t\t\t\n\t\t\t1975"
+    ],
+    "references_struct": [
+      {
+        "title": "Incidence of complications in bronchoscopy: multicentre prospective study of 20,986 bronchoscopies",
+        "journal": "Monaldi Arch Chest Dis",
+        "year": "2009",
+        "volume": "71",
+        "issue": null,
+        "pages": null,
+        "doi": null,
+        "pmid": null,
+        "authors": [
+          "Facciolongo N",
+          "Patelli M",
+          "Gasparini S",
+          "Agli L",
+          "Salio L",
+          "Simonassi M",
+          "C",
+          "Prato D",
+          "Zanoni B",
+          "P"
+        ],
+        "first_author_last": "Facciolongo"
+      },
+      {
+        "title": "Aspirin does not increase bleeding complications after transbronchial biopsy",
+        "journal": "Chest",
+        "year": "2002",
+        "volume": "122",
+        "issue": null,
+        "pages": null,
+        "doi": null,
+        "pmid": null,
+        "authors": [
+          "Herth FJ",
+          "Becker HD",
+          "Ernst A"
+        ],
+        "first_author_last": "Herth"
+      },
+      {
+        "title": "Effect of routine clopidogrel use on bleeding complications after transbronchial biopsy in humans",
+        "journal": "Chest",
+        "year": "2006",
+        "volume": "129",
+        "issue": null,
+        "pages": null,
+        "doi": null,
+        "pmid": null,
+        "authors": [
+          "Ernst A",
+          "Eberhardt R",
+          "Wahidi M",
+          "Becker HD",
+          "Herth FJ"
+        ],
+        "first_author_last": "Ernst"
+      },
+      {
+        "title": "Management of complications from diagnostic and interventional bronchoscopy",
+        "journal": "Respirology",
+        "year": "2009",
+        "volume": "14",
+        "issue": null,
+        "pages": null,
+        "doi": null,
+        "pmid": null,
+        "authors": [
+          "Lee P",
+          "Mehta AC",
+          "Mathur PN"
+        ],
+        "first_author_last": "Lee"
+      },
+      {
+        "title": "Letter: iced saline lavage during bronchoscopy",
+        "journal": "Chest",
+        "year": "1976",
+        "volume": "69",
+        "issue": null,
+        "pages": null,
+        "doi": null,
+        "pmid": null,
+        "authors": [
+          "Sahebjami H"
+        ],
+        "first_author_last": "Sahebjami"
+      },
+      {
+        "title": "Bronchoscopically induced bleeding: a summary of nine years' Cleveland clinic experience and review of the literature",
+        "journal": "Chest",
+        "year": "1991",
+        "volume": "100",
+        "issue": null,
+        "pages": null,
+        "doi": null,
+        "pmid": null,
+        "authors": [
+          "Cordasco EM",
+          "Mehta AC",
+          "Ahmad M"
+        ],
+        "first_author_last": "Cordasco"
+      },
+      {
+        "title": "British Thoracic Society guidelines on diagnostic flexible bronchoscopy",
+        "journal": "Thorax",
+        "year": "2001",
+        "volume": "56",
+        "issue": null,
+        "pages": null,
+        "doi": null,
+        "pmid": null,
+        "authors": [],
+        "first_author_last": null
+      },
+      {
+        "title": "Acute myocardial infarction after administration of lowdose intravenous epinephrine for anaphylaxis",
+        "journal": "CJEM",
+        "year": "2006",
+        "volume": "8",
+        "issue": null,
+        "pages": null,
+        "doi": null,
+        "pmid": null,
+        "authors": [
+          "Shaver KJ",
+          "Adams C",
+          "Weiss SJ"
+        ],
+        "first_author_last": "Shaver"
+      },
+      {
+        "title": "Images in cardiology. Epinephrine induced ST elevation: a case of endobronchial topical epinephrine induced coronary vasospasm",
+        "journal": "Heart",
+        "year": "2009",
+        "volume": "95",
+        "issue": null,
+        "pages": "656",
+        "doi": null,
+        "pmid": null,
+        "authors": [
+          "Janjua M",
+          "Badshah A",
+          "Allen SA"
+        ],
+        "first_author_last": "Janjua"
+      },
+      {
+        "title": "Clinical episode of suggestive left main coronary artery spasm after gingival anaesthetic infiltration",
+        "journal": "Rev Esp Cardiol",
+        "year": "2003",
+        "volume": "56",
+        "issue": null,
+        "pages": null,
+        "doi": null,
+        "pmid": null,
+        "authors": [
+          "Enriquez G",
+          "S",
+          "Hernandez T",
+          "JM",
+          "Laso S",
+          "F"
+        ],
+        "first_author_last": "Enriquez"
+      },
+      {
+        "title": "Survey of flexible fibreoptic bronchoscopy in the UK",
+        "journal": "Eur Respir J",
+        "year": "2002",
+        "volume": "19",
+        "issue": null,
+        "pages": null,
+        "doi": null,
+        "pmid": null,
+        "authors": [
+          "Smyth CM",
+          "Stead RJ"
+        ],
+        "first_author_last": "Smyth"
+      },
+      {
+        "title": "Severe complications of bronchoscopy",
+        "journal": "Respiration",
+        "year": "2008",
+        "volume": "76",
+        "issue": null,
+        "pages": null,
+        "doi": null,
+        "pmid": null,
+        "authors": [
+          "Jin F",
+          "Mu D",
+          "Chu D",
+          "Fu E",
+          "Xie Y",
+          "Liu T"
+        ],
+        "first_author_last": "Jin"
+      },
+      {
+        "title": "Fatal pulmonary hemorrhage after transbronchial lung biopsy through the fiberoptic bronchoscope",
+        "journal": "Am Rev Respir Dis",
+        "year": "1975",
+        "volume": "111",
+        "issue": null,
+        "pages": null,
+        "doi": null,
+        "pmid": null,
+        "authors": [
+          "Flick MR",
+          "Wasson K",
+          "Dunn LJ",
+          "Block AJ"
+        ],
+        "first_author_last": "Flick"
+      }
+    ],
+    "references_enriched": [
+      {
+        "title": "Incidence of complications in bronchoscopy: multicentre prospective study of 20,986 bronchoscopies"
+      },
+      {
+        "title": "Monaldi Arch Chest Dis",
+        "year": 2009
+      },
+      {
+        "title": "Aspirin does not increase bleeding complications after transbronchial biopsy",
+        "year": 2009
+      },
+      {
+        "title": "Chest",
+        "year": 2009
+      },
+      {
+        "title": "Effect of routine clopidogrel use on bleeding complications after transbronchial biopsy in humans",
+        "year": 2002
+      },
+      {
+        "title": "Chest",
+        "year": 2009
+      },
+      {
+        "title": "Management of complications from diagnostic and interventional bronchoscopy",
+        "year": 2006
+      },
+      {
+        "title": "Respirology",
+        "year": 2009
+      },
+      {
+        "title": "Letter: iced saline lavage during bronchoscopy",
+        "year": 2009
+      },
+      {
+        "title": "Chest",
+        "year": 2009
+      },
+      {
+        "title": "Bronchoscopically induced bleeding: a summary of nine years&apos; Cleveland clinic experience and review of the literature",
+        "year": 1976
+      },
+      {
+        "title": "Chest",
+        "year": 2009
+      },
+      {
+        "title": "British Thoracic Society guidelines on diagnostic flexible bronchoscopy",
+        "year": 1991
+      },
+      {
+        "title": "Thorax",
+        "year": 1991
+      },
+      {
+        "title": "Acute myocardial infarction after administration of lowdose intravenous epinephrine for anaphylaxis",
+        "year": 2001
+      },
+      {
+        "title": "CJEM",
+        "year": 2006
+      },
+      {
+        "title": "Images in cardiology. Epinephrine induced ST elevation: a case of endobronchial topical epinephrine induced coronary vasospasm",
+        "year": 2006
+      },
+      {
+        "title": "Heart",
+        "year": 2009
+      },
+      {
+        "title": "Clinical episode of suggestive left main coronary artery spasm after gingival anaesthetic infiltration",
+        "year": 2009
+      },
+      {
+        "title": "Rev Esp Cardiol",
+        "year": 2003
+      },
+      {
+        "title": "Survey of flexible fibreoptic bronchoscopy in the UK",
+        "year": 2003
+      },
+      {
+        "title": "Eur Respir J",
+        "year": 2002
+      },
+      {
+        "title": "Severe complications of bronchoscopy",
+        "year": 2002
+      },
+      {
+        "title": "Respiration",
+        "year": 2008
+      },
+      {
+        "title": "Fatal pulmonary hemorrhage after transbronchial lung biopsy through the fiberoptic bronchoscope",
+        "year": 2008
+      },
+      {
+        "title": "Am Rev Respir Dis",
+        "year": 1975
+      }
+    ],
+    "references_source": "grobid_fallback"
+  },
+  "structure": {
+    "sections": [
+      {
+        "title": "",
+        "paragraphs": [
+          {
+            "text": "Copyright ª 2012 by the American Thoracic Society"
+          },
+          {
+            "text": "AMERICAN JOURNAL OF RESPIRATORY AND CRITICAL CARE MEDICINE VOL 185 2012"
+          },
+          {
+            "text": "Potentially Fatal Arrhythmia Complicating Endobronchial Epinephrine for Control of Iatrogenic Bleeding"
+          },
+          {
+            "text": "Steinfort DP, Herth FJ, Eberhardt R, Irving LB."
+          },
+          {
+            "text": "Am J Respir Crit Care Med. 2012;185(9):1028-1030."
+          },
+          {
+            "text": "To the Editor:"
+          },
+          {
+            "text": "The commonest reported complication of transbronchial lung biopsy (TBLB) is bleeding (1). Severe bleeding is seen in less than 1% of patients undergoing TBLB (2, 3). For such patients, irrigation of the airway/bronchus with refrigerated saline has been recommended (4, 5); however, many authors emphasize the use of endobronchial epinephrine 1:10,000 to control severe bleeding complicating TBLB (4, 6, 7)."
+          },
+          {
+            "text": "Our institutions recently experienced two life-threatening complications following use of endobronchial epinephrine, both occurring in patients without any risk factors for fatal arrhythmia. We present these cases and review the literature regarding the clinical outcomes of bleeding complicating transbronchial lung biopsy."
+          }
+        ],
+        "category": "other"
+      },
+      {
+        "title": "CASE 1",
+        "paragraphs": [
+          {
+            "text": "A 55-year-old female with a lung nodule (Figure 1) underwent radial probe endobronchial ultrasound (Endobronchial ultrasound (EBUS)) bronchoscopy. Endobronchial ultrasound (EBUS) located the lesion and five TBLBs were performed via the guide sheath (GS) under fluoroscopic vision. Significant bleeding was noted a nd was unable to be controlled with bronchoscopic suctioning. Epinephrine (5 ml, 1:20,000) was instilled to the bleeding site via the guide sheath. Within 5 seconds, a narrow QRS complex tachycardia developed, and over 15 seconds, the ECG deteriorated into ventricular fibrillation (VF). Sinus rhythm was r estored within 3 minutes by cardioversion (150 J). ECG subsequently demonstrated no abnormalities. Electrolytes were all normal. Histopathology of TBLB specimens demonstrated non-small cell carcinoma. Preoperative echocardiogram was normal and subsequent lobectomy was uneventful.",
+            "cross_refs": [
+              {
+                "type": "figure",
+                "index": 0,
+                "text": "Figure 1",
+                "span": [
+                  41,
+                  49
+                ]
+              }
+            ]
+          }
+        ],
+        "category": "other"
+      },
+      {
+        "title": "CASE 2",
+        "paragraphs": [
+          {
+            "text": "A 32-year-old male was investigated for a persistent parenchymal lung abnormality. The peripheral lesion was detected by radial probe Endobronchial ultrasound (EBUS), and through the GS, three TBLBs were"
+          },
+          {
+            "text": "performed. Severe bleeding began immediately after the third biopsy. The GS was kept in situ to achieve tamponade of the bleeding; however, bleeding persisted. After 2 minutes, epinephrine (5 ml, 1:20,000) was instilled via the guide sheath. Within seconds, VF developed. Restoration of sinus rhythm was achieved by direct cardioversion (250 J). Electrolytes were all normal. Left heart catheterization demonstrated normal findings. Histology examination demonstrated cryptogenic organizing pneumonia."
+          }
+        ],
+        "category": "other"
+      },
+      {
+        "title": "DISCUSSION",
+        "paragraphs": [
+          {
+            "text": "Based on the temporal relationship between instillation of epinephrine and onset of arrhythmia, as well as the absence of any other identified precipitant, VF in both patients is assumed to have been the consequence of injection of epinephrine via the guide sheath into the lung periphery. Epinephrine dose precipitating VF in our patients (0.25 mg) is consistent with previous reports describing coronary vasospasm and myocardial infarction following intravenous epinephrine doses as low as 0.1 mg (8). One report describes the advent of ST-segment elevation following endobronchial administration of just 3 ml epinephrine 1:10,000 (0.15 mg) (9), and sub-mucosal doses as small as 0.036 mg have been reported to cause coronary vasospasm and myocardial infarction (10). Previous authors have opined 'There does not appear to be a maximal dose of epinephrine which can be safely administered' (6); however, published literature, and our experience, indicate that this is untrue. In contrast, the contribution to hemostasis made by epinephrine in patients with severe bleeding following TBLB is unknown. Furthermore, review of the literature suggests that aggressive control of iatrogenic bleeding is unnecessary. Death following bronchoscopy is very rare (1, 11, 12), and is generally the consequence of respiratory or cardiac compromise (1, 11, 12). Fatalities due to bleeding complicating TBLB are exceedingly rare-we note just one published report (13). Large studies prospectively examining outcomes following TBLB in a combined 10,000 patients (including 82 patients with massive hemoptysis) noted no patients with bleeding requiring surgical or blood product management (1, 12), suggesting that even severe bleeding may not result in adverse outcomes."
+          },
+          {
+            "text": "Significant bleeding complicating Endobronchial ultrasound (EBUS) -TBLB via GS is even rarer than for standard TBLB, presumably to the tamponading effect of the GS at the site of bleeding. Both institutions had only recently independently commenced the practice of instillation of epinephrine via the GS. Less than 10 patients had received epinephrine in this fashion. While it is therefore difficult to comment on the likelihood of such a complication following instillation of epinephrine into the lung periphery via the GS, the severity of the complication described in our two patients is beyond doubt."
+          },
+          {
+            "text": "In summary, we suggest that epinephrine should never be ad-ministered into the lung periphery via the guide sheath. We advise caution with endobronchial use of epinephrine given the uncertain contribution of epinephrine to control of bleeding following TBLB, the extremely low risk of major adverse outcomes of iatrogenic bleeding, and the potential for fatal cardiac sequelae of endobronchially administered epinephrine. It may be that failure to control bleeding using iced saline and bronchoscopic tamponade should simply be managed by ongoing iced saline and bronchoscopic tamponade."
+          }
+        ],
+        "category": "discussion"
+      },
+      {
+        "title": "References",
+        "paragraphs": [
+          {
+            "text": "1. Facciolongo N, Patelli M, Gasparini S, Lazzari Agli L, Salio M, Simonassi C, Del Prato B, Zanoni P. Incidence of complications in bronchoscopy: multicentre prospective study of 20,986 bronchoscopies. Monaldi Arch Chest Dis 2009;71:8-14."
+          },
+          {
+            "text": "2. Herth FJ, Becker HD, Ernst A. Aspirin does not increase bleeding complications after transbronchial biopsy. Chest 2002;122:1461-1464."
+          },
+          {
+            "text": "3. Ernst A, Eberhardt R, Wahidi M, Becker HD, Herth FJ. Effect of routine clopidogrel use on bleeding complications after transbronchial biopsy in humans. Chest 2006;129:734-737."
+          },
+          {
+            "text": "4. Lee P, Mehta AC, Mathur PN. Management of complications from diagnostic and interventional bronchoscopy. Respirology 2009;14: 940-953."
+          },
+          {
+            "text": "5. Sahebjami H. Letter: iced saline lavage during bronchoscopy. Chest 1976; 69:131-132."
+          },
+          {
+            "text": "6. Cordasco EM Jr, Mehta AC, Ahmad M. Bronchoscopically induced bleeding: a summary of nine years' Cleveland clinic experience and review of the literature. Chest 1991;100:1141-1147."
+          },
+          {
+            "text": "7. British Thoracic Society Bronchoscopy Guidelines Committee. British Thoracic Society guidelines on diagnostic flexible bronchoscopy. Thorax 2001;56:i1-i21."
+          },
+          {
+            "text": "8. Shaver KJ, Adams C, Weiss SJ. Acute myocardial infarction after administration of lowdose intravenous epinephrine for anaphylaxis. CJEM 2006;8:289-294."
+          },
+          {
+            "text": "9. Janjua M, Badshah A, Allen SA. Images in cardiology. Epinephrine induced ST elevation: a case of endobronchial topical epinephrine induced coronary vasospasm. Heart 2009;95:656."
+          },
+          {
+            "text": "10. Gonzalez Enriquez S, de la Torre Hernandez JM, Sainz Laso F. Clinical episode of suggestive left main coronary artery spasm after gingival anaesthetic infiltration. Rev Esp Cardiol 2003;56:1033-1034."
+          },
+          {
+            "text": "11. Smyth CM, Stead RJ. Survey of flexible fibreoptic bronchoscopy in the UK. Eur Respir J 2002;19:458-463."
+          },
+          {
+            "text": "12. Jin F, Mu D, Chu D, Fu E, Xie Y, Liu T. Severe complications of bronchoscopy. Respiration 2008;76:429-433."
+          },
+          {
+            "text": "13. Flick MR, Wasson K, Dunn LJ, Block AJ. Fatal pulmonary hemorrhage after transbronchial lung biopsy through the fiberoptic bronchoscope. Am Rev Respir Dis 1975;111:853-856."
+          }
+        ],
+        "category": "other"
+      }
+    ],
+    "tables": [],
+    "figures": [],
+    "citations": [],
+    "n_sections": 5,
+    "n_tables": 0,
+    "n_figures": 0,
+    "n_citations": 0
+  },
+  "provenance": {},
+  "grobid": {
+    "references_tei": "<TEI xmlns=\"http://www.tei-c.org/ns/1.0\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" \n xmlns:mml=\"http://www.w3.org/1998/Math/MathML\">\n\t<teiHeader/>\n\t<text>\n\t\t<front/>\n\t\t<body/>\n\t\t<back>\n\t\t\t<div>\n\t\t\t\t<listBibl>\n<biblStruct xml:id=\"b0\">\n\t<analytic>\n\t\t<title level=\"a\" type=\"main\">Incidence of complications in bronchoscopy: multicentre prospective study of 20,986 bronchoscopies</title>\n\t\t<author>\n\t\t\t<persName><forename type=\"first\">N</forename><surname>Facciolongo</surname></persName>\n\t\t</author>\n\t\t<author>\n\t\t\t<persName><forename type=\"first\">M</forename><surname>Patelli</surname></persName>\n\t\t</author>\n\t\t<author>\n\t\t\t<persName><forename type=\"first\">S</forename><surname>Gasparini</surname></persName>\n\t\t</author>\n\t\t<author>\n\t\t\t<persName><forename type=\"first\">Lazzari</forename><surname>Agli</surname></persName>\n\t\t</author>\n\t\t<author>\n\t\t\t<persName><forename type=\"first\">L</forename><surname>Salio</surname></persName>\n\t\t</author>\n\t\t<author>\n\t\t\t<persName><forename type=\"first\">M</forename><surname>Simonassi</surname></persName>\n\t\t</author>\n\t\t<author>\n\t\t\t<persName><forename type=\"first\">C</forename></persName>\n\t\t</author>\n\t\t<author>\n\t\t\t<persName><forename type=\"first\">Del</forename><surname>Prato</surname></persName>\n\t\t</author>\n\t\t<author>\n\t\t\t<persName><forename type=\"first\">B</forename><surname>Zanoni</surname></persName>\n\t\t</author>\n\t\t<author>\n\t\t\t<persName><forename type=\"first\">P</forename></persName>\n\t\t</author>\n\t</analytic>\n\t<monogr>\n\t\t<title level=\"j\">Monaldi Arch Chest Dis</title>\n\t\t<imprint>\n\t\t\t<biblScope unit=\"volume\">71</biblScope>\n\t\t\t<biblScope unit=\"page\" from=\"8\" to=\"14\" />\n\t\t\t<date type=\"published\" when=\"2009\">2009</date>\n\t\t</imprint>\n\t</monogr>\n</biblStruct>\n\n<biblStruct xml:id=\"b1\">\n\t<analytic>\n\t\t<title level=\"a\" type=\"main\">Aspirin does not increase bleeding complications after transbronchial biopsy</title>\n\t\t<author>\n\t\t\t<persName><forename type=\"first\">F</forename><forename type=\"middle\">J</forename><surname>Herth</surname></persName>\n\t\t</author>\n\t\t<author>\n\t\t\t<persName><forename type=\"first\">H</forename><forename type=\"middle\">D</forename><surname>Becker</surname></persName>\n\t\t</author>\n\t\t<author>\n\t\t\t<persName><forename type=\"first\">A</forename><surname>Ernst</surname></persName>\n\t\t</author>\n\t</analytic>\n\t<monogr>\n\t\t<title level=\"j\">Chest</title>\n\t\t<imprint>\n\t\t\t<biblScope unit=\"volume\">122</biblScope>\n\t\t\t<biblScope unit=\"page\" from=\"1461\" to=\"1464\" />\n\t\t\t<date type=\"published\" when=\"2002\">2002</date>\n\t\t</imprint>\n\t</monogr>\n</biblStruct>\n\n<biblStruct xml:id=\"b2\">\n\t<analytic>\n\t\t<title level=\"a\" type=\"main\">Effect of routine clopidogrel use on bleeding complications after transbronchial biopsy in humans</title>\n\t\t<author>\n\t\t\t<persName><forename type=\"first\">A</forename><surname>Ernst</surname></persName>\n\t\t</author>\n\t\t<author>\n\t\t\t<persName><forename type=\"first\">R</forename><surname>Eberhardt</surname></persName>\n\t\t</author>\n\t\t<author>\n\t\t\t<persName><forename type=\"first\">M</forename><surname>Wahidi</surname></persName>\n\t\t</author>\n\t\t<author>\n\t\t\t<persName><forename type=\"first\">H</forename><forename type=\"middle\">D</forename><surname>Becker</surname></persName>\n\t\t</author>\n\t\t<author>\n\t\t\t<persName><forename type=\"first\">F</forename><forename type=\"middle\">J</forename><surname>Herth</surname></persName>\n\t\t</author>\n\t</analytic>\n\t<monogr>\n\t\t<title level=\"j\">Chest</title>\n\t\t<imprint>\n\t\t\t<biblScope unit=\"volume\">129</biblScope>\n\t\t\t<biblScope unit=\"page\" from=\"734\" to=\"737\" />\n\t\t\t<date type=\"published\" when=\"2006\">2006</date>\n\t\t</imprint>\n\t</monogr>\n</biblStruct>\n\n<biblStruct xml:id=\"b3\">\n\t<analytic>\n\t\t<title level=\"a\" type=\"main\">Management of complications from diagnostic and interventional bronchoscopy</title>\n\t\t<author>\n\t\t\t<persName><forename type=\"first\">P</forename><surname>Lee</surname></persName>\n\t\t</author>\n\t\t<author>\n\t\t\t<persName><forename type=\"first\">A</forename><forename type=\"middle\">C</forename><surname>Mehta</surname></persName>\n\t\t</author>\n\t\t<author>\n\t\t\t<persName><forename type=\"first\">P</forename><forename type=\"middle\">N</forename><surname>Mathur</surname></persName>\n\t\t</author>\n\t</analytic>\n\t<monogr>\n\t\t<title level=\"j\">Respirology</title>\n\t\t<imprint>\n\t\t\t<biblScope unit=\"volume\">14</biblScope>\n\t\t\t<biblScope unit=\"page\" from=\"940\" to=\"953\" />\n\t\t\t<date type=\"published\" when=\"2009\">2009</date>\n\t\t</imprint>\n\t</monogr>\n</biblStruct>\n\n<biblStruct xml:id=\"b4\">\n\t<analytic>\n\t\t<title level=\"a\" type=\"main\">Letter: iced saline lavage during bronchoscopy</title>\n\t\t<author>\n\t\t\t<persName><forename type=\"first\">H</forename><surname>Sahebjami</surname></persName>\n\t\t</author>\n\t</analytic>\n\t<monogr>\n\t\t<title level=\"j\">Chest</title>\n\t\t<imprint>\n\t\t\t<biblScope unit=\"volume\">69</biblScope>\n\t\t\t<biblScope unit=\"page\" from=\"131\" to=\"132\" />\n\t\t\t<date type=\"published\" when=\"1976\">1976</date>\n\t\t</imprint>\n\t</monogr>\n</biblStruct>\n\n<biblStruct xml:id=\"b5\">\n\t<analytic>\n\t\t<title level=\"a\" type=\"main\">Bronchoscopically induced bleeding: a summary of nine years&apos; Cleveland clinic experience and review of the literature</title>\n\t\t<author>\n\t\t\t<persName><forename type=\"first\">E</forename><forename type=\"middle\">M</forename><surname>Cordasco</surname><genName>Jr</genName></persName>\n\t\t</author>\n\t\t<author>\n\t\t\t<persName><forename type=\"first\">A</forename><forename type=\"middle\">C</forename><surname>Mehta</surname></persName>\n\t\t</author>\n\t\t<author>\n\t\t\t<persName><forename type=\"first\">M</forename><surname>Ahmad</surname></persName>\n\t\t</author>\n\t</analytic>\n\t<monogr>\n\t\t<title level=\"j\">Chest</title>\n\t\t<imprint>\n\t\t\t<biblScope unit=\"volume\">100</biblScope>\n\t\t\t<biblScope unit=\"page\" from=\"1141\" to=\"1147\" />\n\t\t\t<date type=\"published\" when=\"1991\">1991</date>\n\t\t</imprint>\n\t</monogr>\n</biblStruct>\n\n<biblStruct xml:id=\"b6\">\n\t<analytic>\n\t\t<title level=\"a\" type=\"main\">British Thoracic Society guidelines on diagnostic flexible bronchoscopy</title>\n\t\t<author>\n\t\t\t<orgName type=\"collaboration\">British Thoracic Society Bronchoscopy Guidelines Committee</orgName>\n\t\t</author>\n\t</analytic>\n\t<monogr>\n\t\t<title level=\"j\">Thorax</title>\n\t\t<imprint>\n\t\t\t<biblScope unit=\"volume\">56</biblScope>\n\t\t\t<biblScope unit=\"page\" from=\"1\" to=\"21\" />\n\t\t\t<date type=\"published\" when=\"2001\">2001</date>\n\t\t</imprint>\n\t</monogr>\n</biblStruct>\n\n<biblStruct xml:id=\"b7\">\n\t<analytic>\n\t\t<title level=\"a\" type=\"main\">Acute myocardial infarction after administration of lowdose intravenous epinephrine for anaphylaxis</title>\n\t\t<author>\n\t\t\t<persName><forename type=\"first\">K</forename><forename type=\"middle\">J</forename><surname>Shaver</surname></persName>\n\t\t</author>\n\t\t<author>\n\t\t\t<persName><forename type=\"first\">C</forename><surname>Adams</surname></persName>\n\t\t</author>\n\t\t<author>\n\t\t\t<persName><forename type=\"first\">S</forename><forename type=\"middle\">J</forename><surname>Weiss</surname></persName>\n\t\t</author>\n\t</analytic>\n\t<monogr>\n\t\t<title level=\"j\">CJEM</title>\n\t\t<imprint>\n\t\t\t<biblScope unit=\"volume\">8</biblScope>\n\t\t\t<biblScope unit=\"page\" from=\"289\" to=\"294\" />\n\t\t\t<date type=\"published\" when=\"2006\">2006</date>\n\t\t</imprint>\n\t</monogr>\n</biblStruct>\n\n<biblStruct xml:id=\"b8\">\n\t<analytic>\n\t\t<title level=\"a\" type=\"main\">Images in cardiology. Epinephrine induced ST elevation: a case of endobronchial topical epinephrine induced coronary vasospasm</title>\n\t\t<author>\n\t\t\t<persName><forename type=\"first\">M</forename><surname>Janjua</surname></persName>\n\t\t</author>\n\t\t<author>\n\t\t\t<persName><forename type=\"first\">A</forename><surname>Badshah</surname></persName>\n\t\t</author>\n\t\t<author>\n\t\t\t<persName><forename type=\"first\">S</forename><forename type=\"middle\">A</forename><surname>Allen</surname></persName>\n\t\t</author>\n\t</analytic>\n\t<monogr>\n\t\t<title level=\"j\">Heart</title>\n\t\t<imprint>\n\t\t\t<biblScope unit=\"volume\">95</biblScope>\n\t\t\t<biblScope unit=\"page\">656</biblScope>\n\t\t\t<date type=\"published\" when=\"2009\">2009</date>\n\t\t</imprint>\n\t</monogr>\n</biblStruct>\n\n<biblStruct xml:id=\"b9\">\n\t<analytic>\n\t\t<title level=\"a\" type=\"main\">Clinical episode of suggestive left main coronary artery spasm after gingival anaesthetic infiltration</title>\n\t\t<author>\n\t\t\t<persName><forename type=\"first\">Gonzalez</forename><surname>Enriquez</surname></persName>\n\t\t</author>\n\t\t<author>\n\t\t\t<persName><forename type=\"first\">S</forename></persName>\n\t\t</author>\n\t\t<author>\n\t\t\t<persName><forename type=\"first\">Torre</forename><surname>Hernandez</surname></persName>\n\t\t</author>\n\t\t<author>\n\t\t\t<persName><forename type=\"first\">J</forename><forename type=\"middle\">M</forename></persName>\n\t\t</author>\n\t\t<author>\n\t\t\t<persName><forename type=\"first\">Sainz</forename><surname>Laso</surname></persName>\n\t\t</author>\n\t\t<author>\n\t\t\t<persName><forename type=\"first\">F</forename></persName>\n\t\t</author>\n\t</analytic>\n\t<monogr>\n\t\t<title level=\"j\">Rev Esp Cardiol</title>\n\t\t<imprint>\n\t\t\t<biblScope unit=\"volume\">56</biblScope>\n\t\t\t<biblScope unit=\"page\" from=\"1033\" to=\"1034\" />\n\t\t\t<date type=\"published\" when=\"2003\">2003</date>\n\t\t</imprint>\n\t</monogr>\n</biblStruct>\n\n<biblStruct xml:id=\"b10\">\n\t<analytic>\n\t\t<title level=\"a\" type=\"main\">Survey of flexible fibreoptic bronchoscopy in the UK</title>\n\t\t<author>\n\t\t\t<persName><forename type=\"first\">C</forename><forename type=\"middle\">M</forename><surname>Smyth</surname></persName>\n\t\t</author>\n\t\t<author>\n\t\t\t<persName><forename type=\"first\">R</forename><forename type=\"middle\">J</forename><surname>Stead</surname></persName>\n\t\t</author>\n\t</analytic>\n\t<monogr>\n\t\t<title level=\"j\">Eur Respir J</title>\n\t\t<imprint>\n\t\t\t<biblScope unit=\"volume\">19</biblScope>\n\t\t\t<biblScope unit=\"page\" from=\"458\" to=\"463\" />\n\t\t\t<date type=\"published\" when=\"2002\">2002</date>\n\t\t</imprint>\n\t</monogr>\n</biblStruct>\n\n<biblStruct xml:id=\"b11\">\n\t<analytic>\n\t\t<title level=\"a\" type=\"main\">Severe complications of bronchoscopy</title>\n\t\t<author>\n\t\t\t<persName><forename type=\"first\">F</forename><surname>Jin</surname></persName>\n\t\t</author>\n\t\t<author>\n\t\t\t<persName><forename type=\"first\">D</forename><surname>Mu</surname></persName>\n\t\t</author>\n\t\t<author>\n\t\t\t<persName><forename type=\"first\">D</forename><surname>Chu</surname></persName>\n\t\t</author>\n\t\t<author>\n\t\t\t<persName><forename type=\"first\">E</forename><surname>Fu</surname></persName>\n\t\t</author>\n\t\t<author>\n\t\t\t<persName><forename type=\"first\">Y</forename><surname>Xie</surname></persName>\n\t\t</author>\n\t\t<author>\n\t\t\t<persName><forename type=\"first\">T</forename><surname>Liu</surname></persName>\n\t\t</author>\n\t</analytic>\n\t<monogr>\n\t\t<title level=\"j\">Respiration</title>\n\t\t<imprint>\n\t\t\t<biblScope unit=\"volume\">76</biblScope>\n\t\t\t<biblScope unit=\"page\" from=\"429\" to=\"433\" />\n\t\t\t<date type=\"published\" when=\"2008\">2008</date>\n\t\t</imprint>\n\t</monogr>\n</biblStruct>\n\n<biblStruct xml:id=\"b12\">\n\t<analytic>\n\t\t<title level=\"a\" type=\"main\">Fatal pulmonary hemorrhage after transbronchial lung biopsy through the fiberoptic bronchoscope</title>\n\t\t<author>\n\t\t\t<persName><forename type=\"first\">M</forename><forename type=\"middle\">R</forename><surname>Flick</surname></persName>\n\t\t</author>\n\t\t<author>\n\t\t\t<persName><forename type=\"first\">K</forename><surname>Wasson</surname></persName>\n\t\t</author>\n\t\t<author>\n\t\t\t<persName><forename type=\"first\">L</forename><forename type=\"middle\">J</forename><surname>Dunn</surname></persName>\n\t\t</author>\n\t\t<author>\n\t\t\t<persName><forename type=\"first\">A</forename><forename type=\"middle\">J</forename><surname>Block</surname></persName>\n\t\t</author>\n\t</analytic>\n\t<monogr>\n\t\t<title level=\"j\">Am Rev Respir Dis</title>\n\t\t<imprint>\n\t\t\t<biblScope unit=\"volume\">111</biblScope>\n\t\t\t<biblScope unit=\"page\" from=\"853\" to=\"856\" />\n\t\t\t<date type=\"published\" when=\"1975\">1975</date>\n\t\t</imprint>\n\t</monogr>\n</biblStruct>\n\n\t\t\t\t</listBibl>\n\t\t\t</div>\n\t\t</back>\n\t</text>\n</TEI>\n"
+  },
+  "umls_links": [],
+  "references_enriched": [
+    {
+      "title": "Incidence of complications in bronchoscopy: multicentre prospective study of 20,986 bronchoscopies",
+      "journal": "Monaldi Arch Chest Dis",
+      "year": "2009",
+      "volume": "71",
+      "issue": null,
+      "pages": null,
+      "doi": null,
+      "pmid": null,
+      "authors": [
+        "Facciolongo N",
+        "Patelli M",
+        "Gasparini S",
+        "Agli L",
+        "Salio L",
+        "Simonassi M",
+        "C",
+        "Prato D",
+        "Zanoni B",
+        "P"
+      ],
+      "first_author_last": "Facciolongo",
+      "enrichment": {
+        "pmid": null,
+        "doi": null
+      }
+    },
+    {
+      "title": "Aspirin does not increase bleeding complications after transbronchial biopsy",
+      "journal": "Chest",
+      "year": "2002",
+      "volume": "122",
+      "issue": null,
+      "pages": null,
+      "doi": null,
+      "pmid": null,
+      "authors": [
+        "Herth FJ",
+        "Becker HD",
+        "Ernst A"
+      ],
+      "first_author_last": "Herth",
+      "enrichment": {
+        "pmid": null,
+        "doi": null
+      }
+    },
+    {
+      "title": "Effect of routine clopidogrel use on bleeding complications after transbronchial biopsy in humans",
+      "journal": "Chest",
+      "year": "2006",
+      "volume": "129",
+      "issue": null,
+      "pages": null,
+      "doi": null,
+      "pmid": null,
+      "authors": [
+        "Ernst A",
+        "Eberhardt R",
+        "Wahidi M",
+        "Becker HD",
+        "Herth FJ"
+      ],
+      "first_author_last": "Ernst",
+      "enrichment": {
+        "pmid": "16537875",
+        "doi": null,
+        "title": "Effect of routine clopidogrel use on bleeding complications after transbronchial biopsy in humans.",
+        "journal": "Chest",
+        "year": "2006",
+        "authors": [
+          "Ernst A",
+          "Eberhardt R",
+          "Wahidi M",
+          "Becker HD",
+          "Herth FJ"
+        ],
+        "mesh": [],
+        "pubtypes": [
+          "Journal Article"
+        ],
+        "abstract": "Clopidogrel is often prescribed for primary or secondary prevention of cardiovascular disease and has been associated with unwanted bleeding events. After having shown that transbronchial biopsy can safely be performed in pigs receiving clopidogrel, we sought to determine whether routine clopidogrel use increases the risk of bleeding after transbronchial lung biopsy in humans."
+      }
+    },
+    {
+      "title": "Management of complications from diagnostic and interventional bronchoscopy",
+      "journal": "Respirology",
+      "year": "2009",
+      "volume": "14",
+      "issue": null,
+      "pages": null,
+      "doi": null,
+      "pmid": null,
+      "authors": [
+        "Lee P",
+        "Mehta AC",
+        "Mathur PN"
+      ],
+      "first_author_last": "Lee",
+      "enrichment": {
+        "pmid": "19740256",
+        "doi": null,
+        "title": "Management of complications from diagnostic and interventional bronchoscopy.",
+        "journal": "Respirology (Carlton, Vic.)",
+        "year": "2009",
+        "authors": [
+          "Lee P",
+          "Mehta AC",
+          "Mathur PN"
+        ],
+        "mesh": [],
+        "pubtypes": [
+          "Journal Article",
+          "Review"
+        ],
+        "abstract": "From the humble beginnings as a mere curiosity, the art of bronchoscopy has progressed at a rapid pace. The millennium ushers in new technologies and refinements in established techniques to facilitate early detection of cancer, precise targeting of pulmonary nodules and infiltrates, near-total staging of the mediastinum with combined endoscopic modalities and more effective palliation of inoperable tumours. Bronchoscopists are faced with an increasing myriad of tools and equipment, each promising to carry out better than the previous. It is opportune to review the complications of established bronchoscopic techniques and how to manage them as well as new complications associated with novel technologies. In this article, we provide a concise overview of diagnostic and therapeutic bronchoscopic modalities, discussion of associated complications and their management strategies."
+      }
+    },
+    {
+      "title": "Letter: iced saline lavage during bronchoscopy",
+      "journal": "Chest",
+      "year": "1976",
+      "volume": "69",
+      "issue": null,
+      "pages": null,
+      "doi": null,
+      "pmid": null,
+      "authors": [
+        "Sahebjami H"
+      ],
+      "first_author_last": "Sahebjami",
+      "enrichment": {
+        "pmid": "1244274",
+        "doi": null,
+        "title": "Letter: Iced saline lavage during bronchoscopy.",
+        "journal": "Chest",
+        "year": "1976",
+        "authors": [
+          "Sahebjami H"
+        ],
+        "mesh": [],
+        "pubtypes": [
+          "Journal Article"
+        ]
+      }
+    },
+    {
+      "title": "Bronchoscopically induced bleeding: a summary of nine years' Cleveland clinic experience and review of the literature",
+      "journal": "Chest",
+      "year": "1991",
+      "volume": "100",
+      "issue": null,
+      "pages": null,
+      "doi": null,
+      "pmid": null,
+      "authors": [
+        "Cordasco EM",
+        "Mehta AC",
+        "Ahmad M"
+      ],
+      "first_author_last": "Cordasco",
+      "enrichment": {
+        "pmid": null,
+        "doi": null
+      }
+    },
+    {
+      "title": "British Thoracic Society guidelines on diagnostic flexible bronchoscopy",
+      "journal": "Thorax",
+      "year": "2001",
+      "volume": "56",
+      "issue": null,
+      "pages": null,
+      "doi": null,
+      "pmid": null,
+      "authors": [],
+      "first_author_last": null,
+      "enrichment": {
+        "pmid": "11158709",
+        "doi": null,
+        "title": "British Thoracic Society guidelines on diagnostic flexible bronchoscopy.",
+        "journal": "Thorax",
+        "year": "2001",
+        "authors": [
+          "British Thoracic Society Bronchoscopy Guidelines Committee, a Subcommittee of Standards of Care Committee of British Thoracic Society"
+        ],
+        "mesh": [],
+        "pubtypes": [
+          "Guideline",
+          "Journal Article",
+          "Practice Guideline"
+        ]
+      }
+    },
+    {
+      "title": "Acute myocardial infarction after administration of lowdose intravenous epinephrine for anaphylaxis",
+      "journal": "CJEM",
+      "year": "2006",
+      "volume": "8",
+      "issue": null,
+      "pages": null,
+      "doi": null,
+      "pmid": null,
+      "authors": [
+        "Shaver KJ",
+        "Adams C",
+        "Weiss SJ"
+      ],
+      "first_author_last": "Shaver",
+      "enrichment": {
+        "pmid": "17324313",
+        "doi": null,
+        "title": "Acute myocardial infarction after administration of low-dose intravenous epinephrine for anaphylaxis.",
+        "journal": "CJEM",
+        "year": "2006",
+        "authors": [
+          "Shaver KJ",
+          "Adams C",
+          "Weiss SJ"
+        ],
+        "mesh": [],
+        "pubtypes": [
+          "Journal Article"
+        ],
+        "abstract": "This case describes a 29-year-old woman who presented with an acute severe anaphylactic reaction to penicillin. In addition to other medications administered in the emergency department, she received 0.1 mg intravenously of 1:10 000 epinephrine, after which she immediately developed severe chest pain. Her ECG showed ST elevations consistent with an anterior myocardial infarction, and her serum troponin level was elevated. A CT angiogram showed no signs of coronary artery disease or abnormal anatomy. This case is an example of vasospasm-induced myocardial injury and illustrates a potential danger of intravenous epinephrine use. The authors were able to identify only 2 other case reports where therapeutic doses of epinephrine have been reported to cause this phenomenon."
+      }
+    },
+    {
+      "title": "Images in cardiology. Epinephrine induced ST elevation: a case of endobronchial topical epinephrine induced coronary vasospasm",
+      "journal": "Heart",
+      "year": "2009",
+      "volume": "95",
+      "issue": null,
+      "pages": "656",
+      "doi": null,
+      "pmid": null,
+      "authors": [
+        "Janjua M",
+        "Badshah A",
+        "Allen SA"
+      ],
+      "first_author_last": "Janjua",
+      "enrichment": {
+        "pmid": "19329720",
+        "doi": null,
+        "title": "Images in cardiology. Epinephrine-induced ST elevation: a case of endobronchial topical epinephrine-induced coronary vasospasm.",
+        "journal": "Heart (British Cardiac Society)",
+        "year": "2009",
+        "authors": [
+          "Janjua M",
+          "Badshah A",
+          "Allen SA"
+        ],
+        "mesh": [],
+        "pubtypes": [
+          "Journal Article"
+        ]
+      }
+    },
+    {
+      "title": "Clinical episode of suggestive left main coronary artery spasm after gingival anaesthetic infiltration",
+      "journal": "Rev Esp Cardiol",
+      "year": "2003",
+      "volume": "56",
+      "issue": null,
+      "pages": null,
+      "doi": null,
+      "pmid": null,
+      "authors": [
+        "Enriquez G",
+        "S",
+        "Hernandez T",
+        "JM",
+        "Laso S",
+        "F"
+      ],
+      "first_author_last": "Enriquez",
+      "enrichment": {
+        "pmid": null,
+        "doi": null
+      }
+    },
+    {
+      "title": "Survey of flexible fibreoptic bronchoscopy in the UK",
+      "journal": "Eur Respir J",
+      "year": "2002",
+      "volume": "19",
+      "issue": null,
+      "pages": null,
+      "doi": null,
+      "pmid": null,
+      "authors": [
+        "Smyth CM",
+        "Stead RJ"
+      ],
+      "first_author_last": "Smyth",
+      "enrichment": {
+        "pmid": null,
+        "doi": null
+      }
+    },
+    {
+      "title": "Severe complications of bronchoscopy",
+      "journal": "Respiration",
+      "year": "2008",
+      "volume": "76",
+      "issue": null,
+      "pages": null,
+      "doi": null,
+      "pmid": null,
+      "authors": [
+        "Jin F",
+        "Mu D",
+        "Chu D",
+        "Fu E",
+        "Xie Y",
+        "Liu T"
+      ],
+      "first_author_last": "Jin",
+      "enrichment": {
+        "pmid": "18716395",
+        "doi": null,
+        "title": "Severe complications of bronchoscopy.",
+        "journal": "Respiration; international review of thoracic diseases",
+        "year": "2008",
+        "authors": [
+          "Jin F",
+          "Mu D",
+          "Chu D",
+          "Fu E",
+          "Xie Y",
+          "Liu T"
+        ],
+        "mesh": [],
+        "pubtypes": [
+          "Journal Article"
+        ],
+        "abstract": "Interventional bronchoscopy is widely used for the diagnosis and therapy of many lung and airway diseases. Concern has been raised about its complications."
+      }
+    },
+    {
+      "title": "Fatal pulmonary hemorrhage after transbronchial lung biopsy through the fiberoptic bronchoscope",
+      "journal": "Am Rev Respir Dis",
+      "year": "1975",
+      "volume": "111",
+      "issue": null,
+      "pages": null,
+      "doi": null,
+      "pmid": null,
+      "authors": [
+        "Flick MR",
+        "Wasson K",
+        "Dunn LJ",
+        "Block AJ"
+      ],
+      "first_author_last": "Flick",
+      "enrichment": {
+        "pmid": "1137250",
+        "doi": null,
+        "title": "Fatal pulmonary hemorrhage after transbronchial lung biopsy through the fiberoptic bronchoscope.",
+        "journal": "The American review of respiratory disease",
+        "year": "1975",
+        "authors": [
+          "Flick MR",
+          "Wasson K",
+          "Dunn LJ",
+          "Block AJ"
+        ],
+        "mesh": [],
+        "pubtypes": [
+          "Journal Article"
+        ],
+        "abstract": "A case is reported in which transbronchial lung biopsy using the fiberoptic bronchoscope was complicated by massive, fatal hemorrhage. This previously unreported complication occurred despite normal prothrombin and partial thromboplastin times and platelets of 93,000. Pathological examination revealed that a very small (0.5-mm) vessel was the source of the bleeding. Although severe complications are undoubtedly rare, this report suggests that the transbronchial lung biopsy is not a totally benign procedure. Suggestions are made to prevent future similar occurrences in very ill patients or in patients with coagulative abnormalities or blood dyscrasias."
+      }
+    }
+  ],
+  "drugs": [],
+  "trial_ids": [],
+  "assets": {
+    "tables": [],
+    "figures": []
+  },
+  "statistics": [],
+  "validation": {
+    "checks": {
+      "has_title": true,
+      "has_authors": true,
+      "authors_are_valid": false,
+      "has_sections": true,
+      "sections_have_content": true,
+      "has_tables": false,
+      "tables_have_captions": true,
+      "tables_have_data": true,
+      "has_figures": false,
+      "figures_have_captions": true,
+      "figures_have_images": true,
+      "has_entities": false,
+      "has_statistics": false,
+      "has_references": true,
+      "refs_structured": true,
+      "refs_enriched_some": true,
+      "references_enriched": true,
+      "has_references_csv": false,
+      "has_cross_refs": false,
+      "umls_links": false,
+      "figures_textual_count": 0
+    },
+    "completeness_score": 65,
+    "is_valid": true,
+    "issues": [],
+    "warnings": [
+      "No medical entities found",
+      "No statistics extracted"
+    ],
+    "quality_level": "acceptable"
+  }
+}
