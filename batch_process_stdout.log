@@ -3673,3 +3673,142 @@ To https://github.com/russellmiller49/Medparse.git
 2025-09-01 04:00:03.968 | SUCCESS  | __main__:process_single_pdf:71 - ✓ Successfully processed COLDICE study
 2025-09-01 04:00:03.968 | INFO     | __main__:main:198 - Reached 250 successful processes, committing intermediate results...
 2025-09-01 04:00:03.968 | INFO     | __main__:git_commit_and_push:129 - Adding changes to git...
+2025-09-01 04:00:04.161 | INFO     | __main__:git_commit_and_push:145 - Creating git commit...
+[fix/extraction-hardening a8dc38c] feat: Batch processed 250 PDFs (intermediate commit)
+ 102 files changed, 202951 insertions(+)
+ create mode 100644 out/batch_processed/Approach to hemoptysis in the modern era.json
+ create mode 100644 out/batch_processed/BLVR comprehensive 2025.json
+ create mode 100644 out/batch_processed/COLDICE study.json
+ create mode 100644 out/batch_processed/Imaging in peripheral bronchoscopy.json
+ create mode 100644 out/batch_processed/Management of life-threatening hemoptysis in the ICU.json
+ create mode 100644 out/batch_processed/Percutaneous radiologic gastrostomy versus per.json
+ create mode 100644 out/batch_processed/Rahnemai-Azar-2014-Percutaneous endoscopic gas.json
+ create mode 100644 out/batch_processed/Spread Through Air Spaces.json
+ create mode 100644 out/batch_processed/The evolving role of medical thoracoscopy on therapeutic management of pleural disease.json
+ create mode 100644 out/batch_processed/The use of electrocautery as the primary ablat.json
+ create mode 100644 out/figures/Approach to hemoptysis in the modern era_fig02.jpg
+ create mode 100644 out/figures/Approach to hemoptysis in the modern era_fig03.jpg
+ create mode 100644 out/figures/Approach to hemoptysis in the modern era_fig05.jpg
+ create mode 100644 out/figures/Approach to hemoptysis in the modern era_figure1.jpg
+ create mode 100644 out/figures/Approach to hemoptysis in the modern era_figure2.jpg
+ create mode 100644 out/figures/BLVR comprehensive 2025_fig01.jpg
+ create mode 100644 out/figures/BLVR comprehensive 2025_fig02.jpg
+ create mode 100644 out/figures/COLDICE study_fig01.jpg
+ create mode 100644 out/figures/COLDICE study_fig02.jpg
+ create mode 100644 out/figures/COLDICE study_fig03.jpg
+ create mode 100644 out/figures/COLDICE study_fig04.jpg
+ create mode 100644 out/figures/COLDICE study_fig05.jpg
+ create mode 100644 out/figures/COLDICE study_figure5.jpg
+ create mode 100644 out/figures/Imaging in peripheral bronchoscopy_fig01.jpg
+ create mode 100644 out/figures/Imaging in peripheral bronchoscopy_fig02.jpg
+ create mode 100644 out/figures/Imaging in peripheral bronchoscopy_fig03.jpg
+ create mode 100644 out/figures/Imaging in peripheral bronchoscopy_fig04.jpg
+ create mode 100644 out/figures/Imaging in peripheral bronchoscopy_fig05.jpg
+ create mode 100644 out/figures/Management of life-threatening hemoptysis in the ICU_fig01.jpg
+ create mode 100644 out/figures/Management of life-threatening hemoptysis in the ICU_fig02.jpg
+ create mode 100644 out/figures/Management of life-threatening hemoptysis in the ICU_fig03.jpg
+ create mode 100644 out/figures/Management of life-threatening hemoptysis in the ICU_fig04.jpg
+ create mode 100644 out/figures/Management of life-threatening hemoptysis in the ICU_fig05.jpg
+ create mode 100644 out/figures/Management of life-threatening hemoptysis in the ICU_fig06.jpg
+ create mode 100644 out/figures/Management of life-threatening hemoptysis in the ICU_fig07.jpg
+ create mode 100644 out/figures/Management of life-threatening hemoptysis in the ICU_fig08.jpg
+ create mode 100644 out/figures/Management of life-threatening hemoptysis in the ICU_fig09.jpg
+ create mode 100644 out/figures/Management of life-threatening hemoptysis in the ICU_fig10.jpg
+ create mode 100644 out/figures/Management of life-threatening hemoptysis in the ICU_figure7.jpg
+ create mode 100644 out/figures/Percutaneous radiologic gastrostomy versus per_fig01.jpg
+ create mode 100644 out/figures/Percutaneous radiologic gastrostomy versus per_fig02.jpg
+ create mode 100644 out/figures/Rahnemai-Azar-2014-Percutaneous endoscopic gas_fig01.jpg
+ create mode 100644 out/figures/Rahnemai-Azar-2014-Percutaneous endoscopic gas_fig02.jpg
+ create mode 100644 out/figures/Rahnemai-Azar-2014-Percutaneous endoscopic gas_fig03.jpg
+ create mode 100644 out/figures/Rahnemai-Azar-2014-Percutaneous endoscopic gas_fig04.jpg
+ create mode 100644 out/figures/Rahnemai-Azar-2014-Percutaneous endoscopic gas_fig05.jpg
+ create mode 100644 out/figures/Rahnemai-Azar-2014-Percutaneous endoscopic gas_fig06.jpg
+ create mode 100644 out/figures/Rahnemai-Azar-2014-Percutaneous endoscopic gas_fig07.jpg
+ create mode 100644 out/figures/Rahnemai-Azar-2014-Percutaneous endoscopic gas_fig08.jpg
+ create mode 100644 out/figures/Rahnemai-Azar-2014-Percutaneous endoscopic gas_fig09.jpg
+ create mode 100644 out/figures/Rahnemai-Azar-2014-Percutaneous endoscopic gas_fig10.jpg
+ create mode 100644 out/figures/Rahnemai-Azar-2014-Percutaneous endoscopic gas_fig11.jpg
+ create mode 100644 out/figures/Rahnemai-Azar-2014-Percutaneous endoscopic gas_fig12.jpg
+ create mode 100644 out/figures/Rahnemai-Azar-2014-Percutaneous endoscopic gas_fig13.jpg
+ create mode 100644 out/figures/Rahnemai-Azar-2014-Percutaneous endoscopic gas_fig14.jpg
+ create mode 100644 out/figures/Rahnemai-Azar-2014-Percutaneous endoscopic gas_fig15.jpg
+ create mode 100644 out/figures/Rahnemai-Azar-2014-Percutaneous endoscopic gas_fig16.jpg
+ create mode 100644 out/figures/Rahnemai-Azar-2014-Percutaneous endoscopic gas_fig17.jpg
+ create mode 100644 out/figures/Rahnemai-Azar-2014-Percutaneous endoscopic gas_fig18.jpg
+ create mode 100644 out/figures/Spread Through Air Spaces_fig01.jpg
+ create mode 100644 out/figures/Spread Through Air Spaces_fig02.jpg
+ create mode 100644 out/figures/Spread Through Air Spaces_fig03.jpg
+ create mode 100644 out/figures/Spread Through Air Spaces_fig04.jpg
+ create mode 100644 out/figures/Spread Through Air Spaces_fig07.jpg
+ create mode 100644 out/figures/Spread Through Air Spaces_fig08.jpg
+ create mode 100644 out/figures/Spread Through Air Spaces_fig09.jpg
+ create mode 100644 out/figures/Spread Through Air Spaces_figure2.jpg
+ create mode 100644 out/figures/Spread Through Air Spaces_figure3.jpg
+ create mode 100644 out/figures/The evolving role of medical thoracoscopy on therapeutic management of pleural disease_fig01.jpg
+ create mode 100644 out/figures/The evolving role of medical thoracoscopy on therapeutic management of pleural disease_fig02.jpg
+ create mode 100644 out/figures/The evolving role of medical thoracoscopy on therapeutic management of pleural disease_fig04.jpg
+ create mode 100644 out/figures/The evolving role of medical thoracoscopy on therapeutic management of pleural disease_fig05.jpg
+ create mode 100644 out/figures/The evolving role of medical thoracoscopy on therapeutic management of pleural disease_fig06.jpg
+ create mode 100644 out/figures/The evolving role of medical thoracoscopy on therapeutic management of pleural disease_fig07.jpg
+ create mode 100644 out/figures/The evolving role of medical thoracoscopy on therapeutic management of pleural disease_fig08.jpg
+ create mode 100644 out/figures/The evolving role of medical thoracoscopy on therapeutic management of pleural disease_fig09.jpg
+ create mode 100644 out/figures/The evolving role of medical thoracoscopy on therapeutic management of pleural disease_figure2.jpg
+ create mode 100644 out/figures/The use of electrocautery as the primary ablat_fig01.jpg
+ create mode 100644 out/figures/The use of electrocautery as the primary ablat_fig02.jpg
+ create mode 100644 out/figures/The use of electrocautery as the primary ablat_fig03.jpg
+ create mode 100644 out/qa/Approach to hemoptysis in the modern era__umls.qa.json
+ create mode 100644 out/qa/BLVR comprehensive 2025__umls.qa.json
+ create mode 100644 out/qa/COLDICE study__umls.qa.json
+ create mode 100644 out/qa/Imaging in peripheral bronchoscopy__umls.qa.json
+ create mode 100644 out/qa/Management of life-threatening hemoptysis in the ICU__umls.qa.json
+ create mode 100644 out/qa/Percutaneous radiologic gastrostomy versus per__umls.qa.json
+ create mode 100644 out/qa/Rahnemai-Azar-2014-Percutaneous endoscopic gas__umls.qa.json
+ create mode 100644 out/qa/Spread Through Air Spaces__umls.qa.json
+ create mode 100644 out/qa/The evolving role of medical thoracoscopy on therapeutic management of pleural disease__umls.qa.json
+ create mode 100644 out/qa/The use of electrocautery as the primary ablat__umls.qa.json
+ create mode 100644 out/references/Approach to hemoptysis in the modern era.refs.csv
+ create mode 100644 out/references/BLVR comprehensive 2025.refs.csv
+ create mode 100644 out/references/COLDICE study.refs.csv
+ create mode 100644 out/references/Imaging in peripheral bronchoscopy.refs.csv
+ create mode 100644 out/references/Management of life-threatening hemoptysis in the ICU.refs.csv
+ create mode 100644 out/references/Percutaneous radiologic gastrostomy versus per.refs.csv
+ create mode 100644 out/references/Rahnemai-Azar-2014-Percutaneous endoscopic gas.refs.csv
+ create mode 100644 out/references/Spread Through Air Spaces.refs.csv
+ create mode 100644 out/references/The evolving role of medical thoracoscopy on therapeutic management of pleural disease.refs.csv
+ create mode 100644 out/references/The use of electrocautery as the primary ablat.refs.csv
+2025-09-01 04:00:04.193 | INFO     | __main__:git_commit_and_push:158 - Pushing to origin/fix/extraction-hardening...
+To https://github.com/russellmiller49/Medparse.git
+   398dd68..a8dc38c  fix/extraction-hardening -> fix/extraction-hardening
+2025-09-01 04:00:08.661 | SUCCESS  | __main__:git_commit_and_push:161 - ✓ Successfully pushed to GitHub (branch: fix/extraction-hardening)
+2025-09-01 04:00:08.661 | INFO     | __main__:main:189 - [254/414] Processing Diagnostic yield and safety of navigation bronchoscopy.pdf
+2025-09-01 04:00:08.661 | INFO     | __main__:process_single_pdf:52 - Processing Diagnostic yield and safety of navigation bronchoscopy.pdf...
+2025-09-01 04:01:57.312 | SUCCESS  | __main__:process_single_pdf:71 - ✓ Successfully processed Diagnostic yield and safety of navigation bronchoscopy
+2025-09-01 04:01:57.312 | INFO     | __main__:main:189 - [255/414] Processing Hooper-2010-Investigation of a unilateral pleu.pdf
+2025-09-01 04:01:57.312 | INFO     | __main__:process_single_pdf:52 - Processing Hooper-2010-Investigation of a unilateral pleu.pdf...
+2025-09-01 04:06:01.059 | SUCCESS  | __main__:process_single_pdf:71 - ✓ Successfully processed Hooper-2010-Investigation of a unilateral pleu
+2025-09-01 04:06:01.060 | INFO     | __main__:main:189 - [256/414] Processing Jayadevappa-2019-Outcomes of patients with adv.pdf
+2025-09-01 04:06:01.060 | INFO     | __main__:process_single_pdf:52 - Processing Jayadevappa-2019-Outcomes of patients with adv.pdf...
+2025-09-01 04:07:30.964 | SUCCESS  | __main__:process_single_pdf:71 - ✓ Successfully processed Jayadevappa-2019-Outcomes of patients with adv
+2025-09-01 04:07:30.964 | INFO     | __main__:main:189 - [257/414] Processing fistula Lazarus-2017-Persistent air leaks_ a review wi.pdf
+2025-09-01 04:07:30.964 | INFO     | __main__:process_single_pdf:52 - Processing fistula Lazarus-2017-Persistent air leaks_ a review wi.pdf...
+2025-09-01 04:10:10.803 | SUCCESS  | __main__:process_single_pdf:71 - ✓ Successfully processed fistula Lazarus-2017-Persistent air leaks_ a review wi
+2025-09-01 04:10:10.803 | INFO     | __main__:main:189 - [258/414] Processing Improved diagnostic yield  with digital tomosynthesis ENB.pdf
+2025-09-01 04:10:10.803 | INFO     | __main__:process_single_pdf:52 - Processing Improved diagnostic yield  with digital tomosynthesis ENB.pdf...
+2025-09-01 04:11:11.861 | SUCCESS  | __main__:process_single_pdf:71 - ✓ Successfully processed Improved diagnostic yield  with digital tomosynthesis ENB
+2025-09-01 04:11:11.861 | INFO     | __main__:main:189 - [259/414] Processing SSRAB in the Diagnosis of PPLs.pdf
+2025-09-01 04:11:11.861 | INFO     | __main__:process_single_pdf:52 - Processing SSRAB in the Diagnosis of PPLs.pdf...
+2025-09-01 04:13:07.173 | SUCCESS  | __main__:process_single_pdf:71 - ✓ Successfully processed SSRAB in the Diagnosis of PPLs
+2025-09-01 04:13:07.173 | INFO     | __main__:main:189 - [260/414] Processing Management of Malignant Pleural Effusions.pdf
+2025-09-01 04:13:07.173 | INFO     | __main__:process_single_pdf:52 - Processing Management of Malignant Pleural Effusions.pdf...
+2025-09-01 04:15:50.515 | SUCCESS  | __main__:process_single_pdf:71 - ✓ Successfully processed Management of Malignant Pleural Effusions
+2025-09-01 04:15:50.515 | INFO     | __main__:main:189 - [261/414] Processing Aggressive versus symptom-guided drainage of m.pdf
+2025-09-01 04:15:50.515 | INFO     | __main__:process_single_pdf:52 - Processing Aggressive versus symptom-guided drainage of m.pdf...
+2025-09-01 04:17:29.071 | SUCCESS  | __main__:process_single_pdf:71 - ✓ Successfully processed Aggressive versus symptom-guided drainage of m
+2025-09-01 04:17:29.071 | INFO     | __main__:main:189 - [262/414] Processing Indications and complications of rigid broncho.pdf
+2025-09-01 04:17:29.071 | INFO     | __main__:process_single_pdf:52 - Processing Indications and complications of rigid broncho.pdf...
+2025-09-01 04:21:35.426 | SUCCESS  | __main__:process_single_pdf:71 - ✓ Successfully processed Indications and complications of rigid broncho
+2025-09-01 04:21:35.426 | INFO     | __main__:main:189 - [263/414] Processing Study Design and Rationale ENB and ETN  ALL IN ONE Trial.pdf
+2025-09-01 04:21:35.426 | INFO     | __main__:process_single_pdf:52 - Processing Study Design and Rationale ENB and ETN  ALL IN ONE Trial.pdf...
+2025-09-01 04:23:04.295 | SUCCESS  | __main__:process_single_pdf:71 - ✓ Successfully processed Study Design and Rationale ENB and ETN  ALL IN ONE Trial
+2025-09-01 04:23:04.295 | INFO     | __main__:main:198 - Reached 260 successful processes, committing intermediate results...
+2025-09-01 04:23:04.295 | INFO     | __main__:git_commit_and_push:129 - Adding changes to git...
