@@ -4193,3 +4193,123 @@ To https://github.com/russellmiller49/Medparse.git
 2025-09-01 05:22:35.418 | SUCCESS  | __main__:process_single_pdf:71 - ✓ Successfully processed Endobronchial tumor debulking with a flexible
 2025-09-01 05:22:35.418 | INFO     | __main__:main:198 - Reached 290 successful processes, committing intermediate results...
 2025-09-01 05:22:35.418 | INFO     | __main__:git_commit_and_push:129 - Adding changes to git...
+2025-09-01 05:22:35.535 | INFO     | __main__:git_commit_and_push:145 - Creating git commit...
+[fix/extraction-hardening 132c93f] feat: Batch processed 290 PDFs (intermediate commit)
+ 83 files changed, 142531 insertions(+)
+ create mode 100644 out/batch_processed/Advances in IP.json
+ create mode 100644 out/batch_processed/Arnold-2018-Investigating unilateral pleural e.json
+ create mode 100644 out/batch_processed/Chhatre-2021-Survival Outcomes with Photodynam.json
+ create mode 100644 out/batch_processed/Cone-beam computed tomography-guided electromagnetic navigation for peripheral lung nodules.json
+ create mode 100644 out/batch_processed/Endobronchial tumor debulking with a flexible.json
+ create mode 100644 out/batch_processed/Lamb-2020-Use of Tracheostomy During the COVID.json
+ create mode 100644 out/batch_processed/Managing Massive Hemoptysis.json
+ create mode 100644 out/batch_processed/Shojaee-2019-Indwelling Tunneled Pleural Cathe.json
+ create mode 100644 out/batch_processed/fistula Debourdeau-2019-Endoscopic treatment of nonmal.json
+ create mode 100644 out/batch_processed/nebulized TXA review.json
+ create mode 100644 out/figures/Advances in IP_fig01.jpg
+ create mode 100644 out/figures/Advances in IP_fig02.jpg
+ create mode 100644 out/figures/Advances in IP_fig03.jpg
+ create mode 100644 out/figures/Advances in IP_fig04.jpg
+ create mode 100644 out/figures/Arnold-2018-Investigating unilateral pleural e_fig01.jpg
+ create mode 100644 out/figures/Arnold-2018-Investigating unilateral pleural e_fig02.jpg
+ create mode 100644 out/figures/Arnold-2018-Investigating unilateral pleural e_fig03.jpg
+ create mode 100644 out/figures/Arnold-2018-Investigating unilateral pleural e_fig04.jpg
+ create mode 100644 out/figures/Arnold-2018-Investigating unilateral pleural e_figure2.jpg
+ create mode 100644 out/figures/Chhatre-2021-Survival Outcomes with Photodynam_fig01.jpg
+ create mode 100644 out/figures/Chhatre-2021-Survival Outcomes with Photodynam_fig02.jpg
+ create mode 100644 out/figures/Chhatre-2021-Survival Outcomes with Photodynam_fig03.jpg
+ create mode 100644 out/figures/Chhatre-2021-Survival Outcomes with Photodynam_fig04.jpg
+ create mode 100644 out/figures/Chhatre-2021-Survival Outcomes with Photodynam_fig05.jpg
+ create mode 100644 out/figures/Cone-beam computed tomography-guided electromagnetic navigation for peripheral lung nodules_fig01.jpg
+ create mode 100644 out/figures/Cone-beam computed tomography-guided electromagnetic navigation for peripheral lung nodules_fig02.jpg
+ create mode 100644 out/figures/Cone-beam computed tomography-guided electromagnetic navigation for peripheral lung nodules_fig2.jpg
+ create mode 100644 out/figures/Lamb-2020-Use of Tracheostomy During the COVID_fig01.jpg
+ create mode 100644 out/figures/Lamb-2020-Use of Tracheostomy During the COVID_fig02.jpg
+ create mode 100644 out/figures/Lamb-2020-Use of Tracheostomy During the COVID_fig03.jpg
+ create mode 100644 out/figures/Lamb-2020-Use of Tracheostomy During the COVID_fig04.jpg
+ create mode 100644 out/figures/Lamb-2020-Use of Tracheostomy During the COVID_fig05.jpg
+ create mode 100644 out/figures/Lamb-2020-Use of Tracheostomy During the COVID_fig06.jpg
+ create mode 100644 out/figures/Lamb-2020-Use of Tracheostomy During the COVID_fig07.jpg
+ create mode 100644 out/figures/Managing Massive Hemoptysis_fig01.jpg
+ create mode 100644 out/figures/Managing Massive Hemoptysis_fig02.jpg
+ create mode 100644 out/figures/Managing Massive Hemoptysis_fig03.jpg
+ create mode 100644 out/figures/Managing Massive Hemoptysis_fig04.jpg
+ create mode 100644 out/figures/Managing Massive Hemoptysis_fig05.jpg
+ create mode 100644 out/figures/Managing Massive Hemoptysis_fig06.jpg
+ create mode 100644 out/figures/Shojaee-2019-Indwelling Tunneled Pleural Cathe_fig01.jpg
+ create mode 100644 out/figures/Shojaee-2019-Indwelling Tunneled Pleural Cathe_fig02.jpg
+ create mode 100644 out/figures/Shojaee-2019-Indwelling Tunneled Pleural Cathe_fig03.jpg
+ create mode 100644 out/figures/Shojaee-2019-Indwelling Tunneled Pleural Cathe_figure2.jpg
+ create mode 100644 out/figures/fistula Debourdeau-2019-Endoscopic treatment of nonmal_fig01.jpg
+ create mode 100644 out/figures/fistula Debourdeau-2019-Endoscopic treatment of nonmal_fig02.jpg
+ create mode 100644 out/figures/fistula Debourdeau-2019-Endoscopic treatment of nonmal_fig03.jpg
+ create mode 100644 out/figures/fistula Debourdeau-2019-Endoscopic treatment of nonmal_fig04.jpg
+ create mode 100644 out/figures/fistula Debourdeau-2019-Endoscopic treatment of nonmal_fig05.jpg
+ create mode 100644 out/figures/fistula Debourdeau-2019-Endoscopic treatment of nonmal_fig06.jpg
+ create mode 100644 out/figures/fistula Debourdeau-2019-Endoscopic treatment of nonmal_fig08.jpg
+ create mode 100644 out/figures/fistula Debourdeau-2019-Endoscopic treatment of nonmal_fig3.jpg
+ create mode 100644 out/figures/fistula Debourdeau-2019-Endoscopic treatment of nonmal_fig4.jpg
+ create mode 100644 out/figures/nebulized TXA review_fig01.jpg
+ create mode 100644 out/figures/nebulized TXA review_fig02.jpg
+ create mode 100644 out/figures/nebulized TXA review_fig04.jpg
+ create mode 100644 out/figures/nebulized TXA review_fig05.jpg
+ create mode 100644 out/figures/nebulized TXA review_fig06.jpg
+ create mode 100644 out/figures/nebulized TXA review_fig07.jpg
+ create mode 100644 out/figures/nebulized TXA review_fig08.jpg
+ create mode 100644 out/figures/nebulized TXA review_fig1.jpg
+ create mode 100644 out/qa/Advances in IP__umls.qa.json
+ create mode 100644 out/qa/Arnold-2018-Investigating unilateral pleural e__umls.qa.json
+ create mode 100644 out/qa/Chhatre-2021-Survival Outcomes with Photodynam__umls.qa.json
+ create mode 100644 out/qa/Cone-beam computed tomography-guided electromagnetic navigation for peripheral lung nodules__umls.qa.json
+ create mode 100644 out/qa/Endobronchial tumor debulking with a flexible__umls.qa.json
+ create mode 100644 out/qa/Lamb-2020-Use of Tracheostomy During the COVID__umls.qa.json
+ create mode 100644 out/qa/Managing Massive Hemoptysis__umls.qa.json
+ create mode 100644 out/qa/Shojaee-2019-Indwelling Tunneled Pleural Cathe__umls.qa.json
+ create mode 100644 out/qa/fistula Debourdeau-2019-Endoscopic treatment of nonmal__umls.qa.json
+ create mode 100644 out/qa/nebulized TXA review__umls.qa.json
+ create mode 100644 out/references/Advances in IP.refs.csv
+ create mode 100644 out/references/Arnold-2018-Investigating unilateral pleural e.refs.csv
+ create mode 100644 out/references/Chhatre-2021-Survival Outcomes with Photodynam.refs.csv
+ create mode 100644 out/references/Cone-beam computed tomography-guided electromagnetic navigation for peripheral lung nodules.refs.csv
+ create mode 100644 out/references/Endobronchial tumor debulking with a flexible.refs.csv
+ create mode 100644 out/references/Lamb-2020-Use of Tracheostomy During the COVID.refs.csv
+ create mode 100644 out/references/Managing Massive Hemoptysis.refs.csv
+ create mode 100644 out/references/Shojaee-2019-Indwelling Tunneled Pleural Cathe.refs.csv
+ create mode 100644 out/references/fistula Debourdeau-2019-Endoscopic treatment of nonmal.refs.csv
+ create mode 100644 out/references/nebulized TXA review.refs.csv
+2025-09-01 05:22:35.564 | INFO     | __main__:git_commit_and_push:158 - Pushing to origin/fix/extraction-hardening...
+To https://github.com/russellmiller49/Medparse.git
+   f00f17c..132c93f  fix/extraction-hardening -> fix/extraction-hardening
+2025-09-01 05:22:39.586 | SUCCESS  | __main__:git_commit_and_push:161 - ✓ Successfully pushed to GitHub (branch: fix/extraction-hardening)
+2025-09-01 05:22:39.586 | INFO     | __main__:main:189 - [295/414] Processing Interventional pulmonology in the intensive ca.pdf
+2025-09-01 05:22:39.586 | INFO     | __main__:process_single_pdf:52 - Processing Interventional pulmonology in the intensive ca.pdf...
+2025-09-01 05:24:50.808 | SUCCESS  | __main__:process_single_pdf:71 - ✓ Successfully processed Interventional pulmonology in the intensive ca
+2025-09-01 05:24:50.808 | INFO     | __main__:main:189 - [296/414] Processing Role of Pathologic Single Nodal and Multple Nodal Desscriptions.pdf
+2025-09-01 05:24:50.808 | INFO     | __main__:process_single_pdf:52 - Processing Role of Pathologic Single Nodal and Multple Nodal Desscriptions.pdf...
+2025-09-01 05:26:10.687 | SUCCESS  | __main__:process_single_pdf:71 - ✓ Successfully processed Role of Pathologic Single Nodal and Multple Nodal Desscriptions
+2025-09-01 05:26:10.687 | INFO     | __main__:main:189 - [297/414] Processing Relapsing polychondriti.pdf
+2025-09-01 05:26:10.687 | INFO     | __main__:process_single_pdf:52 - Processing Relapsing polychondriti.pdf...
+2025-09-01 05:34:41.086 | SUCCESS  | __main__:process_single_pdf:71 - ✓ Successfully processed Relapsing polychondriti
+2025-09-01 05:34:41.086 | INFO     | __main__:main:189 - [298/414] Processing ASAP trial.pdf
+2025-09-01 05:34:41.087 | INFO     | __main__:process_single_pdf:52 - Processing ASAP trial.pdf...
+2025-09-01 05:35:52.991 | SUCCESS  | __main__:process_single_pdf:71 - ✓ Successfully processed ASAP trial
+2025-09-01 05:35:52.992 | INFO     | __main__:main:189 - [299/414] Processing Koizumi-2015-Bronchoscopy-Guided Cooled Radiof.pdf
+2025-09-01 05:35:52.992 | INFO     | __main__:process_single_pdf:52 - Processing Koizumi-2015-Bronchoscopy-Guided Cooled Radiof.pdf...
+2025-09-01 05:37:15.029 | SUCCESS  | __main__:process_single_pdf:71 - ✓ Successfully processed Koizumi-2015-Bronchoscopy-Guided Cooled Radiof
+2025-09-01 05:37:15.030 | INFO     | __main__:main:189 - [300/414] Processing Acquisition and Handling of Endobronchial Ultrasound Transbronchial Needle Samples..pdf
+2025-09-01 05:37:15.030 | INFO     | __main__:process_single_pdf:52 - Processing Acquisition and Handling of Endobronchial Ultrasound Transbronchial Needle Samples..pdf...
+2025-09-01 05:39:26.161 | SUCCESS  | __main__:process_single_pdf:71 - ✓ Successfully processed Acquisition and Handling of Endobronchial Ultrasound Transbronchial Needle Samples.
+2025-09-01 05:39:26.161 | INFO     | __main__:main:189 - [301/414] Processing NAVIGATE 24-Month Results.pdf
+2025-09-01 05:39:26.161 | INFO     | __main__:process_single_pdf:52 - Processing NAVIGATE 24-Month Results.pdf...
+2025-09-01 05:41:13.291 | SUCCESS  | __main__:process_single_pdf:71 - ✓ Successfully processed NAVIGATE 24-Month Results
+2025-09-01 05:41:13.292 | INFO     | __main__:main:189 - [302/414] Processing fistula Han-2018-Customized airway stenting for bronch.pdf
+2025-09-01 05:41:13.292 | INFO     | __main__:process_single_pdf:52 - Processing fistula Han-2018-Customized airway stenting for bronch.pdf...
+2025-09-01 05:42:25.181 | SUCCESS  | __main__:process_single_pdf:71 - ✓ Successfully processed fistula Han-2018-Customized airway stenting for bronch
+2025-09-01 05:42:25.181 | INFO     | __main__:main:189 - [303/414] Processing Radiation Principles, Protection, and Reporting.pdf
+2025-09-01 05:42:25.181 | INFO     | __main__:process_single_pdf:52 - Processing Radiation Principles, Protection, and Reporting.pdf...
+2025-09-01 05:43:40.574 | SUCCESS  | __main__:process_single_pdf:71 - ✓ Successfully processed Radiation Principles, Protection, and Reporting
+2025-09-01 05:43:40.574 | INFO     | __main__:main:189 - [304/414] Processing Proposals for revisoin of residual tumor after resection.pdf
+2025-09-01 05:43:40.574 | INFO     | __main__:process_single_pdf:52 - Processing Proposals for revisoin of residual tumor after resection.pdf...
+2025-09-01 05:47:43.789 | SUCCESS  | __main__:process_single_pdf:71 - ✓ Successfully processed Proposals for revisoin of residual tumor after resection
+2025-09-01 05:47:43.789 | INFO     | __main__:main:198 - Reached 300 successful processes, committing intermediate results...
+2025-09-01 05:47:43.789 | INFO     | __main__:git_commit_and_push:129 - Adding changes to git...

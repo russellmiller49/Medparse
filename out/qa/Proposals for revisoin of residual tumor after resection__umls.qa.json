@@ -1,0 +1,15 @@
+{
+  "pdf": "Proposals for revisoin of residual tumor after resection.pdf",
+  "n_sections": 24,
+  "n_tables": 7,
+  "n_figures": 11,
+  "n_fig_crops": 10,
+  "missing_fig_bbox": 0,
+  "n_refs_csv": 153,
+  "n_umls_links": 0,
+  "n_local_links": 0,
+  "linker": "umls",
+  "completeness_score": 61,
+  "is_valid": true,
+  "timestamp": "2025-09-01 05:47:43"
+}
