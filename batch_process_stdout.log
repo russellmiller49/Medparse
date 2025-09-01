@@ -5158,3 +5158,92 @@ To https://github.com/russellmiller49/Medparse.git
 2025-09-01 07:49:52.488 | SUCCESS  | __main__:process_single_pdf:71 - ✓ Successfully processed Reevaluating the Role of Bronchoscopy Prior to Bronchial Artery Embolization
 2025-09-01 07:49:52.489 | INFO     | __main__:main:198 - Reached 360 successful processes, committing intermediate results...
 2025-09-01 07:49:52.489 | INFO     | __main__:git_commit_and_push:129 - Adding changes to git...
+2025-09-01 07:49:52.594 | INFO     | __main__:git_commit_and_push:145 - Creating git commit...
+[fix/extraction-hardening ea469f1] feat: Batch processed 360 PDFs (intermediate commit)
+ 54 files changed, 173997 insertions(+), 2 deletions(-)
+ create mode 100644 out/batch_processed/3D printing for airway disease.json
+ create mode 100644 out/batch_processed/Basic and advanced pleural procedures coding and professional fees update for pulmonologists.json
+ create mode 100644 out/batch_processed/Comparison of HFNC  and Conventional O2 during bronc.json
+ create mode 100644 out/batch_processed/Competency-based medical education in interventional pulmonology_ current state and future opportunities.json
+ create mode 100644 out/batch_processed/EBUS  vs conventional TBNA  in the diagnosis of sarcoidosis.json
+ create mode 100644 out/batch_processed/Endobronchial epinephrine confusion is in the air.json
+ create mode 100644 out/batch_processed/Foreign body inhalation in the adult population.json
+ create mode 100644 out/batch_processed/Grosu-2013-Stents are associated with increase.json
+ create mode 100644 out/batch_processed/ROSE during EBUS  for diagnosing lung cancer a randomized study.json
+ create mode 100644 out/batch_processed/Reevaluating the Role of Bronchoscopy Prior to Bronchial Artery Embolization.json
+ create mode 100644 out/figures/Basic and advanced pleural procedures coding and professional fees update for pulmonologists_fig01.jpg
+ create mode 100644 out/figures/Basic and advanced pleural procedures coding and professional fees update for pulmonologists_fig02.jpg
+ create mode 100644 out/figures/Comparison of HFNC  and Conventional O2 during bronc_fig01.jpg
+ create mode 100644 out/figures/Comparison of HFNC  and Conventional O2 during bronc_fig02.jpg
+ create mode 100644 out/figures/EBUS  vs conventional TBNA  in the diagnosis of sarcoidosis_fig01.jpg
+ create mode 100644 out/figures/Foreign body inhalation in the adult population_fig01.jpg
+ create mode 100644 out/figures/Foreign body inhalation in the adult population_fig02.jpg
+ create mode 100644 out/figures/Foreign body inhalation in the adult population_fig03.jpg
+ create mode 100644 out/figures/Foreign body inhalation in the adult population_fig04.jpg
+ create mode 100644 out/figures/Foreign body inhalation in the adult population_fig05.jpg
+ create mode 100644 out/figures/Foreign body inhalation in the adult population_fig06.jpg
+ create mode 100644 out/figures/Foreign body inhalation in the adult population_fig07.jpg
+ create mode 100644 out/figures/Foreign body inhalation in the adult population_fig08.jpg
+ create mode 100644 out/figures/Grosu-2013-Stents are associated with increase_fig01.jpg
+ create mode 100644 out/figures/Grosu-2013-Stents are associated with increase_fig02.jpg
+ create mode 100644 out/figures/Grosu-2013-Stents are associated with increase_fig03.jpg
+ create mode 100644 out/figures/Grosu-2013-Stents are associated with increase_fig04.jpg
+ create mode 100644 out/figures/Grosu-2013-Stents are associated with increase_fig05.jpg
+ create mode 100644 out/figures/Grosu-2013-Stents are associated with increase_fig06.jpg
+ create mode 100644 out/figures/ROSE during EBUS  for diagnosing lung cancer a randomized study_fig01.jpg
+ create mode 100644 out/figures/Reevaluating the Role of Bronchoscopy Prior to Bronchial Artery Embolization_fig01.jpg
+ create mode 100644 out/figures/Reevaluating the Role of Bronchoscopy Prior to Bronchial Artery Embolization_figure1.jpg
+ create mode 100644 out/figures/Reevaluating the Role of Bronchoscopy Prior to Bronchial Artery Embolization_figure3.jpg
+ create mode 100644 out/figures/Reevaluating the Role of Bronchoscopy Prior to Bronchial Artery Embolization_figure4.jpg
+ create mode 100644 out/qa/Basic and advanced pleural procedures coding and professional fees update for pulmonologists__umls.qa.json
+ create mode 100644 out/qa/Comparison of HFNC  and Conventional O2 during bronc__umls.qa.json
+ create mode 100644 out/qa/EBUS  vs conventional TBNA  in the diagnosis of sarcoidosis__umls.qa.json
+ create mode 100644 out/qa/Endobronchial epinephrine confusion is in the air__umls.qa.json
+ create mode 100644 out/qa/Foreign body inhalation in the adult population__umls.qa.json
+ create mode 100644 out/qa/Grosu-2013-Stents are associated with increase__umls.qa.json
+ create mode 100644 out/qa/ROSE during EBUS  for diagnosing lung cancer a randomized study__umls.qa.json
+ create mode 100644 out/qa/Reevaluating the Role of Bronchoscopy Prior to Bronchial Artery Embolization__umls.qa.json
+ create mode 100644 out/references/Basic and advanced pleural procedures coding and professional fees update for pulmonologists.refs.csv
+ create mode 100644 out/references/Comparison of HFNC  and Conventional O2 during bronc.refs.csv
+ create mode 100644 out/references/EBUS  vs conventional TBNA  in the diagnosis of sarcoidosis.refs.csv
+ create mode 100644 out/references/Endobronchial epinephrine confusion is in the air.refs.csv
+ create mode 100644 out/references/Foreign body inhalation in the adult population.refs.csv
+ create mode 100644 out/references/Grosu-2013-Stents are associated with increase.refs.csv
+ create mode 100644 out/references/ROSE during EBUS  for diagnosing lung cancer a randomized study.refs.csv
+ create mode 100644 out/references/Reevaluating the Role of Bronchoscopy Prior to Bronchial Artery Embolization.refs.csv
+2025-09-01 07:49:52.628 | INFO     | __main__:git_commit_and_push:158 - Pushing to origin/fix/extraction-hardening...
+To https://github.com/russellmiller49/Medparse.git
+   3d55606..ea469f1  fix/extraction-hardening -> fix/extraction-hardening
+2025-09-01 07:49:56.489 | SUCCESS  | __main__:git_commit_and_push:161 - ✓ Successfully pushed to GitHub (branch: fix/extraction-hardening)
+2025-09-01 07:49:56.490 | INFO     | __main__:main:189 - [366/414] Processing Complete unilateral vs partial bilateral BLVR.pdf
+2025-09-01 07:49:56.490 | INFO     | __main__:process_single_pdf:52 - Processing Complete unilateral vs partial bilateral BLVR.pdf...
+2025-09-01 07:51:14.464 | SUCCESS  | __main__:process_single_pdf:71 - ✓ Successfully processed Complete unilateral vs partial bilateral BLVR
+2025-09-01 07:51:14.464 | INFO     | __main__:main:189 - [367/414] Processing Awab-2017-Whole lung lavage-technical details.pdf
+2025-09-01 07:51:14.464 | INFO     | __main__:process_single_pdf:52 - Processing Awab-2017-Whole lung lavage-technical details.pdf...
+2025-09-01 07:52:54.573 | SUCCESS  | __main__:process_single_pdf:71 - ✓ Successfully processed Awab-2017-Whole lung lavage-technical details
+2025-09-01 07:52:54.574 | INFO     | __main__:main:189 - [368/414] Processing Biopsy of peripheral lung nodules utilizing cone beam w wo TB access tool.pdf
+2025-09-01 07:52:54.574 | INFO     | __main__:process_single_pdf:52 - Processing Biopsy of peripheral lung nodules utilizing cone beam w wo TB access tool.pdf...
+2025-09-01 07:53:39.271 | SUCCESS  | __main__:process_single_pdf:71 - ✓ Successfully processed Biopsy of peripheral lung nodules utilizing cone beam w wo TB access tool
+2025-09-01 07:53:39.272 | INFO     | __main__:main:189 - [369/414] Processing ROSE during EBUS for nodal staging in patients with lung cancer.pdf
+2025-09-01 07:53:39.272 | INFO     | __main__:process_single_pdf:52 - Processing ROSE during EBUS for nodal staging in patients with lung cancer.pdf...
+2025-09-01 07:54:48.604 | SUCCESS  | __main__:process_single_pdf:71 - ✓ Successfully processed ROSE during EBUS for nodal staging in patients with lung cancer
+2025-09-01 07:54:48.604 | INFO     | __main__:main:189 - [370/414] Processing Routine monitoring with pleural manometry duri.pdf
+2025-09-01 07:54:48.604 | INFO     | __main__:process_single_pdf:52 - Processing Routine monitoring with pleural manometry duri.pdf...
+2025-09-01 07:56:16.684 | SUCCESS  | __main__:process_single_pdf:71 - ✓ Successfully processed Routine monitoring with pleural manometry duri
+2025-09-01 07:56:16.684 | INFO     | __main__:main:189 - [371/414] Processing Bronchoscopy Education An Experiential Learning Theory Perspective.pdf
+2025-09-01 07:56:16.684 | INFO     | __main__:process_single_pdf:52 - Processing Bronchoscopy Education An Experiential Learning Theory Perspective.pdf...
+2025-09-01 07:58:22.214 | SUCCESS  | __main__:process_single_pdf:71 - ✓ Successfully processed Bronchoscopy Education An Experiential Learning Theory Perspective
+2025-09-01 07:58:22.214 | INFO     | __main__:main:189 - [372/414] Processing Comprehensive Review of Chest Tube Management_A Review.pdf
+2025-09-01 07:58:22.214 | INFO     | __main__:process_single_pdf:52 - Processing Comprehensive Review of Chest Tube Management_A Review.pdf...
+2025-09-01 07:59:20.366 | SUCCESS  | __main__:process_single_pdf:71 - ✓ Successfully processed Comprehensive Review of Chest Tube Management_A Review
+2025-09-01 07:59:20.366 | INFO     | __main__:main:189 - [373/414] Processing Safety and efficacy of a novel transbronchial radiofrequency ablation system for lung tumours .pdf
+2025-09-01 07:59:20.366 | INFO     | __main__:process_single_pdf:52 - Processing Safety and efficacy of a novel transbronchial radiofrequency ablation system for lung tumours .pdf...
+2025-09-01 08:00:56.320 | SUCCESS  | __main__:process_single_pdf:71 - ✓ Successfully processed Safety and efficacy of a novel transbronchial radiofrequency ablation system for lung tumours 
+2025-09-01 08:00:56.321 | INFO     | __main__:main:189 - [374/414] Processing Davies-2012-Effect of an indwelling pleural ca.pdf
+2025-09-01 08:00:56.321 | INFO     | __main__:process_single_pdf:52 - Processing Davies-2012-Effect of an indwelling pleural ca.pdf...
+2025-09-01 08:04:09.288 | SUCCESS  | __main__:process_single_pdf:71 - ✓ Successfully processed Davies-2012-Effect of an indwelling pleural ca
+2025-09-01 08:04:09.288 | INFO     | __main__:main:189 - [375/414] Processing Klooster-2017-One-Year Follow-Up after Endobro.pdf
+2025-09-01 08:04:09.288 | INFO     | __main__:process_single_pdf:52 - Processing Klooster-2017-One-Year Follow-Up after Endobro.pdf...
+2025-09-01 08:05:40.970 | SUCCESS  | __main__:process_single_pdf:71 - ✓ Successfully processed Klooster-2017-One-Year Follow-Up after Endobro
+2025-09-01 08:05:40.970 | INFO     | __main__:main:198 - Reached 370 successful processes, committing intermediate results...
+2025-09-01 08:05:40.970 | INFO     | __main__:git_commit_and_push:129 - Adding changes to git...

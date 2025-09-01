@@ -1,0 +1,2182 @@
+{
+  "metadata": {
+    "title": "Comprehensive Review of Chest Tube Management",
+    "year": "2022-01-26",
+    "authors": [
+      "Devon Anderson",
+      "Sarah A. Chen",
+      "Luis A. Godoy",
+      "Lisa M. Brown",
+      "David T. Cooke"
+    ],
+    "references_text": [
+      "The Genuine Works of Hippocrates\n\t\t\n\t\t\tHippocrates",
+      "DOINGS IN THE SYDENHAM SOCIETY.\n\t\t10.1016/s0140-6736(02)74707-7\n\t\n\t\n\t\tThe Lancet\n\t\tThe Lancet\n\t\t\n\t\t\tFAdams\n\t\t\n\t\t0140-6736\n\t\t\n\t\t\t53\n\t\t\t1344\n\t\t\t600\n\t\t\t1849\n\t\t\tElsevier BV",
+      "Treatment of Empyema by a Valvular Tube Hermetically Sealed to the Chest\n\t\t\n\t\t\tWWilliams\n\t\t\n\t\t10.1136/bmj.1.1481.1107\n\t\n\t\n\t\tBMJ\n\t\tBMJ\n\t\t0959-8138\n\t\t1468-5833\n\t\t\n\t\t\t1\n\t\t\t1481\n\t\t\t\n\t\t\t1889\n\t\t\tBMJ",
+      "RESECTION OF THE LUNG FOR SUPPURATIVE INFECTIONS WITH A REPORT BASED ON 31 OPERATIVE CASES IN WHICH RESECTION WAS DONE OR INTENDED\n\t\t\n\t\t\tHowardLilienthal\n\t\t\n\t\t10.1097/00000658-192203000-00001\n\t\n\t\n\t\tAnnals of Surgery\n\t\tAnnals of Surgery\n\t\t0003-4932\n\t\t\n\t\t\t75\n\t\t\t3\n\t\t\t\n\t\t\tMarch 2022. 1922\n\t\t\tOvid Technologies (Wolters Kluwer Health)\n\t\t\n\t\n\tReprinted Ann Surg",
+      "Tube Thoracostomy: The Struggle to the “Standard of Care”\n\t\t\n\t\t\tSeanFMonaghan\n\t\t\n\t\t\n\t\t\tKennethGSwan\n\t\t\n\t\t10.1016/j.athoracsur.2008.08.006\n\t\n\t\n\t\tThe Annals of Thoracic Surgery\n\t\tThe Annals of Thoracic Surgery\n\t\t0003-4975\n\t\t\n\t\t\t86\n\t\t\t6\n\t\t\t\n\t\t\t2008\n\t\t\tElsevier BV",
+      "A Systematic Review and Meta-Analysis Comparing Pigtail Catheter and Chest Tube as the Initial Treatment for Pneumothorax\n\t\t\n\t\t\tSu-HuanChang\n\t\t\n\t\t\n\t\t\tYi-NoKang\n\t\t\n\t\t\n\t\t\tHsin-YiChiu\n\t\t\n\t\t\n\t\t\tYu-HanChiu\n\t\t\n\t\t10.1016/j.chest.2018.01.048\n\t\n\t\n\t\tChest\n\t\tChest\n\t\t0012-3692\n\t\t\n\t\t\t153\n\t\t\t5\n\t\t\t\n\t\t\t2018\n\t\t\tElsevier BV",
+      "OPEN PNEUMOTHORAX\n\t\t\n\t\t\tMajorEvartsA. Graham\n\t\t\n\t\t\n\t\t\tCaptainRichardD. Bell\n\t\t\n\t\t10.1097/00000441-191812000-00007\n\t\n\t\n\t\tThe American Journal of the Medical Sciences\n\t\tThe American Journal of the Medical Sciences\n\t\t0002-9629\n\t\t\n\t\t\t156\n\t\t\t6\n\t\t\t\n\t\t\t1918\n\t\t\tElsevier BV",
+      "Management of spontaneous pneumothorax: British Thoracic Society pleural disease guideline 2010\n\t\t\n\t\t\tAMacduff\n\t\t\t\n\t\t\t\tBTS Pleural Disease Guideline Group\n\t\t\t\n\t\t\n\t\t\n\t\t\tAArnold\n\t\t\t\n\t\t\t\tBTS Pleural Disease Guideline Group\n\t\t\t\n\t\t\n\t\t\n\t\t\tJHarvey\n\t\t\t\n\t\t\t\tBTS Pleural Disease Guideline Group\n\t\t\t\n\t\t\n\t\t10.1136/thx.2010.136986\n\t\n\t\n\t\tThorax\n\t\tThorax\n\t\t0040-6376\n\t\t\n\t\t\t65\n\t\t\tSuppl 2\n\t\t\t\n\t\t\t2010\n\t\t\tBMJ",
+      "Spontaneous Pneumothorax - Management By Tube Thoracostomy and Suction\n\t\t\n\t\t\tMWWolcott\n\t\t\n\t\t\n\t\t\tWAShaver\n\t\t\n\t\t\n\t\t\tWDJennings\n\t\t\n\t\t10.1378/chest.43.1.78\n\t\n\t\n\t\tDiseases of the Chest\n\t\tDiseases of the Chest\n\t\t0096-0217\n\t\t\n\t\t\t43\n\t\t\t1\n\t\t\t\n\t\t\t1963\n\t\t\tElsevier BV",
+      "Systematic review and meta-analysis of tube thoracostomy following traumatic chest injury; suction versus water seal\n\t\t\n\t\t\tTimMichaelFeenstra\n\t\t\t0000-0003-3089-1484\n\t\t\n\t\t\n\t\t\tChrisDickhoff\n\t\t\n\t\t\n\t\t\tJaapDeunk\n\t\t\n\t\t10.1007/s00068-018-0942-7\n\t\n\t\n\t\tEuropean Journal of Trauma and Emergency Surgery\n\t\tEur J Trauma Emerg Surg\n\t\t1863-9933\n\t\t1863-9941\n\t\t\n\t\t\t44\n\t\t\t6\n\t\t\t\n\t\t\t2018\n\t\t\tSpringer Science and Business Media LLC",
+      "Surgical versus non-surgical management for pleural empyema\n\t\t\n\t\t\tMarkDRedden\n\t\t\n\t\t\n\t\t\tTzeYangChin\n\t\t\n\t\t\n\t\t\tMiekeLVan Driel\n\t\t\n\t\t10.1002/14651858.cd010651.pub2\n\t\n\t\n\t\tCochrane Database of Systematic Reviews\n\t\t1465-1858\n\t\t\n\t\t\t2017\n\t\t\t3\n\t\t\t10651\n\t\t\t2017\n\t\t\tWiley",
+      "Lytic Therapy for Retained Traumatic Hemothorax\n\t\t\n\t\t\tBrandonSHendriksen\n\t\t\n\t\t\n\t\t\tMarcosTKuroki\n\t\t\n\t\t\n\t\t\tScottBArmen\n\t\t\n\t\t\n\t\t\tMichaelFReed\n\t\t\n\t\t\n\t\t\tMatthewDTaylor\n\t\t\n\t\t\n\t\t\tChristopherSHollenbeak\n\t\t\n\t\t10.1016/j.chest.2019.01.007\n\t\n\t\n\t\tChest\n\t\tChest\n\t\t0012-3692\n\t\t\n\t\t\t155\n\t\t\t4\n\t\t\t\n\t\t\t2019\n\t\t\tElsevier BV",
+      "Intrapleural Use of Tissue Plasminogen Activator and DNase in Pleural Infection\n\t\t\n\t\t\tNajibMRahman\n\t\t\n\t\t\n\t\t\tNicholasAMaskell\n\t\t\n\t\t\n\t\t\tAlexWest\n\t\t\n\t\t\n\t\t\tRichardTeoh\n\t\t\n\t\t\n\t\t\tAnthonyArnold\n\t\t\n\t\t\n\t\t\tCarolynMackinlay\n\t\t\n\t\t\n\t\t\tDanielPeckham\n\t\t\n\t\t\n\t\t\tChrisW HDavies\n\t\t\n\t\t\n\t\t\tNabeelAli\n\t\t\n\t\t\n\t\t\tWilliamKinnear\n\t\t\n\t\t\n\t\t\tAndrewBentley\n\t\t\n\t\t\n\t\t\tBrennanCKahan\n\t\t\n\t\t\n\t\t\tJohnMWrightson\n\t\t\n\t\t\n\t\t\tHelenEDavies\n\t\t\n\t\t\n\t\t\tClareEHooper\n\t\t\n\t\t\n\t\t\tYC GaryLee\n\t\t\n\t\t\n\t\t\tEmmaLHedley\n\t\t\n\t\t\n\t\t\tNickyCrosthwaite\n\t\t\n\t\t\n\t\t\tLouiseChoo\n\t\t\n\t\t\n\t\t\tEmmaJHelm\n\t\t\n\t\t\n\t\t\tFergusVGleeson\n\t\t\n\t\t\n\t\t\tAndrewJNunn\n\t\t\n\t\t\n\t\t\tRobertJ ODavies\n\t\t\n\t\t10.1056/nejmoa1012740\n\t\n\t\n\t\tNew England Journal of Medicine\n\t\tN Engl J Med\n\t\t0028-4793\n\t\t1533-4406\n\t\t\n\t\t\t365\n\t\t\t6\n\t\t\t\n\t\t\t2011\n\t\t\tMassachusetts Medical Society",
+      "Large-Bore and Small-Bore Chest Tubes\n\t\t\n\t\t\tDavidTCooke\n\t\t\n\t\t\n\t\t\tElizabethADavid\n\t\t\n\t\t10.1016/j.thorsurg.2012.10.006\n\t\n\t\n\t\tThoracic Surgery Clinics\n\t\tThoracic Surgery Clinics\n\t\t1547-4127\n\t\t\n\t\t\t23\n\t\t\t1\n\t\t\t\n\t\t\t2013\n\t\t\tElsevier BV",
+      "Errors and Complications in Chest Tube Placement\n\t\t\n\t\t\tPierLuigiFilosso\n\t\t\n\t\t\n\t\t\tFrancescoGuerrera\n\t\t\n\t\t\n\t\t\tAlbertoSandri\n\t\t\n\t\t\n\t\t\tMatteoRoffinella\n\t\t\n\t\t\n\t\t\tPaoloSolidoro\n\t\t\n\t\t\n\t\t\tEnricoRuffini\n\t\t\n\t\t\n\t\t\tAlbertoOliaro\n\t\t\n\t\t10.1016/j.thorsurg.2016.08.009\n\t\n\t\n\t\tThoracic Surgery Clinics\n\t\tThoracic Surgery Clinics\n\t\t1547-4127\n\t\t\n\t\t\t27\n\t\t\t1\n\t\t\t\n\t\t\t2017\n\t\t\tElsevier BV",
+      "Ultrasound-guided pigtail catheters for drainage of various pleural diseases\n\t\t\n\t\t\tYi-HengLiu\n\t\t\n\t\t\n\t\t\tYu-ChaoLin\n\t\t\n\t\t\n\t\t\tShinn-JyeLiang\n\t\t\n\t\t\n\t\t\tChih-YenTu\n\t\t\n\t\t\n\t\t\tChia-HungChen\n\t\t\n\t\t\n\t\t\tHung-JenChen\n\t\t\n\t\t\n\t\t\tWeiChen\n\t\t\n\t\t\n\t\t\tChuen-MingShih\n\t\t\n\t\t\n\t\t\tWu-HueiHsu,\n\t\t\n\t\t10.1016/j.ajem.2009.04.041\n\t\n\t\n\t\tThe American Journal of Emergency Medicine\n\t\tThe American Journal of Emergency Medicine\n\t\t0735-6757\n\t\t\n\t\t\t28\n\t\t\t8\n\t\t\t\n\t\t\t2010\n\t\t\tElsevier BV",
+      "Study of pigtail catheter and chest tube in management of secondary spontaneous pneumothorax\n\t\t\n\t\t\tRabiehM MHussein\n\t\t\n\t\t\n\t\t\tHananMElshahat\n\t\t\n\t\t\n\t\t\tAmanyShaker\n\t\t\n\t\t\n\t\t\tAhmedZidan AbozeidHashem\n\t\t\n\t\t10.1016/j.ejcdt.2016.08.011\n\t\n\t\n\t\tEgyptian Journal of Chest Diseases and Tuberculosis\n\t\tEgyptian Journal of Chest Diseases and Tuberculosis\n\t\t0422-7638\n\t\t\n\t\t\t66\n\t\t\t1\n\t\t\t\n\t\t\t2017\n\t\t\tOvid Technologies (Wolters Kluwer Health)",
+      "Randomized clinical trial of pigtail catheter <i>versus</i> chest tube in injured patients with uncomplicated traumatic pneumothorax\n\t\t\n\t\t\tNKulvatunyou\n\t\t\n\t\t\n\t\t\tLErickson\n\t\t\n\t\t\n\t\t\tAVijayasekaran\n\t\t\n\t\t\n\t\t\tLGries\n\t\t\n\t\t\n\t\t\tBJoseph\n\t\t\n\t\t\n\t\t\tRFFriese\n\t\t\n\t\t\n\t\t\tTO'keeffe\n\t\t\n\t\t\n\t\t\tALTang\n\t\t\n\t\t\n\t\t\tJLWynne\n\t\t\n\t\t\n\t\t\tPRhee\n\t\t\n\t\t10.1002/bjs.9377\n\t\n\t\n\t\tJournal of British Surgery\n\t\t0007-1323\n\t\t1365-2168\n\t\t\n\t\t\t101\n\t\t\t2\n\t\t\t\n\t\t\t2014\n\t\t\tOxford University Press (OUP)",
+      "Chest Tubes\n\t\t\n\t\t\tFedericoVenuta\n\t\t\n\t\t\n\t\t\tDanieleDiso\n\t\t\n\t\t\n\t\t\tMarcoAnile\n\t\t\n\t\t\n\t\t\tErinoARendina\n\t\t\n\t\t\n\t\t\tIlariaOnorati\n\t\t\n\t\t10.1016/j.thorsurg.2016.08.001\n\t\n\t\n\t\tThoracic Surgery Clinics\n\t\tThoracic Surgery Clinics\n\t\t1547-4127\n\t\t\n\t\t\t27\n\t\t\t1\n\t\t\t\n\t\t\t2017\n\t\t\tElsevier BV",
+      "Thoracic drainage\n\t\t\n\t\t\tEdwardRMunnell\n\t\t\n\t\t10.1016/s0003-4975(97)00082-9\n\t\n\t\n\t\tThe Annals of Thoracic Surgery\n\t\tThe Annals of Thoracic Surgery\n\t\t0003-4975\n\t\t\n\t\t\t63\n\t\t\t5\n\t\t\t\n\t\t\t1997\n\t\t\tElsevier BV",
+      "Tube Thoracostomy: A Structured Review of Case Reports and a Standardized Format for Reporting Complications\n\t\t\n\t\t\tJohnathonMAho\n\t\t\n\t\t\n\t\t\tRaajKRuparel\n\t\t\n\t\t\n\t\t\tPhillipGRowse\n\t\t\n\t\t\n\t\t\tRushinDBrahmbhatt\n\t\t\n\t\t\n\t\t\tDonaldJenkins\n\t\t\n\t\t\n\t\t\tMarielaRivera\n\t\t\n\t\t10.1007/s00268-015-3158-6\n\t\n\t\n\t\tWorld Journal of Surgery\n\t\tWorld j. surg.\n\t\t0364-2313\n\t\t1432-2323\n\t\t\n\t\t\t39\n\t\t\t11\n\t\t\t\n\t\t\t2015\n\t\t\tWiley",
+      "Catheter Replacement of the Needle in Percutaneous Arteriography: A new technique\n\t\t\n\t\t\tSvenISeldinger\n\t\t\n\t\t10.3109/00016925309136722\n\t\n\t\n\t\tActa Radiologica\n\t\tActa Radiologica\n\t\t0001-6926\n\t\t\n\t\t\t39\n\t\t\t5\n\t\t\t\n\t\t\t1953\n\t\t\tInforma UK Limited",
+      "Is the trocar technique for tube thoracostomy safe in the current era?: Table 1:\n\t\t\n\t\t\tMohanJohn\n\t\t\n\t\t\n\t\t\tSyedRazi\n\t\t\n\t\t\n\t\t\tSandeepSainathan\n\t\t\n\t\t\n\t\t\tChristosStavropoulos\n\t\t\n\t\t10.1093/icvts/ivu071\n\t\n\t\n\t\tInteractive CardioVascular and Thoracic Surgery\n\t\tInteract CardioVasc Thorac Surg\n\t\t1569-9293\n\t\t1569-9285\n\t\t\n\t\t\t19\n\t\t\t1\n\t\t\t\n\t\t\t2014\n\t\t\tOxford University Press (OUP)",
+      "Thoracentesis in Empyema\n\t\t\n\t\t\tWSPlayfair\n\t\t\n\t\t10.1136/bmj.1.593.498-a\n\t\n\t\n\t\tBMJ\n\t\tBMJ\n\t\t0959-8138\n\t\t1468-5833\n\t\t\n\t\t\t1\n\t\t\t593\n\t\t\t\n\t\t\t1872\n\t\t\tBMJ",
+      "THORACIC SURGERY. THE SURGICAL TREATMENT OF THORACIC DISEASE\n\t\t\n\t\t\tHowardThoracicLilienthal\n\t\t\n\t\t\n\t\t\tSurgery\n\t\t\n\t\t10.1097/00007611-192603000-00025\n\t\n\t\n\t\tSouthern Medical Journal\n\t\tSouthern Medical Journal\n\t\t0038-4348\n\t\t\n\t\t\t19\n\t\t\t3\n\t\t\t236\n\t\t\t1926\n\t\t\tSouthern Medical Association",
+      "Chest Tube Drainage Devices\n\t\t\n\t\t\tJenniferWToth\n\t\t\n\t\t\n\t\t\tMichaelFReed\n\t\t\n\t\t\n\t\t\tLaurenKVentola\n\t\t\n\t\t10.1055/s-0039-1694769\n\t\n\t\n\t\tSeminars in Respiratory and Critical Care Medicine\n\t\tSemin Respir Crit Care Med\n\t\t1069-3424\n\t\t1098-9048\n\t\t\n\t\t\t40\n\t\t\t03\n\t\t\t\n\t\t\t2019\n\t\t\tGeorg Thieme Verlag KG",
+      "Prospective randomized trial compares suction versus water seal for air leaks\n\t\t\n\t\t\tRobertJCerfolio\n\t\t\n\t\t\n\t\t\tCyndiBass\n\t\t\n\t\t\n\t\t\tCharlesRKatholi\n\t\t\n\t\t10.1016/s0003-4975(01)02474-2\n\t\n\t\n\t\tThe Annals of Thoracic Surgery\n\t\tThe Annals of Thoracic Surgery\n\t\t0003-4975\n\t\t\n\t\t\t71\n\t\t\t5\n\t\t\t\n\t\t\t2001\n\t\t\tElsevier BV",
+      "Suction vs Water Seal After Pulmonary Resection\n\t\t\n\t\t\tMBlairMarshall\n\t\t\n\t\t\n\t\t\tMaherEDeeb\n\t\t\n\t\t\n\t\t\tJoshuaI SBleier\n\t\t\n\t\t\n\t\t\tJohnCKucharczuk\n\t\t\n\t\t\n\t\t\tJosephSFriedberg\n\t\t\n\t\t\n\t\t\tLarryRKaiser\n\t\t\n\t\t\n\t\t\tJosephBShrager\n\t\t\n\t\t10.1378/chest.121.3.831\n\t\n\t\n\t\tChest\n\t\tChest\n\t\t0012-3692\n\t\t\n\t\t\t121\n\t\t\t3\n\t\t\t\n\t\t\t2002\n\t\t\tElsevier BV",
+      "Comparison of water seal and suction after pulmonary lobectomy: a prospective, randomized trial\n\t\t\n\t\t\tAlessandroBrunelli\n\t\t\n\t\t\n\t\t\tMarcoMonteverde\n\t\t\n\t\t\n\t\t\tAlessandroBorri\n\t\t\n\t\t\n\t\t\tMicheleSalati\n\t\t\n\t\t\n\t\t\tRitaDMarasco\n\t\t\n\t\t\n\t\t\tMajedAl Refai\n\t\t\n\t\t\n\t\t\tAroldoFianchini\n\t\t\n\t\t10.1016/j.athoracsur.2003.12.022\n\t\n\t\n\t\tThe Annals of Thoracic Surgery\n\t\tThe Annals of Thoracic Surgery\n\t\t0003-4975\n\t\t\n\t\t\t77\n\t\t\t6\n\t\t\t\n\t\t\t2004\n\t\t\tElsevier BV",
+      "Management of chest tubes after pulmonary resection: a systematic review and meta-analysis\n\t\t\n\t\t\tShaunMCoughlin\n\t\t\n\t\t\n\t\t\tHeatherM AEmmerton-Coughlin\n\t\t\n\t\t\n\t\t\tRichardMalthaner\n\t\t\n\t\t10.1503/cjs.001411\n\t\n\t\n\t\tCanadian Journal of Surgery\n\t\tcjs\n\t\t0008-428X\n\t\t1488-2310\n\t\t\n\t\t\t55\n\t\t\t4\n\t\t\t\n\t\t\t2012\n\t\t\tCMA Impact Inc.",
+      "TUBE THORACOSTOMY FOR OCCULT PNEUMOTHORAX\n\t\t\n\t\t\tBlaineLEnderson\n\t\t\n\t\t\n\t\t\tRicardoAbdalla\n\t\t\n\t\t\n\t\t\tScottBFrame\n\t\t\n\t\t\n\t\t\tMichaelTCasey\n\t\t\n\t\t\n\t\t\tHowardGould\n\t\t\n\t\t\n\t\t\tKimballIMaull\n\t\t\n\t\t10.1097/00005373-199311000-00013\n\t\n\t\n\t\tThe Journal of Trauma: Injury, Infection, and Critical Care\n\t\tThe Journal of Trauma: Injury, Infection, and Critical Care\n\t\t0022-5282\n\t\t\n\t\t\t35\n\t\t\t5\n\t\t\t\n\t\t\t1993\n\t\t\tOvid Technologies (Wolters Kluwer Health)",
+      "When to Remove a Chest Tube\n\t\t\n\t\t\tNuriaMNovoa\n\t\t\n\t\t\n\t\t\tMarceloFJiménez\n\t\t\n\t\t\n\t\t\tGonzaloVarela\n\t\t\n\t\t10.1016/j.thorsurg.2016.08.007\n\t\n\t\n\t\tThoracic Surgery Clinics\n\t\tThoracic Surgery Clinics\n\t\t1547-4127\n\t\t\n\t\t\t27\n\t\t\t1\n\t\t\t\n\t\t\t2017\n\t\t\tElsevier BV",
+      "Results of a prospective algorithm to remove chest tubes after pulmonary resection with high output\n\t\t\n\t\t\tRobertJamesCerfolio\n\t\t\n\t\t\n\t\t\tAyeshaSBryant\n\t\t\n\t\t10.1016/j.jtcvs.2007.08.066\n\t\n\t\n\t\tThe Journal of Thoracic and Cardiovascular Surgery\n\t\tThe Journal of Thoracic and Cardiovascular Surgery\n\t\t0022-5223\n\t\t\n\t\t\t135\n\t\t\t2\n\t\t\t\n\t\t\t2008\n\t\t\tElsevier BV",
+      "When to Remove a Chest Tube?\n\t\t\n\t\t\tRiadNYounes\n\t\t\n\t\t\n\t\t\tJeffersonLGross\n\t\t\n\t\t\n\t\t\tSamuelAguiar\n\t\t\n\t\t\n\t\t\tFabioJHaddad\n\t\t\n\t\t\n\t\t\tDanielDeheinzelin\n\t\t\n\t\t10.1016/s1072-7515(02)01332-7\n\t\n\t\n\t\tJournal of the American College of Surgeons\n\t\t1072-7515\n\t\t\n\t\t\t195\n\t\t\t5\n\t\t\t\n\t\t\t2002\n\t\t\tOvid Technologies (Wolters Kluwer Health)",
+      "Prospective algorithm to remove chest tubes after pulmonary resection with high output – is it valid everywhere?\n\t\t\n\t\t\tTomaszGrodzki\n\t\t\n\t\t10.1016/j.jtcvs.2008.04.017\n\t\n\t\n\t\tThe Journal of Thoracic and Cardiovascular Surgery\n\t\tThe Journal of Thoracic and Cardiovascular Surgery\n\t\t0022-5223\n\t\t\n\t\t\t136\n\t\t\t2\n\t\t\t536\n\t\t\t2008\n\t\t\tElsevier BV",
+      "Technology and evidence-based care enhance postoperative management of chest drains\n\t\t\n\t\t\tDanielGFrench\n\t\t\n\t\t\n\t\t\tSebastienGilbert\n\t\t\n\t\t10.21037/jtd.2018.11.99\n\t\n\t\n\t\tJournal of Thoracic Disease\n\t\tJ. Thorac. Dis\n\t\t2072-1439\n\t\t2077-6624\n\t\t\n\t\t\t10\n\t\t\t12\n\t\t\t\n\t\t\t2016\n\t\t\tAME Publishing Company",
+      "Beyond the tube: Can we reduce chest tube complications in trauma patients?\n\t\t\n\t\t\tCarsonPlatnick\n\t\t\t0000-0003-2355-3938\n\t\t\n\t\t\n\t\t\tCordelieEWitt\n\t\t\t0000-0001-6643-4483\n\t\t\n\t\t\n\t\t\tFredricMPieracci\n\t\t\n\t\t\n\t\t\tCaitlinKRobinson\n\t\t\t0000-0001-8123-2118\n\t\t\n\t\t\n\t\t\tRyanLawless\n\t\t\n\t\t\n\t\t\tClayCothrenBurlew\n\t\t\n\t\t\n\t\t\tErnestEMoore\n\t\t\t0000-0002-0419-4848\n\t\t\n\t\t\n\t\t\tMitchellCohen\n\t\t\n\t\t\n\t\t\tKBarryPlatnick\n\t\t\n\t\t10.1016/j.amjsurg.2021.04.008\n\t\n\t\n\t\tThe American Journal of Surgery\n\t\tThe American Journal of Surgery\n\t\t0002-9610\n\t\t\n\t\t\t222\n\t\t\t5\n\t\t\t\n\t\t\t2021\n\t\t\tElsevier BV",
+      "Tube thoracostomy during the COVID-19 pandemic: guidance and recommendations from the AAST Acute Care Surgery and Critical Care Committees\n\t\t\n\t\t\tFredricMPieracci\n\t\t\n\t\t\n\t\t\tClayCothrenBurlew\n\t\t\n\t\t\n\t\t\tDavidSpain\n\t\t\n\t\t\n\t\t\tDavidHLivingston\n\t\t\n\t\t\n\t\t\tEileenMBulger\n\t\t\n\t\t\n\t\t\tKimberlyADavis\n\t\t\t0000-0001-5660-5293\n\t\t\n\t\t\n\t\t\tChristopherMichetti\n\t\t\t0000-0002-3744-0603\n\t\t\n\t\t10.1136/tsaco-2020-000498\n\t\n\t\n\t\tTrauma Surgery & Acute Care Open\n\t\tTrauma Surg Acute Care Open\n\t\t2397-5776\n\t\t\n\t\t\t5\n\t\t\t1\n\t\t\te000498\n\t\t\t2020\n\t\t\tBMJ",
+      "Complications in tube thoracostomy: Systematic review and meta-analysis\n\t\t\n\t\t\tMatthewCHernandez\n\t\t\n\t\t\n\t\t\tMoustafahEl Khatib\n\t\t\n\t\t\n\t\t\tLarryProkop\n\t\t\n\t\t\n\t\t\tMartinDZielinski\n\t\t\n\t\t\n\t\t\tJohnathonMAho\n\t\t\n\t\t10.1097/ta.0000000000001840\n\t\n\t\n\t\tJournal of Trauma and Acute Care Surgery\n\t\tJ Trauma Acute Care Surg\n\t\t2163-0755\n\t\t2163-0763\n\t\t\n\t\t\t85\n\t\t\t2\n\t\t\t\n\t\t\t2018\n\t\t\tOvid Technologies (Wolters Kluwer Health)",
+      "Chest Tube Drainage in the Age of COVID-19\n\t\t\n\t\t\tAndrewPDhanasopon\n\t\t\n\t\t\n\t\t\tHollyZurich\n\t\t\n\t\t\n\t\t\tAngelaPreda\n\t\t\n\t\t10.1016/j.cpha.2020.11.011\n\t\n\t\n\t\tPhysician Assistant Clinics\n\t\tPhysician Assistant Clinics\n\t\t2405-7991\n\t\t\n\t\t\t6\n\t\t\t2\n\t\t\t\n\t\t\t2021\n\t\t\tElsevier BV",
+      "Protective measures undertaken during chest tube thoracostomy in COVID-19 outbreak\n\t\t\n\t\t\tİsmailErtuğrulGedik\n\t\t\t0000-0002-1667-4793\n\t\t\n\t\t\n\t\t\tTimuçinAlar\n\t\t\n\t\t10.1007/s12055-020-01090-0\n\t\n\t\n\t\tIndian Journal of Thoracic and Cardiovascular Surgery\n\t\tIndian J Thorac Cardiovasc Surg\n\t\t0970-9134\n\t\t0973-7723\n\t\t\n\t\t\t37\n\t\t\t2\n\t\t\t\n\t\t\t2020\n\t\t\tSpringer Science and Business Media LLC",
+      "Ambulatory management of primary spontaneous pneumothorax: an open-label, randomised controlled trial\n\t\t\n\t\t\tRobJHallifax\n\t\t\n\t\t\n\t\t\tEdwardMckeown\n\t\t\n\t\t\n\t\t\tParthipanSivakumar\n\t\t\n\t\t\n\t\t\tIanFairbairn\n\t\t\n\t\t\n\t\t\tChristyPeter\n\t\t\n\t\t\n\t\t\tAndrewLeitch\n\t\t\n\t\t\n\t\t\tMatthewKnight\n\t\t\n\t\t\n\t\t\tAndrewStanton\n\t\t\n\t\t\n\t\t\tAsimIjaz\n\t\t\n\t\t\n\t\t\tStefanMarciniak\n\t\t\n\t\t\n\t\t\tJamesCameron\n\t\t\n\t\t\n\t\t\tAmrithrajBhatta\n\t\t\n\t\t\n\t\t\tKevinGBlyth\n\t\t\n\t\t\n\t\t\tRajaReddy\n\t\t\n\t\t\n\t\t\tMarie-ClareHarris\n\t\t\n\t\t\n\t\t\tNadeemMaddekar\n\t\t\n\t\t\n\t\t\tStevenWalker\n\t\t\n\t\t\n\t\t\tAlexWest\n\t\t\n\t\t\n\t\t\tMagdaLaskawiec-Szkonter\n\t\t\n\t\t\n\t\t\tJohnPCorcoran\n\t\t\n\t\t\n\t\t\tStephenGerry\n\t\t\n\t\t\n\t\t\tCorranRoberts\n\t\t\n\t\t\n\t\t\tJohnEHarvey\n\t\t\n\t\t\n\t\t\tNickMaskell\n\t\t\n\t\t\n\t\t\tRobertFMiller\n\t\t\n\t\t\n\t\t\tNajibMRahman\n\t\t\n\t\t10.1016/s0140-6736(20)31043-6\n\t\n\t\n\t\tThe Lancet\n\t\tThe Lancet\n\t\t0140-6736\n\t\t\n\t\t\t396\n\t\t\t10243\n\t\t\t\n\t\t\t2020\n\t\t\tElsevier BV",
+      "Conservative versus Interventional Treatment for Spontaneous Pneumothorax\n\t\t\n\t\t\tSimonG ABrown\n\t\t\t0000-0002-9961-0890\n\t\t\n\t\t\n\t\t\tEmmaLBall\n\t\t\n\t\t\n\t\t\tKylePerrin\n\t\t\n\t\t\n\t\t\tStephenEAsha\n\t\t\n\t\t\n\t\t\tIreneBraithwaite\n\t\t\t0000-0001-5327-3027\n\t\t\n\t\t\n\t\t\tDianaEgerton-Warburton\n\t\t\n\t\t\n\t\t\tPeterGJones\n\t\t\n\t\t\n\t\t\tGerbenKeijzers\n\t\t\n\t\t\n\t\t\tFrancesBKinnear\n\t\t\n\t\t\n\t\t\tBenC HKwan\n\t\t\n\t\t\n\t\t\tKVLam\n\t\t\n\t\t\n\t\t\tYC GaryLee\n\t\t\n\t\t\n\t\t\tMikeNowitz\n\t\t\n\t\t\n\t\t\tCatherineARead\n\t\t\n\t\t\n\t\t\tGrahamSimpson\n\t\t\n\t\t\n\t\t\tJulianASmith\n\t\t\n\t\t\n\t\t\tQuentinASummers\n\t\t\n\t\t\n\t\t\tMarkWeatherall\n\t\t\n\t\t\n\t\t\tRichardBeasley\n\t\t\t0000-0003-0337-406X\n\t\t\n\t\t10.1056/nejmoa1910775\n\t\n\t\n\t\tNew England Journal of Medicine\n\t\tN Engl J Med\n\t\t0028-4793\n\t\t1533-4406\n\t\t\n\t\t\t382\n\t\t\t5\n\t\t\t\n\t\t\t2020\n\t\t\tMassachusetts Medical Society",
+      "Randomized Trial of an Improved Drainage Strategy Versus Routine Chest Tube After Lung Wedge Resection\n\t\t\n\t\t\tJia-TaoZhang\n\t\t\n\t\t\n\t\t\tSongDong\n\t\t\n\t\t\n\t\t\tXiang-PengChu\n\t\t\n\t\t\n\t\t\tShao-MinLin\n\t\t\n\t\t\n\t\t\tRun-YingYu\n\t\t\n\t\t\n\t\t\tBen-YuanJiang\n\t\t\n\t\t\n\t\t\tRi-QiangLiao\n\t\t\n\t\t\n\t\t\tQiangNie\n\t\t\n\t\t\n\t\t\tHong-HongYan\n\t\t\n\t\t\n\t\t\tXue-NingYang\n\t\t\n\t\t\n\t\t\tYi-LongWu\n\t\t\n\t\t\n\t\t\tWen-ZhaoZhong\n\t\t\n\t\t10.1016/j.athoracsur.2019.11.029\n\t\n\t\n\t\tThe Annals of Thoracic Surgery\n\t\tThe Annals of Thoracic Surgery\n\t\t0003-4975\n\t\t\n\t\t\t109\n\t\t\t4\n\t\t\t\n\t\t\t2020\n\t\t\tElsevier BV"
+    ],
+    "references_raw": [
+      "The Genuine Works of Hippocrates\n\t\t\n\t\t\tHippocrates",
+      "Sydenham Society\n\t\t\n\t\t\tFAdams\n\t\t\n\t\t\n\t\t\t1849",
+      "Treatment of empyema by a valvular tube hermetically sealed to the chest\n\t\t\n\t\t\tWWilliams\n\t\t\n\t\t10.1136/bmj.1.1481.1107\n\t\n\t\n\t\tBr Med J\n\t\t\n\t\t\t1\n\t\t\t1481\n\t\t\t\n\t\t\t1889",
+      "Resection of the lung for suppurative infections with a report based on 31 operative cases in which resection was done or Chest Tube Management Review Clinical Review & Education jamasurgery.com\n\t\t\n\t\t\tHLilienthal\n\t\t\n\t\t10.1097/00000658-192203000-00001\n\t\n\t\n\t\tJAMA Surgery\n\t\t\n\t\t\t157\n\t\t\t3\n\t\t\t\n\t\t\tMarch 2022. 1922\n\t\t\n\t\n\tReprinted Ann Surg",
+      "Tube thoracostomy: the struggle to the \"standard of care\n\t\t\n\t\t\tSFMonaghan\n\t\t\n\t\t\n\t\t\tKGSwan\n\t\t\n\t\t10.1016/j.athoracsur.2008.08.006\n\t\n\t\n\t\tAnn Thorac Surg\n\t\t\n\t\t\t86\n\t\t\t6\n\t\t\t\n\t\t\t2008",
+      "A systematic review and meta-analysis comparing pigtail catheter and chest tube as the initial treatment for pneumothorax\n\t\t\n\t\t\tS-HChang\n\t\t\n\t\t\n\t\t\tY-NKang\n\t\t\n\t\t\n\t\t\tH-YChiu\n\t\t\n\t\t\n\t\t\tY-HChiu\n\t\t\n\t\t10.1016/j.chest.2018.01.048\n\t\n\t\n\t\tChest\n\t\t\n\t\t\t153\n\t\t\t5\n\t\t\t\n\t\t\t2018",
+      "Open pneumothorax: its relation to the treatment of empyema\n\t\t\n\t\t\tEAGraham\n\t\t\n\t\t\n\t\t\tRDBell\n\t\t\n\t\t10.1097/00000441-191812000-00007\n\t\n\t\n\t\tAm J Med Sci\n\t\t\n\t\t\t156\n\t\t\t6\n\t\t\t\n\t\t\t1918",
+      "Management of spontaneous pneumothorax: British Thoracic Society pleural disease guideline 2010\n\t\t\n\t\t\tAMacduff\n\t\t\t\n\t\t\t\tBTS Pleural Disease Guideline Group\n\t\t\t\n\t\t\n\t\t\n\t\t\tAArnold\n\t\t\t\n\t\t\t\tBTS Pleural Disease Guideline Group\n\t\t\t\n\t\t\n\t\t\n\t\t\tJHarvey\n\t\t\t\n\t\t\t\tBTS Pleural Disease Guideline Group\n\t\t\t\n\t\t\n\t\t10.1136/thx.2010.136986\n\t\n\t\n\t\tThorax\n\t\t\n\t\t\t65\n\t\t\tsuppl 2\n\t\t\t\n\t\t\t2010",
+      "Spontaneous pneumothorax. Management by tube thoracostomy and suction\n\t\t\n\t\t\tMWWolcott\n\t\t\n\t\t\n\t\t\tWAShaver\n\t\t\n\t\t\n\t\t\tWDJennings\n\t\t\n\t\t10.1378/chest.43.1.78\n\t\n\t\n\t\tDis Chest\n\t\t\n\t\t\t43\n\t\t\t1\n\t\t\t\n\t\t\t1963",
+      "Systematic review and meta-analysis of tube thoracostomy following traumatic chest injury; suction versus water seal\n\t\t\n\t\t\tTMFeenstra\n\t\t\n\t\t\n\t\t\tCDickhoff\n\t\t\n\t\t\n\t\t\tJDeunk\n\t\t\n\t\t10.1007/s00068-018-0942-7\n\t\n\t\n\t\tEur J Trauma Emerg Surg\n\t\t\n\t\t\t44\n\t\t\t6\n\t\t\t\n\t\t\t2018",
+      "Surgical versus non-surgical management for pleural empyema\n\t\t\n\t\t\tMDRedden\n\t\t\n\t\t\n\t\t\tTYChin\n\t\t\n\t\t\n\t\t\tMLVan Driel\n\t\t\n\t\t10.1002/14651858.CD010651.pub2\n\t\n\t\n\t\tCochrane Database Syst Rev\n\t\t\n\t\t\t3\n\t\t\t3\n\t\t\t10651\n\t\t\t2017",
+      "Lytic therapy for retained traumatic hemothorax: a systematic review and meta-analysis\n\t\t\n\t\t\tBSHendriksen\n\t\t\n\t\t\n\t\t\tMTKuroki\n\t\t\n\t\t\n\t\t\tSBArmen\n\t\t\n\t\t\n\t\t\tMFReed\n\t\t\n\t\t\n\t\t\tMDTaylor\n\t\t\n\t\t\n\t\t\tCSHollenbeak\n\t\t\n\t\t10.1016/j.chest.2019.01.007\n\t\n\t\n\t\tChest\n\t\t\n\t\t\t155\n\t\t\t4\n\t\t\t\n\t\t\t2019",
+      "Intrapleural use of tissue plasminogen activator and DNase in pleural infection\n\t\t\n\t\t\tNMRahman\n\t\t\n\t\t\n\t\t\tNAMaskell\n\t\t\n\t\t\n\t\t\tAWest\n\t\t\n\t\t10.1056/NEJMoa1012740\n\t\n\t\n\t\tN Engl J Med\n\t\t\n\t\t\t365\n\t\t\t6\n\t\t\t\n\t\t\t2011",
+      "Large-bore and small-bore chest tubes: types, function, and placement\n\t\t\n\t\t\tDTCooke\n\t\t\n\t\t\n\t\t\tEADavid\n\t\t\n\t\t10.1016/j.thorsurg.2012.10.006\n\t\n\t\n\t\tThorac Surg Clin\n\t\t\n\t\t\t23\n\t\t\t1\n\t\t\t\n\t\t\t2013",
+      "Errors and complications in chest tube placement\n\t\t\n\t\t\tPLFilosso\n\t\t\n\t\t\n\t\t\tFGuerrera\n\t\t\n\t\t\n\t\t\tASandri\n\t\t\n\t\t10.1016/j.thorsurg.2016.08.009\n\t\n\t\n\t\tThorac Surg Clin\n\t\t\n\t\t\t27\n\t\t\t1\n\t\t\t\n\t\t\t2017",
+      "Ultrasound-guided pigtail catheters for drainage of various pleural diseases\n\t\t\n\t\t\tY-HLiu\n\t\t\n\t\t\n\t\t\tY-CLin\n\t\t\n\t\t\n\t\t\tS-JLiang\n\t\t\n\t\t10.1016/j.ajem.2009.04.041\n\t\n\t\n\t\tAm J Emerg Med\n\t\t\n\t\t\t28\n\t\t\t8\n\t\t\t\n\t\t\t2010",
+      "Study of pigtail catheter and chest tube in management of secondary spontaneous pneumothorax\n\t\t\n\t\t\tRmmHussein\n\t\t\n\t\t\n\t\t\tHMElshahat\n\t\t\n\t\t\n\t\t\tAShaker\n\t\t\n\t\t\n\t\t\tAzaHashem\n\t\t\n\t\t10.1016/j.ejcdt.2016.08.011\n\t\n\t\n\t\tEgypt J Chest Dis Tuberc\n\t\t\n\t\t\t66\n\t\t\t1\n\t\t\t\n\t\t\t2017",
+      "Randomized clinical trial of pigtail catheter versus chest tube in injured patients with uncomplicated traumatic pneumothorax\n\t\t\n\t\t\tNKulvatunyou\n\t\t\n\t\t\n\t\t\tLErickson\n\t\t\n\t\t\n\t\t\tAVijayasekaran\n\t\t\n\t\t10.1002/bjs.9377\n\t\n\t\n\t\tBr J Surg\n\t\t\n\t\t\t101\n\t\t\t2\n\t\t\t\n\t\t\t2014",
+      "Chest tubes: generalities\n\t\t\n\t\t\tFVenuta\n\t\t\n\t\t\n\t\t\tDDiso\n\t\t\n\t\t\n\t\t\tMAnile\n\t\t\n\t\t\n\t\t\tEARendina\n\t\t\n\t\t\n\t\t\tIOnorati\n\t\t\n\t\t10.1016/j.thorsurg.2016.08.001\n\t\n\t\n\t\tThorac Surg Clin\n\t\t\n\t\t\t27\n\t\t\t1\n\t\t\t\n\t\t\t2017",
+      "Thoracic drainage\n\t\t\n\t\t\tERMunnell\n\t\t\n\t\t10.1016/S0003-4975(97)00082-9\n\t\n\t\n\t\tAnn Thorac Surg\n\t\t\n\t\t\t63\n\t\t\t5\n\t\t\t\n\t\t\t1997",
+      "Tube thoracostomy: a structured review of case reports and a standardized format for reporting complications\n\t\t\n\t\t\tJMAho\n\t\t\n\t\t\n\t\t\tRKRuparel\n\t\t\n\t\t\n\t\t\tPGRowse\n\t\t\n\t\t\n\t\t\tRDBrahmbhatt\n\t\t\n\t\t\n\t\t\tDJenkins\n\t\t\n\t\t\n\t\t\tMRivera\n\t\t\n\t\t10.1007/s00268-015-3158-6\n\t\n\t\n\t\tWorld J Surg\n\t\t\n\t\t\t39\n\t\t\t11\n\t\t\t\n\t\t\t2015",
+      "Catheter replacement of the needle in percutaneous arteriography; a new technique\n\t\t\n\t\t\tSISeldinger\n\t\t\n\t\t10.3109/00016925309136722\n\t\n\t\n\t\tActa radiol\n\t\t\n\t\t\t39\n\t\t\t5\n\t\t\t\n\t\t\t1953",
+      "Is the trocar technique for tube thoracostomy safe in the current era?\n\t\t\n\t\t\tMJohn\n\t\t\n\t\t\n\t\t\tSRazi\n\t\t\n\t\t\n\t\t\tSSainathan\n\t\t\n\t\t\n\t\t\tCStavropoulos\n\t\t\n\t\t10.1093/icvts/ivu071\n\t\n\t\n\t\tInteract Cardiovasc Thorac Surg\n\t\t\n\t\t\t19\n\t\t\t1\n\t\t\t\n\t\t\t2014",
+      "Thoracentesis in empyema\n\t\t\n\t\t\tWSPlayfair\n\t\t\n\t\t10.1136/bmj.1.593.498-a\n\t\n\t\n\t\tBr Med J\n\t\t\n\t\t\t1\n\t\t\t593\n\t\t\t\n\t\t\t1872",
+      "HThoracicLilienthal\n\t\t\n\t\t\n\t\t\tSurgery\n\t\t\n\t\t\n\t\t\t1926\n\t\t\tSaunders",
+      "Chest tube drainage devices\n\t\t\n\t\t\tJWToth\n\t\t\n\t\t\n\t\t\tMFReed\n\t\t\n\t\t\n\t\t\tLKVentola\n\t\t\n\t\t10.1055/s-0039-1694769\n\t\n\t\n\t\tSemin Respir Crit Care Med\n\t\t\n\t\t\t40\n\t\t\t3\n\t\t\t\n\t\t\t2019",
+      "Prospective randomized trial compares suction versus water seal for air leaks\n\t\t\n\t\t\tRJCerfolio\n\t\t\n\t\t\n\t\t\tCBass\n\t\t\n\t\t\n\t\t\tCRKatholi\n\t\t\n\t\t10.1016/S0003-4975(01)02474-2\n\t\n\t\n\t\tAnn Thorac Surg\n\t\t\n\t\t\t71\n\t\t\t5\n\t\t\t\n\t\t\t2001",
+      "Suction vs water seal after pulmonary resection: a randomized prospective study\n\t\t\n\t\t\tMBMarshall\n\t\t\n\t\t\n\t\t\tMEDeeb\n\t\t\n\t\t\n\t\t\tJisBleier\n\t\t\n\t\t10.1378/chest.121.3.831\n\t\n\t\n\t\tChest\n\t\t\n\t\t\t121\n\t\t\t3\n\t\t\t\n\t\t\t2002",
+      "Comparison of water seal and suction after pulmonary lobectomy: a prospective, randomized trial\n\t\t\n\t\t\tABrunelli\n\t\t\n\t\t\n\t\t\tMMonteverde\n\t\t\n\t\t\n\t\t\tABorri\n\t\t\n\t\t10.1016/j.athoracsur.2003.12.022\n\t\n\t\n\t\tAnn Thorac Surg\n\t\t\n\t\t\t77\n\t\t\t6\n\t\t\t\n\t\t\t2004",
+      "Management of chest tubes after pulmonary resection: a systematic review and meta-analysis\n\t\t\n\t\t\tSMCoughlin\n\t\t\n\t\t\n\t\t\tHMEmmerton-Coughlin\n\t\t\n\t\t\n\t\t\tRMalthaner\n\t\t\n\t\t10.1503/cjs.001411\n\t\n\t\n\t\tCan J Surg\n\t\t\n\t\t\t55\n\t\t\t4\n\t\t\t\n\t\t\t2012",
+      "Tube thoracostomy for occult pneumothorax: a prospective randomized study of its use\n\t\t\n\t\t\tBLEnderson\n\t\t\n\t\t\n\t\t\tRAbdalla\n\t\t\n\t\t\n\t\t\tSBFrame\n\t\t\n\t\t\n\t\t\tMTCasey\n\t\t\n\t\t\n\t\t\tHGould\n\t\t\n\t\t\n\t\t\tKIMaull\n\t\t\n\t\t10.1097/00005373-199311000-00013\n\t\n\t\n\t\tJ Trauma\n\t\t\n\t\t\t35\n\t\t\t5\n\t\t\t\n\t\t\t1993",
+      "When to remove a chest tube\n\t\t\n\t\t\tNMNovoa\n\t\t\n\t\t\n\t\t\tMFJiménez\n\t\t\n\t\t\n\t\t\tGVarela\n\t\t\n\t\t10.1016/j.thorsurg.2016.08.007\n\t\n\t\n\t\tThorac Surg Clin\n\t\t\n\t\t\t27\n\t\t\t1\n\t\t\t\n\t\t\t2017",
+      "Results of a prospective algorithm to remove chest tubes after pulmonary resection with high output\n\t\t\n\t\t\tRJCerfolio\n\t\t\n\t\t\n\t\t\tASBryant\n\t\t\n\t\t10.1016/j.jtcvs.2007.08.066\n\t\n\t\n\t\tJ Thorac Cardiovasc Surg\n\t\t\n\t\t\t135\n\t\t\t2\n\t\t\t\n\t\t\t2008",
+      "When to remove a chest tube? a randomized study with subsequent prospective consecutive validation\n\t\t\n\t\t\tRNYounes\n\t\t\n\t\t\n\t\t\tJLGross\n\t\t\n\t\t\n\t\t\tSAguiar\n\t\t\n\t\t\n\t\t\tFJHaddad\n\t\t\n\t\t\n\t\t\tDDeheinzelin\n\t\t\n\t\t10.1016/S1072-7515(02)01332-7\n\t\n\t\n\t\tJ Am Coll Surg\n\t\t\n\t\t\t195\n\t\t\t5\n\t\t\t\n\t\t\t2002",
+      "Prospective algorithm to remove chest tubes after pulmonary resection with high output-is it valid everywhere?\n\t\t\n\t\t\tTGrodzki\n\t\t\n\t\t10.1016/j.jtcvs.2008.04.017\n\t\n\t\n\t\tJ Thorac Cardiovasc Surg\n\t\t\n\t\t\t136\n\t\t\t2\n\t\t\t536\n\t\t\t2008",
+      "Optimizing postoperative care protocols in thoracic surgery: best evidence and new technology\n\t\t\n\t\t\tDGFrench\n\t\t\n\t\t\n\t\t\tMDilena\n\t\t\n\t\t\n\t\t\tSLaplante\n\t\t\n\t\n\t\n\t\tJ Thorac Dis\n\t\t\n\t\t\t8\n\t\t\tsuppl 1\n\t\t\t\n\t\t\t2016",
+      "Beyond the tube: can we reduce chest tube complications in trauma patients?\n\t\t\n\t\t\tCPlatnick\n\t\t\n\t\t\n\t\t\tCEWitt\n\t\t\n\t\t\n\t\t\tFMPieracci\n\t\t\n\t\t10.1016/j.amjsurg.2021.04.008\n\t\n\t\n\t\tAm J Surg. Am J Surg\n\t\t\n\t\t\t222\n\t\t\t5\n\t\t\t\n\t\t\t2021",
+      "Tube thoracostomy during the COVID-19 pandemic: guidance and recommendations from the AAST Acute Care Surgery and Critical Care Committees\n\t\t\n\t\t\tFMPieracci\n\t\t\n\t\t\n\t\t\tCCBurlew\n\t\t\n\t\t\n\t\t\tDSpain\n\t\t\n\t\t10.1136/tsaco-2020-000498\n\t\n\t\n\t\tTrauma Surg Acute Care Open\n\t\t\n\t\t\t5\n\t\t\t1\n\t\t\t498\n\t\t\t2020",
+      "Complications in tube thoracostomy: systematic review and meta-analysis\n\t\t\n\t\t\tMCHernandez\n\t\t\n\t\t\n\t\t\tElKhatib\n\t\t\n\t\t\n\t\t\tMProkop\n\t\t\n\t\t\n\t\t\tLZielinski\n\t\t\n\t\t\n\t\t\tMDAho\n\t\t\n\t\t\n\t\t\tJM\n\t\t\n\t\t10.1097/TA.0000000000001840\n\t\n\t\n\t\tJ Trauma Acute Care Surg\n\t\t\n\t\t\t85\n\t\t\t2\n\t\t\t\n\t\t\t2018",
+      "Chest tube drainage in the age of COVID-19\n\t\t\n\t\t\tAPDhanasopon\n\t\t\n\t\t\n\t\t\tHZurich\n\t\t\n\t\t\n\t\t\tAPreda\n\t\t\n\t\t10.1016/j.cpha.2020.11.011\n\t\n\t\n\t\tPhysician Assist Clin\n\t\t\n\t\t\t6\n\t\t\t2\n\t\t\t\n\t\t\t2021",
+      "Protective measures undertaken during chest tube thoracostomy in COVID-19 outbreak\n\t\t\n\t\t\tİEGedik\n\t\t\n\t\t\n\t\t\tTAlar\n\t\t\n\t\n\t\n\t\tIndian J Thorac Cardiovasc Surg\n\t\t\n\t\t\t37\n\t\t\t2\n\t\t\t\n\t\t\t2020",
+      "Ambulatory management of primary spontaneous pneumothorax: an open-label, randomised controlled trial\n\t\t\n\t\t\tRJHallifax\n\t\t\n\t\t\n\t\t\tEMckeown\n\t\t\n\t\t\n\t\t\tPSivakumar\n\t\t\n\t\t10.1016/S0140-6736(20)31043-6\n\t\n\t\n\t\tLancet\n\t\t\n\t\t\t396\n\t\t\t10243\n\t\t\t\n\t\t\t2020",
+      "Conservative versus interventional treatment for spontaneous pneumothorax\n\t\t\n\t\t\tSgaBrown\n\t\t\n\t\t\n\t\t\tELBall\n\t\t\n\t\t\n\t\t\tKPerrin\n\t\t\n\t\t10.1056/NEJMoa1910775\n\t\n\t\n\t\tN Engl J Med\n\t\t\n\t\t\t382\n\t\t\t5\n\t\t\t\n\t\t\t2020",
+      "Randomized trial of an improved drainage strategy versus routine chest tube after lung wedge resection\n\t\t\n\t\t\tJ-TZhang\n\t\t\n\t\t\n\t\t\tSDong\n\t\t\n\t\t\n\t\t\tX-PChu\n\t\t\n\t\t10.1016/j.athoracsur.2019.11.029\n\t\n\t\n\t\tAnn Thorac Surg\n\t\t\n\t\t\t109\n\t\t\t4\n\t\t\t\n\t\t\t2020"
+    ],
+    "references_struct": [
+      {
+        "title": "The Genuine Works of Hippocrates",
+        "journal": "The Genuine Works of Hippocrates",
+        "year": null,
+        "volume": null,
+        "issue": null,
+        "pages": null,
+        "doi": null,
+        "pmid": null,
+        "authors": [
+          "Hippocrates"
+        ],
+        "first_author_last": "Hippocrates"
+      },
+      {
+        "title": "Sydenham Society",
+        "journal": "Sydenham Society",
+        "year": "1849",
+        "volume": null,
+        "issue": null,
+        "pages": null,
+        "doi": null,
+        "pmid": null,
+        "authors": [],
+        "first_author_last": null
+      },
+      {
+        "title": "Treatment of empyema by a valvular tube hermetically sealed to the chest",
+        "journal": "Br Med J",
+        "year": "1889",
+        "volume": "1",
+        "issue": "1481",
+        "pages": null,
+        "doi": "10.1136/bmj.1.1481.1107",
+        "pmid": null,
+        "authors": [
+          "Williams W"
+        ],
+        "first_author_last": "Williams"
+      },
+      {
+        "title": "Resection of the lung for suppurative infections with a report based on 31 operative cases in which resection was done or Chest Tube Management Review Clinical Review & Education jamasurgery.com",
+        "journal": "JAMA Surgery",
+        "year": "1922",
+        "volume": "157",
+        "issue": "3",
+        "pages": null,
+        "doi": "10.1097/00000658-192203000-00001",
+        "pmid": null,
+        "authors": [
+          "Lilienthal H"
+        ],
+        "first_author_last": "Lilienthal"
+      },
+      {
+        "title": "Tube thoracostomy: the struggle to the \"standard of care",
+        "journal": "Ann Thorac Surg",
+        "year": "2008",
+        "volume": "86",
+        "issue": "6",
+        "pages": null,
+        "doi": "10.1016/j.athoracsur.2008.08.006",
+        "pmid": null,
+        "authors": [
+          "Monaghan SF",
+          "Swan KG"
+        ],
+        "first_author_last": "Monaghan"
+      },
+      {
+        "title": "A systematic review and meta-analysis comparing pigtail catheter and chest tube as the initial treatment for pneumothorax",
+        "journal": "Chest",
+        "year": "2018",
+        "volume": "153",
+        "issue": "5",
+        "pages": null,
+        "doi": "10.1016/j.chest.2018.01.048",
+        "pmid": null,
+        "authors": [
+          "Chang S",
+          "Kang Y",
+          "Chiu H",
+          "Chiu Y"
+        ],
+        "first_author_last": "Chang"
+      },
+      {
+        "title": "Open pneumothorax: its relation to the treatment of empyema",
+        "journal": "Am J Med Sci",
+        "year": "1918",
+        "volume": "156",
+        "issue": "6",
+        "pages": null,
+        "doi": "10.1097/00000441-191812000-00007",
+        "pmid": null,
+        "authors": [
+          "Graham EA",
+          "Bell RD"
+        ],
+        "first_author_last": "Graham"
+      },
+      {
+        "title": "Management of spontaneous pneumothorax: British Thoracic Society pleural disease guideline 2010",
+        "journal": "Thorax",
+        "year": "2010",
+        "volume": "65",
+        "issue": "suppl 2",
+        "pages": null,
+        "doi": "10.1136/thx.2010.136986",
+        "pmid": null,
+        "authors": [
+          "Macduff A",
+          "Arnold A",
+          "Harvey J"
+        ],
+        "first_author_last": "Macduff"
+      },
+      {
+        "title": "Spontaneous pneumothorax. Management by tube thoracostomy and suction",
+        "journal": "Dis Chest",
+        "year": "1963",
+        "volume": "43",
+        "issue": "1",
+        "pages": null,
+        "doi": "10.1378/chest.43.1.78",
+        "pmid": null,
+        "authors": [
+          "Wolcott MW",
+          "Shaver WA",
+          "Jennings WD"
+        ],
+        "first_author_last": "Wolcott"
+      },
+      {
+        "title": "Systematic review and meta-analysis of tube thoracostomy following traumatic chest injury; suction versus water seal",
+        "journal": "Eur J Trauma Emerg Surg",
+        "year": "2018",
+        "volume": "44",
+        "issue": "6",
+        "pages": null,
+        "doi": "10.1007/s00068-018-0942-7",
+        "pmid": null,
+        "authors": [
+          "Feenstra TM",
+          "Dickhoff C",
+          "Deunk J"
+        ],
+        "first_author_last": "Feenstra"
+      },
+      {
+        "title": "Surgical versus non-surgical management for pleural empyema",
+        "journal": "Cochrane Database Syst Rev",
+        "year": "2017",
+        "volume": "3",
+        "issue": "3",
+        "pages": "10651",
+        "doi": "10.1002/14651858.CD010651.pub2",
+        "pmid": null,
+        "authors": [
+          "Redden MD",
+          "Chin TY",
+          "Van Driel ML"
+        ],
+        "first_author_last": "Redden"
+      },
+      {
+        "title": "Lytic therapy for retained traumatic hemothorax: a systematic review and meta-analysis",
+        "journal": "Chest",
+        "year": "2019",
+        "volume": "155",
+        "issue": "4",
+        "pages": null,
+        "doi": "10.1016/j.chest.2019.01.007",
+        "pmid": null,
+        "authors": [
+          "Hendriksen BS",
+          "Kuroki MT",
+          "Armen SB",
+          "Reed MF",
+          "Taylor MD",
+          "Hollenbeak CS"
+        ],
+        "first_author_last": "Hendriksen"
+      },
+      {
+        "title": "Intrapleural use of tissue plasminogen activator and DNase in pleural infection",
+        "journal": "N Engl J Med",
+        "year": "2011",
+        "volume": "365",
+        "issue": "6",
+        "pages": null,
+        "doi": "10.1056/NEJMoa1012740",
+        "pmid": null,
+        "authors": [
+          "Rahman NM",
+          "Maskell NA",
+          "West A"
+        ],
+        "first_author_last": "Rahman"
+      },
+      {
+        "title": "Large-bore and small-bore chest tubes: types, function, and placement",
+        "journal": "Thorac Surg Clin",
+        "year": "2013",
+        "volume": "23",
+        "issue": "1",
+        "pages": null,
+        "doi": "10.1016/j.thorsurg.2012.10.006",
+        "pmid": null,
+        "authors": [
+          "Cooke DT",
+          "David EA"
+        ],
+        "first_author_last": "Cooke"
+      },
+      {
+        "title": "Errors and complications in chest tube placement",
+        "journal": "Thorac Surg Clin",
+        "year": "2017",
+        "volume": "27",
+        "issue": "1",
+        "pages": null,
+        "doi": "10.1016/j.thorsurg.2016.08.009",
+        "pmid": null,
+        "authors": [
+          "Filosso PL",
+          "Guerrera F",
+          "Sandri A"
+        ],
+        "first_author_last": "Filosso"
+      },
+      {
+        "title": "Ultrasound-guided pigtail catheters for drainage of various pleural diseases",
+        "journal": "Am J Emerg Med",
+        "year": "2010",
+        "volume": "28",
+        "issue": "8",
+        "pages": null,
+        "doi": "10.1016/j.ajem.2009.04.041",
+        "pmid": null,
+        "authors": [
+          "Liu Y",
+          "Lin Y",
+          "Liang S"
+        ],
+        "first_author_last": "Liu"
+      },
+      {
+        "title": "Study of pigtail catheter and chest tube in management of secondary spontaneous pneumothorax",
+        "journal": "Egypt J Chest Dis Tuberc",
+        "year": "2017",
+        "volume": "66",
+        "issue": "1",
+        "pages": null,
+        "doi": "10.1016/j.ejcdt.2016.08.011",
+        "pmid": null,
+        "authors": [
+          "Hussein R",
+          "Elshahat HM",
+          "Shaker A",
+          "Hashem A"
+        ],
+        "first_author_last": "Hussein"
+      },
+      {
+        "title": "Randomized clinical trial of pigtail catheter versus chest tube in injured patients with uncomplicated traumatic pneumothorax",
+        "journal": "Br J Surg",
+        "year": "2014",
+        "volume": "101",
+        "issue": "2",
+        "pages": null,
+        "doi": "10.1002/bjs.9377",
+        "pmid": null,
+        "authors": [
+          "Kulvatunyou N",
+          "Erickson L",
+          "Vijayasekaran A"
+        ],
+        "first_author_last": "Kulvatunyou"
+      },
+      {
+        "title": "Chest tubes: generalities",
+        "journal": "Thorac Surg Clin",
+        "year": "2017",
+        "volume": "27",
+        "issue": "1",
+        "pages": null,
+        "doi": "10.1016/j.thorsurg.2016.08.001",
+        "pmid": null,
+        "authors": [
+          "Venuta F",
+          "Diso D",
+          "Anile M",
+          "Rendina EA",
+          "Onorati I"
+        ],
+        "first_author_last": "Venuta"
+      },
+      {
+        "title": "Thoracic drainage",
+        "journal": "Ann Thorac Surg",
+        "year": "1997",
+        "volume": "63",
+        "issue": "5",
+        "pages": null,
+        "doi": "10.1016/S0003-4975(97)00082-9",
+        "pmid": null,
+        "authors": [
+          "Munnell ER"
+        ],
+        "first_author_last": "Munnell"
+      },
+      {
+        "title": "Tube thoracostomy: a structured review of case reports and a standardized format for reporting complications",
+        "journal": "World J Surg",
+        "year": "2015",
+        "volume": "39",
+        "issue": "11",
+        "pages": null,
+        "doi": "10.1007/s00268-015-3158-6",
+        "pmid": null,
+        "authors": [
+          "Aho JM",
+          "Ruparel RK",
+          "Rowse PG",
+          "Brahmbhatt RD",
+          "Jenkins D",
+          "Rivera M"
+        ],
+        "first_author_last": "Aho"
+      },
+      {
+        "title": "Catheter replacement of the needle in percutaneous arteriography; a new technique",
+        "journal": "Acta radiol",
+        "year": "1953",
+        "volume": "39",
+        "issue": "5",
+        "pages": null,
+        "doi": "10.3109/00016925309136722",
+        "pmid": null,
+        "authors": [
+          "Seldinger SI"
+        ],
+        "first_author_last": "Seldinger"
+      },
+      {
+        "title": "Is the trocar technique for tube thoracostomy safe in the current era?",
+        "journal": "Interact Cardiovasc Thorac Surg",
+        "year": "2014",
+        "volume": "19",
+        "issue": "1",
+        "pages": null,
+        "doi": "10.1093/icvts/ivu071",
+        "pmid": null,
+        "authors": [
+          "John M",
+          "Razi S",
+          "Sainathan S",
+          "Stavropoulos C"
+        ],
+        "first_author_last": "John"
+      },
+      {
+        "title": "Thoracentesis in empyema",
+        "journal": "Br Med J",
+        "year": "1872",
+        "volume": "1",
+        "issue": "593",
+        "pages": null,
+        "doi": "10.1136/bmj.1.593.498-a",
+        "pmid": null,
+        "authors": [
+          "Playfair WS"
+        ],
+        "first_author_last": "Playfair"
+      },
+      {
+        "title": null,
+        "journal": null,
+        "year": "1926",
+        "volume": null,
+        "issue": null,
+        "pages": null,
+        "doi": null,
+        "pmid": null,
+        "authors": [
+          "Lilienthal HT",
+          "Surgery"
+        ],
+        "first_author_last": "Lilienthal"
+      },
+      {
+        "title": "Chest tube drainage devices",
+        "journal": "Semin Respir Crit Care Med",
+        "year": "2019",
+        "volume": "40",
+        "issue": "3",
+        "pages": null,
+        "doi": "10.1055/s-0039-1694769",
+        "pmid": null,
+        "authors": [
+          "Toth JW",
+          "Reed MF",
+          "Ventola LK"
+        ],
+        "first_author_last": "Toth"
+      },
+      {
+        "title": "Prospective randomized trial compares suction versus water seal for air leaks",
+        "journal": "Ann Thorac Surg",
+        "year": "2001",
+        "volume": "71",
+        "issue": "5",
+        "pages": null,
+        "doi": "10.1016/S0003-4975(01)02474-2",
+        "pmid": null,
+        "authors": [
+          "Cerfolio RJ",
+          "Bass C",
+          "Katholi CR"
+        ],
+        "first_author_last": "Cerfolio"
+      },
+      {
+        "title": "Suction vs water seal after pulmonary resection: a randomized prospective study",
+        "journal": "Chest",
+        "year": "2002",
+        "volume": "121",
+        "issue": "3",
+        "pages": null,
+        "doi": "10.1378/chest.121.3.831",
+        "pmid": null,
+        "authors": [
+          "Marshall MB",
+          "Deeb ME",
+          "Bleier J"
+        ],
+        "first_author_last": "Marshall"
+      },
+      {
+        "title": "Comparison of water seal and suction after pulmonary lobectomy: a prospective, randomized trial",
+        "journal": "Ann Thorac Surg",
+        "year": "2004",
+        "volume": "77",
+        "issue": "6",
+        "pages": null,
+        "doi": "10.1016/j.athoracsur.2003.12.022",
+        "pmid": null,
+        "authors": [
+          "Brunelli A",
+          "Monteverde M",
+          "Borri A"
+        ],
+        "first_author_last": "Brunelli"
+      },
+      {
+        "title": "Management of chest tubes after pulmonary resection: a systematic review and meta-analysis",
+        "journal": "Can J Surg",
+        "year": "2012",
+        "volume": "55",
+        "issue": "4",
+        "pages": null,
+        "doi": "10.1503/cjs.001411",
+        "pmid": null,
+        "authors": [
+          "Coughlin SM",
+          "Emmerton-Coughlin HM",
+          "Malthaner R"
+        ],
+        "first_author_last": "Coughlin"
+      },
+      {
+        "title": "Tube thoracostomy for occult pneumothorax: a prospective randomized study of its use",
+        "journal": "J Trauma",
+        "year": "1993",
+        "volume": "35",
+        "issue": "5",
+        "pages": null,
+        "doi": "10.1097/00005373-199311000-00013",
+        "pmid": null,
+        "authors": [
+          "Enderson BL",
+          "Abdalla R",
+          "Frame SB",
+          "Casey MT",
+          "Gould H",
+          "Maull KI"
+        ],
+        "first_author_last": "Enderson"
+      },
+      {
+        "title": "When to remove a chest tube",
+        "journal": "Thorac Surg Clin",
+        "year": "2017",
+        "volume": "27",
+        "issue": "1",
+        "pages": null,
+        "doi": "10.1016/j.thorsurg.2016.08.007",
+        "pmid": null,
+        "authors": [
+          "Novoa NM",
+          "Jiménez MF",
+          "Varela G"
+        ],
+        "first_author_last": "Novoa"
+      },
+      {
+        "title": "Results of a prospective algorithm to remove chest tubes after pulmonary resection with high output",
+        "journal": "J Thorac Cardiovasc Surg",
+        "year": "2008",
+        "volume": "135",
+        "issue": "2",
+        "pages": null,
+        "doi": "10.1016/j.jtcvs.2007.08.066",
+        "pmid": null,
+        "authors": [
+          "Cerfolio RJ",
+          "Bryant AS"
+        ],
+        "first_author_last": "Cerfolio"
+      },
+      {
+        "title": "When to remove a chest tube? a randomized study with subsequent prospective consecutive validation",
+        "journal": "J Am Coll Surg",
+        "year": "2002",
+        "volume": "195",
+        "issue": "5",
+        "pages": null,
+        "doi": "10.1016/S1072-7515(02)01332-7",
+        "pmid": null,
+        "authors": [
+          "Younes RN",
+          "Gross JL",
+          "Aguiar S",
+          "Haddad FJ",
+          "Deheinzelin D"
+        ],
+        "first_author_last": "Younes"
+      },
+      {
+        "title": "Prospective algorithm to remove chest tubes after pulmonary resection with high output-is it valid everywhere?",
+        "journal": "J Thorac Cardiovasc Surg",
+        "year": "2008",
+        "volume": "136",
+        "issue": "2",
+        "pages": "536",
+        "doi": "10.1016/j.jtcvs.2008.04.017",
+        "pmid": null,
+        "authors": [
+          "Grodzki T"
+        ],
+        "first_author_last": "Grodzki"
+      },
+      {
+        "title": "Optimizing postoperative care protocols in thoracic surgery: best evidence and new technology",
+        "journal": "J Thorac Dis",
+        "year": "2016",
+        "volume": "8",
+        "issue": "suppl 1",
+        "pages": null,
+        "doi": null,
+        "pmid": null,
+        "authors": [
+          "French DG",
+          "Dilena M",
+          "Laplante S"
+        ],
+        "first_author_last": "French"
+      },
+      {
+        "title": "Beyond the tube: can we reduce chest tube complications in trauma patients?",
+        "journal": "Am J Surg. Am J Surg",
+        "year": "2021",
+        "volume": "222",
+        "issue": "5",
+        "pages": null,
+        "doi": "10.1016/j.amjsurg.2021.04.008",
+        "pmid": null,
+        "authors": [
+          "Platnick C",
+          "Witt CE",
+          "Pieracci FM"
+        ],
+        "first_author_last": "Platnick"
+      },
+      {
+        "title": "Tube thoracostomy during the COVID-19 pandemic: guidance and recommendations from the AAST Acute Care Surgery and Critical Care Committees",
+        "journal": "Trauma Surg Acute Care Open",
+        "year": "2020",
+        "volume": "5",
+        "issue": "1",
+        "pages": "498",
+        "doi": "10.1136/tsaco-2020-000498",
+        "pmid": null,
+        "authors": [
+          "Pieracci FM",
+          "Burlew CC",
+          "Spain D"
+        ],
+        "first_author_last": "Pieracci"
+      },
+      {
+        "title": "Complications in tube thoracostomy: systematic review and meta-analysis",
+        "journal": "J Trauma Acute Care Surg",
+        "year": "2018",
+        "volume": "85",
+        "issue": "2",
+        "pages": null,
+        "doi": "10.1097/TA.0000000000001840",
+        "pmid": null,
+        "authors": [
+          "Hernandez MC",
+          "Khatib E",
+          "Prokop M",
+          "Zielinski L",
+          "Aho MD",
+          "JM"
+        ],
+        "first_author_last": "Hernandez"
+      },
+      {
+        "title": "Chest tube drainage in the age of COVID-19",
+        "journal": "Physician Assist Clin",
+        "year": "2021",
+        "volume": "6",
+        "issue": "2",
+        "pages": null,
+        "doi": "10.1016/j.cpha.2020.11.011",
+        "pmid": null,
+        "authors": [
+          "Dhanasopon AP",
+          "Zurich H",
+          "Preda A"
+        ],
+        "first_author_last": "Dhanasopon"
+      },
+      {
+        "title": "Protective measures undertaken during chest tube thoracostomy in COVID-19 outbreak",
+        "journal": "Indian J Thorac Cardiovasc Surg",
+        "year": "2020",
+        "volume": "37",
+        "issue": "2",
+        "pages": null,
+        "doi": null,
+        "pmid": null,
+        "authors": [
+          "Gedik İE",
+          "Alar T"
+        ],
+        "first_author_last": "Gedik"
+      },
+      {
+        "title": "Ambulatory management of primary spontaneous pneumothorax: an open-label, randomised controlled trial",
+        "journal": "Lancet",
+        "year": "2020",
+        "volume": "396",
+        "issue": "10243",
+        "pages": null,
+        "doi": "10.1016/S0140-6736(20)31043-6",
+        "pmid": null,
+        "authors": [
+          "Hallifax RJ",
+          "Mckeown E",
+          "Sivakumar P"
+        ],
+        "first_author_last": "Hallifax"
+      },
+      {
+        "title": "Conservative versus interventional treatment for spontaneous pneumothorax",
+        "journal": "N Engl J Med",
+        "year": "2020",
+        "volume": "382",
+        "issue": "5",
+        "pages": null,
+        "doi": "10.1056/NEJMoa1910775",
+        "pmid": null,
+        "authors": [
+          "Brown S",
+          "Ball EL",
+          "Perrin K"
+        ],
+        "first_author_last": "Brown"
+      },
+      {
+        "title": "Randomized trial of an improved drainage strategy versus routine chest tube after lung wedge resection",
+        "journal": "Ann Thorac Surg",
+        "year": "2020",
+        "volume": "109",
+        "issue": "4",
+        "pages": null,
+        "doi": "10.1016/j.athoracsur.2019.11.029",
+        "pmid": null,
+        "authors": [
+          "Zhang J",
+          "Dong S",
+          "Chu X"
+        ],
+        "first_author_last": "Zhang"
+      }
+    ],
+    "references_enriched": [
+      {
+        "title": "The Genuine Works of Hippocrates",
+        "year": 1849
+      },
+      {
+        "title": "Sydenham Society",
+        "year": 1849
+      },
+      {
+        "title": "Treatment of empyema by a valvular tube hermetically sealed to the chest",
+        "year": 1849
+      },
+      {
+        "title": "Br Med J",
+        "year": 1849
+      },
+      {
+        "title": "Resection of the lung for suppurative infections with a report based on 31 operative cases in which resection was done or Chest Tube Management Review Clinical Review &amp; Education jamasurgery.com",
+        "year": 1889
+      },
+      {
+        "title": "JAMA Surgery"
+      },
+      {
+        "title": "Tube thoracostomy: the struggle to the &quot;standard of care"
+      },
+      {
+        "title": "Ann Thorac Surg",
+        "year": 2008
+      },
+      {
+        "title": "A systematic review and meta-analysis comparing pigtail catheter and chest tube as the initial treatment for pneumothorax",
+        "year": 2008
+      },
+      {
+        "title": "Chest",
+        "year": 1889
+      },
+      {
+        "title": "Open pneumothorax: its relation to the treatment of empyema",
+        "year": 2018
+      },
+      {
+        "title": "Am J Med Sci",
+        "year": 1918
+      },
+      {
+        "title": "Management of spontaneous pneumothorax: British Thoracic Society pleural disease guideline 2010",
+        "year": 1918
+      },
+      {
+        "title": "Thorax",
+        "year": 2010
+      },
+      {
+        "title": "Spontaneous pneumothorax. Management by tube thoracostomy and suction",
+        "year": 2010
+      },
+      {
+        "title": "Dis Chest",
+        "year": 1963
+      },
+      {
+        "title": "Systematic review and meta-analysis of tube thoracostomy following traumatic chest injury; suction versus water seal",
+        "year": 1963
+      },
+      {
+        "title": "Eur J Trauma Emerg Surg",
+        "year": 2018
+      },
+      {
+        "title": "Surgical versus non-surgical management for pleural empyema",
+        "year": 2018
+      },
+      {
+        "title": "Cochrane Database Syst Rev",
+        "year": 2017
+      },
+      {
+        "title": "Lytic therapy for retained traumatic hemothorax: a systematic review and meta-analysis",
+        "year": 2017
+      },
+      {
+        "title": "Chest",
+        "year": 1889
+      },
+      {
+        "title": "Intrapleural use of tissue plasminogen activator and DNase in pleural infection",
+        "year": 2019
+      },
+      {
+        "title": "N Engl J Med",
+        "year": 2011
+      },
+      {
+        "title": "Large-bore and small-bore chest tubes: types, function, and placement",
+        "year": 2011
+      },
+      {
+        "title": "Thorac Surg Clin",
+        "year": 2013
+      },
+      {
+        "title": "Errors and complications in chest tube placement",
+        "year": 2013
+      },
+      {
+        "title": "Thorac Surg Clin",
+        "year": 2013
+      },
+      {
+        "title": "Ultrasound-guided pigtail catheters for drainage of various pleural diseases",
+        "year": 2017
+      },
+      {
+        "title": "Am J Emerg Med",
+        "year": 2010
+      },
+      {
+        "title": "Study of pigtail catheter and chest tube in management of secondary spontaneous pneumothorax",
+        "year": 2010
+      },
+      {
+        "title": "Egypt J Chest Dis Tuberc",
+        "year": 2017
+      },
+      {
+        "title": "Randomized clinical trial of pigtail catheter versus chest tube in injured patients with uncomplicated traumatic pneumothorax",
+        "year": 2017
+      },
+      {
+        "title": "Br J Surg",
+        "year": 2014
+      },
+      {
+        "title": "Chest tubes: generalities",
+        "year": 2014
+      },
+      {
+        "title": "Thorac Surg Clin",
+        "year": 2013
+      },
+      {
+        "title": "Thoracic drainage",
+        "year": 2017
+      },
+      {
+        "title": "Ann Thorac Surg",
+        "year": 2008
+      },
+      {
+        "title": "Tube thoracostomy: a structured review of case reports and a standardized format for reporting complications",
+        "year": 1997
+      },
+      {
+        "title": "World J Surg",
+        "year": 2015
+      },
+      {
+        "title": "Catheter replacement of the needle in percutaneous arteriography; a new technique",
+        "year": 2015
+      },
+      {
+        "title": "Acta radiol",
+        "year": 2015
+      },
+      {
+        "title": "Is the trocar technique for tube thoracostomy safe in the current era?",
+        "year": 1953
+      },
+      {
+        "title": "Interact Cardiovasc Thorac Surg",
+        "year": 2014
+      },
+      {
+        "title": "Thoracentesis in empyema",
+        "year": 2014
+      },
+      {
+        "title": "Br Med J",
+        "year": 1849
+      },
+      {
+        "title": "Chest tube drainage devices",
+        "year": 1926
+      },
+      {
+        "title": "Semin Respir Crit Care Med",
+        "year": 2019
+      },
+      {
+        "title": "Prospective randomized trial compares suction versus water seal for air leaks",
+        "year": 2019
+      },
+      {
+        "title": "Ann Thorac Surg",
+        "year": 2008
+      },
+      {
+        "title": "Suction vs water seal after pulmonary resection: a randomized prospective study",
+        "year": 2001
+      },
+      {
+        "title": "Chest",
+        "year": 1889
+      },
+      {
+        "title": "Comparison of water seal and suction after pulmonary lobectomy: a prospective, randomized trial",
+        "year": 2002
+      },
+      {
+        "title": "Ann Thorac Surg",
+        "year": 2008
+      },
+      {
+        "title": "Management of chest tubes after pulmonary resection: a systematic review and meta-analysis",
+        "year": 2004
+      },
+      {
+        "title": "Can J Surg",
+        "year": 2012
+      },
+      {
+        "title": "Tube thoracostomy for occult pneumothorax: a prospective randomized study of its use",
+        "year": 2012
+      },
+      {
+        "title": "J Trauma",
+        "year": 2018
+      },
+      {
+        "title": "When to remove a chest tube",
+        "year": 1993
+      },
+      {
+        "title": "Thorac Surg Clin",
+        "year": 2013
+      },
+      {
+        "title": "Results of a prospective algorithm to remove chest tubes after pulmonary resection with high output",
+        "year": 2017
+      },
+      {
+        "title": "J Thorac Cardiovasc Surg",
+        "year": 2008
+      },
+      {
+        "title": "When to remove a chest tube? a randomized study with subsequent prospective consecutive validation",
+        "year": 2008
+      },
+      {
+        "title": "J Am Coll Surg",
+        "year": 2002
+      },
+      {
+        "title": "Prospective algorithm to remove chest tubes after pulmonary resection with high output-is it valid everywhere?",
+        "year": 2002
+      },
+      {
+        "title": "J Thorac Cardiovasc Surg",
+        "year": 2008
+      },
+      {
+        "title": "Optimizing postoperative care protocols in thoracic surgery: best evidence and new technology",
+        "year": 2008
+      },
+      {
+        "title": "J Thorac Dis",
+        "year": 2016
+      },
+      {
+        "title": "Beyond the tube: can we reduce chest tube complications in trauma patients?",
+        "year": 2016
+      },
+      {
+        "title": "Am J Surg. Am J Surg",
+        "year": 2021
+      },
+      {
+        "title": "Tube thoracostomy during the COVID-19 pandemic: guidance and recommendations from the AAST Acute Care Surgery and Critical Care Committees",
+        "year": 2021
+      },
+      {
+        "title": "Trauma Surg Acute Care Open",
+        "year": 2020
+      },
+      {
+        "title": "Complications in tube thoracostomy: systematic review and meta-analysis",
+        "year": 2020
+      },
+      {
+        "title": "J Trauma Acute Care Surg",
+        "year": 2018
+      },
+      {
+        "title": "Chest tube drainage in the age of COVID-19",
+        "year": 2018
+      },
+      {
+        "title": "Physician Assist Clin",
+        "year": 2021
+      },
+      {
+        "title": "Protective measures undertaken during chest tube thoracostomy in COVID-19 outbreak",
+        "year": 2021
+      },
+      {
+        "title": "Indian J Thorac Cardiovasc Surg",
+        "year": 2020
+      },
+      {
+        "title": "Ambulatory management of primary spontaneous pneumothorax: an open-label, randomised controlled trial",
+        "year": 2020
+      },
+      {
+        "title": "Lancet",
+        "year": 2020
+      },
+      {
+        "title": "Conservative versus interventional treatment for spontaneous pneumothorax",
+        "year": 2020
+      },
+      {
+        "title": "N Engl J Med",
+        "year": 2011
+      },
+      {
+        "title": "Randomized trial of an improved drainage strategy versus routine chest tube after lung wedge resection",
+        "year": 2020
+      },
+      {
+        "title": "Ann Thorac Surg",
+        "year": 2008
+      }
+    ],
+    "references_source": "grobid_fallback"
+  },
+  "structure": {
+    "sections": [
+      {
+        "title": "Comprehensive Review of Chest Tube Management AReview",
+        "paragraphs": [
+          {
+            "text": "Devon Anderson, MD; Sarah A. Chen, MD, MA; Luis A. Godoy, MD; Lisa M. Brown, MD, MAS; David T. Cooke, MD"
+          },
+          {
+            "text": "T horacostomy tube, otherwise known as chest tube, insertion can be traced back to the fifth century BCE when Hippocrates described using a hollow tin tube to drain what was likely an empyema. 1 In 1889, valved tubes with air-tight seals were first reported to prevent outside atmospheric pressure from collapsing the lung on inspiration. 2 In 1922, chest tubes were first documented in the postoperative care of patients undergoing modernthoracic surgery. 3 TheywereusedthroughoutWorldWarII to restore lung function after traumatic thoracotomies, were used during the Korean War, and later became the standard of care for drainage of the pleural space for trauma during the Vietnam War. 4 Chesttubesandtheirmanagementcontinuetoevolveandaremodified to fit modern needs, including clinical conditions associated with the COVID-19 pandemic."
+          }
+        ],
+        "category": "other"
+      },
+      {
+        "title": "Indications",
+        "paragraphs": [
+          {
+            "text": "The potential space between the visceral pleura that envelops the lungsandtheparietalpleuracoveringthechestwall,diaphragm,and mediastinum is the pleural cavity, which contains lubricating pleural fluid secreted by the parietal pleural capillaries. Air and abnormalfluid can accumulate in this space, causing mass effect and disruptions in the normal negative intrathoracic pressure."
+          },
+          {
+            "text": "Whenairfillsthepleuralcavity,itiscalledapneumothorax,which is further categorized according to its etiology as primary spontaneous,secondaryspontaneous,ortraumatic. 5-7 Chesttubesareused to evacuate air in the pleural cavity and reestablish the negative in-"
+          },
+          {
+            "text": "trathoracicpressure,allowingthelungtoreexpandandrestorephysiologic ventilation and cardiac function. 6-9 A tension pneumothorax develops when air enters on inspiration and is unable to escape on expiration. This leads to effective mass effect on intrathoracic structures,suchasthelungitself;mediastinalstructures,suchasthe venaecavae;andcardiacchambers,resultinginhemodynamiccompromise from restricted venous return and cardiac output. This is a medical emergency and should initially be managed with immediate needle thoracentesis to decompress trapped and expanding pleural air before the placement of a formal chest tube."
+          },
+          {
+            "text": "Chest tubes are also used to evacuate excessive fluid from the pleural cavity, which is known as a pleural effusion. When there is pus in the pleural cavity, then it is considered an empyema. There are several ways to evacuate fluid from the pleural cavity and chest tubes are only one of the many options. A Cochrane review from 2017 10 comparedthesurgicaloptionofvideo-assistedthoracicsurgery(VATS)withchesttubedrainageofpleuralempyemaandfound nodifferenceinmortalityorcomplicationsbetweenthegroups,but early VATS reduced the hospital length of stay. VATS has been considered the first-line treatment for retained hemothorax and empyemaswithothermodalities,suchasintrapleurallytic therapy, reservedforpooroperativecandidatesorasasecondlinetreatment. 11 However, a meta-analysis by Hendriksen et al 11 found that treating retained hemothorax with lytic therapy rather than VATS allowed for an overall operative avoidance rate of 87% (95% CI, 81%-92%), withnoheterogeneityinthepooledstudies( Q = 10.2; df = 9; P = .33; I 2 = 15.07%). The type of intrapleural lytic treatment is also important as Hendriksen et al 11 found that using tissue plasminogen acti-"
+          },
+          {
+            "text": "IMPORTANCE Thoracostomy, or chest tube placement, is used in a variety of clinical indications and can be lifesaving in certain circumstances. There have been developments and modifications to thoracostomy tubes, or chest tubes, over time, but they continue to be a staple in the thoracic surgeon's toolbox as well as adjacent specialties in medicine. This review will provide the nonexpert clinician a comprehensive understanding of the types of chest tubes, indications for their effective use, and key management details for ideal patient outcomes."
+          },
+          {
+            "text": "OBSERVATIONS This review describes the types of chest tubes, indications for use, techniques for placement, common anatomical landmarks that are encountered with placement and management, and an overview of complications that may arise with tube thoracostomy. In addition, the future direction of chest tubes is explored, as well as the management of chest tubes during the COVID-19 pandemic."
+          },
+          {
+            "text": "CONCLUSIONS AND RELEVANCE Chest tube management is subjective, but the compilation of data can inform best practices and safe application to successfully manage the pleural space and ameliorate acquired pleural space disease."
+          },
+          {
+            "text": "JAMASurg . 2022;157(3):269-274. doi:10.1001/jamasurg.2021.7050 Published online January 26, 2022."
+          },
+          {
+            "text": "Author Affiliations: Division of General Thoracic Surgery, Department of Surgery, University of California, Davis Health, Sacramento."
+          },
+          {
+            "text": "Corresponding Author: David T. Cooke, MD, University of California, Davis Health, 2335 Stockton Blvd, North Addition Office Building, Ste 6121, Sacramento, CA 95817-2214 (dtcooke@ucdavis.edu)."
+          }
+        ],
+        "category": "other"
+      },
+      {
+        "title": "JAMASurgery | Review",
+        "paragraphs": [
+          {
+            "text": "(Reprinted)"
+          },
+          {
+            "text": "vator (t-PA) as the lytic agent allowed for a favorable number of patientstoavoidsurgicalinterventioncomparedwithotherlyticagents. Thecombination of t-PA and dornase (DNase) was associated with a 60% reduction in pleural fluid collection as seen on imaging and with a significant reduction in pleural opacity, compared with placebo in the randomized clinical trial by Rahman et al. 12 When t-PA and DNase were used on their own as opposed to in combination, this study did not find a significant reduction in the pleural fluid collection compared with placebo. 12 The evidence supports combining t-PA and DNase for intrapleural lytic therapy. Given the effectiveness of treating early-phase empyema with a chest tube and intrapleural use of t-PA and DNase, as well as the use of VATS to reduce length of hospital stay, the authors developed a multidisciplinary protocol with general thoracic surgery and interventional pulmonary medicine for the algorithmic care of patients presenting with empyema, starting with a small-bore chest tube placement followed by intrapleural use of t-PA and DNase. If this initial step is unsuccessful, the next stage of the pathway is thoracic surgical consultation for VATS decortication ( Figure 1 ).",
+            "cross_refs": [
+              {
+                "type": "figure",
+                "index": 0,
+                "text": "Figure 1",
+                "span": [
+                  1223,
+                  1231
+                ]
+              }
+            ]
+          }
+        ],
+        "category": "other"
+      },
+      {
+        "title": "Types of Chest Tubes",
+        "paragraphs": [
+          {
+            "text": "Chest tubes come in a variety of sizes and materials to best suit the clinical needs of the patient. In the US, they are generally measured by the internal diameter of the tube in units of French. One incrementoftheFrenchscaleisequaltoaone-third-millimeterdiameter, (eg, 24F is equal to an 8-mm caliber). By most prevalent convention, atubeof20Forlargerisconsideredalarge-borechesttubeandatube less than 20F tube is considered a small-bore chest tube, although there are some studies that define a large-bore chest tube as larger than 14F. 5,13,14 A common type of small-bore chest tube is a pigtail catheter,namedbecausethetipcoilsattheendlikeapig'stailtoprevent dislodgement. 13"
+          },
+          {
+            "text": "Small-bore chest tubes are used as the first-line treatment for pneumothorax, transudative pleural effusions, and simple empyemas,whereaslarge-borechesttubesareoftennecessaryformore viscousdiseaseprocesses,suchasahemothoraxandcomplexexudativeeffusionsandempyemas. 13,15 Ameta-analysisbyChangetal 5 demonstratedthatsmall-borechesttubesareassociatedwithlower complications rates and shorter drainage duration and hospital stay compared with large-bore chest tubes. A randomized clinical trial by Hussain et al 16 identified similar findings of a reduction in drainage duration and hospital stay with small-bore pigtail catheters compared with large-bore chest tubes in patients with secondary spontaneous pneumothorax. The most prominent advantage of a small-bore chest tube is its size, which allows for a smaller incision and decreased pain experienced by the patient. 16,17 The randomized clinical trial by Kulvatunyou et al 17 demonstrated a lowerpainscoreinindividualswithapigtailcathetercomparedwith alarge-bore chest tube for traumatic pneumothorax. However, the small diameter of small-bore chest tubes may come at the cost of inefficient flow, as per Poiseuille's law (Δ P = 8μLQ/πR 4 , where Δp is change in pressure, μ is viscosity, Q is flow and R is radius) the decreasingradiusofsmall-borechesttubescanlendtoalowerflow rate, whichisthereasonlarge-borechesttubesarenecessaryinconditions that would otherwise clog a smaller tube, such as highviscosity (μ) fluid. 5,13,15"
+          }
+        ],
+        "category": "other"
+      },
+      {
+        "title": "Insertion",
+        "paragraphs": [
+          {
+            "text": "Theplacementofachesttubeisimportantandisperformedbymany different specialties in various settings. The ideal point of insertion is throughanexternallandmarkspaceknownasthetriangleofsafety ( Figure 2 ), which is bordered by the edge of the latissimus dorsi muscle, pectoralis major muscle, the base of the axilla, and transverse to the nipple line or inframammary fold, at or above the fifth",
+            "cross_refs": [
+              {
+                "type": "figure",
+                "index": 1,
+                "text": "Figure 2",
+                "span": [
+                  190,
+                  198
+                ]
+              }
+            ]
+          }
+        ],
+        "category": "other"
+      },
+      {
+        "title": "Figure 1. Parapneumonic Effusions: University of California, Davis, Pulmonary and General Thoracic Surgery Management Pathway",
+        "paragraphs": [
+          {
+            "text": "a Interventional pulmononologist (IP) recommends thoracic surgery evaluation for late presentation (>7 d from index symptoms) plus thick pleural rind or for very complex effusion. ED, emergency department; ICU, intensive care unit; PA, tissue plasminogen activator."
+          },
+          {
+            "text": "(Reprinted)"
+          },
+          {
+            "text": "intercostal space. 13,14,18-20 However,placementofchesttubesisalso influenced by the indication. For an apical pneumothorax, a chest tube can be placed in the second intercostal space in the midclavicular line, although less comfortable for the patient, and adequate drainage of an unloculated pneumothorax can be performed via lateral insertion at the fifth intercostal space. 14,18 If the tube is placed in the triangle of safety, it is important to place it in a line anterior to the anterior superior iliac spine. Placing in the tube in a line behind this surface landmark may cause the patient to lie on the tube when in the supine position and mechanically occlude thetube.Forapleuraleffusion,alowerintercostalspacemaybeused for insertion but special care must be taken to avoid penetrating the diaphragm, and subsequently the liver on the right and spleen and bowel on the left. 13"
+          },
+          {
+            "text": "The 3 ways to insert a chest tube are dissective, Seldinger (often ultrasonography guided), and the trocar technique, again often ultrasonography guided. 13,14,19,20 Ultrasonography can be an invaluable tool to safely identify internal landmarks for chest tube placement. Figure 3 presents a representative sonographic image demonstratingthetargetabnormalcollectionofpleuralfluid,inthe right chest, for chest tube drainage, and adjacent structures of atelectatic lung, diaphragm and liver. Figure 4 Ahighlights an important step for chest tube placement, which is using a finder needle (often a syringe with local anesthetic) just above the target rib to avoid the intercostal neurovascular bundle and aspirating the pleural space to confirm the location of the pleural pathology. For dissective insertion, a 1- to 2-cm incision is made overlying the rib of choice (the authors do not tunnel to a rib above), a Schnidt tonsil clamp is used to bluntly dissect through the subcutaneous tissue, the3muscularlayersoftheintercostalspace(ie, the external intercostal muscle, the internal intercostal muscle, and innermost intercostal muscle), transthoracic fascia, and the parietal pleural until the clamp enters the pleural cavity. When attempting to enter the fifth intercostal space, it is important to dissect not perpendicular to the chestwall,butgenerallyposteriorandapical,thedirectionthatmost tubesshouldbeplaced(Figure4B).Dissectingperpendiculartothe chest wall and into the fifth intercostal space can lead to the tube heading directly into the oblique fissure, and then be entrapped by the subsequent expanded lung, rendering the tube ineffective after lung expansion.Aftersuccessfulspreadingintothepleuraspace, afinger is used to confirm entry into the pleural space and the presence of adhesions. Adhesions are not bluntly broken with the finger, as pleural adhesions are often vascular and blunt dissection can",
+            "cross_refs": [
+              {
+                "type": "figure",
+                "index": 2,
+                "text": "Figure 3",
+                "span": [
+                  272,
+                  280
+                ]
+              },
+              {
+                "type": "figure",
+                "index": 3,
+                "text": "Figure 4",
+                "span": [
+                  490,
+                  498
+                ]
+              }
+            ]
+          },
+          {
+            "text": "lead to small vessel disruption and subsequently hemothorax. 13,14 The Seldinger technique uses guidewires and tract dilators to assist the tube into the pleural cavity, all under ultrasonography guidance. 19,21 Lastly, the trocar method may be used; however, it is associatedwithmorecomplicationsowingtotherigidtipofthetrocar causing intrathoracic injuries and has subsequently fallen out of favorforchesttubeinsertion. 19,20,22 Regardlessoftheinsertiontechnique, the chest tube needs to be advanced on the superior edge of the rib to avoid the neurovascular bundle bordering the rib above. 13,14 It should also be positioned posteriorly and advanced until the tip is in a posteroapical location. The tube should also be fully inserted to ensure that the most proximal (sentinel) hole is within thepleuralspacetoallowthechesttubetofunctionproperly. 14 Lastly, it is important to secure the chest tube with a suture to prevent it from falling out. Most tubes can be removed without suture skin closure, but in children and adults with very low body mass index (calculated as weight in kilograms divided by height in meters squared),placementofanuntiedadjunctivechesttubesutureatthe timeofinsertionallowsforclosureofskindefectsatthetimeoftube removal, especially large-bore tubes, to prevent entraining atmospheric air with tube removal."
+          }
+        ],
+        "category": "other"
+      },
+      {
+        "title": "Management",
+        "paragraphs": [
+          {
+            "text": "Once a chest tube is placed, it is connected to a drainage device, which,likethechesttubeitself,hasevolvedovertheyears.Thefirst renditionwasa1-compartmentsystemreportedbyPlayfair 23 in1875, whichuseda1-wayvalvetoallowairtoegressfromthepleuralcavity during expiration without returning on inspiration. In 1926, Lilienthal 24 developeda2-compartmentsystem,whichallowedthe accumulation of fluid in the first collection bottle without compromising the efficiency of the system and its ability to drain, as would have been observed in the first model. Then, the 3-compartment system emerged in 1952 with Howe, which allowed collection, water sealing, and suction and manometer capabilities that are combined into a single pleural drainage unit (PDU). 19,25 This forms the"
+          },
+          {
+            "text": "Figure 3. Representative Sonographic Image Demonstrating the Target Abnormal Collection of Pleural Fluid",
+            "cross_refs": [
+              {
+                "type": "figure",
+                "index": 2,
+                "text": "Figure 3",
+                "span": [
+                  0,
+                  8
+                ]
+              }
+            ]
+          }
+        ],
+        "category": "other"
+      },
+      {
+        "title": "Figure 2. Triangle of Safety for Chest Tube Placement",
+        "paragraphs": [
+          {
+            "text": "(Reprinted)"
+          },
+          {
+            "text": "foundation of the modern PDU devices today, some of which are digitally operated."
+          },
+          {
+            "text": "Onceplaced, chest tubes may be attached to a PDU and set to active suction or to water seal, which is simple dependent drainage. The phrase 'place a chest tube on water seal' is a misnomer, as modern PDUs have a constitutive water seal chamber that serves asa1-wayvalve,preventingairfromreturningintothepleuralspace; placing a chest tube on water seal simply means taking the tube off active suction. The randomized clinical trial by Cerfolio et al 26 found that water sealing the chest tube on postoperative day 2 after thoracic surgery resulted in a significant resolution of small air leak the following day, with the authors noting that large air leaks donotbenefitfromwatersealing.Anotherrandomizedclinicaltrial 27 demonstrated similar results of a shorter duration of air leak with early water sealing for postthoracic surgery chest tubes, which subsequently decreased the duration the chest tube was needed. Both of these studies, albeit randomized clinical trials, are limited by their small sample sizes. Brunelli et al 28 performed a randomized clinical trial with a larger sample size, did not find an advantage with water seal over suction for postthoracic surgery patients andtheauthors favor a hybrid approach of moderate suction overnight and water sealing during the day to allow for mobilization of the patient. The systematic review and meta-analysis by Coughlin et al 29 determinedthattherewasnoadvantageofsuctionoverwater seal after thoracic surgery, with the exception of suction being superior to water seal in preventing a radiographic identification of pneumothoraces."
+          },
+          {
+            "text": "For patients with a traumatic chest injury, the systemic review and meta-analysis by Feenstra et al 9 demonstrated evidence that favors low-pressure suction over water seal. This meta-analysis is limited in the number of studies, and therefore patient sample size, included. In addition, there are few patients with chest tubes in the setting of mechanical ventilation included in this study, which is an important subset of trauma patients. Patients who have an occult pneumothoraxandarereceivingpositivepressuremechanical ventilation are at risk of developing a tension pneumothorax, therefore it may be necessary for a chest tube to be placed on suction in this subset of patients. 30 Overall, the managementofachest tube depends on the indication for insertion with evidence favor-"
+          },
+          {
+            "text": "ing suction over water seal for both postthoracic surgery patients and traumatic chest injury patients, until resolution of air leak."
+          }
+        ],
+        "category": "other"
+      },
+      {
+        "title": "Removal",
+        "paragraphs": [
+          {
+            "text": "There are many factors that come into play when determining the correct time to remove a chest tube. The quality of the fluid should be free of chyle, or blood suggestive of active bleeding, and be nonpurulent. 31,32 However, the quantity of fluid that is acceptable before the removal of a chest tube is without consensus, with varyingrecommendedvolumethresholdsrangingfrom200mLperday to 500 mL per day. 31-33 Cerfolio et al 32 performed a retrospective cohort analysis that demonstrated that chest tube removal up to 450 mL per day was acceptable in patients who underwent elective pulmonary resection. They reported that 364 of 1988 patients (18%) were able to go home sooner owing to surgeons changing to thehigherthreshold(450mLperday)andonly11patients(0.55%) were readmitted as a result of a recurrent symptomatic effusion. Grodzkietal 34 testedthisconclusionayearlaterandremovedchest tubes at the higher threshold of 450 mL per day and found that 6 of 40 patients (15%) were readmitted with pleural effusions, thus leading the authors to revert to their original practice of following a threshold of 200 mL per day for chest tube removal. The limitation in the former study is the lack of reliable follow-up, which could account for the low readmission rate, and the limitation in the latter studyisthesmallsamplesize.Largerrandomizedclinicaltrialswould be helpful in clarifying this gap in our understanding."
+          },
+          {
+            "text": "Whether to remove the chest tube at the end of expiration or inspiration is another question that has been widely debated. Novoaetal 31 recommendedremovingthechesttubeattheendofexpiration during a Valsalva maneuver, which corresponds to the time when the difference between the atmospheric pressure and pleural pressure is at its lowest. 31 Other studies, such as French et al, 35 emphasizedtheimportanceofaValsalvamaneuverduringchesttube removal regardless of the respiratory phase in which it is removed. Thechesttubeshouldberemovedswiftlyandthedefectinthechest wallshouldbeclosedwitheitherasuturethatwasplacedatthetime of chest tube placement or with a properly occlusive dressing."
+          }
+        ],
+        "category": "other"
+      },
+      {
+        "title": "Figure 4. Insertion Technique",
+        "paragraphs": [
+          {
+            "text": "Tube placement over target rib A"
+          },
+          {
+            "text": "Posterior and apical tube placement B"
+          },
+          {
+            "text": "(Reprinted)"
+          }
+        ],
+        "category": "other"
+      },
+      {
+        "title": "Complications",
+        "paragraphs": [
+          {
+            "text": "The retrospective review by Platnick et al 36 found that certain risk factors, such as chest tube placement in the emergency department, placement by emergency medicine clinicians, and placement in patients with a body mass index greater than 30 were all associatedwithchesttubecomplications.However,theexactcomplication rate associated with chest tubes is variable and has been quoted as high as 40%. 36-38 Thevariability in the reported complication rate can be attributed to a lack of a universally accepted way to categorize the many different complications. Aho et al 20 proposedawaytostandardizethereportingofcomplicationssurrounding chest tubes to allow for easier recording and collection of data. The 5 complication categories proposed were insertional, positional, removal, infectious, and malfunction. Insertional complications include injury to intrathoracic or extrathoracic organs within 24 hours of insertion, which is a complication most common with chest tubes being inserted via the trocar technique. 19,20 Positional complications are defined as occurring 24 hours after insertion, including erosions into adjacent organs or any tube kinking, obstruction, or being entrapped in the fissure after lung expansion. 19,20 Removal complications encompass failure to seal the chest defect after the chest tube is removed, resulting in entraining atmospheric air, or the retention of any foreign objects after removal. 20 Infectious complications involve any infection, either external from improper sterilizing techniques or internal with the development of an empyema. 20 Malfunction complications include problems thatmayarisefromthehealthcareclinicianmanagingthechesttube or equipment issues. 20 Defining complications in these distinct categories allows clinicians to create a foundation to compare data collected in future studies and protocols to reduce the risk of complication associated with chest tubes."
+          }
+        ],
+        "category": "other"
+      },
+      {
+        "title": "COVID-19",
+        "paragraphs": [
+          {
+            "text": "Chest tube management during the COVID-19 pandemic, or any future coronavirus or H1N1 pandemic, is challenging owing to the risk of aerosolizing dangerous virions. Proper personal protective equipment, minimizing water seal, and using filters to decrease the number of aerosolized particles escaping into the air are modifications that have been implemented in many intensive care units around the world. 37,39 Asmall observational cohort study 40 found that connecting 2 closed underwater drainage systems in series withanairfilter attached to the second system was associated with a decrease in the dissemination of coronavirus particles, as evidencedbyalackofCOVID-19infectionreportedintheirhealthcare workers during the study. However, this study was limited with its small power."
+          }
+        ],
+        "category": "other"
+      },
+      {
+        "title": "Future Directions",
+        "paragraphs": [
+          {
+            "text": "Morerecentstudiesareleaningtowardconservativemanagementin somespecificpleuraldiseaseprocesses.Therandomizedclinicaltrial by Hallifax et al 41 demonstrated that the use of ambulatory devices for the treatmentofprimaryspontaneouspneumothoraxcompared withusualcare,whichincludedaspirationorchesttubeinsertion,was associated with a significantly shorter hospital length of stay. These findings suggest that this subset of patients can be treated in an outpatientsettingandthatambulatorydevicesshouldbeconsideredas an effective treatment strategy for this disease process. However, therewasanincreaseinthenumberofadverseeventsassociatedwith the treatment with ambulatory devices, including enlarging pneumothorax and problems associated with the device, such as kinking or dislodgement, which will require more research if this approach is going to replace the current standard of care."
+          },
+          {
+            "text": "InastudybyBrownetal, 42 conservativetreatments,suchasobservationofmoderate-tolarge-sizedprimaryspontaneouspneumothorax,werefoundtobenoninferiortotheplacementofasmall-bore chesttuberegardingresolutionofthepneumothoraxwithin8weeks. Thestudyreportsthat118of125patients(94%)ofpatientsundergoingconservativemanagementdidnotrequireaninvasiveprocedure, thus challenging the paradigm that all patients with a hemodynamic andrespiratorystableprimarypneumothoraxshouldroutinelyundergo decompressionwithachesttubeasthefirsttreatmentoption."
+          },
+          {
+            "text": "Theroutineplacementofachesttubeafterthoracicsurgeryisanother area with emerging research. The randomized clinical trial by Zhang et al 43 showed that the placement of a novel air-extraction double-lumencatheterwasnoninferiortotheplacementofatraditional chesttubeintheincidenceofapneumothoraxonpostoperativeday 1. Theuseofthisair-extractioncatheterwasalsoassociatedwithasignificantlylowerpatient-reportedpainscore,whichsupportstheargument that more conservative techniques can be used to optimize patient comfort without compromising clinical outcomes."
+          }
+        ],
+        "category": "other"
+      },
+      {
+        "title": "Conclusions",
+        "paragraphs": [
+          {
+            "text": "With the advancement of technology and the push toward less invasive approaches, the treatment of pleural conditions that were oncemanagedsolelybychesttubescontinuestoevolve.However, chesttubesarelikelytocontinuetobeavitalpartofaclinician'srepertoire as they are still considered the standard of care for certain pleural disease processes and life-saving devices in others. It is imperative that trainees have a solid foundation on the management of chest tubes, as their use is a dynamic process that will continue tochangeastimeprogresses.Thisreviewhighlightsthestudiesthat haveshapedthewaychesttubesaremanagedtodayandallowsthe reader to develop and cultivate their understanding."
+          }
+        ],
+        "category": "conclusion"
+      },
+      {
+        "title": "ARTICLE INFORMATION",
+        "paragraphs": [
+          {
+            "text": "Accepted for Publication: October 22, 2021."
+          },
+          {
+            "text": "Published Online: January 26, 2022. doi:10.1001/jamasurg.2021.7050"
+          },
+          {
+            "text": "Conflict of Interest Disclosures: Dr Brown reported grants from National Institutes of Health"
+          },
+          {
+            "text": "during the conduct of the study. No other disclosures were reported."
+          }
+        ],
+        "category": "other"
+      },
+      {
+        "title": "REFERENCES",
+        "paragraphs": [
+          {
+            "text": "1 . Hippocrates. The Genuine Works of Hippocrates . Adams F, trans-ed. Sydenham Society; 1849."
+          },
+          {
+            "text": "2 . Williams W. Treatment of empyema by a valvular tube hermetically sealed to the chest. Br Med J . 1889;1(1481):1107-1108. doi:10.1136/bmj.1.1481.1107"
+          },
+          {
+            "text": "3 . Lilienthal H. Resection of the lung for suppurative infections with a report based on 31 operative cases in which resection was done or"
+          },
+          {
+            "text": "(Reprinted)"
+          },
+          {
+            "text": "intended. Ann Surg . 1922;75(3):257-320. doi:10.1097/00000658-192203000-00001"
+          },
+          {
+            "text": "4 . Monaghan SF, Swan KG. Tube thoracostomy: the struggle to the 'standard of care'. Ann Thorac Surg . 2008;86(6):2019-2022. doi:10.1016/j.athoracsur. 2008.08.006"
+          },
+          {
+            "text": "5 . Chang S-H, Kang Y-N, Chiu H-Y, Chiu Y-H. Asystematic review and meta-analysis comparing pigtail catheter and chest tube as the initial treatment for pneumothorax. Chest . 2018;153(5): 1201-1212. doi:10.1016/j.chest.2018.01.048"
+          },
+          {
+            "text": "6 . Graham EA, Bell RD. Open pneumothorax: its relation to the treatment of empyema. AmJMedSci . 1918; 156 (6): 839-871. doi:10.1097/00000441191812000-00007"
+          },
+          {
+            "text": "7 . MacDuff A, Arnold A, Harvey J; BTS Pleural Disease Guideline Group. Management of spontaneous pneumothorax: British Thoracic Society pleural disease guideline 2010. Thorax . 2010;65(suppl 2):ii18-ii31. doi:10.1136/thx.2010. 136986"
+          },
+          {
+            "text": "8 . Wolcott MW, Shaver WA, Jennings WD. Spontaneous pneumothorax. Management by tube thoracostomy and suction. Dis Chest . 1963;43(1): 78-81. doi:10.1378/chest.43.1.78"
+          },
+          {
+            "text": "9 . Feenstra TM, Dickhoff C, Deunk J. Systematic review and meta-analysis of tube thoracostomy following traumatic chest injury; suction versus water seal. Eur J Trauma Emerg Surg . 2018;44(6): 819-827. doi:10.1007/s00068-018-0942-7"
+          },
+          {
+            "text": "10 . Redden MD, Chin TY, van Driel ML. Surgical versus non-surgical management for pleural empyema. Cochrane Database Syst Rev .2017;3(3): CD010651. doi:10.1002/14651858.CD010651.pub2"
+          },
+          {
+            "text": "11 . Hendriksen BS, Kuroki MT, Armen SB, Reed MF, Taylor MD, Hollenbeak CS. Lytic therapy for retained traumatic hemothorax: a systematic review and meta-analysis. Chest . 2019;155(4): 805-815. doi:10.1016/j.chest.2019.01.007"
+          },
+          {
+            "text": "12 . Rahman NM, Maskell NA, West A, et al. Intrapleural use of tissue plasminogen activator and DNase in pleural infection. NEngl J Med . 2011;365 (6):518-526. doi:10.1056/NEJMoa1012740"
+          },
+          {
+            "text": "13 . Cooke DT, David EA. Large-bore and small-bore chest tubes: types, function, and placement. Thorac Surg Clin . 2013;23(1):17-24, v. doi:10.1016/j. thorsurg.2012.10.006"
+          },
+          {
+            "text": "14 . Filosso PL, Guerrera F, Sandri A, et al. Errors and complications in chest tube placement. Thorac Surg Clin . 2017;27(1):57-67. doi:10.1016/j.thorsurg.2016. 08.009"
+          },
+          {
+            "text": "15 . Liu Y-H, Lin Y-C, Liang S-J, et al. Ultrasound-guided pigtail catheters for drainage of various pleural diseases. AmJEmergMed . 2010;28 (8):915-921. doi:10.1016/j.ajem.2009.04.041"
+          },
+          {
+            "text": "16 . Hussein RMM, Elshahat HM, Shaker A, Hashem AZA. Study of pigtail catheter and chest tube in management of secondary spontaneous pneumothorax. Egypt J Chest Dis Tuberc . 2017;66 (1):107-114. doi:10.1016/j.ejcdt.2016.08.011"
+          },
+          {
+            "text": "17 . Kulvatunyou N, Erickson L, Vijayasekaran A, et al. Randomized clinical trial of pigtail catheter versus chest tube in injured patients with uncomplicated traumatic pneumothorax. Br J Surg . 2014;101(2):17-22. doi:10.1002/bjs.9377"
+          },
+          {
+            "text": "18 . Venuta F, Diso D, Anile M, Rendina EA, Onorati I. Chest tubes: generalities. Thorac Surg Clin . 2017;27(1):1-5. doi:10.1016/j.thorsurg.2016.08.001"
+          },
+          {
+            "text": "19 . Munnell ER. Thoracic drainage. Ann Thorac Surg . 1997;63(5):1497-1502. doi:10.1016/S0003-4975(97) 00082-9"
+          },
+          {
+            "text": "20 . Aho JM, Ruparel RK, Rowse PG, Brahmbhatt RD, Jenkins D, Rivera M. Tube thoracostomy: a structured review of case reports and a standardized format for reporting complications. World J Surg . 2015;39(11): 2691-2706. doi:10.1007/s00268-015-3158-6"
+          },
+          {
+            "text": "21 . Seldinger SI. Catheter replacement of the needle in percutaneous arteriography; a new technique. Acta radiol . 1953;39(5):368-376. doi:10.3109/00016925309136722"
+          },
+          {
+            "text": "22 . John M, Razi S, Sainathan S, Stavropoulos C. Is the trocar technique for tube thoracostomy safe in the current era? Interact Cardiovasc Thorac Surg . 2014;19(1):125-128. doi:10.1093/icvts/ivu071"
+          },
+          {
+            "text": "23 . Playfair WS. Thoracentesis in empyema. Br Med J . 1872;1(593):498-498. doi:10.1136/bmj.1.593. 498-a"
+          },
+          {
+            "text": "24 . Lilienthal H. Thoracic Surgery . Saunders; 1926."
+          },
+          {
+            "text": "25 . Toth JW, Reed MF, Ventola LK. Chest tube drainage devices. Semin Respir Crit Care Med . 2019; 40(3):386-393. doi:10.1055/s-0039-1694769"
+          },
+          {
+            "text": "26 . Cerfolio RJ, Bass C, Katholi CR. Prospective randomized trial compares suction versus water seal for air leaks. Ann Thorac Surg . 2001;71(5): 1613-1617. doi:10.1016/S0003-4975(01)02474-2"
+          },
+          {
+            "text": "27 . Marshall MB, Deeb ME, Bleier JIS, et al. Suction vs water seal after pulmonary resection: a randomized prospective study. Chest . 2002;121 (3):831-835. doi:10.1378/chest.121.3.831"
+          },
+          {
+            "text": "28 . Brunelli A, Monteverde M, Borri A, et al. Comparison of water seal and suction after pulmonary lobectomy: a prospective, randomized trial. Ann Thorac Surg . 2004;77(6):1932-1937. doi:10.1016/j.athoracsur.2003.12.022"
+          },
+          {
+            "text": "29 . Coughlin SM, Emmerton-Coughlin HM, Malthaner R. Management of chest tubes after pulmonary resection: a systematic review and meta-analysis. Can J Surg . 2012;55(4):264-270. doi:10.1503/cjs.001411"
+          },
+          {
+            "text": "30 . Enderson BL, Abdalla R, Frame SB, Casey MT, Gould H, Maull KI. Tube thoracostomy for occult pneumothorax: a prospective randomized study of its use. J Trauma . 1993;35(5):726-729. doi:10.1097/00005373-199311000-00013"
+          },
+          {
+            "text": "31 . Novoa NM, Jiménez MF, Varela G. When to remove a chest tube. Thorac Surg Clin . 2017;27(1): 41-46. doi:10.1016/j.thorsurg.2016.08.007"
+          },
+          {
+            "text": "32 . Cerfolio RJ, Bryant AS. Results of a prospective algorithm to remove chest tubes after pulmonary"
+          },
+          {
+            "text": "resection with high output. J Thorac Cardiovasc Surg . 2008;135(2):269-273. doi:10.1016/j.jtcvs.2007. 08.066"
+          },
+          {
+            "text": "33 . Younes RN, Gross JL, Aguiar S, Haddad FJ, Deheinzelin D. When to remove a chest tube? a randomized study with subsequent prospective consecutive validation. J Am Coll Surg . 2002;195(5): 658-662. doi:10.1016/S1072-7515(02)01332-7"
+          },
+          {
+            "text": "34 . Grodzki T. Prospective algorithm to remove chest tubes after pulmonary resection with high output-is it valid everywhere? J Thorac Cardiovasc Surg . 2008;136(2):536. doi:10.1016/j.jtcvs.2008. 04.017"
+          },
+          {
+            "text": "35 . French DG, Dilena M, LaPlante S, et al. Optimizing postoperative care protocols in thoracic surgery: best evidence and new technology. J Thorac Dis . 2016;8(suppl 1):S3-S11."
+          },
+          {
+            "text": "36 . Platnick C, Witt CE, Pieracci FM, et al. Beyond the tube: can we reduce chest tube complications in trauma patients? AmJSurg. Am J Surg . 2021;222(5):1023-1028. doi:10.1016/j. amjsurg.2021.04.008"
+          },
+          {
+            "text": "37 . Pieracci FM, Burlew CC, Spain D, et al. Tube thoracostomy during the COVID-19 pandemic: guidance and recommendations from the AAST Acute Care Surgery and Critical Care Committees. Trauma Surg Acute Care Open . 2020;5(1):e000498. doi:10.1136/tsaco-2020-000498"
+          },
+          {
+            "text": "38 . Hernandez MC, El Khatib M, Prokop L, Zielinski MD, Aho JM. Complications in tube thoracostomy: systematic review and meta-analysis. J Trauma Acute Care Surg . 2018;85 (2):410-416. doi:10.1097/TA.0000000000001840"
+          },
+          {
+            "text": "39 . Dhanasopon AP, Zurich H, Preda A. Chest tube drainage in the age of COVID-19. Physician Assist Clin . 2021;6(2):261-265. doi:10.1016/j.cpha.2020.11.011"
+          },
+          {
+            "text": "40 . Gedik İE, Alar T. Protective measures undertaken during chest tube thoracostomy in COVID-19 outbreak. Indian J Thorac Cardiovasc Surg . 2020;37(2):1-4."
+          },
+          {
+            "text": "41 . Hallifax RJ, McKeown E, Sivakumar P, et al. Ambulatory management of primary spontaneous pneumothorax: an open-label, randomised controlled trial. Lancet . 2020;396(10243): 39-49. doi:10.1016/S0140-6736(20)31043-6"
+          },
+          {
+            "text": "42 . Brown SGA, Ball EL, Perrin K, et al; PSP Investigators. Conservative versus interventional treatment for spontaneous pneumothorax. NEngl J Med . 2020;382(5):405-415. doi:10.1056/ NEJMoa1910775"
+          },
+          {
+            "text": "43 . Zhang J-T, Dong S, Chu X-P, et al. Randomized trial of an improved drainage strategy versus routine chest tube after lung wedge resection. Ann Thorac Surg . 2020;109(4):1040-1046. doi:10.1016/ j.athoracsur.2019.11.029"
+          },
+          {
+            "text": "(Reprinted)"
+          }
+        ],
+        "category": "other"
+      }
+    ],
+    "tables": [],
+    "figures": [
+      {
+        "self_ref": "#/pictures/0",
+        "parent": {
+          "cref": "#/body"
+        },
+        "children": [
+          {
+            "cref": "#/texts/24"
+          },
+          {
+            "cref": "#/texts/25"
+          },
+          {
+            "cref": "#/texts/26"
+          },
+          {
+            "cref": "#/texts/27"
+          },
+          {
+            "cref": "#/texts/28"
+          },
+          {
+            "cref": "#/texts/29"
+          },
+          {
+            "cref": "#/texts/30"
+          },
+          {
+            "cref": "#/texts/31"
+          },
+          {
+            "cref": "#/texts/32"
+          },
+          {
+            "cref": "#/texts/33"
+          },
+          {
+            "cref": "#/texts/34"
+          },
+          {
+            "cref": "#/texts/35"
+          },
+          {
+            "cref": "#/texts/36"
+          },
+          {
+            "cref": "#/texts/37"
+          },
+          {
+            "cref": "#/texts/38"
+          },
+          {
+            "cref": "#/texts/39"
+          },
+          {
+            "cref": "#/texts/40"
+          },
+          {
+            "cref": "#/texts/41"
+          },
+          {
+            "cref": "#/texts/42"
+          },
+          {
+            "cref": "#/texts/43"
+          },
+          {
+            "cref": "#/texts/44"
+          },
+          {
+            "cref": "#/texts/45"
+          },
+          {
+            "cref": "#/texts/46"
+          },
+          {
+            "cref": "#/texts/47"
+          },
+          {
+            "cref": "#/texts/48"
+          },
+          {
+            "cref": "#/texts/49"
+          },
+          {
+            "cref": "#/texts/50"
+          },
+          {
+            "cref": "#/texts/51"
+          },
+          {
+            "cref": "#/texts/52"
+          },
+          {
+            "cref": "#/texts/53"
+          }
+        ],
+        "content_layer": "body",
+        "label": "picture",
+        "prov": [
+          {
+            "page_no": 2,
+            "bbox": {
+              "l": 70.90766143798828,
+              "t": 701.6015319824219,
+              "r": 420.1056213378906,
+              "b": 476.0113220214844,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "charspan": [
+              0,
+              0
+            ]
+          }
+        ],
+        "captions": [],
+        "references": [],
+        "footnotes": [],
+        "image": null,
+        "annotations": []
+      },
+      {
+        "self_ref": "#/pictures/1",
+        "parent": {
+          "cref": "#/body"
+        },
+        "children": [
+          {
+            "cref": "#/texts/69"
+          },
+          {
+            "cref": "#/texts/70"
+          },
+          {
+            "cref": "#/texts/71"
+          },
+          {
+            "cref": "#/texts/72"
+          },
+          {
+            "cref": "#/texts/73"
+          }
+        ],
+        "content_layer": "body",
+        "label": "picture",
+        "prov": [
+          {
+            "page_no": 3,
+            "bbox": {
+              "l": 71.73699951171875,
+              "t": 707.0452651977539,
+              "r": 299.6333312988281,
+              "b": 576.3371276855469,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "charspan": [
+              0,
+              0
+            ]
+          }
+        ],
+        "captions": [],
+        "references": [],
+        "footnotes": [],
+        "image": null,
+        "annotations": []
+      },
+      {
+        "self_ref": "#/pictures/2",
+        "parent": {
+          "cref": "#/body"
+        },
+        "children": [
+          {
+            "cref": "#/texts/77"
+          },
+          {
+            "cref": "#/texts/78"
+          },
+          {
+            "cref": "#/texts/79"
+          },
+          {
+            "cref": "#/texts/80"
+          },
+          {
+            "cref": "#/texts/81"
+          }
+        ],
+        "content_layer": "body",
+        "label": "picture",
+        "prov": [
+          {
+            "page_no": 3,
+            "bbox": {
+              "l": 310.69378662109375,
+              "t": 700.2358551025391,
+              "r": 539.7239379882812,
+              "b": 497.1559753417969,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "charspan": [
+              0,
+              0
+            ]
+          }
+        ],
+        "captions": [],
+        "references": [],
+        "footnotes": [],
+        "image": null,
+        "annotations": []
+      },
+      {
+        "self_ref": "#/pictures/3",
+        "parent": {
+          "cref": "#/body"
+        },
+        "children": [],
+        "content_layer": "body",
+        "label": "picture",
+        "prov": [
+          {
+            "page_no": 4,
+            "bbox": {
+              "l": 71.31449890136719,
+              "t": 690.3301696777344,
+              "r": 419.6529846191406,
+              "b": 541.2604675292969,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "charspan": [
+              0,
+              0
+            ]
+          }
+        ],
+        "captions": [],
+        "references": [],
+        "footnotes": [],
+        "image": null,
+        "annotations": []
+      }
+    ],
+    "citations": [],
+    "n_sections": 16,
+    "n_tables": 0,
+    "n_figures": 4,
+    "n_citations": 0
+  },
+  "provenance": {},
+  "grobid": {
+    "references_tei": "<TEI xmlns=\"http://www.tei-c.org/ns/1.0\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" \n xmlns:mml=\"http://www.w3.org/1998/Math/MathML\">\n\t<teiHeader/>\n\t<text>\n\t\t<front/>\n\t\t<body/>\n\t\t<back>\n\t\t\t<div>\n\t\t\t\t<listBibl>\n<biblStruct xml:id=\"b0\">\n\t<monogr>\n\t\t<title level=\"m\" type=\"main\">The Genuine Works of Hippocrates</title>\n\t\t<author>\n\t\t\t<persName><surname>Hippocrates</surname></persName>\n\t\t</author>\n\t\t<imprint/>\n\t</monogr>\n</biblStruct>\n\n<biblStruct xml:id=\"b1\">\n\t<analytic>\n\t\t<title/>\n\t</analytic>\n\t<monogr>\n\t\t<title level=\"j\">Sydenham Society</title>\n\t\t<editor>\n\t\t\t<persName><forename type=\"first\">F</forename><surname>Adams</surname></persName>\n\t\t</editor>\n\t\t<imprint>\n\t\t\t<date type=\"published\" when=\"1849\">1849</date>\n\t\t</imprint>\n\t</monogr>\n</biblStruct>\n\n<biblStruct xml:id=\"b2\">\n\t<analytic>\n\t\t<title level=\"a\" type=\"main\">Treatment of empyema by a valvular tube hermetically sealed to the chest</title>\n\t\t<author>\n\t\t\t<persName><forename type=\"first\">W</forename><surname>Williams</surname></persName>\n\t\t</author>\n\t\t<idno type=\"DOI\">10.1136/bmj.1.1481.1107</idno>\n\t</analytic>\n\t<monogr>\n\t\t<title level=\"j\">Br Med J</title>\n\t\t<imprint>\n\t\t\t<biblScope unit=\"volume\">1</biblScope>\n\t\t\t<biblScope unit=\"issue\">1481</biblScope>\n\t\t\t<biblScope unit=\"page\" from=\"1107\" to=\"1108\" />\n\t\t\t<date type=\"published\" when=\"1889\">1889</date>\n\t\t</imprint>\n\t</monogr>\n</biblStruct>\n\n<biblStruct xml:id=\"b3\">\n\t<analytic>\n\t\t<title level=\"a\" type=\"main\">Resection of the lung for suppurative infections with a report based on 31 operative cases in which resection was done or Chest Tube Management Review Clinical Review &amp; Education jamasurgery.com</title>\n\t\t<author>\n\t\t\t<persName><forename type=\"first\">H</forename><surname>Lilienthal</surname></persName>\n\t\t</author>\n\t\t<idno type=\"DOI\">10.1097/00000658-192203000-00001</idno>\n\t</analytic>\n\t<monogr>\n\t\t<title level=\"j\">JAMA Surgery</title>\n\t\t<imprint>\n\t\t\t<biblScope unit=\"volume\">157</biblScope>\n\t\t\t<biblScope unit=\"issue\">3</biblScope>\n\t\t\t<biblScope unit=\"page\" from=\"257\" to=\"320\" />\n\t\t\t<date type=\"published\" when=\"1922\">March 2022. 1922</date>\n\t\t</imprint>\n\t</monogr>\n\t<note>Reprinted Ann Surg</note>\n</biblStruct>\n\n<biblStruct xml:id=\"b4\">\n\t<analytic>\n\t\t<title level=\"a\" type=\"main\">Tube thoracostomy: the struggle to the &quot;standard of care</title>\n\t\t<author>\n\t\t\t<persName><forename type=\"first\">S</forename><forename type=\"middle\">F</forename><surname>Monaghan</surname></persName>\n\t\t</author>\n\t\t<author>\n\t\t\t<persName><forename type=\"first\">K</forename><forename type=\"middle\">G</forename><surname>Swan</surname></persName>\n\t\t</author>\n\t\t<idno type=\"DOI\">10.1016/j.athoracsur.2008.08.006</idno>\n\t</analytic>\n\t<monogr>\n\t\t<title level=\"j\">Ann Thorac Surg</title>\n\t\t<imprint>\n\t\t\t<biblScope unit=\"volume\">86</biblScope>\n\t\t\t<biblScope unit=\"issue\">6</biblScope>\n\t\t\t<biblScope unit=\"page\" from=\"2019\" to=\"2022\" />\n\t\t\t<date type=\"published\" when=\"2008\">2008</date>\n\t\t</imprint>\n\t</monogr>\n</biblStruct>\n\n<biblStruct xml:id=\"b5\">\n\t<analytic>\n\t\t<title level=\"a\" type=\"main\">A systematic review and meta-analysis comparing pigtail catheter and chest tube as the initial treatment for pneumothorax</title>\n\t\t<author>\n\t\t\t<persName><forename type=\"first\">S-H</forename><surname>Chang</surname></persName>\n\t\t</author>\n\t\t<author>\n\t\t\t<persName><forename type=\"first\">Y-N</forename><surname>Kang</surname></persName>\n\t\t</author>\n\t\t<author>\n\t\t\t<persName><forename type=\"first\">H-Y</forename><surname>Chiu</surname></persName>\n\t\t</author>\n\t\t<author>\n\t\t\t<persName><forename type=\"first\">Y-H</forename><surname>Chiu</surname></persName>\n\t\t</author>\n\t\t<idno type=\"DOI\">10.1016/j.chest.2018.01.048</idno>\n\t</analytic>\n\t<monogr>\n\t\t<title level=\"j\">Chest</title>\n\t\t<imprint>\n\t\t\t<biblScope unit=\"volume\">153</biblScope>\n\t\t\t<biblScope unit=\"issue\">5</biblScope>\n\t\t\t<biblScope unit=\"page\" from=\"1201\" to=\"1212\" />\n\t\t\t<date type=\"published\" when=\"2018\">2018</date>\n\t\t</imprint>\n\t</monogr>\n</biblStruct>\n\n<biblStruct xml:id=\"b6\">\n\t<analytic>\n\t\t<title level=\"a\" type=\"main\">Open pneumothorax: its relation to the treatment of empyema</title>\n\t\t<author>\n\t\t\t<persName><forename type=\"first\">E</forename><forename type=\"middle\">A</forename><surname>Graham</surname></persName>\n\t\t</author>\n\t\t<author>\n\t\t\t<persName><forename type=\"first\">R</forename><forename type=\"middle\">D</forename><surname>Bell</surname></persName>\n\t\t</author>\n\t\t<idno type=\"DOI\">10.1097/00000441-191812000-00007</idno>\n\t</analytic>\n\t<monogr>\n\t\t<title level=\"j\">Am J Med Sci</title>\n\t\t<imprint>\n\t\t\t<biblScope unit=\"volume\">156</biblScope>\n\t\t\t<biblScope unit=\"issue\">6</biblScope>\n\t\t\t<biblScope unit=\"page\" from=\"839\" to=\"871\" />\n\t\t\t<date type=\"published\" when=\"1918\">1918</date>\n\t\t</imprint>\n\t</monogr>\n</biblStruct>\n\n<biblStruct xml:id=\"b7\">\n\t<analytic>\n\t\t<title level=\"a\" type=\"main\">Management of spontaneous pneumothorax: British Thoracic Society pleural disease guideline 2010</title>\n\t\t<author>\n\t\t\t<persName><forename type=\"first\">A</forename><surname>Macduff</surname></persName>\n\t\t\t<affiliation>\n\t\t\t\t<orgName type=\"collaboration\">BTS Pleural Disease Guideline Group</orgName>\n\t\t\t</affiliation>\n\t\t</author>\n\t\t<author>\n\t\t\t<persName><forename type=\"first\">A</forename><surname>Arnold</surname></persName>\n\t\t\t<affiliation>\n\t\t\t\t<orgName type=\"collaboration\">BTS Pleural Disease Guideline Group</orgName>\n\t\t\t</affiliation>\n\t\t</author>\n\t\t<author>\n\t\t\t<persName><forename type=\"first\">J</forename><surname>Harvey</surname></persName>\n\t\t\t<affiliation>\n\t\t\t\t<orgName type=\"collaboration\">BTS Pleural Disease Guideline Group</orgName>\n\t\t\t</affiliation>\n\t\t</author>\n\t\t<idno type=\"DOI\">10.1136/thx.2010.136986</idno>\n\t</analytic>\n\t<monogr>\n\t\t<title level=\"j\">Thorax</title>\n\t\t<imprint>\n\t\t\t<biblScope unit=\"volume\">65</biblScope>\n\t\t\t<biblScope unit=\"issue\">suppl 2</biblScope>\n\t\t\t<biblScope unit=\"page\" from=\"18\" to=\"31\" />\n\t\t\t<date type=\"published\" when=\"2010\">2010</date>\n\t\t</imprint>\n\t</monogr>\n</biblStruct>\n\n<biblStruct xml:id=\"b8\">\n\t<analytic>\n\t\t<title level=\"a\" type=\"main\">Spontaneous pneumothorax. Management by tube thoracostomy and suction</title>\n\t\t<author>\n\t\t\t<persName><forename type=\"first\">M</forename><forename type=\"middle\">W</forename><surname>Wolcott</surname></persName>\n\t\t</author>\n\t\t<author>\n\t\t\t<persName><forename type=\"first\">W</forename><forename type=\"middle\">A</forename><surname>Shaver</surname></persName>\n\t\t</author>\n\t\t<author>\n\t\t\t<persName><forename type=\"first\">W</forename><forename type=\"middle\">D</forename><surname>Jennings</surname></persName>\n\t\t</author>\n\t\t<idno type=\"DOI\">10.1378/chest.43.1.78</idno>\n\t</analytic>\n\t<monogr>\n\t\t<title level=\"j\">Dis Chest</title>\n\t\t<imprint>\n\t\t\t<biblScope unit=\"volume\">43</biblScope>\n\t\t\t<biblScope unit=\"issue\">1</biblScope>\n\t\t\t<biblScope unit=\"page\" from=\"78\" to=\"81\" />\n\t\t\t<date type=\"published\" when=\"1963\">1963</date>\n\t\t</imprint>\n\t</monogr>\n</biblStruct>\n\n<biblStruct xml:id=\"b9\">\n\t<analytic>\n\t\t<title level=\"a\" type=\"main\">Systematic review and meta-analysis of tube thoracostomy following traumatic chest injury; suction versus water seal</title>\n\t\t<author>\n\t\t\t<persName><forename type=\"first\">T</forename><forename type=\"middle\">M</forename><surname>Feenstra</surname></persName>\n\t\t</author>\n\t\t<author>\n\t\t\t<persName><forename type=\"first\">C</forename><surname>Dickhoff</surname></persName>\n\t\t</author>\n\t\t<author>\n\t\t\t<persName><forename type=\"first\">J</forename><surname>Deunk</surname></persName>\n\t\t</author>\n\t\t<idno type=\"DOI\">10.1007/s00068-018-0942-7</idno>\n\t</analytic>\n\t<monogr>\n\t\t<title level=\"j\">Eur J Trauma Emerg Surg</title>\n\t\t<imprint>\n\t\t\t<biblScope unit=\"volume\">44</biblScope>\n\t\t\t<biblScope unit=\"issue\">6</biblScope>\n\t\t\t<biblScope unit=\"page\" from=\"819\" to=\"827\" />\n\t\t\t<date type=\"published\" when=\"2018\">2018</date>\n\t\t</imprint>\n\t</monogr>\n</biblStruct>\n\n<biblStruct xml:id=\"b10\">\n\t<analytic>\n\t\t<title level=\"a\" type=\"main\">Surgical versus non-surgical management for pleural empyema</title>\n\t\t<author>\n\t\t\t<persName><forename type=\"first\">M</forename><forename type=\"middle\">D</forename><surname>Redden</surname></persName>\n\t\t</author>\n\t\t<author>\n\t\t\t<persName><forename type=\"first\">T</forename><forename type=\"middle\">Y</forename><surname>Chin</surname></persName>\n\t\t</author>\n\t\t<author>\n\t\t\t<persName><forename type=\"first\">M</forename><forename type=\"middle\">L</forename><surname>Van Driel</surname></persName>\n\t\t</author>\n\t\t<idno type=\"DOI\">10.1002/14651858.CD010651.pub2</idno>\n\t</analytic>\n\t<monogr>\n\t\t<title level=\"j\">Cochrane Database Syst Rev</title>\n\t\t<imprint>\n\t\t\t<biblScope unit=\"volume\">3</biblScope>\n\t\t\t<biblScope unit=\"issue\">3</biblScope>\n\t\t\t<biblScope unit=\"page\">10651</biblScope>\n\t\t\t<date type=\"published\" when=\"2017\">2017</date>\n\t\t</imprint>\n\t</monogr>\n</biblStruct>\n\n<biblStruct xml:id=\"b11\">\n\t<analytic>\n\t\t<title level=\"a\" type=\"main\">Lytic therapy for retained traumatic hemothorax: a systematic review and meta-analysis</title>\n\t\t<author>\n\t\t\t<persName><forename type=\"first\">B</forename><forename type=\"middle\">S</forename><surname>Hendriksen</surname></persName>\n\t\t</author>\n\t\t<author>\n\t\t\t<persName><forename type=\"first\">M</forename><forename type=\"middle\">T</forename><surname>Kuroki</surname></persName>\n\t\t</author>\n\t\t<author>\n\t\t\t<persName><forename type=\"first\">S</forename><forename type=\"middle\">B</forename><surname>Armen</surname></persName>\n\t\t</author>\n\t\t<author>\n\t\t\t<persName><forename type=\"first\">M</forename><forename type=\"middle\">F</forename><surname>Reed</surname></persName>\n\t\t</author>\n\t\t<author>\n\t\t\t<persName><forename type=\"first\">M</forename><forename type=\"middle\">D</forename><surname>Taylor</surname></persName>\n\t\t</author>\n\t\t<author>\n\t\t\t<persName><forename type=\"first\">C</forename><forename type=\"middle\">S</forename><surname>Hollenbeak</surname></persName>\n\t\t</author>\n\t\t<idno type=\"DOI\">10.1016/j.chest.2019.01.007</idno>\n\t</analytic>\n\t<monogr>\n\t\t<title level=\"j\">Chest</title>\n\t\t<imprint>\n\t\t\t<biblScope unit=\"volume\">155</biblScope>\n\t\t\t<biblScope unit=\"issue\">4</biblScope>\n\t\t\t<biblScope unit=\"page\" from=\"805\" to=\"815\" />\n\t\t\t<date type=\"published\" when=\"2019\">2019</date>\n\t\t</imprint>\n\t</monogr>\n</biblStruct>\n\n<biblStruct xml:id=\"b12\">\n\t<analytic>\n\t\t<title level=\"a\" type=\"main\">Intrapleural use of tissue plasminogen activator and DNase in pleural infection</title>\n\t\t<author>\n\t\t\t<persName><forename type=\"first\">N</forename><forename type=\"middle\">M</forename><surname>Rahman</surname></persName>\n\t\t</author>\n\t\t<author>\n\t\t\t<persName><forename type=\"first\">N</forename><forename type=\"middle\">A</forename><surname>Maskell</surname></persName>\n\t\t</author>\n\t\t<author>\n\t\t\t<persName><forename type=\"first\">A</forename><surname>West</surname></persName>\n\t\t</author>\n\t\t<idno type=\"DOI\">10.1056/NEJMoa1012740</idno>\n\t</analytic>\n\t<monogr>\n\t\t<title level=\"j\">N Engl J Med</title>\n\t\t<imprint>\n\t\t\t<biblScope unit=\"volume\">365</biblScope>\n\t\t\t<biblScope unit=\"issue\">6</biblScope>\n\t\t\t<biblScope unit=\"page\" from=\"518\" to=\"526\" />\n\t\t\t<date type=\"published\" when=\"2011\">2011</date>\n\t\t</imprint>\n\t</monogr>\n</biblStruct>\n\n<biblStruct xml:id=\"b13\">\n\t<analytic>\n\t\t<title level=\"a\" type=\"main\">Large-bore and small-bore chest tubes: types, function, and placement</title>\n\t\t<author>\n\t\t\t<persName><forename type=\"first\">D</forename><forename type=\"middle\">T</forename><surname>Cooke</surname></persName>\n\t\t</author>\n\t\t<author>\n\t\t\t<persName><forename type=\"first\">E</forename><forename type=\"middle\">A</forename><surname>David</surname></persName>\n\t\t</author>\n\t\t<idno type=\"DOI\">10.1016/j.thorsurg.2012.10.006</idno>\n\t</analytic>\n\t<monogr>\n\t\t<title level=\"j\">Thorac Surg Clin</title>\n\t\t<imprint>\n\t\t\t<biblScope unit=\"volume\">23</biblScope>\n\t\t\t<biblScope unit=\"issue\">1</biblScope>\n\t\t\t<biblScope unit=\"page\" from=\"17\" to=\"24\" />\n\t\t\t<date type=\"published\" when=\"2013\">2013</date>\n\t\t</imprint>\n\t</monogr>\n</biblStruct>\n\n<biblStruct xml:id=\"b14\">\n\t<analytic>\n\t\t<title level=\"a\" type=\"main\">Errors and complications in chest tube placement</title>\n\t\t<author>\n\t\t\t<persName><forename type=\"first\">P</forename><forename type=\"middle\">L</forename><surname>Filosso</surname></persName>\n\t\t</author>\n\t\t<author>\n\t\t\t<persName><forename type=\"first\">F</forename><surname>Guerrera</surname></persName>\n\t\t</author>\n\t\t<author>\n\t\t\t<persName><forename type=\"first\">A</forename><surname>Sandri</surname></persName>\n\t\t</author>\n\t\t<idno type=\"DOI\">10.1016/j.thorsurg.2016.08.009</idno>\n\t</analytic>\n\t<monogr>\n\t\t<title level=\"j\">Thorac Surg Clin</title>\n\t\t<imprint>\n\t\t\t<biblScope unit=\"volume\">27</biblScope>\n\t\t\t<biblScope unit=\"issue\">1</biblScope>\n\t\t\t<biblScope unit=\"page\" from=\"57\" to=\"67\" />\n\t\t\t<date type=\"published\" when=\"2017\">2017</date>\n\t\t</imprint>\n\t</monogr>\n</biblStruct>\n\n<biblStruct xml:id=\"b15\">\n\t<analytic>\n\t\t<title level=\"a\" type=\"main\">Ultrasound-guided pigtail catheters for drainage of various pleural diseases</title>\n\t\t<author>\n\t\t\t<persName><forename type=\"first\">Y-H</forename><surname>Liu</surname></persName>\n\t\t</author>\n\t\t<author>\n\t\t\t<persName><forename type=\"first\">Y-C</forename><surname>Lin</surname></persName>\n\t\t</author>\n\t\t<author>\n\t\t\t<persName><forename type=\"first\">S-J</forename><surname>Liang</surname></persName>\n\t\t</author>\n\t\t<idno type=\"DOI\">10.1016/j.ajem.2009.04.041</idno>\n\t</analytic>\n\t<monogr>\n\t\t<title level=\"j\">Am J Emerg Med</title>\n\t\t<imprint>\n\t\t\t<biblScope unit=\"volume\">28</biblScope>\n\t\t\t<biblScope unit=\"issue\">8</biblScope>\n\t\t\t<biblScope unit=\"page\" from=\"915\" to=\"921\" />\n\t\t\t<date type=\"published\" when=\"2010\">2010</date>\n\t\t</imprint>\n\t</monogr>\n</biblStruct>\n\n<biblStruct xml:id=\"b16\">\n\t<analytic>\n\t\t<title level=\"a\" type=\"main\">Study of pigtail catheter and chest tube in management of secondary spontaneous pneumothorax</title>\n\t\t<author>\n\t\t\t<persName><forename type=\"first\">Rmm</forename><surname>Hussein</surname></persName>\n\t\t</author>\n\t\t<author>\n\t\t\t<persName><forename type=\"first\">H</forename><forename type=\"middle\">M</forename><surname>Elshahat</surname></persName>\n\t\t</author>\n\t\t<author>\n\t\t\t<persName><forename type=\"first\">A</forename><surname>Shaker</surname></persName>\n\t\t</author>\n\t\t<author>\n\t\t\t<persName><forename type=\"first\">Aza</forename><surname>Hashem</surname></persName>\n\t\t</author>\n\t\t<idno type=\"DOI\">10.1016/j.ejcdt.2016.08.011</idno>\n\t</analytic>\n\t<monogr>\n\t\t<title level=\"j\">Egypt J Chest Dis Tuberc</title>\n\t\t<imprint>\n\t\t\t<biblScope unit=\"volume\">66</biblScope>\n\t\t\t<biblScope unit=\"issue\">1</biblScope>\n\t\t\t<biblScope unit=\"page\" from=\"107\" to=\"114\" />\n\t\t\t<date type=\"published\" when=\"2017\">2017</date>\n\t\t</imprint>\n\t</monogr>\n</biblStruct>\n\n<biblStruct xml:id=\"b17\">\n\t<analytic>\n\t\t<title level=\"a\" type=\"main\">Randomized clinical trial of pigtail catheter versus chest tube in injured patients with uncomplicated traumatic pneumothorax</title>\n\t\t<author>\n\t\t\t<persName><forename type=\"first\">N</forename><surname>Kulvatunyou</surname></persName>\n\t\t</author>\n\t\t<author>\n\t\t\t<persName><forename type=\"first\">L</forename><surname>Erickson</surname></persName>\n\t\t</author>\n\t\t<author>\n\t\t\t<persName><forename type=\"first\">A</forename><surname>Vijayasekaran</surname></persName>\n\t\t</author>\n\t\t<idno type=\"DOI\">10.1002/bjs.9377</idno>\n\t</analytic>\n\t<monogr>\n\t\t<title level=\"j\">Br J Surg</title>\n\t\t<imprint>\n\t\t\t<biblScope unit=\"volume\">101</biblScope>\n\t\t\t<biblScope unit=\"issue\">2</biblScope>\n\t\t\t<biblScope unit=\"page\" from=\"17\" to=\"22\" />\n\t\t\t<date type=\"published\" when=\"2014\">2014</date>\n\t\t</imprint>\n\t</monogr>\n</biblStruct>\n\n<biblStruct xml:id=\"b18\">\n\t<analytic>\n\t\t<title level=\"a\" type=\"main\">Chest tubes: generalities</title>\n\t\t<author>\n\t\t\t<persName><forename type=\"first\">F</forename><surname>Venuta</surname></persName>\n\t\t</author>\n\t\t<author>\n\t\t\t<persName><forename type=\"first\">D</forename><surname>Diso</surname></persName>\n\t\t</author>\n\t\t<author>\n\t\t\t<persName><forename type=\"first\">M</forename><surname>Anile</surname></persName>\n\t\t</author>\n\t\t<author>\n\t\t\t<persName><forename type=\"first\">E</forename><forename type=\"middle\">A</forename><surname>Rendina</surname></persName>\n\t\t</author>\n\t\t<author>\n\t\t\t<persName><forename type=\"first\">I</forename><surname>Onorati</surname></persName>\n\t\t</author>\n\t\t<idno type=\"DOI\">10.1016/j.thorsurg.2016.08.001</idno>\n\t</analytic>\n\t<monogr>\n\t\t<title level=\"j\">Thorac Surg Clin</title>\n\t\t<imprint>\n\t\t\t<biblScope unit=\"volume\">27</biblScope>\n\t\t\t<biblScope unit=\"issue\">1</biblScope>\n\t\t\t<biblScope unit=\"page\" from=\"1\" to=\"5\" />\n\t\t\t<date type=\"published\" when=\"2017\">2017</date>\n\t\t</imprint>\n\t</monogr>\n</biblStruct>\n\n<biblStruct xml:id=\"b19\">\n\t<analytic>\n\t\t<title level=\"a\" type=\"main\">Thoracic drainage</title>\n\t\t<author>\n\t\t\t<persName><forename type=\"first\">E</forename><forename type=\"middle\">R</forename><surname>Munnell</surname></persName>\n\t\t</author>\n\t\t<idno type=\"DOI\">10.1016/S0003-4975(97)00082-9</idno>\n\t</analytic>\n\t<monogr>\n\t\t<title level=\"j\">Ann Thorac Surg</title>\n\t\t<imprint>\n\t\t\t<biblScope unit=\"volume\">63</biblScope>\n\t\t\t<biblScope unit=\"issue\">5</biblScope>\n\t\t\t<biblScope unit=\"page\" from=\"1497\" to=\"1502\" />\n\t\t\t<date type=\"published\" when=\"1997\">1997</date>\n\t\t</imprint>\n\t</monogr>\n</biblStruct>\n\n<biblStruct xml:id=\"b20\">\n\t<analytic>\n\t\t<title level=\"a\" type=\"main\">Tube thoracostomy: a structured review of case reports and a standardized format for reporting complications</title>\n\t\t<author>\n\t\t\t<persName><forename type=\"first\">J</forename><forename type=\"middle\">M</forename><surname>Aho</surname></persName>\n\t\t</author>\n\t\t<author>\n\t\t\t<persName><forename type=\"first\">R</forename><forename type=\"middle\">K</forename><surname>Ruparel</surname></persName>\n\t\t</author>\n\t\t<author>\n\t\t\t<persName><forename type=\"first\">P</forename><forename type=\"middle\">G</forename><surname>Rowse</surname></persName>\n\t\t</author>\n\t\t<author>\n\t\t\t<persName><forename type=\"first\">R</forename><forename type=\"middle\">D</forename><surname>Brahmbhatt</surname></persName>\n\t\t</author>\n\t\t<author>\n\t\t\t<persName><forename type=\"first\">D</forename><surname>Jenkins</surname></persName>\n\t\t</author>\n\t\t<author>\n\t\t\t<persName><forename type=\"first\">M</forename><surname>Rivera</surname></persName>\n\t\t</author>\n\t\t<idno type=\"DOI\">10.1007/s00268-015-3158-6</idno>\n\t</analytic>\n\t<monogr>\n\t\t<title level=\"j\">World J Surg</title>\n\t\t<imprint>\n\t\t\t<biblScope unit=\"volume\">39</biblScope>\n\t\t\t<biblScope unit=\"issue\">11</biblScope>\n\t\t\t<biblScope unit=\"page\" from=\"2691\" to=\"2706\" />\n\t\t\t<date type=\"published\" when=\"2015\">2015</date>\n\t\t</imprint>\n\t</monogr>\n</biblStruct>\n\n<biblStruct xml:id=\"b21\">\n\t<analytic>\n\t\t<title level=\"a\" type=\"main\">Catheter replacement of the needle in percutaneous arteriography; a new technique</title>\n\t\t<author>\n\t\t\t<persName><forename type=\"first\">S</forename><forename type=\"middle\">I</forename><surname>Seldinger</surname></persName>\n\t\t</author>\n\t\t<idno type=\"DOI\">10.3109/00016925309136722</idno>\n\t</analytic>\n\t<monogr>\n\t\t<title level=\"j\">Acta radiol</title>\n\t\t<imprint>\n\t\t\t<biblScope unit=\"volume\">39</biblScope>\n\t\t\t<biblScope unit=\"issue\">5</biblScope>\n\t\t\t<biblScope unit=\"page\" from=\"368\" to=\"376\" />\n\t\t\t<date type=\"published\" when=\"1953\">1953</date>\n\t\t</imprint>\n\t</monogr>\n</biblStruct>\n\n<biblStruct xml:id=\"b22\">\n\t<analytic>\n\t\t<title level=\"a\" type=\"main\">Is the trocar technique for tube thoracostomy safe in the current era?</title>\n\t\t<author>\n\t\t\t<persName><forename type=\"first\">M</forename><surname>John</surname></persName>\n\t\t</author>\n\t\t<author>\n\t\t\t<persName><forename type=\"first\">S</forename><surname>Razi</surname></persName>\n\t\t</author>\n\t\t<author>\n\t\t\t<persName><forename type=\"first\">S</forename><surname>Sainathan</surname></persName>\n\t\t</author>\n\t\t<author>\n\t\t\t<persName><forename type=\"first\">C</forename><surname>Stavropoulos</surname></persName>\n\t\t</author>\n\t\t<idno type=\"DOI\">10.1093/icvts/ivu071</idno>\n\t</analytic>\n\t<monogr>\n\t\t<title level=\"j\">Interact Cardiovasc Thorac Surg</title>\n\t\t<imprint>\n\t\t\t<biblScope unit=\"volume\">19</biblScope>\n\t\t\t<biblScope unit=\"issue\">1</biblScope>\n\t\t\t<biblScope unit=\"page\" from=\"125\" to=\"128\" />\n\t\t\t<date type=\"published\" when=\"2014\">2014</date>\n\t\t</imprint>\n\t</monogr>\n</biblStruct>\n\n<biblStruct xml:id=\"b23\">\n\t<analytic>\n\t\t<title level=\"a\" type=\"main\">Thoracentesis in empyema</title>\n\t\t<author>\n\t\t\t<persName><forename type=\"first\">W</forename><forename type=\"middle\">S</forename><surname>Playfair</surname></persName>\n\t\t</author>\n\t\t<idno type=\"DOI\">10.1136/bmj.1.593.498-a</idno>\n\t</analytic>\n\t<monogr>\n\t\t<title level=\"j\">Br Med J</title>\n\t\t<imprint>\n\t\t\t<biblScope unit=\"volume\">1</biblScope>\n\t\t\t<biblScope unit=\"issue\">593</biblScope>\n\t\t\t<biblScope unit=\"page\" from=\"498\" to=\"498\" />\n\t\t\t<date type=\"published\" when=\"1872\">1872</date>\n\t\t</imprint>\n\t</monogr>\n</biblStruct>\n\n<biblStruct xml:id=\"b24\">\n\t<monogr>\n\t\t<title/>\n\t\t<author>\n\t\t\t<persName><forename type=\"first\">H</forename><forename type=\"middle\">Thoracic</forename><surname>Lilienthal</surname></persName>\n\t\t</author>\n\t\t<author>\n\t\t\t<persName><surname>Surgery</surname></persName>\n\t\t</author>\n\t\t<imprint>\n\t\t\t<date type=\"published\" when=\"1926\">1926</date>\n\t\t\t<publisher>Saunders</publisher>\n\t\t</imprint>\n\t</monogr>\n</biblStruct>\n\n<biblStruct xml:id=\"b25\">\n\t<analytic>\n\t\t<title level=\"a\" type=\"main\">Chest tube drainage devices</title>\n\t\t<author>\n\t\t\t<persName><forename type=\"first\">J</forename><forename type=\"middle\">W</forename><surname>Toth</surname></persName>\n\t\t</author>\n\t\t<author>\n\t\t\t<persName><forename type=\"first\">M</forename><forename type=\"middle\">F</forename><surname>Reed</surname></persName>\n\t\t</author>\n\t\t<author>\n\t\t\t<persName><forename type=\"first\">L</forename><forename type=\"middle\">K</forename><surname>Ventola</surname></persName>\n\t\t</author>\n\t\t<idno type=\"DOI\">10.1055/s-0039-1694769</idno>\n\t</analytic>\n\t<monogr>\n\t\t<title level=\"j\">Semin Respir Crit Care Med</title>\n\t\t<imprint>\n\t\t\t<biblScope unit=\"volume\">40</biblScope>\n\t\t\t<biblScope unit=\"issue\">3</biblScope>\n\t\t\t<biblScope unit=\"page\" from=\"386\" to=\"393\" />\n\t\t\t<date type=\"published\" when=\"2019\">2019</date>\n\t\t</imprint>\n\t</monogr>\n</biblStruct>\n\n<biblStruct xml:id=\"b26\">\n\t<analytic>\n\t\t<title level=\"a\" type=\"main\">Prospective randomized trial compares suction versus water seal for air leaks</title>\n\t\t<author>\n\t\t\t<persName><forename type=\"first\">R</forename><forename type=\"middle\">J</forename><surname>Cerfolio</surname></persName>\n\t\t</author>\n\t\t<author>\n\t\t\t<persName><forename type=\"first\">C</forename><surname>Bass</surname></persName>\n\t\t</author>\n\t\t<author>\n\t\t\t<persName><forename type=\"first\">C</forename><forename type=\"middle\">R</forename><surname>Katholi</surname></persName>\n\t\t</author>\n\t\t<idno type=\"DOI\">10.1016/S0003-4975(01)02474-2</idno>\n\t</analytic>\n\t<monogr>\n\t\t<title level=\"j\">Ann Thorac Surg</title>\n\t\t<imprint>\n\t\t\t<biblScope unit=\"volume\">71</biblScope>\n\t\t\t<biblScope unit=\"issue\">5</biblScope>\n\t\t\t<biblScope unit=\"page\" from=\"1613\" to=\"1617\" />\n\t\t\t<date type=\"published\" when=\"2001\">2001</date>\n\t\t</imprint>\n\t</monogr>\n</biblStruct>\n\n<biblStruct xml:id=\"b27\">\n\t<analytic>\n\t\t<title level=\"a\" type=\"main\">Suction vs water seal after pulmonary resection: a randomized prospective study</title>\n\t\t<author>\n\t\t\t<persName><forename type=\"first\">M</forename><forename type=\"middle\">B</forename><surname>Marshall</surname></persName>\n\t\t</author>\n\t\t<author>\n\t\t\t<persName><forename type=\"first\">M</forename><forename type=\"middle\">E</forename><surname>Deeb</surname></persName>\n\t\t</author>\n\t\t<author>\n\t\t\t<persName><forename type=\"first\">Jis</forename><surname>Bleier</surname></persName>\n\t\t</author>\n\t\t<idno type=\"DOI\">10.1378/chest.121.3.831</idno>\n\t</analytic>\n\t<monogr>\n\t\t<title level=\"j\">Chest</title>\n\t\t<imprint>\n\t\t\t<biblScope unit=\"volume\">121</biblScope>\n\t\t\t<biblScope unit=\"issue\">3</biblScope>\n\t\t\t<biblScope unit=\"page\" from=\"831\" to=\"835\" />\n\t\t\t<date type=\"published\" when=\"2002\">2002</date>\n\t\t</imprint>\n\t</monogr>\n</biblStruct>\n\n<biblStruct xml:id=\"b28\">\n\t<analytic>\n\t\t<title level=\"a\" type=\"main\">Comparison of water seal and suction after pulmonary lobectomy: a prospective, randomized trial</title>\n\t\t<author>\n\t\t\t<persName><forename type=\"first\">A</forename><surname>Brunelli</surname></persName>\n\t\t</author>\n\t\t<author>\n\t\t\t<persName><forename type=\"first\">M</forename><surname>Monteverde</surname></persName>\n\t\t</author>\n\t\t<author>\n\t\t\t<persName><forename type=\"first\">A</forename><surname>Borri</surname></persName>\n\t\t</author>\n\t\t<idno type=\"DOI\">10.1016/j.athoracsur.2003.12.022</idno>\n\t</analytic>\n\t<monogr>\n\t\t<title level=\"j\">Ann Thorac Surg</title>\n\t\t<imprint>\n\t\t\t<biblScope unit=\"volume\">77</biblScope>\n\t\t\t<biblScope unit=\"issue\">6</biblScope>\n\t\t\t<biblScope unit=\"page\" from=\"1932\" to=\"1937\" />\n\t\t\t<date type=\"published\" when=\"2004\">2004</date>\n\t\t</imprint>\n\t</monogr>\n</biblStruct>\n\n<biblStruct xml:id=\"b29\">\n\t<analytic>\n\t\t<title level=\"a\" type=\"main\">Management of chest tubes after pulmonary resection: a systematic review and meta-analysis</title>\n\t\t<author>\n\t\t\t<persName><forename type=\"first\">S</forename><forename type=\"middle\">M</forename><surname>Coughlin</surname></persName>\n\t\t</author>\n\t\t<author>\n\t\t\t<persName><forename type=\"first\">H</forename><forename type=\"middle\">M</forename><surname>Emmerton-Coughlin</surname></persName>\n\t\t</author>\n\t\t<author>\n\t\t\t<persName><forename type=\"first\">R</forename><surname>Malthaner</surname></persName>\n\t\t</author>\n\t\t<idno type=\"DOI\">10.1503/cjs.001411</idno>\n\t</analytic>\n\t<monogr>\n\t\t<title level=\"j\">Can J Surg</title>\n\t\t<imprint>\n\t\t\t<biblScope unit=\"volume\">55</biblScope>\n\t\t\t<biblScope unit=\"issue\">4</biblScope>\n\t\t\t<biblScope unit=\"page\" from=\"264\" to=\"270\" />\n\t\t\t<date type=\"published\" when=\"2012\">2012</date>\n\t\t</imprint>\n\t</monogr>\n</biblStruct>\n\n<biblStruct xml:id=\"b30\">\n\t<analytic>\n\t\t<title level=\"a\" type=\"main\">Tube thoracostomy for occult pneumothorax: a prospective randomized study of its use</title>\n\t\t<author>\n\t\t\t<persName><forename type=\"first\">B</forename><forename type=\"middle\">L</forename><surname>Enderson</surname></persName>\n\t\t</author>\n\t\t<author>\n\t\t\t<persName><forename type=\"first\">R</forename><surname>Abdalla</surname></persName>\n\t\t</author>\n\t\t<author>\n\t\t\t<persName><forename type=\"first\">S</forename><forename type=\"middle\">B</forename><surname>Frame</surname></persName>\n\t\t</author>\n\t\t<author>\n\t\t\t<persName><forename type=\"first\">M</forename><forename type=\"middle\">T</forename><surname>Casey</surname></persName>\n\t\t</author>\n\t\t<author>\n\t\t\t<persName><forename type=\"first\">H</forename><surname>Gould</surname></persName>\n\t\t</author>\n\t\t<author>\n\t\t\t<persName><forename type=\"first\">K</forename><forename type=\"middle\">I</forename><surname>Maull</surname></persName>\n\t\t</author>\n\t\t<idno type=\"DOI\">10.1097/00005373-199311000-00013</idno>\n\t</analytic>\n\t<monogr>\n\t\t<title level=\"j\">J Trauma</title>\n\t\t<imprint>\n\t\t\t<biblScope unit=\"volume\">35</biblScope>\n\t\t\t<biblScope unit=\"issue\">5</biblScope>\n\t\t\t<biblScope unit=\"page\" from=\"726\" to=\"729\" />\n\t\t\t<date type=\"published\" when=\"1993\">1993</date>\n\t\t</imprint>\n\t</monogr>\n</biblStruct>\n\n<biblStruct xml:id=\"b31\">\n\t<analytic>\n\t\t<title level=\"a\" type=\"main\">When to remove a chest tube</title>\n\t\t<author>\n\t\t\t<persName><forename type=\"first\">N</forename><forename type=\"middle\">M</forename><surname>Novoa</surname></persName>\n\t\t</author>\n\t\t<author>\n\t\t\t<persName><forename type=\"first\">M</forename><forename type=\"middle\">F</forename><surname>Jiménez</surname></persName>\n\t\t</author>\n\t\t<author>\n\t\t\t<persName><forename type=\"first\">G</forename><surname>Varela</surname></persName>\n\t\t</author>\n\t\t<idno type=\"DOI\">10.1016/j.thorsurg.2016.08.007</idno>\n\t</analytic>\n\t<monogr>\n\t\t<title level=\"j\">Thorac Surg Clin</title>\n\t\t<imprint>\n\t\t\t<biblScope unit=\"volume\">27</biblScope>\n\t\t\t<biblScope unit=\"issue\">1</biblScope>\n\t\t\t<biblScope unit=\"page\" from=\"41\" to=\"46\" />\n\t\t\t<date type=\"published\" when=\"2017\">2017</date>\n\t\t</imprint>\n\t</monogr>\n</biblStruct>\n\n<biblStruct xml:id=\"b32\">\n\t<analytic>\n\t\t<title level=\"a\" type=\"main\">Results of a prospective algorithm to remove chest tubes after pulmonary resection with high output</title>\n\t\t<author>\n\t\t\t<persName><forename type=\"first\">R</forename><forename type=\"middle\">J</forename><surname>Cerfolio</surname></persName>\n\t\t</author>\n\t\t<author>\n\t\t\t<persName><forename type=\"first\">A</forename><forename type=\"middle\">S</forename><surname>Bryant</surname></persName>\n\t\t</author>\n\t\t<idno type=\"DOI\">10.1016/j.jtcvs.2007.08.066</idno>\n\t</analytic>\n\t<monogr>\n\t\t<title level=\"j\">J Thorac Cardiovasc Surg</title>\n\t\t<imprint>\n\t\t\t<biblScope unit=\"volume\">135</biblScope>\n\t\t\t<biblScope unit=\"issue\">2</biblScope>\n\t\t\t<biblScope unit=\"page\" from=\"269\" to=\"273\" />\n\t\t\t<date type=\"published\" when=\"2008\">2008</date>\n\t\t</imprint>\n\t</monogr>\n</biblStruct>\n\n<biblStruct xml:id=\"b33\">\n\t<analytic>\n\t\t<title level=\"a\" type=\"main\">When to remove a chest tube? a randomized study with subsequent prospective consecutive validation</title>\n\t\t<author>\n\t\t\t<persName><forename type=\"first\">R</forename><forename type=\"middle\">N</forename><surname>Younes</surname></persName>\n\t\t</author>\n\t\t<author>\n\t\t\t<persName><forename type=\"first\">J</forename><forename type=\"middle\">L</forename><surname>Gross</surname></persName>\n\t\t</author>\n\t\t<author>\n\t\t\t<persName><forename type=\"first\">S</forename><surname>Aguiar</surname></persName>\n\t\t</author>\n\t\t<author>\n\t\t\t<persName><forename type=\"first\">F</forename><forename type=\"middle\">J</forename><surname>Haddad</surname></persName>\n\t\t</author>\n\t\t<author>\n\t\t\t<persName><forename type=\"first\">D</forename><surname>Deheinzelin</surname></persName>\n\t\t</author>\n\t\t<idno type=\"DOI\">10.1016/S1072-7515(02)01332-7</idno>\n\t</analytic>\n\t<monogr>\n\t\t<title level=\"j\">J Am Coll Surg</title>\n\t\t<imprint>\n\t\t\t<biblScope unit=\"volume\">195</biblScope>\n\t\t\t<biblScope unit=\"issue\">5</biblScope>\n\t\t\t<biblScope unit=\"page\" from=\"658\" to=\"662\" />\n\t\t\t<date type=\"published\" when=\"2002\">2002</date>\n\t\t</imprint>\n\t</monogr>\n</biblStruct>\n\n<biblStruct xml:id=\"b34\">\n\t<analytic>\n\t\t<title level=\"a\" type=\"main\">Prospective algorithm to remove chest tubes after pulmonary resection with high output-is it valid everywhere?</title>\n\t\t<author>\n\t\t\t<persName><forename type=\"first\">T</forename><surname>Grodzki</surname></persName>\n\t\t</author>\n\t\t<idno type=\"DOI\">10.1016/j.jtcvs.2008.04.017</idno>\n\t</analytic>\n\t<monogr>\n\t\t<title level=\"j\">J Thorac Cardiovasc Surg</title>\n\t\t<imprint>\n\t\t\t<biblScope unit=\"volume\">136</biblScope>\n\t\t\t<biblScope unit=\"issue\">2</biblScope>\n\t\t\t<biblScope unit=\"page\">536</biblScope>\n\t\t\t<date type=\"published\" when=\"2008\">2008</date>\n\t\t</imprint>\n\t</monogr>\n</biblStruct>\n\n<biblStruct xml:id=\"b35\">\n\t<analytic>\n\t\t<title level=\"a\" type=\"main\">Optimizing postoperative care protocols in thoracic surgery: best evidence and new technology</title>\n\t\t<author>\n\t\t\t<persName><forename type=\"first\">D</forename><forename type=\"middle\">G</forename><surname>French</surname></persName>\n\t\t</author>\n\t\t<author>\n\t\t\t<persName><forename type=\"first\">M</forename><surname>Dilena</surname></persName>\n\t\t</author>\n\t\t<author>\n\t\t\t<persName><forename type=\"first\">S</forename><surname>Laplante</surname></persName>\n\t\t</author>\n\t</analytic>\n\t<monogr>\n\t\t<title level=\"j\">J Thorac Dis</title>\n\t\t<imprint>\n\t\t\t<biblScope unit=\"volume\">8</biblScope>\n\t\t\t<biblScope unit=\"issue\">suppl 1</biblScope>\n\t\t\t<biblScope unit=\"page\" from=\"3\" to=\"S11\" />\n\t\t\t<date type=\"published\" when=\"2016\">2016</date>\n\t\t</imprint>\n\t</monogr>\n</biblStruct>\n\n<biblStruct xml:id=\"b36\">\n\t<analytic>\n\t\t<title level=\"a\" type=\"main\">Beyond the tube: can we reduce chest tube complications in trauma patients?</title>\n\t\t<author>\n\t\t\t<persName><forename type=\"first\">C</forename><surname>Platnick</surname></persName>\n\t\t</author>\n\t\t<author>\n\t\t\t<persName><forename type=\"first\">C</forename><forename type=\"middle\">E</forename><surname>Witt</surname></persName>\n\t\t</author>\n\t\t<author>\n\t\t\t<persName><forename type=\"first\">F</forename><forename type=\"middle\">M</forename><surname>Pieracci</surname></persName>\n\t\t</author>\n\t\t<idno type=\"DOI\">10.1016/j.amjsurg.2021.04.008</idno>\n\t</analytic>\n\t<monogr>\n\t\t<title level=\"j\">Am J Surg. Am J Surg</title>\n\t\t<imprint>\n\t\t\t<biblScope unit=\"volume\">222</biblScope>\n\t\t\t<biblScope unit=\"issue\">5</biblScope>\n\t\t\t<biblScope unit=\"page\" from=\"1023\" to=\"1028\" />\n\t\t\t<date type=\"published\" when=\"2021\">2021</date>\n\t\t</imprint>\n\t</monogr>\n</biblStruct>\n\n<biblStruct xml:id=\"b37\">\n\t<analytic>\n\t\t<title level=\"a\" type=\"main\">Tube thoracostomy during the COVID-19 pandemic: guidance and recommendations from the AAST Acute Care Surgery and Critical Care Committees</title>\n\t\t<author>\n\t\t\t<persName><forename type=\"first\">F</forename><forename type=\"middle\">M</forename><surname>Pieracci</surname></persName>\n\t\t</author>\n\t\t<author>\n\t\t\t<persName><forename type=\"first\">C</forename><forename type=\"middle\">C</forename><surname>Burlew</surname></persName>\n\t\t</author>\n\t\t<author>\n\t\t\t<persName><forename type=\"first\">D</forename><surname>Spain</surname></persName>\n\t\t</author>\n\t\t<idno type=\"DOI\">10.1136/tsaco-2020-000498</idno>\n\t</analytic>\n\t<monogr>\n\t\t<title level=\"j\">Trauma Surg Acute Care Open</title>\n\t\t<imprint>\n\t\t\t<biblScope unit=\"volume\">5</biblScope>\n\t\t\t<biblScope unit=\"issue\">1</biblScope>\n\t\t\t<biblScope unit=\"page\">498</biblScope>\n\t\t\t<date type=\"published\" when=\"2020\">2020</date>\n\t\t</imprint>\n\t</monogr>\n</biblStruct>\n\n<biblStruct xml:id=\"b38\">\n\t<analytic>\n\t\t<title level=\"a\" type=\"main\">Complications in tube thoracostomy: systematic review and meta-analysis</title>\n\t\t<author>\n\t\t\t<persName><forename type=\"first\">M</forename><forename type=\"middle\">C</forename><surname>Hernandez</surname></persName>\n\t\t</author>\n\t\t<author>\n\t\t\t<persName><forename type=\"first\">El</forename><surname>Khatib</surname></persName>\n\t\t</author>\n\t\t<author>\n\t\t\t<persName><forename type=\"first\">M</forename><surname>Prokop</surname></persName>\n\t\t</author>\n\t\t<author>\n\t\t\t<persName><forename type=\"first\">L</forename><surname>Zielinski</surname></persName>\n\t\t</author>\n\t\t<author>\n\t\t\t<persName><forename type=\"first\">M</forename><forename type=\"middle\">D</forename><surname>Aho</surname></persName>\n\t\t</author>\n\t\t<author>\n\t\t\t<persName><forename type=\"first\">J</forename><forename type=\"middle\">M</forename></persName>\n\t\t</author>\n\t\t<idno type=\"DOI\">10.1097/TA.0000000000001840</idno>\n\t</analytic>\n\t<monogr>\n\t\t<title level=\"j\">J Trauma Acute Care Surg</title>\n\t\t<imprint>\n\t\t\t<biblScope unit=\"volume\">85</biblScope>\n\t\t\t<biblScope unit=\"issue\">2</biblScope>\n\t\t\t<biblScope unit=\"page\" from=\"410\" to=\"416\" />\n\t\t\t<date type=\"published\" when=\"2018\">2018</date>\n\t\t</imprint>\n\t</monogr>\n</biblStruct>\n\n<biblStruct xml:id=\"b39\">\n\t<analytic>\n\t\t<title level=\"a\" type=\"main\">Chest tube drainage in the age of COVID-19</title>\n\t\t<author>\n\t\t\t<persName><forename type=\"first\">A</forename><forename type=\"middle\">P</forename><surname>Dhanasopon</surname></persName>\n\t\t</author>\n\t\t<author>\n\t\t\t<persName><forename type=\"first\">H</forename><surname>Zurich</surname></persName>\n\t\t</author>\n\t\t<author>\n\t\t\t<persName><forename type=\"first\">A</forename><surname>Preda</surname></persName>\n\t\t</author>\n\t\t<idno type=\"DOI\">10.1016/j.cpha.2020.11.011</idno>\n\t</analytic>\n\t<monogr>\n\t\t<title level=\"j\">Physician Assist Clin</title>\n\t\t<imprint>\n\t\t\t<biblScope unit=\"volume\">6</biblScope>\n\t\t\t<biblScope unit=\"issue\">2</biblScope>\n\t\t\t<biblScope unit=\"page\" from=\"261\" to=\"265\" />\n\t\t\t<date type=\"published\" when=\"2021\">2021</date>\n\t\t</imprint>\n\t</monogr>\n</biblStruct>\n\n<biblStruct xml:id=\"b40\">\n\t<analytic>\n\t\t<title level=\"a\" type=\"main\">Protective measures undertaken during chest tube thoracostomy in COVID-19 outbreak</title>\n\t\t<author>\n\t\t\t<persName><forename type=\"first\">İ</forename><forename type=\"middle\">E</forename><surname>Gedik</surname></persName>\n\t\t</author>\n\t\t<author>\n\t\t\t<persName><forename type=\"first\">T</forename><surname>Alar</surname></persName>\n\t\t</author>\n\t</analytic>\n\t<monogr>\n\t\t<title level=\"j\">Indian J Thorac Cardiovasc Surg</title>\n\t\t<imprint>\n\t\t\t<biblScope unit=\"volume\">37</biblScope>\n\t\t\t<biblScope unit=\"issue\">2</biblScope>\n\t\t\t<biblScope unit=\"page\" from=\"1\" to=\"4\" />\n\t\t\t<date type=\"published\" when=\"2020\">2020</date>\n\t\t</imprint>\n\t</monogr>\n</biblStruct>\n\n<biblStruct xml:id=\"b41\">\n\t<analytic>\n\t\t<title level=\"a\" type=\"main\">Ambulatory management of primary spontaneous pneumothorax: an open-label, randomised controlled trial</title>\n\t\t<author>\n\t\t\t<persName><forename type=\"first\">R</forename><forename type=\"middle\">J</forename><surname>Hallifax</surname></persName>\n\t\t</author>\n\t\t<author>\n\t\t\t<persName><forename type=\"first\">E</forename><surname>Mckeown</surname></persName>\n\t\t</author>\n\t\t<author>\n\t\t\t<persName><forename type=\"first\">P</forename><surname>Sivakumar</surname></persName>\n\t\t</author>\n\t\t<idno type=\"DOI\">10.1016/S0140-6736(20)31043-6</idno>\n\t</analytic>\n\t<monogr>\n\t\t<title level=\"j\">Lancet</title>\n\t\t<imprint>\n\t\t\t<biblScope unit=\"volume\">396</biblScope>\n\t\t\t<biblScope unit=\"issue\">10243</biblScope>\n\t\t\t<biblScope unit=\"page\" from=\"39\" to=\"49\" />\n\t\t\t<date type=\"published\" when=\"2020\">2020</date>\n\t\t</imprint>\n\t</monogr>\n</biblStruct>\n\n<biblStruct xml:id=\"b42\">\n\t<analytic>\n\t\t<title level=\"a\" type=\"main\">Conservative versus interventional treatment for spontaneous pneumothorax</title>\n\t\t<author>\n\t\t\t<persName><forename type=\"first\">Sga</forename><surname>Brown</surname></persName>\n\t\t</author>\n\t\t<author>\n\t\t\t<persName><forename type=\"first\">E</forename><forename type=\"middle\">L</forename><surname>Ball</surname></persName>\n\t\t</author>\n\t\t<author>\n\t\t\t<persName><forename type=\"first\">K</forename><surname>Perrin</surname></persName>\n\t\t</author>\n\t\t<idno type=\"DOI\">10.1056/NEJMoa1910775</idno>\n\t</analytic>\n\t<monogr>\n\t\t<title level=\"j\">N Engl J Med</title>\n\t\t<imprint>\n\t\t\t<biblScope unit=\"volume\">382</biblScope>\n\t\t\t<biblScope unit=\"issue\">5</biblScope>\n\t\t\t<biblScope unit=\"page\" from=\"405\" to=\"415\" />\n\t\t\t<date type=\"published\" when=\"2020\">2020</date>\n\t\t</imprint>\n\t</monogr>\n</biblStruct>\n\n<biblStruct xml:id=\"b43\">\n\t<analytic>\n\t\t<title level=\"a\" type=\"main\">Randomized trial of an improved drainage strategy versus routine chest tube after lung wedge resection</title>\n\t\t<author>\n\t\t\t<persName><forename type=\"first\">J-T</forename><surname>Zhang</surname></persName>\n\t\t</author>\n\t\t<author>\n\t\t\t<persName><forename type=\"first\">S</forename><surname>Dong</surname></persName>\n\t\t</author>\n\t\t<author>\n\t\t\t<persName><forename type=\"first\">X-P</forename><surname>Chu</surname></persName>\n\t\t</author>\n\t\t<idno type=\"DOI\">10.1016/j.athoracsur.2019.11.029</idno>\n\t</analytic>\n\t<monogr>\n\t\t<title level=\"j\">Ann Thorac Surg</title>\n\t\t<imprint>\n\t\t\t<biblScope unit=\"volume\">109</biblScope>\n\t\t\t<biblScope unit=\"issue\">4</biblScope>\n\t\t\t<biblScope unit=\"page\" from=\"1040\" to=\"1046\" />\n\t\t\t<date type=\"published\" when=\"2020\">2020</date>\n\t\t</imprint>\n\t</monogr>\n</biblStruct>\n\n\t\t\t\t</listBibl>\n\t\t\t</div>\n\t\t</back>\n\t</text>\n</TEI>\n"
+  },
+  "umls_links": [],
+  "drugs": [],
+  "trial_ids": [],
+  "assets": {
+    "tables": [],
+    "figures": [
+      {
+        "type": "figure",
+        "content": {
+          "self_ref": "#/pictures/0",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [
+            {
+              "cref": "#/texts/24"
+            },
+            {
+              "cref": "#/texts/25"
+            },
+            {
+              "cref": "#/texts/26"
+            },
+            {
+              "cref": "#/texts/27"
+            },
+            {
+              "cref": "#/texts/28"
+            },
+            {
+              "cref": "#/texts/29"
+            },
+            {
+              "cref": "#/texts/30"
+            },
+            {
+              "cref": "#/texts/31"
+            },
+            {
+              "cref": "#/texts/32"
+            },
+            {
+              "cref": "#/texts/33"
+            },
+            {
+              "cref": "#/texts/34"
+            },
+            {
+              "cref": "#/texts/35"
+            },
+            {
+              "cref": "#/texts/36"
+            },
+            {
+              "cref": "#/texts/37"
+            },
+            {
+              "cref": "#/texts/38"
+            },
+            {
+              "cref": "#/texts/39"
+            },
+            {
+              "cref": "#/texts/40"
+            },
+            {
+              "cref": "#/texts/41"
+            },
+            {
+              "cref": "#/texts/42"
+            },
+            {
+              "cref": "#/texts/43"
+            },
+            {
+              "cref": "#/texts/44"
+            },
+            {
+              "cref": "#/texts/45"
+            },
+            {
+              "cref": "#/texts/46"
+            },
+            {
+              "cref": "#/texts/47"
+            },
+            {
+              "cref": "#/texts/48"
+            },
+            {
+              "cref": "#/texts/49"
+            },
+            {
+              "cref": "#/texts/50"
+            },
+            {
+              "cref": "#/texts/51"
+            },
+            {
+              "cref": "#/texts/52"
+            },
+            {
+              "cref": "#/texts/53"
+            }
+          ],
+          "content_layer": "body",
+          "label": "picture",
+          "prov": [
+            {
+              "page_no": 2,
+              "bbox": {
+                "l": 70.90766143798828,
+                "t": 701.6015319824219,
+                "r": 420.1056213378906,
+                "b": 476.0113220214844,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                0
+              ]
+            }
+          ],
+          "captions": [],
+          "references": [],
+          "footnotes": [],
+          "image": null,
+          "annotations": []
+        },
+        "captions": [
+          "), which is bordered by the edge of the latissimus dorsi muscle, pectoralis major muscle, the base of the axilla, and transverse to the nipple line or inframammary fold, at or above the fifth"
+        ],
+        "footnotes": [
+          "rathoracicpressure,allowingthelungtoreexpandandrestorephysiologic ventilation and cardiac function. 6-9 A tension pneumothorax develops when air enters on inspiration and is unable to escape on expiration. This leads to effective mass effect on intrathoracic structures,suchasthelungitself;mediastinalstructures,suchasthe venaecavae;andcardiacchambers,resultinginhemodynamiccompromise from restricted venous return and cardiac output. This is a medical emergency and should initially be managed with immediate needle thoracentesis to decompress trapped and expanding pleural air before the placement of a formal chest tube.",
+          "ator (t-PA) as the lytic agent allowed for a favorable number of patientstoavoidsurgicalinterventioncomparedwithotherlyticagents. Thecombination of t-PA and dornase (DNase) was associated with a 60% reduction in pleural fluid collection as seen on imaging and with a significant reduction in pleural opacity, compared with placebo in the randomized clinical trial by Rahman et al. 12 When t-PA and DNase were used on their own as opposed to in combination, this study did not find a significant reduction in the pleural fluid collection compared with placebo. 12 The evidence supports combining t-PA and DNase for intrapleural lytic therapy. Given the effectiveness of treating early-phase empyema with a chest tube and intrapleural use of t-PA and DNase, as well as the use of VATS to reduce length of hospital stay, the authors developed a multidisciplinary protocol with general thoracic surgery and interventional pulmonary medicine for the algorithmic care of patients presenting with empyema, starting with a small-bore chest tube placement followed by intrapleural use of t-PA and DNase. If this initial step is unsuccessful, the next stage of the pathway is thoracic surgical consultation for VATS decortication ( Figure 1 ).",
+          "Interventional pulmononologist (IP) recommends thoracic surgery evaluation for late presentation (>7 d from index symptoms) plus thick pleural rind or for very complex effusion. ED, emergency department; ICU, intensive care unit; PA, tissue plasminogen activator.",
+          "ntercostal space. 13,14,18-20 However,placementofchesttubesisalso influenced by the indication. For an apical pneumothorax, a chest tube can be placed in the second intercostal space in the midclavicular line, although less comfortable for the patient, and adequate drainage of an unloculated pneumothorax can be performed via lateral insertion at the fifth intercostal space. 14,18 If the tube is placed in the triangle of safety, it is important to place it in a line anterior to the anterior superior iliac spine. Placing in the tube in a line behind this surface landmark may cause the patient to lie on the tube when in the supine position and mechanically occlude thetube.Forapleuraleffusion,alowerintercostalspacemaybeused for insertion but special care must be taken to avoid penetrating the diaphragm, and subsequently the liver on the right and spleen and bowel on the left. 13",
+          "ead to small vessel disruption and subsequently hemothorax. 13,14 The Seldinger technique uses guidewires and tract dilators to assist the tube into the pleural cavity, all under ultrasonography guidance. 19,21 Lastly, the trocar method may be used; however, it is associatedwithmorecomplicationsowingtotherigidtipofthetrocar causing intrathoracic injuries and has subsequently fallen out of favorforchesttubeinsertion. 19,20,22 Regardlessoftheinsertiontechnique, the chest tube needs to be advanced on the superior edge of the rib to avoid the neurovascular bundle bordering the rib above. 13,14 It should also be positioned posteriorly and advanced until the tip is in a posteroapical location. The tube should also be fully inserted to ensure that the most proximal (sentinel) hole is within thepleuralspacetoallowthechesttubetofunctionproperly. 14 Lastly, it is important to secure the chest tube with a suture to prevent it from falling out. Most tubes can be removed without suture skin closure, but in children and adults with very low body mass index (calculated as weight in kilograms divided by height in meters squared),placementofanuntiedadjunctivechesttubesutureatthe timeofinsertionallowsforclosureofskindefectsatthetimeoftube removal, especially large-bore tubes, to prevent entraining atmospheric air with tube removal.",
+          "oundation of the modern PDU devices today, some of which are digitally operated.",
+          "ng suction over water seal for both postthoracic surgery patients and traumatic chest injury patients, until resolution of air leak.",
+          "uring the conduct of the study. No other disclosures were reported.",
+          "ntended. Ann Surg . 1922;75(3):257-320. doi:10.1097/00000658-192203000-00001",
+          "esection with high output. J Thorac Cardiovasc Surg . 2008;135(2):269-273. doi:10.1016/j.jtcvs.2007. 08.066"
+        ]
+      },
+      {
+        "type": "figure",
+        "content": {
+          "self_ref": "#/pictures/1",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [
+            {
+              "cref": "#/texts/69"
+            },
+            {
+              "cref": "#/texts/70"
+            },
+            {
+              "cref": "#/texts/71"
+            },
+            {
+              "cref": "#/texts/72"
+            },
+            {
+              "cref": "#/texts/73"
+            }
+          ],
+          "content_layer": "body",
+          "label": "picture",
+          "prov": [
+            {
+              "page_no": 3,
+              "bbox": {
+                "l": 71.73699951171875,
+                "t": 707.0452651977539,
+                "r": 299.6333312988281,
+                "b": 576.3371276855469,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                0
+              ]
+            }
+          ],
+          "captions": [],
+          "references": [],
+          "footnotes": [],
+          "image": null,
+          "annotations": []
+        },
+        "captions": [
+          "), which is bordered by the edge of the latissimus dorsi muscle, pectoralis major muscle, the base of the axilla, and transverse to the nipple line or inframammary fold, at or above the fifth"
+        ],
+        "footnotes": [
+          "rathoracicpressure,allowingthelungtoreexpandandrestorephysiologic ventilation and cardiac function. 6-9 A tension pneumothorax develops when air enters on inspiration and is unable to escape on expiration. This leads to effective mass effect on intrathoracic structures,suchasthelungitself;mediastinalstructures,suchasthe venaecavae;andcardiacchambers,resultinginhemodynamiccompromise from restricted venous return and cardiac output. This is a medical emergency and should initially be managed with immediate needle thoracentesis to decompress trapped and expanding pleural air before the placement of a formal chest tube.",
+          "ator (t-PA) as the lytic agent allowed for a favorable number of patientstoavoidsurgicalinterventioncomparedwithotherlyticagents. Thecombination of t-PA and dornase (DNase) was associated with a 60% reduction in pleural fluid collection as seen on imaging and with a significant reduction in pleural opacity, compared with placebo in the randomized clinical trial by Rahman et al. 12 When t-PA and DNase were used on their own as opposed to in combination, this study did not find a significant reduction in the pleural fluid collection compared with placebo. 12 The evidence supports combining t-PA and DNase for intrapleural lytic therapy. Given the effectiveness of treating early-phase empyema with a chest tube and intrapleural use of t-PA and DNase, as well as the use of VATS to reduce length of hospital stay, the authors developed a multidisciplinary protocol with general thoracic surgery and interventional pulmonary medicine for the algorithmic care of patients presenting with empyema, starting with a small-bore chest tube placement followed by intrapleural use of t-PA and DNase. If this initial step is unsuccessful, the next stage of the pathway is thoracic surgical consultation for VATS decortication ( Figure 1 ).",
+          "Interventional pulmononologist (IP) recommends thoracic surgery evaluation for late presentation (>7 d from index symptoms) plus thick pleural rind or for very complex effusion. ED, emergency department; ICU, intensive care unit; PA, tissue plasminogen activator.",
+          "ntercostal space. 13,14,18-20 However,placementofchesttubesisalso influenced by the indication. For an apical pneumothorax, a chest tube can be placed in the second intercostal space in the midclavicular line, although less comfortable for the patient, and adequate drainage of an unloculated pneumothorax can be performed via lateral insertion at the fifth intercostal space. 14,18 If the tube is placed in the triangle of safety, it is important to place it in a line anterior to the anterior superior iliac spine. Placing in the tube in a line behind this surface landmark may cause the patient to lie on the tube when in the supine position and mechanically occlude thetube.Forapleuraleffusion,alowerintercostalspacemaybeused for insertion but special care must be taken to avoid penetrating the diaphragm, and subsequently the liver on the right and spleen and bowel on the left. 13",
+          "ead to small vessel disruption and subsequently hemothorax. 13,14 The Seldinger technique uses guidewires and tract dilators to assist the tube into the pleural cavity, all under ultrasonography guidance. 19,21 Lastly, the trocar method may be used; however, it is associatedwithmorecomplicationsowingtotherigidtipofthetrocar causing intrathoracic injuries and has subsequently fallen out of favorforchesttubeinsertion. 19,20,22 Regardlessoftheinsertiontechnique, the chest tube needs to be advanced on the superior edge of the rib to avoid the neurovascular bundle bordering the rib above. 13,14 It should also be positioned posteriorly and advanced until the tip is in a posteroapical location. The tube should also be fully inserted to ensure that the most proximal (sentinel) hole is within thepleuralspacetoallowthechesttubetofunctionproperly. 14 Lastly, it is important to secure the chest tube with a suture to prevent it from falling out. Most tubes can be removed without suture skin closure, but in children and adults with very low body mass index (calculated as weight in kilograms divided by height in meters squared),placementofanuntiedadjunctivechesttubesutureatthe timeofinsertionallowsforclosureofskindefectsatthetimeoftube removal, especially large-bore tubes, to prevent entraining atmospheric air with tube removal.",
+          "oundation of the modern PDU devices today, some of which are digitally operated.",
+          "ng suction over water seal for both postthoracic surgery patients and traumatic chest injury patients, until resolution of air leak.",
+          "uring the conduct of the study. No other disclosures were reported.",
+          "ntended. Ann Surg . 1922;75(3):257-320. doi:10.1097/00000658-192203000-00001",
+          "esection with high output. J Thorac Cardiovasc Surg . 2008;135(2):269-273. doi:10.1016/j.jtcvs.2007. 08.066"
+        ]
+      },
+      {
+        "type": "figure",
+        "content": {
+          "self_ref": "#/pictures/2",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [
+            {
+              "cref": "#/texts/77"
+            },
+            {
+              "cref": "#/texts/78"
+            },
+            {
+              "cref": "#/texts/79"
+            },
+            {
+              "cref": "#/texts/80"
+            },
+            {
+              "cref": "#/texts/81"
+            }
+          ],
+          "content_layer": "body",
+          "label": "picture",
+          "prov": [
+            {
+              "page_no": 3,
+              "bbox": {
+                "l": 310.69378662109375,
+                "t": 700.2358551025391,
+                "r": 539.7239379882812,
+                "b": 497.1559753417969,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                0
+              ]
+            }
+          ],
+          "captions": [],
+          "references": [],
+          "footnotes": [],
+          "image": null,
+          "annotations": []
+        },
+        "captions": [
+          "), which is bordered by the edge of the latissimus dorsi muscle, pectoralis major muscle, the base of the axilla, and transverse to the nipple line or inframammary fold, at or above the fifth"
+        ],
+        "footnotes": [
+          "rathoracicpressure,allowingthelungtoreexpandandrestorephysiologic ventilation and cardiac function. 6-9 A tension pneumothorax develops when air enters on inspiration and is unable to escape on expiration. This leads to effective mass effect on intrathoracic structures,suchasthelungitself;mediastinalstructures,suchasthe venaecavae;andcardiacchambers,resultinginhemodynamiccompromise from restricted venous return and cardiac output. This is a medical emergency and should initially be managed with immediate needle thoracentesis to decompress trapped and expanding pleural air before the placement of a formal chest tube.",
+          "ator (t-PA) as the lytic agent allowed for a favorable number of patientstoavoidsurgicalinterventioncomparedwithotherlyticagents. Thecombination of t-PA and dornase (DNase) was associated with a 60% reduction in pleural fluid collection as seen on imaging and with a significant reduction in pleural opacity, compared with placebo in the randomized clinical trial by Rahman et al. 12 When t-PA and DNase were used on their own as opposed to in combination, this study did not find a significant reduction in the pleural fluid collection compared with placebo. 12 The evidence supports combining t-PA and DNase for intrapleural lytic therapy. Given the effectiveness of treating early-phase empyema with a chest tube and intrapleural use of t-PA and DNase, as well as the use of VATS to reduce length of hospital stay, the authors developed a multidisciplinary protocol with general thoracic surgery and interventional pulmonary medicine for the algorithmic care of patients presenting with empyema, starting with a small-bore chest tube placement followed by intrapleural use of t-PA and DNase. If this initial step is unsuccessful, the next stage of the pathway is thoracic surgical consultation for VATS decortication ( Figure 1 ).",
+          "Interventional pulmononologist (IP) recommends thoracic surgery evaluation for late presentation (>7 d from index symptoms) plus thick pleural rind or for very complex effusion. ED, emergency department; ICU, intensive care unit; PA, tissue plasminogen activator.",
+          "ntercostal space. 13,14,18-20 However,placementofchesttubesisalso influenced by the indication. For an apical pneumothorax, a chest tube can be placed in the second intercostal space in the midclavicular line, although less comfortable for the patient, and adequate drainage of an unloculated pneumothorax can be performed via lateral insertion at the fifth intercostal space. 14,18 If the tube is placed in the triangle of safety, it is important to place it in a line anterior to the anterior superior iliac spine. Placing in the tube in a line behind this surface landmark may cause the patient to lie on the tube when in the supine position and mechanically occlude thetube.Forapleuraleffusion,alowerintercostalspacemaybeused for insertion but special care must be taken to avoid penetrating the diaphragm, and subsequently the liver on the right and spleen and bowel on the left. 13",
+          "ead to small vessel disruption and subsequently hemothorax. 13,14 The Seldinger technique uses guidewires and tract dilators to assist the tube into the pleural cavity, all under ultrasonography guidance. 19,21 Lastly, the trocar method may be used; however, it is associatedwithmorecomplicationsowingtotherigidtipofthetrocar causing intrathoracic injuries and has subsequently fallen out of favorforchesttubeinsertion. 19,20,22 Regardlessoftheinsertiontechnique, the chest tube needs to be advanced on the superior edge of the rib to avoid the neurovascular bundle bordering the rib above. 13,14 It should also be positioned posteriorly and advanced until the tip is in a posteroapical location. The tube should also be fully inserted to ensure that the most proximal (sentinel) hole is within thepleuralspacetoallowthechesttubetofunctionproperly. 14 Lastly, it is important to secure the chest tube with a suture to prevent it from falling out. Most tubes can be removed without suture skin closure, but in children and adults with very low body mass index (calculated as weight in kilograms divided by height in meters squared),placementofanuntiedadjunctivechesttubesutureatthe timeofinsertionallowsforclosureofskindefectsatthetimeoftube removal, especially large-bore tubes, to prevent entraining atmospheric air with tube removal.",
+          "oundation of the modern PDU devices today, some of which are digitally operated.",
+          "ng suction over water seal for both postthoracic surgery patients and traumatic chest injury patients, until resolution of air leak.",
+          "uring the conduct of the study. No other disclosures were reported.",
+          "ntended. Ann Surg . 1922;75(3):257-320. doi:10.1097/00000658-192203000-00001",
+          "esection with high output. J Thorac Cardiovasc Surg . 2008;135(2):269-273. doi:10.1016/j.jtcvs.2007. 08.066"
+        ]
+      },
+      {
+        "type": "figure",
+        "content": {
+          "self_ref": "#/pictures/3",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "label": "picture",
+          "prov": [
+            {
+              "page_no": 4,
+              "bbox": {
+                "l": 71.31449890136719,
+                "t": 690.3301696777344,
+                "r": 419.6529846191406,
+                "b": 541.2604675292969,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                0
+              ]
+            }
+          ],
+          "captions": [],
+          "references": [],
+          "footnotes": [],
+          "image": null,
+          "annotations": []
+        },
+        "captions": [
+          "), which is bordered by the edge of the latissimus dorsi muscle, pectoralis major muscle, the base of the axilla, and transverse to the nipple line or inframammary fold, at or above the fifth"
+        ],
+        "footnotes": [
+          "rathoracicpressure,allowingthelungtoreexpandandrestorephysiologic ventilation and cardiac function. 6-9 A tension pneumothorax develops when air enters on inspiration and is unable to escape on expiration. This leads to effective mass effect on intrathoracic structures,suchasthelungitself;mediastinalstructures,suchasthe venaecavae;andcardiacchambers,resultinginhemodynamiccompromise from restricted venous return and cardiac output. This is a medical emergency and should initially be managed with immediate needle thoracentesis to decompress trapped and expanding pleural air before the placement of a formal chest tube.",
+          "ator (t-PA) as the lytic agent allowed for a favorable number of patientstoavoidsurgicalinterventioncomparedwithotherlyticagents. Thecombination of t-PA and dornase (DNase) was associated with a 60% reduction in pleural fluid collection as seen on imaging and with a significant reduction in pleural opacity, compared with placebo in the randomized clinical trial by Rahman et al. 12 When t-PA and DNase were used on their own as opposed to in combination, this study did not find a significant reduction in the pleural fluid collection compared with placebo. 12 The evidence supports combining t-PA and DNase for intrapleural lytic therapy. Given the effectiveness of treating early-phase empyema with a chest tube and intrapleural use of t-PA and DNase, as well as the use of VATS to reduce length of hospital stay, the authors developed a multidisciplinary protocol with general thoracic surgery and interventional pulmonary medicine for the algorithmic care of patients presenting with empyema, starting with a small-bore chest tube placement followed by intrapleural use of t-PA and DNase. If this initial step is unsuccessful, the next stage of the pathway is thoracic surgical consultation for VATS decortication ( Figure 1 ).",
+          "Interventional pulmononologist (IP) recommends thoracic surgery evaluation for late presentation (>7 d from index symptoms) plus thick pleural rind or for very complex effusion. ED, emergency department; ICU, intensive care unit; PA, tissue plasminogen activator.",
+          "ntercostal space. 13,14,18-20 However,placementofchesttubesisalso influenced by the indication. For an apical pneumothorax, a chest tube can be placed in the second intercostal space in the midclavicular line, although less comfortable for the patient, and adequate drainage of an unloculated pneumothorax can be performed via lateral insertion at the fifth intercostal space. 14,18 If the tube is placed in the triangle of safety, it is important to place it in a line anterior to the anterior superior iliac spine. Placing in the tube in a line behind this surface landmark may cause the patient to lie on the tube when in the supine position and mechanically occlude thetube.Forapleuraleffusion,alowerintercostalspacemaybeused for insertion but special care must be taken to avoid penetrating the diaphragm, and subsequently the liver on the right and spleen and bowel on the left. 13",
+          "ead to small vessel disruption and subsequently hemothorax. 13,14 The Seldinger technique uses guidewires and tract dilators to assist the tube into the pleural cavity, all under ultrasonography guidance. 19,21 Lastly, the trocar method may be used; however, it is associatedwithmorecomplicationsowingtotherigidtipofthetrocar causing intrathoracic injuries and has subsequently fallen out of favorforchesttubeinsertion. 19,20,22 Regardlessoftheinsertiontechnique, the chest tube needs to be advanced on the superior edge of the rib to avoid the neurovascular bundle bordering the rib above. 13,14 It should also be positioned posteriorly and advanced until the tip is in a posteroapical location. The tube should also be fully inserted to ensure that the most proximal (sentinel) hole is within thepleuralspacetoallowthechesttubetofunctionproperly. 14 Lastly, it is important to secure the chest tube with a suture to prevent it from falling out. Most tubes can be removed without suture skin closure, but in children and adults with very low body mass index (calculated as weight in kilograms divided by height in meters squared),placementofanuntiedadjunctivechesttubesutureatthe timeofinsertionallowsforclosureofskindefectsatthetimeoftube removal, especially large-bore tubes, to prevent entraining atmospheric air with tube removal.",
+          "oundation of the modern PDU devices today, some of which are digitally operated.",
+          "ng suction over water seal for both postthoracic surgery patients and traumatic chest injury patients, until resolution of air leak.",
+          "uring the conduct of the study. No other disclosures were reported.",
+          "ntended. Ann Surg . 1922;75(3):257-320. doi:10.1097/00000658-192203000-00001",
+          "esection with high output. J Thorac Cardiovasc Surg . 2008;135(2):269-273. doi:10.1016/j.jtcvs.2007. 08.066"
+        ]
+      }
+    ]
+  },
+  "statistics": [],
+  "validation": {
+    "checks": {
+      "has_title": true,
+      "has_authors": true,
+      "authors_are_valid": false,
+      "has_sections": true,
+      "sections_have_content": true,
+      "has_tables": false,
+      "tables_have_captions": true,
+      "tables_have_data": true,
+      "has_figures": true,
+      "figures_have_captions": false,
+      "figures_have_images": false,
+      "has_entities": false,
+      "has_statistics": false,
+      "has_references": true,
+      "refs_structured": true,
+      "refs_enriched_some": false,
+      "references_enriched": false,
+      "has_references_csv": false,
+      "has_cross_refs": false,
+      "umls_links": false,
+      "figures_textual_count": 0
+    },
+    "completeness_score": 53,
+    "is_valid": false,
+    "issues": [],
+    "warnings": [
+      "No medical entities found",
+      "No statistics extracted",
+      "Some figures missing captions"
+    ],
+    "quality_level": "poor"
+  }
+}
