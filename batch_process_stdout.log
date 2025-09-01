@@ -4917,3 +4917,108 @@ To https://github.com/russellmiller49/Medparse.git
 2025-09-01 07:09:11.592 | SUCCESS  | __main__:process_single_pdf:71 - ✓ Successfully processed CHEST CAO
 2025-09-01 07:09:11.592 | INFO     | __main__:main:198 - Reached 340 successful processes, committing intermediate results...
 2025-09-01 07:09:11.592 | INFO     | __main__:git_commit_and_push:129 - Adding changes to git...
+2025-09-01 07:09:11.730 | INFO     | __main__:git_commit_and_push:145 - Creating git commit...
+[fix/extraction-hardening 536b158] feat: Batch processed 340 PDFs (intermediate commit)
+ 68 files changed, 206119 insertions(+)
+ create mode 100644 out/batch_processed/Bronchoscopic lung volume reduction with endob.json
+ create mode 100644 out/batch_processed/CHEST CAO.json
+ create mode 100644 out/batch_processed/Covid-19 impact on interventional pulmonology training.json
+ create mode 100644 out/batch_processed/Dresler-2005-Phase III intergroup study of tal.json
+ create mode 100644 out/batch_processed/EBUS for the Diagnosis and Subtyping of Lymphoma.json
+ create mode 100644 out/batch_processed/External irradiation versus external irradiati.json
+ create mode 100644 out/batch_processed/Nd-YAG laser vs bronchoscopic electrocautery.json
+ create mode 100644 out/batch_processed/Percutaneous endoscopic gastrostomy. Indicatio.json
+ create mode 100644 out/batch_processed/fistula Airway Covered Metallic Stent Based on Differe.json
+ create mode 100644 out/batch_processed/update_on_airway_stents.json
+ create mode 100644 out/figures/Bronchoscopic lung volume reduction with endob_fig01.jpg
+ create mode 100644 out/figures/Bronchoscopic lung volume reduction with endob_fig02.jpg
+ create mode 100644 out/figures/Bronchoscopic lung volume reduction with endob_fig03.jpg
+ create mode 100644 out/figures/CHEST CAO_fig01.jpg
+ create mode 100644 out/figures/CHEST CAO_fig02.jpg
+ create mode 100644 out/figures/CHEST CAO_fig03.jpg
+ create mode 100644 out/figures/CHEST CAO_figure2.jpg
+ create mode 100644 out/figures/Covid-19 impact on interventional pulmonology training_fig01.jpg
+ create mode 100644 out/figures/Covid-19 impact on interventional pulmonology training_fig02.jpg
+ create mode 100644 out/figures/Covid-19 impact on interventional pulmonology training_fig03.jpg
+ create mode 100644 out/figures/Dresler-2005-Phase III intergroup study of tal_fig01.jpg
+ create mode 100644 out/figures/Dresler-2005-Phase III intergroup study of tal_fig02.jpg
+ create mode 100644 out/figures/Dresler-2005-Phase III intergroup study of tal_fig03.jpg
+ create mode 100644 out/figures/EBUS for the Diagnosis and Subtyping of Lymphoma_fig01.jpg
+ create mode 100644 out/figures/EBUS for the Diagnosis and Subtyping of Lymphoma_figure2.jpg
+ create mode 100644 out/figures/EBUS for the Diagnosis and Subtyping of Lymphoma_figure3.jpg
+ create mode 100644 out/figures/External irradiation versus external irradiati_fig01.jpg
+ create mode 100644 out/figures/External irradiation versus external irradiati_fig02.jpg
+ create mode 100644 out/figures/External irradiation versus external irradiati_fig03.jpg
+ create mode 100644 out/figures/External irradiation versus external irradiati_fig04.jpg
+ create mode 100644 out/figures/External irradiation versus external irradiati_fig05.jpg
+ create mode 100644 out/figures/Nd-YAG laser vs bronchoscopic electrocautery_fig01.jpg
+ create mode 100644 out/figures/Nd-YAG laser vs bronchoscopic electrocautery_fig02.jpg
+ create mode 100644 out/figures/Percutaneous endoscopic gastrostomy. Indicatio_fig01.jpg
+ create mode 100644 out/figures/Percutaneous endoscopic gastrostomy. Indicatio_fig02.jpg
+ create mode 100644 out/figures/Percutaneous endoscopic gastrostomy. Indicatio_fig03.jpg
+ create mode 100644 out/figures/Percutaneous endoscopic gastrostomy. Indicatio_fig05.jpg
+ create mode 100644 out/figures/Percutaneous endoscopic gastrostomy. Indicatio_fig2.jpg
+ create mode 100644 out/figures/fistula Airway Covered Metallic Stent Based on Differe_fig01.jpg
+ create mode 100644 out/figures/fistula Airway Covered Metallic Stent Based on Differe_fig02.jpg
+ create mode 100644 out/figures/fistula Airway Covered Metallic Stent Based on Differe_fig03.jpg
+ create mode 100644 out/figures/fistula Airway Covered Metallic Stent Based on Differe_fig04.jpg
+ create mode 100644 out/figures/fistula Airway Covered Metallic Stent Based on Differe_fig05.jpg
+ create mode 100644 out/figures/fistula Airway Covered Metallic Stent Based on Differe_fig06.jpg
+ create mode 100644 out/figures/update_on_airway_stents_fig01.jpg
+ create mode 100644 out/figures/update_on_airway_stents_fig02.jpg
+ create mode 100644 out/qa/Bronchoscopic lung volume reduction with endob__umls.qa.json
+ create mode 100644 out/qa/CHEST CAO__umls.qa.json
+ create mode 100644 out/qa/Covid-19 impact on interventional pulmonology training__umls.qa.json
+ create mode 100644 out/qa/Dresler-2005-Phase III intergroup study of tal__umls.qa.json
+ create mode 100644 out/qa/EBUS for the Diagnosis and Subtyping of Lymphoma__umls.qa.json
+ create mode 100644 out/qa/External irradiation versus external irradiati__umls.qa.json
+ create mode 100644 out/qa/Nd-YAG laser vs bronchoscopic electrocautery__umls.qa.json
+ create mode 100644 out/qa/Percutaneous endoscopic gastrostomy. Indicatio__umls.qa.json
+ create mode 100644 out/qa/fistula Airway Covered Metallic Stent Based on Differe__umls.qa.json
+ create mode 100644 out/qa/update_on_airway_stents__umls.qa.json
+ create mode 100644 out/references/Bronchoscopic lung volume reduction with endob.refs.csv
+ create mode 100644 out/references/CHEST CAO.refs.csv
+ create mode 100644 out/references/Covid-19 impact on interventional pulmonology training.refs.csv
+ create mode 100644 out/references/Dresler-2005-Phase III intergroup study of tal.refs.csv
+ create mode 100644 out/references/EBUS for the Diagnosis and Subtyping of Lymphoma.refs.csv
+ create mode 100644 out/references/External irradiation versus external irradiati.refs.csv
+ create mode 100644 out/references/Nd-YAG laser vs bronchoscopic electrocautery.refs.csv
+ create mode 100644 out/references/Percutaneous endoscopic gastrostomy. Indicatio.refs.csv
+ create mode 100644 out/references/fistula Airway Covered Metallic Stent Based on Differe.refs.csv
+ create mode 100644 out/references/update_on_airway_stents.refs.csv
+2025-09-01 07:09:11.764 | INFO     | __main__:git_commit_and_push:158 - Pushing to origin/fix/extraction-hardening...
+To https://github.com/russellmiller49/Medparse.git
+   78af001..536b158  fix/extraction-hardening -> fix/extraction-hardening
+2025-09-01 07:09:15.674 | SUCCESS  | __main__:git_commit_and_push:161 - ✓ Successfully pushed to GitHub (branch: fix/extraction-hardening)
+2025-09-01 07:09:15.674 | INFO     | __main__:main:189 - [346/414] Processing complications_of_bronchoscopy__a_concise_synopsis.pdf
+2025-09-01 07:09:15.675 | INFO     | __main__:process_single_pdf:52 - Processing complications_of_bronchoscopy__a_concise_synopsis.pdf...
+2025-09-01 07:10:46.985 | SUCCESS  | __main__:process_single_pdf:71 - ✓ Successfully processed complications_of_bronchoscopy__a_concise_synopsis
+2025-09-01 07:10:46.985 | INFO     | __main__:main:189 - [347/414] Processing Tranexamic acid vs adrenaline for controlling iatrogenic bleeding during flexible bronchoscopy.pdf
+2025-09-01 07:10:46.985 | INFO     | __main__:process_single_pdf:52 - Processing Tranexamic acid vs adrenaline for controlling iatrogenic bleeding during flexible bronchoscopy.pdf...
+2025-09-01 07:12:12.915 | SUCCESS  | __main__:process_single_pdf:71 - ✓ Successfully processed Tranexamic acid vs adrenaline for controlling iatrogenic bleeding during flexible bronchoscopy
+2025-09-01 07:12:12.916 | INFO     | __main__:main:189 - [348/414] Processing IP extending breath of care.pdf
+2025-09-01 07:12:12.916 | INFO     | __main__:process_single_pdf:52 - Processing IP extending breath of care.pdf...
+2025-09-01 07:14:44.279 | SUCCESS  | __main__:process_single_pdf:71 - ✓ Successfully processed IP extending breath of care
+2025-09-01 07:14:44.279 | INFO     | __main__:main:189 - [349/414] Processing Clinical Success Stenting Distal Bronchi.pdf
+2025-09-01 07:14:44.279 | INFO     | __main__:process_single_pdf:52 - Processing Clinical Success Stenting Distal Bronchi.pdf...
+2025-09-01 07:15:27.280 | SUCCESS  | __main__:process_single_pdf:71 - ✓ Successfully processed Clinical Success Stenting Distal Bronchi
+2025-09-01 07:15:27.280 | INFO     | __main__:main:189 - [350/414] Processing Evaluation of a EBUS  forceps in enlarged mediastinal lymph nodes.pdf
+2025-09-01 07:15:27.280 | INFO     | __main__:process_single_pdf:52 - Processing Evaluation of a EBUS  forceps in enlarged mediastinal lymph nodes.pdf...
+2025-09-01 07:18:33.185 | SUCCESS  | __main__:process_single_pdf:71 - ✓ Successfully processed Evaluation of a EBUS  forceps in enlarged mediastinal lymph nodes
+2025-09-01 07:18:33.186 | INFO     | __main__:main:189 - [351/414] Processing Robotic bronchoscopy for pulmonary lesions a review of existing technologies and clinical data.pdf
+2025-09-01 07:18:33.186 | INFO     | __main__:process_single_pdf:52 - Processing Robotic bronchoscopy for pulmonary lesions a review of existing technologies and clinical data.pdf...
+2025-09-01 07:20:57.202 | SUCCESS  | __main__:process_single_pdf:71 - ✓ Successfully processed Robotic bronchoscopy for pulmonary lesions a review of existing technologies and clinical data
+2025-09-01 07:20:57.202 | INFO     | __main__:main:189 - [352/414] Processing Bhatnagar-2020-Effect of Thoracoscopic Talc Po.pdf
+2025-09-01 07:20:57.202 | INFO     | __main__:process_single_pdf:52 - Processing Bhatnagar-2020-Effect of Thoracoscopic Talc Po.pdf...
+2025-09-01 07:22:19.070 | SUCCESS  | __main__:process_single_pdf:71 - ✓ Successfully processed Bhatnagar-2020-Effect of Thoracoscopic Talc Po
+2025-09-01 07:22:19.070 | INFO     | __main__:main:189 - [353/414] Processing Palliative Care and Interventional Pulmonology.pdf
+2025-09-01 07:22:19.070 | INFO     | __main__:process_single_pdf:52 - Processing Palliative Care and Interventional Pulmonology.pdf...
+2025-09-01 07:27:41.265 | SUCCESS  | __main__:process_single_pdf:71 - ✓ Successfully processed Palliative Care and Interventional Pulmonology
+2025-09-01 07:27:41.265 | INFO     | __main__:main:189 - [354/414] Processing Anesthetic considerations for bronchoscopic procedures.pdf
+2025-09-01 07:27:41.266 | INFO     | __main__:process_single_pdf:52 - Processing Anesthetic considerations for bronchoscopic procedures.pdf...
+2025-09-01 07:33:45.649 | SUCCESS  | __main__:process_single_pdf:71 - ✓ Successfully processed Anesthetic considerations for bronchoscopic procedures
+2025-09-01 07:33:45.650 | INFO     | __main__:main:189 - [355/414] Processing Jet Ventilation during Rigid Bronchoscopy in Adults.pdf
+2025-09-01 07:33:45.650 | INFO     | __main__:process_single_pdf:52 - Processing Jet Ventilation during Rigid Bronchoscopy in Adults.pdf...
+2025-09-01 07:35:18.230 | SUCCESS  | __main__:process_single_pdf:71 - ✓ Successfully processed Jet Ventilation during Rigid Bronchoscopy in Adults
+2025-09-01 07:35:18.231 | INFO     | __main__:main:198 - Reached 350 successful processes, committing intermediate results...
+2025-09-01 07:35:18.231 | INFO     | __main__:git_commit_and_push:129 - Adding changes to git...
