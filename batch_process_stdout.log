@@ -4710,3 +4710,210 @@ To https://github.com/russellmiller49/Medparse.git
 2025-09-01 06:54:52.367 | SUCCESS  | __main__:process_single_pdf:71 - ✓ Successfully processed surigicalLVR Consolidating LVRS After Endoscopic LVR Failur
 2025-09-01 06:54:52.367 | INFO     | __main__:main:198 - Reached 330 successful processes, committing intermediate results...
 2025-09-01 06:54:52.367 | INFO     | __main__:git_commit_and_push:129 - Adding changes to git...
+2025-09-01 06:54:52.683 | INFO     | __main__:git_commit_and_push:145 - Creating git commit...
+[fix/extraction-hardening 78af001] feat: Batch processed 330 PDFs (intermediate commit)
+ 171 files changed, 175644 insertions(+), 1 deletion(-)
+ create mode 100644 out/batch_processed/American Brachytherapy Society consensus guide.json
+ create mode 100644 out/batch_processed/Diagnostic Yield and Bleeding Complications.json
+ create mode 100644 out/batch_processed/Forbearance With Bronchoscopy.json
+ create mode 100644 out/batch_processed/Kashiwabara-2021-Efficacy and safety of transb.json
+ create mode 100644 out/batch_processed/Management of Benign Pleural Effusions Using I.json
+ create mode 100644 out/batch_processed/Saftey of rigid in bronch suite.json
+ create mode 100644 out/batch_processed/Sullivan-2021-Earlier diagnosis of lung cancer (1).json
+ create mode 100644 out/batch_processed/Valipour-2020-Bronchial Rheoplasty for Treatme.json
+ create mode 100644 out/batch_processed/safety_and_clinical_utility_of_flexible.3.json
+ create mode 100644 out/batch_processed/surigicalLVR Consolidating LVRS After Endoscopic LVR Failur.json
+ create mode 100644 out/figures/American Brachytherapy Society consensus guide_fig01.jpg
+ create mode 100644 out/figures/American Brachytherapy Society consensus guide_fig02.jpg
+ create mode 100644 out/figures/Forbearance With Bronchoscopy_fig01.jpg
+ create mode 100644 out/figures/Forbearance With Bronchoscopy_fig02.jpg
+ create mode 100644 out/figures/Forbearance With Bronchoscopy_fig03.jpg
+ create mode 100644 out/figures/Forbearance With Bronchoscopy_fig04.jpg
+ create mode 100644 out/figures/Forbearance With Bronchoscopy_fig05.jpg
+ create mode 100644 out/figures/Forbearance With Bronchoscopy_fig06.jpg
+ create mode 100644 out/figures/Forbearance With Bronchoscopy_fig07.jpg
+ create mode 100644 out/figures/Forbearance With Bronchoscopy_fig08.jpg
+ create mode 100644 out/figures/Forbearance With Bronchoscopy_fig09.jpg
+ create mode 100644 out/figures/Forbearance With Bronchoscopy_fig10.jpg
+ create mode 100644 out/figures/Forbearance With Bronchoscopy_fig11.jpg
+ create mode 100644 out/figures/Forbearance With Bronchoscopy_fig12.jpg
+ create mode 100644 out/figures/Forbearance With Bronchoscopy_fig13.jpg
+ create mode 100644 out/figures/Kashiwabara-2021-Efficacy and safety of transb_fig01.jpg
+ create mode 100644 out/figures/Kashiwabara-2021-Efficacy and safety of transb_fig02.jpg
+ create mode 100644 out/figures/Kashiwabara-2021-Efficacy and safety of transb_fig04.jpg
+ create mode 100644 out/figures/Kashiwabara-2021-Efficacy and safety of transb_fig05.jpg
+ create mode 100644 out/figures/Kashiwabara-2021-Efficacy and safety of transb_fig06.jpg
+ create mode 100644 out/figures/Kashiwabara-2021-Efficacy and safety of transb_fig08.jpg
+ create mode 100644 out/figures/Kashiwabara-2021-Efficacy and safety of transb_fig1.jpg
+ create mode 100644 out/figures/Kashiwabara-2021-Efficacy and safety of transb_fig2.jpg
+ create mode 100644 out/figures/NCCN lung_screening_fig01.jpg
+ create mode 100644 out/figures/NCCN lung_screening_fig02.jpg
+ create mode 100644 out/figures/NCCN lung_screening_fig03.jpg
+ create mode 100644 out/figures/NCCN lung_screening_fig04.jpg
+ create mode 100644 out/figures/NCCN lung_screening_fig05.jpg
+ create mode 100644 out/figures/NCCN lung_screening_fig06.jpg
+ create mode 100644 out/figures/NCCN lung_screening_fig07.jpg
+ create mode 100644 out/figures/NCCN lung_screening_fig08.jpg
+ create mode 100644 out/figures/NCCN lung_screening_fig09.jpg
+ create mode 100644 out/figures/NCCN lung_screening_fig10.jpg
+ create mode 100644 out/figures/NCCN lung_screening_fig100.jpg
+ create mode 100644 out/figures/NCCN lung_screening_fig101.jpg
+ create mode 100644 out/figures/NCCN lung_screening_fig102.jpg
+ create mode 100644 out/figures/NCCN lung_screening_fig103.jpg
+ create mode 100644 out/figures/NCCN lung_screening_fig11.jpg
+ create mode 100644 out/figures/NCCN lung_screening_fig12.jpg
+ create mode 100644 out/figures/NCCN lung_screening_fig13.jpg
+ create mode 100644 out/figures/NCCN lung_screening_fig14.jpg
+ create mode 100644 out/figures/NCCN lung_screening_fig15.jpg
+ create mode 100644 out/figures/NCCN lung_screening_fig16.jpg
+ create mode 100644 out/figures/NCCN lung_screening_fig17.jpg
+ create mode 100644 out/figures/NCCN lung_screening_fig18.jpg
+ create mode 100644 out/figures/NCCN lung_screening_fig19.jpg
+ create mode 100644 out/figures/NCCN lung_screening_fig20.jpg
+ create mode 100644 out/figures/NCCN lung_screening_fig21.jpg
+ create mode 100644 out/figures/NCCN lung_screening_fig22.jpg
+ create mode 100644 out/figures/NCCN lung_screening_fig23.jpg
+ create mode 100644 out/figures/NCCN lung_screening_fig24.jpg
+ create mode 100644 out/figures/NCCN lung_screening_fig25.jpg
+ create mode 100644 out/figures/NCCN lung_screening_fig26.jpg
+ create mode 100644 out/figures/NCCN lung_screening_fig27.jpg
+ create mode 100644 out/figures/NCCN lung_screening_fig28.jpg
+ create mode 100644 out/figures/NCCN lung_screening_fig29.jpg
+ create mode 100644 out/figures/NCCN lung_screening_fig30.jpg
+ create mode 100644 out/figures/NCCN lung_screening_fig31.jpg
+ create mode 100644 out/figures/NCCN lung_screening_fig32.jpg
+ create mode 100644 out/figures/NCCN lung_screening_fig33.jpg
+ create mode 100644 out/figures/NCCN lung_screening_fig34.jpg
+ create mode 100644 out/figures/NCCN lung_screening_fig35.jpg
+ create mode 100644 out/figures/NCCN lung_screening_fig36.jpg
+ create mode 100644 out/figures/NCCN lung_screening_fig37.jpg
+ create mode 100644 out/figures/NCCN lung_screening_fig38.jpg
+ create mode 100644 out/figures/NCCN lung_screening_fig39.jpg
+ create mode 100644 out/figures/NCCN lung_screening_fig40.jpg
+ create mode 100644 out/figures/NCCN lung_screening_fig41.jpg
+ create mode 100644 out/figures/NCCN lung_screening_fig42.jpg
+ create mode 100644 out/figures/NCCN lung_screening_fig43.jpg
+ create mode 100644 out/figures/NCCN lung_screening_fig44.jpg
+ create mode 100644 out/figures/NCCN lung_screening_fig45.jpg
+ create mode 100644 out/figures/NCCN lung_screening_fig46.jpg
+ create mode 100644 out/figures/NCCN lung_screening_fig47.jpg
+ create mode 100644 out/figures/NCCN lung_screening_fig48.jpg
+ create mode 100644 out/figures/NCCN lung_screening_fig49.jpg
+ create mode 100644 out/figures/NCCN lung_screening_fig50.jpg
+ create mode 100644 out/figures/NCCN lung_screening_fig51.jpg
+ create mode 100644 out/figures/NCCN lung_screening_fig52.jpg
+ create mode 100644 out/figures/NCCN lung_screening_fig53.jpg
+ create mode 100644 out/figures/NCCN lung_screening_fig54.jpg
+ create mode 100644 out/figures/NCCN lung_screening_fig55.jpg
+ create mode 100644 out/figures/NCCN lung_screening_fig56.jpg
+ create mode 100644 out/figures/NCCN lung_screening_fig57.jpg
+ create mode 100644 out/figures/NCCN lung_screening_fig58.jpg
+ create mode 100644 out/figures/NCCN lung_screening_fig59.jpg
+ create mode 100644 out/figures/NCCN lung_screening_fig60.jpg
+ create mode 100644 out/figures/NCCN lung_screening_fig61.jpg
+ create mode 100644 out/figures/NCCN lung_screening_fig62.jpg
+ create mode 100644 out/figures/NCCN lung_screening_fig63.jpg
+ create mode 100644 out/figures/NCCN lung_screening_fig64.jpg
+ create mode 100644 out/figures/NCCN lung_screening_fig65.jpg
+ create mode 100644 out/figures/NCCN lung_screening_fig66.jpg
+ create mode 100644 out/figures/NCCN lung_screening_fig67.jpg
+ create mode 100644 out/figures/NCCN lung_screening_fig68.jpg
+ create mode 100644 out/figures/NCCN lung_screening_fig69.jpg
+ create mode 100644 out/figures/NCCN lung_screening_fig70.jpg
+ create mode 100644 out/figures/NCCN lung_screening_fig71.jpg
+ create mode 100644 out/figures/NCCN lung_screening_fig72.jpg
+ create mode 100644 out/figures/NCCN lung_screening_fig73.jpg
+ create mode 100644 out/figures/NCCN lung_screening_fig74.jpg
+ create mode 100644 out/figures/NCCN lung_screening_fig75.jpg
+ create mode 100644 out/figures/NCCN lung_screening_fig76.jpg
+ create mode 100644 out/figures/NCCN lung_screening_fig77.jpg
+ create mode 100644 out/figures/NCCN lung_screening_fig78.jpg
+ create mode 100644 out/figures/NCCN lung_screening_fig79.jpg
+ create mode 100644 out/figures/NCCN lung_screening_fig80.jpg
+ create mode 100644 out/figures/NCCN lung_screening_fig81.jpg
+ create mode 100644 out/figures/NCCN lung_screening_fig82.jpg
+ create mode 100644 out/figures/NCCN lung_screening_fig83.jpg
+ create mode 100644 out/figures/NCCN lung_screening_fig84.jpg
+ create mode 100644 out/figures/NCCN lung_screening_fig85.jpg
+ create mode 100644 out/figures/NCCN lung_screening_fig86.jpg
+ create mode 100644 out/figures/NCCN lung_screening_fig87.jpg
+ create mode 100644 out/figures/NCCN lung_screening_fig88.jpg
+ create mode 100644 out/figures/NCCN lung_screening_fig89.jpg
+ create mode 100644 out/figures/NCCN lung_screening_fig90.jpg
+ create mode 100644 out/figures/NCCN lung_screening_fig91.jpg
+ create mode 100644 out/figures/NCCN lung_screening_fig92.jpg
+ create mode 100644 out/figures/NCCN lung_screening_fig93.jpg
+ create mode 100644 out/figures/NCCN lung_screening_fig94.jpg
+ create mode 100644 out/figures/NCCN lung_screening_fig95.jpg
+ create mode 100644 out/figures/NCCN lung_screening_fig96.jpg
+ create mode 100644 out/figures/NCCN lung_screening_fig97.jpg
+ create mode 100644 out/figures/NCCN lung_screening_fig98.jpg
+ create mode 100644 out/figures/NCCN lung_screening_fig99.jpg
+ create mode 100644 out/figures/Sullivan-2021-Earlier diagnosis of lung cancer (1)_fig01.jpg
+ create mode 100644 out/figures/Sullivan-2021-Earlier diagnosis of lung cancer (1)_fig02.jpg
+ create mode 100644 out/figures/Sullivan-2021-Earlier diagnosis of lung cancer (1)_fig03.jpg
+ create mode 100644 out/figures/Sullivan-2021-Earlier diagnosis of lung cancer (1)_figure1.jpg
+ create mode 100644 out/figures/Sullivan-2021-Earlier diagnosis of lung cancer (1)_figure2.jpg
+ create mode 100644 out/figures/Sullivan-2021-Earlier diagnosis of lung cancer (1)_figure3.jpg
+ create mode 100644 out/figures/Valipour-2020-Bronchial Rheoplasty for Treatme_fig01.jpg
+ create mode 100644 out/figures/Valipour-2020-Bronchial Rheoplasty for Treatme_fig03.jpg
+ create mode 100644 out/figures/Valipour-2020-Bronchial Rheoplasty for Treatme_fig04.jpg
+ create mode 100644 out/figures/Valipour-2020-Bronchial Rheoplasty for Treatme_fig05.jpg
+ create mode 100644 out/figures/Valipour-2020-Bronchial Rheoplasty for Treatme_figure1.jpg
+ create mode 100644 out/figures/Valipour-2020-Bronchial Rheoplasty for Treatme_figure3.jpg
+ create mode 100644 out/figures/safety_and_clinical_utility_of_flexible.3_fig01.jpg
+ create mode 100644 out/figures/safety_and_clinical_utility_of_flexible.3_fig02.jpg
+ create mode 100644 out/qa/American Brachytherapy Society consensus guide__umls.qa.json
+ create mode 100644 out/qa/Diagnostic Yield and Bleeding Complications__umls.qa.json
+ create mode 100644 out/qa/Forbearance With Bronchoscopy__umls.qa.json
+ create mode 100644 out/qa/Kashiwabara-2021-Efficacy and safety of transb__umls.qa.json
+ create mode 100644 out/qa/Management of Benign Pleural Effusions Using I__umls.qa.json
+ create mode 100644 out/qa/Saftey of rigid in bronch suite__umls.qa.json
+ create mode 100644 out/qa/Sullivan-2021-Earlier diagnosis of lung cancer (1)__umls.qa.json
+ create mode 100644 out/qa/Valipour-2020-Bronchial Rheoplasty for Treatme__umls.qa.json
+ create mode 100644 out/qa/safety_and_clinical_utility_of_flexible.3__umls.qa.json
+ create mode 100644 out/references/American Brachytherapy Society consensus guide.refs.csv
+ create mode 100644 out/references/Diagnostic Yield and Bleeding Complications.refs.csv
+ create mode 100644 out/references/Forbearance With Bronchoscopy.refs.csv
+ create mode 100644 out/references/Kashiwabara-2021-Efficacy and safety of transb.refs.csv
+ create mode 100644 out/references/NCCN lung_screening.refs.csv
+ create mode 100644 out/references/Saftey of rigid in bronch suite.refs.csv
+ create mode 100644 out/references/Sullivan-2021-Earlier diagnosis of lung cancer (1).refs.csv
+ create mode 100644 out/references/Valipour-2020-Bronchial Rheoplasty for Treatme.refs.csv
+ create mode 100644 out/references/safety_and_clinical_utility_of_flexible.3.refs.csv
+2025-09-01 06:54:52.720 | INFO     | __main__:git_commit_and_push:158 - Pushing to origin/fix/extraction-hardening...
+To https://github.com/russellmiller49/Medparse.git
+   bf01e99..78af001  fix/extraction-hardening -> fix/extraction-hardening
+2025-09-01 06:54:57.953 | SUCCESS  | __main__:git_commit_and_push:161 - ✓ Successfully pushed to GitHub (branch: fix/extraction-hardening)
+2025-09-01 06:54:57.953 | INFO     | __main__:main:189 - [336/414] Processing Nd-YAG laser vs bronchoscopic electrocautery.pdf
+2025-09-01 06:54:57.953 | INFO     | __main__:process_single_pdf:52 - Processing Nd-YAG laser vs bronchoscopic electrocautery.pdf...
+2025-09-01 06:55:42.241 | SUCCESS  | __main__:process_single_pdf:71 - ✓ Successfully processed Nd-YAG laser vs bronchoscopic electrocautery
+2025-09-01 06:55:42.241 | INFO     | __main__:main:189 - [337/414] Processing Bronchoscopic lung volume reduction with endob.pdf
+2025-09-01 06:55:42.241 | INFO     | __main__:process_single_pdf:52 - Processing Bronchoscopic lung volume reduction with endob.pdf...
+2025-09-01 06:57:07.904 | SUCCESS  | __main__:process_single_pdf:71 - ✓ Successfully processed Bronchoscopic lung volume reduction with endob
+2025-09-01 06:57:07.904 | INFO     | __main__:main:189 - [338/414] Processing update_on_airway_stents.pdf
+2025-09-01 06:57:07.904 | INFO     | __main__:process_single_pdf:52 - Processing update_on_airway_stents.pdf...
+2025-09-01 06:58:20.412 | SUCCESS  | __main__:process_single_pdf:71 - ✓ Successfully processed update_on_airway_stents
+2025-09-01 06:58:20.412 | INFO     | __main__:main:189 - [339/414] Processing fistula Airway Covered Metallic Stent Based on Differe.pdf
+2025-09-01 06:58:20.413 | INFO     | __main__:process_single_pdf:52 - Processing fistula Airway Covered Metallic Stent Based on Differe.pdf...
+2025-09-01 06:59:28.168 | SUCCESS  | __main__:process_single_pdf:71 - ✓ Successfully processed fistula Airway Covered Metallic Stent Based on Differe
+2025-09-01 06:59:28.169 | INFO     | __main__:main:189 - [340/414] Processing Covid-19 impact on interventional pulmonology training.pdf
+2025-09-01 06:59:28.169 | INFO     | __main__:process_single_pdf:52 - Processing Covid-19 impact on interventional pulmonology training.pdf...
+2025-09-01 07:00:38.622 | SUCCESS  | __main__:process_single_pdf:71 - ✓ Successfully processed Covid-19 impact on interventional pulmonology training
+2025-09-01 07:00:38.622 | INFO     | __main__:main:189 - [341/414] Processing Dresler-2005-Phase III intergroup study of tal.pdf
+2025-09-01 07:00:38.622 | INFO     | __main__:process_single_pdf:52 - Processing Dresler-2005-Phase III intergroup study of tal.pdf...
+2025-09-01 07:01:57.460 | SUCCESS  | __main__:process_single_pdf:71 - ✓ Successfully processed Dresler-2005-Phase III intergroup study of tal
+2025-09-01 07:01:57.460 | INFO     | __main__:main:189 - [342/414] Processing External irradiation versus external irradiati.pdf
+2025-09-01 07:01:57.460 | INFO     | __main__:process_single_pdf:52 - Processing External irradiation versus external irradiati.pdf...
+2025-09-01 07:03:26.055 | SUCCESS  | __main__:process_single_pdf:71 - ✓ Successfully processed External irradiation versus external irradiati
+2025-09-01 07:03:26.055 | INFO     | __main__:main:189 - [343/414] Processing Percutaneous endoscopic gastrostomy. Indicatio.pdf
+2025-09-01 07:03:26.055 | INFO     | __main__:process_single_pdf:52 - Processing Percutaneous endoscopic gastrostomy. Indicatio.pdf...
+2025-09-01 07:05:45.059 | SUCCESS  | __main__:process_single_pdf:71 - ✓ Successfully processed Percutaneous endoscopic gastrostomy. Indicatio
+2025-09-01 07:05:45.059 | INFO     | __main__:main:189 - [344/414] Processing EBUS for the Diagnosis and Subtyping of Lymphoma.pdf
+2025-09-01 07:05:45.059 | INFO     | __main__:process_single_pdf:52 - Processing EBUS for the Diagnosis and Subtyping of Lymphoma.pdf...
+2025-09-01 07:06:53.030 | SUCCESS  | __main__:process_single_pdf:71 - ✓ Successfully processed EBUS for the Diagnosis and Subtyping of Lymphoma
+2025-09-01 07:06:53.030 | INFO     | __main__:main:189 - [345/414] Processing CHEST CAO.pdf
+2025-09-01 07:06:53.030 | INFO     | __main__:process_single_pdf:52 - Processing CHEST CAO.pdf...
+2025-09-01 07:09:11.592 | SUCCESS  | __main__:process_single_pdf:71 - ✓ Successfully processed CHEST CAO
+2025-09-01 07:09:11.592 | INFO     | __main__:main:198 - Reached 340 successful processes, committing intermediate results...
+2025-09-01 07:09:11.592 | INFO     | __main__:git_commit_and_push:129 - Adding changes to git...
