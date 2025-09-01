@@ -5247,3 +5247,113 @@ To https://github.com/russellmiller49/Medparse.git
 2025-09-01 08:05:40.970 | SUCCESS  | __main__:process_single_pdf:71 - ✓ Successfully processed Klooster-2017-One-Year Follow-Up after Endobro
 2025-09-01 08:05:40.970 | INFO     | __main__:main:198 - Reached 370 successful processes, committing intermediate results...
 2025-09-01 08:05:40.970 | INFO     | __main__:git_commit_and_push:129 - Adding changes to git...
+2025-09-01 08:05:41.118 | INFO     | __main__:git_commit_and_push:145 - Creating git commit...
+[fix/extraction-hardening c74a162] feat: Batch processed 370 PDFs (intermediate commit)
+ 73 files changed, 162586 insertions(+)
+ create mode 100644 out/batch_processed/Awab-2017-Whole lung lavage-technical details.json
+ create mode 100644 out/batch_processed/Biopsy of peripheral lung nodules utilizing cone beam w wo TB access tool.json
+ create mode 100644 out/batch_processed/Bronchoscopy Education An Experiential Learning Theory Perspective.json
+ create mode 100644 out/batch_processed/Complete unilateral vs partial bilateral BLVR.json
+ create mode 100644 out/batch_processed/Comprehensive Review of Chest Tube Management_A Review.json
+ create mode 100644 out/batch_processed/Davies-2012-Effect of an indwelling pleural ca.json
+ create mode 100644 out/batch_processed/Klooster-2017-One-Year Follow-Up after Endobro.json
+ create mode 100644 out/batch_processed/ROSE during EBUS for nodal staging in patients with lung cancer.json
+ create mode 100644 out/batch_processed/Routine monitoring with pleural manometry duri.json
+ create mode 100644 out/batch_processed/Safety and efficacy of a novel transbronchial radiofrequency ablation system for lung tumours .json
+ create mode 100644 out/figures/Awab-2017-Whole lung lavage-technical details_fig01.jpg
+ create mode 100644 out/figures/Awab-2017-Whole lung lavage-technical details_fig02.jpg
+ create mode 100644 out/figures/Awab-2017-Whole lung lavage-technical details_fig03.jpg
+ create mode 100644 out/figures/Biopsy of peripheral lung nodules utilizing cone beam w wo TB access tool_fig01.jpg
+ create mode 100644 out/figures/Biopsy of peripheral lung nodules utilizing cone beam w wo TB access tool_fig02.jpg
+ create mode 100644 out/figures/Biopsy of peripheral lung nodules utilizing cone beam w wo TB access tool_fig03.jpg
+ create mode 100644 out/figures/Biopsy of peripheral lung nodules utilizing cone beam w wo TB access tool_fig05.jpg
+ create mode 100644 out/figures/Biopsy of peripheral lung nodules utilizing cone beam w wo TB access tool_fig06.jpg
+ create mode 100644 out/figures/Biopsy of peripheral lung nodules utilizing cone beam w wo TB access tool_figure3.jpg
+ create mode 100644 out/figures/Bronchoscopy Education An Experiential Learning Theory Perspective_fig01.jpg
+ create mode 100644 out/figures/Bronchoscopy Education An Experiential Learning Theory Perspective_fig02.jpg
+ create mode 100644 out/figures/Complete unilateral vs partial bilateral BLVR_fig01.jpg
+ create mode 100644 out/figures/Complete unilateral vs partial bilateral BLVR_fig02.jpg
+ create mode 100644 out/figures/Complete unilateral vs partial bilateral BLVR_fig03.jpg
+ create mode 100644 out/figures/Complete unilateral vs partial bilateral BLVR_fig04.jpg
+ create mode 100644 out/figures/Complete unilateral vs partial bilateral BLVR_fig05.jpg
+ create mode 100644 out/figures/Complete unilateral vs partial bilateral BLVR_fig06.jpg
+ create mode 100644 out/figures/Complete unilateral vs partial bilateral BLVR_fig07.jpg
+ create mode 100644 out/figures/Complete unilateral vs partial bilateral BLVR_fig08.jpg
+ create mode 100644 out/figures/Comprehensive Review of Chest Tube Management_A Review_fig01.jpg
+ create mode 100644 out/figures/Comprehensive Review of Chest Tube Management_A Review_fig02.jpg
+ create mode 100644 out/figures/Comprehensive Review of Chest Tube Management_A Review_fig03.jpg
+ create mode 100644 out/figures/Comprehensive Review of Chest Tube Management_A Review_fig04.jpg
+ create mode 100644 out/figures/Davies-2012-Effect of an indwelling pleural ca_fig01.jpg
+ create mode 100644 out/figures/Davies-2012-Effect of an indwelling pleural ca_fig02.jpg
+ create mode 100644 out/figures/Davies-2012-Effect of an indwelling pleural ca_fig03.jpg
+ create mode 100644 out/figures/Davies-2012-Effect of an indwelling pleural ca_fig04.jpg
+ create mode 100644 out/figures/Klooster-2017-One-Year Follow-Up after Endobro_fig01.jpg
+ create mode 100644 out/figures/Klooster-2017-One-Year Follow-Up after Endobro_fig02.jpg
+ create mode 100644 out/figures/Klooster-2017-One-Year Follow-Up after Endobro_fig03.jpg
+ create mode 100644 out/figures/Klooster-2017-One-Year Follow-Up after Endobro_fig1.jpg
+ create mode 100644 out/figures/Klooster-2017-One-Year Follow-Up after Endobro_fig2.jpg
+ create mode 100644 out/figures/Routine monitoring with pleural manometry duri_fig01.jpg
+ create mode 100644 out/figures/Routine monitoring with pleural manometry duri_fig02.jpg
+ create mode 100644 out/figures/Routine monitoring with pleural manometry duri_fig03.jpg
+ create mode 100644 out/figures/Routine monitoring with pleural manometry duri_figure2.jpg
+ create mode 100644 out/figures/Safety and efficacy of a novel transbronchial radiofrequency ablation system for lung tumours _fig01.jpg
+ create mode 100644 out/figures/Safety and efficacy of a novel transbronchial radiofrequency ablation system for lung tumours _fig02.jpg
+ create mode 100644 out/figures/Safety and efficacy of a novel transbronchial radiofrequency ablation system for lung tumours _fig03.jpg
+ create mode 100644 out/figures/Safety and efficacy of a novel transbronchial radiofrequency ablation system for lung tumours _fig04.jpg
+ create mode 100644 out/figures/Safety and efficacy of a novel transbronchial radiofrequency ablation system for lung tumours _fig05.jpg
+ create mode 100644 out/qa/Awab-2017-Whole lung lavage-technical details__umls.qa.json
+ create mode 100644 out/qa/Biopsy of peripheral lung nodules utilizing cone beam w wo TB access tool__umls.qa.json
+ create mode 100644 out/qa/Bronchoscopy Education An Experiential Learning Theory Perspective__umls.qa.json
+ create mode 100644 out/qa/Complete unilateral vs partial bilateral BLVR__umls.qa.json
+ create mode 100644 out/qa/Comprehensive Review of Chest Tube Management_A Review__umls.qa.json
+ create mode 100644 out/qa/Davies-2012-Effect of an indwelling pleural ca__umls.qa.json
+ create mode 100644 out/qa/Klooster-2017-One-Year Follow-Up after Endobro__umls.qa.json
+ create mode 100644 out/qa/ROSE during EBUS for nodal staging in patients with lung cancer__umls.qa.json
+ create mode 100644 out/qa/Routine monitoring with pleural manometry duri__umls.qa.json
+ create mode 100644 out/qa/Safety and efficacy of a novel transbronchial radiofrequency ablation system for lung tumours __umls.qa.json
+ create mode 100644 out/references/Awab-2017-Whole lung lavage-technical details.refs.csv
+ create mode 100644 out/references/Biopsy of peripheral lung nodules utilizing cone beam w wo TB access tool.refs.csv
+ create mode 100644 out/references/Bronchoscopy Education An Experiential Learning Theory Perspective.refs.csv
+ create mode 100644 out/references/Complete unilateral vs partial bilateral BLVR.refs.csv
+ create mode 100644 out/references/Comprehensive Review of Chest Tube Management_A Review.refs.csv
+ create mode 100644 out/references/Davies-2012-Effect of an indwelling pleural ca.refs.csv
+ create mode 100644 out/references/Klooster-2017-One-Year Follow-Up after Endobro.refs.csv
+ create mode 100644 out/references/ROSE during EBUS for nodal staging in patients with lung cancer.refs.csv
+ create mode 100644 out/references/Routine monitoring with pleural manometry duri.refs.csv
+ create mode 100644 out/references/Safety and efficacy of a novel transbronchial radiofrequency ablation system for lung tumours .refs.csv
+2025-09-01 08:05:41.149 | INFO     | __main__:git_commit_and_push:158 - Pushing to origin/fix/extraction-hardening...
+To https://github.com/russellmiller49/Medparse.git
+   ea469f1..c74a162  fix/extraction-hardening -> fix/extraction-hardening
+2025-09-01 08:05:45.447 | SUCCESS  | __main__:git_commit_and_push:161 - ✓ Successfully pushed to GitHub (branch: fix/extraction-hardening)
+2025-09-01 08:05:45.447 | INFO     | __main__:main:189 - [376/414] Processing Conservative versus Interventional Treatment f.pdf
+2025-09-01 08:05:45.447 | INFO     | __main__:process_single_pdf:52 - Processing Conservative versus Interventional Treatment f.pdf...
+2025-09-01 08:06:59.352 | SUCCESS  | __main__:process_single_pdf:71 - ✓ Successfully processed Conservative versus Interventional Treatment f
+2025-09-01 08:06:59.352 | INFO     | __main__:main:189 - [377/414] Processing Multidisciplinarymanagementofadultpatientswith chylothorax.pdf
+2025-09-01 08:06:59.352 | INFO     | __main__:process_single_pdf:52 - Processing Multidisciplinarymanagementofadultpatientswith chylothorax.pdf...
+2025-09-01 08:09:02.148 | SUCCESS  | __main__:process_single_pdf:71 - ✓ Successfully processed Multidisciplinarymanagementofadultpatientswith chylothorax
+2025-09-01 08:09:02.148 | INFO     | __main__:main:189 - [378/414] Processing Pleural controversy  Closed needle pleural bio.pdf
+2025-09-01 08:09:02.148 | INFO     | __main__:process_single_pdf:52 - Processing Pleural controversy  Closed needle pleural bio.pdf...
+2025-09-01 08:11:05.586 | SUCCESS  | __main__:process_single_pdf:71 - ✓ Successfully processed Pleural controversy  Closed needle pleural bio
+2025-09-01 08:11:05.586 | INFO     | __main__:main:189 - [379/414] Processing transbronchial__ablation_NAVABLATE.pdf
+2025-09-01 08:11:05.586 | INFO     | __main__:process_single_pdf:52 - Processing transbronchial__ablation_NAVABLATE.pdf...
+2025-09-01 08:12:31.142 | SUCCESS  | __main__:process_single_pdf:71 - ✓ Successfully processed transbronchial__ablation_NAVABLATE
+2025-09-01 08:12:31.142 | INFO     | __main__:main:189 - [380/414] Processing SSRAB vs DT ENB.pdf
+2025-09-01 08:12:31.142 | INFO     | __main__:process_single_pdf:52 - Processing SSRAB vs DT ENB.pdf...
+2025-09-01 08:13:44.233 | SUCCESS  | __main__:process_single_pdf:71 - ✓ Successfully processed SSRAB vs DT ENB
+2025-09-01 08:13:44.234 | INFO     | __main__:main:189 - [381/414] Processing The Role of Clamping Before Removal of a Chest Tube .pdf
+2025-09-01 08:13:44.234 | INFO     | __main__:process_single_pdf:52 - Processing The Role of Clamping Before Removal of a Chest Tube .pdf...
+2025-09-01 08:14:41.207 | SUCCESS  | __main__:process_single_pdf:71 - ✓ Successfully processed The Role of Clamping Before Removal of a Chest Tube 
+2025-09-01 08:14:41.207 | INFO     | __main__:main:189 - [382/414] Processing Sensitivity and safety of ENB systematic review and meta-analysis.pdf
+2025-09-01 08:14:41.207 | INFO     | __main__:process_single_pdf:52 - Processing Sensitivity and safety of ENB systematic review and meta-analysis.pdf...
+2025-09-01 08:16:55.704 | SUCCESS  | __main__:process_single_pdf:71 - ✓ Successfully processed Sensitivity and safety of ENB systematic review and meta-analysis
+2025-09-01 08:16:55.704 | INFO     | __main__:main:189 - [383/414] Processing Steinfort-2021-Bronchoscopic Thermal Vapour Ab.pdf
+2025-09-01 08:16:55.704 | INFO     | __main__:process_single_pdf:52 - Processing Steinfort-2021-Bronchoscopic Thermal Vapour Ab.pdf...
+2025-09-01 08:19:11.732 | SUCCESS  | __main__:process_single_pdf:71 - ✓ Successfully processed Steinfort-2021-Bronchoscopic Thermal Vapour Ab
+2025-09-01 08:19:11.733 | INFO     | __main__:main:189 - [384/414] Processing The application of cryosurgery in the treatmen.pdf
+2025-09-01 08:19:11.733 | INFO     | __main__:process_single_pdf:52 - Processing The application of cryosurgery in the treatmen.pdf...
+2025-09-01 08:20:19.180 | SUCCESS  | __main__:process_single_pdf:71 - ✓ Successfully processed The application of cryosurgery in the treatmen
+2025-09-01 08:20:19.180 | INFO     | __main__:main:189 - [385/414] Processing Comparing the Diagnostic Performance of Lung Ultrasonography and Chest Radiography for Detecting Pneumothorax.pdf
+2025-09-01 08:20:19.180 | INFO     | __main__:process_single_pdf:52 - Processing Comparing the Diagnostic Performance of Lung Ultrasonography and Chest Radiography for Detecting Pneumothorax.pdf...
+2025-09-01 08:21:20.988 | SUCCESS  | __main__:process_single_pdf:71 - ✓ Successfully processed Comparing the Diagnostic Performance of Lung Ultrasonography and Chest Radiography for Detecting Pneumothorax
+2025-09-01 08:21:20.988 | INFO     | __main__:main:198 - Reached 380 successful processes, committing intermediate results...
+2025-09-01 08:21:20.988 | INFO     | __main__:git_commit_and_push:129 - Adding changes to git...

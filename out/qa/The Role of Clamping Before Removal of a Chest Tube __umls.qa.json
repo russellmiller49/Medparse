@@ -1,0 +1,15 @@
+{
+  "pdf": "The Role of Clamping Before Removal of a Chest Tube .pdf",
+  "n_sections": 23,
+  "n_tables": 6,
+  "n_figures": 6,
+  "n_fig_crops": 6,
+  "missing_fig_bbox": 0,
+  "n_refs_csv": 14,
+  "n_umls_links": 0,
+  "n_local_links": 0,
+  "linker": "umls",
+  "completeness_score": 65,
+  "is_valid": true,
+  "timestamp": "2025-09-01 08:14:40"
+}
