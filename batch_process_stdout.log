@@ -1814,3 +1814,230 @@ To https://github.com/russellmiller49/Medparse.git
 2025-08-31 23:00:48.753 | SUCCESS  | __main__:process_single_pdf:71 - ✓ Successfully processed Valipour-2020-Two-Year Outcomes for the Double
 2025-08-31 23:00:48.753 | INFO     | __main__:main:198 - Reached 120 successful processes, committing intermediate results...
 2025-08-31 23:00:48.753 | INFO     | __main__:git_commit_and_push:129 - Adding changes to git...
+2025-08-31 23:00:48.984 | INFO     | __main__:git_commit_and_push:145 - Creating git commit...
+[fix/extraction-hardening 2be2ee7] feat: Batch processed 120 PDFs (intermediate commit)
+ 190 files changed, 447495 insertions(+)
+ create mode 100644 out/batch_processed/Adequacy of small biopsy and cytology for immune checkpoint inhibitor and targeted therapy.json
+ create mode 100644 out/batch_processed/Brass-2016-Percutaneous techniques versus surg.json
+ create mode 100644 out/batch_processed/Chemical pleurodesis.json
+ create mode 100644 out/batch_processed/Grosu-2019-Secondary spontaneous pneumothorax.json
+ create mode 100644 out/batch_processed/Moderate sedation changes for bronchoscopy in 2017.json
+ create mode 100644 out/batch_processed/Shape-Sensing Robotic vs Tomo ENB.json
+ create mode 100644 out/batch_processed/Silvestri-2018-Assessment of Plasma Proteomics.json
+ create mode 100644 out/batch_processed/Unimodality and Multimodality Cryodebridement.json
+ create mode 100644 out/batch_processed/Valipour-2020-Two-Year Outcomes for the Double.json
+ create mode 100644 out/batch_processed/transbronchial ablation Miller.json
+ create mode 100644 out/figures/Adequacy of small biopsy and cytology for immune checkpoint inhibitor and targeted therapy_fig01.jpg
+ create mode 100644 out/figures/Adequacy of small biopsy and cytology for immune checkpoint inhibitor and targeted therapy_fig02.jpg
+ create mode 100644 out/figures/Adequacy of small biopsy and cytology for immune checkpoint inhibitor and targeted therapy_fig03.jpg
+ create mode 100644 out/figures/Adequacy of small biopsy and cytology for immune checkpoint inhibitor and targeted therapy_fig04.jpg
+ create mode 100644 out/figures/Brass-2016-Percutaneous techniques versus surg_fig01.jpg
+ create mode 100644 out/figures/Brass-2016-Percutaneous techniques versus surg_fig02.jpg
+ create mode 100644 out/figures/Brass-2016-Percutaneous techniques versus surg_fig03.jpg
+ create mode 100644 out/figures/Brass-2016-Percutaneous techniques versus surg_fig04.jpg
+ create mode 100644 out/figures/Brass-2016-Percutaneous techniques versus surg_fig05.jpg
+ create mode 100644 out/figures/Brass-2016-Percutaneous techniques versus surg_fig06.jpg
+ create mode 100644 out/figures/Brass-2016-Percutaneous techniques versus surg_fig07.jpg
+ create mode 100644 out/figures/Brass-2016-Percutaneous techniques versus surg_fig08.jpg
+ create mode 100644 out/figures/Brass-2016-Percutaneous techniques versus surg_fig09.jpg
+ create mode 100644 out/figures/Brass-2016-Percutaneous techniques versus surg_fig10.jpg
+ create mode 100644 out/figures/Brass-2016-Percutaneous techniques versus surg_fig100.jpg
+ create mode 100644 out/figures/Brass-2016-Percutaneous techniques versus surg_fig101.jpg
+ create mode 100644 out/figures/Brass-2016-Percutaneous techniques versus surg_fig102.jpg
+ create mode 100644 out/figures/Brass-2016-Percutaneous techniques versus surg_fig103.jpg
+ create mode 100644 out/figures/Brass-2016-Percutaneous techniques versus surg_fig11.jpg
+ create mode 100644 out/figures/Brass-2016-Percutaneous techniques versus surg_fig12.jpg
+ create mode 100644 out/figures/Brass-2016-Percutaneous techniques versus surg_fig13.jpg
+ create mode 100644 out/figures/Brass-2016-Percutaneous techniques versus surg_fig14.jpg
+ create mode 100644 out/figures/Brass-2016-Percutaneous techniques versus surg_fig15.jpg
+ create mode 100644 out/figures/Brass-2016-Percutaneous techniques versus surg_fig16.jpg
+ create mode 100644 out/figures/Brass-2016-Percutaneous techniques versus surg_fig17.jpg
+ create mode 100644 out/figures/Brass-2016-Percutaneous techniques versus surg_fig18.jpg
+ create mode 100644 out/figures/Brass-2016-Percutaneous techniques versus surg_fig19.jpg
+ create mode 100644 out/figures/Brass-2016-Percutaneous techniques versus surg_fig21.jpg
+ create mode 100644 out/figures/Brass-2016-Percutaneous techniques versus surg_fig22.jpg
+ create mode 100644 out/figures/Brass-2016-Percutaneous techniques versus surg_fig23.jpg
+ create mode 100644 out/figures/Brass-2016-Percutaneous techniques versus surg_fig24.jpg
+ create mode 100644 out/figures/Brass-2016-Percutaneous techniques versus surg_fig25.jpg
+ create mode 100644 out/figures/Brass-2016-Percutaneous techniques versus surg_fig26.jpg
+ create mode 100644 out/figures/Brass-2016-Percutaneous techniques versus surg_fig27.jpg
+ create mode 100644 out/figures/Brass-2016-Percutaneous techniques versus surg_fig28.jpg
+ create mode 100644 out/figures/Brass-2016-Percutaneous techniques versus surg_fig29.jpg
+ create mode 100644 out/figures/Brass-2016-Percutaneous techniques versus surg_fig30.jpg
+ create mode 100644 out/figures/Brass-2016-Percutaneous techniques versus surg_fig31.jpg
+ create mode 100644 out/figures/Brass-2016-Percutaneous techniques versus surg_fig32.jpg
+ create mode 100644 out/figures/Brass-2016-Percutaneous techniques versus surg_fig33.jpg
+ create mode 100644 out/figures/Brass-2016-Percutaneous techniques versus surg_fig34.jpg
+ create mode 100644 out/figures/Brass-2016-Percutaneous techniques versus surg_fig35.jpg
+ create mode 100644 out/figures/Brass-2016-Percutaneous techniques versus surg_fig36.jpg
+ create mode 100644 out/figures/Brass-2016-Percutaneous techniques versus surg_fig37.jpg
+ create mode 100644 out/figures/Brass-2016-Percutaneous techniques versus surg_fig38.jpg
+ create mode 100644 out/figures/Brass-2016-Percutaneous techniques versus surg_fig39.jpg
+ create mode 100644 out/figures/Brass-2016-Percutaneous techniques versus surg_fig40.jpg
+ create mode 100644 out/figures/Brass-2016-Percutaneous techniques versus surg_fig41.jpg
+ create mode 100644 out/figures/Brass-2016-Percutaneous techniques versus surg_fig42.jpg
+ create mode 100644 out/figures/Brass-2016-Percutaneous techniques versus surg_fig43.jpg
+ create mode 100644 out/figures/Brass-2016-Percutaneous techniques versus surg_fig44.jpg
+ create mode 100644 out/figures/Brass-2016-Percutaneous techniques versus surg_fig45.jpg
+ create mode 100644 out/figures/Brass-2016-Percutaneous techniques versus surg_fig46.jpg
+ create mode 100644 out/figures/Brass-2016-Percutaneous techniques versus surg_fig47.jpg
+ create mode 100644 out/figures/Brass-2016-Percutaneous techniques versus surg_fig48.jpg
+ create mode 100644 out/figures/Brass-2016-Percutaneous techniques versus surg_fig49.jpg
+ create mode 100644 out/figures/Brass-2016-Percutaneous techniques versus surg_fig50.jpg
+ create mode 100644 out/figures/Brass-2016-Percutaneous techniques versus surg_fig51.jpg
+ create mode 100644 out/figures/Brass-2016-Percutaneous techniques versus surg_fig52.jpg
+ create mode 100644 out/figures/Brass-2016-Percutaneous techniques versus surg_fig53.jpg
+ create mode 100644 out/figures/Brass-2016-Percutaneous techniques versus surg_fig54.jpg
+ create mode 100644 out/figures/Brass-2016-Percutaneous techniques versus surg_fig55.jpg
+ create mode 100644 out/figures/Brass-2016-Percutaneous techniques versus surg_fig56.jpg
+ create mode 100644 out/figures/Brass-2016-Percutaneous techniques versus surg_fig57.jpg
+ create mode 100644 out/figures/Brass-2016-Percutaneous techniques versus surg_fig58.jpg
+ create mode 100644 out/figures/Brass-2016-Percutaneous techniques versus surg_fig59.jpg
+ create mode 100644 out/figures/Brass-2016-Percutaneous techniques versus surg_fig60.jpg
+ create mode 100644 out/figures/Brass-2016-Percutaneous techniques versus surg_fig61.jpg
+ create mode 100644 out/figures/Brass-2016-Percutaneous techniques versus surg_fig62.jpg
+ create mode 100644 out/figures/Brass-2016-Percutaneous techniques versus surg_fig63.jpg
+ create mode 100644 out/figures/Brass-2016-Percutaneous techniques versus surg_fig64.jpg
+ create mode 100644 out/figures/Brass-2016-Percutaneous techniques versus surg_fig65.jpg
+ create mode 100644 out/figures/Brass-2016-Percutaneous techniques versus surg_fig66.jpg
+ create mode 100644 out/figures/Brass-2016-Percutaneous techniques versus surg_fig67.jpg
+ create mode 100644 out/figures/Brass-2016-Percutaneous techniques versus surg_fig68.jpg
+ create mode 100644 out/figures/Brass-2016-Percutaneous techniques versus surg_fig69.jpg
+ create mode 100644 out/figures/Brass-2016-Percutaneous techniques versus surg_fig70.jpg
+ create mode 100644 out/figures/Brass-2016-Percutaneous techniques versus surg_fig71.jpg
+ create mode 100644 out/figures/Brass-2016-Percutaneous techniques versus surg_fig72.jpg
+ create mode 100644 out/figures/Brass-2016-Percutaneous techniques versus surg_fig73.jpg
+ create mode 100644 out/figures/Brass-2016-Percutaneous techniques versus surg_fig74.jpg
+ create mode 100644 out/figures/Brass-2016-Percutaneous techniques versus surg_fig75.jpg
+ create mode 100644 out/figures/Brass-2016-Percutaneous techniques versus surg_fig76.jpg
+ create mode 100644 out/figures/Brass-2016-Percutaneous techniques versus surg_fig77.jpg
+ create mode 100644 out/figures/Brass-2016-Percutaneous techniques versus surg_fig78.jpg
+ create mode 100644 out/figures/Brass-2016-Percutaneous techniques versus surg_fig79.jpg
+ create mode 100644 out/figures/Brass-2016-Percutaneous techniques versus surg_fig80.jpg
+ create mode 100644 out/figures/Brass-2016-Percutaneous techniques versus surg_fig81.jpg
+ create mode 100644 out/figures/Brass-2016-Percutaneous techniques versus surg_fig82.jpg
+ create mode 100644 out/figures/Brass-2016-Percutaneous techniques versus surg_fig83.jpg
+ create mode 100644 out/figures/Brass-2016-Percutaneous techniques versus surg_fig84.jpg
+ create mode 100644 out/figures/Brass-2016-Percutaneous techniques versus surg_fig85.jpg
+ create mode 100644 out/figures/Brass-2016-Percutaneous techniques versus surg_fig86.jpg
+ create mode 100644 out/figures/Brass-2016-Percutaneous techniques versus surg_fig87.jpg
+ create mode 100644 out/figures/Brass-2016-Percutaneous techniques versus surg_fig88.jpg
+ create mode 100644 out/figures/Brass-2016-Percutaneous techniques versus surg_fig89.jpg
+ create mode 100644 out/figures/Brass-2016-Percutaneous techniques versus surg_fig90.jpg
+ create mode 100644 out/figures/Brass-2016-Percutaneous techniques versus surg_fig91.jpg
+ create mode 100644 out/figures/Brass-2016-Percutaneous techniques versus surg_fig92.jpg
+ create mode 100644 out/figures/Brass-2016-Percutaneous techniques versus surg_fig93.jpg
+ create mode 100644 out/figures/Brass-2016-Percutaneous techniques versus surg_fig94.jpg
+ create mode 100644 out/figures/Brass-2016-Percutaneous techniques versus surg_fig95.jpg
+ create mode 100644 out/figures/Brass-2016-Percutaneous techniques versus surg_fig96.jpg
+ create mode 100644 out/figures/Brass-2016-Percutaneous techniques versus surg_fig97.jpg
+ create mode 100644 out/figures/Brass-2016-Percutaneous techniques versus surg_fig98.jpg
+ create mode 100644 out/figures/Brass-2016-Percutaneous techniques versus surg_fig99.jpg
+ create mode 100644 out/figures/Brass-2016-Percutaneous techniques versus surg_figure3.jpg
+ create mode 100644 out/figures/Chemical pleurodesis_fig01.jpg
+ create mode 100644 out/figures/Chemical pleurodesis_fig02.jpg
+ create mode 100644 out/figures/Chemical pleurodesis_fig03.jpg
+ create mode 100644 out/figures/Chemical pleurodesis_fig04.jpg
+ create mode 100644 out/figures/Chemical pleurodesis_fig05.jpg
+ create mode 100644 out/figures/Chemical pleurodesis_fig06.jpg
+ create mode 100644 out/figures/Chemical pleurodesis_fig07.jpg
+ create mode 100644 out/figures/Chemical pleurodesis_fig08.jpg
+ create mode 100644 out/figures/Grosu-2019-Secondary spontaneous pneumothorax_fig01.jpg
+ create mode 100644 out/figures/Grosu-2019-Secondary spontaneous pneumothorax_fig02.jpg
+ create mode 100644 out/figures/Grosu-2019-Secondary spontaneous pneumothorax_fig03.jpg
+ create mode 100644 out/figures/Grosu-2019-Secondary spontaneous pneumothorax_fig04.jpg
+ create mode 100644 out/figures/Grosu-2019-Secondary spontaneous pneumothorax_fig05.jpg
+ create mode 100644 out/figures/Moderate sedation changes for bronchoscopy in 2017_fig01.jpg
+ create mode 100644 out/figures/Shape-Sensing Robotic vs Tomo ENB_fig01.jpg
+ create mode 100644 out/figures/Shape-Sensing Robotic vs Tomo ENB_fig02.jpg
+ create mode 100644 out/figures/Shape-Sensing Robotic vs Tomo ENB_fig03.jpg
+ create mode 100644 out/figures/Silvestri-2018-Assessment of Plasma Proteomics_fig01.jpg
+ create mode 100644 out/figures/Silvestri-2018-Assessment of Plasma Proteomics_fig02.jpg
+ create mode 100644 out/figures/Silvestri-2018-Assessment of Plasma Proteomics_fig06.jpg
+ create mode 100644 out/figures/Silvestri-2018-Assessment of Plasma Proteomics_figure1.jpg
+ create mode 100644 out/figures/Silvestri-2018-Assessment of Plasma Proteomics_figure2.jpg
+ create mode 100644 out/figures/Silvestri-2018-Assessment of Plasma Proteomics_figure3.jpg
+ create mode 100644 out/figures/Unimodality and Multimodality Cryodebridement_fig01.jpg
+ create mode 100644 out/figures/Unimodality and Multimodality Cryodebridement_fig02.jpg
+ create mode 100644 out/figures/Unimodality and Multimodality Cryodebridement_fig03.jpg
+ create mode 100644 out/figures/Valipour-2020-Two-Year Outcomes for the Double_fig01.jpg
+ create mode 100644 out/figures/Valipour-2020-Two-Year Outcomes for the Double_fig02.jpg
+ create mode 100644 out/figures/Valipour-2020-Two-Year Outcomes for the Double_fig03.jpg
+ create mode 100644 out/figures/Valipour-2020-Two-Year Outcomes for the Double_fig04.jpg
+ create mode 100644 out/figures/Valipour-2020-Two-Year Outcomes for the Double_fig05.jpg
+ create mode 100644 out/figures/Valipour-2020-Two-Year Outcomes for the Double_fig06.jpg
+ create mode 100644 out/figures/Valipour-2020-Two-Year Outcomes for the Double_fig07.jpg
+ create mode 100644 out/figures/Valipour-2020-Two-Year Outcomes for the Double_fig08.jpg
+ create mode 100644 out/figures/Valipour-2020-Two-Year Outcomes for the Double_fig09.jpg
+ create mode 100644 out/figures/Valipour-2020-Two-Year Outcomes for the Double_fig10.jpg
+ create mode 100644 out/figures/Valipour-2020-Two-Year Outcomes for the Double_fig11.jpg
+ create mode 100644 out/figures/Valipour-2020-Two-Year Outcomes for the Double_fig12.jpg
+ create mode 100644 out/figures/Valipour-2020-Two-Year Outcomes for the Double_fig13.jpg
+ create mode 100644 out/figures/Valipour-2020-Two-Year Outcomes for the Double_fig14.jpg
+ create mode 100644 out/figures/transbronchial ablation Miller_fig01.jpg
+ create mode 100644 out/figures/transbronchial ablation Miller_fig02.jpg
+ create mode 100644 out/figures/transbronchial ablation Miller_fig03.jpg
+ create mode 100644 out/figures/transbronchial ablation Miller_fig04.jpg
+ create mode 100644 out/figures/transbronchial ablation Miller_fig05.jpg
+ create mode 100644 out/figures/transbronchial ablation Miller_fig06.jpg
+ create mode 100644 out/figures/transbronchial ablation Miller_fig07.jpg
+ create mode 100644 out/figures/transbronchial ablation Miller_fig08.jpg
+ create mode 100644 out/figures/transbronchial ablation Miller_fig09.jpg
+ create mode 100644 out/figures/transbronchial ablation Miller_fig10.jpg
+ create mode 100644 out/figures/transbronchial ablation Miller_fig11.jpg
+ create mode 100644 out/qa/Adequacy of small biopsy and cytology for immune checkpoint inhibitor and targeted therapy__umls.qa.json
+ create mode 100644 out/qa/Brass-2016-Percutaneous techniques versus surg__umls.qa.json
+ create mode 100644 out/qa/Chemical pleurodesis__umls.qa.json
+ create mode 100644 out/qa/Grosu-2019-Secondary spontaneous pneumothorax__umls.qa.json
+ create mode 100644 out/qa/Moderate sedation changes for bronchoscopy in 2017__umls.qa.json
+ create mode 100644 out/qa/Shape-Sensing Robotic vs Tomo ENB__umls.qa.json
+ create mode 100644 out/qa/Silvestri-2018-Assessment of Plasma Proteomics__umls.qa.json
+ create mode 100644 out/qa/Unimodality and Multimodality Cryodebridement__umls.qa.json
+ create mode 100644 out/qa/Valipour-2020-Two-Year Outcomes for the Double__umls.qa.json
+ create mode 100644 out/qa/transbronchial ablation Miller__umls.qa.json
+ create mode 100644 out/references/Adequacy of small biopsy and cytology for immune checkpoint inhibitor and targeted therapy.refs.csv
+ create mode 100644 out/references/Brass-2016-Percutaneous techniques versus surg.refs.csv
+ create mode 100644 out/references/Chemical pleurodesis.refs.csv
+ create mode 100644 out/references/Grosu-2019-Secondary spontaneous pneumothorax.refs.csv
+ create mode 100644 out/references/Moderate sedation changes for bronchoscopy in 2017.refs.csv
+ create mode 100644 out/references/Shape-Sensing Robotic vs Tomo ENB.refs.csv
+ create mode 100644 out/references/Silvestri-2018-Assessment of Plasma Proteomics.refs.csv
+ create mode 100644 out/references/Unimodality and Multimodality Cryodebridement.refs.csv
+ create mode 100644 out/references/Valipour-2020-Two-Year Outcomes for the Double.refs.csv
+ create mode 100644 out/references/transbronchial ablation Miller.refs.csv
+2025-08-31 23:00:49.031 | INFO     | __main__:git_commit_and_push:158 - Pushing to origin/fix/extraction-hardening...
+To https://github.com/russellmiller49/Medparse.git
+   5ebad49..2be2ee7  fix/extraction-hardening -> fix/extraction-hardening
+2025-08-31 23:00:57.172 | SUCCESS  | __main__:git_commit_and_push:161 - ✓ Successfully pushed to GitHub (branch: fix/extraction-hardening)
+2025-08-31 23:00:57.172 | INFO     | __main__:main:189 - [123/414] Processing surigicalLVR Decker-2014-Lung volume reduction surgery sinc.pdf
+2025-08-31 23:00:57.172 | INFO     | __main__:process_single_pdf:52 - Processing surigicalLVR Decker-2014-Lung volume reduction surgery sinc.pdf...
+2025-08-31 23:02:12.185 | SUCCESS  | __main__:process_single_pdf:71 - ✓ Successfully processed surigicalLVR Decker-2014-Lung volume reduction surgery sinc
+2025-08-31 23:02:12.185 | INFO     | __main__:main:189 - [124/414] Processing Safety of endoscopic gastrostomy tube placemen.pdf
+2025-08-31 23:02:12.185 | INFO     | __main__:process_single_pdf:52 - Processing Safety of endoscopic gastrostomy tube placemen.pdf...
+2025-08-31 23:04:17.276 | SUCCESS  | __main__:process_single_pdf:71 - ✓ Successfully processed Safety of endoscopic gastrostomy tube placemen
+2025-08-31 23:04:17.276 | INFO     | __main__:main:189 - [125/414] Processing Efficacy ofWhole-LungLavageinPulmonaryAlveolar.pdf
+2025-08-31 23:04:17.276 | INFO     | __main__:process_single_pdf:52 - Processing Efficacy ofWhole-LungLavageinPulmonaryAlveolar.pdf...
+2025-08-31 23:05:24.626 | SUCCESS  | __main__:process_single_pdf:71 - ✓ Successfully processed Efficacy ofWhole-LungLavageinPulmonaryAlveolar
+2025-08-31 23:05:24.626 | INFO     | __main__:main:189 - [126/414] Processing Yuan-2016-Percutaneous endoscopic gastrostomy.pdf
+2025-08-31 23:05:24.626 | INFO     | __main__:process_single_pdf:52 - Processing Yuan-2016-Percutaneous endoscopic gastrostomy.pdf...
+2025-08-31 23:07:29.462 | SUCCESS  | __main__:process_single_pdf:71 - ✓ Successfully processed Yuan-2016-Percutaneous endoscopic gastrostomy
+2025-08-31 23:07:29.462 | INFO     | __main__:main:189 - [127/414] Processing Machine learing TPA.pdf
+2025-08-31 23:07:29.462 | INFO     | __main__:process_single_pdf:52 - Processing Machine learing TPA.pdf...
+2025-08-31 23:08:51.800 | SUCCESS  | __main__:process_single_pdf:71 - ✓ Successfully processed Machine learing TPA
+2025-08-31 23:08:51.800 | INFO     | __main__:main:189 - [128/414] Processing Combined EBUS  EUS for the diagnosis and staging of lung cancer ESGE, ERS, ESTS Guideline.pdf
+2025-08-31 23:08:51.800 | INFO     | __main__:process_single_pdf:52 - Processing Combined EBUS  EUS for the diagnosis and staging of lung cancer ESGE, ERS, ESTS Guideline.pdf...
+2025-08-31 23:10:27.647 | SUCCESS  | __main__:process_single_pdf:71 - ✓ Successfully processed Combined EBUS  EUS for the diagnosis and staging of lung cancer ESGE, ERS, ESTS Guideline
+2025-08-31 23:10:27.647 | INFO     | __main__:main:189 - [129/414] Processing High-dose-rate endobronchial brachytherapy eff.pdf
+2025-08-31 23:10:27.647 | INFO     | __main__:process_single_pdf:52 - Processing High-dose-rate endobronchial brachytherapy eff.pdf...
+2025-08-31 23:11:35.644 | SUCCESS  | __main__:process_single_pdf:71 - ✓ Successfully processed High-dose-rate endobronchial brachytherapy eff
+2025-08-31 23:11:35.644 | INFO     | __main__:main:189 - [130/414] Processing Database to Inform Revisions.pdf
+2025-08-31 23:11:35.644 | INFO     | __main__:process_single_pdf:52 - Processing Database to Inform Revisions.pdf...
+2025-08-31 23:14:23.969 | SUCCESS  | __main__:process_single_pdf:71 - ✓ Successfully processed Database to Inform Revisions
+2025-08-31 23:14:23.970 | INFO     | __main__:main:189 - [131/414] Processing Robotic bronchoscopy pilot and feasibility study (Benefit).pdf
+2025-08-31 23:14:23.970 | INFO     | __main__:process_single_pdf:52 - Processing Robotic bronchoscopy pilot and feasibility study (Benefit).pdf...
+2025-08-31 23:15:24.768 | SUCCESS  | __main__:process_single_pdf:71 - ✓ Successfully processed Robotic bronchoscopy pilot and feasibility study (Benefit)
+2025-08-31 23:15:24.768 | INFO     | __main__:main:189 - [132/414] Processing Conservative versus Interventional Treatment for spont PTX.pdf
+2025-08-31 23:15:24.768 | INFO     | __main__:process_single_pdf:52 - Processing Conservative versus Interventional Treatment for spont PTX.pdf...
+2025-08-31 23:16:33.856 | SUCCESS  | __main__:process_single_pdf:71 - ✓ Successfully processed Conservative versus Interventional Treatment for spont PTX
+2025-08-31 23:16:33.856 | INFO     | __main__:main:198 - Reached 130 successful processes, committing intermediate results...
+2025-08-31 23:16:33.856 | INFO     | __main__:git_commit_and_push:129 - Adding changes to git...

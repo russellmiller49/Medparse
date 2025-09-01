@@ -1,0 +1,15 @@
+{
+  "pdf": "Safety of endoscopic gastrostomy tube placemen.pdf",
+  "n_sections": 23,
+  "n_tables": 7,
+  "n_figures": 4,
+  "n_fig_crops": 3,
+  "missing_fig_bbox": 0,
+  "n_refs_csv": 43,
+  "n_umls_links": 0,
+  "n_local_links": 0,
+  "linker": "umls",
+  "completeness_score": 61,
+  "is_valid": true,
+  "timestamp": "2025-08-31 23:04:16"
+}
