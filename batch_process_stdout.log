@@ -1367,3 +1367,147 @@ To https://github.com/russellmiller49/Medparse.git
 2025-08-31 22:07:59.632 | SUCCESS  | __main__:process_single_pdf:71 - ✓ Successfully processed Local anaesthetic thoracoscopy 
 2025-08-31 22:07:59.632 | INFO     | __main__:main:198 - Reached 90 successful processes, committing intermediate results...
 2025-08-31 22:07:59.632 | INFO     | __main__:git_commit_and_push:129 - Adding changes to git...
+2025-08-31 22:07:59.834 | INFO     | __main__:git_commit_and_push:145 - Creating git commit...
+[fix/extraction-hardening 84f4a92] feat: Batch processed 90 PDFs (intermediate commit)
+ 107 files changed, 211846 insertions(+)
+ create mode 100644 out/batch_processed/Chan-2021-Transbronchial microwave ablation of.json
+ create mode 100644 out/batch_processed/Cheng-2016-Three-dimensional Printing and 3D S.json
+ create mode 100644 out/batch_processed/Clinical trial of photodynamic therapy for per.json
+ create mode 100644 out/batch_processed/Concurrent Intrapleural Instillation of Tissue.json
+ create mode 100644 out/batch_processed/Documentation Tips for Pulmonary.json
+ create mode 100644 out/batch_processed/Intrapleural Fibrinolytic Therapy versus Early.json
+ create mode 100644 out/batch_processed/Local anaesthetic thoracoscopy .json
+ create mode 100644 out/batch_processed/Majid-2020-Efficacy of the Spiration Valve Sys.json
+ create mode 100644 out/batch_processed/The Evolutional History of ENB State of the Art.json
+ create mode 100644 out/batch_processed/lessions learned valves.json
+ create mode 100644 out/figures/Chan-2021-Transbronchial microwave ablation of_fig01.jpg
+ create mode 100644 out/figures/Chan-2021-Transbronchial microwave ablation of_fig02.jpg
+ create mode 100644 out/figures/Chan-2021-Transbronchial microwave ablation of_fig03.jpg
+ create mode 100644 out/figures/Chan-2021-Transbronchial microwave ablation of_fig04.jpg
+ create mode 100644 out/figures/Chan-2021-Transbronchial microwave ablation of_fig05.jpg
+ create mode 100644 out/figures/Chan-2021-Transbronchial microwave ablation of_fig06.jpg
+ create mode 100644 out/figures/Cheng-2016-Three-dimensional Printing and 3D S_fig01.jpg
+ create mode 100644 out/figures/Cheng-2016-Three-dimensional Printing and 3D S_fig02.jpg
+ create mode 100644 out/figures/Cheng-2016-Three-dimensional Printing and 3D S_fig03.jpg
+ create mode 100644 out/figures/Cheng-2016-Three-dimensional Printing and 3D S_fig04.jpg
+ create mode 100644 out/figures/Cheng-2016-Three-dimensional Printing and 3D S_fig05.jpg
+ create mode 100644 out/figures/Cheng-2016-Three-dimensional Printing and 3D S_fig06.jpg
+ create mode 100644 out/figures/Cheng-2016-Three-dimensional Printing and 3D S_fig07.jpg
+ create mode 100644 out/figures/Cheng-2016-Three-dimensional Printing and 3D S_figure4.jpg
+ create mode 100644 out/figures/Clinical trial of photodynamic therapy for per_fig01.jpg
+ create mode 100644 out/figures/Clinical trial of photodynamic therapy for per_fig02.jpg
+ create mode 100644 out/figures/Clinical trial of photodynamic therapy for per_fig03.jpg
+ create mode 100644 out/figures/Clinical trial of photodynamic therapy for per_fig04.jpg
+ create mode 100644 out/figures/Clinical trial of photodynamic therapy for per_fig05.jpg
+ create mode 100644 out/figures/Clinical trial of photodynamic therapy for per_fig06.jpg
+ create mode 100644 out/figures/Clinical trial of photodynamic therapy for per_fig07.jpg
+ create mode 100644 out/figures/Clinical trial of photodynamic therapy for per_fig08.jpg
+ create mode 100644 out/figures/Clinical trial of photodynamic therapy for per_fig09.jpg
+ create mode 100644 out/figures/Clinical trial of photodynamic therapy for per_fig10.jpg
+ create mode 100644 out/figures/Clinical trial of photodynamic therapy for per_fig11.jpg
+ create mode 100644 out/figures/Concurrent Intrapleural Instillation of Tissue_fig01.jpg
+ create mode 100644 out/figures/Concurrent Intrapleural Instillation of Tissue_fig02.jpg
+ create mode 100644 out/figures/Concurrent Intrapleural Instillation of Tissue_fig03.jpg
+ create mode 100644 out/figures/Concurrent Intrapleural Instillation of Tissue_fig04.jpg
+ create mode 100644 out/figures/Concurrent Intrapleural Instillation of Tissue_fig05.jpg
+ create mode 100644 out/figures/Concurrent Intrapleural Instillation of Tissue_fig06.jpg
+ create mode 100644 out/figures/Concurrent Intrapleural Instillation of Tissue_fig07.jpg
+ create mode 100644 out/figures/Concurrent Intrapleural Instillation of Tissue_fig08.jpg
+ create mode 100644 out/figures/Concurrent Intrapleural Instillation of Tissue_figure3.jpg
+ create mode 100644 out/figures/Concurrent Intrapleural Instillation of Tissue_figure4.jpg
+ create mode 100644 out/figures/Documentation Tips for Pulmonary_fig01.jpg
+ create mode 100644 out/figures/Documentation Tips for Pulmonary_fig02.jpg
+ create mode 100644 out/figures/Intrapleural Fibrinolytic Therapy versus Early_fig01.jpg
+ create mode 100644 out/figures/Intrapleural Fibrinolytic Therapy versus Early_figure1.jpg
+ create mode 100644 out/figures/Local anaesthetic thoracoscopy _fig01.jpg
+ create mode 100644 out/figures/Local anaesthetic thoracoscopy _fig02.jpg
+ create mode 100644 out/figures/Local anaesthetic thoracoscopy _fig03.jpg
+ create mode 100644 out/figures/Majid-2020-Efficacy of the Spiration Valve Sys_fig01.jpg
+ create mode 100644 out/figures/Majid-2020-Efficacy of the Spiration Valve Sys_fig02.jpg
+ create mode 100644 out/figures/Majid-2020-Efficacy of the Spiration Valve Sys_fig05.jpg
+ create mode 100644 out/figures/Majid-2020-Efficacy of the Spiration Valve Sys_fig06.jpg
+ create mode 100644 out/figures/Majid-2020-Efficacy of the Spiration Valve Sys_fig07.jpg
+ create mode 100644 out/figures/Majid-2020-Efficacy of the Spiration Valve Sys_fig08.jpg
+ create mode 100644 out/figures/Majid-2020-Efficacy of the Spiration Valve Sys_fig1.jpg
+ create mode 100644 out/figures/Majid-2020-Efficacy of the Spiration Valve Sys_fig10.jpg
+ create mode 100644 out/figures/Majid-2020-Efficacy of the Spiration Valve Sys_fig11.jpg
+ create mode 100644 out/figures/Majid-2020-Efficacy of the Spiration Valve Sys_fig2.jpg
+ create mode 100644 out/figures/Majid-2020-Efficacy of the Spiration Valve Sys_fig5.jpg
+ create mode 100644 out/figures/The Evolutional History of ENB State of the Art_fig01.jpg
+ create mode 100644 out/figures/The Evolutional History of ENB State of the Art_fig02.jpg
+ create mode 100644 out/figures/The Evolutional History of ENB State of the Art_fig04.jpg
+ create mode 100644 out/figures/The Evolutional History of ENB State of the Art_fig05.jpg
+ create mode 100644 out/figures/The Evolutional History of ENB State of the Art_fig06.jpg
+ create mode 100644 out/figures/The Evolutional History of ENB State of the Art_fig07.jpg
+ create mode 100644 out/figures/The Evolutional History of ENB State of the Art_fig08.jpg
+ create mode 100644 out/figures/The Evolutional History of ENB State of the Art_fig09.jpg
+ create mode 100644 out/figures/The Evolutional History of ENB State of the Art_fig10.jpg
+ create mode 100644 out/figures/The Evolutional History of ENB State of the Art_fig11.jpg
+ create mode 100644 out/figures/The Evolutional History of ENB State of the Art_fig12.jpg
+ create mode 100644 out/figures/The Evolutional History of ENB State of the Art_fig14.jpg
+ create mode 100644 out/figures/The Evolutional History of ENB State of the Art_fig15.jpg
+ create mode 100644 out/figures/The Evolutional History of ENB State of the Art_fig16.jpg
+ create mode 100644 out/figures/The Evolutional History of ENB State of the Art_figure2.jpg
+ create mode 100644 out/figures/The Evolutional History of ENB State of the Art_figure7.jpg
+ create mode 100644 out/figures/lessions learned valves_fig01.jpg
+ create mode 100644 out/figures/lessions learned valves_fig02.jpg
+ create mode 100644 out/figures/lessions learned valves_fig03.jpg
+ create mode 100644 out/figures/lessions learned valves_figure1.jpg
+ create mode 100644 out/figures/lessions learned valves_figure2.jpg
+ create mode 100644 out/figures/lessions learned valves_figure3.jpg
+ create mode 100644 out/qa/Chan-2021-Transbronchial microwave ablation of__umls.qa.json
+ create mode 100644 out/qa/Cheng-2016-Three-dimensional Printing and 3D S__umls.qa.json
+ create mode 100644 out/qa/Clinical trial of photodynamic therapy for per__umls.qa.json
+ create mode 100644 out/qa/Concurrent Intrapleural Instillation of Tissue__umls.qa.json
+ create mode 100644 out/qa/Documentation Tips for Pulmonary__umls.qa.json
+ create mode 100644 out/qa/Intrapleural Fibrinolytic Therapy versus Early__umls.qa.json
+ create mode 100644 out/qa/Local anaesthetic thoracoscopy __umls.qa.json
+ create mode 100644 out/qa/Majid-2020-Efficacy of the Spiration Valve Sys__umls.qa.json
+ create mode 100644 out/qa/The Evolutional History of ENB State of the Art__umls.qa.json
+ create mode 100644 out/qa/lessions learned valves__umls.qa.json
+ create mode 100644 out/references/Chan-2021-Transbronchial microwave ablation of.refs.csv
+ create mode 100644 out/references/Cheng-2016-Three-dimensional Printing and 3D S.refs.csv
+ create mode 100644 out/references/Clinical trial of photodynamic therapy for per.refs.csv
+ create mode 100644 out/references/Concurrent Intrapleural Instillation of Tissue.refs.csv
+ create mode 100644 out/references/Documentation Tips for Pulmonary.refs.csv
+ create mode 100644 out/references/Intrapleural Fibrinolytic Therapy versus Early.refs.csv
+ create mode 100644 out/references/Local anaesthetic thoracoscopy .refs.csv
+ create mode 100644 out/references/Majid-2020-Efficacy of the Spiration Valve Sys.refs.csv
+ create mode 100644 out/references/The Evolutional History of ENB State of the Art.refs.csv
+ create mode 100644 out/references/lessions learned valves.refs.csv
+2025-08-31 22:07:59.861 | INFO     | __main__:git_commit_and_push:158 - Pushing to origin/fix/extraction-hardening...
+To https://github.com/russellmiller49/Medparse.git
+   802059a..84f4a92  fix/extraction-hardening -> fix/extraction-hardening
+2025-08-31 22:08:04.604 | SUCCESS  | __main__:git_commit_and_push:161 - ✓ Successfully pushed to GitHub (branch: fix/extraction-hardening)
+2025-08-31 22:08:04.604 | INFO     | __main__:main:189 - [93/414] Processing Fiducial marker placement with ENB.pdf
+2025-08-31 22:08:04.604 | INFO     | __main__:process_single_pdf:52 - Processing Fiducial marker placement with ENB.pdf...
+2025-08-31 22:10:03.191 | SUCCESS  | __main__:process_single_pdf:71 - ✓ Successfully processed Fiducial marker placement with ENB
+2025-08-31 22:10:03.192 | INFO     | __main__:main:189 - [94/414] Processing Impact of a Dedicated Pleural Clinic on Indwelling Pleural Catheter Related Outcomes_A Retrospective Single Center Experience.pdf
+2025-08-31 22:10:03.192 | INFO     | __main__:process_single_pdf:52 - Processing Impact of a Dedicated Pleural Clinic on Indwelling Pleural Catheter Related Outcomes_A Retrospective Single Center Experience.pdf...
+2025-08-31 22:11:42.375 | SUCCESS  | __main__:process_single_pdf:71 - ✓ Successfully processed Impact of a Dedicated Pleural Clinic on Indwelling Pleural Catheter Related Outcomes_A Retrospective Single Center Experience
+2025-08-31 22:11:42.375 | INFO     | __main__:main:189 - [95/414] Processing Li-2019-The REACH Trial_ A Randomized Controll.pdf
+2025-08-31 22:11:42.375 | INFO     | __main__:process_single_pdf:52 - Processing Li-2019-The REACH Trial_ A Randomized Controll.pdf...
+2025-08-31 22:14:37.937 | SUCCESS  | __main__:process_single_pdf:71 - ✓ Successfully processed Li-2019-The REACH Trial_ A Randomized Controll
+2025-08-31 22:14:37.937 | INFO     | __main__:main:189 - [96/414] Processing A Prospective Multicenter Trial of a Self-expanding Hybrid.pdf
+2025-08-31 22:14:37.937 | INFO     | __main__:process_single_pdf:52 - Processing A Prospective Multicenter Trial of a Self-expanding Hybrid.pdf...
+2025-08-31 22:15:24.446 | SUCCESS  | __main__:process_single_pdf:71 - ✓ Successfully processed A Prospective Multicenter Trial of a Self-expanding Hybrid
+2025-08-31 22:15:24.446 | INFO     | __main__:main:189 - [97/414] Processing Cone-beam computed tomography-guided shape-sensing robot.pdf
+2025-08-31 22:15:24.446 | INFO     | __main__:process_single_pdf:52 - Processing Cone-beam computed tomography-guided shape-sensing robot.pdf...
+2025-08-31 22:17:01.729 | SUCCESS  | __main__:process_single_pdf:71 - ✓ Successfully processed Cone-beam computed tomography-guided shape-sensing robot
+2025-08-31 22:17:01.729 | INFO     | __main__:main:189 - [98/414] Processing Flexible Bronchoscope Use by Pulmonologists.pdf
+2025-08-31 22:17:01.730 | INFO     | __main__:process_single_pdf:52 - Processing Flexible Bronchoscope Use by Pulmonologists.pdf...
+2025-08-31 22:17:35.638 | SUCCESS  | __main__:process_single_pdf:71 - ✓ Successfully processed Flexible Bronchoscope Use by Pulmonologists
+2025-08-31 22:17:35.638 | INFO     | __main__:main:189 - [99/414] Processing Endosonography for mediastinal disease EUS vs EBUS.pdf
+2025-08-31 22:17:35.638 | INFO     | __main__:process_single_pdf:52 - Processing Endosonography for mediastinal disease EUS vs EBUS.pdf...
+2025-08-31 22:18:29.446 | SUCCESS  | __main__:process_single_pdf:71 - ✓ Successfully processed Endosonography for mediastinal disease EUS vs EBUS
+2025-08-31 22:18:29.446 | INFO     | __main__:main:189 - [100/414] Processing Xie-2022-Microwave ablation via a flexible cat.pdf
+2025-08-31 22:18:29.446 | INFO     | __main__:process_single_pdf:52 - Processing Xie-2022-Microwave ablation via a flexible cat.pdf...
+2025-08-31 22:19:34.917 | SUCCESS  | __main__:process_single_pdf:71 - ✓ Successfully processed Xie-2022-Microwave ablation via a flexible cat
+2025-08-31 22:19:34.917 | INFO     | __main__:main:189 - [101/414] Processing A prospective analysis of high-dose-rate endob.pdf
+2025-08-31 22:19:34.917 | INFO     | __main__:process_single_pdf:52 - Processing A prospective analysis of high-dose-rate endob.pdf...
+2025-08-31 22:21:10.007 | SUCCESS  | __main__:process_single_pdf:71 - ✓ Successfully processed A prospective analysis of high-dose-rate endob
+2025-08-31 22:21:10.008 | INFO     | __main__:main:189 - [102/414] Processing advances in medical pleurodesis.pdf
+2025-08-31 22:21:10.008 | INFO     | __main__:process_single_pdf:52 - Processing advances in medical pleurodesis.pdf...
+2025-08-31 22:24:04.869 | SUCCESS  | __main__:process_single_pdf:71 - ✓ Successfully processed advances in medical pleurodesis
+2025-08-31 22:24:04.869 | INFO     | __main__:main:198 - Reached 100 successful processes, committing intermediate results...
+2025-08-31 22:24:04.869 | INFO     | __main__:git_commit_and_push:129 - Adding changes to git...
