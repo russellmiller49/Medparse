@@ -4540,3 +4540,173 @@ To https://github.com/russellmiller49/Medparse.git
 2025-09-01 06:28:08.436 | SUCCESS  | __main__:process_single_pdf:71 - ✓ Successfully processed cancers-15-01068
 2025-09-01 06:28:08.436 | INFO     | __main__:main:198 - Reached 320 successful processes, committing intermediate results...
 2025-09-01 06:28:08.436 | INFO     | __main__:git_commit_and_push:129 - Adding changes to git...
+2025-09-01 06:28:08.735 | INFO     | __main__:git_commit_and_push:145 - Creating git commit...
+[fix/extraction-hardening bf01e99] feat: Batch processed 320 PDFs (intermediate commit)
+ 130 files changed, 275364 insertions(+)
+ create mode 100644 out/batch_processed/A Systematic Review and Meta-Analysis Comparin.json
+ create mode 100644 out/batch_processed/Efficacy and Safety of Airway Stent in TEF.json
+ create mode 100644 out/batch_processed/Evaluation of individuals with pulmonary nodules when is it lung cancer.json
+ create mode 100644 out/batch_processed/Respiratory infections increase the r.json
+ create mode 100644 out/batch_processed/The Clinical and Economic Implications of pleural effusions.json
+ create mode 100644 out/batch_processed/The relationship between chest tube size and c.json
+ create mode 100644 out/batch_processed/The role of  elastography in the dx of med and hilar lymph.json
+ create mode 100644 out/batch_processed/cancers-15-01068.json
+ create mode 100644 out/batch_processed/fistula Grewal-2019-Treatment of Tracheobronchial Inju.json
+ create mode 100644 out/batch_processed/green-et-al-2021-overview-of-interventional-pulmonology-for-radiologists.json
+ create mode 100644 out/figures/A Systematic Review and Meta-Analysis Comparin_fig01.jpg
+ create mode 100644 out/figures/A Systematic Review and Meta-Analysis Comparin_fig02.jpg
+ create mode 100644 out/figures/A Systematic Review and Meta-Analysis Comparin_fig05.jpg
+ create mode 100644 out/figures/A Systematic Review and Meta-Analysis Comparin_fig06.jpg
+ create mode 100644 out/figures/A Systematic Review and Meta-Analysis Comparin_fig07.jpg
+ create mode 100644 out/figures/A Systematic Review and Meta-Analysis Comparin_figure1.jpg
+ create mode 100644 out/figures/A Systematic Review and Meta-Analysis Comparin_figure3.jpg
+ create mode 100644 out/figures/Efficacy and Safety of Airway Stent in TEF_fig01.jpg
+ create mode 100644 out/figures/Efficacy and Safety of Airway Stent in TEF_fig02.jpg
+ create mode 100644 out/figures/Efficacy and Safety of Airway Stent in TEF_fig03.jpg
+ create mode 100644 out/figures/Efficacy and Safety of Airway Stent in TEF_fig04.jpg
+ create mode 100644 out/figures/Evaluation of individuals with pulmonary nodules when is it lung cancer_fig01.jpg
+ create mode 100644 out/figures/Evaluation of individuals with pulmonary nodules when is it lung cancer_fig02.jpg
+ create mode 100644 out/figures/Evaluation of individuals with pulmonary nodules when is it lung cancer_fig03.jpg
+ create mode 100644 out/figures/Evaluation of individuals with pulmonary nodules when is it lung cancer_fig04.jpg
+ create mode 100644 out/figures/Respiratory infections increase the r_fig01.jpg
+ create mode 100644 out/figures/Respiratory infections increase the r_fig02.jpg
+ create mode 100644 out/figures/Respiratory infections increase the r_fig03.jpg
+ create mode 100644 out/figures/Respiratory infections increase the r_fig04.jpg
+ create mode 100644 out/figures/Respiratory infections increase the r_fig05.jpg
+ create mode 100644 out/figures/The Clinical and Economic Implications of pleural effusions_fig01.jpg
+ create mode 100644 out/figures/The Clinical and Economic Implications of pleural effusions_fig02.jpg
+ create mode 100644 out/figures/The Clinical and Economic Implications of pleural effusions_fig03.jpg
+ create mode 100644 out/figures/The Clinical and Economic Implications of pleural effusions_fig06.jpg
+ create mode 100644 out/figures/The Clinical and Economic Implications of pleural effusions_fig07.jpg
+ create mode 100644 out/figures/The Clinical and Economic Implications of pleural effusions_figure1.jpg
+ create mode 100644 out/figures/The Clinical and Economic Implications of pleural effusions_figure2.jpg
+ create mode 100644 out/figures/The relationship between chest tube size and c_fig01.jpg
+ create mode 100644 out/figures/The relationship between chest tube size and c_fig02.jpg
+ create mode 100644 out/figures/The relationship between chest tube size and c_fig03.jpg
+ create mode 100644 out/figures/The relationship between chest tube size and c_fig04.jpg
+ create mode 100644 out/figures/The role of  elastography in the dx of med and hilar lymph_fig01.jpg
+ create mode 100644 out/figures/The role of  elastography in the dx of med and hilar lymph_fig02.jpg
+ create mode 100644 out/figures/The role of  elastography in the dx of med and hilar lymph_fig04.jpg
+ create mode 100644 out/figures/The role of  elastography in the dx of med and hilar lymph_figure4.jpg
+ create mode 100644 out/figures/cancers-15-01068_fig01.jpg
+ create mode 100644 out/figures/cancers-15-01068_fig02.jpg
+ create mode 100644 out/figures/cancers-15-01068_fig03.jpg
+ create mode 100644 out/figures/cancers-15-01068_fig04.jpg
+ create mode 100644 out/figures/cancers-15-01068_fig05.jpg
+ create mode 100644 out/figures/cancers-15-01068_fig06.jpg
+ create mode 100644 out/figures/cancers-15-01068_fig07.jpg
+ create mode 100644 out/figures/cancers-15-01068_fig08.jpg
+ create mode 100644 out/figures/cancers-15-01068_fig09.jpg
+ create mode 100644 out/figures/fistula Grewal-2019-Treatment of Tracheobronchial Inju_fig01.jpg
+ create mode 100644 out/figures/fistula Grewal-2019-Treatment of Tracheobronchial Inju_fig02.jpg
+ create mode 100644 out/figures/fistula Grewal-2019-Treatment of Tracheobronchial Inju_fig03.jpg
+ create mode 100644 out/figures/fistula Grewal-2019-Treatment of Tracheobronchial Inju_fig04.jpg
+ create mode 100644 out/figures/fistula Grewal-2019-Treatment of Tracheobronchial Inju_fig06.jpg
+ create mode 100644 out/figures/fistula Grewal-2019-Treatment of Tracheobronchial Inju_fig07.jpg
+ create mode 100644 out/figures/fistula Grewal-2019-Treatment of Tracheobronchial Inju_fig08.jpg
+ create mode 100644 out/figures/fistula Grewal-2019-Treatment of Tracheobronchial Inju_figure4.jpg
+ create mode 100644 out/figures/green-et-al-2021-overview-of-interventional-pulmonology-for-radiologists_fig01.jpg
+ create mode 100644 out/figures/green-et-al-2021-overview-of-interventional-pulmonology-for-radiologists_fig02.jpg
+ create mode 100644 out/figures/green-et-al-2021-overview-of-interventional-pulmonology-for-radiologists_fig03.jpg
+ create mode 100644 out/figures/green-et-al-2021-overview-of-interventional-pulmonology-for-radiologists_fig04.jpg
+ create mode 100644 out/figures/green-et-al-2021-overview-of-interventional-pulmonology-for-radiologists_fig05.jpg
+ create mode 100644 out/figures/green-et-al-2021-overview-of-interventional-pulmonology-for-radiologists_fig06.jpg
+ create mode 100644 out/figures/green-et-al-2021-overview-of-interventional-pulmonology-for-radiologists_fig07.jpg
+ create mode 100644 out/figures/green-et-al-2021-overview-of-interventional-pulmonology-for-radiologists_fig08.jpg
+ create mode 100644 out/figures/green-et-al-2021-overview-of-interventional-pulmonology-for-radiologists_fig09.jpg
+ create mode 100644 out/figures/green-et-al-2021-overview-of-interventional-pulmonology-for-radiologists_fig10.jpg
+ create mode 100644 out/figures/green-et-al-2021-overview-of-interventional-pulmonology-for-radiologists_fig11.jpg
+ create mode 100644 out/figures/green-et-al-2021-overview-of-interventional-pulmonology-for-radiologists_fig12.jpg
+ create mode 100644 out/figures/green-et-al-2021-overview-of-interventional-pulmonology-for-radiologists_fig13.jpg
+ create mode 100644 out/figures/green-et-al-2021-overview-of-interventional-pulmonology-for-radiologists_fig14.jpg
+ create mode 100644 out/figures/green-et-al-2021-overview-of-interventional-pulmonology-for-radiologists_fig15.jpg
+ create mode 100644 out/figures/green-et-al-2021-overview-of-interventional-pulmonology-for-radiologists_fig16.jpg
+ create mode 100644 out/figures/green-et-al-2021-overview-of-interventional-pulmonology-for-radiologists_fig17.jpg
+ create mode 100644 out/figures/green-et-al-2021-overview-of-interventional-pulmonology-for-radiologists_fig18.jpg
+ create mode 100644 out/figures/green-et-al-2021-overview-of-interventional-pulmonology-for-radiologists_fig19.jpg
+ create mode 100644 out/figures/green-et-al-2021-overview-of-interventional-pulmonology-for-radiologists_fig20.jpg
+ create mode 100644 out/figures/green-et-al-2021-overview-of-interventional-pulmonology-for-radiologists_fig21.jpg
+ create mode 100644 out/figures/green-et-al-2021-overview-of-interventional-pulmonology-for-radiologists_fig22.jpg
+ create mode 100644 out/figures/green-et-al-2021-overview-of-interventional-pulmonology-for-radiologists_fig23.jpg
+ create mode 100644 out/figures/green-et-al-2021-overview-of-interventional-pulmonology-for-radiologists_fig24.jpg
+ create mode 100644 out/figures/green-et-al-2021-overview-of-interventional-pulmonology-for-radiologists_fig25.jpg
+ create mode 100644 out/figures/green-et-al-2021-overview-of-interventional-pulmonology-for-radiologists_fig26.jpg
+ create mode 100644 out/figures/green-et-al-2021-overview-of-interventional-pulmonology-for-radiologists_fig27.jpg
+ create mode 100644 out/figures/green-et-al-2021-overview-of-interventional-pulmonology-for-radiologists_fig28.jpg
+ create mode 100644 out/figures/green-et-al-2021-overview-of-interventional-pulmonology-for-radiologists_fig29.jpg
+ create mode 100644 out/figures/green-et-al-2021-overview-of-interventional-pulmonology-for-radiologists_fig30.jpg
+ create mode 100644 out/figures/green-et-al-2021-overview-of-interventional-pulmonology-for-radiologists_fig31.jpg
+ create mode 100644 out/figures/green-et-al-2021-overview-of-interventional-pulmonology-for-radiologists_fig32.jpg
+ create mode 100644 out/figures/green-et-al-2021-overview-of-interventional-pulmonology-for-radiologists_fig33.jpg
+ create mode 100644 out/figures/green-et-al-2021-overview-of-interventional-pulmonology-for-radiologists_fig34.jpg
+ create mode 100644 out/figures/green-et-al-2021-overview-of-interventional-pulmonology-for-radiologists_fig35.jpg
+ create mode 100644 out/figures/green-et-al-2021-overview-of-interventional-pulmonology-for-radiologists_fig36.jpg
+ create mode 100644 out/figures/green-et-al-2021-overview-of-interventional-pulmonology-for-radiologists_fig37.jpg
+ create mode 100644 out/figures/green-et-al-2021-overview-of-interventional-pulmonology-for-radiologists_fig38.jpg
+ create mode 100644 out/figures/green-et-al-2021-overview-of-interventional-pulmonology-for-radiologists_fig39.jpg
+ create mode 100644 out/figures/green-et-al-2021-overview-of-interventional-pulmonology-for-radiologists_fig40.jpg
+ create mode 100644 out/figures/green-et-al-2021-overview-of-interventional-pulmonology-for-radiologists_fig41.jpg
+ create mode 100644 out/figures/green-et-al-2021-overview-of-interventional-pulmonology-for-radiologists_fig42.jpg
+ create mode 100644 out/figures/green-et-al-2021-overview-of-interventional-pulmonology-for-radiologists_fig43.jpg
+ create mode 100644 out/figures/green-et-al-2021-overview-of-interventional-pulmonology-for-radiologists_fig44.jpg
+ create mode 100644 out/figures/green-et-al-2021-overview-of-interventional-pulmonology-for-radiologists_fig45.jpg
+ create mode 100644 out/figures/green-et-al-2021-overview-of-interventional-pulmonology-for-radiologists_fig46.jpg
+ create mode 100644 out/qa/A Systematic Review and Meta-Analysis Comparin__umls.qa.json
+ create mode 100644 out/qa/Efficacy and Safety of Airway Stent in TEF__umls.qa.json
+ create mode 100644 out/qa/Evaluation of individuals with pulmonary nodules when is it lung cancer__umls.qa.json
+ create mode 100644 out/qa/Respiratory infections increase the r__umls.qa.json
+ create mode 100644 out/qa/The Clinical and Economic Implications of pleural effusions__umls.qa.json
+ create mode 100644 out/qa/The relationship between chest tube size and c__umls.qa.json
+ create mode 100644 out/qa/The role of  elastography in the dx of med and hilar lymph__umls.qa.json
+ create mode 100644 out/qa/cancers-15-01068__umls.qa.json
+ create mode 100644 out/qa/fistula Grewal-2019-Treatment of Tracheobronchial Inju__umls.qa.json
+ create mode 100644 out/qa/green-et-al-2021-overview-of-interventional-pulmonology-for-radiologists__umls.qa.json
+ create mode 100644 out/references/A Systematic Review and Meta-Analysis Comparin.refs.csv
+ create mode 100644 out/references/Efficacy and Safety of Airway Stent in TEF.refs.csv
+ create mode 100644 out/references/Evaluation of individuals with pulmonary nodules when is it lung cancer.refs.csv
+ create mode 100644 out/references/Respiratory infections increase the r.refs.csv
+ create mode 100644 out/references/The Clinical and Economic Implications of pleural effusions.refs.csv
+ create mode 100644 out/references/The relationship between chest tube size and c.refs.csv
+ create mode 100644 out/references/The role of  elastography in the dx of med and hilar lymph.refs.csv
+ create mode 100644 out/references/cancers-15-01068.refs.csv
+ create mode 100644 out/references/fistula Grewal-2019-Treatment of Tracheobronchial Inju.refs.csv
+ create mode 100644 out/references/green-et-al-2021-overview-of-interventional-pulmonology-for-radiologists.refs.csv
+2025-09-01 06:28:08.772 | INFO     | __main__:git_commit_and_push:158 - Pushing to origin/fix/extraction-hardening...
+To https://github.com/russellmiller49/Medparse.git
+   92297bc..bf01e99  fix/extraction-hardening -> fix/extraction-hardening
+2025-09-01 06:28:14.552 | SUCCESS  | __main__:git_commit_and_push:161 - ✓ Successfully pushed to GitHub (branch: fix/extraction-hardening)
+2025-09-01 06:28:14.552 | INFO     | __main__:main:189 - [325/414] Processing Saftey of rigid in bronch suite.pdf
+2025-09-01 06:28:14.552 | INFO     | __main__:process_single_pdf:52 - Processing Saftey of rigid in bronch suite.pdf...
+2025-09-01 06:29:11.040 | SUCCESS  | __main__:process_single_pdf:71 - ✓ Successfully processed Saftey of rigid in bronch suite
+2025-09-01 06:29:11.040 | INFO     | __main__:main:189 - [326/414] Processing Forbearance With Bronchoscopy.pdf
+2025-09-01 06:29:11.041 | INFO     | __main__:process_single_pdf:52 - Processing Forbearance With Bronchoscopy.pdf...
+2025-09-01 06:32:38.252 | SUCCESS  | __main__:process_single_pdf:71 - ✓ Successfully processed Forbearance With Bronchoscopy
+2025-09-01 06:32:38.252 | INFO     | __main__:main:189 - [327/414] Processing American Brachytherapy Society consensus guide.pdf
+2025-09-01 06:32:38.252 | INFO     | __main__:process_single_pdf:52 - Processing American Brachytherapy Society consensus guide.pdf...
+2025-09-01 06:35:27.499 | SUCCESS  | __main__:process_single_pdf:71 - ✓ Successfully processed American Brachytherapy Society consensus guide
+2025-09-01 06:35:27.499 | INFO     | __main__:main:189 - [328/414] Processing Management of Benign Pleural Effusions Using I.pdf
+2025-09-01 06:35:27.499 | INFO     | __main__:process_single_pdf:52 - Processing Management of Benign Pleural Effusions Using I.pdf...
+2025-09-01 06:37:13.320 | SUCCESS  | __main__:process_single_pdf:71 - ✓ Successfully processed Management of Benign Pleural Effusions Using I
+2025-09-01 06:37:13.320 | INFO     | __main__:main:189 - [329/414] Processing Diagnostic Yield and Bleeding Complications.pdf
+2025-09-01 06:37:13.320 | INFO     | __main__:process_single_pdf:52 - Processing Diagnostic Yield and Bleeding Complications.pdf...
+2025-09-01 06:38:34.155 | SUCCESS  | __main__:process_single_pdf:71 - ✓ Successfully processed Diagnostic Yield and Bleeding Complications
+2025-09-01 06:38:34.156 | INFO     | __main__:main:189 - [330/414] Processing Kashiwabara-2021-Efficacy and safety of transb.pdf
+2025-09-01 06:38:34.156 | INFO     | __main__:process_single_pdf:52 - Processing Kashiwabara-2021-Efficacy and safety of transb.pdf...
+2025-09-01 06:39:34.366 | SUCCESS  | __main__:process_single_pdf:71 - ✓ Successfully processed Kashiwabara-2021-Efficacy and safety of transb
+2025-09-01 06:39:34.366 | INFO     | __main__:main:189 - [331/414] Processing NCCN lung_screening.pdf
+2025-09-01 06:39:34.366 | INFO     | __main__:process_single_pdf:52 - Processing NCCN lung_screening.pdf...
+2025-09-01 06:49:34.959 | ERROR    | __main__:process_single_pdf:78 - ✗ Timeout processing NCCN lung_screening
+2025-09-01 06:49:34.959 | INFO     | __main__:main:189 - [332/414] Processing Sullivan-2021-Earlier diagnosis of lung cancer (1).pdf
+2025-09-01 06:49:34.959 | INFO     | __main__:process_single_pdf:52 - Processing Sullivan-2021-Earlier diagnosis of lung cancer (1).pdf...
+2025-09-01 06:50:57.156 | SUCCESS  | __main__:process_single_pdf:71 - ✓ Successfully processed Sullivan-2021-Earlier diagnosis of lung cancer (1)
+2025-09-01 06:50:57.157 | INFO     | __main__:main:189 - [333/414] Processing safety_and_clinical_utility_of_flexible.3.pdf
+2025-09-01 06:50:57.157 | INFO     | __main__:process_single_pdf:52 - Processing safety_and_clinical_utility_of_flexible.3.pdf...
+2025-09-01 06:51:55.397 | SUCCESS  | __main__:process_single_pdf:71 - ✓ Successfully processed safety_and_clinical_utility_of_flexible.3
+2025-09-01 06:51:55.397 | INFO     | __main__:main:189 - [334/414] Processing Valipour-2020-Bronchial Rheoplasty for Treatme.pdf
+2025-09-01 06:51:55.397 | INFO     | __main__:process_single_pdf:52 - Processing Valipour-2020-Bronchial Rheoplasty for Treatme.pdf...
+2025-09-01 06:53:34.330 | SUCCESS  | __main__:process_single_pdf:71 - ✓ Successfully processed Valipour-2020-Bronchial Rheoplasty for Treatme
+2025-09-01 06:53:34.331 | INFO     | __main__:main:189 - [335/414] Processing surigicalLVR Consolidating LVRS After Endoscopic LVR Failur.pdf
+2025-09-01 06:53:34.331 | INFO     | __main__:process_single_pdf:52 - Processing surigicalLVR Consolidating LVRS After Endoscopic LVR Failur.pdf...
+2025-09-01 06:54:52.367 | SUCCESS  | __main__:process_single_pdf:71 - ✓ Successfully processed surigicalLVR Consolidating LVRS After Endoscopic LVR Failur
+2025-09-01 06:54:52.367 | INFO     | __main__:main:198 - Reached 330 successful processes, committing intermediate results...
+2025-09-01 06:54:52.367 | INFO     | __main__:git_commit_and_push:129 - Adding changes to git...
