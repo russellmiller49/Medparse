@@ -1,0 +1,15 @@
+{
+  "pdf": "Improving diagnostic yield of navigational bronchoscopy .pdf",
+  "n_sections": 11,
+  "n_tables": 0,
+  "n_figures": 5,
+  "n_fig_crops": 4,
+  "missing_fig_bbox": 0,
+  "n_refs_csv": 28,
+  "n_umls_links": 0,
+  "n_local_links": 0,
+  "linker": "umls",
+  "completeness_score": 53,
+  "is_valid": false,
+  "timestamp": "2025-09-01 00:25:47"
+}

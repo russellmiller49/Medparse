@@ -2273,3 +2273,166 @@ To https://github.com/russellmiller49/Medparse.git
 2025-09-01 00:07:49.294 | SUCCESS  | __main__:process_single_pdf:71 - ✓ Successfully processed Bintcliffe-2016-The management of benign non-i
 2025-09-01 00:07:49.294 | INFO     | __main__:main:198 - Reached 150 successful processes, committing intermediate results...
 2025-09-01 00:07:49.294 | INFO     | __main__:git_commit_and_push:129 - Adding changes to git...
+2025-09-01 00:07:49.540 | INFO     | __main__:git_commit_and_push:145 - Creating git commit...
+[fix/extraction-hardening c62bc7e] feat: Batch processed 150 PDFs (intermediate commit)
+ 126 files changed, 225760 insertions(+)
+ create mode 100644 out/batch_processed/A predictive model for respiratorye events after rigid..json
+ create mode 100644 out/batch_processed/Bintcliffe-2016-The management of benign non-i.json
+ create mode 100644 out/batch_processed/Complications and discomfort of bronchoscopy a systematic review.json
+ create mode 100644 out/batch_processed/Deslee-2014-Lung volume reduction coil treatme.json
+ create mode 100644 out/batch_processed/Metallic Endobronchial Stents A Contemporary R.json
+ create mode 100644 out/batch_processed/Optimal Endobronchial Ultrasound Strain Elastography Assessment.json
+ create mode 100644 out/batch_processed/Percutaneous dilational tracheostomy.json
+ create mode 100644 out/batch_processed/Utility of Elastography A Systematic Review and Meta-analysis.json
+ create mode 100644 out/batch_processed/VR bronch.json
+ create mode 100644 out/batch_processed/fistula Okuda-2017-Risk factor of bronchopleural fistu.json
+ create mode 100644 out/figures/A predictive model for respiratorye events after rigid._fig01.jpg
+ create mode 100644 out/figures/A predictive model for respiratorye events after rigid._fig02.jpg
+ create mode 100644 out/figures/A predictive model for respiratorye events after rigid._fig03.jpg
+ create mode 100644 out/figures/A predictive model for respiratorye events after rigid._fig04.jpg
+ create mode 100644 out/figures/A predictive model for respiratorye events after rigid._fig05.jpg
+ create mode 100644 out/figures/A predictive model for respiratorye events after rigid._fig06.jpg
+ create mode 100644 out/figures/A predictive model for respiratorye events after rigid._fig07.jpg
+ create mode 100644 out/figures/A predictive model for respiratorye events after rigid._fig08.jpg
+ create mode 100644 out/figures/A predictive model for respiratorye events after rigid._fig09.jpg
+ create mode 100644 out/figures/A predictive model for respiratorye events after rigid._fig10.jpg
+ create mode 100644 out/figures/Bintcliffe-2016-The management of benign non-i_fig01.jpg
+ create mode 100644 out/figures/Bintcliffe-2016-The management of benign non-i_fig02.jpg
+ create mode 100644 out/figures/Bintcliffe-2016-The management of benign non-i_fig03.jpg
+ create mode 100644 out/figures/Bintcliffe-2016-The management of benign non-i_fig05.jpg
+ create mode 100644 out/figures/Bintcliffe-2016-The management of benign non-i_fig06.jpg
+ create mode 100644 out/figures/Bintcliffe-2016-The management of benign non-i_fig08.jpg
+ create mode 100644 out/figures/Bintcliffe-2016-The management of benign non-i_fig09.jpg
+ create mode 100644 out/figures/Bintcliffe-2016-The management of benign non-i_figure1.jpg
+ create mode 100644 out/figures/Bintcliffe-2016-The management of benign non-i_figure2.jpg
+ create mode 100644 out/figures/Bintcliffe-2016-The management of benign non-i_figure3.jpg
+ create mode 100644 out/figures/Complications and discomfort of bronchoscopy a systematic review_fig01.jpg
+ create mode 100644 out/figures/Complications and discomfort of bronchoscopy a systematic review_fig02.jpg
+ create mode 100644 out/figures/Complications and discomfort of bronchoscopy a systematic review_fig03.jpg
+ create mode 100644 out/figures/Complications and discomfort of bronchoscopy a systematic review_fig04.jpg
+ create mode 100644 out/figures/Complications and discomfort of bronchoscopy a systematic review_fig05.jpg
+ create mode 100644 out/figures/Complications and discomfort of bronchoscopy a systematic review_fig06.jpg
+ create mode 100644 out/figures/Complications and discomfort of bronchoscopy a systematic review_fig07.jpg
+ create mode 100644 out/figures/Complications and discomfort of bronchoscopy a systematic review_fig08.jpg
+ create mode 100644 out/figures/Complications and discomfort of bronchoscopy a systematic review_fig09.jpg
+ create mode 100644 out/figures/Complications and discomfort of bronchoscopy a systematic review_fig10.jpg
+ create mode 100644 out/figures/Complications and discomfort of bronchoscopy a systematic review_fig11.jpg
+ create mode 100644 out/figures/Complications and discomfort of bronchoscopy a systematic review_fig12.jpg
+ create mode 100644 out/figures/Deslee-2014-Lung volume reduction coil treatme_fig01.jpg
+ create mode 100644 out/figures/Deslee-2014-Lung volume reduction coil treatme_fig02.jpg
+ create mode 100644 out/figures/Deslee-2014-Lung volume reduction coil treatme_fig03.jpg
+ create mode 100644 out/figures/Deslee-2014-Lung volume reduction coil treatme_fig04.jpg
+ create mode 100644 out/figures/Deslee-2014-Lung volume reduction coil treatme_fig05.jpg
+ create mode 100644 out/figures/Deslee-2014-Lung volume reduction coil treatme_fig06.jpg
+ create mode 100644 out/figures/Deslee-2014-Lung volume reduction coil treatme_fig07.jpg
+ create mode 100644 out/figures/Deslee-2014-Lung volume reduction coil treatme_fig08.jpg
+ create mode 100644 out/figures/Metallic Endobronchial Stents A Contemporary R_fig01.jpg
+ create mode 100644 out/figures/Metallic Endobronchial Stents A Contemporary R_fig02.jpg
+ create mode 100644 out/figures/Metallic Endobronchial Stents A Contemporary R_fig03.jpg
+ create mode 100644 out/figures/Metallic Endobronchial Stents A Contemporary R_fig04.jpg
+ create mode 100644 out/figures/Metallic Endobronchial Stents A Contemporary R_fig05.jpg
+ create mode 100644 out/figures/Metallic Endobronchial Stents A Contemporary R_fig06.jpg
+ create mode 100644 out/figures/Metallic Endobronchial Stents A Contemporary R_fig07.jpg
+ create mode 100644 out/figures/Metallic Endobronchial Stents A Contemporary R_fig08.jpg
+ create mode 100644 out/figures/Metallic Endobronchial Stents A Contemporary R_fig09.jpg
+ create mode 100644 out/figures/Metallic Endobronchial Stents A Contemporary R_fig10.jpg
+ create mode 100644 out/figures/Metallic Endobronchial Stents A Contemporary R_fig11.jpg
+ create mode 100644 out/figures/Metallic Endobronchial Stents A Contemporary R_fig12.jpg
+ create mode 100644 out/figures/Metallic Endobronchial Stents A Contemporary R_fig13.jpg
+ create mode 100644 out/figures/Optimal Endobronchial Ultrasound Strain Elastography Assessment_fig01.jpg
+ create mode 100644 out/figures/Optimal Endobronchial Ultrasound Strain Elastography Assessment_fig02.jpg
+ create mode 100644 out/figures/Optimal Endobronchial Ultrasound Strain Elastography Assessment_fig03.jpg
+ create mode 100644 out/figures/Optimal Endobronchial Ultrasound Strain Elastography Assessment_fig06.jpg
+ create mode 100644 out/figures/Optimal Endobronchial Ultrasound Strain Elastography Assessment_fig07.jpg
+ create mode 100644 out/figures/Optimal Endobronchial Ultrasound Strain Elastography Assessment_fig08.jpg
+ create mode 100644 out/figures/Optimal Endobronchial Ultrasound Strain Elastography Assessment_fig09.jpg
+ create mode 100644 out/figures/Optimal Endobronchial Ultrasound Strain Elastography Assessment_fig1.jpg
+ create mode 100644 out/figures/Optimal Endobronchial Ultrasound Strain Elastography Assessment_fig10.jpg
+ create mode 100644 out/figures/Optimal Endobronchial Ultrasound Strain Elastography Assessment_fig3.jpg
+ create mode 100644 out/figures/Percutaneous dilational tracheostomy_fig01.jpg
+ create mode 100644 out/figures/Percutaneous dilational tracheostomy_fig02.jpg
+ create mode 100644 out/figures/Percutaneous dilational tracheostomy_fig03.jpg
+ create mode 100644 out/figures/Percutaneous dilational tracheostomy_fig04.jpg
+ create mode 100644 out/figures/Percutaneous dilational tracheostomy_fig05.jpg
+ create mode 100644 out/figures/Percutaneous dilational tracheostomy_fig06.jpg
+ create mode 100644 out/figures/Utility of Elastography A Systematic Review and Meta-analysis_fig01.jpg
+ create mode 100644 out/figures/Utility of Elastography A Systematic Review and Meta-analysis_fig02.jpg
+ create mode 100644 out/figures/Utility of Elastography A Systematic Review and Meta-analysis_fig03.jpg
+ create mode 100644 out/figures/Utility of Elastography A Systematic Review and Meta-analysis_fig04.jpg
+ create mode 100644 out/figures/Utility of Elastography A Systematic Review and Meta-analysis_fig05.jpg
+ create mode 100644 out/figures/Utility of Elastography A Systematic Review and Meta-analysis_fig06.jpg
+ create mode 100644 out/figures/VR bronch_fig01.jpg
+ create mode 100644 out/figures/VR bronch_fig02.jpg
+ create mode 100644 out/figures/VR bronch_fig03.jpg
+ create mode 100644 out/figures/VR bronch_fig04.jpg
+ create mode 100644 out/figures/VR bronch_fig05.jpg
+ create mode 100644 out/figures/VR bronch_fig06.jpg
+ create mode 100644 out/figures/VR bronch_fig07.jpg
+ create mode 100644 out/figures/VR bronch_fig08.jpg
+ create mode 100644 out/figures/VR bronch_fig10.jpg
+ create mode 100644 out/figures/VR bronch_fig11.jpg
+ create mode 100644 out/figures/VR bronch_fig13.jpg
+ create mode 100644 out/figures/VR bronch_figure2.jpg
+ create mode 100644 out/figures/VR bronch_figure4.jpg
+ create mode 100644 out/figures/fistula Okuda-2017-Risk factor of bronchopleural fistu_fig01.jpg
+ create mode 100644 out/figures/fistula Okuda-2017-Risk factor of bronchopleural fistu_fig02.jpg
+ create mode 100644 out/figures/fistula Okuda-2017-Risk factor of bronchopleural fistu_fig03.jpg
+ create mode 100644 out/figures/fistula Okuda-2017-Risk factor of bronchopleural fistu_fig04.jpg
+ create mode 100644 out/figures/fistula Okuda-2017-Risk factor of bronchopleural fistu_fig05.jpg
+ create mode 100644 out/figures/fistula Okuda-2017-Risk factor of bronchopleural fistu_fig06.jpg
+ create mode 100644 out/qa/A predictive model for respiratorye events after rigid.__umls.qa.json
+ create mode 100644 out/qa/Bintcliffe-2016-The management of benign non-i__umls.qa.json
+ create mode 100644 out/qa/Complications and discomfort of bronchoscopy a systematic review__umls.qa.json
+ create mode 100644 out/qa/Deslee-2014-Lung volume reduction coil treatme__umls.qa.json
+ create mode 100644 out/qa/Metallic Endobronchial Stents A Contemporary R__umls.qa.json
+ create mode 100644 out/qa/Optimal Endobronchial Ultrasound Strain Elastography Assessment__umls.qa.json
+ create mode 100644 out/qa/Percutaneous dilational tracheostomy__umls.qa.json
+ create mode 100644 out/qa/Utility of Elastography A Systematic Review and Meta-analysis__umls.qa.json
+ create mode 100644 out/qa/VR bronch__umls.qa.json
+ create mode 100644 out/qa/fistula Okuda-2017-Risk factor of bronchopleural fistu__umls.qa.json
+ create mode 100644 out/references/A predictive model for respiratorye events after rigid..refs.csv
+ create mode 100644 out/references/Bintcliffe-2016-The management of benign non-i.refs.csv
+ create mode 100644 out/references/Complications and discomfort of bronchoscopy a systematic review.refs.csv
+ create mode 100644 out/references/Deslee-2014-Lung volume reduction coil treatme.refs.csv
+ create mode 100644 out/references/Metallic Endobronchial Stents A Contemporary R.refs.csv
+ create mode 100644 out/references/Optimal Endobronchial Ultrasound Strain Elastography Assessment.refs.csv
+ create mode 100644 out/references/Percutaneous dilational tracheostomy.refs.csv
+ create mode 100644 out/references/Utility of Elastography A Systematic Review and Meta-analysis.refs.csv
+ create mode 100644 out/references/VR bronch.refs.csv
+ create mode 100644 out/references/fistula Okuda-2017-Risk factor of bronchopleural fistu.refs.csv
+2025-09-01 00:07:49.573 | INFO     | __main__:git_commit_and_push:158 - Pushing to origin/fix/extraction-hardening...
+To https://github.com/russellmiller49/Medparse.git
+   c151b99..c62bc7e  fix/extraction-hardening -> fix/extraction-hardening
+2025-09-01 00:07:54.421 | SUCCESS  | __main__:git_commit_and_push:161 - ✓ Successfully pushed to GitHub (branch: fix/extraction-hardening)
+2025-09-01 00:07:54.421 | INFO     | __main__:main:189 - [153/414] Processing Management of significant airway bleeding during robotic assisted bronchoscopy a tailored approach.pdf
+2025-09-01 00:07:54.421 | INFO     | __main__:process_single_pdf:52 - Processing Management of significant airway bleeding during robotic assisted bronchoscopy a tailored approach.pdf...
+2025-09-01 00:08:28.436 | SUCCESS  | __main__:process_single_pdf:71 - ✓ Successfully processed Management of significant airway bleeding during robotic assisted bronchoscopy a tailored approach
+2025-09-01 00:08:28.436 | INFO     | __main__:main:189 - [154/414] Processing Bronchoscopic transparenchymal nodule access (BTPNA).pdf
+2025-09-01 00:08:28.436 | INFO     | __main__:process_single_pdf:52 - Processing Bronchoscopic transparenchymal nodule access (BTPNA).pdf...
+2025-09-01 00:09:39.179 | SUCCESS  | __main__:process_single_pdf:71 - ✓ Successfully processed Bronchoscopic transparenchymal nodule access (BTPNA)
+2025-09-01 00:09:39.179 | INFO     | __main__:main:189 - [155/414] Processing fistula Schweigert-2019-[Interventional treatment of t.pdf
+2025-09-01 00:09:39.179 | INFO     | __main__:process_single_pdf:52 - Processing fistula Schweigert-2019-[Interventional treatment of t.pdf...
+2025-09-01 00:13:45.289 | SUCCESS  | __main__:process_single_pdf:71 - ✓ Successfully processed fistula Schweigert-2019-[Interventional treatment of t
+2025-09-01 00:13:45.290 | INFO     | __main__:main:189 - [156/414] Processing Richter-Schrag-2011-Risk factors and complicat.pdf
+2025-09-01 00:13:45.290 | INFO     | __main__:process_single_pdf:52 - Processing Richter-Schrag-2011-Risk factors and complicat.pdf...
+2025-09-01 00:15:03.668 | SUCCESS  | __main__:process_single_pdf:71 - ✓ Successfully processed Richter-Schrag-2011-Risk factors and complicat
+2025-09-01 00:15:03.668 | INFO     | __main__:main:189 - [157/414] Processing Murgu Saftey of TIVA in rigid.pdf
+2025-09-01 00:15:03.668 | INFO     | __main__:process_single_pdf:52 - Processing Murgu Saftey of TIVA in rigid.pdf...
+2025-09-01 00:19:09.837 | SUCCESS  | __main__:process_single_pdf:71 - ✓ Successfully processed Murgu Saftey of TIVA in rigid
+2025-09-01 00:19:09.837 | INFO     | __main__:main:189 - [158/414] Processing The Value of a High-Volume Bronchoscopic Lung Volume Reduction Program.pdf
+2025-09-01 00:19:09.837 | INFO     | __main__:process_single_pdf:52 - Processing The Value of a High-Volume Bronchoscopic Lung Volume Reduction Program.pdf...
+2025-09-01 00:20:08.376 | SUCCESS  | __main__:process_single_pdf:71 - ✓ Successfully processed The Value of a High-Volume Bronchoscopic Lung Volume Reduction Program
+2025-09-01 00:20:08.376 | INFO     | __main__:main:189 - [159/414] Processing Anesthesia and Upper and Lower Airway.pdf
+2025-09-01 00:20:08.376 | INFO     | __main__:process_single_pdf:52 - Processing Anesthesia and Upper and Lower Airway.pdf...
+2025-09-01 00:21:54.407 | SUCCESS  | __main__:process_single_pdf:71 - ✓ Successfully processed Anesthesia and Upper and Lower Airway
+2025-09-01 00:21:54.407 | INFO     | __main__:main:189 - [160/414] Processing Clinical Utility of a Bronchial Genomic Classi.pdf
+2025-09-01 00:21:54.408 | INFO     | __main__:process_single_pdf:52 - Processing Clinical Utility of a Bronchial Genomic Classi.pdf...
+2025-09-01 00:23:01.089 | SUCCESS  | __main__:process_single_pdf:71 - ✓ Successfully processed Clinical Utility of a Bronchial Genomic Classi
+2025-09-01 00:23:01.089 | INFO     | __main__:main:189 - [161/414] Processing Improving diagnostic yield of navigational bronchoscopy .pdf
+2025-09-01 00:23:01.089 | INFO     | __main__:process_single_pdf:52 - Processing Improving diagnostic yield of navigational bronchoscopy .pdf...
+2025-09-01 00:25:48.358 | SUCCESS  | __main__:process_single_pdf:71 - ✓ Successfully processed Improving diagnostic yield of navigational bronchoscopy 
+2025-09-01 00:25:48.358 | INFO     | __main__:main:189 - [162/414] Processing Koshy-2021-Safety of delivering bronchial ther.pdf
+2025-09-01 00:25:48.358 | INFO     | __main__:process_single_pdf:52 - Processing Koshy-2021-Safety of delivering bronchial ther.pdf...
+2025-09-01 00:27:24.732 | SUCCESS  | __main__:process_single_pdf:71 - ✓ Successfully processed Koshy-2021-Safety of delivering bronchial ther
+2025-09-01 00:27:24.732 | INFO     | __main__:main:198 - Reached 160 successful processes, committing intermediate results...
+2025-09-01 00:27:24.732 | INFO     | __main__:git_commit_and_push:129 - Adding changes to git...
