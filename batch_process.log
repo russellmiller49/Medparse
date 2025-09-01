@@ -1092,3 +1092,62 @@ httpx.ReadTimeout: timed out
 2025-09-01 04:41:50.410 | SUCCESS  | __main__:process_single_pdf:71 - ✓ Successfully processed fistula Silon-2017-Endoscopic Management of Esophagore
 2025-09-01 04:41:50.410 | INFO     | __main__:main:198 - Reached 270 successful processes, committing intermediate results...
 2025-09-01 04:41:50.410 | INFO     | __main__:git_commit_and_push:129 - Adding changes to git...
+2025-09-01 04:41:50.527 | INFO     | __main__:git_commit_and_push:145 - Creating git commit...
+2025-09-01 04:41:50.556 | INFO     | __main__:git_commit_and_push:158 - Pushing to origin/fix/extraction-hardening...
+2025-09-01 04:41:54.749 | SUCCESS  | __main__:git_commit_and_push:161 - ✓ Successfully pushed to GitHub (branch: fix/extraction-hardening)
+2025-09-01 04:41:54.750 | INFO     | __main__:main:189 - [274/414] Processing BTS pleural guidelines2.pdf
+2025-09-01 04:41:54.750 | INFO     | __main__:process_single_pdf:52 - Processing BTS pleural guidelines2.pdf...
+2025-09-01 04:43:14.784 | SUCCESS  | __main__:process_single_pdf:71 - ✓ Successfully processed BTS pleural guidelines2
+2025-09-01 04:43:14.784 | INFO     | __main__:main:189 - [275/414] Processing Shi-2014-Outcome and safety of the Montgomery.pdf
+2025-09-01 04:43:14.784 | INFO     | __main__:process_single_pdf:52 - Processing Shi-2014-Outcome and safety of the Montgomery.pdf...
+2025-09-01 04:44:01.742 | SUCCESS  | __main__:process_single_pdf:71 - ✓ Successfully processed Shi-2014-Outcome and safety of the Montgomery
+2025-09-01 04:44:01.742 | INFO     | __main__:main:189 - [276/414] Processing The death of a healthy volunteer in a human research project  implications for.pdf
+2025-09-01 04:44:01.743 | INFO     | __main__:process_single_pdf:52 - Processing The death of a healthy volunteer in a human research project  implications for.pdf...
+2025-09-01 04:44:57.273 | SUCCESS  | __main__:process_single_pdf:71 - ✓ Successfully processed The death of a healthy volunteer in a human research project  implications for
+2025-09-01 04:44:57.273 | INFO     | __main__:main:189 - [277/414] Processing Roberts-2010-Management of a malignant pleural.pdf
+2025-09-01 04:44:57.273 | INFO     | __main__:process_single_pdf:52 - Processing Roberts-2010-Management of a malignant pleural.pdf...
+2025-09-01 04:49:19.582 | SUCCESS  | __main__:process_single_pdf:71 - ✓ Successfully processed Roberts-2010-Management of a malignant pleural
+2025-09-01 04:49:19.582 | INFO     | __main__:main:189 - [278/414] Processing Mesothelioma proposal for revision of T.pdf
+2025-09-01 04:49:19.582 | INFO     | __main__:process_single_pdf:52 - Processing Mesothelioma proposal for revision of T.pdf...
+2025-09-01 04:51:44.688 | SUCCESS  | __main__:process_single_pdf:71 - ✓ Successfully processed Mesothelioma proposal for revision of T
+2025-09-01 04:51:44.688 | INFO     | __main__:main:189 - [279/414] Processing ENB-directed dye marking for locating pulmonary nodules.pdf
+2025-09-01 04:51:44.688 | INFO     | __main__:process_single_pdf:52 - Processing ENB-directed dye marking for locating pulmonary nodules.pdf...
+2025-09-01 04:52:25.369 | SUCCESS  | __main__:process_single_pdf:71 - ✓ Successfully processed ENB-directed dye marking for locating pulmonary nodules
+2025-09-01 04:52:25.369 | INFO     | __main__:main:189 - [280/414] Processing maldonado-et-al-2024-navigational-bronchoscopy-versus-computed-tomography-guided-transthoracic-needle-biopsy-for-the (2).pdf
+2025-09-01 04:52:25.370 | INFO     | __main__:process_single_pdf:52 - Processing maldonado-et-al-2024-navigational-bronchoscopy-versus-computed-tomography-guided-transthoracic-needle-biopsy-for-the (2).pdf...
+2025-09-01 04:52:37.773 | ERROR    | __main__:process_single_pdf:74 - ✗ Failed to process maldonado-et-al-2024-navigational-bronchoscopy-versus-computed-tomography-guided-transthoracic-needle-biopsy-for-the (2): 2025-09-01 04:52:28.320 | INFO     | __main__:process_pdf:62 - Docling parsing (DocumentConverter): maldonado-et-al-2024-navigational-bronchoscopy-versus-computed-tomography-guided-transthoracic-needle-biopsy-for-the (2).pdf
+2025-09-01 04:52:34.650 | INFO     | __main__:process_pdf:80 - Cropping figure images with EXIF captions
+2025-09-01 04:52:34.699 | INFO     | __main__:process_pdf:83 - GROBID metadata & references
+Traceback (most recent call last):
+  File "/home/rjm/projects/ip_knowledge/medparse/medparse-docling/scripts/process_one.py", line 264, in <module>
+    process_pdf(Path(args.pdf), Path(args.out), Path(args.cfg), linker=args.linker, dump_docling_debug=args.dump_docling_debug)
+  File "/home/rjm/projects/ip_knowledge/medparse/medparse-docling/scripts/process_one.py", line 95, in process_pdf
+    refs = parse_references_tei(refs_tei["references_tei"])
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/rjm/projects/ip_knowledge/medparse/medparse-docling/scripts/grobid_references.py", line 29, in parse_references_tei
+    root = etree.fromstring(tei_xml.encode("utf-8"))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "src/lxml/etree.pyx", line 3307, in lxml.etree.fromstring
+  File "src/lxml/parser.pxi", line 1995, in lxml.etree._parseMemoryDocument
+  File "src/lxml/parser.pxi", line 1882, in lxml.etree._parseDoc
+  File "src/lxml/parser.pxi", line 1164, in lxml.etree._BaseParser._parseDoc
+  File "src/lxml/parser.pxi", line 633, in lxml.etree._ParserContext._handleParseResultDoc
+  File "src/lxml/parser.pxi", line 743, in lxml.etree._handleParseResult
+  File "src/lxml/parser.pxi", line 672, in lxml.etree._raiseParseError
+  File "<string>", line 1
+lxml.etree.XMLSyntaxError: Document is empty, line 1, column 1
+
+2025-09-01 04:52:37.773 | INFO     | __main__:main:189 - [281/414] Processing Equipment and procedural setup for IP.pdf
+2025-09-01 04:52:37.773 | INFO     | __main__:process_single_pdf:52 - Processing Equipment and procedural setup for IP.pdf...
+2025-09-01 04:55:51.969 | SUCCESS  | __main__:process_single_pdf:71 - ✓ Successfully processed Equipment and procedural setup for IP
+2025-09-01 04:55:51.969 | INFO     | __main__:main:189 - [282/414] Processing Tracheobronchomalacia and excessive dynamic ai.pdf
+2025-09-01 04:55:51.969 | INFO     | __main__:process_single_pdf:52 - Processing Tracheobronchomalacia and excessive dynamic ai.pdf...
+2025-09-01 04:59:57.701 | SUCCESS  | __main__:process_single_pdf:71 - ✓ Successfully processed Tracheobronchomalacia and excessive dynamic ai
+2025-09-01 04:59:57.702 | INFO     | __main__:main:189 - [283/414] Processing Therapeutic bronchoscopy for malignan.pdf
+2025-09-01 04:59:57.702 | INFO     | __main__:process_single_pdf:52 - Processing Therapeutic bronchoscopy for malignan.pdf...
+2025-09-01 05:01:33.715 | SUCCESS  | __main__:process_single_pdf:71 - ✓ Successfully processed Therapeutic bronchoscopy for malignan
+2025-09-01 05:01:33.715 | INFO     | __main__:main:189 - [284/414] Processing Hu-2020-Pleural manometry_ techniques, applica.pdf
+2025-09-01 05:01:33.715 | INFO     | __main__:process_single_pdf:52 - Processing Hu-2020-Pleural manometry_ techniques, applica.pdf...
+2025-09-01 05:05:23.722 | SUCCESS  | __main__:process_single_pdf:71 - ✓ Successfully processed Hu-2020-Pleural manometry_ techniques, applica
+2025-09-01 05:05:23.722 | INFO     | __main__:main:198 - Reached 280 successful processes, committing intermediate results...
+2025-09-01 05:05:23.722 | INFO     | __main__:git_commit_and_push:129 - Adding changes to git...
