@@ -394,3 +394,124 @@ To https://github.com/russellmiller49/Medparse.git
 2025-08-31 20:16:39.075 | SUCCESS  | __main__:process_single_pdf:71 - ✓ Successfully processed cone_beam_ct_with_augmented_fluoroscopy_combined
 2025-08-31 20:16:39.076 | INFO     | __main__:main:198 - Reached 30 successful processes, committing intermediate results...
 2025-08-31 20:16:39.076 | INFO     | __main__:git_commit_and_push:129 - Adding changes to git...
+2025-08-31 20:16:39.251 | INFO     | __main__:git_commit_and_push:145 - Creating git commit...
+[fix/extraction-hardening 58cdc77] feat: Batch processed 30 PDFs (intermediate commit)
+ 84 files changed, 122292 insertions(+)
+ create mode 100644 out/batch_processed/Development of a Tool to Assess Basic Competen.json
+ create mode 100644 out/batch_processed/Pison-2021-Safety of denervation following tar.json
+ create mode 100644 out/batch_processed/Safety and feasibility of interventional pulmo.json
+ create mode 100644 out/batch_processed/State of the Art IP.json
+ create mode 100644 "out/batch_processed/The Impact of Gravity vs\302\240Suction-driven Therap.json"
+ create mode 100644 out/batch_processed/The role of bronchoscopy in the diagnosis of airway disease.json
+ create mode 100644 out/batch_processed/cone_beam_ct_with_augmented_fluoroscopy_combined.json
+ create mode 100644 out/batch_processed/fistula Abu-Hijleh-2019-Intrabronchial Valves for Air.json
+ create mode 100644 out/batch_processed/fistula Fiorelli-2018-Unidirectional endobronchial val.json
+ create mode 100644 out/batch_processed/surigicalLVR Rationale and design of The NETT Trial.json
+ create mode 100644 out/figures/Development of a Tool to Assess Basic Competen_figure1.jpg
+ create mode 100644 out/figures/Development of a Tool to Assess Basic Competen_figure2.jpg
+ create mode 100644 out/figures/Pison-2021-Safety of denervation following tar_fig01.jpg
+ create mode 100644 out/figures/Pison-2021-Safety of denervation following tar_fig02.jpg
+ create mode 100644 out/figures/Pison-2021-Safety of denervation following tar_fig03.jpg
+ create mode 100644 out/figures/Pison-2021-Safety of denervation following tar_fig04.jpg
+ create mode 100644 out/figures/Pison-2021-Safety of denervation following tar_fig05.jpg
+ create mode 100644 out/figures/Pison-2021-Safety of denervation following tar_fig06.jpg
+ create mode 100644 out/figures/Pison-2021-Safety of denervation following tar_fig07.jpg
+ create mode 100644 out/figures/Safety and feasibility of interventional pulmo_fig01.jpg
+ create mode 100644 out/figures/Safety and feasibility of interventional pulmo_fig02.jpg
+ create mode 100644 out/figures/Safety and feasibility of interventional pulmo_fig03.jpg
+ create mode 100644 out/figures/State of the Art IP_fig01.jpg
+ create mode 100644 out/figures/State of the Art IP_fig02.jpg
+ create mode 100644 out/figures/State of the Art IP_fig03.jpg
+ create mode 100644 out/figures/State of the Art IP_fig04.jpg
+ create mode 100644 out/figures/State of the Art IP_fig05.jpg
+ create mode 100644 out/figures/State of the Art IP_fig06.jpg
+ create mode 100644 out/figures/State of the Art IP_fig07.jpg
+ create mode 100644 out/figures/State of the Art IP_fig08.jpg
+ create mode 100644 out/figures/State of the Art IP_fig09.jpg
+ create mode 100644 out/figures/State of the Art IP_fig10.jpg
+ create mode 100644 out/figures/State of the Art IP_fig11.jpg
+ create mode 100644 out/figures/State of the Art IP_fig12.jpg
+ create mode 100644 out/figures/State of the Art IP_fig13.jpg
+ create mode 100644 out/figures/State of the Art IP_fig14.jpg
+ create mode 100644 out/figures/State of the Art IP_fig15.jpg
+ create mode 100644 out/figures/State of the Art IP_fig16.jpg
+ create mode 100644 out/figures/State of the Art IP_fig17.jpg
+ create mode 100644 out/figures/State of the Art IP_fig18.jpg
+ create mode 100644 out/figures/State of the Art IP_fig19.jpg
+ create mode 100644 out/figures/State of the Art IP_fig20.jpg
+ create mode 100644 out/figures/State of the Art IP_fig21.jpg
+ create mode 100644 "out/figures/The Impact of Gravity vs\302\240Suction-driven Therap_fig01.jpg"
+ create mode 100644 "out/figures/The Impact of Gravity vs\302\240Suction-driven Therap_fig02.jpg"
+ create mode 100644 "out/figures/The Impact of Gravity vs\302\240Suction-driven Therap_fig03.jpg"
+ create mode 100644 "out/figures/The Impact of Gravity vs\302\240Suction-driven Therap_fig05.jpg"
+ create mode 100644 "out/figures/The Impact of Gravity vs\302\240Suction-driven Therap_figure2.jpg"
+ create mode 100644 "out/figures/The Impact of Gravity vs\302\240Suction-driven Therap_figure4.jpg"
+ create mode 100644 "out/figures/The Impact of Gravity vs\302\240Suction-driven Therap_figure5.jpg"
+ create mode 100644 out/figures/The role of bronchoscopy in the diagnosis of airway disease_fig01.jpg
+ create mode 100644 out/figures/The role of bronchoscopy in the diagnosis of airway disease_fig02.jpg
+ create mode 100644 out/figures/cone_beam_ct_with_augmented_fluoroscopy_combined_fig01.jpg
+ create mode 100644 out/figures/cone_beam_ct_with_augmented_fluoroscopy_combined_fig02.jpg
+ create mode 100644 out/figures/cone_beam_ct_with_augmented_fluoroscopy_combined_fig2.jpg
+ create mode 100644 out/figures/fistula Abu-Hijleh-2019-Intrabronchial Valves for Air_fig01.jpg
+ create mode 100644 out/figures/fistula Abu-Hijleh-2019-Intrabronchial Valves for Air_fig02.jpg
+ create mode 100644 out/figures/fistula Abu-Hijleh-2019-Intrabronchial Valves for Air_fig03.jpg
+ create mode 100644 out/figures/fistula Abu-Hijleh-2019-Intrabronchial Valves for Air_fig04.jpg
+ create mode 100644 out/figures/fistula Abu-Hijleh-2019-Intrabronchial Valves for Air_fig05.jpg
+ create mode 100644 out/figures/fistula Fiorelli-2018-Unidirectional endobronchial val_fig01.jpg
+ create mode 100644 out/figures/surigicalLVR Rationale and design of The NETT Trial_fig01.jpg
+ create mode 100644 out/qa/Development of a Tool to Assess Basic Competen__umls.qa.json
+ create mode 100644 out/qa/Pison-2021-Safety of denervation following tar__umls.qa.json
+ create mode 100644 out/qa/Safety and feasibility of interventional pulmo__umls.qa.json
+ create mode 100644 out/qa/State of the Art IP__umls.qa.json
+ create mode 100644 "out/qa/The Impact of Gravity vs\302\240Suction-driven Therap__umls.qa.json"
+ create mode 100644 out/qa/The role of bronchoscopy in the diagnosis of airway disease__umls.qa.json
+ create mode 100644 out/qa/cone_beam_ct_with_augmented_fluoroscopy_combined__umls.qa.json
+ create mode 100644 out/qa/fistula Abu-Hijleh-2019-Intrabronchial Valves for Air__umls.qa.json
+ create mode 100644 out/qa/fistula Fiorelli-2018-Unidirectional endobronchial val__umls.qa.json
+ create mode 100644 out/qa/surigicalLVR Rationale and design of The NETT Trial__umls.qa.json
+ create mode 100644 out/references/Development of a Tool to Assess Basic Competen.refs.csv
+ create mode 100644 out/references/Pison-2021-Safety of denervation following tar.refs.csv
+ create mode 100644 out/references/Safety and feasibility of interventional pulmo.refs.csv
+ create mode 100644 out/references/State of the Art IP.refs.csv
+ create mode 100644 "out/references/The Impact of Gravity vs\302\240Suction-driven Therap.refs.csv"
+ create mode 100644 out/references/The role of bronchoscopy in the diagnosis of airway disease.refs.csv
+ create mode 100644 out/references/cone_beam_ct_with_augmented_fluoroscopy_combined.refs.csv
+ create mode 100644 out/references/fistula Abu-Hijleh-2019-Intrabronchial Valves for Air.refs.csv
+ create mode 100644 out/references/fistula Fiorelli-2018-Unidirectional endobronchial val.refs.csv
+ create mode 100644 out/references/surigicalLVR Rationale and design of The NETT Trial.refs.csv
+2025-08-31 20:16:39.286 | INFO     | __main__:git_commit_and_push:158 - Pushing to origin/fix/extraction-hardening...
+To https://github.com/russellmiller49/Medparse.git
+   98467cb..58cdc77  fix/extraction-hardening -> fix/extraction-hardening
+2025-08-31 20:16:43.707 | SUCCESS  | __main__:git_commit_and_push:161 - ✓ Successfully pushed to GitHub (branch: fix/extraction-hardening)
+2025-08-31 20:16:43.707 | INFO     | __main__:main:189 - [31/414] Processing Clinical and quality of life outcomes vs. exte.pdf
+2025-08-31 20:16:43.707 | INFO     | __main__:process_single_pdf:52 - Processing Clinical and quality of life outcomes vs. exte.pdf...
+2025-08-31 20:17:25.761 | SUCCESS  | __main__:process_single_pdf:71 - ✓ Successfully processed Clinical and quality of life outcomes vs. exte
+2025-08-31 20:17:25.761 | INFO     | __main__:main:189 - [32/414] Processing Advantages of US in percutaneous dilatational.pdf
+2025-08-31 20:17:25.761 | INFO     | __main__:process_single_pdf:52 - Processing Advantages of US in percutaneous dilatational.pdf...
+2025-08-31 20:18:19.283 | SUCCESS  | __main__:process_single_pdf:71 - ✓ Successfully processed Advantages of US in percutaneous dilatational
+2025-08-31 20:18:19.283 | INFO     | __main__:main:189 - [33/414] Processing IASLC Proposals for Revision of TNM.pdf
+2025-08-31 20:18:19.283 | INFO     | __main__:process_single_pdf:52 - Processing IASLC Proposals for Revision of TNM.pdf...
+2025-08-31 20:22:16.414 | SUCCESS  | __main__:process_single_pdf:71 - ✓ Successfully processed IASLC Proposals for Revision of TNM
+2025-08-31 20:22:16.414 | INFO     | __main__:main:189 - [34/414] Processing Tracheomalacia and tracheobronchomalacia in ch.pdf
+2025-08-31 20:22:16.414 | INFO     | __main__:process_single_pdf:52 - Processing Tracheomalacia and tracheobronchomalacia in ch.pdf...
+2025-08-31 20:29:01.684 | SUCCESS  | __main__:process_single_pdf:71 - ✓ Successfully processed Tracheomalacia and tracheobronchomalacia in ch
+2025-08-31 20:29:01.684 | INFO     | __main__:main:189 - [35/414] Processing Ruigrok-2020-Digital versus analogue chest dra.pdf
+2025-08-31 20:29:01.684 | INFO     | __main__:process_single_pdf:52 - Processing Ruigrok-2020-Digital versus analogue chest dra.pdf...
+2025-08-31 20:30:20.263 | SUCCESS  | __main__:process_single_pdf:71 - ✓ Successfully processed Ruigrok-2020-Digital versus analogue chest dra
+2025-08-31 20:30:20.263 | INFO     | __main__:main:189 - [36/414] Processing Lipp-2013-Systemic antimicrobial prophylaxis f.pdf
+2025-08-31 20:30:20.263 | INFO     | __main__:process_single_pdf:52 - Processing Lipp-2013-Systemic antimicrobial prophylaxis f.pdf...
+2025-08-31 20:32:29.143 | SUCCESS  | __main__:process_single_pdf:71 - ✓ Successfully processed Lipp-2013-Systemic antimicrobial prophylaxis f
+2025-08-31 20:32:29.144 | INFO     | __main__:main:189 - [37/414] Processing klug-et-al-2024-proposed-ninth-edition-tnm-staging-system-for-lung-cancer-guide-for-radiologists.pdf
+2025-08-31 20:32:29.144 | INFO     | __main__:process_single_pdf:52 - Processing klug-et-al-2024-proposed-ninth-edition-tnm-staging-system-for-lung-cancer-guide-for-radiologists.pdf...
+2025-08-31 20:34:07.285 | SUCCESS  | __main__:process_single_pdf:71 - ✓ Successfully processed klug-et-al-2024-proposed-ninth-edition-tnm-staging-system-for-lung-cancer-guide-for-radiologists
+2025-08-31 20:34:07.285 | INFO     | __main__:main:189 - [38/414] Processing Eur Respir Rev-2020-DeMaio-200028.pdf
+2025-08-31 20:34:07.285 | INFO     | __main__:process_single_pdf:52 - Processing Eur Respir Rev-2020-DeMaio-200028.pdf...
+2025-08-31 20:38:03.413 | SUCCESS  | __main__:process_single_pdf:71 - ✓ Successfully processed Eur Respir Rev-2020-DeMaio-200028
+2025-08-31 20:38:03.414 | INFO     | __main__:main:189 - [39/414] Processing RigidMiniThoracoscopyVersusSemirigid_Thoracoscopy.pdf
+2025-08-31 20:38:03.414 | INFO     | __main__:process_single_pdf:52 - Processing RigidMiniThoracoscopyVersusSemirigid_Thoracoscopy.pdf...
+2025-08-31 20:39:06.272 | SUCCESS  | __main__:process_single_pdf:71 - ✓ Successfully processed RigidMiniThoracoscopyVersusSemirigid_Thoracoscopy
+2025-08-31 20:39:06.273 | INFO     | __main__:main:189 - [40/414] Processing Preoperative endobronchial photodynamic therap.pdf
+2025-08-31 20:39:06.273 | INFO     | __main__:process_single_pdf:52 - Processing Preoperative endobronchial photodynamic therap.pdf...
+2025-08-31 20:39:58.513 | SUCCESS  | __main__:process_single_pdf:71 - ✓ Successfully processed Preoperative endobronchial photodynamic therap
+2025-08-31 20:39:58.513 | INFO     | __main__:main:198 - Reached 40 successful processes, committing intermediate results...
+2025-08-31 20:39:58.513 | INFO     | __main__:git_commit_and_push:129 - Adding changes to git...

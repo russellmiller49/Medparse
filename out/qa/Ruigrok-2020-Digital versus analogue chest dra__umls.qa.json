@@ -1,0 +1,15 @@
+{
+  "pdf": "Ruigrok-2020-Digital versus analogue chest dra.pdf",
+  "n_sections": 24,
+  "n_tables": 3,
+  "n_figures": 6,
+  "n_fig_crops": 5,
+  "missing_fig_bbox": 0,
+  "n_refs_csv": 24,
+  "n_umls_links": 0,
+  "n_local_links": 0,
+  "linker": "umls",
+  "completeness_score": 53,
+  "is_valid": false,
+  "timestamp": "2025-08-31 20:30:18"
+}

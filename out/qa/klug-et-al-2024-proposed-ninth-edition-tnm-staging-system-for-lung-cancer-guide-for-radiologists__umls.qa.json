@@ -1,0 +1,15 @@
+{
+  "pdf": "klug-et-al-2024-proposed-ninth-edition-tnm-staging-system-for-lung-cancer-guide-for-radiologists.pdf",
+  "n_sections": 16,
+  "n_tables": 4,
+  "n_figures": 41,
+  "n_fig_crops": 41,
+  "missing_fig_bbox": 0,
+  "n_refs_csv": 30,
+  "n_umls_links": 0,
+  "n_local_links": 0,
+  "linker": "umls",
+  "completeness_score": 61,
+  "is_valid": true,
+  "timestamp": "2025-08-31 20:34:06"
+}
