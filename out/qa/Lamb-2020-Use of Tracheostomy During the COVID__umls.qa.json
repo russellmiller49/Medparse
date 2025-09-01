@@ -1,0 +1,15 @@
+{
+  "pdf": "Lamb-2020-Use of Tracheostomy During the COVID.pdf",
+  "n_sections": 19,
+  "n_tables": 4,
+  "n_figures": 7,
+  "n_fig_crops": 7,
+  "missing_fig_bbox": 0,
+  "n_refs_csv": 87,
+  "n_umls_links": 0,
+  "n_local_links": 0,
+  "linker": "umls",
+  "completeness_score": 53,
+  "is_valid": false,
+  "timestamp": "2025-09-01 05:21:45"
+}

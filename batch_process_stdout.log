@@ -4075,3 +4075,121 @@ lxml.etree.XMLSyntaxError: Document is empty, line 1, column 1
 2025-09-01 05:05:23.722 | SUCCESS  | __main__:process_single_pdf:71 - ✓ Successfully processed Hu-2020-Pleural manometry_ techniques, applica
 2025-09-01 05:05:23.722 | INFO     | __main__:main:198 - Reached 280 successful processes, committing intermediate results...
 2025-09-01 05:05:23.722 | INFO     | __main__:git_commit_and_push:129 - Adding changes to git...
+2025-09-01 05:05:23.938 | INFO     | __main__:git_commit_and_push:145 - Creating git commit...
+[fix/extraction-hardening f00f17c] feat: Batch processed 280 PDFs (intermediate commit)
+ 82 files changed, 269353 insertions(+), 1 deletion(-)
+ create mode 100644 out/batch_processed/BTS pleural guidelines2.json
+ create mode 100644 out/batch_processed/ENB-directed dye marking for locating pulmonary nodules.json
+ create mode 100644 out/batch_processed/Equipment and procedural setup for IP.json
+ create mode 100644 out/batch_processed/Hu-2020-Pleural manometry_ techniques, applica.json
+ create mode 100644 out/batch_processed/Mesothelioma proposal for revision of T.json
+ create mode 100644 out/batch_processed/Roberts-2010-Management of a malignant pleural.json
+ create mode 100644 out/batch_processed/Shi-2014-Outcome and safety of the Montgomery.json
+ create mode 100644 out/batch_processed/The death of a healthy volunteer in a human research project  implications for.json
+ create mode 100644 out/batch_processed/Therapeutic bronchoscopy for malignan.json
+ create mode 100644 out/batch_processed/Tracheobronchomalacia and excessive dynamic ai.json
+ create mode 100644 out/figures/BTS pleural guidelines2_fig01.jpg
+ create mode 100644 out/figures/BTS pleural guidelines2_fig02.jpg
+ create mode 100644 out/figures/BTS pleural guidelines2_fig03.jpg
+ create mode 100644 out/figures/BTS pleural guidelines2_fig04.jpg
+ create mode 100644 out/figures/BTS pleural guidelines2_fig05.jpg
+ create mode 100644 out/figures/BTS pleural guidelines2_fig06.jpg
+ create mode 100644 out/figures/BTS pleural guidelines2_fig07.jpg
+ create mode 100644 out/figures/BTS pleural guidelines2_fig08.jpg
+ create mode 100644 out/figures/BTS pleural guidelines2_fig09.jpg
+ create mode 100644 out/figures/ENB-directed dye marking for locating pulmonary nodules_fig01.jpg
+ create mode 100644 out/figures/ENB-directed dye marking for locating pulmonary nodules_fig02.jpg
+ create mode 100644 out/figures/ENB-directed dye marking for locating pulmonary nodules_fig03.jpg
+ create mode 100644 out/figures/ENB-directed dye marking for locating pulmonary nodules_fig04.jpg
+ create mode 100644 out/figures/ENB-directed dye marking for locating pulmonary nodules_fig05.jpg
+ create mode 100644 out/figures/Equipment and procedural setup for IP_fig01.jpg
+ create mode 100644 out/figures/Equipment and procedural setup for IP_fig02.jpg
+ create mode 100644 out/figures/Equipment and procedural setup for IP_fig03.jpg
+ create mode 100644 out/figures/Equipment and procedural setup for IP_fig04.jpg
+ create mode 100644 out/figures/Equipment and procedural setup for IP_fig05.jpg
+ create mode 100644 out/figures/Equipment and procedural setup for IP_fig06.jpg
+ create mode 100644 out/figures/Equipment and procedural setup for IP_figure7.jpg
+ create mode 100644 out/figures/Hu-2020-Pleural manometry_ techniques, applica_fig01.jpg
+ create mode 100644 out/figures/Hu-2020-Pleural manometry_ techniques, applica_fig02.jpg
+ create mode 100644 out/figures/Hu-2020-Pleural manometry_ techniques, applica_fig03.jpg
+ create mode 100644 out/figures/Hu-2020-Pleural manometry_ techniques, applica_fig05.jpg
+ create mode 100644 out/figures/Hu-2020-Pleural manometry_ techniques, applica_fig06.jpg
+ create mode 100644 out/figures/Hu-2020-Pleural manometry_ techniques, applica_fig07.jpg
+ create mode 100644 out/figures/Hu-2020-Pleural manometry_ techniques, applica_fig08.jpg
+ create mode 100644 out/figures/Hu-2020-Pleural manometry_ techniques, applica_fig09.jpg
+ create mode 100644 out/figures/Hu-2020-Pleural manometry_ techniques, applica_fig10.jpg
+ create mode 100644 out/figures/Hu-2020-Pleural manometry_ techniques, applica_fig11.jpg
+ create mode 100644 out/figures/Hu-2020-Pleural manometry_ techniques, applica_fig12.jpg
+ create mode 100644 out/figures/Hu-2020-Pleural manometry_ techniques, applica_figure4.jpg
+ create mode 100644 out/figures/Mesothelioma proposal for revision of T_fig01.jpg
+ create mode 100644 out/figures/Mesothelioma proposal for revision of T_fig02.jpg
+ create mode 100644 out/figures/Mesothelioma proposal for revision of T_fig03.jpg
+ create mode 100644 out/figures/Mesothelioma proposal for revision of T_fig04.jpg
+ create mode 100644 out/figures/Mesothelioma proposal for revision of T_fig05.jpg
+ create mode 100644 out/figures/Mesothelioma proposal for revision of T_fig06.jpg
+ create mode 100644 out/figures/Roberts-2010-Management of a malignant pleural_fig01.jpg
+ create mode 100644 out/figures/Shi-2014-Outcome and safety of the Montgomery_fig01.jpg
+ create mode 100644 out/figures/Shi-2014-Outcome and safety of the Montgomery_fig02.jpg
+ create mode 100644 out/figures/Shi-2014-Outcome and safety of the Montgomery_fig03.jpg
+ create mode 100644 out/figures/Shi-2014-Outcome and safety of the Montgomery_fig04.jpg
+ create mode 100644 out/figures/Shi-2014-Outcome and safety of the Montgomery_fig05.jpg
+ create mode 100644 out/figures/Shi-2014-Outcome and safety of the Montgomery_fig06.jpg
+ create mode 100644 out/figures/Shi-2014-Outcome and safety of the Montgomery_fig07.jpg
+ create mode 100644 out/figures/Shi-2014-Outcome and safety of the Montgomery_fig08.jpg
+ create mode 100644 out/figures/Shi-2014-Outcome and safety of the Montgomery_fig09.jpg
+ create mode 100644 out/figures/Therapeutic bronchoscopy for malignan_fig01.jpg
+ create mode 100644 out/figures/maldonado-et-al-2024-navigational-bronchoscopy-versus-computed-tomography-guided-transthoracic-needle-biopsy-for-the (2)_fig01.jpg
+ create mode 100644 out/qa/BTS pleural guidelines2__umls.qa.json
+ create mode 100644 out/qa/ENB-directed dye marking for locating pulmonary nodules__umls.qa.json
+ create mode 100644 out/qa/Equipment and procedural setup for IP__umls.qa.json
+ create mode 100644 out/qa/Hu-2020-Pleural manometry_ techniques, applica__umls.qa.json
+ create mode 100644 out/qa/Mesothelioma proposal for revision of T__umls.qa.json
+ create mode 100644 out/qa/Roberts-2010-Management of a malignant pleural__umls.qa.json
+ create mode 100644 out/qa/Shi-2014-Outcome and safety of the Montgomery__umls.qa.json
+ create mode 100644 out/qa/The death of a healthy volunteer in a human research project  implications for__umls.qa.json
+ create mode 100644 out/qa/Therapeutic bronchoscopy for malignan__umls.qa.json
+ create mode 100644 out/references/BTS pleural guidelines2.refs.csv
+ create mode 100644 out/references/ENB-directed dye marking for locating pulmonary nodules.refs.csv
+ create mode 100644 out/references/Equipment and procedural setup for IP.refs.csv
+ create mode 100644 out/references/Hu-2020-Pleural manometry_ techniques, applica.refs.csv
+ create mode 100644 out/references/Mesothelioma proposal for revision of T.refs.csv
+ create mode 100644 out/references/Roberts-2010-Management of a malignant pleural.refs.csv
+ create mode 100644 out/references/Shi-2014-Outcome and safety of the Montgomery.refs.csv
+ create mode 100644 out/references/The death of a healthy volunteer in a human research project  implications for.refs.csv
+ create mode 100644 out/references/Therapeutic bronchoscopy for malignan.refs.csv
+2025-09-01 05:05:23.977 | INFO     | __main__:git_commit_and_push:158 - Pushing to origin/fix/extraction-hardening...
+To https://github.com/russellmiller49/Medparse.git
+   8968e76..f00f17c  fix/extraction-hardening -> fix/extraction-hardening
+2025-09-01 05:05:28.897 | SUCCESS  | __main__:git_commit_and_push:161 - ✓ Successfully pushed to GitHub (branch: fix/extraction-hardening)
+2025-09-01 05:05:28.897 | INFO     | __main__:main:189 - [285/414] Processing Chhatre-2021-Survival Outcomes with Photodynam.pdf
+2025-09-01 05:05:28.897 | INFO     | __main__:process_single_pdf:52 - Processing Chhatre-2021-Survival Outcomes with Photodynam.pdf...
+2025-09-01 05:06:32.738 | SUCCESS  | __main__:process_single_pdf:71 - ✓ Successfully processed Chhatre-2021-Survival Outcomes with Photodynam
+2025-09-01 05:06:32.738 | INFO     | __main__:main:189 - [286/414] Processing Shojaee-2019-Indwelling Tunneled Pleural Cathe.pdf
+2025-09-01 05:06:32.738 | INFO     | __main__:process_single_pdf:52 - Processing Shojaee-2019-Indwelling Tunneled Pleural Cathe.pdf...
+2025-09-01 05:09:00.115 | SUCCESS  | __main__:process_single_pdf:71 - ✓ Successfully processed Shojaee-2019-Indwelling Tunneled Pleural Cathe
+2025-09-01 05:09:00.115 | INFO     | __main__:main:189 - [287/414] Processing Managing Massive Hemoptysis.pdf
+2025-09-01 05:09:00.115 | INFO     | __main__:process_single_pdf:52 - Processing Managing Massive Hemoptysis.pdf...
+2025-09-01 05:11:36.900 | SUCCESS  | __main__:process_single_pdf:71 - ✓ Successfully processed Managing Massive Hemoptysis
+2025-09-01 05:11:36.900 | INFO     | __main__:main:189 - [288/414] Processing Cone-beam computed tomography-guided electromagnetic navigation for peripheral lung nodules.pdf
+2025-09-01 05:11:36.900 | INFO     | __main__:process_single_pdf:52 - Processing Cone-beam computed tomography-guided electromagnetic navigation for peripheral lung nodules.pdf...
+2025-09-01 05:12:40.570 | SUCCESS  | __main__:process_single_pdf:71 - ✓ Successfully processed Cone-beam computed tomography-guided electromagnetic navigation for peripheral lung nodules
+2025-09-01 05:12:40.570 | INFO     | __main__:main:189 - [289/414] Processing Arnold-2018-Investigating unilateral pleural e.pdf
+2025-09-01 05:12:40.570 | INFO     | __main__:process_single_pdf:52 - Processing Arnold-2018-Investigating unilateral pleural e.pdf...
+2025-09-01 05:14:56.306 | SUCCESS  | __main__:process_single_pdf:71 - ✓ Successfully processed Arnold-2018-Investigating unilateral pleural e
+2025-09-01 05:14:56.306 | INFO     | __main__:main:189 - [290/414] Processing nebulized TXA review.pdf
+2025-09-01 05:14:56.306 | INFO     | __main__:process_single_pdf:52 - Processing nebulized TXA review.pdf...
+2025-09-01 05:15:59.992 | SUCCESS  | __main__:process_single_pdf:71 - ✓ Successfully processed nebulized TXA review
+2025-09-01 05:15:59.992 | INFO     | __main__:main:189 - [291/414] Processing fistula Debourdeau-2019-Endoscopic treatment of nonmal.pdf
+2025-09-01 05:15:59.992 | INFO     | __main__:process_single_pdf:52 - Processing fistula Debourdeau-2019-Endoscopic treatment of nonmal.pdf...
+2025-09-01 05:16:58.701 | SUCCESS  | __main__:process_single_pdf:71 - ✓ Successfully processed fistula Debourdeau-2019-Endoscopic treatment of nonmal
+2025-09-01 05:16:58.701 | INFO     | __main__:main:189 - [292/414] Processing Advances in IP.pdf
+2025-09-01 05:16:58.702 | INFO     | __main__:process_single_pdf:52 - Processing Advances in IP.pdf...
+2025-09-01 05:19:49.115 | SUCCESS  | __main__:process_single_pdf:71 - ✓ Successfully processed Advances in IP
+2025-09-01 05:19:49.115 | INFO     | __main__:main:189 - [293/414] Processing Lamb-2020-Use of Tracheostomy During the COVID.pdf
+2025-09-01 05:19:49.115 | INFO     | __main__:process_single_pdf:52 - Processing Lamb-2020-Use of Tracheostomy During the COVID.pdf...
+2025-09-01 05:21:46.340 | SUCCESS  | __main__:process_single_pdf:71 - ✓ Successfully processed Lamb-2020-Use of Tracheostomy During the COVID
+2025-09-01 05:21:46.341 | INFO     | __main__:main:189 - [294/414] Processing Endobronchial tumor debulking with a flexible.pdf
+2025-09-01 05:21:46.341 | INFO     | __main__:process_single_pdf:52 - Processing Endobronchial tumor debulking with a flexible.pdf...
+2025-09-01 05:22:35.418 | SUCCESS  | __main__:process_single_pdf:71 - ✓ Successfully processed Endobronchial tumor debulking with a flexible
+2025-09-01 05:22:35.418 | INFO     | __main__:main:198 - Reached 290 successful processes, committing intermediate results...
+2025-09-01 05:22:35.418 | INFO     | __main__:git_commit_and_push:129 - Adding changes to git...
