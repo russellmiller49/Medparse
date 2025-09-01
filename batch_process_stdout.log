@@ -5620,3 +5620,198 @@ To https://github.com/russellmiller49/Medparse.git
 2025-09-01 08:56:39.132 | SUCCESS  | __main__:process_single_pdf:71 - ✓ Successfully processed Percutaneous Dilational Tracheostomy 2018
 2025-09-01 08:56:39.132 | INFO     | __main__:main:198 - Reached 400 successful processes, committing intermediate results...
 2025-09-01 08:56:39.132 | INFO     | __main__:git_commit_and_push:129 - Adding changes to git...
+2025-09-01 08:56:39.374 | INFO     | __main__:git_commit_and_push:145 - Creating git commit...
+[fix/extraction-hardening 62f4515] feat: Batch processed 400 PDFs (intermediate commit)
+ 153 files changed, 273681 insertions(+)
+ create mode 100644 out/batch_processed/Andriolo-2015-Early versus late tracheostomy f.json
+ create mode 100644 out/batch_processed/Criner-2019-Improving Lung Function in Severe.json
+ create mode 100644 out/batch_processed/Effectiveness of Elastography.json
+ create mode 100644 out/batch_processed/Endobronchial Valves for Emphysema without Int.json
+ create mode 100644 "out/batch_processed/Multi\342\200\220institutional retrospective analysis of.json"
+ create mode 100644 out/batch_processed/Percutaneous Dilational Tracheostomy 2018.json
+ create mode 100644 out/batch_processed/Role of Montgomery T-tube stent for laryngotra.json
+ create mode 100644 out/batch_processed/Thomas-2017-Effect of an Indwelling Pleural Ca.json
+ create mode 100644 out/batch_processed/Training in interventional pulmonology the European and US perspective.json
+ create mode 100644 out/batch_processed/Transbronchial cryobiopsy n ILD.json
+ create mode 100644 out/figures/Andriolo-2015-Early versus late tracheostomy f_fig01.jpg
+ create mode 100644 out/figures/Andriolo-2015-Early versus late tracheostomy f_fig02.jpg
+ create mode 100644 out/figures/Andriolo-2015-Early versus late tracheostomy f_fig03.jpg
+ create mode 100644 out/figures/Andriolo-2015-Early versus late tracheostomy f_fig04.jpg
+ create mode 100644 out/figures/Andriolo-2015-Early versus late tracheostomy f_fig05.jpg
+ create mode 100644 out/figures/Andriolo-2015-Early versus late tracheostomy f_fig06.jpg
+ create mode 100644 out/figures/Andriolo-2015-Early versus late tracheostomy f_fig07.jpg
+ create mode 100644 out/figures/Andriolo-2015-Early versus late tracheostomy f_fig08.jpg
+ create mode 100644 out/figures/Andriolo-2015-Early versus late tracheostomy f_fig09.jpg
+ create mode 100644 out/figures/Andriolo-2015-Early versus late tracheostomy f_fig10.jpg
+ create mode 100644 out/figures/Andriolo-2015-Early versus late tracheostomy f_fig11.jpg
+ create mode 100644 out/figures/Andriolo-2015-Early versus late tracheostomy f_fig12.jpg
+ create mode 100644 out/figures/Andriolo-2015-Early versus late tracheostomy f_fig13.jpg
+ create mode 100644 out/figures/Andriolo-2015-Early versus late tracheostomy f_fig14.jpg
+ create mode 100644 out/figures/Andriolo-2015-Early versus late tracheostomy f_fig15.jpg
+ create mode 100644 out/figures/Andriolo-2015-Early versus late tracheostomy f_fig16.jpg
+ create mode 100644 out/figures/Andriolo-2015-Early versus late tracheostomy f_fig17.jpg
+ create mode 100644 out/figures/Andriolo-2015-Early versus late tracheostomy f_fig18.jpg
+ create mode 100644 out/figures/Andriolo-2015-Early versus late tracheostomy f_fig19.jpg
+ create mode 100644 out/figures/Andriolo-2015-Early versus late tracheostomy f_fig20.jpg
+ create mode 100644 out/figures/Andriolo-2015-Early versus late tracheostomy f_fig21.jpg
+ create mode 100644 out/figures/Andriolo-2015-Early versus late tracheostomy f_fig22.jpg
+ create mode 100644 out/figures/Andriolo-2015-Early versus late tracheostomy f_fig23.jpg
+ create mode 100644 out/figures/Andriolo-2015-Early versus late tracheostomy f_fig24.jpg
+ create mode 100644 out/figures/Andriolo-2015-Early versus late tracheostomy f_fig25.jpg
+ create mode 100644 out/figures/Andriolo-2015-Early versus late tracheostomy f_fig26.jpg
+ create mode 100644 out/figures/Andriolo-2015-Early versus late tracheostomy f_fig27.jpg
+ create mode 100644 out/figures/Andriolo-2015-Early versus late tracheostomy f_fig28.jpg
+ create mode 100644 out/figures/Andriolo-2015-Early versus late tracheostomy f_fig29.jpg
+ create mode 100644 out/figures/Andriolo-2015-Early versus late tracheostomy f_fig30.jpg
+ create mode 100644 out/figures/Andriolo-2015-Early versus late tracheostomy f_fig31.jpg
+ create mode 100644 out/figures/Andriolo-2015-Early versus late tracheostomy f_fig32.jpg
+ create mode 100644 out/figures/Andriolo-2015-Early versus late tracheostomy f_fig33.jpg
+ create mode 100644 out/figures/Andriolo-2015-Early versus late tracheostomy f_fig34.jpg
+ create mode 100644 out/figures/Andriolo-2015-Early versus late tracheostomy f_fig35.jpg
+ create mode 100644 out/figures/Andriolo-2015-Early versus late tracheostomy f_fig36.jpg
+ create mode 100644 out/figures/Andriolo-2015-Early versus late tracheostomy f_fig37.jpg
+ create mode 100644 out/figures/Andriolo-2015-Early versus late tracheostomy f_fig38.jpg
+ create mode 100644 out/figures/Andriolo-2015-Early versus late tracheostomy f_fig39.jpg
+ create mode 100644 out/figures/Andriolo-2015-Early versus late tracheostomy f_fig40.jpg
+ create mode 100644 out/figures/Andriolo-2015-Early versus late tracheostomy f_fig41.jpg
+ create mode 100644 out/figures/Andriolo-2015-Early versus late tracheostomy f_fig42.jpg
+ create mode 100644 out/figures/Andriolo-2015-Early versus late tracheostomy f_fig43.jpg
+ create mode 100644 out/figures/Andriolo-2015-Early versus late tracheostomy f_fig44.jpg
+ create mode 100644 out/figures/Andriolo-2015-Early versus late tracheostomy f_fig45.jpg
+ create mode 100644 out/figures/Andriolo-2015-Early versus late tracheostomy f_fig46.jpg
+ create mode 100644 out/figures/Andriolo-2015-Early versus late tracheostomy f_fig47.jpg
+ create mode 100644 out/figures/Andriolo-2015-Early versus late tracheostomy f_fig48.jpg
+ create mode 100644 out/figures/Andriolo-2015-Early versus late tracheostomy f_fig49.jpg
+ create mode 100644 out/figures/Andriolo-2015-Early versus late tracheostomy f_fig50.jpg
+ create mode 100644 out/figures/Andriolo-2015-Early versus late tracheostomy f_fig51.jpg
+ create mode 100644 out/figures/Andriolo-2015-Early versus late tracheostomy f_fig52.jpg
+ create mode 100644 out/figures/Andriolo-2015-Early versus late tracheostomy f_fig53.jpg
+ create mode 100644 out/figures/Andriolo-2015-Early versus late tracheostomy f_fig54.jpg
+ create mode 100644 out/figures/Andriolo-2015-Early versus late tracheostomy f_fig55.jpg
+ create mode 100644 out/figures/Andriolo-2015-Early versus late tracheostomy f_fig56.jpg
+ create mode 100644 out/figures/Andriolo-2015-Early versus late tracheostomy f_fig57.jpg
+ create mode 100644 out/figures/Andriolo-2015-Early versus late tracheostomy f_fig58.jpg
+ create mode 100644 out/figures/Andriolo-2015-Early versus late tracheostomy f_fig59.jpg
+ create mode 100644 out/figures/Andriolo-2015-Early versus late tracheostomy f_fig60.jpg
+ create mode 100644 out/figures/Andriolo-2015-Early versus late tracheostomy f_fig61.jpg
+ create mode 100644 out/figures/Andriolo-2015-Early versus late tracheostomy f_fig62.jpg
+ create mode 100644 out/figures/Andriolo-2015-Early versus late tracheostomy f_fig63.jpg
+ create mode 100644 out/figures/Andriolo-2015-Early versus late tracheostomy f_fig64.jpg
+ create mode 100644 out/figures/Criner-2019-Improving Lung Function in Severe_fig01.jpg
+ create mode 100644 out/figures/Criner-2019-Improving Lung Function in Severe_figure1.jpg
+ create mode 100644 out/figures/Criner-2019-Improving Lung Function in Severe_figure2.jpg
+ create mode 100644 out/figures/Effectiveness of Elastography_fig01.jpg
+ create mode 100644 out/figures/Effectiveness of Elastography_fig02.jpg
+ create mode 100644 out/figures/Effectiveness of Elastography_fig03.jpg
+ create mode 100644 out/figures/Effectiveness of Elastography_fig04.jpg
+ create mode 100644 out/figures/Effectiveness of Elastography_fig06.jpg
+ create mode 100644 out/figures/Effectiveness of Elastography_fig07.jpg
+ create mode 100644 out/figures/Effectiveness of Elastography_figure2.jpg
+ create mode 100644 out/figures/Endobronchial Valves for Emphysema without Int_fig01.jpg
+ create mode 100644 "out/figures/Multi\342\200\220institutional retrospective analysis of_fig01.jpg"
+ create mode 100644 "out/figures/Multi\342\200\220institutional retrospective analysis of_fig02.jpg"
+ create mode 100644 "out/figures/Multi\342\200\220institutional retrospective analysis of_fig03.jpg"
+ create mode 100644 out/figures/Percutaneous Dilational Tracheostomy 2018_fig01.jpg
+ create mode 100644 out/figures/Percutaneous Dilational Tracheostomy 2018_fig02.jpg
+ create mode 100644 out/figures/Percutaneous Dilational Tracheostomy 2018_fig03.jpg
+ create mode 100644 out/figures/Percutaneous Dilational Tracheostomy 2018_fig04.jpg
+ create mode 100644 out/figures/Percutaneous Dilational Tracheostomy 2018_fig05.jpg
+ create mode 100644 out/figures/Percutaneous Dilational Tracheostomy 2018_fig06.jpg
+ create mode 100644 out/figures/Percutaneous Dilational Tracheostomy 2018_fig07.jpg
+ create mode 100644 out/figures/Percutaneous Dilational Tracheostomy 2018_fig08.jpg
+ create mode 100644 out/figures/Percutaneous Dilational Tracheostomy 2018_fig09.jpg
+ create mode 100644 out/figures/Percutaneous Dilational Tracheostomy 2018_fig10.jpg
+ create mode 100644 out/figures/Percutaneous Dilational Tracheostomy 2018_fig11.jpg
+ create mode 100644 out/figures/Percutaneous Dilational Tracheostomy 2018_fig12.jpg
+ create mode 100644 out/figures/Percutaneous Dilational Tracheostomy 2018_fig13.jpg
+ create mode 100644 out/figures/Percutaneous Dilational Tracheostomy 2018_fig14.jpg
+ create mode 100644 out/figures/Percutaneous Dilational Tracheostomy 2018_fig15.jpg
+ create mode 100644 out/figures/Percutaneous Dilational Tracheostomy 2018_fig16.jpg
+ create mode 100644 out/figures/Percutaneous Dilational Tracheostomy 2018_fig17.jpg
+ create mode 100644 out/figures/Role of Montgomery T-tube stent for laryngotra_fig01.jpg
+ create mode 100644 out/figures/Role of Montgomery T-tube stent for laryngotra_fig02.jpg
+ create mode 100644 out/figures/Role of Montgomery T-tube stent for laryngotra_fig03.jpg
+ create mode 100644 out/figures/Role of Montgomery T-tube stent for laryngotra_fig04.jpg
+ create mode 100644 out/figures/Role of Montgomery T-tube stent for laryngotra_fig05.jpg
+ create mode 100644 out/figures/Role of Montgomery T-tube stent for laryngotra_fig06.jpg
+ create mode 100644 out/figures/Role of Montgomery T-tube stent for laryngotra_fig07.jpg
+ create mode 100644 out/figures/Role of Montgomery T-tube stent for laryngotra_fig08.jpg
+ create mode 100644 out/figures/Role of Montgomery T-tube stent for laryngotra_fig09.jpg
+ create mode 100644 out/figures/Thomas-2017-Effect of an Indwelling Pleural Ca_fig01.jpg
+ create mode 100644 out/figures/Thomas-2017-Effect of an Indwelling Pleural Ca_fig02.jpg
+ create mode 100644 out/figures/Thomas-2017-Effect of an Indwelling Pleural Ca_fig03.jpg
+ create mode 100644 out/figures/Thomas-2017-Effect of an Indwelling Pleural Ca_fig04.jpg
+ create mode 100644 out/figures/Training in interventional pulmonology the European and US perspective_fig01.jpg
+ create mode 100644 out/figures/Training in interventional pulmonology the European and US perspective_fig02.jpg
+ create mode 100644 out/figures/Training in interventional pulmonology the European and US perspective_fig03.jpg
+ create mode 100644 out/figures/Training in interventional pulmonology the European and US perspective_fig04.jpg
+ create mode 100644 out/figures/Training in interventional pulmonology the European and US perspective_fig06.jpg
+ create mode 100644 out/figures/Training in interventional pulmonology the European and US perspective_figure1.jpg
+ create mode 100644 out/figures/Transbronchial cryobiopsy n ILD_fig01.jpg
+ create mode 100644 out/figures/Transbronchial cryobiopsy n ILD_fig02.jpg
+ create mode 100644 out/figures/Transbronchial cryobiopsy n ILD_fig03.jpg
+ create mode 100644 out/figures/Transbronchial cryobiopsy n ILD_fig04.jpg
+ create mode 100644 out/figures/Transbronchial cryobiopsy n ILD_fig05.jpg
+ create mode 100644 out/figures/Transbronchial cryobiopsy n ILD_fig06.jpg
+ create mode 100644 out/figures/Transbronchial cryobiopsy n ILD_fig07.jpg
+ create mode 100644 out/qa/Andriolo-2015-Early versus late tracheostomy f__umls.qa.json
+ create mode 100644 out/qa/Criner-2019-Improving Lung Function in Severe__umls.qa.json
+ create mode 100644 out/qa/Effectiveness of Elastography__umls.qa.json
+ create mode 100644 out/qa/Endobronchial Valves for Emphysema without Int__umls.qa.json
+ create mode 100644 "out/qa/Multi\342\200\220institutional retrospective analysis of__umls.qa.json"
+ create mode 100644 out/qa/Percutaneous Dilational Tracheostomy 2018__umls.qa.json
+ create mode 100644 out/qa/Role of Montgomery T-tube stent for laryngotra__umls.qa.json
+ create mode 100644 out/qa/Thomas-2017-Effect of an Indwelling Pleural Ca__umls.qa.json
+ create mode 100644 out/qa/Training in interventional pulmonology the European and US perspective__umls.qa.json
+ create mode 100644 out/qa/Transbronchial cryobiopsy n ILD__umls.qa.json
+ create mode 100644 out/references/Andriolo-2015-Early versus late tracheostomy f.refs.csv
+ create mode 100644 out/references/Criner-2019-Improving Lung Function in Severe.refs.csv
+ create mode 100644 out/references/Effectiveness of Elastography.refs.csv
+ create mode 100644 out/references/Endobronchial Valves for Emphysema without Int.refs.csv
+ create mode 100644 "out/references/Multi\342\200\220institutional retrospective analysis of.refs.csv"
+ create mode 100644 out/references/Percutaneous Dilational Tracheostomy 2018.refs.csv
+ create mode 100644 out/references/Role of Montgomery T-tube stent for laryngotra.refs.csv
+ create mode 100644 out/references/Thomas-2017-Effect of an Indwelling Pleural Ca.refs.csv
+ create mode 100644 out/references/Training in interventional pulmonology the European and US perspective.refs.csv
+ create mode 100644 out/references/Transbronchial cryobiopsy n ILD.refs.csv
+2025-09-01 08:56:39.420 | INFO     | __main__:git_commit_and_push:158 - Pushing to origin/fix/extraction-hardening...
+To https://github.com/russellmiller49/Medparse.git
+   7f19459..62f4515  fix/extraction-hardening -> fix/extraction-hardening
+2025-09-01 08:56:45.289 | SUCCESS  | __main__:git_commit_and_push:161 - ✓ Successfully pushed to GitHub (branch: fix/extraction-hardening)
+2025-09-01 08:56:45.289 | INFO     | __main__:main:189 - [406/414] Processing Bronchoscopic Techniques Used in the Diagnosis and Staging of Lung Cancer.pdf
+2025-09-01 08:56:45.289 | INFO     | __main__:process_single_pdf:52 - Processing Bronchoscopic Techniques Used in the Diagnosis and Staging of Lung Cancer.pdf...
+2025-09-01 08:58:35.701 | SUCCESS  | __main__:process_single_pdf:71 - ✓ Successfully processed Bronchoscopic Techniques Used in the Diagnosis and Staging of Lung Cancer
+2025-09-01 08:58:35.701 | INFO     | __main__:main:189 - [407/414] Processing The Business of IP.pdf
+2025-09-01 08:58:35.701 | INFO     | __main__:process_single_pdf:52 - Processing The Business of IP.pdf...
+2025-09-01 08:59:44.606 | SUCCESS  | __main__:process_single_pdf:71 - ✓ Successfully processed The Business of IP
+2025-09-01 08:59:44.606 | INFO     | __main__:main:189 - [408/414] Processing Bhatnagar-2018-Outpatient Talc Administration.pdf
+2025-09-01 08:59:44.606 | INFO     | __main__:process_single_pdf:52 - Processing Bhatnagar-2018-Outpatient Talc Administration.pdf...
+2025-09-01 09:01:39.316 | SUCCESS  | __main__:process_single_pdf:71 - ✓ Successfully processed Bhatnagar-2018-Outpatient Talc Administration
+2025-09-01 09:01:39.316 | INFO     | __main__:main:189 - [409/414] Processing fistula Kim-2020-Management of tracheo-oesophageal fis.pdf
+2025-09-01 09:01:39.316 | INFO     | __main__:process_single_pdf:52 - Processing fistula Kim-2020-Management of tracheo-oesophageal fis.pdf...
+2025-09-01 09:04:37.168 | SUCCESS  | __main__:process_single_pdf:71 - ✓ Successfully processed fistula Kim-2020-Management of tracheo-oesophageal fis
+2025-09-01 09:04:37.168 | INFO     | __main__:main:189 - [410/414] Processing Safety and Efficacy of a Fully Cov.pdf
+2025-09-01 09:04:37.169 | INFO     | __main__:process_single_pdf:52 - Processing Safety and Efficacy of a Fully Cov.pdf...
+2025-09-01 09:05:40.982 | SUCCESS  | __main__:process_single_pdf:71 - ✓ Successfully processed Safety and Efficacy of a Fully Cov
+2025-09-01 09:05:40.982 | INFO     | __main__:main:189 - [411/414] Processing Complications, and practice patterns of EBUS  AQuIRE registry.pdf
+2025-09-01 09:05:40.982 | INFO     | __main__:process_single_pdf:52 - Processing Complications, and practice patterns of EBUS  AQuIRE registry.pdf...
+2025-09-01 09:07:11.093 | SUCCESS  | __main__:process_single_pdf:71 - ✓ Successfully processed Complications, and practice patterns of EBUS  AQuIRE registry
+2025-09-01 09:07:11.094 | INFO     | __main__:main:189 - [412/414] Processing Cryosurgery for malignant endobronchial tumors.pdf
+2025-09-01 09:07:11.094 | INFO     | __main__:process_single_pdf:52 - Processing Cryosurgery for malignant endobronchial tumors.pdf...
+2025-09-01 09:08:15.108 | SUCCESS  | __main__:process_single_pdf:71 - ✓ Successfully processed Cryosurgery for malignant endobronchial tumors
+2025-09-01 09:08:15.108 | INFO     | __main__:main:189 - [413/414] Processing NEJM tracheostomy.pdf
+2025-09-01 09:08:15.108 | INFO     | __main__:process_single_pdf:52 - Processing NEJM tracheostomy.pdf...
+2025-09-01 09:08:47.954 | SUCCESS  | __main__:process_single_pdf:71 - ✓ Successfully processed NEJM tracheostomy
+2025-09-01 09:08:47.954 | INFO     | __main__:main:189 - [414/414] Processing Breathlessness Predicts Survival in Patients W.pdf
+2025-09-01 09:08:47.954 | INFO     | __main__:process_single_pdf:52 - Processing Breathlessness Predicts Survival in Patients W.pdf...
+2025-09-01 09:10:10.649 | SUCCESS  | __main__:process_single_pdf:71 - ✓ Successfully processed Breathlessness Predicts Survival in Patients W
+2025-09-01 09:10:10.650 | INFO     | __main__:main:207 - Creating summary report...
+2025-09-01 09:10:12.409 | INFO     | __main__:create_summary_report:122 - Report saved to out/batch_processed/processing_report.json
+2025-09-01 09:10:12.409 | INFO     | __main__:main:211 - ============================================================
+2025-09-01 09:10:12.410 | INFO     | __main__:main:212 - PROCESSING COMPLETE
+2025-09-01 09:10:12.410 | INFO     | __main__:main:213 - Total PDFs: 414
+2025-09-01 09:10:12.410 | INFO     | __main__:main:214 - Successful: 409
+2025-09-01 09:10:12.410 | INFO     | __main__:main:215 - Failed: 5
+2025-09-01 09:10:12.410 | INFO     | __main__:main:216 - ============================================================
+2025-09-01 09:10:12.410 | INFO     | __main__:main:220 - Committing and pushing results to GitHub...
+2025-09-01 09:10:12.410 | INFO     | __main__:git_commit_and_push:129 - Adding changes to git...

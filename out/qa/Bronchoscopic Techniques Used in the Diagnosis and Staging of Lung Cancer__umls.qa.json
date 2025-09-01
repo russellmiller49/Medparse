@@ -1,0 +1,15 @@
+{
+  "pdf": "Bronchoscopic Techniques Used in the Diagnosis and Staging of Lung Cancer.pdf",
+  "n_sections": 11,
+  "n_tables": 0,
+  "n_figures": 9,
+  "n_fig_crops": 9,
+  "missing_fig_bbox": 0,
+  "n_refs_csv": 49,
+  "n_umls_links": 0,
+  "n_local_links": 0,
+  "linker": "umls",
+  "completeness_score": 61,
+  "is_valid": true,
+  "timestamp": "2025-09-01 08:58:34"
+}

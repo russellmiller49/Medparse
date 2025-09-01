@@ -1,0 +1,4118 @@
+{
+  "timestamp": "2025-09-01T09:10:10.650131",
+  "total_pdfs": 414,
+  "successful": 409,
+  "failed": 5,
+  "details": {
+    "Safety and effectiveness of microdebrider bron": {
+      "success": true,
+      "output_file": "out/batch_processed/Safety and effectiveness of microdebrider bron.json",
+      "authors": 6,
+      "abstract": true,
+      "references": 38,
+      "statistics": 0,
+      "tables": 2,
+      "figures": 4
+    },
+    "Combined Nd-YAG laser HDR brachytherapy versus": {
+      "success": true,
+      "output_file": "out/batch_processed/Combined Nd-YAG laser HDR brachytherapy versus.json",
+      "authors": 8,
+      "abstract": true,
+      "references": 68,
+      "statistics": 0,
+      "tables": 5,
+      "figures": 2
+    },
+    "Cone beam CT imaging for bronchoscopy a technical review": {
+      "success": true,
+      "output_file": "out/batch_processed/Cone beam CT imaging for bronchoscopy a technical review.json",
+      "authors": 4,
+      "abstract": false,
+      "references": 72,
+      "statistics": 0,
+      "tables": 1,
+      "figures": 14
+    },
+    "AMPLE2": {
+      "success": true,
+      "output_file": "out/batch_processed/AMPLE2.json",
+      "authors": 17,
+      "abstract": true,
+      "references": 53,
+      "statistics": 30,
+      "tables": 3,
+      "figures": 6
+    },
+    "Rashid-2017-Percutaneous tracheostomy_ a compr": {
+      "success": true,
+      "output_file": "out/batch_processed/Rashid-2017-Percutaneous tracheostomy_ a compr.json",
+      "authors": 3,
+      "abstract": false,
+      "references": 100,
+      "statistics": 8,
+      "tables": 0,
+      "figures": 4
+    },
+    "fistula Youness-2018-Bronchoscopic advances in the man": {
+      "success": true,
+      "output_file": "out/batch_processed/fistula Youness-2018-Bronchoscopic advances in the man.json",
+      "authors": 0,
+      "abstract": false,
+      "references": 82,
+      "statistics": 1,
+      "tables": 2,
+      "figures": 13
+    },
+    "Diagnostic accuracy of transbronchial lung cry": {
+      "success": true,
+      "output_file": "out/batch_processed/Diagnostic accuracy of transbronchial lung cry.json",
+      "authors": 5,
+      "abstract": false,
+      "references": 46,
+      "statistics": 4,
+      "tables": 4,
+      "figures": 7
+    },
+    "Central Airway Obstruction Benign Strictures": {
+      "success": true,
+      "output_file": "out/batch_processed/Central Airway Obstruction Benign Strictures.json",
+      "authors": 5,
+      "abstract": false,
+      "references": 100,
+      "statistics": 0,
+      "tables": 6,
+      "figures": 11
+    },
+    "Sanabria-2014-Which percutaneous tracheostomy": {
+      "success": true,
+      "output_file": "out/batch_processed/Sanabria-2014-Which percutaneous tracheostomy.json",
+      "authors": 2,
+      "abstract": false,
+      "references": 76,
+      "statistics": 13,
+      "tables": 5,
+      "figures": 3
+    },
+    "The Proposed Ninth Edition TNM Classification of Lung Cancer": {
+      "success": true,
+      "output_file": "out/batch_processed/The Proposed Ninth Edition TNM Classification of Lung Cancer.json",
+      "authors": 7,
+      "abstract": false,
+      "references": 64,
+      "statistics": 0,
+      "tables": 7,
+      "figures": 16
+    },
+    "Inhaled GM-CSF for Pulmonary Alveolar Proteino": {
+      "success": true,
+      "output_file": "out/batch_processed/Inhaled GM-CSF for Pulmonary Alveolar Proteino.json",
+      "authors": 3,
+      "abstract": false,
+      "references": 55,
+      "statistics": 18,
+      "tables": 2,
+      "figures": 4
+    },
+    "Audit of the autoantibody test, EarlyCDT": {
+      "success": true,
+      "output_file": "out/batch_processed/Audit of the autoantibody test, EarlyCDT.json",
+      "authors": 5,
+      "abstract": false,
+      "references": 33,
+      "statistics": 0,
+      "tables": 4,
+      "figures": 4
+    },
+    "gonzalez-et-al-2024-assessment-of-advanced-diagnostic-bronchoscopy-outcomes-for-peripheral-lung-lesions-a-delphi (1)": {
+      "success": true,
+      "output_file": "out/batch_processed/gonzalez-et-al-2024-assessment-of-advanced-diagnostic-bronchoscopy-outcomes-for-peripheral-lung-lesions-a-delphi (1).json",
+      "authors": 2,
+      "abstract": false,
+      "references": 100,
+      "statistics": 0,
+      "tables": 5,
+      "figures": 3
+    },
+    "Novel bronchoscopic management of airway bleeding with absorbable gelatin and thrombin slurry": {
+      "success": true,
+      "output_file": "out/batch_processed/Novel bronchoscopic management of airway bleeding with absorbable gelatin and thrombin slurry.json",
+      "authors": 3,
+      "abstract": true,
+      "references": 41,
+      "statistics": 0,
+      "tables": 2,
+      "figures": 5
+    },
+    "VERITAS": {
+      "success": true,
+      "output_file": "out/batch_processed/VERITAS.json",
+      "authors": 2,
+      "abstract": false,
+      "references": 50,
+      "statistics": 0,
+      "tables": 5,
+      "figures": 4
+    },
+    "Gomes-2015-Percutaneous endoscopic gastrostomy": {
+      "success": true,
+      "output_file": "out/batch_processed/Gomes-2015-Percutaneous endoscopic gastrostomy.json",
+      "authors": 1,
+      "abstract": false,
+      "references": 100,
+      "statistics": 58,
+      "tables": 62,
+      "figures": 89
+    },
+    "Airway spray cryotherapy initial outcomes from": {
+      "success": true,
+      "output_file": "out/batch_processed/Airway spray cryotherapy initial outcomes from.json",
+      "authors": 10,
+      "abstract": false,
+      "references": 34,
+      "statistics": 0,
+      "tables": 4,
+      "figures": 1
+    },
+    "Tedde-2011-A new technique for T-tube insertio": {
+      "success": true,
+      "output_file": "out/batch_processed/Tedde-2011-A new technique for T-tube insertio.json",
+      "authors": 2,
+      "abstract": true,
+      "references": 10,
+      "statistics": 0,
+      "tables": 0,
+      "figures": 3
+    },
+    "What is the value of electromagnetic navigation in lung cancer and to what extent does it require improvement ": {
+      "success": true,
+      "output_file": "out/batch_processed/What is the value of electromagnetic navigation in lung cancer and to what extent does it require improvement .json",
+      "authors": 2,
+      "abstract": true,
+      "references": 100,
+      "statistics": 1,
+      "tables": 0,
+      "figures": 37
+    },
+    "Bronchoscopes of the Twenty-First Century": {
+      "success": true,
+      "output_file": "out/batch_processed/Bronchoscopes of the Twenty-First Century.json",
+      "authors": 2,
+      "abstract": false,
+      "references": 85,
+      "statistics": 0,
+      "tables": 0,
+      "figures": 7
+    },
+    "surigicalLVR Rationale and design of The NETT Trial": {
+      "success": true,
+      "output_file": "out/batch_processed/surigicalLVR Rationale and design of The NETT Trial.json",
+      "authors": 3,
+      "abstract": false,
+      "references": 75,
+      "statistics": 0,
+      "tables": 4,
+      "figures": 1
+    },
+    "fistula Abu-Hijleh-2019-Intrabronchial Valves for Air": {
+      "success": true,
+      "output_file": "out/batch_processed/fistula Abu-Hijleh-2019-Intrabronchial Valves for Air.json",
+      "authors": 1,
+      "abstract": true,
+      "references": 81,
+      "statistics": 11,
+      "tables": 2,
+      "figures": 5
+    },
+    "Safety and feasibility of interventional pulmo": {
+      "success": true,
+      "output_file": "out/batch_processed/Safety and feasibility of interventional pulmo.json",
+      "authors": 2,
+      "abstract": false,
+      "references": 42,
+      "statistics": 0,
+      "tables": 2,
+      "figures": 3
+    },
+    "fistula Fiorelli-2018-Unidirectional endobronchial val": {
+      "success": true,
+      "output_file": "out/batch_processed/fistula Fiorelli-2018-Unidirectional endobronchial val.json",
+      "authors": 2,
+      "abstract": false,
+      "references": 46,
+      "statistics": 39,
+      "tables": 5,
+      "figures": 2
+    },
+    "The role of bronchoscopy in the diagnosis of airway disease": {
+      "success": true,
+      "output_file": "out/batch_processed/The role of bronchoscopy in the diagnosis of airway disease.json",
+      "authors": 3,
+      "abstract": false,
+      "references": 100,
+      "statistics": 0,
+      "tables": 0,
+      "figures": 2
+    },
+    "Development of a Tool to Assess Basic Competen": {
+      "success": true,
+      "output_file": "out/batch_processed/Development of a Tool to Assess Basic Competen.json",
+      "authors": 7,
+      "abstract": true,
+      "references": 92,
+      "statistics": 0,
+      "tables": 2,
+      "figures": 2
+    },
+    "Pison-2021-Safety of denervation following tar": {
+      "success": true,
+      "output_file": "out/batch_processed/Pison-2021-Safety of denervation following tar.json",
+      "authors": 15,
+      "abstract": true,
+      "references": 50,
+      "statistics": 0,
+      "tables": 1,
+      "figures": 8
+    },
+    "The Impact of Gravity vs\u00a0Suction-driven Therap": {
+      "success": true,
+      "output_file": "out/batch_processed/The Impact of Gravity vs\u00a0Suction-driven Therap.json",
+      "authors": 23,
+      "abstract": false,
+      "references": 56,
+      "statistics": 0,
+      "tables": 5,
+      "figures": 7
+    },
+    "State of the Art IP": {
+      "success": true,
+      "output_file": "out/batch_processed/State of the Art IP.json",
+      "authors": 4,
+      "abstract": true,
+      "references": 100,
+      "statistics": 0,
+      "tables": 0,
+      "figures": 21
+    },
+    "cone_beam_ct_with_augmented_fluoroscopy_combined": {
+      "success": true,
+      "output_file": "out/batch_processed/cone_beam_ct_with_augmented_fluoroscopy_combined.json",
+      "authors": 10,
+      "abstract": true,
+      "references": 30,
+      "statistics": 3,
+      "tables": 3,
+      "figures": 3
+    },
+    "Clinical and quality of life outcomes vs. exte": {
+      "success": true,
+      "output_file": "out/batch_processed/Clinical and quality of life outcomes vs. exte.json",
+      "authors": 0,
+      "abstract": true,
+      "references": 18,
+      "statistics": 0,
+      "tables": 3,
+      "figures": 3
+    },
+    "Advantages of US in percutaneous dilatational": {
+      "success": true,
+      "output_file": "out/batch_processed/Advantages of US in percutaneous dilatational.json",
+      "authors": 1,
+      "abstract": false,
+      "references": 30,
+      "statistics": 0,
+      "tables": 3,
+      "figures": 8
+    },
+    "IASLC Proposals for Revision of TNM": {
+      "success": true,
+      "output_file": "out/batch_processed/IASLC Proposals for Revision of TNM.json",
+      "authors": 1,
+      "abstract": true,
+      "references": 100,
+      "statistics": 0,
+      "tables": 8,
+      "figures": 7
+    },
+    "Tracheomalacia and tracheobronchomalacia in ch": {
+      "success": true,
+      "output_file": "out/batch_processed/Tracheomalacia and tracheobronchomalacia in ch.json",
+      "authors": 4,
+      "abstract": false,
+      "references": 100,
+      "statistics": 0,
+      "tables": 2,
+      "figures": 9
+    },
+    "Ruigrok-2020-Digital versus analogue chest dra": {
+      "success": true,
+      "output_file": "out/batch_processed/Ruigrok-2020-Digital versus analogue chest dra.json",
+      "authors": 9,
+      "abstract": true,
+      "references": 47,
+      "statistics": 0,
+      "tables": 3,
+      "figures": 6
+    },
+    "Lipp-2013-Systemic antimicrobial prophylaxis f": {
+      "success": true,
+      "output_file": "out/batch_processed/Lipp-2013-Systemic antimicrobial prophylaxis f.json",
+      "authors": 1,
+      "abstract": false,
+      "references": 55,
+      "statistics": 12,
+      "tables": 53,
+      "figures": 52
+    },
+    "klug-et-al-2024-proposed-ninth-edition-tnm-staging-system-for-lung-cancer-guide-for-radiologists": {
+      "success": true,
+      "output_file": "out/batch_processed/klug-et-al-2024-proposed-ninth-edition-tnm-staging-system-for-lung-cancer-guide-for-radiologists.json",
+      "authors": 7,
+      "abstract": false,
+      "references": 58,
+      "statistics": 0,
+      "tables": 4,
+      "figures": 41
+    },
+    "Eur Respir Rev-2020-DeMaio-200028": {
+      "success": true,
+      "output_file": "out/batch_processed/Eur Respir Rev-2020-DeMaio-200028.json",
+      "authors": 2,
+      "abstract": false,
+      "references": 100,
+      "statistics": 1,
+      "tables": 3,
+      "figures": 5
+    },
+    "RigidMiniThoracoscopyVersusSemirigid_Thoracoscopy": {
+      "success": true,
+      "output_file": "out/batch_processed/RigidMiniThoracoscopyVersusSemirigid_Thoracoscopy.json",
+      "authors": 12,
+      "abstract": false,
+      "references": 28,
+      "statistics": 9,
+      "tables": 3,
+      "figures": 1
+    },
+    "Preoperative endobronchial photodynamic therap": {
+      "success": true,
+      "output_file": "out/batch_processed/Preoperative endobronchial photodynamic therap.json",
+      "authors": 6,
+      "abstract": true,
+      "references": 35,
+      "statistics": 10,
+      "tables": 4,
+      "figures": 5
+    },
+    "Transbronchial Lung Cryobiopsy and Video-assis": {
+      "success": true,
+      "output_file": "out/batch_processed/Transbronchial Lung Cryobiopsy and Video-assis.json",
+      "authors": 5,
+      "abstract": true,
+      "references": 98,
+      "statistics": 0,
+      "tables": 13,
+      "figures": 11
+    },
+    "Use of fibrinolytics and deoxyribonuclease in": {
+      "success": true,
+      "output_file": "out/batch_processed/Use of fibrinolytics and deoxyribonuclease in.json",
+      "authors": 18,
+      "abstract": false,
+      "references": 100,
+      "statistics": 10,
+      "tables": 2,
+      "figures": 2
+    },
+    "Cyrany-2016-Buried bumper syndrome_ A complica": {
+      "success": true,
+      "output_file": "out/batch_processed/Cyrany-2016-Buried bumper syndrome_ A complica.json",
+      "authors": 4,
+      "abstract": true,
+      "references": 100,
+      "statistics": 0,
+      "tables": 1,
+      "figures": 22
+    },
+    "The Utility of the EBUS Characteristics in Differentiating Between Malignant and Tuberculous ": {
+      "success": true,
+      "output_file": "out/batch_processed/The Utility of the EBUS Characteristics in Differentiating Between Malignant and Tuberculous .json",
+      "authors": 8,
+      "abstract": false,
+      "references": 34,
+      "statistics": 0,
+      "tables": 3,
+      "figures": 4
+    },
+    "BLVR with endobronchial valves for patients wi": {
+      "success": true,
+      "output_file": "out/batch_processed/BLVR with endobronchial valves for patients wi.json",
+      "authors": 0,
+      "abstract": true,
+      "references": 88,
+      "statistics": 0,
+      "tables": 4,
+      "figures": 4
+    },
+    "A Multicenter RCT of Zephyr Endobronchial Valv": {
+      "success": true,
+      "output_file": "out/batch_processed/A Multicenter RCT of Zephyr Endobronchial Valv.json",
+      "authors": 2,
+      "abstract": true,
+      "references": 81,
+      "statistics": 0,
+      "tables": 4,
+      "figures": 10
+    },
+    "nd__yag_laser_therapy_in_lung_cancer__an_11_year.6": {
+      "success": false,
+      "output_file": null
+    },
+    "Ljungdahl-2006-Complication rate lower after p": {
+      "success": true,
+      "output_file": "out/batch_processed/Ljungdahl-2006-Complication rate lower after p.json",
+      "authors": 0,
+      "abstract": true,
+      "references": 62,
+      "statistics": 0,
+      "tables": 2,
+      "figures": 1
+    },
+    "Multidetector CT evaluation of tracheobronchom": {
+      "success": true,
+      "output_file": "out/batch_processed/Multidetector CT evaluation of tracheobronchom.json",
+      "authors": 2,
+      "abstract": true,
+      "references": 45,
+      "statistics": 0,
+      "tables": 0,
+      "figures": 14
+    },
+    "Validation Study for the N Descriptor": {
+      "success": true,
+      "output_file": "out/batch_processed/Validation Study for the N Descriptor.json",
+      "authors": 8,
+      "abstract": true,
+      "references": 37,
+      "statistics": 2,
+      "tables": 3,
+      "figures": 5
+    },
+    "chest tube pandora box": {
+      "success": true,
+      "output_file": "out/batch_processed/chest tube pandora box.json",
+      "authors": 4,
+      "abstract": false,
+      "references": 100,
+      "statistics": 0,
+      "tables": 4,
+      "figures": 13
+    },
+    "Multi-disciplinary management of patients with": {
+      "success": true,
+      "output_file": "out/batch_processed/Multi-disciplinary management of patients with.json",
+      "authors": 5,
+      "abstract": false,
+      "references": 100,
+      "statistics": 0,
+      "tables": 4,
+      "figures": 24
+    },
+    "Potentially fatal arrhythmia complicating endobronchial epinephrine": {
+      "success": true,
+      "output_file": "out/batch_processed/Potentially fatal arrhythmia complicating endobronchial epinephrine.json",
+      "authors": 2,
+      "abstract": false,
+      "references": 26,
+      "statistics": 0,
+      "tables": 0,
+      "figures": 0
+    },
+    "fistula Bronstein-2019-Management of air leaks post-su": {
+      "success": true,
+      "output_file": "out/batch_processed/fistula Bronstein-2019-Management of air leaks post-su.json",
+      "authors": 3,
+      "abstract": true,
+      "references": 100,
+      "statistics": 0,
+      "tables": 2,
+      "figures": 3
+    },
+    "Dransfield-2020-Effect of Zephyr Endobronchial": {
+      "success": true,
+      "output_file": "out/batch_processed/Dransfield-2020-Effect of Zephyr Endobronchial.json",
+      "authors": 0,
+      "abstract": true,
+      "references": 100,
+      "statistics": 0,
+      "tables": 1,
+      "figures": 12
+    },
+    "ratwani-et-al-2025-post-thoracentesis-ultrasound-vs-chest-x-ray-for-the-evaluation-of-effusion-evacuation-and-lung-re": {
+      "success": true,
+      "output_file": "out/batch_processed/ratwani-et-al-2025-post-thoracentesis-ultrasound-vs-chest-x-ray-for-the-evaluation-of-effusion-evacuation-and-lung-re.json",
+      "authors": 2,
+      "abstract": false,
+      "references": 72,
+      "statistics": 1,
+      "tables": 6,
+      "figures": 2
+    },
+    "Unlocking the potential of RAB": {
+      "success": true,
+      "output_file": "out/batch_processed/Unlocking the potential of RAB.json",
+      "authors": 3,
+      "abstract": false,
+      "references": 26,
+      "statistics": 0,
+      "tables": 0,
+      "figures": 12
+    },
+    "Chen-2018-Photodynamic therapeutic ablation fo": {
+      "success": true,
+      "output_file": "out/batch_processed/Chen-2018-Photodynamic therapeutic ablation fo.json",
+      "authors": 6,
+      "abstract": false,
+      "references": 34,
+      "statistics": 0,
+      "tables": 1,
+      "figures": 4
+    },
+    "Romagnoli-2019-Poor Concordance between Sequen2": {
+      "success": true,
+      "output_file": "out/batch_processed/Romagnoli-2019-Poor Concordance between Sequen2.json",
+      "authors": 21,
+      "abstract": true,
+      "references": 53,
+      "statistics": 0,
+      "tables": 3,
+      "figures": 2
+    },
+    "the_impact_of_video_assisted_thoracoscopic_versus.4": {
+      "success": true,
+      "output_file": "out/batch_processed/the_impact_of_video_assisted_thoracoscopic_versus.4.json",
+      "authors": 7,
+      "abstract": false,
+      "references": 34,
+      "statistics": 0,
+      "tables": 6,
+      "figures": 0
+    },
+    "The Only Constant Is Change": {
+      "success": true,
+      "output_file": "out/batch_processed/The Only Constant Is Change.json",
+      "authors": 2,
+      "abstract": false,
+      "references": 6,
+      "statistics": 0,
+      "tables": 0,
+      "figures": 2
+    },
+    "Kemp-2017-A Multicenter Randomized Controlled": {
+      "success": true,
+      "output_file": "out/batch_processed/Kemp-2017-A Multicenter Randomized Controlled.json",
+      "authors": 2,
+      "abstract": true,
+      "references": 79,
+      "statistics": 21,
+      "tables": 24,
+      "figures": 20
+    },
+    "normal_saline_versus_hypertonic_saline_for_airway": {
+      "success": true,
+      "output_file": "out/batch_processed/normal_saline_versus_hypertonic_saline_for_airway.json",
+      "authors": 5,
+      "abstract": false,
+      "references": 30,
+      "statistics": 0,
+      "tables": 2,
+      "figures": 2
+    },
+    "percutaneous_endoscopic_gastrostomy__a_practic": {
+      "success": true,
+      "output_file": "out/batch_processed/percutaneous_endoscopic_gastrostomy__a_practic.json",
+      "authors": 0,
+      "abstract": false,
+      "references": 100,
+      "statistics": 0,
+      "tables": 2,
+      "figures": 2
+    },
+    "ENB for PPNs One-Year Results of the Prospective, Multicenter NAVIGATE Study": {
+      "success": true,
+      "output_file": "out/batch_processed/ENB for PPNs One-Year Results of the Prospective, Multicenter NAVIGATE Study.json",
+      "authors": 4,
+      "abstract": true,
+      "references": 58,
+      "statistics": 1,
+      "tables": 4,
+      "figures": 6
+    },
+    "The heat is on impact of endobronchial electro": {
+      "success": true,
+      "output_file": "out/batch_processed/The heat is on impact of endobronchial electro.json",
+      "authors": 2,
+      "abstract": false,
+      "references": 26,
+      "statistics": 0,
+      "tables": 3,
+      "figures": 9
+    },
+    "Impact of Pulmonary and Critical Care Fellow Participation during Advanced Diagnostic Bronchoscopy": {
+      "success": true,
+      "output_file": "out/batch_processed/Impact of Pulmonary and Critical Care Fellow Participation during Advanced Diagnostic Bronchoscopy.json",
+      "authors": 8,
+      "abstract": true,
+      "references": 88,
+      "statistics": 0,
+      "tables": 4,
+      "figures": 6
+    },
+    "BTS guideline for diagnostic flexible bronchoscopy in adults": {
+      "success": true,
+      "output_file": "out/batch_processed/BTS guideline for diagnostic flexible bronchoscopy in adults.json",
+      "authors": 9,
+      "abstract": false,
+      "references": 100,
+      "statistics": 3,
+      "tables": 17,
+      "figures": 20
+    },
+    "Valipour-2014-Expert statement_ pneumothorax a": {
+      "success": true,
+      "output_file": "out/batch_processed/Valipour-2014-Expert statement_ pneumothorax a.json",
+      "authors": 0,
+      "abstract": false,
+      "references": 50,
+      "statistics": 4,
+      "tables": 0,
+      "figures": 11
+    },
+    "Operating Room Fires": {
+      "success": true,
+      "output_file": "out/batch_processed/Operating Room Fires.json",
+      "authors": 4,
+      "abstract": false,
+      "references": 100,
+      "statistics": 0,
+      "tables": 3,
+      "figures": 4
+    },
+    "Eberhardt-2021-Endobronchial Valve (Zephyr) Tr": {
+      "success": true,
+      "output_file": "out/batch_processed/Eberhardt-2021-Endobronchial Valve (Zephyr) Tr.json",
+      "authors": 0,
+      "abstract": true,
+      "references": 43,
+      "statistics": 6,
+      "tables": 2,
+      "figures": 5
+    },
+    "Advanced Diagnostic and Therapeutic Bronchoscopy ": {
+      "success": true,
+      "output_file": "out/batch_processed/Advanced Diagnostic and Therapeutic Bronchoscopy .json",
+      "authors": 8,
+      "abstract": false,
+      "references": 100,
+      "statistics": 0,
+      "tables": 3,
+      "figures": 6
+    },
+    "A randomized study of endobronchial valves for": {
+      "success": true,
+      "output_file": "out/batch_processed/A randomized study of endobronchial valves for.json",
+      "authors": 8,
+      "abstract": false,
+      "references": 78,
+      "statistics": 7,
+      "tables": 6,
+      "figures": 4
+    },
+    "Technical aspects and outcomes of tracheobronc": {
+      "success": true,
+      "output_file": "out/batch_processed/Technical aspects and outcomes of tracheobronc.json",
+      "authors": 7,
+      "abstract": false,
+      "references": 52,
+      "statistics": 23,
+      "tables": 2,
+      "figures": 6
+    },
+    "A Randomized Trial of 1% vs 2% Lignocaine by the Spray-as-You-Go Technique": {
+      "success": true,
+      "output_file": "out/batch_processed/A Randomized Trial of 1% vs 2% Lignocaine by the Spray-as-You-Go Technique.json",
+      "authors": 6,
+      "abstract": false,
+      "references": 57,
+      "statistics": 0,
+      "tables": 4,
+      "figures": 1
+    },
+    "State-of-the-Art Modalities for Peripheral Lung Nodule Biopsy": {
+      "success": true,
+      "output_file": "out/batch_processed/State-of-the-Art Modalities for Peripheral Lung Nodule Biopsy.json",
+      "authors": 3,
+      "abstract": false,
+      "references": 100,
+      "statistics": 0,
+      "tables": 2,
+      "figures": 12
+    },
+    "AABIP Survey of Practice patterns and salary": {
+      "success": false,
+      "output_file": null
+    },
+    "Mechanical properties of different airway sten": {
+      "success": true,
+      "output_file": "out/batch_processed/Mechanical properties of different airway sten.json",
+      "authors": 2,
+      "abstract": false,
+      "references": 55,
+      "statistics": 0,
+      "tables": 2,
+      "figures": 21
+    },
+    "The Diagnosis and Management of Airway\u00a0Complic": {
+      "success": true,
+      "output_file": "out/batch_processed/The Diagnosis and Management of Airway\u00a0Complic.json",
+      "authors": 7,
+      "abstract": false,
+      "references": 100,
+      "statistics": 0,
+      "tables": 1,
+      "figures": 15
+    },
+    "Randomized Trial of Pleural Fluid Drainage Fre": {
+      "success": true,
+      "output_file": "out/batch_processed/Randomized Trial of Pleural Fluid Drainage Fre.json",
+      "authors": 21,
+      "abstract": true,
+      "references": 38,
+      "statistics": 0,
+      "tables": 7,
+      "figures": 1
+    },
+    "RCT  of Three Guided Bronchoscopic Approaches Pulmonary NodulesPRECISION-1 Study": {
+      "success": true,
+      "output_file": "out/batch_processed/RCT  of Three Guided Bronchoscopic Approaches Pulmonary NodulesPRECISION-1 Study.json",
+      "authors": 11,
+      "abstract": false,
+      "references": 46,
+      "statistics": 0,
+      "tables": 1,
+      "figures": 18
+    },
+    "endoscopic_treatment_of_bronchial_carcinoids_i": {
+      "success": true,
+      "output_file": "out/batch_processed/endoscopic_treatment_of_bronchial_carcinoids_i.json",
+      "authors": 7,
+      "abstract": false,
+      "references": 40,
+      "statistics": 1,
+      "tables": 2,
+      "figures": 3
+    },
+    "Documentation Tips for Pulmonary": {
+      "success": true,
+      "output_file": "out/batch_processed/Documentation Tips for Pulmonary.json",
+      "authors": 2,
+      "abstract": false,
+      "references": 10,
+      "statistics": 0,
+      "tables": 0,
+      "figures": 2
+    },
+    "Concurrent Intrapleural Instillation of Tissue": {
+      "success": true,
+      "output_file": "out/batch_processed/Concurrent Intrapleural Instillation of Tissue.json",
+      "authors": 11,
+      "abstract": true,
+      "references": 44,
+      "statistics": 0,
+      "tables": 3,
+      "figures": 10
+    },
+    "Intrapleural Fibrinolytic Therapy versus Early": {
+      "success": true,
+      "output_file": "out/batch_processed/Intrapleural Fibrinolytic Therapy versus Early.json",
+      "authors": 10,
+      "abstract": true,
+      "references": 64,
+      "statistics": 0,
+      "tables": 2,
+      "figures": 3
+    },
+    "Cheng-2016-Three-dimensional Printing and 3D S": {
+      "success": true,
+      "output_file": "out/batch_processed/Cheng-2016-Three-dimensional Printing and 3D S.json",
+      "authors": 6,
+      "abstract": false,
+      "references": 66,
+      "statistics": 0,
+      "tables": 1,
+      "figures": 9
+    },
+    "lessions learned valves": {
+      "success": true,
+      "output_file": "out/batch_processed/lessions learned valves.json",
+      "authors": 6,
+      "abstract": false,
+      "references": 34,
+      "statistics": 0,
+      "tables": 5,
+      "figures": 7
+    },
+    "Majid-2020-Efficacy of the Spiration Valve Sys": {
+      "success": true,
+      "output_file": "out/batch_processed/Majid-2020-Efficacy of the Spiration Valve Sys.json",
+      "authors": 11,
+      "abstract": true,
+      "references": 59,
+      "statistics": 31,
+      "tables": 9,
+      "figures": 12
+    },
+    "Chan-2021-Transbronchial microwave ablation of": {
+      "success": true,
+      "output_file": "out/batch_processed/Chan-2021-Transbronchial microwave ablation of.json",
+      "authors": 3,
+      "abstract": false,
+      "references": 90,
+      "statistics": 2,
+      "tables": 5,
+      "figures": 7
+    },
+    "Clinical trial of photodynamic therapy for per": {
+      "success": true,
+      "output_file": "out/batch_processed/Clinical trial of photodynamic therapy for per.json",
+      "authors": 9,
+      "abstract": false,
+      "references": 48,
+      "statistics": 0,
+      "tables": 1,
+      "figures": 11
+    },
+    "The Evolutional History of ENB State of the Art": {
+      "success": true,
+      "output_file": "out/batch_processed/The Evolutional History of ENB State of the Art.json",
+      "authors": 4,
+      "abstract": false,
+      "references": 100,
+      "statistics": 0,
+      "tables": 0,
+      "figures": 17
+    },
+    "Local anaesthetic thoracoscopy ": {
+      "success": true,
+      "output_file": "out/batch_processed/Local anaesthetic thoracoscopy .json",
+      "authors": 1,
+      "abstract": true,
+      "references": 24,
+      "statistics": 0,
+      "tables": 1,
+      "figures": 3
+    },
+    "Fiducial marker placement with ENB": {
+      "success": true,
+      "output_file": "out/batch_processed/Fiducial marker placement with ENB.json",
+      "authors": 2,
+      "abstract": true,
+      "references": 86,
+      "statistics": 3,
+      "tables": 4,
+      "figures": 5
+    },
+    "Impact of a Dedicated Pleural Clinic on Indwelling Pleural Catheter Related Outcomes_A Retrospective Single Center Experience": {
+      "success": true,
+      "output_file": "out/batch_processed/Impact of a Dedicated Pleural Clinic on Indwelling Pleural Catheter Related Outcomes_A Retrospective Single Center Experience.json",
+      "authors": 3,
+      "abstract": false,
+      "references": 74,
+      "statistics": 6,
+      "tables": 4,
+      "figures": 3
+    },
+    "Li-2019-The REACH Trial_ A Randomized Controll": {
+      "success": true,
+      "output_file": "out/batch_processed/Li-2019-The REACH Trial_ A Randomized Controll.json",
+      "authors": 13,
+      "abstract": true,
+      "references": 58,
+      "statistics": 10,
+      "tables": 5,
+      "figures": 9
+    },
+    "A Prospective Multicenter Trial of a Self-expanding Hybrid": {
+      "success": true,
+      "output_file": "out/batch_processed/A Prospective Multicenter Trial of a Self-expanding Hybrid.json",
+      "authors": 6,
+      "abstract": false,
+      "references": 14,
+      "statistics": 0,
+      "tables": 3,
+      "figures": 5
+    },
+    "Cone-beam computed tomography-guided shape-sensing robot": {
+      "success": true,
+      "output_file": "out/batch_processed/Cone-beam computed tomography-guided shape-sensing robot.json",
+      "authors": 7,
+      "abstract": false,
+      "references": 50,
+      "statistics": 27,
+      "tables": 4,
+      "figures": 5
+    },
+    "Flexible Bronchoscope Use by Pulmonologists": {
+      "success": true,
+      "output_file": "out/batch_processed/Flexible Bronchoscope Use by Pulmonologists.json",
+      "authors": 2,
+      "abstract": false,
+      "references": 6,
+      "statistics": 0,
+      "tables": 1,
+      "figures": 6
+    },
+    "Endosonography for mediastinal disease EUS vs EBUS": {
+      "success": true,
+      "output_file": "out/batch_processed/Endosonography for mediastinal disease EUS vs EBUS.json",
+      "authors": 4,
+      "abstract": false,
+      "references": 44,
+      "statistics": 12,
+      "tables": 3,
+      "figures": 7
+    },
+    "Xie-2022-Microwave ablation via a flexible cat": {
+      "success": true,
+      "output_file": "out/batch_processed/Xie-2022-Microwave ablation via a flexible cat.json",
+      "authors": 2,
+      "abstract": true,
+      "references": 68,
+      "statistics": 1,
+      "tables": 1,
+      "figures": 13
+    },
+    "A prospective analysis of high-dose-rate endob": {
+      "success": true,
+      "output_file": "out/batch_processed/A prospective analysis of high-dose-rate endob.json",
+      "authors": 6,
+      "abstract": true,
+      "references": 79,
+      "statistics": 0,
+      "tables": 4,
+      "figures": 6
+    },
+    "advances in medical pleurodesis": {
+      "success": true,
+      "output_file": "out/batch_processed/advances in medical pleurodesis.json",
+      "authors": 9,
+      "abstract": true,
+      "references": 100,
+      "statistics": 41,
+      "tables": 2,
+      "figures": 13
+    },
+    "fistula Fernandez-2016-Pleural gas analysis for the id": {
+      "success": true,
+      "output_file": "out/batch_processed/fistula Fernandez-2016-Pleural gas analysis for the id.json",
+      "authors": 2,
+      "abstract": true,
+      "references": 90,
+      "statistics": 8,
+      "tables": 1,
+      "figures": 2
+    },
+    "EBUS-TBNA and EUS-FNA Risk Assessment for Clopidogrel": {
+      "success": true,
+      "output_file": "out/batch_processed/EBUS-TBNA and EUS-FNA Risk Assessment for Clopidogrel.json",
+      "authors": 6,
+      "abstract": false,
+      "references": 34,
+      "statistics": 4,
+      "tables": 2,
+      "figures": 1
+    },
+    "Tracheal stent buckling and in-stent stenosis": {
+      "success": true,
+      "output_file": "out/batch_processed/Tracheal stent buckling and in-stent stenosis.json",
+      "authors": 7,
+      "abstract": false,
+      "references": 47,
+      "statistics": 0,
+      "tables": 2,
+      "figures": 6
+    },
+    "Foreign body aspiration": {
+      "success": true,
+      "output_file": "out/batch_processed/Foreign body aspiration.json",
+      "authors": 5,
+      "abstract": true,
+      "references": 100,
+      "statistics": 0,
+      "tables": 2,
+      "figures": 28
+    },
+    "Local determinants of response to endobronchia": {
+      "success": true,
+      "output_file": "out/batch_processed/Local determinants of response to endobronchia.json",
+      "authors": 3,
+      "abstract": false,
+      "references": 39,
+      "statistics": 1,
+      "tables": 3,
+      "figures": 9
+    },
+    "Bronchoscope-Guided Percutaneous Endoscopic Ga": {
+      "success": true,
+      "output_file": "out/batch_processed/Bronchoscope-Guided Percutaneous Endoscopic Ga.json",
+      "authors": 7,
+      "abstract": true,
+      "references": 58,
+      "statistics": 0,
+      "tables": 3,
+      "figures": 4
+    },
+    "Holden-2020-Safety and Efficacy of the Tracheo": {
+      "success": true,
+      "output_file": "out/batch_processed/Holden-2020-Safety and Efficacy of the Tracheo.json",
+      "authors": 8,
+      "abstract": true,
+      "references": 36,
+      "statistics": 6,
+      "tables": 4,
+      "figures": 3
+    },
+    "fistula Herth-2010-Combined airway and oesophageal ste": {
+      "success": true,
+      "output_file": "out/batch_processed/fistula Herth-2010-Combined airway and oesophageal ste.json",
+      "authors": 2,
+      "abstract": true,
+      "references": 46,
+      "statistics": 0,
+      "tables": 1,
+      "figures": 5
+    },
+    "Financial Justification for IP Programs": {
+      "success": true,
+      "output_file": "out/batch_processed/Financial Justification for IP Programs.json",
+      "authors": 7,
+      "abstract": false,
+      "references": 12,
+      "statistics": 0,
+      "tables": 2,
+      "figures": 2
+    },
+    "fistula Ke-2015-The treatment strategy for tracheoesop": {
+      "success": true,
+      "output_file": "out/batch_processed/fistula Ke-2015-The treatment strategy for tracheoesop.json",
+      "authors": 2,
+      "abstract": false,
+      "references": 45,
+      "statistics": 1,
+      "tables": 0,
+      "figures": 41
+    },
+    "Unimodality and Multimodality Cryodebridement": {
+      "success": true,
+      "output_file": "out/batch_processed/Unimodality and Multimodality Cryodebridement.json",
+      "authors": 7,
+      "abstract": true,
+      "references": 38,
+      "statistics": 0,
+      "tables": 5,
+      "figures": 3
+    },
+    "Shape-Sensing Robotic vs Tomo ENB": {
+      "success": true,
+      "output_file": "out/batch_processed/Shape-Sensing Robotic vs Tomo ENB.json",
+      "authors": 8,
+      "abstract": false,
+      "references": 46,
+      "statistics": 0,
+      "tables": 4,
+      "figures": 4
+    },
+    "Silvestri-2018-Assessment of Plasma Proteomics": {
+      "success": true,
+      "output_file": "out/batch_processed/Silvestri-2018-Assessment of Plasma Proteomics.json",
+      "authors": 2,
+      "abstract": false,
+      "references": 48,
+      "statistics": 0,
+      "tables": 2,
+      "figures": 6
+    },
+    "Moderate sedation changes for bronchoscopy in 2017": {
+      "success": true,
+      "output_file": "out/batch_processed/Moderate sedation changes for bronchoscopy in 2017.json",
+      "authors": 1,
+      "abstract": false,
+      "references": 18,
+      "statistics": 0,
+      "tables": 3,
+      "figures": 2
+    },
+    "Chemical pleurodesis": {
+      "success": true,
+      "output_file": "out/batch_processed/Chemical pleurodesis.json",
+      "authors": 4,
+      "abstract": true,
+      "references": 100,
+      "statistics": 0,
+      "tables": 0,
+      "figures": 9
+    },
+    "Adequacy of small biopsy and cytology for immune checkpoint inhibitor and targeted therapy": {
+      "success": true,
+      "output_file": "out/batch_processed/Adequacy of small biopsy and cytology for immune checkpoint inhibitor and targeted therapy.json",
+      "authors": 0,
+      "abstract": true,
+      "references": 56,
+      "statistics": 10,
+      "tables": 4,
+      "figures": 4
+    },
+    "Brass-2016-Percutaneous techniques versus surg": {
+      "success": true,
+      "output_file": "out/batch_processed/Brass-2016-Percutaneous techniques versus surg.json",
+      "authors": 1,
+      "abstract": false,
+      "references": 100,
+      "statistics": 50,
+      "tables": 72,
+      "figures": 103
+    },
+    "transbronchial ablation Miller": {
+      "success": true,
+      "output_file": "out/batch_processed/transbronchial ablation Miller.json",
+      "authors": 0,
+      "abstract": true,
+      "references": 100,
+      "statistics": 0,
+      "tables": 6,
+      "figures": 11
+    },
+    "Grosu-2019-Secondary spontaneous pneumothorax": {
+      "success": true,
+      "output_file": "out/batch_processed/Grosu-2019-Secondary spontaneous pneumothorax.json",
+      "authors": 7,
+      "abstract": false,
+      "references": 26,
+      "statistics": 18,
+      "tables": 6,
+      "figures": 6
+    },
+    "Valipour-2020-Two-Year Outcomes for the Double": {
+      "success": true,
+      "output_file": "out/batch_processed/Valipour-2020-Two-Year Outcomes for the Double.json",
+      "authors": 5,
+      "abstract": false,
+      "references": 76,
+      "statistics": 14,
+      "tables": 5,
+      "figures": 15
+    },
+    "surigicalLVR Decker-2014-Lung volume reduction surgery sinc": {
+      "success": true,
+      "output_file": "out/batch_processed/surigicalLVR Decker-2014-Lung volume reduction surgery sinc.json",
+      "authors": 4,
+      "abstract": true,
+      "references": 47,
+      "statistics": 4,
+      "tables": 7,
+      "figures": 2
+    },
+    "Safety of endoscopic gastrostomy tube placemen": {
+      "success": true,
+      "output_file": "out/batch_processed/Safety of endoscopic gastrostomy tube placemen.json",
+      "authors": 4,
+      "abstract": false,
+      "references": 83,
+      "statistics": 0,
+      "tables": 7,
+      "figures": 4
+    },
+    "Efficacy ofWhole-LungLavageinPulmonaryAlveolar": {
+      "success": true,
+      "output_file": "out/batch_processed/Efficacy ofWhole-LungLavageinPulmonaryAlveolar.json",
+      "authors": 16,
+      "abstract": true,
+      "references": 62,
+      "statistics": 0,
+      "tables": 6,
+      "figures": 7
+    },
+    "Yuan-2016-Percutaneous endoscopic gastrostomy": {
+      "success": true,
+      "output_file": "out/batch_processed/Yuan-2016-Percutaneous endoscopic gastrostomy.json",
+      "authors": 1,
+      "abstract": false,
+      "references": 100,
+      "statistics": 2,
+      "tables": 5,
+      "figures": 22
+    },
+    "Machine learing TPA": {
+      "success": true,
+      "output_file": "out/batch_processed/Machine learing TPA.json",
+      "authors": 10,
+      "abstract": true,
+      "references": 63,
+      "statistics": 0,
+      "tables": 3,
+      "figures": 3
+    },
+    "Combined EBUS  EUS for the diagnosis and staging of lung cancer ESGE, ERS, ESTS Guideline": {
+      "success": true,
+      "output_file": "out/batch_processed/Combined EBUS  EUS for the diagnosis and staging of lung cancer ESGE, ERS, ESTS Guideline.json",
+      "authors": 4,
+      "abstract": false,
+      "references": 100,
+      "statistics": 2,
+      "tables": 4,
+      "figures": 14
+    },
+    "High-dose-rate endobronchial brachytherapy eff": {
+      "success": true,
+      "output_file": "out/batch_processed/High-dose-rate endobronchial brachytherapy eff.json",
+      "authors": 3,
+      "abstract": false,
+      "references": 50,
+      "statistics": 0,
+      "tables": 2,
+      "figures": 2
+    },
+    "Database to Inform Revisions": {
+      "success": true,
+      "output_file": "out/batch_processed/Database to Inform Revisions.json",
+      "authors": 9,
+      "abstract": true,
+      "references": 100,
+      "statistics": 0,
+      "tables": 2,
+      "figures": 5
+    },
+    "Robotic bronchoscopy pilot and feasibility study (Benefit)": {
+      "success": true,
+      "output_file": "out/batch_processed/Robotic bronchoscopy pilot and feasibility study (Benefit).json",
+      "authors": 10,
+      "abstract": false,
+      "references": 40,
+      "statistics": 0,
+      "tables": 4,
+      "figures": 6
+    },
+    "Conservative versus Interventional Treatment for spont PTX": {
+      "success": true,
+      "output_file": "out/batch_processed/Conservative versus Interventional Treatment for spont PTX.json",
+      "authors": 1,
+      "abstract": false,
+      "references": 41,
+      "statistics": 4,
+      "tables": 3,
+      "figures": 2
+    },
+    "Sedation in Bronchoscopy": {
+      "success": true,
+      "output_file": "out/batch_processed/Sedation in Bronchoscopy.json",
+      "authors": 2,
+      "abstract": false,
+      "references": 100,
+      "statistics": 0,
+      "tables": 3,
+      "figures": 1
+    },
+    "Intrapleural use of tissue plasminogen activat": {
+      "success": true,
+      "output_file": "out/batch_processed/Intrapleural use of tissue plasminogen activat.json",
+      "authors": 21,
+      "abstract": false,
+      "references": 100,
+      "statistics": 6,
+      "tables": 3,
+      "figures": 4
+    },
+    "Efficacy and safety of cone-beam computed tomography-guided bronchoscopy": {
+      "success": true,
+      "output_file": "out/batch_processed/Efficacy and safety of cone-beam computed tomography-guided bronchoscopy.json",
+      "authors": 4,
+      "abstract": false,
+      "references": 77,
+      "statistics": 16,
+      "tables": 5,
+      "figures": 4
+    },
+    "Slebos-2018-Endobronchial Coils for Endoscopic": {
+      "success": true,
+      "output_file": "out/batch_processed/Slebos-2018-Endobronchial Coils for Endoscopic.json",
+      "authors": 5,
+      "abstract": true,
+      "references": 49,
+      "statistics": 0,
+      "tables": 1,
+      "figures": 14
+    },
+    "Interventional Bronchoscopy": {
+      "success": true,
+      "output_file": "out/batch_processed/Interventional Bronchoscopy.json",
+      "authors": 12,
+      "abstract": true,
+      "references": 100,
+      "statistics": 0,
+      "tables": 2,
+      "figures": 18
+    },
+    "Ambulatory management of primary spontaneous p": {
+      "success": true,
+      "output_file": "out/batch_processed/Ambulatory management of primary spontaneous p.json",
+      "authors": 24,
+      "abstract": true,
+      "references": 32,
+      "statistics": 9,
+      "tables": 6,
+      "figures": 5
+    },
+    "Differentiating malignant and benign nodes with elastography": {
+      "success": true,
+      "output_file": "out/batch_processed/Differentiating malignant and benign nodes with elastography.json",
+      "authors": 6,
+      "abstract": false,
+      "references": 42,
+      "statistics": 0,
+      "tables": 6,
+      "figures": 8
+    },
+    "Understanding the economic impact of introducing a new procedure": {
+      "success": true,
+      "output_file": "out/batch_processed/Understanding the economic impact of introducing a new procedure.json",
+      "authors": 2,
+      "abstract": false,
+      "references": 33,
+      "statistics": 0,
+      "tables": 3,
+      "figures": 5
+    },
+    "IPC review": {
+      "success": true,
+      "output_file": "out/batch_processed/IPC review.json",
+      "authors": 2,
+      "abstract": true,
+      "references": 100,
+      "statistics": 0,
+      "tables": 1,
+      "figures": 4
+    },
+    "Indwelling Pleural Catheter versus Pleurodesis": {
+      "success": true,
+      "output_file": "out/batch_processed/Indwelling Pleural Catheter versus Pleurodesis.json",
+      "authors": 8,
+      "abstract": true,
+      "references": 37,
+      "statistics": 0,
+      "tables": 4,
+      "figures": 3
+    },
+    "Optimal Endobronchial Ultrasound Strain Elastography Assessment": {
+      "success": true,
+      "output_file": "out/batch_processed/Optimal Endobronchial Ultrasound Strain Elastography Assessment.json",
+      "authors": 1,
+      "abstract": true,
+      "references": 57,
+      "statistics": 5,
+      "tables": 3,
+      "figures": 11
+    },
+    "Deslee-2014-Lung volume reduction coil treatme": {
+      "success": true,
+      "output_file": "out/batch_processed/Deslee-2014-Lung volume reduction coil treatme.json",
+      "authors": 9,
+      "abstract": true,
+      "references": 60,
+      "statistics": 17,
+      "tables": 6,
+      "figures": 8
+    },
+    "Complications and discomfort of bronchoscopy a systematic review": {
+      "success": true,
+      "output_file": "out/batch_processed/Complications and discomfort of bronchoscopy a systematic review.json",
+      "authors": 3,
+      "abstract": false,
+      "references": 100,
+      "statistics": 0,
+      "tables": 3,
+      "figures": 13
+    },
+    "Metallic Endobronchial Stents A Contemporary R": {
+      "success": true,
+      "output_file": "out/batch_processed/Metallic Endobronchial Stents A Contemporary R.json",
+      "authors": 1,
+      "abstract": false,
+      "references": 100,
+      "statistics": 0,
+      "tables": 2,
+      "figures": 13
+    },
+    "VR bronch": {
+      "success": true,
+      "output_file": "out/batch_processed/VR bronch.json",
+      "authors": 8,
+      "abstract": false,
+      "references": 42,
+      "statistics": 0,
+      "tables": 2,
+      "figures": 13
+    },
+    "Percutaneous dilational tracheostomy": {
+      "success": true,
+      "output_file": "out/batch_processed/Percutaneous dilational tracheostomy.json",
+      "authors": 2,
+      "abstract": false,
+      "references": 100,
+      "statistics": 0,
+      "tables": 1,
+      "figures": 6
+    },
+    "A predictive model for respiratorye events after rigid.": {
+      "success": true,
+      "output_file": "out/batch_processed/A predictive model for respiratorye events after rigid..json",
+      "authors": 6,
+      "abstract": false,
+      "references": 59,
+      "statistics": 0,
+      "tables": 3,
+      "figures": 10
+    },
+    "fistula Okuda-2017-Risk factor of bronchopleural fistu": {
+      "success": true,
+      "output_file": "out/batch_processed/fistula Okuda-2017-Risk factor of bronchopleural fistu.json",
+      "authors": 0,
+      "abstract": true,
+      "references": 59,
+      "statistics": 0,
+      "tables": 4,
+      "figures": 7
+    },
+    "Utility of Elastography A Systematic Review and Meta-analysis": {
+      "success": true,
+      "output_file": "out/batch_processed/Utility of Elastography A Systematic Review and Meta-analysis.json",
+      "authors": 11,
+      "abstract": false,
+      "references": 74,
+      "statistics": 0,
+      "tables": 8,
+      "figures": 6
+    },
+    "Bintcliffe-2016-The management of benign non-i": {
+      "success": true,
+      "output_file": "out/batch_processed/Bintcliffe-2016-The management of benign non-i.json",
+      "authors": 3,
+      "abstract": false,
+      "references": 100,
+      "statistics": 0,
+      "tables": 2,
+      "figures": 10
+    },
+    "Management of significant airway bleeding during robotic assisted bronchoscopy a tailored approach": {
+      "success": true,
+      "output_file": "out/batch_processed/Management of significant airway bleeding during robotic assisted bronchoscopy a tailored approach.json",
+      "authors": 6,
+      "abstract": true,
+      "references": 8,
+      "statistics": 0,
+      "tables": 0,
+      "figures": 4
+    },
+    "Bronchoscopic transparenchymal nodule access (BTPNA)": {
+      "success": true,
+      "output_file": "out/batch_processed/Bronchoscopic transparenchymal nodule access (BTPNA).json",
+      "authors": 4,
+      "abstract": true,
+      "references": 41,
+      "statistics": 0,
+      "tables": 1,
+      "figures": 14
+    },
+    "fistula Schweigert-2019-[Interventional treatment of t": {
+      "success": true,
+      "output_file": "out/batch_processed/fistula Schweigert-2019-[Interventional treatment of t.json",
+      "authors": 3,
+      "abstract": true,
+      "references": 63,
+      "statistics": 0,
+      "tables": 0,
+      "figures": 20
+    },
+    "Richter-Schrag-2011-Risk factors and complicat": {
+      "success": true,
+      "output_file": "out/batch_processed/Richter-Schrag-2011-Risk factors and complicat.json",
+      "authors": 5,
+      "abstract": false,
+      "references": 58,
+      "statistics": 29,
+      "tables": 3,
+      "figures": 1
+    },
+    "Murgu Saftey of TIVA in rigid": {
+      "success": true,
+      "output_file": "out/batch_processed/Murgu Saftey of TIVA in rigid.json",
+      "authors": 9,
+      "abstract": true,
+      "references": 86,
+      "statistics": 0,
+      "tables": 4,
+      "figures": 1
+    },
+    "The Value of a High-Volume Bronchoscopic Lung Volume Reduction Program": {
+      "success": true,
+      "output_file": "out/batch_processed/The Value of a High-Volume Bronchoscopic Lung Volume Reduction Program.json",
+      "authors": 7,
+      "abstract": false,
+      "references": 36,
+      "statistics": 0,
+      "tables": 2,
+      "figures": 4
+    },
+    "Anesthesia and Upper and Lower Airway": {
+      "success": true,
+      "output_file": "out/batch_processed/Anesthesia and Upper and Lower Airway.json",
+      "authors": 3,
+      "abstract": false,
+      "references": 88,
+      "statistics": 0,
+      "tables": 0,
+      "figures": 13
+    },
+    "Clinical Utility of a Bronchial Genomic Classi": {
+      "success": true,
+      "output_file": "out/batch_processed/Clinical Utility of a Bronchial Genomic Classi.json",
+      "authors": 7,
+      "abstract": false,
+      "references": 38,
+      "statistics": 0,
+      "tables": 2,
+      "figures": 7
+    },
+    "Improving diagnostic yield of navigational bronchoscopy ": {
+      "success": true,
+      "output_file": "out/batch_processed/Improving diagnostic yield of navigational bronchoscopy .json",
+      "authors": 4,
+      "abstract": false,
+      "references": 56,
+      "statistics": 0,
+      "tables": 0,
+      "figures": 5
+    },
+    "Koshy-2021-Safety of delivering bronchial ther": {
+      "success": true,
+      "output_file": "out/batch_processed/Koshy-2021-Safety of delivering bronchial ther.json",
+      "authors": 4,
+      "abstract": true,
+      "references": 49,
+      "statistics": 21,
+      "tables": 6,
+      "figures": 3
+    },
+    "NdYAG laser bronchoscopy A five year experienc": {
+      "success": true,
+      "output_file": "out/batch_processed/NdYAG laser bronchoscopy A five year experienc.json",
+      "authors": 0,
+      "abstract": false,
+      "references": 32,
+      "statistics": 0,
+      "tables": 6,
+      "figures": 5
+    },
+    "The efficiency of a clinical pathway forundiagnosed pleural effusions ": {
+      "success": true,
+      "output_file": "out/batch_processed/The efficiency of a clinical pathway forundiagnosed pleural effusions .json",
+      "authors": 11,
+      "abstract": false,
+      "references": 69,
+      "statistics": 2,
+      "tables": 3,
+      "figures": 11
+    },
+    "Advanced in Treatment of PPNs": {
+      "success": true,
+      "output_file": "out/batch_processed/Advanced in Treatment of PPNs.json",
+      "authors": 9,
+      "abstract": true,
+      "references": 100,
+      "statistics": 3,
+      "tables": 1,
+      "figures": 1
+    },
+    "Ost-2018-Quality Gaps and Comparative Effectiv": {
+      "success": true,
+      "output_file": "out/batch_processed/Ost-2018-Quality Gaps and Comparative Effectiv.json",
+      "authors": 5,
+      "abstract": false,
+      "references": 44,
+      "statistics": 0,
+      "tables": 11,
+      "figures": 13
+    },
+    "rapid_pleurodesis_in_patients_with_chronic": {
+      "success": true,
+      "output_file": "out/batch_processed/rapid_pleurodesis_in_patients_with_chronic.json",
+      "authors": 8,
+      "abstract": false,
+      "references": 71,
+      "statistics": 1,
+      "tables": 3,
+      "figures": 1
+    },
+    "RCT of EBUS with and without aspiration": {
+      "success": true,
+      "output_file": "out/batch_processed/RCT of EBUS with and without aspiration.json",
+      "authors": 10,
+      "abstract": false,
+      "references": 19,
+      "statistics": 0,
+      "tables": 2,
+      "figures": 2
+    },
+    "Physiologic Evaluation of the Patient With Lung Cancer": {
+      "success": true,
+      "output_file": "out/batch_processed/Physiologic Evaluation of the Patient With Lung Cancer.json",
+      "authors": 5,
+      "abstract": false,
+      "references": 100,
+      "statistics": 0,
+      "tables": 0,
+      "figures": 4
+    },
+    "Advances in pleuroscopy": {
+      "success": true,
+      "output_file": "out/batch_processed/Advances in pleuroscopy.json",
+      "authors": 1,
+      "abstract": true,
+      "references": 100,
+      "statistics": 0,
+      "tables": 2,
+      "figures": 9
+    },
+    "Variable Learning Curve of Basic": {
+      "success": true,
+      "output_file": "out/batch_processed/Variable Learning Curve of Basic.json",
+      "authors": 13,
+      "abstract": true,
+      "references": 52,
+      "statistics": 0,
+      "tables": 2,
+      "figures": 3
+    },
+    "Garner-2020-A prospective safety and feasibili": {
+      "success": true,
+      "output_file": "out/batch_processed/Garner-2020-A prospective safety and feasibili.json",
+      "authors": 10,
+      "abstract": true,
+      "references": 65,
+      "statistics": 80,
+      "tables": 2,
+      "figures": 7
+    },
+    "Utility of EBUS-TBNA in Evaluating Mediastinal and Hilar Lymphadenopathy in Patients With Silica Exposure_A Retrospective Single-center Study": {
+      "success": true,
+      "output_file": "out/batch_processed/Utility of EBUS-TBNA in Evaluating Mediastinal and Hilar Lymphadenopathy in Patients With Silica Exposure_A Retrospective Single-center Study.json",
+      "authors": 7,
+      "abstract": false,
+      "references": 75,
+      "statistics": 7,
+      "tables": 3,
+      "figures": 4
+    },
+    "fistula Li-2016-Neoadjuvant therapy and risk of bronch": {
+      "success": true,
+      "output_file": "out/batch_processed/fistula Li-2016-Neoadjuvant therapy and risk of bronch.json",
+      "authors": 7,
+      "abstract": true,
+      "references": 100,
+      "statistics": 10,
+      "tables": 9,
+      "figures": 12
+    },
+    "Dexmedetomidine-fentanyl versus propofol-fentanyl": {
+      "success": true,
+      "output_file": "out/batch_processed/Dexmedetomidine-fentanyl versus propofol-fentanyl.json",
+      "authors": 0,
+      "abstract": false,
+      "references": 80,
+      "statistics": 53,
+      "tables": 5,
+      "figures": 5
+    },
+    "Treatment of Pulmonary Carcinoid Tumors": {
+      "success": true,
+      "output_file": "out/batch_processed/Treatment of Pulmonary Carcinoid Tumors.json",
+      "authors": 6,
+      "abstract": false,
+      "references": 76,
+      "statistics": 0,
+      "tables": 2,
+      "figures": 5
+    },
+    "Value of Antibiotic Prophylaxis for Percutaneo": {
+      "success": true,
+      "output_file": "out/batch_processed/Value of Antibiotic Prophylaxis for Percutaneo.json",
+      "authors": 9,
+      "abstract": false,
+      "references": 42,
+      "statistics": 0,
+      "tables": 1,
+      "figures": 3
+    },
+    "The Art of Rigid Bronchoscopy and Airway Stent": {
+      "success": true,
+      "output_file": "out/batch_processed/The Art of Rigid Bronchoscopy and Airway Stent.json",
+      "authors": 3,
+      "abstract": true,
+      "references": 100,
+      "statistics": 0,
+      "tables": 1,
+      "figures": 29
+    },
+    "Shape-sensing robotic-assisted bronchoscopy in the diagnosis of pulmonary parenchymal lesions": {
+      "success": true,
+      "output_file": "out/batch_processed/Shape-sensing robotic-assisted bronchoscopy in the diagnosis of pulmonary parenchymal lesions.json",
+      "authors": 14,
+      "abstract": false,
+      "references": 93,
+      "statistics": 0,
+      "tables": 3,
+      "figures": 7
+    },
+    "Developing an IP Service in a Community Practice": {
+      "success": true,
+      "output_file": "out/batch_processed/Developing an IP Service in a Community Practice.json",
+      "authors": 4,
+      "abstract": false,
+      "references": 32,
+      "statistics": 0,
+      "tables": 3,
+      "figures": 11
+    },
+    "Alsunaid-2021-Wound care management_ tracheost": {
+      "success": true,
+      "output_file": "out/batch_processed/Alsunaid-2021-Wound care management_ tracheost.json",
+      "authors": 4,
+      "abstract": false,
+      "references": 100,
+      "statistics": 0,
+      "tables": 0,
+      "figures": 17
+    },
+    "Coping with airway emergencies_": {
+      "success": true,
+      "output_file": "out/batch_processed/Coping with airway emergencies_.json",
+      "authors": 2,
+      "abstract": true,
+      "references": 70,
+      "statistics": 0,
+      "tables": 2,
+      "figures": 2
+    },
+    "Selected Topics in Malignant Pleural Disease": {
+      "success": true,
+      "output_file": "out/batch_processed/Selected Topics in Malignant Pleural Disease.json",
+      "authors": 14,
+      "abstract": true,
+      "references": 100,
+      "statistics": 0,
+      "tables": 1,
+      "figures": 2
+    },
+    "medical thoracoscopy step by step": {
+      "success": true,
+      "output_file": "out/batch_processed/medical thoracoscopy step by step.json",
+      "authors": 2,
+      "abstract": true,
+      "references": 13,
+      "statistics": 0,
+      "tables": 1,
+      "figures": 6
+    },
+    "Proposals for revision of the M discriptor": {
+      "success": true,
+      "output_file": "out/batch_processed/Proposals for revision of the M discriptor.json",
+      "authors": 16,
+      "abstract": true,
+      "references": 100,
+      "statistics": 0,
+      "tables": 4,
+      "figures": 3
+    },
+    "Evaluation of Safety and Short-term": {
+      "success": true,
+      "output_file": "out/batch_processed/Evaluation of Safety and Short-term.json",
+      "authors": 9,
+      "abstract": true,
+      "references": 86,
+      "statistics": 0,
+      "tables": 4,
+      "figures": 1
+    },
+    "Value-Based Proposition for a Dedicated IP suite": {
+      "success": true,
+      "output_file": "out/batch_processed/Value-Based Proposition for a Dedicated IP suite.json",
+      "authors": 4,
+      "abstract": false,
+      "references": 21,
+      "statistics": 0,
+      "tables": 4,
+      "figures": 7
+    },
+    "Ghattas-2021-State of the art_ percutaneous tr": {
+      "success": true,
+      "output_file": "out/batch_processed/Ghattas-2021-State of the art_ percutaneous tr.json",
+      "authors": 0,
+      "abstract": false,
+      "references": 100,
+      "statistics": 10,
+      "tables": 1,
+      "figures": 12
+    },
+    "Diagnostic value of EBUS elastography for the differentiation": {
+      "success": true,
+      "output_file": "out/batch_processed/Diagnostic value of EBUS elastography for the differentiation.json",
+      "authors": 2,
+      "abstract": true,
+      "references": 38,
+      "statistics": 1,
+      "tables": 4,
+      "figures": 4
+    },
+    "Indocyanine Green-Soaked Fiducial Markers": {
+      "success": true,
+      "output_file": "out/batch_processed/Indocyanine Green-Soaked Fiducial Markers.json",
+      "authors": 18,
+      "abstract": false,
+      "references": 88,
+      "statistics": 0,
+      "tables": 4,
+      "figures": 4
+    },
+    "LungRADSAssessmentCategoriesv1-1": {
+      "success": true,
+      "output_file": "out/batch_processed/LungRADSAssessmentCategoriesv1-1.json",
+      "authors": 15,
+      "abstract": false,
+      "references": 100,
+      "statistics": 0,
+      "tables": 4,
+      "figures": 10
+    },
+    "Iatrogenic bleeding during flexible bronchoscopy": {
+      "success": true,
+      "output_file": "out/batch_processed/Iatrogenic bleeding during flexible bronchoscopy.json",
+      "authors": 6,
+      "abstract": false,
+      "references": 100,
+      "statistics": 0,
+      "tables": 2,
+      "figures": 11
+    },
+    "Complications Following Therapeutic B": {
+      "success": true,
+      "output_file": "out/batch_processed/Complications Following Therapeutic B.json",
+      "authors": 0,
+      "abstract": false,
+      "references": 69,
+      "statistics": 0,
+      "tables": 18,
+      "figures": 5
+    },
+    "Basic Bronchoscopy Technology, Techniques, and Professional Fees": {
+      "success": true,
+      "output_file": "out/batch_processed/Basic Bronchoscopy Technology, Techniques, and Professional Fees.json",
+      "authors": 2,
+      "abstract": false,
+      "references": 64,
+      "statistics": 0,
+      "tables": 2,
+      "figures": 3
+    },
+    "Ost-2014-Quality-adjusted survival following t": {
+      "success": true,
+      "output_file": "out/batch_processed/Ost-2014-Quality-adjusted survival following t.json",
+      "authors": 2,
+      "abstract": false,
+      "references": 35,
+      "statistics": 0,
+      "tables": 6,
+      "figures": 9
+    },
+    "chest tube practical": {
+      "success": true,
+      "output_file": "out/batch_processed/chest tube practical.json",
+      "authors": 2,
+      "abstract": true,
+      "references": 51,
+      "statistics": 0,
+      "tables": 2,
+      "figures": 3
+    },
+    "Reichle-2000-[Argon plasma coagulation in bron": {
+      "success": true,
+      "output_file": "out/batch_processed/Reichle-2000-[Argon plasma coagulation in bron.json",
+      "authors": 0,
+      "abstract": false,
+      "references": 51,
+      "statistics": 0,
+      "tables": 8,
+      "figures": 8
+    },
+    "Karakoca-2018-Follow-up outcomes of chronic ob": {
+      "success": true,
+      "output_file": "out/batch_processed/Karakoca-2018-Follow-up outcomes of chronic ob.json",
+      "authors": 4,
+      "abstract": true,
+      "references": 26,
+      "statistics": 0,
+      "tables": 2,
+      "figures": 3
+    },
+    "Advanced diagnostic and therapeutic bronchoscopy technology and reimbursement": {
+      "success": true,
+      "output_file": "out/batch_processed/Advanced diagnostic and therapeutic bronchoscopy technology and reimbursement.json",
+      "authors": 8,
+      "abstract": false,
+      "references": 100,
+      "statistics": 0,
+      "tables": 3,
+      "figures": 2
+    },
+    "Anesthesia for bronchoscopy and update 2024": {
+      "success": true,
+      "output_file": "out/batch_processed/Anesthesia for bronchoscopy and update 2024.json",
+      "authors": 3,
+      "abstract": false,
+      "references": 100,
+      "statistics": 7,
+      "tables": 1,
+      "figures": 9
+    },
+    "Hillerdal-2014-One- to four-year follow-up of": {
+      "success": true,
+      "output_file": "out/batch_processed/Hillerdal-2014-One- to four-year follow-up of.json",
+      "authors": 2,
+      "abstract": false,
+      "references": 54,
+      "statistics": 0,
+      "tables": 4,
+      "figures": 5
+    },
+    "Target trial": {
+      "success": true,
+      "output_file": "out/batch_processed/Target trial.json",
+      "authors": 2,
+      "abstract": false,
+      "references": 71,
+      "statistics": 0,
+      "tables": 9,
+      "figures": 4
+    },
+    "Results of long-term follow-up of photodynamic": {
+      "success": true,
+      "output_file": "out/batch_processed/Results of long-term follow-up of photodynamic.json",
+      "authors": 1,
+      "abstract": false,
+      "references": 46,
+      "statistics": 0,
+      "tables": 5,
+      "figures": 4
+    },
+    "Towards an optimization of bronchoscopic approaches to the PPN": {
+      "success": true,
+      "output_file": "out/batch_processed/Towards an optimization of bronchoscopic approaches to the PPN.json",
+      "authors": 2,
+      "abstract": false,
+      "references": 52,
+      "statistics": 1,
+      "tables": 0,
+      "figures": 4
+    },
+    "Diagnostic flexible bronchoscopy and accessory techniques": {
+      "success": true,
+      "output_file": "out/batch_processed/Diagnostic flexible bronchoscopy and accessory techniques.json",
+      "authors": 1,
+      "abstract": false,
+      "references": 100,
+      "statistics": 0,
+      "tables": 0,
+      "figures": 7
+    },
+    "Bronchial Thermoplasty in Patients With Severe": {
+      "success": true,
+      "output_file": "out/batch_processed/Bronchial Thermoplasty in Patients With Severe.json",
+      "authors": 24,
+      "abstract": false,
+      "references": 75,
+      "statistics": 0,
+      "tables": 6,
+      "figures": 14
+    },
+    "Zhao-2015-Whole Lung Lavage Treatment of Chine": {
+      "success": true,
+      "output_file": "out/batch_processed/Zhao-2015-Whole Lung Lavage Treatment of Chine.json",
+      "authors": 6,
+      "abstract": true,
+      "references": 62,
+      "statistics": 3,
+      "tables": 3,
+      "figures": 3
+    },
+    "management-of-incidental-pulmonary-nodule-fleischner": {
+      "success": true,
+      "output_file": "out/batch_processed/management-of-incidental-pulmonary-nodule-fleischner.json",
+      "authors": 8,
+      "abstract": false,
+      "references": 100,
+      "statistics": 0,
+      "tables": 1,
+      "figures": 24
+    },
+    "Transbronchial Cryobiopsy for the Diagnosis of": {
+      "success": true,
+      "output_file": "out/batch_processed/Transbronchial Cryobiopsy for the Diagnosis of.json",
+      "authors": 12,
+      "abstract": false,
+      "references": 100,
+      "statistics": 0,
+      "tables": 3,
+      "figures": 4
+    },
+    "Rahman-2015-Effect of Opioids vs NSAIDs and La": {
+      "success": true,
+      "output_file": "out/batch_processed/Rahman-2015-Effect of Opioids vs NSAIDs and La.json",
+      "authors": 31,
+      "abstract": false,
+      "references": 45,
+      "statistics": 0,
+      "tables": 6,
+      "figures": 5
+    },
+    "Hartman-2021-New bronchoscopic treatment modal": {
+      "success": true,
+      "output_file": "out/batch_processed/Hartman-2021-New bronchoscopic treatment modal.json",
+      "authors": 2,
+      "abstract": false,
+      "references": 94,
+      "statistics": 6,
+      "tables": 5,
+      "figures": 5
+    },
+    "Safety of flexible bronchoscopy in patients with  pulmonary hypertension": {
+      "success": true,
+      "output_file": "out/batch_processed/Safety of flexible bronchoscopy in patients with  pulmonary hypertension.json",
+      "authors": 0,
+      "abstract": true,
+      "references": 60,
+      "statistics": 0,
+      "tables": 4,
+      "figures": 2
+    },
+    "Bibby-2018-ERS_EACTS statement on the manageme": {
+      "success": true,
+      "output_file": "out/batch_processed/Bibby-2018-ERS_EACTS statement on the manageme.json",
+      "authors": 14,
+      "abstract": false,
+      "references": 100,
+      "statistics": 23,
+      "tables": 4,
+      "figures": 4
+    },
+    "ASPEN Safe Practices for Enteral Nutrition ": {
+      "success": false,
+      "output_file": null
+    },
+    "Bhora-2016-Treatment of Benign Tracheal Stenos": {
+      "success": true,
+      "output_file": "out/batch_processed/Bhora-2016-Treatment of Benign Tracheal Stenos.json",
+      "authors": 8,
+      "abstract": false,
+      "references": 51,
+      "statistics": 0,
+      "tables": 2,
+      "figures": 4
+    },
+    "Performance, long-term management, and coding for percutaneous dilational tracheostomy": {
+      "success": true,
+      "output_file": "out/batch_processed/Performance, long-term management, and coding for percutaneous dilational tracheostomy.json",
+      "authors": 1,
+      "abstract": false,
+      "references": 71,
+      "statistics": 0,
+      "tables": 1,
+      "figures": 3
+    },
+    "The Business of Bronchoscopy": {
+      "success": true,
+      "output_file": "out/batch_processed/The Business of Bronchoscopy.json",
+      "authors": 2,
+      "abstract": false,
+      "references": 21,
+      "statistics": 0,
+      "tables": 0,
+      "figures": 1
+    },
+    "Electromagnetic navigation bronchoscopy a comprehensive review": {
+      "success": true,
+      "output_file": "out/batch_processed/Electromagnetic navigation bronchoscopy a comprehensive review.json",
+      "authors": 6,
+      "abstract": false,
+      "references": 100,
+      "statistics": 0,
+      "tables": 1,
+      "figures": 21
+    },
+    "fistula Airway ultraflex stenting in esophageal cancer": {
+      "success": true,
+      "output_file": "out/batch_processed/fistula Airway ultraflex stenting in esophageal cancer.json",
+      "authors": 8,
+      "abstract": true,
+      "references": 34,
+      "statistics": 0,
+      "tables": 3,
+      "figures": 2
+    },
+    "DY and Synergy of Needle and Forceps w ENB": {
+      "success": true,
+      "output_file": "out/batch_processed/DY and Synergy of Needle and Forceps w ENB.json",
+      "authors": 19,
+      "abstract": false,
+      "references": 74,
+      "statistics": 0,
+      "tables": 5,
+      "figures": 4
+    },
+    "Labarca-2019-Bronchoscopic Lung Volume Reducti": {
+      "success": true,
+      "output_file": "out/batch_processed/Labarca-2019-Bronchoscopic Lung Volume Reducti.json",
+      "authors": 10,
+      "abstract": true,
+      "references": 51,
+      "statistics": 0,
+      "tables": 9,
+      "figures": 9
+    },
+    "Aldaghlawi-2020-A Systematic Review of Digital": {
+      "success": true,
+      "output_file": "out/batch_processed/Aldaghlawi-2020-A Systematic Review of Digital.json",
+      "authors": 7,
+      "abstract": false,
+      "references": 95,
+      "statistics": 1,
+      "tables": 4,
+      "figures": 2
+    },
+    "First Human Use of a New Robotic-Assisted Fiber Optic Sensing Navigation System for Small Peripheral Pulmonary Nodules": {
+      "success": true,
+      "output_file": "out/batch_processed/First Human Use of a New Robotic-Assisted Fiber Optic Sensing Navigation System for Small Peripheral Pulmonary Nodules.json",
+      "authors": 8,
+      "abstract": true,
+      "references": 52,
+      "statistics": 11,
+      "tables": 4,
+      "figures": 4
+    },
+    "Robot assisted bronchoscopy for pulmonary lesion diagnosis": {
+      "success": true,
+      "output_file": "out/batch_processed/Robot assisted bronchoscopy for pulmonary lesion diagnosis.json",
+      "authors": 2,
+      "abstract": true,
+      "references": 38,
+      "statistics": 7,
+      "tables": 5,
+      "figures": 4
+    },
+    "Standardizing education in interventional pulmonol": {
+      "success": true,
+      "output_file": "out/batch_processed/Standardizing education in interventional pulmonol.json",
+      "authors": 3,
+      "abstract": false,
+      "references": 100,
+      "statistics": 0,
+      "tables": 2,
+      "figures": 2
+    },
+    "Walker-2021-Ambulatory management of secondary": {
+      "success": true,
+      "output_file": "out/batch_processed/Walker-2021-Ambulatory management of secondary.json",
+      "authors": 20,
+      "abstract": false,
+      "references": 35,
+      "statistics": 20,
+      "tables": 4,
+      "figures": 7
+    },
+    "Herth-2019-Endoscopic Lung Volume Reduction_ A": {
+      "success": true,
+      "output_file": "out/batch_processed/Herth-2019-Endoscopic Lung Volume Reduction_ A.json",
+      "authors": 5,
+      "abstract": true,
+      "references": 100,
+      "statistics": 1,
+      "tables": 2,
+      "figures": 4
+    },
+    "tana-et-al-2025-airway-scairway-scaffolds-for-emphysema": {
+      "success": true,
+      "output_file": "out/batch_processed/tana-et-al-2025-airway-scairway-scaffolds-for-emphysema.json",
+      "authors": 1,
+      "abstract": true,
+      "references": 57,
+      "statistics": 0,
+      "tables": 2,
+      "figures": 21
+    },
+    "Prospective study to determine the volume of p": {
+      "success": true,
+      "output_file": "out/batch_processed/Prospective study to determine the volume of p.json",
+      "authors": 7,
+      "abstract": false,
+      "references": 45,
+      "statistics": 0,
+      "tables": 4,
+      "figures": 2
+    },
+    "surigicalLVR A randomized trial comparing lung-volume-reduc": {
+      "success": true,
+      "output_file": "out/batch_processed/surigicalLVR A randomized trial comparing lung-volume-reduc.json",
+      "authors": 8,
+      "abstract": false,
+      "references": 78,
+      "statistics": 7,
+      "tables": 6,
+      "figures": 4
+    },
+    "A prospective, randomized trial for the comparison of 19-g and 22-g EBUS": {
+      "success": true,
+      "output_file": "out/batch_processed/A prospective, randomized trial for the comparison of 19-g and 22-g EBUS.json",
+      "authors": 13,
+      "abstract": true,
+      "references": 69,
+      "statistics": 0,
+      "tables": 3,
+      "figures": 5
+    },
+    "Airway stabilization with silicone stents for": {
+      "success": true,
+      "output_file": "out/batch_processed/Airway stabilization with silicone stents for.json",
+      "authors": 7,
+      "abstract": false,
+      "references": 53,
+      "statistics": 0,
+      "tables": 1,
+      "figures": 9
+    },
+    "IP Fellowship Accreditation Standards": {
+      "success": true,
+      "output_file": "out/batch_processed/IP Fellowship Accreditation Standards.json",
+      "authors": 4,
+      "abstract": false,
+      "references": 18,
+      "statistics": 0,
+      "tables": 3,
+      "figures": 2
+    },
+    "Rigid bronchoscopy and silicone st": {
+      "success": true,
+      "output_file": "out/batch_processed/Rigid bronchoscopy and silicone st.json",
+      "authors": 2,
+      "abstract": false,
+      "references": 64,
+      "statistics": 0,
+      "tables": 0,
+      "figures": 3
+    },
+    "Survival in COPD patients treated with broncho": {
+      "success": true,
+      "output_file": "out/batch_processed/Survival in COPD patients treated with broncho.json",
+      "authors": 1,
+      "abstract": false,
+      "references": 43,
+      "statistics": 3,
+      "tables": 4,
+      "figures": 4
+    },
+    "Havelock-2010-Pleural procedures and thoracic": {
+      "success": true,
+      "output_file": "out/batch_processed/Havelock-2010-Pleural procedures and thoracic.json",
+      "authors": 5,
+      "abstract": false,
+      "references": 100,
+      "statistics": 0,
+      "tables": 3,
+      "figures": 10
+    },
+    "editorial Nth edition": {
+      "success": true,
+      "output_file": "out/batch_processed/editorial Nth edition.json",
+      "authors": 2,
+      "abstract": false,
+      "references": 20,
+      "statistics": 0,
+      "tables": 0,
+      "figures": 2
+    },
+    "Advances in Interventional Pulmonology 2018": {
+      "success": true,
+      "output_file": "out/batch_processed/Advances in Interventional Pulmonology 2018.json",
+      "authors": 3,
+      "abstract": false,
+      "references": 100,
+      "statistics": 0,
+      "tables": 0,
+      "figures": 5
+    },
+    "Rigid Bronchoscopy": {
+      "success": true,
+      "output_file": "out/batch_processed/Rigid Bronchoscopy.json",
+      "authors": 3,
+      "abstract": true,
+      "references": 79,
+      "statistics": 0,
+      "tables": 1,
+      "figures": 8
+    },
+    "Current practice in management of exudative pleural effusions AABIP survey": {
+      "success": true,
+      "output_file": "out/batch_processed/Current practice in management of exudative pleural effusions AABIP survey.json",
+      "authors": 4,
+      "abstract": false,
+      "references": 14,
+      "statistics": 6,
+      "tables": 0,
+      "figures": 2
+    },
+    "Senitko-2019-Safety and Tolerability of Vacuum": {
+      "success": true,
+      "output_file": "out/batch_processed/Senitko-2019-Safety and Tolerability of Vacuum.json",
+      "authors": 8,
+      "abstract": true,
+      "references": 38,
+      "statistics": 3,
+      "tables": 2,
+      "figures": 3
+    },
+    "aabip_evidence_informed_guidelines_and_expert": {
+      "success": true,
+      "output_file": "out/batch_processed/aabip_evidence_informed_guidelines_and_expert.json",
+      "authors": 2,
+      "abstract": false,
+      "references": 100,
+      "statistics": 0,
+      "tables": 0,
+      "figures": 1
+    },
+    "STS Surgical Management of Oligometastatic NSCLC": {
+      "success": true,
+      "output_file": "out/batch_processed/STS Surgical Management of Oligometastatic NSCLC.json",
+      "authors": 16,
+      "abstract": false,
+      "references": 100,
+      "statistics": 0,
+      "tables": 1,
+      "figures": 2
+    },
+    "Spread Through Air Spaces": {
+      "success": true,
+      "output_file": "out/batch_processed/Spread Through Air Spaces.json",
+      "authors": 8,
+      "abstract": true,
+      "references": 100,
+      "statistics": 1,
+      "tables": 12,
+      "figures": 10
+    },
+    "The use of electrocautery as the primary ablat": {
+      "success": true,
+      "output_file": "out/batch_processed/The use of electrocautery as the primary ablat.json",
+      "authors": 5,
+      "abstract": false,
+      "references": 44,
+      "statistics": 0,
+      "tables": 2,
+      "figures": 3
+    },
+    "Management of life-threatening hemoptysis in the ICU": {
+      "success": true,
+      "output_file": "out/batch_processed/Management of life-threatening hemoptysis in the ICU.json",
+      "authors": 0,
+      "abstract": false,
+      "references": 100,
+      "statistics": 0,
+      "tables": 3,
+      "figures": 12
+    },
+    "Percutaneous radiologic gastrostomy versus per": {
+      "success": true,
+      "output_file": "out/batch_processed/Percutaneous radiologic gastrostomy versus per.json",
+      "authors": 1,
+      "abstract": true,
+      "references": 60,
+      "statistics": 0,
+      "tables": 3,
+      "figures": 2
+    },
+    "The evolving role of medical thoracoscopy on therapeutic management of pleural disease": {
+      "success": true,
+      "output_file": "out/batch_processed/The evolving role of medical thoracoscopy on therapeutic management of pleural disease.json",
+      "authors": 4,
+      "abstract": true,
+      "references": 100,
+      "statistics": 0,
+      "tables": 0,
+      "figures": 10
+    },
+    "Rahnemai-Azar-2014-Percutaneous endoscopic gas": {
+      "success": true,
+      "output_file": "out/batch_processed/Rahnemai-Azar-2014-Percutaneous endoscopic gas.json",
+      "authors": 4,
+      "abstract": true,
+      "references": 100,
+      "statistics": 1,
+      "tables": 0,
+      "figures": 18
+    },
+    "BLVR comprehensive 2025": {
+      "success": true,
+      "output_file": "out/batch_processed/BLVR comprehensive 2025.json",
+      "authors": 2,
+      "abstract": false,
+      "references": 68,
+      "statistics": 0,
+      "tables": 2,
+      "figures": 3
+    },
+    "Approach to hemoptysis in the modern era": {
+      "success": true,
+      "output_file": "out/batch_processed/Approach to hemoptysis in the modern era.json",
+      "authors": 2,
+      "abstract": false,
+      "references": 100,
+      "statistics": 2,
+      "tables": 2,
+      "figures": 5
+    },
+    "Imaging in peripheral bronchoscopy": {
+      "success": true,
+      "output_file": "out/batch_processed/Imaging in peripheral bronchoscopy.json",
+      "authors": 3,
+      "abstract": true,
+      "references": 86,
+      "statistics": 0,
+      "tables": 0,
+      "figures": 6
+    },
+    "COLDICE study": {
+      "success": true,
+      "output_file": "out/batch_processed/COLDICE study.json",
+      "authors": 5,
+      "abstract": false,
+      "references": 47,
+      "statistics": 4,
+      "tables": 4,
+      "figures": 7
+    },
+    "Diagnostic yield and safety of navigation bronchoscopy": {
+      "success": true,
+      "output_file": "out/batch_processed/Diagnostic yield and safety of navigation bronchoscopy.json",
+      "authors": 2,
+      "abstract": false,
+      "references": 100,
+      "statistics": 2,
+      "tables": 13,
+      "figures": 6
+    },
+    "Hooper-2010-Investigation of a unilateral pleu": {
+      "success": true,
+      "output_file": "out/batch_processed/Hooper-2010-Investigation of a unilateral pleu.json",
+      "authors": 4,
+      "abstract": false,
+      "references": 100,
+      "statistics": 1,
+      "tables": 4,
+      "figures": 6
+    },
+    "Jayadevappa-2019-Outcomes of patients with adv": {
+      "success": true,
+      "output_file": "out/batch_processed/Jayadevappa-2019-Outcomes of patients with adv.json",
+      "authors": 4,
+      "abstract": false,
+      "references": 62,
+      "statistics": 6,
+      "tables": 3,
+      "figures": 2
+    },
+    "fistula Lazarus-2017-Persistent air leaks_ a review wi": {
+      "success": true,
+      "output_file": "out/batch_processed/fistula Lazarus-2017-Persistent air leaks_ a review wi.json",
+      "authors": 5,
+      "abstract": false,
+      "references": 100,
+      "statistics": 1,
+      "tables": 0,
+      "figures": 4
+    },
+    "Improved diagnostic yield  with digital tomosynthesis ENB": {
+      "success": true,
+      "output_file": "out/batch_processed/Improved diagnostic yield  with digital tomosynthesis ENB.json",
+      "authors": 3,
+      "abstract": true,
+      "references": 36,
+      "statistics": 4,
+      "tables": 7,
+      "figures": 10
+    },
+    "SSRAB in the Diagnosis of PPLs": {
+      "success": true,
+      "output_file": "out/batch_processed/SSRAB in the Diagnosis of PPLs.json",
+      "authors": 14,
+      "abstract": false,
+      "references": 93,
+      "statistics": 0,
+      "tables": 3,
+      "figures": 7
+    },
+    "Management of Malignant Pleural Effusions": {
+      "success": true,
+      "output_file": "out/batch_processed/Management of Malignant Pleural Effusions.json",
+      "authors": 13,
+      "abstract": false,
+      "references": 100,
+      "statistics": 0,
+      "tables": 1,
+      "figures": 1
+    },
+    "Aggressive versus symptom-guided drainage of m": {
+      "success": true,
+      "output_file": "out/batch_processed/Aggressive versus symptom-guided drainage of m.json",
+      "authors": 17,
+      "abstract": true,
+      "references": 53,
+      "statistics": 30,
+      "tables": 3,
+      "figures": 6
+    },
+    "Indications and complications of rigid broncho": {
+      "success": true,
+      "output_file": "out/batch_processed/Indications and complications of rigid broncho.json",
+      "authors": 1,
+      "abstract": true,
+      "references": 100,
+      "statistics": 0,
+      "tables": 3,
+      "figures": 34
+    },
+    "Study Design and Rationale ENB and ETN  ALL IN ONE Trial": {
+      "success": true,
+      "output_file": "out/batch_processed/Study Design and Rationale ENB and ETN  ALL IN ONE Trial.json",
+      "authors": 1,
+      "abstract": false,
+      "references": 54,
+      "statistics": 0,
+      "tables": 1,
+      "figures": 6
+    },
+    "Occupational adverse effects and protective factors in bronchoscopy ": {
+      "success": true,
+      "output_file": "out/batch_processed/Occupational adverse effects and protective factors in bronchoscopy .json",
+      "authors": 0,
+      "abstract": false,
+      "references": 73,
+      "statistics": 5,
+      "tables": 0,
+      "figures": 1
+    },
+    "Technical Aspects of EBUS  CHEST Guideline and Expert Panel Report": {
+      "success": true,
+      "output_file": "out/batch_processed/Technical Aspects of EBUS  CHEST Guideline and Expert Panel Report.json",
+      "authors": 10,
+      "abstract": false,
+      "references": 100,
+      "statistics": 0,
+      "tables": 5,
+      "figures": 3
+    },
+    "Pleural Interventions in the Management of Hep": {
+      "success": true,
+      "output_file": "out/batch_processed/Pleural Interventions in the Management of Hep.json",
+      "authors": 8,
+      "abstract": true,
+      "references": 82,
+      "statistics": 0,
+      "tables": 2,
+      "figures": 3
+    },
+    "incidence_and_outcomes_of_revision_bronchoscopies.11": {
+      "success": true,
+      "output_file": "out/batch_processed/incidence_and_outcomes_of_revision_bronchoscopies.11.json",
+      "authors": 6,
+      "abstract": false,
+      "references": 26,
+      "statistics": 0,
+      "tables": 3,
+      "figures": 2
+    },
+    "Kimura-2015-Photodynamic Therapy (PDT) with Ch": {
+      "success": true,
+      "output_file": "out/batch_processed/Kimura-2015-Photodynamic Therapy (PDT) with Ch.json",
+      "authors": 4,
+      "abstract": false,
+      "references": 34,
+      "statistics": 0,
+      "tables": 1,
+      "figures": 11
+    },
+    "Update on tracheobronchial anatomy and flexible fiberoptic bronchoscopy in thoracic anesthesia": {
+      "success": true,
+      "output_file": "out/batch_processed/Update on tracheobronchial anatomy and flexible fiberoptic bronchoscopy in thoracic anesthesia.json",
+      "authors": 1,
+      "abstract": true,
+      "references": 22,
+      "statistics": 0,
+      "tables": 0,
+      "figures": 10
+    },
+    "Comparision of valves": {
+      "success": true,
+      "output_file": "out/batch_processed/Comparision of valves.json",
+      "authors": 11,
+      "abstract": true,
+      "references": 74,
+      "statistics": 0,
+      "tables": 4,
+      "figures": 2
+    },
+    "ERSATS statement on IP": {
+      "success": true,
+      "output_file": "out/batch_processed/ERSATS statement on IP.json",
+      "authors": 5,
+      "abstract": false,
+      "references": 100,
+      "statistics": 0,
+      "tables": 7,
+      "figures": 2
+    },
+    "The utility of bronchoscopy in immunocompromised patients": {
+      "success": true,
+      "output_file": "out/batch_processed/The utility of bronchoscopy in immunocompromised patients.json",
+      "authors": 3,
+      "abstract": false,
+      "references": 100,
+      "statistics": 2,
+      "tables": 2,
+      "figures": 2
+    },
+    "fistula Silon-2017-Endoscopic Management of Esophagore": {
+      "success": true,
+      "output_file": "out/batch_processed/fistula Silon-2017-Endoscopic Management of Esophagore.json",
+      "authors": 0,
+      "abstract": true,
+      "references": 36,
+      "statistics": 0,
+      "tables": 5,
+      "figures": 1
+    },
+    "BTS pleural guidelines2": {
+      "success": true,
+      "output_file": "out/batch_processed/BTS pleural guidelines2.json",
+      "authors": 13,
+      "abstract": false,
+      "references": 23,
+      "statistics": 0,
+      "tables": 5,
+      "figures": 9
+    },
+    "Shi-2014-Outcome and safety of the Montgomery": {
+      "success": true,
+      "output_file": "out/batch_processed/Shi-2014-Outcome and safety of the Montgomery.json",
+      "authors": 0,
+      "abstract": true,
+      "references": 22,
+      "statistics": 0,
+      "tables": 5,
+      "figures": 10
+    },
+    "The death of a healthy volunteer in a human research project  implications for": {
+      "success": true,
+      "output_file": "out/batch_processed/The death of a healthy volunteer in a human research project  implications for.json",
+      "authors": 2,
+      "abstract": false,
+      "references": 14,
+      "statistics": 0,
+      "tables": 0,
+      "figures": 0
+    },
+    "Roberts-2010-Management of a malignant pleural": {
+      "success": true,
+      "output_file": "out/batch_processed/Roberts-2010-Management of a malignant pleural.json",
+      "authors": 5,
+      "abstract": false,
+      "references": 100,
+      "statistics": 0,
+      "tables": 1,
+      "figures": 1
+    },
+    "Mesothelioma proposal for revision of T": {
+      "success": true,
+      "output_file": "out/batch_processed/Mesothelioma proposal for revision of T.json",
+      "authors": 2,
+      "abstract": true,
+      "references": 84,
+      "statistics": 0,
+      "tables": 5,
+      "figures": 7
+    },
+    "ENB-directed dye marking for locating pulmonary nodules": {
+      "success": true,
+      "output_file": "out/batch_processed/ENB-directed dye marking for locating pulmonary nodules.json",
+      "authors": 2,
+      "abstract": true,
+      "references": 52,
+      "statistics": 0,
+      "tables": 4,
+      "figures": 5
+    },
+    "maldonado-et-al-2024-navigational-bronchoscopy-versus-computed-tomography-guided-transthoracic-needle-biopsy-for-the (2)": {
+      "success": false,
+      "output_file": null
+    },
+    "Equipment and procedural setup for IP": {
+      "success": true,
+      "output_file": "out/batch_processed/Equipment and procedural setup for IP.json",
+      "authors": 4,
+      "abstract": false,
+      "references": 60,
+      "statistics": 0,
+      "tables": 1,
+      "figures": 8
+    },
+    "Tracheobronchomalacia and excessive dynamic ai": {
+      "success": true,
+      "output_file": "out/batch_processed/Tracheobronchomalacia and excessive dynamic ai.json",
+      "authors": 4,
+      "abstract": true,
+      "references": 100,
+      "statistics": 0,
+      "tables": 4,
+      "figures": 22
+    },
+    "Therapeutic bronchoscopy for malignan": {
+      "success": true,
+      "output_file": "out/batch_processed/Therapeutic bronchoscopy for malignan.json",
+      "authors": 2,
+      "abstract": false,
+      "references": 60,
+      "statistics": 3,
+      "tables": 11,
+      "figures": 1
+    },
+    "Hu-2020-Pleural manometry_ techniques, applica": {
+      "success": true,
+      "output_file": "out/batch_processed/Hu-2020-Pleural manometry_ techniques, applica.json",
+      "authors": 4,
+      "abstract": false,
+      "references": 64,
+      "statistics": 3,
+      "tables": 3,
+      "figures": 13
+    },
+    "Chhatre-2021-Survival Outcomes with Photodynam": {
+      "success": true,
+      "output_file": "out/batch_processed/Chhatre-2021-Survival Outcomes with Photodynam.json",
+      "authors": 4,
+      "abstract": false,
+      "references": 82,
+      "statistics": 0,
+      "tables": 3,
+      "figures": 6
+    },
+    "Shojaee-2019-Indwelling Tunneled Pleural Cathe": {
+      "success": true,
+      "output_file": "out/batch_processed/Shojaee-2019-Indwelling Tunneled Pleural Cathe.json",
+      "authors": 15,
+      "abstract": false,
+      "references": 45,
+      "statistics": 0,
+      "tables": 3,
+      "figures": 4
+    },
+    "Managing Massive Hemoptysis": {
+      "success": true,
+      "output_file": "out/batch_processed/Managing Massive Hemoptysis.json",
+      "authors": 2,
+      "abstract": false,
+      "references": 100,
+      "statistics": 0,
+      "tables": 3,
+      "figures": 6
+    },
+    "Cone-beam computed tomography-guided electromagnetic navigation for peripheral lung nodules": {
+      "success": true,
+      "output_file": "out/batch_processed/Cone-beam computed tomography-guided electromagnetic navigation for peripheral lung nodules.json",
+      "authors": 10,
+      "abstract": true,
+      "references": 30,
+      "statistics": 3,
+      "tables": 3,
+      "figures": 3
+    },
+    "Arnold-2018-Investigating unilateral pleural e": {
+      "success": true,
+      "output_file": "out/batch_processed/Arnold-2018-Investigating unilateral pleural e.json",
+      "authors": 8,
+      "abstract": false,
+      "references": 68,
+      "statistics": 13,
+      "tables": 3,
+      "figures": 5
+    },
+    "nebulized TXA review": {
+      "success": true,
+      "output_file": "out/batch_processed/nebulized TXA review.json",
+      "authors": 0,
+      "abstract": true,
+      "references": 46,
+      "statistics": 0,
+      "tables": 5,
+      "figures": 8
+    },
+    "fistula Debourdeau-2019-Endoscopic treatment of nonmal": {
+      "success": true,
+      "output_file": "out/batch_processed/fistula Debourdeau-2019-Endoscopic treatment of nonmal.json",
+      "authors": 0,
+      "abstract": false,
+      "references": 38,
+      "statistics": 9,
+      "tables": 1,
+      "figures": 10
+    },
+    "Advances in IP": {
+      "success": true,
+      "output_file": "out/batch_processed/Advances in IP.json",
+      "authors": 3,
+      "abstract": false,
+      "references": 100,
+      "statistics": 0,
+      "tables": 0,
+      "figures": 5
+    },
+    "Lamb-2020-Use of Tracheostomy During the COVID": {
+      "success": true,
+      "output_file": "out/batch_processed/Lamb-2020-Use of Tracheostomy During the COVID.json",
+      "authors": 2,
+      "abstract": true,
+      "references": 100,
+      "statistics": 0,
+      "tables": 4,
+      "figures": 7
+    },
+    "Endobronchial tumor debulking with a flexible": {
+      "success": true,
+      "output_file": "out/batch_processed/Endobronchial tumor debulking with a flexible.json",
+      "authors": 6,
+      "abstract": false,
+      "references": 26,
+      "statistics": 0,
+      "tables": 2,
+      "figures": 0
+    },
+    "Interventional pulmonology in the intensive ca": {
+      "success": true,
+      "output_file": "out/batch_processed/Interventional pulmonology in the intensive ca.json",
+      "authors": 2,
+      "abstract": false,
+      "references": 100,
+      "statistics": 0,
+      "tables": 0,
+      "figures": 3
+    },
+    "Role of Pathologic Single Nodal and Multple Nodal Desscriptions": {
+      "success": true,
+      "output_file": "out/batch_processed/Role of Pathologic Single Nodal and Multple Nodal Desscriptions.json",
+      "authors": 11,
+      "abstract": false,
+      "references": 48,
+      "statistics": 0,
+      "tables": 7,
+      "figures": 7
+    },
+    "Relapsing polychondriti": {
+      "success": true,
+      "output_file": "out/batch_processed/Relapsing polychondriti.json",
+      "authors": 11,
+      "abstract": true,
+      "references": 100,
+      "statistics": 0,
+      "tables": 2,
+      "figures": 6
+    },
+    "ASAP trial": {
+      "success": true,
+      "output_file": "out/batch_processed/ASAP trial.json",
+      "authors": 21,
+      "abstract": true,
+      "references": 38,
+      "statistics": 0,
+      "tables": 7,
+      "figures": 1
+    },
+    "Koizumi-2015-Bronchoscopy-Guided Cooled Radiof": {
+      "success": true,
+      "output_file": "out/batch_processed/Koizumi-2015-Bronchoscopy-Guided Cooled Radiof.json",
+      "authors": 2,
+      "abstract": true,
+      "references": 58,
+      "statistics": 0,
+      "tables": 2,
+      "figures": 16
+    },
+    "Acquisition and Handling of Endobronchial Ultrasound Transbronchial Needle Samples.": {
+      "success": true,
+      "output_file": "out/batch_processed/Acquisition and Handling of Endobronchial Ultrasound Transbronchial Needle Samples..json",
+      "authors": 15,
+      "abstract": false,
+      "references": 100,
+      "statistics": 0,
+      "tables": 1,
+      "figures": 2
+    },
+    "NAVIGATE 24-Month Results": {
+      "success": true,
+      "output_file": "out/batch_processed/NAVIGATE 24-Month Results.json",
+      "authors": 0,
+      "abstract": true,
+      "references": 75,
+      "statistics": 4,
+      "tables": 3,
+      "figures": 5
+    },
+    "fistula Han-2018-Customized airway stenting for bronch": {
+      "success": true,
+      "output_file": "out/batch_processed/fistula Han-2018-Customized airway stenting for bronch.json",
+      "authors": 1,
+      "abstract": true,
+      "references": 44,
+      "statistics": 4,
+      "tables": 4,
+      "figures": 12
+    },
+    "Radiation Principles, Protection, and Reporting": {
+      "success": true,
+      "output_file": "out/batch_processed/Radiation Principles, Protection, and Reporting.json",
+      "authors": 10,
+      "abstract": true,
+      "references": 92,
+      "statistics": 0,
+      "tables": 4,
+      "figures": 3
+    },
+    "Proposals for revisoin of residual tumor after resection": {
+      "success": true,
+      "output_file": "out/batch_processed/Proposals for revisoin of residual tumor after resection.json",
+      "authors": 16,
+      "abstract": true,
+      "references": 100,
+      "statistics": 0,
+      "tables": 7,
+      "figures": 11
+    },
+    "Ultrasound-Guided Percutaneous Dilational Trac": {
+      "success": true,
+      "output_file": "out/batch_processed/Ultrasound-Guided Percutaneous Dilational Trac.json",
+      "authors": 2,
+      "abstract": true,
+      "references": 46,
+      "statistics": 0,
+      "tables": 5,
+      "figures": 7
+    },
+    "A prospective CT of EBUS compared with mediastinoscopy for staging of lung cancer": {
+      "success": true,
+      "output_file": "out/batch_processed/A prospective CT of EBUS compared with mediastinoscopy for staging of lung cancer.json",
+      "authors": 10,
+      "abstract": false,
+      "references": 49,
+      "statistics": 0,
+      "tables": 6,
+      "figures": 3
+    },
+    "IPCplus": {
+      "success": true,
+      "output_file": "out/batch_processed/IPCplus.json",
+      "authors": 2,
+      "abstract": false,
+      "references": 50,
+      "statistics": 4,
+      "tables": 2,
+      "figures": 2
+    },
+    "Impact of the Ninth International Association for the Study of Lung Cancer TNM Classification on Endobronchial Ultrasound for Lung Cancer Staging": {
+      "success": true,
+      "output_file": "out/batch_processed/Impact of the Ninth International Association for the Study of Lung Cancer TNM Classification on Endobronchial Ultrasound for Lung Cancer Staging.json",
+      "authors": 3,
+      "abstract": false,
+      "references": 17,
+      "statistics": 0,
+      "tables": 0,
+      "figures": 4
+    },
+    "Risks of and recommendations for flexible bronchoscopy in pregnancy": {
+      "success": true,
+      "output_file": "out/batch_processed/Risks of and recommendations for flexible bronchoscopy in pregnancy.json",
+      "authors": 2,
+      "abstract": false,
+      "references": 100,
+      "statistics": 0,
+      "tables": 2,
+      "figures": 1
+    },
+    "An updated review in percutaneous tracheostomy": {
+      "success": true,
+      "output_file": "out/batch_processed/An updated review in percutaneous tracheostomy.json",
+      "authors": 1,
+      "abstract": false,
+      "references": 98,
+      "statistics": 0,
+      "tables": 0,
+      "figures": 14
+    },
+    "Pleural Cryobiopsy A Systematic Review and Met": {
+      "success": true,
+      "output_file": "out/batch_processed/Pleural Cryobiopsy A Systematic Review and Met.json",
+      "authors": 5,
+      "abstract": false,
+      "references": 54,
+      "statistics": 0,
+      "tables": 4,
+      "figures": 4
+    },
+    "The business of interventional pulmonology": {
+      "success": true,
+      "output_file": "out/batch_processed/The business of interventional pulmonology.json",
+      "authors": 2,
+      "abstract": false,
+      "references": 57,
+      "statistics": 0,
+      "tables": 3,
+      "figures": 0
+    },
+    "Electromagnetic navigation bronchoscopy to access lung lesions in": {
+      "success": true,
+      "output_file": "out/batch_processed/Electromagnetic navigation bronchoscopy to access lung lesions in.json",
+      "authors": 0,
+      "abstract": true,
+      "references": 56,
+      "statistics": 0,
+      "tables": 6,
+      "figures": 7
+    },
+    "Evaluating the Patient With a Pulmonary Nodule_A Review": {
+      "success": true,
+      "output_file": "out/batch_processed/Evaluating the Patient With a Pulmonary Nodule_A Review.json",
+      "authors": 2,
+      "abstract": false,
+      "references": 100,
+      "statistics": 0,
+      "tables": 3,
+      "figures": 7
+    },
+    "fistula Grewal-2019-Treatment of Tracheobronchial Inju": {
+      "success": true,
+      "output_file": "out/batch_processed/fistula Grewal-2019-Treatment of Tracheobronchial Inju.json",
+      "authors": 6,
+      "abstract": false,
+      "references": 100,
+      "statistics": 0,
+      "tables": 2,
+      "figures": 8
+    },
+    "The relationship between chest tube size and c": {
+      "success": true,
+      "output_file": "out/batch_processed/The relationship between chest tube size and c.json",
+      "authors": 2,
+      "abstract": false,
+      "references": 92,
+      "statistics": 0,
+      "tables": 4,
+      "figures": 4
+    },
+    "Respiratory infections increase the r": {
+      "success": true,
+      "output_file": "out/batch_processed/Respiratory infections increase the r.json",
+      "authors": 2,
+      "abstract": false,
+      "references": 59,
+      "statistics": 0,
+      "tables": 10,
+      "figures": 5
+    },
+    "A Systematic Review and Meta-Analysis Comparin": {
+      "success": true,
+      "output_file": "out/batch_processed/A Systematic Review and Meta-Analysis Comparin.json",
+      "authors": 4,
+      "abstract": false,
+      "references": 71,
+      "statistics": 0,
+      "tables": 8,
+      "figures": 8
+    },
+    "The Clinical and Economic Implications of pleural effusions": {
+      "success": true,
+      "output_file": "out/batch_processed/The Clinical and Economic Implications of pleural effusions.json",
+      "authors": 7,
+      "abstract": false,
+      "references": 42,
+      "statistics": 0,
+      "tables": 11,
+      "figures": 8
+    },
+    "green-et-al-2021-overview-of-interventional-pulmonology-for-radiologists": {
+      "success": true,
+      "output_file": "out/batch_processed/green-et-al-2021-overview-of-interventional-pulmonology-for-radiologists.json",
+      "authors": 5,
+      "abstract": false,
+      "references": 100,
+      "statistics": 0,
+      "tables": 4,
+      "figures": 46
+    },
+    "Efficacy and Safety of Airway Stent in TEF": {
+      "success": true,
+      "output_file": "out/batch_processed/Efficacy and Safety of Airway Stent in TEF.json",
+      "authors": 9,
+      "abstract": true,
+      "references": 80,
+      "statistics": 0,
+      "tables": 1,
+      "figures": 4
+    },
+    "Evaluation of individuals with pulmonary nodules when is it lung cancer": {
+      "success": true,
+      "output_file": "out/batch_processed/Evaluation of individuals with pulmonary nodules when is it lung cancer.json",
+      "authors": 2,
+      "abstract": false,
+      "references": 100,
+      "statistics": 0,
+      "tables": 4,
+      "figures": 4
+    },
+    "The role of  elastography in the dx of med and hilar lymph": {
+      "success": true,
+      "output_file": "out/batch_processed/The role of  elastography in the dx of med and hilar lymph.json",
+      "authors": 13,
+      "abstract": true,
+      "references": 56,
+      "statistics": 0,
+      "tables": 2,
+      "figures": 4
+    },
+    "cancers-15-01068": {
+      "success": true,
+      "output_file": "out/batch_processed/cancers-15-01068.json",
+      "authors": 4,
+      "abstract": false,
+      "references": 100,
+      "statistics": 0,
+      "tables": 0,
+      "figures": 9
+    },
+    "Saftey of rigid in bronch suite": {
+      "success": true,
+      "output_file": "out/batch_processed/Saftey of rigid in bronch suite.json",
+      "authors": 8,
+      "abstract": false,
+      "references": 30,
+      "statistics": 0,
+      "tables": 3,
+      "figures": 1
+    },
+    "Forbearance With Bronchoscopy": {
+      "success": true,
+      "output_file": "out/batch_processed/Forbearance With Bronchoscopy.json",
+      "authors": 4,
+      "abstract": true,
+      "references": 100,
+      "statistics": 0,
+      "tables": 3,
+      "figures": 13
+    },
+    "American Brachytherapy Society consensus guide": {
+      "success": true,
+      "output_file": "out/batch_processed/American Brachytherapy Society consensus guide.json",
+      "authors": 3,
+      "abstract": false,
+      "references": 100,
+      "statistics": 0,
+      "tables": 5,
+      "figures": 2
+    },
+    "Management of Benign Pleural Effusions Using I": {
+      "success": true,
+      "output_file": "out/batch_processed/Management of Benign Pleural Effusions Using I.json",
+      "authors": 6,
+      "abstract": false,
+      "references": 88,
+      "statistics": 0,
+      "tables": 8,
+      "figures": 8
+    },
+    "Diagnostic Yield and Bleeding Complications": {
+      "success": true,
+      "output_file": "out/batch_processed/Diagnostic Yield and Bleeding Complications.json",
+      "authors": 6,
+      "abstract": false,
+      "references": 66,
+      "statistics": 1,
+      "tables": 3,
+      "figures": 0
+    },
+    "Kashiwabara-2021-Efficacy and safety of transb": {
+      "success": true,
+      "output_file": "out/batch_processed/Kashiwabara-2021-Efficacy and safety of transb.json",
+      "authors": 0,
+      "abstract": true,
+      "references": 36,
+      "statistics": 0,
+      "tables": 4,
+      "figures": 8
+    },
+    "NCCN lung_screening": {
+      "success": false,
+      "output_file": null
+    },
+    "Sullivan-2021-Earlier diagnosis of lung cancer (1)": {
+      "success": true,
+      "output_file": "out/batch_processed/Sullivan-2021-Earlier diagnosis of lung cancer (1).json",
+      "authors": 30,
+      "abstract": false,
+      "references": 75,
+      "statistics": 19,
+      "tables": 3,
+      "figures": 6
+    },
+    "safety_and_clinical_utility_of_flexible.3": {
+      "success": true,
+      "output_file": "out/batch_processed/safety_and_clinical_utility_of_flexible.3.json",
+      "authors": 6,
+      "abstract": false,
+      "references": 34,
+      "statistics": 0,
+      "tables": 3,
+      "figures": 2
+    },
+    "Valipour-2020-Bronchial Rheoplasty for Treatme": {
+      "success": true,
+      "output_file": "out/batch_processed/Valipour-2020-Bronchial Rheoplasty for Treatme.json",
+      "authors": 1,
+      "abstract": true,
+      "references": 80,
+      "statistics": 0,
+      "tables": 4,
+      "figures": 7
+    },
+    "surigicalLVR Consolidating LVRS After Endoscopic LVR Failur": {
+      "success": true,
+      "output_file": "out/batch_processed/surigicalLVR Consolidating LVRS After Endoscopic LVR Failur.json",
+      "authors": 10,
+      "abstract": false,
+      "references": 50,
+      "statistics": 2,
+      "tables": 2,
+      "figures": 6
+    },
+    "Nd-YAG laser vs bronchoscopic electrocautery": {
+      "success": true,
+      "output_file": "out/batch_processed/Nd-YAG laser vs bronchoscopic electrocautery.json",
+      "authors": 1,
+      "abstract": false,
+      "references": 24,
+      "statistics": 0,
+      "tables": 2,
+      "figures": 2
+    },
+    "Bronchoscopic lung volume reduction with endob": {
+      "success": true,
+      "output_file": "out/batch_processed/Bronchoscopic lung volume reduction with endob.json",
+      "authors": 9,
+      "abstract": true,
+      "references": 58,
+      "statistics": 4,
+      "tables": 6,
+      "figures": 4
+    },
+    "update_on_airway_stents": {
+      "success": true,
+      "output_file": "out/batch_processed/update_on_airway_stents.json",
+      "authors": 2,
+      "abstract": true,
+      "references": 54,
+      "statistics": 0,
+      "tables": 0,
+      "figures": 2
+    },
+    "fistula Airway Covered Metallic Stent Based on Differe": {
+      "success": true,
+      "output_file": "out/batch_processed/fistula Airway Covered Metallic Stent Based on Differe.json",
+      "authors": 9,
+      "abstract": true,
+      "references": 45,
+      "statistics": 0,
+      "tables": 3,
+      "figures": 6
+    },
+    "Covid-19 impact on interventional pulmonology training": {
+      "success": true,
+      "output_file": "out/batch_processed/Covid-19 impact on interventional pulmonology training.json",
+      "authors": 16,
+      "abstract": true,
+      "references": 37,
+      "statistics": 0,
+      "tables": 3,
+      "figures": 3
+    },
+    "Dresler-2005-Phase III intergroup study of tal": {
+      "success": true,
+      "output_file": "out/batch_processed/Dresler-2005-Phase III intergroup study of tal.json",
+      "authors": 16,
+      "abstract": true,
+      "references": 77,
+      "statistics": 0,
+      "tables": 5,
+      "figures": 3
+    },
+    "External irradiation versus external irradiati": {
+      "success": true,
+      "output_file": "out/batch_processed/External irradiation versus external irradiati.json",
+      "authors": 7,
+      "abstract": true,
+      "references": 64,
+      "statistics": 0,
+      "tables": 5,
+      "figures": 6
+    },
+    "Percutaneous endoscopic gastrostomy. Indicatio": {
+      "success": true,
+      "output_file": "out/batch_processed/Percutaneous endoscopic gastrostomy. Indicatio.json",
+      "authors": 0,
+      "abstract": false,
+      "references": 100,
+      "statistics": 0,
+      "tables": 3,
+      "figures": 5
+    },
+    "EBUS for the Diagnosis and Subtyping of Lymphoma": {
+      "success": true,
+      "output_file": "out/batch_processed/EBUS for the Diagnosis and Subtyping of Lymphoma.json",
+      "authors": 10,
+      "abstract": true,
+      "references": 42,
+      "statistics": 0,
+      "tables": 5,
+      "figures": 3
+    },
+    "CHEST CAO": {
+      "success": true,
+      "output_file": "out/batch_processed/CHEST CAO.json",
+      "authors": 10,
+      "abstract": false,
+      "references": 100,
+      "statistics": 0,
+      "tables": 2,
+      "figures": 4
+    },
+    "complications_of_bronchoscopy__a_concise_synopsis": {
+      "success": true,
+      "output_file": "out/batch_processed/complications_of_bronchoscopy__a_concise_synopsis.json",
+      "authors": 0,
+      "abstract": true,
+      "references": 91,
+      "statistics": 0,
+      "tables": 2,
+      "figures": 6
+    },
+    "Tranexamic acid vs adrenaline for controlling iatrogenic bleeding during flexible bronchoscopy": {
+      "success": true,
+      "output_file": "out/batch_processed/Tranexamic acid vs adrenaline for controlling iatrogenic bleeding during flexible bronchoscopy.json",
+      "authors": 2,
+      "abstract": false,
+      "references": 52,
+      "statistics": 0,
+      "tables": 1,
+      "figures": 9
+    },
+    "IP extending breath of care": {
+      "success": true,
+      "output_file": "out/batch_processed/IP extending breath of care.json",
+      "authors": 4,
+      "abstract": true,
+      "references": 100,
+      "statistics": 0,
+      "tables": 0,
+      "figures": 16
+    },
+    "Clinical Success Stenting Distal Bronchi": {
+      "success": true,
+      "output_file": "out/batch_processed/Clinical Success Stenting Distal Bronchi.json",
+      "authors": 5,
+      "abstract": false,
+      "references": 20,
+      "statistics": 0,
+      "tables": 4,
+      "figures": 7
+    },
+    "Evaluation of a EBUS  forceps in enlarged mediastinal lymph nodes": {
+      "success": true,
+      "output_file": "out/batch_processed/Evaluation of a EBUS  forceps in enlarged mediastinal lymph nodes.json",
+      "authors": 8,
+      "abstract": true,
+      "references": 62,
+      "statistics": 0,
+      "tables": 2,
+      "figures": 8
+    },
+    "Robotic bronchoscopy for pulmonary lesions a review of existing technologies and clinical data": {
+      "success": true,
+      "output_file": "out/batch_processed/Robotic bronchoscopy for pulmonary lesions a review of existing technologies and clinical data.json",
+      "authors": 3,
+      "abstract": false,
+      "references": 53,
+      "statistics": 2,
+      "tables": 2,
+      "figures": 4
+    },
+    "Bhatnagar-2020-Effect of Thoracoscopic Talc Po": {
+      "success": true,
+      "output_file": "out/batch_processed/Bhatnagar-2020-Effect of Thoracoscopic Talc Po.json",
+      "authors": 35,
+      "abstract": false,
+      "references": 67,
+      "statistics": 0,
+      "tables": 4,
+      "figures": 4
+    },
+    "Palliative Care and Interventional Pulmonology": {
+      "success": true,
+      "output_file": "out/batch_processed/Palliative Care and Interventional Pulmonology.json",
+      "authors": 2,
+      "abstract": false,
+      "references": 100,
+      "statistics": 0,
+      "tables": 0,
+      "figures": 1
+    },
+    "Anesthetic considerations for bronchoscopic procedures": {
+      "success": true,
+      "output_file": "out/batch_processed/Anesthetic considerations for bronchoscopic procedures.json",
+      "authors": 6,
+      "abstract": false,
+      "references": 100,
+      "statistics": 0,
+      "tables": 1,
+      "figures": 14
+    },
+    "Jet Ventilation during Rigid Bronchoscopy in Adults": {
+      "success": true,
+      "output_file": "out/batch_processed/Jet Ventilation during Rigid Bronchoscopy in Adults.json",
+      "authors": 2,
+      "abstract": false,
+      "references": 69,
+      "statistics": 0,
+      "tables": 2,
+      "figures": 3
+    },
+    "ROSE during EBUS  for diagnosing lung cancer a randomized study": {
+      "success": true,
+      "output_file": "out/batch_processed/ROSE during EBUS  for diagnosing lung cancer a randomized study.json",
+      "authors": 7,
+      "abstract": true,
+      "references": 48,
+      "statistics": 0,
+      "tables": 4,
+      "figures": 2
+    },
+    "Comparison of HFNC  and Conventional O2 during bronc": {
+      "success": true,
+      "output_file": "out/batch_processed/Comparison of HFNC  and Conventional O2 during bronc.json",
+      "authors": 19,
+      "abstract": true,
+      "references": 68,
+      "statistics": 0,
+      "tables": 3,
+      "figures": 3
+    },
+    "Basic and advanced pleural procedures coding and professional fees update for pulmonologists": {
+      "success": true,
+      "output_file": "out/batch_processed/Basic and advanced pleural procedures coding and professional fees update for pulmonologists.json",
+      "authors": 3,
+      "abstract": false,
+      "references": 51,
+      "statistics": 0,
+      "tables": 3,
+      "figures": 2
+    },
+    "Competency-based medical education in interventional pulmonology_ current state and future opportunities": {
+      "success": true,
+      "output_file": "out/batch_processed/Competency-based medical education in interventional pulmonology_ current state and future opportunities.json",
+      "authors": 2,
+      "abstract": true,
+      "references": 78,
+      "statistics": 0,
+      "tables": 3,
+      "figures": 2
+    },
+    "EBUS  vs conventional TBNA  in the diagnosis of sarcoidosis": {
+      "success": true,
+      "output_file": "out/batch_processed/EBUS  vs conventional TBNA  in the diagnosis of sarcoidosis.json",
+      "authors": 6,
+      "abstract": false,
+      "references": 76,
+      "statistics": 2,
+      "tables": 4,
+      "figures": 1
+    },
+    "Grosu-2013-Stents are associated with increase": {
+      "success": true,
+      "output_file": "out/batch_processed/Grosu-2013-Stents are associated with increase.json",
+      "authors": 6,
+      "abstract": false,
+      "references": 28,
+      "statistics": 0,
+      "tables": 8,
+      "figures": 6
+    },
+    "Foreign body inhalation in the adult population": {
+      "success": true,
+      "output_file": "out/batch_processed/Foreign body inhalation in the adult population.json",
+      "authors": 8,
+      "abstract": false,
+      "references": 87,
+      "statistics": 1,
+      "tables": 5,
+      "figures": 8
+    },
+    "Endobronchial epinephrine confusion is in the air": {
+      "success": true,
+      "output_file": "out/batch_processed/Endobronchial epinephrine confusion is in the air.json",
+      "authors": 1,
+      "abstract": false,
+      "references": 30,
+      "statistics": 0,
+      "tables": 1,
+      "figures": 0
+    },
+    "3D printing for airway disease": {
+      "success": true,
+      "output_file": "out/batch_processed/3D printing for airway disease.json",
+      "authors": 0,
+      "abstract": false,
+      "references": 59,
+      "statistics": 0,
+      "tables": 1,
+      "figures": 8
+    },
+    "Reevaluating the Role of Bronchoscopy Prior to Bronchial Artery Embolization": {
+      "success": true,
+      "output_file": "out/batch_processed/Reevaluating the Role of Bronchoscopy Prior to Bronchial Artery Embolization.json",
+      "authors": 5,
+      "abstract": false,
+      "references": 38,
+      "statistics": 0,
+      "tables": 2,
+      "figures": 4
+    },
+    "Complete unilateral vs partial bilateral BLVR": {
+      "success": true,
+      "output_file": "out/batch_processed/Complete unilateral vs partial bilateral BLVR.json",
+      "authors": 2,
+      "abstract": false,
+      "references": 54,
+      "statistics": 1,
+      "tables": 4,
+      "figures": 8
+    },
+    "Awab-2017-Whole lung lavage-technical details": {
+      "success": true,
+      "output_file": "out/batch_processed/Awab-2017-Whole lung lavage-technical details.json",
+      "authors": 4,
+      "abstract": false,
+      "references": 74,
+      "statistics": 3,
+      "tables": 2,
+      "figures": 3
+    },
+    "Biopsy of peripheral lung nodules utilizing cone beam w wo TB access tool": {
+      "success": true,
+      "output_file": "out/batch_processed/Biopsy of peripheral lung nodules utilizing cone beam w wo TB access tool.json",
+      "authors": 4,
+      "abstract": false,
+      "references": 20,
+      "statistics": 3,
+      "tables": 4,
+      "figures": 6
+    },
+    "ROSE during EBUS for nodal staging in patients with lung cancer": {
+      "success": true,
+      "output_file": "out/batch_processed/ROSE during EBUS for nodal staging in patients with lung cancer.json",
+      "authors": 8,
+      "abstract": false,
+      "references": 50,
+      "statistics": 0,
+      "tables": 4,
+      "figures": 0
+    },
+    "Routine monitoring with pleural manometry duri": {
+      "success": true,
+      "output_file": "out/batch_processed/Routine monitoring with pleural manometry duri.json",
+      "authors": 2,
+      "abstract": true,
+      "references": 60,
+      "statistics": 7,
+      "tables": 4,
+      "figures": 5
+    },
+    "Bronchoscopy Education An Experiential Learning Theory Perspective": {
+      "success": true,
+      "output_file": "out/batch_processed/Bronchoscopy Education An Experiential Learning Theory Perspective.json",
+      "authors": 3,
+      "abstract": true,
+      "references": 100,
+      "statistics": 0,
+      "tables": 2,
+      "figures": 3
+    },
+    "Comprehensive Review of Chest Tube Management_A Review": {
+      "success": true,
+      "output_file": "out/batch_processed/Comprehensive Review of Chest Tube Management_A Review.json",
+      "authors": 5,
+      "abstract": false,
+      "references": 84,
+      "statistics": 0,
+      "tables": 0,
+      "figures": 4
+    },
+    "Safety and efficacy of a novel transbronchial radiofrequency ablation system for lung tumours ": {
+      "success": true,
+      "output_file": "out/batch_processed/Safety and efficacy of a novel transbronchial radiofrequency ablation system for lung tumours .json",
+      "authors": 1,
+      "abstract": true,
+      "references": 66,
+      "statistics": 11,
+      "tables": 3,
+      "figures": 6
+    },
+    "Davies-2012-Effect of an indwelling pleural ca": {
+      "success": true,
+      "output_file": "out/batch_processed/Davies-2012-Effect of an indwelling pleural ca.json",
+      "authors": 2,
+      "abstract": false,
+      "references": 49,
+      "statistics": 0,
+      "tables": 2,
+      "figures": 4
+    },
+    "Klooster-2017-One-Year Follow-Up after Endobro": {
+      "success": true,
+      "output_file": "out/batch_processed/Klooster-2017-One-Year Follow-Up after Endobro.json",
+      "authors": 2,
+      "abstract": true,
+      "references": 54,
+      "statistics": 5,
+      "tables": 3,
+      "figures": 6
+    },
+    "Conservative versus Interventional Treatment f": {
+      "success": true,
+      "output_file": "out/batch_processed/Conservative versus Interventional Treatment f.json",
+      "authors": 1,
+      "abstract": false,
+      "references": 39,
+      "statistics": 4,
+      "tables": 3,
+      "figures": 1
+    },
+    "Multidisciplinarymanagementofadultpatientswith chylothorax": {
+      "success": true,
+      "output_file": "out/batch_processed/Multidisciplinarymanagementofadultpatientswith chylothorax.json",
+      "authors": 29,
+      "abstract": true,
+      "references": 100,
+      "statistics": 1,
+      "tables": 4,
+      "figures": 3
+    },
+    "Pleural controversy  Closed needle pleural bio": {
+      "success": true,
+      "output_file": "out/batch_processed/Pleural controversy  Closed needle pleural bio.json",
+      "authors": 4,
+      "abstract": true,
+      "references": 100,
+      "statistics": 0,
+      "tables": 0,
+      "figures": 13
+    },
+    "transbronchial__ablation_NAVABLATE": {
+      "success": true,
+      "output_file": "out/batch_processed/transbronchial__ablation_NAVABLATE.json",
+      "authors": 2,
+      "abstract": false,
+      "references": 55,
+      "statistics": 16,
+      "tables": 5,
+      "figures": 1
+    },
+    "SSRAB vs DT ENB": {
+      "success": true,
+      "output_file": "out/batch_processed/SSRAB vs DT ENB.json",
+      "authors": 8,
+      "abstract": false,
+      "references": 46,
+      "statistics": 0,
+      "tables": 4,
+      "figures": 4
+    },
+    "The Role of Clamping Before Removal of a Chest Tube ": {
+      "success": true,
+      "output_file": "out/batch_processed/The Role of Clamping Before Removal of a Chest Tube .json",
+      "authors": 1,
+      "abstract": false,
+      "references": 27,
+      "statistics": 3,
+      "tables": 6,
+      "figures": 6
+    },
+    "Sensitivity and safety of ENB systematic review and meta-analysis": {
+      "success": true,
+      "output_file": "out/batch_processed/Sensitivity and safety of ENB systematic review and meta-analysis.json",
+      "authors": 7,
+      "abstract": false,
+      "references": 100,
+      "statistics": 0,
+      "tables": 9,
+      "figures": 7
+    },
+    "Steinfort-2021-Bronchoscopic Thermal Vapour Ab": {
+      "success": true,
+      "output_file": "out/batch_processed/Steinfort-2021-Bronchoscopic Thermal Vapour Ab.json",
+      "authors": 9,
+      "abstract": true,
+      "references": 54,
+      "statistics": 2,
+      "tables": 2,
+      "figures": 15
+    },
+    "The application of cryosurgery in the treatmen": {
+      "success": true,
+      "output_file": "out/batch_processed/The application of cryosurgery in the treatmen.json",
+      "authors": 0,
+      "abstract": true,
+      "references": 52,
+      "statistics": 0,
+      "tables": 1,
+      "figures": 7
+    },
+    "Comparing the Diagnostic Performance of Lung Ultrasonography and Chest Radiography for Detecting Pneumothorax": {
+      "success": true,
+      "output_file": "out/batch_processed/Comparing the Diagnostic Performance of Lung Ultrasonography and Chest Radiography for Detecting Pneumothorax.json",
+      "authors": 2,
+      "abstract": true,
+      "references": 89,
+      "statistics": 22,
+      "tables": 4,
+      "figures": 7
+    },
+    "Angel-2020-Novel Percutaneous Tracheostomy for": {
+      "success": true,
+      "output_file": "out/batch_processed/Angel-2020-Novel Percutaneous Tracheostomy for.json",
+      "authors": 2,
+      "abstract": false,
+      "references": 18,
+      "statistics": 1,
+      "tables": 1,
+      "figures": 9
+    },
+    "Hu-2018-Application of the Montgomery T-tube i": {
+      "success": true,
+      "output_file": "out/batch_processed/Hu-2018-Application of the Montgomery T-tube i.json",
+      "authors": 1,
+      "abstract": false,
+      "references": 44,
+      "statistics": 0,
+      "tables": 0,
+      "figures": 9
+    },
+    "Grosu-2018-Sensitivity of Initial Thoracentesi": {
+      "success": true,
+      "output_file": "out/batch_processed/Grosu-2018-Sensitivity of Initial Thoracentesi.json",
+      "authors": 2,
+      "abstract": true,
+      "references": 59,
+      "statistics": 6,
+      "tables": 4,
+      "figures": 2
+    },
+    "Complications of cricothyroidotomy versus tracheostomy": {
+      "success": true,
+      "output_file": "out/batch_processed/Complications of cricothyroidotomy versus tracheostomy.json",
+      "authors": 6,
+      "abstract": true,
+      "references": 98,
+      "statistics": 0,
+      "tables": 4,
+      "figures": 7
+    },
+    "Lung nodule during COVID": {
+      "success": true,
+      "output_file": "out/batch_processed/Lung nodule during COVID.json",
+      "authors": 23,
+      "abstract": false,
+      "references": 25,
+      "statistics": 0,
+      "tables": 3,
+      "figures": 4
+    },
+    "surigicalLVR Lung Volume Reduction Surgery on Extracorporea": {
+      "success": true,
+      "output_file": "out/batch_processed/surigicalLVR Lung Volume Reduction Surgery on Extracorporea.json",
+      "authors": 5,
+      "abstract": false,
+      "references": 16,
+      "statistics": 0,
+      "tables": 0,
+      "figures": 5
+    },
+    "Flexible bronchoscopy": {
+      "success": true,
+      "output_file": "out/batch_processed/Flexible bronchoscopy.json",
+      "authors": 5,
+      "abstract": false,
+      "references": 100,
+      "statistics": 0,
+      "tables": 1,
+      "figures": 1
+    },
+    "Airway stents": {
+      "success": true,
+      "output_file": "out/batch_processed/Airway stents.json",
+      "authors": 3,
+      "abstract": false,
+      "references": 89,
+      "statistics": 0,
+      "tables": 1,
+      "figures": 10
+    },
+    "Inhaled TXA for Hemoptysis Treatment": {
+      "success": true,
+      "output_file": "out/batch_processed/Inhaled TXA for Hemoptysis Treatment.json",
+      "authors": 5,
+      "abstract": false,
+      "references": 39,
+      "statistics": 0,
+      "tables": 3,
+      "figures": 6
+    },
+    "Community hospital experience using ENB integrating tidal volume computed tomography mapping": {
+      "success": true,
+      "output_file": "out/batch_processed/Community hospital experience using ENB integrating tidal volume computed tomography mapping.json",
+      "authors": 1,
+      "abstract": false,
+      "references": 41,
+      "statistics": 8,
+      "tables": 6,
+      "figures": 22
+    },
+    "Criner-2019-Improving Lung Function in Severe": {
+      "success": true,
+      "output_file": "out/batch_processed/Criner-2019-Improving Lung Function in Severe.json",
+      "authors": 2,
+      "abstract": true,
+      "references": 70,
+      "statistics": 0,
+      "tables": 3,
+      "figures": 4
+    },
+    "Thomas-2017-Effect of an Indwelling Pleural Ca": {
+      "success": true,
+      "output_file": "out/batch_processed/Thomas-2017-Effect of an Indwelling Pleural Ca.json",
+      "authors": 12,
+      "abstract": false,
+      "references": 66,
+      "statistics": 0,
+      "tables": 4,
+      "figures": 4
+    },
+    "Multi\u2010institutional retrospective analysis of": {
+      "success": true,
+      "output_file": "out/batch_processed/Multi\u2010institutional retrospective analysis of.json",
+      "authors": 6,
+      "abstract": true,
+      "references": 17,
+      "statistics": 15,
+      "tables": 4,
+      "figures": 4
+    },
+    "Andriolo-2015-Early versus late tracheostomy f": {
+      "success": true,
+      "output_file": "out/batch_processed/Andriolo-2015-Early versus late tracheostomy f.json",
+      "authors": 1,
+      "abstract": false,
+      "references": 30,
+      "statistics": 17,
+      "tables": 55,
+      "figures": 64
+    },
+    "Role of Montgomery T-tube stent for laryngotra": {
+      "success": true,
+      "output_file": "out/batch_processed/Role of Montgomery T-tube stent for laryngotra.json",
+      "authors": 5,
+      "abstract": false,
+      "references": 46,
+      "statistics": 0,
+      "tables": 2,
+      "figures": 9
+    },
+    "Training in interventional pulmonology the European and US perspective": {
+      "success": true,
+      "output_file": "out/batch_processed/Training in interventional pulmonology the European and US perspective.json",
+      "authors": 4,
+      "abstract": true,
+      "references": 91,
+      "statistics": 0,
+      "tables": 3,
+      "figures": 6
+    },
+    "Endobronchial Valves for Emphysema without Int": {
+      "success": true,
+      "output_file": "out/batch_processed/Endobronchial Valves for Emphysema without Int.json",
+      "authors": 2,
+      "abstract": false,
+      "references": 48,
+      "statistics": 11,
+      "tables": 4,
+      "figures": 1
+    },
+    "Effectiveness of Elastography": {
+      "success": true,
+      "output_file": "out/batch_processed/Effectiveness of Elastography.json",
+      "authors": 1,
+      "abstract": true,
+      "references": 28,
+      "statistics": 1,
+      "tables": 3,
+      "figures": 7
+    },
+    "Transbronchial cryobiopsy n ILD": {
+      "success": true,
+      "output_file": "out/batch_processed/Transbronchial cryobiopsy n ILD.json",
+      "authors": 4,
+      "abstract": false,
+      "references": 100,
+      "statistics": 0,
+      "tables": 3,
+      "figures": 7
+    },
+    "Percutaneous Dilational Tracheostomy 2018": {
+      "success": true,
+      "output_file": "out/batch_processed/Percutaneous Dilational Tracheostomy 2018.json",
+      "authors": 2,
+      "abstract": false,
+      "references": 100,
+      "statistics": 0,
+      "tables": 1,
+      "figures": 18
+    },
+    "Bronchoscopic Techniques Used in the Diagnosis and Staging of Lung Cancer": {
+      "success": true,
+      "output_file": "out/batch_processed/Bronchoscopic Techniques Used in the Diagnosis and Staging of Lung Cancer.json",
+      "authors": 1,
+      "abstract": true,
+      "references": 97,
+      "statistics": 0,
+      "tables": 0,
+      "figures": 9
+    },
+    "The Business of IP": {
+      "success": true,
+      "output_file": "out/batch_processed/The Business of IP.json",
+      "authors": 2,
+      "abstract": false,
+      "references": 57,
+      "statistics": 0,
+      "tables": 3,
+      "figures": 0
+    },
+    "Bhatnagar-2018-Outpatient Talc Administration": {
+      "success": true,
+      "output_file": "out/batch_processed/Bhatnagar-2018-Outpatient Talc Administration.json",
+      "authors": 2,
+      "abstract": false,
+      "references": 50,
+      "statistics": 4,
+      "tables": 2,
+      "figures": 2
+    },
+    "fistula Kim-2020-Management of tracheo-oesophageal fis": {
+      "success": true,
+      "output_file": "out/batch_processed/fistula Kim-2020-Management of tracheo-oesophageal fis.json",
+      "authors": 4,
+      "abstract": false,
+      "references": 98,
+      "statistics": 4,
+      "tables": 2,
+      "figures": 13
+    },
+    "Safety and Efficacy of a Fully Cov": {
+      "success": true,
+      "output_file": "out/batch_processed/Safety and Efficacy of a Fully Cov.json",
+      "authors": 4,
+      "abstract": true,
+      "references": 43,
+      "statistics": 4,
+      "tables": 2,
+      "figures": 4
+    },
+    "Complications, and practice patterns of EBUS  AQuIRE registry": {
+      "success": true,
+      "output_file": "out/batch_processed/Complications, and practice patterns of EBUS  AQuIRE registry.json",
+      "authors": 1,
+      "abstract": false,
+      "references": 64,
+      "statistics": 0,
+      "tables": 7,
+      "figures": 2
+    },
+    "Cryosurgery for malignant endobronchial tumors": {
+      "success": true,
+      "output_file": "out/batch_processed/Cryosurgery for malignant endobronchial tumors.json",
+      "authors": 4,
+      "abstract": false,
+      "references": 51,
+      "statistics": 14,
+      "tables": 4,
+      "figures": 1
+    },
+    "NEJM tracheostomy": {
+      "success": true,
+      "output_file": "out/batch_processed/NEJM tracheostomy.json",
+      "authors": 4,
+      "abstract": true,
+      "references": 12,
+      "statistics": 0,
+      "tables": 0,
+      "figures": 4
+    },
+    "Breathlessness Predicts Survival in Patients W": {
+      "success": true,
+      "output_file": "out/batch_processed/Breathlessness Predicts Survival in Patients W.json",
+      "authors": 4,
+      "abstract": false,
+      "references": 56,
+      "statistics": 0,
+      "tables": 3,
+      "figures": 4
+    }
+  }
+}
