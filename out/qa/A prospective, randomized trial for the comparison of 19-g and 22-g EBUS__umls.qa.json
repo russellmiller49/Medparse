@@ -1,0 +1,15 @@
+{
+  "pdf": "A prospective, randomized trial for the comparison of 19-g and 22-g EBUS.pdf",
+  "n_sections": 29,
+  "n_tables": 3,
+  "n_figures": 5,
+  "n_fig_crops": 5,
+  "missing_fig_bbox": 0,
+  "n_refs_csv": 35,
+  "n_umls_links": 0,
+  "n_local_links": 0,
+  "linker": "umls",
+  "completeness_score": 61,
+  "is_valid": true,
+  "timestamp": "2025-09-01 03:14:23"
+}

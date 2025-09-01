@@ -3315,3 +3315,131 @@ httpx.ReadTimeout: timed out
 2025-09-01 02:57:49.825 | SUCCESS  | __main__:process_single_pdf:71 - ✓ Successfully processed First Human Use of a New Robotic-Assisted Fiber Optic Sensing Navigation System for Small Peripheral Pulmonary Nodules
 2025-09-01 02:57:49.825 | INFO     | __main__:main:198 - Reached 220 successful processes, committing intermediate results...
 2025-09-01 02:57:49.825 | INFO     | __main__:git_commit_and_push:129 - Adding changes to git...
+2025-09-01 02:57:50.004 | INFO     | __main__:git_commit_and_push:145 - Creating git commit...
+[fix/extraction-hardening 9ba7619] feat: Batch processed 220 PDFs (intermediate commit)
+ 91 files changed, 202661 insertions(+)
+ create mode 100644 out/batch_processed/Aldaghlawi-2020-A Systematic Review of Digital.json
+ create mode 100644 out/batch_processed/Bhora-2016-Treatment of Benign Tracheal Stenos.json
+ create mode 100644 out/batch_processed/Bibby-2018-ERS_EACTS statement on the manageme.json
+ create mode 100644 out/batch_processed/DY and Synergy of Needle and Forceps w ENB.json
+ create mode 100644 out/batch_processed/Electromagnetic navigation bronchoscopy a comprehensive review.json
+ create mode 100644 out/batch_processed/First Human Use of a New Robotic-Assisted Fiber Optic Sensing Navigation System for Small Peripheral Pulmonary Nodules.json
+ create mode 100644 out/batch_processed/Labarca-2019-Bronchoscopic Lung Volume Reducti.json
+ create mode 100644 out/batch_processed/Performance, long-term management, and coding for percutaneous dilational tracheostomy.json
+ create mode 100644 out/batch_processed/The Business of Bronchoscopy.json
+ create mode 100644 out/batch_processed/fistula Airway ultraflex stenting in esophageal cancer.json
+ create mode 100644 out/figures/ASPEN Safe Practices for Enteral Nutrition _fig01.jpg
+ create mode 100644 out/figures/ASPEN Safe Practices for Enteral Nutrition _fig02.jpg
+ create mode 100644 out/figures/ASPEN Safe Practices for Enteral Nutrition _fig03.jpg
+ create mode 100644 out/figures/ASPEN Safe Practices for Enteral Nutrition _fig04.jpg
+ create mode 100644 out/figures/ASPEN Safe Practices for Enteral Nutrition _fig05.jpg
+ create mode 100644 out/figures/ASPEN Safe Practices for Enteral Nutrition _fig06.jpg
+ create mode 100644 out/figures/ASPEN Safe Practices for Enteral Nutrition _fig07.jpg
+ create mode 100644 out/figures/ASPEN Safe Practices for Enteral Nutrition _fig08.jpg
+ create mode 100644 out/figures/ASPEN Safe Practices for Enteral Nutrition _fig09.jpg
+ create mode 100644 out/figures/Aldaghlawi-2020-A Systematic Review of Digital_fig01.jpg
+ create mode 100644 out/figures/Aldaghlawi-2020-A Systematic Review of Digital_figure1.jpg
+ create mode 100644 out/figures/Bhora-2016-Treatment of Benign Tracheal Stenos_fig01.jpg
+ create mode 100644 out/figures/Bhora-2016-Treatment of Benign Tracheal Stenos_fig02.jpg
+ create mode 100644 out/figures/Bhora-2016-Treatment of Benign Tracheal Stenos_fig03.jpg
+ create mode 100644 out/figures/Bhora-2016-Treatment of Benign Tracheal Stenos_fig04.jpg
+ create mode 100644 out/figures/Bibby-2018-ERS_EACTS statement on the manageme_fig01.jpg
+ create mode 100644 out/figures/Bibby-2018-ERS_EACTS statement on the manageme_fig02.jpg
+ create mode 100644 out/figures/Bibby-2018-ERS_EACTS statement on the manageme_fig03.jpg
+ create mode 100644 out/figures/Bibby-2018-ERS_EACTS statement on the manageme_figure2.jpg
+ create mode 100644 out/figures/DY and Synergy of Needle and Forceps w ENB_fig01.jpg
+ create mode 100644 out/figures/DY and Synergy of Needle and Forceps w ENB_fig02.jpg
+ create mode 100644 out/figures/DY and Synergy of Needle and Forceps w ENB_fig03.jpg
+ create mode 100644 out/figures/Electromagnetic navigation bronchoscopy a comprehensive review_fig01.jpg
+ create mode 100644 out/figures/Electromagnetic navigation bronchoscopy a comprehensive review_fig02.jpg
+ create mode 100644 out/figures/Electromagnetic navigation bronchoscopy a comprehensive review_fig03.jpg
+ create mode 100644 out/figures/Electromagnetic navigation bronchoscopy a comprehensive review_fig04.jpg
+ create mode 100644 out/figures/Electromagnetic navigation bronchoscopy a comprehensive review_fig05.jpg
+ create mode 100644 out/figures/Electromagnetic navigation bronchoscopy a comprehensive review_fig06.jpg
+ create mode 100644 out/figures/Electromagnetic navigation bronchoscopy a comprehensive review_fig07.jpg
+ create mode 100644 out/figures/Electromagnetic navigation bronchoscopy a comprehensive review_fig08.jpg
+ create mode 100644 out/figures/Electromagnetic navigation bronchoscopy a comprehensive review_fig09.jpg
+ create mode 100644 out/figures/Electromagnetic navigation bronchoscopy a comprehensive review_fig10.jpg
+ create mode 100644 out/figures/Electromagnetic navigation bronchoscopy a comprehensive review_fig11.jpg
+ create mode 100644 out/figures/Electromagnetic navigation bronchoscopy a comprehensive review_fig12.jpg
+ create mode 100644 out/figures/Electromagnetic navigation bronchoscopy a comprehensive review_fig13.jpg
+ create mode 100644 out/figures/Electromagnetic navigation bronchoscopy a comprehensive review_fig14.jpg
+ create mode 100644 out/figures/Electromagnetic navigation bronchoscopy a comprehensive review_fig15.jpg
+ create mode 100644 out/figures/Electromagnetic navigation bronchoscopy a comprehensive review_fig16.jpg
+ create mode 100644 out/figures/Electromagnetic navigation bronchoscopy a comprehensive review_fig17.jpg
+ create mode 100644 out/figures/Electromagnetic navigation bronchoscopy a comprehensive review_fig18.jpg
+ create mode 100644 out/figures/Electromagnetic navigation bronchoscopy a comprehensive review_fig19.jpg
+ create mode 100644 out/figures/Electromagnetic navigation bronchoscopy a comprehensive review_fig20.jpg
+ create mode 100644 out/figures/Electromagnetic navigation bronchoscopy a comprehensive review_fig21.jpg
+ create mode 100644 out/figures/First Human Use of a New Robotic-Assisted Fiber Optic Sensing Navigation System for Small Peripheral Pulmonary Nodules_fig01.jpg
+ create mode 100644 out/figures/First Human Use of a New Robotic-Assisted Fiber Optic Sensing Navigation System for Small Peripheral Pulmonary Nodules_fig02.jpg
+ create mode 100644 out/figures/First Human Use of a New Robotic-Assisted Fiber Optic Sensing Navigation System for Small Peripheral Pulmonary Nodules_fig1.jpg
+ create mode 100644 out/figures/Labarca-2019-Bronchoscopic Lung Volume Reducti_fig01.jpg
+ create mode 100644 out/figures/Labarca-2019-Bronchoscopic Lung Volume Reducti_fig02.jpg
+ create mode 100644 out/figures/Labarca-2019-Bronchoscopic Lung Volume Reducti_fig05.jpg
+ create mode 100644 out/figures/Labarca-2019-Bronchoscopic Lung Volume Reducti_fig06.jpg
+ create mode 100644 out/figures/Labarca-2019-Bronchoscopic Lung Volume Reducti_fig07.jpg
+ create mode 100644 out/figures/Labarca-2019-Bronchoscopic Lung Volume Reducti_fig08.jpg
+ create mode 100644 out/figures/Labarca-2019-Bronchoscopic Lung Volume Reducti_fig1.jpg
+ create mode 100644 out/figures/Labarca-2019-Bronchoscopic Lung Volume Reducti_fig2.jpg
+ create mode 100644 out/figures/Performance, long-term management, and coding for percutaneous dilational tracheostomy_fig01.jpg
+ create mode 100644 out/figures/Performance, long-term management, and coding for percutaneous dilational tracheostomy_fig02.jpg
+ create mode 100644 out/figures/Performance, long-term management, and coding for percutaneous dilational tracheostomy_fig03.jpg
+ create mode 100644 out/figures/fistula Airway ultraflex stenting in esophageal cancer_fig01.jpg
+ create mode 100644 out/figures/fistula Airway ultraflex stenting in esophageal cancer_fig02.jpg
+ create mode 100644 out/qa/Aldaghlawi-2020-A Systematic Review of Digital__umls.qa.json
+ create mode 100644 out/qa/Bhora-2016-Treatment of Benign Tracheal Stenos__umls.qa.json
+ create mode 100644 out/qa/Bibby-2018-ERS_EACTS statement on the manageme__umls.qa.json
+ create mode 100644 out/qa/DY and Synergy of Needle and Forceps w ENB__umls.qa.json
+ create mode 100644 out/qa/Electromagnetic navigation bronchoscopy a comprehensive review__umls.qa.json
+ create mode 100644 out/qa/First Human Use of a New Robotic-Assisted Fiber Optic Sensing Navigation System for Small Peripheral Pulmonary Nodules__umls.qa.json
+ create mode 100644 out/qa/Labarca-2019-Bronchoscopic Lung Volume Reducti__umls.qa.json
+ create mode 100644 out/qa/Performance, long-term management, and coding for percutaneous dilational tracheostomy__umls.qa.json
+ create mode 100644 out/qa/The Business of Bronchoscopy__umls.qa.json
+ create mode 100644 out/qa/fistula Airway ultraflex stenting in esophageal cancer__umls.qa.json
+ create mode 100644 out/references/Aldaghlawi-2020-A Systematic Review of Digital.refs.csv
+ create mode 100644 out/references/Bhora-2016-Treatment of Benign Tracheal Stenos.refs.csv
+ create mode 100644 out/references/Bibby-2018-ERS_EACTS statement on the manageme.refs.csv
+ create mode 100644 out/references/DY and Synergy of Needle and Forceps w ENB.refs.csv
+ create mode 100644 out/references/Electromagnetic navigation bronchoscopy a comprehensive review.refs.csv
+ create mode 100644 out/references/First Human Use of a New Robotic-Assisted Fiber Optic Sensing Navigation System for Small Peripheral Pulmonary Nodules.refs.csv
+ create mode 100644 out/references/Labarca-2019-Bronchoscopic Lung Volume Reducti.refs.csv
+ create mode 100644 out/references/Performance, long-term management, and coding for percutaneous dilational tracheostomy.refs.csv
+ create mode 100644 out/references/The Business of Bronchoscopy.refs.csv
+ create mode 100644 out/references/fistula Airway ultraflex stenting in esophageal cancer.refs.csv
+2025-09-01 02:57:50.037 | INFO     | __main__:git_commit_and_push:158 - Pushing to origin/fix/extraction-hardening...
+To https://github.com/russellmiller49/Medparse.git
+   8755fdc..9ba7619  fix/extraction-hardening -> fix/extraction-hardening
+2025-09-01 02:57:54.283 | SUCCESS  | __main__:git_commit_and_push:161 - ✓ Successfully pushed to GitHub (branch: fix/extraction-hardening)
+2025-09-01 02:57:54.283 | INFO     | __main__:main:189 - [224/414] Processing Robot assisted bronchoscopy for pulmonary lesion diagnosis.pdf
+2025-09-01 02:57:54.283 | INFO     | __main__:process_single_pdf:52 - Processing Robot assisted bronchoscopy for pulmonary lesion diagnosis.pdf...
+2025-09-01 02:59:04.913 | SUCCESS  | __main__:process_single_pdf:71 - ✓ Successfully processed Robot assisted bronchoscopy for pulmonary lesion diagnosis
+2025-09-01 02:59:04.913 | INFO     | __main__:main:189 - [225/414] Processing Standardizing education in interventional pulmonol.pdf
+2025-09-01 02:59:04.913 | INFO     | __main__:process_single_pdf:52 - Processing Standardizing education in interventional pulmonol.pdf...
+2025-09-01 03:03:58.487 | SUCCESS  | __main__:process_single_pdf:71 - ✓ Successfully processed Standardizing education in interventional pulmonol
+2025-09-01 03:03:58.487 | INFO     | __main__:main:189 - [226/414] Processing Walker-2021-Ambulatory management of secondary.pdf
+2025-09-01 03:03:58.487 | INFO     | __main__:process_single_pdf:52 - Processing Walker-2021-Ambulatory management of secondary.pdf...
+2025-09-01 03:06:31.742 | SUCCESS  | __main__:process_single_pdf:71 - ✓ Successfully processed Walker-2021-Ambulatory management of secondary
+2025-09-01 03:06:31.742 | INFO     | __main__:main:189 - [227/414] Processing Herth-2019-Endoscopic Lung Volume Reduction_ A.pdf
+2025-09-01 03:06:31.742 | INFO     | __main__:process_single_pdf:52 - Processing Herth-2019-Endoscopic Lung Volume Reduction_ A.pdf...
+2025-09-01 03:07:50.381 | SUCCESS  | __main__:process_single_pdf:71 - ✓ Successfully processed Herth-2019-Endoscopic Lung Volume Reduction_ A
+2025-09-01 03:07:50.381 | INFO     | __main__:main:189 - [228/414] Processing tana-et-al-2025-airway-scairway-scaffolds-for-emphysema.pdf
+2025-09-01 03:07:50.381 | INFO     | __main__:process_single_pdf:52 - Processing tana-et-al-2025-airway-scairway-scaffolds-for-emphysema.pdf...
+2025-09-01 03:09:22.626 | SUCCESS  | __main__:process_single_pdf:71 - ✓ Successfully processed tana-et-al-2025-airway-scairway-scaffolds-for-emphysema
+2025-09-01 03:09:22.627 | INFO     | __main__:main:189 - [229/414] Processing Prospective study to determine the volume of p.pdf
+2025-09-01 03:09:22.627 | INFO     | __main__:process_single_pdf:52 - Processing Prospective study to determine the volume of p.pdf...
+2025-09-01 03:10:21.822 | SUCCESS  | __main__:process_single_pdf:71 - ✓ Successfully processed Prospective study to determine the volume of p
+2025-09-01 03:10:21.822 | INFO     | __main__:main:189 - [230/414] Processing surigicalLVR A randomized trial comparing lung-volume-reduc.pdf
+2025-09-01 03:10:21.822 | INFO     | __main__:process_single_pdf:52 - Processing surigicalLVR A randomized trial comparing lung-volume-reduc.pdf...
+2025-09-01 03:12:19.281 | SUCCESS  | __main__:process_single_pdf:71 - ✓ Successfully processed surigicalLVR A randomized trial comparing lung-volume-reduc
+2025-09-01 03:12:19.281 | INFO     | __main__:main:189 - [231/414] Processing A prospective, randomized trial for the comparison of 19-g and 22-g EBUS.pdf
+2025-09-01 03:12:19.281 | INFO     | __main__:process_single_pdf:52 - Processing A prospective, randomized trial for the comparison of 19-g and 22-g EBUS.pdf...
+2025-09-01 03:14:24.685 | SUCCESS  | __main__:process_single_pdf:71 - ✓ Successfully processed A prospective, randomized trial for the comparison of 19-g and 22-g EBUS
+2025-09-01 03:14:24.686 | INFO     | __main__:main:189 - [232/414] Processing Airway stabilization with silicone stents for.pdf
+2025-09-01 03:14:24.686 | INFO     | __main__:process_single_pdf:52 - Processing Airway stabilization with silicone stents for.pdf...
+2025-09-01 03:15:57.466 | SUCCESS  | __main__:process_single_pdf:71 - ✓ Successfully processed Airway stabilization with silicone stents for
+2025-09-01 03:15:57.467 | INFO     | __main__:main:189 - [233/414] Processing IP Fellowship Accreditation Standards.pdf
+2025-09-01 03:15:57.467 | INFO     | __main__:process_single_pdf:52 - Processing IP Fellowship Accreditation Standards.pdf...
+2025-09-01 03:17:06.444 | SUCCESS  | __main__:process_single_pdf:71 - ✓ Successfully processed IP Fellowship Accreditation Standards
+2025-09-01 03:17:06.444 | INFO     | __main__:main:198 - Reached 230 successful processes, committing intermediate results...
+2025-09-01 03:17:06.444 | INFO     | __main__:git_commit_and_push:129 - Adding changes to git...
