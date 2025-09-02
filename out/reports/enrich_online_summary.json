@@ -1,0 +1,8 @@
+{
+  "total": 411,
+  "changed": 18,
+  "unchanged": 393,
+  "errors": 0,
+  "report": "out/reports/enrich_online_changes.csv",
+  "dry_run": false
+}
