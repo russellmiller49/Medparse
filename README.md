@@ -6,6 +6,17 @@ for build, run, and QA steps. Treat that document as source-of-truth.
 
 High-fidelity medical PDF extraction with Docling → GROBID → UMLS (+ fallbacks) and comparative evaluation for entity linking. Features NLP-hardened text processing, structured references with PubMed enrichment, and comprehensive validation.
 
+## Metadata Pipeline (New)
+
+A clean, reproducible path from PDFs to enriched, hardened, deduplicated JSON with full provenance is available.
+
+- Quick start: `make pipeline ZOTERO_JSON=out/zero/zero_export.json ZOTERO_CSV=out/zero/zero_export.csv EMAIL=you@example.com`
+- Dry run: `make pipeline-dry ZOTERO_JSON=out/zero/zero_export.json ZOTERO_CSV=out/zero/zero_export.csv EMAIL=you@example.com`
+- Stages: audit → merge (Zotero) → harden (offline) → enrich (Crossref) → dedupe → final audit
+- Docs: see `PIPELINE.md` and the "Metadata Pipeline" section in `DOCUMENTATION.md`
+
+CI quality gates run on every push/PR to enforce completeness (DOI, journal, year, title, authors). See `.github/workflows/quality.yml` and `scripts/ci_gate.py`. Details under "CI Quality Gates" in `DOCUMENTATION.md`.
+
 ## Key Features
 
 ### Core Extraction
@@ -130,6 +141,18 @@ python scripts/run_batch.py --linker umls
 # Process with specific linker
 python scripts/run_batch.py --linker quickumls --input-dir input/ --output-dir output/
 ```
+
+### Run the post-extraction metadata pipeline
+
+```bash
+# After extraction into out/batch_processed/
+make pipeline ZOTERO_JSON=out/zero/zero_export.json ZOTERO_CSV=out/zero/zero_export.csv EMAIL=you@example.com
+
+# See final audit
+cat out/reports_final/quality_summary.json
+```
+
+More details: `PIPELINE.md` and `DOCUMENTATION.md` → Metadata Pipeline / CI Quality Gates.
 
 ## Comparative Evaluation
 

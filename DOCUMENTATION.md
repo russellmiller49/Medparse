@@ -10,6 +10,8 @@
 7. [Data Schemas](#data-schemas)
 8. [Performance Considerations](#performance-considerations)
 9. [Extension Points](#extension-points)
+10. [Metadata Pipeline](#metadata-pipeline)
+11. [CI Quality Gates](#ci-quality-gates)
 
 ## System Architecture
 
@@ -518,6 +520,74 @@ Overall speedup: 2-3x with warm cache
 
 ### Scalability Limits
 - Single machine: 100-200 papers/hour
+
+## Metadata Pipeline
+
+This repo includes a post‑extraction metadata pipeline that turns Docling/GROBID outputs into clean, enriched, deduplicated JSONs with full provenance. See also `PIPELINE.md:1` for a concise walkthrough.
+
+Quick start (end‑to‑end)
+- Extract PDFs → JSONs (uses `input/`): `make extract-batch`
+- Run the full pipeline (merge → harden → enrich → dedupe → audit):
+  - `make pipeline ZOTERO_JSON=out/zero/zero_export.json ZOTERO_CSV=out/zero/zero_export.csv EMAIL=you@example.com`
+- Dry‑run merge/enrichment only (no writes):
+  - `make pipeline-dry ZOTERO_JSON=out/zero/zero_export.json ZOTERO_CSV=out/zero/zero_export.csv EMAIL=you@example.com`
+
+Stages (and where they write)
+- Audit: validates field coverage; writes `out/reports/`
+  - `scripts/audit_extracted.py`
+- Merge Zotero: merges CSL‑JSON + CSV with overrides; provenance logged
+  - `scripts/apply_zotero_metadata.py`
+  - Inputs: `out/zero/zero_export.json`, `out/zero/zero_export.csv`, optional `out/zero/overrides.json`
+  - Output dir: `out/hardened/` (idempotent)
+- Hardening (offline): normalizes year/title/authors; mines abstract; precise DOI front‑matter scan
+  - `scripts/harden_extracted.py`
+  - Output dir: `out/hardened/`
+- Online enrichment (Crossref, strict): fills doi/journal/vol/issue/pages/issn/url; provenance `source="crossref"`
+  - `scripts/enrich_online.py`
+  - Requires a contact email (User‑Agent) via `EMAIL=...`
+- Deduplicate by DOI: keeps first lexicographic filename; writes detailed removal report (incl. original PDF basenames)
+  - `scripts/dedupe_by_doi.py`
+  - Reports: `out/reports/duplicates_by_doi.csv`, `out/reports/duplicates_removed.csv`
+- Final audit snapshot: gates the results; writes `out/reports_final/`
+  - `scripts/audit_extracted.py`
+
+Make targets (summary)
+- `make extract-batch` — run the PDF extractor across `input/`
+- `make audit` — audit `out/batch_processed/`
+- `make merge-zotero[-dry]` — merge CSL/CSV into extracted JSONs
+- `make harden-offline` — normalize metadata/abstracts locally
+- `make enrich-online[-dry]` — strict Crossref enrichment
+- `make dedupe` — remove duplicate JSONs by DOI (writes CSV report)
+- `make audit-final` — final snapshot after enrichment/deduplication
+- `make pipeline` — runs the full chain
+
+Key provenance fields
+- Every metadata change appends an entry to `provenance.patches` with: `path`, `op`, `from`, `to`, `source`, `confidence`.
+- Merge step also records `provenance.zotero` (key/id/source/exported_at/match_method/confidence) and `provenance.orig_pdf_filename`.
+
+Overriding difficult cases
+- Put manual hints in `out/zero/overrides.json`. Supported keys per filename or normalized title:
+  - `doi`, `year`, `journal`, `volume`, `issue`, `pages`, `authors` (list of strings)
+- These are applied with `source="manual_patch"` and recorded in provenance.
+
+Outputs of interest
+- Enrichment changes (accepted): `out/reports/enrich_online_changes.csv`
+- Remaining gaps (after enrichment; for manual follow‑up): `out/reports/remaining_doi_journal_gaps.csv`
+- Final quality summary: `out/reports_final/quality_summary.json:1`
+
+## CI Quality Gates
+
+Continuous checks run on every push/PR to enforce basic metadata completeness.
+
+- Workflow: `.github/workflows/quality.yml:1`
+- Audit output for CI: `out/reports_ci/quality_summary.json:1`
+- Gate script: `scripts/ci_gate.py:1` (fails if counts exceed thresholds)
+- Default thresholds (all set to zero in the workflow):
+  - `missing_doi`, `missing_journal`, `missing_year`, `missing_title`, `empty_authors`
+
+Run locally
+- `python3 scripts/audit_extracted.py out/hardened --out out/reports_ci`
+- `python3 scripts/ci_gate.py out/reports_ci/quality_summary.json`
 - API constraints: UMLS 20 requests/second
 - Storage: ~10MB per paper (JSON + assets)
 - Network: 100KB-1MB per API call
