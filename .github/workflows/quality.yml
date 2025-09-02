@@ -1,0 +1,38 @@
+name: Quality Gates
+
+on:
+  push:
+  pull_request:
+
+jobs:
+  audit:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install deps
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt || true
+
+      - name: Run audit
+        run: |
+          python scripts/audit_extracted.py out/hardened --out out/reports_ci
+          test -f out/reports_ci/quality_summary.json
+
+      - name: Enforce gates
+        env:
+          GATE_MISSING_DOI: '0'
+          GATE_MISSING_JOURNAL: '0'
+          GATE_MISSING_YEAR: '0'
+          GATE_MISSING_TITLE: '0'
+          GATE_EMPTY_AUTHORS: '0'
+        run: |
+          python scripts/ci_gate.py out/reports_ci/quality_summary.json
+
