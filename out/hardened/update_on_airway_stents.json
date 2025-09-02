@@ -1,0 +1,2740 @@
+{
+  "metadata": {
+    "title": "Update on airway stents",
+    "year": 2018,
+    "authors": [
+      {
+        "given": "Bruce F.",
+        "family": "Sabath",
+        "suffix": null,
+        "degrees": [],
+        "display": "Bruce F. Sabath",
+        "group": false
+      },
+      {
+        "given": "David E.",
+        "family": "Ost",
+        "suffix": null,
+        "degrees": [],
+        "display": "David E. Ost",
+        "group": false
+      }
+    ],
+    "references_text": [
+      "Malignant Central Airway Obstruction\n\t\t\n\t\t\tGaëtaneMichaud\n\t\t\n\t\t10.1007/978-1-4614-4292-9_25\n\t\n\t\n\t\tPrinciples and Practice of Interventional Pulmonology\n\t\t\n\t\t\tAErnst\n\t\t\n\t\t\n\t\t\tFjfHerth\n\t\t\n\t\tNew York, NY\n\t\t\n\t\t\tSpringer New York\n\t\t\t2013",
+      "Therapeutic Bronchoscopy for Malignant Central Airway Obstruction\n\t\t\n\t\t\tDavidEOst\n\t\t\n\t\t\n\t\t\tArminErnst\n\t\t\n\t\t\n\t\t\tHorianaBGrosu\n\t\t\n\t\t\n\t\t\tXiudongLei\n\t\t\n\t\t\n\t\t\tJavierDiaz-Mendoza\n\t\t\n\t\t\n\t\t\tMarkSlade\n\t\t\n\t\t\n\t\t\tThomasRGildea\n\t\t\n\t\t\n\t\t\tMichaelSMachuzak\n\t\t\n\t\t\n\t\t\tCarlosAJimenez\n\t\t\n\t\t\n\t\t\tJenniferToth\n\t\t\n\t\t\n\t\t\tKevinLKovitz\n\t\t\n\t\t\n\t\t\tCynthiaRay\n\t\t\n\t\t\n\t\t\tSaraGreenhill\n\t\t\n\t\t\n\t\t\tRobertoFCasal\n\t\t\n\t\t\n\t\t\tFranciscoAAlmeida\n\t\t\n\t\t\n\t\t\tMomenMWahidi\n\t\t\n\t\t\n\t\t\tGeorgeAEapen\n\t\t\n\t\t\n\t\t\tDavidFeller-Kopman\n\t\t\n\t\t\n\t\t\tRodolfoCMorice\n\t\t\n\t\t\n\t\t\tSadiaBenzaquen\n\t\t\n\t\t\n\t\t\tAlainTremblay\n\t\t\n\t\t\n\t\t\tMichaelSimoff\n\t\t\n\t\t10.1378/chest.14-1526\n\t\n\t\n\t\tChest\n\t\tChest\n\t\t0012-3692\n\t\t\n\t\t\t147\n\t\t\t5\n\t\t\t\n\t\t\t2015\n\t\t\tElsevier BV",
+      "Central airway obstruction: benign strictures, tracheobronchomalacia, and malignancy-related obstruction\n\t\t\n\t\t\tSD&& Murgu\n\t\t\n\t\t\n\t\t\tKEgressy\n\t\t\n\t\t\n\t\t\tBLaxmanan\n\t\t\n\t\n\t\n\t\tChest\n\t\t\n\t\t\t150\n\t\t\t\n\t\t\t2016",
+      "CLINICAL EXPERIENCE OF THE POLYFLEX[TM] STENT IN BENIGN AND MALIGNANT CENTRAL AIRWAY OBSTRUCTION\n\t\t\n\t\t\tRayWShepherd\n\t\t\n\t\t\n\t\t\tCarlaLamb\n\t\t\n\t\t\n\t\t\tJohnFBeamis\n\t\t\n\t\t10.1378/chest.130.4_meetingabstracts.110s-b\n\t\n\t\n\t\tChest\n\t\tChest\n\t\t0012-3692\n\t\t\n\t\t\t130\n\t\t\t4\n\t\t\t110S\n\t\t\t\n\t\t\tElsevier BV\n\t\t\n\t\n\tThis is a thorough review of both",
+      "Complications Following Therapeutic Bronchoscopy for Malignant Central Airway Obstruction\n\t\t\n\t\t\tDavidEOst\n\t\t\n\t\t\n\t\t\tArminErnst\n\t\t\n\t\t\n\t\t\tHorianaBGrosu\n\t\t\n\t\t\n\t\t\tXiudongLei\n\t\t\n\t\t\n\t\t\tJavierDiaz-Mendoza\n\t\t\n\t\t\n\t\t\tMarkSlade\n\t\t\n\t\t\n\t\t\tThomasRGildea\n\t\t\n\t\t\n\t\t\tMichaelMachuzak\n\t\t\n\t\t\n\t\t\tCarlosAJimenez\n\t\t\n\t\t\n\t\t\tJenniferToth\n\t\t\n\t\t\n\t\t\tKevinLKovitz\n\t\t\n\t\t\n\t\t\tCynthiaRay\n\t\t\n\t\t\n\t\t\tSaraGreenhill\n\t\t\n\t\t\n\t\t\tRobertoFCasal\n\t\t\n\t\t\n\t\t\tFranciscoAAlmeida\n\t\t\n\t\t\n\t\t\tMomenWahidi\n\t\t\n\t\t\n\t\t\tGeorgeAEapen\n\t\t\n\t\t\n\t\t\tLonnyBYarmus\n\t\t\n\t\t\n\t\t\tRodolfoCMorice\n\t\t\n\t\t\n\t\t\tSadiaBenzaquen\n\t\t\n\t\t\n\t\t\tAlainTremblay\n\t\t\n\t\t\n\t\t\tMichaelSimoff\n\t\t\n\t\t10.1378/chest.14-1530\n\t\n\t\n\t\tChest\n\t\tChest\n\t\t0012-3692\n\t\t\n\t\t\t148\n\t\t\t2\n\t\t\t\n\t\t\t2015\n\t\t\tElsevier BV",
+      "Tracheobronchial Stenting in the Terminal Care of Cancer Patients With Central Airways Obstruction\n\t\t\n\t\t\tAntonVonk-Noordegraaf\n\t\t\n\t\t\n\t\t\tPieterEPostmus\n\t\t\n\t\t\n\t\t\tTomGSutedja\n\t\t\n\t\t10.1378/chest.120.6.1811\n\t\n\t\n\t\tChest\n\t\tChest\n\t\t0012-3692\n\t\t\n\t\t\t120\n\t\t\t6\n\t\t\t\n\t\t\t2001\n\t\t\tElsevier BV",
+      "Stents are associated with increased risk of respiratory infections in patients undergoing airway interventions for malignant airways disease\n\t\t\n\t\t\tHBGrosu\n\t\t\n\t\t\n\t\t\tGAEapen\n\t\t\n\t\t\n\t\t\tRCMorice\n\t\t\n\t\n\t\n\t\tChest\n\t\t\n\t\t\t144\n\t\t\t\n\t\t\t2013",
+      "Respiratory Infections Increase the Risk of Granulation Tissue Formation Following Airway Stenting in Patients With Malignant Airway Obstruction\n\t\t\n\t\t\tDavidEOst\n\t\t\n\t\t\n\t\t\tArchanMShah\n\t\t\n\t\t\n\t\t\tXiudongLei\n\t\t\n\t\t\n\t\t\tMyrnaC BGodoy\n\t\t\n\t\t\n\t\t\tCarlosAJimenez\n\t\t\n\t\t\n\t\t\tGeorgeAEapen\n\t\t\n\t\t\n\t\t\tPushanJani\n\t\t\n\t\t\n\t\t\tAndrewJLarson\n\t\t\n\t\t\n\t\t\tMonaGSarkiss\n\t\t\n\t\t\n\t\t\tRodolfoCMorice\n\t\t\n\t\t10.1378/chest.11-2005\n\t\n\t\n\t\tChest\n\t\tChest\n\t\t0012-3692\n\t\t\n\t\t\t141\n\t\t\t6\n\t\t\t\n\t\t\t2012\n\t\t\tElsevier BV",
+      "Towards Individualized Tracheobronchial Stents: Technical, Practical and Legal Considerations\n\t\t\n\t\t\tLutzFreitag\n\t\t\n\t\t\n\t\t\tMartinGördes\n\t\t\n\t\t\n\t\t\tPaulZarogoulidis\n\t\t\n\t\t\n\t\t\tKaidDarwiche\n\t\t\n\t\t\n\t\t\tDanielFranzen\n\t\t\t0000-0001-6080-9555\n\t\t\n\t\t\n\t\t\tFaustinaFunke\n\t\t\n\t\t\n\t\t\tWolfgangHohenforst-Schmidt\n\t\t\n\t\t\n\t\t\tHervéDutau\n\t\t\n\t\t10.1159/000479164\n\t\n\t\n\t\tRespiration\n\t\tRespiration\n\t\t0025-7931\n\t\t1423-0356\n\t\t\n\t\t\t94\n\t\t\t5\n\t\t\t\n\t\t\t2017\n\t\t\tS. Karger AG\n\t\t\n\t\n\tThis is an extensive review of 3D printing of stents",
+      "Treatment of Post-transplant Complex Airway Stenosis with a Three-Dimensional, Computer-assisted Customized Airway Stent\n\t\t\n\t\t\tNicolasGuibert\n\t\t\n\t\t\n\t\t\tAlainDidier\n\t\t\n\t\t\n\t\t\tBenjaminMoreno\n\t\t\n\t\t\n\t\t\tLaurentMhanna\n\t\t\n\t\t\n\t\t\tLaurentBrouchet\n\t\t\n\t\t\n\t\t\tGavinPlat\n\t\t\n\t\t\n\t\t\tChristopheHermant\n\t\t\n\t\t\n\t\t\tJulienMazieres\n\t\t\n\t\t10.1164/rccm.201611-2361im\n\t\n\t\n\t\tAmerican Journal of Respiratory and Critical Care Medicine\n\t\tAm J Respir Crit Care Med\n\t\t1073-449X\n\t\t1535-4970\n\t\t\n\t\t\t195\n\t\t\t7\n\t\t\t\n\t\t\t2017\n\t\t\tAmerican Thoracic Society",
+      "Three-dimensional Modeled T-tube Design and Insertion in a Patient With Tracheal Dehiscence\n\t\t\n\t\t\tGeorgeZCheng\n\t\t\n\t\t\n\t\t\tErikFolch\n\t\t\n\t\t\n\t\t\tRobertBrik\n\t\t\n\t\t\n\t\t\tSidhuGangadharan\n\t\t\n\t\t\n\t\t\tPavanMallur\n\t\t\n\t\t\n\t\t\tJenniferHWilson\n\t\t\n\t\t\n\t\t\tBryanHusta\n\t\t\n\t\t\n\t\t\tAdnanMajid\n\t\t\n\t\t10.1378/chest.15-0240\n\t\n\t\n\t\tChest\n\t\tChest\n\t\t0012-3692\n\t\t\n\t\t\t148\n\t\t\t4\n\t\t\t\n\t\t\t2015\n\t\t\tElsevier BV",
+      "Mitigation of tracheobronchomalacia with 3D-printed personalized medical devices in pediatric patients\n\t\t\n\t\t\tRobertJMorrison\n\t\t\n\t\t\n\t\t\tScottJHollister\n\t\t\n\t\t\n\t\t\tMatthewFNiedner\n\t\t\n\t\t\n\t\t\tMaryamGhadimiMahani\n\t\t\n\t\t\n\t\t\tAlbertHPark\n\t\t\n\t\t\n\t\t\tDeepakKMehta\n\t\t\n\t\t\n\t\t\tRichardGOhye\n\t\t\n\t\t\n\t\t\tGlennEGreen\n\t\t\n\t\t10.1126/scitranslmed.3010825\n\t\n\t\n\t\tScience Translational Medicine\n\t\tSci. Transl. Med.\n\t\t1946-6234\n\t\t1946-6242\n\t\t\n\t\t\t7\n\t\t\t285\n\t\t\t\n\t\t\t2015\n\t\t\tAmerican Association for the Advancement of Science (AAAS)",
+      "МЕДИЧНЕ ЦИТУВАННЯ: ПУТІВНИК NLM ДЛЯ АВТОРІВ, РЕДАКТОРІВ І ВИДАВЦІВ\n\t\t10.26641/1997-9665.2021.2.77-82\n\t\t\n\t\n\t\n\t\tMorphologia\n\t\tM\n\t\t1997-9665\n\t\t\n\t\t\t15\n\t\t\t2\n\t\t\t\n\t\t\t2000. 2016 Sept 5\n\t\t\tSE Dnipropetrovsk Medical Academy of Health Ministry of Ukraine\n\t\t\tBethesda (MD\n\t\t\n\t\n\tInternet cited 27 Jan 2018 about 5 screens",
+      "Three-dimensional Printing and 3D Slicer\n\t\t\n\t\t\tGeorgeZCheng\n\t\t\n\t\t\n\t\t\tRaulSan Jose Estepar\n\t\t\n\t\t\n\t\t\tErikFolch\n\t\t\n\t\t\n\t\t\tJorgeOnieva\n\t\t\n\t\t\n\t\t\tSidhuGangadharan\n\t\t\n\t\t\n\t\t\tAdnanMajid\n\t\t\n\t\t10.1016/j.chest.2016.03.001\n\t\n\t\n\t\tChest\n\t\tChest\n\t\t0012-3692\n\t\t\n\t\t\t149\n\t\t\t5\n\t\t\t\n\t\t\t2016\n\t\t\tElsevier BV\n\t\t\n\t\n\tThis is an extensive review of 3D printing of stents",
+      "Paclitaxel Drug-eluting Tracheal Stent Could Reduce Granulation Tissue Formation in a Canine Model\n\t\t\n\t\t\tTingWang\n\t\t\n\t\t\n\t\t\tJieZhang\n\t\t\n\t\t\n\t\t\tJuanWang\n\t\t\n\t\t\n\t\t\tYing-HuaPei\n\t\t\n\t\t\n\t\t\tXiao-JianQiu\n\t\t\n\t\t\n\t\t\tYu-LingWang\n\t\t\n\t\t10.4103/0366-6999.193461\n\t\n\t\n\t\tChinese Medical Journal\n\t\t0366-6999\n\t\t\n\t\t\t129\n\t\t\t22\n\t\t\t\n\t\t\t2016\n\t\t\tOvid Technologies (Wolters Kluwer Health)",
+      "Biodegradable Cisplatin-Eluting Tracheal Stent for Malignant Airway Obstruction\n\t\t\n\t\t\tYin-KaiChao\n\t\t\n\t\t\n\t\t\tKuo-ShengLiu\n\t\t\n\t\t\n\t\t\tYi-ChuanWang\n\t\t\n\t\t\n\t\t\tYen-LinHuang\n\t\t\n\t\t\n\t\t\tShih-JungLiu\n\t\t\n\t\t10.1378/chest.12-2282\n\t\n\t\n\t\tChest\n\t\tChest\n\t\t0012-3692\n\t\t\n\t\t\t144\n\t\t\t1\n\t\t\t\n\t\t\t2013\n\t\t\tElsevier BV",
+      "A novel bioabsorbable drug‐eluting tracheal stent\n\t\t\n\t\t\tGHZhu\n\t\t\n\t\t\n\t\t\tAnthonyH CNg\n\t\t\n\t\t\n\t\t\tSubbuSVenkatraman\n\t\t\n\t\t\n\t\t\tFreddyY CBoey\n\t\t\n\t\t\n\t\t\tAmiliaL YWee\n\t\t\n\t\t\n\t\t\tScottLTrasti\n\t\t\n\t\t\n\t\t\tLynneHsuehYee Lim\n\t\t\n\t\t10.1002/lary.22175\n\t\n\t\n\t\tThe Laryngoscope\n\t\tThe Laryngoscope\n\t\t0023-852X\n\t\t1531-4995\n\t\t\n\t\t\t121\n\t\t\t10\n\t\t\t\n\t\t\t2011\n\t\t\tWiley",
+      "Cell viability of fibroblasts to pifenidone and sirolimus\n\t\t\n\t\t\tRobertF HWalter\n\t\t\n\t\t\n\t\t\tPaulZarogoulidis\n\t\t\n\t\t\n\t\t\tFabianDMairinger\n\t\t\n\t\t\n\t\t\tRobertWerner\n\t\t\n\t\t\n\t\t\tKaidDarwiche\n\t\t\n\t\t\n\t\t\tKonstantinosZarogoulidis\n\t\t\n\t\t\n\t\t\tLutzFreitag\n\t\t\n\t\t10.1016/j.ijpharm.2014.03.003\n\t\n\t\n\t\tInternational Journal of Pharmaceutics\n\t\tInternational Journal of Pharmaceutics\n\t\t0378-5173\n\t\t\n\t\t\t466\n\t\t\t1-2\n\t\t\t\n\t\t\t2014\n\t\t\tElsevier BV",
+      "Drug Eluting Stents for Malignant Airway Obstruction: A Critical Review of the Literature\n\t\t\n\t\t\tWolfgangHohenforst-Schmidt\n\t\t\n\t\t\n\t\t\tPaulZarogoulidis\n\t\t\n\t\t\n\t\t\tGeorgiaPitsiou\n\t\t\n\t\t\n\t\t\tBerndLinsmeier\n\t\t\n\t\t\n\t\t\tDrososTsavlis\n\t\t\n\t\t\n\t\t\tIoannisKioumis\n\t\t\n\t\t\n\t\t\tEleniPapadaki\n\t\t\n\t\t\n\t\t\tLutzFreitag\n\t\t\n\t\t\n\t\t\tTheodoraTsiouda\n\t\t\n\t\t\n\t\t\tJFrancisTurner\n\t\t\n\t\t\n\t\t\tRobertBrowning\n\t\t\n\t\t\n\t\t\tMichaelSimoff\n\t\t\n\t\t\n\t\t\tNikolaosSachpekidis\n\t\t\n\t\t\n\t\t\tKosmasTsakiridis\n\t\t\n\t\t\n\t\t\tBojanZaric\n\t\t\n\t\t\n\t\t\tLonnyYarmus\n\t\t\n\t\t\n\t\t\tSofiaBaka\n\t\t\n\t\t\n\t\t\tGrigorisStratakos\n\t\t\n\t\t\n\t\t\tHaraldRittger\n\t\t\n\t\t10.7150/jca.13611\n\t\n\t\n\t\tJournal of Cancer\n\t\tJ. Cancer\n\t\t1837-9664\n\t\t\n\t\t\t7\n\t\t\t4\n\t\t\t\n\t\t\t2016\n\t\t\tIvyspring International Publisher",
+      "Learning from the Cardiologists and Developing Eluting Stents Targeting the Mtor Pathway for Pulmonary Application; A Future Concept for Tracheal Stenosis\n\t\t\n\t\t\tPaulZarogoulidis\n\t\t\n\t\t\n\t\t\tKaidDarwiche\n\t\t\n\t\t10.4172/1747-0862.1000065\n\t\n\t\n\t\tJournal of Molecular and Genetic Medicine\n\t\tJ Mol Genet Med\n\t\t1747-0862\n\t\t\n\t\t\t07\n\t\t\t02\n\t\t\t\n\t\t\t2013\n\t\t\tOMICS Publishing Group",
+      "Stent-Mediated Gene Delivery for Site-Specific Transgene Administration to the Airway Epithelium and Management of Tracheobronchial Tumors\n\t\t\n\t\t\tRobertJKruklitis\n\t\t\n\t\t\n\t\t\tIliaFishbein\n\t\t\n\t\t\n\t\t\tSunilSinghal\n\t\t\n\t\t\n\t\t\tVeenaKapoor\n\t\t\n\t\t\n\t\t\tRobertJLevy\n\t\t\n\t\t\n\t\t\tDanielHSterman\n\t\t\t0000-0003-1249-0804\n\t\t\n\t\t10.1159/000368164\n\t\n\t\n\t\tRespiration\n\t\tRespiration\n\t\t0025-7931\n\t\t1423-0356\n\t\t\n\t\t\t88\n\t\t\t5\n\t\t\t\n\t\t\t2014\n\t\t\tS. Karger AG",
+      "Novel biodegradable stents in the treatment of bronchial stenosis after lung transplantation☆☆☆\n\t\t\n\t\t\tRobertLischke\n\t\t\n\t\t\n\t\t\tJiriPozniak\n\t\t\n\t\t\n\t\t\tDavidVondrys\n\t\t\n\t\t\n\t\t\tMartinJElliott\n\t\t\n\t\t10.1016/j.ejcts.2010.12.047\n\t\n\t\n\t\tEuropean Journal of Cardio-Thoracic Surgery\n\t\tEuropean Journal of Cardio-Thoracic Surgery\n\t\t1010-7940\n\t\t\n\t\t\t40\n\t\t\t\n\t\t\t2011\n\t\t\tOxford University Press (OUP)",
+      "Biodegradable stents after lung transplantation\n\t\t\n\t\t\tThomasFuehner\n\t\t\n\t\t\n\t\t\tHendrikSuhling\n\t\t\n\t\t\n\t\t\tMarkGreer\n\t\t\n\t\t\n\t\t\tOlafWiesner\n\t\t\n\t\t\n\t\t\tMartinDierich\n\t\t\n\t\t\n\t\t\tGregorWarnecke\n\t\t\n\t\t\n\t\t\tAxelHaverich\n\t\t\n\t\t\n\t\t\tTobiasWelte\n\t\t\n\t\t\n\t\t\tJensGottlieb\n\t\t\n\t\t10.1111/tri.12095\n\t\n\t\n\t\tTransplant International\n\t\tTranspl Int\n\t\t0934-0874\n\t\t\n\t\t\t26\n\t\t\t7\n\t\t\t\n\t\t\t2013\n\t\t\tFrontiers Media SA",
+      "Clinical Success Stenting Distal Bronchi for “Lobar Salvage” in Bronchial Stenosis\n\t\t\n\t\t\tSonaliSethi\n\t\t\n\t\t\n\t\t\tThomasRGildea\n\t\t\n\t\t\n\t\t\tFranciscoAAlmeida\n\t\t\n\t\t\n\t\t\tJosephCCicenia\n\t\t\n\t\t\n\t\t\tMichaelSMachuzak\n\t\t\n\t\t10.1097/lbr.0000000000000422\n\t\n\t\n\t\tJournal of Bronchology & Interventional Pulmonology\n\t\t1944-6586\n\t\t\n\t\t\t25\n\t\t\t1\n\t\t\t\n\t\t\t2018\n\t\t\tOvid Technologies (Wolters Kluwer Health)",
+      "Covered Balloon-Expanding Stents in Airway Stenosis\n\t\t\n\t\t\tAdnanMajid\n\t\t\n\t\t\n\t\t\tFayezKheir\n\t\t\n\t\t\n\t\t\tJeyChung\n\t\t\n\t\t\n\t\t\tDanielAlape\n\t\t\n\t\t\n\t\t\tBryanHusta\n\t\t\n\t\t\n\t\t\tScottOh\n\t\t\n\t\t\n\t\t\tErikFolch\n\t\t\n\t\t10.1097/lbr.0000000000000364\n\t\n\t\n\t\tJournal of Bronchology & Interventional Pulmonology\n\t\t1944-6586\n\t\t\n\t\t\t24\n\t\t\t2\n\t\t\t\n\t\t\t2017\n\t\t\tOvid Technologies (Wolters Kluwer Health)",
+      "Long-term Outcome of Short Metallic Stents for Lobar Airway Stenosis\n\t\t\n\t\t\tOrenFruchter\n\t\t\n\t\t\n\t\t\tBayyaAbed El Raouf\n\t\t\n\t\t\n\t\t\tDrorRosengarten\n\t\t\n\t\t\n\t\t\tMordechaiRKramer\n\t\t\n\t\t10.1097/lbr.0000000000000371\n\t\n\t\n\t\tJournal of Bronchology & Interventional Pulmonology\n\t\t1944-6586\n\t\t\n\t\t\t24\n\t\t\t3\n\t\t\t\n\t\t\t2017\n\t\t\tOvid Technologies (Wolters Kluwer Health)",
+      "Distal Airway Stenting\n\t\t\n\t\t\tAChristineArgento\n\t\t\n\t\t\n\t\t\tJonathanTPuchalski\n\t\t\n\t\t10.1097/lbr.0000000000000212\n\t\n\t\n\t\tJournal of Bronchology & Interventional Pulmonology\n\t\t1944-6586\n\t\t\n\t\t\t22\n\t\t\t4\n\t\t\t\n\t\t\t2015\n\t\t\tOvid Technologies (Wolters Kluwer Health)",
+      "Bronchial anthracofibrosis: treatment using airway stents [Case study]\n\t\t\n\t\t\tBAEl Raouf\n\t\t\n\t\t\n\t\t\tMRKramer\n\t\t\n\t\t\n\t\t\tOFruchter\n\t\t\n\t\t10.5588/ijtld.13.0116\n\t\n\t\n\t\tThe International Journal of Tuberculosis and Lung Disease\n\t\tint j tuberc lung dis\n\t\t1027-3719\n\t\t1815-7920\n\t\t\n\t\t\t17\n\t\t\t8\n\t\t\t\n\t\t\t2013\n\t\t\tInternational Union Against Tuberculosis and Lung Disease"
+    ],
+    "references_raw": [
+      "Malignant central airway obstruction\n\t\t\n\t\t\tGMichaud\n\t\t\n\t\n\t\n\t\tPrinciples and Practice of Interventional Pulmonology\n\t\t\n\t\t\tAErnst\n\t\t\n\t\t\n\t\t\tFjfHerth\n\t\t\n\t\tNew York, NY\n\t\t\n\t\t\tSpringer\n\t\t\t2013",
+      "Therapeutic bronchoscopy for malignant central airway obstruction: success rates and impact on dyspnea and quality of life\n\t\t\n\t\t\tDEOst\n\t\t\n\t\t\n\t\t\tAErnst\n\t\t\n\t\t\n\t\t\tHBGrosu\n\t\t\n\t\n\t\n\t\tChest\n\t\t\n\t\t\t147\n\t\t\t\n\t\t\t2015",
+      "Central airway obstruction: benign strictures, tracheobronchomalacia, and malignancy-related obstruction\n\t\t\n\t\t\tSD&& Murgu\n\t\t\n\t\t\n\t\t\tKEgressy\n\t\t\n\t\t\n\t\t\tBLaxmanan\n\t\t\n\t\n\t\n\t\tChest\n\t\t\n\t\t\t150\n\t\t\t\n\t\t\t2016",
+      "benign and malignant central airway obstruction\n\t\t\n\t\n\tThis is a thorough review of both",
+      "Complications following therapeutic bronchoscopy for malignant central airway obstruction: results of the AQuIRE registry\n\t\t\n\t\t\tDEOst\n\t\t\n\t\t\n\t\t\tAErnst\n\t\t\n\t\t\n\t\t\tHBGrosu\n\t\t\n\t\n\t\n\t\tChest\n\t\t\n\t\t\t148\n\t\t\t\n\t\t\t2015",
+      "Tracheobronchial stenting in the terminal care of cancer patients with central airways obstruction\n\t\t\n\t\t\tAVonk-Noordegraaf\n\t\t\n\t\t\n\t\t\tPEPostmus\n\t\t\n\t\t\n\t\t\tTGSutedja\n\t\t\n\t\n\t\n\t\tChest\n\t\t\n\t\t\t120\n\t\t\t\n\t\t\t2001",
+      "Stents are associated with increased risk of respiratory infections in patients undergoing airway interventions for malignant airways disease\n\t\t\n\t\t\tHBGrosu\n\t\t\n\t\t\n\t\t\tGAEapen\n\t\t\n\t\t\n\t\t\tRCMorice\n\t\t\n\t\n\t\n\t\tChest\n\t\t\n\t\t\t144\n\t\t\t\n\t\t\t2013",
+      "Respiratory infections increase the risk of granulation tissue formation following airway stenting in patients with malignant airway obstruction\n\t\t\n\t\t\tDEOst\n\t\t\n\t\t\n\t\t\tAMShah\n\t\t\n\t\t\n\t\t\tXLei\n\t\t\n\t\n\t\n\t\tChest\n\t\t\n\t\t\t141\n\t\t\t\n\t\t\t2012",
+      "Towards individualized tracheobronchial stents: technical, practical and legal considerations\n\t\t\n\t\t\tLFreitag\n\t\t\n\t\t\n\t\t\tMGordes\n\t\t\n\t\t\n\t\t\tPZarogoulidis\n\t\t\n\t\n\t\n\t\tRespiration\n\t\t\n\t\t\t94\n\t\t\t\n\t\t\t2017\n\t\t\n\t\n\tThis is an extensive review of 3D printing of stents",
+      "Treatment of posttransplant complex airway stenosis with a three-dimensional, computer-assisted customized airway stent\n\t\t\n\t\t\tNGuibert\n\t\t\n\t\t\n\t\t\tADidier\n\t\t\n\t\t\n\t\t\tBMoreno\n\t\t\n\t\n\t\n\t\tAm J Respir Crit Care Med\n\t\t\n\t\t\t195\n\t\t\t\n\t\t\t2017",
+      "Three-dimensional modeled T-tube design and insertion in a patient with tracheal dehiscence\n\t\t\n\t\t\tGZCheng\n\t\t\n\t\t\n\t\t\tEFolch\n\t\t\n\t\t\n\t\t\tRBrik\n\t\t\n\t\n\t\n\t\tChest\n\t\t\n\t\t\t148\n\t\t\t\n\t\t\t2015",
+      "Mitigation of tracheobronchomalacia with 3D-printed personalized medical devices in pediatric patients\n\t\t\n\t\t\tRJMorrison\n\t\t\n\t\t\n\t\t\tSJHollister\n\t\t\n\t\t\n\t\t\tMFNiedner\n\t\t\n\t\n\t\n\t\tSci Transl Med\n\t\t\n\t\t\t7\n\t\t\t\n\t\t\t2015",
+      "Identifier NCT02889029, Management of complex airway stenoses with dedicated tailored stents wrought by 3d computer-assisted conception\n\t\t\n\t\t\n\t\t\t2000. 2016 Sept 5\n\t\t\tNational Library of Medicine (US)\n\t\t\tBethesda (MD\n\t\t\n\t\n\tInternet cited 27 Jan 2018 about 5 screens",
+      "Three-dimensional printing and 3D slicer powerful tools in understanding and treating structural lung disease\n\t\t\n\t\t\tGZCheng\n\t\t\n\t\t\n\t\t\tRSEstepar\n\t\t\n\t\t\n\t\t\tEFolch\n\t\t\n\t\n\t\n\t\tChest\n\t\t\n\t\t\t149\n\t\t\t\n\t\t\t2016\n\t\t\n\t\n\tThis is an extensive review of 3D printing of stents",
+      "Paclitaxel drug-eluting tracheal stent could reduce granulation tissue formation in a canine model\n\t\t\n\t\t\tTWang\n\t\t\n\t\t\n\t\t\tJZhang\n\t\t\n\t\t\n\t\t\tJWang\n\t\t\n\t\n\t\n\t\tChin Med J (Engl)\n\t\t\n\t\t\t129\n\t\t\t\n\t\t\t2016",
+      "Biodegradable cisplatin-eluting tracheal stent for malignant airway obstruction: in vivo and in vitro studies\n\t\t\n\t\t\tYKChao\n\t\t\n\t\t\n\t\t\tKSLiu\n\t\t\n\t\t\n\t\t\tYCWang\n\t\t\n\t\n\t\n\t\tChest\n\t\t\n\t\t\t144\n\t\t\t\n\t\t\t2013",
+      "A novel bioabsorbable drug-eluting tracheal stent\n\t\t\n\t\t\tGHZhu\n\t\t\n\t\t\n\t\t\tAHNg\n\t\t\n\t\t\n\t\t\tSSVenkatraman\n\t\t\n\t\n\t\n\t\tLaryngoscope\n\t\t\n\t\t\t121\n\t\t\t\n\t\t\t2011",
+      "Cell viability of fibroblasts to pifenidone and sirolimus: a future concept for drug eluting stents\n\t\t\n\t\t\tRFWalter\n\t\t\n\t\t\n\t\t\tPZarogoulidis\n\t\t\n\t\t\n\t\t\tFDMairinger\n\t\t\n\t\n\t\n\t\tInt J Pharm\n\t\t\n\t\t\t466\n\t\t\t1-2\n\t\t\t\n\t\t\t2014",
+      "Drug eluting stents for malignant airway obstruction: a critical review of the literature\n\t\t\n\t\t\tWHohenforst-Schmidt\n\t\t\n\t\t\n\t\t\tPZarogoulidis\n\t\t\n\t\t\n\t\t\tGPitsiou\n\t\t\n\t\n\t\n\t\tJ Cancer\n\t\t\n\t\t\t7\n\t\t\t\n\t\t\t2016",
+      "Learning from the cardiologists and developing eluting stents targeting the motor pathway for pulmonary application: a future concept for tracheal stenosis\n\t\t\n\t\t\tPZarogoulidis\n\t\t\n\t\t\n\t\t\tKDarwiche\n\t\t\n\t\t\n\t\t\tKTsakiridis\n\t\t\n\t\n\t\n\t\tJ Mol Genet Med\n\t\t\n\t\t\t7\n\t\t\t\n\t\t\t2013",
+      "Stent-mediated gene delivery for sitespecific transgene administration to the airway epithelium and management of tracheobronchial tumors\n\t\t\n\t\t\tRJKruklitis\n\t\t\n\t\t\n\t\t\tIFishbein\n\t\t\n\t\t\n\t\t\tSSinghal\n\t\t\n\t\n\t\n\t\tRespiration\n\t\t\n\t\t\t88\n\t\t\t\n\t\t\t2014",
+      "Novel biodegradable stents in the treatment of bronchial stenosis after lung transplantation\n\t\t\n\t\t\tRLischke\n\t\t\n\t\t\n\t\t\tJPozniak\n\t\t\n\t\t\n\t\t\tDVondrys\n\t\t\n\t\n\t\n\t\tEur J Cardiothorac Surg\n\t\t\n\t\t\t40\n\t\t\t\n\t\t\t2011",
+      "Biodegradable stents after lung transplantation\n\t\t\n\t\t\tTFuehner\n\t\t\n\t\t\n\t\t\tHSuhling\n\t\t\n\t\t\n\t\t\tMGreer\n\t\t\n\t\n\t\n\t\tTranspl Int\n\t\t\n\t\t\t26\n\t\t\t\n\t\t\t2013",
+      "Clinical success stenting distal bronchi for 'lobar salvage' in bronchial stenosis\n\t\t\n\t\t\tSSethi\n\t\t\n\t\t\n\t\t\tTRGildea\n\t\t\n\t\t\n\t\t\tFAAlmeida\n\t\t\n\t\n\t\n\t\tJ Bronchology Interv Pulmonol\n\t\t\n\t\t\t25\n\t\t\t\n\t\t\t2018",
+      "Covered balloon-expanding stents in airway stenosis\n\t\t\n\t\t\tAMajid\n\t\t\n\t\t\n\t\t\tFKheir\n\t\t\n\t\t\n\t\t\tJChung\n\t\t\n\t\n\t\n\t\tJ Bronchology Interv Pulmonol\n\t\t\n\t\t\t24\n\t\t\t\n\t\t\t2017",
+      "Long-term outcome of short metallic stents for lobar airway stenosis\n\t\t\n\t\t\tOFruchter\n\t\t\n\t\t\n\t\t\tAbedElRaouf\n\t\t\n\t\t\n\t\t\tBRosengarten\n\t\t\n\t\t\n\t\t\tDKramer\n\t\t\n\t\t\n\t\t\tMR\n\t\t\n\t\n\t\n\t\tJ Bronchology Interv Pulmonol\n\t\t\n\t\t\t24\n\t\t\t\n\t\t\t2017",
+      "Distal airway stenting: how far is too far?\n\t\t\n\t\t\tACArgento\n\t\t\n\t\t\n\t\t\tJTPuchalski\n\t\t\n\t\n\t\n\t\tJ Bronchology Interv Pulmonol\n\t\t\n\t\t\t22\n\t\t\t\n\t\t\t2015",
+      "Bronchial anthracofibrosis: treatment using airway stents\n\t\t\n\t\t\tBAEl Raouf\n\t\t\n\t\t\n\t\t\tMRKramer\n\t\t\n\t\t\n\t\t\tOFruchter\n\t\t\n\t\n\t\n\t\tInt J Tuberc Lung Dis\n\t\t\n\t\t\t17\n\t\t\t\n\t\t\t2013"
+    ],
+    "references_struct": [
+      {
+        "title": "Malignant central airway obstruction",
+        "journal": "Principles and Practice of Interventional Pulmonology",
+        "year": "2013",
+        "volume": null,
+        "issue": null,
+        "pages": null,
+        "doi": null,
+        "pmid": null,
+        "authors": [
+          "Michaud G"
+        ],
+        "first_author_last": "Michaud"
+      },
+      {
+        "title": "Therapeutic bronchoscopy for malignant central airway obstruction: success rates and impact on dyspnea and quality of life",
+        "journal": "Chest",
+        "year": "2015",
+        "volume": "147",
+        "issue": null,
+        "pages": null,
+        "doi": null,
+        "pmid": null,
+        "authors": [
+          "Ost DE",
+          "Ernst A",
+          "Grosu HB"
+        ],
+        "first_author_last": "Ost"
+      },
+      {
+        "title": "Central airway obstruction: benign strictures, tracheobronchomalacia, and malignancy-related obstruction",
+        "journal": "Chest",
+        "year": "2016",
+        "volume": "150",
+        "issue": null,
+        "pages": null,
+        "doi": null,
+        "pmid": null,
+        "authors": [
+          "&& Murgu SD",
+          "Egressy K",
+          "Laxmanan B"
+        ],
+        "first_author_last": "&&"
+      },
+      {
+        "title": "benign and malignant central airway obstruction",
+        "journal": "benign and malignant central airway obstruction",
+        "year": null,
+        "volume": null,
+        "issue": null,
+        "pages": null,
+        "doi": null,
+        "pmid": null,
+        "authors": [],
+        "first_author_last": null
+      },
+      {
+        "title": "Complications following therapeutic bronchoscopy for malignant central airway obstruction: results of the AQuIRE registry",
+        "journal": "Chest",
+        "year": "2015",
+        "volume": "148",
+        "issue": null,
+        "pages": null,
+        "doi": null,
+        "pmid": null,
+        "authors": [
+          "Ost DE",
+          "Ernst A",
+          "Grosu HB"
+        ],
+        "first_author_last": "Ost"
+      },
+      {
+        "title": "Tracheobronchial stenting in the terminal care of cancer patients with central airways obstruction",
+        "journal": "Chest",
+        "year": "2001",
+        "volume": "120",
+        "issue": null,
+        "pages": null,
+        "doi": null,
+        "pmid": null,
+        "authors": [
+          "Vonk-Noordegraaf A",
+          "Postmus PE",
+          "Sutedja TG"
+        ],
+        "first_author_last": "Vonk-Noordegraaf"
+      },
+      {
+        "title": "Stents are associated with increased risk of respiratory infections in patients undergoing airway interventions for malignant airways disease",
+        "journal": "Chest",
+        "year": "2013",
+        "volume": "144",
+        "issue": null,
+        "pages": null,
+        "doi": null,
+        "pmid": null,
+        "authors": [
+          "Grosu HB",
+          "Eapen GA",
+          "Morice RC"
+        ],
+        "first_author_last": "Grosu"
+      },
+      {
+        "title": "Respiratory infections increase the risk of granulation tissue formation following airway stenting in patients with malignant airway obstruction",
+        "journal": "Chest",
+        "year": "2012",
+        "volume": "141",
+        "issue": null,
+        "pages": null,
+        "doi": null,
+        "pmid": null,
+        "authors": [
+          "Ost DE",
+          "Shah AM",
+          "Lei X"
+        ],
+        "first_author_last": "Ost"
+      },
+      {
+        "title": "Towards individualized tracheobronchial stents: technical, practical and legal considerations",
+        "journal": "Respiration",
+        "year": "2017",
+        "volume": "94",
+        "issue": null,
+        "pages": null,
+        "doi": null,
+        "pmid": null,
+        "authors": [
+          "Freitag L",
+          "Gordes M",
+          "Zarogoulidis P"
+        ],
+        "first_author_last": "Freitag"
+      },
+      {
+        "title": "Treatment of posttransplant complex airway stenosis with a three-dimensional, computer-assisted customized airway stent",
+        "journal": "Am J Respir Crit Care Med",
+        "year": "2017",
+        "volume": "195",
+        "issue": null,
+        "pages": null,
+        "doi": null,
+        "pmid": null,
+        "authors": [
+          "Guibert N",
+          "Didier A",
+          "Moreno B"
+        ],
+        "first_author_last": "Guibert"
+      },
+      {
+        "title": "Three-dimensional modeled T-tube design and insertion in a patient with tracheal dehiscence",
+        "journal": "Chest",
+        "year": "2015",
+        "volume": "148",
+        "issue": null,
+        "pages": null,
+        "doi": null,
+        "pmid": null,
+        "authors": [
+          "Cheng GZ",
+          "Folch E",
+          "Brik R"
+        ],
+        "first_author_last": "Cheng"
+      },
+      {
+        "title": "Mitigation of tracheobronchomalacia with 3D-printed personalized medical devices in pediatric patients",
+        "journal": "Sci Transl Med",
+        "year": "2015",
+        "volume": "7",
+        "issue": null,
+        "pages": null,
+        "doi": null,
+        "pmid": null,
+        "authors": [
+          "Morrison RJ",
+          "Hollister SJ",
+          "Niedner MF"
+        ],
+        "first_author_last": "Morrison"
+      },
+      {
+        "title": "Identifier NCT02889029, Management of complex airway stenoses with dedicated tailored stents wrought by 3d computer-assisted conception",
+        "journal": "Identifier NCT02889029, Management of complex airway stenoses with dedicated tailored stents wrought by 3d computer-assisted conception",
+        "year": "2000",
+        "volume": null,
+        "issue": null,
+        "pages": null,
+        "doi": null,
+        "pmid": null,
+        "authors": [],
+        "first_author_last": null
+      },
+      {
+        "title": "Three-dimensional printing and 3D slicer powerful tools in understanding and treating structural lung disease",
+        "journal": "Chest",
+        "year": "2016",
+        "volume": "149",
+        "issue": null,
+        "pages": null,
+        "doi": null,
+        "pmid": null,
+        "authors": [
+          "Cheng GZ",
+          "Estepar RS",
+          "Folch E"
+        ],
+        "first_author_last": "Cheng"
+      },
+      {
+        "title": "Paclitaxel drug-eluting tracheal stent could reduce granulation tissue formation in a canine model",
+        "journal": "Chin Med J (Engl)",
+        "year": "2016",
+        "volume": "129",
+        "issue": null,
+        "pages": null,
+        "doi": null,
+        "pmid": null,
+        "authors": [
+          "Wang T",
+          "Zhang J",
+          "Wang J"
+        ],
+        "first_author_last": "Wang"
+      },
+      {
+        "title": "Biodegradable cisplatin-eluting tracheal stent for malignant airway obstruction: in vivo and in vitro studies",
+        "journal": "Chest",
+        "year": "2013",
+        "volume": "144",
+        "issue": null,
+        "pages": null,
+        "doi": null,
+        "pmid": null,
+        "authors": [
+          "Chao YK",
+          "Liu KS",
+          "Wang YC"
+        ],
+        "first_author_last": "Chao"
+      },
+      {
+        "title": "A novel bioabsorbable drug-eluting tracheal stent",
+        "journal": "Laryngoscope",
+        "year": "2011",
+        "volume": "121",
+        "issue": null,
+        "pages": null,
+        "doi": null,
+        "pmid": null,
+        "authors": [
+          "Zhu GH",
+          "Ng AH",
+          "Venkatraman SS"
+        ],
+        "first_author_last": "Zhu"
+      },
+      {
+        "title": "Cell viability of fibroblasts to pifenidone and sirolimus: a future concept for drug eluting stents",
+        "journal": "Int J Pharm",
+        "year": "2014",
+        "volume": "466",
+        "issue": "1-2",
+        "pages": null,
+        "doi": null,
+        "pmid": null,
+        "authors": [
+          "Walter RF",
+          "Zarogoulidis P",
+          "Mairinger FD"
+        ],
+        "first_author_last": "Walter"
+      },
+      {
+        "title": "Drug eluting stents for malignant airway obstruction: a critical review of the literature",
+        "journal": "J Cancer",
+        "year": "2016",
+        "volume": "7",
+        "issue": null,
+        "pages": null,
+        "doi": null,
+        "pmid": null,
+        "authors": [
+          "Hohenforst-Schmidt W",
+          "Zarogoulidis P",
+          "Pitsiou G"
+        ],
+        "first_author_last": "Hohenforst-Schmidt"
+      },
+      {
+        "title": "Learning from the cardiologists and developing eluting stents targeting the motor pathway for pulmonary application: a future concept for tracheal stenosis",
+        "journal": "J Mol Genet Med",
+        "year": "2013",
+        "volume": "7",
+        "issue": null,
+        "pages": null,
+        "doi": null,
+        "pmid": null,
+        "authors": [
+          "Zarogoulidis P",
+          "Darwiche K",
+          "Tsakiridis K"
+        ],
+        "first_author_last": "Zarogoulidis"
+      },
+      {
+        "title": "Stent-mediated gene delivery for sitespecific transgene administration to the airway epithelium and management of tracheobronchial tumors",
+        "journal": "Respiration",
+        "year": "2014",
+        "volume": "88",
+        "issue": null,
+        "pages": null,
+        "doi": null,
+        "pmid": null,
+        "authors": [
+          "Kruklitis RJ",
+          "Fishbein I",
+          "Singhal S"
+        ],
+        "first_author_last": "Kruklitis"
+      },
+      {
+        "title": "Novel biodegradable stents in the treatment of bronchial stenosis after lung transplantation",
+        "journal": "Eur J Cardiothorac Surg",
+        "year": "2011",
+        "volume": "40",
+        "issue": null,
+        "pages": null,
+        "doi": null,
+        "pmid": null,
+        "authors": [
+          "Lischke R",
+          "Pozniak J",
+          "Vondrys D"
+        ],
+        "first_author_last": "Lischke"
+      },
+      {
+        "title": "Biodegradable stents after lung transplantation",
+        "journal": "Transpl Int",
+        "year": "2013",
+        "volume": "26",
+        "issue": null,
+        "pages": null,
+        "doi": null,
+        "pmid": null,
+        "authors": [
+          "Fuehner T",
+          "Suhling H",
+          "Greer M"
+        ],
+        "first_author_last": "Fuehner"
+      },
+      {
+        "title": "Clinical success stenting distal bronchi for 'lobar salvage' in bronchial stenosis",
+        "journal": "J Bronchology Interv Pulmonol",
+        "year": "2018",
+        "volume": "25",
+        "issue": null,
+        "pages": null,
+        "doi": null,
+        "pmid": null,
+        "authors": [
+          "Sethi S",
+          "Gildea TR",
+          "Almeida FA"
+        ],
+        "first_author_last": "Sethi"
+      },
+      {
+        "title": "Covered balloon-expanding stents in airway stenosis",
+        "journal": "J Bronchology Interv Pulmonol",
+        "year": "2017",
+        "volume": "24",
+        "issue": null,
+        "pages": null,
+        "doi": null,
+        "pmid": null,
+        "authors": [
+          "Majid A",
+          "Kheir F",
+          "Chung J"
+        ],
+        "first_author_last": "Majid"
+      },
+      {
+        "title": "Long-term outcome of short metallic stents for lobar airway stenosis",
+        "journal": "J Bronchology Interv Pulmonol",
+        "year": "2017",
+        "volume": "24",
+        "issue": null,
+        "pages": null,
+        "doi": null,
+        "pmid": null,
+        "authors": [
+          "Fruchter O",
+          "Raouf AE",
+          "Rosengarten B",
+          "Kramer D",
+          "MR"
+        ],
+        "first_author_last": "Fruchter"
+      },
+      {
+        "title": "Distal airway stenting: how far is too far?",
+        "journal": "J Bronchology Interv Pulmonol",
+        "year": "2015",
+        "volume": "22",
+        "issue": null,
+        "pages": null,
+        "doi": null,
+        "pmid": null,
+        "authors": [
+          "Argento AC",
+          "Puchalski JT"
+        ],
+        "first_author_last": "Argento"
+      },
+      {
+        "title": "Bronchial anthracofibrosis: treatment using airway stents",
+        "journal": "Int J Tuberc Lung Dis",
+        "year": "2013",
+        "volume": "17",
+        "issue": null,
+        "pages": null,
+        "doi": null,
+        "pmid": null,
+        "authors": [
+          "El Raouf BA",
+          "Kramer MR",
+          "Fruchter O"
+        ],
+        "first_author_last": "El"
+      }
+    ],
+    "abstract": "Airway stents must be judiciously used, but we now have data that help guide patient selection and that inform us of what potential complications may occur and when. Stents are under development with newer properties that may extend the therapeutic reach of these interventions.",
+    "references_enriched": [
+      {
+        "title": "Malignant central airway obstruction"
+      },
+      {
+        "title": "Principles and Practice of Interventional Pulmonology",
+        "year": 2013
+      },
+      {
+        "title": "Therapeutic bronchoscopy for malignant central airway obstruction: success rates and impact on dyspnea and quality of life",
+        "year": 2013
+      },
+      {
+        "title": "Chest",
+        "year": 2015
+      },
+      {
+        "title": "Central airway obstruction: benign strictures, tracheobronchomalacia, and malignancy-related obstruction",
+        "year": 2015
+      },
+      {
+        "title": "Chest",
+        "year": 2015
+      },
+      {
+        "title": "benign and malignant central airway obstruction",
+        "year": 2016
+      },
+      {
+        "title": "Complications following therapeutic bronchoscopy for malignant central airway obstruction: results of the AQuIRE registry",
+        "year": 2016
+      },
+      {
+        "title": "Chest",
+        "year": 2015
+      },
+      {
+        "title": "Tracheobronchial stenting in the terminal care of cancer patients with central airways obstruction",
+        "year": 2015
+      },
+      {
+        "title": "Chest",
+        "year": 2015
+      },
+      {
+        "title": "Stents are associated with increased risk of respiratory infections in patients undergoing airway interventions for malignant airways disease",
+        "year": 2001
+      },
+      {
+        "title": "Chest",
+        "year": 2015
+      },
+      {
+        "title": "Respiratory infections increase the risk of granulation tissue formation following airway stenting in patients with malignant airway obstruction",
+        "year": 2013
+      },
+      {
+        "title": "Chest",
+        "year": 2015
+      },
+      {
+        "title": "Towards individualized tracheobronchial stents: technical, practical and legal considerations",
+        "year": 2012
+      },
+      {
+        "title": "Respiration",
+        "year": 2017
+      },
+      {
+        "title": "Treatment of posttransplant complex airway stenosis with a three-dimensional, computer-assisted customized airway stent",
+        "year": 2017
+      },
+      {
+        "title": "Am J Respir Crit Care Med",
+        "year": 2017
+      },
+      {
+        "title": "Three-dimensional modeled T-tube design and insertion in a patient with tracheal dehiscence",
+        "year": 2017
+      },
+      {
+        "title": "Chest",
+        "year": 2015
+      },
+      {
+        "title": "Mitigation of tracheobronchomalacia with 3D-printed personalized medical devices in pediatric patients",
+        "year": 2015
+      },
+      {
+        "title": "Sci Transl Med",
+        "year": 2015
+      },
+      {
+        "title": "Identifier NCT02889029, Management of complex airway stenoses with dedicated tailored stents wrought by 3d computer-assisted conception",
+        "year": 2015
+      },
+      {
+        "title": "Three-dimensional printing and 3D slicer powerful tools in understanding and treating structural lung disease"
+      },
+      {
+        "title": "Chest",
+        "year": 2015
+      },
+      {
+        "title": "Paclitaxel drug-eluting tracheal stent could reduce granulation tissue formation in a canine model",
+        "year": 2016
+      },
+      {
+        "title": "Chin Med J (Engl)",
+        "year": 2016
+      },
+      {
+        "title": "Biodegradable cisplatin-eluting tracheal stent for malignant airway obstruction: in vivo and in vitro studies",
+        "year": 2016
+      },
+      {
+        "title": "Chest",
+        "year": 2015
+      },
+      {
+        "title": "A novel bioabsorbable drug-eluting tracheal stent",
+        "year": 2013
+      },
+      {
+        "title": "Laryngoscope",
+        "year": 2011
+      },
+      {
+        "title": "Cell viability of fibroblasts to pifenidone and sirolimus: a future concept for drug eluting stents",
+        "year": 2011
+      },
+      {
+        "title": "Int J Pharm",
+        "year": 2014
+      },
+      {
+        "title": "Drug eluting stents for malignant airway obstruction: a critical review of the literature",
+        "year": 2014
+      },
+      {
+        "title": "J Cancer",
+        "year": 2016
+      },
+      {
+        "title": "Learning from the cardiologists and developing eluting stents targeting the motor pathway for pulmonary application: a future concept for tracheal stenosis",
+        "year": 2016
+      },
+      {
+        "title": "J Mol Genet Med",
+        "year": 2013
+      },
+      {
+        "title": "Stent-mediated gene delivery for sitespecific transgene administration to the airway epithelium and management of tracheobronchial tumors",
+        "year": 2013
+      },
+      {
+        "title": "Respiration",
+        "year": 2017
+      },
+      {
+        "title": "Novel biodegradable stents in the treatment of bronchial stenosis after lung transplantation",
+        "year": 2014
+      },
+      {
+        "title": "Eur J Cardiothorac Surg",
+        "year": 2011
+      },
+      {
+        "title": "Biodegradable stents after lung transplantation",
+        "year": 2011
+      },
+      {
+        "title": "Transpl Int",
+        "year": 2013
+      },
+      {
+        "title": "Clinical success stenting distal bronchi for &apos;lobar salvage&apos; in bronchial stenosis",
+        "year": 2013
+      },
+      {
+        "title": "J Bronchology Interv Pulmonol",
+        "year": 2018
+      },
+      {
+        "title": "Covered balloon-expanding stents in airway stenosis",
+        "year": 2018
+      },
+      {
+        "title": "J Bronchology Interv Pulmonol",
+        "year": 2018
+      },
+      {
+        "title": "Long-term outcome of short metallic stents for lobar airway stenosis",
+        "year": 2017
+      },
+      {
+        "title": "J Bronchology Interv Pulmonol",
+        "year": 2018
+      },
+      {
+        "title": "Distal airway stenting: how far is too far?",
+        "year": 2017
+      },
+      {
+        "title": "J Bronchology Interv Pulmonol",
+        "year": 2018
+      },
+      {
+        "title": "Bronchial anthracofibrosis: treatment using airway stents",
+        "year": 2015
+      },
+      {
+        "title": "Int J Tuberc Lung Dis",
+        "year": 2013
+      }
+    ],
+    "references_source": "grobid_fallback",
+    "year_norm": "2018",
+    "doi": "10.1097/mcp.0000000000000486",
+    "journal": "Current Opinion in Pulmonary Medicine",
+    "volume": "24",
+    "issue": "4",
+    "pages": "343-349",
+    "issn": "1070-5287",
+    "url": "https://journals.lww.com/00063198-201807000-00005",
+    "published": {
+      "print": null,
+      "online": "2018-07"
+    },
+    "journal_full": "Current Opinion in Pulmonary Medicine"
+  },
+  "structure": {
+    "sections": [
+      {
+        "title": "Update on airway stents",
+        "paragraphs": [
+          {
+            "text": "Bruce F. Sabath and David E. Ost"
+          }
+        ],
+        "category": "other"
+      },
+      {
+        "title": "Purpose of review",
+        "paragraphs": [
+          {
+            "text": "The current review describes the latest evidence regarding the use of stents for malignant airway obstruction."
+          }
+        ],
+        "category": "other"
+      },
+      {
+        "title": "Recent findings",
+        "paragraphs": [
+          {
+            "text": "Therapeutic bronchoscopy, including stenting, can restore patency in up to 93% of patients with malignant central airway obstruction. The patients that benefit the most are those with worse baseline dyspnea, higher American Society of Anesthesiology score, poorer functional status, and central obstruction (rather than lobar). Early complications are relatively rare with stent placement, whereas late complications are not. Stents are a risk factor for lower respiratory tract infection, which, in turn, is a negative prognostic factor in terms of survival. Recent research has seen the development of personalized stents via three-dimensional printing, mini stents for more distal airways, and stents with drug-eluting and biodegradable properties."
+          }
+        ],
+        "category": "results"
+      },
+      {
+        "title": "Summary",
+        "paragraphs": [
+          {
+            "text": "Airway stents must be judiciously used, but we now have data that help guide patient selection and that inform us of what potential complications may occur and when. Stents are under development with newer properties that may extend the therapeutic reach of these interventions."
+          }
+        ],
+        "category": "abstract"
+      },
+      {
+        "title": "Keywords",
+        "paragraphs": [
+          {
+            "text": "malignant airway obstruction, stent, therapeutic bronchoscopy"
+          }
+        ],
+        "category": "other"
+      },
+      {
+        "title": "INTRODUCTION",
+        "paragraphs": [
+          {
+            "text": "Central airway obstruction (CAO) is defined as narrowing of the trachea, main stem bronchi, or the bronchus intermedius [1]. Some definitions have included the lobar bronchi as well [2]. Benign causes include postintubation or post-tracheostomy tracheal stenosis, lung transplant-related strictures, and autoimmune processes (e.g. granulomatosis with polyangiitis) [3 && ]. Malignant causes include both primary lung cancers and disease metastatic to the lung."
+          },
+          {
+            "text": "Approximately 80000 cases of malignant CAO occur in the United States each year, with one-third of nonsmall cell lung cancers initially presenting with CAO [1]. Airway metastasis from nonlung cancers is not uncommon either. Those cancers with the greatest predilection for the airways include cancers of the digestive tract, breast cancer, and renal cell carcinoma [1]."
+          },
+          {
+            "text": "Various therapeutic modalities are available for CAO, including surgery, different ablative techniques, and tools for mechanical debulking. Airway stenting is usually reserved for cases in which these techniques alone are inadequate and requires careful patient and stent selection in addition to procedural expertise and awareness of potential complications. This article will review the recent literature on airway"
+          },
+          {
+            "text": "stents for malignant CAO. Stenting for CAO in benign disease has been covered elsewhere [3 && ]."
+          }
+        ],
+        "category": "introduction"
+      },
+      {
+        "title": "INDICATIONS AND PATIENT SELECTION",
+        "paragraphs": [
+          {
+            "text": "There are two broad categories of indications for stents. One is obstruction of the airway lumen. Masses outside of the airway can cause extrinsic compression. Masses can also reside inside the lumen, causing intrinsic obstruction. A mixed pattern of both can also occur. Additionally, loss of airway wall strength, such as in tracheobronchomalacia, can lead to airway collapse and obstruction of the lumen. Pure extrinsic compression and wall collapse are treated with stenting if severe enough. Pure intrinsic obstruction can often be dealt with by endoluminal ablative and debulking approaches"
+          },
+          {
+            "text": "Department of Pulmonary Medicine, The University of Texas MD Anderson Cancer Center, Houston, Texas, USA"
+          },
+          {
+            "text": "Correspondence to David E. Ost, MD, MPH, Department of Pulmonary Medicine, The University of Texas MD Anderson Cancer Center, 1515 Holcombe Blvd., Unit 1462, Houston, TX 77030, USA. Tel: +1 713 792 3962; e-mail: dost@mdanderson.org"
+          },
+          {
+            "text": "DOI:10.1097/MCP.0000000000000486"
+          },
+          {
+            "text": "www.co-pulmonarymedicine.com"
+          },
+          {
+            "text": "alone. Mixed patterns of disease often require multiple modalities of intervention."
+          },
+          {
+            "text": "A second indication is due to a defect in the airway wall. Broncho-esophageal fistulae or anastomotic dehiscence after lung transplantation can leave significant breaches in the airway wall. This can then lead to even more complications downstream. These disease states can potentially be treated with stenting."
+          },
+          {
+            "text": "Avariety of airway stents are commercially available. They are broadly categorized based on their composition - silicone or metal. Within these categories, there are subtle but important differences that can have clinical implications (Fig. 1). No one stent is suitable for all conditions; each has its advantages and disadvantages.",
+            "cross_refs": [
+              {
+                "type": "figure",
+                "index": 0,
+                "text": "Fig. 1",
+                "span": [
+                  236,
+                  242
+                ]
+              }
+            ]
+          },
+          {
+            "text": "Several factors must be considered together to determine if and when to proceed with stent placement. One is whether the observed airway disease is significant enough to explain the patient's symptoms. Generally, central airway size must be reduced by approximately 50% before symptoms will arise [1]. Reduction in tracheal lumen diameter to approximately 8mm will often produce dyspnea on exertion; lumen size of 5 mm or less usually leads to dyspnea at rest [1]. If a lesion is physiologically significant enough to cause burdensome dyspnea, intervention should be considered."
+          },
+          {
+            "text": "Alternatively, an airway lesion may be present without causing sufficient obstruction to cause a patient's dyspnea (or it may be only a minor cause). In this case, observation alone may be warranted. An important caveat to keep in mind, however, is whether postponing an intervention would lead to a more difficult or riskier procedure later. If other"
+          },
+          {
+            "text": "interventions that address the malignant CAO are either not feasible or not timely in terms of their effect on dyspnea (e.g. chemotherapy for lymphoma), then timely bronchoscopic intervention before the patient is in extremis should be considered. A recent study demonstrated that urgent and emergent therapeutic bronchoscopy is associated with higher rates of complications than elective procedures [4]."
+          },
+          {
+            "text": "Several other factors must also be considered when contemplating stent placement. Although immediate complications are relatively rare after therapeutic bronchoscopy, long-term complications are not. These include infection, formation of granulation tissue, and stent migration - any of which may require repeat bronchoscopy in already debilitated patients (see below for a detailed description of complications based on recent data). Similar consideration must also be given to the fact that stent placement often requires general anesthesia. Importantly, patients with malignant CAO have limited life expectancy and may have specific goals of care that need to be heeded. This is not to suggest that stent placement is a poor choice in someone with a poor prognosis. There can be a definite palliative benefit of stents for dyspneic patients with malignant CAO at the end of life [5]. Finally, from a technical standpoint, there must be patent airways distal to the area of obstruction for stent placement to be successful; if distal patency is not present, stenting will be of no benefit. This can be determined by preprocedural imaging in some circumstances, although often this cannot be known with certainty until the time of bronchoscopy. All of these factors must be considered to make an individualized decision for each patient."
+          },
+          {
+            "text": "Recent data are available to help inform the patient selection process [2]. Via the multicenter American College of Chest Physicians Quality Improvement Registry, Evaluation, and Education (AQuIRE) registry, Ost et al. appraised 1115 therapeutic bronchoscopy procedures in 947 patients with malignant central airway obstruction at 15 centers. One-third of these cases included stent placement. Technical success, defined as having airway patency restored, was achieved in 93% of patients. Stenting was associated with the highest rates of successful restoration of airway patency. Interestingly, those patients with higher baseline dyspnea (Borg score) and nonlobar obstruction had greater improvements in dyspnea and healthrelated quality of life after therapeutic bronchoscopy. Moreover, patients with higher American Society of Anesthesiology (ASA) score and poorer functional status also had greater improvements in health-related quality of life. Hence, the patients"
+          }
+        ],
+        "category": "other"
+      },
+      {
+        "title": "KEY POINTS",
+        "paragraphs": [
+          {
+            "text": "/C15 Airway stenting, among other therapeutic modalities, has the highest success rate for restoring airway patency in malignant central airway obstruction."
+          },
+          {
+            "text": "/C15 Early complications of stenting are rare, but late complications are not. The most common late complications include infection, migration, and granulation tissue formation."
+          },
+          {
+            "text": "/C15 Lower respiratory tract infection following airway stenting is associated with decreased survival."
+          },
+          {
+            "text": "/C15 Stents under development are more versatile, with 3D printed stents able to fit more anatomically complex airways, mini stents able to reach smaller airways, and biodegradable and drug-eluting stents able to offer more therapeutic options to patients who may be poor candidates for more aggressive measures (such as repeat bronchoscopy or chemotherapy, respectively)."
+          }
+        ],
+        "category": "other"
+      },
+      {
+        "title": "Downloaded from http://journals.lww.com/co-pulmonarymedicine by BhDMf5ePHKav1zEoum1tQfN4a+kJLhEZgbsI Ho4XMi0hCywCX1AWnYQp/IlQrHD3i3D0OdRyi7TvSFl4Cf3VC1y0abggQZXdtwnfKZBYtws= on 07/18/2024",
+        "paragraphs": [
+          {
+            "text": "perceived as being at greatest risk for these procedures have the greatest potential to gain from them. This is an important finding. These patients should not be too quickly discounted as candidates for therapeutic bronchoscopy, including stenting. They may be the very ones who will respond the most to such interventions."
+          },
+          {
+            "text": "In sum, there are various factors to be considered when evaluating a patient for airway stenting including type and severity of obstruction, potential complications, the timing of intervention, and the pretest probability of how much the patient stands to benefit from the proposed procedure."
+          }
+        ],
+        "category": "other"
+      },
+      {
+        "title": "COMPLICATIONS",
+        "paragraphs": [
+          {
+            "text": "Anotherrecentadvancementhasbeeninunderstandingthecomplicationsoftherapeuticbronchoscopyin malignant central airway obstruction, including stenting, and associated risk factors. A large, multicenter study, also based on the AQuiRE registry, examined the incidence of complications of 1115 procedures performed in 947 patients at 15 centers [4]. CAOwasdefinedasatleast50%obstructionofthe trachea, main stem bronchi, bronchus intermedius, or lobar bronchus. Thirty-six per cent of the 947 patients had any stent placed. Over twice as many metal stents were placed as silicone stents. Overall, there was only a 3.9% short-term complication rate, with a range across centers of 0.9-11.7%. Six patients (0.5%) died due to procedural complications. Risk factors for complications included urgent and emergent procedures, ASA score above 3, redo therapeutic bronchoscopy, and moderate sedation. Unexpected escalation of care occurred in 4.4% of patients, with 1.3% developing unexpected respiratory failure and 0.5% having bleeding requiring intervention. Of note, none of these events were associated with stent placement. Death within 30 days of procedure was associated with stent placement, Eastern Cooperative Oncology Group (ECOG) score above 1, ASA above 3, andintrinsic or mixed obstruction. Withregard tothe association with stent placement, this could be due to the confounding effect of a greater burden of disease, leading to both the need for a stent, and also worse survival. Stents may also have been used in patients who had exhausted all other alternatives due to disease progression. Nonetheless, the authors suggested judicious use of stents."
+          },
+          {
+            "text": "In a relatively recent retrospective analysis measuring incidence rates for respiratory infection in patients with airway stents for malignant CAO, Grosu et al. [6] showed that stent placement, preprocedural obstruction at least 50%, and male sex were associated with development of lower respiratory tract infection (LRTI). Seventy-two patients"
+          },
+          {
+            "text": "with malignant central airway obstruction were included, 24 of whom underwent stent placement. Stent placement and male sex remained as predictors in the multivariate analysis. The incidence rate of LRTI in stented patients was 0.0057 infections per person-day; in nonstented patients, the rate was 0.0011 infections per person-day, giving a statistically significant incidence rate risk difference of 0.0046 infections per day. This corresponds to a 13% increased risk of LRTI per month in stented patients compared with those without stents. In turn, this is equal to one infection for every eight stents placed. Moreover, ECOG at least 2, stenting, and LRTI were associated with decreased survival. However, only LRTI remained associated with survival in the multivariate model. Taken together, given the incidence rate of stent infections and the association of LRTI with death, the emphasis on carefully deciding when to place a stent cannot be overstated."
+          },
+          {
+            "text": "Another relevant study was a retrospective analysis of complications in patients who received airway stents for malignant CAO at a large referral cancer center over a 5.5-year period [7]. One hundred and seventy-two patients underwent 195 stent procedures. Ultraflex metal stents were used in 118 cases (61%), AERO metal stents in 31 (16%), and Dumon silicone stents (both straight and Y-shaped) in 46 (24%). Overall, the most common complications were infection, migration, granulation tissue formation, and mucus plugging. The median time to infection was 1 month; AERO stents seemed to confer an increased risk of infection compared with other stents. Twenty-three per cent of patients with respiratory infection died within 14 days of the infection. For stent migration, the median time to event was 1.4 months. Silicone tube stents had an increased risk of migration compared with metal stents [hazard ratio 3.52, 95% confidence interval (CI) 1.41-8.82, P ¼ 0.007]. Y-stents were not included in this specific analysis as these tend to not migrate because the bronchial limbs hold them in place. The median time to granulation tissue was also 1.4 months. Silicone stents and LRTIs were associated with an increased risk of granulation in the multivariate analysis. Mucus plugging occurred at a median of 1.3 months. Silicone and left-sided stents were associated with increased risk, whereas poststent chemotherapy seemed protective. Tumor overgrowth, hemoptysis, fistula formation, and stent fracture were less common and were not associated with any particular stent type. It is interesting and worth remembering that time to any of the complications listed above was approximately 11.4 months. This could help guide when and how frequently to have patients follow-up after their"
+          },
+          {
+            "text": "procedure to monitor for said complications. In terms of overall survival, silicone stents and tracheal stents were associated with decreased mortality, whereas LRTI and prestent radiation therapy were associated with the converse. Possibly, there was some degree of selection bias associated with silicone stent placement, as these may have been placed in healthier patients who are thereby better able to tolerate the more technically difficult placement of these stents compared with metal stents. Silicone stents are also easier to remove. There may have been a bias toward placing these in patients whose disease burden was expected to improve, thereby allowing stent removal later."
+          },
+          {
+            "text": "The past few years have seen helpful advancements in our understanding of airway stent complications and therapeutic bronchoscopy for malignant CAO. The data can be used to inform clinical decision-making and help to quantify some of the risks associated with airway stents."
+          }
+        ],
+        "category": "other"
+      },
+      {
+        "title": "RECENT ADVANCES IN AIRWAY STENTS",
+        "paragraphs": [
+          {
+            "text": "Other recent developments have been in the design of airway stents, particularly in four areas: threedimensional (3D) printed stents, drug-eluting stents, biodegradable stents, and mini stents."
+          }
+        ],
+        "category": "other"
+      },
+      {
+        "title": "Three-dimensional printed stents",
+        "paragraphs": [
+          {
+            "text": "Three-dimensional printing of stents allows stents to be tailored to an individual's airway anatomy more so than currently available techniques that can customize stents only to a crude, approximate degree. Currently, at the time of bronchoscopy, stents can be cut shorter or have a hole cut to allow ventilation of a side airway. Stents can also be ordered with more specific angles, widths, and lengths, but these usually take several weeks to manufacture and deliver. A 3D printed stent could theoretically be prepared in days or even hours after an airway problem has presented itself and be designed to fit an individual patient's irregular anatomy [8 & ]."
+          },
+          {
+            "text": "There have been recent reports of success in these endeavors in humans. Guibert et al. [9] demonstrated placement of a 3D printed stent into a narrowed and tortuous post-transplant airway that could not be relieved by a traditional stent. The patient noted immediate improvement in dyspnea, quality of life, and lung function. Cheng et al. [10] designed and placed a 3D printed Montgomery T tube into a patient with a similarly complex tracheal anastomotic dehiscence. This tube was much better seated compared with his prior tracheostomy; this likely is the main reason that he was without"
+          },
+          {
+            "text": "granulation tissue or mucus plugging many weeks after discharge. Additionally, while not taking an endoluminal approach, Morrison et al. [11] created 3D airway splints that were surgically placed around main stem bronchi in three infants with tracheobronchomalacia. Two were eventually able to be liberated from mechanical ventilation completely. A feasibility study is currently under way to test this approach in a series of patients [12]."
+          },
+          {
+            "text": "The area of research is still in its infancy but has potential as the field of 3D printing continues to develop. Freitag et al. [8 & ] and Cheng et al. [13 & ] have each recently published very thorough reviews of the process of 3-D printing for the airways."
+          }
+        ],
+        "category": "other"
+      },
+      {
+        "title": "Drug-eluting stents",
+        "paragraphs": [
+          {
+            "text": "The concept of drug-eluting stents for the airway has gained attention because patients with malignant CAO often have exhausted their candidacy for further radiation or cannot tolerate the systemic effects of traditional chemotherapy. Along with the mechanical benefit of the stent itself, sustained release of a cytotoxic drug would provide insitu therapy."
+          },
+          {
+            "text": "The area of research is still in its early stages, but studies in animals have shown some promising results. Recently, Wang et al. [14] randomly assigned eight beagles to receive a bare metal stent or a paclitaxel-eluting stent into the trachea. The dogs were sacrificed at intervals over a course of 5 months. Paclitaxel-treated beagles showed much less granulation tissue than did control dogs, with continued release of the drug into the stented area and the adjacent area. Very low levels of drug were detected elsewhere in the lung, with none detectable in the blood."
+          },
+          {
+            "text": "Other drug-eluting airway stents have been studied in animal models. Cisplatin-eluting stents were studied in rabbits, with 15 stents inserted into the trachea with a measurable, steady release of the drug over several weeks [15]. Serum levels remained low throughout the observation period, and there were only mild mucosal changes on gross examination. Zhu et al. [16] placed tracheal stents eluting the antimitotic drug mitomycin into rabbits and compared these with nonmitomycin stents and nonstented controls. Mitomycin-treated rabbits had the least granulation formation and mucus trapping at 12 weeks compared with the other groups."
+          },
+          {
+            "text": "Various other drugs have been considered for stents, including pirfenidone, which recently was shown to trigger airway fibroblast apoptosis and to reduce cell viability; other agents being studied are those that are currently used in coronary artery drug-eluting stents such as sirolimus and everolimus"
+          },
+          {
+            "text": "[17-19]. Interestingly, not only drugs but genetic material can be transferred via stents. As a proof of concept, Kruklitis et al. [20] transfected reporter and therapeutic genes from an adenoviral vector on a tracheal stent to tracheal mucosa in a rat tumor model. The treated rats showed reduced growth of tracheal tumor, and also a trend toward improved survival."
+          }
+        ],
+        "category": "other"
+      },
+      {
+        "title": "Biodegradable stents",
+        "paragraphs": [
+          {
+            "text": "Biodegradable stents have been successfully used in the urology, gastrointestinal, and cardiology realms. The idea of their use for malignant CAO has appeal, because, given that the goal is palliation, it would allow one to avoid a second procedure for stent removal. Moreover, because these stents do not remain in the airway for a prolonged time, one might theoretically also reduce the rate of late complications (e.g. granulation tissue, infection)."
+          },
+          {
+            "text": "To date, only five studies in humans have been conducted, with mixed results. None of these has been in the setting of malignant CAO. The largest was by Lischke et al. [21], who described a series of 20 stents made of bioresorbable polydioxanone placed in six patients with postlung transplant bronchial stenosis. Stenosis was relieved in all patients, although symptomatic changes were not reported. There were no immediate complications. Four patients ultimately needed restenting due to restenosis at a median time of 5 months. One died of pulmonary embolism; the other five were doing well at 4 years of follow-up with a median interventionfree time of 24 months. Fuehner et al. [22] described a similar series of 10 patients with post-transplant stenosis. Eleven stents were placed, also made of polydioxanone (although several biodegradable polymer options are available). All patients had symptom relief and improvements in lung function and 6-min walk distance. One patient required stent removal at 4 days due to bleeding, and four patients developed in-stent restenosis. However, by 6 months, no patient needed further interventions. Stents were completely degraded by a median of 141 days. Of note, the aforementioned drug-eluting stents developed by Chao et al. [15] and Zhu et al. [16] were biodegradable as well. Further experience is clearly needed, but biodegradable stents may be a viable tool in our armamentarium in the future."
+          }
+        ],
+        "category": "other"
+      },
+      {
+        "title": "Mini stents",
+        "paragraphs": [
+          {
+            "text": "In the past year, there has been increasing attention in the literature to lobar stents - also called 'mini stents.' The rationale is that improving patency could potentially prevent a lobar pneumonia that"
+          },
+          {
+            "text": "could lead to sepsis and/or respiratory failure in already debilitated and immunocompromised patients. Additionally, in lung cancer patients after lung resection, losing a single lobe would be losing a larger percentage of gas exchange area than if they had two full lungs. This same reasoning can be applied for single lung transplant patients who are living with a single functional lung. Therefore, preserving function of a single lobe may be quite beneficial."
+          },
+          {
+            "text": "Sethi et al. recently presented a fairly large series of outcomeswiththeiCASTstent(AtriumMedical,Hudson, New Hampshire, USA) [23]. This is a balloonexpandable, fully covered metallic stent that has been used frequently in the treatment of vascular occlusive disease, but approved recently by the US Food and Drug Administration (FDA) for use in the airway. One hundred and twenty-two stents were placed in 38 patients, half of whom had malignant lobar airway obstruction.Ninety-fivepercentofpatientshadsymptomatic improvement based on questioning during follow-up.Fifteenof16patientswithpulmonaryfunction testing before and after stent placement had an average increase of 12.3% in forced expiratory volume in 1 second. Overall, complications occurred in 20%, and included migration (10%), granulation tissue formation (5%), deployment malfunction (2%), and stent dislodgement immediately after deployment (2%). Of note, no infections were detected, and the authors theorized that this was due to the small size of the stent, thereby minimizing impairment of mucociliary clearance and expectoration."
+          },
+          {
+            "text": "Majid et al. [24] reported on a series of 21 small stents placed in 18 patients. These investigators also used the Atrium iCAST stent. Ninety-five per cent of stents were placed in lobar airways; 72% of patients had malignant stenosis. There was a statistically significant improvement in dyspnea as measured by modified Medical Research Council score, from a median of 3 to 2 after stent placement. Complications included migration (9.5%), granulation tissue (9.5%), mucus plugging (4.8%), and stent crush (4.8%); five stents had to be removed due to complications. Seven stents were removed with patency maintained over a median of 170 days, but how many of these were for malignant versus benign disease was not specified."
+          },
+          {
+            "text": "Finally, Fruchter et al. [25] described a series of 14 patients status post lobar stent, 4 of which were for cancer and 10 for a variety of nonmalignant diseases. Stents used were the SMART nitinol stent (Cordis, Miami, Florida, USA) or Palmaz stent (Johnson & Johnson,NewBrunswick,NewJersey,USA;andInterventional Systems, Warren, New Jersey, USA). There werenoimmediatecomplications.Thirteenofthe14 had improved symptoms (e.g. cough, dyspnea,"
+          },
+          {
+            "text": "quality of life). Only two patients needed unscheduled bronchoscopy for retained secretions. The rest had scheduled bronchoscopy to remove granulation tissue and secretions. One patient had postobstructive PNA due to granulation tissue."
+          },
+          {
+            "text": "Other smaller series have been recently reported as well [26,27]. Current nonrandomized data suggest that they may be helpful in the right clinical context."
+          }
+        ],
+        "category": "other"
+      },
+      {
+        "title": "CONCLUSION",
+        "paragraphs": [
+          {
+            "text": "Themainadvancesinairwaystentinginthe past 1-2 years have been in making stents more versatile, particularly in allowing more complex and smaller airways to be treated. Whether treatment of small airway stenosis is beneficial and worth the risk is still unknown, because only preliminary data are available. For the standard and widely used stents, the advances have been with regard to understanding their complications,success rates, andutility. As both cancer life expectancy and technology increase over time, the incidence of malignant CAO and the tools available for treatment will likelygrow aswell. Airway stents are well seated to bridge these together."
+          }
+        ],
+        "category": "conclusion"
+      },
+      {
+        "title": "Acknowledgements",
+        "paragraphs": [
+          {
+            "text": "None."
+          }
+        ],
+        "category": "other"
+      },
+      {
+        "title": "Financial support and sponsorship",
+        "paragraphs": [
+          {
+            "text": "None."
+          }
+        ],
+        "category": "other"
+      },
+      {
+        "title": "Conflicts of interest",
+        "paragraphs": [
+          {
+            "text": "None."
+          }
+        ],
+        "category": "other"
+      },
+      {
+        "title": "REFERENCES AND RECOMMENDED READING",
+        "paragraphs": [
+          {
+            "text": "Papers of particular interest, published within the annual period of review, have been highlighted as:"
+          },
+          {
+            "text": "& of special interest"
+          },
+          {
+            "text": "&& of outstanding interest"
+          },
+          {
+            "text": "1. Michaud G. Malignant central airway obstruction. In: Ernst A, Herth FJF, editors. Principles and Practice of Interventional Pulmonology. New York, NY: Springer; 2013. pp. 259-268."
+          },
+          {
+            "text": "2. Ost DE, Ernst A, Grosu HB, et al. Therapeutic bronchoscopy for malignant central airway obstruction: success rates and impact on dyspnea and quality of life. Chest 2015; 147:1282-1298."
+          },
+          {
+            "text": "3."
+          },
+          {
+            "text": "&& strictures, tracheobronchomalacia, and malignancy-related obstruction. Chest 2016; 150:426-441."
+          },
+          {
+            "text": "Murgu SD, Egressy K, Laxmanan B,"
+          },
+          {
+            "text": "et al."
+          },
+          {
+            "text": "Central airway obstruction: benign"
+          },
+          {
+            "text": "This is a thorough review of both benign and malignant central airway obstruction."
+          },
+          {
+            "text": "4. Ost DE, Ernst A, Grosu HB, et al. Complications following therapeutic bronchoscopy for malignant central airway obstruction: results of the AQuIRE registry. Chest 2015; 148:450-471."
+          },
+          {
+            "text": "5. Vonk-Noordegraaf A, Postmus PE, Sutedja TG. Tracheobronchial stenting in the terminal care of cancer patients with central airways obstruction. Chest 2001; 120:1811-1814."
+          },
+          {
+            "text": "6. Grosu HB, Eapen GA, Morice RC, et al. Stents are associated with increased risk of respiratory infections in patients undergoing airway interventions for malignant airways disease. Chest 2013; 144:441-449."
+          },
+          {
+            "text": "7. Ost DE, Shah AM, Lei X, et al. Respiratory infections increase the risk of granulation tissue formation following airway stenting in patients with malignant airway obstruction. Chest 2012; 141:1473-1481."
+          },
+          {
+            "text": "8. Freitag L, Gordes M, Zarogoulidis P, et al. Towards individualized tracheo-"
+          },
+          {
+            "text": "& bronchial stents: technical, practical and legal considerations. Respiration 2017; 94:442-456."
+          },
+          {
+            "text": "This is an extensive review of 3D printing of stents."
+          },
+          {
+            "text": "9. Guibert N, Didier A, Moreno B, et al. Treatment of posttransplant complex airway stenosis with a three-dimensional, computer-assisted customized airway stent. Am J Respir Crit Care Med 2017; 195:e31-e33."
+          },
+          {
+            "text": "10. Cheng GZ, Folch E, Brik R, et al. Three-dimensional modeled T-tube design and insertion in a patient with tracheal dehiscence. Chest 2015; 148:e106-e108."
+          },
+          {
+            "text": "11. Morrison RJ, Hollister SJ, Niedner MF, et al. Mitigation of tracheobronchomalacia with 3D-printed personalized medical devices in pediatric patients. Sci Transl Med 2015; 7:287er4."
+          },
+          {
+            "text": "12. ClinicalTrials.gov [Internet]. Bethesda (MD): National Library of Medicine (US); 2000. Identifier NCT02889029, Management of complex airway stenoses with dedicated tailored stents wrought by 3d computer-assisted conception. 2016 Sept 5 [cited 27 Jan 2018] [about 5 screens]. https:// clinicaltrials.gov/ct2/show/NCT02889029."
+          },
+          {
+            "text": "13. & Cheng GZ, Estepar RS, Folch E, et al. Three-dimensional printing and 3D slicer powerful tools in understanding and treating structural lung disease. Chest 2016; 149:1136-1142."
+          },
+          {
+            "text": "This is an extensive review of 3D printing of stents."
+          },
+          {
+            "text": "14. Wang T, Zhang J, Wang J, et al. Paclitaxel drug-eluting tracheal stent could reduce granulation tissue formation in a canine model. Chin Med J (Engl) 2016; 129:2708-2713."
+          },
+          {
+            "text": "15. Chao YK, Liu KS, Wang YC, et al. Biodegradable cisplatin-eluting tracheal stent for malignant airway obstruction: in vivo and in vitro studies. Chest 2013; 144:193-199."
+          },
+          {
+            "text": "16. Zhu GH, Ng AH, Venkatraman SS, et al. A novel bioabsorbable drug-eluting tracheal stent. Laryngoscope 2011; 121:2234-2239."
+          },
+          {
+            "text": "17. Walter RF, Zarogoulidis P, Mairinger FD, et al. Cell viability of fibroblasts to pifenidone and sirolimus: a future concept for drug eluting stents. Int J Pharm 2014; 466(1-2):38-43."
+          },
+          {
+            "text": "18. Hohenforst-Schmidt W, Zarogoulidis P, Pitsiou G, et al. Drug eluting stents for malignant airway obstruction: a critical review of the literature. J Cancer 2016; 7:377-390."
+          },
+          {
+            "text": "19. Zarogoulidis P, Darwiche K, Tsakiridis K, et al. Learning from the cardiologists and developing eluting stents targeting the motor pathway for pulmonary application: a future concept for tracheal stenosis. J Mol Genet Med 2013; 7:65-86."
+          },
+          {
+            "text": "20. Kruklitis RJ, Fishbein I, Singhal S, et al. Stent-mediated gene delivery for sitespecific transgene administration to the airway epithelium and management of tracheobronchial tumors. Respiration 2014; 88:406-417."
+          },
+          {
+            "text": "21. Lischke R, Pozniak J, Vondrys D, et al. Novel biodegradable stents in the treatment of bronchial stenosis after lung transplantation. Eur J Cardiothorac Surg 2011; 40:619-624."
+          },
+          {
+            "text": "22. Fuehner T, Suhling H, Greer M, et al. Biodegradable stents after lung transplantation. Transpl Int 2013; 26:e58-e60."
+          },
+          {
+            "text": "23. Sethi S, Gildea TR, Almeida FA, et al. Clinical success stenting distal bronchi for 'lobar salvage' in bronchial stenosis. J Bronchology Interv Pulmonol 2018; 25:9-16."
+          },
+          {
+            "text": "24. Majid A, Kheir F, Chung J, et al. Covered balloon-expanding stents in airway stenosis. J Bronchology Interv Pulmonol 2017; 24:174-177."
+          },
+          {
+            "text": "25. Fruchter O, Abed El Raouf B, Rosengarten D, Kramer MR. Long-term outcome of short metallic stents for lobar airway stenosis. J Bronchology Interv Pulmonol 2017; 24:211-215."
+          },
+          {
+            "text": "26. Argento AC, Puchalski JT. Distal airway stenting: how far is too far? J Bronchology Interv Pulmonol 2015; 22:e15-e16."
+          },
+          {
+            "text": "27. El Raouf BA, Kramer MR, Fruchter O. Bronchial anthracofibrosis: treatment using airway stents. Int J Tuberc Lung Dis 2013; 17:1118-1120."
+          },
+          {
+            "text": "Downloaded from http://journals.lww.com/co-pulmonarymedicine by BhDMf5ePHKav1zEoum1tQfN4a+kJLhEZgbsI Ho4XMi0hCywCX1AWnYQp/IlQrHD3i3D0OdRyi7TvSFl4Cf3VC1y0abggQZXdtwnfKZBYtws= on 07/18/2024"
+          }
+        ],
+        "category": "other"
+      }
+    ],
+    "tables": [],
+    "figures": [
+      {
+        "self_ref": "#/pictures/0",
+        "parent": {
+          "cref": "#/body"
+        },
+        "children": [
+          {
+            "cref": "#/texts/2"
+          },
+          {
+            "cref": "#/texts/3"
+          }
+        ],
+        "content_layer": "body",
+        "label": "picture",
+        "prov": [
+          {
+            "page_no": 1,
+            "bbox": {
+              "l": 35.280879974365234,
+              "t": 720.6165237426758,
+              "r": 92.8033676147461,
+              "b": 687.4750823974609,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "charspan": [
+              0,
+              0
+            ]
+          }
+        ],
+        "captions": [],
+        "references": [],
+        "footnotes": [],
+        "image": null,
+        "annotations": []
+      },
+      {
+        "self_ref": "#/pictures/1",
+        "parent": {
+          "cref": "#/body"
+        },
+        "children": [
+          {
+            "cref": "#/texts/48"
+          },
+          {
+            "cref": "#/texts/49"
+          },
+          {
+            "cref": "#/texts/50"
+          },
+          {
+            "cref": "#/texts/51"
+          },
+          {
+            "cref": "#/texts/52"
+          },
+          {
+            "cref": "#/texts/53"
+          },
+          {
+            "cref": "#/texts/54"
+          },
+          {
+            "cref": "#/texts/55"
+          },
+          {
+            "cref": "#/texts/56"
+          },
+          {
+            "cref": "#/texts/57"
+          },
+          {
+            "cref": "#/texts/58"
+          },
+          {
+            "cref": "#/texts/59"
+          },
+          {
+            "cref": "#/texts/60"
+          },
+          {
+            "cref": "#/texts/61"
+          },
+          {
+            "cref": "#/texts/62"
+          },
+          {
+            "cref": "#/texts/63"
+          },
+          {
+            "cref": "#/texts/64"
+          },
+          {
+            "cref": "#/texts/65"
+          },
+          {
+            "cref": "#/texts/66"
+          },
+          {
+            "cref": "#/texts/67"
+          },
+          {
+            "cref": "#/texts/68"
+          },
+          {
+            "cref": "#/texts/69"
+          },
+          {
+            "cref": "#/texts/70"
+          },
+          {
+            "cref": "#/texts/71"
+          },
+          {
+            "cref": "#/texts/72"
+          },
+          {
+            "cref": "#/texts/73"
+          },
+          {
+            "cref": "#/texts/74"
+          },
+          {
+            "cref": "#/texts/75"
+          },
+          {
+            "cref": "#/texts/76"
+          },
+          {
+            "cref": "#/texts/77"
+          },
+          {
+            "cref": "#/texts/78"
+          },
+          {
+            "cref": "#/texts/79"
+          },
+          {
+            "cref": "#/texts/80"
+          },
+          {
+            "cref": "#/texts/81"
+          },
+          {
+            "cref": "#/texts/82"
+          },
+          {
+            "cref": "#/texts/83"
+          },
+          {
+            "cref": "#/texts/84"
+          }
+        ],
+        "content_layer": "body",
+        "label": "picture",
+        "prov": [
+          {
+            "page_no": 3,
+            "bbox": {
+              "l": 63.00025939941406,
+              "t": 725.5152053833008,
+              "r": 510.0404968261719,
+              "b": 193.60150146484375,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "charspan": [
+              0,
+              0
+            ]
+          }
+        ],
+        "captions": [
+          {
+            "cref": "#/texts/48"
+          }
+        ],
+        "references": [],
+        "footnotes": [],
+        "image": null,
+        "annotations": []
+      }
+    ],
+    "citations": [],
+    "n_sections": 20,
+    "n_tables": 0,
+    "n_figures": 2,
+    "n_citations": 0
+  },
+  "provenance": {
+    "patches": [
+      {
+        "path": "metadata.year_norm",
+        "op": "set",
+        "from": null,
+        "to": "2018",
+        "source": "zotero:year_norm",
+        "confidence": 0.9
+      },
+      {
+        "path": "metadata.doi",
+        "op": "set",
+        "from": null,
+        "to": "10.1097/mcp.0000000000000486",
+        "source": "zotero:doi",
+        "confidence": 0.9
+      },
+      {
+        "path": "metadata.journal",
+        "op": "set",
+        "from": null,
+        "to": "Current Opinion in Pulmonary Medicine",
+        "source": "zotero:journal",
+        "confidence": 0.9
+      },
+      {
+        "path": "metadata.abstract",
+        "op": "set",
+        "from": "Airway stents must be judiciously used, but we now have data that help guide patient selection and that inform us of what potential complications may occur and when. Stents are under development with newer properties that may extend the therapeutic reach of these interventions",
+        "to": "Airway stents must be judiciously used, but we now have data that help guide patient selection and that inform us of what potential complications may occur and when. Stents are under development with newer properties that may extend the therapeutic reach of these interventions.",
+        "source": "zotero:abstract",
+        "confidence": 0.9
+      },
+      {
+        "path": "metadata.volume",
+        "op": "set",
+        "from": null,
+        "to": "24",
+        "source": "zotero:volume",
+        "confidence": 0.9
+      },
+      {
+        "path": "metadata.issue",
+        "op": "set",
+        "from": null,
+        "to": "4",
+        "source": "zotero:issue",
+        "confidence": 0.9
+      },
+      {
+        "path": "metadata.pages",
+        "op": "set",
+        "from": null,
+        "to": "343-349",
+        "source": "zotero:pages",
+        "confidence": 0.9
+      },
+      {
+        "path": "metadata.issn",
+        "op": "set",
+        "from": null,
+        "to": "1070-5287",
+        "source": "zotero:issn",
+        "confidence": 0.9
+      },
+      {
+        "path": "metadata.url",
+        "op": "set",
+        "from": null,
+        "to": "https://journals.lww.com/00063198-201807000-00005",
+        "source": "zotero:url",
+        "confidence": 0.9
+      },
+      {
+        "path": "provenance.orig_pdf_filename",
+        "op": "set",
+        "from": null,
+        "to": "Sabath and Ost - 2018 - Update on airway stents.pdf",
+        "source": "zotero:csv",
+        "confidence": 0.9
+      },
+      {
+        "path": "metadata.year",
+        "op": "set",
+        "from": "2018-07",
+        "to": 2018,
+        "source": "normalize:iso",
+        "confidence": 0.9
+      },
+      {
+        "path": "metadata.authors",
+        "op": "set",
+        "from": [
+          "Bruce F. Sabath",
+          "David E. Ost"
+        ],
+        "to": [
+          {
+            "given": "Bruce F.",
+            "family": "Sabath",
+            "suffix": null,
+            "degrees": [],
+            "display": "Bruce F. Sabath",
+            "group": false
+          },
+          {
+            "given": "David E.",
+            "family": "Ost",
+            "suffix": null,
+            "degrees": [],
+            "display": "David E. Ost",
+            "group": false
+          }
+        ],
+        "source": "filtered_ack_like",
+        "confidence": 0.9
+      },
+      {
+        "path": "metadata.journal_full",
+        "op": "set",
+        "from": null,
+        "to": "Current Opinion in Pulmonary Medicine",
+        "source": "canonicalize",
+        "confidence": 0.9
+      }
+    ],
+    "orig_pdf_filename": "Sabath and Ost - 2018 - Update on airway stents.pdf",
+    "zotero": {
+      "id": "sabathUpdateAirwayStents2018",
+      "source": "zotero_csl+csv",
+      "exported_at": "2025-09-02T20:29:40.759921Z",
+      "match_method": "title_exact",
+      "match_confidence": 1.0
+    }
+  },
+  "grobid": {
+    "references_tei": "<TEI xmlns=\"http://www.tei-c.org/ns/1.0\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" \n xmlns:mml=\"http://www.w3.org/1998/Math/MathML\">\n\t<teiHeader/>\n\t<text>\n\t\t<front/>\n\t\t<body/>\n\t\t<back>\n\t\t\t<div>\n\t\t\t\t<listBibl>\n<biblStruct xml:id=\"b0\">\n\t<analytic>\n\t\t<title level=\"a\" type=\"main\">Malignant central airway obstruction</title>\n\t\t<author>\n\t\t\t<persName><forename type=\"first\">G</forename><surname>Michaud</surname></persName>\n\t\t</author>\n\t</analytic>\n\t<monogr>\n\t\t<title level=\"m\">Principles and Practice of Interventional Pulmonology</title>\n\t\t<editor>\n\t\t\t<persName><forename type=\"first\">A</forename><surname>Ernst</surname></persName>\n\t\t</editor>\n\t\t<editor>\n\t\t\t<persName><forename type=\"first\">Fjf</forename><surname>Herth</surname></persName>\n\t\t</editor>\n\t\t<meeting><address><addrLine>New York, NY</addrLine></address></meeting>\n\t\t<imprint>\n\t\t\t<publisher>Springer</publisher>\n\t\t\t<date type=\"published\" when=\"2013\">2013</date>\n\t\t\t<biblScope unit=\"page\" from=\"259\" to=\"268\" />\n\t\t</imprint>\n\t</monogr>\n</biblStruct>\n\n<biblStruct xml:id=\"b1\">\n\t<analytic>\n\t\t<title level=\"a\" type=\"main\">Therapeutic bronchoscopy for malignant central airway obstruction: success rates and impact on dyspnea and quality of life</title>\n\t\t<author>\n\t\t\t<persName><forename type=\"first\">D</forename><forename type=\"middle\">E</forename><surname>Ost</surname></persName>\n\t\t</author>\n\t\t<author>\n\t\t\t<persName><forename type=\"first\">A</forename><surname>Ernst</surname></persName>\n\t\t</author>\n\t\t<author>\n\t\t\t<persName><forename type=\"first\">H</forename><forename type=\"middle\">B</forename><surname>Grosu</surname></persName>\n\t\t</author>\n\t</analytic>\n\t<monogr>\n\t\t<title level=\"j\">Chest</title>\n\t\t<imprint>\n\t\t\t<biblScope unit=\"volume\">147</biblScope>\n\t\t\t<biblScope unit=\"page\" from=\"1282\" to=\"1298\" />\n\t\t\t<date type=\"published\" when=\"2015\">2015</date>\n\t\t</imprint>\n\t</monogr>\n</biblStruct>\n\n<biblStruct xml:id=\"b2\">\n\t<analytic>\n\t\t<title level=\"a\" type=\"main\">Central airway obstruction: benign strictures, tracheobronchomalacia, and malignancy-related obstruction</title>\n\t\t<author>\n\t\t\t<persName><forename type=\"first\">S</forename><forename type=\"middle\">D</forename><surname>&amp;&amp; Murgu</surname></persName>\n\t\t</author>\n\t\t<author>\n\t\t\t<persName><forename type=\"first\">K</forename><surname>Egressy</surname></persName>\n\t\t</author>\n\t\t<author>\n\t\t\t<persName><forename type=\"first\">B</forename><surname>Laxmanan</surname></persName>\n\t\t</author>\n\t</analytic>\n\t<monogr>\n\t\t<title level=\"j\">Chest</title>\n\t\t<imprint>\n\t\t\t<biblScope unit=\"volume\">150</biblScope>\n\t\t\t<biblScope unit=\"page\" from=\"426\" to=\"441\" />\n\t\t\t<date type=\"published\" when=\"2016\">2016</date>\n\t\t</imprint>\n\t</monogr>\n</biblStruct>\n\n<biblStruct xml:id=\"b3\">\n\t<monogr>\n\t\t<title level=\"m\" type=\"main\">benign and malignant central airway obstruction</title>\n\t\t<imprint/>\n\t</monogr>\n\t<note>This is a thorough review of both</note>\n</biblStruct>\n\n<biblStruct xml:id=\"b4\">\n\t<analytic>\n\t\t<title level=\"a\" type=\"main\">Complications following therapeutic bronchoscopy for malignant central airway obstruction: results of the AQuIRE registry</title>\n\t\t<author>\n\t\t\t<persName><forename type=\"first\">D</forename><forename type=\"middle\">E</forename><surname>Ost</surname></persName>\n\t\t</author>\n\t\t<author>\n\t\t\t<persName><forename type=\"first\">A</forename><surname>Ernst</surname></persName>\n\t\t</author>\n\t\t<author>\n\t\t\t<persName><forename type=\"first\">H</forename><forename type=\"middle\">B</forename><surname>Grosu</surname></persName>\n\t\t</author>\n\t</analytic>\n\t<monogr>\n\t\t<title level=\"j\">Chest</title>\n\t\t<imprint>\n\t\t\t<biblScope unit=\"volume\">148</biblScope>\n\t\t\t<biblScope unit=\"page\" from=\"450\" to=\"471\" />\n\t\t\t<date type=\"published\" when=\"2015\">2015</date>\n\t\t</imprint>\n\t</monogr>\n</biblStruct>\n\n<biblStruct xml:id=\"b5\">\n\t<analytic>\n\t\t<title level=\"a\" type=\"main\">Tracheobronchial stenting in the terminal care of cancer patients with central airways obstruction</title>\n\t\t<author>\n\t\t\t<persName><forename type=\"first\">A</forename><surname>Vonk-Noordegraaf</surname></persName>\n\t\t</author>\n\t\t<author>\n\t\t\t<persName><forename type=\"first\">P</forename><forename type=\"middle\">E</forename><surname>Postmus</surname></persName>\n\t\t</author>\n\t\t<author>\n\t\t\t<persName><forename type=\"first\">T</forename><forename type=\"middle\">G</forename><surname>Sutedja</surname></persName>\n\t\t</author>\n\t</analytic>\n\t<monogr>\n\t\t<title level=\"j\">Chest</title>\n\t\t<imprint>\n\t\t\t<biblScope unit=\"volume\">120</biblScope>\n\t\t\t<biblScope unit=\"page\" from=\"1811\" to=\"1814\" />\n\t\t\t<date type=\"published\" when=\"2001\">2001</date>\n\t\t</imprint>\n\t</monogr>\n</biblStruct>\n\n<biblStruct xml:id=\"b6\">\n\t<analytic>\n\t\t<title level=\"a\" type=\"main\">Stents are associated with increased risk of respiratory infections in patients undergoing airway interventions for malignant airways disease</title>\n\t\t<author>\n\t\t\t<persName><forename type=\"first\">H</forename><forename type=\"middle\">B</forename><surname>Grosu</surname></persName>\n\t\t</author>\n\t\t<author>\n\t\t\t<persName><forename type=\"first\">G</forename><forename type=\"middle\">A</forename><surname>Eapen</surname></persName>\n\t\t</author>\n\t\t<author>\n\t\t\t<persName><forename type=\"first\">R</forename><forename type=\"middle\">C</forename><surname>Morice</surname></persName>\n\t\t</author>\n\t</analytic>\n\t<monogr>\n\t\t<title level=\"j\">Chest</title>\n\t\t<imprint>\n\t\t\t<biblScope unit=\"volume\">144</biblScope>\n\t\t\t<biblScope unit=\"page\" from=\"441\" to=\"449\" />\n\t\t\t<date type=\"published\" when=\"2013\">2013</date>\n\t\t</imprint>\n\t</monogr>\n</biblStruct>\n\n<biblStruct xml:id=\"b7\">\n\t<analytic>\n\t\t<title level=\"a\" type=\"main\">Respiratory infections increase the risk of granulation tissue formation following airway stenting in patients with malignant airway obstruction</title>\n\t\t<author>\n\t\t\t<persName><forename type=\"first\">D</forename><forename type=\"middle\">E</forename><surname>Ost</surname></persName>\n\t\t</author>\n\t\t<author>\n\t\t\t<persName><forename type=\"first\">A</forename><forename type=\"middle\">M</forename><surname>Shah</surname></persName>\n\t\t</author>\n\t\t<author>\n\t\t\t<persName><forename type=\"first\">X</forename><surname>Lei</surname></persName>\n\t\t</author>\n\t</analytic>\n\t<monogr>\n\t\t<title level=\"j\">Chest</title>\n\t\t<imprint>\n\t\t\t<biblScope unit=\"volume\">141</biblScope>\n\t\t\t<biblScope unit=\"page\" from=\"1473\" to=\"1481\" />\n\t\t\t<date type=\"published\" when=\"2012\">2012</date>\n\t\t</imprint>\n\t</monogr>\n</biblStruct>\n\n<biblStruct xml:id=\"b8\">\n\t<analytic>\n\t\t<title level=\"a\" type=\"main\">Towards individualized tracheobronchial stents: technical, practical and legal considerations</title>\n\t\t<author>\n\t\t\t<persName><forename type=\"first\">L</forename><surname>Freitag</surname></persName>\n\t\t</author>\n\t\t<author>\n\t\t\t<persName><forename type=\"first\">M</forename><surname>Gordes</surname></persName>\n\t\t</author>\n\t\t<author>\n\t\t\t<persName><forename type=\"first\">P</forename><surname>Zarogoulidis</surname></persName>\n\t\t</author>\n\t</analytic>\n\t<monogr>\n\t\t<title level=\"j\">Respiration</title>\n\t\t<imprint>\n\t\t\t<biblScope unit=\"volume\">94</biblScope>\n\t\t\t<biblScope unit=\"page\" from=\"442\" to=\"456\" />\n\t\t\t<date type=\"published\" when=\"2017\">2017</date>\n\t\t</imprint>\n\t</monogr>\n\t<note>This is an extensive review of 3D printing of stents</note>\n</biblStruct>\n\n<biblStruct xml:id=\"b9\">\n\t<analytic>\n\t\t<title level=\"a\" type=\"main\">Treatment of posttransplant complex airway stenosis with a three-dimensional, computer-assisted customized airway stent</title>\n\t\t<author>\n\t\t\t<persName><forename type=\"first\">N</forename><surname>Guibert</surname></persName>\n\t\t</author>\n\t\t<author>\n\t\t\t<persName><forename type=\"first\">A</forename><surname>Didier</surname></persName>\n\t\t</author>\n\t\t<author>\n\t\t\t<persName><forename type=\"first\">B</forename><surname>Moreno</surname></persName>\n\t\t</author>\n\t</analytic>\n\t<monogr>\n\t\t<title level=\"j\">Am J Respir Crit Care Med</title>\n\t\t<imprint>\n\t\t\t<biblScope unit=\"volume\">195</biblScope>\n\t\t\t<biblScope unit=\"page\" from=\"31\" to=\"e33\" />\n\t\t\t<date type=\"published\" when=\"2017\">2017</date>\n\t\t</imprint>\n\t</monogr>\n</biblStruct>\n\n<biblStruct xml:id=\"b10\">\n\t<analytic>\n\t\t<title level=\"a\" type=\"main\">Three-dimensional modeled T-tube design and insertion in a patient with tracheal dehiscence</title>\n\t\t<author>\n\t\t\t<persName><forename type=\"first\">G</forename><forename type=\"middle\">Z</forename><surname>Cheng</surname></persName>\n\t\t</author>\n\t\t<author>\n\t\t\t<persName><forename type=\"first\">E</forename><surname>Folch</surname></persName>\n\t\t</author>\n\t\t<author>\n\t\t\t<persName><forename type=\"first\">R</forename><surname>Brik</surname></persName>\n\t\t</author>\n\t</analytic>\n\t<monogr>\n\t\t<title level=\"j\">Chest</title>\n\t\t<imprint>\n\t\t\t<biblScope unit=\"volume\">148</biblScope>\n\t\t\t<biblScope unit=\"page\" from=\"106\" to=\"e108\" />\n\t\t\t<date type=\"published\" when=\"2015\">2015</date>\n\t\t</imprint>\n\t</monogr>\n</biblStruct>\n\n<biblStruct xml:id=\"b11\">\n\t<analytic>\n\t\t<title level=\"a\" type=\"main\">Mitigation of tracheobronchomalacia with 3D-printed personalized medical devices in pediatric patients</title>\n\t\t<author>\n\t\t\t<persName><forename type=\"first\">R</forename><forename type=\"middle\">J</forename><surname>Morrison</surname></persName>\n\t\t</author>\n\t\t<author>\n\t\t\t<persName><forename type=\"first\">S</forename><forename type=\"middle\">J</forename><surname>Hollister</surname></persName>\n\t\t</author>\n\t\t<author>\n\t\t\t<persName><forename type=\"first\">M</forename><forename type=\"middle\">F</forename><surname>Niedner</surname></persName>\n\t\t</author>\n\t</analytic>\n\t<monogr>\n\t\t<title level=\"j\">Sci Transl Med</title>\n\t\t<imprint>\n\t\t\t<biblScope unit=\"volume\">7</biblScope>\n\t\t\t<biblScope unit=\"page\" from=\"287\" to=\"291\" />\n\t\t\t<date type=\"published\" when=\"2015\">2015</date>\n\t\t</imprint>\n\t</monogr>\n</biblStruct>\n\n<biblStruct xml:id=\"b12\">\n\t<monogr>\n\t\t<title level=\"m\" type=\"main\">Identifier NCT02889029, Management of complex airway stenoses with dedicated tailored stents wrought by 3d computer-assisted conception</title>\n\t\t<ptr target=\"https://clinicaltrials.gov/ct2/show/NCT02889029\" />\n\t\t<imprint>\n\t\t\t<date type=\"published\" when=\"2000\">2000. 2016 Sept 5</date>\n\t\t\t<publisher>National Library of Medicine (US)</publisher>\n\t\t\t<pubPlace>Bethesda (MD</pubPlace>\n\t\t</imprint>\n\t</monogr>\n\t<note>Internet cited 27 Jan 2018 about 5 screens</note>\n</biblStruct>\n\n<biblStruct xml:id=\"b13\">\n\t<analytic>\n\t\t<title level=\"a\" type=\"main\">Three-dimensional printing and 3D slicer powerful tools in understanding and treating structural lung disease</title>\n\t\t<author>\n\t\t\t<persName><forename type=\"first\">G</forename><forename type=\"middle\">Z</forename><surname>Cheng</surname></persName>\n\t\t</author>\n\t\t<author>\n\t\t\t<persName><forename type=\"first\">R</forename><forename type=\"middle\">S</forename><surname>Estepar</surname></persName>\n\t\t</author>\n\t\t<author>\n\t\t\t<persName><forename type=\"first\">E</forename><surname>Folch</surname></persName>\n\t\t</author>\n\t</analytic>\n\t<monogr>\n\t\t<title level=\"j\">Chest</title>\n\t\t<imprint>\n\t\t\t<biblScope unit=\"volume\">149</biblScope>\n\t\t\t<biblScope unit=\"page\" from=\"1136\" to=\"1142\" />\n\t\t\t<date type=\"published\" when=\"2016\">2016</date>\n\t\t</imprint>\n\t</monogr>\n\t<note>This is an extensive review of 3D printing of stents</note>\n</biblStruct>\n\n<biblStruct xml:id=\"b14\">\n\t<analytic>\n\t\t<title level=\"a\" type=\"main\">Paclitaxel drug-eluting tracheal stent could reduce granulation tissue formation in a canine model</title>\n\t\t<author>\n\t\t\t<persName><forename type=\"first\">T</forename><surname>Wang</surname></persName>\n\t\t</author>\n\t\t<author>\n\t\t\t<persName><forename type=\"first\">J</forename><surname>Zhang</surname></persName>\n\t\t</author>\n\t\t<author>\n\t\t\t<persName><forename type=\"first\">J</forename><surname>Wang</surname></persName>\n\t\t</author>\n\t</analytic>\n\t<monogr>\n\t\t<title level=\"j\">Chin Med J (Engl)</title>\n\t\t<imprint>\n\t\t\t<biblScope unit=\"volume\">129</biblScope>\n\t\t\t<biblScope unit=\"page\" from=\"2708\" to=\"2713\" />\n\t\t\t<date type=\"published\" when=\"2016\">2016</date>\n\t\t</imprint>\n\t</monogr>\n</biblStruct>\n\n<biblStruct xml:id=\"b15\">\n\t<analytic>\n\t\t<title level=\"a\" type=\"main\">Biodegradable cisplatin-eluting tracheal stent for malignant airway obstruction: in vivo and in vitro studies</title>\n\t\t<author>\n\t\t\t<persName><forename type=\"first\">Y</forename><forename type=\"middle\">K</forename><surname>Chao</surname></persName>\n\t\t</author>\n\t\t<author>\n\t\t\t<persName><forename type=\"first\">K</forename><forename type=\"middle\">S</forename><surname>Liu</surname></persName>\n\t\t</author>\n\t\t<author>\n\t\t\t<persName><forename type=\"first\">Y</forename><forename type=\"middle\">C</forename><surname>Wang</surname></persName>\n\t\t</author>\n\t</analytic>\n\t<monogr>\n\t\t<title level=\"j\">Chest</title>\n\t\t<imprint>\n\t\t\t<biblScope unit=\"volume\">144</biblScope>\n\t\t\t<biblScope unit=\"page\" from=\"193\" to=\"199\" />\n\t\t\t<date type=\"published\" when=\"2013\">2013</date>\n\t\t</imprint>\n\t</monogr>\n</biblStruct>\n\n<biblStruct xml:id=\"b16\">\n\t<analytic>\n\t\t<title level=\"a\" type=\"main\">A novel bioabsorbable drug-eluting tracheal stent</title>\n\t\t<author>\n\t\t\t<persName><forename type=\"first\">G</forename><forename type=\"middle\">H</forename><surname>Zhu</surname></persName>\n\t\t</author>\n\t\t<author>\n\t\t\t<persName><forename type=\"first\">A</forename><forename type=\"middle\">H</forename><surname>Ng</surname></persName>\n\t\t</author>\n\t\t<author>\n\t\t\t<persName><forename type=\"first\">S</forename><forename type=\"middle\">S</forename><surname>Venkatraman</surname></persName>\n\t\t</author>\n\t</analytic>\n\t<monogr>\n\t\t<title level=\"j\">Laryngoscope</title>\n\t\t<imprint>\n\t\t\t<biblScope unit=\"volume\">121</biblScope>\n\t\t\t<biblScope unit=\"page\" from=\"2234\" to=\"2239\" />\n\t\t\t<date type=\"published\" when=\"2011\">2011</date>\n\t\t</imprint>\n\t</monogr>\n</biblStruct>\n\n<biblStruct xml:id=\"b17\">\n\t<analytic>\n\t\t<title level=\"a\" type=\"main\">Cell viability of fibroblasts to pifenidone and sirolimus: a future concept for drug eluting stents</title>\n\t\t<author>\n\t\t\t<persName><forename type=\"first\">R</forename><forename type=\"middle\">F</forename><surname>Walter</surname></persName>\n\t\t</author>\n\t\t<author>\n\t\t\t<persName><forename type=\"first\">P</forename><surname>Zarogoulidis</surname></persName>\n\t\t</author>\n\t\t<author>\n\t\t\t<persName><forename type=\"first\">F</forename><forename type=\"middle\">D</forename><surname>Mairinger</surname></persName>\n\t\t</author>\n\t</analytic>\n\t<monogr>\n\t\t<title level=\"j\">Int J Pharm</title>\n\t\t<imprint>\n\t\t\t<biblScope unit=\"volume\">466</biblScope>\n\t\t\t<biblScope unit=\"issue\">1-2</biblScope>\n\t\t\t<biblScope unit=\"page\" from=\"38\" to=\"43\" />\n\t\t\t<date type=\"published\" when=\"2014\">2014</date>\n\t\t</imprint>\n\t</monogr>\n</biblStruct>\n\n<biblStruct xml:id=\"b18\">\n\t<analytic>\n\t\t<title level=\"a\" type=\"main\">Drug eluting stents for malignant airway obstruction: a critical review of the literature</title>\n\t\t<author>\n\t\t\t<persName><forename type=\"first\">W</forename><surname>Hohenforst-Schmidt</surname></persName>\n\t\t</author>\n\t\t<author>\n\t\t\t<persName><forename type=\"first\">P</forename><surname>Zarogoulidis</surname></persName>\n\t\t</author>\n\t\t<author>\n\t\t\t<persName><forename type=\"first\">G</forename><surname>Pitsiou</surname></persName>\n\t\t</author>\n\t</analytic>\n\t<monogr>\n\t\t<title level=\"j\">J Cancer</title>\n\t\t<imprint>\n\t\t\t<biblScope unit=\"volume\">7</biblScope>\n\t\t\t<biblScope unit=\"page\" from=\"377\" to=\"390\" />\n\t\t\t<date type=\"published\" when=\"2016\">2016</date>\n\t\t</imprint>\n\t</monogr>\n</biblStruct>\n\n<biblStruct xml:id=\"b19\">\n\t<analytic>\n\t\t<title level=\"a\" type=\"main\">Learning from the cardiologists and developing eluting stents targeting the motor pathway for pulmonary application: a future concept for tracheal stenosis</title>\n\t\t<author>\n\t\t\t<persName><forename type=\"first\">P</forename><surname>Zarogoulidis</surname></persName>\n\t\t</author>\n\t\t<author>\n\t\t\t<persName><forename type=\"first\">K</forename><surname>Darwiche</surname></persName>\n\t\t</author>\n\t\t<author>\n\t\t\t<persName><forename type=\"first\">K</forename><surname>Tsakiridis</surname></persName>\n\t\t</author>\n\t</analytic>\n\t<monogr>\n\t\t<title level=\"j\">J Mol Genet Med</title>\n\t\t<imprint>\n\t\t\t<biblScope unit=\"volume\">7</biblScope>\n\t\t\t<biblScope unit=\"page\" from=\"65\" to=\"86\" />\n\t\t\t<date type=\"published\" when=\"2013\">2013</date>\n\t\t</imprint>\n\t</monogr>\n</biblStruct>\n\n<biblStruct xml:id=\"b20\">\n\t<analytic>\n\t\t<title level=\"a\" type=\"main\">Stent-mediated gene delivery for sitespecific transgene administration to the airway epithelium and management of tracheobronchial tumors</title>\n\t\t<author>\n\t\t\t<persName><forename type=\"first\">R</forename><forename type=\"middle\">J</forename><surname>Kruklitis</surname></persName>\n\t\t</author>\n\t\t<author>\n\t\t\t<persName><forename type=\"first\">I</forename><surname>Fishbein</surname></persName>\n\t\t</author>\n\t\t<author>\n\t\t\t<persName><forename type=\"first\">S</forename><surname>Singhal</surname></persName>\n\t\t</author>\n\t</analytic>\n\t<monogr>\n\t\t<title level=\"j\">Respiration</title>\n\t\t<imprint>\n\t\t\t<biblScope unit=\"volume\">88</biblScope>\n\t\t\t<biblScope unit=\"page\" from=\"406\" to=\"417\" />\n\t\t\t<date type=\"published\" when=\"2014\">2014</date>\n\t\t</imprint>\n\t</monogr>\n</biblStruct>\n\n<biblStruct xml:id=\"b21\">\n\t<analytic>\n\t\t<title level=\"a\" type=\"main\">Novel biodegradable stents in the treatment of bronchial stenosis after lung transplantation</title>\n\t\t<author>\n\t\t\t<persName><forename type=\"first\">R</forename><surname>Lischke</surname></persName>\n\t\t</author>\n\t\t<author>\n\t\t\t<persName><forename type=\"first\">J</forename><surname>Pozniak</surname></persName>\n\t\t</author>\n\t\t<author>\n\t\t\t<persName><forename type=\"first\">D</forename><surname>Vondrys</surname></persName>\n\t\t</author>\n\t</analytic>\n\t<monogr>\n\t\t<title level=\"j\">Eur J Cardiothorac Surg</title>\n\t\t<imprint>\n\t\t\t<biblScope unit=\"volume\">40</biblScope>\n\t\t\t<biblScope unit=\"page\" from=\"619\" to=\"624\" />\n\t\t\t<date type=\"published\" when=\"2011\">2011</date>\n\t\t</imprint>\n\t</monogr>\n</biblStruct>\n\n<biblStruct xml:id=\"b22\">\n\t<analytic>\n\t\t<title level=\"a\" type=\"main\">Biodegradable stents after lung transplantation</title>\n\t\t<author>\n\t\t\t<persName><forename type=\"first\">T</forename><surname>Fuehner</surname></persName>\n\t\t</author>\n\t\t<author>\n\t\t\t<persName><forename type=\"first\">H</forename><surname>Suhling</surname></persName>\n\t\t</author>\n\t\t<author>\n\t\t\t<persName><forename type=\"first\">M</forename><surname>Greer</surname></persName>\n\t\t</author>\n\t</analytic>\n\t<monogr>\n\t\t<title level=\"j\">Transpl Int</title>\n\t\t<imprint>\n\t\t\t<biblScope unit=\"volume\">26</biblScope>\n\t\t\t<biblScope unit=\"page\" from=\"58\" to=\"e60\" />\n\t\t\t<date type=\"published\" when=\"2013\">2013</date>\n\t\t</imprint>\n\t</monogr>\n</biblStruct>\n\n<biblStruct xml:id=\"b23\">\n\t<analytic>\n\t\t<title level=\"a\" type=\"main\">Clinical success stenting distal bronchi for &apos;lobar salvage&apos; in bronchial stenosis</title>\n\t\t<author>\n\t\t\t<persName><forename type=\"first\">S</forename><surname>Sethi</surname></persName>\n\t\t</author>\n\t\t<author>\n\t\t\t<persName><forename type=\"first\">T</forename><forename type=\"middle\">R</forename><surname>Gildea</surname></persName>\n\t\t</author>\n\t\t<author>\n\t\t\t<persName><forename type=\"first\">F</forename><forename type=\"middle\">A</forename><surname>Almeida</surname></persName>\n\t\t</author>\n\t</analytic>\n\t<monogr>\n\t\t<title level=\"j\">J Bronchology Interv Pulmonol</title>\n\t\t<imprint>\n\t\t\t<biblScope unit=\"volume\">25</biblScope>\n\t\t\t<biblScope unit=\"page\" from=\"9\" to=\"16\" />\n\t\t\t<date type=\"published\" when=\"2018\">2018</date>\n\t\t</imprint>\n\t</monogr>\n</biblStruct>\n\n<biblStruct xml:id=\"b24\">\n\t<analytic>\n\t\t<title level=\"a\" type=\"main\">Covered balloon-expanding stents in airway stenosis</title>\n\t\t<author>\n\t\t\t<persName><forename type=\"first\">A</forename><surname>Majid</surname></persName>\n\t\t</author>\n\t\t<author>\n\t\t\t<persName><forename type=\"first\">F</forename><surname>Kheir</surname></persName>\n\t\t</author>\n\t\t<author>\n\t\t\t<persName><forename type=\"first\">J</forename><surname>Chung</surname></persName>\n\t\t</author>\n\t</analytic>\n\t<monogr>\n\t\t<title level=\"j\">J Bronchology Interv Pulmonol</title>\n\t\t<imprint>\n\t\t\t<biblScope unit=\"volume\">24</biblScope>\n\t\t\t<biblScope unit=\"page\" from=\"174\" to=\"177\" />\n\t\t\t<date type=\"published\" when=\"2017\">2017</date>\n\t\t</imprint>\n\t</monogr>\n</biblStruct>\n\n<biblStruct xml:id=\"b25\">\n\t<analytic>\n\t\t<title level=\"a\" type=\"main\">Long-term outcome of short metallic stents for lobar airway stenosis</title>\n\t\t<author>\n\t\t\t<persName><forename type=\"first\">O</forename><surname>Fruchter</surname></persName>\n\t\t</author>\n\t\t<author>\n\t\t\t<persName><forename type=\"first\">Abed</forename><forename type=\"middle\">El</forename><surname>Raouf</surname></persName>\n\t\t</author>\n\t\t<author>\n\t\t\t<persName><forename type=\"first\">B</forename><surname>Rosengarten</surname></persName>\n\t\t</author>\n\t\t<author>\n\t\t\t<persName><forename type=\"first\">D</forename><surname>Kramer</surname></persName>\n\t\t</author>\n\t\t<author>\n\t\t\t<persName><forename type=\"first\">M</forename><forename type=\"middle\">R</forename></persName>\n\t\t</author>\n\t</analytic>\n\t<monogr>\n\t\t<title level=\"j\">J Bronchology Interv Pulmonol</title>\n\t\t<imprint>\n\t\t\t<biblScope unit=\"volume\">24</biblScope>\n\t\t\t<biblScope unit=\"page\" from=\"211\" to=\"215\" />\n\t\t\t<date type=\"published\" when=\"2017\">2017</date>\n\t\t</imprint>\n\t</monogr>\n</biblStruct>\n\n<biblStruct xml:id=\"b26\">\n\t<analytic>\n\t\t<title level=\"a\" type=\"main\">Distal airway stenting: how far is too far?</title>\n\t\t<author>\n\t\t\t<persName><forename type=\"first\">A</forename><forename type=\"middle\">C</forename><surname>Argento</surname></persName>\n\t\t</author>\n\t\t<author>\n\t\t\t<persName><forename type=\"first\">J</forename><forename type=\"middle\">T</forename><surname>Puchalski</surname></persName>\n\t\t</author>\n\t</analytic>\n\t<monogr>\n\t\t<title level=\"j\">J Bronchology Interv Pulmonol</title>\n\t\t<imprint>\n\t\t\t<biblScope unit=\"volume\">22</biblScope>\n\t\t\t<biblScope unit=\"page\" from=\"15\" to=\"e16\" />\n\t\t\t<date type=\"published\" when=\"2015\">2015</date>\n\t\t</imprint>\n\t</monogr>\n</biblStruct>\n\n<biblStruct xml:id=\"b27\">\n\t<analytic>\n\t\t<title level=\"a\" type=\"main\">Bronchial anthracofibrosis: treatment using airway stents</title>\n\t\t<author>\n\t\t\t<persName><forename type=\"first\">B</forename><forename type=\"middle\">A</forename><surname>El Raouf</surname></persName>\n\t\t</author>\n\t\t<author>\n\t\t\t<persName><forename type=\"first\">M</forename><forename type=\"middle\">R</forename><surname>Kramer</surname></persName>\n\t\t</author>\n\t\t<author>\n\t\t\t<persName><forename type=\"first\">O</forename><surname>Fruchter</surname></persName>\n\t\t</author>\n\t</analytic>\n\t<monogr>\n\t\t<title level=\"j\">Int J Tuberc Lung Dis</title>\n\t\t<imprint>\n\t\t\t<biblScope unit=\"volume\">17</biblScope>\n\t\t\t<biblScope unit=\"page\" from=\"1118\" to=\"1120\" />\n\t\t\t<date type=\"published\" when=\"2013\">2013</date>\n\t\t</imprint>\n\t</monogr>\n</biblStruct>\n\n\t\t\t\t</listBibl>\n\t\t\t</div>\n\t\t</back>\n\t</text>\n</TEI>\n"
+  },
+  "umls_links": [],
+  "references_enriched": [
+    {
+      "title": "Malignant central airway obstruction",
+      "journal": "Principles and Practice of Interventional Pulmonology",
+      "year": "2013",
+      "volume": null,
+      "issue": null,
+      "pages": null,
+      "doi": null,
+      "pmid": null,
+      "authors": [
+        "Michaud G"
+      ],
+      "first_author_last": "Michaud",
+      "enrichment": {
+        "pmid": null,
+        "doi": null
+      }
+    },
+    {
+      "title": "Therapeutic bronchoscopy for malignant central airway obstruction: success rates and impact on dyspnea and quality of life",
+      "journal": "Chest",
+      "year": "2015",
+      "volume": "147",
+      "issue": null,
+      "pages": null,
+      "doi": null,
+      "pmid": null,
+      "authors": [
+        "Ost DE",
+        "Ernst A",
+        "Grosu HB"
+      ],
+      "first_author_last": "Ost",
+      "enrichment": {
+        "pmid": "25358019",
+        "doi": null,
+        "title": "Therapeutic bronchoscopy for malignant central airway obstruction: success rates and impact on dyspnea and quality of life.",
+        "journal": "Chest",
+        "year": "2015",
+        "authors": [
+          "Ost DE",
+          "Ernst A",
+          "Grosu HB",
+          "Lei X",
+          "Diaz-Mendoza J",
+          "Slade M",
+          "Gildea TR",
+          "Machuzak MS",
+          "Jimenez CA",
+          "Toth J",
+          "Kovitz KL",
+          "Ray C",
+          "Greenhill S",
+          "Casal RF",
+          "Almeida FA",
+          "Wahidi MM",
+          "Eapen GA",
+          "Feller-Kopman D",
+          "Morice RC",
+          "Benzaquen S",
+          "Tremblay A",
+          "Simoff M",
+          "AQuIRE Bronchoscopy Registry"
+        ],
+        "mesh": [],
+        "pubtypes": [
+          "Journal Article",
+          "Multicenter Study"
+        ],
+        "abstract": "There is significant variation between physicians in terms of how they perform therapeutic bronchoscopy, but there are few data on whether these differences impact effectiveness."
+      }
+    },
+    {
+      "title": "Central airway obstruction: benign strictures, tracheobronchomalacia, and malignancy-related obstruction",
+      "journal": "Chest",
+      "year": "2016",
+      "volume": "150",
+      "issue": null,
+      "pages": null,
+      "doi": null,
+      "pmid": null,
+      "authors": [
+        "&& Murgu SD",
+        "Egressy K",
+        "Laxmanan B"
+      ],
+      "first_author_last": "&&",
+      "enrichment": {
+        "pmid": null,
+        "doi": null
+      }
+    },
+    {
+      "title": "benign and malignant central airway obstruction",
+      "journal": "benign and malignant central airway obstruction",
+      "year": null,
+      "volume": null,
+      "issue": null,
+      "pages": null,
+      "doi": null,
+      "pmid": null,
+      "authors": [],
+      "first_author_last": null,
+      "enrichment": {
+        "pmid": "35589481",
+        "doi": null,
+        "title": "[Bronchoscopic treatment of malignant central airway obstruction: A cohort study, long-term survival and complications].",
+        "journal": "Revue des maladies respiratoires",
+        "year": "2022",
+        "authors": [
+          "Elleuch R"
+        ],
+        "mesh": [],
+        "pubtypes": [
+          "Journal Article"
+        ],
+        "abstract": "Interventional bronchoscopy is now the standard treatment for tracheobronchial narrowing due to tumor. The objective of our study was to analyze long-term survival and complications occurring in patients with malignant airway obstruction."
+      }
+    },
+    {
+      "title": "Complications following therapeutic bronchoscopy for malignant central airway obstruction: results of the AQuIRE registry",
+      "journal": "Chest",
+      "year": "2015",
+      "volume": "148",
+      "issue": null,
+      "pages": null,
+      "doi": null,
+      "pmid": null,
+      "authors": [
+        "Ost DE",
+        "Ernst A",
+        "Grosu HB"
+      ],
+      "first_author_last": "Ost",
+      "enrichment": {
+        "pmid": "25741903",
+        "doi": null,
+        "title": "Complications Following Therapeutic Bronchoscopy for Malignant Central Airway Obstruction: Results of the AQuIRE Registry.",
+        "journal": "Chest",
+        "year": "2015",
+        "authors": [
+          "Ost DE",
+          "Ernst A",
+          "Grosu HB",
+          "Lei X",
+          "Diaz-Mendoza J",
+          "Slade M",
+          "Gildea TR",
+          "Machuzak M",
+          "Jimenez CA",
+          "Toth J",
+          "Kovitz KL",
+          "Ray C",
+          "Greenhill S",
+          "Casal RF",
+          "Almeida FA",
+          "Wahidi M",
+          "Eapen GA",
+          "Yarmus LB",
+          "Morice RC",
+          "Benzaquen S",
+          "Tremblay A",
+          "Simoff M",
+          "AQuIRE Bronchoscopy Registry"
+        ],
+        "mesh": [],
+        "pubtypes": [
+          "Journal Article"
+        ],
+        "abstract": "There are significant variations in how therapeutic bronchoscopy for malignant airway obstruction is performed. Relatively few studies have compared how these approaches affect the incidence of complications."
+      }
+    },
+    {
+      "title": "Tracheobronchial stenting in the terminal care of cancer patients with central airways obstruction",
+      "journal": "Chest",
+      "year": "2001",
+      "volume": "120",
+      "issue": null,
+      "pages": null,
+      "doi": null,
+      "pmid": null,
+      "authors": [
+        "Vonk-Noordegraaf A",
+        "Postmus PE",
+        "Sutedja TG"
+      ],
+      "first_author_last": "Vonk-Noordegraaf",
+      "enrichment": {
+        "pmid": "11742906",
+        "doi": null,
+        "title": "Tracheobronchial stenting in the terminal care of cancer patients with central airways obstruction.",
+        "journal": "Chest",
+        "year": "2001",
+        "authors": [
+          "Vonk-Noordegraaf A",
+          "Postmus PE",
+          "Sutedja TG"
+        ],
+        "mesh": [],
+        "pubtypes": [
+          "Journal Article"
+        ],
+        "abstract": "To evaluate the palliative benefit of stent insertion in a group of patients with central airways obstruction due to terminal cancer."
+      }
+    },
+    {
+      "title": "Stents are associated with increased risk of respiratory infections in patients undergoing airway interventions for malignant airways disease",
+      "journal": "Chest",
+      "year": "2013",
+      "volume": "144",
+      "issue": null,
+      "pages": null,
+      "doi": null,
+      "pmid": null,
+      "authors": [
+        "Grosu HB",
+        "Eapen GA",
+        "Morice RC"
+      ],
+      "first_author_last": "Grosu",
+      "enrichment": {
+        "pmid": "23471176",
+        "doi": null,
+        "title": "Stents are associated with increased risk of respiratory infections in patients undergoing airway interventions for malignant airways disease.",
+        "journal": "Chest",
+        "year": "2013",
+        "authors": [
+          "Grosu HB",
+          "Eapen GA",
+          "Morice RC",
+          "Jimenez CA",
+          "Casal RF",
+          "Almeida FA",
+          "Sarkiss MG",
+          "Ost DE"
+        ],
+        "mesh": [],
+        "pubtypes": [
+          "Journal Article"
+        ],
+        "abstract": "Long-term complications of therapeutic bronchoscopy include infections and airway restenosis due to tumor. No studies have compared the incidence rates of infection in patients with stents with those without stents. We hypothesized that patients with stents would have a higher incidence of lower respiratory tract infections than would patients without stents."
+      }
+    },
+    {
+      "title": "Respiratory infections increase the risk of granulation tissue formation following airway stenting in patients with malignant airway obstruction",
+      "journal": "Chest",
+      "year": "2012",
+      "volume": "141",
+      "issue": null,
+      "pages": null,
+      "doi": null,
+      "pmid": null,
+      "authors": [
+        "Ost DE",
+        "Shah AM",
+        "Lei X"
+      ],
+      "first_author_last": "Ost",
+      "enrichment": {
+        "pmid": "22194585",
+        "doi": null,
+        "title": "Respiratory infections increase the risk of granulation tissue formation following airway stenting in patients with malignant airway obstruction.",
+        "journal": "Chest",
+        "year": "2012",
+        "authors": [
+          "Ost DE",
+          "Shah AM",
+          "Lei X",
+          "Godoy MCB",
+          "Jimenez CA",
+          "Eapen GA",
+          "Jani P",
+          "Larson AJ",
+          "Sarkiss MG",
+          "Morice RC"
+        ],
+        "mesh": [],
+        "pubtypes": [
+          "Journal Article"
+        ],
+        "abstract": "The most serious complications of airway stenting are long term, including infection and granulation tissue formation. However, to our knowledge, no studies have quantified the incidence rate of long-term complications for different stents."
+      }
+    },
+    {
+      "title": "Towards individualized tracheobronchial stents: technical, practical and legal considerations",
+      "journal": "Respiration",
+      "year": "2017",
+      "volume": "94",
+      "issue": null,
+      "pages": null,
+      "doi": null,
+      "pmid": null,
+      "authors": [
+        "Freitag L",
+        "Gordes M",
+        "Zarogoulidis P"
+      ],
+      "first_author_last": "Freitag",
+      "enrichment": {
+        "pmid": "28877531",
+        "doi": null,
+        "title": "Towards Individualized Tracheobronchial Stents: Technical, Practical and Legal Considerations.",
+        "journal": "Respiration; international review of thoracic diseases",
+        "year": "2017",
+        "authors": [
+          "Freitag L",
+          "Gördes M",
+          "Zarogoulidis P",
+          "Darwiche K",
+          "Franzen D",
+          "Funke F",
+          "Hohenforst-Schmidt W",
+          "Dutau H"
+        ],
+        "mesh": [],
+        "pubtypes": [
+          "Journal Article"
+        ],
+        "abstract": "Stent placement has been established as a standard procedure for treating airway obstructions. Other indications are localized malacias and fistulas. Though many different stents with various diameters and lengths are available, the shapes are hardly ever ideal because of the distorted anatomy in patients with diseased airways. There are technical and legal limitations for customizing purchased airway stents. Individually tailored stents would be preferable. New techniques of additive manufacturing such as 3D printing make it possible to produce optimized stents for a particular patient. Using CT data and bronchoscopic images, stents can be constructed that match a particular anatomical situation and apply the optimized expansion force. We give an overview of the currently available manufacturing techniques for polymeric stents and report about our own experience. Direct on-site printing of polyurethane stents in a hospital and printing individual extrusion molds for silicone stents in a certified cleanroom are both feasible. Furthermore, there are promising attempts of combining mechanically customized stents with surface modifications, drug-eluting features, biodegradability, and time-dependent adaptation (4D printing). Truly optimized airway stents with the potential of solving the well-known stent problems such as granulation tissue formation, remodeling, mucostasis, and infections are in reach. The technical hurdles are probably easier to overcome than the legal constraints. The legal situations are discussed from a physician's and a manufacturer's perspective."
+      }
+    },
+    {
+      "title": "Treatment of posttransplant complex airway stenosis with a three-dimensional, computer-assisted customized airway stent",
+      "journal": "Am J Respir Crit Care Med",
+      "year": "2017",
+      "volume": "195",
+      "issue": null,
+      "pages": null,
+      "doi": null,
+      "pmid": null,
+      "authors": [
+        "Guibert N",
+        "Didier A",
+        "Moreno B"
+      ],
+      "first_author_last": "Guibert",
+      "enrichment": {
+        "pmid": "28207282",
+        "doi": null,
+        "title": "Treatment of Post-transplant Complex Airway Stenosis with a Three-Dimensional, Computer-assisted Customized Airway Stent.",
+        "journal": "American journal of respiratory and critical care medicine",
+        "year": "2017",
+        "authors": [
+          "Guibert N",
+          "Didier A",
+          "Moreno B",
+          "Mhanna L",
+          "Brouchet L",
+          "Plat G",
+          "Hermant C",
+          "Mazieres J"
+        ],
+        "mesh": [],
+        "pubtypes": [
+          "Journal Article"
+        ]
+      }
+    },
+    {
+      "title": "Three-dimensional modeled T-tube design and insertion in a patient with tracheal dehiscence",
+      "journal": "Chest",
+      "year": "2015",
+      "volume": "148",
+      "issue": null,
+      "pages": null,
+      "doi": null,
+      "pmid": null,
+      "authors": [
+        "Cheng GZ",
+        "Folch E",
+        "Brik R"
+      ],
+      "first_author_last": "Cheng",
+      "enrichment": {
+        "pmid": null,
+        "doi": null
+      }
+    },
+    {
+      "title": "Mitigation of tracheobronchomalacia with 3D-printed personalized medical devices in pediatric patients",
+      "journal": "Sci Transl Med",
+      "year": "2015",
+      "volume": "7",
+      "issue": null,
+      "pages": null,
+      "doi": null,
+      "pmid": null,
+      "authors": [
+        "Morrison RJ",
+        "Hollister SJ",
+        "Niedner MF"
+      ],
+      "first_author_last": "Morrison",
+      "enrichment": {
+        "pmid": "25925683",
+        "doi": null,
+        "title": "Mitigation of tracheobronchomalacia with 3D-printed personalized medical devices in pediatric patients.",
+        "journal": "Science translational medicine",
+        "year": "2015",
+        "authors": [
+          "Morrison RJ",
+          "Hollister SJ",
+          "Niedner MF",
+          "Mahani MG",
+          "Park AH",
+          "Mehta DK",
+          "Ohye RG",
+          "Green GE"
+        ],
+        "mesh": [],
+        "pubtypes": [
+          "Journal Article"
+        ],
+        "abstract": "Three-dimensional (3D) printing offers the potential for rapid customization of medical devices. The advent of 3D-printable biomaterials has created the potential for device control in the fourth dimension: 3D-printed objects that exhibit a designed shape change under tissue growth and resorption conditions over time. Tracheobronchomalacia (TBM) is a condition of excessive collapse of the airways during respiration that can lead to life-threatening cardiopulmonary arrests. We demonstrate the successful application of 3D printing technology to produce a personalized medical device for treatment of TBM, designed to accommodate airway growth while preventing external compression over a predetermined time period before bioresorption. We implanted patient-specific 3D-printed external airway splints in three infants with severe TBM. At the time of publication, these infants no longer exhibited life-threatening airway disease and had demonstrated resolution of both pulmonary and extrapulmonary complications of their TBM. Long-term data show continued growth of the primary airways. This process has broad application for medical manufacturing of patient-specific 3D-printed devices that adjust to tissue growth through designed mechanical and degradation behaviors over time."
+      }
+    },
+    {
+      "title": "Identifier NCT02889029, Management of complex airway stenoses with dedicated tailored stents wrought by 3d computer-assisted conception",
+      "journal": "Identifier NCT02889029, Management of complex airway stenoses with dedicated tailored stents wrought by 3d computer-assisted conception",
+      "year": "2000",
+      "volume": null,
+      "issue": null,
+      "pages": null,
+      "doi": null,
+      "pmid": null,
+      "authors": [],
+      "first_author_last": null,
+      "enrichment": {
+        "pmid": null,
+        "doi": null
+      }
+    },
+    {
+      "title": "Three-dimensional printing and 3D slicer powerful tools in understanding and treating structural lung disease",
+      "journal": "Chest",
+      "year": "2016",
+      "volume": "149",
+      "issue": null,
+      "pages": null,
+      "doi": null,
+      "pmid": null,
+      "authors": [
+        "Cheng GZ",
+        "Estepar RS",
+        "Folch E"
+      ],
+      "first_author_last": "Cheng",
+      "enrichment": {
+        "pmid": "26976347",
+        "doi": null,
+        "title": "Three-dimensional Printing and 3D Slicer: Powerful Tools in Understanding and Treating Structural Lung Disease.",
+        "journal": "Chest",
+        "year": "2016",
+        "authors": [
+          "Cheng GZ",
+          "San Jose Estepar R",
+          "Folch E",
+          "Onieva J",
+          "Gangadharan S",
+          "Majid A"
+        ],
+        "mesh": [],
+        "pubtypes": [
+          "Journal Article",
+          "Review"
+        ],
+        "abstract": "Recent advances in the three-dimensional (3D) printing industry have enabled clinicians to explore the use of 3D printing in preprocedural planning, biomedical tissue modeling, and direct implantable device manufacturing. Despite the increased adoption of rapid prototyping and additive manufacturing techniques in the health-care field, many physicians lack the technical skill set to use this exciting and useful technology. Additionally, the growth in the 3D printing sector brings an ever-increasing number of 3D printers and printable materials. Therefore, it is important for clinicians to keep abreast of this rapidly developing field in order to benefit. In this Ahead of the Curve, we review the history of 3D printing from its inception to the most recent biomedical applications. Additionally, we will address some of the major barriers to wider adoption of the technology in the medical field. Finally, we will provide an initial guide to 3D modeling and printing by demonstrating how to design a personalized airway prosthesis via 3D Slicer. We hope this information will reduce the barriers to use and increase clinician participation in the 3D printing health-care sector."
+      }
+    },
+    {
+      "title": "Paclitaxel drug-eluting tracheal stent could reduce granulation tissue formation in a canine model",
+      "journal": "Chin Med J (Engl)",
+      "year": "2016",
+      "volume": "129",
+      "issue": null,
+      "pages": null,
+      "doi": null,
+      "pmid": null,
+      "authors": [
+        "Wang T",
+        "Zhang J",
+        "Wang J"
+      ],
+      "first_author_last": "Wang",
+      "enrichment": {
+        "pmid": null,
+        "doi": null
+      }
+    },
+    {
+      "title": "Biodegradable cisplatin-eluting tracheal stent for malignant airway obstruction: in vivo and in vitro studies",
+      "journal": "Chest",
+      "year": "2013",
+      "volume": "144",
+      "issue": null,
+      "pages": null,
+      "doi": null,
+      "pmid": null,
+      "authors": [
+        "Chao YK",
+        "Liu KS",
+        "Wang YC"
+      ],
+      "first_author_last": "Chao",
+      "enrichment": {
+        "pmid": "23349039",
+        "doi": null,
+        "title": "Biodegradable cisplatin-eluting tracheal stent for malignant airway obstruction: in vivo and in vitro studies.",
+        "journal": "Chest",
+        "year": "2013",
+        "authors": [
+          "Chao YK",
+          "Liu KS",
+          "Wang YC",
+          "Huang YL",
+          "Liu SJ"
+        ],
+        "mesh": [],
+        "pubtypes": [
+          "Journal Article"
+        ],
+        "abstract": "Self-expandable metallic stents (SEMSs) are effective in the palliation of malignant airway obstruction. Tumor ingrowth, however, frequently occurs because of a shortage of effective local therapy. Additionally, SEMSs are frequently associated with problems of fracture, migration, and difficult removals. Our goal was to develop a novel bioabsorbable stent with cisplatin elution to circumvent such problems."
+      }
+    },
+    {
+      "title": "A novel bioabsorbable drug-eluting tracheal stent",
+      "journal": "Laryngoscope",
+      "year": "2011",
+      "volume": "121",
+      "issue": null,
+      "pages": null,
+      "doi": null,
+      "pmid": null,
+      "authors": [
+        "Zhu GH",
+        "Ng AH",
+        "Venkatraman SS"
+      ],
+      "first_author_last": "Zhu",
+      "enrichment": {
+        "pmid": "21823127",
+        "doi": null,
+        "title": "A novel bioabsorbable drug-eluting tracheal stent.",
+        "journal": "The Laryngoscope",
+        "year": "2011",
+        "authors": [
+          "Zhu GH",
+          "Ng AH",
+          "Venkatraman SS",
+          "Boey FY",
+          "Wee AL",
+          "Trasti SL",
+          "Yee Lim LH"
+        ],
+        "mesh": [],
+        "pubtypes": [
+          "Journal Article"
+        ],
+        "abstract": "Currently available silicone and metallic stents for tracheal stenosis are associated with problems of granulations, mucus trapping, and difficult removals. Our aim was to develop a novel bioabsorbable tracheal stent with mitomycin C (MMC) drug elution to circumvent such problems."
+      }
+    },
+    {
+      "title": "Cell viability of fibroblasts to pifenidone and sirolimus: a future concept for drug eluting stents",
+      "journal": "Int J Pharm",
+      "year": "2014",
+      "volume": "466",
+      "issue": "1-2",
+      "pages": null,
+      "doi": null,
+      "pmid": null,
+      "authors": [
+        "Walter RF",
+        "Zarogoulidis P",
+        "Mairinger FD"
+      ],
+      "first_author_last": "Walter",
+      "enrichment": {
+        "pmid": "24607204",
+        "doi": null,
+        "title": "Cell viability of fibroblasts to pifenidone and sirolimus: a future concept for drug eluting stents.",
+        "journal": "International journal of pharmaceutics",
+        "year": "2014",
+        "authors": [
+          "Walter RF",
+          "Zarogoulidis P",
+          "Mairinger FD",
+          "Werner R",
+          "Darwiche K",
+          "Zarogoulidis K",
+          "Freitag L"
+        ],
+        "mesh": [],
+        "pubtypes": [
+          "Journal Article"
+        ],
+        "abstract": "Currently one of the major problems that interventional pulmonologists have to face is the increased proliferation of fibrinous tissue on the site of the stent placement, and usually at the two ends."
+      }
+    },
+    {
+      "title": "Drug eluting stents for malignant airway obstruction: a critical review of the literature",
+      "journal": "J Cancer",
+      "year": "2016",
+      "volume": "7",
+      "issue": null,
+      "pages": null,
+      "doi": null,
+      "pmid": null,
+      "authors": [
+        "Hohenforst-Schmidt W",
+        "Zarogoulidis P",
+        "Pitsiou G"
+      ],
+      "first_author_last": "Hohenforst-Schmidt",
+      "enrichment": {
+        "pmid": "26918052",
+        "doi": null,
+        "title": "Drug Eluting Stents for Malignant Airway Obstruction: A Critical Review of the Literature.",
+        "journal": "Journal of Cancer",
+        "year": "2016",
+        "authors": [
+          "Hohenforst-Schmidt W",
+          "Zarogoulidis P",
+          "Pitsiou G",
+          "Linsmeier B",
+          "Tsavlis D",
+          "Kioumis I",
+          "Papadaki E",
+          "Freitag L",
+          "Tsiouda T",
+          "Turner JF",
+          "Browning R",
+          "Simoff M",
+          "Sachpekidis N",
+          "Tsakiridis K",
+          "Zaric B",
+          "Yarmus L",
+          "Baka S",
+          "Stratakos G",
+          "Rittger H"
+        ],
+        "mesh": [],
+        "pubtypes": [
+          "Journal Article",
+          "Review"
+        ],
+        "abstract": "Lung cancer being the most prevalent malignancy in men and the 3(rd) most frequent in women is still associated with dismal prognosis due to advanced disease at the time of diagnosis. Novel targeted therapies are already on the market and several others are under investigation. However non-specific cytotoxic agents still remain the cornerstone of treatment for many patients. Central airways stenosis or obstruction may often complicate and decrease quality of life and survival of these patients. Interventional pulmonology modalities (mainly debulking and stent placement) can alleviate symptoms related to airways stenosis and improve the quality of life of patients. Mitomycin C and sirolimus have been observed to assist a successful stent placement by reducing granuloma tissue formation. Additionally, these drugs enhance the normal tissue ability against cancer cell infiltration. In this mini review we will concentrate on mitomycin C and sirolimus and their use in stent placement."
+      }
+    },
+    {
+      "title": "Learning from the cardiologists and developing eluting stents targeting the motor pathway for pulmonary application: a future concept for tracheal stenosis",
+      "journal": "J Mol Genet Med",
+      "year": "2013",
+      "volume": "7",
+      "issue": null,
+      "pages": null,
+      "doi": null,
+      "pmid": null,
+      "authors": [
+        "Zarogoulidis P",
+        "Darwiche K",
+        "Tsakiridis K"
+      ],
+      "first_author_last": "Zarogoulidis",
+      "enrichment": {
+        "pmid": null,
+        "doi": null
+      }
+    },
+    {
+      "title": "Stent-mediated gene delivery for sitespecific transgene administration to the airway epithelium and management of tracheobronchial tumors",
+      "journal": "Respiration",
+      "year": "2014",
+      "volume": "88",
+      "issue": null,
+      "pages": null,
+      "doi": null,
+      "pmid": null,
+      "authors": [
+        "Kruklitis RJ",
+        "Fishbein I",
+        "Singhal S"
+      ],
+      "first_author_last": "Kruklitis",
+      "enrichment": {
+        "pmid": null,
+        "doi": null
+      }
+    },
+    {
+      "title": "Novel biodegradable stents in the treatment of bronchial stenosis after lung transplantation",
+      "journal": "Eur J Cardiothorac Surg",
+      "year": "2011",
+      "volume": "40",
+      "issue": null,
+      "pages": null,
+      "doi": null,
+      "pmid": null,
+      "authors": [
+        "Lischke R",
+        "Pozniak J",
+        "Vondrys D"
+      ],
+      "first_author_last": "Lischke",
+      "enrichment": {
+        "pmid": "21334911",
+        "doi": null,
+        "title": "Novel biodegradable stents in the treatment of bronchial stenosis after lung transplantation.",
+        "journal": "European journal of cardio-thoracic surgery : official journal of the European Association for Cardio-thoracic Surgery",
+        "year": "2011",
+        "authors": [
+          "Lischke R",
+          "Pozniak J",
+          "Vondrys D",
+          "Elliott MJ"
+        ],
+        "mesh": [],
+        "pubtypes": [
+          "Journal Article"
+        ],
+        "abstract": "To evaluate the safety and effectiveness of novel biodegradable (BD) stents to treat bronchial anastomotic stenosis in patients after lung transplantation."
+      }
+    },
+    {
+      "title": "Biodegradable stents after lung transplantation",
+      "journal": "Transpl Int",
+      "year": "2013",
+      "volume": "26",
+      "issue": null,
+      "pages": null,
+      "doi": null,
+      "pmid": null,
+      "authors": [
+        "Fuehner T",
+        "Suhling H",
+        "Greer M"
+      ],
+      "first_author_last": "Fuehner",
+      "enrichment": {
+        "pmid": "23551264",
+        "doi": null,
+        "title": "Biodegradable stents after lung transplantation.",
+        "journal": "Transplant international : official journal of the European Society for Organ Transplantation",
+        "year": "2013",
+        "authors": [
+          "Fuehner T",
+          "Suhling H",
+          "Greer M",
+          "Wiesner O",
+          "Dierich M",
+          "Warnecke G",
+          "Haverich A",
+          "Welte T",
+          "Gottlieb J"
+        ],
+        "mesh": [],
+        "pubtypes": [
+          "Letter"
+        ]
+      }
+    },
+    {
+      "title": "Clinical success stenting distal bronchi for 'lobar salvage' in bronchial stenosis",
+      "journal": "J Bronchology Interv Pulmonol",
+      "year": "2018",
+      "volume": "25",
+      "issue": null,
+      "pages": null,
+      "doi": null,
+      "pmid": null,
+      "authors": [
+        "Sethi S",
+        "Gildea TR",
+        "Almeida FA"
+      ],
+      "first_author_last": "Sethi",
+      "enrichment": {
+        "pmid": "28915141",
+        "doi": null,
+        "title": "Clinical Success Stenting Distal Bronchi for \"Lobar Salvage\" in Bronchial Stenosis.",
+        "journal": "Journal of bronchology & interventional pulmonology",
+        "year": "2018",
+        "authors": [
+          "Sethi S",
+          "Gildea TR",
+          "Almeida FA",
+          "Cicenia JC",
+          "Machuzak MS"
+        ],
+        "mesh": [],
+        "pubtypes": [
+          "Journal Article"
+        ],
+        "abstract": "Airway stents are traditionally used in central airway obstructions to maintain airway patency. Historically, distal bronchial stenting within lobar and segmental bronchi has not been amenable to stenting. In addition, there are questionable benefits to stenting small airways. The Atrium iCast stent is a polytetrafluoroethylene covered stainless steel balloon deployed stent which can be deployed through a flexible bronchoscope under direct visualization. The purpose of this study was to assess the feasibility, complications, and long-term impact of using this stent in patients with lobar bronchial stenosis either secondary to malignancy or benign etiologies."
+      }
+    },
+    {
+      "title": "Covered balloon-expanding stents in airway stenosis",
+      "journal": "J Bronchology Interv Pulmonol",
+      "year": "2017",
+      "volume": "24",
+      "issue": null,
+      "pages": null,
+      "doi": null,
+      "pmid": null,
+      "authors": [
+        "Majid A",
+        "Kheir F",
+        "Chung J"
+      ],
+      "first_author_last": "Majid",
+      "enrichment": {
+        "pmid": "28323735",
+        "doi": null,
+        "title": "Covered Balloon-Expanding Stents in Airway Stenosis.",
+        "journal": "Journal of bronchology & interventional pulmonology",
+        "year": "2017",
+        "authors": [
+          "Majid A",
+          "Kheir F",
+          "Chung J",
+          "Alape D",
+          "Husta B",
+          "Oh S",
+          "Folch E"
+        ],
+        "mesh": [],
+        "pubtypes": [
+          "Journal Article"
+        ],
+        "abstract": "The balloon-expanding stents are widely available but rarely described for use within the tracheobronchial tree. This report describes our experience with these stents in airway stenosis particularly as a lobar salvage therapy."
+      }
+    },
+    {
+      "title": "Long-term outcome of short metallic stents for lobar airway stenosis",
+      "journal": "J Bronchology Interv Pulmonol",
+      "year": "2017",
+      "volume": "24",
+      "issue": null,
+      "pages": null,
+      "doi": null,
+      "pmid": null,
+      "authors": [
+        "Fruchter O",
+        "Raouf AE",
+        "Rosengarten B",
+        "Kramer D",
+        "MR"
+      ],
+      "first_author_last": "Fruchter",
+      "enrichment": {
+        "pmid": "28696967",
+        "doi": null,
+        "title": "Long-term Outcome of Short Metallic Stents for Lobar Airway Stenosis.",
+        "journal": "Journal of bronchology & interventional pulmonology",
+        "year": "2017",
+        "authors": [
+          "Fruchter O",
+          "Abed El Raouf B",
+          "Rosengarten D",
+          "Kramer MR"
+        ],
+        "mesh": [],
+        "pubtypes": [
+          "Journal Article"
+        ],
+        "abstract": "Whereas stents are considered an excellent treatment for proximal central major airway stenosis, the value of stenting for distal lobar airway stenosis is still controversial. Our aim was to explore the short-term and long-term outcome of metallic stents placed for benign and malignant lobar airway stenosis."
+      }
+    },
+    {
+      "title": "Distal airway stenting: how far is too far?",
+      "journal": "J Bronchology Interv Pulmonol",
+      "year": "2015",
+      "volume": "22",
+      "issue": null,
+      "pages": null,
+      "doi": null,
+      "pmid": null,
+      "authors": [
+        "Argento AC",
+        "Puchalski JT"
+      ],
+      "first_author_last": "Argento",
+      "enrichment": {
+        "pmid": null,
+        "doi": null
+      }
+    },
+    {
+      "title": "Bronchial anthracofibrosis: treatment using airway stents",
+      "journal": "Int J Tuberc Lung Dis",
+      "year": "2013",
+      "volume": "17",
+      "issue": null,
+      "pages": null,
+      "doi": null,
+      "pmid": null,
+      "authors": [
+        "El Raouf BA",
+        "Kramer MR",
+        "Fruchter O"
+      ],
+      "first_author_last": "El",
+      "enrichment": {
+        "pmid": null,
+        "doi": null
+      }
+    }
+  ],
+  "drugs": [
+    {
+      "drug": "mitomycin",
+      "dose": null,
+      "span": [
+        19016,
+        19026
+      ],
+      "context": "eal stents eluting the antimitotic drug mitomycin into rabbits and compared these with nonmitomycin stents and nonstented controls"
+    },
+    {
+      "drug": "nonmitomycin",
+      "dose": null,
+      "span": [
+        19063,
+        19076
+      ],
+      "context": "in into rabbits and compared these with nonmitomycin stents and nonstented controls. Mitomycin-treated rabbits had the least granulat"
+    },
+    {
+      "drug": "Mitomycin",
+      "dose": null,
+      "span": [
+        19108,
+        19117
+      ],
+      "context": "tomycin stents and nonstented controls. Mitomycin-treated rabbits had the least granulation formation and mucus trapping at 12 we"
+    }
+  ],
+  "trial_ids": [
+    "NCT02889029"
+  ],
+  "assets": {
+    "tables": [],
+    "figures": [
+      {
+        "type": "figure",
+        "content": {
+          "self_ref": "#/pictures/0",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [
+            {
+              "cref": "#/texts/2"
+            },
+            {
+              "cref": "#/texts/3"
+            }
+          ],
+          "content_layer": "body",
+          "label": "picture",
+          "prov": [
+            {
+              "page_no": 1,
+              "bbox": {
+                "l": 35.280879974365234,
+                "t": 720.6165237426758,
+                "r": 92.8033676147461,
+                "b": 687.4750823974609,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                0
+              ]
+            }
+          ],
+          "captions": [],
+          "references": [],
+          "footnotes": [],
+          "image": null,
+          "annotations": []
+        },
+        "captions": [
+          "). No one stent is suitable for all conditions; each has its advantages and disadvantages."
+        ],
+        "footnotes": [
+          "alignant airway obstruction, stent, therapeutic bronchoscopy",
+          "tents for malignant CAO. Stenting for CAO in benign disease has been covered elsewhere [3 && ].",
+          "ww.co-pulmonarymedicine.com",
+          "lone. Mixed patterns of disease often require multiple modalities of intervention.",
+          "nterventions that address the malignant CAO are either not feasible or not timely in terms of their effect on dyspnea (e.g. chemotherapy for lymphoma), then timely bronchoscopic intervention before the patient is in extremis should be considered. A recent study demonstrated that urgent and emergent therapeutic bronchoscopy is associated with higher rates of complications than elective procedures [4].",
+          "erceived as being at greatest risk for these procedures have the greatest potential to gain from them. This is an important finding. These patients should not be too quickly discounted as candidates for therapeutic bronchoscopy, including stenting. They may be the very ones who will respond the most to such interventions.",
+          "ith malignant central airway obstruction were included, 24 of whom underwent stent placement. Stent placement and male sex remained as predictors in the multivariate analysis. The incidence rate of LRTI in stented patients was 0.0057 infections per person-day; in nonstented patients, the rate was 0.0011 infections per person-day, giving a statistically significant incidence rate risk difference of 0.0046 infections per day. This corresponds to a 13% increased risk of LRTI per month in stented patients compared with those without stents. In turn, this is equal to one infection for every eight stents placed. Moreover, ECOG at least 2, stenting, and LRTI were associated with decreased survival. However, only LRTI remained associated with survival in the multivariate model. Taken together, given the incidence rate of stent infections and the association of LRTI with death, the emphasis on carefully deciding when to place a stent cannot be overstated.",
+          "rocedure to monitor for said complications. In terms of overall survival, silicone stents and tracheal stents were associated with decreased mortality, whereas LRTI and prestent radiation therapy were associated with the converse. Possibly, there was some degree of selection bias associated with silicone stent placement, as these may have been placed in healthier patients who are thereby better able to tolerate the more technically difficult placement of these stents compared with metal stents. Silicone stents are also easier to remove. There may have been a bias toward placing these in patients whose disease burden was expected to improve, thereby allowing stent removal later.",
+          "ranulation tissue or mucus plugging many weeks after discharge. Additionally, while not taking an endoluminal approach, Morrison et al. [11] created 3D airway splints that were surgically placed around main stem bronchi in three infants with tracheobronchomalacia. Two were eventually able to be liberated from mechanical ventilation completely. A feasibility study is currently under way to test this approach in a series of patients [12].",
+          "ould lead to sepsis and/or respiratory failure in already debilitated and immunocompromised patients. Additionally, in lung cancer patients after lung resection, losing a single lobe would be losing a larger percentage of gas exchange area than if they had two full lungs. This same reasoning can be applied for single lung transplant patients who are living with a single functional lung. Therefore, preserving function of a single lobe may be quite beneficial.",
+          "uality of life). Only two patients needed unscheduled bronchoscopy for retained secretions. The rest had scheduled bronchoscopy to remove granulation tissue and secretions. One patient had postobstructive PNA due to granulation tissue."
+        ]
+      },
+      {
+        "type": "figure",
+        "content": {
+          "self_ref": "#/pictures/1",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [
+            {
+              "cref": "#/texts/48"
+            },
+            {
+              "cref": "#/texts/49"
+            },
+            {
+              "cref": "#/texts/50"
+            },
+            {
+              "cref": "#/texts/51"
+            },
+            {
+              "cref": "#/texts/52"
+            },
+            {
+              "cref": "#/texts/53"
+            },
+            {
+              "cref": "#/texts/54"
+            },
+            {
+              "cref": "#/texts/55"
+            },
+            {
+              "cref": "#/texts/56"
+            },
+            {
+              "cref": "#/texts/57"
+            },
+            {
+              "cref": "#/texts/58"
+            },
+            {
+              "cref": "#/texts/59"
+            },
+            {
+              "cref": "#/texts/60"
+            },
+            {
+              "cref": "#/texts/61"
+            },
+            {
+              "cref": "#/texts/62"
+            },
+            {
+              "cref": "#/texts/63"
+            },
+            {
+              "cref": "#/texts/64"
+            },
+            {
+              "cref": "#/texts/65"
+            },
+            {
+              "cref": "#/texts/66"
+            },
+            {
+              "cref": "#/texts/67"
+            },
+            {
+              "cref": "#/texts/68"
+            },
+            {
+              "cref": "#/texts/69"
+            },
+            {
+              "cref": "#/texts/70"
+            },
+            {
+              "cref": "#/texts/71"
+            },
+            {
+              "cref": "#/texts/72"
+            },
+            {
+              "cref": "#/texts/73"
+            },
+            {
+              "cref": "#/texts/74"
+            },
+            {
+              "cref": "#/texts/75"
+            },
+            {
+              "cref": "#/texts/76"
+            },
+            {
+              "cref": "#/texts/77"
+            },
+            {
+              "cref": "#/texts/78"
+            },
+            {
+              "cref": "#/texts/79"
+            },
+            {
+              "cref": "#/texts/80"
+            },
+            {
+              "cref": "#/texts/81"
+            },
+            {
+              "cref": "#/texts/82"
+            },
+            {
+              "cref": "#/texts/83"
+            },
+            {
+              "cref": "#/texts/84"
+            }
+          ],
+          "content_layer": "body",
+          "label": "picture",
+          "prov": [
+            {
+              "page_no": 3,
+              "bbox": {
+                "l": 63.00025939941406,
+                "t": 725.5152053833008,
+                "r": 510.0404968261719,
+                "b": 193.60150146484375,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                0
+              ]
+            }
+          ],
+          "captions": [
+            {
+              "cref": "#/texts/48"
+            }
+          ],
+          "references": [],
+          "footnotes": [],
+          "image": null,
+          "annotations": []
+        },
+        "captions": [
+          "). No one stent is suitable for all conditions; each has its advantages and disadvantages."
+        ],
+        "footnotes": [
+          "alignant airway obstruction, stent, therapeutic bronchoscopy",
+          "tents for malignant CAO. Stenting for CAO in benign disease has been covered elsewhere [3 && ].",
+          "ww.co-pulmonarymedicine.com",
+          "lone. Mixed patterns of disease often require multiple modalities of intervention.",
+          "nterventions that address the malignant CAO are either not feasible or not timely in terms of their effect on dyspnea (e.g. chemotherapy for lymphoma), then timely bronchoscopic intervention before the patient is in extremis should be considered. A recent study demonstrated that urgent and emergent therapeutic bronchoscopy is associated with higher rates of complications than elective procedures [4].",
+          "erceived as being at greatest risk for these procedures have the greatest potential to gain from them. This is an important finding. These patients should not be too quickly discounted as candidates for therapeutic bronchoscopy, including stenting. They may be the very ones who will respond the most to such interventions.",
+          "ith malignant central airway obstruction were included, 24 of whom underwent stent placement. Stent placement and male sex remained as predictors in the multivariate analysis. The incidence rate of LRTI in stented patients was 0.0057 infections per person-day; in nonstented patients, the rate was 0.0011 infections per person-day, giving a statistically significant incidence rate risk difference of 0.0046 infections per day. This corresponds to a 13% increased risk of LRTI per month in stented patients compared with those without stents. In turn, this is equal to one infection for every eight stents placed. Moreover, ECOG at least 2, stenting, and LRTI were associated with decreased survival. However, only LRTI remained associated with survival in the multivariate model. Taken together, given the incidence rate of stent infections and the association of LRTI with death, the emphasis on carefully deciding when to place a stent cannot be overstated.",
+          "rocedure to monitor for said complications. In terms of overall survival, silicone stents and tracheal stents were associated with decreased mortality, whereas LRTI and prestent radiation therapy were associated with the converse. Possibly, there was some degree of selection bias associated with silicone stent placement, as these may have been placed in healthier patients who are thereby better able to tolerate the more technically difficult placement of these stents compared with metal stents. Silicone stents are also easier to remove. There may have been a bias toward placing these in patients whose disease burden was expected to improve, thereby allowing stent removal later.",
+          "ranulation tissue or mucus plugging many weeks after discharge. Additionally, while not taking an endoluminal approach, Morrison et al. [11] created 3D airway splints that were surgically placed around main stem bronchi in three infants with tracheobronchomalacia. Two were eventually able to be liberated from mechanical ventilation completely. A feasibility study is currently under way to test this approach in a series of patients [12].",
+          "ould lead to sepsis and/or respiratory failure in already debilitated and immunocompromised patients. Additionally, in lung cancer patients after lung resection, losing a single lobe would be losing a larger percentage of gas exchange area than if they had two full lungs. This same reasoning can be applied for single lung transplant patients who are living with a single functional lung. Therefore, preserving function of a single lobe may be quite beneficial.",
+          "uality of life). Only two patients needed unscheduled bronchoscopy for retained secretions. The rest had scheduled bronchoscopy to remove granulation tissue and secretions. One patient had postobstructive PNA due to granulation tissue."
+        ]
+      }
+    ]
+  },
+  "statistics": [],
+  "validation": {
+    "checks": {
+      "has_title": true,
+      "has_authors": true,
+      "authors_are_valid": false,
+      "has_sections": true,
+      "sections_have_content": true,
+      "has_tables": false,
+      "tables_have_captions": true,
+      "tables_have_data": true,
+      "has_figures": true,
+      "figures_have_captions": false,
+      "figures_have_images": false,
+      "has_entities": false,
+      "has_statistics": false,
+      "has_references": true,
+      "refs_structured": true,
+      "refs_enriched_some": true,
+      "references_enriched": true,
+      "has_references_csv": false,
+      "has_cross_refs": false,
+      "umls_links": false,
+      "figures_textual_count": 0
+    },
+    "completeness_score": 61,
+    "is_valid": true,
+    "issues": [],
+    "warnings": [
+      "No medical entities found",
+      "No statistics extracted",
+      "Some figures missing captions"
+    ],
+    "quality_level": "acceptable",
+    "hardening": {
+      "fixes": [
+        {
+          "field": "year",
+          "action": "normalize:iso",
+          "old": "2018-07",
+          "new": 2018
+        },
+        {
+          "field": "authors",
+          "action": "filtered_ack_like",
+          "old": [
+            "Bruce F. Sabath",
+            "David E. Ost"
+          ],
+          "new": [
+            "Bruce F. Sabath",
+            "David E. Ost"
+          ]
+        },
+        {
+          "field": "journal_full",
+          "action": "canonicalize",
+          "old": null,
+          "new": "Current Opinion in Pulmonary Medicine"
+        }
+      ]
+    }
+  }
+}

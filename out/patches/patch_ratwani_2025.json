@@ -1,0 +1,64 @@
+[
+  {
+    "op": "add",
+    "path": "/metadata/journal",
+    "value": "Annals of the American Thoracic Society"
+  },
+  {
+    "op": "add",
+    "path": "/metadata/doi",
+    "value": "10.1513/AnnalsATS.202410-1095OC"
+  },
+  {
+    "op": "add",
+    "path": "/metadata/volume",
+    "value": "22"
+  },
+  {
+    "op": "add",
+    "path": "/metadata/issue",
+    "value": "9"
+  },
+  {
+    "op": "add",
+    "path": "/metadata/pages",
+    "value": "1321-1328"
+  },
+  {
+    "op": "replace",
+    "path": "/metadata/authors",
+    "value": [
+      "Ankush Ratwani",
+      "Horiana B. Grosu",
+      "Shaikh M. Noor Husnain",
+      "Trinidad M. Sanchez",
+      "Gulmira Yermakhanova",
+      "Jasleen Pannu",
+      "Labib G. Debiane",
+      "Zachary DePew",
+      "Lonny Yarmus",
+      "Fabien Maldonado",
+      "Robert J. Lentz",
+      "Otis B. Rickman",
+      "David Feller-Kopman",
+      "Muhammad H. Arain",
+      "Holly New",
+      "Heidi Chen",
+      "Sheau-Chiann Chen",
+      "David E. Ost",
+      "Frank Dana",
+      "Leila Rezai Gharai",
+      "Mark Parker",
+      "Peter M. J. Lee",
+      "Danai Khemasuwan",
+      "Ray W. Shepherd",
+      "Najib M. Rahman",
+      "Samira Shojaee"
+    ]
+  },
+  {
+    "op": "add",
+    "path": "/metadata/year_norm",
+    "value": "2025"
+  }
+]

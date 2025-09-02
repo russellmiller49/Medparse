@@ -1,0 +1,191 @@
+{
+  "metadata": {
+    "title": "Nd:YAG Laser Therapy in Lung Cancer: An 11-Year Experience with 2,253 Applications in 1,585 Patients",
+    "year": 1994,
+    "authors": [
+      {
+        "given": "Sergio",
+        "family": "Cavaliere",
+        "suffix": null,
+        "degrees": [],
+        "display": "Sergio Cavaliere",
+        "group": false
+      },
+      {
+        "given": "Pierfranco",
+        "family": "Foccoli",
+        "suffix": null,
+        "degrees": [],
+        "display": "Pierfranco Foccoli",
+        "group": false
+      },
+      {
+        "given": "Carlo",
+        "family": "Toninelli",
+        "suffix": null,
+        "degrees": [],
+        "display": "Carlo Toninelli",
+        "group": false
+      },
+      {
+        "given": "Salvato",
+        "family": "Feijo",
+        "suffix": null,
+        "degrees": [],
+        "display": "Salvato Feijo",
+        "group": false
+      }
+    ],
+    "doi": "10.1097/00128594-199404000-00006",
+    "journal": "Journal of Bronchology",
+    "volume": "1",
+    "issue": "2",
+    "pages": "105-111",
+    "abstract": null,
+    "year_norm": "1994",
+    "journal_full": "Journal of Bronchology"
+  },
+  "structure": {
+    "sections": []
+  },
+  "provenance": {
+    "orig_pdf_filename": "Cavaliere et al. - NdYAG Laser Therapy in Lung Cancer An 11-Year Experience with 2,253 Applications in 1,585 Patients.pdf",
+    "source": "manual_init_from_pdf_header",
+    "created_at": "2025-09-01T21:28:07.835233Z",
+    "patches": [
+      {
+        "op": "manual_replace",
+        "path": "metadata.year",
+        "from": "1994",
+        "to": 1994,
+        "source": "manual_patch",
+        "note": "override:by_filename",
+        "confidence": 0.99
+      },
+      {
+        "op": "manual_replace",
+        "path": "metadata.year_norm",
+        "from": null,
+        "to": "1994",
+        "source": "manual_patch",
+        "note": "override:by_filename",
+        "confidence": 0.99
+      },
+      {
+        "op": "manual_replace",
+        "path": "metadata.issue",
+        "from": null,
+        "to": "2",
+        "source": "manual_patch",
+        "note": "override:by_filename",
+        "confidence": 0.99
+      },
+      {
+        "op": "manual_replace",
+        "path": "metadata.doi",
+        "from": null,
+        "to": "10.1097/00128594-199404000-00006",
+        "source": "manual_patch",
+        "note": "override:by_filename",
+        "confidence": 0.99
+      },
+      {
+        "path": "provenance.orig_pdf_filename",
+        "op": "set",
+        "from": "nd__yag_laser_therapy_in_lung_cancer__an_11_year.6.pdf",
+        "to": "Cavaliere et al. - NdYAG Laser Therapy in Lung Cancer An 11-Year Experience with 2,253 Applications in 1,585 Patients.pdf",
+        "source": "zotero:csv",
+        "confidence": 0.9
+      },
+      {
+        "path": "metadata.authors",
+        "op": "set",
+        "from": [
+          "Sergio Cavaliere",
+          "Pierfranco Foccoli",
+          "Carlo Toninelli",
+          "Salvato Feijo"
+        ],
+        "to": [
+          {
+            "given": "Sergio",
+            "family": "Cavaliere",
+            "suffix": null,
+            "degrees": [],
+            "display": "Sergio Cavaliere",
+            "group": false
+          },
+          {
+            "given": "Pierfranco",
+            "family": "Foccoli",
+            "suffix": null,
+            "degrees": [],
+            "display": "Pierfranco Foccoli",
+            "group": false
+          },
+          {
+            "given": "Carlo",
+            "family": "Toninelli",
+            "suffix": null,
+            "degrees": [],
+            "display": "Carlo Toninelli",
+            "group": false
+          },
+          {
+            "given": "Salvato",
+            "family": "Feijo",
+            "suffix": null,
+            "degrees": [],
+            "display": "Salvato Feijo",
+            "group": false
+          }
+        ],
+        "source": "filtered_ack_like",
+        "confidence": 0.9
+      },
+      {
+        "path": "metadata.journal_full",
+        "op": "set",
+        "from": null,
+        "to": "Journal of Bronchology",
+        "source": "canonicalize",
+        "confidence": 0.9
+      }
+    ],
+    "zotero": {
+      "id": "cavaliereNdYAGLaser",
+      "source": "zotero_csl+csv",
+      "exported_at": "2025-09-02T20:29:37.911274Z",
+      "match_method": "title_exact",
+      "match_confidence": 1.0
+    }
+  },
+  "validation": {
+    "hardening": {
+      "fixes": [
+        {
+          "field": "authors",
+          "action": "filtered_ack_like",
+          "old": [
+            "Sergio Cavaliere",
+            "Pierfranco Foccoli",
+            "Carlo Toninelli",
+            "Salvato Feijo"
+          ],
+          "new": [
+            "Sergio Cavaliere",
+            "Pierfranco Foccoli",
+            "Carlo Toninelli",
+            "Salvato Feijo"
+          ]
+        },
+        {
+          "field": "journal_full",
+          "action": "canonicalize",
+          "old": null,
+          "new": "Journal of Bronchology"
+        }
+      ]
+    }
+  }
+}

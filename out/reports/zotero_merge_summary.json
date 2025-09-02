@@ -1,0 +1,11 @@
+{
+  "total": 411,
+  "matched_doi": 0,
+  "matched_title_exact": 367,
+  "matched_title_fuzzy": 8,
+  "matched_author_year": 8,
+  "unmatched": 16,
+  "doi_conflicts": 0,
+  "errors": 0,
+  "notes": []
+}

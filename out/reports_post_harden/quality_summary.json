@@ -1,0 +1,17 @@
+{
+  "authors_ack_like": 0,
+  "empty_authors": 18,
+  "empty_references_struct": 0,
+  "has_references_struct": 408,
+  "has_references_text": 408,
+  "invalid_year_format": 0,
+  "json_errors": 0,
+  "missing_abstract": 244,
+  "missing_authors": 0,
+  "missing_doi": 339,
+  "missing_journal": 408,
+  "missing_metadata": 0,
+  "missing_title": 0,
+  "missing_year": 29,
+  "total_files": 408
+}

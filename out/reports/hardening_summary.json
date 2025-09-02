@@ -1,0 +1,8 @@
+{
+  "input_files": 411,
+  "changed": 411,
+  "unchanged": 0,
+  "errors": 0,
+  "output_dir": "out/hardened",
+  "dry_run": false
+}

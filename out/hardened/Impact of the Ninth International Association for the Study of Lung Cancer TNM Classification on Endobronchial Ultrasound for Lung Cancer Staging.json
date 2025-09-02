@@ -1,0 +1,1280 @@
+{
+  "metadata": {
+    "title": "Impact of the Ninth International Association for the Study of Lung Cancer TNM Classification on Endobronchial Ultrasound for Lung Cancer Staging",
+    "year": 2024,
+    "authors": [
+      {
+        "given": "Nuno",
+        "family": "Faria",
+        "suffix": null,
+        "degrees": [],
+        "display": "Nuno Faria",
+        "group": false
+      },
+      {
+        "given": "Maria Inês",
+        "family": "Costa",
+        "suffix": null,
+        "degrees": [],
+        "display": "Maria Inês Costa",
+        "group": false
+      },
+      {
+        "given": "Catarina",
+        "family": "Lacerda",
+        "suffix": null,
+        "degrees": [],
+        "display": "Catarina Lacerda",
+        "group": false
+      },
+      {
+        "given": "Maria",
+        "family": "Sucena",
+        "suffix": null,
+        "degrees": [],
+        "display": "Maria Sucena",
+        "group": false
+      }
+    ],
+    "references_text": [
+      "Passive Smoking–Induced Mutagenesis as a Promoter of Lung Carcinogenesis\n\t\t\n\t\t\tAkifumiMochizuki\n\t\t\n\t\t\n\t\t\tKouyaShiraishi\n\t\t\n\t\t\n\t\t\tTakayukiHonda\n\t\t\n\t\t\n\t\t\tRyokoInabaHigashiyama\n\t\t\n\t\t\n\t\t\tKunikoSunami\n\t\t\n\t\t\n\t\t\tMaikoMatsuda\n\t\t\n\t\t\n\t\t\tYokoShimada\n\t\t\n\t\t\n\t\t\tYasunariMiyazaki\n\t\t\n\t\t\n\t\t\tYukihiroYoshida\n\t\t\n\t\t\n\t\t\tShun-IchiWatanabe\n\t\t\n\t\t\n\t\t\tYasushiYatabe\n\t\t\n\t\t\n\t\t\tRyujiHamamoto\n\t\t\n\t\t\n\t\t\tTakashiKohno\n\t\t\t0000-0002-5371-706X\n\t\t\n\t\t10.1016/j.jtho.2024.02.006\n\t\n\t\n\t\tJournal of Thoracic Oncology\n\t\tJournal of Thoracic Oncology\n\t\t1556-0864\n\t\t\n\t\t\t19\n\t\t\t7\n\t\t\t\n\t\t\t2024\n\t\t\tElsevier BV",
+      "Lung adenocarcinoma promotion by air pollutants\n\t\t\n\t\t\tWHill\n\t\t\n\t\t\n\t\t\tELLim\n\t\t\n\t\t\n\t\t\tCEWeeden\n\t\t\n\t\n\t\n\t\tNature\n\t\t\n\t\t\t616\n\t\t\t\n\t\t\t2023",
+      "Secondhand smoke exposure and risk of lung cancer in Japan: a systematic review and meta-analysis of epidemiologic studies\n\t\t\n\t\t\tMegumiHori\n\t\t\n\t\t\n\t\t\tHirokazuTanaka\n\t\t\n\t\t\n\t\t\tKenjiWakai\n\t\t\n\t\t\n\t\t\tShizukaSasazuki\n\t\t\n\t\t\n\t\t\tKotaKatanoda\n\t\t\n\t\t10.1093/jjco/hyw091\n\t\n\t\n\t\tJapanese Journal of Clinical Oncology\n\t\tJpn. J. Clin. Oncol.\n\t\t0368-2811\n\t\t1465-3621\n\t\t\n\t\t\t46\n\t\t\t10\n\t\t\t\n\t\t\t2016\n\t\t\tOxford University Press (OUP)\n\t\t\n\t\n\tReferences",
+      "The International Association for the Study of Lung Cancer Lung Cancer Staging Project: Proposals for Revision of the TNM Stage Groups in the Forthcoming (Ninth) Edition of the TNM Classification for Lung Cancer\n\t\t\n\t\t\tRamónRami-Porta\n\t\t\t0000-0003-3366-7664\n\t\t\n\t\t\n\t\t\tKatherineKNishimura\n\t\t\n\t\t\n\t\t\tDorothyJGiroux\n\t\t\n\t\t\n\t\t\tFrankDetterbeck\n\t\t\n\t\t\n\t\t\tGiuseppeCardillo\n\t\t\n\t\t\n\t\t\tJohnGEdwards\n\t\t\n\t\t\n\t\t\tKwunMFong\n\t\t\n\t\t\n\t\t\tMeredithGiuliani\n\t\t\n\t\t\n\t\t\tJamesHuang\n\t\t\n\t\t\n\t\t\tKempHKernstine\n\t\t\n\t\t\n\t\t\tEdithMMarom\n\t\t\n\t\t\n\t\t\tAndrewGNicholson\n\t\t\n\t\t\n\t\t\tPaulEVan Schil\n\t\t\n\t\t\n\t\t\tWilliamDTravis\n\t\t\n\t\t\n\t\t\tMingSTsao\n\t\t\n\t\t\n\t\t\tShun-IchiWatanabe\n\t\t\n\t\t\n\t\t\tValerieWRusch\n\t\t\n\t\t\n\t\t\tHisaoAsamura\n\t\t\n\t\t10.1016/j.jtho.2024.02.011\n\t\n\t\n\t\tJournal of Thoracic Oncology\n\t\tJournal of Thoracic Oncology\n\t\t1556-0864\n\t\t\n\t\t\t19\n\t\t\t7\n\t\t\t\n\t\t\t2024\n\t\t\tElsevier BV",
+      "Lung cancer staging: a concise update\n\t\t\n\t\t\tRamónRami-Porta\n\t\t\n\t\t\n\t\t\tSergiCall\n\t\t\t0000-0002-5042-419X\n\t\t\n\t\t\n\t\t\tChristopheDooms\n\t\t\n\t\t\n\t\t\tCarmeObiols\n\t\t\n\t\t\n\t\t\tMarceloSánchez\n\t\t\n\t\t\n\t\t\tWilliamDTravis\n\t\t\n\t\t\n\t\t\tIvanVollmer\n\t\t\n\t\t10.1183/13993003.00190-2018\n\t\n\t\n\t\tEuropean Respiratory Journal\n\t\tEur Respir J\n\t\t0903-1936\n\t\t1399-3003\n\t\t\n\t\t\t51\n\t\t\t5\n\t\t\t1800190\n\t\t\t2018\n\t\t\tEuropean Respiratory Society (ERS)",
+      "PET-CT SUVmax and Endobronchial Ultrasound Features for Prediction of Malignancy: A Prospective Study\n\t\t\n\t\t\tNunoFaria\n\t\t\t0000-0002-7392-8665\n\t\t\n\t\t\n\t\t\tCatarinaLacerda\n\t\t\n\t\t\n\t\t\tJenniferLopes\n\t\t\n\t\t\n\t\t\tCristinaViana\n\t\t\n\t\t\n\t\t\tMariaSucena\n\t\t\n\t\t10.1016/j.cllc.2023.08.005\n\t\n\t\n\t\tClinical Lung Cancer\n\t\tClinical Lung Cancer\n\t\t1525-7304\n\t\t\n\t\t\t24\n\t\t\t8\n\t\t\t\n\t\t\t2023\n\t\t\tElsevier BV",
+      "Combined endobronchial and esophageal endosonography for the diagnosis and staging of lung cancer: European Society of Gastrointestinal Endoscopy (ESGE) Guideline, in cooperation with the European Respiratory Society (ERS) and the European Society of Thoracic Surgeons (ESTS)\n\t\t\n\t\t\tPeterVilmann\n\t\t\n\t\t\n\t\t\tPaulClementsen\n\t\t\n\t\t\n\t\t\tSaraColella\n\t\t\n\t\t\n\t\t\tMetteSiemsen\n\t\t\n\t\t\n\t\t\tPaulDe Leyn\n\t\t\n\t\t\n\t\t\tJean-MarcDumonceau\n\t\t\n\t\t\n\t\t\tFelixHerth\n\t\t\n\t\t\n\t\t\tAlbertoLarghi\n\t\t\n\t\t\n\t\t\tEnriqueVazquez-Sequeiros\n\t\t\n\t\t\n\t\t\tCesareHassan\n\t\t\n\t\t\n\t\t\tLaurenceCrombag\n\t\t\n\t\t\n\t\t\tDaniëlKorevaar\n\t\t\n\t\t\n\t\t\tLarsKonge\n\t\t\n\t\t\n\t\t\tJoukeAnnema\n\t\t\n\t\t10.1055/s-0034-1392453\n\t\n\t\n\t\tEndoscopy\n\t\tEndoscopy\n\t\t0013-726X\n\t\t1438-8812\n\t\t\n\t\t\t47\n\t\t\t06\n\t\t\t\n\t\t\t\n\t\t\tGeorg Thieme Verlag KG\n\t\t\n\t\n\tWriting-original draft",
+      "American Speech-Language-Hearing Association Clinical Practice Guideline: Cognitive Rehabilitation for the Management of Cognitive Dysfunction Associated With Acquired Brain Injury\n\t\t\n\t\t\tTobiFrymark\n\t\t\t0000-0001-6969-0781\n\t\t\n\t\t\n\t\t\tRebeccaBowen\n\t\t\n\t\t10.1044/2022_ajslp-21-00361\n\t\n\t\n\t\tAmerican Journal of Speech-Language Pathology\n\t\tAm J Speech Lang Pathol\n\t\t1058-0360\n\t\t1558-9110\n\t\t\n\t\t\t31\n\t\t\t6\n\t\t\t\n\t\t\t\n\t\t\tAmerican Speech Language Hearing Association\n\t\t\n\t\n\tWriting-review and editing",
+      "Reply to “Impact of the Ninth IASLC TNM Classification on Endobronchial Ultrasound for Lung Cancer Staging” by Faria et al\n\t\t\n\t\t\tRamónRami-Porta\n\t\t\t0000-0003-3366-7664\n\t\t\n\t\t\n\t\t\tSergiCall\n\t\t\n\t\t\n\t\t\tJoséSanz-Santos\n\t\t\n\t\t10.1016/j.jtho.2024.07.021\n\t\t\n\t\n\t\n\t\tJournal of Thoracic Oncology\n\t\tJournal of Thoracic Oncology\n\t\t1556-0864\n\t\t\n\t\t\t19\n\t\t\t10\n\t\t\t\n\t\t\t5, 08221. 2024. 2024\n\t\t\tElsevier BV\n\t\t\tSpain; Terrassa, Barcelona, Spain\n\t\t\n\t\t\n\t\t\tMD Department of Thoracic Surgery Hospital Universitari Mútua Terrassa, University of Barcelona Barcelona, Spain Network of Centers for Biomedical Research in Respiratory Diseases (CIBERES) Lung Cancer Group Barcelona ; MD, Department of Thoracic Surgery, Hospital Universitari Mútua Terrassa, Plaza Dr\n\t\t\n\t\n\tAddress correspondence to: Ramón Rami-Porta All rights are reserved, including those for text and data mining"
+    ],
+    "references_raw": [
+      "Passive smokinginduced mutagenesis as a promoter of lung carcinogenesis\n\t\t\n\t\t\tAMochizuki\n\t\t\n\t\t\n\t\t\tKShiraishi\n\t\t\n\t\t\n\t\t\tTHonda\n\t\t\n\t\n\t\n\t\tJ Thorac Oncol\n\t\t\n\t\t\t19\n\t\t\t\n\t\t\t2024",
+      "Lung adenocarcinoma promotion by air pollutants\n\t\t\n\t\t\tWHill\n\t\t\n\t\t\n\t\t\tELLim\n\t\t\n\t\t\n\t\t\tCEWeeden\n\t\t\n\t\n\t\n\t\tNature\n\t\t\n\t\t\t616\n\t\t\t\n\t\t\t2023",
+      "Secondhand smoke exposure and risk of lung cancer in Japan: a systematic review and meta-analysis of epidemiologic studies\n\t\t\n\t\t\tMHori\n\t\t\n\t\t\n\t\t\tHTanaka\n\t\t\n\t\t\n\t\t\tKWakai\n\t\t\n\t\t\n\t\t\tSSasazuki\n\t\t\n\t\t\n\t\t\tKKatanoda\n\t\t\n\t\n\t\n\t\tJpn J Clin Oncol\n\t\t\n\t\t\t46\n\t\t\t\n\t\t\t2016\n\t\t\n\t\n\tReferences",
+      "The International Association for the Study of Lung Cancer lung cancer staging project: proposals for revision of the TNM stage groups in the forthcoming (ninth) edition of the TNM classification for lung cancer\n\t\t\n\t\t\tRRami-Porta\n\t\t\n\t\t\n\t\t\tKKNishimura\n\t\t\n\t\t\n\t\t\tDJGiroux\n\t\t\n\t\n\t\n\t\tJ Thorac Oncol\n\t\t\n\t\t\t19\n\t\t\t\n\t\t\t2024",
+      "Lung cancer staging: a concise update\n\t\t\n\t\t\tRRami-Porta\n\t\t\n\t\t\n\t\t\tSCall\n\t\t\n\t\t\n\t\t\tCDooms\n\t\t\n\t\n\t\n\t\tEur Respir J\n\t\t\n\t\t\t51\n\t\t\t1800190\n\t\t\t2018",
+      "PET-CT SUV max and endobronchial ultrasound features for prediction of malignancy: a prospective study\n\t\t\n\t\t\tNFaria\n\t\t\n\t\t\n\t\t\tCLacerda\n\t\t\n\t\t\n\t\t\tJLopes\n\t\t\n\t\t\n\t\t\tCViana\n\t\t\n\t\t\n\t\t\tMSucena\n\t\t\n\t\n\t\n\t\tClin Lung Cancer\n\t\t\n\t\t\t24\n\t\t\t\n\t\t\t2023",
+      "Combined endobronchial and esophageal endosonography for the diagnosis and staging of lung cancer: European Society of Ramón Rami-Porta: Conceptualization\n\t\t\n\t\t\tPVilmann\n\t\t\n\t\t\n\t\t\tPFClementsen\n\t\t\n\t\t\n\t\t\tSColella\n\t\t\n\t\n\t\n\t\tMethodology, Investigation\n\t\t\n\t\n\tWriting-original draft",
+      "Conceptualization, Writing-original draft\n\t\t\n\t\t\tSergiCall\n\t\t\n\t\t\n\t\t\tJoséSanz-Santos\n\t\t\n\t\t\n\t\n\tWriting-review and editing",
+      "Reply to \"Impact of the ninth IASLC TNM classification on endobronchial ultrasound for lung cancer staging\" by Faria et al\n\t\t\n\t\t\tRamónRami-Porta\n\t\t\n\t\t10.1016/j.jtho.2024.07.021\n\t\t\n\t\n\t\n\t\tAI training, and similar technologies\n\t\tSpain; Terrassa, Barcelona, Spain\n\t\t\n\t\t\tPublished by Elsevier Inc\n\t\t\t5, 08221. 2024. 2024\n\t\t\t19\n\t\t\t\n\t\t\n\t\t\n\t\t\tMD Department of Thoracic Surgery Hospital Universitari Mútua Terrassa, University of Barcelona Barcelona, Spain Network of Centers for Biomedical Research in Respiratory Diseases (CIBERES) Lung Cancer Group Barcelona ; MD, Department of Thoracic Surgery, Hospital Universitari Mútua Terrassa, Plaza Dr\n\t\t\n\t\n\tAddress correspondence to: Ramón Rami-Porta All rights are reserved, including those for text and data mining"
+    ],
+    "references_struct": [
+      {
+        "title": "Passive smokinginduced mutagenesis as a promoter of lung carcinogenesis",
+        "journal": "J Thorac Oncol",
+        "year": "2024",
+        "volume": "19",
+        "issue": null,
+        "pages": null,
+        "doi": null,
+        "pmid": null,
+        "authors": [
+          "Mochizuki A",
+          "Shiraishi K",
+          "Honda T"
+        ],
+        "first_author_last": "Mochizuki"
+      },
+      {
+        "title": "Lung adenocarcinoma promotion by air pollutants",
+        "journal": "Nature",
+        "year": "2023",
+        "volume": "616",
+        "issue": null,
+        "pages": null,
+        "doi": null,
+        "pmid": null,
+        "authors": [
+          "Hill W",
+          "Lim EL",
+          "Weeden CE"
+        ],
+        "first_author_last": "Hill"
+      },
+      {
+        "title": "Secondhand smoke exposure and risk of lung cancer in Japan: a systematic review and meta-analysis of epidemiologic studies",
+        "journal": "Jpn J Clin Oncol",
+        "year": "2016",
+        "volume": "46",
+        "issue": null,
+        "pages": null,
+        "doi": null,
+        "pmid": null,
+        "authors": [
+          "Hori M",
+          "Tanaka H",
+          "Wakai K",
+          "Sasazuki S",
+          "Katanoda K"
+        ],
+        "first_author_last": "Hori"
+      },
+      {
+        "title": "The International Association for the Study of Lung Cancer lung cancer staging project: proposals for revision of the TNM stage groups in the forthcoming (ninth) edition of the TNM classification for lung cancer",
+        "journal": "J Thorac Oncol",
+        "year": "2024",
+        "volume": "19",
+        "issue": null,
+        "pages": null,
+        "doi": null,
+        "pmid": null,
+        "authors": [
+          "Rami-Porta R",
+          "Nishimura KK",
+          "Giroux DJ"
+        ],
+        "first_author_last": "Rami-Porta"
+      },
+      {
+        "title": "Lung cancer staging: a concise update",
+        "journal": "Eur Respir J",
+        "year": "2018",
+        "volume": "51",
+        "issue": null,
+        "pages": "1800190",
+        "doi": null,
+        "pmid": null,
+        "authors": [
+          "Rami-Porta R",
+          "Call S",
+          "Dooms C"
+        ],
+        "first_author_last": "Rami-Porta"
+      },
+      {
+        "title": "PET-CT SUV max and endobronchial ultrasound features for prediction of malignancy: a prospective study",
+        "journal": "Clin Lung Cancer",
+        "year": "2023",
+        "volume": "24",
+        "issue": null,
+        "pages": null,
+        "doi": null,
+        "pmid": null,
+        "authors": [
+          "Faria N",
+          "Lacerda C",
+          "Lopes J",
+          "Viana C",
+          "Sucena M"
+        ],
+        "first_author_last": "Faria"
+      },
+      {
+        "title": "Combined endobronchial and esophageal endosonography for the diagnosis and staging of lung cancer: European Society of Ramón Rami-Porta: Conceptualization",
+        "journal": "Methodology, Investigation",
+        "year": null,
+        "volume": null,
+        "issue": null,
+        "pages": null,
+        "doi": null,
+        "pmid": null,
+        "authors": [
+          "Vilmann P",
+          "Clementsen PF",
+          "Colella S"
+        ],
+        "first_author_last": "Vilmann"
+      },
+      {
+        "title": "Conceptualization, Writing-original draft",
+        "journal": "Conceptualization, Writing-original draft",
+        "year": null,
+        "volume": null,
+        "issue": null,
+        "pages": null,
+        "doi": null,
+        "pmid": null,
+        "authors": [
+          "Call S",
+          "Sanz-Santos J"
+        ],
+        "first_author_last": "Call"
+      },
+      {
+        "title": "Reply to \"Impact of the ninth IASLC TNM classification on endobronchial ultrasound for lung cancer staging\" by Faria et al",
+        "journal": "AI training, and similar technologies",
+        "year": "2024",
+        "volume": "19",
+        "issue": null,
+        "pages": null,
+        "doi": "10.1016/j.jtho.2024.07.021",
+        "pmid": null,
+        "authors": [
+          "Rami-Porta R"
+        ],
+        "first_author_last": "Rami-Porta"
+      }
+    ],
+    "references_enriched": [
+      {
+        "title": "Passive smokinginduced mutagenesis as a promoter of lung carcinogenesis"
+      },
+      {
+        "title": "J Thorac Oncol",
+        "year": 2024
+      },
+      {
+        "title": "Lung adenocarcinoma promotion by air pollutants",
+        "year": 2024
+      },
+      {
+        "title": "Nature",
+        "year": 2023
+      },
+      {
+        "title": "Secondhand smoke exposure and risk of lung cancer in Japan: a systematic review and meta-analysis of epidemiologic studies",
+        "year": 2023
+      },
+      {
+        "title": "Jpn J Clin Oncol",
+        "year": 2016
+      },
+      {
+        "title": "The International Association for the Study of Lung Cancer lung cancer staging project: proposals for revision of the TNM stage groups in the forthcoming (ninth) edition of the TNM classification for lung cancer",
+        "year": 2016
+      },
+      {
+        "title": "J Thorac Oncol",
+        "year": 2024
+      },
+      {
+        "title": "Lung cancer staging: a concise update",
+        "year": 2024
+      },
+      {
+        "title": "Eur Respir J",
+        "year": 2018
+      },
+      {
+        "title": "PET-CT SUV max and endobronchial ultrasound features for prediction of malignancy: a prospective study",
+        "year": 2018
+      },
+      {
+        "title": "Clin Lung Cancer",
+        "year": 2023
+      },
+      {
+        "title": "Combined endobronchial and esophageal endosonography for the diagnosis and staging of lung cancer: European Society of Ramón Rami-Porta: Conceptualization",
+        "year": 2023
+      },
+      {
+        "title": "Methodology, Investigation"
+      },
+      {
+        "title": "Conceptualization, Writing-original draft"
+      },
+      {
+        "title": "Reply to &quot;Impact of the ninth IASLC TNM classification on endobronchial ultrasound for lung cancer staging&quot; by Faria et al"
+      },
+      {
+        "title": "AI training, and similar technologies"
+      }
+    ],
+    "references_source": "grobid_fallback",
+    "year_norm": "2024",
+    "doi": "10.1016/j.jtho.2024.07.010",
+    "journal": "Journal of Thoracic Oncology",
+    "volume": "19",
+    "issue": "10",
+    "pages": "e53-e55",
+    "issn": "15560864",
+    "url": "https://linkinghub.elsevier.com/retrieve/pii/S1556086424006786",
+    "published": {
+      "print": null,
+      "online": "2024-10"
+    },
+    "journal_full": "Journal of Thoracic Oncology"
+  },
+  "structure": {
+    "sections": [
+      {
+        "title": "References",
+        "paragraphs": [
+          {
+            "text": "1. Mochizuki A, Shiraishi K, Honda T , et al. Passive smokinginduced mutagenesis as a promoter of lung carcinogenesis. J Thorac Oncol . 2024;19:984 -994."
+          },
+          {
+            "text": "2. Hill W, Lim EL, Weeden CE, et al. Lung adenocarcinoma promotion by air pollutants. Nature . 2023;616: 159 -167."
+          },
+          {
+            "text": "3. Hori M, Tanaka H, Wakai K, Sasazuki S, Katanoda K. Secondhand smoke exposure and risk of lung cancer in Japan: a systematic review and meta-analysis of epidemiologic studies. Jpn J Clin Oncol . 2016;46:942 -951."
+          }
+        ],
+        "category": "other"
+      },
+      {
+        "title": "To the Editor:",
+        "paragraphs": [
+          {
+            "text": "The forthcoming ninth edition of the International Association for the Study of Lung Cancer Lung Cancer (IASLC) TNM classi /uniFB01 cation for lung cancer introduces a signi /uniFB01 cant change for lymph node staging of lung cancer compared with the eighth edition. This ninth edition has a key re /uniFB01 nement in the N category, namely the subdivision of N2 into N2a (single N2 station involvement) and N2b (multiple N2 station involvement). This subdivision allows for a more precise description of the extent of lymph node involvement, which can be critical for determining the appropriate treatment strategy and prognosis. 1"
+          },
+          {
+            "text": "Endobronchial ultrasound (Endobronchial ultrasound (EBUS)) is currently the most frequently used method for lung cancer staging and has been recommended over mediastinoscopy for initial pathologic mediastinal staging due to its high accuracy and better safety pro /uniFB01 le. It is also preferred for patients with a positron emission tomography -computed tomography (PET-CT) normal mediastinum and primary tumor larger than 3 cm, central tumors, or cN1 disease to detect occult N2/N3 disease. 2"
+          },
+          {
+            "text": "These re /uniFB01 nements in the N category bring new challenges for the clinical practice of those who perform Endobronchial ultrasound (EBUS). Previously, after puncturing station N3, it would be expected to puncture the N2 lymph node that is most suspicious of malignancy, according to PET-CT and ultrasound features. It would also be reasonable to puncture only one N2 lymph node if it presented highly suggestive features of malignancy. 3 Considering the ninth IASLC TNM classi /uniFB01 cation and the major impact of the N2a and N2b subdivision on the /uniFB01 nal staging of T1-3 tumors, it becomes imperative to puncture all the ipsilateral mediastinal and subcarinal stations. This is also expected to increase the number of punctures at mediastinal stations that were less frequently sampled, such as the upper paratracheal nodes (2R/L). A detailed description by nuclear medicine consultants regarding PET-CT uptake of each mediastinum-hilar lymph node also becomes increasingly relevant. For example, inferior mediastinal nodes as the paraesophageal (station 8) and the pulmonary ligament (station 9) nodes may require puncture if they have signi /uniFB01 cant uptake on PET-CT, in which case Endobronchial ultrasound (EBUS) with bronchoscopy (EUS-b) should be performed after Endobronchial ultrasound (EBUS). 4 It is anticipated that staging Endobronchial ultrasound (EBUS) will need to be an even more precise, comprehensive, and timeconsuming examination with an anticipated increase in the number of punctured lymph node stations."
+          },
+          {
+            "text": "Mastering the N2 lymph node stations according to the IASLC guidelines becomes imperative during staging Endobronchial ultrasound (EBUS) (Fig. 1). In addition, a thorough understanding of ultrasound references is crucial to reliably differentiate, for instance, between an ipsilateral station 1 (N3) and an ipsilateral station 2 (N2).",
+            "cross_refs": [
+              {
+                "type": "figure",
+                "index": 0,
+                "text": "Fig. 1",
+                "span": [
+                  138,
+                  144
+                ]
+              }
+            ]
+          },
+          {
+            "text": "Regarding the Rapid On-site Evaluation (ROSE) technique, the need to puncture more than one N2 lymph node implies that ROSE plays a less active role in the Endobronchial ultrasound (EBUS) staging process. Nevertheless, ROSE remains highly relevant for identifying representative samples and malignant cells during Endobronchial ultrasound (EBUS) and may save a few punctures to the usual three that are recommended for Endobronchial ultrasound (EBUS) lung cancer staging when ROSE is not available. 3"
+          },
+          {
+            "text": "According to previous literature, lymph nodes with short axis size less than 5 mm could be exempt from puncture. Furthermore, lymph nodes that present SUVmax less than 1.85 and short axis size less than 4.28 mm are"
+          },
+          {
+            "text": "Address correspondence to: Nuno Faria, MD, Pulmonology Department, Centro Hospitalar e Universitário de Santo António, Hospital de Santo António, Largo Prof. Abel Salazar, 4099-001, Porto, Portugal. E-mail: nunofaria.pneumologia@chporto.min-saude.pt"
+          },
+          {
+            "text": "Cite this article as: Faria N, Costa MI, Lacerda C, et al. Impact of the Ninth International Association for the Study of Lung Cancer TNM Classi /uniFB01 cation on Endobronchial Ultrasound for Lung Cancer Staging. J Thorac Oncol 2024;19:e53-e55."
+          },
+          {
+            "text": "ª 2024 International Association for the Study of Lung Cancer. Published by Elsevier Inc. All rights are reserved, including those for text and data mining, AI training, and similar technologies."
+          },
+          {
+            "text": "ISSN: 1556-0864"
+          },
+          {
+            "text": "https://doi.org/10.1016/j.jtho.2024.07.010"
+          },
+          {
+            "text": "considered benign and may not require /uniFB01 ne-needle aspiration puncture. 3,5 Considering the forthcoming ninth IASLC TNM classi /uniFB01 cation and its updates, the authors would like to highlight the future need for prospective cohorts to validate PET-CT and ultrasound features of malignancy that could exempt the puncture of benign N2 lymph nodes."
+          }
+        ],
+        "category": "other"
+      },
+      {
+        "title": "CRediT Authorship Contribution Statement",
+        "paragraphs": [
+          {
+            "text": "Nuno Faria: Conceptualization (Equal), Formal analysis (Lead), Investigation (Lead), Methodology (Lead), Project administration (Equal), Software (Equal), Visualization (Equal), Writing -original draft (Lead), Writing - review and editing (Equal)."
+          },
+          {
+            "text": "Maria Inês Costa: Conceptualization (Equal), Formal analysis (Equal), Validation (Supporting), Writing -review and editing (Supporting)."
+          },
+          {
+            "text": "Catarina Lacerda: Conceptualization (Equal), Formal analysis (Equal), Validation (Supporting), Writing -review and editing (Supporting)."
+          },
+          {
+            "text": "Maria Sucena: Conceptualization (Equal), Formal analysis (Equal), Validation (Supporting), Writing -review and editing (Supporting)."
+          }
+        ],
+        "category": "other"
+      },
+      {
+        "title": "Nuno Faria, MD",
+        "paragraphs": [
+          {
+            "text": "Pulmonology Department Centro Hospitalar e Universitário de Santo António Porto, Portugal"
+          }
+        ],
+        "category": "other"
+      },
+      {
+        "title": "Maria Inês Costa, MD",
+        "paragraphs": [
+          {
+            "text": "Pulmonology Department Centro Hospitalar e Universitário de Santo António Porto, Portugal"
+          }
+        ],
+        "category": "other"
+      },
+      {
+        "title": "Catarina Lacerda, MD",
+        "paragraphs": [
+          {
+            "text": "Pulmonology Department Centro Hospitalar e Universitário de Santo António Porto, Portugal"
+          }
+        ],
+        "category": "other"
+      },
+      {
+        "title": "Maria Sucena, MD",
+        "paragraphs": [
+          {
+            "text": "Pulmonology Department Centro Hospitalar e Universitário de Santo António Porto, Portugal"
+          }
+        ],
+        "category": "other"
+      },
+      {
+        "title": "References",
+        "paragraphs": [
+          {
+            "text": "1. Rami-Porta R, Nishimura KK, Giroux DJ, et al. The International Association for the Study of Lung Cancer lung cancer staging project: proposals for revision of the TNM stage groups in the forthcoming (ninth) edition of the TNM classi/uniFB01 cation for lung cancer . J Thorac Oncol . 2024;19:1007 -1027."
+          },
+          {
+            "text": "2. Rami-Porta R, Call S, Dooms C, et al. Lung cancer staging: a concise update. Eur Respir J . 2018;51:1800190."
+          },
+          {
+            "text": "3. Faria N, Lacerda C, Lopes J, Viana C, Sucena M. PET-CT SUVmax and endobronchial ultrasound features for prediction of malignancy: a prospective study. Clin Lung Cancer . 2023;24:753 -760."
+          },
+          {
+            "text": "4. Vilmann P , Clementsen PF, Colella S, et al. Combined endobronchial and esophageal endosonography for the diagnosis and staging of lung cancer: European Society of"
+          }
+        ],
+        "category": "other"
+      },
+      {
+        "title": "N3 Stage Classification",
+        "paragraphs": [
+          {
+            "text": "*Right of the midline of the traquea (3A)/esophagus (8). #Left of the midline of the traquea (3A)/esophagus (8)"
+          },
+          {
+            "text": "Adapted from El-Sherif et al , IASLC lymph node map. doi: 10.1148/rg.346130097"
+          },
+          {
+            "text": "Gastrointestinal Endoscopy (ESGE) Guideline, in cooperation with the European Respiratory Society (ERS) and the European Society of Thoracic Surgeons (ESTS). Endoscopy . 2015;47:545 -559."
+          },
+          {
+            "text": "5. Hylton DA, Kidane B, Spicer J, et al. Endobronchial ultrasound staging of operable non-small cell lung cancer: do triple-normal lymph nodes require routine biopsy? Chest . 2021;159:2470 -2476."
+          }
+        ],
+        "category": "other"
+      },
+      {
+        "title": "To the Editor:",
+        "paragraphs": [
+          {
+            "text": "In their letter to the editor, Faria et al. 1 have proved full understanding of the clinical implications of the subdivision of category N2 into N2a (involvement of a single N2 nodal station) and N2b (involvement of multiple N2 stations) that will be introduced in the forthcoming ninth edition of the TNM classi /uniFB01 cation of lung cancer. They highlight the importance of a thorough endobronchial ultrasound (Endobronchial ultrasound (EBUS)) transbronchial needle aspiration (TBNA) and endoscopic ultrasound/uniFB01 ne-needle aspiration in the staging of lung cancer, the adherence to the clinical guidelines when performing the procedure, and the changing relevance of rapid on-site examination, if available."
+          },
+          {
+            "text": "In addition to the thoughtful comments by Faria et al., 1 we emphasize that during invasive mediastinal staging, systematic sampling is preferred than targeted random sampling. A study comparing targeted with systematic Endobronchial ultrasound (EBUS)-TBNA reported that, among 107 patients with clinical N2 by positron emission tomographycomputed tomography (PET-CT), targeted Endobronchial ultrasound (EBUS)-TBNA misclassi /uniFB01 ed 14 of 47 (30%) tumors classi /uniFB01 ed as N2a. Systematic Endobronchial ultrasound (EBUS)-TBNA revealed that 11 were N2b and three were N3. 2 Moreover, with the new changes in the subdivision of N2, the role of rapid on-site examination will even be more relevant. It has been reported that, after sampling a malignant lymph node, the Endobronchial ultrasound (EBUS)-TBNA needle can be contaminated by malignant cells and, therefore, can"
+          },
+          {
+            "text": "be a source of false-positive results. The on-site cytopathologist is essential to determine whether a mediastinal node is malignant and, accordingly, to change the needle before exploring the rest of nodal stations. 3"
+          },
+          {
+            "text": "Faria et al. 1 do not elaborate on the indications of surgical invasive staging. The European Society of Thoracic Surgeons guidelines on preoperative nodal mediastinal staging recommend the con /uniFB01 rmation of a negative Endobronchial ultrasound (EBUS)-TBNA and endoscopic ultrasound/uniFB01 ne-needle aspiration result when the mediastinal lymph nodes are abnormal by PET-CT and when the mediastinum is normal but tumors are more than 3 cm in largest dimension, are centrally located, there is suspicion of N1 involvement, or the tumor is known to be adenocarcinoma with low uptake on PET. In these circumstances, con /uniFB01 rmation with a minimally invasive surgical procedure (usually mediastinoscopy) is indicated. 4 The results of a clinical trial comparing Endobronchial ultrasound (EBUS)-TBNA with mediastinoscopy for staging clinical N1 NSCLCs revealed that sensitivity and negative predictive values of mediastinoscopy were higher than those of Endobronchial ultrasound (EBUS)-TBNA: sensitivity of 0.73 and 0.38 and negative predictive value of 0.91 and 0.81, respectively. 5 These results imply that, when the mediastinum is normal on PET-CT, mediastinoscopy enhances nodal staging and could be the initial staging test instead of ultrasound-guided endoscopies."
+          },
+          {
+            "text": "The ninth edition TNM for lung cancer increases our understanding of the prognostic impact of the anatomical tumor extent on the condition that the tumor is staged with the highest certainty. To this respect, the comments by Faria et al. 1 are highly appreciated and welcome."
+          }
+        ],
+        "category": "other"
+      },
+      {
+        "title": "CRediT Authorship Contribution Statement",
+        "paragraphs": [
+          {
+            "text": "Ramón Rami-Porta: Conceptualization, Methodology, Investigation, Writing -original draft."
+          },
+          {
+            "text": "Sergi Call, José Sanz-Santos: Conceptualization, Writing -original draft, Writing -review and editing."
+          }
+        ],
+        "category": "other"
+      },
+      {
+        "title": "Ramón Rami-Porta, MD",
+        "paragraphs": [
+          {
+            "text": "Department of Thoracic Surgery Hospital Universitari Mútua Terrassa, University of Barcelona Barcelona, Spain Network of Centers for Biomedical Research in Respiratory Diseases (CIBERES) Lung Cancer Group Barcelona, Spain"
+          },
+          {
+            "text": "Address correspondence to: Ramón Rami-Porta, MD, Department of Thoracic Surgery, Hospital Universitari Mútua Terrassa, Plaza Dr. Robert 5, 08221 Terrassa, Barcelona, Spain. E-mail: rramip@yahoo.es"
+          },
+          {
+            "text": "Cite this article as: Rami-Porta R, Call S, Sanz-Santos J. Reply to ' Impact of the ninth IASLC TNM classi /uniFB01 cation on endobronchial ultrasound for lung cancer staging ' by Faria et al. J Thorac Oncol. 2024;19:e55-e56."
+          },
+          {
+            "text": "ª 2024 International Association for the Study of Lung Cancer. Published by Elsevier Inc. All rights are reserved, including those for text and data mining, AI training, and similar technologies."
+          },
+          {
+            "text": "ISSN: 1556-0864"
+          },
+          {
+            "text": "https://doi.org/10.1016/j.jtho.2024.07.021"
+          }
+        ],
+        "category": "other"
+      }
+    ],
+    "tables": [],
+    "figures": [
+      {
+        "self_ref": "#/pictures/0",
+        "parent": {
+          "cref": "#/body"
+        },
+        "children": [],
+        "content_layer": "body",
+        "label": "picture",
+        "prov": [
+          {
+            "page_no": 1,
+            "bbox": {
+              "l": 260.53582763671875,
+              "t": 597.8316192626953,
+              "r": 286.8310546875,
+              "b": 571.6426544189453,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "charspan": [
+              0,
+              0
+            ]
+          }
+        ],
+        "captions": [],
+        "references": [],
+        "footnotes": [],
+        "image": null,
+        "annotations": []
+      },
+      {
+        "self_ref": "#/pictures/1",
+        "parent": {
+          "cref": "#/body"
+        },
+        "children": [
+          {
+            "cref": "#/texts/27"
+          },
+          {
+            "cref": "#/texts/28"
+          },
+          {
+            "cref": "#/texts/29"
+          },
+          {
+            "cref": "#/texts/30"
+          },
+          {
+            "cref": "#/texts/31"
+          },
+          {
+            "cref": "#/texts/32"
+          },
+          {
+            "cref": "#/texts/33"
+          },
+          {
+            "cref": "#/texts/34"
+          },
+          {
+            "cref": "#/texts/35"
+          },
+          {
+            "cref": "#/texts/36"
+          },
+          {
+            "cref": "#/texts/37"
+          },
+          {
+            "cref": "#/texts/38"
+          },
+          {
+            "cref": "#/texts/39"
+          },
+          {
+            "cref": "#/texts/40"
+          },
+          {
+            "cref": "#/texts/41"
+          },
+          {
+            "cref": "#/texts/42"
+          },
+          {
+            "cref": "#/texts/43"
+          },
+          {
+            "cref": "#/texts/44"
+          }
+        ],
+        "content_layer": "body",
+        "label": "picture",
+        "prov": [
+          {
+            "page_no": 2,
+            "bbox": {
+              "l": 49.365211486816406,
+              "t": 706.665901184082,
+              "r": 290.0196533203125,
+              "b": 512.0102844238281,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "charspan": [
+              0,
+              0
+            ]
+          }
+        ],
+        "captions": [],
+        "references": [],
+        "footnotes": [],
+        "image": null,
+        "annotations": []
+      },
+      {
+        "self_ref": "#/pictures/2",
+        "parent": {
+          "cref": "#/body"
+        },
+        "children": [
+          {
+            "cref": "#/texts/45"
+          },
+          {
+            "cref": "#/texts/46"
+          },
+          {
+            "cref": "#/texts/47"
+          },
+          {
+            "cref": "#/texts/48"
+          },
+          {
+            "cref": "#/texts/49"
+          },
+          {
+            "cref": "#/texts/50"
+          },
+          {
+            "cref": "#/texts/51"
+          },
+          {
+            "cref": "#/texts/52"
+          },
+          {
+            "cref": "#/texts/53"
+          },
+          {
+            "cref": "#/texts/54"
+          },
+          {
+            "cref": "#/texts/55"
+          },
+          {
+            "cref": "#/texts/56"
+          },
+          {
+            "cref": "#/texts/57"
+          },
+          {
+            "cref": "#/texts/58"
+          },
+          {
+            "cref": "#/texts/59"
+          },
+          {
+            "cref": "#/texts/60"
+          },
+          {
+            "cref": "#/texts/61"
+          },
+          {
+            "cref": "#/texts/62"
+          },
+          {
+            "cref": "#/texts/63"
+          },
+          {
+            "cref": "#/texts/64"
+          }
+        ],
+        "content_layer": "body",
+        "label": "picture",
+        "prov": [
+          {
+            "page_no": 2,
+            "bbox": {
+              "l": 294.5518798828125,
+              "t": 708.1919250488281,
+              "r": 538.2965087890625,
+              "b": 513.2923278808594,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "charspan": [
+              0,
+              0
+            ]
+          }
+        ],
+        "captions": [],
+        "references": [],
+        "footnotes": [],
+        "image": null,
+        "annotations": []
+      },
+      {
+        "self_ref": "#/pictures/3",
+        "parent": {
+          "cref": "#/body"
+        },
+        "children": [],
+        "content_layer": "body",
+        "label": "picture",
+        "prov": [
+          {
+            "page_no": 3,
+            "bbox": {
+              "l": 260.7113037109375,
+              "t": 668.9914474487305,
+              "r": 286.6054992675781,
+              "b": 643.4594573974609,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "charspan": [
+              0,
+              0
+            ]
+          }
+        ],
+        "captions": [],
+        "references": [],
+        "footnotes": [],
+        "image": null,
+        "annotations": []
+      }
+    ],
+    "citations": [],
+    "n_sections": 13,
+    "n_tables": 0,
+    "n_figures": 4,
+    "n_citations": 0
+  },
+  "provenance": {
+    "patches": [
+      {
+        "path": "metadata.year_norm",
+        "op": "set",
+        "from": null,
+        "to": "2024",
+        "source": "zotero:year_norm",
+        "confidence": 0.9
+      },
+      {
+        "path": "metadata.authors",
+        "op": "set",
+        "from": [
+          "Thorac Oncol",
+          "Katanoda K. Secondhand",
+          "Jpn J Clin"
+        ],
+        "to": [
+          "Nuno Faria",
+          "Maria Inês Costa",
+          "Catarina Lacerda",
+          "Maria Sucena"
+        ],
+        "source": "zotero:authors",
+        "confidence": 0.9
+      },
+      {
+        "path": "metadata.doi",
+        "op": "set",
+        "from": null,
+        "to": "10.1016/j.jtho.2024.07.010",
+        "source": "zotero:doi",
+        "confidence": 0.9
+      },
+      {
+        "path": "metadata.journal",
+        "op": "set",
+        "from": null,
+        "to": "Journal of Thoracic Oncology",
+        "source": "zotero:journal",
+        "confidence": 0.9
+      },
+      {
+        "path": "metadata.volume",
+        "op": "set",
+        "from": null,
+        "to": "19",
+        "source": "zotero:volume",
+        "confidence": 0.9
+      },
+      {
+        "path": "metadata.issue",
+        "op": "set",
+        "from": null,
+        "to": "10",
+        "source": "zotero:issue",
+        "confidence": 0.9
+      },
+      {
+        "path": "metadata.pages",
+        "op": "set",
+        "from": null,
+        "to": "e53-e55",
+        "source": "zotero:pages",
+        "confidence": 0.9
+      },
+      {
+        "path": "metadata.issn",
+        "op": "set",
+        "from": null,
+        "to": "15560864",
+        "source": "zotero:issn",
+        "confidence": 0.9
+      },
+      {
+        "path": "metadata.url",
+        "op": "set",
+        "from": null,
+        "to": "https://linkinghub.elsevier.com/retrieve/pii/S1556086424006786",
+        "source": "zotero:url",
+        "confidence": 0.9
+      },
+      {
+        "path": "provenance.orig_pdf_filename",
+        "op": "set",
+        "from": null,
+        "to": "Faria et al. - 2024 - Impact of the Ninth International Association for the Study of Lung Cancer TNM Classification on End.pdf",
+        "source": "zotero:csv",
+        "confidence": 0.9
+      },
+      {
+        "path": "metadata.year",
+        "op": "set",
+        "from": "2024-10",
+        "to": 2024,
+        "source": "normalize:iso",
+        "confidence": 0.9
+      },
+      {
+        "path": "metadata.authors",
+        "op": "set",
+        "from": [
+          "Nuno Faria",
+          "Maria Inês Costa",
+          "Catarina Lacerda",
+          "Maria Sucena"
+        ],
+        "to": [
+          {
+            "given": "Nuno",
+            "family": "Faria",
+            "suffix": null,
+            "degrees": [],
+            "display": "Nuno Faria",
+            "group": false
+          },
+          {
+            "given": "Maria Inês",
+            "family": "Costa",
+            "suffix": null,
+            "degrees": [],
+            "display": "Maria Inês Costa",
+            "group": false
+          },
+          {
+            "given": "Catarina",
+            "family": "Lacerda",
+            "suffix": null,
+            "degrees": [],
+            "display": "Catarina Lacerda",
+            "group": false
+          },
+          {
+            "given": "Maria",
+            "family": "Sucena",
+            "suffix": null,
+            "degrees": [],
+            "display": "Maria Sucena",
+            "group": false
+          }
+        ],
+        "source": "filtered_ack_like",
+        "confidence": 0.9
+      },
+      {
+        "path": "metadata.journal_full",
+        "op": "set",
+        "from": null,
+        "to": "Journal of Thoracic Oncology",
+        "source": "canonicalize",
+        "confidence": 0.9
+      }
+    ],
+    "orig_pdf_filename": "Faria et al. - 2024 - Impact of the Ninth International Association for the Study of Lung Cancer TNM Classification on End.pdf",
+    "zotero": {
+      "id": "fariaImpactNinthInternational2024",
+      "source": "zotero_csl+csv",
+      "exported_at": "2025-09-02T20:29:36.933464Z",
+      "match_method": "title_exact",
+      "match_confidence": 1.0
+    }
+  },
+  "grobid": {
+    "references_tei": "<TEI xmlns=\"http://www.tei-c.org/ns/1.0\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" \n xmlns:mml=\"http://www.w3.org/1998/Math/MathML\">\n\t<teiHeader/>\n\t<text>\n\t\t<front/>\n\t\t<body/>\n\t\t<back>\n\t\t\t<div>\n\t\t\t\t<listBibl>\n<biblStruct xml:id=\"b0\">\n\t<analytic>\n\t\t<title level=\"a\" type=\"main\">Passive smokinginduced mutagenesis as a promoter of lung carcinogenesis</title>\n\t\t<author>\n\t\t\t<persName><forename type=\"first\">A</forename><surname>Mochizuki</surname></persName>\n\t\t</author>\n\t\t<author>\n\t\t\t<persName><forename type=\"first\">K</forename><surname>Shiraishi</surname></persName>\n\t\t</author>\n\t\t<author>\n\t\t\t<persName><forename type=\"first\">T</forename><surname>Honda</surname></persName>\n\t\t</author>\n\t</analytic>\n\t<monogr>\n\t\t<title level=\"j\">J Thorac Oncol</title>\n\t\t<imprint>\n\t\t\t<biblScope unit=\"volume\">19</biblScope>\n\t\t\t<biblScope unit=\"page\" from=\"984\" to=\"994\" />\n\t\t\t<date type=\"published\" when=\"2024\">2024</date>\n\t\t</imprint>\n\t</monogr>\n</biblStruct>\n\n<biblStruct xml:id=\"b1\">\n\t<analytic>\n\t\t<title level=\"a\" type=\"main\">Lung adenocarcinoma promotion by air pollutants</title>\n\t\t<author>\n\t\t\t<persName><forename type=\"first\">W</forename><surname>Hill</surname></persName>\n\t\t</author>\n\t\t<author>\n\t\t\t<persName><forename type=\"first\">E</forename><forename type=\"middle\">L</forename><surname>Lim</surname></persName>\n\t\t</author>\n\t\t<author>\n\t\t\t<persName><forename type=\"first\">C</forename><forename type=\"middle\">E</forename><surname>Weeden</surname></persName>\n\t\t</author>\n\t</analytic>\n\t<monogr>\n\t\t<title level=\"j\">Nature</title>\n\t\t<imprint>\n\t\t\t<biblScope unit=\"volume\">616</biblScope>\n\t\t\t<biblScope unit=\"page\" from=\"159\" to=\"167\" />\n\t\t\t<date type=\"published\" when=\"2023\">2023</date>\n\t\t</imprint>\n\t</monogr>\n</biblStruct>\n\n<biblStruct xml:id=\"b2\">\n\t<analytic>\n\t\t<title level=\"a\" type=\"main\">Secondhand smoke exposure and risk of lung cancer in Japan: a systematic review and meta-analysis of epidemiologic studies</title>\n\t\t<author>\n\t\t\t<persName><forename type=\"first\">M</forename><surname>Hori</surname></persName>\n\t\t</author>\n\t\t<author>\n\t\t\t<persName><forename type=\"first\">H</forename><surname>Tanaka</surname></persName>\n\t\t</author>\n\t\t<author>\n\t\t\t<persName><forename type=\"first\">K</forename><surname>Wakai</surname></persName>\n\t\t</author>\n\t\t<author>\n\t\t\t<persName><forename type=\"first\">S</forename><surname>Sasazuki</surname></persName>\n\t\t</author>\n\t\t<author>\n\t\t\t<persName><forename type=\"first\">K</forename><surname>Katanoda</surname></persName>\n\t\t</author>\n\t</analytic>\n\t<monogr>\n\t\t<title level=\"j\">Jpn J Clin Oncol</title>\n\t\t<imprint>\n\t\t\t<biblScope unit=\"volume\">46</biblScope>\n\t\t\t<biblScope unit=\"page\" from=\"942\" to=\"951\" />\n\t\t\t<date type=\"published\" when=\"2016\">2016</date>\n\t\t</imprint>\n\t</monogr>\n\t<note>References</note>\n</biblStruct>\n\n<biblStruct xml:id=\"b3\">\n\t<analytic>\n\t\t<title level=\"a\" type=\"main\">The International Association for the Study of Lung Cancer lung cancer staging project: proposals for revision of the TNM stage groups in the forthcoming (ninth) edition of the TNM classification for lung cancer</title>\n\t\t<author>\n\t\t\t<persName><forename type=\"first\">R</forename><surname>Rami-Porta</surname></persName>\n\t\t</author>\n\t\t<author>\n\t\t\t<persName><forename type=\"first\">K</forename><forename type=\"middle\">K</forename><surname>Nishimura</surname></persName>\n\t\t</author>\n\t\t<author>\n\t\t\t<persName><forename type=\"first\">D</forename><forename type=\"middle\">J</forename><surname>Giroux</surname></persName>\n\t\t</author>\n\t</analytic>\n\t<monogr>\n\t\t<title level=\"j\">J Thorac Oncol</title>\n\t\t<imprint>\n\t\t\t<biblScope unit=\"volume\">19</biblScope>\n\t\t\t<biblScope unit=\"page\" from=\"1007\" to=\"1027\" />\n\t\t\t<date type=\"published\" when=\"2024\">2024</date>\n\t\t</imprint>\n\t</monogr>\n</biblStruct>\n\n<biblStruct xml:id=\"b4\">\n\t<analytic>\n\t\t<title level=\"a\" type=\"main\">Lung cancer staging: a concise update</title>\n\t\t<author>\n\t\t\t<persName><forename type=\"first\">R</forename><surname>Rami-Porta</surname></persName>\n\t\t</author>\n\t\t<author>\n\t\t\t<persName><forename type=\"first\">S</forename><surname>Call</surname></persName>\n\t\t</author>\n\t\t<author>\n\t\t\t<persName><forename type=\"first\">C</forename><surname>Dooms</surname></persName>\n\t\t</author>\n\t</analytic>\n\t<monogr>\n\t\t<title level=\"j\">Eur Respir J</title>\n\t\t<imprint>\n\t\t\t<biblScope unit=\"volume\">51</biblScope>\n\t\t\t<biblScope unit=\"page\">1800190</biblScope>\n\t\t\t<date type=\"published\" when=\"2018\">2018</date>\n\t\t</imprint>\n\t</monogr>\n</biblStruct>\n\n<biblStruct xml:id=\"b5\">\n\t<analytic>\n\t\t<title level=\"a\" type=\"main\">PET-CT SUV max and endobronchial ultrasound features for prediction of malignancy: a prospective study</title>\n\t\t<author>\n\t\t\t<persName><forename type=\"first\">N</forename><surname>Faria</surname></persName>\n\t\t</author>\n\t\t<author>\n\t\t\t<persName><forename type=\"first\">C</forename><surname>Lacerda</surname></persName>\n\t\t</author>\n\t\t<author>\n\t\t\t<persName><forename type=\"first\">J</forename><surname>Lopes</surname></persName>\n\t\t</author>\n\t\t<author>\n\t\t\t<persName><forename type=\"first\">C</forename><surname>Viana</surname></persName>\n\t\t</author>\n\t\t<author>\n\t\t\t<persName><forename type=\"first\">M</forename><surname>Sucena</surname></persName>\n\t\t</author>\n\t</analytic>\n\t<monogr>\n\t\t<title level=\"j\">Clin Lung Cancer</title>\n\t\t<imprint>\n\t\t\t<biblScope unit=\"volume\">24</biblScope>\n\t\t\t<biblScope unit=\"page\" from=\"753\" to=\"760\" />\n\t\t\t<date type=\"published\" when=\"2023\">2023</date>\n\t\t</imprint>\n\t</monogr>\n</biblStruct>\n\n<biblStruct xml:id=\"b6\">\n\t<analytic>\n\t\t<title level=\"a\" type=\"main\">Combined endobronchial and esophageal endosonography for the diagnosis and staging of lung cancer: European Society of Ramón Rami-Porta: Conceptualization</title>\n\t\t<author>\n\t\t\t<persName><forename type=\"first\">P</forename><surname>Vilmann</surname></persName>\n\t\t</author>\n\t\t<author>\n\t\t\t<persName><forename type=\"first\">P</forename><forename type=\"middle\">F</forename><surname>Clementsen</surname></persName>\n\t\t</author>\n\t\t<author>\n\t\t\t<persName><forename type=\"first\">S</forename><surname>Colella</surname></persName>\n\t\t</author>\n\t</analytic>\n\t<monogr>\n\t\t<title level=\"j\">Methodology, Investigation</title>\n\t\t<imprint/>\n\t</monogr>\n\t<note>Writing-original draft</note>\n</biblStruct>\n\n<biblStruct xml:id=\"b7\">\n\t<monogr>\n\t\t<title level=\"m\" type=\"main\">Conceptualization, Writing-original draft</title>\n\t\t<author>\n\t\t\t<persName><forename type=\"first\">Sergi</forename><surname>Call</surname></persName>\n\t\t</author>\n\t\t<author>\n\t\t\t<persName><forename type=\"first\">José</forename><surname>Sanz-Santos</surname></persName>\n\t\t</author>\n\t\t<imprint/>\n\t</monogr>\n\t<note>Writing-review and editing</note>\n</biblStruct>\n\n<biblStruct xml:id=\"b8\">\n\t<analytic>\n\t\t<title level=\"a\" type=\"main\">Reply to &quot;Impact of the ninth IASLC TNM classification on endobronchial ultrasound for lung cancer staging&quot; by Faria et al</title>\n\t\t<author>\n\t\t\t<persName><forename type=\"first\">Ramón</forename><surname>Rami-Porta</surname></persName>\n\t\t</author>\n\t\t<idno type=\"DOI\">10.1016/j.jtho.2024.07.021</idno>\n\t\t<ptr target=\"https://doi.org/10.1016/j.jtho.2024.07.021\" />\n\t</analytic>\n\t<monogr>\n\t\t<title level=\"m\">AI training, and similar technologies</title>\n\t\t<meeting><address><addrLine>Spain; Terrassa, Barcelona, Spain</addrLine></address></meeting>\n\t\t<imprint>\n\t\t\t<publisher>Published by Elsevier Inc</publisher>\n\t\t\t<date type=\"published\" when=\"2024\">5, 08221. 2024. 2024</date>\n\t\t\t<biblScope unit=\"volume\">19</biblScope>\n\t\t\t<biblScope unit=\"page\" from=\"55\" to=\"e56\" />\n\t\t</imprint>\n\t\t<respStmt>\n\t\t\t<orgName>MD Department of Thoracic Surgery Hospital Universitari Mútua Terrassa, University of Barcelona Barcelona, Spain Network of Centers for Biomedical Research in Respiratory Diseases (CIBERES) Lung Cancer Group Barcelona ; MD, Department of Thoracic Surgery, Hospital Universitari Mútua Terrassa, Plaza Dr</orgName>\n\t\t</respStmt>\n\t</monogr>\n\t<note>Address correspondence to: Ramón Rami-Porta All rights are reserved, including those for text and data mining</note>\n</biblStruct>\n\n\t\t\t\t</listBibl>\n\t\t\t</div>\n\t\t</back>\n\t</text>\n</TEI>\n"
+  },
+  "umls_links": [],
+  "drugs": [],
+  "trial_ids": [],
+  "assets": {
+    "tables": [],
+    "figures": [
+      {
+        "type": "figure",
+        "content": {
+          "self_ref": "#/pictures/0",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "label": "picture",
+          "prov": [
+            {
+              "page_no": 1,
+              "bbox": {
+                "l": 260.53582763671875,
+                "t": 597.8316192626953,
+                "r": 286.8310546875,
+                "b": 571.6426544189453,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                0
+              ]
+            }
+          ],
+          "captions": [],
+          "references": [],
+          "footnotes": [],
+          "image": null,
+          "annotations": []
+        },
+        "captions": [
+          "). In addition, a thorough understanding of ultrasound references is crucial to reliably differentiate, for instance, between an ipsilateral station 1 (N3) and an ipsilateral station 2 (N2)."
+        ],
+        "footnotes": [
+          "ttps://doi.org/10.1016/j.jtho.2024.07.010",
+          "onsidered benign and may not require /uniFB01 ne-needle aspiration puncture. 3,5 Considering the forthcoming ninth IASLC TNM classi /uniFB01 cation and its updates, the authors would like to highlight the future need for prospective cohorts to validate PET-CT and ultrasound features of malignancy that could exempt the puncture of benign N2 lymph nodes.",
+          "Right of the midline of the traquea (3A)/esophagus (8). #Left of the midline of the traquea (3A)/esophagus (8)",
+          "e a source of false-positive results. The on-site cytopathologist is essential to determine whether a mediastinal node is malignant and, accordingly, to change the needle before exploring the rest of nodal stations. 3",
+          "ttps://doi.org/10.1016/j.jtho.2024.07.021"
+        ]
+      },
+      {
+        "type": "figure",
+        "content": {
+          "self_ref": "#/pictures/1",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [
+            {
+              "cref": "#/texts/27"
+            },
+            {
+              "cref": "#/texts/28"
+            },
+            {
+              "cref": "#/texts/29"
+            },
+            {
+              "cref": "#/texts/30"
+            },
+            {
+              "cref": "#/texts/31"
+            },
+            {
+              "cref": "#/texts/32"
+            },
+            {
+              "cref": "#/texts/33"
+            },
+            {
+              "cref": "#/texts/34"
+            },
+            {
+              "cref": "#/texts/35"
+            },
+            {
+              "cref": "#/texts/36"
+            },
+            {
+              "cref": "#/texts/37"
+            },
+            {
+              "cref": "#/texts/38"
+            },
+            {
+              "cref": "#/texts/39"
+            },
+            {
+              "cref": "#/texts/40"
+            },
+            {
+              "cref": "#/texts/41"
+            },
+            {
+              "cref": "#/texts/42"
+            },
+            {
+              "cref": "#/texts/43"
+            },
+            {
+              "cref": "#/texts/44"
+            }
+          ],
+          "content_layer": "body",
+          "label": "picture",
+          "prov": [
+            {
+              "page_no": 2,
+              "bbox": {
+                "l": 49.365211486816406,
+                "t": 706.665901184082,
+                "r": 290.0196533203125,
+                "b": 512.0102844238281,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                0
+              ]
+            }
+          ],
+          "captions": [],
+          "references": [],
+          "footnotes": [],
+          "image": null,
+          "annotations": []
+        },
+        "captions": [
+          "). In addition, a thorough understanding of ultrasound references is crucial to reliably differentiate, for instance, between an ipsilateral station 1 (N3) and an ipsilateral station 2 (N2)."
+        ],
+        "footnotes": [
+          "ttps://doi.org/10.1016/j.jtho.2024.07.010",
+          "onsidered benign and may not require /uniFB01 ne-needle aspiration puncture. 3,5 Considering the forthcoming ninth IASLC TNM classi /uniFB01 cation and its updates, the authors would like to highlight the future need for prospective cohorts to validate PET-CT and ultrasound features of malignancy that could exempt the puncture of benign N2 lymph nodes.",
+          "Right of the midline of the traquea (3A)/esophagus (8). #Left of the midline of the traquea (3A)/esophagus (8)",
+          "e a source of false-positive results. The on-site cytopathologist is essential to determine whether a mediastinal node is malignant and, accordingly, to change the needle before exploring the rest of nodal stations. 3",
+          "ttps://doi.org/10.1016/j.jtho.2024.07.021"
+        ]
+      },
+      {
+        "type": "figure",
+        "content": {
+          "self_ref": "#/pictures/2",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [
+            {
+              "cref": "#/texts/45"
+            },
+            {
+              "cref": "#/texts/46"
+            },
+            {
+              "cref": "#/texts/47"
+            },
+            {
+              "cref": "#/texts/48"
+            },
+            {
+              "cref": "#/texts/49"
+            },
+            {
+              "cref": "#/texts/50"
+            },
+            {
+              "cref": "#/texts/51"
+            },
+            {
+              "cref": "#/texts/52"
+            },
+            {
+              "cref": "#/texts/53"
+            },
+            {
+              "cref": "#/texts/54"
+            },
+            {
+              "cref": "#/texts/55"
+            },
+            {
+              "cref": "#/texts/56"
+            },
+            {
+              "cref": "#/texts/57"
+            },
+            {
+              "cref": "#/texts/58"
+            },
+            {
+              "cref": "#/texts/59"
+            },
+            {
+              "cref": "#/texts/60"
+            },
+            {
+              "cref": "#/texts/61"
+            },
+            {
+              "cref": "#/texts/62"
+            },
+            {
+              "cref": "#/texts/63"
+            },
+            {
+              "cref": "#/texts/64"
+            }
+          ],
+          "content_layer": "body",
+          "label": "picture",
+          "prov": [
+            {
+              "page_no": 2,
+              "bbox": {
+                "l": 294.5518798828125,
+                "t": 708.1919250488281,
+                "r": 538.2965087890625,
+                "b": 513.2923278808594,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                0
+              ]
+            }
+          ],
+          "captions": [],
+          "references": [],
+          "footnotes": [],
+          "image": null,
+          "annotations": []
+        },
+        "captions": [
+          "). In addition, a thorough understanding of ultrasound references is crucial to reliably differentiate, for instance, between an ipsilateral station 1 (N3) and an ipsilateral station 2 (N2)."
+        ],
+        "footnotes": [
+          "ttps://doi.org/10.1016/j.jtho.2024.07.010",
+          "onsidered benign and may not require /uniFB01 ne-needle aspiration puncture. 3,5 Considering the forthcoming ninth IASLC TNM classi /uniFB01 cation and its updates, the authors would like to highlight the future need for prospective cohorts to validate PET-CT and ultrasound features of malignancy that could exempt the puncture of benign N2 lymph nodes.",
+          "Right of the midline of the traquea (3A)/esophagus (8). #Left of the midline of the traquea (3A)/esophagus (8)",
+          "e a source of false-positive results. The on-site cytopathologist is essential to determine whether a mediastinal node is malignant and, accordingly, to change the needle before exploring the rest of nodal stations. 3",
+          "ttps://doi.org/10.1016/j.jtho.2024.07.021"
+        ]
+      },
+      {
+        "type": "figure",
+        "content": {
+          "self_ref": "#/pictures/3",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "label": "picture",
+          "prov": [
+            {
+              "page_no": 3,
+              "bbox": {
+                "l": 260.7113037109375,
+                "t": 668.9914474487305,
+                "r": 286.6054992675781,
+                "b": 643.4594573974609,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                0
+              ]
+            }
+          ],
+          "captions": [],
+          "references": [],
+          "footnotes": [],
+          "image": null,
+          "annotations": []
+        },
+        "captions": [
+          "). In addition, a thorough understanding of ultrasound references is crucial to reliably differentiate, for instance, between an ipsilateral station 1 (N3) and an ipsilateral station 2 (N2)."
+        ],
+        "footnotes": [
+          "ttps://doi.org/10.1016/j.jtho.2024.07.010",
+          "onsidered benign and may not require /uniFB01 ne-needle aspiration puncture. 3,5 Considering the forthcoming ninth IASLC TNM classi /uniFB01 cation and its updates, the authors would like to highlight the future need for prospective cohorts to validate PET-CT and ultrasound features of malignancy that could exempt the puncture of benign N2 lymph nodes.",
+          "Right of the midline of the traquea (3A)/esophagus (8). #Left of the midline of the traquea (3A)/esophagus (8)",
+          "e a source of false-positive results. The on-site cytopathologist is essential to determine whether a mediastinal node is malignant and, accordingly, to change the needle before exploring the rest of nodal stations. 3",
+          "ttps://doi.org/10.1016/j.jtho.2024.07.021"
+        ]
+      }
+    ]
+  },
+  "statistics": [],
+  "validation": {
+    "checks": {
+      "has_title": true,
+      "has_authors": true,
+      "authors_are_valid": false,
+      "has_sections": true,
+      "sections_have_content": true,
+      "has_tables": false,
+      "tables_have_captions": true,
+      "tables_have_data": true,
+      "has_figures": true,
+      "figures_have_captions": false,
+      "figures_have_images": false,
+      "has_entities": false,
+      "has_statistics": false,
+      "has_references": true,
+      "refs_structured": true,
+      "refs_enriched_some": false,
+      "references_enriched": false,
+      "has_references_csv": false,
+      "has_cross_refs": false,
+      "umls_links": false,
+      "figures_textual_count": 0
+    },
+    "completeness_score": 53,
+    "is_valid": false,
+    "issues": [],
+    "warnings": [
+      "No medical entities found",
+      "No statistics extracted",
+      "Some figures missing captions"
+    ],
+    "quality_level": "poor",
+    "hardening": {
+      "fixes": [
+        {
+          "field": "year",
+          "action": "normalize:iso",
+          "old": "2024-10",
+          "new": 2024
+        },
+        {
+          "field": "authors",
+          "action": "filtered_ack_like",
+          "old": [
+            "Nuno Faria",
+            "Maria Inês Costa",
+            "Catarina Lacerda",
+            "Maria Sucena"
+          ],
+          "new": [
+            "Nuno Faria",
+            "Maria Inês Costa",
+            "Catarina Lacerda",
+            "Maria Sucena"
+          ]
+        },
+        {
+          "field": "journal_full",
+          "action": "canonicalize",
+          "old": null,
+          "new": "Journal of Thoracic Oncology"
+        }
+      ]
+    }
+  }
+}

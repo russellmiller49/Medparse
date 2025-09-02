@@ -1,0 +1,719 @@
+{
+  "metadata": {
+    "title": "The Only Constant Is Change: Introducing the International Association for the Study of Lung Cancer Proposals for the Ninth Edition of TNM Stage Classification of Thoracic Tumors",
+    "year": 2023,
+    "authors": [
+      {
+        "given": "Frank C.",
+        "family": "Detterbeck",
+        "suffix": null,
+        "degrees": [],
+        "display": "Frank C. Detterbeck",
+        "group": false
+      },
+      {
+        "given": "Hisao",
+        "family": "Asamura",
+        "suffix": null,
+        "degrees": [],
+        "display": "Hisao Asamura",
+        "group": false
+      },
+      {
+        "given": "Ramón",
+        "family": "Rami-Porta",
+        "suffix": null,
+        "degrees": [],
+        "display": "Ramón Rami-Porta",
+        "group": false
+      },
+      {
+        "given": "Valerie W.",
+        "family": "Rusch",
+        "suffix": null,
+        "degrees": [],
+        "display": "Valerie W. Rusch",
+        "group": false
+      }
+    ],
+    "references_text": [
+      "IASLC lung cancer staging project: the new database to inform revisions in the ninth edition of the TNM classification of lung cancer\n\t\t\n\t\t\tHAsamura\n\t\t\n\t\t\n\t\t\tKKNishimura\n\t\t\n\t\t\n\t\t\tDJGiroux\n\t\t\n\t\n\t\n\t\tJ Thorac Oncol\n\t\t\n\t\t\t18\n\t\t\t\n\t\t\t2023",
+      "The International Association for the Study of Lung Cancer Thymic Epithelial Tumors Staging Project: An Overview of the Central Database Informing Revision of the Forthcoming (Ninth) Edition of the TNM Classification of Malignant Tumors\n\t\t\n\t\t\tAndreasRimner\n\t\t\n\t\t\n\t\t\tEnricoRuffini\n\t\t\n\t\t\n\t\t\tVanessaCilento\n\t\t\n\t\t\n\t\t\tEmilyGoren\n\t\t\n\t\t\n\t\t\tUsmanAhmad\n\t\t\n\t\t\n\t\t\tSaritAppel\n\t\t\n\t\t\n\t\t\tAndreaBille\n\t\t\n\t\t\n\t\t\tSouheilBoubia\n\t\t\n\t\t\n\t\t\tCeciliaBrambilla\n\t\t\n\t\t\n\t\t\tAytenKayiCangir\n\t\t\n\t\t\n\t\t\tFrankDetterbeck\n\t\t\n\t\t\n\t\t\tConradFalkson\n\t\t\n\t\t\n\t\t\tWentaoFang\n\t\t\n\t\t\n\t\t\tPierLuigiFilosso\n\t\t\n\t\t\n\t\t\tGiuseppeGiaccone\n\t\t\n\t\t\n\t\t\tNicolasGirard\n\t\t\n\t\t\n\t\t\tFrancescoGuerrera\n\t\t\n\t\t\n\t\t\tJamesHuang\n\t\t\n\t\t\n\t\t\tMaurizioInfante\n\t\t\n\t\t\n\t\t\tDongKwanKim\n\t\t\n\t\t\n\t\t\tMarcoLucchi\n\t\t\n\t\t\n\t\t\tMirellaMarino\n\t\t\n\t\t\n\t\t\tEdithMMarom\n\t\t\n\t\t\n\t\t\tAndrewGNicholson\n\t\t\n\t\t\n\t\t\tMeinoshinOkumura\n\t\t\n\t\t\n\t\t\tRamonRami-Porta\n\t\t\n\t\t\n\t\t\tCharlesBSimone\n\t\t\n\t\t\n\t\t\tHisaoAsamura\n\t\t\n\t\t10.1016/j.jtho.2023.07.008\n\t\n\t\n\t\tJournal of Thoracic Oncology\n\t\tJournal of Thoracic Oncology\n\t\t1556-0864\n\t\t\n\t\t\t18\n\t\t\t10\n\t\t\t\n\t\t\t2023\n\t\t\tElsevier BV",
+      "The International Association for the Study of Lung Cancer Staging Project: Methods and Guiding Principles for the Development of the Ninth Edition TNM Classification\n\t\t\n\t\t\tFrankCDetterbeck\n\t\t\n\t\t\n\t\t\tKatherineKNishimura\n\t\t\n\t\t\n\t\t\tVanessaJCilento\n\t\t\n\t\t\n\t\t\tMeredithGiuliani\n\t\t\n\t\t\n\t\t\tMirellaMarino\n\t\t\n\t\t\n\t\t\tRaymondUOsarogiagbon\n\t\t\n\t\t\n\t\t\tRamonRami-Porta\n\t\t\n\t\t\n\t\t\tValerieWRusch\n\t\t\n\t\t\n\t\t\tHisaoAsamura\n\t\t\n\t\t10.1016/j.jtho.2022.02.008\n\t\n\t\n\t\tJournal of Thoracic Oncology\n\t\tJournal of Thoracic Oncology\n\t\t1556-0864\n\t\t\n\t\t\t17\n\t\t\t6\n\t\t\t\n\t\t\t2022\n\t\t\tElsevier BV"
+    ],
+    "references_raw": [
+      "IASLC lung cancer staging project: the new database to inform revisions in the ninth edition of the TNM classification of lung cancer\n\t\t\n\t\t\tHAsamura\n\t\t\n\t\t\n\t\t\tKKNishimura\n\t\t\n\t\t\n\t\t\tDJGiroux\n\t\t\n\t\n\t\n\t\tJ Thorac Oncol\n\t\t\n\t\t\t18\n\t\t\t\n\t\t\t2023",
+      "The International Association for the Study of Lung Cancer thymic epithelial tumors staging project: an overview of the central database informing revision of the forthcoming (ninth) edition of the TNM classification of malignant tumors\n\t\t\n\t\t\tARimner\n\t\t\n\t\t\n\t\t\tERuffini\n\t\t\n\t\t\n\t\t\tVCilento\n\t\t\n\t\n\t\n\t\tJ Thorac Oncol\n\t\t\n\t\t\t18\n\t\t\t\n\t\t\t2023",
+      "The International Association for the Study of Lung Cancer staging project: methods and guiding principles for the development of the ninth edition TNM classification\n\t\t\n\t\t\tFCDetterbeck\n\t\t\n\t\t\n\t\t\tKKNishimura\n\t\t\n\t\t\n\t\t\tVJCilento\n\t\t\n\t\n\t\n\t\tJ Thorac Oncol\n\t\t\n\t\t\t17\n\t\t\t\n\t\t\t2022"
+    ],
+    "references_struct": [
+      {
+        "title": "IASLC lung cancer staging project: the new database to inform revisions in the ninth edition of the TNM classification of lung cancer",
+        "journal": "J Thorac Oncol",
+        "year": "2023",
+        "volume": "18",
+        "issue": null,
+        "pages": null,
+        "doi": null,
+        "pmid": null,
+        "authors": [
+          "Asamura H",
+          "Nishimura KK",
+          "Giroux DJ"
+        ],
+        "first_author_last": "Asamura"
+      },
+      {
+        "title": "The International Association for the Study of Lung Cancer thymic epithelial tumors staging project: an overview of the central database informing revision of the forthcoming (ninth) edition of the TNM classification of malignant tumors",
+        "journal": "J Thorac Oncol",
+        "year": "2023",
+        "volume": "18",
+        "issue": null,
+        "pages": null,
+        "doi": null,
+        "pmid": null,
+        "authors": [
+          "Rimner A",
+          "Ruffini E",
+          "Cilento V"
+        ],
+        "first_author_last": "Rimner"
+      },
+      {
+        "title": "The International Association for the Study of Lung Cancer staging project: methods and guiding principles for the development of the ninth edition TNM classification",
+        "journal": "J Thorac Oncol",
+        "year": "2022",
+        "volume": "17",
+        "issue": null,
+        "pages": null,
+        "doi": null,
+        "pmid": null,
+        "authors": [
+          "Detterbeck FC",
+          "Nishimura KK",
+          "Cilento VJ"
+        ],
+        "first_author_last": "Detterbeck"
+      }
+    ],
+    "references_enriched": [
+      {
+        "title": "IASLC lung cancer staging project: the new database to inform revisions in the ninth edition of the TNM classification of lung cancer"
+      },
+      {
+        "title": "J Thorac Oncol",
+        "year": 2023
+      },
+      {
+        "title": "The International Association for the Study of Lung Cancer thymic epithelial tumors staging project: an overview of the central database informing revision of the forthcoming (ninth) edition of the TNM classification of malignant tumors",
+        "year": 2023
+      },
+      {
+        "title": "J Thorac Oncol",
+        "year": 2023
+      },
+      {
+        "title": "The International Association for the Study of Lung Cancer staging project: methods and guiding principles for the development of the ninth edition TNM classification",
+        "year": 2023
+      },
+      {
+        "title": "J Thorac Oncol",
+        "year": 2023
+      }
+    ],
+    "references_source": "grobid_fallback",
+    "year_norm": "2023",
+    "doi": "10.1016/j.jtho.2023.08.012",
+    "journal": "Journal of Thoracic Oncology",
+    "volume": "18",
+    "issue": "10",
+    "pages": "1258-1260",
+    "issn": "15560864",
+    "url": "https://linkinghub.elsevier.com/retrieve/pii/S1556086423007323",
+    "published": {
+      "print": null,
+      "online": "2023-10"
+    },
+    "journal_full": "Journal of Thoracic Oncology"
+  },
+  "structure": {
+    "sections": [
+      {
+        "title": "The Only Constant Is Change: Introducing the International Association for the Study of Lung Cancer Proposals for the Ninth Edition of TNM Stage Classi /uniFB01 cation of Thoracic Tumors",
+        "paragraphs": [
+          {
+            "text": "c"
+          },
+          {
+            "text": "A fundamental cornerstone to managing patients with cancer is stage classi /uniFB01 cation. This provides a universal, well-de /uniFB01 ned nomenclature to describe the anatomic extent of the tumor. The ability to communicate clearly and consistently is essential in selecting a treatment strategy, for example, during multidisciplinary discussions, in assessing how well the individual patient /uniFB01 ts clinical trial data, and thus in predicting outcomes after a treatment approach."
+          },
+          {
+            "text": "The language we use must be stable, well de /uniFB01 ned, and used consistently by all. Recognizing this, stage classi /uniFB01 cation is formally de /uniFB01 ned by the Union for International Cancer Control (UICC) and the American Joint Committee on Cancer (AJCC) -two separate agencies that agree on a classi /uniFB01 cation of the anatomic extent of malignant tumors. This classi /uniFB01 cation, published in the UICC and AJCC stage classi /uniFB01 cation manuals that are used worldwide, follows a TNM structure."
+          },
+          {
+            "text": "Nevertheless, even when consistency is essential, change is inevitably needed. Thus, periodically, the UICC and AJCC re /uniFB01 ne the classi /uniFB01 cation of anatomic extent of cancers. The next edition of TNM stage classi /uniFB01 cation (the ninth edition) is planned to take effect in 2025. Change is needed to re /uniFB02 ect advances in imaging, diagnostic techniques, and treatment. Particularly in lung cancer, the /uniFB01 eld has progressed tremendously -including changes in detection, minimally invasive surgical techniques, methods of targeting and fractionation of radiotherapy, and the emergence of targeted therapies and immunotherapy."
+          },
+          {
+            "text": "Thoracic malignancies are relatively unique with regard to stage classi /uniFB01 cation, because the International Association for the Study of Lung Cancer (IASLC) has made it a priority since 1996 to ensure that the best possible scienti /uniFB01 c basis exists for stage classi /uniFB01 cation revisions. The IASLC has developed large international databases and a robust analytical process. The Staging"
+          },
+          {
+            "text": "and Prognostic Factors Committee (SPFC) of the IASLC is a multidisciplinary group of worldwide experts tasked with using this to develop proposals for revision for thoracic malignancies for the UICC and AJCC to adopt. The Cancer Research And Biostatistics center provides expert statistical analysis. The SPFC proposals will be published in multiple papers in the next year in each issue of the Journal of Thoracic Oncology to introduce the proposals to the thoracic community."
+          },
+          {
+            "text": "Similar to the IASLC proposals for the UICC and AJCC seventh and eighth editions, databases of approximately 100,000 lung cancers, 10,000 thymic malignancies, and 5000 mesotheliomas were assembled for the ninth edition. 1,2 The SPFC is divided into domains (lung, thymic, mesothelioma, and esophageal); these are subdivided into subcommittees to address speci /uniFB01 c aspects (the main ones being T, N, M, and stage groups). Virtual meetings of the subcommittees have been ongoing for several years; with joint meetings of the entire SPFC at the IASLC annual meetings. The SPFC has been coordinating with the UICC and AJCC; although these are the of /uniFB01 cial bodies to decide on the ninth edition"
+          },
+          {
+            "text": "*Corresponding author."
+          },
+          {
+            "text": "a Division of Thoracic Surgery, Department of Surgery, Yale University, New Haven, Connecticut, b Division of Thoracic Surgery, Keio University School of Medicine, Tokyo, Japan, c Department of Thoracic Surgery, Hospital Universitari Mútua Terrassa, Terrassa, Spain, and d Department of Surgery, Memorial Sloan Kettering Cancer Center, New York, New York."
+          },
+          {
+            "text": "Disclosure: The authors declare no con /uniFB02 ict of interest."
+          },
+          {
+            "text": "Address for correspondence: Frank C. Detterbeck, MD, Division of Thoracic Surgery, Department of Surgery, Yale University, New Haven, CT 06520-8062. E-mail: frank.detterbeck@yale.edu"
+          },
+          {
+            "text": "ª 2023 International Association for the Study of Lung Cancer. Published by Elsevier Inc. All rights reserved."
+          },
+          {
+            "text": "ISSN: 1556-0864"
+          },
+          {
+            "text": "https://doi.org/10.1016/j.jtho.2023.08.012"
+          },
+          {
+            "text": "classi /uniFB01 cation, it is anticipated that the SPFC proposals will be adopted without change, consistent with previous editions."
+          },
+          {
+            "text": "An extensive process was used to develop the ninth edition proposals. 3 Guiding principles include that changes should be based on compelling data, should re /uniFB02 ect the impact of the anatomic tumor extent (as opposed to a particular setting, treatment, or other confounders), preserve backward compatibility if possible, and the system should be practical (mesh with relevant tumor features in current clinical practice). The process involved a planning phase (identi /uniFB01 cation of potential questions to be addressed on the basis of literature and clinical changes), database development to allow issues to be addressed, and exploratory analysis. Potential TNM descriptors and categories were required to reveal consistent discrimination by a multi-tiered statistical analysis and be deemed clinically relevant. Demonstration of generalizability was required across time periods, regions, tumor types, practice settings, and external validation. Feedback and approval of /uniFB01 nal proposals were obtained from the entire SPFC (all domains) and the IASLC board of directors."
+          },
+          {
+            "text": "Prognosis was used as a major tool in the analytical process. Nevertheless, prognosis is affected not only by anatomic tumor extent but also by many other tumor-related (e.g., histotype, genomic characteristics), patient-related (e.g., performance status, age, comorbidities), environment-related (e.g., resource availability, detection methods), and treatment-related factors. This is re /uniFB02 ected in differences in prognosis depending on the region, setting, type of source data, and treatment. Statistical analyses accounted for such differences, in addition to the multi-tiered requirement for consistent discrimination across multiple subset analyses. Furthermore, potential confounders were evaluated whenever possible to ensure a robust process to re /uniFB01 ne stage classi /uniFB01 cation."
+          },
+          {
+            "text": "Despite the extensive effort, inevitably some limitations were encountered. These include sample size in subset analyses and the ability to assess and account for particular confounders. These limitations were critically considered and potential changes were rejected unless there was strong con /uniFB01 dence in the thoroughness of the analysis that was able to be conducted. The SPFC welcomes independent investigation of the ninth edition proposals by the thoracic community in the coming years."
+          },
+          {
+            "text": "The SPFC hopes to draw attention to the series of papers that are to be published in upcoming issues of the journal. The actual proposed re /uniFB01 nements and the basis for them cannot be covered in this editorial. It is only possible in this introductory article to highlight a few key changes."
+          },
+          {
+            "text": "In the lung domain, key changes include subdivision of the N2 category into a single station (N2a) and multistation (N2b) involvement. Similarly, tumors with more than one extrathoracic metastases are subdivided into M1c1 (involving a single organ system) and M1c2 (involving multiple organ systems). These changes have implication on how T, N, and M categories are arranged into stage groups. This high-level description glosses over many details of factors that were analyzed and ways to re /uniFB01 ne the stage classi /uniFB01 cation system that were considered."
+          },
+          {
+            "text": "In the thymic domain, tumor size was studied extensively. In early stage tumors, 5 cm emerged as a threshold for subdivision of T1 into T1a and T1b. Furthermore, the SPFC was able to evaluate in greater detail the impact of invasion into speci /uniFB01 c perithymic structures, leading to de /uniFB01 nition of T2 as invasion of the pericardium, lung, and phrenic nerve, and T3 as invasion of the brachiocephalic vein, superior vena cava, chest wall, or extrapericardial pulmonary arteries and veins. The full analysis includes many more details, including the evaluation of the N and M categories and the thymic node map."
+          },
+          {
+            "text": "No changes are proposed to the esophageal stage classi /uniFB01 cation. For the eighth edition, the Worldwide Esophageal Cancer Collaboration organized the database and analysis as a parallel initiative to the IASLC SPFC activities in lung, thymic malignancies, and mesothelioma. For the ninth edition, an analysis involving the International Society for Disease of the Esophagus and the International Esodata Study Group database was planned. Nevertheless, this could not be suf /uniFB01 ciently accomplished to develop proposals for the ninth edition of TNM."
+          },
+          {
+            "text": "The focus of potential changes in the mesothelioma domain arises from a greater ability to assess tumor burden in the current database through the addition of systematic pleural thickness measurements. Analyses are still ongoing, but /uniFB01 nal proposals for changes will be forthcoming soon."
+          },
+          {
+            "text": "Change is always associated with some effort. Just when one system becomes second nature, you have to learn a new one. Furthermore, with a large database, there is a trend to increased granularity that leads to increased complexity. As with previous editions of TNM, IASLC will develop tools (e.g., pocket cards, posters, a manual, and a handbook) to make the transition easier."
+          },
+          {
+            "text": "Re /uniFB02 ecting on the evolution of lung cancer stage classi /uniFB01 cation, it is apparent that the impact of anatomic disease extent has become broader as treatment has become more multidisciplinary across the spectrum of disease extent. With the advent of local therapy for oligometastatic disease, anatomic extent is increasingly important in stage IV. Similarly, the impact of"
+          },
+          {
+            "text": "biomarkers predictive of response to systemic therapies is increasingly important in early stage tumors. This underscores the need to develop a useful way of classifying non-anatomic tumor characteristics in addition to the anatomic extent. The IASLC molecular database has been accruing data that will enable addressing this, but the initiative is not suf /uniFB01 ciently mature for inclusion in the ninth edition proposals."
+          },
+          {
+            "text": "Stage classi /uniFB01 cation remains a nomenclature for anatomic disease extent. It is important to remember that stage classi /uniFB01 cation does not attempt to account for all factors that determine prognosis, nor does it encompass all the factors that affect treatment selection. Stage classi /uniFB01 cation is not designed to be a prognostic model or a treatment guideline; it is merely a tool that helps estimate prognosis and select treatment together with other information."
+          },
+          {
+            "text": "The thoracic community should look forward to the ninth edition stage classi /uniFB01 cation proposals that will be appearing in upcoming issues of the Journal of Thoracic Oncology . Despite the inherent challenges of adapting to change and some limitations of the development process, we also need to appreciate what this represents. Thoracic malignancies are unique regarding the amount of analysis that underpins the stage classi /uniFB01 cation. It is a tribute to the strength of the"
+          },
+          {
+            "text": "community and organization that IASLC represents that made this possible."
+          }
+        ],
+        "category": "other"
+      },
+      {
+        "title": "CRediT Authorship Contribution Statement",
+        "paragraphs": [
+          {
+            "text": "Frank C. Detterbeck, Conceptualization, Writing -original draft, Writing -review and editing."
+          },
+          {
+            "text": "Ramón Rami-Porta, Hisao Asamura, Valerie W. Rusch: Writing -review and editing."
+          }
+        ],
+        "category": "other"
+      },
+      {
+        "title": "References",
+        "paragraphs": [
+          {
+            "text": "1. Asamura H, Nishimura KK, Giroux DJ, et al. IASLC lung cancer staging project: the new database to inform revisions in the ninth edition of the TNM classi /uniFB01 cation of lung cancer. J Thorac Oncol . 2023;18:564 -575."
+          },
+          {
+            "text": "2. Rimner A, Ruf /uniFB01 ni E, Cilento V, et al. The International Association for the Study of Lung Cancer thymic epithelial tumors staging project: an overview of the central database informing revision of the forthcoming (ninth) edition of the TNM classi /uniFB01 cation of malignant tumors. J Thorac Oncol . 2023;18:1386 -1398."
+          },
+          {
+            "text": "3. Detterbeck FC, Nishimura KK, Cilento VJ, et al. The International Association for the Study of Lung Cancer staging project: methods and guiding principles for the development of the ninth edition TNM classi /uniFB01 cation. J Thorac Oncol . 2022;17:806 -815."
+          }
+        ],
+        "category": "other"
+      }
+    ],
+    "tables": [],
+    "figures": [
+      {
+        "self_ref": "#/pictures/0",
+        "parent": {
+          "cref": "#/body"
+        },
+        "children": [],
+        "content_layer": "body",
+        "label": "picture",
+        "prov": [
+          {
+            "page_no": 1,
+            "bbox": {
+              "l": 499.0618896484375,
+              "t": 729.2655372619629,
+              "r": 539.544921875,
+              "b": 699.0027084350586,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "charspan": [
+              0,
+              0
+            ]
+          }
+        ],
+        "captions": [],
+        "references": [],
+        "footnotes": [],
+        "image": null,
+        "annotations": []
+      },
+      {
+        "self_ref": "#/pictures/1",
+        "parent": {
+          "cref": "#/body"
+        },
+        "children": [],
+        "content_layer": "body",
+        "label": "picture",
+        "prov": [
+          {
+            "page_no": 1,
+            "bbox": {
+              "l": 460.44927978515625,
+              "t": 679.3761215209961,
+              "r": 540.5352783203125,
+              "b": 662.1113510131836,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "charspan": [
+              0,
+              0
+            ]
+          }
+        ],
+        "captions": [],
+        "references": [],
+        "footnotes": [],
+        "image": null,
+        "annotations": []
+      }
+    ],
+    "citations": [],
+    "n_sections": 3,
+    "n_tables": 0,
+    "n_figures": 2,
+    "n_citations": 0
+  },
+  "provenance": {
+    "patches": [
+      {
+        "path": "metadata.year_norm",
+        "op": "set",
+        "from": null,
+        "to": "2023",
+        "source": "zotero:year_norm",
+        "confidence": 0.9
+      },
+      {
+        "path": "metadata.authors",
+        "op": "set",
+        "from": [
+          "International Cancer",
+          "American Joint"
+        ],
+        "to": [
+          "Frank C. Detterbeck",
+          "Hisao Asamura",
+          "Ramón Rami-Porta",
+          "Valerie W. Rusch"
+        ],
+        "source": "zotero:authors",
+        "confidence": 0.9
+      },
+      {
+        "path": "metadata.doi",
+        "op": "set",
+        "from": null,
+        "to": "10.1016/j.jtho.2023.08.012",
+        "source": "zotero:doi",
+        "confidence": 0.9
+      },
+      {
+        "path": "metadata.journal",
+        "op": "set",
+        "from": null,
+        "to": "Journal of Thoracic Oncology",
+        "source": "zotero:journal",
+        "confidence": 0.9
+      },
+      {
+        "path": "metadata.volume",
+        "op": "set",
+        "from": null,
+        "to": "18",
+        "source": "zotero:volume",
+        "confidence": 0.9
+      },
+      {
+        "path": "metadata.issue",
+        "op": "set",
+        "from": null,
+        "to": "10",
+        "source": "zotero:issue",
+        "confidence": 0.9
+      },
+      {
+        "path": "metadata.pages",
+        "op": "set",
+        "from": null,
+        "to": "1258-1260",
+        "source": "zotero:pages",
+        "confidence": 0.9
+      },
+      {
+        "path": "metadata.issn",
+        "op": "set",
+        "from": null,
+        "to": "15560864",
+        "source": "zotero:issn",
+        "confidence": 0.9
+      },
+      {
+        "path": "metadata.url",
+        "op": "set",
+        "from": null,
+        "to": "https://linkinghub.elsevier.com/retrieve/pii/S1556086423007323",
+        "source": "zotero:url",
+        "confidence": 0.9
+      },
+      {
+        "path": "provenance.orig_pdf_filename",
+        "op": "set",
+        "from": null,
+        "to": "Detterbeck et al. - 2023 - The Only Constant Is Change Introducing the International Association for the Study of Lung Cancer.pdf",
+        "source": "zotero:csv",
+        "confidence": 0.9
+      },
+      {
+        "path": "metadata.year",
+        "op": "set",
+        "from": "2023-10",
+        "to": 2023,
+        "source": "normalize:iso",
+        "confidence": 0.9
+      },
+      {
+        "path": "metadata.authors",
+        "op": "set",
+        "from": [
+          "Frank C. Detterbeck",
+          "Hisao Asamura",
+          "Ramón Rami-Porta",
+          "Valerie W. Rusch"
+        ],
+        "to": [
+          {
+            "given": "Frank C.",
+            "family": "Detterbeck",
+            "suffix": null,
+            "degrees": [],
+            "display": "Frank C. Detterbeck",
+            "group": false
+          },
+          {
+            "given": "Hisao",
+            "family": "Asamura",
+            "suffix": null,
+            "degrees": [],
+            "display": "Hisao Asamura",
+            "group": false
+          },
+          {
+            "given": "Ramón",
+            "family": "Rami-Porta",
+            "suffix": null,
+            "degrees": [],
+            "display": "Ramón Rami-Porta",
+            "group": false
+          },
+          {
+            "given": "Valerie W.",
+            "family": "Rusch",
+            "suffix": null,
+            "degrees": [],
+            "display": "Valerie W. Rusch",
+            "group": false
+          }
+        ],
+        "source": "filtered_ack_like",
+        "confidence": 0.9
+      },
+      {
+        "path": "metadata.journal_full",
+        "op": "set",
+        "from": null,
+        "to": "Journal of Thoracic Oncology",
+        "source": "canonicalize",
+        "confidence": 0.9
+      }
+    ],
+    "orig_pdf_filename": "Detterbeck et al. - 2023 - The Only Constant Is Change Introducing the International Association for the Study of Lung Cancer.pdf",
+    "zotero": {
+      "id": "detterbeckOnlyConstantChange2023",
+      "source": "zotero_csl+csv",
+      "exported_at": "2025-09-02T20:29:39.362778Z",
+      "match_method": "title_exact",
+      "match_confidence": 1.0
+    }
+  },
+  "grobid": {
+    "references_tei": "<TEI xmlns=\"http://www.tei-c.org/ns/1.0\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" \n xmlns:mml=\"http://www.w3.org/1998/Math/MathML\">\n\t<teiHeader/>\n\t<text>\n\t\t<front/>\n\t\t<body/>\n\t\t<back>\n\t\t\t<div>\n\t\t\t\t<listBibl>\n<biblStruct xml:id=\"b0\">\n\t<analytic>\n\t\t<title level=\"a\" type=\"main\">IASLC lung cancer staging project: the new database to inform revisions in the ninth edition of the TNM classification of lung cancer</title>\n\t\t<author>\n\t\t\t<persName><forename type=\"first\">H</forename><surname>Asamura</surname></persName>\n\t\t</author>\n\t\t<author>\n\t\t\t<persName><forename type=\"first\">K</forename><forename type=\"middle\">K</forename><surname>Nishimura</surname></persName>\n\t\t</author>\n\t\t<author>\n\t\t\t<persName><forename type=\"first\">D</forename><forename type=\"middle\">J</forename><surname>Giroux</surname></persName>\n\t\t</author>\n\t</analytic>\n\t<monogr>\n\t\t<title level=\"j\">J Thorac Oncol</title>\n\t\t<imprint>\n\t\t\t<biblScope unit=\"volume\">18</biblScope>\n\t\t\t<biblScope unit=\"page\" from=\"564\" to=\"575\" />\n\t\t\t<date type=\"published\" when=\"2023\">2023</date>\n\t\t</imprint>\n\t</monogr>\n</biblStruct>\n\n<biblStruct xml:id=\"b1\">\n\t<analytic>\n\t\t<title level=\"a\" type=\"main\">The International Association for the Study of Lung Cancer thymic epithelial tumors staging project: an overview of the central database informing revision of the forthcoming (ninth) edition of the TNM classification of malignant tumors</title>\n\t\t<author>\n\t\t\t<persName><forename type=\"first\">A</forename><surname>Rimner</surname></persName>\n\t\t</author>\n\t\t<author>\n\t\t\t<persName><forename type=\"first\">E</forename><surname>Ruffini</surname></persName>\n\t\t</author>\n\t\t<author>\n\t\t\t<persName><forename type=\"first\">V</forename><surname>Cilento</surname></persName>\n\t\t</author>\n\t</analytic>\n\t<monogr>\n\t\t<title level=\"j\">J Thorac Oncol</title>\n\t\t<imprint>\n\t\t\t<biblScope unit=\"volume\">18</biblScope>\n\t\t\t<biblScope unit=\"page\" from=\"1386\" to=\"1398\" />\n\t\t\t<date type=\"published\" when=\"2023\">2023</date>\n\t\t</imprint>\n\t</monogr>\n</biblStruct>\n\n<biblStruct xml:id=\"b2\">\n\t<analytic>\n\t\t<title level=\"a\" type=\"main\">The International Association for the Study of Lung Cancer staging project: methods and guiding principles for the development of the ninth edition TNM classification</title>\n\t\t<author>\n\t\t\t<persName><forename type=\"first\">F</forename><forename type=\"middle\">C</forename><surname>Detterbeck</surname></persName>\n\t\t</author>\n\t\t<author>\n\t\t\t<persName><forename type=\"first\">K</forename><forename type=\"middle\">K</forename><surname>Nishimura</surname></persName>\n\t\t</author>\n\t\t<author>\n\t\t\t<persName><forename type=\"first\">V</forename><forename type=\"middle\">J</forename><surname>Cilento</surname></persName>\n\t\t</author>\n\t</analytic>\n\t<monogr>\n\t\t<title level=\"j\">J Thorac Oncol</title>\n\t\t<imprint>\n\t\t\t<biblScope unit=\"volume\">17</biblScope>\n\t\t\t<biblScope unit=\"page\" from=\"806\" to=\"815\" />\n\t\t\t<date type=\"published\" when=\"2022\">2022</date>\n\t\t</imprint>\n\t</monogr>\n</biblStruct>\n\n\t\t\t\t</listBibl>\n\t\t\t</div>\n\t\t</back>\n\t</text>\n</TEI>\n"
+  },
+  "umls_links": [],
+  "references_enriched": [
+    {
+      "title": "IASLC lung cancer staging project: the new database to inform revisions in the ninth edition of the TNM classification of lung cancer",
+      "journal": "J Thorac Oncol",
+      "year": "2023",
+      "volume": "18",
+      "issue": null,
+      "pages": null,
+      "doi": null,
+      "pmid": null,
+      "authors": [
+        "Asamura H",
+        "Nishimura KK",
+        "Giroux DJ"
+      ],
+      "first_author_last": "Asamura",
+      "enrichment": {
+        "pmid": null,
+        "doi": null
+      }
+    },
+    {
+      "title": "The International Association for the Study of Lung Cancer thymic epithelial tumors staging project: an overview of the central database informing revision of the forthcoming (ninth) edition of the TNM classification of malignant tumors",
+      "journal": "J Thorac Oncol",
+      "year": "2023",
+      "volume": "18",
+      "issue": null,
+      "pages": null,
+      "doi": null,
+      "pmid": null,
+      "authors": [
+        "Rimner A",
+        "Ruffini E",
+        "Cilento V"
+      ],
+      "first_author_last": "Rimner",
+      "enrichment": {
+        "pmid": null,
+        "doi": null
+      }
+    },
+    {
+      "title": "The International Association for the Study of Lung Cancer staging project: methods and guiding principles for the development of the ninth edition TNM classification",
+      "journal": "J Thorac Oncol",
+      "year": "2022",
+      "volume": "17",
+      "issue": null,
+      "pages": null,
+      "doi": null,
+      "pmid": null,
+      "authors": [
+        "Detterbeck FC",
+        "Nishimura KK",
+        "Cilento VJ"
+      ],
+      "first_author_last": "Detterbeck",
+      "enrichment": {
+        "pmid": null,
+        "doi": null
+      }
+    }
+  ],
+  "drugs": [],
+  "trial_ids": [],
+  "assets": {
+    "tables": [],
+    "figures": [
+      {
+        "type": "figure",
+        "content": {
+          "self_ref": "#/pictures/0",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "label": "picture",
+          "prov": [
+            {
+              "page_no": 1,
+              "bbox": {
+                "l": 499.0618896484375,
+                "t": 729.2655372619629,
+                "r": 539.544921875,
+                "b": 699.0027084350586,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                0
+              ]
+            }
+          ],
+          "captions": [],
+          "references": [],
+          "footnotes": [],
+          "image": null,
+          "annotations": []
+        },
+        "captions": [],
+        "footnotes": [
+          "nd Prognostic Factors Committee (SPFC) of the IASLC is a multidisciplinary group of worldwide experts tasked with using this to develop proposals for revision for thoracic malignancies for the UICC and AJCC to adopt. The Cancer Research And Biostatistics center provides expert statistical analysis. The SPFC proposals will be published in multiple papers in the next year in each issue of the Journal of Thoracic Oncology to introduce the proposals to the thoracic community.",
+          "Corresponding author.",
+          "Division of Thoracic Surgery, Department of Surgery, Yale University, New Haven, Connecticut, b Division of Thoracic Surgery, Keio University School of Medicine, Tokyo, Japan, c Department of Thoracic Surgery, Hospital Universitari Mútua Terrassa, Terrassa, Spain, and d Department of Surgery, Memorial Sloan Kettering Cancer Center, New York, New York.",
+          "ttps://doi.org/10.1016/j.jtho.2023.08.012",
+          "lassi /uniFB01 cation, it is anticipated that the SPFC proposals will be adopted without change, consistent with previous editions.",
+          "iomarkers predictive of response to systemic therapies is increasingly important in early stage tumors. This underscores the need to develop a useful way of classifying non-anatomic tumor characteristics in addition to the anatomic extent. The IASLC molecular database has been accruing data that will enable addressing this, but the initiative is not suf /uniFB01 ciently mature for inclusion in the ninth edition proposals.",
+          "ommunity and organization that IASLC represents that made this possible."
+        ]
+      },
+      {
+        "type": "figure",
+        "content": {
+          "self_ref": "#/pictures/1",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "label": "picture",
+          "prov": [
+            {
+              "page_no": 1,
+              "bbox": {
+                "l": 460.44927978515625,
+                "t": 679.3761215209961,
+                "r": 540.5352783203125,
+                "b": 662.1113510131836,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                0
+              ]
+            }
+          ],
+          "captions": [],
+          "references": [],
+          "footnotes": [],
+          "image": null,
+          "annotations": []
+        },
+        "captions": [],
+        "footnotes": [
+          "nd Prognostic Factors Committee (SPFC) of the IASLC is a multidisciplinary group of worldwide experts tasked with using this to develop proposals for revision for thoracic malignancies for the UICC and AJCC to adopt. The Cancer Research And Biostatistics center provides expert statistical analysis. The SPFC proposals will be published in multiple papers in the next year in each issue of the Journal of Thoracic Oncology to introduce the proposals to the thoracic community.",
+          "Corresponding author.",
+          "Division of Thoracic Surgery, Department of Surgery, Yale University, New Haven, Connecticut, b Division of Thoracic Surgery, Keio University School of Medicine, Tokyo, Japan, c Department of Thoracic Surgery, Hospital Universitari Mútua Terrassa, Terrassa, Spain, and d Department of Surgery, Memorial Sloan Kettering Cancer Center, New York, New York.",
+          "ttps://doi.org/10.1016/j.jtho.2023.08.012",
+          "lassi /uniFB01 cation, it is anticipated that the SPFC proposals will be adopted without change, consistent with previous editions.",
+          "iomarkers predictive of response to systemic therapies is increasingly important in early stage tumors. This underscores the need to develop a useful way of classifying non-anatomic tumor characteristics in addition to the anatomic extent. The IASLC molecular database has been accruing data that will enable addressing this, but the initiative is not suf /uniFB01 ciently mature for inclusion in the ninth edition proposals.",
+          "ommunity and organization that IASLC represents that made this possible."
+        ]
+      }
+    ]
+  },
+  "statistics": [],
+  "validation": {
+    "checks": {
+      "has_title": true,
+      "has_authors": true,
+      "authors_are_valid": false,
+      "has_sections": true,
+      "sections_have_content": true,
+      "has_tables": false,
+      "tables_have_captions": true,
+      "tables_have_data": true,
+      "has_figures": true,
+      "figures_have_captions": false,
+      "figures_have_images": false,
+      "has_entities": false,
+      "has_statistics": false,
+      "has_references": true,
+      "refs_structured": true,
+      "refs_enriched_some": true,
+      "references_enriched": true,
+      "has_references_csv": false,
+      "has_cross_refs": false,
+      "umls_links": false,
+      "figures_textual_count": 0
+    },
+    "completeness_score": 61,
+    "is_valid": true,
+    "issues": [],
+    "warnings": [
+      "No medical entities found",
+      "No statistics extracted",
+      "Some figures missing captions"
+    ],
+    "quality_level": "acceptable",
+    "hardening": {
+      "fixes": [
+        {
+          "field": "year",
+          "action": "normalize:iso",
+          "old": "2023-10",
+          "new": 2023
+        },
+        {
+          "field": "authors",
+          "action": "filtered_ack_like",
+          "old": [
+            "Frank C. Detterbeck",
+            "Hisao Asamura",
+            "Ramón Rami-Porta",
+            "Valerie W. Rusch"
+          ],
+          "new": [
+            "Frank C. Detterbeck",
+            "Hisao Asamura",
+            "Ramón Rami-Porta",
+            "Valerie W. Rusch"
+          ]
+        },
+        {
+          "field": "journal_full",
+          "action": "canonicalize",
+          "old": null,
+          "new": "Journal of Thoracic Oncology"
+        }
+      ]
+    }
+  }
+}

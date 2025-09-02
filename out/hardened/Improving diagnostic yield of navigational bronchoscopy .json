@@ -1,0 +1,1891 @@
+{
+  "metadata": {
+    "title": "Improving diagnostic yield of navigational bronchoscopy for peripheral pulmonary lesions: a review of advancing technology",
+    "year": 2020,
+    "authors": [
+      {
+        "given": "Ajay",
+        "family": "Wagh",
+        "suffix": null,
+        "degrees": [],
+        "display": "Ajay Wagh",
+        "group": false
+      },
+      {
+        "given": "Elliot",
+        "family": "Ho",
+        "suffix": null,
+        "degrees": [],
+        "display": "Elliot Ho",
+        "group": false
+      },
+      {
+        "given": "Septimiu",
+        "family": "Murgu",
+        "suffix": null,
+        "degrees": [],
+        "display": "Septimiu Murgu",
+        "group": false
+      },
+      {
+        "given": "Douglas Kyle",
+        "family": "Hogarth",
+        "suffix": null,
+        "degrees": [],
+        "display": "Douglas Kyle Hogarth",
+        "group": false
+      }
+    ],
+    "references_text": [
+      "Establishing the Diagnosis of Lung Cancer\n\t\t\n\t\t\tMPatriciaRivera\n\t\t\n\t\t\n\t\t\tAtulCMehta\n\t\t\n\t\t\n\t\t\tMomenMWahidi\n\t\t\n\t\t10.1378/chest.12-2353\n\t\n\t\n\t\tChest\n\t\tChest\n\t\t0012-3692\n\t\t\n\t\t\t143\n\t\t\t5\n\t\t\t\n\t\t\t2013\n\t\t\tElsevier BV",
+      "Radial probe endobronchial ultrasound for the diagnosis of peripheral lung cancer: systematic review and meta-analysis\n\t\t\n\t\t\tDPSteinfort\n\t\t\n\t\t\n\t\t\tYHKhor\n\t\t\n\t\t\n\t\t\tRLManser\n\t\t\n\t\t\n\t\t\tLBIrving\n\t\t\n\t\t10.1183/09031936.00075310\n\t\n\t\n\t\tEuropean Respiratory Journal\n\t\tEur Respir J\n\t\t0903-1936\n\t\t1399-3003\n\t\t\n\t\t\t37\n\t\t\t4\n\t\t\t\n\t\t\t2011\n\t\t\tEuropean Respiratory Society (ERS)",
+      "State-of-the-Art Modalities for Peripheral Lung Nodule Biopsy\n\t\t\n\t\t\tSatishKalanjeri\n\t\t\n\t\t\n\t\t\tRobertCHolladay\n\t\t\n\t\t\n\t\t\tThomasRGildea\n\t\t\n\t\t10.1016/j.ccm.2017.11.007\n\t\n\t\n\t\tClinics in Chest Medicine\n\t\tClinics in Chest Medicine\n\t\t0272-5231\n\t\t\n\t\t\t39\n\t\t\t1\n\t\t\t\n\t\t\t2018\n\t\t\tElsevier BV",
+      "Initial Diagnosis of Lung Cancer\n\t\t\n\t\t\tMPatriciaRivera\n\t\t\n\t\t\n\t\t\tAtulCMehta\n\t\t\n\t\t10.1378/chest.07-1357\n\t\n\t\n\t\tChest\n\t\tChest\n\t\t0012-3692\n\t\t\n\t\t\t132\n\t\t\t3\n\t\t\t\n\t\t\t2007\n\t\t\tElsevier BV",
+      "The solitary pulmonary nodule\n\t\t\n\t\t\tWiner-MuramHt\n\t\t\n\t\n\t\n\t\tRadiology\n\t\t\n\t\t\t239\n\t\t\t\n\t\t\t2006",
+      "Evidence for the Treatment of Patients With Pulmonary Nodules: When Is It Lung Cancer?\n\t\t\n\t\t\tMomenMWahidi\n\t\t\n\t\t\n\t\t\tJosephAGovert\n\t\t\n\t\t\n\t\t\tRanjitKGoudar\n\t\t\n\t\t\n\t\t\tMichaelKGould\n\t\t\n\t\t\n\t\t\tDouglasCMccrory\n\t\t\n\t\t10.1378/chest.07-1352\n\t\n\t\n\t\tChest\n\t\tChest\n\t\t0012-3692\n\t\t\n\t\t\t132\n\t\t\t3\n\t\t\t\n\t\t\t2007\n\t\t\tElsevier BV",
+      "Complications and Yield of Computed Tomography-Guided Transthoracic Core Needle Biopsy of Lung Nodules at a High-Volume Academic Center in an Endemic Coccidioidomycosis Area\n\t\t\n\t\t\tMickeySachdeva\n\t\t\n\t\t\n\t\t\tRezaRonaghi\n\t\t\n\t\t\n\t\t\tPaulKMills\n\t\t\n\t\t\n\t\t\tMichaelWPeterson\n\t\t\n\t\t10.1007/s00408-016-9866-3\n\t\n\t\n\t\tLung\n\t\tLung\n\t\t0341-2040\n\t\t1432-1750\n\t\t\n\t\t\t194\n\t\t\t3\n\t\t\t\n\t\t\t2016\n\t\t\tSpringer Science and Business Media LLC",
+      "Reduced Lung-Cancer Mortality with Low-Dose Computed Tomographic Screening\n\t\t\n\t\t\tNationalLung\n\t\t\n\t\t\n\t\t\tScreeningTrial Research\n\t\t\n\t\t\n\t\t\tTeam\n\t\t\n\t\t\n\t\t\tDRAberle\n\t\t\n\t\t\n\t\t\tAMAdams\n\t\t\n\t\t10.1056/nejmoa1102873\n\t\n\t\n\t\tNew England Journal of Medicine\n\t\tN Engl J Med\n\t\t0028-4793\n\t\t1533-4406\n\t\t\n\t\t\t365\n\t\t\t5\n\t\t\t\n\t\t\t2011\n\t\t\tMassachusetts Medical Society",
+      "Author Conflict of Interest Error in: Diagnosis and Management of Lung Cancer, 3rd ed: American College of Chest Physicians Evidence-Based Clinical Practice Guidelines\n\t\t\n\t\t\tMKGould\n\t\t\n\t\t\n\t\t\tJDonington\n\t\t\n\t\t\n\t\t\tWRLynch\n\t\t\n\t\t10.1378/chest.13-2144\n\t\n\t\n\t\tChest\n\t\tChest\n\t\t0012-3692\n\t\t\n\t\t\t144\n\t\t\t5\n\t\t\t1743\n\t\t\t2013\n\t\t\tElsevier BV",
+      "Erratum to: NCCN Guidelines Insights: Small Cell Lung Cancer, Version 2.2018: J Natl Compr Canc Netw 2018;16(10):1171–1182.\n\t\t\n\t\t\tDSEttinger\n\t\t\n\t\t\n\t\t\tDLAisner\n\t\t\n\t\t\n\t\t\tDEWood\n\t\t\n\t\t10.6004/jnccn.2019.0102\n\t\n\t\n\t\tJournal of the National Comprehensive Cancer Network\n\t\t1540-1405\n\t\t1540-1413\n\t\t\n\t\t\t17\n\t\t\t12\n\t\t\tlvib\n\t\t\t2018. 2018\n\t\t\tHarborside Press, LLC",
+      "Metaanalysis of guided bronchoscopy for the evaluation of the pulmonary nodule\n\t\t\n\t\t\tWangMemoli\n\t\t\n\t\t\n\t\t\tJSNietert\n\t\t\n\t\t\n\t\t\tPJSilvestri\n\t\t\n\t\t\n\t\t\tGA\n\t\t\n\t\n\t\n\t\tChest\n\t\t\n\t\t\t142\n\t\t\t\n\t\t\t2012",
+      "Diagnostic Yield and Safety of Electromagnetic Navigation Bronchoscopy for Lung Nodules: A Systematic Review and Meta-Analysis\n\t\t\n\t\t\tGregoireGex\n\t\t\n\t\t\n\t\t\tJacquesAPralong\n\t\t\n\t\t\n\t\t\tChristopheCombescure\n\t\t\n\t\t\n\t\t\tLuisSeijo\n\t\t\n\t\t\n\t\t\tThierryRochat\n\t\t\n\t\t\n\t\t\tPaolaMSoccal\n\t\t\n\t\t10.1159/000355710\n\t\n\t\n\t\tRespiration\n\t\tRespiration\n\t\t0025-7931\n\t\t1423-0356\n\t\t\n\t\t\t87\n\t\t\t2\n\t\t\t\n\t\t\t2014\n\t\t\tS. Karger AG",
+      "Meta-analysis of the diagnostic yield and safety of electromagnetic navigation bronchoscopy for lung nodules\n\t\t\n\t\t\tWZhang\n\t\t\n\t\t\n\t\t\tSChen\n\t\t\n\t\t\n\t\t\tXDong\n\t\t\n\t\n\t\n\t\tJ Thorac Dis\n\t\t\n\t\t\t7\n\t\t\t\n\t\t\t2015",
+      "Multimodality Bronchoscopic Diagnosis of Peripheral Lung Lesions\n\t\t\n\t\t\tRalfEberhardt\n\t\t\n\t\t\n\t\t\tDevanandAnantham\n\t\t\n\t\t\n\t\t\tArminErnst\n\t\t\n\t\t\n\t\t\tDavidFeller-Kopman\n\t\t\n\t\t\n\t\t\tFelixHerth\n\t\t\n\t\t10.1164/rccm.200612-1866oc\n\t\n\t\n\t\tAmerican Journal of Respiratory and Critical Care Medicine\n\t\tAm J Respir Crit Care Med\n\t\t1073-449X\n\t\t1535-4970\n\t\t\n\t\t\t176\n\t\t\t1\n\t\t\t\n\t\t\t2007\n\t\t\tAmerican Thoracic Society",
+      "Electromagnetic Navigation Bronchoscopy for Peripheral Pulmonary Lesions: One-Year Results of the Prospective, Multicenter NAVIGATE Study\n\t\t\n\t\t\tEEFolch\n\t\t\n\t\t\n\t\t\tMAPritchett\n\t\t\n\t\t\n\t\t\tMANead\n\t\t\n\t\n\t\n\t\tJ Thorac Oncol\n\t\t\n\t\t\t14\n\t\t\t\n\t\t\t2019",
+      "Advances in interventional diagnostic bronchoscopy for peripheral pulmonary lesions\n\t\t\n\t\t\tTsukasaIshiwata\n\t\t\n\t\t\n\t\t\tAlexanderGregor\n\t\t\n\t\t\n\t\t\tTerunagaInage\n\t\t\n\t\t\n\t\t\tKazuhiroYasufuku\n\t\t\n\t\t10.1080/17476348.2019.1645600\n\t\n\t\n\t\tExpert Review of Respiratory Medicine\n\t\tExpert Review of Respiratory Medicine\n\t\t1747-6348\n\t\t1747-6356\n\t\t\n\t\t\t13\n\t\t\t9\n\t\t\t\n\t\t\t2019\n\t\t\tInforma UK Limited",
+      "Bronchoscopic Transparenchymal Nodule Access: Feasibility and Safety in an Endoscopic Unit\n\t\t\n\t\t\tDominikHarzheim\n\t\t\n\t\t\n\t\t\tDanielSterman\n\t\t\n\t\t\n\t\t\tPallavLShah\n\t\t\t0000-0002-9052-4638\n\t\t\n\t\t\n\t\t\tRalfEberhardt\n\t\t\n\t\t\n\t\t\tFelixJ FHerth\n\t\t\n\t\t10.1159/000445032\n\t\n\t\n\t\tRespiration\n\t\tRespiration\n\t\t0025-7931\n\t\t1423-0356\n\t\t\n\t\t\t91\n\t\t\t4\n\t\t\t\n\t\t\t2016\n\t\t\tS. Karger AG",
+      "Bronchoscopic transparenchymal nodule access (BTPNA): first in human trial of a novel procedure for sampling solitary pulmonary nodules\n\t\t\n\t\t\tFJHerth\n\t\t\n\t\t\n\t\t\tREberhardt\n\t\t\n\t\t\n\t\t\tDSterman\n\t\t\n\t\t\n\t\t\tGASilvestri\n\t\t\n\t\t\n\t\t\tHHoffmann\n\t\t\n\t\t\n\t\t\tPLShah\n\t\t\n\t\t10.1136/thoraxjnl-2014-206211\n\t\n\t\n\t\tThorax\n\t\tThorax\n\t\t0040-6376\n\t\t\n\t\t\t70\n\t\t\t4\n\t\t\t\n\t\t\t2015\n\t\t\tBMJ",
+      "Improved diagnostic yield for lung nodules with digital tomosynthesis‐corrected navigational bronchoscopy: Initial experience with a novel adjunct\n\t\t\n\t\t\tMattAboudara\n\t\t\t0000-0001-8540-487X\n\t\t\n\t\t\n\t\t\tLanceRoller\n\t\t\n\t\t\n\t\t\tOtisRickman\n\t\t\n\t\t\n\t\t\tRobertJLentz\n\t\t\n\t\t\n\t\t\tJasleenPannu\n\t\t\n\t\t\n\t\t\tHeidiChen\n\t\t\n\t\t\n\t\t\tFabienMaldonado\n\t\t\n\t\t10.1111/resp.13609\n\t\n\t\n\t\tRespirology\n\t\tRespirology\n\t\t1323-7799\n\t\t1440-1843\n\t\t\n\t\t\t25\n\t\t\t2\n\t\t\t\n\t\t\t2020\n\t\t\tWiley",
+      "Use of Augmented Fluoroscopic Imaging During Diagnostic Bronchoscopy\n\t\t\n\t\t\tDKHogarth\n\t\t\n\t\t10.2217/fon-2017-0686\n\t\n\t\n\t\tFuture Oncology\n\t\tFuture Oncol.\n\t\t1479-6694\n\t\t1744-8301\n\t\t\n\t\t\t14\n\t\t\t22\n\t\t\t\n\t\t\t2018\n\t\t\tInforma UK Limited",
+      "Augmented Fluoroscopy\n\t\t\n\t\t\tJosephCicenia\n\t\t\n\t\t\n\t\t\tKrishBhadra\n\t\t\n\t\t\n\t\t\tSonaliSethi\n\t\t\n\t\t\n\t\t\tDanielANader\n\t\t\n\t\t\n\t\t\tPatrickWhitten\n\t\t\n\t\t\n\t\t\tDouglasKyleHogarth\n\t\t\n\t\t10.1097/lbr.0000000000000722\n\t\n\t\n\t\tJournal of Bronchology & Interventional Pulmonology\n\t\t1944-6586\n\t\t\n\t\t\t28\n\t\t\t2\n\t\t\t\n\t\t\t2020\n\t\t\tOvid Technologies (Wolters Kluwer Health)\n\t\t\n\t\n\tEpub ahead of print",
+      "Cone-Beam CT With Augmented Fluoroscopy Combined With Electromagnetic Navigation Bronchoscopy for Biopsy of Pulmonary Nodules\n\t\t\n\t\t\tMichaelAPritchett\n\t\t\n\t\t\n\t\t\tStéphanieSchampaert\n\t\t\n\t\t\n\t\t\tJorisA HDe Groot\n\t\t\n\t\t\n\t\t\tCharlesCSchirmer\n\t\t\n\t\t\n\t\t\tImramsjahVan Der Bom\n\t\t\n\t\t10.1097/lbr.0000000000000536\n\t\n\t\n\t\tJournal of Bronchology & Interventional Pulmonology\n\t\t1944-6586\n\t\t\n\t\t\t25\n\t\t\t4\n\t\t\t\n\t\t\t2018\n\t\t\tOvid Technologies (Wolters Kluwer Health)",
+      "Cone beam computed tomography-guided thin/ultrathin bronchoscopy for diagnosis of peripheral lung nodules: a prospective pilot study\n\t\t\n\t\t\tRobertoFCasal\n\t\t\n\t\t\n\t\t\tMonaSarkiss\n\t\t\n\t\t\n\t\t\tAaronKJones\n\t\t\n\t\t\n\t\t\tJohnStewart\n\t\t\n\t\t\n\t\t\tAldaTam\n\t\t\n\t\t\n\t\t\tHorianaBGrosu\n\t\t\n\t\t\n\t\t\tDavidEOst\n\t\t\n\t\t\n\t\t\tCarlosAJimenez\n\t\t\n\t\t\n\t\t\tGeorgeAEapen\n\t\t\n\t\t10.21037/jtd.2018.11.21\n\t\n\t\n\t\tJournal of Thoracic Disease\n\t\tJ. Thorac. Dis\n\t\t2072-1439\n\t\t2077-6624\n\t\t\n\t\t\t10\n\t\t\t12\n\t\t\t\n\t\t\t2018\n\t\t\tAME Publishing Company",
+      "Robotic Endoscopic Airway Challenge: REACH Assessment\n\t\t\n\t\t\tAlexanderCChen\n\t\t\n\t\t\n\t\t\tColinTGillespie\n\t\t\n\t\t10.1016/j.athoracsur.2018.01.051\n\t\n\t\n\t\tThe Annals of Thoracic Surgery\n\t\tThe Annals of Thoracic Surgery\n\t\t0003-4975\n\t\t\n\t\t\t106\n\t\t\t1\n\t\t\t\n\t\t\t2018\n\t\t\tElsevier BV",
+      "Robot-assisted bronchoscopy for pulmonary lesion diagnosis: results from the initial multicenter experience\n\t\t\n\t\t\tUChaddha\n\t\t\n\t\t\n\t\t\tSPKovacs\n\t\t\n\t\t\n\t\t\tCManley\n\t\t\n\t\t10.21037/jtd-2020-abpd-0032019;19:243\n\t\t\n\t\n\t\n\t\tBMC Pulm Med © Journal of Thoracic Disease. All rights reserved. J Thorac Dis\n\t\t\n\t\t\t12\n\t\t\t12\n\t\t\t\n\t\t\t2020",
+      "Robotic Bronchoscopy for Peripheral Pulmonary Lesions\n\t\t\n\t\t\tAlexanderCChen\n\t\t\n\t\t\n\t\t\tNicholasJPastis\n\t\t\n\t\t\n\t\t\tAmitKMahajan\n\t\t\n\t\t\n\t\t\tSandeepJKhandhar\n\t\t\n\t\t\n\t\t\tMichaelJSimoff\n\t\t\n\t\t\n\t\t\tMichaelSMachuzak\n\t\t\n\t\t\n\t\t\tJosephCicenia\n\t\t\n\t\t\n\t\t\tThomasRGildea\n\t\t\n\t\t\n\t\t\tGerardASilvestri\n\t\t\n\t\t10.1016/j.chest.2020.08.2047\n\t\n\t\n\t\tChest\n\t\tChest\n\t\t0012-3692\n\t\t\n\t\t\t159\n\t\t\t2\n\t\t\t\n\t\t\t2020\n\t\t\tElsevier BV\n\t\t\n\t\n\tEpub ahead of print",
+      "First Human Use of a New Robotic-Assisted Fiber Optic Sensing Navigation System for Small Peripheral Pulmonary Nodules\n\t\t\n\t\t\tDavidI KFielding\n\t\t\n\t\t\n\t\t\tFarzadBashirzadeh\n\t\t\n\t\t\n\t\t\tJungHwaSon\n\t\t\n\t\t\n\t\t\tMaryannTodman\n\t\t\n\t\t\n\t\t\tAdrianChin\n\t\t\n\t\t\n\t\t\tLionelTan\n\t\t\n\t\t\n\t\t\tKarinSteinke\n\t\t\n\t\t\n\t\t\tMorganNWindsor\n\t\t\n\t\t\n\t\t\tArthurWaiSung\n\t\t\n\t\t10.1159/000498951\n\t\n\t\n\t\tRespiration\n\t\tRespiration\n\t\t0025-7931\n\t\t1423-0356\n\t\t\n\t\t\t98\n\t\t\t2\n\t\t\t\n\t\t\t2019\n\t\t\tS. Karger AG",
+      "Multiplanar <scp>3D</scp> fluoroscopy redefines tool–lesion relationship during robotic‐assisted bronchoscopy\n\t\t\n\t\t\tOrKalchiem‐dekel\n\t\t\t0000-0001-9856-627X\n\t\t\n\t\t\n\t\t\tPaigeFuentes\n\t\t\n\t\t\n\t\t\tMatthewJBott\n\t\t\n\t\t\n\t\t\tJasonABeattie\n\t\t\n\t\t\n\t\t\tRobertPLee\n\t\t\n\t\t\n\t\t\tMohitChawla\n\t\t\n\t\t\n\t\t\tBryanCHusta\n\t\t\n\t\t10.1111/resp.13966\n\t\n\t\n\t\tRespirology\n\t\tRespirology\n\t\t1323-7799\n\t\t1440-1843\n\t\t\n\t\t\t26\n\t\t\t1\n\t\t\t\n\t\t\t2021\n\t\t\tWiley"
+    ],
+    "references_raw": [
+      "Establishing the diagnosis of lung cancer diagnosis and management of lung cancer, 3rd ed. American College of Chest Physicians evidence-based clinical practice guidelines\n\t\t\n\t\t\tMPRivera\n\t\t\n\t\t\n\t\t\tACMehta\n\t\t\n\t\t\n\t\t\tMMWahidi\n\t\t\n\t\n\t\n\t\tChest\n\t\t\n\t\t\t143\n\t\t\t\n\t\t\t2013",
+      "Radial probe endobronchial ultrasound for the diagnosis of peripheral lung cancer: systematic review and meta-analysis\n\t\t\n\t\t\tDPSteinfort\n\t\t\n\t\t\n\t\t\tYHKhor\n\t\t\n\t\t\n\t\t\tRLManser\n\t\t\n\t\n\t\n\t\tEur Respir J\n\t\t\n\t\t\t37\n\t\t\t\n\t\t\t2011",
+      "State-of-the-Art Modalities for Peripheral Lung Nodule Biopsy\n\t\t\n\t\t\tSKalanjeri\n\t\t\n\t\t\n\t\t\tRCHolladay\n\t\t\n\t\t\n\t\t\tTRGildea\n\t\t\n\t\n\t\n\t\tClin Chest Med\n\t\t\n\t\t\t39\n\t\t\t\n\t\t\t2018",
+      "American College of Chest Physicians. Initial diagnosis of lung cancer: ACCP evidence-based clinical practice guidelines (2nd edition)\n\t\t\n\t\t\tMPRivera\n\t\t\n\t\t\n\t\t\tACMehta\n\t\t\n\t\n\t\n\t\tChest\n\t\t\n\t\t\t132\n\t\t\t\n\t\t\t2007",
+      "The solitary pulmonary nodule\n\t\t\n\t\t\tWiner-MuramHt\n\t\t\n\t\n\t\n\t\tRadiology\n\t\t\n\t\t\t239\n\t\t\t\n\t\t\t2006",
+      "Evidence for the treatment of patients with pulmonary nodules: when is it lung cancer? ACCP evidence-based clinical practice guidelines (2nd edition)\n\t\t\n\t\t\tMMWahidi\n\t\t\n\t\t\n\t\t\tJAGovert\n\t\t\n\t\t\n\t\t\tRKGoudar\n\t\t\n\t\n\t\n\t\tChest\n\t\t\n\t\t\t132\n\t\t\t\n\t\t\t2007",
+      "Complications and Yield of Computed Tomography-Guided Transthoracic Core Needle Biopsy of Lung Nodules at a High-Volume Academic Center in an Endemic Coccidioidomycosis Area\n\t\t\n\t\t\tMSachdeva\n\t\t\n\t\t\n\t\t\tRRonaghi\n\t\t\n\t\t\n\t\t\tPKMills\n\t\t\n\t\n\t\n\t\tLung\n\t\t\n\t\t\t194\n\t\t\t\n\t\t\t2016",
+      "Reduced lung-cancer mortality with low-dose computed tomographic screening\n\t\t\n\t\t\tNationalLung\n\t\t\n\t\t\n\t\t\tScreeningTrial Research\n\t\t\n\t\t\n\t\t\tTeam\n\t\t\n\t\t\n\t\t\tDRAberle\n\t\t\n\t\t\n\t\t\tAMAdams\n\t\t\n\t\n\t\n\t\tN Engl J Med\n\t\t\n\t\t\t365\n\t\t\t\n\t\t\t2011",
+      "Evaluation of individuals with pulmonary nodules: when is it lung cancer? Diagnosis and management of lung cancer, 3rd ed: American College of Chest Physicians evidence-based clinical practice guidelines\n\t\t\n\t\t\tMKGould\n\t\t\n\t\t\n\t\t\tJDonington\n\t\t\n\t\t\n\t\t\tWRLynch\n\t\t\n\t\n\t\n\t\tChest\n\t\t\n\t\t\t143\n\t\t\t\n\t\t\t2013",
+      "NCCN Guidelines Insights: Non-Small Cell Lung Cancer, Version 5\n\t\t\n\t\t\tDSEttinger\n\t\t\n\t\t\n\t\t\tDLAisner\n\t\t\n\t\t\n\t\t\tDEWood\n\t\t\n\t\n\t\n\t\tJ Natl Compr Canc Netw\n\t\t\n\t\t\t16\n\t\t\t\n\t\t\t2018. 2018",
+      "Metaanalysis of guided bronchoscopy for the evaluation of the pulmonary nodule\n\t\t\n\t\t\tWangMemoli\n\t\t\n\t\t\n\t\t\tJSNietert\n\t\t\n\t\t\n\t\t\tPJSilvestri\n\t\t\n\t\t\n\t\t\tGA\n\t\t\n\t\n\t\n\t\tChest\n\t\t\n\t\t\t142\n\t\t\t\n\t\t\t2012",
+      "Diagnostic yield and safety of electromagnetic navigation bronchoscopy for lung nodules: a systematic review and meta-analysis\n\t\t\n\t\t\tGGex\n\t\t\n\t\t\n\t\t\tJAPralong\n\t\t\n\t\t\n\t\t\tCCombescure\n\t\t\n\t\n\t\n\t\tRespiration\n\t\t\n\t\t\t87\n\t\t\t\n\t\t\t2014",
+      "Meta-analysis of the diagnostic yield and safety of electromagnetic navigation bronchoscopy for lung nodules\n\t\t\n\t\t\tWZhang\n\t\t\n\t\t\n\t\t\tSChen\n\t\t\n\t\t\n\t\t\tXDong\n\t\t\n\t\n\t\n\t\tJ Thorac Dis\n\t\t\n\t\t\t7\n\t\t\t\n\t\t\t2015",
+      "Multimodality bronchoscopic diagnosis of peripheral lung lesions: a randomized controlled trial\n\t\t\n\t\t\tREberhardt\n\t\t\n\t\t\n\t\t\tDAnantham\n\t\t\n\t\t\n\t\t\tAErnst\n\t\t\n\t\n\t\n\t\tAm J Respir Crit Care Med\n\t\t\n\t\t\t176\n\t\t\t\n\t\t\t2007",
+      "Electromagnetic Navigation Bronchoscopy for Peripheral Pulmonary Lesions: One-Year Results of the Prospective, Multicenter NAVIGATE Study\n\t\t\n\t\t\tEEFolch\n\t\t\n\t\t\n\t\t\tMAPritchett\n\t\t\n\t\t\n\t\t\tMANead\n\t\t\n\t\n\t\n\t\tJ Thorac Oncol\n\t\t\n\t\t\t14\n\t\t\t\n\t\t\t2019",
+      "Advances in interventional diagnostic bronchoscopy for peripheral pulmonary lesions\n\t\t\n\t\t\tTIshiwata\n\t\t\n\t\t\n\t\t\tAGregor\n\t\t\n\t\t\n\t\t\tTInage\n\t\t\n\t\n\t\n\t\tExpert Rev Respir Med\n\t\t\n\t\t\t13\n\t\t\t\n\t\t\t2019",
+      "Bronchoscopic Transparenchymal Nodule Access: Feasibility and Safety in an Endoscopic Unit\n\t\t\n\t\t\tDHarzheim\n\t\t\n\t\t\n\t\t\tDSterman\n\t\t\n\t\t\n\t\t\tPLShah\n\t\t\n\t\n\t\n\t\tRespiration\n\t\t\n\t\t\t91\n\t\t\t\n\t\t\t2016",
+      "Bronchoscopic transparenchymal nodule access (BTPNA): first in human trial of a novel procedure for sampling solitary pulmonary nodules\n\t\t\n\t\t\tFJHerth\n\t\t\n\t\t\n\t\t\tREberhardt\n\t\t\n\t\t\n\t\t\tDSterman\n\t\t\n\t\n\t\n\t\tThorax\n\t\t\n\t\t\t70\n\t\t\t\n\t\t\t2015",
+      "Improved diagnostic yield for lung nodules with digital tomosynthesiscorrected navigational bronchoscopy: Initial experience with a novel adjunct\n\t\t\n\t\t\tMAboudara\n\t\t\n\t\t\n\t\t\tLRoller\n\t\t\n\t\t\n\t\t\tORickman\n\t\t\n\t\n\t\n\t\tRespirology\n\t\t\n\t\t\t25\n\t\t\t\n\t\t\t2020",
+      "Use of augmented fluoroscopic imaging during diagnostic bronchoscopy\n\t\t\n\t\t\tDKHogarth\n\t\t\n\t\n\t\n\t\tFuture Oncol\n\t\t\n\t\t\t14\n\t\t\t\n\t\t\t2018",
+      "Augmented Fluoroscopy: A New and Novel Navigation Platform for Peripheral Bronchoscopy\n\t\t\n\t\t\tJCicenia\n\t\t\n\t\t\n\t\t\tKBhadra\n\t\t\n\t\t\n\t\t\tSSethi\n\t\t\n\t\t10.1097/LBR.0000000000000722\n\t\n\t\n\t\tJ Bronchology Interv Pulmonol\n\t\t\n\t\t\t2020\n\t\t\n\t\n\tEpub ahead of print",
+      "Cone-Beam CT With Augmented Fluoroscopy Combined With Electromagnetic Navigation Bronchoscopy for Biopsy of Pulmonary Nodules\n\t\t\n\t\t\tMAPritchett\n\t\t\n\t\t\n\t\t\tSSchampaert\n\t\t\n\t\t\n\t\t\tJahDe Groot\n\t\t\n\t\n\t\n\t\tJ Bronchology Interv Pulmonol\n\t\t\n\t\t\t25\n\t\t\t\n\t\t\t2018",
+      "Cone beam computed tomography-guided thin/ultrathin bronchoscopy for diagnosis of peripheral lung nodules: a prospective pilot study\n\t\t\n\t\t\tRFCasal\n\t\t\n\t\t\n\t\t\tMSarkiss\n\t\t\n\t\t\n\t\t\tAKJones\n\t\t\n\t\n\t\n\t\tJ Thorac Dis\n\t\t\n\t\t\t10\n\t\t\t\n\t\t\t2018",
+      "Robotic Endoscopic Airway Challenge: REACH Assessment\n\t\t\n\t\t\tACChen\n\t\t\n\t\t\n\t\t\tCTGillespie\n\t\t\n\t\n\t\n\t\tAnn Thorac Surg\n\t\t\n\t\t\t106\n\t\t\t\n\t\t\t2018",
+      "Robot-assisted bronchoscopy for pulmonary lesion diagnosis: results from the initial multicenter experience\n\t\t\n\t\t\tUChaddha\n\t\t\n\t\t\n\t\t\tSPKovacs\n\t\t\n\t\t\n\t\t\tCManley\n\t\t\n\t\t10.21037/jtd-2020-abpd-0032019;19:243\n\t\t\n\t\n\t\n\t\tBMC Pulm Med © Journal of Thoracic Disease. All rights reserved. J Thorac Dis\n\t\t\n\t\t\t12\n\t\t\t12\n\t\t\t\n\t\t\t2020",
+      "Robotic Bronchoscopy for Peripheral Pulmonary Lesions: A Multicenter Pilot and Feasibility Study\n\t\t\n\t\t\tACChen\n\t\t\n\t\t\n\t\t\tNJPastis\n\t\t\n\t\t\n\t\t\tJr\n\t\t\n\t\t\n\t\t\tAKMahajan\n\t\t\n\t\t10.1016/j.chest.2020.08.2047\n\t\n\t\n\t\tChest\n\t\t\n\t\t\t2020\n\t\t\n\t\n\tEpub ahead of print",
+      "First Human Use of a New Robotic-Assisted Fiber Optic Sensing Navigation System for Small Peripheral Pulmonary Nodules\n\t\t\n\t\t\tDikFielding\n\t\t\n\t\t\n\t\t\tFBashirzadeh\n\t\t\n\t\t\n\t\t\tJHSon\n\t\t\n\t\n\t\n\t\tRespiration\n\t\t\n\t\t\t98\n\t\t\t\n\t\t\t2019",
+      "Multiplanar 3D fluoroscopy redefines tool-lesion relationship during roboticassisted bronchoscopy\n\t\t\n\t\t\tOKalchiem-Dekel\n\t\t\n\t\t\n\t\t\tPFuentes\n\t\t\n\t\t\n\t\t\tMJBott\n\t\t\n\t\n\t\n\t\tRespirology\n\t\t\n\t\t\t26\n\t\t\t\n\t\t\t2021"
+    ],
+    "references_struct": [
+      {
+        "title": "Establishing the diagnosis of lung cancer diagnosis and management of lung cancer, 3rd ed. American College of Chest Physicians evidence-based clinical practice guidelines",
+        "journal": "Chest",
+        "year": "2013",
+        "volume": "143",
+        "issue": null,
+        "pages": null,
+        "doi": null,
+        "pmid": null,
+        "authors": [
+          "Rivera MP",
+          "Mehta AC",
+          "Wahidi MM"
+        ],
+        "first_author_last": "Rivera"
+      },
+      {
+        "title": "Radial probe endobronchial ultrasound for the diagnosis of peripheral lung cancer: systematic review and meta-analysis",
+        "journal": "Eur Respir J",
+        "year": "2011",
+        "volume": "37",
+        "issue": null,
+        "pages": null,
+        "doi": null,
+        "pmid": null,
+        "authors": [
+          "Steinfort DP",
+          "Khor YH",
+          "Manser RL"
+        ],
+        "first_author_last": "Steinfort"
+      },
+      {
+        "title": "State-of-the-Art Modalities for Peripheral Lung Nodule Biopsy",
+        "journal": "Clin Chest Med",
+        "year": "2018",
+        "volume": "39",
+        "issue": null,
+        "pages": null,
+        "doi": null,
+        "pmid": null,
+        "authors": [
+          "Kalanjeri S",
+          "Holladay RC",
+          "Gildea TR"
+        ],
+        "first_author_last": "Kalanjeri"
+      },
+      {
+        "title": "American College of Chest Physicians. Initial diagnosis of lung cancer: ACCP evidence-based clinical practice guidelines (2nd edition)",
+        "journal": "Chest",
+        "year": "2007",
+        "volume": "132",
+        "issue": null,
+        "pages": null,
+        "doi": null,
+        "pmid": null,
+        "authors": [
+          "Rivera MP",
+          "Mehta AC"
+        ],
+        "first_author_last": "Rivera"
+      },
+      {
+        "title": "The solitary pulmonary nodule",
+        "journal": "Radiology",
+        "year": "2006",
+        "volume": "239",
+        "issue": null,
+        "pages": null,
+        "doi": null,
+        "pmid": null,
+        "authors": [
+          "Ht W"
+        ],
+        "first_author_last": "Ht"
+      },
+      {
+        "title": "Evidence for the treatment of patients with pulmonary nodules: when is it lung cancer? ACCP evidence-based clinical practice guidelines (2nd edition)",
+        "journal": "Chest",
+        "year": "2007",
+        "volume": "132",
+        "issue": null,
+        "pages": null,
+        "doi": null,
+        "pmid": null,
+        "authors": [
+          "Wahidi MM",
+          "Govert JA",
+          "Goudar RK"
+        ],
+        "first_author_last": "Wahidi"
+      },
+      {
+        "title": "Complications and Yield of Computed Tomography-Guided Transthoracic Core Needle Biopsy of Lung Nodules at a High-Volume Academic Center in an Endemic Coccidioidomycosis Area",
+        "journal": "Lung",
+        "year": "2016",
+        "volume": "194",
+        "issue": null,
+        "pages": null,
+        "doi": null,
+        "pmid": null,
+        "authors": [
+          "Sachdeva M",
+          "Ronaghi R",
+          "Mills PK"
+        ],
+        "first_author_last": "Sachdeva"
+      },
+      {
+        "title": "Reduced lung-cancer mortality with low-dose computed tomographic screening",
+        "journal": "N Engl J Med",
+        "year": "2011",
+        "volume": "365",
+        "issue": null,
+        "pages": null,
+        "doi": null,
+        "pmid": null,
+        "authors": [
+          "Lung N",
+          "Trial Research S",
+          "Team",
+          "Aberle DR",
+          "Adams AM"
+        ],
+        "first_author_last": "Lung"
+      },
+      {
+        "title": "Evaluation of individuals with pulmonary nodules: when is it lung cancer? Diagnosis and management of lung cancer, 3rd ed: American College of Chest Physicians evidence-based clinical practice guidelines",
+        "journal": "Chest",
+        "year": "2013",
+        "volume": "143",
+        "issue": null,
+        "pages": null,
+        "doi": null,
+        "pmid": null,
+        "authors": [
+          "Gould MK",
+          "Donington J",
+          "Lynch WR"
+        ],
+        "first_author_last": "Gould"
+      },
+      {
+        "title": "NCCN Guidelines Insights: Non-Small Cell Lung Cancer, Version 5",
+        "journal": "J Natl Compr Canc Netw",
+        "year": "2018",
+        "volume": "16",
+        "issue": null,
+        "pages": null,
+        "doi": null,
+        "pmid": null,
+        "authors": [
+          "Ettinger DS",
+          "Aisner DL",
+          "Wood DE"
+        ],
+        "first_author_last": "Ettinger"
+      },
+      {
+        "title": "Metaanalysis of guided bronchoscopy for the evaluation of the pulmonary nodule",
+        "journal": "Chest",
+        "year": "2012",
+        "volume": "142",
+        "issue": null,
+        "pages": null,
+        "doi": null,
+        "pmid": null,
+        "authors": [
+          "Memoli W",
+          "Nietert JS",
+          "Silvestri PJ",
+          "GA"
+        ],
+        "first_author_last": "Memoli"
+      },
+      {
+        "title": "Diagnostic yield and safety of electromagnetic navigation bronchoscopy for lung nodules: a systematic review and meta-analysis",
+        "journal": "Respiration",
+        "year": "2014",
+        "volume": "87",
+        "issue": null,
+        "pages": null,
+        "doi": null,
+        "pmid": null,
+        "authors": [
+          "Gex G",
+          "Pralong JA",
+          "Combescure C"
+        ],
+        "first_author_last": "Gex"
+      },
+      {
+        "title": "Meta-analysis of the diagnostic yield and safety of electromagnetic navigation bronchoscopy for lung nodules",
+        "journal": "J Thorac Dis",
+        "year": "2015",
+        "volume": "7",
+        "issue": null,
+        "pages": null,
+        "doi": null,
+        "pmid": null,
+        "authors": [
+          "Zhang W",
+          "Chen S",
+          "Dong X"
+        ],
+        "first_author_last": "Zhang"
+      },
+      {
+        "title": "Multimodality bronchoscopic diagnosis of peripheral lung lesions: a randomized controlled trial",
+        "journal": "Am J Respir Crit Care Med",
+        "year": "2007",
+        "volume": "176",
+        "issue": null,
+        "pages": null,
+        "doi": null,
+        "pmid": null,
+        "authors": [
+          "Eberhardt R",
+          "Anantham D",
+          "Ernst A"
+        ],
+        "first_author_last": "Eberhardt"
+      },
+      {
+        "title": "Electromagnetic Navigation Bronchoscopy for Peripheral Pulmonary Lesions: One-Year Results of the Prospective, Multicenter NAVIGATE Study",
+        "journal": "J Thorac Oncol",
+        "year": "2019",
+        "volume": "14",
+        "issue": null,
+        "pages": null,
+        "doi": null,
+        "pmid": null,
+        "authors": [
+          "Folch EE",
+          "Pritchett MA",
+          "Nead MA"
+        ],
+        "first_author_last": "Folch"
+      },
+      {
+        "title": "Advances in interventional diagnostic bronchoscopy for peripheral pulmonary lesions",
+        "journal": "Expert Rev Respir Med",
+        "year": "2019",
+        "volume": "13",
+        "issue": null,
+        "pages": null,
+        "doi": null,
+        "pmid": null,
+        "authors": [
+          "Ishiwata T",
+          "Gregor A",
+          "Inage T"
+        ],
+        "first_author_last": "Ishiwata"
+      },
+      {
+        "title": "Bronchoscopic Transparenchymal Nodule Access: Feasibility and Safety in an Endoscopic Unit",
+        "journal": "Respiration",
+        "year": "2016",
+        "volume": "91",
+        "issue": null,
+        "pages": null,
+        "doi": null,
+        "pmid": null,
+        "authors": [
+          "Harzheim D",
+          "Sterman D",
+          "Shah PL"
+        ],
+        "first_author_last": "Harzheim"
+      },
+      {
+        "title": "Bronchoscopic transparenchymal nodule access (BTPNA): first in human trial of a novel procedure for sampling solitary pulmonary nodules",
+        "journal": "Thorax",
+        "year": "2015",
+        "volume": "70",
+        "issue": null,
+        "pages": null,
+        "doi": null,
+        "pmid": null,
+        "authors": [
+          "Herth FJ",
+          "Eberhardt R",
+          "Sterman D"
+        ],
+        "first_author_last": "Herth"
+      },
+      {
+        "title": "Improved diagnostic yield for lung nodules with digital tomosynthesiscorrected navigational bronchoscopy: Initial experience with a novel adjunct",
+        "journal": "Respirology",
+        "year": "2020",
+        "volume": "25",
+        "issue": null,
+        "pages": null,
+        "doi": null,
+        "pmid": null,
+        "authors": [
+          "Aboudara M",
+          "Roller L",
+          "Rickman O"
+        ],
+        "first_author_last": "Aboudara"
+      },
+      {
+        "title": "Use of augmented fluoroscopic imaging during diagnostic bronchoscopy",
+        "journal": "Future Oncol",
+        "year": "2018",
+        "volume": "14",
+        "issue": null,
+        "pages": null,
+        "doi": null,
+        "pmid": null,
+        "authors": [
+          "Hogarth DK"
+        ],
+        "first_author_last": "Hogarth"
+      },
+      {
+        "title": "Augmented Fluoroscopy: A New and Novel Navigation Platform for Peripheral Bronchoscopy",
+        "journal": "J Bronchology Interv Pulmonol",
+        "year": "2020",
+        "volume": null,
+        "issue": null,
+        "pages": null,
+        "doi": "10.1097/LBR.0000000000000722",
+        "pmid": null,
+        "authors": [
+          "Cicenia J",
+          "Bhadra K",
+          "Sethi S"
+        ],
+        "first_author_last": "Cicenia"
+      },
+      {
+        "title": "Cone-Beam CT With Augmented Fluoroscopy Combined With Electromagnetic Navigation Bronchoscopy for Biopsy of Pulmonary Nodules",
+        "journal": "J Bronchology Interv Pulmonol",
+        "year": "2018",
+        "volume": "25",
+        "issue": null,
+        "pages": null,
+        "doi": null,
+        "pmid": null,
+        "authors": [
+          "Pritchett MA",
+          "Schampaert S",
+          "De Groot J"
+        ],
+        "first_author_last": "Pritchett"
+      },
+      {
+        "title": "Cone beam computed tomography-guided thin/ultrathin bronchoscopy for diagnosis of peripheral lung nodules: a prospective pilot study",
+        "journal": "J Thorac Dis",
+        "year": "2018",
+        "volume": "10",
+        "issue": null,
+        "pages": null,
+        "doi": null,
+        "pmid": null,
+        "authors": [
+          "Casal RF",
+          "Sarkiss M",
+          "Jones AK"
+        ],
+        "first_author_last": "Casal"
+      },
+      {
+        "title": "Robotic Endoscopic Airway Challenge: REACH Assessment",
+        "journal": "Ann Thorac Surg",
+        "year": "2018",
+        "volume": "106",
+        "issue": null,
+        "pages": null,
+        "doi": null,
+        "pmid": null,
+        "authors": [
+          "Chen AC",
+          "Gillespie CT"
+        ],
+        "first_author_last": "Chen"
+      },
+      {
+        "title": "Robot-assisted bronchoscopy for pulmonary lesion diagnosis: results from the initial multicenter experience",
+        "journal": "BMC Pulm Med © Journal of Thoracic Disease. All rights reserved. J Thorac Dis",
+        "year": "2020",
+        "volume": "12",
+        "issue": "12",
+        "pages": null,
+        "doi": "10.21037/jtd-2020-abpd-0032019;19:243",
+        "pmid": null,
+        "authors": [
+          "Chaddha U",
+          "Kovacs SP",
+          "Manley C"
+        ],
+        "first_author_last": "Chaddha"
+      },
+      {
+        "title": "Robotic Bronchoscopy for Peripheral Pulmonary Lesions: A Multicenter Pilot and Feasibility Study",
+        "journal": "Chest",
+        "year": "2020",
+        "volume": null,
+        "issue": null,
+        "pages": null,
+        "doi": "10.1016/j.chest.2020.08.2047",
+        "pmid": null,
+        "authors": [
+          "Chen AC",
+          "Pastis NJ",
+          "Jr",
+          "Mahajan AK"
+        ],
+        "first_author_last": "Chen"
+      },
+      {
+        "title": "First Human Use of a New Robotic-Assisted Fiber Optic Sensing Navigation System for Small Peripheral Pulmonary Nodules",
+        "journal": "Respiration",
+        "year": "2019",
+        "volume": "98",
+        "issue": null,
+        "pages": null,
+        "doi": null,
+        "pmid": null,
+        "authors": [
+          "Fielding D",
+          "Bashirzadeh F",
+          "Son JH"
+        ],
+        "first_author_last": "Fielding"
+      },
+      {
+        "title": "Multiplanar 3D fluoroscopy redefines tool-lesion relationship during roboticassisted bronchoscopy",
+        "journal": "Respirology",
+        "year": "2021",
+        "volume": "26",
+        "issue": null,
+        "pages": null,
+        "doi": null,
+        "pmid": null,
+        "authors": [
+          "Kalchiem-Dekel O",
+          "Fuentes P",
+          "Bott MJ"
+        ],
+        "first_author_last": "Kalchiem-Dekel"
+      }
+    ],
+    "references_enriched": [
+      {
+        "title": "Establishing the diagnosis of lung cancer diagnosis and management of lung cancer, 3rd ed. American College of Chest Physicians evidence-based clinical practice guidelines"
+      },
+      {
+        "title": "Chest"
+      },
+      {
+        "title": "Radial probe endobronchial ultrasound for the diagnosis of peripheral lung cancer: systematic review and meta-analysis",
+        "year": 2013
+      },
+      {
+        "title": "Eur Respir J",
+        "year": 2011
+      },
+      {
+        "title": "State-of-the-Art Modalities for Peripheral Lung Nodule Biopsy",
+        "year": 2011
+      },
+      {
+        "title": "Clin Chest Med",
+        "year": 2018
+      },
+      {
+        "title": "American College of Chest Physicians. Initial diagnosis of lung cancer: ACCP evidence-based clinical practice guidelines (2nd edition)",
+        "year": 2018
+      },
+      {
+        "title": "Chest"
+      },
+      {
+        "title": "The solitary pulmonary nodule",
+        "year": 2007
+      },
+      {
+        "title": "Radiology",
+        "year": 2007
+      },
+      {
+        "title": "Evidence for the treatment of patients with pulmonary nodules: when is it lung cancer? ACCP evidence-based clinical practice guidelines (2nd edition)",
+        "year": 2006
+      },
+      {
+        "title": "Chest"
+      },
+      {
+        "title": "Complications and Yield of Computed Tomography-Guided Transthoracic Core Needle Biopsy of Lung Nodules at a High-Volume Academic Center in an Endemic Coccidioidomycosis Area",
+        "year": 2007
+      },
+      {
+        "title": "Lung",
+        "year": 2011
+      },
+      {
+        "title": "Reduced lung-cancer mortality with low-dose computed tomographic screening",
+        "year": 2016
+      },
+      {
+        "title": "N Engl J Med",
+        "year": 2011
+      },
+      {
+        "title": "Evaluation of individuals with pulmonary nodules: when is it lung cancer? Diagnosis and management of lung cancer, 3rd ed: American College of Chest Physicians evidence-based clinical practice guidelines",
+        "year": 2011
+      },
+      {
+        "title": "Chest"
+      },
+      {
+        "title": "NCCN Guidelines Insights: Non-Small Cell Lung Cancer, Version 5",
+        "year": 2013
+      },
+      {
+        "title": "J Natl Compr Canc Netw"
+      },
+      {
+        "title": "Metaanalysis of guided bronchoscopy for the evaluation of the pulmonary nodule"
+      },
+      {
+        "title": "Chest"
+      },
+      {
+        "title": "Diagnostic yield and safety of electromagnetic navigation bronchoscopy for lung nodules: a systematic review and meta-analysis",
+        "year": 2012
+      },
+      {
+        "title": "Respiration",
+        "year": 2014
+      },
+      {
+        "title": "Meta-analysis of the diagnostic yield and safety of electromagnetic navigation bronchoscopy for lung nodules",
+        "year": 2014
+      },
+      {
+        "title": "J Thorac Dis",
+        "year": 2015
+      },
+      {
+        "title": "Multimodality bronchoscopic diagnosis of peripheral lung lesions: a randomized controlled trial",
+        "year": 2015
+      },
+      {
+        "title": "Am J Respir Crit Care Med",
+        "year": 2007
+      },
+      {
+        "title": "Electromagnetic Navigation Bronchoscopy for Peripheral Pulmonary Lesions: One-Year Results of the Prospective, Multicenter NAVIGATE Study",
+        "year": 2007
+      },
+      {
+        "title": "J Thorac Oncol",
+        "year": 2019
+      },
+      {
+        "title": "Advances in interventional diagnostic bronchoscopy for peripheral pulmonary lesions",
+        "year": 2019
+      },
+      {
+        "title": "Expert Rev Respir Med",
+        "year": 2019
+      },
+      {
+        "title": "Bronchoscopic Transparenchymal Nodule Access: Feasibility and Safety in an Endoscopic Unit",
+        "year": 2019
+      },
+      {
+        "title": "Respiration",
+        "year": 2014
+      },
+      {
+        "title": "Bronchoscopic transparenchymal nodule access (BTPNA): first in human trial of a novel procedure for sampling solitary pulmonary nodules",
+        "year": 2016
+      },
+      {
+        "title": "Thorax",
+        "year": 2015
+      },
+      {
+        "title": "Improved diagnostic yield for lung nodules with digital tomosynthesiscorrected navigational bronchoscopy: Initial experience with a novel adjunct",
+        "year": 2015
+      },
+      {
+        "title": "Respirology",
+        "year": 2020
+      },
+      {
+        "title": "Use of augmented fluoroscopic imaging during diagnostic bronchoscopy",
+        "year": 2020
+      },
+      {
+        "title": "Future Oncol",
+        "year": 2020
+      },
+      {
+        "title": "Augmented Fluoroscopy: A New and Novel Navigation Platform for Peripheral Bronchoscopy",
+        "year": 2018
+      },
+      {
+        "title": "J Bronchology Interv Pulmonol",
+        "year": 2020
+      },
+      {
+        "title": "Cone-Beam CT With Augmented Fluoroscopy Combined With Electromagnetic Navigation Bronchoscopy for Biopsy of Pulmonary Nodules",
+        "year": 2020
+      },
+      {
+        "title": "J Bronchology Interv Pulmonol",
+        "year": 2020
+      },
+      {
+        "title": "Cone beam computed tomography-guided thin/ultrathin bronchoscopy for diagnosis of peripheral lung nodules: a prospective pilot study",
+        "year": 2018
+      },
+      {
+        "title": "J Thorac Dis",
+        "year": 2015
+      },
+      {
+        "title": "Robotic Endoscopic Airway Challenge: REACH Assessment",
+        "year": 2018
+      },
+      {
+        "title": "Ann Thorac Surg",
+        "year": 2018
+      },
+      {
+        "title": "Robot-assisted bronchoscopy for pulmonary lesion diagnosis: results from the initial multicenter experience",
+        "year": 2018
+      },
+      {
+        "title": "BMC Pulm Med © Journal of Thoracic Disease. All rights reserved. J Thorac Dis",
+        "year": 2020
+      },
+      {
+        "title": "Robotic Bronchoscopy for Peripheral Pulmonary Lesions: A Multicenter Pilot and Feasibility Study",
+        "year": 2020
+      },
+      {
+        "title": "Chest"
+      },
+      {
+        "title": "First Human Use of a New Robotic-Assisted Fiber Optic Sensing Navigation System for Small Peripheral Pulmonary Nodules",
+        "year": 2020
+      },
+      {
+        "title": "Respiration",
+        "year": 2014
+      },
+      {
+        "title": "Multiplanar 3D fluoroscopy redefines tool-lesion relationship during roboticassisted bronchoscopy",
+        "year": 2019
+      },
+      {
+        "title": "Respirology",
+        "year": 2020
+      }
+    ],
+    "references_source": "grobid_fallback",
+    "year_norm": "2020",
+    "doi": "10.21037/jtd-2020-abpd-003",
+    "journal": "Journal of Thoracic Disease",
+    "abstract": "With recommendations for low dose CT scan for lung cancer screening, there has been an increase in the finding of lung nodules and peripheral pulmonary lesions (PPLs). Additionally, when there is concern for malignancy, guidelines have recommended performing the least invasive evaluation. Conventional bronchoscopy diagnostic yields for PPLs have reportedly been quite low and prior electromagnetic navigation bronchoscopy (ENB) studies have reported variable yields. Navigation bronchoscopy in addition to endobronchial ultrasound allows a physician to evaluate peripheral lung lesions along with mediastinal and hilar lymph nodes for the diagnosis and staging of suspected malignancy in one procedure. More recent advances in navigational bronchoscopy including the use of augmented fluoroscopy (AF), cone beam CT, and robotic bronchoscopy have pushed the boundaries of capability in evaluating PPLs. These added bronchoscopic technologies have shown to improve diagnostic yield especially when modalities are used in combination. The ultimate goal of endoscopically localized ablative and therapeutic treatment for peripheral lung lesions will require a high level of physician confidence, accuracy, and precision. This article will review the innovative characteristics and data of some of the more recently available navigational bronchoscopy devices.",
+    "volume": "12",
+    "issue": "12",
+    "pages": "7683-7690",
+    "issn": "20721439, 20776624",
+    "url": "http://jtd.amegroups.com/article/view/47381/html",
+    "published": {
+      "print": null,
+      "online": "2020-12"
+    },
+    "journal_full": "Journal of Thoracic Disease"
+  },
+  "structure": {
+    "sections": [
+      {
+        "title": "Introduction",
+        "paragraphs": [
+          {
+            "text": "Peripheral pulmonary lesions (PPLs) are defined as focal radiographic opacities that are not detectable beyond the visual segmental bronchi by flexible bronchoscopy (1,2). These lesions are typically located in the outer third of the lung. A solitary pulmonary nodule (SPN) is a welldefined radiographic opacity up to 30 mm in diameter surrounded by unaltered aerated lung that can be found anywhere in the lung parenchyma (3-5). These lesions could be solid, subsolid, or ground glass in quality. A"
+          },
+          {
+            "text": "PPL or SPN could be the first indicator of a malignancy. Therefore, accuracy in diagnostic methods is required for further investigation. Over the years, there have been several tests that have been incorporated as part of the evaluation for PPLs and lung nodules. In addition to biopsy techniques, adjunct methods include pre-test calculators, advanced imaging, and more recently developed proteomic and genomic testing. Historically, lung nodules have been found to be particularly challenging to evaluate by chest physicians due to the inability to directly visualize the nodule via bronchoscopy. Conventional bronchoscopy"
+          }
+        ],
+        "category": "introduction"
+      },
+      {
+        "title": "Improving diagnostic yield of navigational bronchoscopy for peripheral pulmonary lesions: a review of advancing technology",
+        "paragraphs": [
+          {
+            "text": "Ajay Wagh, Elliot Ho, Septimiu Murgu, Douglas Kyle Hogarth"
+          },
+          {
+            "text": "Section of Pulmonary and Critical Care Medicine/Interventional Pulmonology, Department of Medicine, The University of Chicago, Chicago, IL, USA"
+          },
+          {
+            "text": "Contributions: (I)  Conception and design: A Wagh, DK Hogarth; (II) Administrative support: None; (III) Provision of study materials or patients: None; (IV) Collection and assembly of data: All authors; (V) Data analysis and interpretation: All authors; (VI) Manuscript writing: All authors; (VII) Final approval of manuscript: All authors."
+          },
+          {
+            "text": "Correspondence to: Ajay Wagh. Division of Interventional Pulmonology, The University of Chicago, 5841 S Maryland Ave, Chicago, IL 60637, USA. Email: awagh@medicine.bsd.uchicago.edu."
+          },
+          {
+            "text": "Abstract: With recommendations for low dose CT scan for lung cancer screening, there has been an increase in the finding of lung nodules and peripheral pulmonary lesions (PPLs). Additionally, when there is concern for malignancy, guidelines have recommended performing the least invasive evaluation. Conventional bronchoscopy diagnostic yields for PPLs have reportedly been quite low and prior electromagnetic navigation bronchoscopy (ENB) studies have reported variable yields. Navigation bronchoscopy in addition to endobronchial ultrasound allows a physician to evaluate peripheral lung lesions along with mediastinal and hilar lymph nodes for the diagnosis and staging of suspected malignancy in one procedure. More recent advances in navigational bronchoscopy including the use of augmented fluoroscopy (AF), cone beam CT, and robotic bronchoscopy have pushed the boundaries of capability in evaluating PPLs. These added bronchoscopic technologies have shown to improve diagnostic yield especially when modalities are used in combination. The ultimate goal of endoscopically localized ablative and therapeutic treatment for peripheral lung lesions will require a high level of physician confidence, accuracy, and precision. This article will review the innovative characteristics and data of some of the more recently available navigational bronchoscopy devices."
+          },
+          {
+            "text": "Keywords: Bronchoscopy; electromagnetic navigation bronchoscopy (ENB); augmented fluoroscopy (AF); cone beam CT; robotic bronchoscopy; peripheral pulmonary lesions (PPLs); lung nodules"
+          },
+          {
+            "text": "has demonstrated a rather low sensitivity (14-63%) for diagnosing malignant lesions and even lower for those that are less than 20 mm in diameter (6,7). On the other hand, a prior study of CT guided transthoracic needle aspiration for lung cancer demonstrated a sensitivity of 93% though with a complication rate of 25%. Incidence of pneumothorax, however, was 24% with 7% of those patients requiring a chest tube (7)."
+          },
+          {
+            "text": "The results of the National Lung Screening T rial (NLST) that enrolled over 53,000 patients determined that there is a reduction of mortality of 15-20% by the way of utilizing low dose lung CT scanning as compared with standard chest X-ray. During this investigation, lung nodules were found in 39% of the participants of which 72% required further investigation with a high risk of malignancy found in those with a nodule diameter of more than 20 mm (8). This study has since resulted in a United States Preventive Services Task Force (USPSTF) grade B recommendation for the use of CT screening for patients found to be at high risk. This includes patients aged 55-75 who have a smoking history of at least 30 pack-years, including those who have quit within the past 15 years. Additionally, follow up recommendations by the American College of Chest Physicians (ACCP) and the National Comprehensive Cancer Network (NCCN) suggest using the least invasive modality to obtain an adequate amount of tissue to perform molecular and PD-L1 testing in the evaluation of lung cancer (9,10). In this regard, there exists the opportunity to provide this information in one minimally invasive procedure, supporting the continued pursuit of developing technology to improve navigational bronchoscopy diagnostic yield."
+          },
+          {
+            "text": "There are several technical approaches available to chest physicians that can assist in accessing the periphery of the lung by the way of bronchoscopy. These techniques include the use of thin/ultrathin bronchoscopes, fluoroscopy, radial  probe  endobronchial  ultrasound  (r-Endobronchial ultrasound (EBUS)), virtual bronchoscopy, and electromagnetic navigation bronchoscopy (ENB). More recently, the advent of newer techniques including augmented fluoroscopy (AF), cone beam CT, and robotic assisted bronchoscopy (RAB) are being utilized to navigate to PPLs. These advancements in  navigational bronchoscopy have empowered chest physicians to be able to access the periphery of the lung with more confidence in an effort to better evaluate and diagnose PPLs in a safe manner with increasing accuracy. The purpose of this review article is to describe the more recent advances in navigational bronchoscopy technology. We present the following article in accordance with the"
+          },
+          {
+            "text": "Narrative Review reporting checklist (available at http:// dx.doi.org/10.21037/jtd-2020-abpd-003)."
+          }
+        ],
+        "category": "other"
+      },
+      {
+        "title": "ENB",
+        "paragraphs": [
+          {
+            "text": "ENB utilizes a pre-procedural CT scan of the chest to build a virtual bronchoscopic image and pathway to the peripheral lung lesion. In this regard, this technology does not serve as 'real-time' guidance during bronchoscopy. After planning the procedure using proprietary software, the main platform is used to generate an electromagnetic f i e l d   a r o u n d   t h e   p a t i e n t 's   c h e s t .   T h i s   e n a b l e s synchronization of a probe or sensor to the CT by way of the system platform. The physician is then able to track the synchronized probe or sensor while navigating the bronchoscope through the airways. In addition to biopsy to obtain diagnostic material, the system can also be used to place fiducial markers for radiation treatment and dye marking for surgical localization. There are currently two commercially available systems that utilize this technology: superDimension (Medtronic, Plymouth, MN, USA) and the SPiNDrive System (Veran Medical Technologies Inc., St. Louis, MO, USA). The superDimension system uses an inspiratory CT chest scan for pre-procedural planning. After the planning phase, a probe that is linked to the CT image by way of an electromagnetic field  is  inserted  into  an  extended  working  channel (EWC) through a therapeutic bronchoscope ( Figure 1 ). The working channel is then able to be navigated to the PPL. The SPiNDrive system pre-procedural planning uses both an inspiratory and expiratory CT chest to account for nodule movement during the respiratory cycle. This system utilizes a sensor at the tip of the biopsy/tissue collection tool that is then tracked within the electromagnetic field during the procedure. This tool is navigated through the working channel of a bronchoscope to the peripheral target.",
+            "cross_refs": [
+              {
+                "type": "figure",
+                "index": 0,
+                "text": "Figure 1",
+                "span": [
+                  1301,
+                  1309
+                ]
+              }
+            ]
+          },
+          {
+            "text": "The diagnostic yield for ENB has been shown to be quite variable based on numerous reported studies with ranges reported from 33-88%. Three recent meta-analyses have pooled diagnostic yields of 65-70% (11-13). A study by Eberhardt and colleagues reported that the combined use of r-Endobronchial ultrasound (EBUS) along with ENB improved diagnostic yield of up to 88% as compared with either technology alone (14)."
+          },
+          {
+            "text": "The NAVIGATE study was a prospective, multicenter, cohort study that evaluated the use of the superDimension navigation system from 29 academic and community sites from April 2015 to August 2016. In this study, of 1,157 patients undergoing ENB-guided biopsy with a median"
+          },
+          {
+            "text": "lesion size of 20 mm, 94% had navigation completed and tissue obtained. The 12-month diagnostic yield was 73% with samples demonstrating malignancy comprising 44%. This study reported sensitivity of malignancy of 69%, specificity of 100%, positive predictive value of 100%, and negative predictive value of 56% (15)."
+          }
+        ],
+        "category": "other"
+      },
+      {
+        "title": "Virtual bronchoscopy",
+        "paragraphs": [
+          {
+            "text": "Another technique, bronchoscopic transparenchymal nodule access (BTPNA), utilizes virtual bronchoscopy to create a pathway from the central airways to a PPL based on pre-procedural CT. The Archimedes System by Broncus Medical (San Jose, CA, USA) allows for biopsy without an airway leading to the peripheral nodule. The system, that accounts for vasculature, allows for the creation of pathway to a PPL by perforating a bronchus (16). A small study of 6 patients using this technology demonstrated a  diagnostic yield of 83% with 2 patients developing pneumothorax (only 1 requiring chest tube) (17). Another study by Herth and colleagues reported a diagnostic yield of  100% (in 12 patients) with the BTPNA procedure successfully performed in 83%. There were no significant"
+          },
+          {
+            "text": "intraprocedural adverse events (18). The recently completed Evaluation of the Archimedes System for Transparenchymal Nodule Access 2 (EAST-2) study is awaiting publication, and was a prospective evaluation of the system in 106 patients with a total of 125 nodules."
+          },
+          {
+            "text": "The concept that the true location of a PPL is not consistent with the navigated target is known as 'CT-body divergence.' This likely occurs due to differences in lung volume at the time that the planning CT scan is performed compared to when the actual procedure is performed while utilizing general anesthesia, positive pressure ventilation, and probable development of atelectasis. Hence, in order to  combat this effect, there has been development of technology that improves real-time fluoroscopic guidance."
+          },
+          {
+            "text": "Fluoroscopic navigation is one of the first, though recently added feature of the superDimension navigational system. This technology utilizes tomosynthesis in order to offer local registration near the target peripheral lesion. Tomosynthesis refers to a sweep arc performed around a patient's chest with continuous image acquisition in order to"
+          },
+          {
+            "text": "obtain multiple projections by using a conventional C-arm fluoroscopy machine. This improves real-time localization of the navigation probe which may be altered due to CTbody divergence. A retrospective study by Aboudara and colleagues demonstrated a 25% absolute increase in diagnostic yield (79%) compared with using standard navigation alone (54%) (19)."
+          },
+          {
+            "text": "LUNGVISION™ (Body Vision Medical Ltd, Ramat Ha Sharon, Israel) is another augmented fluoroscopic navigation technology that enables enhanced fluoroscopic visualization of airways and target lesions by using preprocedural CT scanning and fluoroscopic registration. The platform integrates images from CT, fluoroscopy, and radial probe ultrasound during the procedure. This technology overlays a pathway to the lesion on the standard fluoroscopic screen. Additionally, the system combines catheter tracking with image fusion, utilizing artificial intelligence to constantly adjust for CT-body divergence ( Figure 2 ).  The system also allows for the use of common endoscopic biopsy tools to biopsy a lesion in real time (20).",
+            "cross_refs": [
+              {
+                "type": "figure",
+                "index": 1,
+                "text": "Figure 2",
+                "span": [
+                  604,
+                  612
+                ]
+              }
+            ]
+          },
+          {
+            "text": "A multicenter study of 55 patients by Cicenia and colleagues demonstrated nodule localization success rate at 93% with an overall diagnostic yield of 75.4% based on immediate rapid on-site pathology report (21)."
+          }
+        ],
+        "category": "other"
+      },
+      {
+        "title": "Cone beam computed tomography (CBCT)",
+        "paragraphs": [
+          {
+            "text": "Cone beam CT is a technology that utilizes a compact CT system that has a moving C-arm that can be used during bronchoscopy to provide real time feedback of the bronchoscope or tool location. The C-arm is swept in an arc around the patient's chest and obtains volumetric data during the bronchoscopy procedure. The imaging can then be reviewed during the procedure to assess bronchoscope, tool, and target locations and help the physician determine if  adjustments are required to reach the target lesion. A prospective study including combination technologies utilizing a thin bronchoscope, CBCT, and radial probe Endobronchial ultrasound (EBUS) by Pritchett and colleagues of 75 patients reported a diagnostic yield increase from 50% to 70% by being able"
+          },
+          {
+            "text": "B"
+          },
+          {
+            "text": "C"
+          },
+          {
+            "text": "D"
+          },
+          {
+            "text": "to redirect sampling tools to a lesion (22). In a study of 20 patients, Casal and colleagues demonstrated a 25% absolute increase in diagnostic yield of peripheral lung nodules along with an acceptable radiation dose of 11-29 mSv (23). However, a significant limitation of this technology is the current expensive cost, which may make it difficult to obtain for most pulmonologists at this time."
+          }
+        ],
+        "category": "other"
+      },
+      {
+        "title": "RAB",
+        "paragraphs": [
+          {
+            "text": "Recently released RAB platforms include the Monarch™ Platform by Auris Health © (Redwood City, CA, USA) as well as the Ion™ endoluminal robotic bronchoscopy platform by Intuitive Surgical © (Sunnyvale, CA, USA). These technologies remain in the early phase of utilization and exploration but are being rapidly employed by numerous centers across the globe. The robotic systems allow for bronchoscope stabilization as well as the ability to reach deep into the periphery of the lung. Chen and colleagues, in the REACH assessment, determined that the Monarch™ robotic bronchoscope was able to be driven out farther than a thin bronchoscope by an expert bronchoscopist (24). The Monarch™ system utilizes a handheld controller that allows the user to advance a bronchoscope and a sheath into the airway along with offering continuous visualization. The outer sheath wedges"
+          },
+          {
+            "text": "into place at the level of the segmental bronchi while the inner bronchoscope is further advanced to the target lesion ( Figure 3 ). In a recent multicenter trial published in 2019, Chaddha and colleagues performed successful navigation in 88.6% of the cases with an initial diagnostic yield of 69.1-77% using the Monarch™ system. The average size of the lesions was 25 mm with 71% of the lesions located in the peripheral third of the lung (25). In a follow-up study, Chen and colleagues recently completed a prospective, multicenter study of robotic bronchoscopy utilizing the Monarch™ system in patients with PPLs. Diagnostic yield was found to be 74.1%. Peripheral lesions with a concentric r-Endobronchial ultrasound (EBUS) view was found to be 80.6% as compared with 70% for those that were eccentric (26). Currently, there is an ongoing prospective, multicenter trial [Transbronchial Biopsy Assisted by Robot Guidance in the Evaluation of Tumors of the Lung (TARGET), ClinicalTrials.gov Identifier: NCT04182815] that is evaluating the yield, complication rate, among other outcome measures by the use of the Monarch™ platform.",
+            "cross_refs": [
+              {
+                "type": "figure",
+                "index": 2,
+                "text": "Figure 3",
+                "span": [
+                  121,
+                  129
+                ]
+              }
+            ]
+          },
+          {
+            "text": "The Ion™ platform utilizes a trackball and wheel controller  which  advances  the  bronchoscope  into the periphery of the lung. The outer diameter of the bronchoscope is 3.5 mm with a 2.0-mm working channel. This system requires that the optic gets removed once the target is reached so that tools can be advanced through the"
+          },
+          {
+            "text": "remaining sheath. Proprietary shape-sensing technology offers real time feedback. A study performed by Fielding and colleagues utilized the system in 30 patients with peripheral nodules that had a mean diameter of 12.5 mm and obtained a diagnostic yield of 83% (27). Currently, a prospective evaluation of the clinical utility of the Ion™ Endoluminal System (PRECIsE) will be completed in December 2020 (ClinicalTrials.gov Identifier: NCT03893539)."
+          },
+          {
+            "text": "Kalchiem-Dekel and colleagues published their use of multiplanar 3D fluoroscopy use along with r-Endobronchial ultrasound (EBUS) during RAB using the Ion platform. In this small study of 10 patients, r-Endobronchial ultrasound (EBUS) was used to identify whether targets were concentric, eccentric, or no view. Intraoperative 3D fluoroscopy spin was performed using the Cios-Spin mobile 3D C-arm. The robotic catheter was then redirected if needed with biopsies that followed. T ool-lesion relationship was classified. Navigation to target was successful in all cases with r-Endobronchial ultrasound (EBUS) concentric view in six cases and eccentric in four. Notably, 3 of 10 tool-lesion relationships were improved with the 3D fluoroscopy imaging. Diagnostic yield was found to be 90% independent of the lesion's size, location, or r-Endobronchial ultrasound (EBUS) image (28)."
+          }
+        ],
+        "category": "other"
+      },
+      {
+        "title": "Conclusions",
+        "paragraphs": [
+          {
+            "text": "Prior studies have reported that the diagnostic yield of navigational bronchoscopy is quite variable. However, when technologies are used in combination, studies have demonstrated an improvement in the diagnostic yield of PPLs. It should be noted, however, that such technology is  not  a  replacement  for  experience  and  thoughtful review of imaging and airway anatomy. As bronchoscopy advancements continue, the hope remains that the diagnostic yield will continue to incrementally increase. This improved diagnostic value and assurance of accurate localization will be imperative in pursuing locally ablative and therapeutic techniques for future treatments of PPLs. Additionally, the impact of alternative testing alongside the advanced navigational techniques will continue to shape the way physicians approach patients with lung lesions in the future. Cost, lesion accessibility, and operator experience should be considered when selecting the method of lung biopsy. These concerns should be discussed during a multidisciplinary conference in order to identify the best approach to achieve the highest diagnostic yield, quality of pathological data, and malignancy staging (if applicable) utilizing the least invasive methods."
+          }
+        ],
+        "category": "conclusion"
+      },
+      {
+        "title": "Acknowledgments",
+        "paragraphs": [
+          {
+            "text": "Funding : None."
+          }
+        ],
+        "category": "other"
+      },
+      {
+        "title": "Footnote",
+        "paragraphs": [
+          {
+            "text": "Provenance and Peer Review: This article was commissioned by the Guest Editor (Jiayuan Sun) for the series 'Advance in  Bronchoscopy for Peripheral Pulmonary Diseases' published in Journal of Thoracic Disease .  The article has undergone external peer review."
+          },
+          {
+            "text": "Reporting Checklist: The authors have completed the Narrative Review reporting checklist. Available at http:// dx.doi.org/10.21037/jtd-2020-abpd-003"
+          },
+          {
+            "text": "Conflicts of Interest: All authors have completed the ICMJE uniform disclosure form (available at  http://dx.doi. org/10.21037/jtd-2020-abpd-003). The series 'Advance in Bronchoscopy for Peripheral Pulmonary Diseases' was commissioned by the editorial office without any funding or sponsorship. DKH reports personal fees from Auris and had equity in the company prior to their purchase. He received personal fees and stock options from Body Vision, personal fees and stock options from Noah Medical, personal fees from Johnson and Johnson, and personal fees from Broncus. SM is an educational consultant for Olympus, Boston Scientific, Pinnacle Biologics, Cook Medical and Johnson and Johnson. He has received grants from Medtronic and Pinnacle Biologics. All of these disclosures are outside the submitted work. AW and EH have nothing to declare. The authors have no other conflicts of interest to declare."
+          },
+          {
+            "text": "Ethical Statement: The authors are accountable for all aspects of the work in ensuring that questions related to the accuracy or integrity of any part of the work are appropriately investigated and resolved."
+          },
+          {
+            "text": "Open Access Statement: This  is  an  Open  Access article distributed in accordance with the Creative Commons Attribution-NonCommercial-NoDerivs 4.0 International License (CC BY-NC-ND 4.0), which permits the noncommercial replication and distribution of the article with the strict proviso that no changes or edits are made and the original work is properly cited (including links to both the formal publication through the relevant DOI and the license). See: https://creativecommons.org/licenses/by-nc-nd/4.0/."
+          }
+        ],
+        "category": "other"
+      },
+      {
+        "title": "References",
+        "paragraphs": [
+          {
+            "text": "1. Rivera MP, Mehta AC, Wahidi MM. Establishing the diagnosis of lung cancer diagnosis and management of lung cancer, 3rd ed. American College of Chest Physicians evidence-based clinical practice guidelines. Chest 2013;143:e142S-e165S"
+          },
+          {
+            "text": "2. Steinfort DP, Khor YH, Manser RL, et al. Radial probe endobronchial ultrasound for the diagnosis of peripheral lung cancer: systematic review and meta-analysis. Eur Respir J 2011;37:902-910."
+          },
+          {
+            "text": "3. Kalanjeri S, Holladay RC, Gildea TR. State-of-the-Art Modalities for Peripheral Lung Nodule Biopsy. Clin Chest Med 2018;39:125-38."
+          },
+          {
+            "text": "4. Rivera MP, Mehta AC; American College of Chest Physicians. Initial diagnosis of lung cancer: ACCP evidence-based clinical practice guidelines (2nd edition). Chest 2007;132:131S-148S."
+          },
+          {
+            "text": "5. Winer-Muram HT. The solitary pulmonary nodule. Radiology 2006;239:34-49."
+          },
+          {
+            "text": "6. Wahidi MM, Govert JA, Goudar RK, et al. Evidence for the treatment of patients with pulmonary nodules: when is it lung cancer? ACCP evidence-based clinical practice guidelines (2nd edition). Chest 2007;132:94S-107S."
+          },
+          {
+            "text": "7. Sachdeva M, Ronaghi R, Mills PK, et al. Complications and Yield of Computed T omography-Guided Transthoracic Core Needle Biopsy of Lung Nodules at a High-Volume Academic Center in an Endemic Coccidioidomycosis Area. Lung 2016;194:379-85."
+          },
+          {
+            "text": "8. National Lung Screening Trial Research T eam, Aberle DR, Adams AM, et al. Reduced lung-cancer mortality with low-dose computed tomographic screening. N Engl J Med 2011;365:395-409."
+          },
+          {
+            "text": "9. Gould MK, Donington J, Lynch WR, et al. Evaluation of individuals with pulmonary nodules: when is it lung cancer? Diagnosis and management of lung cancer, 3rd ed: American College of Chest Physicians evidence-based clinical practice guidelines. Chest 2013;143:e93Se120S."
+          },
+          {
+            "text": "10.  Ettinger DS, Aisner DL, Wood DE, et al. NCCN Guidelines Insights: Non-Small Cell Lung Cancer, Version 5.2018. J Natl Compr Canc Netw 2018;16:807-21."
+          },
+          {
+            "text": "11.  Wang Memoli JS, Nietert PJ, Silvestri GA. Metaanalysis of guided bronchoscopy for the evaluation of the pulmonary nodule. Chest 2012;142:385-93."
+          },
+          {
+            "text": "12.  Gex G, Pralong JA, Combescure C, et al. Diagnostic yield and safety of electromagnetic navigation bronchoscopy for lung nodules: a systematic review and meta-analysis. Respiration 2014;87:165-76."
+          },
+          {
+            "text": "13.  Zhang W, Chen S, Dong X, et al. Meta-analysis of the diagnostic yield and safety of electromagnetic navigation bronchoscopy for lung nodules. J Thorac Dis 2015;7:799-809."
+          },
+          {
+            "text": "14.  Eberhardt R, Anantham D, Ernst A, et al. Multimodality bronchoscopic diagnosis of peripheral lung lesions: a randomized controlled trial. Am J Respir Crit Care Med 2007;176:36-41."
+          },
+          {
+            "text": "15.  Folch EE, Pritchett MA, Nead MA, et al. Electromagnetic Navigation Bronchoscopy for Peripheral Pulmonary Lesions: One-Year Results of the Prospective, Multicenter NAVIGATE Study. J Thorac Oncol 2019;14:445-58."
+          },
+          {
+            "text": "16.  Ishiwata T , Gregor A, Inage T , et al. Advances in interventional diagnostic bronchoscopy for peripheral pulmonary lesions. Expert Rev Respir Med 2019;13:885-97."
+          },
+          {
+            "text": "17.  Harzheim D, Sterman D, Shah PL, et al. Bronchoscopic Transparenchymal Nodule Access: Feasibility and Safety in an Endoscopic Unit. Respiration 2016;91:302-6."
+          },
+          {
+            "text": "18.  Herth FJ, Eberhardt R, Sterman D, et al. Bronchoscopic transparenchymal nodule access (BTPNA): first in human trial of a novel procedure for sampling solitary pulmonary nodules. Thorax 2015;70:326-32."
+          },
+          {
+            "text": "19.  Aboudara M, Roller L, Rickman O, et al. Improved diagnostic yield for lung nodules with digital tomosynthesiscorrected navigational bronchoscopy: Initial experience with a novel adjunct. Respirology 2020;25:206-13."
+          },
+          {
+            "text": "20.  Hogarth DK. Use of augmented fluoroscopic imaging during diagnostic bronchoscopy. Future Oncol 2018;14:2247-52."
+          },
+          {
+            "text": "21.  Cicenia J, Bhadra K, Sethi S, et al. Augmented Fluoroscopy: A New and Novel Navigation Platform for Peripheral Bronchoscopy. J Bronchology Interv Pulmonol 2020. [Epub ahead of print]. doi: 10.1097/ LBR.0000000000000722."
+          },
+          {
+            "text": "22.  Pritchett MA, Schampaert S, de Groot JAH, et al. ConeBeam CT With Augmented Fluoroscopy Combined With Electromagnetic Navigation Bronchoscopy for Biopsy of Pulmonary Nodules. J Bronchology Interv Pulmonol 2018;25:274-82."
+          },
+          {
+            "text": "23.  Casal RF, Sarkiss M, Jones AK, et al. Cone beam computed tomography-guided thin/ultrathin bronchoscopy for diagnosis of peripheral lung nodules: a prospective pilot study. J Thorac Dis 2018;10:6950-9."
+          },
+          {
+            "text": "24.  Chen AC, Gillespie CT. Robotic Endoscopic Airway Challenge: REACH Assessment. Ann Thorac Surg 2018;106:293-97."
+          },
+          {
+            "text": "25.  Chaddha U, Kovacs SP, Manley C, et al. Robot-assisted bronchoscopy for pulmonary lesion diagnosis: results from the initial multicenter experience. BMC Pulm Med"
+          }
+        ],
+        "category": "other"
+      },
+      {
+        "title": "2019;19:243.",
+        "paragraphs": [
+          {
+            "text": "26.  Chen AC, Pastis NJ Jr, Mahajan AK, et al. Robotic Bronchoscopy for Peripheral Pulmonary Lesions: A Multicenter Pilot and Feasibility Study. Chest 2020. [Epub ahead of print]. doi: 10.1016/j.chest.2020.08.2047."
+          },
+          {
+            "text": "27.  Fielding DIK, Bashirzadeh F, Son JH, et al. First Human"
+          },
+          {
+            "text": "Use of a New Robotic-Assisted Fiber Optic Sensing Navigation System for Small Peripheral Pulmonary Nodules. Respiration 2019;98:142-50."
+          },
+          {
+            "text": "28.  Kalchiem-Dekel O, Fuentes P , Bott MJ, et al. Multiplanar 3D fluoroscopy redefines tool-lesion relationship during roboticassisted bronchoscopy. Respirology 2021;26:120-3."
+          },
+          {
+            "text": "Cite this article as: Wagh A, Ho E, Murgu S, Hogarth DK. Improving diagnostic yield of navigational bronchoscopy for peripheral pulmonary lesions: a review of advancing technology. J Thorac Dis 2020;12(12):7683-7690. doi: 10.21037/jtd-2020abpd-003"
+          }
+        ],
+        "category": "other"
+      }
+    ],
+    "tables": [],
+    "figures": [
+      {
+        "self_ref": "#/pictures/0",
+        "parent": {
+          "cref": "#/body"
+        },
+        "children": [],
+        "content_layer": "body",
+        "label": "picture",
+        "prov": [
+          {
+            "page_no": 1,
+            "bbox": {
+              "l": 525.7919921875,
+              "t": 750.2565994262695,
+              "r": 550.4213256835938,
+              "b": 725.314453125,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "charspan": [
+              0,
+              0
+            ]
+          }
+        ],
+        "captions": [],
+        "references": [],
+        "footnotes": [],
+        "image": null,
+        "annotations": []
+      },
+      {
+        "self_ref": "#/pictures/1",
+        "parent": {
+          "cref": "#/body"
+        },
+        "children": [
+          {
+            "cref": "#/texts/29"
+          },
+          {
+            "cref": "#/texts/30"
+          },
+          {
+            "cref": "#/texts/31"
+          },
+          {
+            "cref": "#/texts/32"
+          },
+          {
+            "cref": "#/texts/33"
+          },
+          {
+            "cref": "#/texts/34"
+          },
+          {
+            "cref": "#/texts/35"
+          },
+          {
+            "cref": "#/texts/36"
+          },
+          {
+            "cref": "#/texts/37"
+          },
+          {
+            "cref": "#/texts/38"
+          }
+        ],
+        "content_layer": "body",
+        "label": "picture",
+        "prov": [
+          {
+            "page_no": 3,
+            "bbox": {
+              "l": 104.48809814453125,
+              "t": 696.4592819213867,
+              "r": 490.9654846191406,
+              "b": 437.0174865722656,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "charspan": [
+              0,
+              0
+            ]
+          }
+        ],
+        "captions": [
+          {
+            "cref": "#/texts/29"
+          }
+        ],
+        "references": [],
+        "footnotes": [],
+        "image": null,
+        "annotations": []
+      },
+      {
+        "self_ref": "#/pictures/2",
+        "parent": {
+          "cref": "#/body"
+        },
+        "children": [
+          {
+            "cref": "#/texts/41"
+          }
+        ],
+        "content_layer": "body",
+        "label": "picture",
+        "prov": [
+          {
+            "page_no": 3,
+            "bbox": {
+              "l": 307.5301208496094,
+              "t": 283.45440673828125,
+              "r": 322.3891296386719,
+              "b": 274.656982421875,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "charspan": [
+              0,
+              0
+            ]
+          }
+        ],
+        "captions": [],
+        "references": [],
+        "footnotes": [],
+        "image": null,
+        "annotations": []
+      },
+      {
+        "self_ref": "#/pictures/3",
+        "parent": {
+          "cref": "#/body"
+        },
+        "children": [
+          {
+            "cref": "#/texts/50"
+          }
+        ],
+        "content_layer": "body",
+        "label": "picture",
+        "prov": [
+          {
+            "page_no": 4,
+            "bbox": {
+              "l": 112.18637084960938,
+              "t": 695.7067108154297,
+              "r": 298.1779479980469,
+              "b": 544.9782257080078,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "charspan": [
+              0,
+              0
+            ]
+          }
+        ],
+        "captions": [],
+        "references": [],
+        "footnotes": [],
+        "image": null,
+        "annotations": []
+      },
+      {
+        "self_ref": "#/pictures/4",
+        "parent": {
+          "cref": "#/body"
+        },
+        "children": [
+          {
+            "cref": "#/texts/64"
+          },
+          {
+            "cref": "#/texts/65"
+          },
+          {
+            "cref": "#/texts/66"
+          },
+          {
+            "cref": "#/texts/67"
+          },
+          {
+            "cref": "#/texts/68"
+          },
+          {
+            "cref": "#/texts/69"
+          },
+          {
+            "cref": "#/texts/70"
+          },
+          {
+            "cref": "#/texts/71"
+          },
+          {
+            "cref": "#/texts/72"
+          },
+          {
+            "cref": "#/texts/73"
+          },
+          {
+            "cref": "#/texts/74"
+          },
+          {
+            "cref": "#/texts/75"
+          },
+          {
+            "cref": "#/texts/76"
+          },
+          {
+            "cref": "#/texts/77"
+          }
+        ],
+        "content_layer": "body",
+        "label": "picture",
+        "prov": [
+          {
+            "page_no": 5,
+            "bbox": {
+              "l": 112.56753540039062,
+              "t": 696.1024780273438,
+              "r": 482.43408203125,
+              "b": 502.13494873046875,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "charspan": [
+              0,
+              0
+            ]
+          }
+        ],
+        "captions": [
+          {
+            "cref": "#/texts/64"
+          }
+        ],
+        "references": [],
+        "footnotes": [],
+        "image": null,
+        "annotations": []
+      }
+    ],
+    "citations": [],
+    "n_sections": 11,
+    "n_tables": 0,
+    "n_figures": 5,
+    "n_citations": 0
+  },
+  "provenance": {
+    "patches": [
+      {
+        "path": "metadata.year_norm",
+        "op": "set",
+        "from": null,
+        "to": "2020",
+        "source": "zotero:year_norm",
+        "confidence": 0.9
+      },
+      {
+        "path": "metadata.doi",
+        "op": "set",
+        "from": null,
+        "to": "10.21037/jtd-2020-abpd-003",
+        "source": "zotero:doi",
+        "confidence": 0.9
+      },
+      {
+        "path": "metadata.journal",
+        "op": "set",
+        "from": null,
+        "to": "Journal of Thoracic Disease",
+        "source": "zotero:journal",
+        "confidence": 0.9
+      },
+      {
+        "path": "metadata.abstract",
+        "op": "set",
+        "from": null,
+        "to": "With recommendations for low dose CT scan for lung cancer screening, there has been an increase in the finding of lung nodules and peripheral pulmonary lesions (PPLs). Additionally, when there is concern for malignancy, guidelines have recommended performing the least invasive evaluation. Conventional bronchoscopy diagnostic yields for PPLs have reportedly been quite low and prior electromagnetic navigation bronchoscopy (ENB) studies have reported variable yields. Navigation bronchoscopy in addition to endobronchial ultrasound allows a physician to evaluate peripheral lung lesions along with mediastinal and hilar lymph nodes for the diagnosis and staging of suspected malignancy in one procedure. More recent advances in navigational bronchoscopy including the use of augmented fluoroscopy (AF), cone beam CT, and robotic bronchoscopy have pushed the boundaries of capability in evaluating PPLs. These added bronchoscopic technologies have shown to improve diagnostic yield especially when modalities are used in combination. The ultimate goal of endoscopically localized ablative and therapeutic treatment for peripheral lung lesions will require a high level of physician confidence, accuracy, and precision. This article will review the innovative characteristics and data of some of the more recently available navigational bronchoscopy devices.",
+        "source": "zotero:abstract",
+        "confidence": 0.9
+      },
+      {
+        "path": "metadata.volume",
+        "op": "set",
+        "from": null,
+        "to": "12",
+        "source": "zotero:volume",
+        "confidence": 0.9
+      },
+      {
+        "path": "metadata.issue",
+        "op": "set",
+        "from": null,
+        "to": "12",
+        "source": "zotero:issue",
+        "confidence": 0.9
+      },
+      {
+        "path": "metadata.pages",
+        "op": "set",
+        "from": null,
+        "to": "7683-7690",
+        "source": "zotero:pages",
+        "confidence": 0.9
+      },
+      {
+        "path": "metadata.issn",
+        "op": "set",
+        "from": null,
+        "to": "20721439, 20776624",
+        "source": "zotero:issn",
+        "confidence": 0.9
+      },
+      {
+        "path": "metadata.url",
+        "op": "set",
+        "from": null,
+        "to": "http://jtd.amegroups.com/article/view/47381/html",
+        "source": "zotero:url",
+        "confidence": 0.9
+      },
+      {
+        "path": "provenance.orig_pdf_filename",
+        "op": "set",
+        "from": null,
+        "to": "Wagh et al. - 2020 - Improving diagnostic yield of navigational bronchoscopy for peripheral pulmonary lesions a review o.pdf",
+        "source": "zotero:csv",
+        "confidence": 0.9
+      },
+      {
+        "path": "metadata.year",
+        "op": "set",
+        "from": "2020-12",
+        "to": 2020,
+        "source": "normalize:iso",
+        "confidence": 0.9
+      },
+      {
+        "path": "metadata.authors",
+        "op": "set",
+        "from": [
+          "Ajay Wagh",
+          "Elliot Ho",
+          "Septimiu Murgu",
+          "Douglas Kyle Hogarth"
+        ],
+        "to": [
+          {
+            "given": "Ajay",
+            "family": "Wagh",
+            "suffix": null,
+            "degrees": [],
+            "display": "Ajay Wagh",
+            "group": false
+          },
+          {
+            "given": "Elliot",
+            "family": "Ho",
+            "suffix": null,
+            "degrees": [],
+            "display": "Elliot Ho",
+            "group": false
+          },
+          {
+            "given": "Septimiu",
+            "family": "Murgu",
+            "suffix": null,
+            "degrees": [],
+            "display": "Septimiu Murgu",
+            "group": false
+          },
+          {
+            "given": "Douglas Kyle",
+            "family": "Hogarth",
+            "suffix": null,
+            "degrees": [],
+            "display": "Douglas Kyle Hogarth",
+            "group": false
+          }
+        ],
+        "source": "filtered_ack_like",
+        "confidence": 0.9
+      },
+      {
+        "path": "metadata.journal_full",
+        "op": "set",
+        "from": null,
+        "to": "Journal of Thoracic Disease",
+        "source": "canonicalize",
+        "confidence": 0.9
+      }
+    ],
+    "orig_pdf_filename": "Wagh et al. - 2020 - Improving diagnostic yield of navigational bronchoscopy for peripheral pulmonary lesions a review o.pdf",
+    "zotero": {
+      "id": "waghImprovingDiagnosticYield2020",
+      "source": "zotero_csl+csv",
+      "exported_at": "2025-09-02T20:29:36.961928Z",
+      "match_method": "title_exact",
+      "match_confidence": 1.0
+    }
+  },
+  "grobid": {
+    "references_tei": "<TEI xmlns=\"http://www.tei-c.org/ns/1.0\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" \n xmlns:mml=\"http://www.w3.org/1998/Math/MathML\">\n\t<teiHeader/>\n\t<text>\n\t\t<front/>\n\t\t<body/>\n\t\t<back>\n\t\t\t<div>\n\t\t\t\t<listBibl>\n<biblStruct xml:id=\"b0\">\n\t<analytic>\n\t\t<title level=\"a\" type=\"main\">Establishing the diagnosis of lung cancer diagnosis and management of lung cancer, 3rd ed. American College of Chest Physicians evidence-based clinical practice guidelines</title>\n\t\t<author>\n\t\t\t<persName><forename type=\"first\">M</forename><forename type=\"middle\">P</forename><surname>Rivera</surname></persName>\n\t\t</author>\n\t\t<author>\n\t\t\t<persName><forename type=\"first\">A</forename><forename type=\"middle\">C</forename><surname>Mehta</surname></persName>\n\t\t</author>\n\t\t<author>\n\t\t\t<persName><forename type=\"first\">M</forename><forename type=\"middle\">M</forename><surname>Wahidi</surname></persName>\n\t\t</author>\n\t</analytic>\n\t<monogr>\n\t\t<title level=\"j\">Chest</title>\n\t\t<imprint>\n\t\t\t<biblScope unit=\"volume\">143</biblScope>\n\t\t\t<biblScope unit=\"page\" from=\"e142S\" to=\"e165\" />\n\t\t\t<date type=\"published\" when=\"2013\">2013</date>\n\t\t</imprint>\n\t</monogr>\n</biblStruct>\n\n<biblStruct xml:id=\"b1\">\n\t<analytic>\n\t\t<title level=\"a\" type=\"main\">Radial probe endobronchial ultrasound for the diagnosis of peripheral lung cancer: systematic review and meta-analysis</title>\n\t\t<author>\n\t\t\t<persName><forename type=\"first\">D</forename><forename type=\"middle\">P</forename><surname>Steinfort</surname></persName>\n\t\t</author>\n\t\t<author>\n\t\t\t<persName><forename type=\"first\">Y</forename><forename type=\"middle\">H</forename><surname>Khor</surname></persName>\n\t\t</author>\n\t\t<author>\n\t\t\t<persName><forename type=\"first\">R</forename><forename type=\"middle\">L</forename><surname>Manser</surname></persName>\n\t\t</author>\n\t</analytic>\n\t<monogr>\n\t\t<title level=\"j\">Eur Respir J</title>\n\t\t<imprint>\n\t\t\t<biblScope unit=\"volume\">37</biblScope>\n\t\t\t<biblScope unit=\"page\" from=\"902\" to=\"910\" />\n\t\t\t<date type=\"published\" when=\"2011\">2011</date>\n\t\t</imprint>\n\t</monogr>\n</biblStruct>\n\n<biblStruct xml:id=\"b2\">\n\t<analytic>\n\t\t<title level=\"a\" type=\"main\">State-of-the-Art Modalities for Peripheral Lung Nodule Biopsy</title>\n\t\t<author>\n\t\t\t<persName><forename type=\"first\">S</forename><surname>Kalanjeri</surname></persName>\n\t\t</author>\n\t\t<author>\n\t\t\t<persName><forename type=\"first\">R</forename><forename type=\"middle\">C</forename><surname>Holladay</surname></persName>\n\t\t</author>\n\t\t<author>\n\t\t\t<persName><forename type=\"first\">T</forename><forename type=\"middle\">R</forename><surname>Gildea</surname></persName>\n\t\t</author>\n\t</analytic>\n\t<monogr>\n\t\t<title level=\"j\">Clin Chest Med</title>\n\t\t<imprint>\n\t\t\t<biblScope unit=\"volume\">39</biblScope>\n\t\t\t<biblScope unit=\"page\" from=\"125\" to=\"138\" />\n\t\t\t<date type=\"published\" when=\"2018\">2018</date>\n\t\t</imprint>\n\t</monogr>\n</biblStruct>\n\n<biblStruct xml:id=\"b3\">\n\t<analytic>\n\t\t<title level=\"a\" type=\"main\">American College of Chest Physicians. Initial diagnosis of lung cancer: ACCP evidence-based clinical practice guidelines (2nd edition)</title>\n\t\t<author>\n\t\t\t<persName><forename type=\"first\">M</forename><forename type=\"middle\">P</forename><surname>Rivera</surname></persName>\n\t\t</author>\n\t\t<author>\n\t\t\t<persName><forename type=\"first\">A</forename><forename type=\"middle\">C</forename><surname>Mehta</surname></persName>\n\t\t</author>\n\t</analytic>\n\t<monogr>\n\t\t<title level=\"j\">Chest</title>\n\t\t<imprint>\n\t\t\t<biblScope unit=\"volume\">132</biblScope>\n\t\t\t<biblScope unit=\"page\" from=\"131S\" to=\"148S\" />\n\t\t\t<date type=\"published\" when=\"2007\">2007</date>\n\t\t</imprint>\n\t</monogr>\n</biblStruct>\n\n<biblStruct xml:id=\"b4\">\n\t<analytic>\n\t\t<title level=\"a\" type=\"main\">The solitary pulmonary nodule</title>\n\t\t<author>\n\t\t\t<persName><forename type=\"first\">Winer-Muram</forename><surname>Ht</surname></persName>\n\t\t</author>\n\t</analytic>\n\t<monogr>\n\t\t<title level=\"j\">Radiology</title>\n\t\t<imprint>\n\t\t\t<biblScope unit=\"volume\">239</biblScope>\n\t\t\t<biblScope unit=\"page\" from=\"34\" to=\"49\" />\n\t\t\t<date type=\"published\" when=\"2006\">2006</date>\n\t\t</imprint>\n\t</monogr>\n</biblStruct>\n\n<biblStruct xml:id=\"b5\">\n\t<analytic>\n\t\t<title level=\"a\" type=\"main\">Evidence for the treatment of patients with pulmonary nodules: when is it lung cancer? ACCP evidence-based clinical practice guidelines (2nd edition)</title>\n\t\t<author>\n\t\t\t<persName><forename type=\"first\">M</forename><forename type=\"middle\">M</forename><surname>Wahidi</surname></persName>\n\t\t</author>\n\t\t<author>\n\t\t\t<persName><forename type=\"first\">J</forename><forename type=\"middle\">A</forename><surname>Govert</surname></persName>\n\t\t</author>\n\t\t<author>\n\t\t\t<persName><forename type=\"first\">R</forename><forename type=\"middle\">K</forename><surname>Goudar</surname></persName>\n\t\t</author>\n\t</analytic>\n\t<monogr>\n\t\t<title level=\"j\">Chest</title>\n\t\t<imprint>\n\t\t\t<biblScope unit=\"volume\">132</biblScope>\n\t\t\t<biblScope unit=\"page\" from=\"94S\" to=\"107S\" />\n\t\t\t<date type=\"published\" when=\"2007\">2007</date>\n\t\t</imprint>\n\t</monogr>\n</biblStruct>\n\n<biblStruct xml:id=\"b6\">\n\t<analytic>\n\t\t<title level=\"a\" type=\"main\">Complications and Yield of Computed Tomography-Guided Transthoracic Core Needle Biopsy of Lung Nodules at a High-Volume Academic Center in an Endemic Coccidioidomycosis Area</title>\n\t\t<author>\n\t\t\t<persName><forename type=\"first\">M</forename><surname>Sachdeva</surname></persName>\n\t\t</author>\n\t\t<author>\n\t\t\t<persName><forename type=\"first\">R</forename><surname>Ronaghi</surname></persName>\n\t\t</author>\n\t\t<author>\n\t\t\t<persName><forename type=\"first\">P</forename><forename type=\"middle\">K</forename><surname>Mills</surname></persName>\n\t\t</author>\n\t</analytic>\n\t<monogr>\n\t\t<title level=\"j\">Lung</title>\n\t\t<imprint>\n\t\t\t<biblScope unit=\"volume\">194</biblScope>\n\t\t\t<biblScope unit=\"page\" from=\"379\" to=\"385\" />\n\t\t\t<date type=\"published\" when=\"2016\">2016</date>\n\t\t</imprint>\n\t</monogr>\n</biblStruct>\n\n<biblStruct xml:id=\"b7\">\n\t<analytic>\n\t\t<title level=\"a\" type=\"main\">Reduced lung-cancer mortality with low-dose computed tomographic screening</title>\n\t\t<author>\n\t\t\t<persName><forename type=\"first\">National</forename><surname>Lung</surname></persName>\n\t\t</author>\n\t\t<author>\n\t\t\t<persName><forename type=\"first\">Screening</forename><surname>Trial Research</surname></persName>\n\t\t</author>\n\t\t<author>\n\t\t\t<persName><surname>Team</surname></persName>\n\t\t</author>\n\t\t<author>\n\t\t\t<persName><forename type=\"first\">D</forename><forename type=\"middle\">R</forename><surname>Aberle</surname></persName>\n\t\t</author>\n\t\t<author>\n\t\t\t<persName><forename type=\"first\">A</forename><forename type=\"middle\">M</forename><surname>Adams</surname></persName>\n\t\t</author>\n\t</analytic>\n\t<monogr>\n\t\t<title level=\"j\">N Engl J Med</title>\n\t\t<imprint>\n\t\t\t<biblScope unit=\"volume\">365</biblScope>\n\t\t\t<biblScope unit=\"page\" from=\"395\" to=\"409\" />\n\t\t\t<date type=\"published\" when=\"2011\">2011</date>\n\t\t</imprint>\n\t</monogr>\n</biblStruct>\n\n<biblStruct xml:id=\"b8\">\n\t<analytic>\n\t\t<title level=\"a\" type=\"main\">Evaluation of individuals with pulmonary nodules: when is it lung cancer? Diagnosis and management of lung cancer, 3rd ed: American College of Chest Physicians evidence-based clinical practice guidelines</title>\n\t\t<author>\n\t\t\t<persName><forename type=\"first\">M</forename><forename type=\"middle\">K</forename><surname>Gould</surname></persName>\n\t\t</author>\n\t\t<author>\n\t\t\t<persName><forename type=\"first\">J</forename><surname>Donington</surname></persName>\n\t\t</author>\n\t\t<author>\n\t\t\t<persName><forename type=\"first\">W</forename><forename type=\"middle\">R</forename><surname>Lynch</surname></persName>\n\t\t</author>\n\t</analytic>\n\t<monogr>\n\t\t<title level=\"j\">Chest</title>\n\t\t<imprint>\n\t\t\t<biblScope unit=\"volume\">143</biblScope>\n\t\t\t<biblScope unit=\"page\" from=\"e93S\" to=\"e120\" />\n\t\t\t<date type=\"published\" when=\"2013\">2013</date>\n\t\t</imprint>\n\t</monogr>\n</biblStruct>\n\n<biblStruct xml:id=\"b9\">\n\t<analytic>\n\t\t<title level=\"a\" type=\"main\">NCCN Guidelines Insights: Non-Small Cell Lung Cancer, Version 5</title>\n\t\t<author>\n\t\t\t<persName><forename type=\"first\">D</forename><forename type=\"middle\">S</forename><surname>Ettinger</surname></persName>\n\t\t</author>\n\t\t<author>\n\t\t\t<persName><forename type=\"first\">D</forename><forename type=\"middle\">L</forename><surname>Aisner</surname></persName>\n\t\t</author>\n\t\t<author>\n\t\t\t<persName><forename type=\"first\">D</forename><forename type=\"middle\">E</forename><surname>Wood</surname></persName>\n\t\t</author>\n\t</analytic>\n\t<monogr>\n\t\t<title level=\"j\">J Natl Compr Canc Netw</title>\n\t\t<imprint>\n\t\t\t<biblScope unit=\"volume\">16</biblScope>\n\t\t\t<biblScope unit=\"page\" from=\"807\" to=\"821\" />\n\t\t\t<date type=\"published\" when=\"2018\">2018. 2018</date>\n\t\t</imprint>\n\t</monogr>\n</biblStruct>\n\n<biblStruct xml:id=\"b10\">\n\t<analytic>\n\t\t<title level=\"a\" type=\"main\">Metaanalysis of guided bronchoscopy for the evaluation of the pulmonary nodule</title>\n\t\t<author>\n\t\t\t<persName><forename type=\"first\">Wang</forename><surname>Memoli</surname></persName>\n\t\t</author>\n\t\t<author>\n\t\t\t<persName><forename type=\"first\">J</forename><forename type=\"middle\">S</forename><surname>Nietert</surname></persName>\n\t\t</author>\n\t\t<author>\n\t\t\t<persName><forename type=\"first\">P</forename><forename type=\"middle\">J</forename><surname>Silvestri</surname></persName>\n\t\t</author>\n\t\t<author>\n\t\t\t<persName><forename type=\"first\">G</forename><forename type=\"middle\">A</forename></persName>\n\t\t</author>\n\t</analytic>\n\t<monogr>\n\t\t<title level=\"j\">Chest</title>\n\t\t<imprint>\n\t\t\t<biblScope unit=\"volume\">142</biblScope>\n\t\t\t<biblScope unit=\"page\" from=\"385\" to=\"393\" />\n\t\t\t<date type=\"published\" when=\"2012\">2012</date>\n\t\t</imprint>\n\t</monogr>\n</biblStruct>\n\n<biblStruct xml:id=\"b11\">\n\t<analytic>\n\t\t<title level=\"a\" type=\"main\">Diagnostic yield and safety of electromagnetic navigation bronchoscopy for lung nodules: a systematic review and meta-analysis</title>\n\t\t<author>\n\t\t\t<persName><forename type=\"first\">G</forename><surname>Gex</surname></persName>\n\t\t</author>\n\t\t<author>\n\t\t\t<persName><forename type=\"first\">J</forename><forename type=\"middle\">A</forename><surname>Pralong</surname></persName>\n\t\t</author>\n\t\t<author>\n\t\t\t<persName><forename type=\"first\">C</forename><surname>Combescure</surname></persName>\n\t\t</author>\n\t</analytic>\n\t<monogr>\n\t\t<title level=\"j\">Respiration</title>\n\t\t<imprint>\n\t\t\t<biblScope unit=\"volume\">87</biblScope>\n\t\t\t<biblScope unit=\"page\" from=\"165\" to=\"176\" />\n\t\t\t<date type=\"published\" when=\"2014\">2014</date>\n\t\t</imprint>\n\t</monogr>\n</biblStruct>\n\n<biblStruct xml:id=\"b12\">\n\t<analytic>\n\t\t<title level=\"a\" type=\"main\">Meta-analysis of the diagnostic yield and safety of electromagnetic navigation bronchoscopy for lung nodules</title>\n\t\t<author>\n\t\t\t<persName><forename type=\"first\">W</forename><surname>Zhang</surname></persName>\n\t\t</author>\n\t\t<author>\n\t\t\t<persName><forename type=\"first\">S</forename><surname>Chen</surname></persName>\n\t\t</author>\n\t\t<author>\n\t\t\t<persName><forename type=\"first\">X</forename><surname>Dong</surname></persName>\n\t\t</author>\n\t</analytic>\n\t<monogr>\n\t\t<title level=\"j\">J Thorac Dis</title>\n\t\t<imprint>\n\t\t\t<biblScope unit=\"volume\">7</biblScope>\n\t\t\t<biblScope unit=\"page\" from=\"799\" to=\"809\" />\n\t\t\t<date type=\"published\" when=\"2015\">2015</date>\n\t\t</imprint>\n\t</monogr>\n</biblStruct>\n\n<biblStruct xml:id=\"b13\">\n\t<analytic>\n\t\t<title level=\"a\" type=\"main\">Multimodality bronchoscopic diagnosis of peripheral lung lesions: a randomized controlled trial</title>\n\t\t<author>\n\t\t\t<persName><forename type=\"first\">R</forename><surname>Eberhardt</surname></persName>\n\t\t</author>\n\t\t<author>\n\t\t\t<persName><forename type=\"first\">D</forename><surname>Anantham</surname></persName>\n\t\t</author>\n\t\t<author>\n\t\t\t<persName><forename type=\"first\">A</forename><surname>Ernst</surname></persName>\n\t\t</author>\n\t</analytic>\n\t<monogr>\n\t\t<title level=\"j\">Am J Respir Crit Care Med</title>\n\t\t<imprint>\n\t\t\t<biblScope unit=\"volume\">176</biblScope>\n\t\t\t<biblScope unit=\"page\" from=\"36\" to=\"41\" />\n\t\t\t<date type=\"published\" when=\"2007\">2007</date>\n\t\t</imprint>\n\t</monogr>\n</biblStruct>\n\n<biblStruct xml:id=\"b14\">\n\t<analytic>\n\t\t<title level=\"a\" type=\"main\">Electromagnetic Navigation Bronchoscopy for Peripheral Pulmonary Lesions: One-Year Results of the Prospective, Multicenter NAVIGATE Study</title>\n\t\t<author>\n\t\t\t<persName><forename type=\"first\">E</forename><forename type=\"middle\">E</forename><surname>Folch</surname></persName>\n\t\t</author>\n\t\t<author>\n\t\t\t<persName><forename type=\"first\">M</forename><forename type=\"middle\">A</forename><surname>Pritchett</surname></persName>\n\t\t</author>\n\t\t<author>\n\t\t\t<persName><forename type=\"first\">M</forename><forename type=\"middle\">A</forename><surname>Nead</surname></persName>\n\t\t</author>\n\t</analytic>\n\t<monogr>\n\t\t<title level=\"j\">J Thorac Oncol</title>\n\t\t<imprint>\n\t\t\t<biblScope unit=\"volume\">14</biblScope>\n\t\t\t<biblScope unit=\"page\" from=\"445\" to=\"458\" />\n\t\t\t<date type=\"published\" when=\"2019\">2019</date>\n\t\t</imprint>\n\t</monogr>\n</biblStruct>\n\n<biblStruct xml:id=\"b15\">\n\t<analytic>\n\t\t<title level=\"a\" type=\"main\">Advances in interventional diagnostic bronchoscopy for peripheral pulmonary lesions</title>\n\t\t<author>\n\t\t\t<persName><forename type=\"first\">T</forename><surname>Ishiwata</surname></persName>\n\t\t</author>\n\t\t<author>\n\t\t\t<persName><forename type=\"first\">A</forename><surname>Gregor</surname></persName>\n\t\t</author>\n\t\t<author>\n\t\t\t<persName><forename type=\"first\">T</forename><surname>Inage</surname></persName>\n\t\t</author>\n\t</analytic>\n\t<monogr>\n\t\t<title level=\"j\">Expert Rev Respir Med</title>\n\t\t<imprint>\n\t\t\t<biblScope unit=\"volume\">13</biblScope>\n\t\t\t<biblScope unit=\"page\" from=\"885\" to=\"897\" />\n\t\t\t<date type=\"published\" when=\"2019\">2019</date>\n\t\t</imprint>\n\t</monogr>\n</biblStruct>\n\n<biblStruct xml:id=\"b16\">\n\t<analytic>\n\t\t<title level=\"a\" type=\"main\">Bronchoscopic Transparenchymal Nodule Access: Feasibility and Safety in an Endoscopic Unit</title>\n\t\t<author>\n\t\t\t<persName><forename type=\"first\">D</forename><surname>Harzheim</surname></persName>\n\t\t</author>\n\t\t<author>\n\t\t\t<persName><forename type=\"first\">D</forename><surname>Sterman</surname></persName>\n\t\t</author>\n\t\t<author>\n\t\t\t<persName><forename type=\"first\">P</forename><forename type=\"middle\">L</forename><surname>Shah</surname></persName>\n\t\t</author>\n\t</analytic>\n\t<monogr>\n\t\t<title level=\"j\">Respiration</title>\n\t\t<imprint>\n\t\t\t<biblScope unit=\"volume\">91</biblScope>\n\t\t\t<biblScope unit=\"page\" from=\"302\" to=\"306\" />\n\t\t\t<date type=\"published\" when=\"2016\">2016</date>\n\t\t</imprint>\n\t</monogr>\n</biblStruct>\n\n<biblStruct xml:id=\"b17\">\n\t<analytic>\n\t\t<title level=\"a\" type=\"main\">Bronchoscopic transparenchymal nodule access (BTPNA): first in human trial of a novel procedure for sampling solitary pulmonary nodules</title>\n\t\t<author>\n\t\t\t<persName><forename type=\"first\">F</forename><forename type=\"middle\">J</forename><surname>Herth</surname></persName>\n\t\t</author>\n\t\t<author>\n\t\t\t<persName><forename type=\"first\">R</forename><surname>Eberhardt</surname></persName>\n\t\t</author>\n\t\t<author>\n\t\t\t<persName><forename type=\"first\">D</forename><surname>Sterman</surname></persName>\n\t\t</author>\n\t</analytic>\n\t<monogr>\n\t\t<title level=\"j\">Thorax</title>\n\t\t<imprint>\n\t\t\t<biblScope unit=\"volume\">70</biblScope>\n\t\t\t<biblScope unit=\"page\" from=\"326\" to=\"332\" />\n\t\t\t<date type=\"published\" when=\"2015\">2015</date>\n\t\t</imprint>\n\t</monogr>\n</biblStruct>\n\n<biblStruct xml:id=\"b18\">\n\t<analytic>\n\t\t<title level=\"a\" type=\"main\">Improved diagnostic yield for lung nodules with digital tomosynthesiscorrected navigational bronchoscopy: Initial experience with a novel adjunct</title>\n\t\t<author>\n\t\t\t<persName><forename type=\"first\">M</forename><surname>Aboudara</surname></persName>\n\t\t</author>\n\t\t<author>\n\t\t\t<persName><forename type=\"first\">L</forename><surname>Roller</surname></persName>\n\t\t</author>\n\t\t<author>\n\t\t\t<persName><forename type=\"first\">O</forename><surname>Rickman</surname></persName>\n\t\t</author>\n\t</analytic>\n\t<monogr>\n\t\t<title level=\"j\">Respirology</title>\n\t\t<imprint>\n\t\t\t<biblScope unit=\"volume\">25</biblScope>\n\t\t\t<biblScope unit=\"page\" from=\"206\" to=\"213\" />\n\t\t\t<date type=\"published\" when=\"2020\">2020</date>\n\t\t</imprint>\n\t</monogr>\n</biblStruct>\n\n<biblStruct xml:id=\"b19\">\n\t<analytic>\n\t\t<title level=\"a\" type=\"main\">Use of augmented fluoroscopic imaging during diagnostic bronchoscopy</title>\n\t\t<author>\n\t\t\t<persName><forename type=\"first\">D</forename><forename type=\"middle\">K</forename><surname>Hogarth</surname></persName>\n\t\t</author>\n\t</analytic>\n\t<monogr>\n\t\t<title level=\"j\">Future Oncol</title>\n\t\t<imprint>\n\t\t\t<biblScope unit=\"volume\">14</biblScope>\n\t\t\t<biblScope unit=\"page\" from=\"2247\" to=\"2252\" />\n\t\t\t<date type=\"published\" when=\"2018\">2018</date>\n\t\t</imprint>\n\t</monogr>\n</biblStruct>\n\n<biblStruct xml:id=\"b20\">\n\t<analytic>\n\t\t<title level=\"a\" type=\"main\">Augmented Fluoroscopy: A New and Novel Navigation Platform for Peripheral Bronchoscopy</title>\n\t\t<author>\n\t\t\t<persName><forename type=\"first\">J</forename><surname>Cicenia</surname></persName>\n\t\t</author>\n\t\t<author>\n\t\t\t<persName><forename type=\"first\">K</forename><surname>Bhadra</surname></persName>\n\t\t</author>\n\t\t<author>\n\t\t\t<persName><forename type=\"first\">S</forename><surname>Sethi</surname></persName>\n\t\t</author>\n\t\t<idno type=\"DOI\">10.1097/LBR.0000000000000722</idno>\n\t</analytic>\n\t<monogr>\n\t\t<title level=\"j\">J Bronchology Interv Pulmonol</title>\n\t\t<imprint>\n\t\t\t<date type=\"published\" when=\"2020\">2020</date>\n\t\t</imprint>\n\t</monogr>\n\t<note>Epub ahead of print</note>\n</biblStruct>\n\n<biblStruct xml:id=\"b21\">\n\t<analytic>\n\t\t<title level=\"a\" type=\"main\">Cone-Beam CT With Augmented Fluoroscopy Combined With Electromagnetic Navigation Bronchoscopy for Biopsy of Pulmonary Nodules</title>\n\t\t<author>\n\t\t\t<persName><forename type=\"first\">M</forename><forename type=\"middle\">A</forename><surname>Pritchett</surname></persName>\n\t\t</author>\n\t\t<author>\n\t\t\t<persName><forename type=\"first\">S</forename><surname>Schampaert</surname></persName>\n\t\t</author>\n\t\t<author>\n\t\t\t<persName><forename type=\"first\">Jah</forename><surname>De Groot</surname></persName>\n\t\t</author>\n\t</analytic>\n\t<monogr>\n\t\t<title level=\"j\">J Bronchology Interv Pulmonol</title>\n\t\t<imprint>\n\t\t\t<biblScope unit=\"volume\">25</biblScope>\n\t\t\t<biblScope unit=\"page\" from=\"274\" to=\"282\" />\n\t\t\t<date type=\"published\" when=\"2018\">2018</date>\n\t\t</imprint>\n\t</monogr>\n</biblStruct>\n\n<biblStruct xml:id=\"b22\">\n\t<analytic>\n\t\t<title level=\"a\" type=\"main\">Cone beam computed tomography-guided thin/ultrathin bronchoscopy for diagnosis of peripheral lung nodules: a prospective pilot study</title>\n\t\t<author>\n\t\t\t<persName><forename type=\"first\">R</forename><forename type=\"middle\">F</forename><surname>Casal</surname></persName>\n\t\t</author>\n\t\t<author>\n\t\t\t<persName><forename type=\"first\">M</forename><surname>Sarkiss</surname></persName>\n\t\t</author>\n\t\t<author>\n\t\t\t<persName><forename type=\"first\">A</forename><forename type=\"middle\">K</forename><surname>Jones</surname></persName>\n\t\t</author>\n\t</analytic>\n\t<monogr>\n\t\t<title level=\"j\">J Thorac Dis</title>\n\t\t<imprint>\n\t\t\t<biblScope unit=\"volume\">10</biblScope>\n\t\t\t<biblScope unit=\"page\" from=\"6950\" to=\"6959\" />\n\t\t\t<date type=\"published\" when=\"2018\">2018</date>\n\t\t</imprint>\n\t</monogr>\n</biblStruct>\n\n<biblStruct xml:id=\"b23\">\n\t<analytic>\n\t\t<title level=\"a\" type=\"main\">Robotic Endoscopic Airway Challenge: REACH Assessment</title>\n\t\t<author>\n\t\t\t<persName><forename type=\"first\">A</forename><forename type=\"middle\">C</forename><surname>Chen</surname></persName>\n\t\t</author>\n\t\t<author>\n\t\t\t<persName><forename type=\"first\">C</forename><forename type=\"middle\">T</forename><surname>Gillespie</surname></persName>\n\t\t</author>\n\t</analytic>\n\t<monogr>\n\t\t<title level=\"j\">Ann Thorac Surg</title>\n\t\t<imprint>\n\t\t\t<biblScope unit=\"volume\">106</biblScope>\n\t\t\t<biblScope unit=\"page\" from=\"293\" to=\"297\" />\n\t\t\t<date type=\"published\" when=\"2018\">2018</date>\n\t\t</imprint>\n\t</monogr>\n</biblStruct>\n\n<biblStruct xml:id=\"b24\">\n\t<analytic>\n\t\t<title level=\"a\" type=\"main\">Robot-assisted bronchoscopy for pulmonary lesion diagnosis: results from the initial multicenter experience</title>\n\t\t<author>\n\t\t\t<persName><forename type=\"first\">U</forename><surname>Chaddha</surname></persName>\n\t\t</author>\n\t\t<author>\n\t\t\t<persName><forename type=\"first\">S</forename><forename type=\"middle\">P</forename><surname>Kovacs</surname></persName>\n\t\t</author>\n\t\t<author>\n\t\t\t<persName><forename type=\"first\">C</forename><surname>Manley</surname></persName>\n\t\t</author>\n\t\t<idno type=\"DOI\">10.21037/jtd-2020-abpd-0032019;19:243</idno>\n\t\t<ptr target=\"http://dx.doi.org/10.21037/jtd-2020-abpd-0032019;19:243\" />\n\t</analytic>\n\t<monogr>\n\t\t<title level=\"j\">BMC Pulm Med © Journal of Thoracic Disease. All rights reserved. J Thorac Dis</title>\n\t\t<imprint>\n\t\t\t<biblScope unit=\"volume\">12</biblScope>\n\t\t\t<biblScope unit=\"issue\">12</biblScope>\n\t\t\t<biblScope unit=\"page\" from=\"7683\" to=\"7690\" />\n\t\t\t<date type=\"published\" when=\"2020\">2020</date>\n\t\t</imprint>\n\t</monogr>\n</biblStruct>\n\n<biblStruct xml:id=\"b25\">\n\t<analytic>\n\t\t<title level=\"a\" type=\"main\">Robotic Bronchoscopy for Peripheral Pulmonary Lesions: A Multicenter Pilot and Feasibility Study</title>\n\t\t<author>\n\t\t\t<persName><forename type=\"first\">A</forename><forename type=\"middle\">C</forename><surname>Chen</surname></persName>\n\t\t</author>\n\t\t<author>\n\t\t\t<persName><forename type=\"first\">N</forename><forename type=\"middle\">J</forename><surname>Pastis</surname></persName>\n\t\t</author>\n\t\t<author>\n\t\t\t<persName><surname>Jr</surname></persName>\n\t\t</author>\n\t\t<author>\n\t\t\t<persName><forename type=\"first\">A</forename><forename type=\"middle\">K</forename><surname>Mahajan</surname></persName>\n\t\t</author>\n\t\t<idno type=\"DOI\">10.1016/j.chest.2020.08.2047</idno>\n\t</analytic>\n\t<monogr>\n\t\t<title level=\"j\">Chest</title>\n\t\t<imprint>\n\t\t\t<date type=\"published\" when=\"2020\">2020</date>\n\t\t</imprint>\n\t</monogr>\n\t<note>Epub ahead of print</note>\n</biblStruct>\n\n<biblStruct xml:id=\"b26\">\n\t<analytic>\n\t\t<title level=\"a\" type=\"main\">First Human Use of a New Robotic-Assisted Fiber Optic Sensing Navigation System for Small Peripheral Pulmonary Nodules</title>\n\t\t<author>\n\t\t\t<persName><forename type=\"first\">Dik</forename><surname>Fielding</surname></persName>\n\t\t</author>\n\t\t<author>\n\t\t\t<persName><forename type=\"first\">F</forename><surname>Bashirzadeh</surname></persName>\n\t\t</author>\n\t\t<author>\n\t\t\t<persName><forename type=\"first\">J</forename><forename type=\"middle\">H</forename><surname>Son</surname></persName>\n\t\t</author>\n\t</analytic>\n\t<monogr>\n\t\t<title level=\"j\">Respiration</title>\n\t\t<imprint>\n\t\t\t<biblScope unit=\"volume\">98</biblScope>\n\t\t\t<biblScope unit=\"page\" from=\"142\" to=\"150\" />\n\t\t\t<date type=\"published\" when=\"2019\">2019</date>\n\t\t</imprint>\n\t</monogr>\n</biblStruct>\n\n<biblStruct xml:id=\"b27\">\n\t<analytic>\n\t\t<title level=\"a\" type=\"main\">Multiplanar 3D fluoroscopy redefines tool-lesion relationship during roboticassisted bronchoscopy</title>\n\t\t<author>\n\t\t\t<persName><forename type=\"first\">O</forename><surname>Kalchiem-Dekel</surname></persName>\n\t\t</author>\n\t\t<author>\n\t\t\t<persName><forename type=\"first\">P</forename><surname>Fuentes</surname></persName>\n\t\t</author>\n\t\t<author>\n\t\t\t<persName><forename type=\"first\">M</forename><forename type=\"middle\">J</forename><surname>Bott</surname></persName>\n\t\t</author>\n\t</analytic>\n\t<monogr>\n\t\t<title level=\"j\">Respirology</title>\n\t\t<imprint>\n\t\t\t<biblScope unit=\"volume\">26</biblScope>\n\t\t\t<biblScope unit=\"page\" from=\"120\" to=\"123\" />\n\t\t\t<date type=\"published\" when=\"2021\">2021</date>\n\t\t</imprint>\n\t</monogr>\n</biblStruct>\n\n\t\t\t\t</listBibl>\n\t\t\t</div>\n\t\t</back>\n\t</text>\n</TEI>\n"
+  },
+  "umls_links": [],
+  "drugs": [],
+  "trial_ids": [
+    "NCT03893539",
+    "NCT04182815"
+  ],
+  "assets": {
+    "tables": [],
+    "figures": [
+      {
+        "type": "figure",
+        "content": {
+          "self_ref": "#/pictures/0",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "label": "picture",
+          "prov": [
+            {
+              "page_no": 1,
+              "bbox": {
+                "l": 525.7919921875,
+                "t": 750.2565994262695,
+                "r": 550.4213256835938,
+                "b": 725.314453125,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                0
+              ]
+            }
+          ],
+          "captions": [],
+          "references": [],
+          "footnotes": [],
+          "image": null,
+          "annotations": []
+        },
+        "captions": [
+          "). The working channel is then able to be navigated to the PPL. The SPiNDrive system pre-procedural planning uses both an inspiratory and expiratory CT chest to account for nodule movement during the respiratory cycle. This system utilizes a sensor at the tip of the biopsy/tissue collection tool that is then tracked within the electromagnetic field during the procedure. This tool is navigated through the working channel of a bronchoscope to the peripheral target."
+        ],
+        "footnotes": [
+          "as demonstrated a rather low sensitivity (14-63%) for diagnosing malignant lesions and even lower for those that are less than 20 mm in diameter (6,7). On the other hand, a prior study of CT guided transthoracic needle aspiration for lung cancer demonstrated a sensitivity of 93% though with a complication rate of 25%. Incidence of pneumothorax, however, was 24% with 7% of those patients requiring a chest tube (7).",
+          "esion size of 20 mm, 94% had navigation completed and tissue obtained. The 12-month diagnostic yield was 73% with samples demonstrating malignancy comprising 44%. This study reported sensitivity of malignancy of 69%, specificity of 100%, positive predictive value of 100%, and negative predictive value of 56% (15).",
+          "ntraprocedural adverse events (18). The recently completed Evaluation of the Archimedes System for Transparenchymal Nodule Access 2 (EAST-2) study is awaiting publication, and was a prospective evaluation of the system in 106 patients with a total of 125 nodules.",
+          "btain multiple projections by using a conventional C-arm fluoroscopy machine. This improves real-time localization of the navigation probe which may be altered due to CTbody divergence. A retrospective study by Aboudara and colleagues demonstrated a 25% absolute increase in diagnostic yield (79%) compared with using standard navigation alone (54%) (19).",
+          "o redirect sampling tools to a lesion (22). In a study of 20 patients, Casal and colleagues demonstrated a 25% absolute increase in diagnostic yield of peripheral lung nodules along with an acceptable radiation dose of 11-29 mSv (23). However, a significant limitation of this technology is the current expensive cost, which may make it difficult to obtain for most pulmonologists at this time.",
+          "nto place at the level of the segmental bronchi while the inner bronchoscope is further advanced to the target lesion ( Figure 3 ). In a recent multicenter trial published in 2019, Chaddha and colleagues performed successful navigation in 88.6% of the cases with an initial diagnostic yield of 69.1-77% using the Monarch™ system. The average size of the lesions was 25 mm with 71% of the lesions located in the peripheral third of the lung (25). In a follow-up study, Chen and colleagues recently completed a prospective, multicenter study of robotic bronchoscopy utilizing the Monarch™ system in patients with PPLs. Diagnostic yield was found to be 74.1%. Peripheral lesions with a concentric r-Endobronchial ultrasound (EBUS) view was found to be 80.6% as compared with 70% for those that were eccentric (26). Currently, there is an ongoing prospective, multicenter trial [Transbronchial Biopsy Assisted by Robot Guidance in the Evaluation of Tumors of the Lung (TARGET), ClinicalTrials.gov Identifier: NCT04182815] that is evaluating the yield, complication rate, among other outcome measures by the use of the Monarch™ platform.",
+          "emaining sheath. Proprietary shape-sensing technology offers real time feedback. A study performed by Fielding and colleagues utilized the system in 30 patients with peripheral nodules that had a mean diameter of 12.5 mm and obtained a diagnostic yield of 83% (27). Currently, a prospective evaluation of the clinical utility of the Ion™ Endoluminal System (PRECIsE) will be completed in December 2020 (ClinicalTrials.gov Identifier: NCT03893539)."
+        ]
+      },
+      {
+        "type": "figure",
+        "content": {
+          "self_ref": "#/pictures/1",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [
+            {
+              "cref": "#/texts/29"
+            },
+            {
+              "cref": "#/texts/30"
+            },
+            {
+              "cref": "#/texts/31"
+            },
+            {
+              "cref": "#/texts/32"
+            },
+            {
+              "cref": "#/texts/33"
+            },
+            {
+              "cref": "#/texts/34"
+            },
+            {
+              "cref": "#/texts/35"
+            },
+            {
+              "cref": "#/texts/36"
+            },
+            {
+              "cref": "#/texts/37"
+            },
+            {
+              "cref": "#/texts/38"
+            }
+          ],
+          "content_layer": "body",
+          "label": "picture",
+          "prov": [
+            {
+              "page_no": 3,
+              "bbox": {
+                "l": 104.48809814453125,
+                "t": 696.4592819213867,
+                "r": 490.9654846191406,
+                "b": 437.0174865722656,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                0
+              ]
+            }
+          ],
+          "captions": [
+            {
+              "cref": "#/texts/29"
+            }
+          ],
+          "references": [],
+          "footnotes": [],
+          "image": null,
+          "annotations": []
+        },
+        "captions": [
+          "). The working channel is then able to be navigated to the PPL. The SPiNDrive system pre-procedural planning uses both an inspiratory and expiratory CT chest to account for nodule movement during the respiratory cycle. This system utilizes a sensor at the tip of the biopsy/tissue collection tool that is then tracked within the electromagnetic field during the procedure. This tool is navigated through the working channel of a bronchoscope to the peripheral target."
+        ],
+        "footnotes": [
+          "as demonstrated a rather low sensitivity (14-63%) for diagnosing malignant lesions and even lower for those that are less than 20 mm in diameter (6,7). On the other hand, a prior study of CT guided transthoracic needle aspiration for lung cancer demonstrated a sensitivity of 93% though with a complication rate of 25%. Incidence of pneumothorax, however, was 24% with 7% of those patients requiring a chest tube (7).",
+          "esion size of 20 mm, 94% had navigation completed and tissue obtained. The 12-month diagnostic yield was 73% with samples demonstrating malignancy comprising 44%. This study reported sensitivity of malignancy of 69%, specificity of 100%, positive predictive value of 100%, and negative predictive value of 56% (15).",
+          "ntraprocedural adverse events (18). The recently completed Evaluation of the Archimedes System for Transparenchymal Nodule Access 2 (EAST-2) study is awaiting publication, and was a prospective evaluation of the system in 106 patients with a total of 125 nodules.",
+          "btain multiple projections by using a conventional C-arm fluoroscopy machine. This improves real-time localization of the navigation probe which may be altered due to CTbody divergence. A retrospective study by Aboudara and colleagues demonstrated a 25% absolute increase in diagnostic yield (79%) compared with using standard navigation alone (54%) (19).",
+          "o redirect sampling tools to a lesion (22). In a study of 20 patients, Casal and colleagues demonstrated a 25% absolute increase in diagnostic yield of peripheral lung nodules along with an acceptable radiation dose of 11-29 mSv (23). However, a significant limitation of this technology is the current expensive cost, which may make it difficult to obtain for most pulmonologists at this time.",
+          "nto place at the level of the segmental bronchi while the inner bronchoscope is further advanced to the target lesion ( Figure 3 ). In a recent multicenter trial published in 2019, Chaddha and colleagues performed successful navigation in 88.6% of the cases with an initial diagnostic yield of 69.1-77% using the Monarch™ system. The average size of the lesions was 25 mm with 71% of the lesions located in the peripheral third of the lung (25). In a follow-up study, Chen and colleagues recently completed a prospective, multicenter study of robotic bronchoscopy utilizing the Monarch™ system in patients with PPLs. Diagnostic yield was found to be 74.1%. Peripheral lesions with a concentric r-Endobronchial ultrasound (EBUS) view was found to be 80.6% as compared with 70% for those that were eccentric (26). Currently, there is an ongoing prospective, multicenter trial [Transbronchial Biopsy Assisted by Robot Guidance in the Evaluation of Tumors of the Lung (TARGET), ClinicalTrials.gov Identifier: NCT04182815] that is evaluating the yield, complication rate, among other outcome measures by the use of the Monarch™ platform.",
+          "emaining sheath. Proprietary shape-sensing technology offers real time feedback. A study performed by Fielding and colleagues utilized the system in 30 patients with peripheral nodules that had a mean diameter of 12.5 mm and obtained a diagnostic yield of 83% (27). Currently, a prospective evaluation of the clinical utility of the Ion™ Endoluminal System (PRECIsE) will be completed in December 2020 (ClinicalTrials.gov Identifier: NCT03893539)."
+        ]
+      },
+      {
+        "type": "figure",
+        "content": {
+          "self_ref": "#/pictures/2",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [
+            {
+              "cref": "#/texts/41"
+            }
+          ],
+          "content_layer": "body",
+          "label": "picture",
+          "prov": [
+            {
+              "page_no": 3,
+              "bbox": {
+                "l": 307.5301208496094,
+                "t": 283.45440673828125,
+                "r": 322.3891296386719,
+                "b": 274.656982421875,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                0
+              ]
+            }
+          ],
+          "captions": [],
+          "references": [],
+          "footnotes": [],
+          "image": null,
+          "annotations": []
+        },
+        "captions": [
+          "). The working channel is then able to be navigated to the PPL. The SPiNDrive system pre-procedural planning uses both an inspiratory and expiratory CT chest to account for nodule movement during the respiratory cycle. This system utilizes a sensor at the tip of the biopsy/tissue collection tool that is then tracked within the electromagnetic field during the procedure. This tool is navigated through the working channel of a bronchoscope to the peripheral target."
+        ],
+        "footnotes": [
+          "as demonstrated a rather low sensitivity (14-63%) for diagnosing malignant lesions and even lower for those that are less than 20 mm in diameter (6,7). On the other hand, a prior study of CT guided transthoracic needle aspiration for lung cancer demonstrated a sensitivity of 93% though with a complication rate of 25%. Incidence of pneumothorax, however, was 24% with 7% of those patients requiring a chest tube (7).",
+          "esion size of 20 mm, 94% had navigation completed and tissue obtained. The 12-month diagnostic yield was 73% with samples demonstrating malignancy comprising 44%. This study reported sensitivity of malignancy of 69%, specificity of 100%, positive predictive value of 100%, and negative predictive value of 56% (15).",
+          "ntraprocedural adverse events (18). The recently completed Evaluation of the Archimedes System for Transparenchymal Nodule Access 2 (EAST-2) study is awaiting publication, and was a prospective evaluation of the system in 106 patients with a total of 125 nodules.",
+          "btain multiple projections by using a conventional C-arm fluoroscopy machine. This improves real-time localization of the navigation probe which may be altered due to CTbody divergence. A retrospective study by Aboudara and colleagues demonstrated a 25% absolute increase in diagnostic yield (79%) compared with using standard navigation alone (54%) (19).",
+          "o redirect sampling tools to a lesion (22). In a study of 20 patients, Casal and colleagues demonstrated a 25% absolute increase in diagnostic yield of peripheral lung nodules along with an acceptable radiation dose of 11-29 mSv (23). However, a significant limitation of this technology is the current expensive cost, which may make it difficult to obtain for most pulmonologists at this time.",
+          "nto place at the level of the segmental bronchi while the inner bronchoscope is further advanced to the target lesion ( Figure 3 ). In a recent multicenter trial published in 2019, Chaddha and colleagues performed successful navigation in 88.6% of the cases with an initial diagnostic yield of 69.1-77% using the Monarch™ system. The average size of the lesions was 25 mm with 71% of the lesions located in the peripheral third of the lung (25). In a follow-up study, Chen and colleagues recently completed a prospective, multicenter study of robotic bronchoscopy utilizing the Monarch™ system in patients with PPLs. Diagnostic yield was found to be 74.1%. Peripheral lesions with a concentric r-Endobronchial ultrasound (EBUS) view was found to be 80.6% as compared with 70% for those that were eccentric (26). Currently, there is an ongoing prospective, multicenter trial [Transbronchial Biopsy Assisted by Robot Guidance in the Evaluation of Tumors of the Lung (TARGET), ClinicalTrials.gov Identifier: NCT04182815] that is evaluating the yield, complication rate, among other outcome measures by the use of the Monarch™ platform.",
+          "emaining sheath. Proprietary shape-sensing technology offers real time feedback. A study performed by Fielding and colleagues utilized the system in 30 patients with peripheral nodules that had a mean diameter of 12.5 mm and obtained a diagnostic yield of 83% (27). Currently, a prospective evaluation of the clinical utility of the Ion™ Endoluminal System (PRECIsE) will be completed in December 2020 (ClinicalTrials.gov Identifier: NCT03893539)."
+        ]
+      },
+      {
+        "type": "figure",
+        "content": {
+          "self_ref": "#/pictures/3",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [
+            {
+              "cref": "#/texts/50"
+            }
+          ],
+          "content_layer": "body",
+          "label": "picture",
+          "prov": [
+            {
+              "page_no": 4,
+              "bbox": {
+                "l": 112.18637084960938,
+                "t": 695.7067108154297,
+                "r": 298.1779479980469,
+                "b": 544.9782257080078,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                0
+              ]
+            }
+          ],
+          "captions": [],
+          "references": [],
+          "footnotes": [],
+          "image": null,
+          "annotations": []
+        },
+        "captions": [
+          "). The working channel is then able to be navigated to the PPL. The SPiNDrive system pre-procedural planning uses both an inspiratory and expiratory CT chest to account for nodule movement during the respiratory cycle. This system utilizes a sensor at the tip of the biopsy/tissue collection tool that is then tracked within the electromagnetic field during the procedure. This tool is navigated through the working channel of a bronchoscope to the peripheral target."
+        ],
+        "footnotes": [
+          "as demonstrated a rather low sensitivity (14-63%) for diagnosing malignant lesions and even lower for those that are less than 20 mm in diameter (6,7). On the other hand, a prior study of CT guided transthoracic needle aspiration for lung cancer demonstrated a sensitivity of 93% though with a complication rate of 25%. Incidence of pneumothorax, however, was 24% with 7% of those patients requiring a chest tube (7).",
+          "esion size of 20 mm, 94% had navigation completed and tissue obtained. The 12-month diagnostic yield was 73% with samples demonstrating malignancy comprising 44%. This study reported sensitivity of malignancy of 69%, specificity of 100%, positive predictive value of 100%, and negative predictive value of 56% (15).",
+          "ntraprocedural adverse events (18). The recently completed Evaluation of the Archimedes System for Transparenchymal Nodule Access 2 (EAST-2) study is awaiting publication, and was a prospective evaluation of the system in 106 patients with a total of 125 nodules.",
+          "btain multiple projections by using a conventional C-arm fluoroscopy machine. This improves real-time localization of the navigation probe which may be altered due to CTbody divergence. A retrospective study by Aboudara and colleagues demonstrated a 25% absolute increase in diagnostic yield (79%) compared with using standard navigation alone (54%) (19).",
+          "o redirect sampling tools to a lesion (22). In a study of 20 patients, Casal and colleagues demonstrated a 25% absolute increase in diagnostic yield of peripheral lung nodules along with an acceptable radiation dose of 11-29 mSv (23). However, a significant limitation of this technology is the current expensive cost, which may make it difficult to obtain for most pulmonologists at this time.",
+          "nto place at the level of the segmental bronchi while the inner bronchoscope is further advanced to the target lesion ( Figure 3 ). In a recent multicenter trial published in 2019, Chaddha and colleagues performed successful navigation in 88.6% of the cases with an initial diagnostic yield of 69.1-77% using the Monarch™ system. The average size of the lesions was 25 mm with 71% of the lesions located in the peripheral third of the lung (25). In a follow-up study, Chen and colleagues recently completed a prospective, multicenter study of robotic bronchoscopy utilizing the Monarch™ system in patients with PPLs. Diagnostic yield was found to be 74.1%. Peripheral lesions with a concentric r-Endobronchial ultrasound (EBUS) view was found to be 80.6% as compared with 70% for those that were eccentric (26). Currently, there is an ongoing prospective, multicenter trial [Transbronchial Biopsy Assisted by Robot Guidance in the Evaluation of Tumors of the Lung (TARGET), ClinicalTrials.gov Identifier: NCT04182815] that is evaluating the yield, complication rate, among other outcome measures by the use of the Monarch™ platform.",
+          "emaining sheath. Proprietary shape-sensing technology offers real time feedback. A study performed by Fielding and colleagues utilized the system in 30 patients with peripheral nodules that had a mean diameter of 12.5 mm and obtained a diagnostic yield of 83% (27). Currently, a prospective evaluation of the clinical utility of the Ion™ Endoluminal System (PRECIsE) will be completed in December 2020 (ClinicalTrials.gov Identifier: NCT03893539)."
+        ]
+      },
+      {
+        "type": "figure",
+        "content": {
+          "self_ref": "#/pictures/4",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [
+            {
+              "cref": "#/texts/64"
+            },
+            {
+              "cref": "#/texts/65"
+            },
+            {
+              "cref": "#/texts/66"
+            },
+            {
+              "cref": "#/texts/67"
+            },
+            {
+              "cref": "#/texts/68"
+            },
+            {
+              "cref": "#/texts/69"
+            },
+            {
+              "cref": "#/texts/70"
+            },
+            {
+              "cref": "#/texts/71"
+            },
+            {
+              "cref": "#/texts/72"
+            },
+            {
+              "cref": "#/texts/73"
+            },
+            {
+              "cref": "#/texts/74"
+            },
+            {
+              "cref": "#/texts/75"
+            },
+            {
+              "cref": "#/texts/76"
+            },
+            {
+              "cref": "#/texts/77"
+            }
+          ],
+          "content_layer": "body",
+          "label": "picture",
+          "prov": [
+            {
+              "page_no": 5,
+              "bbox": {
+                "l": 112.56753540039062,
+                "t": 696.1024780273438,
+                "r": 482.43408203125,
+                "b": 502.13494873046875,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                0
+              ]
+            }
+          ],
+          "captions": [
+            {
+              "cref": "#/texts/64"
+            }
+          ],
+          "references": [],
+          "footnotes": [],
+          "image": null,
+          "annotations": []
+        },
+        "captions": [
+          "). The working channel is then able to be navigated to the PPL. The SPiNDrive system pre-procedural planning uses both an inspiratory and expiratory CT chest to account for nodule movement during the respiratory cycle. This system utilizes a sensor at the tip of the biopsy/tissue collection tool that is then tracked within the electromagnetic field during the procedure. This tool is navigated through the working channel of a bronchoscope to the peripheral target."
+        ],
+        "footnotes": [
+          "as demonstrated a rather low sensitivity (14-63%) for diagnosing malignant lesions and even lower for those that are less than 20 mm in diameter (6,7). On the other hand, a prior study of CT guided transthoracic needle aspiration for lung cancer demonstrated a sensitivity of 93% though with a complication rate of 25%. Incidence of pneumothorax, however, was 24% with 7% of those patients requiring a chest tube (7).",
+          "esion size of 20 mm, 94% had navigation completed and tissue obtained. The 12-month diagnostic yield was 73% with samples demonstrating malignancy comprising 44%. This study reported sensitivity of malignancy of 69%, specificity of 100%, positive predictive value of 100%, and negative predictive value of 56% (15).",
+          "ntraprocedural adverse events (18). The recently completed Evaluation of the Archimedes System for Transparenchymal Nodule Access 2 (EAST-2) study is awaiting publication, and was a prospective evaluation of the system in 106 patients with a total of 125 nodules.",
+          "btain multiple projections by using a conventional C-arm fluoroscopy machine. This improves real-time localization of the navigation probe which may be altered due to CTbody divergence. A retrospective study by Aboudara and colleagues demonstrated a 25% absolute increase in diagnostic yield (79%) compared with using standard navigation alone (54%) (19).",
+          "o redirect sampling tools to a lesion (22). In a study of 20 patients, Casal and colleagues demonstrated a 25% absolute increase in diagnostic yield of peripheral lung nodules along with an acceptable radiation dose of 11-29 mSv (23). However, a significant limitation of this technology is the current expensive cost, which may make it difficult to obtain for most pulmonologists at this time.",
+          "nto place at the level of the segmental bronchi while the inner bronchoscope is further advanced to the target lesion ( Figure 3 ). In a recent multicenter trial published in 2019, Chaddha and colleagues performed successful navigation in 88.6% of the cases with an initial diagnostic yield of 69.1-77% using the Monarch™ system. The average size of the lesions was 25 mm with 71% of the lesions located in the peripheral third of the lung (25). In a follow-up study, Chen and colleagues recently completed a prospective, multicenter study of robotic bronchoscopy utilizing the Monarch™ system in patients with PPLs. Diagnostic yield was found to be 74.1%. Peripheral lesions with a concentric r-Endobronchial ultrasound (EBUS) view was found to be 80.6% as compared with 70% for those that were eccentric (26). Currently, there is an ongoing prospective, multicenter trial [Transbronchial Biopsy Assisted by Robot Guidance in the Evaluation of Tumors of the Lung (TARGET), ClinicalTrials.gov Identifier: NCT04182815] that is evaluating the yield, complication rate, among other outcome measures by the use of the Monarch™ platform.",
+          "emaining sheath. Proprietary shape-sensing technology offers real time feedback. A study performed by Fielding and colleagues utilized the system in 30 patients with peripheral nodules that had a mean diameter of 12.5 mm and obtained a diagnostic yield of 83% (27). Currently, a prospective evaluation of the clinical utility of the Ion™ Endoluminal System (PRECIsE) will be completed in December 2020 (ClinicalTrials.gov Identifier: NCT03893539)."
+        ]
+      }
+    ]
+  },
+  "statistics": [],
+  "validation": {
+    "checks": {
+      "has_title": true,
+      "has_authors": true,
+      "authors_are_valid": false,
+      "has_sections": true,
+      "sections_have_content": true,
+      "has_tables": false,
+      "tables_have_captions": true,
+      "tables_have_data": true,
+      "has_figures": true,
+      "figures_have_captions": false,
+      "figures_have_images": false,
+      "has_entities": false,
+      "has_statistics": false,
+      "has_references": true,
+      "refs_structured": true,
+      "refs_enriched_some": false,
+      "references_enriched": false,
+      "has_references_csv": false,
+      "has_cross_refs": false,
+      "umls_links": false,
+      "figures_textual_count": 0
+    },
+    "completeness_score": 53,
+    "is_valid": false,
+    "issues": [],
+    "warnings": [
+      "No medical entities found",
+      "No statistics extracted",
+      "Some figures missing captions"
+    ],
+    "quality_level": "poor",
+    "hardening": {
+      "fixes": [
+        {
+          "field": "year",
+          "action": "normalize:iso",
+          "old": "2020-12",
+          "new": 2020
+        },
+        {
+          "field": "authors",
+          "action": "filtered_ack_like",
+          "old": [
+            "Ajay Wagh",
+            "Elliot Ho",
+            "Septimiu Murgu",
+            "Douglas Kyle Hogarth"
+          ],
+          "new": [
+            "Ajay Wagh",
+            "Elliot Ho",
+            "Septimiu Murgu",
+            "Douglas Kyle Hogarth"
+          ]
+        },
+        {
+          "field": "journal_full",
+          "action": "canonicalize",
+          "old": null,
+          "new": "Journal of Thoracic Disease"
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,37 @@
+[
+  {
+    "op": "add",
+    "path": "/metadata/title",
+    "value": "Operating Room Fires"
+  },
+  {
+    "op": "add",
+    "path": "/metadata/journal",
+    "value": "Anesthesiology"
+  },
+  {
+    "op": "add",
+    "path": "/metadata/year",
+    "value": "2019"
+  },
+  {
+    "op": "add",
+    "path": "/metadata/volume",
+    "value": "130"
+  },
+  {
+    "op": "add",
+    "path": "/metadata/pages",
+    "value": "492-501"
+  },
+  {
+    "op": "replace",
+    "path": "/metadata/authors",
+    "value": [
+      "Teresa S. Jones",
+      "Ian H. Black",
+      "Thomas N. Robinson",
+      "Edward L. Jones"
+    ]
+  }
+]

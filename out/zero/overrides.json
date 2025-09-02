@@ -1,0 +1,47 @@
+{
+  "by_filename": {
+    "Operating Room Fires.json": {"doi": "10.1097/ALN.0000000000002598", "journal": "Anesthesiology", "year": 2019, "volume": "130", "issue": "3", "pages": "492-501"},
+    "Local anaesthetic thoracoscopy .json": {"doi": "10.1159/000546341"},
+    "ratwani-et-al-2025-post-thoracentesis-ultrasound-vs-chest-x-ray-for-the-evaluation-of-effusion-evacuation-and-lung-re.json": {"doi": "10.1513/AnnalsATS.202410-1095OC"},
+    "Reichle-2000-[Argon plasma coagulation in bron.json": {"doi": "10.1055/s-2000-8254"},
+    "percutaneous_endoscopic_gastrostomy__a_practic.json": {"doi": "10.1097/SGA.0000000000000150"},
+    "External irradiation versus external irradiati.json": {"year": 2001, "doi": "10.1016/S0167-8140(00)00345-5", "journal": "Radiotherapy and Oncology", "volume": "58", "issue": "3", "pages": "257-268"},
+    "Nd-YAG laser vs bronchoscopic electrocautery.json": {"year": 1999, "doi": "10.1378/chest.116.4.1108", "journal": "Chest", "volume": "116", "issue": "4", "pages": "1108-1112"},
+    "fistula Airway ultraflex stenting in esophageal cancer.json": {"year": 2012, "doi": "10.1097/MAJ.0b013e3182367b6a", "journal": "The American Journal of the Medical Sciences", "volume": "344", "issue": "2", "pages": "105-109"},
+    "IP extending breath of care.json": {"year": 2024, "doi": "10.1146/annurev-med-050922-060929", "journal": "Annual Review of Medicine", "volume": "75", "pages": "263-276"},
+    "The heat is on impact of endobronchial electro.json": {"doi": "10.1378/chest.118.2.516"},
+    "NdYAG laser bronchoscopy A five year experienc.json": {"doi": "10.1378/chest.94.1.15"},
+    "surigicalLVR Rationale and design of The NETT Trial.json": {"doi": "10.1378/chest.116.6.1750", "year": 1999, "journal": "Chest", "volume": "116", "issue": "6", "pages": "1750-1761"},
+    "Cryosurgery for malignant endobronchial tumors.json": {"doi": "10.1378/chest.127.6.2007"},
+    "Tracheomalacia and tracheobronchomalacia in ch.json": {"doi": "10.1378/chest.127.3.984"},
+    "Endobronchial epinephrine confusion is in the air.json": {"doi": "10.1164/rccm.201209-1682LE"},
+    "Clinical and quality of life outcomes vs. exte.json": {"doi": "10.1016/S0167-8140(00)00252-8", "year": 2000, "journal": "Radiotherapy and Oncology", "volume": "56", "issue": "3", "pages": "323-327"},
+    "Rigid bronchoscopy and silicone st.json": {"doi": "10.3978/j.issn.2072-1439.2015.11.17", "year": 2015, "journal": "Journal of Thoracic Disease", "volume": "7", "issue": "Suppl 4", "pages": "S352-S362"},
+    "Senitko-2019-Safety and Tolerability of Vacuum.json": {"doi": "10.1097/LBR.0000000000000556", "year": 2019, "journal": "Journal of Bronchology & Interventional Pulmonology", "volume": "26", "issue": "3", "pages": "166-171"},
+    "fistula Ke-2015-The treatment strategy for tracheoesop.json": {"doi": "10.3978/j.issn.2072-1439.2015.12.11", "year": 2015, "journal": "Journal of Thoracic Disease", "volume": "7", "issue": "Suppl 4", "pages": "S389-S397"},
+    "nd__yag_laser_therapy_in_lung_cancer__an_11_year.6.json": {"doi": "10.1097/00128594-199404000-00006", "year": 1994, "journal": "Journal of Bronchology", "volume": "1", "issue": "2", "pages": "105-111"},
+    "NdYAG_laser_therapy_in_lung_cancer_1994.json": {"doi": "10.1097/00128594-199404000-00006", "year": 1994, "journal": "Journal of Bronchology", "volume": "1", "issue": "2", "pages": "105-111"}
+  },
+  "by_title": {
+    "nd:yag laser therapy in lung cancer: an 11-year experience with 2,253 applications in 1,585 patients": {
+      "journal": "Journal of Bronchology",
+      "year": 1994,
+      "volume": "1",
+      "pages": "105-111",
+      "authors": [
+        "Sergio Cavaliere",
+        "Pierfranco Foccoli",
+        "Carlo Toninelli",
+        "Salvato Feijo"
+      ]
+    },
+    "Nd:YAG laser therapy in lung cancer": {
+      "year": 1994,
+      "journal": "Journal of Bronchology",
+      "volume": "1",
+      "issue": "2",
+      "pages": "110-111",
+      "note": "Seeded from PDF footer and headings; DOI unknown offline"
+    }
+  }
+}

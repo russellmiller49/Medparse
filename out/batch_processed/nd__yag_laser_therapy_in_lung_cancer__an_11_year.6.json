@@ -1,0 +1,28 @@
+{
+  "metadata": {
+    "title": "Nd:YAG laser therapy in lung cancer: an 11-year experience with 2,253 applications in 1,585 patients",
+    "journal": "Journal of Bronchology",
+    "year": "1994",
+    "volume": "1",
+    "issue": "2",
+    "pages": "110-111",
+    "doi": null,
+    "authors": ["Cavaliere S", "et al."]
+  },
+  "structure": {},
+  "provenance": {
+    "orig_pdf_filename": "nd__yag_laser_therapy_in_lung_cancer__an_11_year.6.pdf",
+    "source": "manual_seed",
+    "notes": "Created metadata-only record from PDF; no DOI found offline",
+    "patches": [
+      {
+        "op": "add",
+        "path": "metadata",
+        "source": "manual_seed",
+        "confidence": 0.95,
+        "note": "Seed values from PDF header/footer"
+      }
+    ]
+  }
+}
+

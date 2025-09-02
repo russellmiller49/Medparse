@@ -1,0 +1,856 @@
+{
+  "metadata": {
+    "title": "The Business of Bronchoscopy",
+    "year": 2018,
+    "authors": [
+      {
+        "given": "Edward",
+        "family": "Kessler",
+        "suffix": null,
+        "degrees": [],
+        "display": "Edward Kessler",
+        "group": false
+      },
+      {
+        "given": "Momen M.",
+        "family": "Wahidi",
+        "suffix": null,
+        "degrees": [],
+        "display": "Momen M. Wahidi",
+        "group": false
+      }
+    ],
+    "references_text": [
+      "The future of interventional pulmonology\n\t\t\n\t\t\tSArias\n\t\t\n\t\t\n\t\t\tHJLee\n\t\t\n\t\n\t\n\t\tSemin Respir Crit Care Med\n\t\t\n\t\t\t35\n\t\t\t\n\t\t\t2014",
+      "Analysis of Employment Data for Interventional Pulmonary Fellowship Graduates\n\t\t\n\t\t\tHansJLee\n\t\t\n\t\t\n\t\t\tDavidFeller-Kopman\n\t\t\n\t\t\n\t\t\tShaheenIslam\n\t\t\n\t\t\n\t\t\tAdnanMajid\n\t\t\n\t\t\n\t\t\tLonnyYarmus\n\t\t\n\t\t10.1513/annalsats.201408-374oc\n\t\n\t\n\t\tAnnals of the American Thoracic Society\n\t\tAnnals ATS\n\t\t2329-6933\n\t\t2325-6621\n\t\t\n\t\t\t12\n\t\t\t4\n\t\t\t\n\t\t\t2015\n\t\t\tAmerican Thoracic Society",
+      "Assessing the industry using Porter's five forces\n\t\t10.1136/vr.g339\n\t\n\t\n\t\tVeterinary Record\n\t\tVeterinary Record\n\t\t0042-4900\n\t\t2042-7670\n\t\t\n\t\t\t174\n\t\t\tS1\n\t\t\t\n\t\t\t2014\n\t\t\tWiley",
+      "The Interventional Radiology Business Plan\n\t\t\n\t\t\tMichaelVBeheshti\n\t\t\n\t\t\n\t\t\tMaryEMeek\n\t\t\n\t\t\n\t\t\tJohnAKaufman\n\t\t\n\t\t10.1016/j.jvir.2012.05.044\n\t\n\t\n\t\tJournal of Vascular and Interventional Radiology\n\t\tJournal of Vascular and Interventional Radiology\n\t\t1051-0443\n\t\t\n\t\t\t23\n\t\t\t9\n\t\t\t\n\t\t\t2012\n\t\t\tElsevier BV",
+      "First write your business plan\n\t\t\n\t\t\tBrendanHorton\n\t\t\n\t\t10.1038/20224\n\t\t\n\t\n\t\n\t\tNature\n\t\tNature\n\t\t0028-0836\n\t\t1476-4687\n\t\t\n\t\t\t399\n\t\t\t6732\n\t\t\t\n\t\t\tJune 24, 2017\n\t\t\tSpringer Science and Business Media LLC",
+      "Developing an Interventional Pulmonary Service in a Community-Based Private Practice\n\t\t\n\t\t\tKimDFrench\n\t\t\n\t\t\n\t\t\tNeerajRDesai\n\t\t\n\t\t\n\t\t\tEdwardDiamond\n\t\t\n\t\t\n\t\t\tKevinLKovitz\n\t\t\n\t\t10.1016/j.chest.2015.12.025\n\t\n\t\n\t\tChest\n\t\tChest\n\t\t0012-3692\n\t\t\n\t\t\t149\n\t\t\t4\n\t\t\t\n\t\t\t2016\n\t\t\tElsevier BV",
+      "Understanding the Economic Impact of Introducing a New Procedure\n\t\t\n\t\t\tNicholasJPastis\n\t\t\n\t\t\n\t\t\tSuzanneSimkovich\n\t\t\n\t\t\n\t\t\tGerardASilvestri\n\t\t\n\t\t10.1378/chest.11-0254\n\t\n\t\n\t\tChest\n\t\tChest\n\t\t0012-3692\n\t\t\n\t\t\t141\n\t\t\t2\n\t\t\t\n\t\t\t2012\n\t\t\tElsevier BV",
+      "Investing in New Technology in Pulmonary Medicine\n\t\t\n\t\t\tRobertKruklitis\n\t\t\n\t\t\n\t\t\tKimFrench\n\t\t\n\t\t\n\t\t\tMichaelJosephCangelosi\n\t\t\n\t\t\n\t\t\tKevinLKovitz\n\t\t\n\t\t10.1016/j.chest.2017.06.014\n\t\t\n\t\n\t\n\t\tChest\n\t\tChest\n\t\t0012-3692\n\t\t\n\t\t\t152\n\t\t\t3\n\t\t\t\n\t\t\t2017\n\t\t\tElsevier BV",
+      "The Use of Nonphysician Providers in Adult Intensive Care Units\n\t\t\n\t\t\tHayleyBGershengorn\n\t\t\n\t\t\n\t\t\tMaryPJohnson\n\t\t\n\t\t\n\t\t\tPhillipFactor\n\t\t\n\t\t10.1164/rccm.201107-1261cp\n\t\n\t\n\t\tAmerican Journal of Respiratory and Critical Care Medicine\n\t\tAm J Respir Crit Care Med\n\t\t1073-449X\n\t\t1535-4970\n\t\t\n\t\t\t185\n\t\t\t6\n\t\t\t\n\t\t\t2012\n\t\t\tAmerican Thoracic Society",
+      "Physician extenders on surgical services: a systematic review\n\t\t\n\t\t\tJagdeepJohal\n\t\t\n\t\t\n\t\t\tAndrewDodd\n\t\t\n\t\t10.1503/cjs.001516\n\t\n\t\n\t\tCanadian Journal of Surgery\n\t\tCJS\n\t\t0008-428X\n\t\t\n\t\t\t60\n\t\t\t3\n\t\t\t\n\t\t\t2017\n\t\t\tCMA Joule Inc.",
+      "Improving outcomes in lung cancer: the value of the multidisciplinary health care team\n\t\t\n\t\t\tEDenton\n\t\t\n\t\t\n\t\t\tMConron\n\t\t\n\t\n\t\n\t\tJ Multidiscip Healthc\n\t\t\n\t\t\t9\n\t\t\t\n\t\t\t2016"
+    ],
+    "references_raw": [
+      "The future of interventional pulmonology\n\t\t\n\t\t\tSArias\n\t\t\n\t\t\n\t\t\tHJLee\n\t\t\n\t\n\t\n\t\tSemin Respir Crit Care Med\n\t\t\n\t\t\t35\n\t\t\t\n\t\t\t2014",
+      "Analysis of employment data for interventional pulmonary fellowship graduates\n\t\t\n\t\t\tHJLee\n\t\t\n\t\t\n\t\t\tDFeller-Kopman\n\t\t\n\t\t\n\t\t\tSIslam\n\t\t\n\t\n\t\n\t\tAnn Am Thorac Soc\n\t\t\n\t\t\t12\n\t\t\t4\n\t\t\t\n\t\t\t2015",
+      "Assessing the industry using Porter's five forces\n\t\n\t\n\t\tVet Rec\n\t\t\n\t\t\t174\n\t\t\t\n\t\t\t2014",
+      "The interventional radiology business plan\n\t\t\n\t\t\tMVBeheshti\n\t\t\n\t\t\n\t\t\tMEMeek\n\t\t\n\t\t\n\t\t\tJAKaufman\n\t\t\n\t\n\t\n\t\tJ Vasc Interv Radiol\n\t\t\n\t\t\t23\n\t\t\t9\n\t\t\t\n\t\t\t2012",
+      "Write your business plan\n\t\t\n\t\t\tUS Small Business Administration\n\t\t\tJune 24, 2017",
+      "Developing an interventional pulmonary service in a communitybased private practice: a case study\n\t\t\n\t\t\tKDFrench\n\t\t\n\t\t\n\t\t\tNRDesai\n\t\t\n\t\t\n\t\t\tEDiamond\n\t\t\n\t\n\t\n\t\tChest\n\t\t\n\t\t\t149\n\t\t\t4\n\t\t\t\n\t\t\t2016",
+      "Understanding the economic impact of introducing a new procedure: calculating downstream revenue of endobronchial ultrasound with transbronchial needle aspiration as a model\n\t\t\n\t\t\tNJPastis\n\t\t\n\t\t\n\t\t\tSSimkovich\n\t\t\n\t\t\n\t\t\tGASilvestri\n\t\t\n\t\n\t\n\t\tChest\n\t\t\n\t\t\t141\n\t\t\t2\n\t\t\t\n\t\t\t2012",
+      "Investing in new technology in pulmonary medicine -navigating the tortuous path to success\n\t\t\n\t\t\tRKruklitis\n\t\t\n\t\t\n\t\t\tKFrench\n\t\t\n\t\t\n\t\t\tMJCangelosi\n\t\t\n\t\t10.1016/j.chest.2017.06.014\n\t\t\n\t\n\t\n\t\tChest\n\t\t\n\t\t\t2017",
+      "The use of nonphysician providers in adult intensive care units\n\t\t\n\t\t\tHBGershengorn\n\t\t\n\t\t\n\t\t\tMPJohnson\n\t\t\n\t\t\n\t\t\tPFactor\n\t\t\n\t\n\t\n\t\tAm J Respir Crit Care Med\n\t\t\n\t\t\t185\n\t\t\t6\n\t\t\t\n\t\t\t2012",
+      "Physician extenders on surgical services: a systematic review\n\t\t\n\t\t\tJJohal\n\t\t\n\t\t\n\t\t\tADodd\n\t\t\n\t\n\t\n\t\tCan J Surg\n\t\t\n\t\t\t60\n\t\t\t3\n\t\t\t\n\t\t\t2017",
+      "Improving outcomes in lung cancer: the value of the multidisciplinary health care team\n\t\t\n\t\t\tEDenton\n\t\t\n\t\t\n\t\t\tMConron\n\t\t\n\t\n\t\n\t\tJ Multidiscip Healthc\n\t\t\n\t\t\t9\n\t\t\t\n\t\t\t2016"
+    ],
+    "references_struct": [
+      {
+        "title": "The future of interventional pulmonology",
+        "journal": "Semin Respir Crit Care Med",
+        "year": "2014",
+        "volume": "35",
+        "issue": null,
+        "pages": null,
+        "doi": null,
+        "pmid": null,
+        "authors": [
+          "Arias S",
+          "Lee HJ"
+        ],
+        "first_author_last": "Arias"
+      },
+      {
+        "title": "Analysis of employment data for interventional pulmonary fellowship graduates",
+        "journal": "Ann Am Thorac Soc",
+        "year": "2015",
+        "volume": "12",
+        "issue": "4",
+        "pages": null,
+        "doi": null,
+        "pmid": null,
+        "authors": [
+          "Lee HJ",
+          "Feller-Kopman D",
+          "Islam S"
+        ],
+        "first_author_last": "Lee"
+      },
+      {
+        "title": "Assessing the industry using Porter's five forces",
+        "journal": "Vet Rec",
+        "year": "2014",
+        "volume": "174",
+        "issue": null,
+        "pages": null,
+        "doi": null,
+        "pmid": null,
+        "authors": [],
+        "first_author_last": null
+      },
+      {
+        "title": "The interventional radiology business plan",
+        "journal": "J Vasc Interv Radiol",
+        "year": "2012",
+        "volume": "23",
+        "issue": "9",
+        "pages": null,
+        "doi": null,
+        "pmid": null,
+        "authors": [
+          "Beheshti MV",
+          "Meek ME",
+          "Kaufman JA"
+        ],
+        "first_author_last": "Beheshti"
+      },
+      {
+        "title": "Write your business plan",
+        "journal": "Write your business plan",
+        "year": "2017",
+        "volume": null,
+        "issue": null,
+        "pages": null,
+        "doi": null,
+        "pmid": null,
+        "authors": [],
+        "first_author_last": null
+      },
+      {
+        "title": "Developing an interventional pulmonary service in a communitybased private practice: a case study",
+        "journal": "Chest",
+        "year": "2016",
+        "volume": "149",
+        "issue": "4",
+        "pages": null,
+        "doi": null,
+        "pmid": null,
+        "authors": [
+          "French KD",
+          "Desai NR",
+          "Diamond E"
+        ],
+        "first_author_last": "French"
+      },
+      {
+        "title": "Understanding the economic impact of introducing a new procedure: calculating downstream revenue of endobronchial ultrasound with transbronchial needle aspiration as a model",
+        "journal": "Chest",
+        "year": "2012",
+        "volume": "141",
+        "issue": "2",
+        "pages": null,
+        "doi": null,
+        "pmid": null,
+        "authors": [
+          "Pastis NJ",
+          "Simkovich S",
+          "Silvestri GA"
+        ],
+        "first_author_last": "Pastis"
+      },
+      {
+        "title": "Investing in new technology in pulmonary medicine -navigating the tortuous path to success",
+        "journal": "Chest",
+        "year": "2017",
+        "volume": null,
+        "issue": null,
+        "pages": null,
+        "doi": "10.1016/j.chest.2017.06.014",
+        "pmid": null,
+        "authors": [
+          "Kruklitis R",
+          "French K",
+          "Cangelosi MJ"
+        ],
+        "first_author_last": "Kruklitis"
+      },
+      {
+        "title": "The use of nonphysician providers in adult intensive care units",
+        "journal": "Am J Respir Crit Care Med",
+        "year": "2012",
+        "volume": "185",
+        "issue": "6",
+        "pages": null,
+        "doi": null,
+        "pmid": null,
+        "authors": [
+          "Gershengorn HB",
+          "Johnson MP",
+          "Factor P"
+        ],
+        "first_author_last": "Gershengorn"
+      },
+      {
+        "title": "Physician extenders on surgical services: a systematic review",
+        "journal": "Can J Surg",
+        "year": "2017",
+        "volume": "60",
+        "issue": "3",
+        "pages": null,
+        "doi": null,
+        "pmid": null,
+        "authors": [
+          "Johal J",
+          "Dodd A"
+        ],
+        "first_author_last": "Johal"
+      },
+      {
+        "title": "Improving outcomes in lung cancer: the value of the multidisciplinary health care team",
+        "journal": "J Multidiscip Healthc",
+        "year": "2016",
+        "volume": "9",
+        "issue": null,
+        "pages": null,
+        "doi": null,
+        "pmid": null,
+        "authors": [
+          "Denton E",
+          "Conron M"
+        ],
+        "first_author_last": "Denton"
+      }
+    ],
+    "references_enriched": [
+      {
+        "title": "The future of interventional pulmonology"
+      },
+      {
+        "title": "Semin Respir Crit Care Med",
+        "year": 2014
+      },
+      {
+        "title": "Analysis of employment data for interventional pulmonary fellowship graduates",
+        "year": 2014
+      },
+      {
+        "title": "Ann Am Thorac Soc",
+        "year": 2015
+      },
+      {
+        "title": "Assessing the industry using Porter&apos;s five forces",
+        "year": 2015
+      },
+      {
+        "title": "Vet Rec",
+        "year": 2015
+      },
+      {
+        "title": "The interventional radiology business plan",
+        "year": 2014
+      },
+      {
+        "title": "J Vasc Interv Radiol",
+        "year": 2012
+      },
+      {
+        "title": "Write your business plan",
+        "year": 2012
+      },
+      {
+        "title": "Developing an interventional pulmonary service in a communitybased private practice: a case study",
+        "year": 2012
+      },
+      {
+        "title": "Chest",
+        "year": 2016
+      },
+      {
+        "title": "Understanding the economic impact of introducing a new procedure: calculating downstream revenue of endobronchial ultrasound with transbronchial needle aspiration as a model",
+        "year": 2016
+      },
+      {
+        "title": "Chest",
+        "year": 2016
+      },
+      {
+        "title": "Investing in new technology in pulmonary medicine -navigating the tortuous path to success",
+        "year": 2012
+      },
+      {
+        "title": "Chest",
+        "year": 2016
+      },
+      {
+        "title": "The use of nonphysician providers in adult intensive care units",
+        "year": 2017
+      },
+      {
+        "title": "Am J Respir Crit Care Med",
+        "year": 2012
+      },
+      {
+        "title": "Physician extenders on surgical services: a systematic review",
+        "year": 2012
+      },
+      {
+        "title": "Can J Surg",
+        "year": 2012
+      },
+      {
+        "title": "Improving outcomes in lung cancer: the value of the multidisciplinary health care team",
+        "year": 2017
+      },
+      {
+        "title": "J Multidiscip Healthc",
+        "year": 2016
+      }
+    ],
+    "references_source": "grobid_fallback",
+    "year_norm": "2018",
+    "doi": "10.1016/j.ccm.2017.11.006",
+    "journal": "Clinics in Chest Medicine",
+    "abstract": "Developing a new IP program, although a challenging endeavor, can be accomplished by understanding and addressing many facets of the health care community. Practice needs and competition should be carefully assessed to determine the viability of the new program. Devising a prudent business plan will further help assess the feasibility and guide the initiation and integration of the new IP program. The specific practice equipment, technology, and team should be clearly identified. Last, monitoring clinical and administrative aspects of the service must be pursued to ensure delivery of highquality and safe care.",
+    "volume": "39",
+    "issue": "1",
+    "pages": "239-243",
+    "issn": "02725231",
+    "url": "https://linkinghub.elsevier.com/retrieve/pii/S027252311730117X",
+    "published": {
+      "print": null,
+      "online": "2018-03"
+    },
+    "journal_full": "Clinics in Chest Medicine"
+  },
+  "structure": {
+    "sections": [
+      {
+        "title": "How to Set up an Interventional Pulmonology Program",
+        "paragraphs": [
+          {
+            "text": "INTRODUCTION"
+          },
+          {
+            "text": "Interventional pulmonology (IP) is a relatively new field that has grown tremendously in the last decade. Although IP practice is still relatively limited to the east coast and Midwest regions and major academic centers, further growth is expected with the development of multiple new programs across the United States. 1,2 This growth is in line with continued medical advances in diagnostic and therapeutic pulmonary procedures as well as changes in health care that tie reimbursement to high-quality, efficient, and costconscious care. In effort to aid the interventional pulmonologist in developing a new IP program, the following may serve as a guide to navigate the aspects of starting a new program."
+          },
+          {
+            "text": "NEEDS ASSESSMENT"
+          },
+          {
+            "text": "Before introducing a new product or service, a needs assessment should be performed. This needs assessment includes assessing the internal and external factors associated with the intended product or service. 3 In the case of IP, this would involve evaluating multiple aspects of the community of interest, including the burden of the disease of interest in the community, current supporting specialties such as general pulmonary, oncology, and thoracic surgery, and the presence of competing groups or practices. To further detail these issues, we will use the example of starting an endobronchial ultrasound (Endobronchial ultrasound (EBUS)) practice. Given the selected procedure, the incidence and prevalence of lung cancer in the community would be of interest to ensure its necessity. A practice"
+          },
+          {
+            "text": "Conflict-of-Interest Statement: The authors report no conflicts of interest."
+          },
+          {
+            "text": "a Interventional Pulmonology, Suburban Lung Associates, 800 Biesterfield Road, Suite 510, Elk Grove Village, IL 60007, USA; b Interventional Pulmonology, Duke University Medical Center, Durham, NC, USA"
+          },
+          {
+            "text": "* Corresponding author."
+          }
+        ],
+        "category": "other"
+      },
+      {
+        "title": "KEYWORDS",
+        "paragraphs": [
+          {
+            "text": "/C15 Interventional pulmonology /C15 Medical practice /C15 Business of medicine"
+          },
+          {
+            "text": "KEY POINTS"
+          },
+          {
+            "text": "/C15 Interventional pulmonology (IP) is a growing field with demand for new practices to be established to provide consultative and procedural services such as advanced diagnostic and therapeutic bronchoscopy and pleural procedures."
+          },
+          {
+            "text": "/C15 Establishment of an IP practice requires a needs assessment to evaluate the burden of the target disease in the community of interest, current supporting specialties and competing practices."
+          },
+          {
+            "text": "/C15 A simplified business plan is needed to delineate a marketing proposal, staff and equipment needs and financial projections."
+          },
+          {
+            "text": "/C15 Self-monitoring of procedural results and complications is critical to ensure optimal patient's outcome and guide improvement effort."
+          },
+          {
+            "text": "Clin Chest Med 39 (2018) 239-243"
+          },
+          {
+            "text": "https://doi.org/10.1016/j.ccm.2017.11.006"
+          },
+          {
+            "text": "0272-5231/18/ /C211 2017 Elsevier Inc. All rights reserved."
+          },
+          {
+            "text": "Downloaded for Anonymous User (n/a) at NAVAL MEDICAL CENTER SAN DIEGO from ClinicalKey.com by Elsevier on July 18, 2024. For personal use only. No other uses without permission. Copyright ©2024. Elsevier Inc. All rights reserved."
+          },
+          {
+            "text": "administrator can easily provide these data based on publically available Medicare data. The interventional pulmonologist would also want to consider the current and competing groups in the community as the establishment of Endobronchial ultrasound (EBUS) at one group may be hindered due to competition of an already established nearby practice. The presence of competing practices should not discourage the establishment of an IP practice; instead, it should ground the expectations of growth in reality and allow a reasonable period of time for ramp up."
+          },
+          {
+            "text": "The presence of an interventional pulmonologist within a general pulmonary practice should not be viewed as a threat but rather as an advantage; a large size pulmonary group would indicate a potential need for an advanced diagnostic bronchoscopist or an interventional pulmonologist. Working within the group, the interventional pulmonologist would be able to streamline referrals to allow for an off-loading of procedures from the pulmonary group, allowing the general pulmonologists to focus and grow other interests. The interventional pulmonologist ought to be mindful of the desire of many general pulmonologists to perform advanced diagnostic procedures, such as Endobronchial ultrasound (EBUS) and navigation bronchoscopy. This should not be fraught with resistance but rather acceptance and encouragement; there is room for both specialists to perform these procedures and facilitate coverage of patients. IP will likely end up performing more difficult procedures, such as sampling of smaller lymph nodes or full mediastinal staging, whereas the general pulmonologist can perform diagnostic Endobronchial ultrasound (EBUS) procedures for targets that are larger or located in favorable locations."
+          },
+          {
+            "text": "An active oncology group indicates a need for an IP program; oncologists readily welcome interventional pulmonologists who are competent and cordial and are able to help oncologic patients with their diagnostic needs (staging of lung cancer, diagnosis of recurrence, and confirming metastases of extrathoracic cancers to the mediastinum or lungs) or therapeutic needs (hemoptysis, central lung obstruction, and malignant pleural effusion)."
+          },
+          {
+            "text": "Similarly, the existence of a thoracic surgery program provides synergy and complementary services to an IP program and vice versa. For the most part, the days of animosity are gone and have been replaced by appreciation and respect. The interventional pulmonologist provides a steady source of referrals to the thoracic surgeon with newly diagnosed stage I or II lung cancers, whereas the thoracic surgeon can provide support and backup for difficult cases or any acute complications."
+          },
+          {
+            "text": "BUSINESS PLAN"
+          },
+          {
+            "text": "Simply put, a business plan is a document detailing the method of an organization to achieve their goals. Typically, this outlines the projected plan over the next 3 to 5 years and includes a market analysis, service line analysis, marketing plan, financial overview, equipment, and staff. 4-6 While preparing to start an IP program, a business plan should be prepared by the interventional pulmonologist to make the business case for the program, justify asking for resources and equipment, and establish credibility and respect by the practice or hospital administrators. The interventional pulmonologist does not need an MBA to write a business plan and can thoughtfully lay down her vision for the program and provide supporting data for the creation of the program. The essential steps are described in the ensuing discussion."
+          }
+        ],
+        "category": "other"
+      },
+      {
+        "title": "Market Analysis",
+        "paragraphs": [
+          {
+            "text": "The goal of a market analysis is to identify the target of your service or product. In IP, this would entail identifying patients, referring physicians, practices, and hospitals. The issues to address would be assessing the demand for the IP service, potential or projected growth in referrals and revenue, barriers to instituting the IP service, competitors to the IP service as well as benefits to the overall group, practice, and hospital organization. Although demand of the IP service initially may be low, this would be expected to grow as the knowledge and benefit of the service enhance the referral base. Barriers to consider when starting a new IP service would relate to the support (or lack thereof) of the hospital administration and related specialties (thoracic surgery, pulmonary, oncology, and so forth). Ensuring your service is in line with the community, hospital, and departmental goals would help support future success."
+          }
+        ],
+        "category": "other"
+      },
+      {
+        "title": "Service Line Analysis",
+        "paragraphs": [
+          {
+            "text": "The next step of the business plan is to define your service and establish operational proceedings, required equipment, technology, and personnel. The organizational structure of the service should be delineated because some programs may be part of the pulmonary and critical care department; others may be part of thoracic surgery, and occasionally, some may be a hybrid of both. This process would delve not just into what specific procedures the IP service may provide but also in the context that these services will be provided. For instance, IP can decide whether medical thoracoscopy or tracheostomy is needed in this"
+          },
+          {
+            "text": "practice based on patient population and available specialties. It is also important to decide what services may be offered in available clinical formats, such as inpatient and outpatient as well as locations such as a procedure suite or operating theater. Accessibility of anesthesia may also play a key role in deciding what locations may offer specific procedures. Determining timing, dates, and schedules of the use of the procedural areas should also be established. Further consideration may also be required to evaluate the preprocedural, recovery, cleaning, and storage areas as these issues play a role in the efficiency of the service. In addition, the necessary equipment would need to be defined and obtainable. For example, obtaining and maintaining an Endobronchial ultrasound (EBUS) tower, bronchoscopes, and disposables (ie, single-use Endobronchial ultrasound (EBUS) needles) would need to be factored into the analysis. Another factor to consider is the clinical involvement with the patients and associated primary services. For example, after receiving an outpatient referral for asthma and bronchial thermoplasty is performed, would this patient return to the primary physician or continue to follow with the IP service? Similarly, what clinical service will follow and manage the inpatient procedures? Will the IP service act simply as a procedural service or provide a more comprehensive consultation service and longitudinal care? An active inpatient and outpatient clinical presence may establish clinical rapport and increase referrals. This analysis also involves determining the members of IP team: nurses, respiratory therapists, and potential need of a service extender, such as an advanced practice nurse or physician's assistant. Specially trained staff members, such as a registered nurse, respiratory therapist, or advanced practice provider (APP), would provide IP specific advanced knowledge, support, and care providing direct and indirect benefits to the IP service. The composition and ideal number of the IP team depend on projected volume and scope of service."
+          }
+        ],
+        "category": "other"
+      },
+      {
+        "title": "Marketing",
+        "paragraphs": [
+          {
+            "text": "Marketing the IP service is essential for building a referral base and for subsequent growth and development. A marketing strategy need not be overly extensive, such as billboards and radio or television ads. The most impactful marketing strategy on a local level is to be extremely responsive to referring physicians, provide knowledgeable and efficient medical care, and communicate in a timely and relevant fashion with the entire care team."
+          },
+          {
+            "text": "When starting a new service, the interventional pulmonologist is advised to meet with relevant"
+          },
+          {
+            "text": "colleagues and department heads to make an introduction and elaborate on the offerings provided by the new program."
+          },
+          {
+            "text": "A step further could be to offer lectures, 'Lunchand-Learn,' or grand rounds to increase awareness among the many local departments of pulmonary, oncology, and thoracic surgery. For the larger community, advertising through the hospital and practice channels may be sought, including announcement via newsletters and quick visits to various practices and lectures at referring institutions. In addition, holding local workshops or educational courses is another option to highlight services, provide education and continuing medical education hours to referring providers, and elevate practice or hospital brand and reputation."
+          }
+        ],
+        "category": "other"
+      },
+      {
+        "title": "Financial Overview",
+        "paragraphs": [
+          {
+            "text": "A successful IP program strives to deliver the best medical care and generate revenue in an ethical and transparent fashion. For the interventional pulmonary service, these financial goals may be difficult if not impossible to acquire during the initial growth and development. Reimbursement for procedures with respect to IP physician's time and effort is relatively low."
+          },
+          {
+            "text": "Activities for the IP physician should be organized in a fashion that maximizes time and resource utilization. For instance, a given week could be split into days dedicated to procedures (1-2 days a week), clinic sessions, and inpatient blocks as needed."
+          },
+          {
+            "text": "An example would be to dedicate mornings for inpatient services, 2 afternoons for clinic, 2 afternoons for endoscopy procedures in a specific endoscopy location, and one afternoon in the operating room or another endoscopy location. Emergent procedures can be added throughout the week as the need arises but are usually not very common in IP."
+          },
+          {
+            "text": "The IP service may provide longitudinal care for patients who undergo procedures and have chronic needs, such as patients with benign airway conditions or patients with cancer with active pulmonary issues. This model provides excellent coordinated care and enhanced revenue with evaluation and management services."
+          },
+          {
+            "text": "Another argument to invoke is the downstream revenue that the IP service secures for the practice and hospital. This was illustrated by the IP group at the Medical University of South Carolina, where they demonstrated that the downstream collections from technical fees per Endobronchial ultrasound (EBUS)-guided transbronchial needle aspiration case were $19,174. 7 It is important to recognize that the downstream revenue argument cannot stand alone as the"
+          },
+          {
+            "text": "financial foundation for an IP Program; IP should generate revenue and be financially sustainable in its own rights."
+          },
+          {
+            "text": "IP programs need to be fiscally responsible and reduce cost when feasible. Demanding outlandish endoscopy suites and equipment and insisting on excessive staff ratio are counterproductive and ill advised. Sharing a procedural space with other departments, such as gastroenterology or radiology, allows for sharing of the overhead and support staff. Similarly, sharing nurses in preparation and recovery spaces and procedural support with other services is an economically sound model that avoids any disruption in coverage in case of illness or call-out by staff. Sharing space and services needs to be done in an equitable and transparent fashion and higher-volume services (like gastrointestinal, surgery, or radiology services) should be prevented from taking advantages of lower-volume service (like the IP service)."
+          }
+        ],
+        "category": "other"
+      },
+      {
+        "title": "Equipment",
+        "paragraphs": [
+          {
+            "text": "The service strategy of the IP service in conjunction with the goals of the group or hospital will dictate the equipment needs. If the goal were to establish a lung cancer center, then related equipment such as Endobronchial ultrasound (EBUS) and navigational bronchoscopy would be a priority. The initial investment in equipment can be quite costly and involve both direct and indirect costs. The direct costs include that of the equipment and disposable supplies (ie, biopsy forceps, needles). The indirect costs incorporate overhead, such as staffing of the procedure suite, administration, schedulers, and maintenance. Given these expenses, the process of obtaining new equipment can be complicated and should be thoroughly analyzed. A framework for investing in new technology in pulmonary medicine was recently published. 8 The IP service must provide a rationale on what equipment to acquire for medical necessity and to avoid the loss of capital on rarely used equipment or 'toy' accruing dust in the procedure suite."
+          }
+        ],
+        "category": "other"
+      },
+      {
+        "title": "Staff and Team-Based Care",
+        "paragraphs": [
+          {
+            "text": "The process to build an IP service is not a lonely road. The IP team itself needs to be defined and, aside from the interventional pulmonologist, its members may include technicians, nurses, respiratory therapists, and APPs. A nurse may be involved in the many facets of the procedure, such as preoperative assessment, intraprocedural assistance, moderate sedation administration, postprocedural recovery, and follow-up monitoring. A respiratory therapist can do much of the same; however, administering medications, such"
+          },
+          {
+            "text": "as in the case of moderate sedation, is prohibited. Respiratory therapists are usually very attuned to ventilation strategies and equipment and can be essential for running an active rigid bronchoscopy practice."
+          },
+          {
+            "text": "APPs facilitate and extend the longitudinal care of patients to balance the demands of busy IP service. Several reports have suggested trained APPs may provide effective care in intensive care and surgical services; thus, an extension to IP is quite plausible. 9,10 Another consideration for the IP care team itself would be to provide educational opportunities to the nursing, respiratory, and ancillary staff in the hospital. These opportunities may include educational lectures on pulmonary diseases, disease management, and procedures as they relate to IP procedures and in-service meetings on operating specific equipment or technology."
+          },
+          {
+            "text": "Multidisciplinary care has evolved as the standard of care for lung cancer and in the process of developing an IP service; the interventional pulmonologist should collaborate with the entirety of the team, including the thoracic surgeons, oncologists, and pulmonologists. 11 These providers will likely be the biggest driver of new referrals to a thriving IP service. With a proper system in place, all the stakeholders can thrive together as new referrals lead to new diagnoses, leading to downstream resource utilization with the other members of the multidisciplinary team. If not already done, a tumor board meeting should be established. By taking an active role in this conference, there will be frequent interaction with the multidisciplinary team members and allow for discussion of the best diagnostic and/or therapeutic approaches. In a similar fashion, initiating an IP clinic in the same location as the oncologists and/or thoracic surgeons allows for further integration and interaction. This approach invites further communication and establishes rapport, reliability, and confidence among the teams, broadening the referral base."
+          },
+          {
+            "text": "MONITORING PROGRESS"
+          },
+          {
+            "text": "To initiate and sustain the growth of the service, multiple parameters must be monitored to assess performance to ensure the service is meeting the intended objectives. Typical procedural measures would include the number and type of procedures, associated diagnoses, diagnostic yield, complications, procedure time, and efficiency or turnover. National benchmarks are useful to assess procedural outcomes and to guide improvement effort when local performance falls short of expected results. Inpatient and outpatient referrals and visits"
+          },
+          {
+            "text": "can also be tracked, including time to procedure or time to diagnosis. Financial metrics of interest include work unit (relative value unit or RVU), service revenue, reimbursement, and costs. Downstream revenue in the form of subsequent referrals, testing, or other procedures may also be tracked."
+          },
+          {
+            "text": "SUMMARY"
+          },
+          {
+            "text": "Developing a new IP program, although a challenging endeavor, can be accomplished by understanding and addressing many facets of the health care community. Practice needs and competition should be carefully assessed to determine the viability of the new program. Devising a prudent business plan will further help assess the feasibility and guide the initiation and integration of the new IP program. The specific practice equipment, technology, and team should be clearly identified. Last, monitoring clinical and administrative aspects of the service must be pursued to ensure delivery of highquality and safe care."
+          }
+        ],
+        "category": "other"
+      },
+      {
+        "title": "REFERENCES",
+        "paragraphs": [
+          {
+            "text": "1. Arias S, Lee HJ. The future of interventional pulmonology. Semin Respir Crit Care Med 2014;35: 763-8."
+          },
+          {
+            "text": "2. Lee HJ, Feller-Kopman D, Islam S, et al. Analysis of employment data for interventional pulmonary fellowship graduates. Ann Am Thorac Soc 2015; 12(4):549-52."
+          },
+          {
+            "text": "3. Assessing the industry using Porter's five forces. Vet Rec 2014;174:3-4."
+          },
+          {
+            "text": "4. Beheshti MV, Meek ME, Kaufman JA. The interventional radiology business plan. J Vasc Interv Radiol 2012;23(9):1181-6."
+          },
+          {
+            "text": "5. US Small Business Administration. Write your businessplan.Availableat:https://www.sba.gov/startingbusiness/write-your-business-plan. Accessed June 24, 2017."
+          },
+          {
+            "text": "6. French KD, Desai NR, Diamond E, et al. Developing an interventional pulmonary service in a communitybased private practice: a case study. Chest 2016; 149(4):1094-101."
+          },
+          {
+            "text": "7. Pastis NJ, Simkovich S, Silvestri GA. Understanding the economic impact of introducing a new procedure: calculating downstream revenue of endobronchial ultrasound with transbronchial needle aspiration as a model. Chest 2012;141(2):506-12."
+          },
+          {
+            "text": "8. Kruklitis R, French K, Cangelosi MJ, et al. Investing in new technology in pulmonary medicine - navigating the tortuous path to success. Chest 2017. https://doi.org/10.1016/j.chest.2017.06.014."
+          },
+          {
+            "text": "9. Gershengorn HB, Johnson MP, Factor P. The use of nonphysician providers in adult intensive care units. Am J Respir Crit Care Med 2012;185(6):600-5."
+          },
+          {
+            "text": "10. Johal J, Dodd A. Physician extenders on surgical services: a systematic review. Can J Surg 2017; 60(3):172-8."
+          },
+          {
+            "text": "11. Denton E, Conron M. Improving outcomes in lung cancer: the value of the multidisciplinary health care team. J Multidiscip Healthc 2016;9:137-44."
+          }
+        ],
+        "category": "other"
+      }
+    ],
+    "tables": [],
+    "figures": [
+      {
+        "self_ref": "#/pictures/0",
+        "parent": {
+          "cref": "#/body"
+        },
+        "children": [],
+        "content_layer": "body",
+        "label": "picture",
+        "prov": [
+          {
+            "page_no": 1,
+            "bbox": {
+              "l": 425.0043029785156,
+              "t": 682.48681640625,
+              "r": 451.0126647949219,
+              "b": 656.5021133422852,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "charspan": [
+              0,
+              0
+            ]
+          }
+        ],
+        "captions": [],
+        "references": [],
+        "footnotes": [],
+        "image": null,
+        "annotations": []
+      }
+    ],
+    "citations": [],
+    "n_sections": 9,
+    "n_tables": 0,
+    "n_figures": 1,
+    "n_citations": 0
+  },
+  "provenance": {
+    "patches": [
+      {
+        "path": "metadata.year_norm",
+        "op": "set",
+        "from": null,
+        "to": "2018",
+        "source": "zotero:year_norm",
+        "confidence": 0.9
+      },
+      {
+        "path": "metadata.authors",
+        "op": "set",
+        "from": [
+          "United States",
+          "Interest Statement"
+        ],
+        "to": [
+          "Edward Kessler",
+          "Momen M. Wahidi"
+        ],
+        "source": "zotero:authors",
+        "confidence": 0.9
+      },
+      {
+        "path": "metadata.doi",
+        "op": "set",
+        "from": null,
+        "to": "10.1016/j.ccm.2017.11.006",
+        "source": "zotero:doi",
+        "confidence": 0.9
+      },
+      {
+        "path": "metadata.journal",
+        "op": "set",
+        "from": null,
+        "to": "Clinics in Chest Medicine",
+        "source": "zotero:journal",
+        "confidence": 0.9
+      },
+      {
+        "path": "metadata.abstract",
+        "op": "set",
+        "from": null,
+        "to": "Developing a new IP program, although a challenging endeavor, can be accomplished by understanding and addressing many facets of the health care community. Practice needs and competition should be carefully assessed to determine the viability of the new program. Devising a prudent business plan will further help assess the feasibility and guide the initiation and integration of the new IP program. The specific practice equipment, technology, and team should be clearly identified. Last, monitoring clinical and administrative aspects of the service must be pursued to ensure delivery of highquality and safe care.",
+        "source": "zotero:abstract",
+        "confidence": 0.9
+      },
+      {
+        "path": "metadata.volume",
+        "op": "set",
+        "from": null,
+        "to": "39",
+        "source": "zotero:volume",
+        "confidence": 0.9
+      },
+      {
+        "path": "metadata.issue",
+        "op": "set",
+        "from": null,
+        "to": "1",
+        "source": "zotero:issue",
+        "confidence": 0.9
+      },
+      {
+        "path": "metadata.pages",
+        "op": "set",
+        "from": null,
+        "to": "239-243",
+        "source": "zotero:pages",
+        "confidence": 0.9
+      },
+      {
+        "path": "metadata.issn",
+        "op": "set",
+        "from": null,
+        "to": "02725231",
+        "source": "zotero:issn",
+        "confidence": 0.9
+      },
+      {
+        "path": "metadata.url",
+        "op": "set",
+        "from": null,
+        "to": "https://linkinghub.elsevier.com/retrieve/pii/S027252311730117X",
+        "source": "zotero:url",
+        "confidence": 0.9
+      },
+      {
+        "path": "provenance.orig_pdf_filename",
+        "op": "set",
+        "from": null,
+        "to": "Kessler and Wahidi - 2018 - The Business of Bronchoscopy.pdf",
+        "source": "zotero:csv",
+        "confidence": 0.9
+      },
+      {
+        "path": "metadata.year",
+        "op": "set",
+        "from": "2018-03",
+        "to": 2018,
+        "source": "normalize:iso",
+        "confidence": 0.9
+      },
+      {
+        "path": "metadata.authors",
+        "op": "set",
+        "from": [
+          "Edward Kessler",
+          "Momen M. Wahidi"
+        ],
+        "to": [
+          {
+            "given": "Edward",
+            "family": "Kessler",
+            "suffix": null,
+            "degrees": [],
+            "display": "Edward Kessler",
+            "group": false
+          },
+          {
+            "given": "Momen M.",
+            "family": "Wahidi",
+            "suffix": null,
+            "degrees": [],
+            "display": "Momen M. Wahidi",
+            "group": false
+          }
+        ],
+        "source": "filtered_ack_like",
+        "confidence": 0.9
+      },
+      {
+        "path": "metadata.journal_full",
+        "op": "set",
+        "from": null,
+        "to": "Clinics in Chest Medicine",
+        "source": "canonicalize",
+        "confidence": 0.9
+      }
+    ],
+    "orig_pdf_filename": "Kessler and Wahidi - 2018 - The Business of Bronchoscopy.pdf",
+    "zotero": {
+      "id": "kesslerBusinessBronchoscopy2018",
+      "source": "zotero_csl+csv",
+      "exported_at": "2025-09-02T20:29:39.267021Z",
+      "match_method": "title_exact",
+      "match_confidence": 1.0
+    }
+  },
+  "grobid": {
+    "references_tei": "<TEI xmlns=\"http://www.tei-c.org/ns/1.0\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" \n xmlns:mml=\"http://www.w3.org/1998/Math/MathML\">\n\t<teiHeader/>\n\t<text>\n\t\t<front/>\n\t\t<body/>\n\t\t<back>\n\t\t\t<div>\n\t\t\t\t<listBibl>\n<biblStruct xml:id=\"b0\">\n\t<analytic>\n\t\t<title level=\"a\" type=\"main\">The future of interventional pulmonology</title>\n\t\t<author>\n\t\t\t<persName><forename type=\"first\">S</forename><surname>Arias</surname></persName>\n\t\t</author>\n\t\t<author>\n\t\t\t<persName><forename type=\"first\">H</forename><forename type=\"middle\">J</forename><surname>Lee</surname></persName>\n\t\t</author>\n\t</analytic>\n\t<monogr>\n\t\t<title level=\"j\">Semin Respir Crit Care Med</title>\n\t\t<imprint>\n\t\t\t<biblScope unit=\"volume\">35</biblScope>\n\t\t\t<biblScope unit=\"page\" from=\"763\" to=\"768\" />\n\t\t\t<date type=\"published\" when=\"2014\">2014</date>\n\t\t</imprint>\n\t</monogr>\n</biblStruct>\n\n<biblStruct xml:id=\"b1\">\n\t<analytic>\n\t\t<title level=\"a\" type=\"main\">Analysis of employment data for interventional pulmonary fellowship graduates</title>\n\t\t<author>\n\t\t\t<persName><forename type=\"first\">H</forename><forename type=\"middle\">J</forename><surname>Lee</surname></persName>\n\t\t</author>\n\t\t<author>\n\t\t\t<persName><forename type=\"first\">D</forename><surname>Feller-Kopman</surname></persName>\n\t\t</author>\n\t\t<author>\n\t\t\t<persName><forename type=\"first\">S</forename><surname>Islam</surname></persName>\n\t\t</author>\n\t</analytic>\n\t<monogr>\n\t\t<title level=\"j\">Ann Am Thorac Soc</title>\n\t\t<imprint>\n\t\t\t<biblScope unit=\"volume\">12</biblScope>\n\t\t\t<biblScope unit=\"issue\">4</biblScope>\n\t\t\t<biblScope unit=\"page\" from=\"549\" to=\"552\" />\n\t\t\t<date type=\"published\" when=\"2015\">2015</date>\n\t\t</imprint>\n\t</monogr>\n</biblStruct>\n\n<biblStruct xml:id=\"b2\">\n\t<analytic>\n\t\t<title level=\"a\" type=\"main\">Assessing the industry using Porter&apos;s five forces</title>\n\t</analytic>\n\t<monogr>\n\t\t<title level=\"j\">Vet Rec</title>\n\t\t<imprint>\n\t\t\t<biblScope unit=\"volume\">174</biblScope>\n\t\t\t<biblScope unit=\"page\" from=\"3\" to=\"4\" />\n\t\t\t<date type=\"published\" when=\"2014\">2014</date>\n\t\t</imprint>\n\t</monogr>\n</biblStruct>\n\n<biblStruct xml:id=\"b3\">\n\t<analytic>\n\t\t<title level=\"a\" type=\"main\">The interventional radiology business plan</title>\n\t\t<author>\n\t\t\t<persName><forename type=\"first\">M</forename><forename type=\"middle\">V</forename><surname>Beheshti</surname></persName>\n\t\t</author>\n\t\t<author>\n\t\t\t<persName><forename type=\"first\">M</forename><forename type=\"middle\">E</forename><surname>Meek</surname></persName>\n\t\t</author>\n\t\t<author>\n\t\t\t<persName><forename type=\"first\">J</forename><forename type=\"middle\">A</forename><surname>Kaufman</surname></persName>\n\t\t</author>\n\t</analytic>\n\t<monogr>\n\t\t<title level=\"j\">J Vasc Interv Radiol</title>\n\t\t<imprint>\n\t\t\t<biblScope unit=\"volume\">23</biblScope>\n\t\t\t<biblScope unit=\"issue\">9</biblScope>\n\t\t\t<biblScope unit=\"page\" from=\"1181\" to=\"1186\" />\n\t\t\t<date type=\"published\" when=\"2012\">2012</date>\n\t\t</imprint>\n\t</monogr>\n</biblStruct>\n\n<biblStruct xml:id=\"b4\">\n\t<monogr>\n\t\t<ptr target=\"https://www.sba.gov/starting-business/write-your-business-plan\" />\n\t\t<title level=\"m\">Write your business plan</title>\n\t\t<imprint>\n\t\t\t<publisher>US Small Business Administration</publisher>\n\t\t\t<date type=\"published\" when=\"2017-06-24\">June 24, 2017</date>\n\t\t</imprint>\n\t</monogr>\n</biblStruct>\n\n<biblStruct xml:id=\"b5\">\n\t<analytic>\n\t\t<title level=\"a\" type=\"main\">Developing an interventional pulmonary service in a communitybased private practice: a case study</title>\n\t\t<author>\n\t\t\t<persName><forename type=\"first\">K</forename><forename type=\"middle\">D</forename><surname>French</surname></persName>\n\t\t</author>\n\t\t<author>\n\t\t\t<persName><forename type=\"first\">N</forename><forename type=\"middle\">R</forename><surname>Desai</surname></persName>\n\t\t</author>\n\t\t<author>\n\t\t\t<persName><forename type=\"first\">E</forename><surname>Diamond</surname></persName>\n\t\t</author>\n\t</analytic>\n\t<monogr>\n\t\t<title level=\"j\">Chest</title>\n\t\t<imprint>\n\t\t\t<biblScope unit=\"volume\">149</biblScope>\n\t\t\t<biblScope unit=\"issue\">4</biblScope>\n\t\t\t<biblScope unit=\"page\" from=\"1094\" to=\"1101\" />\n\t\t\t<date type=\"published\" when=\"2016\">2016</date>\n\t\t</imprint>\n\t</monogr>\n</biblStruct>\n\n<biblStruct xml:id=\"b6\">\n\t<analytic>\n\t\t<title level=\"a\" type=\"main\">Understanding the economic impact of introducing a new procedure: calculating downstream revenue of endobronchial ultrasound with transbronchial needle aspiration as a model</title>\n\t\t<author>\n\t\t\t<persName><forename type=\"first\">N</forename><forename type=\"middle\">J</forename><surname>Pastis</surname></persName>\n\t\t</author>\n\t\t<author>\n\t\t\t<persName><forename type=\"first\">S</forename><surname>Simkovich</surname></persName>\n\t\t</author>\n\t\t<author>\n\t\t\t<persName><forename type=\"first\">G</forename><forename type=\"middle\">A</forename><surname>Silvestri</surname></persName>\n\t\t</author>\n\t</analytic>\n\t<monogr>\n\t\t<title level=\"j\">Chest</title>\n\t\t<imprint>\n\t\t\t<biblScope unit=\"volume\">141</biblScope>\n\t\t\t<biblScope unit=\"issue\">2</biblScope>\n\t\t\t<biblScope unit=\"page\" from=\"506\" to=\"512\" />\n\t\t\t<date type=\"published\" when=\"2012\">2012</date>\n\t\t</imprint>\n\t</monogr>\n</biblStruct>\n\n<biblStruct xml:id=\"b7\">\n\t<analytic>\n\t\t<title level=\"a\" type=\"main\">Investing in new technology in pulmonary medicine -navigating the tortuous path to success</title>\n\t\t<author>\n\t\t\t<persName><forename type=\"first\">R</forename><surname>Kruklitis</surname></persName>\n\t\t</author>\n\t\t<author>\n\t\t\t<persName><forename type=\"first\">K</forename><surname>French</surname></persName>\n\t\t</author>\n\t\t<author>\n\t\t\t<persName><forename type=\"first\">M</forename><forename type=\"middle\">J</forename><surname>Cangelosi</surname></persName>\n\t\t</author>\n\t\t<idno type=\"DOI\">10.1016/j.chest.2017.06.014</idno>\n\t\t<ptr target=\"https://doi.org/10.1016/j.chest.2017.06.014\" />\n\t</analytic>\n\t<monogr>\n\t\t<title level=\"j\">Chest</title>\n\t\t<imprint>\n\t\t\t<date type=\"published\" when=\"2017\">2017</date>\n\t\t</imprint>\n\t</monogr>\n</biblStruct>\n\n<biblStruct xml:id=\"b8\">\n\t<analytic>\n\t\t<title level=\"a\" type=\"main\">The use of nonphysician providers in adult intensive care units</title>\n\t\t<author>\n\t\t\t<persName><forename type=\"first\">H</forename><forename type=\"middle\">B</forename><surname>Gershengorn</surname></persName>\n\t\t</author>\n\t\t<author>\n\t\t\t<persName><forename type=\"first\">M</forename><forename type=\"middle\">P</forename><surname>Johnson</surname></persName>\n\t\t</author>\n\t\t<author>\n\t\t\t<persName><forename type=\"first\">P</forename><surname>Factor</surname></persName>\n\t\t</author>\n\t</analytic>\n\t<monogr>\n\t\t<title level=\"j\">Am J Respir Crit Care Med</title>\n\t\t<imprint>\n\t\t\t<biblScope unit=\"volume\">185</biblScope>\n\t\t\t<biblScope unit=\"issue\">6</biblScope>\n\t\t\t<biblScope unit=\"page\" from=\"600\" to=\"605\" />\n\t\t\t<date type=\"published\" when=\"2012\">2012</date>\n\t\t</imprint>\n\t</monogr>\n</biblStruct>\n\n<biblStruct xml:id=\"b9\">\n\t<analytic>\n\t\t<title level=\"a\" type=\"main\">Physician extenders on surgical services: a systematic review</title>\n\t\t<author>\n\t\t\t<persName><forename type=\"first\">J</forename><surname>Johal</surname></persName>\n\t\t</author>\n\t\t<author>\n\t\t\t<persName><forename type=\"first\">A</forename><surname>Dodd</surname></persName>\n\t\t</author>\n\t</analytic>\n\t<monogr>\n\t\t<title level=\"j\">Can J Surg</title>\n\t\t<imprint>\n\t\t\t<biblScope unit=\"volume\">60</biblScope>\n\t\t\t<biblScope unit=\"issue\">3</biblScope>\n\t\t\t<biblScope unit=\"page\" from=\"172\" to=\"178\" />\n\t\t\t<date type=\"published\" when=\"2017\">2017</date>\n\t\t</imprint>\n\t</monogr>\n</biblStruct>\n\n<biblStruct xml:id=\"b10\">\n\t<analytic>\n\t\t<title level=\"a\" type=\"main\">Improving outcomes in lung cancer: the value of the multidisciplinary health care team</title>\n\t\t<author>\n\t\t\t<persName><forename type=\"first\">E</forename><surname>Denton</surname></persName>\n\t\t</author>\n\t\t<author>\n\t\t\t<persName><forename type=\"first\">M</forename><surname>Conron</surname></persName>\n\t\t</author>\n\t</analytic>\n\t<monogr>\n\t\t<title level=\"j\">J Multidiscip Healthc</title>\n\t\t<imprint>\n\t\t\t<biblScope unit=\"volume\">9</biblScope>\n\t\t\t<biblScope unit=\"page\" from=\"137\" to=\"144\" />\n\t\t\t<date type=\"published\" when=\"2016\">2016</date>\n\t\t</imprint>\n\t</monogr>\n</biblStruct>\n\n\t\t\t\t</listBibl>\n\t\t\t</div>\n\t\t</back>\n\t</text>\n</TEI>\n"
+  },
+  "umls_links": [],
+  "drugs": [],
+  "trial_ids": [],
+  "assets": {
+    "tables": [],
+    "figures": [
+      {
+        "type": "figure",
+        "content": {
+          "self_ref": "#/pictures/0",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "label": "picture",
+          "prov": [
+            {
+              "page_no": 1,
+              "bbox": {
+                "l": 425.0043029785156,
+                "t": 682.48681640625,
+                "r": 451.0126647949219,
+                "b": 656.5021133422852,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                0
+              ]
+            }
+          ],
+          "captions": [],
+          "references": [],
+          "footnotes": [],
+          "image": null,
+          "annotations": []
+        },
+        "captions": [],
+        "footnotes": [
+          "Interventional Pulmonology, Suburban Lung Associates, 800 Biesterfield Road, Suite 510, Elk Grove Village, IL 60007, USA; b Interventional Pulmonology, Duke University Medical Center, Durham, NC, USA",
+          "Corresponding author.",
+          "ttps://doi.org/10.1016/j.ccm.2017.11.006",
+          "dministrator can easily provide these data based on publically available Medicare data. The interventional pulmonologist would also want to consider the current and competing groups in the community as the establishment of Endobronchial ultrasound (EBUS) at one group may be hindered due to competition of an already established nearby practice. The presence of competing practices should not discourage the establishment of an IP practice; instead, it should ground the expectations of growth in reality and allow a reasonable period of time for ramp up.",
+          "ractice based on patient population and available specialties. It is also important to decide what services may be offered in available clinical formats, such as inpatient and outpatient as well as locations such as a procedure suite or operating theater. Accessibility of anesthesia may also play a key role in deciding what locations may offer specific procedures. Determining timing, dates, and schedules of the use of the procedural areas should also be established. Further consideration may also be required to evaluate the preprocedural, recovery, cleaning, and storage areas as these issues play a role in the efficiency of the service. In addition, the necessary equipment would need to be defined and obtainable. For example, obtaining and maintaining an Endobronchial ultrasound (EBUS) tower, bronchoscopes, and disposables (ie, single-use Endobronchial ultrasound (EBUS) needles) would need to be factored into the analysis. Another factor to consider is the clinical involvement with the patients and associated primary services. For example, after receiving an outpatient referral for asthma and bronchial thermoplasty is performed, would this patient return to the primary physician or continue to follow with the IP service? Similarly, what clinical service will follow and manage the inpatient procedures? Will the IP service act simply as a procedural service or provide a more comprehensive consultation service and longitudinal care? An active inpatient and outpatient clinical presence may establish clinical rapport and increase referrals. This analysis also involves determining the members of IP team: nurses, respiratory therapists, and potential need of a service extender, such as an advanced practice nurse or physician's assistant. Specially trained staff members, such as a registered nurse, respiratory therapist, or advanced practice provider (APP), would provide IP specific advanced knowledge, support, and care providing direct and indirect benefits to the IP service. The composition and ideal number of the IP team depend on projected volume and scope of service.",
+          "olleagues and department heads to make an introduction and elaborate on the offerings provided by the new program.",
+          "inancial foundation for an IP Program; IP should generate revenue and be financially sustainable in its own rights.",
+          "s in the case of moderate sedation, is prohibited. Respiratory therapists are usually very attuned to ventilation strategies and equipment and can be essential for running an active rigid bronchoscopy practice.",
+          "an also be tracked, including time to procedure or time to diagnosis. Financial metrics of interest include work unit (relative value unit or RVU), service revenue, reimbursement, and costs. Downstream revenue in the form of subsequent referrals, testing, or other procedures may also be tracked."
+        ]
+      }
+    ]
+  },
+  "statistics": [],
+  "validation": {
+    "checks": {
+      "has_title": true,
+      "has_authors": true,
+      "authors_are_valid": false,
+      "has_sections": true,
+      "sections_have_content": true,
+      "has_tables": false,
+      "tables_have_captions": true,
+      "tables_have_data": true,
+      "has_figures": true,
+      "figures_have_captions": false,
+      "figures_have_images": false,
+      "has_entities": false,
+      "has_statistics": false,
+      "has_references": true,
+      "refs_structured": true,
+      "refs_enriched_some": false,
+      "references_enriched": false,
+      "has_references_csv": false,
+      "has_cross_refs": false,
+      "umls_links": false,
+      "figures_textual_count": 0
+    },
+    "completeness_score": 53,
+    "is_valid": false,
+    "issues": [],
+    "warnings": [
+      "No medical entities found",
+      "No statistics extracted",
+      "Some figures missing captions"
+    ],
+    "quality_level": "poor",
+    "hardening": {
+      "fixes": [
+        {
+          "field": "year",
+          "action": "normalize:iso",
+          "old": "2018-03",
+          "new": 2018
+        },
+        {
+          "field": "authors",
+          "action": "filtered_ack_like",
+          "old": [
+            "Edward Kessler",
+            "Momen M. Wahidi"
+          ],
+          "new": [
+            "Edward Kessler",
+            "Momen M. Wahidi"
+          ]
+        },
+        {
+          "field": "journal_full",
+          "action": "canonicalize",
+          "old": null,
+          "new": "Clinics in Chest Medicine"
+        }
+      ]
+    }
+  }
+}

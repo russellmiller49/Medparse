@@ -1,0 +1,90 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Medparse Document",
+  "type": "object",
+  "properties": {
+    "metadata": {
+      "type": "object",
+      "properties": {
+        "title": {"type": "string"},
+        "year": {"type": ["string", "integer", "null"]},
+        "year_norm": {"type": ["string", "null"]},
+        "published": {
+          "type": "object",
+          "properties": {
+            "print": {"type": ["string", "null"]},
+            "online": {"type": ["string", "null"]}
+          },
+          "additionalProperties": false
+        },
+        "authors": {
+          "type": "array",
+          "items": {
+            "oneOf": [
+              {"type": "string"},
+              {
+                "type": "object",
+                "properties": {
+                  "given": {"type": "string"},
+                  "family": {"type": "string"},
+                  "suffix": {"type": ["string", "null"]},
+                  "degrees": {"type": "array", "items": {"type": "string"}},
+                  "orcid": {"type": ["string", "null"]},
+                  "group": {"type": "boolean"},
+                  "display": {"type": ["string", "null"]},
+                  "affiliations": {
+                    "type": "array",
+                    "items": {
+                      "type": "object",
+                      "properties": {
+                        "label": {"type": "string"},
+                        "ror": {"type": ["string", "null"]}
+                      },
+                      "required": ["label"],
+                      "additionalProperties": false
+                    }
+                  }
+                },
+                "required": ["given", "family"]
+              }
+            ]
+          }
+        },
+        "abstract": {"type": ["string", "null"]},
+        "doi": {"type": ["string", "null"]},
+        "journal": {"type": ["string", "null"]},
+        "journal_full": {"type": ["string", "null"]},
+        "journal_nlm_abbrev": {"type": ["string", "null"]},
+        "issn": {"type": ["string", "null"]},
+        "eissn": {"type": ["string", "null"]},
+        "volume": {"type": ["string", "null"]},
+        "issue": {"type": ["string", "null"]},
+        "pages": {"type": ["string", "null"]},
+        "url": {"type": ["string", "null"]}
+      },
+      "required": ["title"],
+      "additionalProperties": true
+    },
+    "provenance": {
+      "type": "object",
+      "properties": {
+        "orig_pdf_filename": {"type": ["string", "null"]},
+        "zotero": {
+          "type": "object",
+          "properties": {
+            "key": {"type": ["string", "null"]},
+            "id": {"type": ["string", "null"]},
+            "source": {"type": "string"},
+            "exported_at": {"type": "string"},
+            "match_method": {"type": "string"},
+            "match_confidence": {"type": ["number", "null"]}
+          },
+          "additionalProperties": true
+        },
+        "patches": {"type": "array"}
+      },
+      "additionalProperties": true
+    }
+  },
+  "required": ["metadata"]
+}

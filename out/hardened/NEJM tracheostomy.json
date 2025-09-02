@@ -1,0 +1,1279 @@
+{
+  "metadata": {
+    "title": "Percutaneous Tracheostomy",
+    "year": 2020,
+    "authors": [
+      {
+        "given": "Daniel A.",
+        "family": "Hashimoto",
+        "suffix": null,
+        "degrees": [],
+        "display": "Daniel A. Hashimoto",
+        "group": false
+      },
+      {
+        "given": "Andrea L.",
+        "family": "Axtell",
+        "suffix": null,
+        "degrees": [],
+        "display": "Andrea L. Axtell",
+        "group": false
+      },
+      {
+        "given": "Hugh G.",
+        "family": "Auchincloss",
+        "suffix": null,
+        "degrees": [],
+        "display": "Hugh G. Auchincloss",
+        "group": false
+      }
+    ],
+    "references_text": [
+      "Percutaneous dilatational tracheostomy versus surgical tracheostomy in critically ill patients: a systematic review and meta-analysis\n\t\t\n\t\t\tAnthonyDelaney\n\t\t\n\t\t\n\t\t\tSeanMBagshaw\n\t\t\n\t\t\n\t\t\tMarekNalos\n\t\t\n\t\t10.1186/cc4887\n\t\n\t\n\t\tCritical Care\n\t\tCrit Care\n\t\t1364-8535\n\t\t\n\t\t\t10\n\t\t\t2\n\t\t\t55\n\t\t\t2006\n\t\t\tSpringer Science and Business Media LLC",
+      "Safety of Bedside Percutaneous Tracheostomy in the Critically Ill: Evaluation of More than 3,000 Procedures\n\t\t\n\t\t\tBradleyMDennis\n\t\t\n\t\t\n\t\t\tMatthewJEckert\n\t\t\n\t\t\n\t\t\tOliverLGunter\n\t\t\n\t\t\n\t\t\tJohnAMorris\n\t\t\n\t\t\n\t\t\tAddisonKMay\n\t\t\n\t\t10.1016/j.jamcollsurg.2012.12.017\n\t\n\t\n\t\tJournal of the American College of Surgeons\n\t\t1072-7515\n\t\t\n\t\t\t216\n\t\t\t4\n\t\t\t\n\t\t\t2013\n\t\t\tOvid Technologies (Wolters Kluwer Health)",
+      "Timing of tracheotomy in ICU patients: a systematic review of randomized controlled trials\n\t\t\n\t\t\tKojiHosokawa\n\t\t\n\t\t\n\t\t\tMasajiNishimura\n\t\t\n\t\t\n\t\t\tMoritokiEgi\n\t\t\n\t\t\n\t\t\tJean-LouisVincent\n\t\t\n\t\t10.1186/s13054-015-1138-8\n\t\n\t\n\t\tCritical Care\n\t\tCrit Care\n\t\t1364-8535\n\t\t\n\t\t\t19\n\t\t\t1\n\t\t\t424\n\t\t\t2015\n\t\t\tSpringer Science and Business Media LLC",
+      "Late Complications of Tracheotomy\n\t\t\n\t\t\tDouglasEWood\n\t\t\n\t\t\n\t\t\tDouglasJMathisen\n\t\t\n\t\t10.1016/s0272-5231(21)00806-6\n\t\n\t\n\t\tClinics in Chest Medicine\n\t\tClinics in Chest Medicine\n\t\t0272-5231\n\t\t\n\t\t\t12\n\t\t\t3\n\t\t\t\n\t\t\t1991\n\t\t\tElsevier BV",
+      "Tracheoinnominate fistula: diagnosis and management\n\t\t\n\t\t\tJamesSAllan\n\t\t\n\t\t\n\t\t\tCameronDWright\n\t\t\n\t\t10.1016/s1052-3359(03)00006-1\n\t\n\t\n\t\tChest Surgery Clinics of North America\n\t\tChest Surgery Clinics of North America\n\t\t1052-3359\n\t\t\n\t\t\t13\n\t\t\t2\n\t\t\t\n\t\t\t2003\n\t\t\tElsevier BV",
+      "Postintubation Tracheal Stenosis: Management and Results 1993 to 2017\n\t\t\n\t\t\tCameronDWright\n\t\t\n\t\t\n\t\t\tShubenLi\n\t\t\n\t\t\n\t\t\tAbrahamDGeller\n\t\t\n\t\t\n\t\t\tMichaelLanuti\n\t\t\n\t\t\n\t\t\tHenningAGaissert\n\t\t\n\t\t\n\t\t\tAshokMuniappan\n\t\t\n\t\t\n\t\t\tHaraldCOtt\n\t\t\n\t\t\n\t\t\tDouglasJMathisen\n\t\t\n\t\t10.1016/j.athoracsur.2019.05.050\n\t\n\t\n\t\tThe Annals of Thoracic Surgery\n\t\tThe Annals of Thoracic Surgery\n\t\t0003-4975\n\t\t\n\t\t\t108\n\t\t\t5\n\t\t\t\n\t\t\t2019\n\t\t\tElsevier BV"
+    ],
+    "references_raw": [
+      "Percutaneous dilatational tracheostomy versus surgical tracheostomy in critically ill patients: a systematic review and meta-analysis\n\t\t\n\t\t\tADelaney\n\t\t\n\t\t\n\t\t\tSMBagshaw\n\t\t\n\t\t\n\t\t\tMNalos\n\t\t\n\t\n\t\n\t\tCrit Care\n\t\t\n\t\t\t10\n\t\t\t2\n\t\t\t55\n\t\t\t2006",
+      "Safety of bedside percutaneous tracheostomy in the critically ill: evaluation of more than 3,000 procedures\n\t\t\n\t\t\tBMDennis\n\t\t\n\t\t\n\t\t\tMJEckert\n\t\t\n\t\t\n\t\t\tOLGunter\n\t\t\n\t\t\n\t\t\tJAMorris\n\t\t\n\t\t\n\t\t\tJr\n\t\t\n\t\t\n\t\t\tAKMay\n\t\t\n\t\n\t\n\t\tJ Am Coll Surg\n\t\t\n\t\t\t216\n\t\t\t\n\t\t\t2013",
+      "Timing of tracheotomy in ICU patients: a systematic review of randomized controlled trials\n\t\t\n\t\t\tKHosokawa\n\t\t\n\t\t\n\t\t\tMNishimura\n\t\t\n\t\t\n\t\t\tMEgi\n\t\t\n\t\t\n\t\t\tJ-LVincent\n\t\t\n\t\n\t\n\t\tCrit Care\n\t\t\n\t\t\t19\n\t\t\t424\n\t\t\t2015",
+      "Late complications of tracheotomy\n\t\t\n\t\t\tDEWood\n\t\t\n\t\t\n\t\t\tDJMathisen\n\t\t\n\t\n\t\n\t\tClin Chest Med\n\t\t\n\t\t\t12\n\t\t\t\n\t\t\t1991",
+      "Tracheoinnominate fistula: diagnosis and management\n\t\t\n\t\t\tJSAllan\n\t\t\n\t\t\n\t\t\tCDWright\n\t\t\n\t\n\t\n\t\tChest Surg Clin N Am\n\t\t\n\t\t\t13\n\t\t\t\n\t\t\t2003",
+      "Postintubation tracheal stenosis: management and results 1993 to 2017\n\t\t\n\t\t\tCDWright\n\t\t\n\t\t\n\t\t\tSLi\n\t\t\n\t\t\n\t\t\tADGeller\n\t\t\n\t\n\t\n\t\tAnn Thorac Surg\n\t\t\n\t\t\t108\n\t\t\t\n\t\t\t2019"
+    ],
+    "references_struct": [
+      {
+        "title": "Percutaneous dilatational tracheostomy versus surgical tracheostomy in critically ill patients: a systematic review and meta-analysis",
+        "journal": "Crit Care",
+        "year": "2006",
+        "volume": "10",
+        "issue": "2",
+        "pages": "55",
+        "doi": null,
+        "pmid": null,
+        "authors": [
+          "Delaney A",
+          "Bagshaw SM",
+          "Nalos M"
+        ],
+        "first_author_last": "Delaney"
+      },
+      {
+        "title": "Safety of bedside percutaneous tracheostomy in the critically ill: evaluation of more than 3,000 procedures",
+        "journal": "J Am Coll Surg",
+        "year": "2013",
+        "volume": "216",
+        "issue": null,
+        "pages": null,
+        "doi": null,
+        "pmid": null,
+        "authors": [
+          "Dennis BM",
+          "Eckert MJ",
+          "Gunter OL",
+          "Morris JA",
+          "Jr",
+          "May AK"
+        ],
+        "first_author_last": "Dennis"
+      },
+      {
+        "title": "Timing of tracheotomy in ICU patients: a systematic review of randomized controlled trials",
+        "journal": "Crit Care",
+        "year": "2015",
+        "volume": "19",
+        "issue": null,
+        "pages": "424",
+        "doi": null,
+        "pmid": null,
+        "authors": [
+          "Hosokawa K",
+          "Nishimura M",
+          "Egi M",
+          "Vincent J"
+        ],
+        "first_author_last": "Hosokawa"
+      },
+      {
+        "title": "Late complications of tracheotomy",
+        "journal": "Clin Chest Med",
+        "year": "1991",
+        "volume": "12",
+        "issue": null,
+        "pages": null,
+        "doi": null,
+        "pmid": null,
+        "authors": [
+          "Wood DE",
+          "Mathisen DJ"
+        ],
+        "first_author_last": "Wood"
+      },
+      {
+        "title": "Tracheoinnominate fistula: diagnosis and management",
+        "journal": "Chest Surg Clin N Am",
+        "year": "2003",
+        "volume": "13",
+        "issue": null,
+        "pages": null,
+        "doi": null,
+        "pmid": null,
+        "authors": [
+          "Allan JS",
+          "Wright CD"
+        ],
+        "first_author_last": "Allan"
+      },
+      {
+        "title": "Postintubation tracheal stenosis: management and results 1993 to 2017",
+        "journal": "Ann Thorac Surg",
+        "year": "2019",
+        "volume": "108",
+        "issue": null,
+        "pages": null,
+        "doi": null,
+        "pmid": null,
+        "authors": [
+          "Wright CD",
+          "Li S",
+          "Geller AD"
+        ],
+        "first_author_last": "Wright"
+      }
+    ],
+    "abstract": "A tracheostomy is a surgically created airway that is kept open with a breathing tube, or tracheostomy tube. The tube is inserted directly into the trachea through an incision in the neck. A tracheostomy can be created with an open surgical or a percutaneous dilation technique 1 and can take place in the operating room or at the patient's bedside. The open technique involves dissection of the anterior pretracheal tissue and insertion of a tracheostomy tube under direct visualization. The percutaneous technique can be performed quickly and safely at the bedside with the use of a modified Seldinger technique and bronchoscopic guidance. 2 This approach is associated with fewer bleeding complications than open tracheostomy and similar long-term morbidity. 1 Tracheostomy should be considered in patients with acute respiratory failure who require prolonged mechanical ventilation - defined as ventilation for 7 days or more - and who are expected to have a meaningful recovery. 3 Tracheostomy decreases the need for sedation and facilitates weaning from a ventilator. 1,3 Additional indications include upper airway obstruction (including vocal cord paralysis), the need for airway protection in patients with conditions such as neurologic disease or traumatic brain injury, and the need for more effective pulmonary hygiene, including the use of recruitment maneuvers and methods for clearing the airways of secretions. Neither previous tracheostomy nor other types of neck surgery are contraindications. In fact, percutaneous tracheostomy may be preferred in patients whose surgical planes have been distorted. Absolute contraindications to percutaneous tracheostomy include cervical instability, uncontrolled coagulopathy, and infection at the planned insertion site. Relative contraindications include difficult anatomy (short neck, morbid obesity, minimal neck extension, or tracheal deviation) and severe respiratory disease resulting in the inability to withstand periods of apnea or in the loss of positive-pressure ventilation",
+    "references_enriched": [
+      {
+        "title": "Percutaneous dilatational tracheostomy versus surgical tracheostomy in critically ill patients: a systematic review and meta-analysis"
+      },
+      {
+        "title": "Crit Care",
+        "year": 2006
+      },
+      {
+        "title": "Safety of bedside percutaneous tracheostomy in the critically ill: evaluation of more than 3,000 procedures",
+        "year": 2006
+      },
+      {
+        "title": "J Am Coll Surg",
+        "year": 2013
+      },
+      {
+        "title": "Timing of tracheotomy in ICU patients: a systematic review of randomized controlled trials",
+        "year": 2013
+      },
+      {
+        "title": "Crit Care",
+        "year": 2006
+      },
+      {
+        "title": "Late complications of tracheotomy",
+        "year": 2015
+      },
+      {
+        "title": "Clin Chest Med",
+        "year": 1991
+      },
+      {
+        "title": "Tracheoinnominate fistula: diagnosis and management",
+        "year": 1991
+      },
+      {
+        "title": "Chest Surg Clin N Am",
+        "year": 2003
+      },
+      {
+        "title": "Postintubation tracheal stenosis: management and results 1993 to 2017",
+        "year": 2003
+      },
+      {
+        "title": "Ann Thorac Surg",
+        "year": 2019
+      }
+    ],
+    "references_source": "grobid_fallback",
+    "year_norm": "2020",
+    "doi": "10.1056/nejmvcm2014884",
+    "journal": "New England Journal of Medicine",
+    "volume": "383",
+    "issue": "20",
+    "issn": "0028-4793, 1533-4406",
+    "url": "http://www.nejm.org/doi/10.1056/NEJMvcm2014884",
+    "published": {
+      "print": null,
+      "online": "2020-11-12"
+    },
+    "journal_full": "New England Journal of Medicine"
+  },
+  "structure": {
+    "sections": [
+      {
+        "title": "Overview",
+        "paragraphs": [
+          {
+            "text": "A tracheostomy is a surgically created airway that is kept open with a breathing tube, or tracheostomy tube. The tube is inserted directly into the trachea through an incision in the neck. A tracheostomy can be created with an open surgical or a percutaneous dilation technique 1  and can take place in the operating room or at the patient's bedside. The open technique involves dissection of the anterior pretracheal tissue and insertion of a tracheostomy tube under direct visualization. The percutaneous technique can be performed quickly and safely at the bedside with the use of a modified Seldinger technique and bronchoscopic guidance. 2  This approach is associated with fewer bleeding complications than open tracheostomy and similar long-term morbidity. 1"
+          }
+        ],
+        "category": "other"
+      },
+      {
+        "title": "Indications and Contraindications",
+        "paragraphs": [
+          {
+            "text": "Tracheostomy should be considered in patients with acute respiratory failure who require prolonged mechanical ventilation - defined as ventilation for 7 days or more - and who are expected to have a meaningful recovery. 3  Tracheostomy decreases the need for sedation and facilitates weaning from a ventilator. 1,3 Additional indications include upper airway obstruction (including vocal cord paralysis), the need for airway protection in patients with conditions such as neurologic disease or traumatic brain injury, and the need for more effective pulmonary hygiene, including the use of recruitment maneuvers and methods for clearing the airways of secretions."
+          },
+          {
+            "text": "Neither previous tracheostomy nor other types of neck surgery are contraindications.  In  fact,  percutaneous  tracheostomy  may  be  preferred  in  patients  whose surgical planes have been distorted. Absolute contraindications to percutaneous tracheostomy include cervical instability, uncontrolled coagulopathy, and infection at the planned insertion site. Relative contraindications include difficult anatomy (short neck, morbid obesity, minimal neck extension, or tracheal deviation) and severe respiratory disease resulting in the inability to withstand periods of apnea or in the loss of positive-pressure ventilation."
+          }
+        ],
+        "category": "other"
+      },
+      {
+        "title": "Procedural Modifications in Patients with Covid-19",
+        "paragraphs": [
+          {
+            "text": "Percutaneous tracheostomy in patients with coronavirus disease 2019 (Covid-19) includes the use of complete neuromuscular paralysis to minimize the cough reflex and involves periods of apnea when the ventilatory circuit is considered to be open. The procedure requires a highly specialized team that minimizes the number of personnel needed and the use of full personal protective equipment (PPE)."
+          },
+          {
+            "text": "From the Department of Surgery (D.A.H.) and Division of Thoracic Surgery (A.L.A., H.G.A.), Massachusetts General Hospital, and Harvard Medical School (D.A.H., A.L.A.,  H.G.A.)  -  both  in  Boston.  Address reprint requests to Dr. Hashimoto or  Dr.  Auchincloss  at  Massachusetts General Hospital, 55 Fruit St., Founders 7, Boston, MA 02114, or at   dahashimoto@ mgh  .  harvard  .  edu or   hauchincloss@  mgh .  harvard  .  edu."
+          },
+          {
+            "text": "This article was published on October 28, 2020, at NEJM.org."
+          },
+          {
+            "text": "Julie R. Ingelfinger, M.D., Editor"
+          }
+        ],
+        "category": "other"
+      },
+      {
+        "title": "Percutaneous Tracheostomy",
+        "paragraphs": [
+          {
+            "text": "Daniel A. Hashimoto, M.D., Andrea L. Axtell, M.D., and Hugh G. Auchincloss, M.D."
+          },
+          {
+            "text": "The following text summarizes information provided in the video."
+          }
+        ],
+        "category": "other"
+      },
+      {
+        "title": "videos in clinical medicine",
+        "paragraphs": [
+          {
+            "text": "summary points"
+          },
+          {
+            "text": "Downloaded from nejm.org at NMC San Diego on August 6, 2025."
+          },
+          {
+            "text": "e 112(2)"
+          }
+        ],
+        "category": "other"
+      },
+      {
+        "title": "Equipment",
+        "paragraphs": [
+          {
+            "text": "Performance  of  a  bedside  tracheostomy  requires  medications  for  sedation  and paralysis, a flexible bronchoscope (preferably a video bronchoscope, since it allows all  personnel in the room to visualize the positioning of the oral endotracheal tube),  a  bronchoscope  attachment  for  the  ventilator,  silicone  lubricant  (which allows the bronchoscope to pass easily down the oral endotracheal tube), saline, surgical  lubricant,  a  dissecting  tool  (e.g.,  tonsil  forceps  or  curved  hemostat),  a tracheostomy tube and tracheostomy collar, and a percutaneous tracheostomy kit. This kit  generally  includes  a  number  15  surgical  scalpel  blade,  an  introducer needle, a guidewire, a small tracheal dilator, a protective sheath, a single-stage progressive tracheal dilator, a tracheal loading trocar, and a small slip-tip syringe."
+          },
+          {
+            "text": "The size of the tracheostomy tube selected should be appropriate for the patient. Percutaneous tracheostomy kits are designed to be used with a specialized tracheostomy tube that loads onto a dilator. In practice, however, any tracheostomy tube can be inserted in a percutaneous fashion. A thin, flexible tracheostomy tube is useful because it maximizes the diameter of the airway while minimizing pressure on the tracheal wall."
+          }
+        ],
+        "category": "other"
+      },
+      {
+        "title": "Preparation",
+        "paragraphs": [
+          {
+            "text": "Minimizing the exposure of health care personnel to aerosol-generating procedures is critical when treating patients with Covid-19. To safely perform percutaneous tracheostomy, a minimum of three medical personnel must be present: the bedside surgeon, a bronchoscopist, and a respiratory therapist. Percutaneous tracheostomy is considered to be an aerosol-generating procedure. All personnel in the room must be wearing PPE and should observe the policies at their institution regarding the use of PPE during aerosol-generating procedures."
+          }
+        ],
+        "category": "other"
+      },
+      {
+        "title": "Patient and Provider Positioning",
+        "paragraphs": [
+          {
+            "text": "The patient should be placed in the supine position. Placement of a shoulder roll beneath the patient's scapulae can help to extend the neck and improve exposure of the anterior neck. The patient's head should be supported by a towel or small pillow, if needed. The surgeon should be able to comfortably access the patient's neck while standing; the height of the bed should be adjusted as needed."
+          },
+          {
+            "text": "Team members should be positioned around the bed in a manner that allows them to carry out the necessary procedures safely, effectively, and efficiently. The respiratory therapist should stand at the head of the bed, a position that allows direct control of the airway and provides access to the ventilator. The bronchoscopist should be positioned at the patient's left side, next to the bronchoscopy cart and video monitor. Although the surgeon is generally positioned on the patient's right side, with a direct view of the bronchoscopy monitor, a left-handed surgeon may prefer to be on the patient's left side, with the bronchoscopist on the right side."
+          }
+        ],
+        "category": "other"
+      },
+      {
+        "title": "Identification of Anatomical Landmarks",
+        "paragraphs": [
+          {
+            "text": "Palpate the neck to identify key anatomical landmarks. These include the thyroid cartilage, the cricoid cartilage, and the sternal notch. The ideal location for placement of the tracheostomy tube is between the second and third tracheal rings (Fig. 1). Palpate the neck to identify the pulse of a high-riding innominate artery that may overlie the area of the planned incision. Open tracheostomy is preferred in patients with a high-riding innominate artery.",
+            "cross_refs": [
+              {
+                "type": "figure",
+                "index": 0,
+                "text": "Fig. 1",
+                "span": [
+                  244,
+                  250
+                ]
+              }
+            ]
+          },
+          {
+            "text": "The ideal location for placement of the tracheostomy tube is between the second and third tracheal rings."
+          },
+          {
+            "text": "Downloaded from nejm.org at NMC San Diego on August 6, 2025."
+          }
+        ],
+        "category": "other"
+      },
+      {
+        "title": "Procedure",
+        "paragraphs": [
+          {
+            "text": "Before starting the procedure, the team should take a time-out to verify the patient's identity and the procedure to be performed. After the time-out, the patient's nurse should administer a short-acting paralytic agent and, if necessary, additional sedation. Inadequate paralysis increases the risk of inadvertent extubation when the oral endotracheal tube is being manipulated. After administering the agent, the nurse should step out of the room to minimize exposure but should be immediately available and ready to reenter the room if assistance is needed."
+          },
+          {
+            "text": "Sterilize and drape the anterior neck, making sure that the draping will allow easy access to the oral endotracheal tube. Make a 2-to-3-cm vertical incision in the neck that directly overlies the trachea and is below the cricoid cartilage. Bluntly dissect the pretracheal tissue with a dissecting tool until the trachea is palpable. In patients who require therapeutic anticoagulation or in whom there is any risk of bleeding, it may be advisable to place a purse-string suture around the tracheostomy incision. The purse-string suture is placed but not tied during this step. It will be tied to provide additional hemostatic control once the tracheostomy tube has been inserted. The suture is generally removed on the second postoperative day if there is no evidence of bleeding. The tracheostomy tube itself should not be sutured in place. Suturing a tracheostomy tube results in skin ulceration and does not prevent inadvertent decannulation."
+          },
+          {
+            "text": "Ask  the  respiratory  therapist  to  induce  apnea  by  placing  the  ventilator  on standby. Disconnect the oral endotracheal tube from the ventilator circuit and attach a bronchoscope adaptor to the tube. Insert the bronchoscope into the adaptor, reconnect the circuit, and resume ventilation. Advance the bronchoscope into the airway. Briefly survey the trachea and clear any obstructing secretions."
+          },
+          {
+            "text": "Once all team members are ready to proceed, advance the bronchoscope into the oral endotracheal tube until the camera is aligned with the end of the tube. At that point, the respiratory therapist should again induce apnea and then deflate the  tube  cuff.  The  respiratory  therapist  and  the  bronchoscopist  together  then slowly withdraw the tube and the bronchoscope simultaneously until the subglottic  landmarks are visible.  Palpation  of  the  anterior  trachea  by  the  surgeon  can facilitate identification of these landmarks. Some practitioners use transillumination (i.e., visualization of the bronchoscopic light through the skin) to facilitate the positioning of the tube."
+          },
+          {
+            "text": "The bronchoscope is kept within the oral endotracheal tube at all times to ensure control of the airway. Precise communication and coordinated movement between the respiratory therapist and bronchoscopist are crucial to the prevention of accidental extubation."
+          },
+          {
+            "text": "Once the oral endotracheal tube has been withdrawn to an appropriate location, perform the tracheostomy, using the Seldinger technique. Insert the introducer needle through the anterior wall of the trachea under direct bronchoscopic visualization. The needle should be inserted at the level of the second tracheal ring, perpendicular to the trachea, with the bevel facing down. Placement of the needle bevel in this downward position will help to direct the guidewire into the distal trachea. It is critical to avoid damaging the balloon on the oral endotracheal tube. In the event that the patient's condition becomes clinically unstable or there is difficulty performing the tracheostomy, as long as the balloon is intact, the oral endotracheal tube is simply advanced to its original location and normal ventilation is resumed. Additional supplies or personnel can be gathered. If the balloon is compromised, so too is the ability to provide positive pressure ventilation. A new airway must be expeditiously established by means of either a tracheostomy or oral endotracheal intubation with an intact tube."
+          },
+          {
+            "text": "Downloaded from nejm.org at NMC San Diego on August 6, 2025."
+          },
+          {
+            "text": "Feed the guidewire through the needle and visualize it while advancing it distally toward the carina. Advance the wire slightly beyond the carina (Fig. 2). Remove the needle over the wire, keeping the wire in place within the trachea at all times. Advance the small tracheal dilator over the wire to dilate the tract. Remove the  small  tracheal  dilator  and,  with  the  protective  sheath  loaded,  advance  the single-stage progressive dilator over the wire (Fig. 3). Remove the progressive dilator, keeping the wire and the protective sheath in place. (Markings on the side of the progressive dilator guide the depth to which it is inserted.) Next, insert an appropriately sized tracheostomy tube directly into the trachea over the wire and protective sheath. If using a flexible tracheostomy tube, insert the tube with the curve directed toward the patient's head. Once the tube in the patient's trachea is visualized, rotate the tube 180 degrees. This will position the tube in its normal orientation and prevent it from creating a pretracheal plane. Alternatively, a nonflexible tracheostomy tube can be loaded onto an insertion trocar and advanced over the wire and the protective sheath into the trachea.",
+            "cross_refs": [
+              {
+                "type": "figure",
+                "index": 1,
+                "text": "Fig. 2",
+                "span": [
+                  147,
+                  153
+                ]
+              },
+              {
+                "type": "figure",
+                "index": 2,
+                "text": "Fig. 3",
+                "span": [
+                  463,
+                  469
+                ]
+              }
+            ]
+          },
+          {
+            "text": "Once the tube is in place, remove the protective sheath, wire, and trocar (if used), inflate the tracheostomy cuff, connect the circuit to the tracheostomy tube, and resume ventilation. The presence of end-tidal carbon dioxide confirms placement in the airway. Alternatively, the bronchoscope can be reinserted through the tracheostomy tube to visually confirm placement within the airway. The position of the tracheostomy should be confirmed with the patient's head in flexion and extension. Only then should the oral endotracheal tube be removed."
+          },
+          {
+            "text": "Once satisfactory placement is confirmed, secure the tracheostomy tube with a tracheostomy collar. If a purse-string suture was placed, tie down the suture to close the skin incision around the tracheostomy. Once the patient is appropriately ventilated through a secured tracheostomy tube, the oral endotracheal tube may be removed."
+          }
+        ],
+        "category": "other"
+      },
+      {
+        "title": "Loss of the Airway",
+        "paragraphs": [
+          {
+            "text": "The most serious procedural risk associated with endotracheal intubation is loss of the airway. This typically occurs in one of two ways: the patient coughs during manipulation of the endotracheal tube or the balloon on the tube is damaged. Adequate neuromuscular paralysis should prevent the patient from coughing. An intact balloon is critical to the safety of the procedure. If the patient's condition becomes unstable or if there is difficulty placing the tracheostomy, the oral endotracheal tube should be advanced to its original location and ventilation resumed. If  the  balloon  is  compromised,  the  provision  of  positive  pressure  ventilation  is compromised. Either a new airway must be established expeditiously by creating a tracheostomy or by replacing the compromised endotracheal tube with an intact tube through oral endotracheal intubation."
+          }
+        ],
+        "category": "other"
+      },
+      {
+        "title": "Aftercare",
+        "paragraphs": [
+          {
+            "text": "In the immediate postoperative period, the tracheal stoma requires regular assessment and wound management, including frequent cleaning of the skin around the stoma and changes in dressing as needed. Pulmonary hygiene, ventilator weaning, and eventual decannulation should be performed in accordance with institutional guidelines and the clinical status of the patient. Maturation of the tracheal stoma occurs after approximately 7 days, at which time the tracheostomy tube may be replaced or downsized, depending on the clinical needs of the patient. The surgical team typically performs the first such exchange."
+          },
+          {
+            "text": "In patients with Covid-19, the focus of early postprocedural care is to ensure minimization of aerosol generation. Effective measures include keeping the cuff"
+          },
+          {
+            "text": "The introducer needle and guidewire are inserted through the anterior wall of the trachea under direct bronchoscopic guidance (inset)."
+          },
+          {
+            "text": "The small tracheal dilator is advanced over the guidewire to dilate the tract. The small tracheal dilator is removed, the protective sheath is loaded (Panel A), and the single-stage progressive dilator is advanced over the guidewire (Panel B)."
+          },
+          {
+            "text": "Downloaded from nejm.org at NMC San Diego on August 6, 2025."
+          },
+          {
+            "text": "inflated, using a closed-suction catheter when clearing the airway, and, if possible, avoiding the use of humidified oxygen. Ideally, deflation of the cuff, replacement of the tracheostomy tube, and initiation of a plan for decannulation should be deferred until the results of patient testing for Covid-19 are negative."
+          }
+        ],
+        "category": "other"
+      },
+      {
+        "title": "Complications",
+        "paragraphs": [
+          {
+            "text": "Early complications after placement of a tracheostomy tube include bleeding and obstruction  or  dislodgement  of  the  tracheostomy  tube. 2 Bleeding  is  the  most common complication, but it is usually self-limited or can be controlled with the use of measures such as the application of pressure or the use of hemostatic agents. The purse-string method described above may help to control bleeding from the skin."
+          },
+          {
+            "text": "Inadvertent decannulation and obstruction of the tracheostomy tube are rare, but should they occur, both can be managed by securing the airway through oral endotracheal intubation. If obstruction of the tube cannot be cleared with standard suctioning techniques or if the tube becomes dislodged, the airway should be secured by means of orotracheal intubation; insertion of a new tracheostomy tube through a tract that has not fully matured should not be attempted."
+          },
+          {
+            "text": "Late complications after tracheostomy include tracheoinnominate fistula, tracheoesophageal fistula, and tracheal stenosis. 4 The development of fistulas is a rare complication that requires surgical consultation. Tracheoinnominate fistulas are rare and life-threatening. If a fistula is suspected, immediate operative repair must be performed, as it affords the only chance of survival. 5  Tracheoesophageal fistula typically occurs in patients with an esophageal foreign body, such as a feeding tube. 4 Operative repair is indicated after the patient's critical illness has resolved. Tracheal stenosis can occur anywhere along the trachea, from the tracheal stoma to the cuff of the tracheostomy tube. Stomal stenosis results from the trauma of tube insertion or excessive movement at the entry site. Cuff stenosis is related to mucosal ischemic injury from high cuff pressures. Tracheal dilation is palliative; definitive treatment requires resection and reconstruction. 6"
+          }
+        ],
+        "category": "other"
+      },
+      {
+        "title": "Summary",
+        "paragraphs": [
+          {
+            "text": "Percutaneous tracheostomy can be safely performed at the bedside in patients with a prolonged need for mechanical ventilation. In patients with Covid-19, this procedure can be modified to minimize both aerosol generation and exposure to staff."
+          },
+          {
+            "text": "No potential conflict of interest relevant to this article was reported."
+          },
+          {
+            "text": "Disclosure forms provided by the authors are available with the full text of this article at NEJM.org."
+          },
+          {
+            "text": "We thank Drs. Sahael Stapleton, Cindy Bonilla, and David McCarthy for their invaluable assistance in the management of patient care and the members of the nursing and respiratory therapy staff who assisted in care."
+          }
+        ],
+        "category": "abstract"
+      },
+      {
+        "title": "References",
+        "paragraphs": [
+          {
+            "text": "1. Delaney A, Bagshaw SM, Nalos M. Percutaneous dilatational tracheostomy versus surgical tracheostomy in critically ill patients: a systematic review and meta-analysis. Crit Care 2006;  10(2):  R55."
+          },
+          {
+            "text": "2. Dennis BM, Eckert MJ, Gunter OL, Morris JA Jr, May AK. Safety of bedside percutaneous tracheostomy in the critically ill: evaluation of more than 3,000 procedures. J Am Coll Surg 2013;  216:  858-65."
+          },
+          {
+            "text": "3. Hosokawa K, Nishimura M, Egi M, Vincent J-L. Timing of tracheotomy in ICU patients: a systematic review of randomized controlled trials. Crit Care 2015;  19:  424."
+          },
+          {
+            "text": "4. Wood DE, Mathisen DJ. Late complications of tracheotomy. Clin Chest Med 1991;  12:  597-609."
+          },
+          {
+            "text": "5. Allan JS, Wright CD. Tracheoinnominate fistula: diagnosis and management. Chest Surg Clin N Am 2003; 13:  331-41."
+          },
+          {
+            "text": "6. Wright CD, Li S, Geller AD, et al. Postintubation tracheal stenosis: management and results 1993 to 2017. Ann Thorac Surg 2019;  108:  1471-7."
+          },
+          {
+            "text": "Copyright © 2020 Massachusetts Medical Society."
+          },
+          {
+            "text": "The New England Journal of Medicine is produced by NEJM Group, a division of the Massachusetts Medical Society."
+          },
+          {
+            "text": "Downloaded from nejm.org at NMC San Diego on August 6, 2025."
+          }
+        ],
+        "category": "other"
+      }
+    ],
+    "tables": [],
+    "figures": [
+      {
+        "self_ref": "#/pictures/0",
+        "parent": {
+          "cref": "#/body"
+        },
+        "children": [
+          {
+            "cref": "#/texts/34"
+          }
+        ],
+        "content_layer": "body",
+        "label": "picture",
+        "prov": [
+          {
+            "page_no": 2,
+            "bbox": {
+              "l": 406.8561706542969,
+              "t": 243.15594482421875,
+              "r": 536.6882934570312,
+              "b": 169.90582275390625,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "charspan": [
+              0,
+              0
+            ]
+          }
+        ],
+        "captions": [
+          {
+            "cref": "#/texts/34"
+          }
+        ],
+        "references": [],
+        "footnotes": [],
+        "image": null,
+        "annotations": []
+      },
+      {
+        "self_ref": "#/pictures/1",
+        "parent": {
+          "cref": "#/body"
+        },
+        "children": [
+          {
+            "cref": "#/texts/63"
+          }
+        ],
+        "content_layer": "body",
+        "label": "picture",
+        "prov": [
+          {
+            "page_no": 4,
+            "bbox": {
+              "l": 407.0113220214844,
+              "t": 700.0626792907715,
+              "r": 535.824462890625,
+              "b": 626.1522521972656,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "charspan": [
+              0,
+              0
+            ]
+          }
+        ],
+        "captions": [
+          {
+            "cref": "#/texts/63"
+          }
+        ],
+        "references": [],
+        "footnotes": [],
+        "image": null,
+        "annotations": []
+      },
+      {
+        "self_ref": "#/pictures/2",
+        "parent": {
+          "cref": "#/body"
+        },
+        "children": [
+          {
+            "cref": "#/texts/65"
+          },
+          {
+            "cref": "#/texts/66"
+          }
+        ],
+        "content_layer": "body",
+        "label": "picture",
+        "prov": [
+          {
+            "page_no": 4,
+            "bbox": {
+              "l": 406.89019775390625,
+              "t": 542.1327819824219,
+              "r": 535.5267333984375,
+              "b": 432.3857727050781,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "charspan": [
+              0,
+              0
+            ]
+          }
+        ],
+        "captions": [
+          {
+            "cref": "#/texts/65"
+          }
+        ],
+        "references": [],
+        "footnotes": [],
+        "image": null,
+        "annotations": []
+      },
+      {
+        "self_ref": "#/pictures/3",
+        "parent": {
+          "cref": "#/body"
+        },
+        "children": [
+          {
+            "cref": "#/texts/67"
+          }
+        ],
+        "content_layer": "body",
+        "label": "picture",
+        "prov": [
+          {
+            "page_no": 4,
+            "bbox": {
+              "l": 407.10986328125,
+              "t": 429.530029296875,
+              "r": 535.4782104492188,
+              "b": 319.1400451660156,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "charspan": [
+              0,
+              0
+            ]
+          }
+        ],
+        "captions": [],
+        "references": [],
+        "footnotes": [],
+        "image": null,
+        "annotations": []
+      }
+    ],
+    "citations": [],
+    "n_sections": 15,
+    "n_tables": 0,
+    "n_figures": 4,
+    "n_citations": 0
+  },
+  "provenance": {
+    "patches": [
+      {
+        "path": "metadata.year_norm",
+        "op": "set",
+        "from": null,
+        "to": "2020",
+        "source": "zotero:year_norm",
+        "confidence": 0.9
+      },
+      {
+        "path": "metadata.authors",
+        "op": "set",
+        "from": [
+          "Thoracic Surgery",
+          "Massachusetts General",
+          "Harvard Medical",
+          "Fruit St"
+        ],
+        "to": [
+          "Daniel A. Hashimoto",
+          "Andrea L. Axtell",
+          "Hugh G. Auchincloss"
+        ],
+        "source": "zotero:authors",
+        "confidence": 0.9
+      },
+      {
+        "path": "metadata.doi",
+        "op": "set",
+        "from": null,
+        "to": "10.1056/nejmvcm2014884",
+        "source": "zotero:doi",
+        "confidence": 0.9
+      },
+      {
+        "path": "metadata.journal",
+        "op": "set",
+        "from": null,
+        "to": "New England Journal of Medicine",
+        "source": "zotero:journal",
+        "confidence": 0.9
+      },
+      {
+        "path": "metadata.volume",
+        "op": "set",
+        "from": null,
+        "to": "383",
+        "source": "zotero:volume",
+        "confidence": 0.9
+      },
+      {
+        "path": "metadata.issue",
+        "op": "set",
+        "from": null,
+        "to": "20",
+        "source": "zotero:issue",
+        "confidence": 0.9
+      },
+      {
+        "path": "metadata.issn",
+        "op": "set",
+        "from": null,
+        "to": "0028-4793, 1533-4406",
+        "source": "zotero:issn",
+        "confidence": 0.9
+      },
+      {
+        "path": "metadata.url",
+        "op": "set",
+        "from": null,
+        "to": "http://www.nejm.org/doi/10.1056/NEJMvcm2014884",
+        "source": "zotero:url",
+        "confidence": 0.9
+      },
+      {
+        "path": "provenance.orig_pdf_filename",
+        "op": "set",
+        "from": null,
+        "to": "Hashimoto et al. - 2020 - Percutaneous Tracheostomy.pdf",
+        "source": "zotero:csv",
+        "confidence": 0.9
+      },
+      {
+        "path": "metadata.year",
+        "op": "set",
+        "from": "2020-11-12",
+        "to": 2020,
+        "source": "normalize:iso",
+        "confidence": 0.9
+      },
+      {
+        "path": "metadata.authors",
+        "op": "set",
+        "from": [
+          "Daniel A. Hashimoto",
+          "Andrea L. Axtell",
+          "Hugh G. Auchincloss"
+        ],
+        "to": [
+          {
+            "given": "Daniel A.",
+            "family": "Hashimoto",
+            "suffix": null,
+            "degrees": [],
+            "display": "Daniel A. Hashimoto",
+            "group": false
+          },
+          {
+            "given": "Andrea L.",
+            "family": "Axtell",
+            "suffix": null,
+            "degrees": [],
+            "display": "Andrea L. Axtell",
+            "group": false
+          },
+          {
+            "given": "Hugh G.",
+            "family": "Auchincloss",
+            "suffix": null,
+            "degrees": [],
+            "display": "Hugh G. Auchincloss",
+            "group": false
+          }
+        ],
+        "source": "filtered_ack_like",
+        "confidence": 0.9
+      },
+      {
+        "path": "metadata.journal_full",
+        "op": "set",
+        "from": null,
+        "to": "New England Journal of Medicine",
+        "source": "canonicalize",
+        "confidence": 0.9
+      }
+    ],
+    "orig_pdf_filename": "Hashimoto et al. - 2020 - Percutaneous Tracheostomy.pdf",
+    "zotero": {
+      "id": "hashimotoPercutaneousTracheostomy2020",
+      "source": "zotero_csl+csv",
+      "exported_at": "2025-09-02T20:29:37.880219Z",
+      "match_method": "title_exact",
+      "match_confidence": 1.0
+    }
+  },
+  "grobid": {
+    "references_tei": "<TEI xmlns=\"http://www.tei-c.org/ns/1.0\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" \n xmlns:mml=\"http://www.w3.org/1998/Math/MathML\">\n\t<teiHeader/>\n\t<text>\n\t\t<front/>\n\t\t<body/>\n\t\t<back>\n\t\t\t<div>\n\t\t\t\t<listBibl>\n<biblStruct xml:id=\"b0\">\n\t<analytic>\n\t\t<title level=\"a\" type=\"main\">Percutaneous dilatational tracheostomy versus surgical tracheostomy in critically ill patients: a systematic review and meta-analysis</title>\n\t\t<author>\n\t\t\t<persName><forename type=\"first\">A</forename><surname>Delaney</surname></persName>\n\t\t</author>\n\t\t<author>\n\t\t\t<persName><forename type=\"first\">S</forename><forename type=\"middle\">M</forename><surname>Bagshaw</surname></persName>\n\t\t</author>\n\t\t<author>\n\t\t\t<persName><forename type=\"first\">M</forename><surname>Nalos</surname></persName>\n\t\t</author>\n\t</analytic>\n\t<monogr>\n\t\t<title level=\"j\">Crit Care</title>\n\t\t<imprint>\n\t\t\t<biblScope unit=\"volume\">10</biblScope>\n\t\t\t<biblScope unit=\"issue\">2</biblScope>\n\t\t\t<biblScope unit=\"page\">55</biblScope>\n\t\t\t<date type=\"published\" when=\"2006\">2006</date>\n\t\t</imprint>\n\t</monogr>\n</biblStruct>\n\n<biblStruct xml:id=\"b1\">\n\t<analytic>\n\t\t<title level=\"a\" type=\"main\">Safety of bedside percutaneous tracheostomy in the critically ill: evaluation of more than 3,000 procedures</title>\n\t\t<author>\n\t\t\t<persName><forename type=\"first\">B</forename><forename type=\"middle\">M</forename><surname>Dennis</surname></persName>\n\t\t</author>\n\t\t<author>\n\t\t\t<persName><forename type=\"first\">M</forename><forename type=\"middle\">J</forename><surname>Eckert</surname></persName>\n\t\t</author>\n\t\t<author>\n\t\t\t<persName><forename type=\"first\">O</forename><forename type=\"middle\">L</forename><surname>Gunter</surname></persName>\n\t\t</author>\n\t\t<author>\n\t\t\t<persName><forename type=\"first\">J</forename><forename type=\"middle\">A</forename><surname>Morris</surname></persName>\n\t\t</author>\n\t\t<author>\n\t\t\t<persName><surname>Jr</surname></persName>\n\t\t</author>\n\t\t<author>\n\t\t\t<persName><forename type=\"first\">A</forename><forename type=\"middle\">K</forename><surname>May</surname></persName>\n\t\t</author>\n\t</analytic>\n\t<monogr>\n\t\t<title level=\"j\">J Am Coll Surg</title>\n\t\t<imprint>\n\t\t\t<biblScope unit=\"volume\">216</biblScope>\n\t\t\t<biblScope unit=\"page\" from=\"858\" to=\"865\" />\n\t\t\t<date type=\"published\" when=\"2013\">2013</date>\n\t\t</imprint>\n\t</monogr>\n</biblStruct>\n\n<biblStruct xml:id=\"b2\">\n\t<analytic>\n\t\t<title level=\"a\" type=\"main\">Timing of tracheotomy in ICU patients: a systematic review of randomized controlled trials</title>\n\t\t<author>\n\t\t\t<persName><forename type=\"first\">K</forename><surname>Hosokawa</surname></persName>\n\t\t</author>\n\t\t<author>\n\t\t\t<persName><forename type=\"first\">M</forename><surname>Nishimura</surname></persName>\n\t\t</author>\n\t\t<author>\n\t\t\t<persName><forename type=\"first\">M</forename><surname>Egi</surname></persName>\n\t\t</author>\n\t\t<author>\n\t\t\t<persName><forename type=\"first\">J-L</forename><surname>Vincent</surname></persName>\n\t\t</author>\n\t</analytic>\n\t<monogr>\n\t\t<title level=\"j\">Crit Care</title>\n\t\t<imprint>\n\t\t\t<biblScope unit=\"volume\">19</biblScope>\n\t\t\t<biblScope unit=\"page\">424</biblScope>\n\t\t\t<date type=\"published\" when=\"2015\">2015</date>\n\t\t</imprint>\n\t</monogr>\n</biblStruct>\n\n<biblStruct xml:id=\"b3\">\n\t<analytic>\n\t\t<title level=\"a\" type=\"main\">Late complications of tracheotomy</title>\n\t\t<author>\n\t\t\t<persName><forename type=\"first\">D</forename><forename type=\"middle\">E</forename><surname>Wood</surname></persName>\n\t\t</author>\n\t\t<author>\n\t\t\t<persName><forename type=\"first\">D</forename><forename type=\"middle\">J</forename><surname>Mathisen</surname></persName>\n\t\t</author>\n\t</analytic>\n\t<monogr>\n\t\t<title level=\"j\">Clin Chest Med</title>\n\t\t<imprint>\n\t\t\t<biblScope unit=\"volume\">12</biblScope>\n\t\t\t<biblScope unit=\"page\" from=\"597\" to=\"609\" />\n\t\t\t<date type=\"published\" when=\"1991\">1991</date>\n\t\t</imprint>\n\t</monogr>\n</biblStruct>\n\n<biblStruct xml:id=\"b4\">\n\t<analytic>\n\t\t<title level=\"a\" type=\"main\">Tracheoinnominate fistula: diagnosis and management</title>\n\t\t<author>\n\t\t\t<persName><forename type=\"first\">J</forename><forename type=\"middle\">S</forename><surname>Allan</surname></persName>\n\t\t</author>\n\t\t<author>\n\t\t\t<persName><forename type=\"first\">C</forename><forename type=\"middle\">D</forename><surname>Wright</surname></persName>\n\t\t</author>\n\t</analytic>\n\t<monogr>\n\t\t<title level=\"j\">Chest Surg Clin N Am</title>\n\t\t<imprint>\n\t\t\t<biblScope unit=\"volume\">13</biblScope>\n\t\t\t<biblScope unit=\"page\" from=\"331\" to=\"341\" />\n\t\t\t<date type=\"published\" when=\"2003\">2003</date>\n\t\t</imprint>\n\t</monogr>\n</biblStruct>\n\n<biblStruct xml:id=\"b5\">\n\t<analytic>\n\t\t<title level=\"a\" type=\"main\">Postintubation tracheal stenosis: management and results 1993 to 2017</title>\n\t\t<author>\n\t\t\t<persName><forename type=\"first\">C</forename><forename type=\"middle\">D</forename><surname>Wright</surname></persName>\n\t\t</author>\n\t\t<author>\n\t\t\t<persName><forename type=\"first\">S</forename><surname>Li</surname></persName>\n\t\t</author>\n\t\t<author>\n\t\t\t<persName><forename type=\"first\">A</forename><forename type=\"middle\">D</forename><surname>Geller</surname></persName>\n\t\t</author>\n\t</analytic>\n\t<monogr>\n\t\t<title level=\"j\">Ann Thorac Surg</title>\n\t\t<imprint>\n\t\t\t<biblScope unit=\"volume\">108</biblScope>\n\t\t\t<biblScope unit=\"page\" from=\"1471\" to=\"1477\" />\n\t\t\t<date type=\"published\" when=\"2019\">2019</date>\n\t\t</imprint>\n\t</monogr>\n</biblStruct>\n\n\t\t\t\t</listBibl>\n\t\t\t</div>\n\t\t</back>\n\t</text>\n</TEI>\n"
+  },
+  "umls_links": [],
+  "references_enriched": [
+    {
+      "title": "Percutaneous dilatational tracheostomy versus surgical tracheostomy in critically ill patients: a systematic review and meta-analysis",
+      "journal": "Crit Care",
+      "year": "2006",
+      "volume": "10",
+      "issue": "2",
+      "pages": "55",
+      "doi": null,
+      "pmid": null,
+      "authors": [
+        "Delaney A",
+        "Bagshaw SM",
+        "Nalos M"
+      ],
+      "first_author_last": "Delaney",
+      "enrichment": {
+        "pmid": "16606435",
+        "doi": null,
+        "title": "Percutaneous dilatational tracheostomy versus surgical tracheostomy in critically ill patients: a systematic review and meta-analysis.",
+        "journal": "Critical care (London, England)",
+        "year": "2006",
+        "authors": [
+          "Delaney A",
+          "Bagshaw SM",
+          "Nalos M"
+        ],
+        "mesh": [],
+        "pubtypes": [
+          "Journal Article",
+          "Meta-Analysis"
+        ],
+        "abstract": "Tracheostomy is one of the more commonly performed procedures in critically ill patients yet the optimal method of performing tracheostomies in this population remains to be established. The aim of this study was to systematically review and quantitatively synthesize all randomized clinical trials (RCTs), comparing elective percutaneous dilatational tracheostomy (PDT) and surgical tracheostomy (ST) in adult critically ill patients with regards to major short and long term outcomes."
+      }
+    },
+    {
+      "title": "Safety of bedside percutaneous tracheostomy in the critically ill: evaluation of more than 3,000 procedures",
+      "journal": "J Am Coll Surg",
+      "year": "2013",
+      "volume": "216",
+      "issue": null,
+      "pages": null,
+      "doi": null,
+      "pmid": null,
+      "authors": [
+        "Dennis BM",
+        "Eckert MJ",
+        "Gunter OL",
+        "Morris JA",
+        "Jr",
+        "May AK"
+      ],
+      "first_author_last": "Dennis",
+      "enrichment": {
+        "pmid": "23403139",
+        "doi": null,
+        "title": "Safety of bedside percutaneous tracheostomy in the critically ill: evaluation of more than 3,000 procedures.",
+        "journal": "Journal of the American College of Surgeons",
+        "year": "2013",
+        "authors": [
+          "Dennis BM",
+          "Eckert MJ",
+          "Gunter OL",
+          "Morris JA Jr",
+          "May AK"
+        ],
+        "mesh": [],
+        "pubtypes": [
+          "Journal Article"
+        ],
+        "abstract": "Bedside percutaneous dilational tracheostomy has been demonstrated to be equivalent to open tracheostomy. At our institution, percutaneous dilational tracheostomy without routine bronchoscopy is our preferred method. My colleagues and I hypothesized that our 10-year percutaneous dilational tracheostomy experience would demonstrate that the technique is safe with low complication rates, even in obese patient populations."
+      }
+    },
+    {
+      "title": "Timing of tracheotomy in ICU patients: a systematic review of randomized controlled trials",
+      "journal": "Crit Care",
+      "year": "2015",
+      "volume": "19",
+      "issue": null,
+      "pages": "424",
+      "doi": null,
+      "pmid": null,
+      "authors": [
+        "Hosokawa K",
+        "Nishimura M",
+        "Egi M",
+        "Vincent J"
+      ],
+      "first_author_last": "Hosokawa",
+      "enrichment": {
+        "pmid": "26635016",
+        "doi": null,
+        "title": "Timing of tracheotomy in ICU patients: a systematic review of randomized controlled trials.",
+        "journal": "Critical care (London, England)",
+        "year": "2015",
+        "authors": [
+          "Hosokawa K",
+          "Nishimura M",
+          "Egi M",
+          "Vincent JL"
+        ],
+        "mesh": [],
+        "pubtypes": [
+          "Journal Article",
+          "Meta-Analysis"
+        ],
+        "abstract": "The optimal timing of tracheotomy in critically ill patients remains a topic of debate. We performed a systematic review to clarify the potential benefits of early versus late tracheotomy."
+      }
+    },
+    {
+      "title": "Late complications of tracheotomy",
+      "journal": "Clin Chest Med",
+      "year": "1991",
+      "volume": "12",
+      "issue": null,
+      "pages": null,
+      "doi": null,
+      "pmid": null,
+      "authors": [
+        "Wood DE",
+        "Mathisen DJ"
+      ],
+      "first_author_last": "Wood",
+      "enrichment": {
+        "pmid": "1934960",
+        "doi": null,
+        "title": "Late complications of tracheotomy.",
+        "journal": "Clinics in chest medicine",
+        "year": "1991",
+        "authors": [
+          "Wood DE",
+          "Mathisen DJ"
+        ],
+        "mesh": [],
+        "pubtypes": [
+          "Journal Article",
+          "Review"
+        ],
+        "abstract": "Complications of tracheotomy are largely preventable. Although some authors cite these complications as indications for prolonged endotracheal intubation to avoid tracheotomy, others believe that the laryngotracheal complications of prolonged endotracheal intubation warrant early tracheotomy. Obviously, unnecessary tracheotomies should not be performed, and the controversy regarding the timing of conversion of endotracheal intubation to tracheotomy is handled in an earlier article in this issue. We feel, however, that a properly performed tracheotomy has a low incidence of complications that are more easily managed than are the complex laryngotracheal complications of prolonged endotracheal intubation. Significant post-tracheotomy tracheal stenosis occurs in 8% of patients and is secondary to an overly large tracheotomy stoma or damage at the tracheostomy tube cuff site. Stoma stenosis can be minimized by not making an overly large tracheal stoma and by prevention of undue leverage on the tracheostomy tube. Cuff stenosis can be minimized by the use of the high-volume low-pressure cuffs with careful prevention of overdistention of the cuff. Bronchoscopic dilatation, laser resection, and Silastic T-tube placement provide control of the airway until definitive surgical resection and reconstruction can be performed safely. Tracheoesophageal fistula is an uncommon but life-threatening complication that can be prevented by avoiding overdistention of the tracheostomy tube cuff and by avoiding the concomitant use of a stiff nasogastric tube. These patients are best managed conservatively until they are able to be weaned from a ventilator. A single-stage repair of both the esophagus and the trachea should then be done. Tracheoinnominate artery fistula can be avoided by correct placement of the tracheostomy stoma through the second and third tracheal rings rather than lower in the trachea and by avoidance of overinflation of tracheostomy tube cuffs."
+      }
+    },
+    {
+      "title": "Tracheoinnominate fistula: diagnosis and management",
+      "journal": "Chest Surg Clin N Am",
+      "year": "2003",
+      "volume": "13",
+      "issue": null,
+      "pages": null,
+      "doi": null,
+      "pmid": null,
+      "authors": [
+        "Allan JS",
+        "Wright CD"
+      ],
+      "first_author_last": "Allan",
+      "enrichment": {
+        "pmid": "12755317",
+        "doi": null,
+        "title": "Tracheoinnominate fistula: diagnosis and management.",
+        "journal": "Chest surgery clinics of North America",
+        "year": "2003",
+        "authors": [
+          "Allan JS",
+          "Wright CD"
+        ],
+        "mesh": [],
+        "pubtypes": [
+          "Journal Article",
+          "Review"
+        ],
+        "abstract": "TIF is a rare and often fatal complication of tracheostomy. Bleeding from the trachea after tracheostomy demands urgent investigation. Bronchoscopy is the diagnostic procedure of choice. Bedside control of hemorrhage by cuff overinflation or by digital arterial compression can be lifesaving. Prompt operation with division of the innominate artery and subsequent separation of the trachea from the divided artery by viable tissue is indicated. Neurologic complications are rare."
+      }
+    },
+    {
+      "title": "Postintubation tracheal stenosis: management and results 1993 to 2017",
+      "journal": "Ann Thorac Surg",
+      "year": "2019",
+      "volume": "108",
+      "issue": null,
+      "pages": null,
+      "doi": null,
+      "pmid": null,
+      "authors": [
+        "Wright CD",
+        "Li S",
+        "Geller AD"
+      ],
+      "first_author_last": "Wright",
+      "enrichment": {
+        "pmid": "31299233",
+        "doi": null,
+        "title": "Postintubation Tracheal Stenosis: Management and Results 1993 to 2017.",
+        "journal": "The Annals of thoracic surgery",
+        "year": "2019",
+        "authors": [
+          "Wright CD",
+          "Li S",
+          "Geller AD",
+          "Lanuti M",
+          "Gaissert HA",
+          "Muniappan A",
+          "Ott HC",
+          "Mathisen DJ"
+        ],
+        "mesh": [],
+        "pubtypes": [
+          "Journal Article"
+        ],
+        "abstract": "To evaluate the management, complications of treatment, and outcomes of postintubation tracheal stenosis."
+      }
+    }
+  ],
+  "drugs": [],
+  "trial_ids": [],
+  "assets": {
+    "tables": [],
+    "figures": [
+      {
+        "type": "figure",
+        "content": {
+          "self_ref": "#/pictures/0",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [
+            {
+              "cref": "#/texts/34"
+            }
+          ],
+          "content_layer": "body",
+          "label": "picture",
+          "prov": [
+            {
+              "page_no": 2,
+              "bbox": {
+                "l": 406.8561706542969,
+                "t": 243.15594482421875,
+                "r": 536.6882934570312,
+                "b": 169.90582275390625,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                0
+              ]
+            }
+          ],
+          "captions": [
+            {
+              "cref": "#/texts/34"
+            }
+          ],
+          "references": [],
+          "footnotes": [],
+          "image": null,
+          "annotations": []
+        },
+        "captions": [
+          "). Palpate the neck to identify the pulse of a high-riding innominate artery that may overlie the area of the planned incision. Open tracheostomy is preferred in patients with a high-riding innominate artery."
+        ],
+        "footnotes": [
+          "ummary points",
+          "nflated, using a closed-suction catheter when clearing the airway, and, if possible, avoiding the use of humidified oxygen. Ideally, deflation of the cuff, replacement of the tracheostomy tube, and initiation of a plan for decannulation should be deferred until the results of patient testing for Covid-19 are negative."
+        ]
+      },
+      {
+        "type": "figure",
+        "content": {
+          "self_ref": "#/pictures/1",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [
+            {
+              "cref": "#/texts/63"
+            }
+          ],
+          "content_layer": "body",
+          "label": "picture",
+          "prov": [
+            {
+              "page_no": 4,
+              "bbox": {
+                "l": 407.0113220214844,
+                "t": 700.0626792907715,
+                "r": 535.824462890625,
+                "b": 626.1522521972656,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                0
+              ]
+            }
+          ],
+          "captions": [
+            {
+              "cref": "#/texts/63"
+            }
+          ],
+          "references": [],
+          "footnotes": [],
+          "image": null,
+          "annotations": []
+        },
+        "captions": [
+          "). Palpate the neck to identify the pulse of a high-riding innominate artery that may overlie the area of the planned incision. Open tracheostomy is preferred in patients with a high-riding innominate artery."
+        ],
+        "footnotes": [
+          "ummary points",
+          "nflated, using a closed-suction catheter when clearing the airway, and, if possible, avoiding the use of humidified oxygen. Ideally, deflation of the cuff, replacement of the tracheostomy tube, and initiation of a plan for decannulation should be deferred until the results of patient testing for Covid-19 are negative."
+        ]
+      },
+      {
+        "type": "figure",
+        "content": {
+          "self_ref": "#/pictures/2",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [
+            {
+              "cref": "#/texts/65"
+            },
+            {
+              "cref": "#/texts/66"
+            }
+          ],
+          "content_layer": "body",
+          "label": "picture",
+          "prov": [
+            {
+              "page_no": 4,
+              "bbox": {
+                "l": 406.89019775390625,
+                "t": 542.1327819824219,
+                "r": 535.5267333984375,
+                "b": 432.3857727050781,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                0
+              ]
+            }
+          ],
+          "captions": [
+            {
+              "cref": "#/texts/65"
+            }
+          ],
+          "references": [],
+          "footnotes": [],
+          "image": null,
+          "annotations": []
+        },
+        "captions": [
+          "). Palpate the neck to identify the pulse of a high-riding innominate artery that may overlie the area of the planned incision. Open tracheostomy is preferred in patients with a high-riding innominate artery."
+        ],
+        "footnotes": [
+          "ummary points",
+          "nflated, using a closed-suction catheter when clearing the airway, and, if possible, avoiding the use of humidified oxygen. Ideally, deflation of the cuff, replacement of the tracheostomy tube, and initiation of a plan for decannulation should be deferred until the results of patient testing for Covid-19 are negative."
+        ]
+      },
+      {
+        "type": "figure",
+        "content": {
+          "self_ref": "#/pictures/3",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [
+            {
+              "cref": "#/texts/67"
+            }
+          ],
+          "content_layer": "body",
+          "label": "picture",
+          "prov": [
+            {
+              "page_no": 4,
+              "bbox": {
+                "l": 407.10986328125,
+                "t": 429.530029296875,
+                "r": 535.4782104492188,
+                "b": 319.1400451660156,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                0
+              ]
+            }
+          ],
+          "captions": [],
+          "references": [],
+          "footnotes": [],
+          "image": null,
+          "annotations": []
+        },
+        "captions": [
+          "). Palpate the neck to identify the pulse of a high-riding innominate artery that may overlie the area of the planned incision. Open tracheostomy is preferred in patients with a high-riding innominate artery."
+        ],
+        "footnotes": [
+          "ummary points",
+          "nflated, using a closed-suction catheter when clearing the airway, and, if possible, avoiding the use of humidified oxygen. Ideally, deflation of the cuff, replacement of the tracheostomy tube, and initiation of a plan for decannulation should be deferred until the results of patient testing for Covid-19 are negative."
+        ]
+      }
+    ]
+  },
+  "statistics": [],
+  "validation": {
+    "checks": {
+      "has_title": true,
+      "has_authors": true,
+      "authors_are_valid": false,
+      "has_sections": true,
+      "sections_have_content": true,
+      "has_tables": false,
+      "tables_have_captions": true,
+      "tables_have_data": true,
+      "has_figures": true,
+      "figures_have_captions": false,
+      "figures_have_images": false,
+      "has_entities": false,
+      "has_statistics": false,
+      "has_references": true,
+      "refs_structured": true,
+      "refs_enriched_some": true,
+      "references_enriched": true,
+      "has_references_csv": false,
+      "has_cross_refs": false,
+      "umls_links": false,
+      "figures_textual_count": 0
+    },
+    "completeness_score": 61,
+    "is_valid": true,
+    "issues": [],
+    "warnings": [
+      "No medical entities found",
+      "No statistics extracted",
+      "Some figures missing captions"
+    ],
+    "quality_level": "acceptable",
+    "hardening": {
+      "fixes": [
+        {
+          "field": "year",
+          "action": "normalize:iso",
+          "old": "2020-11-12",
+          "new": 2020
+        },
+        {
+          "field": "authors",
+          "action": "filtered_ack_like",
+          "old": [
+            "Daniel A. Hashimoto",
+            "Andrea L. Axtell",
+            "Hugh G. Auchincloss"
+          ],
+          "new": [
+            "Daniel A. Hashimoto",
+            "Andrea L. Axtell",
+            "Hugh G. Auchincloss"
+          ]
+        },
+        {
+          "field": "journal_full",
+          "action": "canonicalize",
+          "old": null,
+          "new": "New England Journal of Medicine"
+        }
+      ]
+    }
+  }
+}

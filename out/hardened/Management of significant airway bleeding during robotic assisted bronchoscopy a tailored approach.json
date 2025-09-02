@@ -1,0 +1,1385 @@
+{
+  "metadata": {
+    "title": "Management of Significant Airway Bleeding during Robotic Assisted Bronchoscopy: A Tailored Approach",
+    "year": 2021,
+    "authors": [
+      {
+        "given": "Sebastian",
+        "family": "Fernandez-Bussy",
+        "suffix": null,
+        "degrees": [],
+        "display": "Sebastian Fernandez-Bussy",
+        "group": false
+      },
+      {
+        "given": "David",
+        "family": "Abia-Trujillo",
+        "suffix": null,
+        "degrees": [],
+        "display": "David Abia-Trujillo",
+        "group": false
+      },
+      {
+        "given": "Adnan",
+        "family": "Majid",
+        "suffix": null,
+        "degrees": [],
+        "display": "Adnan Majid",
+        "group": false
+      },
+      {
+        "given": "Erik E.",
+        "family": "Folch",
+        "suffix": null,
+        "degrees": [],
+        "display": "Erik E. Folch",
+        "group": false
+      },
+      {
+        "given": "Neal M.",
+        "family": "Patel",
+        "suffix": null,
+        "degrees": [],
+        "display": "Neal M. Patel",
+        "group": false
+      },
+      {
+        "given": "Felix J.F.",
+        "family": "Herth",
+        "suffix": null,
+        "degrees": [],
+        "display": "Felix J.F. Herth",
+        "group": false
+      },
+      {
+        "given": "Janani S.",
+        "family": "Reisenauer",
+        "suffix": null,
+        "degrees": [],
+        "display": "Janani S. Reisenauer",
+        "group": false
+      }
+    ],
+    "references_text": [
+      "Robotic Bronchoscopy for Peripheral Pulmonary Lesions\n\t\t\n\t\t\tAlexanderCChen\n\t\t\n\t\t\n\t\t\tNicholasJPastis\n\t\t\n\t\t\n\t\t\tAmitKMahajan\n\t\t\n\t\t\n\t\t\tSandeepJKhandhar\n\t\t\n\t\t\n\t\t\tMichaelJSimoff\n\t\t\n\t\t\n\t\t\tMichaelSMachuzak\n\t\t\n\t\t\n\t\t\tJosephCicenia\n\t\t\n\t\t\n\t\t\tThomasRGildea\n\t\t\n\t\t\n\t\t\tGerardASilvestri\n\t\t\n\t\t10.1016/j.chest.2020.08.2047\n\t\n\t\n\t\tChest\n\t\tChest\n\t\t0012-3692\n\t\t\n\t\t\t159\n\t\t\t2\n\t\t\t\n\t\t\t2021 Feb\n\t\t\tElsevier BV",
+      "Robotic bronchoscopy for pulmonary lesions: a review of existing technologies and clinical data\n\t\t\n\t\t\tAbhinavAgrawal\n\t\t\n\t\t\n\t\t\tDKyleHogarth\n\t\t\n\t\t\n\t\t\tSeptimiuMurgu\n\t\t\n\t\t10.21037/jtd.2020.03.35\n\t\n\t\n\t\tJournal of Thoracic Disease\n\t\tJ Thorac Dis\n\t\t2072-1439\n\t\t2077-6624\n\t\t\n\t\t\t12\n\t\t\t6\n\t\t\t\n\t\t\t2020 Jun\n\t\t\tAME Publishing Company",
+      "Standardized Definitions of Bleeding After Transbronchial Lung Biopsy\n\t\t\n\t\t\tErikEFolch\n\t\t\n\t\t\n\t\t\tAmitKMahajan\n\t\t\n\t\t\n\t\t\tCatherineLOberg\n\t\t\n\t\t\n\t\t\tFabienMaldonado\n\t\t\n\t\t\n\t\t\tEricToloza\n\t\t\n\t\t\n\t\t\tWilliamSKrimsky\n\t\t\n\t\t\n\t\t\tScottOh\n\t\t\n\t\t\n\t\t\tMarkRBowling\n\t\t\n\t\t\n\t\t\tSadiaBenzaquen\n\t\t\n\t\t\n\t\t\tCharlesMKinsey\n\t\t\n\t\t\n\t\t\tAtulCMehta\n\t\t\n\t\t\n\t\t\tSebastianFernandez-Bussy\n\t\t\n\t\t\n\t\t\tJavierFlandes\n\t\t\n\t\t\n\t\t\tKelvinLau\n\t\t\n\t\t\n\t\t\tGaneshKrishna\n\t\t\n\t\t\n\t\t\tMichaelANead\n\t\t\n\t\t\n\t\t\tFelixHerth\n\t\t\n\t\t\n\t\t\tAlejandroAAragaki-Nakahodo\n\t\t\n\t\t\n\t\t\tEmanuelaBarisione\n\t\t\n\t\t\n\t\t\tSandeepBansal\n\t\t\n\t\t\n\t\t\tDragosZanchi\n\t\t\n\t\t\n\t\t\tMichaelZgoda\n\t\t\n\t\t\n\t\t\tPeterOLutz\n\t\t\n\t\t\n\t\t\tRobertJLentz\n\t\t\n\t\t\n\t\t\tChristopherParks\n\t\t\n\t\t\n\t\t\tMarioSalio\n\t\t\n\t\t\n\t\t\tKennethPerret\n\t\t\n\t\t\n\t\t\tColleenKeyes\n\t\t\n\t\t\n\t\t\tGregoryPLemense\n\t\t\n\t\t\n\t\t\tJohnDHinze\n\t\t\n\t\t\n\t\t\tAdnanMajid\n\t\t\n\t\t\n\t\t\tMereteChristensen\n\t\t\n\t\t\n\t\t\tJordanKazakov\n\t\t\n\t\t\n\t\t\tGonzaloLabarca\n\t\t\n\t\t\n\t\t\tErnestWaller\n\t\t\n\t\t\n\t\t\tMichaelStudnicka\n\t\t\n\t\t\n\t\t\tCatalinaVTeba\n\t\t\n\t\t\n\t\t\tSandeepJKhandhar\n\t\t\n\t\t10.1016/j.chest.2020.01.036\n\t\n\t\n\t\tChest\n\t\tChest\n\t\t0012-3692\n\t\t\n\t\t\t158\n\t\t\t1\n\t\t\t\n\t\t\t2020 Jul\n\t\t\tElsevier BV",
+      "Robot-assisted bronchoscopy for pulmonary lesion diagnosis: results from the initial multicenter experience\n\t\t\n\t\t\tUditChaddha\n\t\t\t0000-0003-0067-1616\n\t\t\n\t\t\n\t\t\tStephenPKovacs\n\t\t\n\t\t\n\t\t\tChristopherManley\n\t\t\n\t\t\n\t\t\tDKyleHogarth\n\t\t\n\t\t\n\t\t\tGustavoCumbo-Nacheli\n\t\t\n\t\t\n\t\t\tSivasubramaniumVBhavani\n\t\t\n\t\t\n\t\t\tRohitKumar\n\t\t\n\t\t\n\t\t\tManishaShende\n\t\t\n\t\t\n\t\t\tJohnPEgan\n\t\t\n\t\t\n\t\t\tSeptimiuMurgu\n\t\t\n\t\t10.1186/s12890-019-1010-8\n\t\n\t\n\t\tBMC Pulmonary Medicine\n\t\tBMC Pulm Med\n\t\t1471-2466\n\t\t\n\t\t\t19\n\t\t\t1\n\t\t\t243\n\t\t\t2019 Dec 1\n\t\t\tSpringer Science and Business Media LLC"
+    ],
+    "references_raw": [
+      "Robotic bronchoscopy for peripheral pulmonary lesions: a Multicenter Pilot and Feasibility Study (BENEFIT)\n\t\t\n\t\t\tACChen\n\t\t\n\t\t\n\t\t\tNJPastis\n\t\t\n\t\t\n\t\t\tJr\n\t\t\n\t\t\n\t\t\tAKMahajan\n\t\t\n\t\t\n\t\t\tSJKhandhar\n\t\t\n\t\t\n\t\t\tMJSimoff\n\t\t\n\t\t\n\t\t\tMSMachuzak\n\t\t\n\t\n\t\n\t\tChest\n\t\t\n\t\t\t159\n\t\t\t2\n\t\t\t\n\t\t\t2021 Feb",
+      "Robotic bronchoscopy for pulmonary lesions: a review of existing technologies and clinical data\n\t\t\n\t\t\tAAgrawal\n\t\t\n\t\t\n\t\t\tDKHogarth\n\t\t\n\t\t\n\t\t\tSMurgu\n\t\t\n\t\n\t\n\t\tJ Thorac Dis\n\t\t\n\t\t\t12\n\t\t\t6\n\t\t\t3279\n\t\t\t2020 Jun",
+      "Standardized definitions of bleeding after transbronchial lung biopsy: a delphi consensus statement from the nashville working group\n\t\t\n\t\t\tEEFolch\n\t\t\n\t\t\n\t\t\tAKMahajan\n\t\t\n\t\t\n\t\t\tCLOberg\n\t\t\n\t\t\n\t\t\tFMaldonado\n\t\t\n\t\t\n\t\t\tEToloza\n\t\t\n\t\t\n\t\t\tWSKrimsky\n\t\t\n\t\n\t\n\t\tChest\n\t\t\n\t\t\t158\n\t\t\t1\n\t\t\t\n\t\t\t2020 Jul",
+      "Robot-assisted bronchoscopy for pulmonary lesion diagnosis: results from the initial multicenter experience\n\t\t\n\t\t\tUChaddha\n\t\t\n\t\t\n\t\t\tSPKovacs\n\t\t\n\t\t\n\t\t\tCManley\n\t\t\n\t\t\n\t\t\tDKHogarth\n\t\t\n\t\t\n\t\t\tGCumbo-Nacheli\n\t\t\n\t\t\n\t\t\tSVBhavani\n\t\t\n\t\n\t\n\t\tBMC Pulm Med\n\t\t\n\t\t\t19\n\t\t\t1\n\t\t\t243\n\t\t\t2019 Dec 1"
+    ],
+    "references_struct": [
+      {
+        "title": "Robotic bronchoscopy for peripheral pulmonary lesions: a Multicenter Pilot and Feasibility Study (BENEFIT)",
+        "journal": "Chest",
+        "year": "2021",
+        "volume": "159",
+        "issue": "2",
+        "pages": null,
+        "doi": null,
+        "pmid": null,
+        "authors": [
+          "Chen AC",
+          "Pastis NJ",
+          "Jr",
+          "Mahajan AK",
+          "Khandhar SJ",
+          "Simoff MJ",
+          "Machuzak MS"
+        ],
+        "first_author_last": "Chen"
+      },
+      {
+        "title": "Robotic bronchoscopy for pulmonary lesions: a review of existing technologies and clinical data",
+        "journal": "J Thorac Dis",
+        "year": "2020",
+        "volume": "12",
+        "issue": "6",
+        "pages": "3279",
+        "doi": null,
+        "pmid": null,
+        "authors": [
+          "Agrawal A",
+          "Hogarth DK",
+          "Murgu S"
+        ],
+        "first_author_last": "Agrawal"
+      },
+      {
+        "title": "Standardized definitions of bleeding after transbronchial lung biopsy: a delphi consensus statement from the nashville working group",
+        "journal": "Chest",
+        "year": "2020",
+        "volume": "158",
+        "issue": "1",
+        "pages": null,
+        "doi": null,
+        "pmid": null,
+        "authors": [
+          "Folch EE",
+          "Mahajan AK",
+          "Oberg CL",
+          "Maldonado F",
+          "Toloza E",
+          "Krimsky WS"
+        ],
+        "first_author_last": "Folch"
+      },
+      {
+        "title": "Robot-assisted bronchoscopy for pulmonary lesion diagnosis: results from the initial multicenter experience",
+        "journal": "BMC Pulm Med",
+        "year": "2019",
+        "volume": "19",
+        "issue": "1",
+        "pages": "243",
+        "doi": null,
+        "pmid": null,
+        "authors": [
+          "Chaddha U",
+          "Kovacs SP",
+          "Manley C",
+          "Hogarth DK",
+          "Cumbo-Nacheli G",
+          "Bhavani SV"
+        ],
+        "first_author_last": "Chaddha"
+      }
+    ],
+    "abstract": "Robotic assisted bronchoscopy represents a major turning point in bronchoscopic history. The management strategies to address significant airway bleeding in this “robotic era” are not well documented, and further guidance is required. We present a case report that exemplifies our approach and management strategy using a combined and simultaneous flexible/robotic bronchoscopy if this complication is encountered.",
+    "references_enriched": [
+      {
+        "title": "Robotic bronchoscopy for peripheral pulmonary lesions: a Multicenter Pilot and Feasibility Study (BENEFIT)"
+      },
+      {
+        "title": "Chest"
+      },
+      {
+        "title": "Robotic bronchoscopy for pulmonary lesions: a review of existing technologies and clinical data"
+      },
+      {
+        "title": "J Thorac Dis"
+      },
+      {
+        "title": "Standardized definitions of bleeding after transbronchial lung biopsy: a delphi consensus statement from the nashville working group"
+      },
+      {
+        "title": "Chest"
+      },
+      {
+        "title": "Robot-assisted bronchoscopy for pulmonary lesion diagnosis: results from the initial multicenter experience"
+      },
+      {
+        "title": "BMC Pulm Med"
+      }
+    ],
+    "references_source": "grobid_fallback",
+    "year_norm": "2021",
+    "doi": "10.1159/000514830",
+    "journal": "Respiration",
+    "volume": "100",
+    "issue": "6",
+    "pages": "547-550",
+    "issn": "0025-7931, 1423-0356",
+    "url": "https://karger.com/article/doi/10.1159/000514830",
+    "published": {
+      "print": null,
+      "online": "2021-03-26"
+    },
+    "journal_full": "Respiration"
+  },
+  "structure": {
+    "sections": [
+      {
+        "title": "Management of Significant Airway Bleeding during Robotic Assisted Bronchoscopy: A Tailored Approach",
+        "paragraphs": [
+          {
+            "text": "Sebastian Fernandez-Bussy a David Abia-Trujillo a     Adnan Majid b Erik E. Folch c Neal M. Patel a Felix J.F. Herth d Janani S. Reisenauer e"
+          },
+          {
+            "text": "a Divisions of Pulmonary, Allergy, Sleep Medicine & Respiratory Services/Mayo Clinic, Jacksonville, FL, USA; b Division of Thoracic Surgery and Interventional Pulmonology/Beth Israel Deaconess Medical Center, Boston, MA, USA;  c Department of Pulmonary and Critical Care Medicine/Massachusetts General Hospital, Boston, MA, USA; d Department of Pulmonology and Critical Care Medicine, Thoraxklinik at the University of Heidelberg, Heidelberg, Germany;  e Division of General Thoracic Surgery/Mayo Clinic, Rochester, MN, USA"
+          }
+        ],
+        "category": "other"
+      },
+      {
+        "title": "Established Facts",
+        "paragraphs": [
+          {
+            "text": "· Robotic assisted bronchoscopy (RAB) represents a major turning point in bronchoscopic history."
+          },
+          {
+            "text": "· Significant airway bleeding (SAB) is reported to complicate 2.4% of RABs. The management strategies to address SAB in this 'robotic era' are not well documented, and further guidance is required."
+          }
+        ],
+        "category": "other"
+      },
+      {
+        "title": "Novel Insights",
+        "paragraphs": [
+          {
+            "text": "· We present our standardized approach for significant airway bleeding (SAB) during robotic assisted bronchoscopy (RAB)."
+          },
+          {
+            "text": "· We included a video illustrating our management strategy using a combined and simultaneous flexible/ robotic bronchoscopic approach if SAB during RAB is encountered."
+          }
+        ],
+        "category": "other"
+      },
+      {
+        "title": "Keywords",
+        "paragraphs": [
+          {
+            "text": "Robotic assisted bronchoscopy · Significant airway bleeding · Lung nodule"
+          }
+        ],
+        "category": "other"
+      },
+      {
+        "title": "Abstract",
+        "paragraphs": [
+          {
+            "text": "Robotic assisted bronchoscopy represents a major turning point in bronchoscopic history. The management strategies to address significant airway bleeding in this 'robotic era' are not well documented, and further guidance is required. We present a case report that exemplifies our approach and"
+          },
+          {
+            "text": "management strategy using a combined and simultaneous flexible/robotic  bronchoscopy  if  this  complication  is  encountered. © 2021 S. Karger AG, Basel"
+          }
+        ],
+        "category": "abstract"
+      },
+      {
+        "title": "Introduction",
+        "paragraphs": [
+          {
+            "text": "Robotic assisted bronchoscopy (RAB) represents a major turning point in bronchoscopic history. However, data supporting its superiority are still limited [1]."
+          },
+          {
+            "text": "The expectations around RAB are high, and it is a promising tool that could revolutionize peripheral bronchoscopic navigation, with substantial potential for ablative therapy [2]. This cutting-edge technology remains promising; however, it brings unknowns with respect to traditional bronchoscopy risk such as bleeding [3]. The management  strategies  to  address  significant  airway bleeding (SAB) in this robotic era are not well documented, and further guidance is required. We present a case report that exemplifies our approach and management strategy if this complication is encountered."
+          }
+        ],
+        "category": "introduction"
+      },
+      {
+        "title": "Case Report",
+        "paragraphs": [
+          {
+            "text": "A 71-year-old woman and former smoker (6 pack/year history) with a remote medical history of breast cancer was referred for multiple lung nodules incidentally found during a workup for perforated left breast prosthesis. She had no pulmonary symptoms. A chest CT scan showed a 1-cm elongated nodular opacity along the anterior left upper lobe (LUL) bronchus and adjacent to a large blood vessel (3.8 mm) (Fig. 1). A robotic assisted bronchoscopic biopsy of the LUL lesion was recommended, and the procedure was performed by an expert bronchoscopist with specialized interventional pulmonology training. The RAB was performed under general anesthesia, and paralytics were used. The airway was accessed through a size 8 standard endotracheal tube (ET). The endobronchial navigation was performed after alveolar recruitment maneuver was performed and continued with a PEEP of 10 for the rest of the procedure. These maneuvers were performed with the intention to split open small subsegmental airways and facilitate the advancement of the scope beyond the 5th-6th generation without air insufflation.",
+            "cross_refs": [
+              {
+                "type": "figure",
+                "index": 0,
+                "text": "Fig. 1",
+                "span": [
+                  404,
+                  410
+                ]
+              }
+            ]
+          },
+          {
+            "text": "The  target  lesion  was  reached  utilizing  the  Fiber  Optic  RealShape technology for endoluminal navigation. Once the virtual target  region  was  reached,  the  3.5-mm-outer  diameter  catheter with a 2.0-mm working was locked in position, and utilizing a radial ultrasound probe, the lesion was confirmed by identifying a peribronchiolar lesion. The needle-pass sampling was aided with"
+          },
+          {
+            "text": "live fluoroscopy. Upon collecting tissue samples with a 21-G needle,  bleeding  was  noted  traveling  proximally  along  the  robotic catheter and on live fluoroscopic images (Fig. 2). Suction was applied to the proximal end of the robotic catheter. Simultaneously, a flexible bronchoscope (4 mm OD), with a 2.0-mm working channel, was inserted into the airways, parallel to the robotic scope, to help control the bleeding. The flexible bronchoscope was inserted through  the  nose,  traversing  the  vocal  cords  parallel  to  the  ET (Fig. 3a). The ET cuff was then partially deflated, and the bronchoscope was advanced into the distal trachea and distal left main stem bronchus  (Fig.  3b-d).  Bleeding  was  noted  emanating  from  the LUL surrounding the wedged robotic bronchoscope (Fig. 2, 3g). Ice saline and epinephrine were instilled into the bronchial segment where the robotic scope was located. After bleeding ceased and under direct visualization with the flexible bronchoscope, the",
+            "cross_refs": [
+              {
+                "type": "figure",
+                "index": 1,
+                "text": "Fig. 2",
+                "span": [
+                  177,
+                  183
+                ]
+              },
+              {
+                "type": "figure",
+                "index": 2,
+                "text": "Fig. 3a",
+                "span": [
+                  539,
+                  546
+                ]
+              },
+              {
+                "type": "figure",
+                "index": 2,
+                "text": "Fig.  3b",
+                "span": [
+                  685,
+                  693
+                ]
+              },
+              {
+                "type": "figure",
+                "index": 1,
+                "text": "Fig. 2",
+                "span": [
+                  791,
+                  797
+                ]
+              }
+            ]
+          },
+          {
+            "text": "Fig. 1. Chest computed tomography showing  the  LUL  nodule  (green  arrow).  LUL, left upper lobe.",
+            "cross_refs": [
+              {
+                "type": "figure",
+                "index": 0,
+                "text": "Fig. 1",
+                "span": [
+                  0,
+                  6
+                ]
+              }
+            ]
+          },
+          {
+            "text": "Fig. 2. Fluoroscopic image of simultaneous use of flexible and robotic bronchoscopy to manage severe airway bleeding. Bleeding is shaded in red.",
+            "cross_refs": [
+              {
+                "type": "figure",
+                "index": 1,
+                "text": "Fig. 2",
+                "span": [
+                  0,
+                  6
+                ]
+              }
+            ]
+          },
+          {
+            "text": "1"
+          },
+          {
+            "text": "2"
+          },
+          {
+            "text": "1. Apply continuous suction to the proximal end of the robotic catheter"
+          },
+          {
+            "text": "2. Insert a 4.0-mm FB through the nose or mouth"
+          },
+          {
+            "text": "3. Advance the FB through the vocal cords and the ET"
+          },
+          {
+            "text": "4. Partially deflate the ET cuff and advance the FB to the bronchial segment or subsegment of interest"
+          },
+          {
+            "text": "5. Do not retract the RB"
+          },
+          {
+            "text": "6. Use the FB to apply, in a standard fashion, cold saline, diluted epinephrine 1:10,000, 5-Fr Fogarty balloon or any other hemostatic medication parallel to the RB"
+          },
+          {
+            "text": "7. When bleeding is controlled, retract the robotic scope slowly under direct visualization with the FB"
+          },
+          {
+            "text": "8. Suction or cryoextraction of the remaining clots from the airway"
+          },
+          {
+            "text": "FB,  flexible  bronchoscope;  RB,  robotic  bronchoscope;  ET, endotracheal tube."
+          },
+          {
+            "text": "robotic scope was retracted and the flexible bronchoscope was advanced into the bleeding segment to confirm successful hemostasis and  to  suction  any  remaining  clots  (Fig.  3h).  Complete  airway clearance was then performed. The robotic scope was reinserted to continue the procedure (Fig. 3i). Finally, once RAB was concluded, systematic mediastinal staging with Endobronchial ultrasound (EBUS) was done. No pneumothorax, worsening hypoxemia, or other complications occurred. The patient was discharged home. Final pathology report revealed nonmalignant  disease.  A  follow-up  chest  CT  scan  will  be  performed in 3 months.",
+            "cross_refs": [
+              {
+                "type": "figure",
+                "index": 2,
+                "text": "Fig.  3h",
+                "span": [
+                  172,
+                  180
+                ]
+              },
+              {
+                "type": "figure",
+                "index": 2,
+                "text": "Fig. 3i",
+                "span": [
+                  291,
+                  298
+                ]
+              }
+            ]
+          }
+        ],
+        "category": "other"
+      },
+      {
+        "title": "Discussion/Conclusion",
+        "paragraphs": [
+          {
+            "text": "Bleeding occurring after a transbronchial lung biopsy using flexible bronchoscopy has standard definitions and accepted management strategies [3]. However, the experience with bleeding during RAB is limited. SAB during RAB is defined as one that requires the withdrawal of the robotic bronchoscope, and insertion of a flexible bronchoscope to manage the bleeding [4]. It is reported to complicate 2.4% of RABs [2, 4]. Its current treatment includes tamponade"
+          },
+          {
+            "text": "and containment of the localized bleeding with distal wedging of the robotic bronchoscope [2]. The treatment modalities for SAB are limited, and this is in part due to the tradeoff between the stability and reach needed for peripheral bronchoscopy  against  the  delayed  reaction  capacity  and small channel allowing for suboptimal suction. Fortunately, this complication appears to be rare; however, it remains a constant threat to patients, and a clear and effective treatment algorithm is required. If such an episode is encountered in the future, it is the authors' recommendation to implement our proposed management strategy with combined,  simultaneous  flexible  and  robotic  bronchoscopy (Fig. 2) as a next immediate step (Table 1).",
+            "cross_refs": [
+              {
+                "type": "figure",
+                "index": 1,
+                "text": "Fig. 2",
+                "span": [
+                  701,
+                  707
+                ]
+              },
+              {
+                "type": "table",
+                "index": 0,
+                "text": "Table 1",
+                "span": [
+                  735,
+                  742
+                ]
+              }
+            ]
+          }
+        ],
+        "category": "discussion"
+      },
+      {
+        "title": "Statement of Ethics",
+        "paragraphs": [
+          {
+            "text": "Verbal and witnessed informed consent was obtained from the patient for publication of this case report and any accompanying images. The consent was obtained verbally and witnessed given the current COVID-19 pandemic and with the goal of limiting patient's visits to the healthcare facilities."
+          }
+        ],
+        "category": "other"
+      },
+      {
+        "title": "Conflict of Interest Statement",
+        "paragraphs": [
+          {
+            "text": "The authors have no conflicts of interest to declare."
+          }
+        ],
+        "category": "other"
+      },
+      {
+        "title": "Funding Sources",
+        "paragraphs": [
+          {
+            "text": "No funding was required for this project."
+          }
+        ],
+        "category": "other"
+      },
+      {
+        "title": "Author Contributions",
+        "paragraphs": [
+          {
+            "text": "All authors made substantial contributions to conception and design, analysis, and interpretation of the manuscript. All authors have revised and approved the final version of the manuscript for submission."
+          }
+        ],
+        "category": "other"
+      },
+      {
+        "title": "References",
+        "paragraphs": [
+          {
+            "text": "1  Chen AC, Pastis NJ Jr, Mahajan AK, Khandhar SJ, Simoff MJ, Machuzak MS, et al. Robotic  bronchoscopy  for  peripheral  pulmonary lesions: a Multicenter Pilot and Feasibility Study (BENEFIT). Chest. 2021 Feb; 159(2): 845-52."
+          },
+          {
+            "text": "2  Agrawal A, Hogarth DK, Murgu S. Robotic bronchoscopy  for  pulmonary  lesions: a  review of existing technologies and clinical data. J Thorac Dis. 2020 Jun; 12(6): 3279."
+          },
+          {
+            "text": "3  Folch EE, Mahajan AK, Oberg CL, Maldonado F, Toloza E, Krimsky WS, et al. Standardized definitions of bleeding after transbronchial  lung  biopsy: a  delphi  consensus  statement  from  the  nashville  working  group. Chest. 2020 Jul; 158(1): 393-400."
+          },
+          {
+            "text": "4  Chaddha U, Kovacs SP, Manley C, Hogarth DK, Cumbo-Nacheli G, Bhavani SV, et al. Robot-assisted bronchoscopy for pulmonary lesion diagnosis: results from the initial multicenter experience. BMC Pulm Med. 2019 Dec 1; 19(1): 243."
+          }
+        ],
+        "category": "other"
+      }
+    ],
+    "tables": [],
+    "figures": [
+      {
+        "self_ref": "#/pictures/0",
+        "parent": {
+          "cref": "#/body"
+        },
+        "children": [],
+        "content_layer": "body",
+        "label": "picture",
+        "prov": [
+          {
+            "page_no": 1,
+            "bbox": {
+              "l": 41.61766815185547,
+              "t": 45.3212890625,
+              "r": 90.64210510253906,
+              "b": 25.379150390625,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "charspan": [
+              0,
+              0
+            ]
+          }
+        ],
+        "captions": [],
+        "references": [],
+        "footnotes": [],
+        "image": null,
+        "annotations": [],
+        "caption_text": "Fig. 3. Bronchoscopic images of the combined simultaneous approach of flexible and robotic bronchoscopy to manage severe airway bleeding. a Flexible bronchoscope passing parallel to the ET at the level of the vocal cords. b , c Partial deflation of the ET cuff and subsequent advancement of the flexible bronchoscope into the trachea. d , e Robotic bronchoscope noted with the flexible bronchoscope going into the left mainstem bronchus and subsequently into the bleeding segment. f-i Management of the LUL bleeding during robotic bronchoscopy. LUL, left upper lobe; ET, endotracheal tube."
+      },
+      {
+        "self_ref": "#/pictures/1",
+        "parent": {
+          "cref": "#/body"
+        },
+        "children": [
+          {
+            "cref": "#/texts/26"
+          }
+        ],
+        "content_layer": "body",
+        "label": "picture",
+        "prov": [
+          {
+            "page_no": 2,
+            "bbox": {
+              "l": 215.62474060058594,
+              "t": 732.7324180603027,
+              "r": 378.8185729980469,
+              "b": 568.123291015625,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "charspan": [
+              0,
+              0
+            ]
+          }
+        ],
+        "captions": [],
+        "references": [],
+        "footnotes": [],
+        "image": null,
+        "annotations": []
+      },
+      {
+        "self_ref": "#/pictures/2",
+        "parent": {
+          "cref": "#/body"
+        },
+        "children": [
+          {
+            "cref": "#/texts/32"
+          },
+          {
+            "cref": "#/texts/33"
+          }
+        ],
+        "content_layer": "body",
+        "label": "picture",
+        "prov": [
+          {
+            "page_no": 2,
+            "bbox": {
+              "l": 389.8361511230469,
+              "t": 720.1835021972656,
+              "r": 553.3963012695312,
+              "b": 568.7714233398438,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "charspan": [
+              0,
+              0
+            ]
+          }
+        ],
+        "captions": [
+          {
+            "cref": "#/texts/32"
+          }
+        ],
+        "references": [],
+        "footnotes": [],
+        "image": null,
+        "annotations": []
+      },
+      {
+        "self_ref": "#/pictures/3",
+        "parent": {
+          "cref": "#/body"
+        },
+        "children": [
+          {
+            "cref": "#/texts/49"
+          },
+          {
+            "cref": "#/texts/50"
+          },
+          {
+            "cref": "#/texts/51"
+          },
+          {
+            "cref": "#/texts/52"
+          },
+          {
+            "cref": "#/texts/53"
+          },
+          {
+            "cref": "#/texts/54"
+          },
+          {
+            "cref": "#/texts/55"
+          },
+          {
+            "cref": "#/texts/56"
+          },
+          {
+            "cref": "#/texts/57"
+          },
+          {
+            "cref": "#/texts/58"
+          }
+        ],
+        "content_layer": "body",
+        "label": "picture",
+        "prov": [
+          {
+            "page_no": 3,
+            "bbox": {
+              "l": 128.5774688720703,
+              "t": 731.6590919494629,
+              "r": 553.4075317382812,
+              "b": 330.067138671875,
+              "coord_origin": "BOTTOMLEFT"
+            },
+            "charspan": [
+              0,
+              0
+            ]
+          }
+        ],
+        "captions": [
+          {
+            "cref": "#/texts/49"
+          }
+        ],
+        "references": [],
+        "footnotes": [],
+        "image": null,
+        "annotations": []
+      }
+    ],
+    "citations": [],
+    "n_sections": 13,
+    "n_tables": 0,
+    "n_figures": 4,
+    "n_citations": 0
+  },
+  "provenance": {
+    "patches": [
+      {
+        "path": "metadata.year_norm",
+        "op": "set",
+        "from": null,
+        "to": "2021",
+        "source": "zotero:year_norm",
+        "confidence": 0.9
+      },
+      {
+        "path": "metadata.authors",
+        "op": "set",
+        "from": [
+          "Sebastian Fernandez",
+          "David Abia",
+          "Adnan Majid",
+          "Erik E. Folch",
+          "Neal M. Patel",
+          "Janani S. Reisenauer"
+        ],
+        "to": [
+          "Sebastian Fernandez-Bussy",
+          "David Abia-Trujillo",
+          "Adnan Majid",
+          "Erik E. Folch",
+          "Neal M. Patel",
+          "Felix J.F. Herth",
+          "Janani S. Reisenauer"
+        ],
+        "source": "zotero:authors",
+        "confidence": 0.9
+      },
+      {
+        "path": "metadata.doi",
+        "op": "set",
+        "from": null,
+        "to": "10.1159/000514830",
+        "source": "zotero:doi",
+        "confidence": 0.9
+      },
+      {
+        "path": "metadata.journal",
+        "op": "set",
+        "from": null,
+        "to": "Respiration",
+        "source": "zotero:journal",
+        "confidence": 0.9
+      },
+      {
+        "path": "metadata.abstract",
+        "op": "set",
+        "from": "Robotic assisted bronchoscopy represents a major turning point in bronchoscopic history. The management strategies to address significant airway bleeding in this 'robotic era' are not well documented, and further guidance is required. We present a case report that exemplifies our approach and management strategy using a combined and simultaneous flexible/robotic bronchoscopy if this complication is encountered. © 2021 S. Karger AG, Basel",
+        "to": "Robotic assisted bronchoscopy represents a major turning point in bronchoscopic history. The management strategies to address significant airway bleeding in this “robotic era” are not well documented, and further guidance is required. We present a case report that exemplifies our approach and management strategy using a combined and simultaneous flexible/robotic bronchoscopy if this complication is encountered.",
+        "source": "zotero:abstract",
+        "confidence": 0.9
+      },
+      {
+        "path": "metadata.volume",
+        "op": "set",
+        "from": null,
+        "to": "100",
+        "source": "zotero:volume",
+        "confidence": 0.9
+      },
+      {
+        "path": "metadata.issue",
+        "op": "set",
+        "from": null,
+        "to": "6",
+        "source": "zotero:issue",
+        "confidence": 0.9
+      },
+      {
+        "path": "metadata.pages",
+        "op": "set",
+        "from": null,
+        "to": "547-550",
+        "source": "zotero:pages",
+        "confidence": 0.9
+      },
+      {
+        "path": "metadata.issn",
+        "op": "set",
+        "from": null,
+        "to": "0025-7931, 1423-0356",
+        "source": "zotero:issn",
+        "confidence": 0.9
+      },
+      {
+        "path": "metadata.url",
+        "op": "set",
+        "from": null,
+        "to": "https://karger.com/article/doi/10.1159/000514830",
+        "source": "zotero:url",
+        "confidence": 0.9
+      },
+      {
+        "path": "provenance.orig_pdf_filename",
+        "op": "set",
+        "from": null,
+        "to": "Fernandez-Bussy et al. - 2021 - Management of Significant Airway Bleeding during Robotic Assisted Bronchoscopy A Tailored Approach.pdf",
+        "source": "zotero:csv",
+        "confidence": 0.9
+      },
+      {
+        "path": "metadata.year",
+        "op": "set",
+        "from": "2021-03-26",
+        "to": 2021,
+        "source": "normalize:iso",
+        "confidence": 0.9
+      },
+      {
+        "path": "metadata.authors",
+        "op": "set",
+        "from": [
+          "Sebastian Fernandez-Bussy",
+          "David Abia-Trujillo",
+          "Adnan Majid",
+          "Erik E. Folch",
+          "Neal M. Patel",
+          "Felix J.F. Herth",
+          "Janani S. Reisenauer"
+        ],
+        "to": [
+          {
+            "given": "Sebastian",
+            "family": "Fernandez-Bussy",
+            "suffix": null,
+            "degrees": [],
+            "display": "Sebastian Fernandez-Bussy",
+            "group": false
+          },
+          {
+            "given": "David",
+            "family": "Abia-Trujillo",
+            "suffix": null,
+            "degrees": [],
+            "display": "David Abia-Trujillo",
+            "group": false
+          },
+          {
+            "given": "Adnan",
+            "family": "Majid",
+            "suffix": null,
+            "degrees": [],
+            "display": "Adnan Majid",
+            "group": false
+          },
+          {
+            "given": "Erik E.",
+            "family": "Folch",
+            "suffix": null,
+            "degrees": [],
+            "display": "Erik E. Folch",
+            "group": false
+          },
+          {
+            "given": "Neal M.",
+            "family": "Patel",
+            "suffix": null,
+            "degrees": [],
+            "display": "Neal M. Patel",
+            "group": false
+          },
+          {
+            "given": "Felix J.F.",
+            "family": "Herth",
+            "suffix": null,
+            "degrees": [],
+            "display": "Felix J.F. Herth",
+            "group": false
+          },
+          {
+            "given": "Janani S.",
+            "family": "Reisenauer",
+            "suffix": null,
+            "degrees": [],
+            "display": "Janani S. Reisenauer",
+            "group": false
+          }
+        ],
+        "source": "filtered_ack_like",
+        "confidence": 0.9
+      },
+      {
+        "path": "metadata.journal_full",
+        "op": "set",
+        "from": null,
+        "to": "Respiration",
+        "source": "canonicalize",
+        "confidence": 0.9
+      }
+    ],
+    "orig_pdf_filename": "Fernandez-Bussy et al. - 2021 - Management of Significant Airway Bleeding during Robotic Assisted Bronchoscopy A Tailored Approach.pdf",
+    "zotero": {
+      "id": "fernandez-bussyManagementSignificantAirway2021",
+      "source": "zotero_csl+csv",
+      "exported_at": "2025-09-02T20:29:37.698788Z",
+      "match_method": "title_exact",
+      "match_confidence": 1.0
+    }
+  },
+  "grobid": {
+    "references_tei": "<TEI xmlns=\"http://www.tei-c.org/ns/1.0\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" \n xmlns:mml=\"http://www.w3.org/1998/Math/MathML\">\n\t<teiHeader/>\n\t<text>\n\t\t<front/>\n\t\t<body/>\n\t\t<back>\n\t\t\t<div>\n\t\t\t\t<listBibl>\n<biblStruct xml:id=\"b0\">\n\t<analytic>\n\t\t<title level=\"a\" type=\"main\">Robotic bronchoscopy for peripheral pulmonary lesions: a Multicenter Pilot and Feasibility Study (BENEFIT)</title>\n\t\t<author>\n\t\t\t<persName><forename type=\"first\">A</forename><forename type=\"middle\">C</forename><surname>Chen</surname></persName>\n\t\t</author>\n\t\t<author>\n\t\t\t<persName><forename type=\"first\">N</forename><forename type=\"middle\">J</forename><surname>Pastis</surname></persName>\n\t\t</author>\n\t\t<author>\n\t\t\t<persName><surname>Jr</surname></persName>\n\t\t</author>\n\t\t<author>\n\t\t\t<persName><forename type=\"first\">A</forename><forename type=\"middle\">K</forename><surname>Mahajan</surname></persName>\n\t\t</author>\n\t\t<author>\n\t\t\t<persName><forename type=\"first\">S</forename><forename type=\"middle\">J</forename><surname>Khandhar</surname></persName>\n\t\t</author>\n\t\t<author>\n\t\t\t<persName><forename type=\"first\">M</forename><forename type=\"middle\">J</forename><surname>Simoff</surname></persName>\n\t\t</author>\n\t\t<author>\n\t\t\t<persName><forename type=\"first\">M</forename><forename type=\"middle\">S</forename><surname>Machuzak</surname></persName>\n\t\t</author>\n\t</analytic>\n\t<monogr>\n\t\t<title level=\"j\">Chest</title>\n\t\t<imprint>\n\t\t\t<biblScope unit=\"volume\">159</biblScope>\n\t\t\t<biblScope unit=\"issue\">2</biblScope>\n\t\t\t<biblScope unit=\"page\" from=\"845\" to=\"852\" />\n\t\t\t<date type=\"published\" when=\"2021-02\">2021 Feb</date>\n\t\t</imprint>\n\t</monogr>\n</biblStruct>\n\n<biblStruct xml:id=\"b1\">\n\t<analytic>\n\t\t<title level=\"a\" type=\"main\">Robotic bronchoscopy for pulmonary lesions: a review of existing technologies and clinical data</title>\n\t\t<author>\n\t\t\t<persName><forename type=\"first\">A</forename><surname>Agrawal</surname></persName>\n\t\t</author>\n\t\t<author>\n\t\t\t<persName><forename type=\"first\">D</forename><forename type=\"middle\">K</forename><surname>Hogarth</surname></persName>\n\t\t</author>\n\t\t<author>\n\t\t\t<persName><forename type=\"first\">S</forename><surname>Murgu</surname></persName>\n\t\t</author>\n\t</analytic>\n\t<monogr>\n\t\t<title level=\"j\">J Thorac Dis</title>\n\t\t<imprint>\n\t\t\t<biblScope unit=\"volume\">12</biblScope>\n\t\t\t<biblScope unit=\"issue\">6</biblScope>\n\t\t\t<biblScope unit=\"page\">3279</biblScope>\n\t\t\t<date type=\"published\" when=\"2020-06\">2020 Jun</date>\n\t\t</imprint>\n\t</monogr>\n</biblStruct>\n\n<biblStruct xml:id=\"b2\">\n\t<analytic>\n\t\t<title level=\"a\" type=\"main\">Standardized definitions of bleeding after transbronchial lung biopsy: a delphi consensus statement from the nashville working group</title>\n\t\t<author>\n\t\t\t<persName><forename type=\"first\">E</forename><forename type=\"middle\">E</forename><surname>Folch</surname></persName>\n\t\t</author>\n\t\t<author>\n\t\t\t<persName><forename type=\"first\">A</forename><forename type=\"middle\">K</forename><surname>Mahajan</surname></persName>\n\t\t</author>\n\t\t<author>\n\t\t\t<persName><forename type=\"first\">C</forename><forename type=\"middle\">L</forename><surname>Oberg</surname></persName>\n\t\t</author>\n\t\t<author>\n\t\t\t<persName><forename type=\"first\">F</forename><surname>Maldonado</surname></persName>\n\t\t</author>\n\t\t<author>\n\t\t\t<persName><forename type=\"first\">E</forename><surname>Toloza</surname></persName>\n\t\t</author>\n\t\t<author>\n\t\t\t<persName><forename type=\"first\">W</forename><forename type=\"middle\">S</forename><surname>Krimsky</surname></persName>\n\t\t</author>\n\t</analytic>\n\t<monogr>\n\t\t<title level=\"j\">Chest</title>\n\t\t<imprint>\n\t\t\t<biblScope unit=\"volume\">158</biblScope>\n\t\t\t<biblScope unit=\"issue\">1</biblScope>\n\t\t\t<biblScope unit=\"page\" from=\"393\" to=\"400\" />\n\t\t\t<date type=\"published\" when=\"2020-07\">2020 Jul</date>\n\t\t</imprint>\n\t</monogr>\n</biblStruct>\n\n<biblStruct xml:id=\"b3\">\n\t<analytic>\n\t\t<title level=\"a\" type=\"main\">Robot-assisted bronchoscopy for pulmonary lesion diagnosis: results from the initial multicenter experience</title>\n\t\t<author>\n\t\t\t<persName><forename type=\"first\">U</forename><surname>Chaddha</surname></persName>\n\t\t</author>\n\t\t<author>\n\t\t\t<persName><forename type=\"first\">S</forename><forename type=\"middle\">P</forename><surname>Kovacs</surname></persName>\n\t\t</author>\n\t\t<author>\n\t\t\t<persName><forename type=\"first\">C</forename><surname>Manley</surname></persName>\n\t\t</author>\n\t\t<author>\n\t\t\t<persName><forename type=\"first\">D</forename><forename type=\"middle\">K</forename><surname>Hogarth</surname></persName>\n\t\t</author>\n\t\t<author>\n\t\t\t<persName><forename type=\"first\">G</forename><surname>Cumbo-Nacheli</surname></persName>\n\t\t</author>\n\t\t<author>\n\t\t\t<persName><forename type=\"first\">S</forename><forename type=\"middle\">V</forename><surname>Bhavani</surname></persName>\n\t\t</author>\n\t</analytic>\n\t<monogr>\n\t\t<title level=\"j\">BMC Pulm Med</title>\n\t\t<imprint>\n\t\t\t<biblScope unit=\"volume\">19</biblScope>\n\t\t\t<biblScope unit=\"issue\">1</biblScope>\n\t\t\t<biblScope unit=\"page\">243</biblScope>\n\t\t\t<date type=\"published\" when=\"2019-12-01\">2019 Dec 1</date>\n\t\t</imprint>\n\t</monogr>\n</biblStruct>\n\n\t\t\t\t</listBibl>\n\t\t\t</div>\n\t\t</back>\n\t</text>\n</TEI>\n"
+  },
+  "umls_links": [],
+  "references_enriched": [
+    {
+      "title": "Robotic bronchoscopy for peripheral pulmonary lesions: a Multicenter Pilot and Feasibility Study (BENEFIT)",
+      "journal": "Chest",
+      "year": "2021",
+      "volume": "159",
+      "issue": "2",
+      "pages": null,
+      "doi": null,
+      "pmid": null,
+      "authors": [
+        "Chen AC",
+        "Pastis NJ",
+        "Jr",
+        "Mahajan AK",
+        "Khandhar SJ",
+        "Simoff MJ",
+        "Machuzak MS"
+      ],
+      "first_author_last": "Chen",
+      "enrichment": {
+        "pmid": "32822675",
+        "doi": null,
+        "title": "Robotic Bronchoscopy for Peripheral Pulmonary Lesions: A Multicenter Pilot and Feasibility Study (BENEFIT).",
+        "journal": "Chest",
+        "year": "2021",
+        "authors": [
+          "Chen AC",
+          "Pastis NJ Jr",
+          "Mahajan AK",
+          "Khandhar SJ",
+          "Simoff MJ",
+          "Machuzak MS",
+          "Cicenia J",
+          "Gildea TR",
+          "Silvestri GA"
+        ],
+        "mesh": [],
+        "pubtypes": [
+          "Journal Article",
+          "Multicenter Study"
+        ],
+        "abstract": "The diagnosis of peripheral pulmonary lesions (PPL) continues to present clinical challenges. Despite extensive experience with guided bronchoscopy, the diagnostic yield has not improved significantly. Robotic-assisted bronchoscopic platforms have been developed potentially to improve the diagnostic yield for PPL. Presently, limited data exist that evaluate the performance of robotic systems in live human subjects."
+      }
+    },
+    {
+      "title": "Robotic bronchoscopy for pulmonary lesions: a review of existing technologies and clinical data",
+      "journal": "J Thorac Dis",
+      "year": "2020",
+      "volume": "12",
+      "issue": "6",
+      "pages": "3279",
+      "doi": null,
+      "pmid": null,
+      "authors": [
+        "Agrawal A",
+        "Hogarth DK",
+        "Murgu S"
+      ],
+      "first_author_last": "Agrawal",
+      "enrichment": {
+        "pmid": "32642251",
+        "doi": null,
+        "title": "Robotic bronchoscopy for pulmonary lesions: a review of existing technologies and clinical data.",
+        "journal": "Journal of thoracic disease",
+        "year": "2020",
+        "authors": [
+          "Agrawal A",
+          "Hogarth DK",
+          "Murgu S"
+        ],
+        "mesh": [],
+        "pubtypes": [
+          "Journal Article",
+          "Review"
+        ],
+        "abstract": "Bronchoscopic interventions are preferred for sampling suspicious pulmonary lesions as they have lower complications and can achieve diagnosis and staging in one single procedure. Limitations in existing guided bronchoscopy platforms has led to developments in robotic assisted technologies. These devices may allow the bronchoscopist to more precisely maneuver the scope and instruments into the periphery of the lungs under direct visualization while also ensuring stability during sampling of the target lesions. These devices have the potential to improve the diagnostic yield in sampling peripheral lung lesions and may play a role in the treatment of non-operable or oligometastatic peripheral tumors using bronchoscopic ablative therapies. In this article, we review the existing robotic bronchoscopy technologies and summarize the available pre-clinical and clinical data supporting their use."
+      }
+    },
+    {
+      "title": "Standardized definitions of bleeding after transbronchial lung biopsy: a delphi consensus statement from the nashville working group",
+      "journal": "Chest",
+      "year": "2020",
+      "volume": "158",
+      "issue": "1",
+      "pages": null,
+      "doi": null,
+      "pmid": null,
+      "authors": [
+        "Folch EE",
+        "Mahajan AK",
+        "Oberg CL",
+        "Maldonado F",
+        "Toloza E",
+        "Krimsky WS"
+      ],
+      "first_author_last": "Folch",
+      "enrichment": {
+        "pmid": "32067944",
+        "doi": null,
+        "title": "Standardized Definitions of Bleeding After Transbronchial Lung Biopsy: A Delphi Consensus Statement From the Nashville Working Group.",
+        "journal": "Chest",
+        "year": "2020",
+        "authors": [
+          "Folch EE",
+          "Mahajan AK",
+          "Oberg CL",
+          "Maldonado F",
+          "Toloza E",
+          "Krimsky WS",
+          "Oh S",
+          "Bowling MR",
+          "Benzaquen S",
+          "Kinsey CM",
+          "Mehta AC",
+          "Fernandez-Bussy S",
+          "Flandes J",
+          "Lau K",
+          "Krishna G",
+          "Nead MA",
+          "Herth F",
+          "Aragaki-Nakahodo AA",
+          "Barisione E",
+          "Bansal S",
+          "Zanchi D",
+          "Zgoda M",
+          "Lutz PO",
+          "Lentz RJ",
+          "Parks C",
+          "Salio M",
+          "Perret K",
+          "Keyes C",
+          "LeMense GP",
+          "Hinze JD",
+          "Majid A",
+          "Christensen M",
+          "Kazakov J",
+          "Labarca G",
+          "Waller E",
+          "Studnicka M",
+          "Teba CV",
+          "Khandhar SJ"
+        ],
+        "mesh": [],
+        "pubtypes": [
+          "Journal Article"
+        ],
+        "abstract": "Transbronchial lung biopsies are commonly performed for a variety of indications. Although generally well tolerated, complications such as bleeding do occur. Description of bleeding severity is crucial both clinically and in research trials; to date, there is no validated scale that is widely accepted for this purpose. Can a simple, reproducible tool for categorizing the severity of bleeding after transbronchial biopsy be created?"
+      }
+    },
+    {
+      "title": "Robot-assisted bronchoscopy for pulmonary lesion diagnosis: results from the initial multicenter experience",
+      "journal": "BMC Pulm Med",
+      "year": "2019",
+      "volume": "19",
+      "issue": "1",
+      "pages": "243",
+      "doi": null,
+      "pmid": null,
+      "authors": [
+        "Chaddha U",
+        "Kovacs SP",
+        "Manley C",
+        "Hogarth DK",
+        "Cumbo-Nacheli G",
+        "Bhavani SV"
+      ],
+      "first_author_last": "Chaddha",
+      "enrichment": {
+        "pmid": "31829148",
+        "doi": null,
+        "title": "Robot-assisted bronchoscopy for pulmonary lesion diagnosis: results from the initial multicenter experience.",
+        "journal": "BMC pulmonary medicine",
+        "year": "2019",
+        "authors": [
+          "Chaddha U",
+          "Kovacs SP",
+          "Manley C",
+          "Hogarth DK",
+          "Cumbo-Nacheli G",
+          "Bhavani SV",
+          "Kumar R",
+          "Shende M",
+          "Egan JP 3rd",
+          "Murgu S"
+        ],
+        "mesh": [],
+        "pubtypes": [
+          "Journal Article",
+          "Multicenter Study"
+        ],
+        "abstract": "The Robotic Endoscopic System (Auris Health, Inc., Redwood City, CA) has the potential to overcome several limitations of contemporary guided-bronchoscopic technologies for the diagnosis of lung lesions. Our objective is to report on the initial post-marketing feasibility, safety and diagnostic yield of this technology."
+      }
+    }
+  ],
+  "drugs": [],
+  "trial_ids": [],
+  "assets": {
+    "tables": [],
+    "figures": [
+      {
+        "type": "figure",
+        "content": {
+          "self_ref": "#/pictures/0",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [],
+          "content_layer": "body",
+          "label": "picture",
+          "prov": [
+            {
+              "page_no": 1,
+              "bbox": {
+                "l": 41.61766815185547,
+                "t": 45.3212890625,
+                "r": 90.64210510253906,
+                "b": 25.379150390625,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                0
+              ]
+            }
+          ],
+          "captions": [],
+          "references": [],
+          "footnotes": [],
+          "image": null,
+          "annotations": [],
+          "caption_text": "Fig. 3. Bronchoscopic images of the combined simultaneous approach of flexible and robotic bronchoscopy to manage severe airway bleeding. a Flexible bronchoscope passing parallel to the ET at the level of the vocal cords. b , c Partial deflation of the ET cuff and subsequent advancement of the flexible bronchoscope into the trachea. d , e Robotic bronchoscope noted with the flexible bronchoscope going into the left mainstem bronchus and subsequently into the bleeding segment. f-i Management of the LUL bleeding during robotic bronchoscopy. LUL, left upper lobe; ET, endotracheal tube."
+        },
+        "captions": [
+          "). A robotic assisted bronchoscopic biopsy of the LUL lesion was recommended, and the procedure was performed by an expert bronchoscopist with specialized interventional pulmonology training. The RAB was performed under general anesthesia, and paralytics were used. The airway was accessed through a size 8 standard endotracheal tube (ET). The endobronchial navigation was performed after alveolar recruitment maneuver was performed and continued with a PEEP of 10 for the rest of the procedure. These maneuvers were performed with the intention to split open small subsegmental airways and facilitate the advancement of the scope beyond the 5th-6th generation without air insufflation."
+        ],
+        "footnotes": [
+          "Divisions of Pulmonary, Allergy, Sleep Medicine & Respiratory Services/Mayo Clinic, Jacksonville, FL, USA; b Division of Thoracic Surgery and Interventional Pulmonology/Beth Israel Deaconess Medical Center, Boston, MA, USA;  c Department of Pulmonary and Critical Care Medicine/Massachusetts General Hospital, Boston, MA, USA; d Department of Pulmonology and Critical Care Medicine, Thoraxklinik at the University of Heidelberg, Heidelberg, Germany;  e Division of General Thoracic Surgery/Mayo Clinic, Rochester, MN, USA",
+          "anagement strategy using a combined and simultaneous flexible/robotic  bronchoscopy  if  this  complication  is  encountered. © 2021 S. Karger AG, Basel",
+          "ive fluoroscopy. Upon collecting tissue samples with a 21-G needle,  bleeding  was  noted  traveling  proximally  along  the  robotic catheter and on live fluoroscopic images (Fig. 2). Suction was applied to the proximal end of the robotic catheter. Simultaneously, a flexible bronchoscope (4 mm OD), with a 2.0-mm working channel, was inserted into the airways, parallel to the robotic scope, to help control the bleeding. The flexible bronchoscope was inserted through  the  nose,  traversing  the  vocal  cords  parallel  to  the  ET (Fig. 3a). The ET cuff was then partially deflated, and the bronchoscope was advanced into the distal trachea and distal left main stem bronchus  (Fig.  3b-d).  Bleeding  was  noted  emanating  from  the LUL surrounding the wedged robotic bronchoscope (Fig. 2, 3g). Ice saline and epinephrine were instilled into the bronchial segment where the robotic scope was located. After bleeding ceased and under direct visualization with the flexible bronchoscope, the",
+          "obotic scope was retracted and the flexible bronchoscope was advanced into the bleeding segment to confirm successful hemostasis and  to  suction  any  remaining  clots  (Fig.  3h).  Complete  airway clearance was then performed. The robotic scope was reinserted to continue the procedure (Fig. 3i). Finally, once RAB was concluded, systematic mediastinal staging with Endobronchial ultrasound (EBUS) was done. No pneumothorax, worsening hypoxemia, or other complications occurred. The patient was discharged home. Final pathology report revealed nonmalignant  disease.  A  follow-up  chest  CT  scan  will  be  performed in 3 months.",
+          "nd containment of the localized bleeding with distal wedging of the robotic bronchoscope [2]. The treatment modalities for SAB are limited, and this is in part due to the tradeoff between the stability and reach needed for peripheral bronchoscopy  against  the  delayed  reaction  capacity  and small channel allowing for suboptimal suction. Fortunately, this complication appears to be rare; however, it remains a constant threat to patients, and a clear and effective treatment algorithm is required. If such an episode is encountered in the future, it is the authors' recommendation to implement our proposed management strategy with combined,  simultaneous  flexible  and  robotic  bronchoscopy (Fig. 2) as a next immediate step (Table 1)."
+        ]
+      },
+      {
+        "type": "figure",
+        "content": {
+          "self_ref": "#/pictures/1",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [
+            {
+              "cref": "#/texts/26"
+            }
+          ],
+          "content_layer": "body",
+          "label": "picture",
+          "prov": [
+            {
+              "page_no": 2,
+              "bbox": {
+                "l": 215.62474060058594,
+                "t": 732.7324180603027,
+                "r": 378.8185729980469,
+                "b": 568.123291015625,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                0
+              ]
+            }
+          ],
+          "captions": [],
+          "references": [],
+          "footnotes": [],
+          "image": null,
+          "annotations": []
+        },
+        "captions": [
+          "). A robotic assisted bronchoscopic biopsy of the LUL lesion was recommended, and the procedure was performed by an expert bronchoscopist with specialized interventional pulmonology training. The RAB was performed under general anesthesia, and paralytics were used. The airway was accessed through a size 8 standard endotracheal tube (ET). The endobronchial navigation was performed after alveolar recruitment maneuver was performed and continued with a PEEP of 10 for the rest of the procedure. These maneuvers were performed with the intention to split open small subsegmental airways and facilitate the advancement of the scope beyond the 5th-6th generation without air insufflation."
+        ],
+        "footnotes": [
+          "Divisions of Pulmonary, Allergy, Sleep Medicine & Respiratory Services/Mayo Clinic, Jacksonville, FL, USA; b Division of Thoracic Surgery and Interventional Pulmonology/Beth Israel Deaconess Medical Center, Boston, MA, USA;  c Department of Pulmonary and Critical Care Medicine/Massachusetts General Hospital, Boston, MA, USA; d Department of Pulmonology and Critical Care Medicine, Thoraxklinik at the University of Heidelberg, Heidelberg, Germany;  e Division of General Thoracic Surgery/Mayo Clinic, Rochester, MN, USA",
+          "anagement strategy using a combined and simultaneous flexible/robotic  bronchoscopy  if  this  complication  is  encountered. © 2021 S. Karger AG, Basel",
+          "ive fluoroscopy. Upon collecting tissue samples with a 21-G needle,  bleeding  was  noted  traveling  proximally  along  the  robotic catheter and on live fluoroscopic images (Fig. 2). Suction was applied to the proximal end of the robotic catheter. Simultaneously, a flexible bronchoscope (4 mm OD), with a 2.0-mm working channel, was inserted into the airways, parallel to the robotic scope, to help control the bleeding. The flexible bronchoscope was inserted through  the  nose,  traversing  the  vocal  cords  parallel  to  the  ET (Fig. 3a). The ET cuff was then partially deflated, and the bronchoscope was advanced into the distal trachea and distal left main stem bronchus  (Fig.  3b-d).  Bleeding  was  noted  emanating  from  the LUL surrounding the wedged robotic bronchoscope (Fig. 2, 3g). Ice saline and epinephrine were instilled into the bronchial segment where the robotic scope was located. After bleeding ceased and under direct visualization with the flexible bronchoscope, the",
+          "obotic scope was retracted and the flexible bronchoscope was advanced into the bleeding segment to confirm successful hemostasis and  to  suction  any  remaining  clots  (Fig.  3h).  Complete  airway clearance was then performed. The robotic scope was reinserted to continue the procedure (Fig. 3i). Finally, once RAB was concluded, systematic mediastinal staging with Endobronchial ultrasound (EBUS) was done. No pneumothorax, worsening hypoxemia, or other complications occurred. The patient was discharged home. Final pathology report revealed nonmalignant  disease.  A  follow-up  chest  CT  scan  will  be  performed in 3 months.",
+          "nd containment of the localized bleeding with distal wedging of the robotic bronchoscope [2]. The treatment modalities for SAB are limited, and this is in part due to the tradeoff between the stability and reach needed for peripheral bronchoscopy  against  the  delayed  reaction  capacity  and small channel allowing for suboptimal suction. Fortunately, this complication appears to be rare; however, it remains a constant threat to patients, and a clear and effective treatment algorithm is required. If such an episode is encountered in the future, it is the authors' recommendation to implement our proposed management strategy with combined,  simultaneous  flexible  and  robotic  bronchoscopy (Fig. 2) as a next immediate step (Table 1)."
+        ]
+      },
+      {
+        "type": "figure",
+        "content": {
+          "self_ref": "#/pictures/2",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [
+            {
+              "cref": "#/texts/32"
+            },
+            {
+              "cref": "#/texts/33"
+            }
+          ],
+          "content_layer": "body",
+          "label": "picture",
+          "prov": [
+            {
+              "page_no": 2,
+              "bbox": {
+                "l": 389.8361511230469,
+                "t": 720.1835021972656,
+                "r": 553.3963012695312,
+                "b": 568.7714233398438,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                0
+              ]
+            }
+          ],
+          "captions": [
+            {
+              "cref": "#/texts/32"
+            }
+          ],
+          "references": [],
+          "footnotes": [],
+          "image": null,
+          "annotations": []
+        },
+        "captions": [
+          "). A robotic assisted bronchoscopic biopsy of the LUL lesion was recommended, and the procedure was performed by an expert bronchoscopist with specialized interventional pulmonology training. The RAB was performed under general anesthesia, and paralytics were used. The airway was accessed through a size 8 standard endotracheal tube (ET). The endobronchial navigation was performed after alveolar recruitment maneuver was performed and continued with a PEEP of 10 for the rest of the procedure. These maneuvers were performed with the intention to split open small subsegmental airways and facilitate the advancement of the scope beyond the 5th-6th generation without air insufflation."
+        ],
+        "footnotes": [
+          "Divisions of Pulmonary, Allergy, Sleep Medicine & Respiratory Services/Mayo Clinic, Jacksonville, FL, USA; b Division of Thoracic Surgery and Interventional Pulmonology/Beth Israel Deaconess Medical Center, Boston, MA, USA;  c Department of Pulmonary and Critical Care Medicine/Massachusetts General Hospital, Boston, MA, USA; d Department of Pulmonology and Critical Care Medicine, Thoraxklinik at the University of Heidelberg, Heidelberg, Germany;  e Division of General Thoracic Surgery/Mayo Clinic, Rochester, MN, USA",
+          "anagement strategy using a combined and simultaneous flexible/robotic  bronchoscopy  if  this  complication  is  encountered. © 2021 S. Karger AG, Basel",
+          "ive fluoroscopy. Upon collecting tissue samples with a 21-G needle,  bleeding  was  noted  traveling  proximally  along  the  robotic catheter and on live fluoroscopic images (Fig. 2). Suction was applied to the proximal end of the robotic catheter. Simultaneously, a flexible bronchoscope (4 mm OD), with a 2.0-mm working channel, was inserted into the airways, parallel to the robotic scope, to help control the bleeding. The flexible bronchoscope was inserted through  the  nose,  traversing  the  vocal  cords  parallel  to  the  ET (Fig. 3a). The ET cuff was then partially deflated, and the bronchoscope was advanced into the distal trachea and distal left main stem bronchus  (Fig.  3b-d).  Bleeding  was  noted  emanating  from  the LUL surrounding the wedged robotic bronchoscope (Fig. 2, 3g). Ice saline and epinephrine were instilled into the bronchial segment where the robotic scope was located. After bleeding ceased and under direct visualization with the flexible bronchoscope, the",
+          "obotic scope was retracted and the flexible bronchoscope was advanced into the bleeding segment to confirm successful hemostasis and  to  suction  any  remaining  clots  (Fig.  3h).  Complete  airway clearance was then performed. The robotic scope was reinserted to continue the procedure (Fig. 3i). Finally, once RAB was concluded, systematic mediastinal staging with Endobronchial ultrasound (EBUS) was done. No pneumothorax, worsening hypoxemia, or other complications occurred. The patient was discharged home. Final pathology report revealed nonmalignant  disease.  A  follow-up  chest  CT  scan  will  be  performed in 3 months.",
+          "nd containment of the localized bleeding with distal wedging of the robotic bronchoscope [2]. The treatment modalities for SAB are limited, and this is in part due to the tradeoff between the stability and reach needed for peripheral bronchoscopy  against  the  delayed  reaction  capacity  and small channel allowing for suboptimal suction. Fortunately, this complication appears to be rare; however, it remains a constant threat to patients, and a clear and effective treatment algorithm is required. If such an episode is encountered in the future, it is the authors' recommendation to implement our proposed management strategy with combined,  simultaneous  flexible  and  robotic  bronchoscopy (Fig. 2) as a next immediate step (Table 1)."
+        ]
+      },
+      {
+        "type": "figure",
+        "content": {
+          "self_ref": "#/pictures/3",
+          "parent": {
+            "cref": "#/body"
+          },
+          "children": [
+            {
+              "cref": "#/texts/49"
+            },
+            {
+              "cref": "#/texts/50"
+            },
+            {
+              "cref": "#/texts/51"
+            },
+            {
+              "cref": "#/texts/52"
+            },
+            {
+              "cref": "#/texts/53"
+            },
+            {
+              "cref": "#/texts/54"
+            },
+            {
+              "cref": "#/texts/55"
+            },
+            {
+              "cref": "#/texts/56"
+            },
+            {
+              "cref": "#/texts/57"
+            },
+            {
+              "cref": "#/texts/58"
+            }
+          ],
+          "content_layer": "body",
+          "label": "picture",
+          "prov": [
+            {
+              "page_no": 3,
+              "bbox": {
+                "l": 128.5774688720703,
+                "t": 731.6590919494629,
+                "r": 553.4075317382812,
+                "b": 330.067138671875,
+                "coord_origin": "BOTTOMLEFT"
+              },
+              "charspan": [
+                0,
+                0
+              ]
+            }
+          ],
+          "captions": [
+            {
+              "cref": "#/texts/49"
+            }
+          ],
+          "references": [],
+          "footnotes": [],
+          "image": null,
+          "annotations": []
+        },
+        "captions": [
+          "). A robotic assisted bronchoscopic biopsy of the LUL lesion was recommended, and the procedure was performed by an expert bronchoscopist with specialized interventional pulmonology training. The RAB was performed under general anesthesia, and paralytics were used. The airway was accessed through a size 8 standard endotracheal tube (ET). The endobronchial navigation was performed after alveolar recruitment maneuver was performed and continued with a PEEP of 10 for the rest of the procedure. These maneuvers were performed with the intention to split open small subsegmental airways and facilitate the advancement of the scope beyond the 5th-6th generation without air insufflation."
+        ],
+        "footnotes": [
+          "Divisions of Pulmonary, Allergy, Sleep Medicine & Respiratory Services/Mayo Clinic, Jacksonville, FL, USA; b Division of Thoracic Surgery and Interventional Pulmonology/Beth Israel Deaconess Medical Center, Boston, MA, USA;  c Department of Pulmonary and Critical Care Medicine/Massachusetts General Hospital, Boston, MA, USA; d Department of Pulmonology and Critical Care Medicine, Thoraxklinik at the University of Heidelberg, Heidelberg, Germany;  e Division of General Thoracic Surgery/Mayo Clinic, Rochester, MN, USA",
+          "anagement strategy using a combined and simultaneous flexible/robotic  bronchoscopy  if  this  complication  is  encountered. © 2021 S. Karger AG, Basel",
+          "ive fluoroscopy. Upon collecting tissue samples with a 21-G needle,  bleeding  was  noted  traveling  proximally  along  the  robotic catheter and on live fluoroscopic images (Fig. 2). Suction was applied to the proximal end of the robotic catheter. Simultaneously, a flexible bronchoscope (4 mm OD), with a 2.0-mm working channel, was inserted into the airways, parallel to the robotic scope, to help control the bleeding. The flexible bronchoscope was inserted through  the  nose,  traversing  the  vocal  cords  parallel  to  the  ET (Fig. 3a). The ET cuff was then partially deflated, and the bronchoscope was advanced into the distal trachea and distal left main stem bronchus  (Fig.  3b-d).  Bleeding  was  noted  emanating  from  the LUL surrounding the wedged robotic bronchoscope (Fig. 2, 3g). Ice saline and epinephrine were instilled into the bronchial segment where the robotic scope was located. After bleeding ceased and under direct visualization with the flexible bronchoscope, the",
+          "obotic scope was retracted and the flexible bronchoscope was advanced into the bleeding segment to confirm successful hemostasis and  to  suction  any  remaining  clots  (Fig.  3h).  Complete  airway clearance was then performed. The robotic scope was reinserted to continue the procedure (Fig. 3i). Finally, once RAB was concluded, systematic mediastinal staging with Endobronchial ultrasound (EBUS) was done. No pneumothorax, worsening hypoxemia, or other complications occurred. The patient was discharged home. Final pathology report revealed nonmalignant  disease.  A  follow-up  chest  CT  scan  will  be  performed in 3 months.",
+          "nd containment of the localized bleeding with distal wedging of the robotic bronchoscope [2]. The treatment modalities for SAB are limited, and this is in part due to the tradeoff between the stability and reach needed for peripheral bronchoscopy  against  the  delayed  reaction  capacity  and small channel allowing for suboptimal suction. Fortunately, this complication appears to be rare; however, it remains a constant threat to patients, and a clear and effective treatment algorithm is required. If such an episode is encountered in the future, it is the authors' recommendation to implement our proposed management strategy with combined,  simultaneous  flexible  and  robotic  bronchoscopy (Fig. 2) as a next immediate step (Table 1)."
+        ]
+      }
+    ]
+  },
+  "statistics": [],
+  "validation": {
+    "checks": {
+      "has_title": true,
+      "has_authors": true,
+      "authors_are_valid": false,
+      "has_sections": true,
+      "sections_have_content": true,
+      "has_tables": false,
+      "tables_have_captions": true,
+      "tables_have_data": true,
+      "has_figures": true,
+      "figures_have_captions": false,
+      "figures_have_images": false,
+      "has_entities": false,
+      "has_statistics": false,
+      "has_references": true,
+      "refs_structured": true,
+      "refs_enriched_some": true,
+      "references_enriched": true,
+      "has_references_csv": false,
+      "has_cross_refs": false,
+      "umls_links": false,
+      "figures_textual_count": 0
+    },
+    "completeness_score": 61,
+    "is_valid": true,
+    "issues": [],
+    "warnings": [
+      "No medical entities found",
+      "No statistics extracted",
+      "Some figures missing captions"
+    ],
+    "quality_level": "acceptable",
+    "hardening": {
+      "fixes": [
+        {
+          "field": "year",
+          "action": "normalize:iso",
+          "old": "2021-03-26",
+          "new": 2021
+        },
+        {
+          "field": "authors",
+          "action": "filtered_ack_like",
+          "old": [
+            "Sebastian Fernandez-Bussy",
+            "David Abia-Trujillo",
+            "Adnan Majid",
+            "Erik E. Folch",
+            "Neal M. Patel",
+            "Felix J.F. Herth",
+            "Janani S. Reisenauer"
+          ],
+          "new": [
+            "Sebastian Fernandez-Bussy",
+            "David Abia-Trujillo",
+            "Adnan Majid",
+            "Erik E. Folch",
+            "Neal M. Patel",
+            "Felix J.F. Herth",
+            "Janani S. Reisenauer"
+          ]
+        },
+        {
+          "field": "journal_full",
+          "action": "canonicalize",
+          "old": null,
+          "new": "Respiration"
+        }
+      ]
+    }
+  }
+}
