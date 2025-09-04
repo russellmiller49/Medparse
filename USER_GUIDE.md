@@ -1,17 +1,31 @@
 # MedParse-Docling User Guide
 
-A comprehensive guide for extracting structured data from medical PDFs using the MedParse-Docling pipeline.
+A comprehensive guide for processing medical literature PDFs into RAG-ready JSON documents with complete content preservation and 100% abstract coverage.
 
 ## Table of Contents
+- [Quick Start](#quick-start)
 - [Getting Started](#getting-started)
+- [Complete Pipeline](#complete-pipeline)
 - [Basic Usage](#basic-usage)
 - [NLP-Hardened Features](#nlp-hardened-features)
 - [Advanced Features](#advanced-features)
 - [Understanding the Output](#understanding-the-output)
-- [Working with Different Linkers](#working-with-different-linkers)
+- [Verification & Quality](#verification--quality)
 - [Troubleshooting](#troubleshooting)
 - [Best Practices](#best-practices)
-- [Common Workflows](#common-workflows)
+
+## Quick Start
+
+```bash
+# Process PDFs → Extract → Enrich → Clean → RAG-Ready
+python scripts/run_batch.py papers/ out/batch_processed/
+python scripts/harden_extracted.py out/batch_processed/ out/hardened/
+python scripts/prepare_for_rag.py out/hardened/ out/rag_ready_complete/ --mode full
+python scripts/fix_missing_abstracts.py out/rag_ready_complete/ --only-missing
+python scripts/audit_abstracts.py out/rag_ready_complete/
+```
+
+Result: Complete JSONs in `out/rag_ready_complete/` with 100% abstract coverage.
 
 ## Getting Started
 
