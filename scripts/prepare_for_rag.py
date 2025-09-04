@@ -304,11 +304,48 @@ def clean_for_rag(input_file: Path, mode: str = "full") -> Dict[str, Any]:
             else:
                 caption = t.get('caption', '')
             
+            # Extract headers and rows from grid structure (docling format)
+            headers = None
+            rows = []
+            data = t.get('data', {})
+            
+            if isinstance(data, dict) and 'grid' in data:
+                # Docling format with grid structure
+                grid = data.get('grid', [])
+                if grid:
+                    # Extract headers from first row if marked as column_header
+                    first_row = grid[0] if grid else []
+                    if first_row and any(cell.get('column_header') for cell in first_row):
+                        headers = [cell.get('text', '') for cell in first_row]
+                        # Remaining rows are data
+                        for row in grid[1:]:
+                            row_data = [cell.get('text', '') for cell in row]
+                            if any(row_data):  # Skip empty rows
+                                rows.append(row_data)
+                    else:
+                        # No headers marked, all rows are data
+                        for row in grid:
+                            row_data = [cell.get('text', '') for cell in row]
+                            if any(row_data):
+                                rows.append(row_data)
+            elif isinstance(data, list):
+                # Simple list format
+                rows = data
+            else:
+                # Try to use data as-is if it's already structured
+                rows = data
+            
+            # Fallback to old fields if new extraction didn't work
+            if not headers:
+                headers = t.get('headers') or t.get('columns')
+            if not rows:
+                rows = t.get('rows', [])
+            
             output['tables'].append({
                 'id': t.get('id') or t.get('label'),
                 'caption': caption,
-                'headers': t.get('headers') or t.get('columns'),
-                'rows': t.get('data'),
+                'headers': headers,
+                'rows': rows,
                 'footnotes': t.get('notes') or t.get('footnotes'),
                 'page': t.get('page'),
             })
