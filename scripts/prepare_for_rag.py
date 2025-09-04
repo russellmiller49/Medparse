@@ -16,6 +16,61 @@ from itertools import chain
 
 DOI_RE = re.compile(r"^10\.\S+$")
 
+ABSTRACT_TITLES = {
+    "abstract", "summary", "structured abstract", "unstructured abstract"
+}
+STRUCTURED_LABELS = [
+    "background", "objective", "objectives", "aim", "aims",
+    "design", "methods", "patients and methods", "results",
+    "conclusion", "conclusions", "interpretation"
+]
+
+def _norm(s: str) -> str:
+    return (s or "").strip().lower()
+
+def _section_text(sec: dict) -> str:
+    if isinstance(sec.get("paragraphs"), list):
+        return "\n".join(p for p in sec["paragraphs"] if isinstance(p, str)).strip()
+    return (sec.get("content") or "").strip()
+
+def extract_abstract(data: dict) -> tuple[str, str]:
+    """
+    Returns (abstract_text, abstract_source).
+    abstract_source in {"metadata", "sections:summary", "sections:structured", ""}.
+    """
+    meta = data.get("metadata", {}) or {}
+    structure = data.get("structure", {}) or {}
+    
+    # 1) If present in metadata, prefer it
+    if meta.get("abstract") and meta["abstract"].strip():
+        return meta["abstract"].strip(), "metadata"
+
+    sections = structure.get("sections") or []
+    
+    # 2) Lancet-style 'Summary' or labeled 'Abstract'
+    for sec in sections[:8]:  # early sections only
+        title = _norm(sec.get("title"))
+        if title in ABSTRACT_TITLES:
+            txt = _section_text(sec)
+            if txt:
+                return txt, f"sections:{title or 'summary'}"
+
+    # 3) Structured abstract pieces (Background/Methods/Results/Conclusions)
+    parts = []
+    for sec in sections[:12]:
+        title = _norm(sec.get("title"))
+        if title in STRUCTURED_LABELS:
+            txt = _section_text(sec)
+            if txt:
+                # Keep the label for clarity
+                label = title.capitalize()
+                parts.append(f"{label}: {txt}")
+    if parts:
+        return "\n".join(parts), "sections:structured"
+
+    # 4) Nothing found
+    return "", ""
+
 
 def create_citation_string(metadata: Dict[str, Any]) -> str:
     """Generate a formatted citation string from metadata."""
@@ -175,6 +230,9 @@ def clean_for_rag(input_file: Path, mode: str = "full") -> Dict[str, Any]:
         elif isinstance(a, str):
             authors_clean.append(a)
     
+    # Extract abstract with recovery from sections
+    abstract_text, abstract_source = extract_abstract(data)
+    
     clean_meta = {
         'document_id': _safe_id(metadata.get('doi'), input_file.stem),
         'title': metadata.get('title', ''),
@@ -186,7 +244,8 @@ def clean_for_rag(input_file: Path, mode: str = "full") -> Dict[str, Any]:
         'issue': metadata.get('issue', ''),
         'pages': metadata.get('pages', ''),
         'citation': create_citation_string(metadata),
-        'abstract': metadata.get('abstract', ''),
+        'abstract': abstract_text,
+        'abstract_source': abstract_source or ("metadata" if abstract_text else ""),
         'url': metadata.get('url', f"https://doi.org/{metadata.get('doi', '')}" if metadata.get('doi') else '')
     }
     
@@ -316,6 +375,7 @@ def clean_for_rag(input_file: Path, mode: str = "full") -> Dict[str, Any]:
     output['quality'] = {
         'completeness_score': validation.get('completeness_score', 0),
         'has_abstract': bool(clean_meta.get('abstract')),
+        'abstract_source': clean_meta.get('abstract_source', ''),
         'has_doi': bool(clean_meta.get('doi')),
         'has_full_text': bool(output.get('sections')),
         'num_sections': len(output.get('sections', [])),
