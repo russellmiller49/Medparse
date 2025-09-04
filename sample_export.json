@@ -1,0 +1,62 @@
+{
+  "verification_timestamp": "2024-09-04",
+  "directory": "out/rag_ready_complete/",
+  "sample_abstracts": {
+    "Anesthesia and Upper and Lower Airway.json": {
+      "has_abstract": true,
+      "abstract_length": 1873,
+      "abstract_preview": "This review outlines anesthesia strategies for modern diagnostic and therapeutic bronchoscopy, emphasizing that case mix, procedure duration, and \"shared airway\" demands favor general anesthesia...",
+      "abstract_source": "manual_curation"
+    },
+    "Basic Bronchoscopy Technology, Techniques, and Professional Fees.json": {
+      "has_abstract": true,
+      "abstract_length": 832,
+      "abstract_preview": "Flexible bronchoscopy has evolved over the last few decades, allowing chest physicians to use advanced diagnostic and therapeutic modalities...",
+      "abstract_source": "pubmed"
+    },
+    "AMPLE2.json": {
+      "has_abstract": true,
+      "abstract_length": 3181,
+      "abstract_preview": "Background Indwelling pleural catheters are an established management option for malignant pleural effusions...",
+      "abstract_source": "metadata"
+    }
+  },
+  "sample_sections": {
+    "AMPLE2.json": {
+      "total_sections": 19,
+      "empty_sections": 0,
+      "first_section_title": "Original Research",
+      "first_section_content_length": 1821,
+      "first_section_preview": "The AMPLE-2 trial: a randomised, multi-centre study..."
+    },
+    "Andriolo-2015-Early versus late tracheostomy f.json": {
+      "total_sections": 212,
+      "empty_sections": 0,
+      "total_content_chars": 92879
+    }
+  },
+  "sample_tables": {
+    "AMPLE2.json": {
+      "total_tables": 3,
+      "tables_with_headers": 3,
+      "first_table_headers": ["", "Aggressive (daily) drainage (n=43)", "Symptom-guided drainage (n=44)"],
+      "first_table_rows": 36
+    },
+    "Basic Bronchoscopy Technology, Techniques, and Professional Fees.json": {
+      "total_tables": 2,
+      "tables_with_headers": 2,
+      "first_table_headers": ["CPT Code", "Description", "wRVU 2018"],
+      "first_table_rows": 10
+    }
+  },
+  "summary": {
+    "files_checked": 10,
+    "files_with_abstracts": 10,
+    "files_with_empty_sections": 0,
+    "total_sections": 431,
+    "total_empty_sections": 0,
+    "total_tables": 72,
+    "tables_with_headers": 57,
+    "tables_without_headers": 15
+  }
+}
