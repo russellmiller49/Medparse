@@ -58,3 +58,21 @@ pipeline-dry: audit merge-zotero-dry enrich-online-dry
 
 pipeline: extract-batch audit merge-zotero harden-offline enrich-online dedupe audit-final
 	@echo "Pipeline complete. See out/reports_final/quality_summary.json"
+
+.PHONY: ifu ifu-dry ifu-enrich
+
+# IFU Processing Targets
+IFU_INPUT  ?= input/ifu
+IFU_OUT    ?= out/ifu
+
+ifu-dry:
+	python3 -m medparse_ifu.run --input $(IFU_INPUT) --out $(IFU_OUT) --no-chunks
+	@echo "Dry run complete. Check $(IFU_OUT)/json for extracted IFU records"
+
+ifu:
+	python3 -m medparse_ifu.run --input $(IFU_INPUT) --out $(IFU_OUT) --chunks
+	@echo "IFU processing complete. Check $(IFU_OUT) for JSON, chunks, and CSV files"
+
+ifu-enrich:
+	python3 -m medparse_ifu.run --input $(IFU_INPUT) --out $(IFU_OUT) --enrich gudid,openfda --chunks
+	@echo "IFU processing with enrichment complete. Check $(IFU_OUT) for enriched records"

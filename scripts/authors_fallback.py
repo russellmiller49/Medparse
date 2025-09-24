@@ -130,8 +130,11 @@ def clean_author_name(name: str) -> str:
     
     # Clean up whitespace
     name = ' '.join(name.split())
-    
-    return name.strip()
+
+    # Drop trailing punctuation and stray delimiters
+    name = name.strip().rstrip(',;:')
+
+    return name
 
 def is_valid_author_name(name: str) -> bool:
     """

@@ -40,7 +40,7 @@ pip install --no-cache-dir docling
 **Solution:**
 ```bash
 # Create fresh environment
-conda create -n medparse_fresh python=3.12 -y
+conda create -n medparse_fresh python=3.11 -y
 conda activate medparse_fresh
 pip install -r requirements.txt
 ```

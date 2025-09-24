@@ -30,7 +30,7 @@ Result: Complete JSONs in `out/rag_ready_complete/` with 100% abstract coverage.
 ## Getting Started
 
 ### Prerequisites
-- Python 3.12+
+- Python 3.11 (QuickUMLS compatibility)
 - Docker (for GROBID)
 - API Keys (UMLS, NCBI)
 - 4GB+ RAM recommended
@@ -42,9 +42,10 @@ Result: Complete JSONs in `out/rag_ready_complete/` with 100% abstract coverage.
 ```bash
 git clone <your-repo-url>
 cd medparse-docling
-conda create -n medparse python=3.12 -y
+conda create -n medparse python=3.11 -y
 conda activate medparse
 pip install -r requirements.txt
+# Or: conda env create -f environment.py311.yml && conda activate medparse-py311
 ```
 
 2. **Configure API keys:**
@@ -443,6 +444,7 @@ python scripts/process_one.py --pdf input/paper.pdf --out output.json --linker u
 - **Cons:** Requires local installation (~4GB), less comprehensive
 - **Best for:** Development, testing, batch processing
 - **Speed:** ~20-30 seconds per paper
+- **Python version:** Requires Python 3.10/3.11 because the upstream package still depends on `imp`
 
 ```bash
 # Setup QuickUMLS first

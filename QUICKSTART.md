@@ -8,7 +8,8 @@ Get up and running in 5 minutes! This guide provides the fastest path to process
 # 1. Clone and setup environment
 git clone <repository-url> medparse-docling
 cd medparse-docling
-conda create -n medparse python=3.12 -y && conda activate medparse
+conda create -n medparse python=3.11 -y && conda activate medparse
+# (Optional) Use the bundled env: conda env create -f environment.py311.yml && conda activate medparse-py311
 pip install -r requirements.txt
 
 # 2. Start GROBID (in another terminal)
@@ -28,7 +29,7 @@ cat out/json_umls/your_paper.json | python -m json.tool | head -50
 
 ## 📋 Prerequisites Checklist
 
-- [ ] Python 3.12 installed
+- [ ] Python 3.11 installed (QuickUMLS compatible)
 - [ ] Docker installed and running
 - [ ] UMLS account and API key ([Get one here](https://uts.nlm.nih.gov/uts/profile))
 - [ ] At least 4GB RAM available
@@ -51,6 +52,9 @@ pip install quickumls
 echo "QUICKUMLS_PATH=/path/to/quickumls" >> .env
 python scripts/run_batch.py --linker quickumls
 ```
+
+> QuickUMLS currently targets Python 3.10/3.11 only. Run these commands from the Medparse
+> Python 3.11 environment so the linker can import successfully.
 
 ### Option 3: Balanced (scispaCy)
 ```bash

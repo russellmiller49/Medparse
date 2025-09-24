@@ -57,9 +57,11 @@ CI quality gates run on every push/PR to enforce completeness (DOI, journal, yea
 
 ### 1. Environment Setup
 ```bash
-# Create conda environment
-conda create -n medparse python=3.12 -y
+# Create conda environment (Python 3.11 is required for QuickUMLS compatibility)
+conda create -n medparse python=3.11 -y
 conda activate medparse
+# Alternatively, bootstrap everything (including QuickUMLS) with the bundled env file:
+# conda env create -f environment.py311.yml && conda activate medparse-py311
 
 # Install dependencies
 pip install -r requirements.txt
@@ -97,6 +99,9 @@ python -m spacy download en_core_sci_md
 pip install quickumls
 # Download and prepare QuickUMLS data
 ```
+
+> QuickUMLS still imports the deprecated `imp` module, so run the Medparse service from a
+> Python 3.10 or 3.11 environment (we recommend Python 3.11 for local sidecar deployments).
 
 ## Quick Start: Single Article Test
 

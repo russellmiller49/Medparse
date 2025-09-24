@@ -5,6 +5,8 @@ __pycache__/
 .cache/
 cache/
 tmp/
+# Packaging artifacts
+medparse_api.egg-info/
 # out/ folder is now tracked to share processed examples
 # out/
 # !out/json/

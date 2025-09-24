@@ -42,6 +42,8 @@ def link_quickumls(text: str, quick_path: str) -> List[Dict]:
                 "score": h.get("score", 0.7),
                 "start": h.get("start"),
                 "end": h.get("end"),
+                "semtypes": h.get("semtypes", []),
+                "preferred": h.get("preferred"),
                 "source": "QuickUMLS"
             })
     return out

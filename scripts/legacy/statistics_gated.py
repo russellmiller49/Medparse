@@ -31,6 +31,15 @@ EXCLUDE_PATTERNS = [
     r'\([1-9]\d{0,2}(?:,\s*\d{1,3})*\)',  # Citation tuples like (3,4) or (12,15,18)
 ]
 
+CI_PATTERN = re.compile(
+    r'(?:95%?\s*)?CI[:\s]*'  # CI prefix with optional colon/space
+    r'[\[\(]?\s*([\d·\-.]+)'  # lower bound, allow middle dots, decimals, negatives
+    r'(?:\s*(?:[-–—]|to|,))\s*'  # delimiters like -, en dash, "to", or comma
+    r'([\d·\-.]+)'  # upper bound
+    r'\s*[\]\),;]?',  # optional closing bracket or trailing punctuation
+    re.IGNORECASE,
+)
+
 def has_statistical_context(text: str, window: int = 50) -> bool:
     text_lower = text.lower()
     return any(keyword in text_lower for keyword in STAT_KEYWORDS)
@@ -59,11 +68,11 @@ def extract_statistics(text: str, section_name: str = None) -> List[Dict[str, An
         for match in p_matches:
             if not is_excluded_pattern(match.group(0)):
                 results.append({'type': 'p_value','value': float(match.group(1)),'text': match.group(0),'context': sent[:100]})
-        ci_pattern = r'(?:95%?\s*)?CI[:\s]+\[?\(?([\d.-]+)[,\s]+(?:to|-)?\s*([\d.-]+)\]?\)?'
-        ci_matches = re.finditer(ci_pattern, sent, re.IGNORECASE)
+        ci_matches = CI_PATTERN.finditer(sent)
         for match in ci_matches:
             try:
-                lower = float(match.group(1)); upper = float(match.group(2))
+                lower = float(match.group(1).replace('·', '.'))
+                upper = float(match.group(2).replace('·', '.'))
                 results.append({'type': 'ci','value': [lower, upper],'text': match.group(0),'context': sent[:100]})
             except ValueError:
                 continue
@@ -109,4 +118,3 @@ def extract_statistics(text: str, section_name: str = None) -> List[Dict[str, An
                 except ValueError:
                     continue
     return results
-

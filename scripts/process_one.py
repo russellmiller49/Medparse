@@ -47,7 +47,14 @@ from scripts.drug_extractor import extract_drugs_dosages
 from scripts.env_loader import load_env
 from scripts.safe_json import safe_write_json
 
-def process_pdf(pdf_path: Path, out_json: Path, cfg_path: Path, linker: str, dump_docling_debug: bool = False):
+def process_pdf(
+    pdf_path: Path,
+    out_json: Path,
+    cfg_path: Path,
+    linker: str,
+    dump_docling_debug: bool = False,
+    work_dir: Path | None = None,
+):
     env = load_env()
     grobid_url = env["GROBID_URL"]
     umls_key = env["UMLS_API_KEY"]
@@ -57,6 +64,11 @@ def process_pdf(pdf_path: Path, out_json: Path, cfg_path: Path, linker: str, dum
     
     cache = CacheManager(Path("cache"))
     grobid = Grobid(url=grobid_url)
+
+    out_root = Path(work_dir) if work_dir else Path("out")
+    figures_dir = out_root / "figures"
+    references_dir = out_root / "references"
+    qa_dir = out_root / "qa"
     
     # Docling: use DocumentConverter API
     logger.info(f"Docling parsing (DocumentConverter): {pdf_path.name}")
@@ -78,7 +90,7 @@ def process_pdf(pdf_path: Path, out_json: Path, cfg_path: Path, linker: str, dum
             logger.warning(f"Docling debug dump failed: {e}")
     
     logger.info("Cropping figure images with EXIF captions")
-    fig_stats = crop_figures(pdf_path, dl_raw, Path("out/figures"))
+    fig_stats = crop_figures(pdf_path, dl_raw, figures_dir)
     
     logger.info("GROBID metadata & references")
     meta_tei = grobid.process_fulltext(str(pdf_path))
@@ -97,7 +109,7 @@ def process_pdf(pdf_path: Path, out_json: Path, cfg_path: Path, linker: str, dum
     meta["references_struct"] = refs["references_struct"]
     
     logger.info("Writing references CSV (AMA)")
-    refs_csv = Path("out/references") / f"{pdf_path.stem}.refs.csv"
+    refs_csv = references_dir / f"{pdf_path.stem}.refs.csv"
     n_refs_csv = write_references_csv(refs["references_struct"], refs_csv)
     
     # Merge & UMLS (online) as base; we'll swap/augment by linker choice below
@@ -245,7 +257,7 @@ def process_pdf(pdf_path: Path, out_json: Path, cfg_path: Path, linker: str, dum
         "completeness_score": validation["completeness_score"],
         "is_valid": validation["is_valid"]
     }
-    qa_dir = Path("out/qa"); qa_dir.mkdir(parents=True, exist_ok=True)
+    qa_dir.mkdir(parents=True, exist_ok=True)
     write_qa(qa_dir, f"{pdf_path.stem}__{linker_tag}", qa)
     logger.success(f"Done → {out_json}")
 

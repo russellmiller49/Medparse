@@ -2,6 +2,7 @@
 """QuickUMLS local matcher for fast entity linking."""
 
 import os
+import sys
 from typing import Optional, Dict, List
 from .types import VALID_TUIS, MIN_SCORE
 
@@ -20,8 +21,20 @@ def get_quickumls_matcher():
     if not quickumls_path or not os.path.exists(quickumls_path):
         return None
     
+    if sys.version_info >= (3, 12):
+        print(
+            "QuickUMLS requires Python <= 3.11; current interpreter is "
+            f"{sys.version_info.major}.{sys.version_info.minor}"
+        )
+        return None
+
     try:
         from quickumls import QuickUMLS
+    except Exception as e:  # pragma: no cover - optional dependency
+        print(f"Failed to import QuickUMLS: {e}")
+        return None
+
+    try:
         _matcher_cache = QuickUMLS(
             quickumls_path,
             threshold=MIN_SCORE,
@@ -150,13 +163,18 @@ def is_quickumls_available() -> bool:
     if not os.path.exists(quickumls_path):
         return False
     
-    # Check for key QuickUMLS files
-    expected_files = ["cui_semtypes.db", "umls_simstring.db"]
-    for filename in expected_files:
-        if not os.path.exists(os.path.join(quickumls_path, filename)):
+    # Check for key QuickUMLS files (note: actual files use hyphens, not underscores)
+    file_variants = [
+        ("cui-semtypes.db", "cui_semtypes.db"),
+        ("umls-simstring.db", "umls_simstring.db"),
+    ]
+    for names in file_variants:
+        if not any(os.path.exists(os.path.join(quickumls_path, name)) for name in names):
             return False
     
-    # Try to import QuickUMLS
+    if sys.version_info >= (3, 12):
+        return False
+
     try:
         import quickumls
         return True
