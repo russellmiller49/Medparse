@@ -52,17 +52,24 @@ curl -X POST "http://localhost:8099/link" \
 
 ### Step 1: Prepare Documents
 
-1. **PDFs**: Place your medical documents in `input/` directory
-2. **Text Files**: Place any text documents in `input/text/`
+Organize your documents by type in the structured input directories:
+
+1. **Articles**: Place medical journal articles in `input/articles/pdf/` or `input/articles/text/`
+2. **Textbooks**: Place medical textbooks in `input/textbooks/pdf/` or `input/textbooks/text/`
+3. **Guidelines**: Place clinical guidelines in `input/guidelines/pdf/` or `input/guidelines/text/`
+4. **Manuals**: Place procedural manuals in `input/manuals/pdf/` or `input/manuals/text/`
 
 ### Step 2: Process Documents
 
 ```bash
-# Process a single document
-python scripts/process_one.py input/your_document.pdf
+# Process all document types
+./scripts/process_all_documents.sh
 
-# Process all documents in input/
-python scripts/batch_process.py
+# Process specific document types
+./scripts/process_articles.sh      # Medical articles
+./scripts/process_textbooks.sh     # Medical textbooks
+./scripts/process_guidelines.sh    # Clinical guidelines
+./scripts/process_manuals.sh       # Procedural manuals
 ```
 
 ### Step 3: Extract Medical Concepts
