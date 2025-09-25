@@ -16,17 +16,29 @@ def link_umls_primary(text: str, umls_client) -> List[Dict]:
     # Extract noun phrases and medical terms
     sentences = text.split('.')
     for sent in sentences[:100]:  # Limit for performance
-        # Simple pattern for medical terms
-        candidates = re.findall(r'\b[A-Z][a-z]+(?:\s+[a-z]+)*\b', sent)
+        # Simple pattern for medical terms - allow lowercase start
+        candidates = re.findall(r'\b[a-zA-Z][a-z]+(?:\s+[a-z]+)*\b', sent)
         phrases.extend(candidates)
     
     # Use existing link_umls_phrases function
     hits = link_umls_phrases(phrases[:50], umls_client)  # Limit phrases for performance
     
-    # Apply semantic filtering
-    return [h for h in hits if keep(h.get("preferred", h.get("text", "")), 
-                                    h.get("tui"), 
-                                    h.get("score", 1.0))]
+    # Apply semantic filtering - allow results without TUI (UMLS API doesn't provide TUI by default)
+    filtered_hits = []
+    for h in hits:
+        text_val = h.get("preferred", h.get("text", ""))
+        tui_val = h.get("tui")
+        score_val = h.get("score", 1.0)
+        
+        # If no TUI available (common with UMLS API), allow the result
+        if tui_val is None:
+            filtered_hits.append(h)
+        else:
+            # Apply normal filtering if TUI is available
+            if keep(text_val, tui_val, score_val):
+                filtered_hits.append(h)
+    
+    return filtered_hits
 
 def link_quickumls(text: str, quick_path: str) -> List[Dict]:
     """Link entities using QuickUMLS with semantic filtering."""
