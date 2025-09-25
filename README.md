@@ -1,354 +1,249 @@
-# MedParse-Docling: Medical Literature Processing Pipeline
+# Medparse - Medical Document Processing API
 
-A comprehensive pipeline for extracting, enriching, and preparing medical literature PDFs for RAG (Retrieval-Augmented Generation) systems. High-fidelity extraction with Docling → UMLS enrichment → complete content preservation with 100% abstract coverage.
+A powerful FastAPI-based service for processing medical documents, extracting structured content, and linking medical concepts to UMLS (Unified Medical Language System).
 
-**Quick Start:** See [USER_GUIDE.md](USER_GUIDE.md) for step-by-step instructions.  
-**Technical Details:** See [DOCUMENTATION.md](DOCUMENTATION.md) for implementation details.
+## 🏥 Overview
 
-## 🎯 Current Achievement
+Medparse is designed to transform unstructured medical documents into structured, searchable, and semantically enriched data. It supports multiple document types with specialized processing optimized for medical content.
 
-Successfully processed **396 medical papers** with:
-- ✅ **100% abstract coverage** (metadata + PubMed + manual curation)
-- ✅ **79% tables with headers** properly extracted  
-- ✅ **Zero empty sections** - all clinical content preserved
-- ✅ **Complete UMLS linking** for medical concepts
-- ✅ **Full reference preservation** with enrichment
+## ✨ Key Features
 
-Final output in: `out/rag_ready_complete/`
+- **📄 Multi-Format Support**: Process PDFs and text files
+- **🔗 UMLS Integration**: Link medical concepts to standardized terminology
+- **🎯 Document Type Optimization**: Specialized processing for articles, textbooks, guidelines, and manuals
+- **🚀 Fast API**: RESTful API with automatic documentation
+- **🧠 Semantic Filtering**: Intelligent concept filtering based on document context
+- **📊 Structured Output**: JSON output with metadata, citations, and linked concepts
 
-## Metadata Pipeline
+## 🚀 Quick Start
 
-A clean, reproducible path from PDFs to enriched, hardened, deduplicated JSON with full provenance is available.
+### Prerequisites
+- Python 3.11+
+- UMLS API key (optional)
+- NCBI API key (optional)
 
-- Quick start: `make pipeline ZOTERO_JSON=out/zero/zero_export.json ZOTERO_CSV=out/zero/zero_export.csv EMAIL=you@example.com`
-- Dry run: `make pipeline-dry ZOTERO_JSON=out/zero/zero_export.json ZOTERO_CSV=out/zero/zero_export.csv EMAIL=you@example.com`
-- Stages: audit → merge (Zotero) → harden (offline) → enrich (Crossref) → dedupe → final audit
-- Docs: see `PIPELINE.md` and the "Metadata Pipeline" section in `DOCUMENTATION.md`
-
-CI quality gates run on every push/PR to enforce completeness (DOI, journal, year, title, authors). See `.github/workflows/quality.yml` and `scripts/ci_gate.py`. Details under "CI Quality Gates" in `DOCUMENTATION.md`.
-
-## Key Features
-
-### Core Extraction
-- **Docling 2.48+** compatible with GPU support
-- **GROBID TEI** parsing for clean metadata and references
-- **Structured references** with DOI→PMID resolution and PubMed enrichment
-- **Figure extraction** with watermark filtering, caption labeling, and OCR capability
-- **Table preservation** with caption and structure extraction
-- **Statistics extraction** (p-values, CIs, HRs, ORs, sample sizes)
-- **Cross-reference detection** (figure/table/citation references)
-
-### NLP Hardening (Branch: feat/nlp-hardening-docling248)
-- **Text normalization** without mutation (ligatures, hyphens, expansions)
-- **Semantic filtering** of UMLS concepts (clinical TUIs only)
-- **Clean author extraction** from TEI only (no contamination)
-- **Span-based extraction** preserving character positions
-- **Entity linking strategies**: UMLS → QuickUMLS → scispaCy fallback
-- **OCR for text-heavy figures** with textuality scoring
-
-### Quality Assurance
-- **Validation framework** with completeness scoring
-- **Reference synchronization** between CSV and JSON
-- **Retry mechanisms** with exponential backoff
-- **MD5-based caching** for API calls
-- **QA logging** and metrics tracking
-
-## Setup
-
-### 1. Environment Setup
+### Installation
 ```bash
-# Create conda environment (Python 3.11 is required for QuickUMLS compatibility)
-conda create -n medparse python=3.11 -y
-conda activate medparse
-# Alternatively, bootstrap everything (including QuickUMLS) with the bundled env file:
-# conda env create -f environment.py311.yml && conda activate medparse-py311
-
-# Install dependencies
+git clone https://github.com/your-org/medparse.git
+cd medparse
 pip install -r requirements.txt
-
-# Optional: Install OCR support
-pip install pytesseract
-# Ensure tesseract is installed: apt-get install tesseract-ocr
 ```
 
-### 2. Start GROBID
+### Configuration
 ```bash
-docker run -p 8070:8070 lfoppiano/grobid:0.8.0
+# Copy environment template
+cp .env.example .env
+
+# Edit .env with your configuration
+nano .env
 ```
 
-### 3. Configure Environment Variables
-Create `.env` file:
-```env
-# Required for full functionality
-UMLS_API_KEY=your_umls_api_key_here
-NCBI_API_KEY=your_ncbi_api_key_here
-NCBI_EMAIL=your.email@example.com
-GROBID_URL=http://localhost:8070
-
-# Optional for local entity linking
-QUICKUMLS_PATH=/path/to/quickumls/data
-```
-
-### 4. Optional: Setup Local Entity Linkers
+### Start the API
 ```bash
-# scispaCy
-pip install scispacy spacy>=3.5
-python -m spacy download en_core_sci_md
-
-# QuickUMLS
-pip install quickumls
-# Download and prepare QuickUMLS data
+uvicorn api.main:app --reload --port 8099
 ```
 
-> QuickUMLS still imports the deprecated `imp` module, so run the Medparse service from a
-> Python 3.10 or 3.11 environment (we recommend Python 3.11 for local sidecar deployments).
-
-## Quick Start: Single Article Test
-
-### Basic Test (Main Branch)
+### Test the API
 ```bash
-# Place your PDF in input/ directory
-cp your_paper.pdf input/
-
-# Run with UMLS (most accurate, requires API key)
-python scripts/process_one.py --pdf input/your_paper.pdf --out output.json --linker umls
-
-# Run with QuickUMLS (fastest, local)
-python scripts/process_one.py --pdf input/your_paper.pdf --out output.json --linker quickumls
-
-# Run with scispaCy (balanced)
-python scripts/process_one.py --pdf input/your_paper.pdf --out output.json --linker scispacy
+curl http://localhost:8099/healthz
 ```
 
-### NLP-Hardened Test (Feature Branch)
-```bash
-# Switch to NLP hardening branch
-git checkout feat/nlp-hardening-docling248
+## 📚 Document Types
 
-# Run with semantic filtering and text normalization
-python scripts/process_one.py --pdf input/AMPLE2.pdf --out out/test_nlp.json --linker umls
+### 🔬 Articles
+- **Purpose**: Medical journal articles, research papers, case studies
+- **Features**: Abstract extraction, reference linking, clinical terminology focus
+- **Processing**: `./scripts/process_articles.sh`
 
-# Test the integrated pipeline with all modules
-python scripts/process_one_integrated.py input/AMPLE2.pdf --linker auto
+### 📖 Textbooks  
+- **Purpose**: Medical textbooks, comprehensive references, educational materials
+- **Features**: Chapter structure, figure/table extraction, comprehensive terminology
+- **Processing**: `./scripts/process_textbooks.sh`
 
-# Run comparative evaluation
-python bin/run_linkers.py --pdf input/AMPLE2.pdf --compare
-```
+### 📋 Guidelines
+- **Purpose**: Clinical practice guidelines, protocols, standards
+- **Features**: Recommendation extraction, evidence levels, clinical algorithms
+- **Processing**: `./scripts/process_guidelines.sh`
 
-### Test Scripts
-```bash
-# Quick pipeline test (no GROBID)
-python test_pipeline.py
+### 📖 Manuals
+- **Purpose**: Procedural manuals, technical documentation, equipment guides
+- **Features**: Step-by-step procedures, safety warnings, troubleshooting
+- **Processing**: `./scripts/process_manuals.sh`
 
-# Full pipeline test (with GROBID)
-python test_full_pipeline.py
-
-# Legacy script
-./test_one_paper.sh "AMPLE2.pdf"
-```
-
-## Batch Processing
-
-```bash
-# Process all PDFs in input/ directory
-python scripts/run_batch.py --linker umls
-
-# Process with specific linker
-python scripts/run_batch.py --linker quickumls --input-dir input/ --output-dir output/
-```
-
-### Run the post-extraction metadata pipeline
-
-```bash
-# After extraction into out/batch_processed/
-make pipeline ZOTERO_JSON=out/zero/zero_export.json ZOTERO_CSV=out/zero/zero_export.csv EMAIL=you@example.com
-
-# See final audit
-cat out/reports_final/quality_summary.json
-```
-
-More details: `PIPELINE.md` and `DOCUMENTATION.md` → Metadata Pipeline / CI Quality Gates.
-
-## Comparative Evaluation
-
-```bash
-# Compare all three linkers on specific papers
-python scripts/compare_linkers.py --pdf_stems paper1 paper2 paper3
-
-# Full comparison with side-by-side outputs
-python bin/run_linkers.py --pdf input/paper.pdf --compare --out-dir comparison/
-```
-
-## Output Structure
+## 🏗️ Directory Structure
 
 ```
-out/
-├── json_umls/           # UMLS-linked extractions
-│   └── paper.json       # Complete extraction with entities
-├── json_quickumls/      # QuickUMLS-linked extractions
-├── json_scispacy/       # scispaCy-linked extractions
-├── figures/             # Extracted figure images
-│   ├── paper_figure1.jpg   # With EXIF caption metadata
-│   └── paper_figure2.jpg   # Labeled by figure number
-├── references/          # Reference CSVs
-│   └── paper.refs.csv   # AMA-formatted references
-└── qa/                  # Quality assurance logs
-    └── paper__umls.qa.json  # Metrics and validation
-
+medparse/
+├── api/                    # FastAPI application
+│   ├── main.py            # Main application
+│   ├── routers/           # API endpoints
+│   └── models.py          # Data models
+├── medparse/              # Core processing library
+│   ├── extract/           # Text extraction
+│   ├── linking/           # UMLS concept linking
+│   └── layout/            # Document layout analysis
+├── scripts/               # Processing utilities
+│   ├── process_articles.sh      # Article processing
+│   ├── process_textbooks.sh     # Textbook processing
+│   ├── process_guidelines.sh    # Guidelines processing
+│   ├── process_manuals.sh       # Manual processing
+│   └── process_all_documents.sh # Process all types
+├── input/                 # Organized input directories
+│   ├── articles/          # Article PDFs and text
+│   ├── textbooks/         # Textbook PDFs and text
+│   ├── guidelines/        # Guideline PDFs and text
+│   └── manuals/           # Manual PDFs and text
+├── output/                # Processed documents
+├── schema/                # Data schemas
+└── tests/                 # Test suite
 ```
 
-## JSON Output Schema
+## 🔧 API Endpoints
 
-```json
+### Health Check
+```http
+GET /healthz
+```
+
+### Text Linking
+```http
+POST /link
+Content-Type: application/json
+X-API-Key: your-secret-key
+
 {
-  "metadata": {
-    "title": "...",
-    "authors": [
-      {"family": "Smith", "given": "John", "display": "John Smith", "ama": "Smith J"}
-    ],
-    "year": "2024",
-    "journal": "...",
-    "references_struct": [...],  // Structured references
-    "references_raw": [...]      // Raw reference text
-  },
-  "structure": {
-    "sections": [...],
-    "tables": [...],
-    "figures": [
-      {
-        "caption": "Figure 1: ...",
-        "image_path": "out/figures/paper_figure1.jpg",
-        "ocr_text": "..."  // If figure contains text
-      }
-    ]
-  },
-  "references_enriched": [
-    {
-      "title": "...",
-      "pmid": "12345678",
-      "doi": "10.1234/...",
-      "enrichment": {
-        "mesh": [...],
-        "abstract": "..."
-      }
-    }
-  ],
-  "umls_links": [...],      // Filtered medical entities
-  "statistics": [...],      // Extracted statistics
-  "cross_refs": [...],      // Figure/table references
-  "validation": {
-    "completeness_score": 85,
-    "quality_level": "good",
-    "is_valid": true
-  }
+  "text": "Patient has pneumonia and requires treatment",
+  "document_type": "article"
 }
 ```
 
-## Advanced Features
+### Document Extraction
+```http
+POST /extract
+Content-Type: multipart/form-data
+X-API-Key: your-secret-key
 
-### Text Normalization (NLP Branch)
-```python
-from scripts.text_normalize import normalize_for_nlp
-
-# Fixes ligatures, removes inline expansions, de-hyphenates
-clean_text = normalize_for_nlp(raw_text)
+file: document.pdf
+document_type: textbook
 ```
 
-### Semantic Filtering
-```python
-from scripts.filters import keep
+## 🔄 Processing Workflow
 
-# Only keep clinical concepts
-filtered = [e for e in entities if keep(e["text"], e["tui"], e["score"])]
-```
+1. **📁 Organize Documents**: Place documents in appropriate input directories
+2. **⚙️ Process Documents**: Run processing scripts for your document types
+3. **📊 Review Results**: Check output directories for processed JSON files
+4. **🔗 Integrate**: Use processed documents with IP Assist Lite or other systems
 
-### Reference Enrichment
-```python
-from scripts.ref_enricher import enrich_refs_from_struct
+## ⚙️ Configuration
 
-# Enriches with PubMed metadata
-enriched = enrich_refs_from_struct(references_struct)
-```
-
-## Validation
-
-The pipeline includes comprehensive validation:
-
-- **Metadata**: Title, authors, year, journal
-- **Structure**: Sections with content, tables, figures
-- **References**: Structured extraction, enrichment coverage
-- **Entities**: Medical concept linking
-- **Quality Score**: 0-100% completeness rating
-
-Run validation report:
-```python
-from scripts.validator import validate_extraction, generate_validation_report
-
-validation = validate_extraction(doc)
-report = generate_validation_report(validation)
-print(report)
-```
-
-## Troubleshooting
-
-### Common Issues
-
-1. **GROBID not responding**
-   - Ensure Docker container is running: `docker ps`
-   - Check port 8070 is accessible
-   - Restart: `docker restart <container_id>`
-
-2. **No entities found**
-   - Check UMLS_API_KEY is valid
-   - Verify text normalization is working
-   - Try fallback linkers (QuickUMLS, scispaCy)
-
-3. **Missing figures**
-   - Check Docling GPU support is enabled
-   - Verify PDF has extractable images
-   - Check coordinate system (BOTTOMLEFT vs TOPLEFT)
-
-4. **Reference enrichment failing**
-   - Verify NCBI_API_KEY is set
-   - Check rate limits (0.1s delay between calls)
-   - Some references may not have PMIDs
-
-### Debug Mode
+### Environment Variables
 ```bash
-# Enable debug output
-export DEBUG=1
-python scripts/process_one.py --pdf input/paper.pdf --out debug.json --linker umls
+# API Configuration
+API_KEY=your-secret-key
+UMLS_API_KEY=your-umls-key
+NCBI_API_KEY=your-ncbi-key
+
+# Processing Settings
+MAX_UPLOAD_MB=40
+ENABLE_UMLS_LINKING=true
+ENABLE_SEMANTIC_FILTERING=true
 ```
 
-## Performance Tips
-
-- **Batch processing**: Use `run_batch.py` for multiple PDFs
-- **Caching**: API responses are cached in `cache/` directory
-- **GPU acceleration**: Docling uses GPU if available
-- **Limit entities**: Filter candidates before UMLS lookup
-- **Local linkers**: QuickUMLS is 10x faster than UMLS API
-
-## Contributing
-
-1. Create feature branch from `main`
-2. Implement changes with tests
-3. Update documentation
-4. Submit pull request
-
-## Citation
-
-If you use this tool in research, please cite:
-```
-MedParse-Docling: NLP-Hardened Medical Document Extraction Pipeline
-https://github.com/your-repo/medparse-docling
+### Document Type Settings
+```yaml
+document_types:
+  article:
+    chunk_size: 500
+    extract_abstract: true
+    focus_terms: ["diagnosis", "treatment"]
+  textbook:
+    chunk_size: 1000
+    extract_chapters: true
+    focus_terms: ["anatomy", "physiology"]
 ```
 
-## License
+## 🧪 Testing
 
-[Your License Here]
+```bash
+# Run all tests
+pytest
 
-## Support
+# Run specific tests
+pytest tests/test_umls_linker.py
 
-For issues or questions:
-- GitHub Issues: [Create an issue](https://github.com/your-repo/issues)
-- Email: support@example.com
+# Run with coverage
+pytest --cov=medparse --cov-report=html
+```
+
+## 🚀 Deployment
+
+### Docker
+```bash
+docker build -t medparse-api .
+docker run -p 8099:8099 medparse-api
+```
+
+### Production
+```bash
+gunicorn api.main:app --bind 0.0.0.0:8099 --workers 4
+```
+
+## 🔗 Integration
+
+### With IP Assist Lite
+```bash
+# Process documents with medparse
+./scripts/process_all_documents.sh
+
+# Copy to IP Assist Lite
+cp output/*/*.json ../IP_assist_lite/data/processed/
+```
+
+### API Integration
+```python
+import requests
+
+response = requests.post(
+    "http://localhost:8099/link",
+    headers={"X-API-Key": "your-key"},
+    json={"text": "Patient has pneumonia"}
+)
+concepts = response.json()["umls_links"]
+```
+
+## 📖 Documentation
+
+- **[Technical Documentation](TECHNICAL_DOCUMENTATION.md)**: Detailed technical reference
+- **[User Guide](USER_GUIDE.md)**: Step-by-step usage instructions
+- **[API Reference](http://localhost:8099/docs)**: Interactive API documentation
+
+## 🤝 Contributing
+
+1. Fork the repository
+2. Create a feature branch
+3. Make your changes
+4. Add tests
+5. Submit a pull request
+
+## 📄 License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+## 🆘 Support
+
+- **Issues**: [GitHub Issues](https://github.com/your-org/medparse/issues)
+- **Documentation**: See documentation files in the repository
+- **Email**: support@your-org.com
+
+## 🔄 Changelog
+
+### Latest Version
+- ✅ Structured input directories by document type
+- ✅ Document-specific processing scripts
+- ✅ Enhanced UMLS concept linking
+- ✅ Improved semantic filtering
+- ✅ Comprehensive documentation
+
+---
+
+**Ready to process your medical documents with advanced NLP and medical concept linking!** 🏥📄✨
