@@ -1,797 +1,499 @@
-# MedParse-Docling User Guide
-
-A comprehensive guide for processing medical literature PDFs into RAG-ready JSON documents with complete content preservation and 100% abstract coverage.
+# Medparse - User Guide
 
 ## Table of Contents
-- [Quick Start](#quick-start)
-- [Getting Started](#getting-started)
-- [Complete Pipeline](#complete-pipeline)
-- [Basic Usage](#basic-usage)
-- [NLP-Hardened Features](#nlp-hardened-features)
-- [Advanced Features](#advanced-features)
-- [Understanding the Output](#understanding-the-output)
-- [Verification & Quality](#verification--quality)
-- [Troubleshooting](#troubleshooting)
-- [Best Practices](#best-practices)
-
-## Quick Start
-
-```bash
-# Process PDFs → Extract → Enrich → Clean → RAG-Ready
-python scripts/run_batch.py papers/ out/batch_processed/
-python scripts/harden_extracted.py out/batch_processed/ out/hardened/
-python scripts/prepare_for_rag.py out/hardened/ out/rag_ready_complete/ --mode full
-python scripts/fix_missing_abstracts.py out/rag_ready_complete/ --only-missing
-python scripts/audit_abstracts.py out/rag_ready_complete/
-```
-
-Result: Complete JSONs in `out/rag_ready_complete/` with 100% abstract coverage.
+1. [Getting Started](#getting-started)
+2. [Document Processing](#document-processing)
+3. [API Usage](#api-usage)
+4. [Configuration](#configuration)
+5. [Best Practices](#best-practices)
+6. [Examples](#examples)
+7. [FAQ](#faq)
 
 ## Getting Started
 
 ### Prerequisites
-- Python 3.11 (QuickUMLS compatibility)
-- Docker (for GROBID)
-- API Keys (UMLS, NCBI)
-- 4GB+ RAM recommended
-- GPU optional (speeds up Docling)
 
-### Initial Setup
+- Python 3.11+
+- Docker (optional, for GROBID)
+- UMLS API key (optional)
+- NCBI API key (optional)
 
-1. **Clone and setup environment:**
+### Installation
+
 ```bash
-git clone <your-repo-url>
-cd medparse-docling
-conda create -n medparse python=3.11 -y
-conda activate medparse
+# Clone the repository
+git clone https://github.com/your-org/medparse.git
+cd medparse
+
+# Install dependencies
 pip install -r requirements.txt
-# Or: conda env create -f environment.py311.yml && conda activate medparse-py311
-```
 
-2. **Configure API keys:**
-```bash
+# Set up environment variables
 cp .env.example .env
-# Edit .env and add your API keys:
-nano .env
+# Edit .env with your configuration
 ```
 
-Required API keys:
-- **UMLS_API_KEY**: Get from https://uts.nlm.nih.gov/uts/profile
-- **NCBI_API_KEY**: Get from https://www.ncbi.nlm.nih.gov/account/
-- **NCBI_EMAIL**: Your email for NCBI
-
-3. **Start GROBID:**
-```bash
-docker run -d -p 8070:8070 --name grobid lfoppiano/grobid:0.8.0
-```
-
-4. **Test installation:**
-```bash
-python test_pipeline.py
-# Should show ✓ for all components
-```
-
-## Basic Usage
-
-### Processing a Single PDF
-
-#### Standard Extraction (Main Branch)
-```bash
-# Basic command with UMLS
-python scripts/process_one.py --pdf input/paper.pdf --out output.json --linker umls
-
-# With QuickUMLS (faster, local)
-python scripts/process_one.py --pdf input/paper.pdf --out output.json --linker quickumls
-
-# With scispaCy (balanced)
-python scripts/process_one.py --pdf input/paper.pdf --out output.json --linker scispacy
-```
-
-#### NLP-Hardened Extraction (Recommended)
-```bash
-# Switch to NLP branch for better quality
-git checkout feat/nlp-hardening-docling248
-
-# Run with enhanced processing
-python scripts/process_one.py --pdf input/paper.pdf --out output.json --linker umls
-
-# Or use integrated pipeline with auto-fallback
-python scripts/process_one_integrated.py input/paper.pdf --linker auto
-```
-
-### Quick Test with Sample Paper
-```bash
-# Test with AMPLE2.pdf (included sample)
-python scripts/process_one.py --pdf input/AMPLE2.pdf --out test.json --linker umls
-
-# Check results
-python -c "
-import json
-d = json.load(open('test.json'))
-print('✓ Authors:', len(d['metadata']['authors']))
-print('✓ References:', len(d['metadata'].get('references_struct', [])))
-print('✓ Figures:', len(d['structure']['figures']))
-print('✓ Score:', d['validation']['completeness_score'], '%')
-"
-```
-
-### Batch Processing
-
-Process multiple PDFs at once:
-```bash
-# Process all PDFs in input/ directory
-python scripts/run_batch.py --linker umls
-
-# Custom directories
-python scripts/run_batch.py \
-  --input-dir /path/to/pdfs \
-  --output-dir /path/to/output \
-  --linker quickumls
-```
-
-### Comparative Analysis
-
-Compare different entity linking approaches:
-```bash
-# Run all three linkers and generate comparison
-python bin/run_linkers.py --pdf input/paper.pdf --compare
-
-# Output will be in:
-# - out/json_umls/paper.json
-# - out/json_quickumls/paper.json  
-# - out/json_scispacy/paper.json
-```
-
-## NLP-Hardened Features
-
-The `feat/nlp-hardening-docling248` branch includes advanced text processing:
-
-### 1. Text Normalization
-Automatically fixes common PDF extraction issues:
-- **Ligature correction**: ﬁ → fi, ﬀ → ff, ﬂ → fl
-- **Hyphenation removal**: "statis-\ntics" → "statistics"
-- **Inline expansion removal**: "Odds ratio (or)" → "Odds ratio"
-- **Whitespace normalization**: Multiple spaces → single space
-
-```python
-from scripts.text_normalize import normalize_for_nlp
-
-text = "This has ﬁgures and eﬀects. Statis-\ntics split."
-clean = normalize_for_nlp(text)
-# Result: "This has figures and effects. Statistics split."
-```
-
-### 2. Semantic Filtering
-Only extracts clinically relevant concepts:
-
-```python
-# Clinical TUIs that are kept:
-T047: Disease or Syndrome
-T191: Neoplastic Process  
-T061: Therapeutic Procedure
-T059: Laboratory Procedure
-T060: Diagnostic Procedure
-T121: Pharmacologic Substance
-T200: Clinical Drug
-T123: Biologically Active Substance
-T184: Sign or Symptom
-
-# Generic terms like "text", "value", "study" are filtered out
-```
-
-### 3. Clean Author Extraction
-- Authors extracted ONLY from GROBID TEI header
-- No contamination from references or affiliations
-- Structured format with family/given/display/AMA
-
-### 4. Structured References
-- Both raw text and structured formats preserved
-- Automatic synchronization between CSV and JSON
-- Full metadata extraction (title, authors, year, DOI, PMID)
-
-### 5. Enhanced Figure Processing
-- Watermark detection and filtering
-- Automatic figure labeling (Figure 1, Figure 2, etc.)
-- OCR for text-heavy figures (charts, diagrams)
-- EXIF caption embedding
-
-## Advanced Features
-
-### Reference Enrichment
-
-Automatically enrich references with PubMed metadata:
-
-```python
-from scripts.ref_enricher import enrich_refs_from_struct
-
-refs = [
-    {"title": "Some paper", "doi": "10.1234/example", "year": "2023"}
-]
-enriched = enrich_refs_from_struct(refs)
-# Adds: pmid, mesh terms, abstract, full author list
-```
-
-Features:
-- DOI → PMID resolution
-- Title-based fallback search
-- MeSH term extraction
-- Abstract retrieval
-- Author list completion
-
-### Figure Extraction with OCR
-
-Extract and analyze figures:
+### Quick Start
 
 ```bash
-# Figures are automatically extracted to out/figures/
-ls -la out/figures/*.jpg
+# Start the API server
+uvicorn api.main:app --reload --port 8099
 
-# View EXIF caption metadata
-exiftool out/figures/paper_figure1.jpg | grep Description
-
-# Check for OCR text (NLP branch)
-python -c "
-import json
-doc = json.load(open('output.json'))
-for fig in doc['structure']['figures']:
-    if fig.get('ocr_text'):
-        print(f\"Figure with text: {fig['caption'][:50]}...\")
-"
+# Test the API
+curl http://localhost:8099/healthz
 ```
 
-### Statistics Extraction
+## Document Processing
 
-Automatically extracts statistical values:
-- P-values (p<0.001, p=0.05)
-- Confidence intervals (95% CI: 1.2-3.4)
-- Hazard ratios (HR 2.3)
-- Odds ratios (OR 1.5)
-- Sample sizes (n=100)
+### Document Types
 
-### Cross-Reference Detection
+Medparse supports four main document types, each optimized for specific content:
 
-Identifies references to figures, tables, and citations:
+#### 1. Articles (`articles/`)
+- **Purpose**: Medical journal articles, research papers, case studies
+- **Features**: Abstract extraction, reference linking, clinical terminology focus
+- **Best for**: Evidence-based medicine, research findings, case studies
+
+#### 2. Textbooks (`textbooks/`)
+- **Purpose**: Medical textbooks, comprehensive references, educational materials
+- **Features**: Chapter structure, figure/table extraction, comprehensive terminology
+- **Best for**: Educational content, comprehensive medical knowledge
+
+#### 3. Guidelines (`guidelines/`)
+- **Purpose**: Clinical practice guidelines, protocols, standards
+- **Features**: Recommendation extraction, evidence levels, clinical algorithms
+- **Best for**: Clinical decision support, protocol adherence
+
+#### 4. Manuals (`manuals/`)
+- **Purpose**: Procedural manuals, technical documentation, equipment guides
+- **Features**: Step-by-step procedures, safety warnings, troubleshooting
+- **Best for**: Procedural guidance, equipment operation, safety protocols
+
+### Processing Workflow
+
+#### Step 1: Organize Your Documents
+
+```
+input/
+├── articles/
+│   ├── pdf/
+│   │   ├── research_paper_1.pdf
+│   │   └── case_study_2.pdf
+│   └── text/
+│       └── article_3.txt
+├── textbooks/
+│   ├── pdf/
+│   │   └── medical_textbook.pdf
+│   └── text/
+│       └── textbook_chapter.txt
+├── guidelines/
+│   ├── pdf/
+│   │   └── clinical_guideline.pdf
+│   └── text/
+│       └── protocol.txt
+└── manuals/
+    ├── pdf/
+    │   └── procedure_manual.pdf
+    └── text/
+        └── equipment_guide.txt
+```
+
+#### Step 2: Process Documents
+
+```bash
+# Process all document types
+./scripts/process_all_documents.sh
+
+# Process specific types
+./scripts/process_articles.sh
+./scripts/process_textbooks.sh
+./scripts/process_guidelines.sh
+./scripts/process_manuals.sh
+```
+
+#### Step 3: Review Results
+
+```bash
+# Check processed files
+ls -la output/articles/
+ls -la output/textbooks/
+ls -la output/guidelines/
+ls -la output/manuals/
+```
+
+## API Usage
+
+### Authentication
+
+All API requests require an API key:
+
+```bash
+# Set your API key
+export MEDPARSE_API_KEY="your-secret-key"
+
+# Or include in requests
+curl -H "X-API-Key: your-secret-key" ...
+```
+
+### Text Linking
+
+Link medical concepts in text to UMLS:
+
+```bash
+curl -X POST "http://localhost:8099/link" \
+  -H "Content-Type: application/json" \
+  -H "X-API-Key: your-secret-key" \
+  -d '{
+    "text": "Patient has pneumonia and requires antibiotic treatment",
+    "document_type": "article",
+    "focus_terms": ["diagnosis", "treatment"]
+  }'
+```
+
+**Response:**
 ```json
 {
-  "cross_refs": [
+  "umls_links": [
     {
-      "type": "figure",
-      "reference": "Figure 1",
-      "context": "As shown in Figure 1, the results..."
+      "concept": "Pneumonia",
+      "cui": "C0032285",
+      "preferred_name": "Pneumonia",
+      "semantic_types": ["Disease or Syndrome"],
+      "confidence": 0.95
     },
     {
-      "type": "table",
-      "reference": "Table 2",
-      "context": "summarized in Table 2"
+      "concept": "Antibiotic",
+      "cui": "C0003239",
+      "preferred_name": "Antibiotic",
+      "semantic_types": ["Pharmacologic Substance"],
+      "confidence": 0.89
     }
-  ]
+  ],
+  "processing_time": 0.234,
+  "document_type": "article"
 }
 ```
 
-### Custom Entity Linking
+### Document Extraction
 
-Use specific UMLS concepts:
+Extract structured content from PDFs:
 
-```python
-from scripts.umls_linker import UMLSClient
-from scripts.cache_manager import CacheManager
-
-cache = CacheManager(Path("cache"))
-umls = UMLSClient(api_key="your_key", cache=cache)
-
-# Search for specific concept
-results = umls.search("diabetes mellitus")
-best_match = umls.best_concept("type 2 diabetes")
+```bash
+curl -X POST "http://localhost:8099/extract" \
+  -H "X-API-Key: your-secret-key" \
+  -F "file=@medical_article.pdf" \
+  -F "document_type=article" \
+  -F "extract_abstract=true" \
+  -F "extract_references=true"
 ```
 
-## Understanding the Output
-
-### JSON Structure
-
-The output JSON contains these main sections:
-
+**Response:**
 ```json
 {
-  "metadata": {
-    "title": "Paper title",
-    "authors": [
-      {
-        "family": "Smith",
-        "given": "John",
-        "display": "John Smith",
-        "ama": "Smith J"
-      }
-    ],
-    "year": "2024",
-    "journal": "Journal Name",
-    "doi": "10.1234/example",
-    "references_struct": [...],  // Structured references (NLP branch)
-    "references_raw": [...]       // Raw text references
-  },
-  
-  "structure": {
+  "document_id": "doc_12345",
+  "title": "Treatment of Community-Acquired Pneumonia",
+  "abstract": "This study evaluates the effectiveness of...",
     "sections": [
       {
         "title": "Introduction",
-        "paragraphs": ["..."],
-        "category": "introduction"
-      }
-    ],
-    "tables": [
-      {
-        "caption": "Table 1: Results",
-        "cells": [...],
-        "mentions": ["see Table 1"]
-      }
-    ],
-    "figures": [
-      {
-        "caption": "Figure 1: Study design",
-        "image_path": "out/figures/paper_figure1.jpg",
-        "ocr_text": "...",  // If text detected (NLP branch)
-        "mentions": ["Figure 1 shows"]
-      }
-    ]
-  },
-  
-  "references_enriched": [  // NLP branch feature
-    {
-      "title": "Referenced paper",
-      "pmid": "12345678",
-      "doi": "10.1234/ref",
-      "enrichment": {
-        "mesh": ["Diabetes Mellitus", "Insulin"],
-        "abstract": "...",
-        "authors": [...]
-      }
+      "content": "Community-acquired pneumonia (CAP) is...",
+      "chunks": [
+        {
+          "text": "Community-acquired pneumonia (CAP) is a common...",
+          "chunk_id": "chunk_001",
+          "metadata": {
+            "section": "Introduction",
+            "page": 1,
+            "umls_links": [
+              {
+                "concept": "Community-Acquired Pneumonia",
+                "cui": "C0032285",
+                "confidence": 0.92
+              }
+            ]
+          }
+        }
+      ]
     }
   ],
-  
-  "umls_links": [
+  "references": [
     {
-      "text": "diabetes",
-      "cui": "C0011849",
-      "tui": "T047",  // Semantic type
-      "preferred": "Diabetes Mellitus",
-      "score": 0.95
+      "title": "Clinical Practice Guidelines",
+      "authors": ["Smith, J.", "Doe, A."],
+      "year": 2023,
+      "doi": "10.1000/example"
     }
   ],
-  
-  "statistics": [
-    {
-      "type": "p_value",
-      "value": "p<0.001",
-      "context": "significant difference (p<0.001)",
-      "start": 1234,  // Character position
-      "end": 1241
-    }
-  ],
-  
-  "drugs": [
-    {
-      "drug": "aspirin",
-      "dosage": "100mg",
-      "frequency": "daily"
-    }
-  ],
-  
-  "trial_ids": ["NCT04280705"],
-  
-  "cross_refs": [
-    {
-      "type": "figure",
-      "reference": "Figure 1",
-      "context": "As shown in Figure 1"
-    }
-  ],
-  
-  "validation": {
-    "completeness_score": 85,
-    "quality_level": "good",
-    "is_valid": true,
-    "checks": {
-      "has_title": true,
-      "has_authors": true,
-      "authors_are_valid": true,
-      "has_sections": true,
-      "refs_structured": true,  // NLP branch
-      "refs_enriched_some": true,  // NLP branch
-      "umls_links": true
-    }
+  "processing_time": 2.456
+}
+```
+
+### Health Check
+
+Monitor API status:
+
+```bash
+curl http://localhost:8099/healthz
+```
+
+**Response:**
+```json
+{
+  "status": "healthy",
+  "timestamp": "2025-09-25T10:00:00Z",
+  "version": "0.1.0",
+  "services": {
+    "umls_api": "connected",
+    "grobid": "connected",
+    "database": "connected"
   }
 }
 ```
 
-### Output Files
+## Configuration
 
-After processing, you'll find:
+### Environment Variables
 
-```
-out/
-├── json_umls/paper.json         # Full extraction with UMLS entities
-├── json_quickumls/paper.json    # With QuickUMLS entities
-├── json_scispacy/paper.json     # With scispaCy entities
-├── figures/
-│   ├── paper_figure1.jpg        # Extracted figure with EXIF caption
-│   ├── paper_figure2.jpg        # Labeled by figure number
-│   └── ...                      # Watermarks filtered out
-├── references/paper.refs.csv    # AMA-formatted references
-└── qa/paper__umls.qa.json      # Quality metrics
-```
-
-### CSV Reference Format
-
-The references CSV contains:
-```csv
-#,ama,title,journal,year,volume,issue,pages,doi,pmid,authors
-1,"Smith J, Jones M. Title here. JAMA. 2023;123(4):100-105.","Title here","JAMA","2023","123","4","100-105","10.1234/example","12345678","Smith J; Jones M"
-```
-
-## Working with Different Linkers
-
-### UMLS (Most Accurate)
-- **Pros:** Official UMLS concepts, highest accuracy, comprehensive coverage
-- **Cons:** Requires API key, slower (network calls), rate limited
-- **Best for:** Final production extractions, publications
-- **Speed:** ~60-90 seconds per paper
+Create a `.env` file with your configuration:
 
 ```bash
-python scripts/process_one.py --pdf input/paper.pdf --out output.json --linker umls
+# API Configuration
+API_KEY=your-secret-key
+API_TITLE=Medparse API
+API_VERSION=0.1.0
+
+# UMLS Configuration (optional)
+UMLS_API_KEY=your-umls-key
+NCBI_API_KEY=your-ncbi-key
+NCBI_EMAIL=your-email@example.com
+
+# GROBID Configuration (optional)
+GROBID_URL=http://localhost:8070
+
+# CORS Configuration
+ALLOWED_ORIGINS=http://localhost:7860,http://localhost:7862
+
+# Upload Configuration
+MAX_UPLOAD_MB=40
+
+# Processing Configuration
+ENABLE_PIPELINE=true
+ENABLE_UMLS_LINKING=true
+ENABLE_SEMANTIC_FILTERING=true
 ```
 
-### QuickUMLS (Fastest)
-- **Pros:** Local processing, very fast, no API limits
-- **Cons:** Requires local installation (~4GB), less comprehensive
-- **Best for:** Development, testing, batch processing
-- **Speed:** ~20-30 seconds per paper
-- **Python version:** Requires Python 3.10/3.11 because the upstream package still depends on `imp`
+### Document Type Settings
 
-```bash
-# Setup QuickUMLS first
-pip install quickumls
-# Download QuickUMLS data and set QUICKUMLS_PATH in .env
+Customize processing for different document types:
 
-python scripts/process_one.py --pdf input/paper.pdf --out output.json --linker quickumls
-```
-
-### scispaCy (Balanced)
-- **Pros:** Good accuracy, local processing, includes context
-- **Cons:** Larger model size, moderate speed
-- **Best for:** Research, when UMLS unavailable
-- **Speed:** ~30-45 seconds per paper
-
-```bash
-# Setup scispaCy
-pip install scispacy
-python -m spacy download en_core_sci_md
-
-python scripts/process_one.py --pdf input/paper.pdf --out output.json --linker scispacy
-```
-
-## Troubleshooting
-
-### Common Issues and Solutions
-
-#### 1. GROBID Connection Error
-```bash
-# Check if GROBID is running
-docker ps | grep grobid
-
-# If not running, start it
-docker start grobid
-
-# Test connection
-curl http://localhost:8070/api/isalive
-# Should return: true
-```
-
-#### 2. No Entities Found
-```bash
-# Check UMLS API key
-python -c "
-import os
-from scripts.umls_linker import UMLSClient
-client = UMLSClient(api_key=os.getenv('UMLS_API_KEY'))
-print('Testing UMLS...')
-results = client.search('diabetes')
-print(f'Found {len(results)} results')
-"
-```
-
-#### 3. Missing Figures
-- Ensure PDF has extractable images (not scanned)
-- Check coordinate system handling (BOTTOMLEFT)
-- Verify GPU support for Docling (if available)
-
-#### 4. Reference Enrichment Failing
-```bash
-# Test NCBI API
-python -c "
-from scripts.ref_enricher import _idconv_doi
-pmid = _idconv_doi('10.1001/jama.2017.17426')
-print(f'PMID: {pmid}')  # Should return a PMID
-"
-```
-
-#### 5. Slow Processing
-- Use QuickUMLS for faster local processing
-- Enable caching (automatic in cache/ directory)
-- Process in batches with run_batch.py
-- Check GPU availability for Docling
-
-#### 6. Memory Issues
-```bash
-# Monitor memory usage
-watch -n 1 free -h
-
-# For large PDFs, process one at a time
-python scripts/process_one.py --pdf large.pdf --out output.json --linker quickumls
-```
-
-### Debug Mode
-
-Enable detailed logging:
-```bash
-export DEBUG=1
-python scripts/process_one.py --pdf input/paper.pdf --out debug.json --linker umls
-
-# Check logs
-tail -f debug.log  # If logging to file
-```
-
-### Validation Issues
-
-Check extraction quality:
-```python
-import json
-from scripts.validator import validate_extraction, generate_validation_report
-
-# Load your output
-doc = json.load(open('output.json'))
-
-# Run validation
-validation = validate_extraction(doc)
-report = generate_validation_report(validation)
-print(report)
-
-# Common issues:
-# - Score < 60%: Missing critical components
-# - No authors: GROBID parsing issue
-# - No entities: Linker configuration problem
-# - No references: Check GROBID processing
+```yaml
+# config/document_types.yaml
+document_types:
+  article:
+    chunk_size: 500
+    chunk_overlap: 100
+    extract_abstract: true
+    extract_references: true
+    focus_terms: ["diagnosis", "treatment", "outcomes"]
+  
+  textbook:
+    chunk_size: 1000
+    chunk_overlap: 200
+    extract_chapters: true
+    extract_figures: true
+    extract_tables: true
+    focus_terms: ["anatomy", "physiology", "pathology"]
+  
+  guideline:
+    chunk_size: 750
+    chunk_overlap: 150
+    extract_recommendations: true
+    extract_evidence_levels: true
+    focus_terms: ["recommendations", "evidence", "protocols"]
+  
+  manual:
+    chunk_size: 600
+    chunk_overlap: 120
+    extract_procedures: true
+    extract_steps: true
+    focus_terms: ["procedures", "steps", "safety"]
 ```
 
 ## Best Practices
 
-### 1. PDF Preparation
-- Use original PDFs (not scanned)
-- Ensure text is selectable
-- Higher resolution improves figure extraction
-- Remove password protection
+### Document Preparation
 
-### 2. Optimal Settings
+1. **Use High-Quality PDFs**: Ensure PDFs are text-based, not scanned images
+2. **Organize by Type**: Place documents in appropriate type directories
+3. **Use Descriptive Names**: Use clear, descriptive filenames
+4. **Check File Sizes**: Keep files under 40MB for optimal processing
+
+### Processing Strategy
+
+1. **Process in Batches**: Process documents by type for better organization
+2. **Monitor API Status**: Check health endpoint before processing
+3. **Review Results**: Always review processed outputs for quality
+4. **Handle Errors**: Implement proper error handling in your workflows
+
+### Performance Optimization
+
+1. **Use Appropriate Chunk Sizes**: Adjust chunk sizes based on document type
+2. **Enable Caching**: Use caching for repeated concept lookups
+3. **Batch Processing**: Process multiple documents concurrently
+4. **Monitor Resources**: Keep an eye on memory and CPU usage
+
+## Examples
+
+### Example 1: Processing Medical Articles
+
 ```bash
-# For accuracy (research/publication)
-git checkout feat/nlp-hardening-docling248
-python scripts/process_one.py --pdf input/paper.pdf --out output.json --linker umls
+# 1. Place articles in input directory
+cp medical_articles/*.pdf input/articles/pdf/
 
-# For speed (development/testing)
-python scripts/process_one.py --pdf input/paper.pdf --out output.json --linker quickumls
+# 2. Process articles
+./scripts/process_articles.sh
 
-# For offline processing
-python scripts/process_one.py --pdf input/paper.pdf --out output.json --linker scispacy
+# 3. Check results
+ls -la output/articles/
+cat output/articles/article_1_linked.json | jq '.umls_links'
 ```
 
-### 3. Quality Control
-- Always check validation score (aim for >70%)
-- Review extracted authors for contamination
-- Verify figure count matches PDF
-- Check reference enrichment coverage (>50%)
+### Example 2: Processing Clinical Guidelines
 
-### 4. Performance Tips
-- Use batch processing for multiple PDFs
-- Enable GPU for Docling if available
-- Cache API responses (automatic)
-- Use local linkers for development
-- Process during off-peak hours for API services
-
-### 5. Data Management
 ```bash
-# Clean cache periodically (keeps last 30 days)
-find cache/ -mtime +30 -delete
+# 1. Place guidelines in input directory
+cp clinical_guidelines/*.pdf input/guidelines/pdf/
 
-# Archive outputs
-tar -czf outputs_$(date +%Y%m%d).tar.gz out/
+# 2. Process guidelines
+./scripts/process_guidelines.sh
 
-# Track processing metrics
-cat out/qa/*.qa.json | jq '.completeness_score' | awk '{sum+=$1} END {print "Average score:", sum/NR}'
+# 3. Extract recommendations
+jq '.recommendations' output/guidelines/guideline_1_linked.json
 ```
 
-## Common Workflows
+### Example 3: API Integration
 
-### Research Paper Analysis
-```bash
-# 1. Add papers to input folder
-cp ~/research/papers/*.pdf input/
-
-# 2. Switch to NLP branch for best quality
-git checkout feat/nlp-hardening-docling248
-
-# 3. Process with UMLS for accuracy
-python scripts/run_batch.py --linker umls
-
-# 4. Extract all statistics
-python -c "
+```python
+import requests
 import json
-from pathlib import Path
-for f in Path('out/json_umls').glob('*.json'):
-    data = json.load(open(f))
-    if data.get('statistics'):
-        print(f'{f.stem}:')
-        for stat in data['statistics'][:5]:
-            print(f'  - {stat['type']}: {stat['value']}')
-"
+
+# Configure API
+API_BASE = "http://localhost:8099"
+API_KEY = "your-secret-key"
+
+# Link medical concepts
+def link_concepts(text, document_type="article"):
+    response = requests.post(
+        f"{API_BASE}/link",
+        headers={
+            "Content-Type": "application/json",
+            "X-API-Key": API_KEY
+        },
+        json={
+            "text": text,
+            "document_type": document_type
+        }
+    )
+    return response.json()
+
+# Extract document content
+def extract_document(file_path, document_type="article"):
+    with open(file_path, 'rb') as f:
+        files = {'file': f}
+        data = {'document_type': document_type}
+        headers = {'X-API-Key': API_KEY}
+        
+        response = requests.post(
+            f"{API_BASE}/extract",
+            files=files,
+            data=data,
+            headers=headers
+        )
+    return response.json()
+
+# Example usage
+concepts = link_concepts("Patient has pneumonia")
+print(f"Found {len(concepts['umls_links'])} concepts")
+
+document = extract_document("medical_article.pdf")
+print(f"Extracted {len(document['sections'])} sections")
 ```
 
-### Clinical Trial Mining
-```bash
-# Extract all trial IDs and drugs
-python -c "
-import json
-from pathlib import Path
+### Example 4: Batch Processing
 
-trials = set()
-drugs = []
+```python
+import os
+import asyncio
+import aiohttp
 
-for f in Path('out/json_umls').glob('*.json'):
-    data = json.load(open(f))
-    trials.update(data.get('trial_ids', []))
-    for drug in data.get('drugs', []):
-        drugs.append(f\"{f.stem}: {drug['drug']} {drug.get('dosage', '')}\")
-
-print('Unique trials:', sorted(trials))
-print('\nDrugs found:')
-for drug in drugs:
-    print(f'  - {drug}')
-"
-```
-
-### Systematic Review Support
-```bash
-# Process review papers and extract key data
-python bin/run_linkers.py --pdf input/review.pdf --compare
-
-# Generate evidence table
-python -c "
-import json
-import pandas as pd
-from pathlib import Path
-
-data = []
-for f in Path('out/json_umls').glob('*.json'):
-    doc = json.load(open(f))
-    data.append({
-        'Paper': f.stem,
-        'Year': doc['metadata'].get('year'),
-        'Authors': len(doc['metadata'].get('authors', [])),
-        'References': len(doc['metadata'].get('references_struct', [])),
-        'Statistics': len(doc.get('statistics', [])),
-        'Clinical Entities': len(doc.get('umls_links', [])),
-        'Score': doc['validation']['completeness_score']
-    })
-
-df = pd.DataFrame(data)
-df.to_csv('evidence_table.csv', index=False)
-print(df.to_string())
-"
-```
-
-### Reference Network Analysis
-```bash
-# Build citation network
-python -c "
-import json
-from pathlib import Path
-import networkx as nx
-
-G = nx.DiGraph()
-
-for f in Path('out/json_umls').glob('*.json'):
-    doc = json.load(open(f))
-    paper = doc['metadata']['title'][:30]
+async def process_documents_batch(document_dir, document_type):
+    """Process multiple documents concurrently."""
+    files = [f for f in os.listdir(document_dir) if f.endswith('.pdf')]
     
-    for ref in doc.get('references_enriched', []):
-        if ref.get('enrichment', {}).get('pmid'):
-            G.add_edge(paper, ref['enrichment']['pmid'])
+    async with aiohttp.ClientSession() as session:
+        tasks = []
+        for file in files:
+            task = process_document(session, file, document_type)
+            tasks.append(task)
+        
+        results = await asyncio.gather(*tasks)
+        return results
 
-print(f'Network: {G.number_of_nodes()} nodes, {G.number_of_edges()} edges')
-print(f'Most cited: {sorted(G.in_degree(), key=lambda x: x[1], reverse=True)[:5]}')
-"
+async def process_document(session, file_path, document_type):
+    """Process a single document."""
+    with open(file_path, 'rb') as f:
+        data = aiohttp.FormData()
+        data.add_field('file', f, filename=file_path)
+        data.add_field('document_type', document_type)
+        
+        async with session.post(
+            'http://localhost:8099/extract',
+            data=data,
+            headers={'X-API-Key': 'your-secret-key'}
+        ) as response:
+            return await response.json()
+
+# Process all articles
+results = asyncio.run(process_documents_batch('input/articles/pdf/', 'article'))
+print(f"Processed {len(results)} articles")
 ```
 
-### Quality Dashboard
-```bash
-# Generate comprehensive QA report
-python -c "
-import json
-from pathlib import Path
-import pandas as pd
+## FAQ
 
-qa_data = []
-for f in Path('out/qa').glob('*.qa.json'):
-    qa_data.append(json.load(open(f)))
+### Q: What file formats are supported?
+A: Medparse supports PDF and plain text files. For PDFs, text-based PDFs work best. Scanned PDFs may require OCR preprocessing.
 
-df = pd.DataFrame(qa_data)
+### Q: How do I get UMLS API access?
+A: UMLS API access requires registration at https://uts.nlm.nih.gov/. You'll need to agree to their terms of use and provide your email address.
 
-print('=== Processing Summary ===')
-print(df.groupby('linker').agg({
-    'completeness_score': ['mean', 'min', 'max'],
-    'n_umls_links': 'mean',
-    'n_local_links': 'mean',
-    'is_valid': 'sum'
-}).round(1))
+### Q: Can I process documents without UMLS linking?
+A: Yes, you can disable UMLS linking by setting `ENABLE_UMLS_LINKING=false` in your environment variables.
 
-print('\n=== Papers Needing Review (score < 70) ===')
-low_quality = df[df['completeness_score'] < 70]
-if not low_quality.empty:
-    print(low_quality[['pdf', 'linker', 'completeness_score']].to_string())
-else:
-    print('All papers meet quality threshold!')
+### Q: What's the difference between document types?
+A: Each document type has optimized processing settings:
+- **Articles**: Focus on abstracts, references, clinical terminology
+- **Textbooks**: Focus on chapters, figures, comprehensive coverage
+- **Guidelines**: Focus on recommendations, evidence levels, algorithms
+- **Manuals**: Focus on procedures, steps, safety warnings
 
-print('\n=== Extraction Statistics ===')
-print(f'Total sections: {df['n_sections'].sum()}')
-print(f'Total tables: {df['n_tables'].sum()}')
-print(f'Total figures: {df['n_figures'].sum()}')
-print(f'Total references: {df['n_refs_csv'].sum()}')
-"
-```
+### Q: How can I improve processing accuracy?
+A: 
+1. Use high-quality, text-based PDFs
+2. Ensure proper document type classification
+3. Use appropriate chunk sizes for your content
+4. Enable semantic filtering for better concept relevance
 
-## Expected Results
+### Q: Can I customize the processing pipeline?
+A: Yes, you can modify the processing scripts and configuration files to customize the pipeline for your specific needs.
 
-When processing AMPLE2.pdf with NLP-hardened branch:
+### Q: How do I handle large documents?
+A: Large documents are automatically chunked during processing. You can adjust chunk sizes in the configuration to optimize for your use case.
 
-| Metric | Expected Value |
-|--------|---------------|
-| Authors | 22-23 |
-| Structured References | 28 |
-| Enriched References | 20-28 |
-| Figures | 5 (1 watermark filtered) |
-| Tables | 3 |
-| Sections | 15-20 |
-| Statistics | 150-200 |
-| Clinical Entities (UMLS) | 100-150 |
-| Cross-references | 10-20 |
-| Completeness Score | 70-85% |
-| Processing Time | 60-90 seconds |
+### Q: What if processing fails?
+A: Check the logs for error messages, verify your API keys are correct, and ensure the medparse API is running. Common issues include network connectivity, invalid file formats, or API rate limits.
 
-## Support and Resources
+### Q: Can I integrate medparse with other systems?
+A: Yes, medparse provides a REST API that can be integrated with any system that can make HTTP requests. The API returns structured JSON data that can be easily processed by other applications.
 
-### Getting Help
-- Check TESTING.md for detailed test procedures
-- Review ARCHITECTURE.md for technical details
-- See examples/ directory for sample outputs
-- GitHub Issues for bug reports
-
-### Useful Links
-- [UMLS API Documentation](https://documentation.uts.nlm.nih.gov/rest/home.html)
-- [NCBI E-utilities](https://www.ncbi.nlm.nih.gov/books/NBK25501/)
-- [GROBID Documentation](https://grobid.readthedocs.io/)
-- [Docling Documentation](https://github.com/DS4SD/docling)
-
-### Contributing
-1. Fork the repository
-2. Create a feature branch
-3. Make your changes
-4. Add tests
-5. Submit a pull request
-
-### Citation
-If you use this tool in research:
-```bibtex
-@software{medparse-docling,
-  title = {MedParse-Docling: NLP-Hardened Medical Document Extraction},
-  author = {Your Name},
-  year = {2024},
-  url = {https://github.com/your-repo/medparse-docling}
-}
-```
+### Q: How do I monitor API performance?
+A: Use the health check endpoint (`/healthz`) to monitor API status. You can also check the processing time in API responses and monitor server resources.
