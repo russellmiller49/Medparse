@@ -27,13 +27,13 @@ from scripts.grobid_references import parse_references_tei
 from scripts.ref_enricher import enrich_refs_from_struct
 from scripts.grobid_authors import parse_authors_from_tei
 from scripts.section_filters import drop_author_sections
-from scripts.local_linkers import link_with_quickumls, link_with_scispacy
 from scripts.text_normalize import normalize_for_nlp
-from scripts.linker_router import link_umls_primary, link_quickumls, link_scispacy as link_scispacy_filtered
 from scripts.fig_ocr import ocr_if_textual
 from scripts.qa_logger import write_qa
 from scripts.cache_manager import CacheManager
 from scripts.validator import validate_extraction
+from scripts.linking.enhanced_linker import link_medical_concepts
+from scripts.linking.umls_only_linker import link_medical_concepts_umls_only
 # Import extraction fix modules
 from scripts.statistics_gated import extract_statistics
 from scripts.umls_filters import filter_umls_links
@@ -128,29 +128,51 @@ def process_pdf(
     # Normalize text for NLP (ligatures, hyphens, inline expansions)
     full_text_normalized = normalize_for_nlp(full_text)
     
-    # Linker switch with semantic filtering
-    fallback_used = "none"
-    if linker == "umls":
-        # Use UMLS with semantic filtering
-        if umls:
-            umls_hits = link_umls_primary(full_text_normalized, umls)
-            merged["umls_links"] = umls_hits
-            logger.info(f"UMLS linked {len(umls_hits)} entities with semantic filtering")
-        linker_tag = "umls"
-    elif linker == "scispacy":
-        linked = link_scispacy_filtered(full_text_normalized, model="en_core_sci_md")
-        if linked:
-            merged.setdefault("umls_links_local", []).extend(linked)
-        fallback_used = "scispaCy"
-        linker_tag = "scispacy"
-    elif linker == "quickumls":
-        linked = link_quickumls(full_text_normalized, quick_path)
-        if linked:
-            merged.setdefault("umls_links_local", []).extend(linked)
-        fallback_used = "QuickUMLS"
-        linker_tag = "quickumls"
-    else:
+    if linker not in {"umls", "scispacy", "quickumls"}:
         raise ValueError("linker must be one of: umls | scispacy | quickumls")
+
+    linker_tag = "enhanced"
+    concept_top_k = 600 if len(full_text_normalized) > 10000 else 250
+    try:
+        concept_links = link_medical_concepts(
+            full_text_normalized,
+            top_k=concept_top_k,
+            quickumls_path=quick_path,
+            cache=cache,
+        )
+    except Exception as exc:
+        logger.exception("Enhanced concept linking failed: %s", exc)
+        concept_links = []
+    
+    # Fallback to UMLS-only linker if enhanced linker returns no results
+    if not concept_links:
+        logger.info("Enhanced linker returned no results, trying UMLS-only fallback")
+        try:
+            concept_links = link_medical_concepts_umls_only(
+                full_text_normalized,
+                top_k=concept_top_k,
+            )
+            logger.info("UMLS-only fallback found %d concepts", len(concept_links))
+        except Exception as exc:
+            logger.exception("UMLS-only fallback also failed: %s", exc)
+            concept_links = []
+
+    if concept_links:
+        source_counts = {}
+        for link in concept_links:
+            source = link.get("source", "unknown")
+            source_counts[source] = source_counts.get(source, 0) + 1
+        summary = ", ".join(f"{src}:{cnt}" for src, cnt in sorted(source_counts.items()))
+        logger.info(
+            "Enhanced concept linker produced %d concepts (%s)",
+            len(concept_links),
+            summary or "no sources reported",
+        )
+    else:
+        logger.warning("Enhanced concept linker returned no concepts for %s", pdf_path.name)
+
+    merged["umls_links"] = concept_links
+    merged["umls_links_local"] = []
     
     # Enrich references via PubMed if key present (with retry logic)
     references_enriched = None

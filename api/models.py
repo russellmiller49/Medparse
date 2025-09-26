@@ -3,18 +3,39 @@ from __future__ import annotations
 
 from typing import Any, Dict, List, Optional
 
-from pydantic import BaseModel, Field
+from pydantic import BaseModel, Field, model_validator
 
 
 class UmlsLink(BaseModel):
     cui: str
     text: str
+    start: Optional[int] = None
+    end: Optional[int] = None
     tui: List[str] = Field(default_factory=list)
+    confidence: float = Field(default=0.0)
     score: float = Field(default=0.0)
+    preferred_term: Optional[str] = None
+    preferred_name: Optional[str] = None
+    synonyms: List[str] = Field(default_factory=list)
+    source: Optional[str] = None
     offsets: Optional[List[int]] = None
     sentence: Optional[str] = None
-    preferred_name: Optional[str] = None
-    source: Optional[str] = None
+
+    @model_validator(mode="after")
+    def _sync_fields(self) -> "UmlsLink":
+        if self.confidence and not self.score:
+            self.score = self.confidence
+        if self.score and not self.confidence:
+            self.confidence = self.score
+        preferred = self.preferred_term or self.preferred_name
+        if preferred:
+            self.preferred_term = preferred
+            self.preferred_name = preferred
+        if self.start is None and self.offsets and len(self.offsets) == 2:
+            self.start, self.end = self.offsets
+        if self.start is not None and self.end is not None and not self.offsets:
+            self.offsets = [self.start, self.end]
+        return self
 
 
 class StatObs(BaseModel):

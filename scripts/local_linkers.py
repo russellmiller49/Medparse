@@ -1,7 +1,8 @@
 from __future__ import annotations
-from typing import List, Dict, Any, Optional
+from typing import List, Dict, Any, Optional, Tuple
 
 _MATCHER_CACHE: Dict[str, Any] = {}
+_SCISPACY_CACHE: Dict[Tuple[str, str], Tuple[Any, Any]] = {}
 
 
 def _get_quickumls_matcher(path: str, threshold: float = 0.9):
@@ -59,6 +60,11 @@ def link_with_quickumls(
         tui = semtypes[0] if semtypes else None
         term = best.get("term") or best.get("ngram") or ""
 
+        synonyms = {term}
+        alt = best.get("ngram")
+        if isinstance(alt, str) and alt.strip():
+            synonyms.add(alt.strip())
+
         linked.append(
             {
                 "text": term,
@@ -70,29 +76,76 @@ def link_with_quickumls(
                 "start": best.get("start"),
                 "end": best.get("end"),
                 "preferred": bool(best.get("preferred")),
+                "synonyms": sorted(synonyms),
                 "source": "QuickUMLS",
             }
         )
 
     return linked
 
-def link_with_scispacy(text: str, model: str = "en_core_sci_md") -> List[Dict[str,Any]]:
+def _load_scispacy(model: str = "en_core_sci_md") -> Optional[Tuple[Any, Any]]:
+    cache_key = (model, "scispacy")
+    if cache_key in _SCISPACY_CACHE:
+        return _SCISPACY_CACHE[cache_key]
+
     try:
         import spacy
         from scispacy.umls_linking import UmlsEntityLinker
     except Exception:
+        return None
+
+    try:
+        nlp = spacy.load(model)
+    except Exception:
+        try:
+            nlp = spacy.load("en_core_sci_sm")
+        except Exception:
+            return None
+
+    if "abbreviation_detector" not in nlp.pipe_names:
+        try:
+            nlp.add_pipe("abbreviation_detector")
+        except Exception:
+            pass
+
+    linker = UmlsEntityLinker(resolve_abbreviations=True, max_entities_per_mention=3)
+    nlp.add_pipe(linker, last=True)
+    _SCISPACY_CACHE[cache_key] = (nlp, linker)
+    return _SCISPACY_CACHE[cache_key]
+
+
+def link_with_scispacy(text: str, model: str = "en_core_sci_md") -> List[Dict[str, Any]]:
+    resources = _load_scispacy(model)
+    if not resources:
         return []
-    nlp = spacy.load(model)
-    nlp.add_pipe("abbreviation_detector")
-    linker = UmlsEntityLinker(resolve_abbreviations=True, max_entities_per_mention=1)
-    nlp.add_pipe(linker)
+
+    nlp, linker = resources
     doc = nlp(text[:500000])
-    out = []
+    out: List[Dict[str, Any]] = []
+    umls_store = getattr(linker, "umls", None)
+    cui_to_entity = getattr(umls_store, "cui_to_entity", {}) if umls_store else {}
+
     for ent in doc.ents:
-        if not ent._.umls_ents: continue
-        cui, score = ent._.umls_ents[0]
-        pref = ""
-        if hasattr(linker, "umls") and hasattr(linker.umls, "cui_to_entity") and cui in linker.umls.cui_to_entity:
-            pref = linker.umls.cui_to_entity[cui].canonical_name
-        out.append({"phrase": ent.text, "cui": cui, "preferred": pref, "source": "scispaCy"})
+        umls_ents = getattr(ent._, "umls_ents", None)
+        if not umls_ents:
+            continue
+        cui, score = umls_ents[0]
+        meta = cui_to_entity.get(cui)
+        preferred = getattr(meta, "canonical_name", ent.text)
+        tuis = list(getattr(meta, "types", []) or [])
+        synonyms = list(getattr(meta, "aliases", []) or [])
+        out.append(
+            {
+                "text": ent.text,
+                "start": ent.start_char,
+                "end": ent.end_char,
+                "cui": cui,
+                "tui": tuis,
+                "semtypes": tuis,
+                "preferred": preferred,
+                "synonyms": synonyms,
+                "score": float(score),
+                "source": "scispaCy",
+            }
+        )
     return out

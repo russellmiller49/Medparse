@@ -1,0 +1,15 @@
+{
+  "pdf": "Combined EBUS  EUS for the diagnosis and staging of lung cancer ESGE, ERS, ESTS Guideline.pdf",
+  "n_sections": 44,
+  "n_tables": 4,
+  "n_figures": 14,
+  "n_fig_crops": 13,
+  "missing_fig_bbox": 0,
+  "n_refs_csv": 105,
+  "n_umls_links": 266,
+  "n_local_links": 0,
+  "linker": "enhanced",
+  "completeness_score": 67,
+  "is_valid": true,
+  "timestamp": "2025-09-26 11:34:39"
+}
