@@ -7,7 +7,23 @@ from typing import Dict, Optional, List
 from urllib.parse import quote
 from .types import VALID_TUIS, MIN_SCORE
 
-UMLS_API_KEY = os.getenv("UMLS_API_KEY")
+_ENV_LOADED = False
+
+
+def _get_api_key() -> Optional[str]:
+    """Fetch the current UMLS API key, loading .env on first request if needed."""
+    global _ENV_LOADED
+    key = os.getenv("UMLS_API_KEY")
+    if key or _ENV_LOADED:
+        return key
+    try:
+        from dotenv import load_dotenv
+    except ImportError:
+        _ENV_LOADED = True
+        return None
+    load_dotenv()
+    _ENV_LOADED = True
+    return os.getenv("UMLS_API_KEY")
 UMLS_BASE = "https://uts-ws.nlm.nih.gov/rest"
 
 
@@ -22,7 +38,8 @@ def umls_lookup_exact(term: str, use_cache: bool = True) -> Optional[Dict]:
     Returns:
         Best CUI match with metadata, or None if no valid match
     """
-    if not UMLS_API_KEY:
+    api_key = _get_api_key()
+    if not api_key:
         return None
     
     if not term or len(term.strip()) < 2:
@@ -43,7 +60,7 @@ def umls_lookup_exact(term: str, use_cache: bool = True) -> Optional[Dict]:
     params = {
         "string": term,
         "searchType": "exact",
-        "apiKey": UMLS_API_KEY
+        "apiKey": api_key
     }
     
     try:
@@ -114,10 +131,11 @@ def get_concept_details(cui: str) -> Optional[Dict]:
     Returns:
         Dict with TUIs, semantic types, and definition
     """
-    if not UMLS_API_KEY or not cui:
+    api_key = _get_api_key()
+    if not api_key or not cui:
         return None
-    
-    params = {"apiKey": UMLS_API_KEY}
+
+    params = {"apiKey": api_key}
     
     try:
         with httpx.Client(timeout=15.0) as client:
@@ -168,13 +186,14 @@ def umls_search_approximate(term: str, threshold: float = 0.7) -> List[Dict]:
     Returns:
         List of CUI matches with metadata
     """
-    if not UMLS_API_KEY or not term:
+    api_key = _get_api_key()
+    if not api_key or not term:
         return []
-    
+
     params = {
         "string": term,
         "searchType": "normalizedString",
-        "apiKey": UMLS_API_KEY,
+        "apiKey": api_key,
         "pageSize": 5
     }
     

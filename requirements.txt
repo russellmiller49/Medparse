@@ -49,3 +49,4 @@ black>=24.8
 isort>=5.13
 mypy>=1.11
 types-requests
+
