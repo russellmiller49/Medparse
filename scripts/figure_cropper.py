@@ -154,6 +154,7 @@ def crop_figures(pdf_path: Path, docling_json: Dict[str, Any], out_dir: Path, dp
                 figure_captions.append("")  # No caption for this figure
     
     saved=0; missing=0; skipped_watermarks=0
+    figure_manifest: List[Dict[str, Any]] = []
     print(f"DEBUG: Processing {len(figs)} figures")
     figure_counter = 0  # Track actual figure number (excluding watermarks)
     
@@ -241,15 +242,33 @@ def crop_figures(pdf_path: Path, docling_json: Dict[str, Any], out_dir: Path, dp
         # Extract figure label from caption
         fig_label = _extract_figure_label(cap)
         if fig_label:
-            # Use extracted label (e.g., "fig1", "fig2a")
-            out_path = out_dir / f"{base}_{fig_label}.jpg"
+            normalized_id = re.sub(r'^figure', 'fig', fig_label)
+            figure_id = normalized_id
+            out_path = out_dir / f"{base}_{normalized_id}.jpg"
         else:
-            # Fallback to numbered sequence
-            out_path = out_dir / f"{base}_fig{figure_counter:02d}.jpg"
-        
+            figure_id = f"fig{figure_counter:02d}"
+            out_path = out_dir / f"{base}_{figure_id}.jpg"
+
         exif = _exif_bytes(cap, int(pi)+1, str(figure_counter))
         crop.save(out_path, format="JPEG", quality=95, subsampling=0, exif=exif)
         saved+=1
+
+        figure_manifest.append({
+            "id": figure_id,
+            "structure_index": i - 1,
+            "caption": cap.strip() or None,
+            "page": int(pi) + 1,
+            "image_path": str(out_path),
+            "bbox_pdf": list(bbox),
+            "bbox_pixels": [left, top, right, bottom],
+            "width_px": crop.width,
+            "height_px": crop.height,
+        })
     
     print(f"DEBUG: Saved {saved} figures, skipped {skipped_watermarks} watermarks, {missing} missing bbox")
-    return {"n_saved": saved, "n_missing_bbox": missing, "n_watermarks_skipped": skipped_watermarks}
+    return {
+        "n_saved": saved,
+        "n_missing_bbox": missing,
+        "n_watermarks_skipped": skipped_watermarks,
+        "figures": figure_manifest,
+    }

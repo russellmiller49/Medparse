@@ -1,0 +1,122 @@
+/home/rjm/miniconda3/envs/medparse-py311/lib/python3.11/site-packages/pydantic/_internal/_fields.py:161: UserWarning: Field "model_path" has conflict with protected namespace "model_".
+
+You may be able to resolve this warning by setting `model_config['protected_namespaces'] = ()`.
+  warnings.warn(
+/home/rjm/miniconda3/envs/medparse-py311/lib/python3.11/site-packages/pydantic/_internal/_fields.py:161: UserWarning: Field "model_spec" has conflict with protected namespace "model_".
+
+You may be able to resolve this warning by setting `model_config['protected_namespaces'] = ()`.
+  warnings.warn(
+2025-09-30 15:01:22.573 | INFO     | __main__:process_pdf:153 - Docling parsing (DocumentConverter): Combined EBUS  EUS for the diagnosis and staging of lung cancer ESGE, ERS, ESTS Guideline.pdf
+2025-09-30 15:01:22,578 - INFO - detected formats: [<InputFormat.PDF: 'pdf'>]
+2025-09-30 15:01:22,589 - INFO - Going to convert document batch...
+2025-09-30 15:01:22,589 - INFO - Initializing pipeline for StandardPdfPipeline with options hash e647edf348883bed75367b22fbe60347
+2025-09-30 15:01:22,591 - INFO - Loading plugin 'docling_defaults'
+2025-09-30 15:01:22,592 - INFO - Registered picture descriptions: ['vlm', 'api']
+2025-09-30 15:01:22,595 - INFO - Loading plugin 'docling_defaults'
+2025-09-30 15:01:22,596 - INFO - Registered ocr engines: ['easyocr', 'ocrmac', 'rapidocr', 'tesserocr', 'tesseract']
+2025-09-30 15:01:22,626 - INFO - Accelerator device: 'cuda:0'
+2025-09-30 15:01:23,866 - INFO - Accelerator device: 'cuda:0'
+2025-09-30 15:01:24,590 - INFO - Accelerator device: 'cuda:0'
+2025-09-30 15:01:24,909 - INFO - Processing document Combined EBUS  EUS for the diagnosis and staging of lung cancer ESGE, ERS, ESTS Guideline.pdf
+2025-09-30 15:01:30,734 - INFO - Finished converting document Combined EBUS  EUS for the diagnosis and staging of lung cancer ESGE, ERS, ESTS Guideline.pdf in 8.16 sec.
+2025-09-30 15:01:30.876 | INFO     | __main__:process_pdf:171 - Cropping figure images with EXIF captions
+2025-09-30 15:01:31.146 | INFO     | __main__:process_pdf:175 - GROBID metadata & references
+2025-09-30 15:01:54,675 - INFO - HTTP Request: POST http://localhost:8070/api/processFulltextDocument "HTTP/1.1 200 OK"
+2025-09-30 15:01:56,142 - INFO - HTTP Request: POST http://localhost:8070/api/processReferences "HTTP/1.1 200 OK"
+2025-09-30 15:01:56.147 | INFO     | scripts.authors_fallback:enrich_authors_with_affiliations:137 - Affiliation entries detected: 11
+2025-09-30 15:01:56.158 | INFO     | __main__:process_pdf:192 - Writing references CSV (AMA)
+2025-09-30 15:02:05,095 - INFO - Registering at the factory, space: dummy distance type: INT
+2025-09-30 15:02:05,095 - INFO - Registering at the factory, space: dummy distance type: FLOAT
+2025-09-30 15:02:05,095 - INFO - Registering at the factory, space: bit_hamming distance type: INT
+2025-09-30 15:02:05,095 - INFO - Registering at the factory, space: bit_jaccard distance type: FLOAT
+2025-09-30 15:02:05,095 - INFO - Registering at the factory, space: leven distance type: INT
+2025-09-30 15:02:05,095 - INFO - Registering at the factory, space: normleven distance type: FLOAT
+2025-09-30 15:02:05,095 - INFO - Registering at the factory, space: kldivfast distance type: FLOAT
+2025-09-30 15:02:05,095 - INFO - Registering at the factory, space: kldivfastrq distance type: FLOAT
+2025-09-30 15:02:05,095 - INFO - Registering at the factory, space: kldivgenfast distance type: FLOAT
+2025-09-30 15:02:05,095 - INFO - Registering at the factory, space: kldivgenslow distance type: FLOAT
+2025-09-30 15:02:05,095 - INFO - Registering at the factory, space: kldivgenfastrq distance type: FLOAT
+2025-09-30 15:02:05,095 - INFO - Registering at the factory, space: itakurasaitofast distance type: FLOAT
+2025-09-30 15:02:05,095 - INFO - Registering at the factory, space: jsdivslow distance type: FLOAT
+2025-09-30 15:02:05,095 - INFO - Registering at the factory, space: jsdivfast distance type: FLOAT
+2025-09-30 15:02:05,095 - INFO - Registering at the factory, space: jsdivfastapprox distance type: FLOAT
+2025-09-30 15:02:05,095 - INFO - Registering at the factory, space: jsmetrslow distance type: FLOAT
+2025-09-30 15:02:05,095 - INFO - Registering at the factory, space: jsmetrfast distance type: FLOAT
+2025-09-30 15:02:05,095 - INFO - Registering at the factory, space: jsmetrfastapprox distance type: FLOAT
+2025-09-30 15:02:05,095 - INFO - Registering at the factory, space: word_embed distance type: FLOAT
+2025-09-30 15:02:05,095 - INFO - Registering at the factory, space: lp distance type: FLOAT
+2025-09-30 15:02:05,095 - INFO - Registering at the factory, space: linf distance type: FLOAT
+2025-09-30 15:02:05,095 - INFO - Registering at the factory, space: l1 distance type: FLOAT
+2025-09-30 15:02:05,095 - INFO - Registering at the factory, space: l2 distance type: FLOAT
+2025-09-30 15:02:05,095 - INFO - Registering at the factory, space: cosinesimil distance type: FLOAT
+2025-09-30 15:02:05,095 - INFO - Registering at the factory, space: angulardist distance type: FLOAT
+2025-09-30 15:02:05,095 - INFO - Registering at the factory, space: negdotprod distance type: FLOAT
+2025-09-30 15:02:05,095 - INFO - Registering at the factory, space: lp_sparse distance type: FLOAT
+2025-09-30 15:02:05,095 - INFO - Registering at the factory, space: linf_sparse distance type: FLOAT
+2025-09-30 15:02:05,095 - INFO - Registering at the factory, space: l1_sparse distance type: FLOAT
+2025-09-30 15:02:05,095 - INFO - Registering at the factory, space: l2_sparse distance type: FLOAT
+2025-09-30 15:02:05,095 - INFO - Registering at the factory, space: cosinesimil_sparse distance type: FLOAT
+2025-09-30 15:02:05,095 - INFO - Registering at the factory, space: angulardist_sparse distance type: FLOAT
+2025-09-30 15:02:05,095 - INFO - Registering at the factory, space: negdotprod_sparse distance type: FLOAT
+2025-09-30 15:02:05,095 - INFO - Registering at the factory, space: cosinesimil_sparse_fast distance type: FLOAT
+2025-09-30 15:02:05,095 - INFO - Registering at the factory, space: cosinesimil_sparse_bin_fast distance type: FLOAT
+2025-09-30 15:02:05,095 - INFO - Registering at the factory, space: angulardist_sparse_fast distance type: FLOAT
+2025-09-30 15:02:05,095 - INFO - Registering at the factory, space: negdotprod_sparse_fast distance type: FLOAT
+2025-09-30 15:02:05,095 - INFO - Registering at the factory, space: negdotprod_sparse_bin_fast distance type: FLOAT
+2025-09-30 15:02:05,095 - INFO - Registering at the factory, space: querynorm_negdotprod_sparse_fast distance type: FLOAT
+2025-09-30 15:02:05,095 - INFO - Registering at the factory, space: jaccard_sparse distance type: FLOAT
+2025-09-30 15:02:05,095 - INFO - Registering at the factory, space: abdiv_slow distance type: FLOAT
+2025-09-30 15:02:05,096 - INFO - Registering at the factory, space: abdiv_fast distance type: FLOAT
+2025-09-30 15:02:05,096 - INFO - Registering at the factory, space: renyidiv_slow distance type: FLOAT
+2025-09-30 15:02:05,096 - INFO - Registering at the factory, space: renyidiv_fast distance type: FLOAT
+2025-09-30 15:02:05,096 - INFO - Registering at the factory, space: l2sqr_sift distance type: INT
+2025-09-30 15:02:05,096 - INFO - Registering at the factory, space: sparse_dense_fusion distance type: FLOAT
+2025-09-30 15:02:05,096 - INFO - Registering at the factory, method: dummy distance type: FLOAT
+2025-09-30 15:02:05,096 - INFO - Registering at the factory, method: dummy distance type: INT
+2025-09-30 15:02:05,096 - INFO - Registering at the factory, method: pivot_neighb_invindx distance type: FLOAT
+2025-09-30 15:02:05,096 - INFO - Registering at the factory, method: pivot_neighb_invindx distance type: INT
+2025-09-30 15:02:05,096 - INFO - Registering at the factory, method: napp distance type: FLOAT
+2025-09-30 15:02:05,096 - INFO - Registering at the factory, method: napp distance type: INT
+2025-09-30 15:02:05,096 - INFO - Registering at the factory, method: brute_force distance type: FLOAT
+2025-09-30 15:02:05,096 - INFO - Registering at the factory, method: brute_force distance type: INT
+2025-09-30 15:02:05,096 - INFO - Registering at the factory, method: seq_search distance type: FLOAT
+2025-09-30 15:02:05,096 - INFO - Registering at the factory, method: seq_search distance type: INT
+2025-09-30 15:02:05,096 - INFO - Registering at the factory, method: sw-graph distance type: FLOAT
+2025-09-30 15:02:05,096 - INFO - Registering at the factory, method: sw-graph distance type: INT
+2025-09-30 15:02:05,096 - INFO - Registering at the factory, method: small_world_rand distance type: FLOAT
+2025-09-30 15:02:05,096 - INFO - Registering at the factory, method: small_world_rand distance type: INT
+2025-09-30 15:02:05,096 - INFO - Registering at the factory, method: hnsw distance type: FLOAT
+2025-09-30 15:02:05,096 - INFO - Registering at the factory, method: hnsw distance type: INT
+2025-09-30 15:02:05,096 - INFO - Registering at the factory, method: vptree distance type: INT
+2025-09-30 15:02:05,096 - INFO - Registering at the factory, method: vptree distance type: FLOAT
+2025-09-30 15:02:05,096 - INFO - Registering at the factory, method: simple_invindx distance type: FLOAT
+2025-09-30 15:02:05.108 | INFO     | __main__:process_pdf:254 - Enhanced concept linker produced %d concepts (%s)
+2025-09-30 15:02:05.108 | INFO     | __main__:process_pdf:281 - Extracting drugs/doses and trial IDs
+2025-09-30 15:02:05.116 | INFO     | __main__:process_pdf:288 - Linking captions and footnotes to assets
+2025-09-30 15:02:05.192 | INFO     | __main__:process_pdf:314 - Extracting statistics with provenance metadata
+2025-09-30 15:02:05.213 | INFO     | __main__:process_pdf:324 - Filtering UMLS links for quality
+2025-09-30 15:02:05.215 | INFO     | __main__:process_pdf:328 - UMLS links: 600 → 114 after filtering
+2025-09-30 15:02:05.215 | INFO     | __main__:process_pdf:343 - Attempting abstract extraction from document structure
+2025-09-30 15:02:05.216 | INFO     | __main__:process_pdf:353 - References: 100 from grobid_fallback
+2025-09-30 15:02:05.216 | INFO     | scripts.authors_fallback:enrich_authors_with_affiliations:137 - Affiliation entries detected: 11
+2025-09-30 15:02:05.216 | WARNING  | __main__:process_pdf:360 - Authors missing affiliations after enrichment: 2
+2025-09-30 15:02:05.244 | SUCCESS  | __main__:process_pdf:410 - Done → output/ebus_eus_guideline_enhanced.json
+
+DEBUG: Processing 15 figures
+DEBUG: Fig 1: bbox=[274.6752624511719, 664.8441619873047]..., page_idx=0, origin=BOTTOMLEFT
+DEBUG: Fig 2: bbox=[506.5587463378906, 663.8165588378906]..., page_idx=0, origin=BOTTOMLEFT
+DEBUG: Fig 3: bbox=[356.50091552734375, 662.1569366455078]..., page_idx=0, origin=BOTTOMLEFT
+DEBUG: Fig 4: bbox=[41.48950958251953, 461.1163635253906]..., page_idx=1, origin=BOTTOMLEFT
+DEBUG: Fig 5: bbox=[314.3519287109375, 740.3765068054199]..., page_idx=2, origin=BOTTOMLEFT
+DEBUG: Fig 6: bbox=[310.70440673828125, 393.0356750488281]..., page_idx=2, origin=BOTTOMLEFT
+DEBUG: Fig 7: bbox=[296.7130126953125, 551.8106842041016]..., page_idx=3, origin=BOTTOMLEFT
+DEBUG: Fig 8: bbox=[43.72494888305664, 739.8921737670898]..., page_idx=7, origin=BOTTOMLEFT
+DEBUG: Fig 9: bbox=[43.105735778808594, 553.8819580078125]..., page_idx=7, origin=BOTTOMLEFT
+DEBUG: Fig 10: bbox=[61.919464111328125, 738.7212562561035]..., page_idx=8, origin=BOTTOMLEFT
+DEBUG: Fig 11: bbox=[63.8995475769043, 567.4618682861328]..., page_idx=8, origin=BOTTOMLEFT
+DEBUG: Fig 12: bbox=[63.3084716796875, 400.4027099609375]..., page_idx=8, origin=BOTTOMLEFT
+DEBUG: Fig 13: bbox=[317.1754150390625, 738.2484016418457]..., page_idx=8, origin=BOTTOMLEFT
+DEBUG: Fig 14: bbox=[62.06623077392578, 737.6304779052734]..., page_idx=10, origin=BOTTOMLEFT
+DEBUG: Fig 15: bbox=[55.7689094543457, 644.6847839355469]..., page_idx=12, origin=BOTTOMLEFT
+DEBUG: Saved 15 figures, skipped 0 watermarks, 0 missing bbox
+

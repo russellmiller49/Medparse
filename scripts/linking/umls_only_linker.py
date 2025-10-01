@@ -34,15 +34,21 @@ def link_medical_concepts_umls_only(
     }
     
     # Extract potential medical terms using simple heuristics
-    # 1. Full text as a phrase
-    # 2. Individual words (4+ characters, not stop words)
-    # 3. Common medical term patterns
+    # 1. Individual words (4+ characters, not stop words)
+    # 2. Common medical term patterns
     
-    # Split text into potential terms
     words = re.findall(r'\b\w+\b', text.lower())
-    
-    # Try full phrase first, then individual words
-    phrases_to_try = [text.strip()] + [word for word in words if len(word) >= 4 and word not in stop_words]
+    phrases_to_try = [word for word in words if len(word) >= 4 and word not in stop_words]
+
+    for n in (2, 3):
+        for i in range(len(words) - n + 1):
+            window = words[i : i + n]
+            if any(w in stop_words for w in window):
+                continue
+            phrase = " ".join(window)
+            if len(phrase) < 6:
+                continue
+            phrases_to_try.append(phrase)
     
     # Remove duplicates while preserving order
     unique_phrases = []
@@ -51,8 +57,10 @@ def link_medical_concepts_umls_only(
         if phrase not in seen_phrases:
             unique_phrases.append(phrase)
             seen_phrases.add(phrase)
+        if len(unique_phrases) >= 2500:
+            break
     
-    for phrase in unique_phrases:
+    for phrase in unique_phrases[:2000]:
         if len(results) >= top_k:
             break
             

@@ -8,6 +8,7 @@ for build, run, and QA steps. Treat that document as source-of-truth.
 from __future__ import annotations
 import json, argparse, sys, os
 from pathlib import Path
+from typing import Any, Dict, List, Tuple
 from loguru import logger
 
 ROOT = Path(__file__).resolve().parents[1]
@@ -18,6 +19,7 @@ from docling.document_converter import DocumentConverter  # current API
 
 from scripts.grobid_client import Grobid
 from scripts.postprocess import merge_outputs, parse_grobid_metadata, concat_text, extract_trial_ids, resolve_cross_references
+from scripts.recommendation_extractor import extract_recommendations
 from scripts.umls_linker import UMLSClient
 from scripts.figure_cropper import crop_figures
 from scripts.references_csv import write_references_csv
@@ -35,10 +37,11 @@ from scripts.validator import validate_extraction
 from scripts.linking.enhanced_linker import link_medical_concepts
 from scripts.linking.umls_only_linker import link_medical_concepts_umls_only
 # Import extraction fix modules
-from scripts.statistics_gated import extract_statistics
+from scripts.statistics_enhanced import extract_statistics as extract_statistics_enhanced
+from scripts.statistics_gated import extract_statistics as extract_statistics_legacy
 from scripts.umls_filters import filter_umls_links
 from scripts.caption_linker import link_captions
-from scripts.authors_fallback import extract_authors_from_frontmatter
+from scripts.authors_fallback import extract_authors_from_frontmatter, enrich_authors_with_affiliations
 from scripts.abstract_fallback import extract_abstract
 from scripts.reference_manager import ensure_references_enriched
 from scripts.http_retry import with_retries, fetch_with_retry
@@ -46,6 +49,81 @@ from scripts.section_classifier import classify_section
 from scripts.drug_extractor import extract_drugs_dosages
 from scripts.env_loader import load_env
 from scripts.safe_json import safe_write_json
+from scripts.table_extractor import extract_structured_tables
+
+
+def _enrich_figures(
+    struct_figures: List[Dict[str, Any]] | None,
+    asset_figures: List[Dict[str, Any]] | None,
+    figure_infos: List[Dict[str, Any]] | None,
+) -> Tuple[List[Dict[str, Any]], List[Dict[str, Any]], List[Dict[str, Any]]]:
+    struct_figures = struct_figures or []
+    asset_figures = asset_figures or []
+    figure_infos = figure_infos or []
+
+    info_map = {
+        info.get("structure_index"): info
+        for info in figure_infos
+        if info.get("structure_index") is not None
+    }
+
+    enriched_struct: List[Dict[str, Any]] = []
+    enriched_assets: List[Dict[str, Any]] = []
+    figure_payloads: List[Dict[str, Any]] = []
+
+    for idx, fig in enumerate(struct_figures):
+        info = info_map.get(idx)
+        if not info:
+            continue
+
+        caption = info.get("caption")
+        asset_entry = None
+        if idx < len(asset_figures):
+            asset_entry = dict(asset_figures[idx])
+            asset_entry["content"] = fig
+            existing_caps = [cap for cap in asset_entry.get("captions", []) if cap]
+            if not caption and existing_caps:
+                caption = existing_caps[0]
+            if caption and caption not in existing_caps:
+                existing_caps.insert(0, caption)
+            asset_entry["captions"] = existing_caps
+        else:
+            asset_entry = {
+                "type": "figure",
+                "content": fig,
+                "captions": [caption] if caption else [],
+                "footnotes": [],
+            }
+
+        fig_entry = dict(fig)
+        fig_entry["caption"] = caption
+        fig_entry["page"] = info.get("page")
+        fig_entry["image_path"] = info.get("image_path")
+        fig_entry["local_id"] = info.get("id")
+        fig_entry["bbox"] = info.get("bbox_pdf")
+        enriched_struct.append(fig_entry)
+
+        asset_entry["content"] = fig_entry
+        footnotes = list(asset_entry.get("footnotes", []))
+        asset_entry["footnotes"] = footnotes
+        enriched_assets.append(asset_entry)
+
+        figure_payload = {
+            "kind": "figure",
+            "id": info.get("id"),
+            "local_id": info.get("id"),
+            "caption": caption,
+            "page": info.get("page"),
+            "image_path": info.get("image_path"),
+            "bbox": info.get("bbox_pdf"),
+            "bbox_pixels": info.get("bbox_pixels"),
+            "width_px": info.get("width_px"),
+            "height_px": info.get("height_px"),
+            "footnotes": footnotes,
+        }
+        figure_payloads.append(figure_payload)
+
+    return figure_payloads, enriched_struct, enriched_assets
 
 def process_pdf(
     pdf_path: Path,
@@ -67,6 +145,7 @@ def process_pdf(
 
     out_root = Path(work_dir) if work_dir else Path("out")
     figures_dir = out_root / "figures"
+    tables_dir = out_root / "tables"
     references_dir = out_root / "references"
     qa_dir = out_root / "qa"
     
@@ -91,17 +170,19 @@ def process_pdf(
     
     logger.info("Cropping figure images with EXIF captions")
     fig_stats = crop_figures(pdf_path, dl_raw, figures_dir)
+    figure_infos = fig_stats.pop("figures", [])
     
     logger.info("GROBID metadata & references")
     meta_tei = grobid.process_fulltext(str(pdf_path))
     refs_tei = grobid.process_biblio(str(pdf_path))
     meta = parse_grobid_metadata(meta_tei["tei_xml"])
     
-    # Parse authors from TEI only (not from Docling page text)
-    meta_authors = parse_authors_from_tei(meta_tei["tei_xml"])
-    # Clean metadata.authors - remove blanks and non-alpha entries
-    cleaned_authors = [a for a in meta_authors if isinstance(a, str) and a.strip() and any(ch.isalpha() for ch in a)]
-    meta["authors"] = cleaned_authors
+    if not meta.get("authors"):
+        meta_authors = parse_authors_from_tei(meta_tei["tei_xml"])
+        if meta_authors:
+            meta["authors"] = meta_authors
+    
+    enrich_authors_with_affiliations(meta, dl_raw)
     
     # Parse references into structured format
     refs = parse_references_tei(refs_tei["references_tei"])
@@ -116,9 +197,16 @@ def process_pdf(
     from json import loads
     abbrev = json.loads(Path("config/abbreviations_med.json").read_text(encoding="utf-8"))
     umls = UMLSClient(api_key=umls_key, cache=cache) if umls_key else None
-    merged = merge_outputs(dl_raw, meta, refs_tei, umls, abbrev) if umls else {
-        "metadata": meta, "structure": dl_raw.get("structure", dl_raw), "grobid": {"references_tei": refs_tei["references_tei"]}
-    }
+    merged = merge_outputs(
+        dl_raw,
+        meta,
+        refs_tei,
+        umls,
+        abbrev,
+        tei_xml=meta_tei["tei_xml"],
+    )
+
+    merged["recommendations"] = extract_recommendations(merged.get("structure", {}).get("sections", []))
     
     # Clean up author sections that may have leaked in
     drop_author_sections(merged.get("structure", {}))
@@ -199,10 +287,37 @@ def process_pdf(
     # 1. Link captions and footnotes to tables/figures
     logger.info("Linking captions and footnotes to assets")
     merged = link_captions(merged)
+
+    assets = merged.setdefault("assets", {})
+    structure = merged.setdefault("structure", {})
+
+    figure_payloads, struct_figs, asset_figs = _enrich_figures(
+        structure.get("figures"),
+        assets.get("figures"),
+        figure_infos,
+    )
+    structure["figures"] = struct_figs
+    assets["figures"] = asset_figs
+    merged["figures"] = figure_payloads
+
+    table_payloads, struct_tables, asset_tables = extract_structured_tables(
+        structure.get("tables", []),
+        assets.get("tables"),
+        tables_dir,
+        pdf_path.stem,
+    )
+    structure["tables"] = struct_tables
+    assets["tables"] = asset_tables
+    merged["tables"] = table_payloads
     
-    # 2. Extract statistics with context gating
-    logger.info("Extracting statistics with context gating")
-    merged["statistics"] = extract_statistics(full_text_normalized)
+    # 2. Extract statistics with provenance-aware parser (fallback to legacy)
+    logger.info("Extracting statistics with provenance metadata")
+    stats_enhanced = extract_statistics_enhanced(merged, full_text, dl_raw)
+    if stats_enhanced:
+        merged["statistics"] = stats_enhanced
+    else:
+        logger.warning("Enhanced statistics extractor returned no results; using legacy gating")
+        merged["statistics"] = extract_statistics_legacy(full_text_normalized)
     
     # 3. Filter UMLS links for quality
     if "umls_links" in merged:
@@ -236,6 +351,15 @@ def process_pdf(
     refs_count = len(merged.get("metadata", {}).get("references_enriched", []))
     refs_source = merged.get("metadata", {}).get("references_source", "unknown")
     logger.info(f"References: {refs_count} from {refs_source}")
+
+    # Re-run author affiliation enrichment now that metadata is finalized
+    enrich_authors_with_affiliations(merged.get("metadata", {}), dl_raw, merged)
+    author_meta = merged.get("metadata", {}).get("authors", [])
+    missing_affs = sum(1 for a in author_meta if isinstance(a, dict) and not a.get("affiliations"))
+    if missing_affs:
+        logger.warning("Authors missing affiliations after enrichment: {}", missing_affs)
+    else:
+        logger.info("All authors enriched with affiliations")
     
     # 7. Set validation flags
     merged.setdefault("validation", {}).update({
@@ -273,9 +397,11 @@ def process_pdf(
         "n_fig_crops": fig_stats.get("n_saved", 0),
         "missing_fig_bbox": fig_stats.get("n_missing_bbox", 0),
         "n_refs_csv": n_refs_csv,
+        "n_recommendations": len(merged.get("recommendations", [])),
         "n_umls_links": len(merged.get("umls_links", [])),
         "n_local_links": len(merged.get("umls_links_local", [])),
         "linker": linker_tag,
+        "page_text_ratio": merged.get("metrics", {}).get("page_text_ratio"),
         "completeness_score": validation["completeness_score"],
         "is_valid": validation["is_valid"]
     }

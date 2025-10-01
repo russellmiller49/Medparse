@@ -1,0 +1,14 @@
+Evidence level,
+1++,"High quality meta-analyses, systematic reviews of RCTs, or RCTs with a very low risk of bias"
+1+,"Well conducted meta-analyses, systematic reviews of RCTs, or RCTs with a low risk of bias"
+1 -,"Meta-analyses, systematic reviews, or RCTs with a high risk of bias"
+2++,"High quality systematic reviews of case - control or cohort studies; high quality case - control studies or cohort studies with a very low risk of confounding, bias, or chance and a high probability that the relationship is causal"
+2+,"Well conducted case - control or cohort studies with a low risk of confounding, bias, or chance andamoderateprobability that the relationship is causal"
+2 -,"Case - control or cohort studies with a high risk of confounding, bias, or chance and a significant risk that the relationship is not causal"
+3,"Nonanalytic studies, e. g. case reports, case series"
+4,Expert opinion
+Recommendation grade,
+A,"At least one meta-analysis, systematic review, or RCTrated as 1++and directly applicable to the target population or a systematic review of RCTs or a body of evidence consisting principally of studies rated as 1+directly applicable to the target population and demonstrat- ing overall consistency of results"
+B,A body of evidence including studies rated as 2++directly ap- plicable to the target population and demonstrating overall consistency of results or extrapolated evidence from studies rated as 1++or 1+
+C,A body of evidence including studies rated as 1 - or 2+directly applicable to the target population and demonstrating overall consistency of results or extrapolated evidence from studies rated as 2++
+D,"Evidence level 2 - , 3 or 4 or extrapolated evidence from studies rated as 2+"

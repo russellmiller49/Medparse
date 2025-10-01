@@ -48,6 +48,7 @@ def validate_extraction(doc: Dict[str, Any]) -> Dict[str, Any]:
         # Entity and statistics checks
         "has_entities": bool(doc.get("entities") or doc.get("umls_links") or doc.get("umls_links_local")),
         "has_statistics": bool(doc.get("statistics")),
+        "has_recommendations": bool(doc.get("recommendations")),
         
         # Reference checks
         "has_references": bool(doc.get("references") or refs_struct > 0),
@@ -76,6 +77,7 @@ def validate_extraction(doc: Dict[str, Any]) -> Dict[str, Any]:
         "has_figures": 1,
         "has_tables": 1,
         "has_statistics": 1,
+        "has_recommendations": 1,
         "has_cross_refs": 0.5
     }
     
@@ -105,6 +107,8 @@ def validate_extraction(doc: Dict[str, Any]) -> Dict[str, Any]:
         issues.append("Sections have no content")
     
     # Warnings (non-critical)
+    if not checks["has_recommendations"]:
+        warnings.append("No recommendations extracted")
     if not checks["has_entities"]:
         warnings.append("No medical entities found")
     if not checks["has_statistics"]:

@@ -4,37 +4,118 @@ from typing import Dict, Any, List
 from lxml import etree
 from .umls_linker import UMLSClient, normalize_terms, link_umls_phrases
 from .table_normalizer import normalize_table
+from .text_assembler import (
+    assemble_sections,
+    build_full_text,
+    compute_page_text_ratio,
+)
 
 def parse_grobid_metadata(tei_xml: str) -> Dict[str, Any]:
-    import re
     ns = {"tei": "http://www.tei-c.org/ns/1.0"}
-    
+
     root = etree.fromstring(tei_xml.encode("utf-8"))
-    
-    def fix_runon(s: str) -> str:
-        s = re.sub(r'(?<=[a-z])(?=[A-Z])', ' ', s)
-        s = re.sub(r'(?<=[A-Z])(?=[A-Z][a-z])', ' ', s)
-        return " ".join(s.split())
-    
-    def author_display(pers) -> Dict[str, str]:
-        surname = pers.xpath("string(tei:surname)", namespaces=ns).strip()
-        given_list = [t.strip() for t in pers.xpath("tei:forename/text()", namespaces=ns) if t and t.strip()]
-        given_list = [fix_runon(g) for g in given_list]
-        given = " ".join(given_list).strip()
-        ama_inits = "".join([g[0] for g in given_list if g])
-        return {"family": surname, "given": given, "display": f"{given} {surname}".strip(), "ama": f"{surname} {ama_inits}".strip()}
-    
+
+    def _text_list(node, xpath: str) -> List[str]:
+        return [t.strip() for t in node.xpath(xpath, namespaces=ns) if isinstance(t, str) and t.strip()]
+
+    def _affiliation_payload(aff) -> Dict[str, Any]:
+        orgs = _text_list(aff, ".//tei:orgName/text()")
+        address: Dict[str, Any] = {}
+        settlements = _text_list(aff, ".//tei:address/tei:settlement/text()")
+        if settlements:
+            address["city"] = settlements[0]
+        regions = _text_list(aff, ".//tei:address/tei:region/text()")
+        if regions:
+            address["region"] = regions[0]
+        country = aff.xpath("string(.//tei:address/tei:country)", namespaces=ns).strip()
+        if country:
+            address["country"] = country
+        parts = orgs[:]
+        if address.get("city"):
+            parts.append(address["city"])
+        if address.get("region") and address["region"] not in parts:
+            parts.append(address["region"])
+        if address.get("country") and address["country"] not in parts:
+            parts.append(address["country"])
+        payload: Dict[str, Any] = {}
+        if parts:
+            payload["text"] = ", ".join(parts)
+        if orgs:
+            payload["organizations"] = orgs
+        if address:
+            payload["address"] = address
+        return payload
+
+    def _author_payload(author_el) -> Dict[str, Any]:
+        forenames = _text_list(author_el, "./tei:persName/tei:forename/text()")
+        surname = author_el.xpath("string(./tei:persName/tei:surname)", namespaces=ns).strip()
+        given = " ".join(forenames)
+        full_name = " ".join(part for part in [given, surname] if part)
+        if not full_name and not (surname or given):
+            return {}
+        role_names = _text_list(author_el, "./tei:persName/tei:roleName/text()")
+        email = author_el.xpath("string(./tei:email)", namespaces=ns).strip()
+        affiliations = []
+        for aff in author_el.xpath("./tei:affiliation", namespaces=ns):
+            payload = _affiliation_payload(aff)
+            if payload:
+                affiliations.append(payload)
+        author_payload: Dict[str, Any] = {
+            "given": given or None,
+            "family": surname or None,
+            "full_name": full_name or None,
+            "qualifications": ", ".join(role_names) if role_names else None,
+            "email": email or None,
+            "is_corresponding": author_el.get("role") == "corresp",
+            "affiliations": affiliations,
+        }
+        if author_payload.get("full_name"):
+            display = author_payload["full_name"]
+        else:
+            display = author_payload.get("family") or author_payload.get("given")
+        author_payload["display"] = display
+        # Prune empty fields
+        return {k: v for k, v in author_payload.items() if v not in (None, [], "")}
+
     title = root.xpath("string(//tei:teiHeader//tei:titleStmt/tei:title)", namespaces=ns) or None
-    year = root.xpath("string(//tei:teiHeader//tei:sourceDesc//tei:biblStruct//tei:imprint/tei:date/@when)", namespaces=ns) \
-        or root.xpath("string(//tei:teiHeader//tei:profileDesc//tei:creation/tei:date/@when)", namespaces=ns) or None
-    
-    pers_nodes = root.xpath("//tei:teiHeader//tei:sourceDesc//tei:biblStruct/tei:analytic/tei:author/tei:persName", namespaces=ns)
-    authors = [author_display(p) for p in pers_nodes]
-    
-    refs_text = [etree.tostring(n, method="text", encoding="unicode").strip()
-                 for n in root.xpath("//tei:text//tei:listBibl/tei:biblStruct", namespaces=ns)]
-    
-    return {"title": title, "year": year, "authors": authors, "references_text": refs_text}
+    year = root.xpath(
+        "string(//tei:teiHeader//tei:sourceDesc//tei:biblStruct//tei:imprint/tei:date/@when)",
+        namespaces=ns,
+    ) or root.xpath(
+        "string(//tei:teiHeader//tei:profileDesc//tei:creation/tei:date/@when)",
+        namespaces=ns,
+    ) or None
+
+    author_nodes = root.xpath(
+        "//tei:teiHeader//tei:sourceDesc//tei:biblStruct/tei:analytic/tei:author",
+        namespaces=ns,
+    )
+    authors = [payload for node in author_nodes for payload in [_author_payload(node)] if payload]
+
+    # Capture corresponding author summary if available
+    corresponding = next((a for a in authors if a.get("is_corresponding")), None)
+    corresponding_summary = None
+    if corresponding:
+        corresponding_summary = {
+            "name": corresponding.get("display"),
+            "email": corresponding.get("email"),
+            "affiliations": corresponding.get("affiliations"),
+        }
+
+    refs_text = [
+        etree.tostring(n, method="text", encoding="unicode").strip()
+        for n in root.xpath("//tei:text//tei:listBibl/tei:biblStruct", namespaces=ns)
+    ]
+
+    payload: Dict[str, Any] = {
+        "title": title,
+        "year": year,
+        "authors": authors,
+        "references_text": refs_text,
+    }
+    if corresponding_summary:
+        payload["corresponding_author"] = corresponding_summary
+    return payload
 
 
 def _collect_candidate_terms(doc: Dict[str,Any], abbrev_map: Dict[str,str]) -> List[str]:
@@ -105,14 +186,8 @@ def enrich_with_umls(doc: Dict[str,Any], umls: UMLSClient, abbrev_map: Dict[str,
 
 
 def concat_text(doc: Dict[str,Any], limit_chars: int = 300000) -> str:
-    parts = []
-    struct = doc.get("structure", {})
-    for sec in struct.get("sections", []):
-        if sec.get("title"): parts.append(sec["title"])
-        for p in sec.get("paragraphs", []):
-            t = p.get("text","")
-            if t: parts.append(t)
-    return "\n".join(parts)[:limit_chars]
+    sections = doc.get("structure", {}).get("sections", [])
+    return build_full_text(sections, limit=limit_chars)
 
 def extract_trial_ids(text: str) -> List[str]:
     nct = r'\bNCT\d{8}\b'
@@ -141,50 +216,40 @@ def resolve_cross_references(doc: Dict[str, Any]) -> None:
                 xs.append({"type": "figure" if "fig" in kind else "table", "index": idx, "text": m.group(0), "span": [m.start(), m.end()]})
             if xs: para["cross_refs"] = xs
 
-def merge_outputs(docling_json: Dict, grobid_meta: Dict, grobid_refs: Dict, umls_client: UMLSClient, abbrev_map: Dict[str,str]) -> Dict:
-    # Handle new docling 2.48.0 structure
+def merge_outputs(
+    docling_json: Dict,
+    grobid_meta: Dict,
+    grobid_refs: Dict,
+    umls_client: UMLSClient | None,
+    abbrev_map: Dict[str, str],
+    *,
+    tei_xml: str | None = None,
+) -> Dict:
     doc = docling_json.get("document", {})
-    
-    # Extract sections from assembled body (docling 2.48.0 uses 'label' not 'type')
-    sections = []
-    if "assembled" in docling_json:
-        body = docling_json["assembled"].get("body", [])
-        current_section = {"title": "", "paragraphs": []}
-        for elem in body:
-            label = elem.get("label", "")
-            if label == "section_header":
-                if current_section["paragraphs"]:
-                    sections.append(current_section)
-                current_section = {"title": elem.get("text", ""), "paragraphs": []}
-            elif label in ["text", "list_item"]:
-                current_section["paragraphs"].append({"text": elem.get("text", "")})
-        if current_section["paragraphs"]:
-            sections.append(current_section)
-    
-    # Extract tables from document.tables
+
+    sections = assemble_sections(tei_xml, docling_json)
     tables = doc.get("tables", [])
-    
-    # Extract figures from document.pictures
     figures = doc.get("pictures", [])
-    
-    # Try to associate captions with figures from assembled body
+
     if "assembled" in docling_json:
         body = docling_json["assembled"].get("body", [])
         figure_idx = 0
         for i in range(len(body) - 1):
             elem = body[i]
             next_elem = body[i + 1]
-            
-            # If we find a picture followed by a caption, associate them
-            if (elem.get("label") == "picture" and 
-                next_elem.get("label") == "caption" and 
-                figure_idx < len(figures)):
-                
+            if (
+                elem.get("label") == "picture"
+                and next_elem.get("label") == "caption"
+                and figure_idx < len(figures)
+            ):
                 caption_text = next_elem.get("text", "")
                 if caption_text and not figures[figure_idx].get("captions"):
                     figures[figure_idx]["caption_text"] = caption_text
                 figure_idx += 1
-    
+
+    full_text = build_full_text(sections)
+    ratio = compute_page_text_ratio(docling_json, full_text)
+
     out = {
         "metadata": grobid_meta,
         "structure": {
@@ -198,7 +263,14 @@ def merge_outputs(docling_json: Dict, grobid_meta: Dict, grobid_refs: Dict, umls
             "n_citations": len(doc.get("citations", [])),
         },
         "provenance": docling_json.get("provenance", {}),
-        "grobid": {"references_tei": grobid_refs.get("references_tei")}
+        "grobid": {"references_tei": grobid_refs.get("references_tei")},
+        "full_text": full_text,
     }
-    out = enrich_with_umls(out, umls_client, abbrev_map)
+
+    if ratio is not None:
+        out.setdefault("metrics", {})["page_text_ratio"] = ratio
+
+    if umls_client:
+        out = enrich_with_umls(out, umls_client, abbrev_map)
+
     return out
