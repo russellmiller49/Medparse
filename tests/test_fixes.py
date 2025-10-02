@@ -11,7 +11,7 @@ if str(ROOT) not in sys.path:
     sys.path.append(str(ROOT))
 
 from scripts.statistics_gated import extract_statistics, has_statistical_context, is_excluded_pattern
-from scripts.umls_filters import filter_umls_links, BLACKLIST_TERMS
+from scripts.umls_filters import filter_umls_links, BLACKLIST_TERMS, cluster_umls_links
 from scripts.caption_linker import link_captions, find_caption_for_asset
 from scripts.authors_fallback import extract_authors_from_frontmatter, is_valid_author_name
 
@@ -125,6 +125,66 @@ class TestUMLSFiltering:
         c123_matches = [l for l in filtered if l['cui'] == 'C123']
         assert len(c123_matches) == 1
         assert c123_matches[0]['text'] == 'myocardial infarction'
+
+    def test_clusters_links_into_concepts(self):
+        """Mention-level links should cluster into canonical concepts."""
+        links = [
+            {
+                'text': 'endobronchial ultrasound',
+                'cui': 'C123',
+                'score': 0.92,
+                'semtypes': ['T060'],
+                'preferred_term': 'Endobronchial Ultrasonography',
+                'synonyms': ['EBUS'],
+                'start': 10,
+                'end': 34,
+                'source': 'QuickUMLS',
+                'negated': False,
+                'section_index': 1,
+                'section_title': 'Recommendations',
+            },
+            {
+                'text': 'EBUS',
+                'cui': 'C123',
+                'score': 0.88,
+                'semtypes': ['T060'],
+                'preferred_term': 'Endobronchial Ultrasonography',
+                'synonyms': ['endobronchial ultrasound'],
+                'start': 50,
+                'end': 54,
+                'source': 'UMLS',
+                'negated': False,
+                'section_index': 2,
+                'section_title': 'Background',
+            },
+            {
+                'text': 'mediastinoscopy',
+                'cui': 'C456',
+                'score': 0.9,
+                'semtypes': ['T060'],
+                'preferred_term': 'Mediastinoscopy',
+                'synonyms': [],
+                'start': 100,
+                'end': 114,
+                'source': 'QuickUMLS',
+                'negated': True,
+                'section_index': 3,
+                'section_title': 'Recommendations',
+            },
+        ]
+
+        clusters = cluster_umls_links(links)
+        assert len(clusters) == 2
+
+        ebus_cluster = next(c for c in clusters if c['cui'] == 'C123')
+        assert ebus_cluster['mention_count'] == 2
+        assert ebus_cluster['max_confidence'] == 0.92
+        assert 'EBUS' in ebus_cluster['synonyms']
+        assert any(m['section_title'] == 'Recommendations' for m in ebus_cluster['mentions'])
+
+        mediastinoscopy_cluster = next(c for c in clusters if c['cui'] == 'C456')
+        assert mediastinoscopy_cluster['has_negated_mentions'] is True
+        assert mediastinoscopy_cluster['negated_mentions'] == 1
 
 class TestCaptionLinking:
     """Test caption and footnote linking."""

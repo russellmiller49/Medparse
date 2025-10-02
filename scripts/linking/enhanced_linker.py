@@ -1,6 +1,7 @@
 """Enhanced multi-source medical concept linker."""
 from __future__ import annotations
 
+import re
 from dataclasses import dataclass, field
 from typing import Any, Dict, Iterable, List, Optional, Tuple
 
@@ -12,6 +13,19 @@ from .umls_api import umls_lookup_exact, umls_search_approximate
 _ALLOWED_TUIS = frozenset(VALID_TUIS) if VALID_TUIS else frozenset()
 _UMLS_MIN_CONFIDENCE = 0.8
 _FALLBACK_MIN_CONFIDENCE = 0.65
+_NEGATION_WINDOW = 80
+_NEGATION_PATTERNS = (
+    r"\bno\b",
+    r"\bnot\b",
+    r"\bwithout\b",
+    r"\babsence of\b",
+    r"\black of\b",
+    r"\bdenies\b",
+    r"\bnegative for\b",
+    r"\brule out\b",
+    r"\bruled out\b",
+    r"\bfree of\b",
+)
 
 
 @dataclass(slots=True)
@@ -252,12 +266,39 @@ def _choose_best_candidate(bucket: MentionBucket) -> Optional[Candidate]:
     return None
 
 
+def _find_section(section_spans: Optional[List[Dict[str, Any]]], start: int) -> Optional[Dict[str, Any]]:
+    if not section_spans:
+        return None
+    for span in section_spans:
+        if span.get("start") <= start < span.get("end"):
+            return span
+    return None
+
+
+def _is_negated(text: Optional[str], start: int) -> bool:
+    if not text or start is None:
+        return False
+    window_start = max(0, start - _NEGATION_WINDOW)
+    window = text[window_start:start].lower()
+    for pattern in _NEGATION_PATTERNS:
+        match = re.search(pattern, window)
+        if not match:
+            continue
+        # ensure negation cue is close to the mention (<= 40 chars apart)
+        cue_distance = len(window) - match.end()
+        if cue_distance <= 40:
+            return True
+    return False
+
+
 def link_medical_concepts(
     text: str,
     *,
     top_k: int = 20,
     quickumls_path: Optional[str] = None,
     cache: Optional[CacheManager] = None,
+    normalized_text: Optional[str] = None,
+    section_spans: Optional[List[Dict[str, Any]]] = None,
 ) -> List[Dict[str, Any]]:
     """Link text spans to medical concepts using multi-source fallback."""
 
@@ -313,6 +354,9 @@ def link_medical_concepts(
         if not candidate:
             continue
         synonyms = _clean_synonyms(bucket.synonyms, fallback=bucket.text)
+        section_info = _find_section(section_spans, bucket.start)
+        negated = _is_negated(normalized_text, bucket.start)
+
         resolved.append(
             {
                 "text": bucket.text,
@@ -327,6 +371,10 @@ def link_medical_concepts(
                 "source": candidate.source,
                 "confidence": round(min(max(candidate.confidence, 0.0), 1.0), 4),
                 "score": round(min(max(candidate.confidence, 0.0), 1.0), 4),
+                "negated": negated,
+                "section_index": section_info.get("index") if section_info else None,
+                "section_title": section_info.get("title") if section_info else None,
+                "section_category": section_info.get("category") if section_info else None,
             }
         )
 

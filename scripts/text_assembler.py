@@ -5,6 +5,8 @@ import re
 from difflib import SequenceMatcher
 from typing import Any, Dict, List, Optional
 
+from wordfreq import zipf_frequency
+
 from lxml import etree
 
 TEI_NS = {"tei": "http://www.tei-c.org/ns/1.0"}
@@ -33,6 +35,8 @@ def _clean_text(text: str) -> str:
     text = re.sub(r"(?<=\w)-\s+(?=\w)", "", text)
     text = re.sub(r"\s+", " ", text)
     text = text.strip()
+    if text:
+        text = _fix_inline_hyphenation(text)
     if len(text) <= 2 and not any(ch.isalpha() for ch in text):
         return ""
     return text
@@ -313,7 +317,57 @@ def _dedupe_sections(sections: List[Dict[str, Any]]) -> List[Dict[str, Any]]:
     return deduped
 
 
-def build_full_text(sections: List[Dict[str, Any]], *, limit: int = 300000) -> str:
+_HYPHEN_TOKEN_PATTERN = re.compile(r"^([A-Za-z][A-Za-z']*)(-)([A-Za-z'][A-Za-z]*)([^A-Za-z]*)$")
+_SMALL_SUFFIX_SKIP = {"up", "in", "out", "off", "on", "per", "non", "pre", "post"}
+
+
+def _fix_inline_hyphenation(text: str) -> str:
+    tokens = text.split()
+    if not tokens:
+        return text
+
+    def _merge(token: str) -> str:
+        match = _HYPHEN_TOKEN_PATTERN.match(token)
+        if not match:
+            return token
+
+        head, _, tail, suffix = match.groups()
+
+        # Avoid merging identifiers or all-caps abbreviations
+        if head.isupper() or tail.isupper():
+            return token
+
+        combined = head + tail
+
+        combined_freq = zipf_frequency(combined.lower(), "en")
+
+        head_freq = zipf_frequency(head.lower(), "en")
+        tail_freq = zipf_frequency(tail.lower(), "en")
+        hyphen_freq = zipf_frequency((head + '-' + tail).lower(), "en")
+
+        merge_allowed = False
+
+        if combined_freq > 0 and combined_freq >= max(head_freq + 0.3, tail_freq + 0.3, hyphen_freq + 0.3, 3.5):
+            merge_allowed = True
+        elif len(tail) <= 3 and tail.lower() not in _SMALL_SUFFIX_SKIP and len(head) >= 4:
+            merge_allowed = True
+
+        if not merge_allowed:
+            return token
+
+        # Preserve leading capitalization pattern (e.g., Netherlands)
+        if head[0].isupper():
+            merged = head[0] + (head[1:] + tail)
+        else:
+            merged = combined
+
+        return merged + suffix
+
+    merged_tokens = [_merge(tok) for tok in tokens]
+    return " ".join(merged_tokens)
+
+
+def build_full_text(sections: List[Dict[str, Any]], *, limit: int | None = None) -> str:
     parts: List[str] = []
     for section in sections:
         title = section.get("title")
@@ -324,7 +378,7 @@ def build_full_text(sections: List[Dict[str, Any]], *, limit: int = 300000) -> s
             if text:
                 parts.append(text)
     full_text = "\n".join(parts)
-    if limit and len(full_text) > limit:
+    if limit is not None and len(full_text) > limit:
         return full_text[:limit]
     return full_text
 

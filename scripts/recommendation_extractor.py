@@ -5,6 +5,7 @@ import re
 from typing import Any, Dict, List, Tuple
 
 _NUMBER_RE = re.compile(r"^[\s●•]*(\d{1,2})[.)]?\s+(.*)")
+_MULTI_NUMBER_RE = re.compile(r"(?:^|(?<=\s))(\d{1,2})[.)]?\s+")
 _GRADE_RE = re.compile(r"\(?\s*Recommendation grade\s+([A-Z])\)?", re.IGNORECASE)
 _BACKGROUND_KEYWORDS = ("background", "review")
 _SECTION_SKIP_KEYWORDS = ("institution", "reference", "bibliography", "appendix", "correction")
@@ -45,57 +46,63 @@ def extract_recommendations(sections: List[Dict[str, Any]]) -> List[Dict[str, An
             if "green background" in text.lower():
                 continue
 
-            match = _NUMBER_RE.match(text)
-            is_new_number = bool(match)
-            if match:
-                num = int(match.group(1))
-                body = match.group(2).strip()
-            elif prev_num is not None:
-                num = prev_num
-                body = text
-            else:
-                prev_num = None
+            chunks = _split_recommendation_chunks(text)
+            if not chunks:
+                if prev_num is not None:
+                    _append_to_existing(prev_num, text, rec_data, idx, title)
                 continue
 
-            if not 1 <= num <= 11:
-                prev_num = None
-                continue
+            for chunk in chunks:
+                num = chunk.get("num")
+                body = chunk.get("body", "").strip()
+                if not body:
+                    continue
 
-            cleaned_text, grade = _strip_grade(body)
-            cleaned_text = cleaned_text.strip()
-            if not cleaned_text:
+                if num is None:
+                    if prev_num is None:
+                        continue
+                    _append_to_existing(prev_num, body, rec_data, idx, title)
+                    continue
+
+                if not 1 <= num <= 11:
+                    prev_num = None
+                    continue
+
+                cleaned_text, grade = _strip_grade(body)
+                cleaned_text = cleaned_text.strip()
+                if not cleaned_text:
+                    prev_num = num
+                    continue
+
+                record = rec_data.setdefault(
+                    num,
+                    {
+                        "segments": [],
+                        "grade": None,
+                        "section_entries": [],
+                        "supplementary": [],
+                    },
+                )
+
+                record["section_entries"].append((idx, title))
+
+                if grade and not record["grade"]:
+                    record["grade"] = grade
+
+                if chunk.get("is_new", False):
+                    if not record["segments"]:
+                        record["segments"].append(cleaned_text)
+                        record["primary_index"] = idx
+                    else:
+                        if cleaned_text not in record["supplementary"]:
+                            record["supplementary"].append(cleaned_text)
+                else:
+                    if record["segments"]:
+                        record["segments"][-1] = _append_segment(record["segments"][-1], cleaned_text)
+                    else:
+                        record["segments"].append(cleaned_text)
+
                 prev_num = num
-                continue
-
-            record = rec_data.setdefault(
-                num,
-                {
-                    "segments": [],
-                    "grade": None,
-                    "section_entries": [],
-                    "supplementary": [],
-                },
-            )
-
-            record["section_entries"].append((idx, title))
-
-            if grade and not record["grade"]:
-                record["grade"] = grade
-
-            if is_new_number:
-                if not record["segments"]:
-                    record["segments"].append(cleaned_text)
-                    record["primary_index"] = idx
-                else:
-                    if cleaned_text not in record["supplementary"]:
-                        record["supplementary"].append(cleaned_text)
-            else:
-                if record["segments"]:
-                    record["segments"][-1] = _append_segment(record["segments"][-1], cleaned_text)
-                else:
-                    record["segments"].append(cleaned_text)
-
-            prev_num = num
         # reset between sections
         prev_num = None
 
@@ -172,6 +179,48 @@ def _dedupe_sections(entries: List[Tuple[int, str]]) -> List[Dict[str, Any]]:
         seen.add(key)
         deduped.append({"index": idx, "title": title})
     return deduped
+
+
+def _split_recommendation_chunks(text: str) -> List[Dict[str, Any]]:
+    matches = list(_MULTI_NUMBER_RE.finditer(text))
+    if not matches:
+        return []
+
+    chunks: List[Dict[str, Any]] = []
+    cursor = 0
+    for i, match in enumerate(matches):
+        if match.start() > cursor:
+            leading = text[cursor:match.start()].strip()
+            if leading:
+                chunks.append({"num": None, "body": leading, "is_new": False})
+        num = int(match.group(1))
+        start = match.end()
+        end = matches[i + 1].start() if i + 1 < len(matches) else len(text)
+        body = text[start:end].strip()
+        chunks.append({"num": num, "body": body, "is_new": True})
+        cursor = end
+
+    if cursor < len(text):
+        trailing = text[cursor:].strip()
+        if trailing:
+            chunks.append({"num": None, "body": trailing, "is_new": False})
+
+    return chunks
+
+
+def _append_to_existing(num: int, text: str, rec_data: Dict[int, Dict[str, Any]], idx: int, title: str) -> None:
+    record = rec_data.get(num)
+    if not record:
+        return
+    record["section_entries"].append((idx, title))
+    cleaned_text, _ = _strip_grade(text)
+    cleaned_text = cleaned_text.strip()
+    if not cleaned_text:
+        return
+    if record["segments"]:
+        record["segments"][-1] = _append_segment(record["segments"][-1], cleaned_text)
+    else:
+        record["segments"].append(cleaned_text)
 
 
 __all__ = ["extract_recommendations"]

@@ -39,7 +39,7 @@ from scripts.linking.umls_only_linker import link_medical_concepts_umls_only
 # Import extraction fix modules
 from scripts.statistics_enhanced import extract_statistics as extract_statistics_enhanced
 from scripts.statistics_gated import extract_statistics as extract_statistics_legacy
-from scripts.umls_filters import filter_umls_links
+from scripts.umls_filters import filter_umls_links, cluster_umls_links
 from scripts.caption_linker import link_captions
 from scripts.authors_fallback import extract_authors_from_frontmatter, enrich_authors_with_affiliations
 from scripts.abstract_fallback import extract_abstract
@@ -125,6 +125,49 @@ def _enrich_figures(
 
     return figure_payloads, enriched_struct, enriched_assets
 
+def _prepare_normalized_sections(sections: List[Dict[str, Any]]) -> Tuple[str, List[Dict[str, Any]]]:
+    section_blocks: List[str] = []
+    for sec in sections:
+        parts: List[str] = []
+        title = (sec.get("title") or "").strip()
+        if title:
+            parts.append(title)
+        for para in sec.get("paragraphs", []) or []:
+            text = ""
+            if isinstance(para, dict):
+                text = (para.get("text") or "").strip()
+            elif isinstance(para, str):
+                text = para.strip()
+            if text:
+                parts.append(text)
+        section_blocks.append("\n".join(parts))
+
+    normalized_blocks = [normalize_for_nlp(block) for block in section_blocks]
+    non_empty_indices = [i for i, block in enumerate(normalized_blocks) if block]
+    normalized_text = "\n".join(normalized_blocks[i] for i in non_empty_indices)
+
+    section_spans: List[Dict[str, Any]] = []
+    cursor = 0
+    for position, idx in enumerate(non_empty_indices):
+        block = normalized_blocks[idx]
+        start = cursor
+        end = start + len(block)
+        section_spans.append(
+            {
+                "index": idx,
+                "title": sections[idx].get("title"),
+                "category": sections[idx].get("category"),
+                "start": start,
+                "end": end,
+            }
+        )
+        cursor = end
+        if position != len(non_empty_indices) - 1:
+            cursor += 1
+
+    return normalized_text, section_spans
+
+
 def process_pdf(
     pdf_path: Path,
     out_json: Path,
@@ -207,14 +250,16 @@ def process_pdf(
     )
 
     merged["recommendations"] = extract_recommendations(merged.get("structure", {}).get("sections", []))
+
+    for sec in merged.get("structure", {}).get("sections", []):
+        sec["category"] = classify_section(sec.get("title", ""))
     
     # Clean up author sections that may have leaked in
     drop_author_sections(merged.get("structure", {}))
     
-    # Build full text once
+    sections = merged.get("structure", {}).get("sections", [])
     full_text = concat_text(merged)
-    # Normalize text for NLP (ligatures, hyphens, inline expansions)
-    full_text_normalized = normalize_for_nlp(full_text)
+    full_text_normalized, section_spans = _prepare_normalized_sections(sections)
     
     if linker not in {"umls", "scispacy", "quickumls"}:
         raise ValueError("linker must be one of: umls | scispacy | quickumls")
@@ -227,6 +272,8 @@ def process_pdf(
             top_k=concept_top_k,
             quickumls_path=quick_path,
             cache=cache,
+            normalized_text=full_text_normalized,
+            section_spans=section_spans,
         )
     except Exception as exc:
         logger.exception("Enhanced concept linking failed: %s", exc)
@@ -324,6 +371,7 @@ def process_pdf(
         logger.info("Filtering UMLS links for quality")
         original_count = len(merged["umls_links"])
         merged["umls_links"] = filter_umls_links(merged["umls_links"])
+        merged["umls_concepts"] = cluster_umls_links(merged["umls_links"])
         filtered_count = len(merged["umls_links"])
         logger.info(f"UMLS links: {original_count} → {filtered_count} after filtering")
     
@@ -371,9 +419,6 @@ def process_pdf(
     })
     
     # Section classification
-    for sec in merged.get("structure", {}).get("sections", []):
-        sec["category"] = classify_section(sec.get("title",""))
-    
     resolve_cross_references(merged)
     
     # Validation

@@ -74,3 +74,19 @@ def test_page_text_ratio_uses_docling_sections():
 
     ratio = compute_page_text_ratio(docling, full_text)
     assert ratio == 1.0
+
+
+def test_inline_hyphenation_is_smoothed():
+    docling = _make_docling_body([
+        {"label": "section_header", "text": "Body"},
+        {"label": "text", "text": "Neth-erlands mediastinosco-py follow-up"},
+    ])
+
+    sections = assemble_sections(None, docling)
+    body = next(sec for sec in sections if sec.get("title") == "Body")
+    text = " ".join(para["text"] for para in body["paragraphs"])
+
+    assert "Netherlands" in text
+    assert "mediastinoscopy" in text
+    # Legitimate hyphenated words remain
+    assert "follow-up" in text

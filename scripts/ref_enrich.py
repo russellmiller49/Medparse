@@ -72,6 +72,27 @@ def fetch_pubmed_by_id(pmid: str) -> Optional[Dict]:
     return None
 
 
+def _normalize_doi(doi: str) -> Optional[str]:
+    """Extract valid DOI from potentially malformed GROBID output."""
+    if not doi:
+        return None
+    
+    import re
+    
+    # Common DOI pattern: 10.xxxx/xxxxx
+    doi_pattern = r'10\.\d{4,9}/[^\s]+'
+    match = re.search(doi_pattern, doi)
+    
+    if match:
+        normalized = match.group(0)
+        # Remove trailing punctuation and common suffixes that might have been concatenated
+        normalized = re.sub(r'[.,;:)\]]+$', '', normalized)
+        # Remove common publication suffixes like "Epub2013May30"
+        normalized = re.sub(r'Epub\d{4}[A-Za-z]{3}\d{1,2}$', '', normalized)
+        return normalized
+    
+    return None
+
 def search_pubmed_by_doi(doi: str) -> Optional[str]:
     """
     Search PubMed by DOI to get PMID.
@@ -87,17 +108,22 @@ def search_pubmed_by_doi(doi: str) -> Optional[str]:
     
     _rate_limit()
     
+    # Normalize DOI first to extract valid DOI from malformed GROBID output
+    normalized_doi = _normalize_doi(doi)
+    if not normalized_doi:
+        return None
+    
     # Clean DOI (remove common prefixes)
-    if doi.startswith("http://dx.doi.org/"):
-        doi = doi[18:]
-    elif doi.startswith("https://doi.org/"):
-        doi = doi[16:]
-    elif doi.startswith("doi:"):
-        doi = doi[4:]
+    if normalized_doi.startswith("http://dx.doi.org/"):
+        normalized_doi = normalized_doi[18:]
+    elif normalized_doi.startswith("https://doi.org/"):
+        normalized_doi = normalized_doi[16:]
+    elif normalized_doi.startswith("doi:"):
+        normalized_doi = normalized_doi[4:]
     
     params = {
         "db": "pubmed",
-        "term": f"{doi}[AID]",
+        "term": f"{normalized_doi}[AID]",
         "retmode": "json",
         "email": NCBI_EMAIL
     }

@@ -1,7 +1,7 @@
 # scripts/ref_enricher.py
 from __future__ import annotations
 from typing import List, Dict, Any, Optional
-import httpx, time, os
+import httpx, requests, time, os
 from tenacity import retry, stop_after_attempt, wait_exponential
 
 NCBI_BASE = "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/"
@@ -21,15 +21,67 @@ def _get_json(path: str, params: Dict[str, Any]) -> Dict[str, Any]:
         r.raise_for_status()
         return r.json()
 
+PMC_IDCONV_URL = "https://pmc.ncbi.nlm.nih.gov/tools/idconv/api/v1/articles/"
+
+
+def _normalize_doi(doi: str) -> Optional[str]:
+    """Extract valid DOI from potentially malformed GROBID output."""
+    if not doi:
+        return None
+    
+    import re
+    
+    # Common DOI pattern: 10.xxxx/xxxxx
+    doi_pattern = r'10\.\d{4,9}/[^\s]+'
+    match = re.search(doi_pattern, doi)
+    
+    if match:
+        normalized = match.group(0)
+        # Remove trailing punctuation and common suffixes that might have been concatenated
+        normalized = re.sub(r'[.,;:)\]]+$', '', normalized)
+        # Remove common publication suffixes like "Epub2013May30"
+        normalized = re.sub(r'Epub\d{4}[A-Za-z]{3}\d{1,2}$', '', normalized)
+        return normalized
+    
+    return None
+
 def _idconv_doi(doi: str) -> Optional[str]:
-    if not doi: return None
-    with httpx.Client(timeout=20.0) as cli:
-        r = cli.get("https://www.ncbi.nlm.nih.gov/pmc/utils/idconv/v1.0/",
-                    params={"format":"json","ids":doi,"tool":"medparse","email":NCBI_EMAIL})
-        r.raise_for_status()
-        data = r.json()
-    recs = data.get("records", [])
-    return recs[0].get("pmid") if recs else None
+    if not doi:
+        return None
+
+    # Normalize DOI first to extract valid DOI from malformed GROBID output
+    normalized_doi = _normalize_doi(doi)
+    if not normalized_doi:
+        return None
+
+    params = {
+        "format": "json",
+        "ids": normalized_doi,
+        "tool": "medparse",
+        "email": NCBI_EMAIL,
+    }
+
+    # NCBI idconv service currently rejects httpx user agents with 403, so use
+    # requests for the DOI lookup to follow the recommended endpoint.
+    response = requests.get(
+        PMC_IDCONV_URL,
+        params=params,
+        timeout=20.0,
+        headers={
+            "User-Agent": "medparse/1.0 (+%s)" % NCBI_EMAIL,
+            "Accept": "application/json",
+        },
+    )
+    response.raise_for_status()
+    data = response.json()
+
+    records = data.get("records", []) if isinstance(data, dict) else []
+    if not records:
+        return None
+
+    primary = records[0] or {}
+    pmid = primary.get("pmid") or primary.get("pmid_id")
+    return pmid
 
 def _esearch_title(title: str, first_author: Optional[str], year: Optional[str]) -> Optional[str]:
     if not title: return None

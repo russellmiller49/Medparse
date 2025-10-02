@@ -7,6 +7,8 @@ from typing import List, Dict, Any, Optional
 
 from loguru import logger
 
+from scripts.text_assembler import _fix_inline_hyphenation
+
 def extract_authors_from_frontmatter(doc: Dict[str, Any]) -> List[str]:
     """
     Extract authors from document front matter when metadata.authors is empty.
@@ -464,6 +466,7 @@ def _maybe_store_affiliation(text: str, aff_map: Dict[int, str]) -> None:
     if not text:
         return
     text = BULLET_PATTERN.sub("", text).strip()
+    text = _fix_inline_hyphenation(text)
     match = re.match(r"^(\d{1,2})\s+(.*)$", text)
     if not match:
         return

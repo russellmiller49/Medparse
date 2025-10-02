@@ -169,3 +169,88 @@ def get_link_quality_score(link: Dict[str, Any]) -> float:
         score *= 0.5
     
     return score
+
+
+def cluster_umls_links(links: List[Dict[str, Any]]) -> List[Dict[str, Any]]:
+    """Aggregate mention-level links into canonical concept clusters."""
+
+    if not links:
+        return []
+
+    clusters: Dict[str, Dict[str, Any]] = {}
+
+    for link in links:
+        cui = link.get("cui")
+        if not cui:
+            continue
+
+        bucket = clusters.setdefault(
+            cui,
+            {
+                "cui": cui,
+                "preferred_term": link.get("preferred_term") or link.get("preferred_name") or link.get("text"),
+                "tui": set(link.get("semtypes") or link.get("tui") or []),
+                "synonyms": set(),
+                "sources": set(),
+                "mentions": [],
+                "max_confidence": 0.0,
+                "total_confidence": 0.0,
+                "negated_mentions": 0,
+            },
+        )
+
+        bucket["sources"].add(link.get("source") or "unknown")
+
+        if link.get("preferred_term") and (not bucket["preferred_term"] or link["preferred_term"]):
+            bucket["preferred_term"] = link["preferred_term"]
+
+        bucket["tui"].update(link.get("semtypes", []) or link.get("tui", []))
+
+        for value in link.get("synonyms", []) or []:
+            if value:
+                bucket["synonyms"].add(value)
+        if link.get("text"):
+            bucket["synonyms"].add(link["text"])
+
+        confidence = float(link.get("confidence") or link.get("score") or 0.0)
+        bucket["max_confidence"] = max(bucket["max_confidence"], confidence)
+        bucket["total_confidence"] += confidence
+
+        mention = {
+            "text": link.get("text"),
+            "start": link.get("start"),
+            "end": link.get("end"),
+            "confidence": confidence,
+            "source": link.get("source"),
+            "negated": bool(link.get("negated")),
+            "section_index": link.get("section_index"),
+            "section_title": link.get("section_title"),
+            "section_category": link.get("section_category"),
+        }
+        bucket["mentions"].append(mention)
+
+        if mention["negated"]:
+            bucket["negated_mentions"] += 1
+
+    aggregated: List[Dict[str, Any]] = []
+    for data in clusters.values():
+        mention_count = len(data["mentions"])
+        mean_confidence = data["total_confidence"] / mention_count if mention_count else 0.0
+        entry = {
+            "cui": data["cui"],
+            "preferred_term": data["preferred_term"],
+            "tui": sorted(t for t in data["tui"] if t),
+            "synonyms": sorted(s for s in data["synonyms"] if s),
+            "sources": sorted(s for s in data["sources"] if s),
+            "mentions": data["mentions"],
+            "max_confidence": round(data["max_confidence"], 4),
+            "mean_confidence": round(mean_confidence, 4),
+            "mention_count": mention_count,
+            "negated_mentions": data["negated_mentions"],
+            "has_negated_mentions": data["negated_mentions"] > 0,
+            "all_mentions_negated": mention_count > 0 and data["negated_mentions"] == mention_count,
+        }
+        aggregated.append(entry)
+
+    aggregated.sort(key=lambda item: (item["max_confidence"], item["mention_count"]), reverse=True)
+    return aggregated
