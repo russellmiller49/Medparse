@@ -1,0 +1,3 @@
+Immunity Test,IEC 60601 Test Level,Compliance Level,Electromagnetic Environment Guidance
+Electrostatic discharge (ESD) IEC 61000-4-2,±8 kV contact ±2 kV ±4 kV ±8 kV ±15 kV air,±8 kV contact ±2 kV ±4 kV ±8 kV ±15 kV air,None
+Electrical fast transient/burst IEC 61000-4-4,±2 kV for power supply lines ±1 kV for input / output lines,±2 kV for power supply lines ±1 kV for input / output lines,Mains power quality should be that of a U.S. or EU commercial or hospital environment with highly reliable service.

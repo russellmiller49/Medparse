@@ -1,0 +1,4 @@
+Environmental Conditions: Operating,
+Temperature,50-86 °F (10-30 °C)
+Humidity,10-85% non-condensing
+Atmospheric Pressure,"The system shall function properly in atmospheric pressures ranging from 586 mmHG(2133 m) to 774 mmHG(-152 m). For every 305 mabove sea level, the 30 °C operational temperature limit specified above will be reduced by 1.43 °C. For example, the maximum operating temperature at 2133 mwill be 20 °C."

@@ -1,14 +1,14 @@
-Evidence level,
-1++,"High quality meta-analyses, systematic reviews of RCTs, or RCTs with a very low risk of bias"
-1+,"Well conducted meta-analyses, systematic reviews of RCTs, or RCTs with a low risk of bias"
-1 -,"Meta-analyses, systematic reviews, or RCTs with a high risk of bias"
-2++,"High quality systematic reviews of case - control or cohort studies; high quality case - control studies or cohort studies with a very low risk of confounding, bias, or chance and a high probability that the relationship is causal"
-2+,"Well conducted case - control or cohort studies with a low risk of confounding, bias, or chance andamoderateprobability that the relationship is causal"
-2 -,"Case - control or cohort studies with a high risk of confounding, bias, or chance and a significant risk that the relationship is not causal"
-3,"Nonanalytic studies, e. g. case reports, case series"
-4,Expert opinion
-Recommendation grade,
-A,"At least one meta-analysis, systematic review, or RCTrated as 1++and directly applicable to the target population or a systematic review of RCTs or a body of evidence consisting principally of studies rated as 1+directly applicable to the target population and demonstrat- ing overall consistency of results"
-B,A body of evidence including studies rated as 2++directly ap- plicable to the target population and demonstrating overall consistency of results or extrapolated evidence from studies rated as 1++or 1+
-C,A body of evidence including studies rated as 1 - or 2+directly applicable to the target population and demonstrating overall consistency of results or extrapolated evidence from studies rated as 2++
-D,"Evidence level 2 - , 3 or 4 or extrapolated evidence from studies rated as 2+"
+Author,Reference standard,Test order,"Patients, n","Preval- ence N2/ N3, %",EBUS,,EUS,,EBUS+EUS (95%CI),
+,,,,,Sensi- tivity (95%CI),NPV (95%CI),Sensi- tivity (95%CI),NPV (95%CI),Sensi- tivity (95%CI),NPV (95%CI)
+Vilmann 2005 [32],█ Surgery: - Pulmonary resection with lymph node exploration Clinical follow-up,EUS - EBUS,28,71%,0.85 (0.62 - 0.97),0.72 (0.39 - 0.94),0.80 (0.56 - 0.94),0.67 (0.35 - 0.90),1.00 (0.83 - 1.00),1.00 (0.63 - 1.00)
+Wallace 2008 [31],█ Surgery: - Pulmonary resection with mediastinal exploration - Mediastinoscopy - Thoracoscopy,EBUS - EUS,138,30%,0.69 (0.53 - 0.82),0.88 (0.80 - 0.93),0.69 (0.53 - 0.82),0.88 (0.80 - 0.93),0.93 (0.81 - 0.99),0.97 (0.91 - 0.99)
+Annema 2010 [18],Clinical follow-up █ Surgery: - Pulmonary resection with node dissection,EUS - EBUS,123,54%,-,-,-,-,0.85 (0.74 - 0.92),0.85 (0.74 - 0.93)
+Herth 2010 [34],█ Surgery: - Thoracoscopy - Pulmonary resection with node dissection █ Clinical follow-up,EBUS - EUS-B,139,52%,0.92 (0.83 - 0.97),0.92 (0.83 - 0.97),0.89 (0.79 - 0.95),0.89 (0.80 - 0.95),0.96 (0.88 - 0.99),0.96 (0.88 - 0.99)
+Hwangbo 2010 [36],█ Surgery: - Pulmonary resection node dissection,EBUS - EUS-B,143,31%,0.84 (0.71 - 0.94),0.93 (0.87 - 0.97),-,-,0.91 (0.79 - 0.98),0.96 (0.90 - 0.99)
+Szlubow- ski 2010 [41],█ Surgery: - Pulmonary resection with node dissection - TEMLA,EUS - EBUS,120,23%,0.46 (0.28 - 0.66),0.86 (0.78 - 0.92),0.50 (0.31 - 0.69),0.87 (0.79 - 0.93),0.68 (0.48 - 0.84),0.91 (0.83 - 0.96)
+Ohnishi 2011 [33],█ Surgery: - Pulmonary resection with nodal explora- tion,EBUS - EUS,110,28%,-,-,-,-,0.84 (0.71 - 0.97),0.94 (0.89 - 0.99)
+Kang (1) 2014 [35],█ Surgery: - Pulmonary resection with node dissection - Video-assisted thoracic surgery,EBUS - EUS-B,74,46%,-,-,-,-,0.84 (0.66 - 0.95),0.94 (0.87 - 0.98)
+Kang (2) 2014 [35],█ Surgery: - Pulmonary resection with node dissection - Video-assisted thoracic surgery,EUS-B - EBUS,74,34%,0.82 (0.65 - 0.93),0.87 (0.74 - 0.95),-,-,0.85 (0.69 - 0.95),0.89 (0.76 - 0.96)
+Lee 2014 [39],█ Surgery: - Mediastinoscopy - Pulmonary resection with mediastinal node dissection,EBUS - EUS-B,37,78%,0.79 (0.60 - 0.92),0.57 (0.29 - 0.82),-,-,1.00 (0.88 - 1.00),1.00 (0.63 - 1.00)
+Liberman 2014 [40],█ Surgery: - mediastinoscopy - (no pulmonary resection with nodal exploration/dissec- tion),EBUS - EUS,166,32%,0.72 (0.58 - 0.83),0.88 (0.81 - 0.93),0.62 (0.48 - 0.75),0.85 (0.78 - 0.91),0.91 (0.79 - 0.97),0.96 (0.90 - 0.99)
+Oki 2014 [37],█ Surgery: - Pulmonary resection with node explora- tion/ dissection █ Clinical follow-up,EBUS - EUS-B,146,23%,0.52 (0.34 - 0.69),0.88 (0.81 - 0.93),0.45 (0.28 - 0.64),0.86 (0.79 - 0.92),0.73 (0.54 - 0.87),0.93 (0.86 - 0.97)

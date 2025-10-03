@@ -1,0 +1,7 @@
+Power Button Color,Definition
+Off (not lit),System is unplugged and powered down
+White,"System is plugged in, powered down, and suffi- cient reserve battery"
+Blue,System is On
+Yellow/solid,Power button is pressed
+Yellow/blinking,System is shutting down
+Yellow/pulsing,"System is plugged in, powered down, and charging reserve battery (battery is critically low)"

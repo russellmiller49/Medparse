@@ -50,6 +50,7 @@ from scripts.drug_extractor import extract_drugs_dosages
 from scripts.env_loader import load_env
 from scripts.safe_json import safe_write_json
 from scripts.table_extractor import extract_structured_tables
+from scripts.graph_export import build_graph_payload
 
 
 def _enrich_figures(
@@ -418,7 +419,8 @@ def process_pdf(
         "extraction_quality": "enhanced"
     })
     
-    # Section classification
+    merged["graph"] = build_graph_payload(merged)
+
     resolve_cross_references(merged)
     
     # Validation

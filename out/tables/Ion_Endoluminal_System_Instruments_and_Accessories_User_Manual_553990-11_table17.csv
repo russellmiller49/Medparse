@@ -1,0 +1,7 @@
+Connector Label,Connector Type,Input Format,Resolution
+DVI,DVI-I,DVI (digital),Automatically configured a
+Composite,BNC,Composite (analog),NTSC (720 x 486 at 29.97 Hz) or PAL (720 x 576 at 25 Hz) b
+S-Video,4-pin mini-DIN,S-Video (analog),NTSC (720 x 486 at 29.97 Hz) or PAL (720 x 576 at 25 Hz) b
+SDI,BNC,HD-SDI (digital) c,"720p at 50, 59.94, and 60 Hz 1080p at 23.98, 24, 25, 29.97, and 30 Hz"
+,,3G-SDI (digital) c,"1080p at 50, 59.94, and 60 Hz"
+Auxiliary,RJ45,Ethernet,NA

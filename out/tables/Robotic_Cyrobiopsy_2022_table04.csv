@@ -1,0 +1,18 @@
+Samples,Median (IQR) n =40
+Transbronchial Needle Aspirate,
+Cellularity*,0 (0-1)
+Diagnostic fragments**,0.5 (0-1)
+Crush artifact*** ( n =12),0 (0-1)
+"Greatest dimension diagnostic material, microns",0 (0-135.9)
+"Diagnostic material per fragment, microns",170.9 (0-516.3)
+Transbronchial Forceps Biopsy,
+Diagnostic fragments**,1 (1-3)
+Crush artifact*** ( n =35),1 (0-1)
+"Greatest dimension diagnostic material, microns",1821.5 (996-3194.7)
+"Diagnostic material per fragment, microns",1017.8 (795.5-1317.8)
+Transbronchial Cryobiopsy,
+Diagnostic fragments**,2 (1-2)
+Crush artifact*** ( n =38),0 (0-0.5)
+"Greatest dimension diagnostic material, microns",3570.6 (1974.6-4833.2)
+"Diagnostic material per fragment, microns",1968.2 (1195.5-3326.4)
+"*Cellularity: 0-Acellular, 1-Paucicellular, 2-Moderately Cellular, 3-Hypercellular **Diagnostic Fragments:<1-detached cellular material only",

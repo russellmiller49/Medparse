@@ -1,0 +1,47 @@
+10.3 . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .,. . . .90
+Stow and Shut Down System Auto Stow Troubleshooting . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .,. . . .92
+10.4 Store System. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .,. . . .92
+Appendix A Troubleshooting. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .,. . . .93
+A.1 Obtain Immediate Access to the Patient. . . . . . . . . . . . . . . . . . . . .,. . . .93
+A.2 Mid-procedure Restart . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .,. . . 94
+A.3 Unexpected System Motion . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .,. . . 94
+A.4 Mid-Procedure System Cart or Bed Height Adjustment . . . . . . . . .,. . . .95
+A.5 Unable to Complete Registration . . . . . . . . . . . . . . . . . . . . . . . . . .,. . . .95
+A.6 Registration with Variant Anatomy . . . . . . . . . . . . . . . . . . . . . . . .,. . . .96
+A.7 Inaccurate Registration (Navigation and Live View Mismatch) . . .,. . . .96
+A.8 USB Errors . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .,. . . .96
+A.9 Catheter Guide Attachment Errors . . . . . . . . . . . . . . . . . . . . . . . . .,. . . .97
+A.10 Catheter Tests Fail . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .,. . . .97
+A.11 Catheter Not Moving (Controls Unresponsive) . . . . . . . . . . . . . . . .,. . . .99
+A.12 Rotated Vision Probe View (Non-intuitive Driving). . . . . . . . . . . . .,. . . .99
+A.13 Live View Displays Colored Lines . . . . . . . . . . . . . . . . . . . . . . . . . . .,. . . .99
+A.14 Vision Probe Image Quality . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .,. . .100
+A.15 Vision Probe Not Detected . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .,. . .100
+A.16 Live View Not Advancing . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .,. . .100
+A.17 Swivel Connector Disconnects . . . . . . . . . . . . . . . . . . . . . . . . . . . . .,. . . 101
+A.18 Spinning Wheel on Monitor (Catheter Shape Sensor Interference) .,. . . 101
+A.19 Touchscreen Unresponsive . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .,. . . 101
+A.20System Monitors Black Out (Time Out) . . . . . . . . . . . . . . . . . . . . . .,. . . 102
+A.21 System Faults . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .,. . . 102
+Non-Recoverable Fault . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .,. . . 102
+Recoverable Fault . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .,. . . 102
+A.22 Patient Motion . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .,. . . 102
+A.23 Mid-Procedure Catheter Exchange . . . . . . . . . . . . . . . . . . . . . . . . .,. . . 103
+Check Connections . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .,. . . 103
+Battery Backup . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .,. . . 103
+A.25 Contact Customer Service . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .,. . .104 . 105
+Appendix B Sterilization Methods . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .,. .
+Appendix C Third-Party Compatibility . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .,. . . 106
+C.1 Contact Information . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .,. . . 106
+Appendix D System Specifications . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .,. . .108 .108
+D.1 Design Life . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . D.2 Power Requirements. . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .,. . . . .108
+D.3 Power Specifications . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .,.
+.,. . 109
+D.4 Physical Dimensions . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .,. . . 109
+D.5 Environmental Specifications . . . . . . . . . . . . . . . . . . . . . . . . . . . . .,. . . 110
+D.6 Crate Dimensions . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .,. . . 110 . . . 111
+D.7 Electromagnetic Compatibility EMC Tables . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .,. . . 111
+Essential Performance for EMC . . . . . . . . . . . . . . . . . . . . . . . . . . . . .,. . . 114
+D.8 Technical System Information . . . . . . . . . . . . . . . . . . . . . . . . . . . . .,. . . 114
+Manufacturer information . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .,. . . 114
+Compliance and Classification . . . . . . . . . . . . . . . . . . . . . . . . . . . . .,. . . 115

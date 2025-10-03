@@ -1,0 +1,5 @@
+Emissions Test,Compliance,Electromagnetic Environment - Guidance
+RF emissions CISPR 11,Group 1,"The system uses RF energy only for its internal function. Therefore, its RF emissions are very low and are not likely to cause any interference in nearby electronic environment."
+RF emissions CISPR 11,Class A,"The system is suitable for use in all establishments, other than domestic establishments and those directly connected to the public low-voltage power supply network that supplies buildings used for domestic purposes."
+Harmonic emissions IEC 61000-3-2,Class A,
+Voltage fluctuations/ flicker emissions IEC 61000-3-3,Complies,

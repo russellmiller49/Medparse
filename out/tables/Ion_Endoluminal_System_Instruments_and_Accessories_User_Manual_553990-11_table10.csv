@@ -1,0 +1,10 @@
+LED Status,Meaning
+Off,"Unpowered, disabled, or unavailable"
+White,System powering on
+Blue/dim,Ready
+Blue/bright,"User-controlled action in progress (for example, a clutch button is pressed)"
+Blue/pulsing,"Automatic action in progress (for example, self-tests)"
+Blue/single pulse,"Confirmation (for example, Catheter is installed on the arm)"
+Blue/chasing,"Directional movement (for example, using the powered elevation clutch to adjust the arm)"
+Yellow/solid,"Action needed (for example, a recoverable fault, or a prompt on the monitors)"
+Yellow/blinking,• Calibration in progress (Controller scroll wheel and trackball) • System software update in progress

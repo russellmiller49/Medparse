@@ -1,0 +1,8 @@
+Diagnostic Outcome Measure,Definition
+Diagnostic yield,"The proportion of all individuals undergoing the diagnostic procedure under evaluation in whom a specific malignant or benign diagnosis is established The numerator should include all patients with peripheral pulmonary nodules in whom the result of a minimally invasive diagnostic procedure establishes a specific benign or malignant diagnosis that is sufficient to inform patient care, and the denominator should include all patients in whom the minimally invasive procedure was attempted or performed"
+Diagnostic accuracy measures *,
+Sensitivity,"The proportion of individuals with the disease of interest (e.g., cancer), as determined by the reference standard, who have a positive test result (i.e., malignancy based on bronchoscopy samples)"
+Specificity †,"The proportion of individuals without the disease of interest (e.g., cancer), as determined by the reference standard, who have a negative test result (i.e., no evidence of malignancy based on bronchoscopy samples)"
+Positive predictive value †,"The likelihood that a patient has the target disease (e.g., cancer), given a positive test result (i.e., malignancy based on bronchoscopy samples)"
+Negative predictive value,"The likelihood that a patient does not have the target disease (e.g., cancer), given a negative test result (i.e., no evidence of lung malignancy based on bronchoscopy samples)"
+Diagnostic accuracy ‡,"The proportion of all test results that are correct for the condition of interest. For example, all correctly identified patients with or without cancer, divided by all patients who underwent advanced diagnostic bronchoscopy"
