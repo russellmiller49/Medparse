@@ -1,0 +1,42 @@
+{
+  "structured": {
+    "article": {
+      "doc_id": "Robotic_Cyrobiopsy_2022",
+      "population": {
+        "n_patients": 101,
+        "n_lesions": 108,
+        "lesion_size_bins": {},
+        "bronchus_sign_rate": null,
+        "tools_used": [
+          "cryobiopsy",
+          "forceps",
+          "needle"
+        ]
+      },
+      "diagnostic_outcome": {
+        "doc_id": "Robotic_Cyrobiopsy_2022",
+        "yield_overall": 0.902,
+        "yield_definition": "intermediate",
+        "numerator_definition": null,
+        "denominator_definition": null,
+        "followup_window_months": null,
+        "handles_nonspecific_pathology": true,
+        "nonspecific_handling_notes": "Non-specific diagnoses counted only with radiographic improvement or confirmatory modality.",
+        "tool_yield": {
+          "needle": 0.315,
+          "forceps": 0.778,
+          "cryobiopsy": 0.972
+        },
+        "exclusive_by_tool": {
+          "cryobiopsy": 0.17600000000000002
+        },
+        "ngs_adequacy_by_tool": {
+          "cryobiopsy": 1.0
+        },
+        "complications": {},
+        "notes": "Robotic cryobiopsy pilot summary."
+      },
+      "schema_version": "1.0"
+    }
+  }
+}

@@ -18,7 +18,7 @@ if str(ROOT) not in sys.path: sys.path.append(str(ROOT))
 from docling.document_converter import DocumentConverter  # current API
 
 from scripts.grobid_client import Grobid
-from scripts.postprocess import merge_outputs, parse_grobid_metadata, concat_text, extract_trial_ids, resolve_cross_references
+from scripts.postprocess import merge_outputs, parse_grobid_metadata, extract_trial_ids, resolve_cross_references
 from scripts.recommendation_extractor import extract_recommendations
 from scripts.umls_linker import UMLSClient
 from scripts.figure_cropper import crop_figures
@@ -51,6 +51,8 @@ from scripts.env_loader import load_env
 from scripts.safe_json import safe_write_json
 from scripts.table_extractor import extract_structured_tables
 from scripts.graph_export import build_graph_payload
+from medparse.layout.page_map import build_full_text_with_spans
+from medparse.extractors import infer_doc_type, run_structured_extractors
 
 
 def _enrich_figures(
@@ -176,6 +178,7 @@ def process_pdf(
     linker: str,
     dump_docling_debug: bool = False,
     work_dir: Path | None = None,
+    document_type: str | None = None,
 ):
     env = load_env()
     grobid_url = env["GROBID_URL"]
@@ -183,6 +186,7 @@ def process_pdf(
     ncbi_key = env["NCBI_API_KEY"]
     ncbi_email = env["NCBI_EMAIL"]
     quick_path = env["QUICKUMLS_PATH"]
+    doc_id = pdf_path.stem
     
     cache = CacheManager(Path("cache"))
     grobid = Grobid(url=grobid_url)
@@ -259,8 +263,30 @@ def process_pdf(
     drop_author_sections(merged.get("structure", {}))
     
     sections = merged.get("structure", {}).get("sections", [])
-    full_text = concat_text(merged)
+    full_text, page_spans = build_full_text_with_spans(
+        sections,
+        docling_body=dl_raw.get("assembled", {}).get("body"),
+    )
+    merged["full_text"] = full_text
+    merged["page_map"] = page_spans
     full_text_normalized, section_spans = _prepare_normalized_sections(sections)
+
+    merged["doc_id"] = doc_id
+    doc_type_hint = infer_doc_type(merged, doc_id=doc_id, explicit=document_type)
+    if doc_type_hint:
+        merged.setdefault("metadata", {})["doc_type"] = doc_type_hint
+    try:
+        structured = run_structured_extractors(
+            doc_id=doc_id,
+            payload=merged,
+            full_text=full_text,
+            page_map=page_spans,
+            doc_type=doc_type_hint,
+        )
+        if structured:
+            merged["doc_specific"] = structured
+    except Exception as exc:
+        logger.exception("Structured extractor failed: %s", exc)
     
     if linker not in {"umls", "scispacy", "quickumls"}:
         raise ValueError("linker must be one of: umls | scispacy | quickumls")
@@ -465,9 +491,18 @@ if __name__ == "__main__":
     ap.add_argument("--cfg", default="config/docling_medical_config.yaml")
     ap.add_argument("--dump-docling-debug", action="store_true",
                    help="Write a Docling JSON snapshot with base64 stripped (for debugging only)")
+    ap.add_argument("--document-type", default=None,
+                    help="Optional document type hint (guideline, ifu, article, chapter)")
     args = ap.parse_args()
     
     if args.pdf and args.out:
-        process_pdf(Path(args.pdf), Path(args.out), Path(args.cfg), linker=args.linker, dump_docling_debug=args.dump_docling_debug)
+        process_pdf(
+            Path(args.pdf),
+            Path(args.out),
+            Path(args.cfg),
+            linker=args.linker,
+            dump_docling_debug=args.dump_docling_debug,
+            document_type=args.document_type,
+        )
     else:
         print("Use run_batch.py for folder processing.")

@@ -1,0 +1,301 @@
+{
+  "structured": {
+    "guideline": {
+      "doc_id": "ebus_eus_guideline_enhanced",
+      "recommendations": [
+        {
+          "id": "ebus_eus_guideline_enhanced::rec_1",
+          "doc_id": "ebus_eus_guideline_enhanced",
+          "number": 1,
+          "text": "For mediastinal nodal staging in patients with suspected or proven non-small-cell lung cancer (Non-small cell lung cancer (NSCLC)) with abnormal mediastinal and/or hilar nodes at computed tomography (CT) and/or positron emission tomography (PET), endosonography is recommended over surgical staging as the initial procedure (Recommendation grade A). The combination of endobronchial ultrasound with real-time guided transbronchial needle aspiration (Endobronchial ultrasound (EBUS)-TBNA) and endoscopic (esophageal) ultrasound with fine needle aspiration, with use of a gastrointestinal (EUS-FNA) or Endobronchial ultrasound (EBUS) (EUS-B-FNA) scope, is preferred over either test alone (Recommendation grade C). If the combination of Endobronchial ultrasound (EBUS) and EUS-(B) is not available, we suggest that Endobronchial ultrasound (EBUS) alone is acceptable (Recommendation grade C). Subsequent surgical staging is recommended, when endosonography does not show malignant nodal involvement (Recommendation grade B).",
+          "grade": "A",
+          "evidence_level": null,
+          "context": null,
+          "stations": [],
+          "figures": [],
+          "page": null,
+          "span": [
+            650,
+            1672
+          ],
+          "section": "Recommendations"
+        },
+        {
+          "id": "ebus_eus_guideline_enhanced::rec_2",
+          "doc_id": "ebus_eus_guideline_enhanced",
+          "number": 2,
+          "text": "For mediastinal nodal staging in patients with suspected or proven non-small-cell peripheral lung cancer without mediastinal involvement at CT or CT-PET, we suggest that Endobronchial ultrasound (EBUS)-TBNA and/or EUS-(B)-FNA should be performed before therapy, provided that one or more of the following conditions is present: (i) enlarged or fluorodeoxyglucose (FDG)-PET-avid ipsilateral hilar nodes; (ii) primary tumor without FDG uptake; (iii) tumor size ≥ 3 cm ( \" Fig. 3ac) (Recommendation grade C). If endosonography does not show malignant nodal involvement, we suggest that mediastinoscopy is considered, especially in suspected N1 disease (Recommendation grade C). If PET is not available and CT does not reveal enlarged hilar or mediastinal lymph nodes, we suggest performance of Endobronchial ultrasound (EBUS)-TBNA and/or EUS-(B)-FNA and/or surgical staging (Recommendation grade C).",
+          "grade": "C",
+          "evidence_level": null,
+          "context": null,
+          "stations": [],
+          "figures": [
+            "FIG. 3A"
+          ],
+          "page": null,
+          "span": [
+            1675,
+            2571
+          ],
+          "section": "Recommendations"
+        },
+        {
+          "id": "ebus_eus_guideline_enhanced::rec_3",
+          "doc_id": "ebus_eus_guideline_enhanced",
+          "number": 3,
+          "text": "In patients with suspected or proven < 3 cm peripheral Non-small cell lung cancer (NSCLC) with normal mediastinal and hilar nodes at CT and/or PET, we suggest initiation of therapy without further mediastinal staging (Recommendation grade C).",
+          "grade": "C",
+          "evidence_level": null,
+          "context": null,
+          "stations": [],
+          "figures": [],
+          "page": null,
+          "span": [
+            2574,
+            2816
+          ],
+          "section": "Recommendations"
+        },
+        {
+          "id": "ebus_eus_guideline_enhanced::rec_4",
+          "doc_id": "ebus_eus_guideline_enhanced",
+          "number": 4,
+          "text": "For mediastinal staging in patients with centrally located suspected or proven Non-small cell lung cancer (NSCLC) without mediastinal or hilar involvement at CT and/or CT-PET, we suggest performance of Endobronchial ultrasound (EBUS)-TBNA, with or without EUS-(B)-FNA, in preference to surgical staging ( \" Fig. 4) (Recommendation grade D). If endosonography does not show malignant nodal involvement, mediastinoscopy may be considered (Recommendation grade D).",
+          "grade": "D",
+          "evidence_level": null,
+          "context": null,
+          "stations": [],
+          "figures": [
+            "FIG. 4"
+          ],
+          "page": null,
+          "span": [
+            2819,
+            3280
+          ],
+          "section": "Recommendations"
+        },
+        {
+          "id": "ebus_eus_guideline_enhanced::rec_5",
+          "doc_id": "ebus_eus_guideline_enhanced",
+          "number": 5,
+          "text": "For mediastinal nodal restaging following neoadjuvant therapy, Endobronchial ultrasound (EBUS)-TBNA and/or EUS-(B)-FNA is suggested for detection of persistent nodal disease, but, if this is negative, subsequent surgical staging is indicated (Recommendation grade C).",
+          "grade": "C",
+          "evidence_level": null,
+          "context": null,
+          "stations": [],
+          "figures": [],
+          "page": null,
+          "span": [
+            3283,
+            3550
+          ],
+          "section": "Recommendations"
+        },
+        {
+          "id": "ebus_eus_guideline_enhanced::rec_6",
+          "doc_id": "ebus_eus_guideline_enhanced",
+          "number": 6,
+          "text": "A complete assessment of mediastinal and hilar nodal stations, and sampling of at least three different mediastinal nodal stations ( Lung cancer is the most common cause of cancer-related mortality worldwide, causing approximately 1.2 million deaths every year [1]. In Europe, 410 000 new cases of lung cancer and 353 000 related deaths have been estimated to have occurred in 2012. Most cases concern non-small-cell lung cancer (Non-small cell lung cancer (NSCLC)) [1]. Accurate staging is mandatory for planning optimal treatment [2]. Surgery or radiotherapy with curative intent is advised in the case of localized disease. Spread to ipsilateral (N2) or contralateral (N3) mediastinal lymph nodes marginalizes the role of surgery as first-line treatment. For disseminated Non-small cell lung cancer (NSCLC) and small-cell lung cancer (SCLC), chemotherapy and/or radiotherapy is recommended [3].",
+          "grade": null,
+          "evidence_level": null,
+          "context": null,
+          "stations": [],
+          "figures": [],
+          "page": null,
+          "span": [
+            3553,
+            4450
+          ],
+          "section": "Recommendations"
+        },
+        {
+          "id": "ebus_eus_guideline_enhanced::rec_7",
+          "doc_id": "ebus_eus_guideline_enhanced",
+          "number": 7,
+          "text": "For diagnostic purposes, in patients with a centrally located lung tumor that is not visible at conventional bronchoscopy, endosonography is suggested, provided the tumor is located immediately adjacent to the larger airways (Endobronchial ultrasound (EBUS)) or esophagus (EUS-(B)) (Recommendation grade D).",
+          "grade": "D",
+          "evidence_level": null,
+          "context": null,
+          "stations": [],
+          "figures": [],
+          "page": null,
+          "span": [
+            5960,
+            6267
+          ],
+          "section": "Recommendations"
+        },
+        {
+          "id": "ebus_eus_guideline_enhanced::rec_8",
+          "doc_id": "ebus_eus_guideline_enhanced",
+          "number": 8,
+          "text": "In patients with a left adrenal gland suspected for distant metastasis we suggest performance of endoscopic ultrasound fine needle aspiration (EUS-FNA) (Recommendation grade C), while the use of EUS-B with a transgastric approach is at present experimental (Recommendation grade D).",
+          "grade": "C",
+          "evidence_level": null,
+          "context": null,
+          "stations": [],
+          "figures": [],
+          "page": null,
+          "span": [
+            6270,
+            6552
+          ],
+          "section": "Recommendations"
+        },
+        {
+          "id": "ebus_eus_guideline_enhanced::rec_9",
+          "doc_id": "ebus_eus_guideline_enhanced",
+          "number": 9,
+          "text": "For optimal endosonographic staging of lung cancer, we suggest that individual endoscopists should be trained in both Endobronchial ultrasound (EBUS) and EUS-B in order to perform complete endoscopic staging in one session (Recommendation grade D). 22], because it improves nodal tissue staging, reduces the number of futile thoracotomies [18], and is cost-effective [23,24]. The integration of the two techniques in a single \"combined\" endoscopic approach to staging of the mediastinum has been shown to further increase the accuracy as compared with either technique alone [25]. The aim of this Guideline, from the European Society of Gastrointestinal Endoscopy (ESGE) in cooperation with the European Respiratory Society (ERS) and the European Society for Thoracic Surgery (ESTS), is to address the benefit and burden associated with mediastinal nodal staging of lung cancer by combined endobronchial ultrasound (Endobronchial ultrasound (EBUS)) and endoscopic esophageal ultrasound (EUS-(B); that is with use of either the GI or the Endobronchial ultrasound (EBUS) scope). Additionally the use of Endobronchial ultrasound (EBUS)/EUS for the analysis of the primary lung tumor and the left adrenal gland will be addressed, as will training issues. [18] (see \" Fig. 1). The frequently affected nodes in locations",
+          "grade": "D",
+          "evidence_level": null,
+          "context": null,
+          "stations": [],
+          "figures": [
+            "FIG. 1"
+          ],
+          "page": null,
+          "span": [
+            6555,
+            7869
+          ],
+          "section": "Recommendations"
+        },
+        {
+          "id": "ebus_eus_guideline_enhanced::rec_10",
+          "doc_id": "ebus_eus_guideline_enhanced",
+          "number": 4,
+          "text": "L and 7 are accessible by both techniques.",
+          "grade": null,
+          "evidence_level": null,
+          "context": null,
+          "stations": [],
+          "figures": [],
+          "page": null,
+          "span": [
+            7872,
+            7914
+          ],
+          "section": "Recommendations"
+        },
+        {
+          "id": "ebus_eus_guideline_enhanced::rec_11",
+          "doc_id": "ebus_eus_guideline_enhanced",
+          "number": 1,
+          "text": "The complementary nature of endobronchial ultrasound (Endobronchial ultrasound (EBUS)) and endoscopic (esophageal) ultrasound (EUS) for nodal staging.",
+          "grade": null,
+          "evidence_level": null,
+          "context": null,
+          "stations": [],
+          "figures": [],
+          "page": null,
+          "span": [
+            7922,
+            8072
+          ],
+          "section": "Recommendations"
+        }
+      ],
+      "coverage_map": [
+        {
+          "doc_id": "ebus_eus_guideline_enhanced",
+          "station": "4",
+          "ebus": true,
+          "eus": true,
+          "notes": "8 In patients with a left adrenal gland suspected for distant metastasis we suggest performance of endoscopic ultrasound fine needle aspiration (EUS-FNA) (Recommendation grade C), while the use of EUS-B with a transgastric approach is at present experimental (Recommendation grade D). 9 For optimal endosonographic staging of lung cancer, we suggest that individual endoscopists should be trained in both Endobronchial ultrasound (EBUS) and EUS-B in order to perform complete endoscopic staging in one session (Recommendation grade D). 22], because it improves nodal tissue staging, reduces the number of futile thoracotomies [18], and is cost-effective [23,24]. The integration of the two techniques in a single \"combined\" endoscopic approach to staging of the mediastinum has been shown to further increase the accuracy as compared with either technique alone [25]. The aim of this Guideline, from the European Society of Gastrointestinal Endoscopy (ESGE) in cooperation with the European Respiratory Society (ERS) and the European Society for Thoracic Surgery (ESTS), is to address the benefit and burden associated with mediastinal nodal staging of lung cancer by combined endobronchial ultrasound (Endobronchial ultrasound (EBUS)) and endoscopic esophageal ultrasound (EUS-(B); that is with use of either the GI or the Endobronchial ultrasound (EBUS) scope). Additionally the use of Endobronchial ultrasound (EBUS)/EUS for the analysis of the primary lung tumor and the left adrenal gland will be addressed, as will training issues. [18] (see \" Fig. 1). The frequently affected nodes in locations 4 L and 7 are accessible by both techniques.",
+          "page": null
+        },
+        {
+          "doc_id": "ebus_eus_guideline_enhanced",
+          "station": "4L",
+          "ebus": true,
+          "eus": true,
+          "notes": "In a recent prospective Non-small cell lung cancer (NSCLC) staging trial in 146 patients, by Oki et al., Endobronchial ultrasound (EBUS) was routinely followed by EUS-B. The prevalence of mediastinal nodal metastases was 23%. The sensitivities of Endobronchial ultrasound (EBUS), EUS-B, and the combination were 52%, 45%, and 73%, respectively, with NPVs of 88%, 86%, and 93%, when using a surgical procedure (or clinical follow-up in a minority of patients) as the reference standard [37]. The subcentimeter size of the lymph nodes in combination with the low prevalence of malignancy might account for the low sensitivity of Endobronchial ultrasound (EBUS).Often small lymph nodes, especially in the left paratracheal station 4L, are more easily aspirated from the esophagus. In coughing patients, getting a good sample out of these small lymph nodes with Endobronchial ultrasound (EBUS) can be troublesome. In this study, patients were turned on their left side for EUS-B; it is questionable whether this is needed as EUSB is mostly performed with patients in supine position [38].",
+          "page": null
+        },
+        {
+          "doc_id": "ebus_eus_guideline_enhanced",
+          "station": "2",
+          "ebus": true,
+          "eus": true,
+          "notes": "For surgical nodal staging by mediastinoscopy, clear recommendations have been made regarding the number and nodes to be sampled [21,22]. For endosonography, there is no agreement about how many and which lymph node stations should be sampled and which level of thoroughness is necessary for different situations. Some advise a thorough evaluation of all lymph nodes detectable by Endobronchial ultrasound (EBUS) and EUS followed by sampling. In many centers, however, the so-called \"hit and run\" approach is followed, where only the lymph nodes that are suspicious at CT-PET imaging are sampled. In the recent Guidelines from the American College of Chest Physicians (ACCP) [22], a classification of levels of thoroughness has been developed and could serve as a guide. Four approaches were proposed: A, complete sampling of each node in each major mediastinal node station (2 R, 4 R, 2 L, 4 L, 7, and possibly 5 or 6); B, systematic sampling of each node station; C, selective sampling of suspicious nodes only; D, very limited or no sampling, with only visual assessment. In line with the ESTS guidelines [21], we recommend that at least three stations should be assessed (subcarinal, left paratracheal, and right paratracheal) and biopsy samples should be taken if possible with Endobronchial ultrasound (EBUS), EUS, or mediastinoscopy. Furthermore, all other abnormal lymph nodes, identified by size or FDG avidity, should be sampled. This \"complete\" mediastinal staging is based on the concept that identification of one malignant lymph node does not mean that mediastinal staging was optimal.",
+          "page": null
+        },
+        {
+          "doc_id": "ebus_eus_guideline_enhanced",
+          "station": "92",
+          "ebus": true,
+          "eus": true,
+          "notes": "Early guidelines for gastrointestinal EUS recommend a minimum of 150 total supervised procedures [90], but a more recent study on learning curves showed \"substantial variability in achieving competency and a consistent need for more supervision than current recommendations\" [91]. It is generally agreed that sampling in the mediastinum is technically easier than in other locations [92] and a study showed that chest physicians achieved satisfactory results after participating in an EUS implementation program for staging lung cancer patients [93]. The only study exploring learning curves for EUS-FNA for lung cancer staging found that acquisition of skills varied between individuals and that 20 procedures were not enough to ensure basic competency [94]. Early guidelines on training requirements for Endobronchial ultrasound (EBUS) from the American Thoracic Society/European Respiratory Society and the ACCP respectively recommend minimum numbers of 40 and 50 procedures for initial acquisition of competence [95,96]. These numbers are based on expert opinions, are arbitrary, and are debated [89,97]. Studies on Endobronchial ultrasound (EBUS) learning curves have shown that performance of 50 procedures does not ensure basic competency [60,95], and the latest Guidelines from the British Thoracic Society recognise that \"Individuals have different learning curves and hence focus should be towards monitoring an individual's performance and outcomes\" [98]. Specific tools for assessment of performance in endosonography [99,100] could be used for monitoring trainees' progression, and all programs should continuously monitor their outcomes. These guidelines from ESGE, ERS, and ESTS represent a consensus of best practice based on the available evidence at the time of preparation. They may not apply in all situations and should be interpreted in the light of specific clinical situations and resource availability. Further controlled clinical studies may be needed to clarify aspects of the statements, and revision may be necessary as new data appear. Clinical consideration may justify a course of action at variance to these recommendations. ESGE guidelines are intended to be an educational device to provide information that may assist endoscopists in providing care to patients. They are not rules and should not be construed as establishing a legal standard of care or as encouraging, advocating, requiring, or discouraging any particular treatment.",
+          "page": null
+        },
+        {
+          "doc_id": "ebus_eus_guideline_enhanced",
+          "station": "10",
+          "ebus": true,
+          "eus": true,
+          "notes": "The diagnostic yield of Endobronchial ultrasound (EBUS)-transbronchial needle aspiration (Endobronchial ultrasound (EBUS)-TBNA) is related to those mediastinal and hilar nodes that are located immediately adjacent to the trachea and larger airways. These comprise stations 2L, 2R, 4L, 4R, and station 7.Endobronchial ultrasound (EBUS), uniquely, can sample tissue from the hilar nodes (station 10) and from the intrapulmonary nodes (stations 11 -12).",
+          "page": null
+        },
+        {
+          "doc_id": "ebus_eus_guideline_enhanced",
+          "station": "11",
+          "ebus": true,
+          "eus": false,
+          "notes": "The diagnostic yield of Endobronchial ultrasound (EBUS)-transbronchial needle aspiration (Endobronchial ultrasound (EBUS)-TBNA) is related to those mediastinal and hilar nodes that are located immediately adjacent to the trachea and larger airways. These comprise stations 2L, 2R, 4L, 4R, and station 7.Endobronchial ultrasound (EBUS), uniquely, can sample tissue from the hilar nodes (station 10) and from the intrapulmonary nodes (stations 11 -12).",
+          "page": null
+        },
+        {
+          "doc_id": "ebus_eus_guideline_enhanced",
+          "station": "2L",
+          "ebus": true,
+          "eus": true,
+          "notes": "The diagnostic yield of Endobronchial ultrasound (EBUS)-transbronchial needle aspiration (Endobronchial ultrasound (EBUS)-TBNA) is related to those mediastinal and hilar nodes that are located immediately adjacent to the trachea and larger airways. These comprise stations 2L, 2R, 4L, 4R, and station 7.Endobronchial ultrasound (EBUS), uniquely, can sample tissue from the hilar nodes (station 10) and from the intrapulmonary nodes (stations 11 -12).",
+          "page": null
+        },
+        {
+          "doc_id": "ebus_eus_guideline_enhanced",
+          "station": "7",
+          "ebus": true,
+          "eus": true,
+          "notes": "The diagnostic yield of Endobronchial ultrasound (EBUS)-transbronchial needle aspiration (Endobronchial ultrasound (EBUS)-TBNA) is related to those mediastinal and hilar nodes that are located immediately adjacent to the trachea and larger airways. These comprise stations 2L, 2R, 4L, 4R, and station 7.Endobronchial ultrasound (EBUS), uniquely, can sample tissue from the hilar nodes (station 10) and from the intrapulmonary nodes (stations 11 -12).",
+          "page": null
+        },
+        {
+          "doc_id": "ebus_eus_guideline_enhanced",
+          "station": "2R",
+          "ebus": true,
+          "eus": true,
+          "notes": "EUS with real-time guided fine needle aspiration using the Endobronchial ultrasound (EBUS) scope (EUS-B-FNA) can reach the following locations that are relevant to lung cancer diagnosis and staging [14 -16]: lung tumors close to the esophagus; mediastinal lymph nodes in stations 2L, 4L (high and lower left paratracheal nodes); station 7 (subcarinal node); stations 8 and 9 (nodes located in the lower mediastinum); and structures below the diaphragm, i.e., retroperitoneal lymph nodes close to the aorta and the celiac trunk, and tumors in the left liver lobe and the left adrenal gland [17]. Stations 2R and 4R (paratracheally to the right) are difficult to reach because the trachea lies between the transducer and the lymph node, limiting visualization of this area. In selected cases of large lymph nodes (>2 cm), however, visualization and subsequent sampling is possible.",
+          "page": null
+        },
+        {
+          "doc_id": "ebus_eus_guideline_enhanced",
+          "station": "8",
+          "ebus": true,
+          "eus": true,
+          "notes": "EUS with real-time guided fine needle aspiration using the Endobronchial ultrasound (EBUS) scope (EUS-B-FNA) can reach the following locations that are relevant to lung cancer diagnosis and staging [14 -16]: lung tumors close to the esophagus; mediastinal lymph nodes in stations 2L, 4L (high and lower left paratracheal nodes); station 7 (subcarinal node); stations 8 and 9 (nodes located in the lower mediastinum); and structures below the diaphragm, i.e., retroperitoneal lymph nodes close to the aorta and the celiac trunk, and tumors in the left liver lobe and the left adrenal gland [17]. Stations 2R and 4R (paratracheally to the right) are difficult to reach because the trachea lies between the transducer and the lymph node, limiting visualization of this area. In selected cases of large lymph nodes (>2 cm), however, visualization and subsequent sampling is possible.",
+          "page": null
+        },
+        {
+          "doc_id": "ebus_eus_guideline_enhanced",
+          "station": "18",
+          "ebus": true,
+          "eus": true,
+          "notes": "Stations 5 and 6 can be well visualized by EUS but can rarely be sampled without traversing the pulmonary artery/aorta. These stations are predominantly affected by left upper lobe tumors. Surgical staging by video-assisted thoracic surgery (VATS) is the method of choice for nodes in stations 5 and 6. The hilar regions (lung tumors and lymph nodes in stations 10, 11, and 12 [right/left]) cannot be reached by EUS-FNA, but they can be sampled using Endobronchial ultrasound (EBUS)-TBNA. Combining these two techniques allows sampling of virtually all mediastinal nodal stations [18] (see \" Fig.1 ). The frequently affected nodes in locations 4L and 7 are accessible by both techniques.",
+          "page": null
+        },
+        {
+          "doc_id": "ebus_eus_guideline_enhanced",
+          "station": "5",
+          "ebus": true,
+          "eus": true,
+          "notes": "Stations 5 and 6 can be well visualized by EUS but can rarely be sampled without traversing the pulmonary artery/aorta. These stations are predominantly affected by left upper lobe tumors. Surgical staging by video-assisted thoracic surgery (VATS) is the method of choice for nodes in stations 5 and 6. The hilar regions (lung tumors and lymph nodes in stations 10, 11, and 12 [right/left]) cannot be reached by EUS-FNA, but they can be sampled using Endobronchial ultrasound (EBUS)-TBNA. Combining these two techniques allows sampling of virtually all mediastinal nodal stations [18] (see \" Fig.1 ). The frequently affected nodes in locations 4L and 7 are accessible by both techniques.",
+          "page": null
+        }
+      ],
+      "schema_version": "1.0"
+    }
+  }
+}

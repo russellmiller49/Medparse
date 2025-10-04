@@ -1,0 +1,232 @@
+{
+  "structured": {
+    "chapter": {
+      "doc_id": "Guideline ATS diagnostic yield.pdf",
+      "etiology": [],
+      "classification": [],
+      "signs_symptoms": [
+        {
+          "title": "Study Designs",
+          "text": "Statement 9. Different study designs may be most appropriate at various stages of innovation of new technologies focused on bronchoscopic peripheral lung nodule sampling. We propose adoption of the IDEAL (idea, development, exploration, assessment, long-term study) collaboration framework for evaluation of novel technology targeting the lung periphery.",
+          "page": null,
+          "span": [
+            33464,
+            33818
+          ]
+        },
+        {
+          "title": "Study Designs",
+          "text": "The evidence to support using current advanced diagnostic bronchoscopy techniques clinically remains weak overall, consisting mainly of single-center, retrospective series. The inherent challenges to robust evaluation of clinical innovations are not limited to interventional pulmonary The IDEAL Collaboration stems from a series of exchanges between surgeons and methodologists at Balliol College, Oxford, that examined the difficulties of conducting high-quality trials in surgery and potential solutions (43)(44)(45). The IDEAL framework identifies the various stages of (surgical) innovation (idea, development, exploration, assessment, and long-term study) and proposes optimal study designs for conducting evaluation at each stage. Table 3 outlines key aspects of the IDEAL framework, with examples drawn from the advanced diagnostic bronchoscopy literature.",
+          "page": null,
+          "span": [
+            33819,
+            34683
+          ]
+        },
+        {
+          "title": "Study Designs",
+          "text": "The idea stage (1) focuses on demonstrating whether the device can safely achieve its intended goal. Mandatory reporting of all \"first-in-human\" procedures is recommended, and anonymous reporting should be permitted to avoid repeated failures by others (46). The IDEAL-D framework, adapted for medical devices, adds a preclinical phase 0 for device development, which may include cadaver and/or animal studies (47). In the development (2a) stage, modifications to the procedure or patient selection criteria are captured through sequential, detailed reporting beyond safety and efficacy outcomes. The exploration stage (2b) is frequently the \"tipping point\" of innovation, where broader dissemination occurs. Prospective multicenter observational studies should report key patient characteristics (case mix), technical variables (including operator learning curve), and predefined standardized outcomes (48). The goal is to prepare for definitive evaluation in the assessment stage (3), ideally through randomized controlled trials (RCTs) or comprehensive protocoldriven observational studies when an RCT is not feasible (e.g., quasiexperimental study designs such as interrupted time series or propensity score-matching analyses). The long-term stage (4) focuses on surveillance of rare adverse events and effectiveness. Disease-based registries may be best suited to provide an understanding of variations in patient selection for various procedures (49). The IDEAL framework thus provides important practical guidance for evaluation of innovation throughout the total product life cycle (50).",
+          "page": null,
+          "span": [
+            34684,
+            36279
+          ]
+        },
+        {
+          "title": "Study Designs",
+          "text": "Statement 10. Methodologically robust comparative studies, preferentially RCTs, are needed to adequately assess and validate minimally invasive diagnostic technologies targeting the lung periphery.",
+          "page": null,
+          "span": [
+            36280,
+            36477
+          ]
+        },
+        {
+          "title": "Study Designs",
+          "text": "There is broad recognition within the interventional pulmonology community of the need for higher-quality studies, particularly comparative effectiveness studies of different techniques. Robust studies in the assessment phase of evaluation (IDEAL stage 3) are lacking from the bronchoscopy evidence landscape. The preferred study design for definitive evaluation is an RCT, although the window of opportunity for conducting one may sometimes seem narrow. The smaller the incremental impact of novel technology, the greater the need for a randomized trial (49,51). The major benefit of an RCT is minimization of bias, because random allocation ensures balance in both known and unknown confounders affecting the outcome(s) of interest. Comparison needs not be limited to alternative advanced diagnostic bronchoscopy techniques but should consider the broader standard of care for investigation of peripheral pulmonary lesions. An example would be comparison of novel (robotic) bronchoscopy platforms with CT-guided TTNBs, which are associated with higher diagnostic yields for peripheral pulmonary lesions (without the need for general anesthesia) but higher complication rates (52).",
+          "page": null,
+          "span": [
+            36478,
+            37660
+          ]
+        },
+        {
+          "title": "Study Designs",
+          "text": "If an RCT is not feasible, alternative quasiexperimental study designs may be considered. Quasiexperimental study designs attempt to replicate RCTs by rendering treatment groups as similar as possible on all known confounders (53). Examples of quasiexperimental designs include interrupted time series with temporal controls, propensity score matching, regression discontinuity, and instrumental variables (48). Such prospective observational studies require careful design and planning, with robust measures to address potential biases, including selection bias. A nonrandomized controlled trial would compare a cohort of patients evaluated with a novel advanced bronchoscopy platform with a concurrent group of patients undergoing a standard diagnostic intervention. Standardized data collection with control for all known confounders is required to address selection bias. Propensity score matching, which balances study groups on the likelihood of receiving an intervention to reduce confounding by indication, may be considered (54,55). Interrupted time series is an alternative quasiexperimental study design (56) whereby key outcomes are measured before and after the introduction of a novel intervention (i.e., the interruption). Interrupted time series with a control group for time are preferred to avoid biases due to temporal trends. Here again, analysis requires careful adjustment for key patient and/or peripheral pulmonary lesion characteristics.",
+          "page": null,
+          "span": [
+            37661,
+            39123
+          ]
+        },
+        {
+          "title": "Study Designs",
+          "text": "Statement 11. Aside from clear diagnostic performance and safety outcomes as primary endpoints, additional methodological factors should be clearly established in the study protocols. Examples include setting of recruitment, patient selection, target characteristics, and other relevant factors related to the index test. These factors should be recorded and reported according to STARD guidelines.",
+          "page": null,
+          "span": [
+            39124,
+            39522
+          ]
+        },
+        {
+          "title": "Study Designs",
+          "text": "Beyond clearly defined and transparently reported diagnostic outcome measures, relevant patient, operator, and procedural factors should be delineated at the study outset and reported. The STARD guidelines provide guidance for reporting of these important factors, with a complete checklist available at equator-network.org/ reporting-guidelines/stard/. These include patient characteristics, with reporting of both individual pretest probability of malignancy and prevalence of malignancy, underlying lung disease, and lung nodule characteristics known to be associated with diagnostic yield (size, anatomic location, presence of a bronchus sign, etc.). Operator factors include learning curve and diagnostic yield before formal evaluation of the new technology, as well as procedural volume of operators/centers reporting their experience. Relevant procedural factors include the use of moderate sedation versus general anesthesia, availability of rapid on-site evaluation by a cytopathologist, and use of imaging adjuncts (e.g., radial endobronchial ultrasound, cone-beam CT). Procedure duration and personnel and equipment requirements (including disposables) are additional relevant factors that relate to feasibility and cost of the intervention and warrant reporting.",
+          "page": null,
+          "span": [
+            39523,
+            40797
+          ]
+        },
+        {
+          "title": "Study Designs",
+          "text": "Statement 12. Patient-centered and patient-reported outcomes should be studied and incorporated into the evaluation of novel bronchoscopy techniques, including the following: a. Better understanding of downstream patient events (e.g., need for salvage procedures, complications and/or hospitalizations, delays in diagnosis) b. Consideration of patient preferences for differing diagnostic pathways",
+          "page": null,
+          "span": [
+            40798,
+            41195
+          ]
+        },
+        {
+          "title": "Study Designs",
+          "text": "The adoption of technology into clinical practice is multidimensional and not guided (57).",
+          "page": null,
+          "span": [
+            41196,
+            41286
+          ]
+        },
+        {
+          "title": "Study Designs",
+          "text": "There is limited data on patientreported outcomes and/or patient preferences in advanced diagnostic bronchoscopy and investigation of pulmonary nodules. Older data relate to patient satisfaction with bronchoscopy and willingness to repeat the procedure (58). Very little data is available on how patients weigh current diagnostic pathway alternatives. Considerations may include the need for general anesthesia versus moderate sedation, the potential risks of complications (e.g., risk of pneumothorax with transthoracic needle aspiration vs. bronchoscopy), the need for additional prebronchoscopic imaging, the uncertainty associated with a nondiagnostic procedure, or the need for repeat invasive procedures (including time off work, discomfort, or complications).",
+          "page": null,
+          "span": [
+            41287,
+            42053
+          ]
+        },
+        {
+          "title": "Study Designs",
+          "text": "Statement 13. Inclusion of academic and community centers serving diverse patient populations, including underrepresented and underserved patients, is strongly encouraged.",
+          "page": null,
+          "span": [
+            42054,
+            42225
+          ]
+        },
+        {
+          "title": "Study Designs",
+          "text": "Statement 14. Informative and inclusive study designs can support subsequent health economic analyses, can guide implementation decisions in various healthcare settings, and may help address disparities such as access to technological innovations.",
+          "page": null,
+          "span": [
+            42226,
+            42473
+          ]
+        },
+        {
+          "title": "Study Designs",
+          "text": "Evidence-based integration of novel bronchoscopy technologies into clinical practice should be grounded in outcome data representative of the diverse patient population referred for investigation of peripheral pulmonary lesions. Deliberate, collaborative efforts are needed to ensure prospective multicenter studies are conducted in a broad range of clinical settings.",
+          "page": null,
+          "span": [
+            42474,
+            42842
+          ]
+        },
+        {
+          "title": "Study Designs",
+          "text": "Cost-effectiveness analyses guide the rational introduction of novel technology into a range of clinical settings. Health economic analyses are beyond the scope of this research statement. However, robust comparative effectiveness studies with transparent reporting of all personnel and equipment requirements can support accurate cost evaluations.",
+          "page": null,
+          "span": [
+            42843,
+            43191
+          ]
+        },
+        {
+          "title": "Study Designs",
+          "text": "Statement 15. There is a need for funding mechanisms for high-quality studies of novel technology for sampling of the lung periphery. These include the following: a. Pathways for improved partnership with industry b. Wider commitment for industry validation and postmarket reporting c. Societal partnerships There is an urgent need for private and public investments in robust evaluative research at various stages of introduction of innovative bronchoscopy technology. Regulators should demand rigorous clinical evidence, which typically includes \"pivotal\" clinical trials, before approval of medical devices. The new European Medical Device Regulation modified the level of evidence required for CE (European conformity) certification (50). The evidence level varies according to the device's stage of development, from approval to surveillance, reflecting the \"total product life cycle.\"",
+          "page": null,
+          "span": [
+            43192,
+            44082
+          ]
+        },
+        {
+          "title": "Study Designs",
+          "text": "Prospective multicenter registries are central to postmarket surveillance of innovative technology, including monitoring of real-life outcomes and rarer complications, but are costly to maintain. Partnerships are needed for long-term study.",
+          "page": null,
+          "span": [
+            44083,
+            44323
+          ]
+        },
+        {
+          "title": "Study Designs Conclusions",
+          "text": "recorded and reported according to STARDguidelines.",
+          "page": null,
+          "span": [
+            49748,
+            49799
+          ]
+        },
+        {
+          "title": "Study Designs Conclusions",
+          "text": "a. Better characterization of downstream patient events (e.g., need for salvage procedures, complications and/or hospitalizations, delays in diagnosis)",
+          "page": null,
+          "span": [
+            49800,
+            49951
+          ]
+        },
+        {
+          "title": "Study Designs Conclusions",
+          "text": "14. Informative and inclusive study designs can support subsequent health economic analyses, guide implementation decisions in various healthcare settings, and help address disparities such as access to technological innovations.",
+          "page": null,
+          "span": [
+            49952,
+            50181
+          ]
+        },
+        {
+          "title": "Study Designs Conclusions",
+          "text": "c. Societal partnerships",
+          "page": null,
+          "span": [
+            43192,
+            44082
+          ]
+        }
+      ],
+      "diagnostic_workup": [
+        {
+          "title": "Assessment of Advanced Diagnostic Bronchoscopy Outcomes for",
+          "text": "Peripheral Lung Lesions: A Delphi Consensus Definition of Diagnostic Yield and Recommendations for Patient-centered Study Designs An Official American Thoracic Society/American College of Chest Physicians Research Statement",
+          "page": null,
+          "span": [
+            45439,
+            45662
+          ]
+        },
+        {
+          "title": "Assessment of Advanced Diagnostic Bronchoscopy Outcomes for",
+          "text": "Anne V. Gonzalez, Gerard A. Silvestri, Daniel A. Korevaar, Yaron B. Gesthalter, Nisha D. Almeida, Alex Chen, Chris R. Gilbert, Peter B. Illei, Neal Navani, Mary M. Pasquinelli, Nicholas J. Pastis, Catherine R. Sears, Samira Shojaee, Stephen B. Solomon, Daniel P. Steinfort, Fabien Maldonado, M. Patricia Rivera, and Lonny B. Yarmus; on behalf of the American Thoracic Society Assembly on Thoracic Oncology and the American College of Chest Physicians",
+          "page": null,
+          "span": [
+            45663,
+            46113
+          ]
+        },
+        {
+          "title": "Assessment of Advanced Diagnostic Bronchoscopy Outcomes for",
+          "text": "THIS OFFICIAL RESEARCH STATEMENT WAS APPROVED BY THE AMERICAN THORACIC SOCIETY DECEMBER 2023 AND THE AMERICAN COLLEGE OF CHEST PHYSICIANS SEPTEMBER 2023",
+          "page": null,
+          "span": [
+            46114,
+            46266
+          ]
+        }
+      ],
+      "management_principles": [],
+      "complications": [],
+      "schema_version": "1.0"
+    }
+  }
+}

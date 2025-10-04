@@ -86,6 +86,8 @@ class ExtractionResult(BaseModel):
     figures: List[VisualAsset] = Field(default_factory=list)
     tables: List[VisualAsset] = Field(default_factory=list)
     validation: Dict[str, Any] = Field(default_factory=dict)
+    page_map: List[Dict[str, Any]] = Field(default_factory=list)
+    doc_specific: Dict[str, Any] = Field(default_factory=dict)
 
 
 class LinkRequest(BaseModel):

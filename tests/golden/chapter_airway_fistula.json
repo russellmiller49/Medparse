@@ -1,0 +1,207 @@
+{
+  "structured": {
+    "chapter": {
+      "doc_id": "Airway-Esophageal Fistulas_Chapter",
+      "etiology": [
+        {
+          "title": "2.1 Etiology and Classification",
+          "text": "Airway-esophageal /uniFB01 stulas can be classi /uniFB01 ed as congenital or acquired, the latter being further subclassi /uniFB01 ed into benign or malignant (Fig. 1).",
+          "page": null,
+          "span": [
+            3938,
+            4106
+          ]
+        },
+        {
+          "title": "2.1 Etiology and Classification",
+          "text": "Congenital tracheoesophageal /uniFB01 stulas are a common inborn anomaly usually occurring with esophageal atresia; its estimated incidence is 1 in 4000 live births and they are caused by a defect in the lateral septation of the foregut [1]. Half of these cases are also associated with other syndromes such as VATER syndrome, CHARGE syndrome, and with other congenital heart or genitourinary defects [2, 3]. Outcomes and prognosis are generally favorable given advances in medical management and pediatric surgical techniques. Nevertheless, outcomes remain guarded if airway-esophageal /uniFB01 stulas are associated with other congenital syndromes [4, 5]. These /uniFB01 stulas rarely present in the adult population as diagnosis is made early on in infancy.",
+          "page": null,
+          "span": [
+            4107,
+            4867
+          ]
+        },
+        {
+          "title": "2.1 Etiology and Classification",
+          "text": "Acquired airway-esophageal /uniFB01 stulas are almost exclusively seen in the adult population, and they are further classi /uniFB01 ed into benign or malignant depending on its etiology.",
+          "page": null,
+          "span": [
+            4868,
+            5055
+          ]
+        },
+        {
+          "title": "2.1 Etiology and Classification",
+          "text": "Benign aerodigestive /uniFB01 stulas account for approximately 50% of the acquired subtype and can result from a myriad of diverse etiologies. Most commonly, they arise due to complications related to prolonged mechanical ventilation secondary to mucosal ischemia related to orotracheal or tracheostomy tube cuff pressure but may also occur secondary to trauma during endotracheal tube placement. Other etiologies of benign /uniFB01 stulas include infection (e.g., mediastinitis and tuberculosis), blunt or penetrating trauma, inhalation injuries, foreign body aspiration, caustic ingestion, in /uniFB02 ammatory processes (rheumatoid arthritis, in /uniFB02 ammatory bowel disease), or iatrogenic injuries due to surgical or endoscopic procedures [6 -9] (Figs. 2, 3, 4, and 5; Videos 1 and 2).",
+          "page": null,
+          "span": [
+            5056,
+            5849
+          ]
+        },
+        {
+          "title": "2.1 Etiology and Classification",
+          "text": "Malignant /uniFB01 stulas result from direct erosion and invasion of cancer cells into the mucosa but may represent sequelae of treatment (i.e., radiation, chemotherapy) or even recurrence after initial therapy. Most patients are at an advanced stage at the time of diagnosis with up to 90% of cases already being metastatic. The vast majority is associated with esophageal cancer, with more than 10% of patients developing this complication during their clinical course. Malignant /uniFB01 stulas are also attributed to lung, larynx, lymphoma, and thyroid cancer, among others [6 -9] (Figs. 6, 7, and 8).",
+          "page": null,
+          "span": [
+            5850,
+            6455
+          ]
+        }
+      ],
+      "classification": [],
+      "signs_symptoms": [
+        {
+          "title": "2.2 Clinical Presentation and Symptomatology",
+          "text": "There is a wide variety of clinical manifestations of aerodigestive /uniFB01 stulas. How distressing symptoms become depends on the speci /uniFB01 c characteristics of the individual /uniFB01 stula, including size and location. Prototypical clinical signs include coughing that is often worse with liquid or food intake (Ono ' s sign), recurrent respiratory infections, or dysphagia. Patients may demonstrate, chest pain, hemoptysis, fever, or weight loss (often due to fear of eating, as they suffer from severe coughing spells after swallowing). Depending on the mechanism of /uniFB01 stula formation, these symptoms can develop acutely (trauma, procedural iatrogenesis) or gradually in the case of evolving malignancy. Patients requiring",
+          "page": null,
+          "span": [
+            6501,
+            7241
+          ]
+        },
+        {
+          "title": "2.2 Clinical Presentation and Symptomatology",
+          "text": "mechanical ventilation may present with persistent air leak despite an in /uniFB02 ated cuff, inability to wean from the ventilator, or have severe abdominal distention due to air being diverted",
+          "page": null,
+          "span": [
+            7242,
+            7436
+          ]
+        },
+        {
+          "title": "2.2 Clinical Presentation and Symptomatology",
+          "text": "from the airways into the gastrointestinal tract. This can worsen gastric re /uniFB02 ux and further compromise ventilation and oxygenation. Lastly, patient-speci /uniFB01 c factors such as immunosuppression, steroid use, and diabetes can impair /uniFB01 stula healing, perpetuating a vicious cycle, with continued aspiration and respiratory infections [8 -13].",
+          "page": null,
+          "span": [
+            7437,
+            7798
+          ]
+        }
+      ],
+      "diagnostic_workup": [
+        {
+          "title": "2.3 Diagnosis",
+          "text": "Diagnosis of airway-esophageal /uniFB01 stulas is typically established by a combination of clinical, radiographic, and endoscopic /uniFB01 ndings. As soon as there is suspicion based on history and symptomatology, it is reasonable to proceed with further imaging and/or endoscopy. It is important to mention that none of these diagnostic tests have a 100% sensitivity and may require a combination of different diagnostic modalities, not just to identify the leak and accurately pinpoint its location but also to ensure optimal characterization for expedited endoscopic or surgical intervention.",
+          "page": null,
+          "span": [
+            7813,
+            8409
+          ]
+        },
+        {
+          "title": "2.3 Diagnosis",
+          "text": "Contrast-enhanced esophagram has a sensitivity ranging from 70% to 90% and can demonstrate spillage from the esophagus into the airways [12, 14]. Gastrogra /uniFB01 n is the preferred contrast medium; barium cannot be recommended due to its hypertonic nature, putting the patient at risk of pulmonary edema and acute respiratory distress syndrome [15]. This diagnostic modality has its limitations, speci /uniFB01 cally in patients with swallowing impairment or on mechanical ventilation. Furthermore, small leaks may be missed or may require speci /uniFB01 c patient positioning for identi /uniFB01 cation (e.g., prone position). Lastly, this diagnostic approach can also prove challenging to determine where the clinically relevant defect is if the patient has multiple mucosal defects.",
+          "page": null,
+          "span": [
+            8410,
+            9198
+          ]
+        },
+        {
+          "title": "2.3 Diagnosis",
+          "text": "Cervical and thoracic imaging are an adjunctive diagnostic alternative that can provide pertinent etiological information as well as structural anatomical data, which is crucial for potential surgical or endoscopic therapies. Its reported sensitivity is lower than esophagram, especially if the defect is small [12] (Fig. 9)",
+          "page": null,
+          "span": [
+            9199,
+            9523
+          ]
+        },
+        {
+          "title": "2.3 Diagnosis",
+          "text": "Endoscopy can be both diagnostic and therapeutic. It allows precise location and optimal characterization of the /uniFB01 stula as well as a therapeutic venue for de /uniFB01 nitive /uniFB01 stula management. Esophagogastroduodenoscopy (EGD) and bronchoscopy (rigid or /uniFB02 exible) are both reasonable endoscopic options. As previously mentioned, it is important to perform a thorough inspection and examine the entirety of the esophagus, trachea, and segmental level bronchus. If the patient is intubated, bronchoscopy can be performed through the endotracheal tube, but this device must be pulled proximally to avoid overlooking very high /uniFB01 stulas. Small /uniFB01 stulas",
+          "page": null,
+          "span": [
+            9524,
+            10207
+          ]
+        },
+        {
+          "title": "2.3 Diagnosis",
+          "text": "can be missed, especially if the mucosa is red and swollen. Identi /uniFB01 cation of dynamic bubbling with oxygen insuf /uniFB02 ation, or visualization of methylene blue after esophageal instillation or auto /uniFB02 uorescence imaging, can be used as diagnostic aid and assessment of proper therapeutic sealing [8, 16, 17] (Figs. 10 and 11). It is imperative to be cautious while examining the aerodigestive /uniFB01 stula to avoid further mucosal damage, which may occur mechanically with the scope itself or with barotrauma related to air insuf /uniFB02 ation.",
+          "page": null,
+          "span": [
+            10208,
+            10773
+          ]
+        }
+      ],
+      "management_principles": [
+        {
+          "title": "2.4 Management",
+          "text": "There are no formal guidelines on how to manage airwayesophageal /uniFB01 stulas; most of the recommendations are steered by experts in the /uniFB01 eld. Nevertheless, there is unanimous agreement that this entity should be treated promptly, given its high morbidity and mortality if left untreated [8, 9, 19]. The therapeutic approach depends on multiple factors, including /uniFB01 stulas ' etiology, size, location and associated airway or esophageal stricture; equally important, the physician must consider the patients ' clinical condition and comorbidities, burden of underlying disease (e.g., malignancy), and advanced directives.",
+          "page": null,
+          "span": [
+            10789,
+            11427
+          ]
+        },
+        {
+          "title": "2.4 Management",
+          "text": "Once a diagnosis has been established, the overarching goal is set to prevent further soilage of the respiratory system and preserve or restore airway patency. It is recommended that a multidisciplinary approach is taken by interventional pulmonology, advanced gastroenterology, thoracic surgery, and oncology given multiple layers of expertise.",
+          "page": null,
+          "span": [
+            11428,
+            11773
+          ]
+        },
+        {
+          "title": "2.4 Management",
+          "text": "Immediate actions to be considered should include head of bed elevation to more than 45 degrees, nil per os (nothing by mouth) or strict limitation of oral intake, acid-suppressive therapy with proton-pump inhibitors or H2-receptor antagonists to decrease the acidity of gastric content, frequent oral suctioning to avoid further spilling into the airways, antimicrobial treatment if respiratory infection is suspected, and removal of nasogastric or orogastric tubes (as their added pressure may induce further injury). Placement of gastrostomy and/or jejunostomy tubes should be considered to further empty gastric residues and allow nutritional intake; if this is not feasible, total parenteral nutrition should be considered [6, 9, 12]. For patients on mechanical ventilation, the /uniFB01 stula should be, if possible, bypassed by endotracheal tube with the cuff in /uniFB02 ated distal to the /uniFB01 stula; other strategies include lowering tidal volumes and positive-end-expiratorypressure on the ventilator, although none of these adjustments have shown improvement in outcomes or mortality. Lastly,",
+          "page": null,
+          "span": [
+            11774,
+            12882
+          ]
+        },
+        {
+          "title": "2.4 Management",
+          "text": "treatment of the underlying etiology is needed (infection, malignancy), bearing in mind that progression of disease, recurrence, or even side effects of treatments (e.g., radiation) can negatively impact outcomes.",
+          "page": null,
+          "span": [
+            12883,
+            13096
+          ]
+        },
+        {
+          "title": "2.4 Management",
+          "text": "Benign /uniFB01 stulas are generally considered reversible in nature, and in the right setting, surgery with curative intent should be considered /uniFB01 rst [20, 21]. This is determined by patient ' s clinical condition (hemodynamically stability and nutritional status), technical feasibility, and speci /uniFB01 c /uniFB01 stula characteristics (large /uniFB01 stulas, proximity to major vessels, etc.). Ideally, the patient should not be septic or require mechanical ventilatory support while being considered for surgical repair. When surgery is not feasible, stenting should be considered, initially as a bridge to surgery while improving clinical condition but also as palliation if not suitable for surgery in the future. There are various approaches for surgical repair, including cervicotomy, cervicosternotomy, or thoracotomy, which should be up to surgeon ' s preference and expertise. Techniques for closure brie /uniFB02 y include direct suture closure, esophageal repair with muscle, and omental /uniFB02 ap interposition esophageal bypass or exclusion, among others. For small /uniFB01 stulas ( < 5 mm), sealant strategies like /uniFB01 brin glue [22 -24] have been described with fair amount of success, and this strategy can be considered prior to subjecting the patient to a major surgery if clinicians feel this is appropriate.",
+          "page": null,
+          "span": [
+            13097,
+            14445
+          ]
+        },
+        {
+          "title": "2.4 Management",
+          "text": "In the case of malignant /uniFB01 stulas , the general treatment of choice is stent placement [8, 9, 25]. Given its underlying cause, surgical options are limited [21]. These patients are generally at an advanced stage of their disease with a poor nutritional status that prevents proper /uniFB01 stula healing. They are also commonly undergoing chemotherapy and radiation, which in some cases might make the /uniFB01 stular disease process worse. The main goal for these patients is palliative in nature, by alleviating symptoms and improve quality of life. Given all the above, surgery is less appealing.",
+          "page": null,
+          "span": [
+            14446,
+            15052
+          ]
+        },
+        {
+          "title": "2.4 Management",
+          "text": "Close monitoring should be provided after any therapeutic intervention since postprocedure complications are not",
+          "page": null,
+          "span": [
+            15053,
+            15165
+          ]
+        },
+        {
+          "title": "2.4 Management",
+          "text": "uncommon. If a patient experiences any change from their initial symptom relief, there should be a low threshold for expedited evaluation, reimaging, and endoscopic inspection.",
+          "page": null,
+          "span": [
+            15166,
+            15342
+          ]
+        }
+      ],
+      "complications": [],
+      "schema_version": "1.0"
+    }
+  }
+}

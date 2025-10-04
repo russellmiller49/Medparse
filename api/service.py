@@ -32,7 +32,12 @@ def _normalize_links(raw_links: list[dict] | None) -> list[dict]:
     return normalized
 
 
-def run_full_extraction(doc_id: str, pdf_bytes: bytes) -> ExtractionResult:
+def run_full_extraction(
+    doc_id: str,
+    pdf_bytes: bytes,
+    *,
+    document_type: str | None = None,
+) -> ExtractionResult:
     """Run the Medparse pipeline for a PDF and normalize the response."""
     if not settings.ENABLE_PIPELINE:
         return _build_stub_result(doc_id)
@@ -56,6 +61,7 @@ def run_full_extraction(doc_id: str, pdf_bytes: bytes) -> ExtractionResult:
                 linker="umls",
                 dump_docling_debug=False,
                 work_dir=tmp_path,
+                document_type=document_type,
             )
         except Exception as exc:  # pragma: no cover - pipeline failures logged and stubbed
             logger.exception("Pipeline execution failed: %s", exc)
