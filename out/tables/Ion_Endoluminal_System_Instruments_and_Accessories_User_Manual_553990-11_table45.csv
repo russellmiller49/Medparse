@@ -1,14 +1,20 @@
 Term,Meaning
-3D,Three-dimensional.
-AC,"Alternating current, also represented by the AC symbol: ~. 'AC' or 'AC power' refers to electrical connection to a wall outlet, as opposed to battery power."
-AP View,Anterior-posterior view. Head on view of the airway tree looking straight at the patient's chest.
-Arm,"The instrument arm on the System Cart that supports the Catheter, Catheter Guide, Vision Probe, and accessories."
-BF or Type BF,An IEC 60601-1 classification for patient applied parts. A Type BF classification indicates an applied part that is not suitable for direct conductive contact with the heart or other applications as considered necessary.
-Bronchoscopy,An endoscopic technique of visualizing the inside of the airways for diagnostic and therapeutic purposes where a bronchoscope is introduced through nose or mouth. It is a non-sterile procedure.
-Bronch Suite,See Procedure Room.
-C-arm,See fluoroscope.
-CF or Type CF,"An IEC 60601-1 classification for patient applied parts. Type CF is the most stringent classification, being required for those applica- tions where the applied part is in direct conductive contact with the heart or other applications as considered necessary."
-CAUTION,"A caution alerts the reader about a potentially hazardous situation which, if not avoided, may result in minor or moderate injury to the user or patient or damage to the equipment or other property. It may also be used to alert against unsafe practices. This includes the special care necessary for the safe and effective use of the device and the care necessary to avoid damage to a device that may occur as a result of use or misuse."
-CSSD,See SPD.
-Carriage,The mechanism on the arm that supports the Catheter. Provides the insertion and retraction motion of the Catheter.
-Circulating nurse,A circulating nurse is a non-sterile user.
+Clutch button,"Used to position the arm. There are two clutch buttons, arm clutch and elevation clutch."
+DICOM,"Digital Imaging and Communications in Medicine (DICOM) is a standard for storing and transmitting medical images enabling the integration of medical imaging devices such as scanners, servers, workstations, printers, network hardware, and picture archiving and communication systems (PACS) from multiple manufacturers."
+Dock,Attach the Swivel Connector to the docking spar on the System Cart arm. Also referred to as docking.
+Docking spar,The part of the arm that attaches to the Swivel Connector for docking.
+ET tube,Endotracheal tube.
+ECG,Electrocardiogram.
+ERD,Endoscope Reprocessing Department.
+"Fault, faulting",The system generates a fault when it detects an anomaly.
+Fiducial Marker,An object placed in or around the target that can be viewed with imaging tools.
+Fluoro,Fluoroscopy.
+Fluoroscope,An instrument with a fluorescent screen used for viewing x-ray images. Also referred to as C-arm.
+Instrument,Tool used in the patient once attached to the arm.
+Instrument Arm,See Arm.
+Leak Test,A test used in reprocessing to determine if leaks are present in the Fully Articulating Catheter and Peripheral Vision Probe.
+Leak Test Port,Used for leak testing.
+LED,Light emitting diode.
+NA,Not Applicable.
+Note,User information to emphasize an important point.
+PACS,Picture Archiving and Communication Systems (PACS) is a medical imaging technology which provides economical storage and convenient access to images from multiple modalities (source machine types).

@@ -2,16 +2,16 @@
   "pdf": "Robotic Cyrobiopsy 2022.pdf",
   "n_sections": 16,
   "n_tables": 4,
-  "n_figures": 12,
-  "n_fig_crops": 12,
+  "n_figures": 9,
+  "n_fig_crops": 9,
   "missing_fig_bbox": 0,
   "n_refs_csv": 17,
   "n_recommendations": 10,
-  "n_umls_links": 145,
+  "n_umls_links": 215,
   "n_local_links": 0,
   "linker": "enhanced",
-  "page_text_ratio": 0.9559,
+  "page_text_ratio": 0.9369,
   "completeness_score": 91,
   "is_valid": true,
-  "timestamp": "2025-10-07 11:37:53"
+  "timestamp": "2025-10-10 04:48:29"
 }

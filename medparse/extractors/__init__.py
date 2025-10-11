@@ -73,28 +73,33 @@ def run_structured_extractors(
 
     results: Dict[str, Any] = {}
     sections = ((payload.get("structure") or {}).get("sections") or [])
-
-    guideline = extract_guideline_data(doc_id, sections, full_text, page_map)
-    if guideline and guideline.recommendations:
-        results["guideline"] = guideline.model_dump(mode="json")
-
     metadata = payload.get("metadata") or {}
 
-    ifu = extract_ifu_data(doc_id, sections, full_text, page_map, metadata)
-    if ifu and (ifu.warnings or ifu.intended_use or ifu.setup_steps):
-        results["ifu"] = ifu.model_dump(mode="json")
+    resolved_type = (doc_type or infer_doc_type(payload, doc_id=doc_id)) or "unknown"
 
-    article = extract_article_outcomes(doc_id, payload, full_text, page_map)
-    if article and (article.diagnostic_outcome.yield_overall or article.diagnostic_outcome.tool_yield):
-        results["article"] = article.model_dump(mode="json")
+    if resolved_type in {"guideline", "consensus"} or resolved_type == "unknown":
+        guideline = extract_guideline_data(doc_id, sections, full_text, page_map)
+        if guideline and guideline.recommendations:
+            results["guideline"] = guideline.model_dump(mode="json")
 
-    chapter = extract_chapter_data(doc_id, sections, full_text, page_map)
-    if chapter and (
-        chapter.etiology
-        or chapter.management_principles
-        or chapter.diagnostic_workup
-    ):
-        results["chapter"] = chapter.model_dump(mode="json")
+    if resolved_type in {"ifu", "manual"} or resolved_type == "unknown":
+        ifu = extract_ifu_data(doc_id, sections, full_text, page_map, metadata)
+        if ifu and (ifu.warnings or ifu.intended_use or ifu.setup_steps):
+            results["ifu"] = ifu.model_dump(mode="json")
+
+    if resolved_type in {"article", "research", "study"} or resolved_type == "unknown":
+        article = extract_article_outcomes(doc_id, payload, full_text, page_map)
+        if article and (article.diagnostic_outcome.yield_overall or article.diagnostic_outcome.tool_yield):
+            results["article"] = article.model_dump(mode="json")
+
+    if resolved_type in {"chapter", "textbook"} or resolved_type == "unknown":
+        chapter = extract_chapter_data(doc_id, sections, full_text, page_map)
+        if chapter and (
+            chapter.etiology
+            or chapter.management_principles
+            or chapter.diagnostic_workup
+        ):
+            results["chapter"] = chapter.model_dump(mode="json")
 
     return results
 

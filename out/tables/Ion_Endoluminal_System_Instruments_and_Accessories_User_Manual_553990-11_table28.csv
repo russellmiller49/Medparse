@@ -1,8 +1,2 @@
-D.1 Design Life . . . . . . . . . . . .,.108
-D.2 Power Requirements . . . . . .,.108
-D.3 Power Specifications . . . . . .,.109
-D.4 Physical Dimensions . . . . . .,.109
-D.5 Environmental Specifications .,. 110
-D.6 Crate Dimensions. . . . . . . .,. 110
-D.7 Electromagnetic Compatibility,. 111
-D.8 Technical System Information,. 114
+System Component,Circuit,Voltage VAC,Ampere Service
+System Cart,1,115,15

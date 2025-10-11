@@ -51,6 +51,7 @@ from scripts.env_loader import load_env
 from scripts.safe_json import safe_write_json
 from scripts.table_extractor import extract_structured_tables
 from scripts.graph_export import build_graph_payload
+from medparse.layout.cleaning import sanitize_sections
 from medparse.layout.page_map import build_full_text_with_spans
 from medparse.extractors import infer_doc_type, run_structured_extractors
 
@@ -262,7 +263,9 @@ def process_pdf(
     # Clean up author sections that may have leaked in
     drop_author_sections(merged.get("structure", {}))
     
-    sections = merged.get("structure", {}).get("sections", [])
+    structure = merged.get("structure", {})
+    sanitize_sections(structure)
+    sections = structure.get("sections", [])
     full_text, page_spans = build_full_text_with_spans(
         sections,
         docling_body=dl_raw.get("assembled", {}).get("body"),

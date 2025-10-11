@@ -7,11 +7,11 @@
   "missing_fig_bbox": 0,
   "n_refs_csv": 63,
   "n_recommendations": 11,
-  "n_umls_links": 272,
+  "n_umls_links": 273,
   "n_local_links": 0,
   "linker": "enhanced",
   "page_text_ratio": 1.0,
   "completeness_score": 91,
   "is_valid": true,
-  "timestamp": "2025-10-07 10:20:46"
+  "timestamp": "2025-10-10 03:35:42"
 }

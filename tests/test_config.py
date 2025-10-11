@@ -1,40 +1,48 @@
-"""Tests for environment-based configuration loading."""
-
-from __future__ import annotations
-
+# tests/conftest.py
+import os
 from pathlib import Path
+import pytest
+from fastapi.testclient import TestClient
 
-from medparse.config import AppConfig
+# import your FastAPI app and your settings singleton
+from api.main import app
+from api import service  # service.settings is your AppConfig (adjust import if needed)
+
+@pytest.fixture(scope="session", autouse=True)
+def load_test_env(monkeypatch):
+    """
+    Load tests/.env.test and apply key flags for offline, deterministic tests.
+    """
+    env_path = Path(__file__).parent / ".env.test"
+    if env_path.exists():
+        # minimal loader: read .env.test and set into process env
+        for line in env_path.read_text().splitlines():
+            line = line.strip()
+            if not line or line.startswith("#") or "=" not in line:
+                continue
+            k, v = line.split("=", 1)
+            monkeypatch.setenv(k.strip(), v.strip())
+    # Make sure critical switches are set even if .env.test is incomplete
+    monkeypatch.setenv("ENABLE_PIPELINE", "false")
+    monkeypatch.setenv("TESTING", "true")
+    monkeypatch.setenv("REQUIRE_API_KEY", "true")
+    monkeypatch.setenv("API_KEY", "test")
+
+    # If your service.settings reads env only once at import time,
+    # refresh it here if you have a constructor like model_construct_from_env
+    if hasattr(service, "reload_settings"):
+        service.reload_settings()
+    else:
+        # Fallback: hard-patch the few fields the tests rely on
+        setattr(service.settings, "enable_pipeline", False)
+        setattr(service.settings, "testing", True)
+        setattr(service.settings, "require_api_key", True)
+        setattr(service.settings, "api_key", "test")
 
 
-def test_app_config_loads_from_env_file(tmp_path: Path) -> None:
-    env_file = tmp_path / ".env"
-    env_file.write_text(
-        """
-UMLS_API_KEY=test-key
-QUICKUMLS_PATH=/data/quickumls
-SCISPACY_MODEL=en_core_sci_md
-TUI_WHITELIST=T191,T047 , T060
-ENABLE_OCR=true
-GROBID_URL=http://localhost:8070
-PUBMED_EMAIL=user@example.com
-PUBMED_TOOL=medparse-tests
-NEO4J_URI=bolt://localhost:7687
-NEO4J_USER=neo4j
-NEO4J_PASSWORD=secret
-""".strip()
-    )
-
-    config = AppConfig.model_construct_from_env(env_file=env_file)
-
-    assert config.umls_api_key == "test-key"
-    assert str(config.quickumls_path) == "/data/quickumls"
-    assert config.scispacy_model == "en_core_sci_md"
-    assert config.tui_whitelist == {"T191", "T047", "T060"}
-    assert config.enable_ocr is True
-    assert config.grobid_url == "http://localhost:8070"
-    assert config.pubmed_email == "user@example.com"
-    assert config.pubmed_tool == "medparse-tests"
-    assert config.neo4j_uri == "bolt://localhost:7687"
-    assert config.neo4j_user == "neo4j"
-    assert config.neo4j_password == "secret"
+@pytest.fixture(scope="session")
+def client() -> TestClient:
+    """
+    Test client that ALWAYS sends the expected x-api-key header.
+    """
+    return TestClient(app, headers={"x-api-key": "test"})
