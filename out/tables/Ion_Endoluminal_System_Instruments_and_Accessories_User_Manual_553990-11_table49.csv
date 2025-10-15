@@ -1,16 +1,43 @@
-Battery . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .,. .116
-Before Biopsy . . . . . . . . . . . . . . . . . . . . . . . . . . .,. . 78
-,BF........................................122
-Biopsy Marker..............................41,
-Biopsy Overview,
-After Biopsy Always Evaluate Airway . . . . .,. 78
-Before Biopsy . . . . . . . . . . . . . . . . . . . . . . . . .,. . 78
-Before Tool Exchange....................,78
-Biopsy Tab,
-Biopsy Marker............................41,
-Capture Fluoro Reference . . . . . . . . . . . . . . .,. .41
-Target Position . . . . . . . . . . . . . . . . . . . . . . . .,. . .41
-Bronch Suite . . . . . . . . . . . . . . . . . . . . . . . . . . . .,. .122
-Bronchial Balloon. . . . . . . . . . . . . . . . . . . . . . . .,. 106
-Bronchoalveolar Lavage Kit . . . . . . . . . . . . . . .,106
-Bronchoscope............................,106
+Error Log...................................41,,Indications for Use . . . . . . . . . . . . . . . . . .,. . . . . . . 11
+Essential Prescribing Information............,11,Instrument . . . . . . . . . . . . . . . . . . . . . . . . .,. . . . . .122
+ET tube,"106, 122",Instrument Arm Features . . . . . . .,. . . . . . 34
+. . . . . . . . . . . . . . . . . . . . . . . . . . . . . .,,. . . . . Instruments and Accessories . . . . . . . . .,. . . . . . 56
+F,,Interconnection Accessory Equipment . . . . . . . . . . . .,. . . . . . 27
+Fault . . . . . . . . . . . . . . . . . . . . . . . . .,. .122,Intended,
+. . . . . . . . . . FCC Compliance . . . . . . . . . . . . . . . . . . . . . . . .,. . 111,Patient Population . . . . . . . . . . . . . . . .,. . . . . . .12
+Fiducial Marker............................122,,Use......................................12,
+Placement Using Third-Party Brush Tool. .,106,Intuitive account . . . . . . . . . . . . . . . . . .,".45, 67 - 68"
+Finish Procedure,,Intuitive Network Drive . . . . . . . . . . . . .,".41, 46, 69"
+Store System............................,86,,
+Stow System . . . . . . . . . . . . . . . . . . . . . . . . . .,. . 86,L,
+Finish Tab..................................41 Flexision Biopsy Needles . . . . . . . . . . . . . . . . .,. . 27,LED . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .,. . . . . .122
+Flexision Needle Biopsy,,Load patient plan . . . . . . . . . . . . . . . . . . .,. . . . . . 68
+Remove Samples . . . . . . . . . . . . . . . . . . . . . .,. . 80,Network Drive. . . . . . . . . . . . . . . . . . . . .,. . . . . . 69
+Repeat Needle Biopsy....................,80,USB ................................68,- 69
+Fluoro . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .,. .122,Lock to Path . . . . . . . . . . . . . . . . . . . . . . . .,. . . . . . .41
+Fluoroscope...............................122,,Log in,
+Fluoroscopy................................41,,Intuitive account . . . . . . . . . . . . . . . . . .,". . . 45, 67"
+Foot brakes . . . . . . . . . . . . . . . . . . . . . . . . . . . . .,. . .41,Networked login . . . . . . . . . . . . . . . . . .,". . . 45, 67"
+Fully Articulating Catheter,,Log out,
+Device overview . . . . . . . . . . . . . . . . . . . . . . .,. . 27,Intuitive account . . . . . . . . . . . . . . . . . .,. . . . . . 68
+Prepare.................................,57,Networked login . . . . . . . . . . . . . . . . . .,. . . . . . 68
+Reprocessing Cover......................,27,,
+,,M,
+G,,Manufacturer information . . . . . . . . . . .,. . . . . .114
+General Information.................... . . . . . .,9 - 10 . . . 9,Manufacturer's Declaration Electromagnetic,Immunity............... 111
+General Warnings and Cautions . . . . Accessory Equipment Interconnection . .,. . .14,Menu Icon,
+Glossary . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .,. .122,Accessory,Use............................41
+Guidelines,,Date and Time . . . . . . . . . . . . . . . . . . . .,. . . . . . .41
+Controller,Cable..........................51,Error Log.................................41,
+Move the Controller . . . . . . . . . . . . . . . . . . .,. . .51,Fluoroscopy..............................41,
+Move the System Cart . . . . . . . . . . . . . . . . .,. . .51,Patient Plans . . . . . . . . . . . . . . . . . . . . .,. . . . . . .41
+Position the Controller in the Procedure,,R-EBUS . . . . . . . . . . . . . . . . . . . . . . . . . . .,. . . . . . .41
+Room...................................51,,Mid-procedure Restart. . . . . . . . . . . . . . .,. . . . . . 94
+Position the System Cart in the Procedure,,Move and Position the System Cart,
+Room...................................51,,Guidelines to Move the System,Cart....... 48
+,,Guidelines to Position the System Cart in Procedure Room . . . . . . . . . . . . . . . . . . . .,the 48
+H,,,. . .
+Height adjustment foot pedal . . . . . . . . . . . . . .,.41,N,
+I,,Navigate . . . . . . . . . . . . . . . . . . . . . . . . . . . Navigate Tab,. . . . . . 77
+Immediate Access to the Patient . . . . . . . . . . .,93,Destination . . . . . . . . . . . . . . . . . . . . . . .,. . . . . . .41
+Importer Address.......................,"10, 13",Lock to Path . . . . . . . . . . . . . . . . . . . . . .,. . . . . . .41

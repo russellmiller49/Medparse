@@ -2,16 +2,16 @@
   "pdf": "Treatment of Airway-Esophageal Fistulas.pdf",
   "n_sections": 17,
   "n_tables": 1,
-  "n_figures": 44,
-  "n_fig_crops": 44,
+  "n_figures": 34,
+  "n_fig_crops": 34,
   "missing_fig_bbox": 0,
   "n_refs_csv": 52,
   "n_recommendations": 5,
-  "n_umls_links": 365,
+  "n_umls_links": 248,
   "n_local_links": 0,
   "linker": "enhanced",
   "page_text_ratio": 1.0,
   "completeness_score": 91,
   "is_valid": true,
-  "timestamp": "2025-10-10 06:08:26"
+  "timestamp": "2025-10-14 11:50:56"
 }

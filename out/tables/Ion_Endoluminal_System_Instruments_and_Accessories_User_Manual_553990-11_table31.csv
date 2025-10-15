@@ -1,7 +1,8 @@
-,System Cart,Controller
-Height (min),65 in. (1650mm),39.2 in. (996mm)
-Height (max),101.2 in. (2570mm),50.6 in. (1286mm)
-Width,23.1 in. (588mm),17.1 in. (435mm)
-Depth,40.6 in. (1030mm),15.9 in. (405mm)
-Weight,Up to 783 lbs. (355 kg),52.9 lbs. (24 kg)
-Ground Clearance,2.1 in. (54mm),.2 in. (5mm)
+,System Cart
+Voltage,100 to 230 VAC 50/60 Hz Auto Sense
+Rating and Typical Current,VA Continuous 12 A at 100 V~ 5.2 A at 230 V~
+Typical current in sleep mode,2 A at 100 V~ 0.9 A at 230 V~
+Typical current in sleep mode (battery charging),4.8 A at 100 V~ 2.1 A at 230 V~
+Max inrush current at 230 VAC,8 A
+Backup Power,5 Min
+Surge Protected,Yes

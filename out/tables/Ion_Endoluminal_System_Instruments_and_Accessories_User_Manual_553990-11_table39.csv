@@ -1,9 +1,3 @@
-Part Number (PN),Component Name
-490104,19G Flexision Biopsy Needle
-490103,21G Flexision Biopsy Needle
-490102,23G Flexision Biopsy Needle
-490107,Catheter Guide
-490105,Ion Fully Articulating Catheter
-490206,Ion Peripheral Vision Probe
-490101,Vision Probe Adapter (includes Suction Adapter)
-490108,Swivel Connector
+Immunity test,IEC 60601 test level,Compliance level,Electromagnetic environment - guidance
+Conducted RF IEC 61000-4-6,3 Vrms 150 kHz-80 MHz 6 Vrms in ISM / Amateur band,3 Vrms 6 Vrms,"Portable and mobile RF communications equipment (including peripherals such as antenna cables and external antennas) should be used no closer than 12 inches (30 cm) to any part of the system, including cables specified by the manufacturer. Otherwise, degradation of the performance of this equipment could result."
+Radiated RF IEC 61000-4-6,3 V/m 80 MHz-2.7 GHz 9-28 V/m Proximity fields,3 V/m 9-28 V/m,

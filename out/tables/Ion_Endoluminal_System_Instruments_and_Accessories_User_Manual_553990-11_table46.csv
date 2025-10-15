@@ -1,10 +1,20 @@
 Term,Meaning
-Procedure Room,"A room where bronchoscopy procedures are performed, generally in an outpatient setting."
-R-EBUS,Radial endobronchial ultrasound.
-System Cart,"The part of the system that is located on the patient-side and consists of the arm that supports the setup joints that control the Catheter, and the main monitors."
-Screen,"The monitor displays, located on the top and bottom monitors, and on the Controller touchscreen."
-SPD,"Sterile Processing Department. Also called Central Sterile Supply Department (CSSD) is a department in hospitals and other healthcare facilities that performs cleaning, sterilization and other actions on medical devices and equipment."
-Target,"The lesion, nodule, or tumor to be accessed for biopsy."
-Touchscreen,The touchscreen monitor on the Controller.
-Vision Probe,Provides the live video image (Live View) to the system and the user.
-WARNING,"A warning alerts the reader about a situation which, if not avoided, could result in death or serious injury."
+Clutch button,"Used to position the arm. There are two clutch buttons, arm clutch and elevation clutch."
+DICOM,"Digital Imaging and Communications in Medicine (DICOM) is a standard for storing and transmitting medical images enabling the integration of medical imaging devices such as scanners, servers, workstations, printers, network hardware, and picture archiving and communication systems (PACS) from multiple manufacturers."
+Dock,Attach the Swivel Connector to the docking spar on the System Cart arm. Also referred to as docking.
+Docking spar,The part of the arm that attaches to the Swivel Connector for docking.
+ET tube,Endotracheal tube.
+ECG,Electrocardiogram.
+ERD,Endoscope Reprocessing Department.
+"Fault, faulting",The system generates a fault when it detects an anomaly.
+Fiducial Marker,An object placed in or around the target that can be viewed with imaging tools.
+Fluoro,Fluoroscopy.
+Fluoroscope,An instrument with a fluorescent screen used for viewing x-ray images. Also referred to as C-arm.
+Instrument,Tool used in the patient once attached to the arm.
+Instrument Arm,See Arm.
+Leak Test,A test used in reprocessing to determine if leaks are present in the Fully Articulating Catheter and Peripheral Vision Probe.
+Leak Test Port,Used for leak testing.
+LED,Light emitting diode.
+NA,Not Applicable.
+Note,User information to emphasize an important point.
+PACS,Picture Archiving and Communication Systems (PACS) is a medical imaging technology which provides economical storage and convenient access to images from multiple modalities (source machine types).
