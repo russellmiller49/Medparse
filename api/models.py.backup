@@ -39,18 +39,14 @@ class UmlsLink(BaseModel):
 
 
 class StatObs(BaseModel):
-    kind: str = Field(alias="type")
-    value: Optional[float] = None
+    kind: str
+    value: float
     ci_lower: Optional[float] = None
     ci_upper: Optional[float] = None
     p_value: Optional[float] = None
     group_a: Optional[str] = None
     group_b: Optional[str] = None
     sentence: Optional[str] = None
-
-    model_config = {
-        "populate_by_name": True,
-    }
 
 
 class VisualAsset(BaseModel):
